@@ -1,0 +1,3297 @@
+[
+  {
+    "id": "t1-p7-single-1",
+    "title": "Single 1: Chuỗi tin nhắn điều phối Triển lãm Mùa thu",
+    "passageCountType": "single",
+    "topic": "Sự kiện & Văn phòng (Text Message Chain)",
+    "passages": [
+      {
+        "id": "p7-s1-doc1",
+        "tabLabel": "Text Message Chain",
+        "genre": "Text Message Chain",
+        "title": "Nhóm Chat: Autumn Trade Show Logistics",
+        "headerMeta": [
+          {
+            "label": "Thành viên",
+            "value": "Hannah Ortiz (Event Lead), Marcus Reid (Logistics), Priya Nair (Design)"
+          },
+          {
+            "label": "Ngày",
+            "value": "Wednesday, September 18"
+          }
+        ],
+        "chatMessages": [
+          {
+            "id": "p7-s1-m1",
+            "sender": "Hannah Ortiz",
+            "time": "9:12 A.M.",
+            "align": "left",
+            "en": "Good morning everyone! Quick check-in before tomorrow’s exhibition at Metro Hall. Did the printed product catalogs arrive at the booth yet?",
+            "vi": "Chào buổi sáng cả nhà! Kiểm tra nhanh trước triển lãm ngày mai tại Metro Hall. Các cuốn danh mục sản phẩm in ấn đã tới gian hàng chưa?"
+          },
+          {
+            "id": "p7-s1-m2",
+            "sender": "Marcus Reid",
+            "time": "9:15 A.M.",
+            "align": "right",
+            "en": "Just got off the phone with Apex Printing. Their delivery van had a flat tire on Route 9, so the boxes won’t reach Metro Hall until around 2:30 P.M.",
+            "vi": "Tôi vừa gọi xong với Apex Printing. Xe tải giao hàng của họ bị xẹp lốp trên đường số 9, nên các thùng hàng sẽ không đến Metro Hall cho tới khoảng 2:30 chiều."
+          },
+          {
+            "id": "p7-s1-m3",
+            "sender": "Priya Nair",
+            "time": "9:17 A.M.",
+            "align": "left",
+            "en": "That’s tight, since booth setup closes at 4:00 P.M. Meanwhile, I noticed a pricing typo on the digital banner we uploaded for the display screen.",
+            "vi": "Khá gấp đấy, vì khu gian hàng đóng cửa phần dàn dựng lúc 4:00 chiều. Trong lúc đó, tôi vừa phát hiện một lỗi đánh máy giá trên banner kỹ thuật số chúng ta tải lên màn hình."
+          },
+          {
+            "id": "p7-s1-m4",
+            "sender": "Hannah Ortiz",
+            "time": "9:19 A.M.",
+            "align": "left",
+            "en": "Good catch, Priya! Can you fix the banner file right away? Marcus, I’m stuck in a budget review until 1:00 P.M., so could you stay at the venue to sign for the catalogs?",
+            "vi": "Phát hiện kịp thời quá Priya! Bạn sửa ngay file banner nhé? Marcus ơi, tôi kẹt họp duyệt ngân sách tới 1:00 chiều, bạn ở lại địa điểm ký nhận catalog giúp tôi được không?"
+          },
+          {
+            "id": "p7-s1-m5",
+            "sender": "Marcus Reid",
+            "time": "9:21 A.M.",
+            "align": "right",
+            "en": "Consider it done. I’ll also set up the tabletop monitors while I wait.",
+            "vi": "Cứ coi như xong rồi nhé. Tôi cũng sẽ lắp đặt các màn hình để bàn trong lúc chờ."
+          },
+          {
+            "id": "p7-s1-m6",
+            "sender": "Priya Nair",
+            "time": "9:23 A.M.",
+            "align": "left",
+            "en": "Already exporting the corrected graphic. I’ll drop the USB drive off with Marcus before noon.",
+            "vi": "Tôi đang xuất file đồ họa đã sửa rồi. Tôi sẽ mang ổ USB sang đưa cho Marcus trước buổi trưa."
+          }
+        ],
+        "paragraphs": []
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s1-q1",
+        "questionNumber": 147,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "Why are the speakers messaging each other?",
+        "options": {
+          "A": "To negotiate a discount with a printing vendor",
+          "B": "To coordinate preparations for an upcoming trade show",
+          "C": "To reschedule a quarterly budget review meeting",
+          "D": "To reserve a larger exhibition booth at Metro Hall"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Ý chính (Main Idea)",
+            "signal": "Đọc tin nhắn mở đầu lúc 9:12 A.M. của Hannah."
+          },
+          "translation": {
+            "questionVi": "Tại sao nhóm này nhắn tin cho nhau?",
+            "optionsVi": {
+              "A": "Đàm phán giảm giá với nhà in",
+              "B": "Điều phối công tác chuẩn bị cho hội chợ thương mại sắp tới",
+              "C": "Đổi lịch họp ngân sách",
+              "D": "Đặt gian hàng lớn hơn"
+            }
+          },
+          "proof": {
+            "explanation": "Hannah mở đầu kiểm tra trước 'tomorrow’s exhibition' và cả nhóm phối hợp nhận catalog, sửa banner, lắp màn hình.",
+            "evidenceQuote": "Quick check-in before tomorrow’s exhibition at Metro Hall.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s1-m1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không có đàm phán giảm giá.",
+            "B": "ĐÚNG — exhibition = trade show.",
+            "C": "Loại — Họp ngân sách chỉ là lý do Hannah bận.",
+            "D": "Loại — Không nhắc đổi kích cỡ gian hàng."
+          },
+          "keyTakeaways": {
+            "formula": "Main Idea của Chat luôn nằm ở 1–2 tin nhắn đầu tiên.",
+            "commonTrap": "Bẫy lặp từ 'printing', 'budget review', 'Metro Hall'.",
+            "paraphrases": [
+              {
+                "textInPassage": "tomorrow’s exhibition",
+                "textInAnswer": "upcoming trade show",
+                "meaningVi": "triển lãm sắp diễn ra"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "p7-s1-q2",
+        "questionNumber": 148,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Why will the product catalogs arrive later than expected?",
+        "options": {
+          "A": "The printer had to fix a typo on the cover.",
+          "B": "The exhibition hall closes early on Wednesdays.",
+          "C": "The delivery vehicle experienced a mechanical problem.",
+          "D": "The order was sent to the wrong venue by mistake."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết + Paraphrase",
+            "signal": "Tìm lý do giao trễ trong tin nhắn 9:15 A.M. của Marcus."
+          },
+          "translation": {
+            "questionVi": "Tại sao danh mục sản phẩm đến muộn hơn dự kiến?",
+            "optionsVi": {
+              "A": "Nhà in sửa lỗi đánh máy bìa",
+              "B": "Hội trường đóng cửa sớm",
+              "C": "Phương tiện giao hàng gặp sự cố kỹ thuật",
+              "D": "Giao nhầm địa chỉ"
+            }
+          },
+          "proof": {
+            "explanation": "'delivery van had a flat tire' được paraphrase thành 'delivery vehicle experienced a mechanical problem'.",
+            "evidenceQuote": "Their delivery van had a flat tire on Route 9",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s1-m2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Lỗi đánh máy là trên banner kỹ thuật số.",
+            "B": "Loại — 4:00 P.M. là giờ chốt dàn dựng.",
+            "C": "ĐÚNG — Paraphrase trực tiếp từ 'flat tire'.",
+            "D": "Loại — Không giao nhầm."
+          },
+          "keyTakeaways": {
+            "formula": "Chi tiết cụ thể (flat tire) → Khái quát hóa (mechanical problem)",
+            "commonTrap": "Trộn lỗi typo của banner sang catalog.",
+            "paraphrases": [
+              {
+                "textInPassage": "delivery van had a flat tire",
+                "textInAnswer": "delivery vehicle experienced a mechanical problem",
+                "meaningVi": "xe giao hàng gặp sự cố"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "p7-s1-q3",
+        "questionNumber": 149,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "At 9:21 A.M., what does Mr. Reid most likely mean when he writes, 'Consider it done'?",
+        "options": {
+          "A": "He has already finished assembling the display booth.",
+          "B": "He agrees to wait at Metro Hall to receive the delivery.",
+          "C": "He has corrected the pricing error on the digital banner.",
+          "D": "He will attend the budget review in Ms. Ortiz’s place."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Hàm ý câu nói (Writer Intention)",
+            "signal": "Đọc yêu cầu của Hannah lúc 9:19 A.M. ngay trước câu trả lời của Marcus."
+          },
+          "translation": {
+            "questionVi": "Lúc 9:21 sáng, ông Reid muốn nói gì khi viết 'Consider it done'?",
+            "optionsVi": {
+              "A": "Đã lắp xong gian hàng",
+              "B": "Đồng ý chờ ở Metro Hall để ký nhận hàng giao",
+              "C": "Đã sửa xong lỗi giá banner",
+              "D": "Sẽ đi họp ngân sách thay cô Ortiz"
+            }
+          },
+          "proof": {
+            "explanation": "Hannah nhờ Marcus ở lại ký nhận catalog ('stay at the venue to sign for the catalogs'), và Marcus nhận lời chắc chắn bằng thành ngữ 'Consider it done'.",
+            "evidenceQuote": "could you stay at the venue to sign for the catalogs?",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s1-m4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy nghĩa đen chữ 'done'.",
+            "B": "ĐÚNG — Nhận lời chờ ký nhận hàng.",
+            "C": "Loại — Priya sửa banner.",
+            "D": "Loại — Hannah tự đi họp ngân sách."
+          },
+          "keyTakeaways": {
+            "formula": "'Consider it done' = Chắc chắn tôi sẽ làm việc đó ngay.",
+            "commonTrap": "Hiểu theo nghĩa đen là đã làm xong rồi.",
+            "paraphrases": [
+              {
+                "textInPassage": "sign for the catalogs",
+                "textInAnswer": "receive the delivery",
+                "meaningVi": "ký nhận hàng giao"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "p7-s1-q4",
+        "questionNumber": 150,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What will Ms. Nair do before 12:00 P.M.?",
+        "options": {
+          "A": "Call Apex Printing to confirm the route",
+          "B": "Bring a corrected graphic file to Mr. Reid",
+          "C": "Join a budget review with Ms. Ortiz",
+          "D": "Deliver tabletop monitors to Metro Hall"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết (Thời gian + Hành động)",
+            "signal": "Tìm mốc 'before noon' (= before 12:00 P.M.) ở tin nhắn cuối lúc 9:23 A.M."
+          },
+          "translation": {
+            "questionVi": "Cô Nair sẽ làm gì trước 12:00 trưa?",
+            "optionsVi": {
+              "A": "Gọi Apex Printing",
+              "B": "Mang tệp đồ họa đã chỉnh sửa tới cho ông Reid",
+              "C": "Dự họp ngân sách",
+              "D": "Giao màn hình để bàn"
+            }
+          },
+          "proof": {
+            "explanation": "Priya nói đang xuất file đã sửa và sẽ mang ổ USB sang cho Marcus trước trưa ('drop the USB drive off with Marcus before noon').",
+            "evidenceQuote": "Already exporting the corrected graphic. I’ll drop the USB drive off with Marcus before noon.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s1-m6"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Marcus đã gọi.",
+            "B": "ĐÚNG — before noon = before 12:00 P.M.",
+            "C": "Loại — Chỉ Hannah họp.",
+            "D": "Loại — Marcus lắp màn hình."
+          },
+          "keyTakeaways": {
+            "formula": "before noon = before 12:00 P.M. | drop off = bring",
+            "commonTrap": "Không nhận ra noon = 12:00 P.M.",
+            "paraphrases": [
+              {
+                "textInPassage": "drop the USB drive off ... before noon",
+                "textInAnswer": "bring a corrected graphic file before 12:00 P.M.",
+                "meaningVi": "mang file đã sửa tới trước 12 giờ trưa"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "t1-p7-single-2",
+    "title": "Single 2: Thông báo Chuyển đổi Máy chủ Đám mây & Lịch bảo trì",
+    "passageCountType": "single",
+    "topic": "Công nghệ thông tin & Nội bộ (Memo + Schedule)",
+    "passages": [
+      {
+        "id": "p7-s2-doc1",
+        "tabLabel": "Internal Memo & Schedule",
+        "genre": "Notice",
+        "title": "MEMORANDUM — Cloud Storage Migration Weekend",
+        "headerMeta": [
+          {
+            "label": "To",
+            "value": "All Solis Architecture Employees"
+          },
+          {
+            "label": "From",
+            "value": "Tariq Hassan, IT Infrastructure Manager"
+          },
+          {
+            "label": "Date",
+            "value": "April 8"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Phase",
+            "Window (Saturday, April 12)",
+            "Affected System",
+            "User Action Required"
+          ],
+          "rows": [
+            {
+              "id": "p7-s2-r1",
+              "cells": [
+                "Phase 1",
+                "12:00 A.M. – 4:00 A.M.",
+                "CAD Blueprint Archive",
+                "Read-only access only"
+              ],
+              "viNote": "Giai đoạn 1: Kho bản vẽ CAD chỉ cho phép xem, không chỉnh sửa"
+            },
+            {
+              "id": "p7-s2-r2",
+              "cells": [
+                "Phase 2",
+                "4:00 A.M. – 9:00 A.M.",
+                "Corporate Email & Calendar",
+                "Offline (messages queued)"
+              ],
+              "viNote": "Giai đoạn 2: Email & Lịch tạm ngắt (thư đến sẽ xếp hàng chờ)"
+            },
+            {
+              "id": "p7-s2-r3",
+              "cells": [
+                "Phase 3",
+                "9:00 A.M. – 12:00 P.M.",
+                "Payroll & HR Portal",
+                "Offline for database sync"
+              ],
+              "viNote": "Giai đoạn 3: Cổng Nhân sự & Lương tạm ngắt đồng bộ"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-s2-p1",
+            "sentences": [
+              {
+                "id": "p7-s2-s1",
+                "en": "This Saturday, April 12, our IT team will migrate Solis Architecture’s legacy on-premise servers to an encrypted cloud platform. — [1] —.",
+                "vi": "Thứ Bảy ngày 12/4 này, đội CNTT sẽ chuyển các máy chủ tại chỗ cũ của Solis Architecture lên nền tảng đám mây mã hóa. — [1] —."
+              },
+              {
+                "id": "p7-s2-s2",
+                "en": "The upgrade will triple file-transfer speeds for field engineers accessing large 3D blueprints from construction sites. — [2] —.",
+                "vi": "Đợt nâng cấp sẽ tăng gấp ba tốc độ truyền tệp cho kỹ sư công trường truy cập các bản vẽ 3D dung lượng lớn. — [2] —."
+              }
+            ]
+          },
+          {
+            "id": "p7-s2-p2",
+            "sentences": [
+              {
+                "id": "p7-s2-s3",
+                "en": "Before leaving the office on Friday, April 11, please save and close all open CAD files and log out of the shared drive. — [3] —.",
+                "vi": "Trước khi rời văn phòng vào thứ Sáu ngày 11/4, vui lòng lưu, đóng tất cả tệp CAD đang mở và đăng xuất khỏi ổ đĩa dùng chung. — [3] —."
+              },
+              {
+                "id": "p7-s2-s4",
+                "en": "Any incoming emails sent during Phase 2 will NOT be lost; they will automatically appear in your inbox once service resumes at 9:00 A.M. — [4] —. On Monday morning, all staff will be prompted to create a new twelve-character password upon their first login.",
+                "vi": "Mọi email gửi tới trong Giai đoạn 2 sẽ KHÔNG bị mất; chúng sẽ tự động hiện trong hộp thư khi dịch vụ hoạt động lại lúc 9:00 sáng. — [4] —. Sáng thứ Hai, toàn thể nhân viên sẽ được nhắc tạo mật khẩu 12 ký tự mới trong lần đăng nhập đầu tiên."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s2-q1",
+        "questionNumber": 153,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "What is one stated benefit of the upcoming server migration?",
+        "options": {
+          "A": "Lower monthly internet subscription costs",
+          "B": "Faster remote access to heavy blueprint files",
+          "C": "Elimination of password login requirements",
+          "D": "Automatic approval of employee payroll forms"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết lợi ích",
+            "signal": "Đọc câu thứ 2 đoạn 1 về lợi ích của đợt nâng cấp."
+          },
+          "translation": {
+            "questionVi": "Một lợi ích được nêu của đợt chuyển đổi máy chủ sắp tới là gì?",
+            "optionsVi": {
+              "A": "Giảm phí mạng hàng tháng",
+              "B": "Truy cập từ xa nhanh hơn vào các tệp bản vẽ dung lượng lớn",
+              "C": "Loại bỏ yêu cầu mật khẩu",
+              "D": "Tự động duyệt bảng lương"
+            }
+          },
+          "proof": {
+            "explanation": "Bài ghi rõ: 'triple file-transfer speeds for field engineers accessing large 3D blueprints from construction sites'.",
+            "evidenceQuote": "The upgrade will triple file-transfer speeds for field engineers accessing large 3D blueprints from construction sites.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s2-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc chi phí mạng.",
+            "B": "ĐÚNG — triple speeds + from construction sites = faster remote access.",
+            "C": "Loại — Ngược sự thật (thứ Hai phải tạo mật khẩu 12 ký tự mới).",
+            "D": "Loại — Payroll chỉ tạm ngắt để đồng bộ."
+          },
+          "keyTakeaways": {
+            "formula": "from construction sites ↔ remote access | large 3D blueprints ↔ heavy blueprint files",
+            "commonTrap": "Bẫy đảo ngược ở C (tạo mật khẩu mới ≠ bỏ mật khẩu).",
+            "paraphrases": [
+              {
+                "textInPassage": "triple file-transfer speeds",
+                "textInAnswer": "faster access",
+                "meaningVi": "tốc độ truy cập nhanh hơn"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "p7-s2-q2",
+        "questionNumber": 154,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "According to the schedule, which system will be unavailable at 10:30 A.M. on Saturday?",
+        "options": {
+          "A": "CAD Blueprint Archive",
+          "B": "Corporate Email",
+          "C": "Payroll & HR Portal",
+          "D": "Company Telephone Line"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Đọc bảng thời gian (Schedule Lookup)",
+            "signal": "Tra mốc 10:30 A.M. nằm trong khung 9:00 A.M. – 12:00 P.M. (Phase 3)."
+          },
+          "translation": {
+            "questionVi": "Theo lịch trình, hệ thống nào sẽ không khả dụng vào lúc 10:30 sáng thứ Bảy?",
+            "optionsVi": {
+              "A": "Kho bản vẽ CAD",
+              "B": "Email công ty",
+              "C": "Cổng Nhân sự & Lương",
+              "D": "Đường dây điện thoại"
+            }
+          },
+          "proof": {
+            "explanation": "Trong bảng, khung giờ 9:00 A.M. – 12:00 P.M. là Phase 3: 'Payroll & HR Portal — Offline for database sync'.",
+            "evidenceQuote": "once service resumes at 9:00 A.M.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s2-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Phase 1 kết thúc lúc 4:00 A.M.",
+            "B": "Loại — Email mở lại lúc 9:00 A.M.",
+            "C": "ĐÚNG — 10:30 A.M. nằm giữa 9:00 A.M. – 12:00 P.M.",
+            "D": "Loại — Không có trong bảng."
+          },
+          "keyTakeaways": {
+            "formula": "Đối chiếu khung giờ bắt đầu – kết thúc trên bảng biểu.",
+            "commonTrap": "Nhầm 12:00 A.M. (nửa đêm) với 12:00 P.M. (buổi trưa).",
+            "paraphrases": [
+              {
+                "textInPassage": "Offline for database sync",
+                "textInAnswer": "unavailable",
+                "meaningVi": "tạm ngắt không khả dụng"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "p7-s2-q3",
+        "questionNumber": 155,
+        "questionType": "Điền câu [1][2][3][4]",
+        "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? 'Unsaved edits left open overnight risk becoming corrupted during the transfer.'",
+        "options": {
+          "A": "[1]",
+          "B": "[2]",
+          "C": "[3]",
+          "D": "[4]"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chèn câu [1][2][3][4]",
+            "signal": "Từ khóa 'Unsaved edits left open' nối trực tiếp với lời nhắc 'save and close all open CAD files' ngay trước [3]!"
+          },
+          "translation": {
+            "questionVi": "Câu 'Các chỉnh sửa chưa lưu để mở qua đêm có nguy cơ bị hỏng trong quá trình chuyển đổi' hợp nhất ở vị trí nào?",
+            "optionsVi": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            }
+          },
+          "proof": {
+            "explanation": "Câu trước [3] yêu cầu 'save and close all open CAD files'. Đặt câu cảnh báo 'Unsaved edits left open...' ngay tại [3] giải thích trực tiếp lý do phải lưu và đóng file.",
+            "evidenceQuote": "please save and close all open CAD files and log out of the shared drive. — [3] —.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s2-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Chưa nhắc tới việc lưu tệp.",
+            "B": "Loại — Đoạn 1 đang nói lợi ích tốc độ.",
+            "C": "ĐÚNG — Khớp từ khóa 'save and close all open CAD files' ↔ 'Unsaved edits left open'.",
+            "D": "Loại — Câu trước [4] nói về Email."
+          },
+          "keyTakeaways": {
+            "formula": "Hướng dẫn (save & close open files) → Lý do/Cảnh báo (Unsaved edits left open...)",
+            "commonTrap": "Chèn nhầm vào đoạn 1 vì thấy từ 'transfer'.",
+            "paraphrases": [
+              {
+                "textInPassage": "risk becoming corrupted",
+                "textInAnswer": "may be damaged",
+                "meaningVi": "có nguy cơ bị lỗi hỏng file"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "p7-s2-q4",
+        "questionNumber": 156,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What must employees do on Monday morning?",
+        "options": {
+          "A": "Resend emails that bounced on Saturday",
+          "B": "Set up a new login password",
+          "C": "Back up files to external USB drives",
+          "D": "Attend a mandatory cloud-security seminar"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết mốc thời gian (Monday morning)",
+            "signal": "Tìm cụm 'On Monday morning' ở câu cuối đoạn văn."
+          },
+          "translation": {
+            "questionVi": "Nhân viên phải làm gì vào sáng thứ Hai?",
+            "optionsVi": {
+              "A": "Gửi lại email bị lỗi thứ Bảy",
+              "B": "Tạo mật khẩu đăng nhập mới",
+              "C": "Sao lưu ra USB",
+              "D": "Dự hội thảo bảo mật"
+            }
+          },
+          "proof": {
+            "explanation": "Câu cuối ghi rõ: 'On Monday morning, all staff will be prompted to create a new twelve-character password upon their first login.'",
+            "evidenceQuote": "On Monday morning, all staff will be prompted to create a new twelve-character password upon their first login.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s2-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Email thứ Bảy tự động vào hộp thư, không bị mất.",
+            "B": "ĐÚNG — create a new password = set up a new login password.",
+            "C": "Loại — Không nhắc USB.",
+            "D": "Loại — Không có hội thảo."
+          },
+          "keyTakeaways": {
+            "formula": "be prompted to create a new password = set up a new login password",
+            "commonTrap": "Đọc lướt câu cuối đoạn văn.",
+            "paraphrases": [
+              {
+                "textInPassage": "create a new twelve-character password",
+                "textInAnswer": "set up a new login password",
+                "meaningVi": "thiết lập mật khẩu đăng nhập mới"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-03",
+    "title": "Single 3: Chuỗi tin nhắn Điều phối Tiệc Catering Hội nghị",
+    "passageCountType": "single",
+    "topic": "Ẩm thực & Sự kiện (Text Message Chain)",
+    "passages": [
+      {
+        "id": "p7-s3-doc1",
+        "tabLabel": "Text Message Chain",
+        "genre": "Text Message Chain",
+        "title": "Nhóm Chat: Summit Catering Team",
+        "headerMeta": [
+          {
+            "label": "Thành viên",
+            "value": "Naomi Park (Catering Manager), Owen Brooks (Head Chef), Tessa Diaz (Driver)"
+          },
+          {
+            "label": "Ngày",
+            "value": "Thursday, April 10"
+          }
+        ],
+        "chatMessages": [
+          {
+            "id": "p7-s3-m1",
+            "sender": "Naomi Park",
+            "time": "10:05 A.M.",
+            "align": "left",
+            "en": "Hi team, Grandview Medical just called to add 15 more vegetarian lunch boxes to today's 12:30 P.M. seminar order, bringing the total to 95 guests.",
+            "vi": "Chào cả nhóm, Grandview Medical vừa gọi bổ sung thêm 15 suất cơm trưa chay cho đơn hội thảo lúc 12:30 trưa nay, nâng tổng số lên 95 khách."
+          },
+          {
+            "id": "p7-s3-m2",
+            "sender": "Owen Brooks",
+            "time": "10:08 A.M.",
+            "align": "right",
+            "en": "No problem on the roasted vegetable wraps—we prepped extra filling this morning. However, we are out of compostable soup bowls, so I'll have to swap in chilled fruit cups for those 15 sets.",
+            "vi": "Món cuốn rau củ nướng thì không vấn đề—sáng nay bếp đã sơ chế dư nhân. Tuy nhiên chúng ta hết bát súp tự hủy rồi, nên tôi sẽ phải đổi sang cốc trái cây lạnh cho 15 suất đó."
+          },
+          {
+            "id": "p7-s3-m3",
+            "sender": "Naomi Park",
+            "time": "10:11 A.M.",
+            "align": "left",
+            "en": "Let me confirm that substitution with their coordinator right away. Tessa, are you still loading the van at 11:45?",
+            "vi": "Để tôi xác nhận ngay sự thay thế đó với điều phối viên bên họ. Tessa ơi, bạn vẫn chất hàng lên xe lúc 11:45 chứ?"
+          },
+          {
+            "id": "p7-s3-m4",
+            "sender": "Tessa Diaz",
+            "time": "10:14 A.M.",
+            "align": "left",
+            "en": "Actually, Maple Street is down to one lane because of bridge repairs. I'd better leave ten minutes ahead of schedule so everything stays hot.",
+            "vi": "Thật ra đường Maple đang bị thu hẹp còn một làn do sửa cầu. Tốt hơn hết tôi nên khởi hành sớm hơn lịch mười phút để đồ ăn vẫn nóng hổi."
+          },
+          {
+            "id": "p7-s3-m5",
+            "sender": "Owen Brooks",
+            "time": "10:16 A.M.",
+            "align": "right",
+            "en": "I'll have all crates sealed by 11:30.",
+            "vi": "Tôi sẽ đóng kín toàn bộ thùng giữ nhiệt trước 11:30."
+          },
+          {
+            "id": "p7-s3-m6",
+            "sender": "Naomi Park",
+            "time": "10:18 A.M.",
+            "align": "left",
+            "en": "Just heard back from Grandview—they're delighted with the fruit cups. Thanks for being so adaptable, both of you!",
+            "vi": "Tôi vừa nhận phản hồi từ Grandview—họ rất hài lòng với món cốc trái cây. Cảm ơn hai bạn đã ứng biến cực linh hoạt nhé!"
+          }
+        ],
+        "paragraphs": []
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s3-q1",
+        "questionNumber": 147,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "Why did Ms. Park start the text message conversation?",
+        "options": {
+          "A": "To inform her team of a last-minute increase in a catering order",
+          "B": "To ask for a refund on damaged soup bowls",
+          "C": "To cancel a seminar scheduled for 12:30 P.M.",
+          "D": "To report a bridge closure along Maple Street"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Ý chính đoạn chat (Main Idea)",
+            "signal": "Tin nhắn mở đầu lúc 10:05 A.M. của Naomi Park báo khách gọi tăng thêm 15 suất ăn."
+          },
+          "translation": {
+            "questionVi": "Tại sao cô Park mở đầu cuộc trò chuyện tin nhắn?",
+            "optionsVi": {
+              "A": "Để báo cho nhóm về việc đơn đặt tiệc tăng thêm vào phút chót",
+              "B": "Để yêu cầu hoàn tiền cho những chiếc bát súp bị hỏng",
+              "C": "Để hủy một hội thảo dự kiến lúc 12:30 trưa",
+              "D": "Để báo cáo vụ đóng cầu trên đường Maple"
+            }
+          },
+          "proof": {
+            "explanation": "Lúc 10:05 sáng, Naomi báo Grandview Medical vừa gọi bổ sung thêm 15 hộp cơm trưa chay cho đơn trưa nay (tổng 95 khách).",
+            "evidenceQuote": "Grandview Medical just called to add 15 more vegetarian lunch boxes to today's 12:30 P.M. seminar order, bringing the total to 95 guests.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s3-m1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'add 15 more vegetarian lunch boxes to today's order' = last-minute increase in a catering order.",
+            "B": "Loại — Bếp chỉ hết bát súp tự hủy chứ không có bát hỏng hay đòi hoàn tiền.",
+            "C": "Loại — Hội thảo không bị hủy mà tăng thêm người.",
+            "D": "Loại — Sai người nói: Tessa mới là người báo đường Maple sửa cầu lúc 10:14."
+          },
+          "keyTakeaways": {
+            "formula": "Ý chính của chuỗi tin nhắn 95% nằm ở tin nhắn đầu tiên.",
+            "commonTrap": "Bẫy (D) lấy chi tiết có thật trong bài nhưng sai người nói và sai mục đích mở đầu.",
+            "paraphrases": [
+              {
+                "textInPassage": "just called to add 15 more vegetarian lunch boxes",
+                "textInAnswer": "a last-minute increase in a catering order",
+                "meaningVi": "tăng số lượng đơn đặt tiệc vào phút chót"
+              }
+            ]
+          },
+          "applyRule": "Hỏi 'Why did X start the conversation?' → đọc thẳng tin nhắn số 1 và tìm bản paraphrase."
+        }
+      },
+      {
+        "id": "p7-s3-q2",
+        "questionNumber": 148,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Why does Mr. Brooks suggest including chilled fruit cups?",
+        "options": {
+          "A": "The client requested healthier desserts.",
+          "B": "The delivery van does not have a heater.",
+          "C": "Roasted vegetables take too long to cook.",
+          "D": "The kitchen ran out of containers for soup."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết nguyên nhân (Detail)",
+            "signal": "Đọc tin nhắn 10:08 A.M. của Owen Brooks."
+          },
+          "translation": {
+            "questionVi": "Tại sao ông Brooks đề xuất kèm theo cốc trái cây lạnh?",
+            "optionsVi": {
+              "A": "Khách hàng yêu cầu món tráng miệng lành mạnh hơn.",
+              "B": "Xe giao hàng không có thiết bị giữ nhiệt.",
+              "C": "Rau củ nướng mất quá nhiều thời gian để nấu.",
+              "D": "Nhà bếp đã hết hộp/bát đựng súp."
+            }
+          },
+          "proof": {
+            "explanation": "Owen giải thích 'we are out of compostable soup bowls' (hết bát súp tự hủy) nên phải đổi sang cốc trái cây lạnh cho 15 suất thêm.",
+            "evidenceQuote": "However, we are out of compostable soup bowls, so I'll have to swap in chilled fruit cups for those 15 sets.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s3-m2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không được đề cập; khách chỉ đồng ý sau khi Naomi hỏi lại.",
+            "B": "Loại — Không có chi tiết xe thiếu thiết bị giữ nhiệt.",
+            "C": "Loại — Bẫy nói ngược: bếp đã sơ chế dư nhân rau củ nướng từ sáng.",
+            "D": "ĐÚNG — 'out of compostable soup bowls' = ran out of containers for soup."
+          },
+          "keyTakeaways": {
+            "formula": "be out of X = run out of X (hết sạch X)",
+            "commonTrap": "Bẫy nói ngược (C) về món rau củ nướng.",
+            "paraphrases": [
+              {
+                "textInPassage": "out of compostable soup bowls",
+                "textInAnswer": "ran out of containers for soup",
+                "meaningVi": "hết bát đựng súp"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'be out of [vật cụ thể]' → tìm đáp án khái quát hóa ('ran out of containers')."
+        }
+      },
+      {
+        "id": "p7-s3-q3",
+        "questionNumber": 149,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "At 10:16 A.M., what does Mr. Brooks most likely mean when he writes, \"I'll have all crates sealed by 11:30\"?",
+        "options": {
+          "A": "He wants Ms. Diaz to delay her departure until noon.",
+          "B": "He needs extra help packing the vegetarian wraps.",
+          "C": "The food will be packed in time for an earlier departure.",
+          "D": "He has already finished preparing the entire order."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Hàm ý câu nói trong ngoặc kép (Writer Intention)",
+            "signal": "Đọc tin nhắn 10:14 ngay trước câu 10:16: Tessa muốn đi sớm hơn 10 phút so với lịch 11:45 (tức 11:35) → Owen cam kết đóng xong thùng lúc 11:30."
+          },
+          "translation": {
+            "questionVi": "Lúc 10:16 sáng, ông Brooks nhiều khả năng có ý gì khi viết \"Tôi sẽ đóng kín toàn bộ thùng trước 11:30\"?",
+            "optionsVi": {
+              "A": "Ông muốn cô Diaz hoãn khởi hành tới trưa.",
+              "B": "Ông cần thêm người phụ đóng gói món cuốn chay.",
+              "C": "Đồ ăn sẽ được đóng gói kịp giờ cho chuyến đi sớm hơn.",
+              "D": "Ông đã hoàn thành xong toàn bộ đơn hàng rồi."
+            }
+          },
+          "proof": {
+            "explanation": "Lịch gốc Tessa chất hàng lúc 11:45 nhưng vì sửa cầu nên muốn đi sớm hơn 10 phút (11:35); Owen nhắn sẽ đóng xong tất cả thùng lúc 11:30 để bảo đảm kịp giờ khởi hành sớm.",
+            "evidenceQuote": "I'd better leave ten minutes ahead of schedule so everything stays hot. — I'll have all crates sealed by 11:30.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s3-m5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Nói ngược: Tessa đi sớm hơn chứ không hoãn tới trưa.",
+            "B": "Loại — Không nhắc yêu cầu thêm nhân lực.",
+            "C": "ĐÚNG — 11:30 sớm hơn giờ dự kiến mới (11:35), khẳng định bếp kịp tiến độ cho tài xế xuất phát sớm.",
+            "D": "Loại — Bẫy thì tương lai ('I'll have... sealed by 11:30' nghĩa là sẽ xong lúc 11:30, chưa xong ở thời điểm 10:16)."
+          },
+          "keyTakeaways": {
+            "formula": "Câu hàm ý trong Chat luôn phản hồi trực tiếp đề nghị/lo ngại ở tin nhắn ngay trước nó.",
+            "commonTrap": "Bẫy (D) đánh lừa người không phân biệt hiện tại (10:16) với mốc hoàn thành tương lai (11:30).",
+            "paraphrases": [
+              {
+                "textInPassage": "have all crates sealed by 11:30",
+                "textInAnswer": "packed in time for an earlier departure",
+                "meaningVi": "đóng gói kịp giờ xuất phát sớm hơn"
+              }
+            ]
+          },
+          "applyRule": "Với câu hỏi 'What does X mean when he writes \"...\"?' → luôn ghép mốc giờ/yêu cầu ở 1–2 tin nhắn ngay trước đó."
+        }
+      },
+      {
+        "id": "p7-s3-q4",
+        "questionNumber": 150,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What did Grandview Medical agree to?",
+        "options": {
+          "A": "Paying an extra delivery fee for traffic delays",
+          "B": "Moving the seminar start time to 1:00 P.M.",
+          "C": "Reducing the guest count to 80 people",
+          "D": "Receiving fruit cups instead of soup for the added meals"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết (Detail)",
+            "signal": "Đọc tin nhắn cuối lúc 10:18 A.M. của Naomi Park."
+          },
+          "translation": {
+            "questionVi": "Grandview Medical đã đồng ý điều gì?",
+            "optionsVi": {
+              "A": "Trả thêm phí giao hàng do tắc đường",
+              "B": "Dời giờ bắt đầu hội thảo sang 1:00 chiều",
+              "C": "Giảm số lượng khách xuống còn 80 người",
+              "D": "Nhận cốc trái cây thay vì súp cho các suất ăn bổ sung"
+            }
+          },
+          "proof": {
+            "explanation": "Naomi nhắn lúc 10:18 rằng phía Grandview vừa phản hồi và 'rất hài lòng với món cốc trái cây' thay cho súp ở 15 suất tăng thêm.",
+            "evidenceQuote": "Just heard back from Grandview—they're delighted with the fruit cups.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s3-m6"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc phí giao hàng phát sinh.",
+            "B": "Loại — Giờ hội thảo vẫn là 12:30 trưa.",
+            "C": "Loại — Số khách tăng từ 80 lên 95, không phải giảm.",
+            "D": "ĐÚNG — 'delighted with the fruit cups' khẳng định đồng ý phương án thay thế."
+          },
+          "keyTakeaways": {
+            "formula": "be delighted with X = gladly agree to X",
+            "commonTrap": "Bẫy (C) tính ra số khách cũ (95 - 15 = 80) rồi đảo ngược chiều tăng thành giảm.",
+            "paraphrases": [
+              {
+                "textInPassage": "swap in chilled fruit cups ... delighted with the fruit cups",
+                "textInAnswer": "receiving fruit cups instead of soup",
+                "meaningVi": "nhận cốc trái cây thay cho súp"
+              }
+            ]
+          },
+          "applyRule": "Kiểm tra tin nhắn cuối chuỗi chat để xác nhận kết quả phản hồi của khách hàng."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-04",
+    "title": "Single 4: Chuỗi tin nhắn Xử lý Sự cố Máy in Khổ lớn Trước Buổi Thuyết trình",
+    "passageCountType": "single",
+    "topic": "Văn phòng & Kỹ thuật (Text Message Chain)",
+    "passages": [
+      {
+        "id": "p7-s4-doc1",
+        "tabLabel": "Online Chat",
+        "genre": "Text Message Chain",
+        "title": "Nhóm Chat: Architecture Pitch Prep",
+        "headerMeta": [
+          {
+            "label": "Thành viên",
+            "value": "Liam Chen (Senior Architect), Maya Patel (Junior Designer), Victor Ross (IT Support)"
+          },
+          {
+            "label": "Ngày",
+            "value": "Tuesday, June 17"
+          }
+        ],
+        "chatMessages": [
+          {
+            "id": "p7-s4-m1",
+            "sender": "Maya Patel",
+            "time": "1:40 P.M.",
+            "align": "left",
+            "en": "Victor, the wide-format plotter in Studio B keeps showing an ink cartridge error, and we need five full-size floor plans printed before the city council pitch at 3:30.",
+            "vi": "Victor ơi, máy in bản vẽ khổ lớn ở Studio B cứ báo lỗi hộp mực, mà chúng tôi cần in năm bản vẽ mặt bằng khổ lớn trước buổi thuyết trình với hội đồng thành phố lúc 3:30."
+          },
+          {
+            "id": "p7-s4-m2",
+            "sender": "Victor Ross",
+            "time": "1:43 P.M.",
+            "align": "right",
+            "en": "I'm replacing a broken router on the sixth floor right now, so I won't be free for about 25 minutes. Have you tried running the printhead alignment tool from the touchscreen?",
+            "vi": "Tôi đang thay bộ định tuyến bị hỏng trên tầng sáu lúc này nên khoảng 25 phút nữa mới rảnh. Bạn đã thử chạy công cụ căn chỉnh đầu in trên màn hình cảm ứng chưa?"
+          },
+          {
+            "id": "p7-s4-m3",
+            "sender": "Maya Patel",
+            "time": "1:45 P.M.",
+            "align": "left",
+            "en": "Yes, twice, and the cyan ink light is still flashing red. Even if you fix it at 2:15, printing and mounting five boards takes nearly an hour.",
+            "vi": "Rồi ạ, hai lần liền, mà đèn mực xanh vẫn nhấp nháy đỏ. Kể cả bạn sửa được lúc 2:15 thì việc in và bồi năm tấm bảng cũng mất gần một tiếng."
+          },
+          {
+            "id": "p7-s4-m4",
+            "sender": "Liam Chen",
+            "time": "1:47 P.M.",
+            "align": "left",
+            "en": "Don't gamble on the office plotter. Email the PDFs to PrintWorks across the street—we have a corporate account there, and they can turn around five boards in thirty minutes.",
+            "vi": "Đừng đánh cược vào máy in văn phòng nữa. Gửi email file PDF sang PrintWorks bên kia đường đi—chúng ta có tài khoản doanh nghiệp ở đó, họ làm xong năm tấm bảng trong ba mươi phút."
+          },
+          {
+            "id": "p7-s4-m5",
+            "sender": "Maya Patel",
+            "time": "1:49 P.M.",
+            "align": "left",
+            "en": "Smart call! Uploading the files now and I'll walk over to pick them up at 2:30.",
+            "vi": "Quyết định sáng suốt quá! Tôi đang tải tệp lên đây và sẽ đi bộ sang lấy lúc 2:30."
+          }
+        ],
+        "paragraphs": []
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s4-q1",
+        "questionNumber": 151,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Why is Mr. Ross unable to inspect the plotter right away?",
+        "options": {
+          "A": "He is attending a city council meeting.",
+          "B": "He is picking up printed boards from PrintWorks.",
+          "C": "He is waiting for replacement cyan ink to arrive.",
+          "D": "He is repairing network equipment on another floor."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết (Detail)",
+            "signal": "Đọc tin nhắn 1:43 P.M. của Victor Ross."
+          },
+          "translation": {
+            "questionVi": "Tại sao ông Ross không thể kiểm tra máy in khổ lớn ngay lập tức?",
+            "optionsVi": {
+              "A": "Ông đang tham dự cuộc họp hội đồng thành phố.",
+              "B": "Ông đang đi lấy bảng in từ PrintWorks.",
+              "C": "Ông đang chờ hộp mực xanh thay thế giao tới.",
+              "D": "Ông đang sửa thiết bị mạng ở tầng khác."
+            }
+          },
+          "proof": {
+            "explanation": "Victor nhắn 'I'm replacing a broken router on the sixth floor right now' (đang thay bộ định tuyến hỏng ở tầng sáu).",
+            "evidenceQuote": "I'm replacing a broken router on the sixth floor right now, so I won't be free for about 25 minutes.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s4-m2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Buổi họp hội đồng diễn ra lúc 3:30 và là việc của nhóm kiến trúc.",
+            "B": "Loại — Sai người: Maya mới đi lấy bản in lúc 2:30.",
+            "C": "Loại — Không nhắc chuyện đặt chờ mực xanh.",
+            "D": "ĐÚNG — 'replacing a broken router on the sixth floor' = repairing network equipment on another floor."
+          },
+          "keyTakeaways": {
+            "formula": "router (bộ định tuyến) ↔ network equipment (thiết bị mạng)",
+            "commonTrap": "Không nhận ra phép khái quát hóa từ 'router' thành 'network equipment'.",
+            "paraphrases": [
+              {
+                "textInPassage": "replacing a broken router on the sixth floor",
+                "textInAnswer": "repairing network equipment on another floor",
+                "meaningVi": "sửa/thay thiết bị mạng ở tầng khác"
+              }
+            ]
+          },
+          "applyRule": "ETS cực thích khái quát tên thiết bị cụ thể (router → network equipment, plotter → printing machine)."
+        }
+      },
+      {
+        "id": "p7-s4-q2",
+        "questionNumber": 152,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "At 1:47 P.M., what does Mr. Chen mean when he writes, \"Don't gamble on the office plotter\"?",
+        "options": {
+          "A": "Ms. Patel should not risk waiting for the studio printer to be fixed.",
+          "B": "The company cannot afford to purchase a new printing machine.",
+          "C": "The printhead alignment tool might permanently damage the plotter.",
+          "D": "PrintWorks charges too much for rush commercial orders."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Hàm ý câu nói (Writer Intention)",
+            "signal": "Đọc tin nhắn 1:45 của Maya (lo sợ dù sửa được lúc 2:15 vẫn sát giờ 3:30) và vế sau câu 1:47 của Liam (chuyển sang in ngoài tại PrintWorks)."
+          },
+          "translation": {
+            "questionVi": "Lúc 1:47 chiều, ông Chen muốn nói gì khi viết \"Đừng đánh cược vào máy in văn phòng\"?",
+            "optionsVi": {
+              "A": "Cô Patel không nên mạo hiểm chờ máy in của xưởng được sửa xong.",
+              "B": "Công ty không đủ tiền mua máy in mới.",
+              "C": "Công cụ căn chỉnh đầu in có thể làm hỏng vĩnh viễn máy in.",
+              "D": "PrintWorks tính giá quá cao cho đơn in gấp."
+            }
+          },
+          "proof": {
+            "explanation": "Vì Maya lo nếu chờ sửa tới 2:15 rồi in và bồi mất gần 1 tiếng sẽ quá sát giờ thuyết trình 3:30, Liam khuyên không nên mạo hiểm trông chờ máy văn phòng mà gửi ngay sang PrintWorks.",
+            "evidenceQuote": "Don't gamble on the office plotter. Email the PDFs to PrintWorks across the street",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s4-m4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'Don't gamble on X' = do not risk relying on / waiting for X.",
+            "B": "Loại — Không nhắc chuyện mua máy mới hay ngân sách.",
+            "C": "Loại — Không có cảnh báo hỏng vĩnh viễn do căn chỉnh đầu in.",
+            "D": "Loại — Trái ngược: Liam chủ động đề xuất dùng tài khoản doanh nghiệp tại PrintWorks."
+          },
+          "keyTakeaways": {
+            "formula": "Don't gamble on X = Don't risk waiting for / depending on X",
+            "commonTrap": "Hiểu sai thành ngữ 'gamble on' (đánh cược / mạo hiểm trông chờ vào).",
+            "paraphrases": [
+              {
+                "textInPassage": "Don't gamble on the office plotter",
+                "textInAnswer": "should not risk waiting for the studio printer to be fixed",
+                "meaningVi": "đừng mạo hiểm chờ máy in ở xưởng được sửa"
+              }
+            ]
+          },
+          "applyRule": "Gặp thành ngữ trong ngoặc kép ('Don't gamble on...') → đọc ngay câu hành động thay thế đứng liền sau để giải mã nghĩa."
+        }
+      },
+      {
+        "id": "p7-s4-q3",
+        "questionNumber": 153,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What will Ms. Patel do at 2:30 P.M.?",
+        "options": {
+          "A": "Meet Victor Ross in Studio B",
+          "B": "Present floor plans to the city council",
+          "C": "Collect finished boards from a nearby print shop",
+          "D": "Open a new corporate account with PrintWorks"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết (Detail)",
+            "signal": "Quét mốc giờ 2:30 ở tin nhắn cuối lúc 1:49 P.M. của Maya."
+          },
+          "translation": {
+            "questionVi": "Cô Patel sẽ làm gì lúc 2:30 chiều?",
+            "optionsVi": {
+              "A": "Gặp Victor Ross tại Studio B",
+              "B": "Trình bày bản vẽ mặt bằng trước hội đồng thành phố",
+              "C": "Đến lấy các tấm bảng hoàn thiện tại cửa hàng in gần đó",
+              "D": "Mở tài khoản doanh nghiệp mới với PrintWorks"
+            }
+          },
+          "proof": {
+            "explanation": "Maya nói 'I'll walk over to pick them up at 2:30' (đi bộ sang PrintWorks bên kia đường để lấy 5 tấm bảng lúc 2:30).",
+            "evidenceQuote": "Uploading the files now and I'll walk over to pick them up at 2:30.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s4-m5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không hẹn gặp Victor lúc 2:30.",
+            "B": "Loại — Buổi thuyết trình diễn ra lúc 3:30, không phải 2:30.",
+            "C": "ĐÚNG — 'across the street' = nearby; 'pick them up' = collect finished boards.",
+            "D": "Loại — Công ty đã có sẵn tài khoản doanh nghiệp tại PrintWorks ('we have a corporate account there')."
+          },
+          "keyTakeaways": {
+            "formula": "pick up = collect | across the street = nearby",
+            "commonTrap": "Bẫy (D) đánh lừa từ 'open a new account' trong khi bài nói đã có sẵn tài khoản.",
+            "paraphrases": [
+              {
+                "textInPassage": "walk over to pick them up",
+                "textInAnswer": "collect finished boards from a nearby print shop",
+                "meaningVi": "lấy bảng in xong tại tiệm in gần đó"
+              }
+            ]
+          },
+          "applyRule": "Quét chính xác mốc thời gian (2:30) trong bài để tách biệt hành động khỏi các mốc giờ gây nhiễu (2:15, 3:30)."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-05",
+    "title": "Single 5: Email Thay đổi Địa điểm & Thể thức Workshop Thiết kế Sản phẩm",
+    "passageCountType": "single",
+    "topic": "Đào tạo & Hội thảo (Email + Điền câu [1]-[4])",
+    "passages": [
+      {
+        "id": "p7-s5-doc1",
+        "tabLabel": "Email",
+        "genre": "Email",
+        "title": "Venue Change for Friday's Product Prototyping Workshop",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Daniela Silva <d.silva@innovatelab.org>"
+          },
+          {
+            "label": "To",
+            "value": "Registered Workshop Participants"
+          },
+          {
+            "label": "Date",
+            "value": "October 7"
+          },
+          {
+            "label": "Subject",
+            "value": "Updated Location and Pre-Session Materials — Oct 10 Workshop"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-s5-p1",
+            "sentences": [
+              {
+                "id": "p7-s5-s1",
+                "en": "Dear Participants, Because registration for this Friday's Rapid Product Prototyping Workshop far exceeded our original estimate of thirty attendees, we have moved the event to a larger venue. — [1] —.",
+                "vi": "Kính gửi các học viên, Vì số lượng đăng ký cho Hội thảo Tạo mẫu Sản phẩm Nhanh thứ Sáu này vượt xa dự kiến ban đầu là ba mươi người, chúng tôi đã chuyển sự kiện sang địa điểm lớn hơn. — [1] —."
+              },
+              {
+                "id": "p7-s5-s2",
+                "en": "Instead of meeting in Studio 204, please report directly to the Harborview Innovation Auditorium on the fourth floor of Building C by 8:45 A.M. — [2] —.",
+                "vi": "Thay vì tập trung tại Studio 204, vui lòng đến thẳng Hội trường Sáng tạo Harborview ở tầng bốn Tòa C trước 8:45 sáng. — [2] —."
+              }
+            ]
+          },
+          {
+            "id": "p7-s5-p2",
+            "sentences": [
+              {
+                "id": "p7-s5-s3",
+                "en": "The morning keynote will be followed by two hands-on modeling labs led by industrial designer Kenneth Osei. To save setup time during the first lab, we kindly ask all attendees to install the free trial version of ProtoCAD 4.2 on their personal laptops prior to Friday morning. — [3] —.",
+                "vi": "Bài phát biểu mở màn buổi sáng sẽ tiếp nối bằng hai buổi thực hành dựng mẫu do nhà thiết kế công nghiệp Kenneth Osei hướng dẫn. Để tiết kiệm thời gian cài đặt trong buổi thực hành đầu tiên, chúng tôi trân trọng đề nghị toàn bộ học viên cài sẵn bản dùng thử miễn phí của ProtoCAD 4.2 trên laptop cá nhân trước sáng thứ Sáu. — [3] —."
+              },
+              {
+                "id": "p7-s5-s4",
+                "en": "Complimentary coffee, pastries, and a boxed lunch will be provided on-site. If you have any dietary restrictions not listed on your registration form, please reply to this e-mail before Wednesday at 5:00 P.M. — [4] —.",
+                "vi": "Cà phê, bánh ngọt và cơm trưa hộp miễn phí sẽ được phục vụ tại chỗ. Nếu bạn có yêu cầu ăn kiêng nào chưa ghi trên phiếu đăng ký, vui lòng trả lời email này trước 5:00 chiều thứ Tư. — [4] —."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s5-q1",
+        "questionNumber": 154,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "Why was the workshop relocated to Building C?",
+        "options": {
+          "A": "Studio 204 is undergoing electrical renovations.",
+          "B": "The original venue was double-booked for another event.",
+          "C": "Mr. Osei requested specialized audio equipment.",
+          "D": "More people signed up than originally anticipated."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Ý chính / Nguyên nhân (Main Idea)",
+            "signal": "Câu đầu tiên giải thích trực tiếp lý do dời địa điểm."
+          },
+          "translation": {
+            "questionVi": "Tại sao buổi hội thảo được chuyển sang Tòa C?",
+            "optionsVi": {
+              "A": "Studio 204 đang sửa chữa hệ thống điện.",
+              "B": "Địa điểm ban đầu bị đặt trùng với sự kiện khác.",
+              "C": "Ông Osei yêu cầu thiết bị âm thanh chuyên dụng.",
+              "D": "Số người đăng ký nhiều hơn mức dự kiến ban đầu."
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 1 nêu rõ 'registration ... far exceeded our original estimate of thirty attendees' → lượng đăng ký vượt xa dự kiến ban đầu.",
+            "evidenceQuote": "Because registration for this Friday's Rapid Product Prototyping Workshop far exceeded our original estimate of thirty attendees, we have moved the event to a larger venue.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s5-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc sửa chữa Studio 204.",
+            "B": "Loại — Không nhắc việc đặt trùng phòng.",
+            "C": "Loại — Không có yêu cầu thiết bị âm thanh.",
+            "D": "ĐÚNG — 'registration far exceeded our original estimate' = more people signed up than originally anticipated."
+          },
+          "keyTakeaways": {
+            "formula": "exceed original estimate ↔ more than originally anticipated",
+            "commonTrap": "Các phương án sai đều là lý do đổi phòng quen thuộc ở đề khác nhưng không hề có trong bài này.",
+            "paraphrases": [
+              {
+                "textInPassage": "registration far exceeded our original estimate",
+                "textInAnswer": "more people signed up than originally anticipated",
+                "meaningVi": "nhiều người đăng ký hơn dự kiến ban đầu"
+              }
+            ]
+          },
+          "applyRule": "Luôn đối chiếu lý do trực tiếp sau 'Because' ở câu mở đầu email thông báo thay đổi."
+        }
+      },
+      {
+        "id": "p7-s5-q2",
+        "questionNumber": 155,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What are participants asked to do before arriving on Friday?",
+        "options": {
+          "A": "Purchase a paid license for ProtoCAD 4.2",
+          "B": "Submit a product sketch to Mr. Osei",
+          "C": "Download trial design software onto their computers",
+          "D": "Pick up printed manuals from Studio 204"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết (Detail)",
+            "signal": "Đọc đoạn 2 với cụm 'prior to Friday morning'."
+          },
+          "translation": {
+            "questionVi": "Học viên được yêu cầu làm gì trước khi tới vào thứ Sáu?",
+            "optionsVi": {
+              "A": "Mua bản quyền trả phí cho ProtoCAD 4.2",
+              "B": "Nộp bản phác thảo sản phẩm cho ông Osei",
+              "C": "Tải phần mềm thiết kế dùng thử về máy tính của mình",
+              "D": "Lấy tài liệu in tại Studio 204"
+            }
+          },
+          "proof": {
+            "explanation": "Ban tổ chức yêu cầu cài đặt bản dùng thử miễn phí ('install the free trial version of ProtoCAD 4.2 on their personal laptops') trước sáng thứ Sáu.",
+            "evidenceQuote": "we kindly ask all attendees to install the free trial version of ProtoCAD 4.2 on their personal laptops prior to Friday morning.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s5-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy nói ngược: phần mềm là bản dùng thử MIỄN PHÍ ('free trial'), không phải trả phí.",
+            "B": "Loại — Không yêu cầu nộp bản phác thảo.",
+            "C": "ĐÚNG — 'install the free trial version ... on their personal laptops' = download trial design software onto their computers.",
+            "D": "Loại — Không nhắc tài liệu in tại Studio 204."
+          },
+          "keyTakeaways": {
+            "formula": "prior to Friday = before arriving on Friday | install on laptops = download onto computers",
+            "commonTrap": "Bẫy (A) giữ nguyên tên 'ProtoCAD 4.2' nhưng tráo 'free trial' thành 'paid license'.",
+            "paraphrases": [
+              {
+                "textInPassage": "install the free trial version of ProtoCAD 4.2 on their personal laptops",
+                "textInAnswer": "download trial design software onto their computers",
+                "meaningVi": "tải phần mềm thiết kế bản dùng thử về máy tính"
+              }
+            ]
+          },
+          "applyRule": "Thấy đáp án giữ đúng tên riêng phần mềm (ProtoCAD 4.2) thì phải kiểm tra kỹ tính từ đi kèm ('paid' vs 'free trial')!"
+        }
+      },
+      {
+        "id": "p7-s5-q3",
+        "questionNumber": 156,
+        "questionType": "Điền câu [1][2][3][4]",
+        "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"A step-by-step installation guide and download link are attached to this message for your convenience.\"",
+        "options": {
+          "A": "[1]",
+          "B": "[2]",
+          "C": "[3]",
+          "D": "[4]"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chèn câu [1][2][3][4]",
+            "signal": "Cụm từ khóa 'installation guide and download link' nối thẳng vào động từ 'install the free trial version of ProtoCAD 4.2' ngay trước [3]."
+          },
+          "translation": {
+            "questionVi": "Câu \"Hướng dẫn cài đặt từng bước và đường dẫn tải về được đính kèm trong email này để thuận tiện cho bạn\" phù hợp nhất ở vị trí nào?",
+            "optionsVi": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            }
+          },
+          "proof": {
+            "explanation": "Ngay trước [3] là yêu cầu 'install the free trial version of ProtoCAD 4.2' → câu đính kèm 'installation guide and download link' phải đặt sát ngay sau đó tại [3].",
+            "evidenceQuote": "install the free trial version of ProtoCAD 4.2 on their personal laptops prior to Friday morning. — [3] —.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s5-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — [1] đang nói về lý do chuyển sang địa điểm lớn hơn.",
+            "B": "Loại — [2] nói về địa chỉ Hội trường Harborview tầng 4.",
+            "C": "ĐÚNG — Nối trực tiếp 'install ProtoCAD 4.2' → 'installation guide and download link'.",
+            "D": "Loại — [4] nằm sau đoạn ăn uống và yêu cầu ăn kiêng."
+          },
+          "keyTakeaways": {
+            "formula": "Cặp lặp gốc từ: install (v) → installation guide (n)",
+            "commonTrap": "Đọc lướt đặt nhầm ở [4] vì thấy cụm 'attached to this message' tưởng là câu kết email.",
+            "paraphrases": [
+              {
+                "textInPassage": "install the free trial version",
+                "textInAnswer": "installation guide and download link",
+                "meaningVi": "cài đặt bản dùng thử ↔ hướng dẫn cài đặt & link tải"
+              }
+            ]
+          },
+          "applyRule": "Với câu chèn [1]-[4], bắt cặp từ khóa cốt lõi ('install' ↔ 'installation guide') và đặt ngay cạnh câu nhắc tới đối tượng đó."
+        }
+      },
+      {
+        "id": "p7-s5-q4",
+        "questionNumber": 157,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is implied about the catering arrangements for the workshop?",
+        "options": {
+          "A": "Participants must pay separately for their boxed lunches.",
+          "B": "Coffee will only be offered during the afternoon lab.",
+          "C": "Only vegetarian meals will be served at Building C.",
+          "D": "Special meal requests cannot be changed after Wednesday afternoon."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận từ hạn chót (Inference)",
+            "signal": "Hạn chót báo yêu cầu ăn kiêng là 'before Wednesday at 5:00 P.M.'."
+          },
+          "translation": {
+            "questionVi": "Điều gì được ngụ ý về công tác chuẩn bị đồ ăn cho buổi hội thảo?",
+            "optionsVi": {
+              "A": "Học viên phải trả tiền riêng cho cơm trưa hộp.",
+              "B": "Cà phê chỉ được phục vụ vào buổi thực hành chiều.",
+              "C": "Chỉ phục vụ đồ ăn chay tại Tòa C.",
+              "D": "Các yêu cầu suất ăn đặc biệt không thể thay đổi sau chiều thứ Tư."
+            }
+          },
+          "proof": {
+            "explanation": "Ban tổ chức yêu cầu báo 'dietary restrictions... before Wednesday at 5:00 P.M.', ngụ ý sau 5:00 chiều thứ Tư danh sách suất ăn đặc biệt sẽ được chốt.",
+            "evidenceQuote": "If you have any dietary restrictions not listed on your registration form, please reply to this e-mail before Wednesday at 5:00 P.M.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s5-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy nói ngược: đồ ăn hoàn toàn miễn phí ('Complimentary').",
+            "B": "Loại — Không giới hạn cà phê chỉ có buổi chiều.",
+            "C": "Loại — Không giới hạn chỉ phục vụ đồ chay.",
+            "D": "ĐÚNG — 'dietary restrictions... before Wednesday at 5:00 P.M.' suy ra sau chiều thứ Tư không nhận thay đổi nữa."
+          },
+          "keyTakeaways": {
+            "formula": "dietary restrictions ↔ special meal requests | before 5:00 P.M. ↔ cannot be changed after afternoon",
+            "commonTrap": "Bẫy (A) bỏ quên nghĩa của 'Complimentary' (= miễn phí).",
+            "paraphrases": [
+              {
+                "textInPassage": "dietary restrictions ... before Wednesday at 5:00 P.M.",
+                "textInAnswer": "special meal requests cannot be changed after Wednesday afternoon",
+                "meaningVi": "yêu cầu ăn uống đặc biệt chốt trước chiều thứ Tư"
+              }
+            ]
+          },
+          "applyRule": "Khi bài cho một deadline ('before Wednesday at 5:00 P.M.'), đáp án Inference thường diễn đạt lại dưới dạng phủ định ('cannot be changed after...')."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-06",
+    "title": "Single 6: Thư Chúc mừng & Hướng dẫn Nhận Học bổng Tài trợ Doanh nghiệp",
+    "passageCountType": "single",
+    "topic": "Giáo dục & Tài trợ (Letter + Điền câu [1]-[4])",
+    "passages": [
+      {
+        "id": "p7-s6-doc1",
+        "tabLabel": "Award Letter",
+        "genre": "Letter",
+        "title": "Meridian Foundation — Green Engineering Fellowship Notification",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Dr. Arthur Grant, Director of Academic Grants, Meridian Foundation"
+          },
+          {
+            "label": "To",
+            "value": "Ms. Chloe Nakamura, Department of Civil Engineering, Pacific State University"
+          },
+          {
+            "label": "Date",
+            "value": "March 14"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-s6-p1",
+            "sentences": [
+              {
+                "id": "p7-s6-s1",
+                "en": "Dear Ms. Nakamura, On behalf of the Meridian Foundation selection committee, I am thrilled to inform you that your proposal on permeable urban pavements has been chosen for this year's Green Engineering Fellowship. — [1] —.",
+                "vi": "Cô Nakamura thân mến, Thay mặt hội đồng tuyển chọn Quỹ Meridian, tôi vô cùng phấn khởi thông báo đề xuất của cô về mặt đường đô thị thấm nước đã được chọn trao Học bổng Kỹ thuật Xanh năm nay. — [1] —."
+              },
+              {
+                "id": "p7-s6-s2",
+                "en": "From more than 180 submissions nationwide, the reviewers were particularly impressed by the practical field-testing plan you outlined with municipal engineers. — [2] —.",
+                "vi": "Trong số hơn 180 hồ sơ trên toàn quốc, hội đồng chấm giải đặc biệt ấn tượng với kế hoạch thử nghiệm thực địa thiết thực mà cô xây dựng cùng các kỹ sư thành phố. — [2] —."
+              }
+            ]
+          },
+          {
+            "id": "p7-s6-p2",
+            "sentences": [
+              {
+                "id": "p7-s6-s3",
+                "en": "The fellowship carries a $15,000 research grant disbursed directly to your university's bursar office in two equal installments: the first in May and the remainder in November upon receipt of your mid-project progress summary. — [3] —.",
+                "vi": "Học bổng bao gồm khoản tài trợ nghiên cứu 15.000 đô la được giải ngân trực tiếp tới phòng tài vụ trường đại học của cô theo hai đợt bằng nhau: đợt một vào tháng Năm và phần còn lại vào tháng Mười Một sau khi nhận báo cáo tiến độ giữa kỳ. — [3] —."
+              },
+              {
+                "id": "p7-s6-s4",
+                "en": "To formally accept the award, please sign and return the enclosed fellowship agreement no later than March 28. You are also invited to attend our annual awards banquet in Boston on April 24, with round-trip airfare and two nights of hotel lodging fully covered by the foundation. — [4] —.",
+                "vi": "Để chính thức chấp nhận giải thưởng, vui lòng ký và gửi lại thỏa thuận học bổng đính kèm chậm nhất ngày 28/3. Cô cũng được mời tham dự tiệc trao giải thường niên tại Boston vào ngày 24/4, với vé máy bay khứ hồi và hai đêm khách sạn được quỹ đài thọ toàn bộ. — [4] —."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s6-q1",
+        "questionNumber": 158,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "What is the main purpose of the letter?",
+        "options": {
+          "A": "To announce that an applicant has won a research fellowship",
+          "B": "To recruit municipal engineers for a Boston conference",
+          "C": "To request revisions to a university budget proposal",
+          "D": "To confirm a hotel reservation for April 24"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Mục đích văn bản (Main Idea)",
+            "signal": "Câu đầu tiên thông báo đề xuất của cô Nakamura đã được chọn trao Học bổng Kỹ thuật Xanh."
+          },
+          "translation": {
+            "questionVi": "Mục đích chính của bức thư là gì?",
+            "optionsVi": {
+              "A": "Thông báo rằng một ứng viên đã giành được học bổng nghiên cứu",
+              "B": "Tuyển kỹ sư thành phố cho hội nghị ở Boston",
+              "C": "Yêu cầu chỉnh sửa đề xuất ngân sách đại học",
+              "D": "Xác nhận đặt phòng khách sạn ngày 24/4"
+            }
+          },
+          "proof": {
+            "explanation": "Giám đốc tài trợ báo tin đề xuất của cô Nakamura 'has been chosen for this year's Green Engineering Fellowship'.",
+            "evidenceQuote": "I am thrilled to inform you that your proposal on permeable urban pavements has been chosen for this year's Green Engineering Fellowship.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s6-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'chosen for this year's Green Engineering Fellowship' = won a research fellowship.",
+            "B": "Loại — Bẫy lặp từ 'municipal engineers' và 'Boston'.",
+            "C": "Loại — Không yêu cầu sửa ngân sách.",
+            "D": "Loại — Khách sạn chỉ là chi tiết phụ của tiệc trao giải."
+          },
+          "keyTakeaways": {
+            "formula": "has been chosen for [Fellowship/Award] ↔ has won a fellowship",
+            "commonTrap": "Lấy chi tiết nhỏ ở cuối thư (Boston / hotel) làm ý chính.",
+            "paraphrases": [
+              {
+                "textInPassage": "has been chosen for this year's Green Engineering Fellowship",
+                "textInAnswer": "has won a research fellowship",
+                "meaningVi": "đã giành được học bổng nghiên cứu"
+              }
+            ]
+          },
+          "applyRule": "Mục đích chính của thư trang trọng luôn xuất hiện ngay câu mở đầu sau 'I am writing / thrilled to inform you that...'."
+        }
+      },
+      {
+        "id": "p7-s6-q2",
+        "questionNumber": 159,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What must Ms. Nakamura submit in order to receive the second grant payment?",
+        "options": {
+          "A": "A signed fellowship agreement",
+          "B": "A letter of support from the bursar office",
+          "C": "Receipts from her flight to Boston",
+          "D": "A mid-project progress report"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết điều kiện (Detail)",
+            "signal": "Tìm từ 'remainder' (= second payment) ở đoạn 2."
+          },
+          "translation": {
+            "questionVi": "Cô Nakamura phải nộp gì để nhận đợt giải ngân tài trợ thứ hai?",
+            "optionsVi": {
+              "A": "Bản thỏa thuận học bổng đã ký",
+              "B": "Thư xác nhận từ phòng tài vụ",
+              "C": "Hóa đơn vé máy bay đi Boston",
+              "D": "Báo cáo tiến độ giữa dự án"
+            }
+          },
+          "proof": {
+            "explanation": "Đợt hai ('the remainder in November') được giải ngân sau khi nhận 'mid-project progress summary' (báo cáo tiến độ giữa kỳ).",
+            "evidenceQuote": "the remainder in November upon receipt of your mid-project progress summary.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s6-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy sai mục đích: bản thỏa thuận dùng để chấp nhận học bổng trước 28/3.",
+            "B": "Loại — Phòng tài vụ chỉ là nơi nhận tiền giải ngân.",
+            "C": "Loại — Quỹ tự chi trả vé máy bay và không yêu cầu nộp hóa đơn để giải ngân đợt 2.",
+            "D": "ĐÚNG — 'mid-project progress summary' = mid-project progress report."
+          },
+          "keyTakeaways": {
+            "formula": "the remainder = the second payment | progress summary = progress report",
+            "commonTrap": "Bẫy (A) lấy đúng giấy tờ có thật trong bài nhưng sai giai đoạn (chấp nhận giải vs nhận đợt 2).",
+            "paraphrases": [
+              {
+                "textInPassage": "the remainder ... upon receipt of your mid-project progress summary",
+                "textInAnswer": "receive the second grant payment ... mid-project progress report",
+                "meaningVi": "nhận đợt tiền thứ hai sau khi nộp báo cáo tiến độ giữa kỳ"
+              }
+            ]
+          },
+          "applyRule": "Khi bài chia 2 giai đoạn (first / remainder), luôn đọc kỹ điều kiện gắn riêng cho từng đợt."
+        }
+      },
+      {
+        "id": "p7-s6-q3",
+        "questionNumber": 160,
+        "questionType": "Điền câu [1][2][3][4]",
+        "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"These funds may be used for laboratory materials, sensor equipment, and undergraduate research assistants.\"",
+        "options": {
+          "A": "[1]",
+          "B": "[2]",
+          "C": "[3]",
+          "D": "[4]"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chèn câu [1][2][3][4] qua từ quy chiếu 'These funds'",
+            "signal": "Cụm 'These funds' bắt buộc đứng ngay sau câu giới thiệu khoản tiền '$15,000 research grant' tại [3]."
+          },
+          "translation": {
+            "questionVi": "Câu \"Khoản quỹ này có thể được sử dụng cho vật tư phòng thí nghiệm, thiết bị cảm biến và trợ lý nghiên cứu bậc đại học\" phù hợp nhất ở vị trí nào?",
+            "optionsVi": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            }
+          },
+          "proof": {
+            "explanation": "Trước [3] là câu đầu tiên trong thư nhắc đến tiền tài trợ ('$15,000 research grant') → 'These funds' phải bám ngay sau đó tại [3] để giải thích hạng mục được chi tiêu.",
+            "evidenceQuote": "The fellowship carries a $15,000 research grant disbursed directly to your university's bursar office in two equal installments... — [3] —.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s6-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Trước [1] chưa hề nhắc đến khoản tiền tài trợ nào nên 'These funds' bị lạc lõng.",
+            "B": "Loại — Trước [2] nói về 180 hồ sơ và kế hoạch thử nghiệm thực địa, chưa có tiền.",
+            "C": "ĐÚNG — 'These funds' quy chiếu chính xác '$15,000 research grant' ngay trước [3].",
+            "D": "Loại — Trước [4] nói về tiệc trao giải ở Boston và vé máy bay."
+          },
+          "keyTakeaways": {
+            "formula": "$15,000 research grant → These funds may be used for...",
+            "commonTrap": "Bỏ qua cụm chỉ định 'These funds' dẫn tới chọn nhầm [1] hoặc [2].",
+            "paraphrases": [
+              {
+                "textInPassage": "a $15,000 research grant",
+                "textInAnswer": "These funds",
+                "meaningVi": "khoản tiền tài trợ nghiên cứu này"
+              }
+            ]
+          },
+          "applyRule": "Câu chèn bắt đầu bằng 'These funds / This fee / That equipment' → vị trí đúng 100% nằm ngay sau câu lần đầu giới thiệu danh từ đó."
+        }
+      },
+      {
+        "id": "p7-s6-q4",
+        "questionNumber": 161,
+        "questionType": "Từ đồng nghĩa (Vocab in Context)",
+        "prompt": "In paragraph 2, the word \"covered\" is closest in meaning to",
+        "options": {
+          "A": "hidden",
+          "B": "reported",
+          "C": "protected",
+          "D": "paid for"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Từ vựng trong ngữ cảnh (Vocab in Context)",
+            "signal": "'round-trip airfare and two nights of hotel lodging fully covered by the foundation' → được quỹ chi trả toàn bộ."
+          },
+          "translation": {
+            "questionVi": "Trong đoạn 2, từ \"covered\" gần nghĩa nhất với từ nào?",
+            "optionsVi": {
+              "A": "hidden: bị che giấu",
+              "B": "reported: được đưa tin",
+              "C": "protected: được bảo vệ",
+              "D": "paid for: được chi trả / đài thọ"
+            }
+          },
+          "proof": {
+            "explanation": "Trong ngữ cảnh chi phí đi lại ('round-trip airfare and two nights of hotel lodging fully covered by the foundation'), 'covered' mang nghĩa 'được chi trả' = 'paid for'.",
+            "evidenceQuote": "with round-trip airfare and two nights of hotel lodging fully covered by the foundation.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s6-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Nghĩa đen che phủ/che giấu sai ngữ cảnh tài chính.",
+            "B": "Loại — Nghĩa báo chí ('cover a story') không khớp với vé máy bay và khách sạn.",
+            "C": "Loại — Nghĩa bảo vệ không hợp với 'airfare'.",
+            "D": "ĐÚNG — 'expenses covered by X' = paid for by X."
+          },
+          "keyTakeaways": {
+            "formula": "cover (expenses / airfare / lodging) = pay for (chi trả, đài thọ)",
+            "commonTrap": "Chọn nghĩa đen quen thuộc nhất ('hidden / protected') mà không thay thử vào câu gốc.",
+            "paraphrases": [
+              {
+                "textInPassage": "airfare and hotel lodging fully covered",
+                "textInAnswer": "paid for",
+                "meaningVi": "được chi trả toàn bộ chi phí"
+              }
+            ]
+          },
+          "applyRule": "Luôn thay trực tiếp 4 đáp án vào vị trí từ gốc trong câu để kiểm tra độ tự nhiên về nghĩa."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-07",
+    "title": "Single 7: Thông báo Bảo dưỡng Hệ thống Cấp nước Tòa nhà Văn phòng",
+    "passageCountType": "single",
+    "topic": "Quản lý Tòa nhà (Notice + Loại trừ NOT)",
+    "passages": [
+      {
+        "id": "p7-s7-doc1",
+        "tabLabel": "Building Notice",
+        "genre": "Notice",
+        "title": "NOTICE — Scheduled Water-Main Valve Replacement",
+        "headerMeta": [
+          {
+            "label": "Building",
+            "value": "Crestwood Financial Plaza"
+          },
+          {
+            "label": "Issued By",
+            "value": "Facilities Engineering Office"
+          },
+          {
+            "label": "Date",
+            "value": "July 2"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-s7-p1",
+            "sentences": [
+              {
+                "id": "p7-s7-s1",
+                "en": "To prevent future pipe leaks, licensed plumbers will replace the primary water-main shutoff valve in the basement mechanical room on Saturday, July 12, between 6:00 A.M. and 1:00 P.M.",
+                "vi": "Nhằm ngăn ngừa rò rỉ đường ống trong tương lai, thợ ống nước có chứng chỉ sẽ thay van khóa đường ống nước chính tại phòng kỹ thuật tầng hầm vào thứ Bảy, ngày 12/7, từ 6:00 sáng đến 1:00 chiều."
+              },
+              {
+                "id": "p7-s7-s2",
+                "en": "During this seven-hour maintenance window, running water will be completely shut off in all restrooms, break-room sinks, and drinking fountains on floors one through twelve.",
+                "vi": "Trong khung giờ bảo trì bảy tiếng này, nước máy sẽ bị cắt hoàn toàn tại toàn bộ nhà vệ sinh, bồn rửa phòng nghỉ và vòi nước uống từ tầng một đến tầng mười hai."
+              }
+            ]
+          },
+          {
+            "id": "p7-s7-p2",
+            "sentences": [
+              {
+                "id": "p7-s7-s3",
+                "en": "Electrical power, elevators, high-speed Internet, and the building's air-conditioning system will remain fully operational throughout Saturday. However, the ground-floor café has elected to remain closed until Sunday morning.",
+                "vi": "Nguồn điện, thang máy, Internet tốc độ cao và hệ thống điều hòa của tòa nhà vẫn sẽ hoạt động bình thường suốt thứ Bảy. Tuy nhiên, quán cà phê tầng trệt đã quyết định đóng cửa cho tới sáng Chủ nhật."
+              },
+              {
+                "id": "p7-s7-s4",
+                "en": "Tenants planning to work inside the building on July 12 are asked to bring bottled water and use the portable restroom facilities stationed beside the east parking entrance. After water service resumes at 1:00 P.M., please run kitchen faucets for two minutes to clear any harmless air bubbles from the pipes.",
+                "vi": "Khách thuê dự định làm việc trong tòa nhà ngày 12/7 được đề nghị mang theo nước đóng chai và sử dụng khu nhà vệ sinh lưu động đặt cạnh cổng bãi đỗ phía đông. Sau khi cấp nước trở lại lúc 1:00 chiều, vui lòng xả vòi bếp trong hai phút để đẩy bọt khí vô hại ra khỏi đường ống."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s7-q1",
+        "questionNumber": 162,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "What is the notice mainly about?",
+        "options": {
+          "A": "A temporary interruption of building water service",
+          "B": "A permanent closure of the ground-floor café",
+          "C": "The installation of new basement air-conditioning units",
+          "D": "A change in Saturday parking garage access hours"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Ý chính thông báo (Main Idea)",
+            "signal": "Tiêu đề & đoạn 1 thông báo thay van nước chính khiến nước cắt tạm thời từ 6h sáng đến 1h chiều thứ Bảy."
+          },
+          "translation": {
+            "questionVi": "Thông báo chủ yếu nói về điều gì?",
+            "optionsVi": {
+              "A": "Việc tạm ngưng dịch vụ cấp nước của tòa nhà",
+              "B": "Việc đóng cửa vĩnh viễn quán cà phê tầng trệt",
+              "C": "Việc lắp đặt hệ thống điều hòa tầng hầm mới",
+              "D": "Sự thay đổi giờ ra vào nhà xe ngày thứ Bảy"
+            }
+          },
+          "proof": {
+            "explanation": "Toàn bộ thông báo xoay quanh việc thay van đường ống nước chính và cắt nước 7 tiếng ngày 12/7.",
+            "evidenceQuote": "During this seven-hour maintenance window, running water will be completely shut off in all restrooms, break-room sinks, and drinking fountains",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s7-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'seven-hour maintenance window, running water will be completely shut off' = temporary interruption of water service.",
+            "B": "Loại — Quán cà phê chỉ đóng ngày thứ Bảy tới sáng Chủ nhật, không phải vĩnh viễn.",
+            "C": "Loại — Điều hòa vẫn hoạt động bình thường, không lắp mới.",
+            "D": "Loại — Không nhắc đổi giờ mở bãi đỗ xe."
+          },
+          "keyTakeaways": {
+            "formula": "shut off during a seven-hour window ↔ temporary interruption",
+            "commonTrap": "Bẫy (B) phóng đại 'closed until Sunday' thành 'permanent closure'.",
+            "paraphrases": [
+              {
+                "textInPassage": "running water will be completely shut off",
+                "textInAnswer": "temporary interruption of building water service",
+                "meaningVi": "tạm ngưng dịch vụ cấp nước tòa nhà"
+              }
+            ]
+          },
+          "applyRule": "Luôn cảnh giác các từ cực đoan ('permanent', 'only', 'never') trong đáp án sai của Part 7."
+        }
+      },
+      {
+        "id": "p7-s7-q2",
+        "questionNumber": 163,
+        "questionType": "Loại trừ (NOT/TRUE)",
+        "prompt": "Which building service is NOT mentioned as remaining available during the maintenance?",
+        "options": {
+          "A": "Elevators",
+          "B": "Air conditioning",
+          "C": "The ground-floor café",
+          "D": "High-speed Internet"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Câu hỏi loại trừ (NOT mentioned)",
+            "signal": "Đối chiếu danh sách dịch vụ hoạt động bình thường ở đầu đoạn 2."
+          },
+          "translation": {
+            "questionVi": "Dịch vụ nào của tòa nhà KHÔNG được nêu là vẫn khả dụng trong lúc bảo trì?",
+            "optionsVi": {
+              "A": "Thang máy",
+              "B": "Hệ thống điều hòa",
+              "C": "Quán cà phê tầng trệt",
+              "D": "Internet tốc độ cao"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 liệt kê điện, thang máy (A), Internet tốc độ cao (D) và điều hòa (B) hoạt động bình thường; riêng quán cà phê tầng trệt (C) đóng cửa tới sáng Chủ nhật.",
+            "evidenceQuote": "Electrical power, elevators, high-speed Internet, and the building's air-conditioning system will remain fully operational throughout Saturday. However, the ground-floor café has elected to remain closed until Sunday morning.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s7-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại (CÓ hoạt động) — Được nêu trực tiếp ('elevators').",
+            "B": "Loại (CÓ hoạt động) — Được nêu trực tiếp ('air-conditioning system').",
+            "C": "ĐÚNG (KHÔNG hoạt động) — Quán cà phê chọn đóng cửa tới sáng Chủ nhật.",
+            "D": "Loại (CÓ hoạt động) — Được nêu trực tiếp ('high-speed Internet')."
+          },
+          "keyTakeaways": {
+            "formula": "Gặp câu NOT: gạch bỏ nhanh 3 phương án nằm trong danh sách liệt kê 'A, B, C, and D will remain operational'.",
+            "commonTrap": "Đọc sót chữ 'NOT' in hoa rồi chọn ngay đáp án đầu tiên có mặt trong bài.",
+            "paraphrases": [
+              {
+                "textInPassage": "elected to remain closed",
+                "textInAnswer": "NOT remaining available",
+                "meaningVi": "quyết định đóng cửa / không khả dụng"
+              }
+            ]
+          },
+          "applyRule": "Với câu hỏi NOT/TRUE, luôn kiểm tra câu bắt đầu bằng 'However' đứng ngay sau danh sách liệt kê — ngoại lệ hay nằm đúng chỗ đó!"
+        }
+      },
+      {
+        "id": "p7-s7-q3",
+        "questionNumber": 164,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What are tenants advised to do after 1:00 P.M. on Saturday?",
+        "options": {
+          "A": "Report any low water pressure to the basement office",
+          "B": "Avoid using restrooms on floors one through twelve",
+          "C": "Return unused bottled water to the security desk",
+          "D": "Let kitchen taps flow briefly to remove trapped air"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết mốc thời gian (Detail)",
+            "signal": "Tìm mốc 'After water service resumes at 1:00 P.M.' ở câu cuối bài."
+          },
+          "translation": {
+            "questionVi": "Khách thuê được khuyên làm gì sau 1:00 chiều thứ Bảy?",
+            "optionsVi": {
+              "A": "Báo cáo áp lực nước yếu cho phòng kỹ thuật tầng hầm",
+              "B": "Tránh dùng nhà vệ sinh từ tầng một đến tầng mười hai",
+              "C": "Trả nước đóng chai chưa dùng cho quầy bảo vệ",
+              "D": "Xả vòi nước nhà bếp một lúc để đẩy khí đọng ra ngoài"
+            }
+          },
+          "proof": {
+            "explanation": "Câu cuối hướng dẫn sau 1:00 chiều hãy mở vòi bếp chạy 2 phút để đẩy bọt khí vô hại khỏi đường ống ('run kitchen faucets for two minutes to clear any harmless air bubbles').",
+            "evidenceQuote": "After water service resumes at 1:00 P.M., please run kitchen faucets for two minutes to clear any harmless air bubbles from the pipes.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s7-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc báo áp lực nước yếu.",
+            "B": "Loại — Sai mốc thời gian: nhà vệ sinh chỉ cắt nước TRƯỚC 1:00 chiều.",
+            "C": "Loại — Khách tự mang nước đóng chai, không mượn từ quầy bảo vệ.",
+            "D": "ĐÚNG — 'run kitchen faucets for two minutes' = let kitchen taps flow briefly; 'clear air bubbles' = remove trapped air."
+          },
+          "keyTakeaways": {
+            "formula": "faucets (Mỹ) ↔ taps (Anh) | for two minutes ↔ briefly | clear air bubbles ↔ remove trapped air",
+            "commonTrap": "Không biết từ đồng nghĩa kinh điển 'faucet = tap' (vòi nước).",
+            "paraphrases": [
+              {
+                "textInPassage": "run kitchen faucets for two minutes to clear any harmless air bubbles",
+                "textInAnswer": "let kitchen taps flow briefly to remove trapped air",
+                "meaningVi": "xả vòi bếp một lúc để đẩy khí đọng trong ống"
+              }
+            ]
+          },
+          "applyRule": "Nắm chắc cặp từ vựng Anh–Mỹ hay paraphrase trong TOEIC: faucet ↔ tap, elevator ↔ lift, schedule ↔ timetable."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-08",
+    "title": "Single 8: Bản ghi nhớ Chương trình Đề cử Sáng kiến Tiết kiệm Chi phí",
+    "passageCountType": "single",
+    "topic": "Nội bộ Doanh nghiệp (Memo + Loại trừ NOT)",
+    "passages": [
+      {
+        "id": "p7-s8-doc1",
+        "tabLabel": "Internal Memo",
+        "genre": "Memo",
+        "title": "MEMORANDUM — Annual Operational Efficiency Challenge",
+        "headerMeta": [
+          {
+            "label": "To",
+            "value": "All Full-Time and Part-Time Staff"
+          },
+          {
+            "label": "From",
+            "value": "Executive Operations Council"
+          },
+          {
+            "label": "Date",
+            "value": "January 20"
+          },
+          {
+            "label": "Subject",
+            "value": "Call for Cost-Saving & Workflow Improvement Proposals"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-s8-p1",
+            "sentences": [
+              {
+                "id": "p7-s8-s1",
+                "en": "To encourage fresh thinking from every corner of our organization, the Executive Operations Council is launching the third annual Operational Efficiency Challenge.",
+                "vi": "Nhằm khuyến khích tư duy mới mẻ từ mọi bộ phận trong tổ chức, Hội đồng Vận hành Điều hành chính thức phát động Thử thách Hiệu quả Vận hành thường niên lần thứ ba."
+              },
+              {
+                "id": "p7-s8-s2",
+                "en": "Individuals or cross-departmental teams of up to four employees may submit practical proposals that reduce packaging waste, automate repetitive data entry, or shorten customer order turnaround times.",
+                "vi": "Cá nhân hoặc các nhóm liên phòng ban tối đa bốn nhân viên có thể gửi đề xuất thực tế nhằm giảm rác thải bao bì, tự động hóa khâu nhập liệu lặp lại hoặc rút ngắn thời gian xử lý đơn hàng của khách."
+              }
+            ]
+          },
+          {
+            "id": "p7-s8-p2",
+            "sentences": [
+              {
+                "id": "p7-s8-s3",
+                "en": "All entries must include a one-page implementation timeline and an estimated twelve-month savings forecast, and must be uploaded to the Ideas Hub intranet portal by Friday, February 21. Please note that proposals involving changes to employee benefits or salary structures are outside the scope of this contest.",
+                "vi": "Mọi bài dự thi phải kèm lộ trình triển khai dài một trang và dự báo tiết kiệm ước tính trong mười hai tháng, đồng thời phải được tải lên cổng nội bộ Ideas Hub chậm nhất thứ Sáu, ngày 21/2. Xin lưu ý rằng các đề xuất liên quan tới thay đổi phúc lợi hoặc cơ cấu lương nhân viên nằm ngoài phạm vi cuộc thi này."
+              },
+              {
+                "id": "p7-s8-s4",
+                "en": "Five finalist teams will present live ten-minute pitches to senior leadership on March 14. The winning proposal will receive $10,000 in departmental funding to pilot the project, along with a $1,000 cash bonus shared among the winning authors and an extra paid day off.",
+                "vi": "Năm nhóm vào chung kết sẽ thuyết trình trực tiếp mười phút trước ban lãnh đạo cấp cao vào ngày 14/3. Đề xuất chiến thắng sẽ nhận 10.000 đô la ngân sách phòng ban để chạy thí điểm dự án, cùng khoản thưởng tiền mặt 1.000 đô la chia cho các tác giả chiến thắng và một ngày nghỉ có lương bổ sung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s8-q1",
+        "questionNumber": 165,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Who is eligible to enter the Operational Efficiency Challenge?",
+        "options": {
+          "A": "Only department managers with two years of tenure",
+          "B": "External supply-chain consultants",
+          "C": "Any employee, either alone or in a group of up to four",
+          "D": "Full-time headquarters employees only"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết đối tượng (Detail)",
+            "signal": "Kết hợp dòng 'To: All Full-Time and Part-Time Staff' và đoạn 1."
+          },
+          "translation": {
+            "questionVi": "Ai đủ điều kiện tham gia Thử thách Hiệu quả Vận hành?",
+            "optionsVi": {
+              "A": "Chỉ các trưởng phòng có hai năm thâm niên",
+              "B": "Các chuyên gia tư vấn chuỗi cung ứng bên ngoài",
+              "C": "Bất kỳ nhân viên nào, cá nhân hoặc nhóm tối đa bốn người",
+              "D": "Chỉ nhân viên toàn thời gian tại trụ sở chính"
+            }
+          },
+          "proof": {
+            "explanation": "Memo gửi cho cả nhân viên toàn thời gian lẫn bán thời gian, và câu 2 ghi rõ cá nhân hoặc nhóm liên phòng ban tối đa 4 người đều được nộp đề xuất.",
+            "evidenceQuote": "Individuals or cross-departmental teams of up to four employees may submit practical proposals",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s8-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không giới hạn chỉ trưởng phòng.",
+            "B": "Loại — Đây là cuộc thi nội bộ cho nhân viên.",
+            "C": "ĐÚNG — 'Individuals or ... teams of up to four employees' = either alone or in a group of up to four.",
+            "D": "Loại — Bẫy nói ngược phần Header: dòng To ghi rõ cả Full-Time VÀ Part-Time Staff."
+          },
+          "keyTakeaways": {
+            "formula": "Individuals or teams of up to four ↔ alone or in a group of up to four",
+            "commonTrap": "Bẫy (D) bỏ sót cụm 'and Part-Time' ngay dòng To của Memo.",
+            "paraphrases": [
+              {
+                "textInPassage": "Individuals or cross-departmental teams of up to four employees",
+                "textInAnswer": "any employee, either alone or in a group of up to four",
+                "meaningVi": "bất kỳ nhân viên nào, cá nhân hoặc nhóm tối đa 4 người"
+              }
+            ]
+          },
+          "applyRule": "Luôn kiểm tra dòng 'To:' ở đầu Memo để xác minh chính xác đối tượng tham gia (full-time vs part-time)."
+        }
+      },
+      {
+        "id": "p7-s8-q2",
+        "questionNumber": 166,
+        "questionType": "Loại trừ (NOT/TRUE)",
+        "prompt": "Which proposal topic is NOT eligible for the competition?",
+        "options": {
+          "A": "Cutting down on excess packaging materials",
+          "B": "Speeding up customer order fulfillment",
+          "C": "Automating routine data-entry tasks",
+          "D": "Revising employee compensation packages"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Câu hỏi loại trừ (NOT eligible)",
+            "signal": "Tìm cụm 'outside the scope of this contest' ở đoạn 2."
+          },
+          "translation": {
+            "questionVi": "Chủ đề đề xuất nào KHÔNG đủ điều kiện dự thi?",
+            "optionsVi": {
+              "A": "Cắt giảm vật liệu bao bì dư thừa",
+              "B": "Đẩy nhanh tốc độ hoàn tất đơn hàng khách",
+              "C": "Tự động hóa tác vụ nhập liệu thường nhật",
+              "D": "Điều chỉnh gói lương thưởng và phúc lợi nhân viên"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 loại trừ rõ 'proposals involving changes to employee benefits or salary structures are outside the scope of this contest' → gói lương thưởng/phúc lợi ('compensation packages') không hợp lệ.",
+            "evidenceQuote": "Please note that proposals involving changes to employee benefits or salary structures are outside the scope of this contest.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s8-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại (Hợp lệ) — Paraphrase của 'reduce packaging waste'.",
+            "B": "Loại (Hợp lệ) — Paraphrase của 'shorten customer order turnaround times'.",
+            "C": "Loại (Hợp lệ) — Paraphrase của 'automate repetitive data entry'.",
+            "D": "ĐÚNG (KHÔNG hợp lệ) — 'employee benefits or salary structures' = employee compensation packages."
+          },
+          "keyTakeaways": {
+            "formula": "outside the scope of = not eligible for | benefits or salary structures = compensation packages",
+            "commonTrap": "Không nhận ra phép paraphrase từ 'benefits or salary structures' sang 'compensation packages'.",
+            "paraphrases": [
+              {
+                "textInPassage": "changes to employee benefits or salary structures are outside the scope",
+                "textInAnswer": "revising employee compensation packages (NOT eligible)",
+                "meaningVi": "sửa đổi lương thưởng phúc lợi không nằm trong phạm vi cuộc thi"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Please note that ... outside the scope / excluded / ineligible' → 99% là đáp án cho câu hỏi NOT!"
+        }
+      },
+      {
+        "id": "p7-s8-q3",
+        "questionNumber": 167,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What must be submitted by February 21?",
+        "options": {
+          "A": "A ten-minute recorded video presentation",
+          "B": "A signed approval letter from a vice president",
+          "C": "A completed departmental pilot report",
+          "D": "A written proposal with a timeline and annual savings projection"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết hạn nộp (Detail)",
+            "signal": "Tìm mốc 'February 21' ở đầu đoạn 2."
+          },
+          "translation": {
+            "questionVi": "Cần nộp những gì chậm nhất ngày 21/2?",
+            "optionsVi": {
+              "A": "Video thuyết trình ghi hình sẵn dài mười phút",
+              "B": "Thư phê duyệt có chữ ký của phó chủ tịch",
+              "C": "Báo cáo hoàn tất chạy thí điểm cấp phòng ban",
+              "D": "Đề xuất kèm lộ trình triển khai và dự báo tiết kiệm hàng năm"
+            }
+          },
+          "proof": {
+            "explanation": "Trước ngày 21/2, mọi bài dự thi phải gồm 'a one-page implementation timeline and an estimated twelve-month savings forecast'.",
+            "evidenceQuote": "All entries must include a one-page implementation timeline and an estimated twelve-month savings forecast, and must be uploaded to the Ideas Hub intranet portal by Friday, February 21.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s8-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy sai thời điểm & hình thức: thuyết trình 10 phút là trình bày TRỰC TIẾP ('live') vào 14/3 cho 5 nhóm chung kết.",
+            "B": "Loại — Không yêu cầu chữ ký phó chủ tịch.",
+            "C": "Loại — Chạy thí điểm chỉ diễn ra sau khi có đội thắng cuộc.",
+            "D": "ĐÚNG — 'twelve-month savings forecast' = annual savings projection."
+          },
+          "keyTakeaways": {
+            "formula": "twelve-month forecast ↔ annual projection",
+            "commonTrap": "Bẫy (A) trộn mốc thuyết trình 10 phút (14/3) vào hạn nộp bài (21/2).",
+            "paraphrases": [
+              {
+                "textInPassage": "an estimated twelve-month savings forecast",
+                "textInAnswer": "annual savings projection",
+                "meaningVi": "dự báo mức tiết kiệm hàng năm"
+              }
+            ]
+          },
+          "applyRule": "Quy đổi mốc thời gian ngay trong đầu: twelve-month = annual = yearly; semiannual = twice a year."
+        }
+      },
+      {
+        "id": "p7-s8-q4",
+        "questionNumber": 168,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is suggested about the $10,000 award?",
+        "options": {
+          "A": "It is distributed as personal cash bonuses to the five finalist teams.",
+          "B": "It can only be spent before March 14.",
+          "C": "It replaces the winners' extra paid vacation day.",
+          "D": "It is earmarked to test the winning idea in practice."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận phân biệt 2 khoản tiền (Inference)",
+            "signal": "Phân biệt $10,000 (ngân sách phòng ban để chạy thí điểm) và $1,000 (tiền thưởng cá nhân)."
+          },
+          "translation": {
+            "questionVi": "Điều gì được ngụ ý về khoản giải thưởng 10.000 đô la?",
+            "optionsVi": {
+              "A": "Được chia làm tiền thưởng cá nhân cho cả năm nhóm chung kết.",
+              "B": "Chỉ được chi tiêu trước ngày 14/3.",
+              "C": "Thay thế cho ngày nghỉ phép có lương bổ sung của người thắng.",
+              "D": "Được dành riêng để thử nghiệm thực tế ý tưởng chiến thắng."
+            }
+          },
+          "proof": {
+            "explanation": "Bài nêu rõ '$10,000 in departmental funding to pilot the project' — tức khoản tiền này dùng để chạy thí điểm ('test in practice') dự án đoạt giải, khác với khoản $1,000 thưởng cá nhân.",
+            "evidenceQuote": "The winning proposal will receive $10,000 in departmental funding to pilot the project, along with a $1,000 cash bonus shared among the winning authors",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s8-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy tráo số tiền: $1,000 mới là tiền mặt thưởng riêng cho các tác giả thắng cuộc.",
+            "B": "Loại — Ngày 14/3 mới thi chung kết để chọn người thắng.",
+            "C": "Loại — 'along with' nghĩa là ĐƯỢC TẶNG KÈM, không phải thay thế.",
+            "D": "ĐÚNG — 'departmental funding to pilot the project' = earmarked to test the winning idea in practice."
+          },
+          "keyTakeaways": {
+            "formula": "pilot a project = test an idea in practice | along with = in addition to (không phải instead of)",
+            "commonTrap": "Bẫy tráo 2 con số đứng cạnh nhau ($10,000 vs $1,000) cực kinh điển của ETS!",
+            "paraphrases": [
+              {
+                "textInPassage": "departmental funding to pilot the project",
+                "textInAnswer": "earmarked to test the winning idea in practice",
+                "meaningVi": "dành riêng để thử nghiệm thực tế ý tưởng đoạt giải"
+              }
+            ]
+          },
+          "applyRule": "Thấy 2 con số tiền nằm chung một câu ($10,000 và $1,000) → khoanh tròn rõ mục đích từng số để né bẫy tráo đối tượng."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-09",
+    "title": "Single 9: Quảng cáo Dịch vụ Kho Tự quản Doanh nghiệp (Có Bảng giá & Quyền lợi)",
+    "passageCountType": "single",
+    "topic": "Kho vận & Dịch vụ (Advertisement + Price Table)",
+    "passages": [
+      {
+        "id": "p7-s9-doc1",
+        "tabLabel": "Advertisement",
+        "genre": "Advertisement",
+        "title": "VaultBox Business Storage — Smart Space for Growing Teams",
+        "headerMeta": [
+          {
+            "label": "Location",
+            "value": "850 Commerce Parkway (10 minutes from Downtown)"
+          },
+          {
+            "label": "Website",
+            "value": "www.vaultboxstorage.com"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Plan",
+            "Unit Size",
+            "Monthly Rate",
+            "Included Perks"
+          ],
+          "rows": [
+            {
+              "id": "p7-s9-r1",
+              "cells": [
+                "Archive Compact",
+                "5 x 10 ft",
+                "$95",
+                "Climate control, keypad entry"
+              ],
+              "viNote": "Gói Archive Compact: 5x10 ft — $95/tháng — Kiểm soát nhiệt ẩm, mở bằng mã số"
+            },
+            {
+              "id": "p7-s9-r2",
+              "cells": [
+                "Retail Standard",
+                "10 x 15 ft",
+                "$180",
+                "Climate control, keypad entry, parcel reception"
+              ],
+              "viNote": "Gói Retail Standard: 10x15 ft — $180/tháng — Thêm dịch vụ nhận bưu kiện hộ"
+            },
+            {
+              "id": "p7-s9-r3",
+              "cells": [
+                "Enterprise Suite",
+                "10 x 25 ft",
+                "$275",
+                "All above + 24/7 loading-dock & forklift access"
+              ],
+              "viNote": "Gói Enterprise Suite: 10x25 ft — $275/tháng — Thêm bến bốc hàng & xe nâng 24/7"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-s9-p1",
+            "sentences": [
+              {
+                "id": "p7-s9-s1",
+                "en": "Running out of room for archived tax files, seasonal retail stock, or trade-show displays? VaultBox Business Storage offers secure, humidity-regulated units designed specifically for local merchants and professional offices.",
+                "vi": "Bạn đang thiếu không gian cho hồ sơ thuế lưu trữ, hàng bán lẻ theo mùa hay vật phẩm triển lãm? VaultBox Business Storage cung cấp các kho riêng an toàn, điều hòa độ ẩm được thiết kế riêng cho chủ cửa hàng địa phương và văn phòng chuyên nghiệp."
+              },
+              {
+                "id": "p7-s9-s2",
+                "en": "Every facility features twenty-four-hour HD video monitoring, individually alarmed unit doors, and complimentary heavy-duty flatbed carts. Customers who sign a twelve-month agreement receive their first month completely free plus one complimentary commercial van rental on move-in day.",
+                "vi": "Mọi cơ sở đều được trang bị giám sát video HD 24/7, cửa kho có chuông báo động riêng và xe đẩy hàng tải nặng miễn phí. Khách hàng ký hợp đồng mười hai tháng được miễn phí hoàn toàn tháng đầu tiên cùng một lượt thuê xe tải thương mại miễn phí vào ngày chuyển đồ."
+              },
+              {
+                "id": "p7-s9-s3",
+                "en": "All leases are otherwise month-to-month with zero hidden administrative fees. Call 555-0148 before August 31 to reserve a unit and lock in current rates for one full year.",
+                "vi": "Các hợp đồng khác đều linh hoạt theo từng tháng mà không có phí hành chính ẩn. Gọi 555-0148 trước ngày 31/8 để giữ kho và chốt mức giá hiện tại trong trọn một năm."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s9-q1",
+        "questionNumber": 169,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "Who is the primary target audience for this advertisement?",
+        "options": {
+          "A": "University students storing dormitory furniture",
+          "B": "Real estate agents staging luxury homes",
+          "C": "Freight trucking companies looking for overnight parking",
+          "D": "Commercial tenants and small businesses needing extra space"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Đối tượng mục tiêu quảng cáo (Main Idea)",
+            "signal": "Tiêu đề 'VaultBox Business Storage' & câu 1 'designed specifically for local merchants and professional offices'."
+          },
+          "translation": {
+            "questionVi": "Đối tượng khách hàng mục tiêu chính của quảng cáo này là ai?",
+            "optionsVi": {
+              "A": "Sinh viên đại học gửi nội thất ký túc xá",
+              "B": "Nhân viên bất động sản dàn dựng nhà cao cấp",
+              "C": "Công ty xe tải tìm chỗ đậu xe qua đêm",
+              "D": "Các doanh nghiệp và hộ kinh doanh cần thêm không gian lưu trữ"
+            }
+          },
+          "proof": {
+            "explanation": "Quảng cáo ghi rõ 'designed specifically for local merchants and professional offices' để chứa hồ sơ thuế, hàng bán lẻ và đồ triển lãm.",
+            "evidenceQuote": "designed specifically for local merchants and professional offices.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s9-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc tới sinh viên.",
+            "B": "Loại — Không nhắc môi giới bất động sản.",
+            "C": "Loại — Chỉ có bến bốc hàng, không phải bãi đậu xe tải qua đêm.",
+            "D": "ĐÚNG — 'local merchants and professional offices' = commercial tenants and small businesses."
+          },
+          "keyTakeaways": {
+            "formula": "local merchants and professional offices ↔ small businesses and commercial tenants",
+            "commonTrap": "Thấy từ 'loading-dock' dễ suy diễn sang bãi đậu xe tải (C).",
+            "paraphrases": [
+              {
+                "textInPassage": "local merchants and professional offices",
+                "textInAnswer": "commercial tenants and small businesses",
+                "meaningVi": "doanh nghiệp và cửa hàng nhỏ"
+              }
+            ]
+          },
+          "applyRule": "Hỏi 'target audience' của quảng cáo → đọc tiêu đề và câu sau cụm 'designed specifically for / tailored to'."
+        }
+      },
+      {
+        "id": "p7-s9-q2",
+        "questionNumber": 170,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "According to the table, what is the lowest monthly rate that includes parcel reception?",
+        "options": {
+          "A": "$95",
+          "B": "$180",
+          "C": "$275",
+          "D": "$370"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Đọc bảng giá (Detail)",
+            "signal": "Tra cột 'Included Perks' tìm gói đầu tiên có 'parcel reception'."
+          },
+          "translation": {
+            "questionVi": "Theo bảng, mức giá hàng tháng thấp nhất có kèm dịch vụ nhận bưu kiện là bao nhiêu?",
+            "optionsVi": {
+              "A": "$95",
+              "B": "$180",
+              "C": "$275",
+              "D": "$370"
+            }
+          },
+          "proof": {
+            "explanation": "Gói $95 (Archive Compact) chỉ có kiểm soát nhiệt ẩm & mã số; gói Retail Standard ($180) là gói giá thấp nhất bắt đầu có 'parcel reception'.",
+            "evidenceQuote": "Retail Standard | 10 x 15 ft | $180 | Climate control, keypad entry, parcel reception",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s9-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Gói $95 không gồm dịch vụ nhận bưu kiện.",
+            "B": "ĐÚNG — Retail Standard ($180/tháng) là mức rẻ nhất có 'parcel reception'.",
+            "C": "Loại — Gói $275 cũng có nhưng không phải mức THẤP NHẤT.",
+            "D": "Loại — Không tồn tại mức giá này trong bảng."
+          },
+          "keyTakeaways": {
+            "formula": "Chú ý so sánh nhất ('lowest / cheapest') khi đối chiếu bảng giá nhiều gói.",
+            "commonTrap": "Chọn nhầm gói thấp nhất ($95) mà quên kiểm tra cột quyền lợi, hoặc chọn gói cao nhất ($275).",
+            "paraphrases": [
+              {
+                "textInPassage": "Retail Standard — $180 — parcel reception",
+                "textInAnswer": "lowest monthly rate that includes parcel reception",
+                "meaningVi": "mức giá thấp nhất có nhận bưu kiện hộ"
+              }
+            ]
+          },
+          "applyRule": "Đọc bảng giá có câu hỏi 'lowest/minimum rate for feature X' → dò từ dòng trên xuống, dừng ở dòng ĐẦU TIÊN có X."
+        }
+      },
+      {
+        "id": "p7-s9-q3",
+        "questionNumber": 171,
+        "questionType": "Loại trừ (NOT/TRUE)",
+        "prompt": "Which feature is NOT included with all storage plans?",
+        "options": {
+          "A": "Climate control",
+          "B": "24-hour video surveillance",
+          "C": "Forklift access",
+          "D": "Free flatbed carts"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Câu hỏi loại trừ kết hợp bảng & đoạn văn (NOT included)",
+            "signal": "So sánh bảng (chỉ Enterprise Suite mới có forklift access) với các tiện ích chung của 'Every facility'."
+          },
+          "translation": {
+            "questionVi": "Tiện ích nào KHÔNG đi kèm với tất cả các gói kho lưu trữ?",
+            "optionsVi": {
+              "A": "Kiểm soát nhiệt độ & độ ẩm",
+              "B": "Giám sát video 24 giờ",
+              "C": "Quyền sử dụng xe nâng",
+              "D": "Xe đẩy sàn phẳng miễn phí"
+            }
+          },
+          "proof": {
+            "explanation": "Cả 3 gói đều có Climate control (A), và đoạn văn khẳng định mọi cơ sở đều có video HD 24/7 (B) và xe đẩy miễn phí (D). Riêng 'forklift access' (C) chỉ dành riêng cho gói cao nhất Enterprise Suite ($275).",
+            "evidenceQuote": "Every facility features twenty-four-hour HD video monitoring, individually alarmed unit doors, and complimentary heavy-duty flatbed carts.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s9-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Có ở cả 3 gói trong bảng ('Climate control' + 'All above').",
+            "B": "Loại — Có ở mọi cơ sở ('twenty-four-hour HD video monitoring').",
+            "C": "ĐÚNG — Chỉ gói Enterprise Suite ($275) mới có 'forklift access'.",
+            "D": "Loại — Miễn phí ở mọi cơ sở ('complimentary heavy-duty flatbed carts')."
+          },
+          "keyTakeaways": {
+            "formula": "video monitoring ↔ video surveillance | complimentary ↔ free",
+            "commonTrap": "Không kiểm tra đồng thời cả cột bảng lẫn câu 'Every facility features...'.",
+            "paraphrases": [
+              {
+                "textInPassage": "twenty-four-hour HD video monitoring",
+                "textInAnswer": "24-hour video surveillance",
+                "meaningVi": "giám sát video 24 giờ"
+              }
+            ]
+          },
+          "applyRule": "Với câu 'NOT included with ALL plans', nhìn ngay vào quyền lợi độc quyền ở dòng gói cao cấp nhất trong bảng!"
+        }
+      },
+      {
+        "id": "p7-s9-q4",
+        "questionNumber": 172,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is indicated about customers who commit to a one-year contract?",
+        "options": {
+          "A": "They must pay a one-time administrative setup fee.",
+          "B": "They must reserve their unit before August 1.",
+          "C": "They are automatically upgraded to an Enterprise Suite.",
+          "D": "They receive complimentary use of a moving van on their move-in date."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận & Paraphrase (Inference)",
+            "signal": "'twelve-month agreement' = 'one-year contract' ở câu 2 đoạn 1."
+          },
+          "translation": {
+            "questionVi": "Điều gì được chỉ ra về khách hàng cam kết hợp đồng một năm?",
+            "optionsVi": {
+              "A": "Họ phải trả một lần phí hành chính thiết lập.",
+              "B": "Họ phải đặt kho trước ngày 1/8.",
+              "C": "Họ tự động được nâng cấp lên gói Enterprise Suite.",
+              "D": "Họ được sử dụng miễn phí xe tải chuyển đồ vào ngày dọn vào."
+            }
+          },
+          "proof": {
+            "explanation": "Khách ký hợp đồng 12 tháng ('sign a twelve-month agreement') được miễn phí tháng đầu VÀ 'one complimentary commercial van rental on move-in day'.",
+            "evidenceQuote": "Customers who sign a twelve-month agreement receive their first month completely free plus one complimentary commercial van rental on move-in day.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s9-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Nói ngược: 'zero hidden administrative fees'.",
+            "B": "Loại — Hạn ưu đãi chốt giá là August 31, không phải August 1.",
+            "C": "Loại — Không nhắc tự động nâng hạng gói.",
+            "D": "ĐÚNG — 'one complimentary commercial van rental on move-in day' = complimentary use of a moving van on their move-in date."
+          },
+          "keyTakeaways": {
+            "formula": "twelve-month agreement ↔ one-year contract | commercial van rental ↔ use of a moving van",
+            "commonTrap": "Bẫy đổi ngày 'August 31' thành 'August 1' ở (B).",
+            "paraphrases": [
+              {
+                "textInPassage": "sign a twelve-month agreement ... complimentary commercial van rental",
+                "textInAnswer": "commit to a one-year contract ... complimentary use of a moving van",
+                "meaningVi": "ký hợp đồng 1 năm được mượn xe tải chuyển đồ miễn phí"
+              }
+            ]
+          },
+          "applyRule": "Mỗi khi đề hỏi 'one-year contract', hãy lập tức quét trong bài cụm 'twelve-month agreement / annual lease'."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-10",
+    "title": "Single 10: Trang web Khóa Đào tạo Phân tích Dữ liệu Doanh nghiệp (Có Bảng Lịch & Học phí)",
+    "passageCountType": "single",
+    "topic": "Đào tạo Trực tuyến (Web Page + Schedule Table)",
+    "passages": [
+      {
+        "id": "p7-s10-doc1",
+        "tabLabel": "Web Page",
+        "genre": "Web Page",
+        "title": "SkillBridge Academy — Applied Business Analytics Certificate",
+        "headerMeta": [
+          {
+            "label": "URL",
+            "value": "https://www.skillbridge-academy.edu/analytics"
+          },
+          {
+            "label": "Format",
+            "value": "Live Online Evening Classes + Recorded Replays"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Cohort",
+            "Dates",
+            "Schedule (EST)",
+            "Tuition"
+          ],
+          "rows": [
+            {
+              "id": "p7-s10-r1",
+              "cells": [
+                "Autumn A",
+                "Sept 9 – Oct 29",
+                "Tue & Thu, 7:00–9:00 P.M.",
+                "$890"
+              ],
+              "viNote": "Khóa Thu A: 9/9–29/10, Thứ 3 & 5 tối (19h–21h), học phí $890"
+            },
+            {
+              "id": "p7-s10-r2",
+              "cells": [
+                "Autumn B",
+                "Oct 7 – Nov 26",
+                "Mon & Wed, 6:30–8:30 P.M.",
+                "$890"
+              ],
+              "viNote": "Khóa Thu B: 7/10–26/11, Thứ 2 & 4 tối (18h30–20h30), học phí $890"
+            },
+            {
+              "id": "p7-s10-r3",
+              "cells": [
+                "Weekend Intensive",
+                "Nov 8 – Dec 14",
+                "Sat & Sun, 9:00 A.M.–1:00 P.M.",
+                "$950"
+              ],
+              "viNote": "Khóa Cuối tuần cấp tốc: 8/11–14/12, Thứ 7 & CN sáng, học phí $950"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-s10-p1",
+            "sentences": [
+              {
+                "id": "p7-s10-s1",
+                "en": "Designed for working professionals in marketing, finance, and operations, our eight-week Applied Business Analytics Certificate teaches participants how to clean corporate datasets, build interactive dashboards, and forecast sales trends using spreadsheet automation and SQL.",
+                "vi": "Được thiết kế cho người đi làm trong lĩnh vực tiếp thị, tài chính và vận hành, Chứng chỉ Phân tích Dữ liệu Kinh doanh Ứng dụng kéo dài tám tuần dạy học viên cách làm sạch tập dữ liệu doanh nghiệp, xây dựng bảng điều khiển tương tác và dự báo xu hướng doanh số bằng tự động hóa bảng tính và SQL."
+              },
+              {
+                "id": "p7-s10-s2",
+                "en": "No prior coding background is required, though applicants should feel comfortable working with basic spreadsheet formulas. Every live session is recorded and uploaded to the student portal within three hours so busy learners never fall behind.",
+                "vi": "Không yêu cầu nền tảng lập trình trước đó, dù học viên nên quen thuộc với các công thức bảng tính cơ bản. Mọi buổi học trực tiếp đều được ghi hình và tải lên cổng học viên trong vòng ba giờ để người bận rộn không bao giờ bị tụt lại."
+              },
+              {
+                "id": "p7-s10-s3",
+                "en": "Tuition includes all software sandboxes, real-world retail case studies, and one-on-one portfolio coaching with industry mentors. Organizations enrolling three or more employees in the same calendar year qualify for a 15 percent group tuition discount. Full refunds are granted for withdrawal requests submitted at least five business days before a cohort begins.",
+                "vi": "Học phí đã bao gồm toàn bộ môi trường phần mềm thực hành, tình huống bán lẻ thực tế và hướng dẫn hồ sơ dự án 1-kèm-1 cùng cố vấn ngành. Các tổ chức đăng ký từ ba nhân viên trở lên trong cùng năm dương lịch đủ điều kiện giảm 15% học phí nhóm. Hoàn học phí 100% cho các yêu cầu rút lui gửi trước ngày khai giảng ít nhất năm ngày làm việc."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s10-q1",
+        "questionNumber": 173,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What is stated about applicants to the certificate program?",
+        "options": {
+          "A": "They must have at least two years of SQL programming experience.",
+          "B": "They must purchase commercial analytics software separately.",
+          "C": "They are required to attend every live class without exception.",
+          "D": "They do not need previous computer programming skills."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết điều kiện đầu vào (Detail)",
+            "signal": "Đọc câu 1 đoạn 2: 'No prior coding background is required'."
+          },
+          "translation": {
+            "questionVi": "Điều gì được nêu về người đăng ký chương trình chứng chỉ?",
+            "optionsVi": {
+              "A": "Phải có ít nhất hai năm kinh nghiệm lập trình SQL.",
+              "B": "Phải mua riêng phần mềm phân tích thương mại.",
+              "C": "Bắt buộc dự mọi buổi học trực tiếp không ngoại lệ.",
+              "D": "Không cần kỹ năng lập trình máy tính trước đó."
+            }
+          },
+          "proof": {
+            "explanation": "Trang web ghi rõ 'No prior coding background is required' (không cần nền tảng lập trình trước đó).",
+            "evidenceQuote": "No prior coding background is required, though applicants should feel comfortable working with basic spreadsheet formulas.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s10-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Nói ngược hoàn toàn với 'No prior coding background is required'.",
+            "B": "Loại — Nói ngược: học phí đã bao gồm toàn bộ môi trường phần mềm thực hành ('includes all software sandboxes').",
+            "C": "Loại — Nói ngược: mọi buổi đều được ghi hình tải lên trong 3 giờ cho người bận rộn xem lại.",
+            "D": "ĐÚNG — 'prior coding background' = previous computer programming skills."
+          },
+          "keyTakeaways": {
+            "formula": "prior coding background ↔ previous computer programming skills",
+            "commonTrap": "Ba phương án sai A, C, D đều là bẫy đảo ngược thông tin có thật trong bài.",
+            "paraphrases": [
+              {
+                "textInPassage": "No prior coding background is required",
+                "textInAnswer": "do not need previous computer programming skills",
+                "meaningVi": "không cần kỹ năng lập trình từ trước"
+              }
+            ]
+          },
+          "applyRule": "Coding = programming; software sandboxes included = không cần mua thêm phần mềm."
+        }
+      },
+      {
+        "id": "p7-s10-q2",
+        "questionNumber": 174,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Which cohort meets on Wednesday evenings?",
+        "options": {
+          "A": "Autumn A",
+          "B": "All three cohorts",
+          "C": "Weekend Intensive",
+          "D": "Autumn B"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tra cứu lịch học trong bảng (Detail)",
+            "signal": "Tra cột 'Schedule (EST)' tìm 'Wed' + 'P.M.'."
+          },
+          "translation": {
+            "questionVi": "Khóa học nào học vào tối thứ Tư?",
+            "optionsVi": {
+              "A": "Autumn A",
+              "B": "Cả ba khóa",
+              "C": "Weekend Intensive",
+              "D": "Autumn B"
+            }
+          },
+          "proof": {
+            "explanation": "Bảng ghi rõ khóa Autumn B học 'Mon & Wed, 6:30–8:30 P.M.' (tối thứ Hai và thứ Tư).",
+            "evidenceQuote": "Autumn B | Oct 7 – Nov 26 | Mon & Wed, 6:30–8:30 P.M. | $890",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s10-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Autumn A học thứ Ba & thứ Năm.",
+            "B": "Loại — Mỗi khóa có lịch ngày khác nhau.",
+            "C": "Loại — Weekend Intensive học sáng thứ Bảy & Chủ nhật.",
+            "D": "ĐÚNG — Mon & Wed, 6:30–8:30 P.M."
+          },
+          "keyTakeaways": {
+            "formula": "Wed, 6:30–8:30 P.M. ↔ Wednesday evenings",
+            "commonTrap": "Nhầm chữ viết tắt Tue (Tuesday) với Thu (Thursday) hoặc Wed (Wednesday).",
+            "paraphrases": [
+              {
+                "textInPassage": "Mon & Wed, 6:30–8:30 P.M.",
+                "textInAnswer": "meets on Wednesday evenings",
+                "meaningVi": "học vào các tối thứ Tư"
+              }
+            ]
+          },
+          "applyRule": "Tra bảng lịch học cần đọc chính xác 2 yếu tố: thứ trong tuần + A.M./P.M."
+        }
+      },
+      {
+        "id": "p7-s10-q3",
+        "questionNumber": 175,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "How can a company qualify for a tuition discount?",
+        "options": {
+          "A": "By registering at least three staff members within the same year",
+          "B": "By signing up exclusively for the Weekend Intensive cohort",
+          "C": "By paying in full five business days before classes start",
+          "D": "By supplying its own retail case studies to the mentors"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết chính sách ưu đãi (Detail)",
+            "signal": "Quét từ khóa 'discount' ở câu gần cuối đoạn văn."
+          },
+          "translation": {
+            "questionVi": "Một công ty có thể đủ điều kiện nhận giảm học phí bằng cách nào?",
+            "optionsVi": {
+              "A": "Đăng ký ít nhất ba nhân viên trong cùng một năm",
+              "B": "Chỉ đăng ký riêng khóa Cấp tốc Cuối tuần",
+              "C": "Thanh toán toàn bộ trước năm ngày làm việc trước khai giảng",
+              "D": "Tự cung cấp tình huống bán lẻ cho cố vấn"
+            }
+          },
+          "proof": {
+            "explanation": "Trang web nêu: 'Organizations enrolling three or more employees in the same calendar year qualify for a 15 percent group tuition discount.'",
+            "evidenceQuote": "Organizations enrolling three or more employees in the same calendar year qualify for a 15 percent group tuition discount.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s10-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'three or more employees in the same calendar year' = at least three staff members within the same year.",
+            "B": "Loại — Không yêu cầu chọn riêng khóa cuối tuần.",
+            "C": "Loại — Bẫy tráo ngữ cảnh: 'five business days before' là hạn hoàn tiền khi rút học, không phải hạn giảm giá.",
+            "D": "Loại — Tình huống bán lẻ do học viện cung cấp sẵn."
+          },
+          "keyTakeaways": {
+            "formula": "three or more ↔ at least three | organizations ↔ company",
+            "commonTrap": "Bẫy (C) kéo mốc 'five business days' từ câu hoàn tiền ngay sát cạnh sang câu giảm giá.",
+            "paraphrases": [
+              {
+                "textInPassage": "enrolling three or more employees in the same calendar year",
+                "textInAnswer": "registering at least three staff members within the same year",
+                "meaningVi": "đăng ký tối thiểu 3 nhân viên trong cùng năm"
+              }
+            ]
+          },
+          "applyRule": "Luôn đối chiếu đúng mệnh đề chứa từ khóa 'discount', không trộn mốc thời gian của câu hoàn tiền ('refund') kế bên."
+        }
+      },
+      {
+        "id": "p7-s10-q4",
+        "questionNumber": 176,
+        "questionType": "Loại trừ (NOT/TRUE)",
+        "prompt": "Which of the following is NOT included in the course tuition?",
+        "options": {
+          "A": "Access to practice software environments",
+          "B": "Individual feedback on project portfolios",
+          "C": "Printed hardcover textbooks shipped by mail",
+          "D": "Retail business case studies"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Câu hỏi loại trừ (NOT included)",
+            "signal": "Đối chiếu câu 'Tuition includes...' ở đầu đoạn cuối."
+          },
+          "translation": {
+            "questionVi": "Mục nào sau đây KHÔNG nằm trong học phí khóa học?",
+            "optionsVi": {
+              "A": "Quyền truy cập môi trường phần mềm thực hành",
+              "B": "Nhận xét cá nhân cho hồ sơ dự án",
+              "C": "Sách giáo khoa bìa cứng gửi qua đường bưu điện",
+              "D": "Các tình huống nghiên cứu kinh doanh bán lẻ"
+            }
+          },
+          "proof": {
+            "explanation": "Học phí bao gồm 'software sandboxes' (A), 'real-world retail case studies' (D) và 'one-on-one portfolio coaching' (B). Không hề đề cập sách bìa cứng gửi bưu điện (C).",
+            "evidenceQuote": "Tuition includes all software sandboxes, real-world retail case studies, and one-on-one portfolio coaching with industry mentors.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s10-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại (CÓ bao gồm) — Paraphrase của 'software sandboxes'.",
+            "B": "Loại (CÓ bao gồm) — Paraphrase của 'one-on-one portfolio coaching'.",
+            "C": "ĐÚNG (KHÔNG được nhắc tới) — Khóa học hoàn toàn trực tuyến, không nhắc gửi sách giấy qua bưu điện.",
+            "D": "Loại (CÓ bao gồm) — Paraphrase của 'real-world retail case studies'."
+          },
+          "keyTakeaways": {
+            "formula": "one-on-one coaching ↔ individual feedback | software sandboxes ↔ practice software environments",
+            "commonTrap": "Thấy cụm 'software sandboxes' lạ mắt tưởng không khớp với (A).",
+            "paraphrases": [
+              {
+                "textInPassage": "one-on-one portfolio coaching",
+                "textInAnswer": "individual feedback on project portfolios",
+                "meaningVi": "hướng dẫn nhận xét 1-kèm-1 về hồ sơ dự án"
+              }
+            ]
+          },
+          "applyRule": "Đếm đúng 3 mục liệt kê sau 'Tuition includes A, B, and C' → đáp án thứ 4 không nằm trong danh sách đó chính là đáp án NOT!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-11",
+    "title": "Single 11: Bài báo — Chuỗi Hiệu sách Độc lập Hồi sinh Nhờ Mô hình Câu lạc bộ Đọc sách",
+    "passageCountType": "single",
+    "topic": "Kinh doanh & Bán lẻ (Article + Vocab & Inference)",
+    "passages": [
+      {
+        "id": "p7-s11-doc1",
+        "tabLabel": "Business Article",
+        "genre": "Article",
+        "title": "Independent Bookseller Finds Growth Through Community Clubs",
+        "headerMeta": [
+          {
+            "label": "Publication",
+            "value": "Pacific Retail Gazette"
+          },
+          {
+            "label": "Byline",
+            "value": "By Sandra Holloway"
+          },
+          {
+            "label": "Date",
+            "value": "May 29"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-s11-p1",
+            "sentences": [
+              {
+                "id": "p7-s11-s1",
+                "en": "PORTLAND — Five years ago, when online megastores were squeezing independent bookshops out of business, founder Tessa Lind feared she would have to close her two neighborhood Lantern Books branches.",
+                "vi": "PORTLAND — Năm năm trước, khi các siêu thị trực tuyến lớn đang chèn ép các hiệu sách độc lập phải đóng cửa, nhà sáng lập Tessa Lind từng lo sợ bà sẽ phải đóng hai chi nhánh hiệu sách địa phương Lantern Books của mình."
+              },
+              {
+                "id": "p7-s11-s2",
+                "en": "Rather than competing solely on discounted prices, however, Ms. Lind transformed her stores into evening gathering spaces by launching subscription-based reading clubs focused on business leadership, regional history, and mystery fiction.",
+                "vi": "Tuy nhiên, thay vì chỉ cạnh tranh bằng giá chiết khấu, bà Lind đã biến các cửa hàng của mình thành không gian tụ họp buổi tối bằng cách ra mắt các câu lạc bộ đọc sách theo gói thành viên tập trung vào lãnh đạo kinh doanh, lịch sử khu vực và tiểu thuyết trinh thám."
+              }
+            ]
+          },
+          {
+            "id": "p7-s11-p2",
+            "sentences": [
+              {
+                "id": "p7-s11-s3",
+                "en": "For $28 a month, members receive one newly released hardcover title, reserved seating at monthly author talks, and a ten percent rebate on café beverages. Today, Lantern Books counts over 1,400 active subscribers, a steady revenue stream that helped the company open a third storefront in Eugene last April.",
+                "vi": "Với 28 đô la mỗi tháng, thành viên nhận được một cuốn sách bìa cứng mới phát hành, chỗ ngồi đặt trước tại các buổi trò chuyện tác giả hàng tháng và mức giảm giá mười phần trăm đồ uống quầy cà phê. Hiện nay, Lantern Books có hơn 1.400 hội viên đang hoạt động—nguồn doanh thu ổn định đã giúp công ty mở cửa hàng thứ ba tại Eugene vào tháng Tư năm ngoái."
+              },
+              {
+                "id": "p7-s11-s4",
+                "en": "\"Shoppers can order a novel anywhere with two clicks,\" Ms. Lind noted. \"What they cannot easily replicate online is the spark of discussing an unforgettable book over espresso with twenty neighbors.\" Industry observers say Lantern's model is now being studied by independent retailers across the Northwest.",
+                "vi": "\"Người mua có thể đặt một cuốn tiểu thuyết ở bất cứ đâu chỉ bằng hai cú nhấp chuột,\" bà Lind chia sẻ. \"Điều họ không dễ gì tái tạo trên mạng là cảm hứng khi thảo luận một cuốn sách khó quên bên tách espresso cùng hai mươi người hàng xóm.\" Giới quan sát ngành cho biết mô hình của Lantern hiện đang được các nhà bán lẻ độc lập trên khắp vùng Tây Bắc nghiên cứu."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s11-q1",
+        "questionNumber": 177,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "What is the article mainly about?",
+        "options": {
+          "A": "A bookstore chain that revived its business through membership events",
+          "B": "An online retailer acquiring independent bookshops in Oregon",
+          "C": "A drop in nationwide demand for hardcover mystery novels",
+          "D": "New municipal grants supporting historic downtown cafés"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Ý chính bài báo (Main Idea)",
+            "signal": "Tiêu đề và toàn bài kể cách Lantern Books vượt khó và mở rộng nhờ các câu lạc bộ đọc sách hội viên."
+          },
+          "translation": {
+            "questionVi": "Bài báo chủ yếu nói về điều gì?",
+            "optionsVi": {
+              "A": "Một chuỗi hiệu sách đã vực dậy kinh doanh thông qua các sự kiện hội viên",
+              "B": "Một nhà bán lẻ trực tuyến mua lại các hiệu sách độc lập ở Oregon",
+              "C": "Sự sụt giảm nhu cầu toàn quốc với tiểu thuyết trinh thám bìa cứng",
+              "D": "Các khoản tài trợ mới của thành phố hỗ trợ quán cà phê phố cổ"
+            }
+          },
+          "proof": {
+            "explanation": "Lantern Books từ nguy cơ đóng cửa đã tăng lên 1.400 hội viên và mở thêm chi nhánh thứ ba nhờ mô hình câu lạc bộ đọc sách theo gói tháng.",
+            "evidenceQuote": "Ms. Lind transformed her stores into evening gathering spaces by launching subscription-based reading clubs",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s11-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Tóm tắt trọn vẹn hành trình hồi sinh nhờ mô hình 'subscription-based reading clubs'.",
+            "B": "Loại — Không có thương vụ thâu tóm nào.",
+            "C": "Loại — Bài không nói nhu cầu truyện trinh thám giảm.",
+            "D": "Loại — Không nhắc tài trợ thành phố."
+          },
+          "keyTakeaways": {
+            "formula": "subscription-based reading clubs + author talks ↔ membership events",
+            "commonTrap": "Bẫy (B) lợi dụng chi tiết 'online megastores' ở câu 1 rồi bịa ra việc mua lại.",
+            "paraphrases": [
+              {
+                "textInPassage": "Finds Growth Through Community Clubs",
+                "textInAnswer": "revived its business through membership events",
+                "meaningVi": "vực dậy kinh doanh nhờ các sự kiện hội viên"
+              }
+            ]
+          },
+          "applyRule": "Kết hợp Tiêu đề bài báo + Câu 2 đoạn 1 để nắm chính xác luận điểm trung tâm."
+        }
+      },
+      {
+        "id": "p7-s11-q2",
+        "questionNumber": 178,
+        "questionType": "Từ đồng nghĩa (Vocab in Context)",
+        "prompt": "In paragraph 2, the word \"replicate\" is closest in meaning to",
+        "options": {
+          "A": "deliver",
+          "B": "advertise",
+          "C": "cancel",
+          "D": "reproduce"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Từ vựng ngữ cảnh (Vocab in Context)",
+            "signal": "'cannot easily replicate online' = không dễ tái tạo/sao chép lại trải nghiệm đó trên mạng."
+          },
+          "translation": {
+            "questionVi": "Trong đoạn 2, từ \"replicate\" gần nghĩa nhất với từ nào?",
+            "optionsVi": {
+              "A": "deliver: giao hàng",
+              "B": "advertise: quảng cáo",
+              "C": "cancel: hủy bỏ",
+              "D": "reproduce: tái tạo, sao chép lại"
+            }
+          },
+          "proof": {
+            "explanation": "Bà Lind so sánh: mua sách online rất dễ, nhưng cảm giác thảo luận sách bên ly cà phê cùng hàng xóm thì khó 'tái tạo' ('replicate' = 'reproduce') trên môi trường trực tuyến.",
+            "evidenceQuote": "What they cannot easily replicate online is the spark of discussing an unforgettable book over espresso with twenty neighbors.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s11-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không giao 'cảm hứng thảo luận'.",
+            "B": "Loại — Sai nghĩa ngữ cảnh.",
+            "C": "Loại — Sai nghĩa hoàn toàn.",
+            "D": "ĐÚNG — 'replicate' = 'reproduce / duplicate' (tái tạo, nhân bản lại)."
+          },
+          "keyTakeaways": {
+            "formula": "replicate = reproduce = duplicate (tái tạo / sao chép giống hệt)",
+            "commonTrap": "Thấy bối cảnh thương mại điện tử nên chọn nhầm 'deliver' (giao hàng).",
+            "paraphrases": [
+              {
+                "textInPassage": "cannot easily replicate online",
+                "textInAnswer": "reproduce",
+                "meaningVi": "khó tái tạo lại trên mạng"
+              }
+            ]
+          },
+          "applyRule": "Nhớ gốc từ 'replic-' (replica = bản sao) → 'replicate' luôn đồng nghĩa với 'reproduce / copy'."
+        }
+      },
+      {
+        "id": "p7-s11-q3",
+        "questionNumber": 179,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is inferred about Lantern Books' strategy?",
+        "options": {
+          "A": "It focuses on matching the lowest prices offered by online retailers.",
+          "B": "It plans to close its Portland branches after expanding to Eugene.",
+          "C": "It eliminated café service to make room for more bookshelves.",
+          "D": "It has inspired interest from other local shop owners in the region."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận (Inference)",
+            "signal": "Đọc câu cuối bài: 'Lantern's model is now being studied by independent retailers across the Northwest'."
+          },
+          "translation": {
+            "questionVi": "Điều gì có thể suy ra về chiến lược của Lantern Books?",
+            "optionsVi": {
+              "A": "Tập trung cạnh tranh mức giá thấp nhất của các trang bán hàng trực tuyến.",
+              "B": "Dự định đóng cửa các chi nhánh Portland sau khi mở rộng sang Eugene.",
+              "C": "Đã bỏ quầy cà phê để lấy chỗ đặt thêm kệ sách.",
+              "D": "Đã khơi dậy sự quan tâm từ các chủ cửa hàng địa phương khác trong khu vực."
+            }
+          },
+          "proof": {
+            "explanation": "Câu cuối nêu mô hình của Lantern đang được các nhà bán lẻ độc lập khắp vùng Tây Bắc nghiên cứu ('being studied by independent retailers across the Northwest') → suy ra chiến lược này thu hút sự quan tâm của các chủ cửa hàng địa phương khác.",
+            "evidenceQuote": "Industry observers say Lantern's model is now being studied by independent retailers across the Northwest.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s11-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Nói ngược: 'Rather than competing solely on discounted prices'.",
+            "B": "Loại — Eugene là cửa hàng THỨ BA ('a third storefront'), không đóng 2 cửa hàng cũ.",
+            "C": "Loại — Nói ngược: cửa hàng vẫn có quầy cà phê ('ten percent rebate on café beverages').",
+            "D": "ĐÚNG — 'being studied by independent retailers across the Northwest' = inspired interest from other local shop owners in the region."
+          },
+          "keyTakeaways": {
+            "formula": "being studied by independent retailers across the Northwest ↔ inspired interest from other local shop owners in the region",
+            "commonTrap": "Bẫy (A) bỏ quên cụm phủ định 'Rather than' ở đầu câu 2.",
+            "paraphrases": [
+              {
+                "textInPassage": "being studied by independent retailers across the Northwest",
+                "textInAnswer": "inspired interest from other local shop owners in the region",
+                "meaningVi": "thu hút sự quan tâm học hỏi từ các chủ tiệm địa phương trong vùng"
+              }
+            ]
+          },
+          "applyRule": "Mỗi câu cuối của bài báo kinh doanh thường chứa nhận định của 'industry observers / analysts' — là mỏ vàng cho câu hỏi Inference!"
+        }
+      },
+      {
+        "id": "p7-s11-q4",
+        "questionNumber": 180,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What benefit do club members receive for $28 per month?",
+        "options": {
+          "A": "Unlimited free espresso drinks",
+          "B": "Private one-on-one writing workshops",
+          "C": "Free shipping on all online novel orders",
+          "D": "One newly published hardcover book and event seating"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết quyền lợi gói tháng (Detail)",
+            "signal": "Quét mốc '$28 a month' ở đầu đoạn 2."
+          },
+          "translation": {
+            "questionVi": "Hội viên câu lạc bộ nhận được quyền lợi gì với mức 28 đô la mỗi tháng?",
+            "optionsVi": {
+              "A": "Đồ uống espresso miễn phí không giới hạn",
+              "B": "Lớp học viết lách riêng 1-kèm-1",
+              "C": "Miễn phí vận chuyển cho mọi đơn đặt tiểu thuyết trực tuyến",
+              "D": "Một cuốn sách bìa cứng mới xuất bản và chỗ ngồi dự sự kiện"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 liệt kê: 'one newly released hardcover title, reserved seating at monthly author talks, and a ten percent rebate on café beverages'.",
+            "evidenceQuote": "For $28 a month, members receive one newly released hardcover title, reserved seating at monthly author talks, and a ten percent rebate on café beverages.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s11-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy phóng đại: đồ uống chỉ giảm 10% ('ten percent rebate'), không miễn phí không giới hạn.",
+            "B": "Loại — Không nhắc lớp viết lách 1-kèm-1.",
+            "C": "Loại — Không nhắc miễn phí ship đơn online.",
+            "D": "ĐÚNG — 'newly released hardcover title' = newly published hardcover book; 'reserved seating at monthly author talks' = event seating."
+          },
+          "keyTakeaways": {
+            "formula": "newly released title ↔ newly published book | rebate = discount",
+            "commonTrap": "Bẫy (A) biến 'ten percent rebate' thành 'unlimited free'.",
+            "paraphrases": [
+              {
+                "textInPassage": "one newly released hardcover title, reserved seating at monthly author talks",
+                "textInAnswer": "one newly published hardcover book and event seating",
+                "meaningVi": "một sách bìa cứng mới ra và chỗ ngồi dự sự kiện"
+              }
+            ]
+          },
+          "applyRule": "Chú ý từ đồng nghĩa 'rebate = discount = price reduction', không phải 'free'!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-single-12",
+    "title": "Single 12: Phiếu Dịch vụ & Hóa đơn Hiệu chuẩn Thiết bị Phòng Thí nghiệm",
+    "passageCountType": "single",
+    "topic": "Kỹ thuật & Thanh toán (Invoice / Form + Vocab & Inference)",
+    "passages": [
+      {
+        "id": "p7-s12-doc1",
+        "tabLabel": "Service Invoice",
+        "genre": "Invoice / Form",
+        "title": "PrecisionLab Calibration Services — Service Summary & Invoice #PL-3091",
+        "headerMeta": [
+          {
+            "label": "Client",
+            "value": "Bayshore Diagnostics Lab (Attn: Dr. Alan Morales)"
+          },
+          {
+            "label": "Service Date",
+            "value": "August 14"
+          },
+          {
+            "label": "Payment Terms",
+            "value": "Net 30 Days (Due September 13)"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Equipment ID",
+            "Service Performed",
+            "Technician",
+            "Fee"
+          ],
+          "rows": [
+            {
+              "id": "p7-s12-r1",
+              "cells": [
+                "CENT-402",
+                "High-speed centrifuge speed calibration & rotor check",
+                "R. Kim",
+                "$320"
+              ],
+              "viNote": "Hiệu chuẩn tốc độ & kiểm tra rô-to máy ly tâm CENT-402 ($320)"
+            },
+            {
+              "id": "p7-s12-r2",
+              "cells": [
+                "SPEC-118",
+                "Spectrophotometer optical sensor alignment",
+                "R. Kim",
+                "$290"
+              ],
+              "viNote": "Căn chỉnh cảm biến quang học máy quang phổ SPEC-118 ($290)"
+            },
+            {
+              "id": "p7-s12-r3",
+              "cells": [
+                "INC-095",
+                "Thermal incubator seal replacement & temperature audit",
+                "J. Patel",
+                "$240"
+              ],
+              "viNote": "Thay gioăng & kiểm định nhiệt độ tủ ấm INC-095 ($240)"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-s12-p1",
+            "sentences": [
+              {
+                "id": "p7-s12-s1",
+                "en": "Subtotal: $850 | Multi-Unit Contract Discount (10%): -$85 | Total Amount Due: $765.",
+                "vi": "Tạm tính: 850 đô la | Chiết khấu hợp đồng nhiều thiết bị (10%): -85 đô la | Tổng tiền cần thanh toán: 765 đô la."
+              },
+              {
+                "id": "p7-s12-s2",
+                "en": "Technician Notes: All three instruments passed ISO accuracy tolerances following adjustment. Official compliance certificates have been uploaded to your client dashboard and remain valid for twelve months.",
+                "vi": "Ghi chú kỹ thuật viên: Cả ba thiết bị đều đạt ngưỡng chính xác ISO sau khi căn chỉnh. Giấy chứng nhận tuân thủ chính thức đã được tải lên bảng điều khiển khách hàng của quý vị và có hiệu lực trong mười hai tháng."
+              },
+              {
+                "id": "p7-s12-s3",
+                "en": "Please retain this invoice for your laboratory accreditation file. Accounts settled within ten days of the invoice date receive an additional 2 percent prompt-payment credit toward their next scheduled visit.",
+                "vi": "Vui lòng lưu giữ hóa đơn này cho hồ sơ kiểm định phòng thí nghiệm của quý vị. Các tài khoản thanh toán trong vòng mười ngày kể từ ngày xuất hóa đơn sẽ nhận thêm khoản tín dụng thanh toán sớm 2 phần trăm áp dụng cho lần bảo dưỡng định kỳ tiếp theo."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-s12-q1",
+        "questionNumber": 181,
+        "questionType": "Ý chính (Main Idea)",
+        "prompt": "What kind of company is PrecisionLab Calibration Services?",
+        "options": {
+          "A": "A medical software developer",
+          "B": "A university accreditation agency",
+          "C": "A wholesale supplier of hospital furniture",
+          "D": "A scientific equipment testing and maintenance firm"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Nhận diện loại hình doanh nghiệp (Main Idea)",
+            "signal": "Tên công ty 'Calibration Services' + 3 hạng mục hiệu chuẩn máy ly tâm, máy quang phổ, tủ ấm."
+          },
+          "translation": {
+            "questionVi": "PrecisionLab Calibration Services là loại hình công ty gì?",
+            "optionsVi": {
+              "A": "Công ty phát triển phần mềm y tế",
+              "B": "Cơ quan kiểm định trường đại học",
+              "C": "Nhà cung cấp sỉ nội thất bệnh viện",
+              "D": "Công ty kiểm định và bảo dưỡng thiết bị khoa học"
+            }
+          },
+          "proof": {
+            "explanation": "Hóa đơn ghi dịch vụ hiệu chuẩn máy ly tâm, căn chỉnh cảm biến máy quang phổ, thay gioăng tủ ấm và cấp chứng nhận đạt chuẩn ISO.",
+            "evidenceQuote": "All three instruments passed ISO accuracy tolerances following adjustment.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s12-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không bán hay lập trình phần mềm.",
+            "B": "Loại — Bẫy lặp từ 'accreditation': hóa đơn chỉ để khách lưu hồ sơ kiểm định phòng lab.",
+            "C": "Loại — Không bán nội thất bệnh viện.",
+            "D": "ĐÚNG — Chuyên hiệu chuẩn, kiểm định và bảo trì thiết bị phòng thí nghiệm."
+          },
+          "keyTakeaways": {
+            "formula": "calibration & seal replacement of lab instruments ↔ scientific equipment testing and maintenance",
+            "commonTrap": "Bẫy lặp từ 'accreditation' ở (B) kéo sai sang cơ quan cấp phép đại học.",
+            "paraphrases": [
+              {
+                "textInPassage": "Calibration Services ... instruments passed ISO accuracy tolerances",
+                "textInAnswer": "scientific equipment testing and maintenance firm",
+                "meaningVi": "công ty kiểm định & bảo dưỡng thiết bị khoa học"
+              }
+            ]
+          },
+          "applyRule": "Hỏi 'What kind of company is X?' → kết hợp tên công ty + cột 'Service Performed' trong bảng hóa đơn."
+        }
+      },
+      {
+        "id": "p7-s12-q2",
+        "questionNumber": 182,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Which piece of equipment was serviced by J. Patel?",
+        "options": {
+          "A": "CENT-402",
+          "B": "SPEC-118",
+          "C": "INC-095",
+          "D": "PL-3091"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tra cứu bảng (Detail)",
+            "signal": "Tra cột 'Technician' tìm tên 'J. Patel' và gióng sang cột 'Equipment ID'."
+          },
+          "translation": {
+            "questionVi": "Thiết bị nào được kỹ thuật viên J. Patel bảo dưỡng?",
+            "optionsVi": {
+              "A": "CENT-402",
+              "B": "SPEC-118",
+              "C": "INC-095",
+              "D": "PL-3091"
+            }
+          },
+          "proof": {
+            "explanation": "Dòng 3 của bảng ghi: Equipment ID 'INC-095' — Thermal incubator — Technician: 'J. Patel'.",
+            "evidenceQuote": "INC-095 | Thermal incubator seal replacement & temperature audit | J. Patel | $240",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s12-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Do R. Kim phụ trách.",
+            "B": "Loại — Do R. Kim phụ trách.",
+            "C": "ĐÚNG — Dòng INC-095 ghi rõ kỹ thuật viên J. Patel.",
+            "D": "Loại — PL-3091 là số hóa đơn, không phải mã thiết bị."
+          },
+          "keyTakeaways": {
+            "formula": "Gióng hàng ngang từ cột Technician sang cột Equipment ID.",
+            "commonTrap": "Bẫy (D) đưa mã hóa đơn 'PL-3091' vào trộn với mã thiết bị.",
+            "paraphrases": [
+              {
+                "textInPassage": "INC-095 ... J. Patel",
+                "textInAnswer": "INC-095",
+                "meaningVi": "tủ ấm INC-095 do J. Patel xử lý"
+              }
+            ]
+          },
+          "applyRule": "Luôn phân biệt rõ mã hóa đơn (Invoice #) với mã sản phẩm/thiết bị (Equipment ID) trong bảng biểu."
+        }
+      },
+      {
+        "id": "p7-s12-q3",
+        "questionNumber": 183,
+        "questionType": "Từ đồng nghĩa (Vocab in Context)",
+        "prompt": "In paragraph 1, the word \"settled\" is closest in meaning to",
+        "options": {
+          "A": "resolved",
+          "B": "installed",
+          "C": "relocated",
+          "D": "paid"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Từ vựng tài chính trong ngữ cảnh (Vocab in Context)",
+            "signal": "'Accounts settled within ten days of the invoice date' → các hóa đơn/tài khoản được thanh toán trong vòng 10 ngày."
+          },
+          "translation": {
+            "questionVi": "Trong đoạn cuối, từ \"settled\" gần nghĩa nhất với từ nào?",
+            "optionsVi": {
+              "A": "resolved: được giải quyết (tranh chấp)",
+              "B": "installed: được lắp đặt",
+              "C": "relocated: được di dời chỗ ở",
+              "D": "paid: được thanh toán"
+            }
+          },
+          "proof": {
+            "explanation": "Đi với 'Accounts' và cụm 'prompt-payment credit' ngay vế sau, 'settle an account / invoice' là thuật ngữ tài chính có nghĩa 'thanh toán đầy đủ' = 'paid'.",
+            "evidenceQuote": "Accounts settled within ten days of the invoice date receive an additional 2 percent prompt-payment credit",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s12-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy nghĩa 'settle a dispute' (giải quyết tranh chấp), không hợp với 'prompt-payment credit'.",
+            "B": "Loại — Sai nghĩa.",
+            "C": "Loại — Nghĩa định cư sai hoàn toàn ngữ cảnh hóa đơn.",
+            "D": "ĐÚNG — 'settle an account/bill' = 'pay an account/bill'."
+          },
+          "keyTakeaways": {
+            "formula": "settle an account / invoice / balance = pay in full (thanh toán dứt điểm)",
+            "commonTrap": "Rất nhiều thí sinh bị bẫy chọn (A) 'resolved' vì quen cụm 'settle a dispute' mà quên đọc cụm 'prompt-payment credit' ở vế sau!",
+            "paraphrases": [
+              {
+                "textInPassage": "Accounts settled within ten days",
+                "textInAnswer": "paid",
+                "meaningVi": "tài khoản/hóa đơn được thanh toán trong 10 ngày"
+              }
+            ]
+          },
+          "applyRule": "Trong hóa đơn/tài chính: 'settle' + account/invoice/bill LUÔN có nghĩa là 'pay' (thanh toán)."
+        }
+      },
+      {
+        "id": "p7-s12-q4",
+        "questionNumber": 184,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is suggested about Bayshore Diagnostics Lab?",
+        "options": {
+          "A": "Its compliance certificates will expire next August.",
+          "B": "It must pay $850 by September 13.",
+          "C": "It failed to qualify for a multi-unit discount.",
+          "D": "It will receive paper certificates by express courier."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận mốc thời gian (Inference)",
+            "signal": "Service Date = August 14 + chứng nhận có hiệu lực 12 tháng ('valid for twelve months') → hết hạn vào tháng 8 năm sau."
+          },
+          "translation": {
+            "questionVi": "Điều gì được gợi ý về Bayshore Diagnostics Lab?",
+            "optionsVi": {
+              "A": "Các giấy chứng nhận tuân thủ của họ sẽ hết hạn vào tháng Tám năm tới.",
+              "B": "Họ phải thanh toán 850 đô la trước ngày 13/9.",
+              "C": "Họ không đủ điều kiện hưởng chiết khấu nhiều thiết bị.",
+              "D": "Họ sẽ nhận chứng nhận bản giấy qua chuyển phát nhanh."
+            }
+          },
+          "proof": {
+            "explanation": "Ngày bảo dưỡng là August 14 và ghi chú kỹ thuật nêu giấy chứng nhận 'remain valid for twelve months' → tức sẽ hết hạn vào tháng Tám năm sau ('next August').",
+            "evidenceQuote": "Official compliance certificates have been uploaded to your client dashboard and remain valid for twelve months.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-s12-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — August 14 + twelve months = expire next August.",
+            "B": "Loại — Bẫy số tiền trước chiết khấu: số cần trả sau giảm 10% là $765, không phải $850.",
+            "C": "Loại — Nói ngược: đã được giảm $85 (10% Multi-Unit Contract Discount).",
+            "D": "Loại — Nói ngược: chứng nhận được tải bản điện tử lên 'client dashboard', không gửi giấy qua bưu điện."
+          },
+          "keyTakeaways": {
+            "formula": "Service Date (August 14) + valid for twelve months → expire next August",
+            "commonTrap": "Bẫy (B) dùng Subtotal ($850) thay vì Total Amount Due ($765)!",
+            "paraphrases": [
+              {
+                "textInPassage": "Service Date: August 14 ... remain valid for twelve months",
+                "textInAnswer": "will expire next August",
+                "meaningVi": "sẽ hết hạn vào tháng Tám năm sau"
+              }
+            ]
+          },
+          "applyRule": "Trên hóa đơn: luôn cộng ngày dịch vụ với thời hạn hiệu lực ('valid for 12 months') và phân biệt Subtotal với Total Due!"
+        }
+      }
+    ]
+  }
+]

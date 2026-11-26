@@ -1,0 +1,364 @@
+{
+  "id": "drill-p7-triple",
+  "part": 7,
+  "title": "Triple Passage — Tổng hợp 3 văn bản",
+  "subtitle": "Bộ 3 văn bản Lễ hội Sách (Bài báo + Bảng phí + Email) luyện tính tổng chi phí liên kết.",
+  "focusTag": "Triple Passage",
+  "part7": [
+    {
+      "id": "dp7-tr-1",
+      "title": "Triple Passage — Bài báo, Lịch hội chợ sách & Email đặt gian hàng",
+      "passageCountType": "triple",
+      "topic": "Triple Passage — Tổng hợp 3 văn bản liên kết",
+      "passages": [
+        {
+          "id": "dp7-tr-1-d1",
+          "tabLabel": "VB 1: Bài báo",
+          "genre": "Article",
+          "title": "Pacific Book Festival Moves to Harbor Pavilion",
+          "paragraphs": [
+            {
+              "id": "dp7-tr-1-d1-p1",
+              "sentences": [
+                {
+                  "id": "dp7-tr-1-d1-s1",
+                  "en": "After five record-breaking years at Civic Hall, the annual Pacific Book Festival will move to the larger Harbor Pavilion from September 19 to 21.",
+                  "vi": "Sau năm năm phá kỷ lục tại Civic Hall, Lễ hội Sách Thái Bình Dương thường niên sẽ dời sang Khu triển lãm Harbor Pavilion lớn hơn từ ngày 19 đến 21/9."
+                },
+                {
+                  "id": "dp7-tr-1-d1-s2",
+                  "en": "Organizers added a dedicated Independent Publishers Zone to spotlight small presses and regional authors.",
+                  "vi": "Ban tổ chức bổ sung Khu Nhà xuất bản Độc lập riêng biệt để tôn vinh các nhà xuất bản nhỏ và tác giả địa phương."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dp7-tr-1-d2",
+          "tabLabel": "VB 2: Bảng phí gian hàng",
+          "genre": "Schedule",
+          "title": "Harbor Pavilion Exhibitor Booths",
+          "tableData": {
+            "headers": [
+              "Zone",
+              "Booth Size",
+              "3-Day Fee",
+              "Included Perks"
+            ],
+            "rows": [
+              {
+                "id": "dp7-tr-1-r1",
+                "cells": [
+                  "Main Hall",
+                  "3m × 3m",
+                  "$900",
+                  "2 staff passes"
+                ]
+              },
+              {
+                "id": "dp7-tr-1-r2",
+                "cells": [
+                  "Independent Zone",
+                  "2m × 2m",
+                  "$450",
+                  "2 staff passes + Author Stage slot"
+                ]
+              },
+              {
+                "id": "dp7-tr-1-r3",
+                "cells": [
+                  "Children's Corner",
+                  "2m × 3m",
+                  "$600",
+                  "2 staff passes + Craft table"
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "id": "dp7-tr-1-d2-p1",
+              "sentences": [
+                {
+                  "id": "dp7-tr-1-d2-s1",
+                  "en": "Extra exhibitor staff badges cost $35 each. Full booth payment is due August 15.",
+                  "vi": "Thẻ nhân sự gian hàng mua thêm có giá 35 đô mỗi chiếc. Thanh toán toàn bộ phí gian hàng hạn chót ngày 15/8."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dp7-tr-1-d3",
+          "tabLabel": "VB 3: Email đăng ký",
+          "genre": "Email",
+          "title": "Exhibitor Application — Pinewood Small Press",
+          "headerMeta": [
+            {
+              "label": "From",
+              "value": "Gina Morales, Editor"
+            },
+            {
+              "label": "To",
+              "value": "booths@pacificbookfest.org"
+            },
+            {
+              "label": "Date",
+              "value": "August 5"
+            }
+          ],
+          "paragraphs": [
+            {
+              "id": "dp7-tr-1-d3-p1",
+              "sentences": [
+                {
+                  "id": "dp7-tr-1-d3-s1",
+                  "en": "Pinewood Small Press would like to book one booth in the new zone created specifically for small publishers.",
+                  "vi": "Nhà xuất bản nhỏ Pinewood muốn đặt một gian hàng tại khu vực mới lập dành riêng cho các nhà xuất bản nhỏ."
+                },
+                {
+                  "id": "dp7-tr-1-d3-s2",
+                  "en": "Three of our editors will staff the booth over the weekend, so we will need one additional exhibitor badge.",
+                  "vi": "Ba biên tập viên của chúng tôi sẽ trực gian hàng cuối tuần, nên chúng tôi cần thêm một thẻ nhân sự gian hàng bổ sung."
+                },
+                {
+                  "id": "dp7-tr-1-d3-s3",
+                  "en": "Also, our mystery novelist Liam Park would love to sign up for the included author reading slot on Saturday afternoon.",
+                  "vi": "Ngoài ra, tiểu thuyết gia trinh thám Liam Park của chúng tôi rất muốn đăng ký suất đọc sách tác giả đi kèm vào chiều thứ Bảy."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-tr-1-q1",
+          "questionNumber": 1,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Why did the Pacific Book Festival relocate this year?",
+          "options": {
+            "A": "Civic Hall closed permanently.",
+            "B": "Attendance outgrew the previous venue.",
+            "C": "Parking fees doubled.",
+            "D": "The dates moved to winter."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết suy luận nhẹ ở VB 1",
+              "signal": "VB1 s1: 'five record-breaking years at Civic Hall -> move to the larger Harbor Pavilion'."
+            },
+            "translation": {
+              "questionVi": "Tại sao dời địa điểm?",
+              "optionsVi": {
+                "A": "Civic Hall đóng vĩnh viễn",
+                "B": "Lượng khách tăng vượt sức chứa nơi cũ",
+                "C": "Phí đỗ xe tăng đôi",
+                "D": "Đổi sang mùa đông"
+              }
+            },
+            "proof": {
+              "explanation": "Cần địa điểm lớn hơn ('larger Harbor Pavilion') sau 5 năm phá kỷ lục.",
+              "evidenceQuote": "After five record-breaking years at Civic Hall, the annual Pacific Book Festival will move to the larger Harbor Pavilion",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-tr-1-d1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Suy luận trực tiếp từ 'record-breaking' + 'larger'",
+              "commonTrap": "Suy diễn Civic Hall đóng cửa.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-tr-1-q2",
+          "questionNumber": 2,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "How much will Pinewood Small Press pay in total?",
+          "options": {
+            "A": "$450",
+            "B": "$485",
+            "C": "$635",
+            "D": "$935"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Tổng hợp cả 3 văn bản + Tính cộng đơn giản!",
+              "signal": "VB1+VB3: đặt 'Independent Zone' ($450, gồm 2 thẻ). VB3 s2: cần thêm 1 thẻ bổ sung (+$35 ở VB2 s1). Tổng = $450 + $35 = $485!"
+            },
+            "translation": {
+              "questionVi": "Tổng số tiền Pinewood phải trả?",
+              "optionsVi": {
+                "A": "$450 (chưa cộng thẻ thêm)",
+                "B": "$485 ($450 + $35)",
+                "C": "$635",
+                "D": "$935"
+              }
+            },
+            "proof": {
+              "explanation": "Booth Independent Zone ($450) + 1 extra badge ($35) = $485.",
+              "evidenceQuote": "Extra exhibitor staff badges cost $35 each",
+              "evidencePassageIndex": 1,
+              "evidenceSentenceId": "dp7-tr-1-d2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: Quên cộng $35 thẻ thứ 3!",
+              "B": "Đúng: $450 + $35 = $485.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Câu tính tiền Triple Passage: Giá gói cơ bản + Phụ phí ở VB3!",
+              "commonTrap": "Cực dễ chọn $450 vì quên đọc câu thêm 1 thẻ ở VB3.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-tr-1-q3",
+          "questionNumber": 3,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "What size booth is Pinewood Small Press reserving?",
+          "options": {
+            "A": "2m × 2m",
+            "B": "2m × 3m",
+            "C": "3m × 3m",
+            "D": "4m × 4m"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Liên kết VB 3 -> VB 2",
+              "signal": "Independent Zone trong bảng VB2 có kích thước 2m × 2m."
+            },
+            "translation": {
+              "questionVi": "Kích thước gian hàng?",
+              "optionsVi": {
+                "A": "2m × 2m",
+                "B": "2m × 3m",
+                "C": "3m × 3m",
+                "D": "4m × 4m"
+              }
+            },
+            "proof": {
+              "explanation": "Tra hàng Independent Zone trên bảng VB2 -> 2m × 2m.",
+              "evidenceQuote": "book one booth in the new zone created specifically for small publishers",
+              "evidencePassageIndex": 2,
+              "evidenceSentenceId": "dp7-tr-1-d3-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Tra đúng hàng Independent Zone",
+              "commonTrap": "Nhầm kích thước sang hàng Children's Corner.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-tr-1-q4",
+          "questionNumber": 4,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "By what date must Gina Morales submit full payment?",
+          "options": {
+            "A": "August 5",
+            "B": "August 15",
+            "C": "September 19",
+            "D": "September 21"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết VB 2 (s1)",
+              "signal": "VB2 s1: 'Full booth payment is due August 15'."
+            },
+            "translation": {
+              "questionVi": "Hạn chót thanh toán?",
+              "optionsVi": {
+                "A": "5/8 (ngày gửi mail)",
+                "B": "15/8",
+                "C": "19/9 (ngày khai mạc)",
+                "D": "21/9"
+              }
+            },
+            "proof": {
+              "explanation": "Hạn nộp toàn bộ tiền là 15/8.",
+              "evidenceQuote": "Full booth payment is due August 15",
+              "evidencePassageIndex": 1,
+              "evidenceSentenceId": "dp7-tr-1-d2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Phân biệt ngày viết thư (Aug 5) và hạn thanh toán (Aug 15)",
+              "commonTrap": "Chọn nhầm ngày gửi email.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-tr-1-q5",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Who is Liam Park?",
+          "options": {
+            "A": "The festival director",
+            "B": "A mystery author published by Pinewood",
+            "C": "A Harbor Pavilion technician",
+            "D": "A children's book illustrator"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết VB 3 (s3)",
+              "signal": "VB3 s3: 'our mystery novelist Liam Park'."
+            },
+            "translation": {
+              "questionVi": "Liam Park là ai?",
+              "optionsVi": {
+                "A": "Giám đốc lễ hội",
+                "B": "Tác giả tiểu thuyết trinh thám của Pinewood",
+                "C": "Kỹ thuật viên",
+                "D": "Họa sĩ sách thiếu nhi"
+              }
+            },
+            "proof": {
+              "explanation": "novelist = author.",
+              "evidenceQuote": "our mystery novelist Liam Park",
+              "evidencePassageIndex": 2,
+              "evidenceSentenceId": "dp7-tr-1-d3-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Paraphrase 'novelist' -> 'author'",
+              "commonTrap": "Nhầm tên người gửi Gina với Liam.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

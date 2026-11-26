@@ -1,0 +1,427 @@
+{
+  "id": "drill-p3-shopping-travel",
+  "part": 3,
+  "title": "Mua sắm, Dịch vụ & Du lịch",
+  "subtitle": "Đổi trả hàng hóa, miễn phí đổi vé tàu và xử lý trễ chuyến bay.",
+  "focusTag": "Shopping & Travel",
+  "part3": [
+    {
+      "id": "dp3-st-1",
+      "part": 3,
+      "title": "Đổi size áo khoác và dùng mã ưu đãi cửa hàng",
+      "scenario": "Mua sắm & Bán lẻ",
+      "speakerCount": 2,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-st-1-l1",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Excuse me, I bought this rain jacket online, but the sleeves are a bit short. Do you have a large in stock?",
+          "vi": "Xin lỗi, tôi mua chiếc áo khoác mưa này trực tuyến nhưng tay áo hơi ngắn. Cửa hàng có sẵn cỡ L không?",
+          "evidenceForQuestionIds": [
+            "dp3-st-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 7728
+        },
+        {
+          "id": "dp3-st-1-l2",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Let me check our tablet... We're out of navy blue in large, though we do have forest green right here.",
+          "vi": "Để tôi kiểm tra máy tính bảng... Cỡ L màu xanh hải quân hết rồi, nhưng màu xanh rêu thì có sẵn ngay đây ạ.",
+          "evidenceForQuestionIds": [
+            "dp3-st-1-q2"
+          ],
+          "startMs": 8108,
+          "endMs": 15020
+        },
+        {
+          "id": "dp3-st-1-l3",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Forest green looks great! Can I exchange it right now using my digital order receipt?",
+          "vi": "Xanh rêu đẹp lắm! Tôi có thể đổi ngay bằng hóa đơn đặt hàng điện tử không?",
+          "evidenceForQuestionIds": [
+            "dp3-st-1-q3"
+          ],
+          "startMs": 15400,
+          "endMs": 21952
+        },
+        {
+          "id": "dp3-st-1-l4",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Absolutely—just step over to Register 2 and I'll process an even exchange in a minute.",
+          "vi": "Hoàn toàn được—anh cứ sang Quầy tính tiền số 2, tôi sẽ làm thủ tục đổi ngang giá trong một phút.",
+          "evidenceForQuestionIds": [
+            "dp3-st-1-q3"
+          ],
+          "startMs": 22332,
+          "endMs": 28284
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-st-1-q1",
+          "questionNumber": 1,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Why does the man want to exchange the jacket?",
+          "promptVi": "Tại sao người đàn ông muốn đổi áo khoác?",
+          "options": {
+            "A": {
+              "en": "The zipper is broken.",
+              "vi": "Khóa kéo bị hỏng."
+            },
+            "B": {
+              "en": "It does not fit properly.",
+              "vi": "Nó mặc không vừa."
+            },
+            "C": {
+              "en": "He was overcharged online.",
+              "vi": "Anh bị tính thừa tiền online."
+            },
+            "D": {
+              "en": "He received the wrong brand.",
+              "vi": "Anh nhận nhầm thương hiệu."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'sleeves are a bit short' -> 'does not fit properly'",
+            "trapAnalysis": "Tay áo hơi ngắn -> không vừa cỡ.",
+            "paraphrases": [
+              {
+                "audioPhrase": "sleeves are a bit short",
+                "answerPhrase": "does not fit properly",
+                "meaningVi": "mặc không vừa cỡ"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-st-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What does the clerk say about the navy blue jacket?",
+          "promptVi": "Nhân viên nói gì về áo màu xanh hải quân?",
+          "options": {
+            "A": {
+              "en": "It is discounted by 25%.",
+              "vi": "Nó được giảm giá 25%."
+            },
+            "B": {
+              "en": "It is unavailable in the man's size.",
+              "vi": "Nó đã hết cỡ của người đàn ông."
+            },
+            "C": {
+              "en": "It can only be bought online.",
+              "vi": "Nó chỉ bán trực tuyến."
+            },
+            "D": {
+              "en": "It will arrive tomorrow afternoon.",
+              "vi": "Nó sẽ về hàng chiều mai."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'out of navy blue in large' -> 'unavailable in the man's size'",
+            "trapAnalysis": "out of = unavailable / sold out.",
+            "paraphrases": [
+              {
+                "audioPhrase": "out of navy blue in large",
+                "answerPhrase": "unavailable in the man's size",
+                "meaningVi": "hết cỡ L màu xanh navy"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-st-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What will the speakers do next?",
+          "promptVi": "Hai người sẽ làm gì tiếp theo?",
+          "options": {
+            "A": {
+              "en": "Order a jacket from another store",
+              "vi": "Đặt áo từ chi nhánh khác"
+            },
+            "B": {
+              "en": "Complete the exchange at a checkout counter",
+              "vi": "Hoàn tất đổi hàng tại quầy thanh toán"
+            },
+            "C": {
+              "en": "Print a paper warranty",
+              "vi": "In phiếu bảo hành giấy"
+            },
+            "D": {
+              "en": "Issue a full cash refund",
+              "vi": "Hoàn lại toàn bộ tiền mặt"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'Register 2' -> 'checkout counter'",
+            "trapAnalysis": "Register = quầy thu ngân/thanh toán.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Register 2",
+                "answerPhrase": "checkout counter",
+                "meaningVi": "quầy thu ngân thanh toán"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-st-1-v1",
+          "word": "even exchange",
+          "pos": "phrase",
+          "ipaUK": "/ˈiːvn ɪksˈtʃeɪndʒ/",
+          "ipaUS": "/ˈiːvn ɪksˈtʃeɪndʒ/",
+          "meaning": "đổi hàng ngang giá không bù tiền",
+          "exampleEn": "Shoppers may make an even exchange within thirty days.",
+          "exampleVi": "Khách có thể đổi hàng ngang giá trong vòng ba mươi ngày."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-st-1.mp3"
+    },
+    {
+      "id": "dp3-st-2",
+      "part": 3,
+      "title": "Đặt lại chuyến tàu sau khi chuyến bay bị trễ",
+      "scenario": "Du lịch & Giao thông",
+      "speakerCount": 2,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-st-2-l1",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Hi, my inbound flight from Zurich was delayed by an hour, so I missed the 3:15 express train to Bristol.",
+          "vi": "Chào anh, chuyến bay đến từ Zurich của tôi bị trễ một tiếng nên tôi đã lỡ chuyến tàu tốc hành 3:15 đi Bristol.",
+          "evidenceForQuestionIds": [
+            "dp3-st-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 7320
+        },
+        {
+          "id": "dp3-st-2-l2",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "No worries at all. If you show me your delayed boarding pass, I can waive the rebooking fee and put you on the 4:30 train.",
+          "vi": "Đừng lo nhé. Nếu chị cho tôi xem thẻ lên máy bay bị trễ, tôi có thể miễn phí đổi vé và xếp chị lên chuyến 4:30.",
+          "evidenceForQuestionIds": [
+            "dp3-st-2-q2"
+          ],
+          "startMs": 7700,
+          "endMs": 16124
+        },
+        {
+          "id": "dp3-st-2-l3",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Here it is on my phone. Does the 4:30 train also stop at Bath?",
+          "vi": "Đây ạ, trên điện thoại tôi. Chuyến tàu 4:30 có dừng ở Bath luôn không?",
+          "evidenceForQuestionIds": [
+            "dp3-st-2-q3"
+          ],
+          "startMs": 16504,
+          "endMs": 21568
+        },
+        {
+          "id": "dp3-st-2-l4",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Yes, it makes one stop at Bath before reaching Bristol, and it leaves from Platform 6.",
+          "vi": "Có ạ, tàu dừng một chặng ở Bath trước khi tới Bristol, và khởi hành từ Sân ga số 6.",
+          "evidenceForQuestionIds": [
+            "dp3-st-2-q3"
+          ],
+          "startMs": 21948,
+          "endMs": 28092
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-st-2-q1",
+          "questionNumber": 4,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Why did the woman miss her original train?",
+          "promptVi": "Tại sao người phụ nữ lỡ chuyến tàu ban đầu?",
+          "options": {
+            "A": {
+              "en": "Heavy highway traffic",
+              "vi": "Tắc đường cao tốc"
+            },
+            "B": {
+              "en": "A delayed incoming flight",
+              "vi": "Chuyến bay đến bị trễ"
+            },
+            "C": {
+              "en": "A lost luggage claim",
+              "vi": "Thủ tục thất lạc hành lý"
+            },
+            "D": {
+              "en": "Incorrect platform signage",
+              "vi": "Biển báo sân ga sai"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'inbound flight' -> 'incoming flight'",
+            "trapAnalysis": "Câu đầu nói rõ: 'inbound flight from Zurich was delayed'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "inbound flight",
+                "answerPhrase": "incoming flight",
+                "meaningVi": "chuyến bay chiều đến"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: inbound = incoming.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-st-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What does the agent ask to see in order to waive the fee?",
+          "promptVi": "Nhân viên nhà ga yêu cầu xem gì để miễn phí đổi vé?",
+          "options": {
+            "A": {
+              "en": "A passport",
+              "vi": "Hộ chiếu"
+            },
+            "B": {
+              "en": "A hotel confirmation",
+              "vi": "Xác nhận khách sạn"
+            },
+            "C": {
+              "en": "A boarding pass",
+              "vi": "Thẻ lên máy bay"
+            },
+            "D": {
+              "en": "A membership card",
+              "vi": "Thẻ hội viên"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "Câu 2: 'show me your delayed boarding pass'",
+            "trapAnalysis": "Trực tiếp xuất hiện trong câu điều kiện để miễn phí ('waive the rebooking fee').",
+            "paraphrases": [
+              {
+                "audioPhrase": "waive the fee",
+                "answerPhrase": "remove the extra charge",
+                "meaningVi": "miễn phụ phí"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Sai.",
+              "C": "Đúng.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-st-2-q3",
+          "questionNumber": 6,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Where will the 4:30 train depart from?",
+          "promptVi": "Chuyến tàu 4:30 sẽ khởi hành từ đâu?",
+          "options": {
+            "A": {
+              "en": "Platform 2",
+              "vi": "Sân ga số 2"
+            },
+            "B": {
+              "en": "Platform 4",
+              "vi": "Sân ga số 4"
+            },
+            "C": {
+              "en": "Platform 6",
+              "vi": "Sân ga số 6"
+            },
+            "D": {
+              "en": "Platform 8",
+              "vi": "Sân ga số 8"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "Câu cuối: 'leaves from Platform 6'",
+            "trapAnalysis": "Bắt chuẩn con số 'Platform 6'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "leaves from",
+                "answerPhrase": "departs from",
+                "meaningVi": "khởi hành từ"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Sai.",
+              "C": "Đúng.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-st-2-v1",
+          "word": "waive",
+          "pos": "v",
+          "ipaUK": "/weɪv/",
+          "ipaUS": "/weɪv/",
+          "meaning": "miễn (phí, lệ phí, yêu cầu)",
+          "exampleEn": "The bank agreed to waive the annual card fee for loyal clients.",
+          "exampleVi": "Ngân hàng đồng ý miễn phí thường niên cho khách hàng thân thiết."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-st-2.mp3"
+    }
+  ]
+}

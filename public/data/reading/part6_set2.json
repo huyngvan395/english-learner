@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "p6-s2-01",
+    "title": "Bài 15 (Notice): Thông báo Sửa chữa Hệ thống Thang máy Tòa nhà Thương mại",
+    "genre": "Notice",
+    "headerMeta": {
+      "from": "Property Management Office",
+      "to": "All Tenants and Visitors of Apex Commerce Tower",
+      "date": "March 10",
+      "subject": "Modernization of East-Wing Passenger Elevators"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-01-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-01-s1",
+            "en": "To improve ride comfort and reduce energy consumption, certified technicians from Summit Lift Systems will modernize Passenger Elevators 3 and 4 in the east lobby from Monday, March 16, through Friday, March 27.",
+            "vi": "Nhằm cải thiện độ êm ái khi di chuyển và giảm tiêu thụ điện năng, các kỹ thuật viên có chứng chỉ từ Summit Lift Systems sẽ hiện đại hóa Thang máy hành khách số 3 và số 4 tại sảnh đông từ thứ Hai, ngày 16/3 đến hết thứ Sáu, ngày 27/3."
+          },
+          {
+            "id": "p6-s2-01-s2",
+            "en": "The two-week project involves installing faster traction motors, touchless floor-selection panels, and upgraded safety [131] _______ inside each cabin.",
+            "vi": "Dự án kéo dài hai tuần này bao gồm việc lắp đặt động cơ kéo tốc độ cao hơn, bảng chọn tầng không chạm và các [131] _______ an toàn nâng cấp bên trong mỗi buồng thang."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-01-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-01-s3",
+            "en": "[132] _______, Elevators 3 and 4 will be completely closed to passenger traffic, and wait times in the main lobby may increase slightly during morning rush hours. [133] _______.",
+            "vi": "[132] _______, Thang máy số 3 và số 4 sẽ đóng cửa hoàn toàn đối với hành khách, và thời gian chờ tại sảnh chính có thể tăng nhẹ vào khung giờ cao điểm buổi sáng. [133] _______."
+          },
+          {
+            "id": "p6-s2-01-s4",
+            "en": "Tenants working on floors two through five are also encouraged to use the central stairwell whenever convenient to help ease lobby congestion.",
+            "vi": "Khách thuê làm việc từ tầng hai đến tầng năm cũng được khuyến khích sử dụng cầu thang bộ trung tâm bất cứ khi nào thuận tiện nhằm góp phần giảm ùn tắc tại sảnh."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-01-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-01-s5",
+            "en": "All noisy drilling and heavy equipment deliveries will be restricted to after-hours shifts so that daily office operations can continue [134] _______.",
+            "vi": "Mọi hoạt động khoan đục gây ồn và vận chuyển thiết bị nặng sẽ được giới hạn trong ca ngoài giờ hành chính để hoạt động văn phòng thường ngày vẫn tiếp diễn [134] _______."
+          },
+          {
+            "id": "p6-s2-01-s6",
+            "en": "We appreciate your patience while we upgrade our building infrastructure.",
+            "vi": "Chúng tôi trân trọng sự kiên nhẫn của quý vị trong thời gian chúng tôi nâng cấp hạ tầng tòa nhà."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-01-q131",
+        "blankNumber": 131,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "ingredients",
+          "B": "sensors",
+          "C": "discounts",
+          "D": "receipts"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Kỹ thuật tòa nhà",
+            "signal": "Đi song song với 'traction motors', 'touchless floor-selection panels' và 'upgraded safety ___ inside each cabin' → 'sensors' (cảm biến an toàn)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ kỹ thuật phù hợp tại [131].",
+            "optionsVi": {
+              "A": "ingredients: nguyên liệu",
+              "B": "sensors: cảm biến",
+              "C": "discounts: khoản giảm giá",
+              "D": "receipts: biên lai"
+            }
+          },
+          "proof": {
+            "explanation": "Trong buồng thang máy ('inside each cabin'), linh kiện được nâng cấp cùng động cơ kéo và bảng chọn tầng không chạm chính là cảm biến an toàn ('upgraded safety sensors').",
+            "evidenceQuote": "installing faster traction motors, touchless floor-selection panels, and upgraded safety [131] _______ inside each cabin.",
+            "evidenceSentenceId": "p6-s2-01-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì dùng cho thực phẩm/hóa chất.",
+            "B": "ĐÚNG — 'safety sensors' là cụm từ kỹ thuật chuẩn trong thang máy và thiết bị tự động.",
+            "C": "Loại vì dùng cho bán hàng.",
+            "D": "Loại vì dùng cho kế toán/thanh toán."
+          },
+          "keyTakeaways": {
+            "formula": "safety / motion / door + sensors (cảm biến an toàn / chuyển động / cửa)",
+            "commonTrap": "Đọc lướt chuỗi liệt kê 3 thiết bị kỹ thuật nhưng không liên kết với 'inside each cabin'.",
+            "paraphrases": [
+              {
+                "textInPassage": "modernize Passenger Elevators",
+                "textInAnswer": "upgrade lift equipment",
+                "meaningVi": "nâng cấp thiết bị thang máy"
+              }
+            ]
+          },
+          "applyRule": "Chuỗi liệt kê 3 linh kiện kỹ thuật ('motors, panels, and safety ___') → chọn danh từ linh kiện cơ khí/điện tử ('sensors / brakes / cables').",
+          "contextBridge": {
+            "beforeCue": "certified technicians from Summit Lift Systems will modernize Passenger Elevators 3 and 4 in the east lobby from Monday, March 16, through Friday, March 27.",
+            "afterCue": "During this period, Elevators 3 and 4 will be completely closed to passenger traffic",
+            "connectorOrRef": "Chỗ trống [131] • Từ vựng kỹ thuật (safety sensors)",
+            "logicVi": "Dự án hiện đại hóa thang máy lắp động cơ mới, bảng điều khiển không chạm và cảm biến an toàn ('sensors') trong cabin."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-01-q132",
+        "blankNumber": 132,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "For example",
+          "B": "On the other hand",
+          "C": "Otherwise",
+          "D": "During this period"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối chỉ khoảng thời gian quy chiếu",
+            "signal": "Đoạn 1 xác định khung thời gian 'from Monday, March 16, through Friday, March 27' / 'The two-week project' → Đoạn 2 quy chiếu bằng 'During this period'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối chỉ thời gian phù hợp tại [132].",
+            "optionsVi": {
+              "A": "For example: Ví dụ như",
+              "B": "On the other hand: Mặt khác",
+              "C": "Otherwise: Nếu không thì",
+              "D": "During this period: Trong khoảng thời gian này"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 1 vừa nêu khoảng thời gian thi công hai tuần (16/3–27/3); đoạn 2 mô tả việc đóng thang máy 3 & 4 diễn ra trong chính hai tuần đó → chọn 'During this period'.",
+            "evidenceQuote": "from Monday, March 16, through Friday, March 27. The two-week project involves installing",
+            "evidenceSentenceId": "p6-s2-01-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì việc đóng cửa thang máy không phải ví dụ cho cảm biến an toàn.",
+            "B": "Loại vì không diễn tả hai mặt đối lập.",
+            "C": "Loại vì không phải giả định điều kiện trái ngược.",
+            "D": "ĐÚNG — Quy chiếu trực tiếp giai đoạn thi công hai tuần ở đoạn 1."
+          },
+          "keyTakeaways": {
+            "formula": "from [Date 1] through [Date 2] / two-week project → During this period, + ảnh hưởng tạm thời",
+            "commonTrap": "Thấy kết thúc đoạn 1 nói về 'safety sensors' quên nhìn rộng lên mốc 'March 16–27' ở câu 1.",
+            "paraphrases": [
+              {
+                "textInPassage": "During this period",
+                "textInAnswer": "throughout the two-week upgrade",
+                "meaningVi": "trong suốt hai tuần nâng cấp"
+              }
+            ]
+          },
+          "applyRule": "Thông báo sửa chữa có khoảng ngày (from X through Y) → đầu đoạn 2 báo đóng cửa tạm thời gần như luôn dùng 'During this period / In the meantime'.",
+          "contextBridge": {
+            "beforeCue": "The two-week project involves installing faster traction motors, touchless floor-selection panels, and upgraded safety sensors inside each cabin.",
+            "afterCue": "Elevators 3 and 4 will be completely closed to passenger traffic, and wait times in the main lobby may increase slightly during morning rush hours.",
+            "connectorOrRef": "Cụm từ nối thời gian quy chiếu: During this period",
+            "logicVi": "'this period' bắt lại đúng khung thời gian dự án hai tuần (16/3–27/3) ở đoạn 1 để giới thiệu tác động tạm thời lên việc đi lại ở đoạn 2."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-01-q133",
+        "blankNumber": 133,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "The rooftop terrace will host a photography exhibit starting next month.",
+          "B": "All parking decals must be renewed at the security office before April.",
+          "C": "To compensate for this reduced capacity, the building's west-wing elevators and service lift will operate on express schedules.",
+          "D": "Electricity rates across the metropolitan area decreased slightly last winter."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'this reduced capacity' & cầu nối 'also encouraged')",
+            "signal": "Câu trước: đóng 2 thang máy, thời gian chờ tăng nhẹ; câu sau dùng 'are also encouraged to use the central stairwell' → [133] PHẢI nêu giải pháp giảm tải số 1."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối mạch hai chiều tốt nhất vào [133].",
+            "optionsVi": {
+              "A": "Sân thượng sẽ tổ chức triển lãm ảnh bắt đầu từ tháng tới.",
+              "B": "Tất cả tem đỗ xe phải được gia hạn tại phòng bảo vệ trước tháng Tư.",
+              "C": "Để bù đắp cho công suất bị giảm này, thang máy cánh tây và thang hàng của tòa nhà sẽ chạy theo lịch trình tốc hành.",
+              "D": "Giá điện trên toàn khu vực đô thị đã giảm nhẹ vào mùa đông năm ngoái."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'this reduced capacity' ở (C) quy chiếu thẳng vào việc đóng cửa Thang máy 3 & 4 (câu trước), đồng thời đưa giải pháp 1 (dùng thang cánh tây & thang hàng) làm tiền đề hoàn hảo cho chữ 'also' (giải pháp 2: đi thang bộ tầng 2–5) ở câu ngay sau.",
+            "evidenceQuote": "Tenants working on floors two through five are also encouraged to use the central stairwell",
+            "evidenceSentenceId": "p6-s2-01-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì triển lãm ảnh trên sân thượng hoàn toàn lạc đề.",
+            "B": "Loại vì gia hạn tem đỗ xe không liên quan thang máy.",
+            "C": "ĐÚNG — 'this reduced capacity' nối chặt câu trước, còn việc đưa phương án thang thay thế giải thích trọn vẹn chữ 'also' ở câu sau.",
+            "D": "Loại vì chuyện giá điện mùa đông ngoái phá vỡ mạch phương án di chuyển tạm thời."
+          },
+          "keyTakeaways": {
+            "formula": "Vấn đề giảm công suất → To compensate for this reduced capacity, [Giải pháp 1] → Tenants are also encouraged [Giải pháp 2]",
+            "commonTrap": "Bỏ sót từ khóa vàng 'also' ở câu ngay sau chỗ trống — 'also' chứng tỏ ngay trước nó phải có một giải pháp tương tự!",
+            "paraphrases": [
+              {
+                "textInPassage": "this reduced capacity",
+                "textInAnswer": "fewer available elevators",
+                "meaningVi": "số thang máy khả dụng giảm xuống"
+              }
+            ]
+          },
+          "applyRule": "Thấy câu ngay sau chứa 'are also encouraged to...' → câu cần điền bắt buộc là giải pháp khắc phục thứ nhất có cụm quy chiếu ('this reduced capacity').",
+          "contextBridge": {
+            "beforeCue": "During this period, Elevators 3 and 4 will be completely closed to passenger traffic, and wait times in the main lobby may increase slightly during morning rush hours.",
+            "afterCue": "Tenants working on floors two through five are also encouraged to use the central stairwell whenever convenient to help ease lobby congestion.",
+            "connectorOrRef": "Quy chiếu kép: 'this reduced capacity' (← câu trước) + tiền đề cho 'also' (→ câu sau)",
+            "logicVi": "'this reduced capacity' tóm gọn tình trạng đóng 2 thang máy câu trước; câu (C) đưa phương án chạy thang cánh tây & thang dịch vụ để chữ 'also encouraged' ở câu sau nối tiếp mạch giảm tải."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-01-q134",
+        "blankNumber": 134,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "undisturbed",
+          "B": "disturbance",
+          "C": "disturbing",
+          "D": "disturb"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Tính từ phân từ mang nghĩa bị động / trạng thái sau 'continue'",
+            "signal": "Cấu trúc: 'daily office operations can continue [undisturbed]' (hoạt động văn phòng tiếp diễn mà không bị quấy rầy)."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng từ phù hợp nhất tại [134].",
+            "optionsVi": {
+              "A": "undisturbed (adj): không bị quấy rầy, yên ổn",
+              "B": "disturbance (n): sự quấy rầy, xáo trộn",
+              "C": "disturbing (adj): gây khó chịu, đáng lo ngại",
+              "D": "disturb (v): làm phiền, quấy rầy"
+            }
+          },
+          "proof": {
+            "explanation": "Việc dời khoan đục sang ngoài giờ hành chính là để hoạt động văn phòng tiếp tục trong trạng thái 'không bị quấy rầy' → tính từ phân từ 'undisturbed' (bổ ngữ trạng thái sau 'continue').",
+            "evidenceQuote": "All noisy drilling and heavy equipment deliveries will be restricted to after-hours shifts so that daily office operations can continue [134] _______.",
+            "evidenceSentenceId": "p6-s2-01-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'continue undisturbed / uninterrupted' là cụm chuẩn mực diễn tả hoạt động không bị gián đoạn.",
+            "B": "Loại vì danh từ 'disturbance' sai cả ngữ pháp lẫn nghĩa (ngược nghĩa 'không bị làm phiền').",
+            "C": "Loại vì 'disturbing' mang nghĩa chủ động 'gây khó chịu'.",
+            "D": "Loại vì hai động từ nguyên mẫu không đứng cạnh nhau ('continue disturb')."
+          },
+          "keyTakeaways": {
+            "formula": "continue / remain + undisturbed / uninterrupted (tiếp diễn không bị gián đoạn)",
+            "commonTrap": "Thấy đuôi '-ing' ở (C) tưởng giống 'continue + V-ing', nhưng 'continue disturbing' lại mang nghĩa vô lý 'tiếp tục đi làm phiền'!",
+            "paraphrases": [
+              {
+                "textInPassage": "continue undisturbed",
+                "textInAnswer": "proceed without disruption",
+                "meaningVi": "diễn ra mà không bị gián đoạn"
+              }
+            ]
+          },
+          "applyRule": "Phân biệt 'continue + V-ing' (chủ động làm gì) với 'continue + undisturbed/uninterrupted' (duy trì trạng thái không bị ảnh hưởng).",
+          "contextBridge": {
+            "beforeCue": "All noisy drilling and heavy equipment deliveries will be restricted to after-hours shifts",
+            "afterCue": "We appreciate your patience while we upgrade our building infrastructure.",
+            "connectorOrRef": "Chỗ trống [134] • Trạng thái bị động (undisturbed)",
+            "logicVi": "Dời khoan đục sang ngoài giờ giúp hoạt động văn phòng ban ngày tiếp diễn yên ổn không bị gián đoạn ('continue undisturbed')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-02",
+    "title": "Bài 16 (Notice): Thay đổi Giờ Mở cửa Thư viện Thành phố & Khu Tự học Đêm",
+    "genre": "Notice",
+    "headerMeta": {
+      "from": "Riverside Municipal Library Board",
+      "to": "All Library Cardholders and Community Visitors",
+      "date": "August 25",
+      "subject": "Extended Evening Hours and Quiet Study Wing Opening"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-02-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-02-s1",
+            "en": "Beginning Tuesday, September 2, the Riverside Municipal Library will extend its weekday operating hours to better serve university students, commuters, and evening researchers.",
+            "vi": "Bắt đầu từ thứ Ba, ngày 2/9, Thư viện Thành phố Riverside sẽ kéo dài giờ mở cửa các ngày trong tuần để phục vụ tốt hơn sinh viên đại học, người đi làm và các nhà nghiên cứu buổi tối."
+          },
+          {
+            "id": "p6-s2-02-s2",
+            "en": "The main reading hall and digital media center will remain open until 10:00 P.M. Monday through Thursday, while weekend schedules will remain unchanged. Under the new schedule, book-return lockers outside the north entrance [135] _______ around the clock.",
+            "vi": "Phòng đọc chính và trung tâm truyền thông số sẽ mở cửa tới 10:00 tối từ thứ Hai đến thứ Năm, trong khi lịch cuối tuần vẫn giữ nguyên. Theo lịch trình mới, tủ trả sách tự động bên ngoài cổng bắc [135] _______ suốt ngày đêm."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-02-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-02-s3",
+            "en": "In addition to the extended schedule, our newly renovated third-floor Quiet Study Wing will open to the public on the same date. [136] _______.",
+            "vi": "Bên cạnh lịch mở cửa kéo dài, Khu Tự học Yên tĩnh mới cải tạo trên tầng ba sẽ mở cửa đón công chúng vào cùng ngày. [136] _______."
+          },
+          {
+            "id": "p6-s2-02-s4",
+            "en": "Patrons wishing to reserve one of the six glass-enclosed group study rooms may do so up to seven days in advance using a valid library [137] _______.",
+            "vi": "Bạn đọc muốn đặt trước một trong sáu phòng học nhóm vách kính có thể thực hiện trước tối đa bảy ngày bằng [137] _______ thư viện hợp lệ."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-02-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-02-s5",
+            "en": "[138] _______, reference librarians will now be available until 9:30 P.M. to assist patrons with academic database searches and citation formatting.",
+            "vi": "[138] _______, các thủ thư tra cứu nay sẽ trực tới 9:30 tối để hỗ trợ bạn đọc tìm kiếm cơ sở dữ liệu học thuật và định dạng trích dẫn."
+          },
+          {
+            "id": "p6-s2-02-s6",
+            "en": "Updated hours and room booking policies are posted at the main circulation desk and on our website.",
+            "vi": "Giờ mở cửa cập nhật và quy định đặt phòng được niêm yết tại quầy mượn trả chính và trên trang web của chúng tôi."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-02-q135",
+        "blankNumber": 135,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "will access",
+          "B": "have accessed",
+          "C": "can be accessed",
+          "D": "accessing"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thể bị động với Động từ khuyết thiếu (can be accessed)",
+            "signal": "Chủ ngữ vật 'book-return lockers' + trạng ngữ thời gian 'around the clock' (không có tân ngữ) → Bị động 'can be accessed'."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng động từ bị động đúng tại [135].",
+            "optionsVi": {
+              "A": "will access: sẽ tiếp cận (chủ động)",
+              "B": "have accessed: đã tiếp cận (chủ động)",
+              "C": "can be accessed: có thể được sử dụng / tiếp cận (bị động)",
+              "D": "accessing: đang tiếp cận (V-ing, thiếu trợ động từ)"
+            }
+          },
+          "proof": {
+            "explanation": "'book-return lockers' (các tủ trả sách) là vật, không thể tự đi tiếp cận ai mà 'có thể được bạn đọc tiếp cận/sử dụng' suốt 24 giờ → dùng bị động 'can be accessed'.",
+            "evidenceQuote": "book-return lockers outside the north entrance [135] _______ around the clock.",
+            "evidenceSentenceId": "p6-s2-02-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì chủ động trong khi chủ ngữ là vật và sau chỗ trống không có tân ngữ.",
+            "B": "Loại vì vừa chủ động vừa sai thì hiện tại hoàn thành với lịch trình tương lai.",
+            "C": "ĐÚNG — Bị động 'can be accessed around the clock' chuẩn ngữ pháp và tự nhiên.",
+            "D": "Loại vì thiếu động từ chính chia thì cho mệnh đề."
+          },
+          "keyTakeaways": {
+            "formula": "Chủ ngữ vật (lockers / portal / records) + can / may + be + accessed (+ around the clock)",
+            "commonTrap": "Thấy cụm 'outside the north entrance' dài nên không nhận ra chủ ngữ chính là vật 'book-return lockers'.",
+            "paraphrases": [
+              {
+                "textInPassage": "can be accessed around the clock",
+                "textInAnswer": "are available twenty-four hours a day",
+                "meaningVi": "có thể sử dụng suốt 24 giờ mỗi ngày"
+              }
+            ]
+          },
+          "applyRule": "Động từ 'access' là ngoại động từ: nếu sau chỗ trống KHÔNG có danh từ tân ngữ → 100% chia Bị động ('be accessed').",
+          "contextBridge": {
+            "beforeCue": "The main reading hall and digital media center will remain open until 10:00 P.M. Monday through Thursday, while weekend schedules will remain unchanged.",
+            "afterCue": "In addition to the extended schedule, our newly renovated third-floor Quiet Study Wing will open to the public on the same date.",
+            "connectorOrRef": "Chỗ trống [135] • Bị động với can (can be accessed)",
+            "logicVi": "Dù phòng đọc đóng cửa lúc 10 giờ tối, tủ trả sách ngoài cổng bắc vẫn có thể được sử dụng ('can be accessed') suốt 24/7."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-02-q136",
+        "blankNumber": 136,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "This spacious area features forty individual reading carrels with power outlets as well as six enclosed rooms for collaborative study.",
+          "B": "Children's storytelling sessions are held every Saturday morning in the basement theater.",
+          "C": "Overdue book fines were permanently abolished across the city last spring.",
+          "D": "The municipal park behind the library will undergo landscaping repairs in October."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu hai đầu: 'This spacious area' ← câu trước & 'six enclosed rooms' → 'the six glass-enclosed group study rooms' ở câu sau)",
+            "signal": "Câu sau dùng mạo từ xác định 'one of THE six glass-enclosed group study rooms' → [136] BẮT BUỘC phải giới thiệu lần đầu 'six enclosed rooms' trong Khu Tự học tầng ba!"
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối hoàn hảo hai đầu vào [136].",
+            "optionsVi": {
+              "A": "Khu vực rộng rãi này có bốn mươi bàn đọc cá nhân kèm ổ cắm điện cũng như sáu phòng kín cho việc học nhóm.",
+              "B": "Các buổi kể chuyện cho thiếu nhi được tổ chức mỗi sáng thứ Bảy tại rạp tầng hầm.",
+              "C": "Tiền phạt trả sách quá hạn đã bị bãi bỏ vĩnh viễn trên toàn thành phố mùa xuân năm ngoái.",
+              "D": "Công viên thành phố phía sau thư viện sẽ được tu sửa cảnh quan vào tháng Mười."
+            }
+          },
+          "proof": {
+            "explanation": "Mạo từ xác định 'the six glass-enclosed group study rooms' ở câu ngay sau là dấu hiệu không thể chối cãi: câu [136] phải giới thiệu 6 phòng học nhóm này lần đầu tiên ('six enclosed rooms for collaborative study'), đồng thời dùng 'This spacious area' nối về 'third-floor Quiet Study Wing' ở câu trước.",
+            "evidenceQuote": "Patrons wishing to reserve one of the six glass-enclosed group study rooms",
+            "evidenceSentenceId": "p6-s2-02-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Cầu nối hoàn mỹ hai chiều: 'Quiet Study Wing' → 'This spacious area... six enclosed rooms' → 'the six glass-enclosed group study rooms'.",
+            "B": "Loại vì lạc đề sang hoạt động thiếu nhi tầng hầm, khiến cụm 'the six... rooms' câu sau rơi vào hư vô.",
+            "C": "Loại vì nói chuyện phạt trả sách quá khứ, đứt mạch mô tả tầng ba.",
+            "D": "Loại vì lạc đề sang công viên bên ngoài thư viện."
+          },
+          "keyTakeaways": {
+            "formula": "Giới thiệu lần 1 (six enclosed rooms) → Nhắc lại lần 2 có 'the' (one of the six glass-enclosed group study rooms)",
+            "commonTrap": "Chỉ đọc câu trước mà không nhìn mạo từ 'the six...' ở câu sau — đây là chìa khóa mở 100% dạng câu điền đoạn của ETS!",
+            "paraphrases": [
+              {
+                "textInPassage": "collaborative study",
+                "textInAnswer": "group study",
+                "meaningVi": "học nhóm"
+              }
+            ]
+          },
+          "applyRule": "Mẹo săn mạo từ xác định: Câu sau có 'the six X' mà câu trước chưa nhắc con số 6 → câu điền vào CHẮC CHẮN là câu giới thiệu 'six X'!",
+          "contextBridge": {
+            "beforeCue": "In addition to the extended schedule, our newly renovated third-floor Quiet Study Wing will open to the public on the same date.",
+            "afterCue": "Patrons wishing to reserve one of the six glass-enclosed group study rooms may do so up to seven days in advance using a valid library card.",
+            "connectorOrRef": "Cầu nối 2 đầu: 'This spacious area' (← Quiet Study Wing) + 'six enclosed rooms' (→ 'the six glass-enclosed group study rooms')",
+            "logicVi": "'This spacious area' mô tả tiện ích của Khu Tự học tầng ba vừa giới thiệu, đặc biệt đưa ra 'six enclosed rooms' làm tiền đề bắt buộc cho cụm xác định 'the six glass-enclosed group study rooms' ngay câu kế tiếp."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-02-q137",
+        "blankNumber": 137,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "salary",
+          "B": "ticket",
+          "C": "invoice",
+          "D": "card"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Collocation ngữ cảnh Thư viện",
+            "signal": "Đi với 'a valid library ___' và người nhận ở đầu thông báo là 'All Library Cardholders' → 'library card' (thẻ thư viện)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ ghép đúng với 'valid library' tại [137].",
+            "optionsVi": {
+              "A": "salary: tiền lương",
+              "B": "ticket: vé (xe/xem phim)",
+              "C": "invoice: hóa đơn",
+              "D": "card: thẻ (thẻ thư viện)"
+            }
+          },
+          "proof": {
+            "explanation": "Thư viện công cộng không bán vé hay xuất hóa đơn để đặt phòng học; bạn đọc dùng thẻ thư viện hợp lệ ('a valid library card'), khớp chính xác với dòng 'To: All Library Cardholders'.",
+            "evidenceQuote": "may do so up to seven days in advance using a valid library [137] _______.",
+            "evidenceSentenceId": "p6-s2-02-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tiền lương không liên quan việc đặt phòng đọc.",
+            "B": "Loại vì không gọi là 'library ticket'.",
+            "C": "Loại vì thư viện thành phố miễn phí, không dùng hóa đơn.",
+            "D": "ĐÚNG — 'a valid library card' là cụm cố định tự nhiên 100%."
+          },
+          "keyTakeaways": {
+            "formula": "a valid library card / identification card / membership card",
+            "commonTrap": "Bỏ qua manh mối có sẵn ngay phần Header ('Library Cardholders').",
+            "paraphrases": [
+              {
+                "textInPassage": "valid library card",
+                "textInAnswer": "active membership pass",
+                "meaningVi": "thẻ thành viên thư viện còn hiệu lực"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'a valid library / membership / student ___' → chọn ngay 'card / ID'.",
+          "contextBridge": {
+            "beforeCue": "This spacious area features forty individual reading carrels with power outlets as well as six enclosed rooms for collaborative study.",
+            "afterCue": "Furthermore, reference librarians will now be available until 9:30 P.M.",
+            "connectorOrRef": "Chỗ trống [137] • Collocation: valid library card",
+            "logicVi": "Bạn đọc dùng thẻ thư viện còn hiệu lực ('valid library card') để đặt trước một trong sáu phòng học nhóm vừa giới thiệu."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-02-q138",
+        "blankNumber": 138,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Furthermore",
+          "C": "Otherwise",
+          "D": "Instead"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối bổ sung dịch vụ mới (Furthermore)",
+            "signal": "Đoạn 1: mở cửa muộn tới 10h tối; Đoạn 2: khai trương Khu Tự học tầng 3; Đoạn 3: bổ sung thủ thư tra cứu trực tới 9h30 tối → chọn 'Furthermore'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối đầu đoạn 3 tại [138].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Furthermore: Hơn nữa, thêm vào đó",
+              "C": "Otherwise: Nếu không thì",
+              "D": "Instead: Thay vào đó"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 bổ sung thêm tiện ích thứ ba (thủ thư tra cứu trực tới 9:30 tối hỗ trợ cơ sở dữ liệu học thuật) song hành với giờ mở cửa kéo dài và khu tự học mới → quan hệ cộng thêm dùng 'Furthermore'.",
+            "evidenceQuote": "[138] _______, reference librarians will now be available until 9:30 P.M. to assist patrons",
+            "evidenceSentenceId": "p6-s2-02-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không mang nghĩa đối lập với các tiện ích trên.",
+            "B": "ĐÚNG — Tiếp tục liệt kê thêm cải tiến dịch vụ buổi tối cho bạn đọc.",
+            "C": "Loại vì không có điều kiện cảnh báo.",
+            "D": "Loại vì hỗ trợ của thủ thư không thay thế cho khu tự học."
+          },
+          "keyTakeaways": {
+            "formula": "Cải tiến 1 (extended hours) + Cải tiến 2 (In addition, Quiet Study Wing) + Cải tiến 3 (Furthermore, librarians until 9:30 P.M.)",
+            "commonTrap": "Thấy 3 đáp án A, C, D đều là nhóm tương phản/thay thế — chỉ mình B là nhóm bổ sung!",
+            "paraphrases": [
+              {
+                "textInPassage": "assist patrons with academic database searches",
+                "textInAnswer": "help visitors locate scholarly resources",
+                "meaningVi": "hỗ trợ bạn đọc tìm tài liệu học thuật"
+              }
+            ]
+          },
+          "applyRule": "Mỗi đoạn trong thông báo nâng cấp dịch vụ giới thiệu 1 tiện ích mới → nối sang đoạn cuối bằng 'Furthermore / Moreover / In addition'.",
+          "contextBridge": {
+            "beforeCue": "Patrons wishing to reserve one of the six glass-enclosed group study rooms may do so up to seven days in advance using a valid library card.",
+            "afterCue": "reference librarians will now be available until 9:30 P.M. to assist patrons with academic database searches and citation formatting.",
+            "connectorOrRef": "Trạng từ nối bổ sung: Furthermore",
+            "logicVi": "'Furthermore' bổ sung điểm nâng cấp dịch vụ thứ ba (thủ thư trực tối) hoàn thiện bức tranh nâng cấp giờ buổi tối của thư viện."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-03",
+    "title": "Bài 17 (Notice): Thông báo Hội chợ Nông sản & Thủ công Cộng đồng Cuối tuần",
+    "genre": "Notice",
+    "headerMeta": {
+      "from": "Oakwood Civic Association",
+      "to": "Local Residents and Small Business Owners",
+      "date": "June 4",
+      "subject": "Annual Summer Farmers' and Artisans' Market — Saturday, June 14"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-03-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-03-s1",
+            "en": "The Oakwood Civic Association invites residents and visitors to celebrate the start of summer at our Annual Farmers' and Artisans' Market this Saturday, June 14, from 8:00 A.M. to 3:00 P.M. at Cedar Square.",
+            "vi": "Hiệp hội Công dân Oakwood trân trọng mời cư dân và du khách chào đón mùa hè tại Hội chợ Nông sản & Nghệ nhân Thường niên vào thứ Bảy tuần này, ngày 14/6, từ 8:00 sáng đến 3:00 chiều tại Quảng trường Cedar."
+          },
+          {
+            "id": "p6-s2-03-s2",
+            "en": "More than sixty regional growers and craftspeople will set up stalls selling seasonal fruit, organic honey, hand-thrown ceramics, and freshly baked [139] _______.",
+            "vi": "Hơn sáu mươi nhà vườn và nghệ nhân khu vực sẽ dựng gian hàng bày bán trái cây theo mùa, mật ong hữu cơ, đồ gốm nặn tay và các loại [139] _______ mới ra lò."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-03-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-03-s3",
+            "en": "Live acoustic performances [140] _______ by local conservatory musicians will take place on the central pavilion stage at 11:00 A.M. and 1:30 P.M.",
+            "vi": "Các buổi biểu diễn nhạc mộc trực tiếp [140] _______ bởi các nhạc công nhạc viện địa phương sẽ diễn ra tại sân khấu nhà vòm trung tâm lúc 11:00 sáng và 1:30 chiều."
+          },
+          {
+            "id": "p6-s2-03-s4",
+            "en": "Because Cedar Street between Main Avenue and Third Street will be closed to motor vehicles all morning for pedestrian safety, curbside parking near the plaza will be extremely limited. [141] _______, attendees are strongly advised to ride the free municipal shuttle departing every twenty minutes from the train station.",
+            "vi": "Vì đường Cedar đoạn giữa Đại lộ Main và Đường số 3 sẽ cấm xe cơ giới suốt buổi sáng để đảm bảo an toàn cho người đi bộ, chỗ đỗ xe ven đường quanh quảng trường sẽ cực kỳ hạn chế. [141] _______, người tham dự được khuyến nghị mạnh mẽ đi tuyến xe buýt thành phố miễn phí khởi hành 20 phút một chuyến từ nhà ga."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-03-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-03-s5",
+            "en": "Admission to the market is completely free, and reusable canvas shopping totes will be distributed to the first two hundred guests. [142] _______.",
+            "vi": "Vé vào cửa hội chợ hoàn toàn miễn phí, và túi vải tái sử dụng sẽ được phát tặng cho hai trăm vị khách đầu tiên. [142] _______."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-03-q139",
+        "blankNumber": 139,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "pastries",
+          "B": "appliances",
+          "C": "schedules",
+          "D": "statues"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Ẩm thực / Hội chợ",
+            "signal": "Đi trực tiếp với cụm tính từ 'freshly baked ___' (bánh ngọt mới nướng)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp sau 'freshly baked' tại [139].",
+            "optionsVi": {
+              "A": "pastries: các loại bánh nướng / bánh ngọt",
+              "B": "appliances: thiết bị gia dụng",
+              "C": "schedules: lịch trình",
+              "D": "statues: bức tượng"
+            }
+          },
+          "proof": {
+            "explanation": "Tính từ 'freshly baked' (mới nướng) chỉ đi với thực phẩm lò nướng như bánh mì/bánh ngọt → 'pastries' khớp 100% với bối cảnh hội chợ nông sản.",
+            "evidenceQuote": "selling seasonal fruit, organic honey, hand-thrown ceramics, and freshly baked [139] _______.",
+            "evidenceSentenceId": "p6-s2-03-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'freshly baked pastries' là collocation cực phổ biến trong TOEIC.",
+            "B": "Loại vì thiết bị gia dụng không 'nướng mới'.",
+            "C": "Loại vì lịch trình không ăn được.",
+            "D": "Loại vì tượng không đi với 'freshly baked'."
+          },
+          "keyTakeaways": {
+            "formula": "freshly baked + pastries / bread / goods (bánh mới ra lò)",
+            "commonTrap": "Thấy 'hand-thrown ceramics' ngay trước dễ bị hút vào 'statues' (tượng) mà quên đọc cụm 'freshly baked' đứng ngay sát chỗ trống!",
+            "paraphrases": [
+              {
+                "textInPassage": "freshly baked pastries",
+                "textInAnswer": "newly made baked goods",
+                "meaningVi": "bánh nướng mới ra lò"
+              }
+            ]
+          },
+          "applyRule": "Luôn đọc 2 từ sát trước chỗ trống ('freshly baked') — cụm từ đó khóa chặt 100% danh từ chỉ đồ nướng ('pastries').",
+          "contextBridge": {
+            "beforeCue": "More than sixty regional growers and craftspeople will set up stalls selling seasonal fruit, organic honey, hand-thrown ceramics, and freshly baked",
+            "afterCue": "Live acoustic performances presented by local conservatory musicians will take place on the central pavilion stage",
+            "connectorOrRef": "Chỗ trống [139] • Collocation: freshly baked pastries",
+            "logicVi": "Hoàn thiện chuỗi 4 mặt hàng tiêu biểu của hội chợ nông sản và thủ công: trái cây, mật ong, gốm tay và bánh ngọt mới nướng ('pastries')."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-03-q140",
+        "blankNumber": 140,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "present",
+          "B": "presenting",
+          "C": "presentation",
+          "D": "presented"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Rút gọn mệnh đề quan hệ bị động (Past Participle + by)",
+            "signal": "Câu đã có động từ chính 'will take place'; sau chỗ trống có 'by local conservatory musicians' → rút gọn bị động dùng V3/ed 'presented'."
+          },
+          "translation": {
+            "questionVi": "Chọn phân từ rút gọn bị động đúng tại [140].",
+            "optionsVi": {
+              "A": "present: trình diễn (V0)",
+              "B": "presenting: đang trình diễn (V-ing chủ động)",
+              "C": "presentation: buổi thuyết trình (danh từ)",
+              "D": "presented: được trình diễn (V3/ed bị động)"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ chính là 'will take place'; 'Live acoustic performances' là vật, được biểu diễn bởi các nhạc công ('which are presented by local conservatory musicians') → rút gọn còn 'presented'.",
+            "evidenceQuote": "Live acoustic performances [140] _______ by local conservatory musicians will take place on the central pavilion stage",
+            "evidenceSentenceId": "p6-s2-03-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tạo hai động từ chia thì ('present' và 'will take place').",
+            "B": "Loại vì V-ing mang nghĩa chủ động, sai trước giới từ tác nhân 'by'.",
+            "C": "Loại vì danh từ không nối sau 'performances' trước 'by'.",
+            "D": "ĐÚNG — Rút gọn bị động 'performances (which are) presented by...'."
+          },
+          "keyTakeaways": {
+            "formula": "Danh từ vật + V3/ed (rút gọn bị động) + by [tác nhân] + V chính",
+            "commonTrap": "Thấy 'performances' số nhiều rồi chọn V0 'present' vì không đọc tới 'will take place'.",
+            "paraphrases": [
+              {
+                "textInPassage": "performances presented by local musicians",
+                "textInAnswer": "concerts given by neighborhood artists",
+                "meaningVi": "tiết mục do nghệ sĩ địa phương biểu diễn"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Danh từ vật + ___ + by [người] + V chính' → 100% chốt V3/ed (quá khứ phân từ rút gọn bị động).",
+          "contextBridge": {
+            "beforeCue": "More than sixty regional growers and craftspeople will set up stalls selling seasonal fruit, organic honey, hand-thrown ceramics, and freshly baked pastries.",
+            "afterCue": "Because Cedar Street between Main Avenue and Third Street will be closed to motor vehicles all morning",
+            "connectorOrRef": "Chỗ trống [140] • Rút gọn bị động (presented by)",
+            "logicVi": "Bên cạnh gian hàng mua sắm, hội chợ có các tiết mục nhạc mộc được biểu diễn bởi ('presented by') nhạc công địa phương."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-03-q141",
+        "blankNumber": 141,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "Otherwise",
+          "D": "Meanwhile"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối Nguyên nhân → Khuyến nghị (Therefore)",
+            "signal": "Câu trước: đóng đường Cedar nên chỗ đỗ xe cực kỳ hạn chế → Câu này: khuyến nghị mạnh mẽ đi xe buýt miễn phí từ nhà ga → quan hệ nhân quả dùng 'Therefore'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối hợp logic tại [141].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Therefore: Vì vậy, do đó",
+              "C": "Otherwise: Nếu không thì",
+              "D": "Meanwhile: Trong khi đó"
+            }
+          },
+          "proof": {
+            "explanation": "Chính vì chỗ đỗ xe ven đường gần quảng trường bị hạn chế nghiêm trọng ('curbside parking... will be extremely limited') nên ban tổ chức khuyến nghị khách đi xe trung chuyển miễn phí → chọn 'Therefore'.",
+            "evidenceQuote": "curbside parking near the plaza will be extremely limited. [141] _______, attendees are strongly advised to ride the free municipal shuttle",
+            "evidenceSentenceId": "p6-s2-03-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lời khuyên đi xe buýt không đối lập với việc thiếu chỗ đỗ xe.",
+            "B": "ĐÚNG — Kết nối nhân quả trực tiếp giữa hạn chế bãi đỗ và khuyến nghị đi xe buýt.",
+            "C": "Loại vì không diễn tả hậu quả điều kiện trái ngược.",
+            "D": "Loại vì không mô tả hai sự kiện diễn ra song song."
+          },
+          "keyTakeaways": {
+            "formula": "Parking will be extremely limited. Therefore / Accordingly, attendees are advised to use public transit.",
+            "commonTrap": "Quen tay chọn 'However' trong các câu dài, bỏ quên mối quan hệ nguyên nhân (hết chỗ đậu xe) → kết quả (đi xe buýt).",
+            "paraphrases": [
+              {
+                "textInPassage": "strongly advised to ride the free shuttle",
+                "textInAnswer": "encouraged to take complimentary transit",
+                "meaningVi": "được khuyến khích đi xe trung chuyển miễn phí"
+              }
+            ]
+          },
+          "applyRule": "Mô típ ETS cực quen: 'parking is limited' → 'Therefore, visitors are advised to take the shuttle/train'.",
+          "contextBridge": {
+            "beforeCue": "Because Cedar Street between Main Avenue and Third Street will be closed to motor vehicles all morning for pedestrian safety, curbside parking near the plaza will be extremely limited.",
+            "afterCue": "attendees are strongly advised to ride the free municipal shuttle departing every twenty minutes from the train station.",
+            "connectorOrRef": "Trạng từ nối nhân quả: Therefore",
+            "logicVi": "'Therefore' dẫn trực tiếp từ tình trạng thiếu chỗ đỗ xe do cấm đường sang lời khuyên hợp lý là đi xe buýt miễn phí từ nhà ga."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-03-q142",
+        "blankNumber": 142,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Cedar Square was first established as a public park in 1924.",
+          "B": "Vendors must submit their annual business tax returns before March.",
+          "C": "In the event of heavy rain, these festivities will be relocated indoors to the Oakwood Community Gymnasium.",
+          "D": "The train station ticket counter closes daily at seven in the evening."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'these festivities' & phương án dự phòng thời tiết cho sự kiện ngoài trời)",
+            "signal": "Sự kiện ngoài trời tại Quảng trường Cedar ('Cedar Square') vào ngày hè; [142] chốt phương án dự phòng khi mưa lớn bằng cụm quy chiếu 'these festivities'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu kết phù hợp nhất vào vị trí [142].",
+            "optionsVi": {
+              "A": "Quảng trường Cedar lần đầu được thành lập làm công viên công cộng năm 1924.",
+              "B": "Người bán hàng phải nộp tờ khai thuế doanh nghiệp thường niên trước tháng Ba.",
+              "C": "Trong trường hợp mưa lớn, các hoạt động lễ hội này sẽ được chuyển vào trong nhà tại Nhà thi đấu Cộng đồng Oakwood.",
+              "D": "Quầy bán vé nhà ga đóng cửa hàng ngày lúc bảy giờ tối."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'these festivities' ở (C) quy chiếu toàn bộ hội chợ nông sản & biểu diễn âm nhạc ngoài trời của bài, đồng thời cung cấp phương án dự phòng thời tiết cực kỳ chuẩn mực ở cuối thông báo sự kiện ngoài trời.",
+            "evidenceQuote": "celebrate the start of summer at our Annual Farmers' and Artisans' Market this Saturday, June 14, from 8:00 A.M. to 3:00 P.M. at Cedar Square.",
+            "evidenceSentenceId": "p6-s2-03-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tiểu sử năm 1924 của quảng trường lạc khỏi mục đích thông báo hội chợ cuối tuần.",
+            "B": "Loại vì chuyện thuế tháng Ba hoàn toàn lạc đề (hiện đang là tháng Sáu).",
+            "C": "ĐÚNG — 'these festivities' gom trọn các hoạt động hội chợ và bổ sung phương án thời tiết thiết yếu cho sự kiện ngoài trời.",
+            "D": "Loại vì hội chợ kết thúc lúc 3:00 chiều, thông tin quầy vé đóng lúc 7:00 tối bị thừa và lệch trọng tâm."
+          },
+          "keyTakeaways": {
+            "formula": "Sự kiện ngoài trời → In the event of heavy rain / inclement weather, these festivities will be relocated indoors...",
+            "commonTrap": "Bẫy (A) lặp tên riêng 'Cedar Square' và (D) lặp 'train station', nhưng cả hai đều lạc khỏi thông tin hữu ích cho khách đi hội chợ.",
+            "paraphrases": [
+              {
+                "textInPassage": "In the event of heavy rain",
+                "textInAnswer": "in case of bad weather",
+                "meaningVi": "trong trường hợp thời tiết xấu / mưa to"
+              }
+            ]
+          },
+          "applyRule": "Thông báo sự kiện ngoài trời (park / square / festival) rất hay chốt câu cuối bằng phương án chuyển vào trong nhà khi mưa ('In the event of rain, these festivities...').",
+          "contextBridge": {
+            "beforeCue": "Admission to the market is completely free, and reusable canvas shopping totes will be distributed to the first two hundred guests.",
+            "afterCue": "(Kết thúc thông báo — phương án dự phòng thời tiết cho sự kiện ngoài trời)",
+            "connectorOrRef": "Cụm quy chiếu: 'these festivities' (= hội chợ nông sản, nghệ nhân & hòa nhạc tại Cedar Square)",
+            "logicVi": "Sau thông tin vào cửa tự do và quà tặng túi vải, câu (C) dùng 'these festivities' bổ sung phương án dự phòng chuyển vào Nhà thi đấu Oakwood nếu trời mưa lớn."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-04",
+    "title": "Bài 18 (Notice): Quy định An toàn Phòng cháy & Diễn tập Sơ tán Định kỳ",
+    "genre": "Notice",
+    "headerMeta": {
+      "from": "Building Safety & Compliance Office",
+      "to": "All Occupants of MetroPoint Office Complex",
+      "date": "October 6",
+      "subject": "Mandatory Semiannual Fire Evacuation Drill — October 15"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-04-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-04-s1",
+            "en": "In compliance with municipal fire-safety regulations, MetroPoint Office Complex will conduct a mandatory building-wide evacuation drill on Wednesday, October 15, beginning promptly at 10:30 A.M.",
+            "vi": "Tuân thủ quy định an toàn phòng cháy chữa cháy của thành phố, Khu phức hợp Văn phòng MetroPoint sẽ tổ chức diễn tập sơ tán bắt buộc toàn tòa nhà vào thứ Tư, ngày 15/10, bắt đầu đúng 10:30 sáng."
+          },
+          {
+            "id": "p6-s2-04-s2",
+            "en": "When the alarm sounds, all personnel must stop work [143] _______, leave personal belongings behind, and exit via the nearest marked emergency staircase rather than the elevators.",
+            "vi": "Khi chuông báo động vang lên, tất cả nhân sự phải ngừng làm việc [143] _______, để lại đồ đạc cá nhân và thoát ra bằng cầu thang thoát hiểm có đánh dấu gần nhất thay vì thang máy."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-04-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-04-s3",
+            "en": "We understand that interrupting mid-morning meetings and customer phone calls can be inconvenient. [144] _______, full participation from every tenant office is strictly required by city fire marshals who will be observing the exercise.",
+            "vi": "Chúng tôi hiểu rằng việc gián đoạn các cuộc họp giữa buổi sáng và cuộc gọi khách hàng có thể gây bất tiện. [144] _______, sự tham gia đầy đủ từ mọi văn phòng thuê vẫn là yêu cầu nghiêm ngặt của lực lượng thanh tra phòng cháy thành phố, những người sẽ trực tiếp giám sát buổi diễn tập."
+          },
+          {
+            "id": "p6-s2-04-s4",
+            "en": "Upon reaching street level, employees should walk calmly to their designated assembly zone in the south courtyard and check in with their floor warden. [145] _______.",
+            "vi": "Khi xuống tới mặt đất, nhân viên cần đi bộ bình tĩnh tới khu vực tập kết được chỉ định ở sân phía nam và điểm danh với đội trưởng an toàn tầng của mình. [145] _______."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-04-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-04-s5",
+            "en": "The entire drill is expected to last no longer than twenty minutes, after which security officers will announce when it is safe to [146] _______ the building.",
+            "vi": "Toàn bộ buổi diễn tập dự kiến kéo dài không quá hai mươi phút, sau đó nhân viên an ninh sẽ thông báo thời điểm an toàn để [146] _______ tòa nhà."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-04-q143",
+        "blankNumber": 143,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "immediate",
+          "B": "immediacy",
+          "C": "more immediate",
+          "D": "immediately"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Trạng từ bổ nghĩa cụm động từ 'stop work')",
+            "signal": "Mệnh đề 'all personnel must stop work [Adv]' đã đủ S + V + O → cần Trạng từ 'immediately'."
+          },
+          "translation": {
+            "questionVi": "Chọn từ loại đúng sau 'stop work' tại [143].",
+            "optionsVi": {
+              "A": "immediate (adj): ngay lập tức",
+              "B": "immediacy (n): tính cấp bách",
+              "C": "more immediate (adj so sánh hơn): cấp bách hơn",
+              "D": "immediately (adv): một cách ngay lập tức"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ 'stop' đã có tân ngữ 'work', nên cần Trạng từ 'immediately' đứng sau để chỉ thời điểm/cách thức hành động ('stop work immediately').",
+            "evidenceQuote": "all personnel must stop work [143] _______, leave personal belongings behind",
+            "evidenceSentenceId": "p6-s2-04-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tính từ không bổ nghĩa cho động từ 'stop'.",
+            "B": "Loại vì danh từ không thể đứng liền sau danh từ 'work' ở đây.",
+            "C": "Loại vì tính từ so sánh hơn sai chức năng ngữ pháp.",
+            "D": "ĐÚNG — 'stop work immediately' (ngừng làm việc ngay lập tức) chuẩn xác 100%."
+          },
+          "keyTakeaways": {
+            "formula": "stop work / evacuate / report + immediately / promptly",
+            "commonTrap": "Thấy danh từ 'work' rồi hiểu nhầm cần tính từ đi kèm.",
+            "paraphrases": [
+              {
+                "textInPassage": "stop work immediately",
+                "textInAnswer": "cease activities without delay",
+                "meaningVi": "ngừng công việc không chậm trễ"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'V + O + ___,' (trước dấu phẩy phân tách chuỗi hành động) → chọn ngay Trạng từ (-ly).",
+          "contextBridge": {
+            "beforeCue": "MetroPoint Office Complex will conduct a mandatory building-wide evacuation drill on Wednesday, October 15, beginning promptly at 10:30 A.M.",
+            "afterCue": "leave personal belongings behind, and exit via the nearest marked emergency staircase rather than the elevators.",
+            "connectorOrRef": "Chỗ trống [143] • Từ loại (Trạng từ)",
+            "logicVi": "Ngay khi có chuông báo động, nhân sự phải ngừng làm việc lập tức ('stop work immediately') để sơ tán kịp thời."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-04-q144",
+        "blankNumber": 144,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Nevertheless",
+          "B": "Consequently",
+          "C": "For instance",
+          "D": "Moreover"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối nhượng bộ / tương phản (Nevertheless = Tuy nhiên)",
+            "signal": "Câu trước thừa nhận sự bất tiện ('We understand that interrupting... can be inconvenient') ↔ Câu này nhấn mạnh vẫn bắt buộc tham gia đầy đủ ('strictly required') → dùng 'Nevertheless'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối nhượng bộ phù hợp tại [144].",
+            "optionsVi": {
+              "A": "Nevertheless: Tuy nhiên, mặc dù vậy",
+              "B": "Consequently: Do đó",
+              "C": "For instance: Ví dụ như",
+              "D": "Moreover: Hơn nữa"
+            }
+          },
+          "proof": {
+            "explanation": "Cấu trúc lịch sự kinh điển trong thông báo doanh nghiệp: thừa nhận bất tiện ('We understand that... can be inconvenient') → đảo chiều sang yêu cầu bắt buộc ('Nevertheless, full participation... is strictly required').",
+            "evidenceQuote": "We understand that interrupting mid-morning meetings and customer phone calls can be inconvenient. [144] _______, full participation from every tenant office is strictly required",
+            "evidenceSentenceId": "p6-s2-04-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Thể hiện chính xác sắc thái nhượng bộ ('dù bất tiện, tuy nhiên vẫn bắt buộc').",
+            "B": "Loại vì yêu cầu bắt buộc không phải hệ quả của sự bất tiện.",
+            "C": "Loại vì không phải ví dụ minh họa.",
+            "D": "Loại vì hai vế ngược chiều nhau (bất tiện ↔ bắt buộc), không phải bổ sung."
+          },
+          "keyTakeaways": {
+            "formula": "We understand that X can be inconvenient. Nevertheless / However, + yêu cầu bắt buộc.",
+            "commonTrap": "Thấy từ 'Nevertheless' dài hơn 'However' dễ ngập ngừng, nhưng trong TOEIC hai từ này có vai trò nhượng bộ giống hệt nhau!",
+            "paraphrases": [
+              {
+                "textInPassage": "strictly required",
+                "textInAnswer": "mandatory for all occupants",
+                "meaningVi": "bắt buộc nghiêm ngặt với mọi người trong tòa nhà"
+              }
+            ]
+          },
+          "applyRule": "Thấy câu mở đầu 'We understand / recognize that ... can be inconvenient.' → câu sau 99% bắt đầu bằng 'Nevertheless / However'.",
+          "contextBridge": {
+            "beforeCue": "We understand that interrupting mid-morning meetings and customer phone calls can be inconvenient.",
+            "afterCue": "full participation from every tenant office is strictly required by city fire marshals who will be observing the exercise.",
+            "connectorOrRef": "Trạng từ nối nhượng bộ: Nevertheless",
+            "logicVi": "'Nevertheless' chuyển hướng khéo léo từ sự thông cảm với bất tiện (ngắt quãng họp/điện thoại) sang tính bắt buộc pháp lý do thanh tra PCCC thành phố giám sát."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-04-q145",
+        "blankNumber": 145,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Fire extinguishers on the eighth floor were inspected last December.",
+          "B": "Those individuals will account for every team member and relay headcount totals to emergency coordinators.",
+          "C": "The south courtyard also features outdoor benches and a coffee kiosk.",
+          "D": "Visitors arriving after noon must sign in at the ground-floor reception desk."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'Those individuals' → 'their floor warden')",
+            "signal": "Câu trước: nhân viên đi tới sân nam và điểm danh với đội trưởng an toàn tầng ('check in with their floor warden') → [145] giải thích nhiệm vụ của chính những đội trưởng này bằng 'Those individuals'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối mạch logic nhất vào vị trí [145].",
+            "optionsVi": {
+              "A": "Các bình chữa cháy trên tầng tám đã được kiểm tra vào tháng Mười Hai năm ngoái.",
+              "B": "Những cá nhân đó sẽ kiểm đếm từng thành viên trong nhóm và báo tổng quân số cho các điều phối viên khẩn cấp.",
+              "C": "Sân phía nam cũng có ghế đá ngoài trời và một quầy cà phê.",
+              "D": "Khách đến sau buổi trưa phải đăng ký tại quầy lễ tân tầng trệt."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm quy chiếu 'Those individuals' ở (B) thay thế trực tiếp cho 'their floor warden' (những đội trưởng an toàn từng tầng) ở cuối câu trước, giải thích rõ mục đích của thao tác điểm danh ('check in' → 'account for every team member and relay headcount totals').",
+            "evidenceQuote": "walk calmly to their designated assembly zone in the south courtyard and check in with their floor warden.",
+            "evidenceSentenceId": "p6-s2-04-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì thông tin quá khứ về bình chữa cháy tầng 8 cắt đứt quy trình sơ tán.",
+            "B": "ĐÚNG — 'Those individuals' quy chiếu thẳng 'floor warden' và giải thích bước tiếp theo của việc điểm danh.",
+            "C": "Loại vì bẫy lặp cụm 'south courtyard' nhưng lại quảng cáo ghế đá và quầy cà phê giữa thông báo diễn tập PCCC!",
+            "D": "Loại vì buổi diễn tập diễn ra lúc 10:30 sáng (kéo dài 20 phút), chuyện khách đến sau trưa lạc đề."
+          },
+          "keyTakeaways": {
+            "formula": "check in with their floor warden → Those individuals will account for every member & relay headcount",
+            "commonTrap": "Bẫy (C) lặp đúng từ 'south courtyard' khiến người đọc hời hợt chọn nhầm thay vì bám từ quy chiếu 'Those individuals'!",
+            "paraphrases": [
+              {
+                "textInPassage": "account for every team member",
+                "textInAnswer": "verify everyone's attendance",
+                "meaningVi": "kiểm đếm xác nhận đủ mọi thành viên"
+              }
+            ]
+          },
+          "applyRule": "Ưu tiên câu chứa đại từ/cụm quy chiếu ('Those individuals / These wardens') nối thẳng vai trò người vừa nhắc cuối câu trước, thay vì câu chỉ lặp địa danh ('south courtyard').",
+          "contextBridge": {
+            "beforeCue": "Upon reaching street level, employees should walk calmly to their designated assembly zone in the south courtyard and check in with their floor warden.",
+            "afterCue": "The entire drill is expected to last no longer than twenty minutes, after which security officers will announce when it is safe to reenter the building.",
+            "connectorOrRef": "Cụm quy chiếu: 'Those individuals' (= floor wardens) + chuỗi 'check in' → 'account for... relay headcount'",
+            "logicVi": "'Those individuals' nối thẳng về đội trưởng an toàn tầng, làm rõ khâu điểm danh quân số trước khi bảo vệ phát tín hiệu quay lại tòa nhà ở câu cuối."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-04-q146",
+        "blankNumber": 146,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "construct",
+          "B": "purchase",
+          "C": "reenter",
+          "D": "postpone"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Diễn tập Sơ tán (tiền tố 're-' = quay trở lại)",
+            "signal": "Đầu bài yêu cầu thoát ra khỏi tòa nhà ('exit') → Sau 20 phút diễn tập, bảo vệ thông báo thời điểm an toàn để 'vào lại' tòa nhà ('reenter the building')."
+          },
+          "translation": {
+            "questionVi": "Chọn động từ nguyên mẫu thích hợp sau 'safe to' tại [146].",
+            "optionsVi": {
+              "A": "construct: xây dựng",
+              "B": "purchase: mua",
+              "C": "reenter: quay trở vào lại",
+              "D": "postpone: trì hoãn"
+            }
+          },
+          "proof": {
+            "explanation": "Nhân viên vừa sơ tán ra sân nam trong 20 phút, nên kết thúc buổi diễn tập bảo vệ sẽ báo khi nào an toàn để quay trở vào tòa nhà ('reenter the building').",
+            "evidenceQuote": "security officers will announce when it is safe to [146] _______ the building.",
+            "evidenceSentenceId": "p6-s2-04-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không ai đi 'xây dựng' lại tòa nhà sau 20 phút diễn tập.",
+            "B": "Loại vì vô nghĩa trong bối cảnh sơ tán.",
+            "C": "ĐÚNG — 'safe to reenter the building' là cụm cố định chuẩn xác cho diễn tập PCCC.",
+            "D": "Loại vì không thể 'hoãn tòa nhà'."
+          },
+          "keyTakeaways": {
+            "formula": "evacuate / exit the building ↔ safe to reenter the building",
+            "commonTrap": "Không nhận ra tiền tố 're-' (lại) kết hợp với 'enter' (vào) tạo nghĩa 'quay trở vào'.",
+            "paraphrases": [
+              {
+                "textInPassage": "safe to reenter the building",
+                "textInAnswer": "permitted to return indoors",
+                "meaningVi": "được phép quay trở vào trong tòa nhà"
+              }
+            ]
+          },
+          "applyRule": "Mạch sơ tán luôn có cặp đối ứng: 'evacuate/exit' (đầu bài) ↔ 'reenter/return to the building' (cuối bài).",
+          "contextBridge": {
+            "beforeCue": "Those individuals will account for every team member and relay headcount totals to emergency coordinators.",
+            "afterCue": "(Kết thúc thông báo — chốt thời điểm kết thúc diễn tập)",
+            "connectorOrRef": "Chỗ trống [146] • Cặp đối ứng: exit ↔ reenter",
+            "logicVi": "Khép lại quy trình sơ tán 20 phút bằng tín hiệu từ nhân viên an ninh cho phép mọi người quay trở lại tòa nhà ('reenter the building')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-05",
+    "title": "Bài 19 (Advertisement): Ra mắt Dòng Máy pha Cà phê Văn phòng Tiết kiệm Điện",
+    "genre": "Advertisement",
+    "headerMeta": {
+      "from": "AromaCraft Commercial Appliances",
+      "to": "Office Managers & Hospitality Buyers",
+      "date": "April 2",
+      "subject": "Introducing the BrewSmart Pro X — Barista Quality, Half the Energy"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-05-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-05-s1",
+            "en": "Upgrade your workplace break room without inflating your utility bills! AromaCraft Commercial Appliances is excited to unveil the BrewSmart Pro X, a sleek bean-to-cup espresso machine engineered for busy offices of twenty to one hundred employees.",
+            "vi": "Nâng cấp phòng nghỉ văn phòng mà không làm phình to hóa đơn tiền điện! AromaCraft Commercial Appliances hân hạnh ra mắt BrewSmart Pro X, chiếc máy pha espresso xay hạt tự động tinh tế được thiết kế cho các văn phòng bận rộn từ hai mươi đến một trăm nhân viên."
+          },
+          {
+            "id": "p6-s2-05-s2",
+            "en": "Unlike conventional commercial brewers that keep water tanks boiling all day, the Pro X uses instant-heat thermal coils that slash standby electricity [131] _______ by nearly fifty percent.",
+            "vi": "Không giống các máy pha thương mại truyền thống giữ bình nước sôi suốt cả ngày, Pro X sử dụng cuộn gia nhiệt tức thì giúp cắt giảm [131] _______ điện ở chế độ chờ tới gần năm mươi phần trăm."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-05-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-05-s3",
+            "en": "Equipped with whisper-quiet ceramic grinders and an intuitive touchscreen, the machine delivers twelve customizable beverages—[132] _______ from bold double espressos to frothy oat-milk lattes—in under forty seconds. [133] _______.",
+            "vi": "Được trang bị cối xay gốm siêu êm và màn hình cảm ứng trực quan, chiếc máy mang đến mười hai loại đồ uống tùy chỉnh—[132] _______ từ espresso kép đậm đà đến latte sữa yến mạch béo mịn—chỉ trong chưa đầy bốn mươi giây. [133] _______."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-05-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-05-s4",
+            "en": "[134] _______, every BrewSmart Pro X purchased before May 15 includes complimentary on-site installation, a three-year parts-and-labor warranty, and four kilograms of ethically sourced Arabica beans.",
+            "vi": "[134] _______, mỗi máy BrewSmart Pro X đặt mua trước ngày 15/5 đều được tặng kèm lắp đặt tận nơi miễn phí, bảo hành linh kiện và nhân công ba năm cùng bốn ki-lô-gam hạt Arabica có nguồn gốc bền vững."
+          },
+          {
+            "id": "p6-s2-05-s5",
+            "en": "Visit aromacraft-pro.com today to request a free seven-day office trial.",
+            "vi": "Hãy truy cập aromacraft-pro.com ngay hôm nay để đăng ký dùng thử miễn phí bảy ngày tại văn phòng."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-05-q131",
+        "blankNumber": 131,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "attendance",
+          "B": "permission",
+          "C": "consumption",
+          "D": "reservation"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Collocation Năng lượng (electricity consumption)",
+            "signal": "Đi với 'slash standby electricity ___ by nearly fifty percent' (cắt giảm mức tiêu thụ điện chờ gần 50%)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ ghép chuẩn với 'electricity' tại [131].",
+            "optionsVi": {
+              "A": "attendance: sự tham dự",
+              "B": "permission: sự cho phép",
+              "C": "consumption: mức tiêu thụ",
+              "D": "reservation: sự đặt chỗ"
+            }
+          },
+          "proof": {
+            "explanation": "Tiêu đề nhấn mạnh 'Half the Energy' và câu đầu nói 'without inflating your utility bills' → cụm chuẩn mực chỉ lượng điện tiêu thụ là 'electricity consumption'.",
+            "evidenceQuote": "uses instant-heat thermal coils that slash standby electricity [131] _______ by nearly fifty percent.",
+            "evidenceSentenceId": "p6-s2-05-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì dùng cho sự kiện/lớp học.",
+            "B": "Loại vì không đi với 'electricity'.",
+            "C": "ĐÚNG — 'electricity / energy consumption' là cụm kinh điển bậc nhất trong TOEIC.",
+            "D": "Loại vì dùng cho nhà hàng/khách sạn."
+          },
+          "keyTakeaways": {
+            "formula": "slash / reduce + energy / electricity / water + consumption",
+            "commonTrap": "Nhầm 'consumption' chỉ dùng cho ăn uống; trong tiếng Anh thương mại nó rất hay đi với năng lượng và nhiên liệu.",
+            "paraphrases": [
+              {
+                "textInPassage": "slash standby electricity consumption by nearly fifty percent",
+                "textInAnswer": "use almost half as much power",
+                "meaningVi": "dùng ít điện hơn gần một nửa"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'reduce/slash + energy/electricity/fuel ___' → chốt ngay 'consumption / usage'.",
+          "contextBridge": {
+            "beforeCue": "Upgrade your workplace break room without inflating your utility bills!",
+            "afterCue": "Equipped with whisper-quiet ceramic grinders and an intuitive touchscreen, the machine delivers twelve customizable beverages",
+            "connectorOrRef": "Chỗ trống [131] • Collocation: electricity consumption",
+            "logicVi": "Cuộn gia nhiệt tức thì cắt giảm gần 50% lượng điện tiêu thụ ('electricity consumption'), chứng minh ngay tuyên bố 'Half the Energy' ở tiêu đề."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-05-q132",
+        "blankNumber": 132,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "range",
+          "B": "ranging",
+          "C": "ranged",
+          "D": "ranges"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm phân từ chủ động 'ranging from A to B'",
+            "signal": "Cấu trúc cố định bổ nghĩa cho danh từ số nhiều 'twelve customizable beverages': 'ranging from A to B' (đa dạng từ A đến B)."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng phân từ đúng trong cụm '___ from A to B' tại [132].",
+            "optionsVi": {
+              "A": "range (V0 / N): trải dài / phạm vi",
+              "B": "ranging (V-ing): trải rộng, đa dạng từ... đến...",
+              "C": "ranged (V-ed): đã trải dài (không dùng bị động)",
+              "D": "ranges (V-s): chia thì HTĐ số ít"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ chính của câu là 'delivers'; cụm bổ sung giữa hai dấu gạch ngang giải thích phạm vi 12 món đồ uống phải rút gọn bằng hiện tại phân từ chủ động 'ranging from ... to ...' (vì 'range' là nội động từ).",
+            "evidenceQuote": "delivers twelve customizable beverages—[132] _______ from bold double espressos to frothy oat-milk lattes",
+            "evidenceSentenceId": "p6-s2-05-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không dùng động từ nguyên mẫu sau dấu gạch ngang bổ nghĩa danh từ.",
+            "B": "ĐÚNG — 'ranging from A to B' là cụm phân từ siêu hay ra thi trong cả Part 5 và Part 6.",
+            "C": "Loại vì 'range' không chia dạng phân từ bị động 'ranged from'.",
+            "D": "Loại vì vừa sai số ít với 'beverages' vừa dư động từ chia thì."
+          },
+          "keyTakeaways": {
+            "formula": "Danh từ số nhiều + ranging from A to B (đa dạng từ A đến B)",
+            "commonTrap": "Nhiều thí sinh nghĩ 'beverages' là vật nên chọn nhầm bị động 'ranged' — nhớ kỹ 'range from... to...' LUÔN dùng 'ranging'!",
+            "paraphrases": [
+              {
+                "textInPassage": "ranging from espressos to lattes",
+                "textInAnswer": "including a wide variety of coffee drinks",
+                "meaningVi": "bao gồm đa dạng nhiều loại thức uống cà phê"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Danh từ + (—/,) ___ from A to B' → 100% chọn 'ranging', không bao giờ chọn 'ranged'.",
+          "contextBridge": {
+            "beforeCue": "Equipped with whisper-quiet ceramic grinders and an intuitive touchscreen, the machine delivers twelve customizable beverages",
+            "afterCue": "in under forty seconds.",
+            "connectorOrRef": "Chỗ trống [132] • Cụm cố định: ranging from A to B",
+            "logicVi": "Cụm phân từ 'ranging from... to...' minh họa sự phong phú của 12 công thức đồ uống pha chế chỉ dưới 40 giây."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-05-q133",
+        "blankNumber": 133,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Employees should store perishable lunch items inside the shared refrigerator.",
+          "B": "Commercial electricity tariffs vary widely across different municipalities.",
+          "C": "Our customer service center is located near the downtown train terminal.",
+          "D": "Its built-in self-rinsing cycle also cleans the milk frother automatically at the end of each shift."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Đại từ sở hữu 'Its' & nối tiếp chi tiết 'frothy oat-milk lattes')",
+            "signal": "Câu trước giới thiệu máy pha latte sữa yến mạch trong 40 giây; [133] tiếp tục dùng 'Its... also' khen tính năng tự vệ sinh vòi đánh sữa ('milk frother') của chính chiếc máy đó."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối tiếp tính năng sản phẩm phù hợp nhất tại [133].",
+            "optionsVi": {
+              "A": "Nhân viên nên bảo quản đồ ăn trưa dễ hỏng trong tủ lạnh chung.",
+              "B": "Biểu giá điện thương mại biến động lớn giữa các thành phố khác nhau.",
+              "C": "Trung tâm chăm sóc khách hàng của chúng tôi nằm gần ga tàu trung tâm.",
+              "D": "Chu trình tự tráng tích hợp của máy cũng tự động làm sạch vòi đánh sữa vào cuối mỗi ca làm việc."
+            }
+          },
+          "proof": {
+            "explanation": "Đại từ sở hữu 'Its' quy chiếu trực tiếp về 'the machine' (BrewSmart Pro X), từ 'also' nối mạch liệt kê ưu điểm vận hành, và 'milk frother' ăn khớp ngay với món 'frothy oat-milk lattes' vừa nhắc cuối câu trước.",
+            "evidenceQuote": "the machine delivers twelve customizable beverages—ranging from bold double espressos to frothy oat-milk lattes—in under forty seconds.",
+            "evidenceSentenceId": "p6-s2-05-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì mang giọng nội quy phòng nghỉ văn phòng, lệch hoàn toàn văn phong quảng cáo bán máy.",
+            "B": "Loại vì nhận xét chung về biểu giá điện không mô tả tính năng máy Pro X.",
+            "C": "Loại vì địa chỉ trung tâm CSKH cắt ngang đoạn quảng cáo công nghệ máy.",
+            "D": "ĐÚNG — 'Its' quy chiếu chiếc máy, 'milk frother' bắt thẳng vào 'frothy oat-milk lattes' ngay trước đó."
+          },
+          "keyTakeaways": {
+            "formula": "Mô tả tính năng 1 của sản phẩm (the machine delivers...) → Its + tính năng 2 + also...",
+            "commonTrap": "Bẫy (A) dính chủ đề 'break room' và (B) dính chủ đề 'electricity', nhưng chỉ (D) giữ đúng đối tượng 'the machine' bằng đại từ 'Its'.",
+            "paraphrases": [
+              {
+                "textInPassage": "built-in self-rinsing cycle",
+                "textInAnswer": "automatic cleaning function",
+                "meaningVi": "chức năng tự động vệ sinh tích hợp"
+              }
+            ]
+          },
+          "applyRule": "Trong bài Quảng cáo sản phẩm, đoạn giữa mô tả tính năng: hãy tìm câu bắt đầu bằng 'It / Its + tính năng bổ sung + also' khớp chi tiết câu trước ('frothy milk' ↔ 'milk frother').",
+          "contextBridge": {
+            "beforeCue": "Equipped with whisper-quiet ceramic grinders and an intuitive touchscreen, the machine delivers twelve customizable beverages—ranging from bold double espressos to frothy oat-milk lattes—in under forty seconds.",
+            "afterCue": "Moreover, every BrewSmart Pro X purchased before May 15 includes complimentary on-site installation, a three-year parts-and-labor warranty, and four kilograms of ethically sourced Arabica beans.",
+            "connectorOrRef": "Quy chiếu: 'Its' (= the machine) + liên kết từ vựng 'frothy oat-milk' ↔ 'milk frother'",
+            "logicVi": "'Its' gắn trực tiếp vào máy BrewSmart Pro X, giải tỏa ngay nỗi lo lớn nhất khi pha đồ uống sữa ('frothy oat-milk lattes') là khâu vệ sinh vòi đánh sữa, trước khi đoạn 3 tung ưu đãi mua sớm."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-05-q134",
+        "blankNumber": 134,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Moreover",
+          "B": "However",
+          "C": "Otherwise",
+          "D": "In contrast"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối bổ sung ưu đãi bán hàng (Moreover)",
+            "signal": "Đoạn 2 khen tính năng máy (tiết kiệm điện, pha 12 món, tự rửa) → Đoạn 3 cộng thêm gói khuyến mãi tặng lắp đặt, bảo hành 3 năm và 4kg hạt cà phê → dùng 'Moreover'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối mở đầu đoạn ưu đãi tại [134].",
+            "optionsVi": {
+              "A": "Moreover: Hơn thế nữa, ngoài ra",
+              "B": "However: Tuy nhiên",
+              "C": "Otherwise: Nếu không thì",
+              "D": "In contrast: Trái lại"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 đẩy cao sức hút bán hàng bằng việc bổ sung gói quà tặng và bảo hành miễn phí cho đơn mua trước 15/5 → quan hệ bổ sung cùng chiều tích cực, chọn 'Moreover'.",
+            "evidenceQuote": "[134] _______, every BrewSmart Pro X purchased before May 15 includes complimentary on-site installation, a three-year parts-and-labor warranty",
+            "evidenceSentenceId": "p6-s2-05-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Chuyển mượt từ ưu điểm kỹ thuật sang ưu đãi mua hàng hấp dẫn.",
+            "B": "Loại vì không mang ý đối lập.",
+            "C": "Loại vì không phải hậu quả cảnh báo.",
+            "D": "Loại vì không so sánh tương phản."
+          },
+          "keyTakeaways": {
+            "formula": "Ưu điểm sản phẩm (đoạn 2). Moreover / Furthermore / In addition, + Ưu đãi khuyến mãi (đoạn 3).",
+            "commonTrap": "Ba lựa chọn B, C, D đều mang sắc thái ngược chiều/cảnh báo — bài quảng cáo chuyển từ tính năng sang khuyến mãi LUÔN dùng nhóm bổ sung!",
+            "paraphrases": [
+              {
+                "textInPassage": "complimentary on-site installation",
+                "textInAnswer": "free setup at your office",
+                "meaningVi": "lắp đặt miễn phí tại văn phòng"
+              }
+            ]
+          },
+          "applyRule": "Quảng cáo: Đoạn 2 (tính năng hay) → Đoạn 3 (tặng quà/giảm giá/bảo hành) = cùng chiều (+) → chốt 'Moreover / Furthermore'.",
+          "contextBridge": {
+            "beforeCue": "Its built-in self-rinsing cycle also cleans the milk frother automatically at the end of each shift.",
+            "afterCue": "every BrewSmart Pro X purchased before May 15 includes complimentary on-site installation, a three-year parts-and-labor warranty, and four kilograms of ethically sourced Arabica beans.",
+            "connectorOrRef": "Trạng từ nối bổ sung: Moreover",
+            "logicVi": "'Moreover' nối đà thuyết phục từ loạt tính năng thông minh sang gói ưu đãi tặng kèm lắp đặt, bảo hành 3 năm và 4kg cà phê hạt."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-06",
+    "title": "Bài 20 (Advertisement): Chương trình Ưu đãi Hội viên VIP Hãng Hàng không Khu vực",
+    "genre": "Advertisement",
+    "headerMeta": {
+      "from": "SkyBridge Regional Airlines",
+      "to": "Frequent Business Travelers",
+      "date": "September 8",
+      "subject": "Fly Smarter with Our Upgraded Horizon Gold Membership"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-06-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-06-s1",
+            "en": "Frequent regional travel should feel effortless rather than exhausting. That is why SkyBridge Regional Airlines has redesigned our Horizon Gold Membership to reward loyal passengers with greater flexibility and faster airport transit.",
+            "vi": "Những chuyến công tác khu vực thường xuyên nên thật nhẹ nhàng thay vì mệt mỏi. Đó là lý do SkyBridge Regional Airlines đã thiết kế lại hạng thẻ Hội viên Horizon Gold nhằm tri ân hành khách trung thành bằng sự linh hoạt cao hơn và quy trình di chuyển tại sân bay nhanh chóng hơn."
+          },
+          {
+            "id": "p6-s2-06-s2",
+            "en": "Members earn double reward miles on every weekday flight and enjoy [135] _______ access to dedicated security lanes at all fourteen airports we serve.",
+            "vi": "Hội viên được tích lũy gấp đôi dặm thưởng trên mọi chuyến bay ngày thường và tận hưởng quyền tiếp cận [135] _______ tới làn kiểm tra an ninh riêng tại toàn bộ mười bốn sân bay mà chúng tôi khai thác."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-06-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-06-s3",
+            "en": "[136] _______, Horizon Gold travelers may switch to an earlier or later same-day departure at no extra change fee whenever business meetings run unexpectedly long.",
+            "vi": "[136] _______, hành khách Horizon Gold có thể đổi sang chuyến bay sớm hơn hoặc muộn hơn trong cùng ngày mà không mất phí đổi vé bất cứ khi nào cuộc họp công việc kéo dài ngoài dự kiến."
+          },
+          {
+            "id": "p6-s2-06-s4",
+            "en": "Before boarding, members can unwind inside our quiet departure [137] _______, which offer high-speed Wi-Fi, private workstations, and freshly prepared seasonal meals.",
+            "vi": "Trước giờ lên máy bay, hội viên có thể thư giãn bên trong các [137] _______ khởi hành yên tĩnh của chúng tôi, nơi cung cấp Wi-Fi tốc độ cao, góc làm việc riêng tư và các bữa ăn theo mùa mới chế biến."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-06-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-06-s5",
+            "en": "Enroll online before September 30 using promotional code FLY2026 to receive 5,000 bonus miles upon completing your first round-trip booking. [138] _______.",
+            "vi": "Đăng ký trực tuyến trước ngày 30/9 bằng mã khuyến mãi FLY2026 để nhận 5.000 dặm thưởng khi hoàn tất đặt vé khứ hồi đầu tiên. [138] _______."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-06-q135",
+        "blankNumber": 135,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "priority",
+          "B": "prioritize",
+          "C": "prioritized",
+          "D": "prioritizing"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Danh từ ghép chuẩn thương mại (priority access)",
+            "signal": "Cụm danh từ cố định trong hàng không: 'priority access / priority boarding / priority check-in'."
+          },
+          "translation": {
+            "questionVi": "Chọn từ đúng ghép với 'access to dedicated security lanes' tại [135].",
+            "optionsVi": {
+              "A": "priority (n dùng như tính từ): sự ưu tiên ('priority access': quyền tiếp cận ưu tiên)",
+              "B": "prioritize (v): ưu tiên hóa",
+              "C": "prioritized (v-ed): đã được xếp thứ tự ưu tiên",
+              "D": "prioritizing (v-ing): đang ưu tiên"
+            }
+          },
+          "proof": {
+            "explanation": "Trước danh từ 'access' trong ngành hàng không và dịch vụ VIP, danh từ định ngữ 'priority' tạo thành cụm cố định 'priority access' (quyền vào làn ưu tiên).",
+            "evidenceQuote": "enjoy [135] _______ access to dedicated security lanes at all fourteen airports we serve.",
+            "evidenceSentenceId": "p6-s2-06-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'priority access' là cụm ghép chuẩn mực 100% trong tiếng Anh hàng không/khách sạn.",
+            "B": "Loại vì động từ nguyên mẫu không đứng bổ nghĩa trước danh từ 'access'.",
+            "C": "Loại vì không nói 'prioritized access' cho đặc quyền làn ưu tiên sân bay.",
+            "D": "Loại vì V-ing sai cấu trúc bổ nghĩa ở đây."
+          },
+          "keyTakeaways": {
+            "formula": "priority + access / boarding / seating / check-in / support",
+            "commonTrap": "Cố tìm tính từ đuôi '-ed' hoặc '-al' mà quên 'priority' là danh từ ghép chuẩn trước 'access / boarding'.",
+            "paraphrases": [
+              {
+                "textInPassage": "priority access to dedicated security lanes",
+                "textInAnswer": "fast-track airport screening",
+                "meaningVi": "làn soi chiếu an ninh ưu tiên nhanh"
+              }
+            ]
+          },
+          "applyRule": "Thấy '___ + access / boarding / check-in / service' trong bối cảnh VIP → chọn thẳng 'priority'.",
+          "contextBridge": {
+            "beforeCue": "SkyBridge Regional Airlines has redesigned our Horizon Gold Membership to reward loyal passengers with greater flexibility and faster airport transit.",
+            "afterCue": "In addition, Horizon Gold travelers may switch to an earlier or later same-day departure at no extra change fee",
+            "connectorOrRef": "Chỗ trống [135] • Danh từ ghép: priority access",
+            "logicVi": "'priority access' vào làn an ninh riêng cụ thể hóa lời hứa 'faster airport transit' ở câu mở đầu."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-06-q136",
+        "blankNumber": 136,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Otherwise",
+          "C": "In addition",
+          "D": "Nevertheless"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối bổ sung đặc quyền (In addition)",
+            "signal": "Câu trước: tích gấp đôi dặm & làn an ninh ưu tiên ('faster airport transit') → Câu này: đổi chuyến cùng ngày miễn phí ('greater flexibility') → bổ sung quyền lợi dùng 'In addition'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối đầu đoạn 2 tại [136].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Otherwise: Nếu không thì",
+              "C": "In addition: Ngoài ra, thêm vào đó",
+              "D": "Nevertheless: Tuy nhiên"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 tiếp tục liệt kê quyền lợi đổi chuyến cùng ngày miễn phí (ứng với 'greater flexibility' ở đoạn 1) sau đặc quyền tích dặm và làn an ninh nhanh → chọn 'In addition'.",
+            "evidenceQuote": "[136] _______, Horizon Gold travelers may switch to an earlier or later same-day departure at no extra change fee",
+            "evidenceSentenceId": "p6-s2-06-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không đối lập với câu trước.",
+            "B": "Loại vì không nêu hậu quả điều kiện.",
+            "C": "ĐÚNG — Bổ sung đặc quyền linh hoạt đổi chuyến cho hội viên VIP.",
+            "D": "Loại vì đồng nghĩa với 'However', sai quan hệ bổ sung."
+          },
+          "keyTakeaways": {
+            "formula": "Đặc quyền 1 (double miles + priority lanes). In addition, + Đặc quyền 2 (free same-day flight changes).",
+            "commonTrap": "'However' và 'Nevertheless' hoàn toàn đồng nghĩa → loại cả hai ngay lập tức theo mẹo loại cặp đồng nghĩa!",
+            "paraphrases": [
+              {
+                "textInPassage": "at no extra change fee",
+                "textInAnswer": "without paying a rebooking penalty",
+                "meaningVi": "miễn phí đổi chuyến bay"
+              }
+            ]
+          },
+          "applyRule": "Mẹo siêu tốc: A ('However') = D ('Nevertheless') → loại cả 2; quảng cáo liệt kê thêm đặc quyền → chốt 'In addition'.",
+          "contextBridge": {
+            "beforeCue": "Members earn double reward miles on every weekday flight and enjoy priority access to dedicated security lanes at all fourteen airports we serve.",
+            "afterCue": "Horizon Gold travelers may switch to an earlier or later same-day departure at no extra change fee whenever business meetings run unexpectedly long.",
+            "connectorOrRef": "Cụm từ nối bổ sung: In addition",
+            "logicVi": "'In addition' nối quyền lợi ưu tiên sân bay (đoạn 1) sang quyền lợi đổi giờ bay linh hoạt miễn phí (đoạn 2)."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-06-q137",
+        "blankNumber": 137,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "warehouses",
+          "B": "lounges",
+          "C": "factories",
+          "D": "garages"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Sân bay (departure lounges)",
+            "signal": "Đi với 'Before boarding, members can unwind inside our quiet departure ___' có Wi-Fi, góc làm việc và bữa ăn → 'lounges' (phòng chờ hạng thương gia)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ chỉ phòng chờ sân bay tại [137].",
+            "optionsVi": {
+              "A": "warehouses: nhà kho hàng hóa",
+              "B": "lounges: phòng chờ (sân bay/khách sạn)",
+              "C": "factories: nhà máy sản xuất",
+              "D": "garages: nhà để xe"
+            }
+          },
+          "proof": {
+            "explanation": "Nơi hội viên VIP thư giãn trước giờ lên máy bay ('Before boarding... unwind') có Wi-Fi nhanh, bàn làm việc và đồ ăn theo mùa chính là phòng chờ khởi hành ('departure lounges').",
+            "evidenceQuote": "Before boarding, members can unwind inside our quiet departure [137] _______, which offer high-speed Wi-Fi, private workstations",
+            "evidenceSentenceId": "p6-s2-06-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì kho hàng không phục vụ hành khách thư giãn.",
+            "B": "ĐÚNG — 'departure lounges' (phòng chờ khởi hành) chuẩn xác tuyệt đối.",
+            "C": "Loại vì nhà máy không liên quan.",
+            "D": "Loại vì nhà xe không nằm trước cửa lên máy bay."
+          },
+          "keyTakeaways": {
+            "formula": "airport / departure / executive + lounge (phòng chờ sân bay)",
+            "commonTrap": "Đọc nhanh tránh nhầm 'lounge' (phòng chờ) với các từ chỉ không gian kho/bãi.",
+            "paraphrases": [
+              {
+                "textInPassage": "unwind inside our quiet departure lounges",
+                "textInAnswer": "relax in private airport waiting areas",
+                "meaningVi": "thư giãn tại khu phòng chờ riêng ở sân bay"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Before boarding + unwind/relax + Wi-Fi/meals' → 100% chọn 'lounges'.",
+          "contextBridge": {
+            "beforeCue": "Horizon Gold travelers may switch to an earlier or later same-day departure at no extra change fee",
+            "afterCue": "Enroll online before September 30 using promotional code FLY2026 to receive 5,000 bonus miles",
+            "connectorOrRef": "Chỗ trống [137] • Từ vựng hàng không: departure lounges",
+            "logicVi": "Quyền lợi sử dụng phòng chờ khởi hành yên tĩnh ('departure lounges') hoàn tất gói trải nghiệm cao cấp trước lời kêu gọi đăng ký ở đoạn cuối."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-06-q138",
+        "blankNumber": 138,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "SkyBridge Airlines recently ordered six new fuel-efficient aircraft from Europe.",
+          "B": "Carry-on luggage must not exceed ten kilograms on regional propeller flights.",
+          "C": "Corporate travel agencies are invited to attend our autumn trade summit.",
+          "D": "These bonus points can be redeemed immediately for seat upgrades, hotel stays, or future flight vouchers."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'These bonus points' → '5,000 bonus miles')",
+            "signal": "Câu trước tặng '5,000 bonus miles' khi đăng ký trước 30/9 → [138] giải thích cách sử dụng số điểm thưởng đó bằng cụm quy chiếu 'These bonus points'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu kết nối trực tiếp nhất vào vị trí [138].",
+            "optionsVi": {
+              "A": "SkyBridge Airlines gần đây đã đặt mua sáu máy bay tiết kiệm nhiên liệu mới từ châu Âu.",
+              "B": "Hành lý xách tay không được vượt quá mười ki-lô-gam trên các chuyến bay cánh quạt khu vực.",
+              "C": "Các công ty du lịch doanh nghiệp được mời tham dự hội nghị thương mại mùa thu của chúng tôi.",
+              "D": "Số điểm thưởng này có thể được quy đổi ngay lập tức lấy hạng ghế nâng cấp, đêm nghỉ khách sạn hoặc phiếu giảm giá vé máy bay tương lai."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'These bonus points' ở (D) quy chiếu thẳng tới '5,000 bonus miles' vừa nêu ở câu trước, đồng thời nâng cao giá trị lời kêu gọi hành động bằng việc chỉ rõ phần thưởng dùng để đổi được gì ('redeemed for seat upgrades...').",
+            "evidenceQuote": "receive 5,000 bonus miles upon completing your first round-trip booking.",
+            "evidenceSentenceId": "p6-s2-06-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tin mua đội tàu bay mới thuộc bản tin báo chí, không nối với lời kêu gọi nhập mã FLY2026.",
+            "B": "Loại vì quy định hành lý 10kg làm tụt cảm hứng mua thẻ VIP ở câu kết quảng cáo.",
+            "C": "Loại vì sai đối tượng (bài gửi cho hành khách công tác cá nhân, không phải đại lý du lịch).",
+            "D": "ĐÚNG — 'These bonus points' quy chiếu khít '5,000 bonus miles' và chốt quảng cáo đầy thuyết phục."
+          },
+          "keyTakeaways": {
+            "formula": "receive X bonus miles/points → These bonus points can be redeemed for + phần thưởng hấp dẫn",
+            "commonTrap": "Cả A, B, C đều chứa từ vựng ngành hàng không ('aircraft', 'carry-on luggage', 'travel agencies'), chỉ D giữ chặt cầu nối 'These bonus points'!",
+            "paraphrases": [
+              {
+                "textInPassage": "5,000 bonus miles",
+                "textInAnswer": "These bonus points",
+                "meaningVi": "số dặm / điểm thưởng này"
+              }
+            ]
+          },
+          "applyRule": "Thấy câu quảng cáo tặng 'X bonus miles/points' ở cuối bài → tìm ngay câu chứa 'These points / miles can be redeemed for...'.",
+          "contextBridge": {
+            "beforeCue": "Enroll online before September 30 using promotional code FLY2026 to receive 5,000 bonus miles upon completing your first round-trip booking.",
+            "afterCue": "(Kết thúc quảng cáo — gia tăng sức hút quy đổi điểm thưởng)",
+            "connectorOrRef": "Cụm quy chiếu đồng nghĩa: 'These bonus points' (= 5,000 bonus miles)",
+            "logicVi": "'These bonus points' nối trực tiếp với ưu đãi 5.000 dặm thưởng câu trước để minh họa rõ giá trị quy đổi thực tế (nâng hạng ghế, phòng khách sạn, voucher bay)."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-07",
+    "title": "Bài 21 (Advertisement): Dịch vụ Chuyển Văn phòng Trọn gói Ngoài giờ cho Doanh nghiệp",
+    "genre": "Advertisement",
+    "headerMeta": {
+      "from": "SwiftMove Commercial Relocations",
+      "to": "Corporate Operations & Office Administrators",
+      "date": "March 19",
+      "subject": "Zero-Downtime Weekend Office Moves — Guaranteed"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-07-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-07-s1",
+            "en": "Planning to relocate your company to a larger space this year? Moving an entire office does not have to halt productivity or stress your employees.",
+            "vi": "Bạn đang lên kế hoạch chuyển công ty sang không gian rộng hơn trong năm nay? Chuyển toàn bộ một văn phòng không nhất thiết phải làm đình trệ năng suất hay gây căng thẳng cho nhân viên của bạn."
+          },
+          {
+            "id": "p6-s2-07-s2",
+            "en": "At SwiftMove Commercial Relocations, our licensed crews specialize in seamless after-hours and weekend moves tailored to law firms, tech startups, and medical [139] _______.",
+            "vi": "Tại SwiftMove Commercial Relocations, đội ngũ có giấy phép của chúng tôi chuyên thực hiện các đợt chuyển dọn ngoài giờ và cuối tuần liền mạch, thiết kế riêng cho công ty luật, startup công nghệ và các [139] _______ y tế."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-07-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-07-s3",
+            "en": "We handle every phase of the transition, from supplying color-coded eco-crates to disconnecting, padding, and transporting delicate server racks. [140] _______.",
+            "vi": "Chúng tôi đảm nhận mọi giai đoạn của quá trình chuyển đổi, từ cung cấp thùng nhựa sinh thái mã hóa màu đến tháo kết nối, bọc lót và vận chuyển các tủ máy chủ nhạy cảm. [140] _______."
+          },
+          {
+            "id": "p6-s2-07-s4",
+            "en": "Every workstation is labeled according to your new floor plan so that desks, monitors, and telephone lines [141] _______ in the exact right positions before Monday morning. [142] _______, your staff can simply walk in at nine o'clock and resume serving clients right away.",
+            "vi": "Mọi vị trí làm việc đều được dán nhãn theo sơ đồ mặt bằng mới của bạn để bàn ghế, màn hình và đường dây điện thoại [141] _______ vào đúng vị trí trước sáng thứ Hai. [142] _______, nhân viên của bạn chỉ việc bước vào lúc chín giờ và tiếp tục phục vụ khách hàng ngay lập tức."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-07-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-07-s5",
+            "en": "Call 555-0194 or visit swiftmove-biz.com today to schedule a complimentary on-site walkthrough and receive a guaranteed flat-rate quote within twenty-four hours.",
+            "vi": "Hãy gọi 555-0194 hoặc truy cập swiftmove-biz.com ngay hôm nay để đặt lịch khảo sát tận nơi miễn phí và nhận báo giá trọn gói cam kết không phát sinh trong vòng hai mươi bốn giờ."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-07-q139",
+        "blankNumber": 139,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "receipts",
+          "B": "banquets",
+          "C": "salaries",
+          "D": "clinics"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Nhóm Khách hàng Doanh nghiệp",
+            "signal": "Liệt kê song song 3 loại cơ sở văn phòng khách hàng: 'law firms, tech startups, and medical ___' → 'clinics' (phòng khám y tế)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ chỉ cơ sở y tế song song với 'law firms' và 'tech startups' tại [139].",
+            "optionsVi": {
+              "A": "receipts: biên lai",
+              "B": "banquets: tiệc lớn",
+              "C": "salaries: tiền lương",
+              "D": "clinics: phòng khám"
+            }
+          },
+          "proof": {
+            "explanation": "Cấu trúc song song liệt kê ba nhóm đối tượng sử dụng dịch vụ chuyển văn phòng thương mại (công ty luật, startup công nghệ và phòng khám y tế) → 'medical clinics'.",
+            "evidenceQuote": "tailored to law firms, tech startups, and medical [139] _______.",
+            "evidenceSentenceId": "p6-s2-07-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì biên lai không phải tổ chức cần chuyển văn phòng.",
+            "B": "Loại vì tiệc chiêu đãi không ghép với 'medical'.",
+            "C": "Loại vì tiền lương sai phạm trù.",
+            "D": "ĐÚNG — 'medical clinics' (các phòng khám y tế) khớp song song hoàn hảo với 'law firms' và 'tech startups'."
+          },
+          "keyTakeaways": {
+            "formula": "medical / dental / outpatient + clinics (phòng khám y tế / nha khoa)",
+            "commonTrap": "Đọc lướt không tận dụng cấu trúc liệt kê song song 3 loại hình tổ chức ('A, B, and C').",
+            "paraphrases": [
+              {
+                "textInPassage": "medical clinics",
+                "textInAnswer": "healthcare practices",
+                "meaningVi": "các cơ sở phòng khám y tế"
+              }
+            ]
+          },
+          "applyRule": "Thấy danh sách song song 'law firms, tech startups, and medical ___' → chọn ngay danh từ chỉ tổ chức/cơ sở y tế ('clinics').",
+          "contextBridge": {
+            "beforeCue": "At SwiftMove Commercial Relocations, our licensed crews specialize in seamless after-hours and weekend moves",
+            "afterCue": "We handle every phase of the transition, from supplying color-coded eco-crates to disconnecting, padding, and transporting delicate server racks.",
+            "connectorOrRef": "Chỗ trống [139] • Liệt kê song song: medical clinics",
+            "logicVi": "Bổ sung nhóm khách hàng thứ ba ('medical clinics') bên cạnh công ty luật và startup cần dịch vụ chuyển văn phòng ngoài giờ cẩn trọng."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-07-q140",
+        "blankNumber": 140,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "All such electronic hardware is also covered by comprehensive transit insurance throughout the move.",
+          "B": "Commercial lease agreements typically last between three and five years.",
+          "C": "Our company headquarters recently relocated to an industrial park near the highway.",
+          "D": "Employees should back up personal photographs onto external drives at home."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Cụm quy chiếu 'All such electronic hardware' → 'delicate server racks')",
+            "signal": "Cuối câu trước nhắc việc tháo dỡ và vận chuyển 'delicate server racks' (tủ máy chủ nhạy cảm) → [140] dùng 'All such electronic hardware is also covered by...' để trấn an khách hàng về bảo hiểm thiết bị."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối mạch thuyết phục nhất vào [140].",
+            "optionsVi": {
+              "A": "Tất cả phần cứng điện tử như vậy cũng được bảo vệ bởi bảo hiểm vận chuyển toàn diện trong suốt quá trình di dời.",
+              "B": "Hợp đồng thuê văn phòng thương mại thường kéo dài từ ba đến năm năm.",
+              "C": "Trụ sở chính của công ty chúng tôi gần đây đã chuyển tới một khu công nghiệp gần đường cao tốc.",
+              "D": "Nhân viên nên sao lưu ảnh cá nhân sang ổ cứng ngoài tại nhà."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm quy chiếu mẫu mực của ETS 'All such electronic hardware' ở (A) bắt thẳng vào 'delicate server racks' ở cuối câu trước, giải quyết ngay lo ngại hư hỏng thiết bị đắt tiền bằng cam kết bảo hiểm vận chuyển toàn diện.",
+            "evidenceQuote": "disconnecting, padding, and transporting delicate server racks.",
+            "evidenceSentenceId": "p6-s2-07-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'All such electronic hardware' quy chiếu chính xác tới 'delicate server racks', giữ nguyên văn phong quảng cáo chuyên nghiệp.",
+            "B": "Loại vì nói kiến thức chung về thời hạn thuê nhà, lạc khỏi dịch vụ chuyển dọn.",
+            "C": "Loại vì kể chuyện trụ sở công ty tự chuyển đi, làm gián đoạn mạch mô tả dịch vụ cho khách.",
+            "D": "Loại vì lời khuyên sao lưu ảnh cá nhân ở nhà sai cả đối tượng lẫn bối cảnh doanh nghiệp."
+          },
+          "keyTakeaways": {
+            "formula": "transporting delicate [A] → All such [nhóm bao trùm của A] is also covered by transit insurance",
+            "commonTrap": "Thấy từ 'relocated' ở (C) trùng chủ đề chuyển văn phòng nhưng bị lệch đối tượng (tự nói về trụ sở mình thay vì quy trình phục vụ khách).",
+            "paraphrases": [
+              {
+                "textInPassage": "delicate server racks",
+                "textInAnswer": "such electronic hardware",
+                "meaningVi": "các thiết bị phần cứng điện tử như vậy"
+              }
+            ]
+          },
+          "applyRule": "Từ khóa 'such + danh từ khái quát' ('such electronic hardware') luôn là cầu nối quy chiếu mạnh tới ví dụ cụ thể cuối câu trước ('server racks').",
+          "contextBridge": {
+            "beforeCue": "We handle every phase of the transition, from supplying color-coded eco-crates to disconnecting, padding, and transporting delicate server racks.",
+            "afterCue": "Every workstation is labeled according to your new floor plan so that desks, monitors, and telephone lines are reassembled in the exact right positions before Monday morning.",
+            "connectorOrRef": "Cụm quy chiếu: 'All such electronic hardware' (= delicate server racks)",
+            "logicVi": "'All such electronic hardware' quy chiếu trực tiếp các tủ máy chủ nhạy cảm cuối câu trước để bổ sung cam kết bảo hiểm vận chuyển, trước khi chuyển sang quy trình lắp đặt lại bàn làm việc ở câu sau."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-07-q141",
+        "blankNumber": 141,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "reassemble",
+          "B": "reassembling",
+          "C": "are reassembled",
+          "D": "have reassembled"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thể bị động Hiện tại đơn (diễn tả quy trình chuẩn)",
+            "signal": "Chủ ngữ vật số nhiều 'desks, monitors, and telephone lines' + cụm giới từ 'in the exact right positions' (không có tân ngữ) → Bị động 'are reassembled'."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng động từ bị động đúng tại [141].",
+            "optionsVi": {
+              "A": "reassemble: lắp ráp lại (chủ động)",
+              "B": "reassembling: đang lắp ráp lại (V-ing)",
+              "C": "are reassembled: được lắp ráp lại (HTĐ bị động)",
+              "D": "have reassembled: đã lắp ráp lại (HTHT chủ động)"
+            }
+          },
+          "proof": {
+            "explanation": "Bàn ghế, màn hình và đường dây điện thoại là vật nên phải 'được lắp ráp lại' vào đúng vị trí; đồng thời mệnh đề trước chia Hiện tại đơn ('Every workstation is labeled') mô tả quy trình tiêu chuẩn → chọn 'are reassembled'.",
+            "evidenceQuote": "Every workstation is labeled according to your new floor plan so that desks, monitors, and telephone lines [141] _______ in the exact right positions",
+            "evidenceSentenceId": "p6-s2-07-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì chủ động trong khi bàn ghế, màn hình không thể tự lắp ráp chính nó.",
+            "B": "Loại vì V-ing thiếu động từ chia thì.",
+            "C": "ĐÚNG — Bị động hiện tại đơn số nhiều, hòa hợp hoàn hảo với 'is labeled' ở vế trước.",
+            "D": "Loại vì chủ động hoàn thành sai cả thể lẫn thì."
+          },
+          "keyTakeaways": {
+            "formula": "S1 is labeled (HTĐ bị động) so that S2 (vật số nhiều) + are + V3/ed (HTĐ bị động)",
+            "commonTrap": "Thấy 'before Monday morning' tưởng phải chia thì hoàn thành, quên mất đây là câu quảng cáo mô tả quy trình tiêu chuẩn ở Hiện tại đơn.",
+            "paraphrases": [
+              {
+                "textInPassage": "are reassembled in the exact right positions",
+                "textInAnswer": "are set up precisely according to the layout",
+                "meaningVi": "được lắp đặt lại chính xác theo sơ đồ"
+              }
+            ]
+          },
+          "applyRule": "Ba danh từ vật nối bằng 'and' + không có tân ngữ sau chỗ trống → kiểm tra hòa hợp số nhiều & bị động ('are + V3/ed').",
+          "contextBridge": {
+            "beforeCue": "Every workstation is labeled according to your new floor plan",
+            "afterCue": "Consequently, your staff can simply walk in at nine o'clock and resume serving clients right away.",
+            "connectorOrRef": "Chỗ trống [141] • Bị động HTĐ số nhiều (are reassembled)",
+            "logicVi": "Dán nhãn theo mặt bằng giúp toàn bộ thiết bị được lắp đặt lại đúng vị trí ('are reassembled') trước sáng thứ Hai, tạo tiền đề cho kết quả ở câu sau."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-07-q142",
+        "blankNumber": 142,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Consequently",
+          "C": "Otherwise",
+          "D": "Meanwhile"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối chỉ Hệ quả (Consequently)",
+            "signal": "Câu trước: toàn bộ bàn ghế, màn hình, điện thoại được lắp đúng vị trí trước sáng thứ Hai → Câu này: 9 giờ sáng nhân viên chỉ cần vào làm việc phục vụ khách ngay lập tức → chọn 'Consequently'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối chỉ kết quả tại [142].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Consequently: Kết quả là, nhờ đó",
+              "C": "Otherwise: Nếu không thì",
+              "D": "Meanwhile: Trong khi đó"
+            }
+          },
+          "proof": {
+            "explanation": "Việc lắp đặt hoàn chỉnh toàn bộ bàn làm việc trước sáng thứ Hai trực tiếp tạo ra kết quả 'không gián đoạn' ('walk in at nine o'clock and resume serving clients right away') → quan hệ Nguyên nhân → Kết quả, chọn 'Consequently'.",
+            "evidenceQuote": "desks, monitors, and telephone lines are reassembled in the exact right positions before Monday morning. [142] _______, your staff can simply walk in at nine o'clock and resume serving clients right away.",
+            "evidenceSentenceId": "p6-s2-07-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không mang quan hệ tương phản.",
+            "B": "ĐÚNG — Khẳng định rõ kết quả 'Zero-Downtime' (không gián đoạn) ngay sáng thứ Hai.",
+            "C": "Loại vì không phải hệ quả cảnh báo ngược chiều.",
+            "D": "Loại vì hai hành động nối tiếp nhau (trước sáng thứ Hai → 9 giờ sáng thứ Hai), không phải song song cùng lúc."
+          },
+          "keyTakeaways": {
+            "formula": "Hoàn tất lắp đặt trước sáng thứ Hai. Consequently / As a result, nhân viên vào làm việc ngay lúc 9h.",
+            "commonTrap": "Thấy hai mốc thời gian ('before Monday morning' và 'at nine o'clock') dễ nhầm sang 'Meanwhile', nhưng đây là quan hệ nguyên nhân → kết quả nối tiếp!",
+            "paraphrases": [
+              {
+                "textInPassage": "resume serving clients right away",
+                "textInAnswer": "operate with zero downtime",
+                "meaningVi": "vận hành lại ngay không bị gián đoạn"
+              }
+            ]
+          },
+          "applyRule": "Mọi việc chuẩn bị đã hoàn tất trước giờ G → nhân viên bắt tay vào việc ngay = quan hệ Nhân quả → chọn 'Consequently / Therefore'.",
+          "contextBridge": {
+            "beforeCue": "Every workstation is labeled according to your new floor plan so that desks, monitors, and telephone lines are reassembled in the exact right positions before Monday morning.",
+            "afterCue": "your staff can simply walk in at nine o'clock and resume serving clients right away.",
+            "connectorOrRef": "Trạng từ nối kết quả: Consequently",
+            "logicVi": "'Consequently' chứng minh trọn vẹn lời hứa 'Zero-Downtime Weekend Office Moves' ở tiêu đề: lắp xong cuối tuần → sáng thứ Hai vào việc ngay."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-08",
+    "title": "Bài 22 (Article): Công ty Logistics Xanh Mở thêm Trung tâm Phân phối Khu vực",
+    "genre": "Article",
+    "headerMeta": {
+      "from": "Midwest Commerce Journal",
+      "to": "Supply Chain & Transportation Desk",
+      "date": "May 7",
+      "subject": "EcoHaul Logistics Opens Third Solar-Powered Distribution Hub"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-08-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-08-s1",
+            "en": "COLUMBUS — EcoHaul Logistics, a regional freight carrier specializing in zero-emission deliveries, officially [143] _______ its third solar-powered distribution hub yesterday morning on the outskirts of Columbus.",
+            "vi": "COLUMBUS — EcoHaul Logistics, hãng vận tải hàng hóa khu vực chuyên về giao hàng không phát thải, đã chính thức [143] _______ trung tâm phân phối chạy bằng năng lượng mặt trời thứ ba vào sáng hôm qua tại ngoại ô Columbus."
+          },
+          {
+            "id": "p6-s2-08-s2",
+            "en": "Spanning 140,000 square feet, the facility will serve as a central sorting [144] _______ for e-commerce retailers across Ohio, Indiana, and Michigan.",
+            "vi": "Trải rộng 140.000 bộ vuông, cơ sở này sẽ đóng vai trò là [144] _______ phân loại trung tâm cho các nhà bán lẻ thương mại điện tử trên khắp Ohio, Indiana và Michigan."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-08-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-08-s3",
+            "en": "Chief Executive Officer David Alvarez stated that rooftop solar panels generate enough electricity to charge the company's entire fleet of eighty electric delivery vans overnight. [145] _______.",
+            "vi": "Giám đốc Điều hành David Alvarez cho biết các tấm pin mặt trời trên mái nhà tạo ra đủ điện để sạc qua đêm cho toàn bộ đội xe gồm tám mươi xe tải giao hàng chạy điện của công ty. [145] _______."
+          },
+          {
+            "id": "p6-s2-08-s4",
+            "en": "[146] _______, Alvarez acknowledged that rising battery-component costs and long waiting lists for heavy electric trucks remain key challenges for the firm's planned expansion into western states next year.",
+            "vi": "[146] _______, ông Alvarez thừa nhận rằng chi phí linh kiện pin tăng cao và danh sách chờ kéo dài đối với xe tải điện hạng nặng vẫn là những thách thức then chốt cho kế hoạch mở rộng sang các bang miền tây của công ty vào năm tới."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-08-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-08-s5",
+            "en": "Local economic officials praised the project, noting that the Columbus hub has already created more than 120 full-time logistics and maintenance positions for area residents.",
+            "vi": "Giới chức kinh tế địa phương ca ngợi dự án, nhấn mạnh rằng trung tâm Columbus đã tạo ra hơn 120 vị trí việc làm toàn thời gian trong mảng hậu cần và bảo trì cho cư dân khu vực."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-08-q143",
+        "blankNumber": 143,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "opens",
+          "B": "inaugurated",
+          "C": "will inaugurate",
+          "D": "has inaugurated"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thì Quá khứ đơn với mốc thời gian xác định ('yesterday morning')",
+            "signal": "Trạng ngữ thời gian quá khứ cụ thể 'yesterday morning' → BẮT BUỘC chia Quá khứ đơn 'inaugurated'."
+          },
+          "translation": {
+            "questionVi": "Chọn thì động từ khớp với 'yesterday morning' tại [143].",
+            "optionsVi": {
+              "A": "opens: mở cửa (HTĐ)",
+              "B": "inaugurated: đã khánh thành (QKĐ)",
+              "C": "will inaugurate: sẽ khánh thành (TLĐ)",
+              "D": "has inaugurated: đã khánh thành (HTHT — không đi với 'yesterday')"
+            }
+          },
+          "proof": {
+            "explanation": "Cuối câu có trạng ngữ thời gian quá khứ xác định 'yesterday morning' → theo quy tắc cứng ngữ pháp tiếng Anh, bắt buộc dùng Quá khứ đơn 'inaugurated' (không dùng Hiện tại hoàn thành hay Hiện tại đơn).",
+            "evidenceQuote": "officially [143] _______ its third solar-powered distribution hub yesterday morning",
+            "evidenceSentenceId": "p6-s2-08-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì Hiện tại đơn chỉ dùng cho tiêu đề báo (headline), không dùng trong câu tường thuật có 'yesterday morning'.",
+            "B": "ĐÚNG — Quá khứ đơn chuẩn xác với mốc 'yesterday morning'.",
+            "C": "Loại vì thì tương lai mâu thuẫn với 'yesterday'.",
+            "D": "Loại vì Hiện tại hoàn thành tuyệt đối không đi cùng mốc quá khứ cụ thể 'yesterday'."
+          },
+          "keyTakeaways": {
+            "formula": "S + V2/ed (inaugurated / opened / launched) + ... + yesterday / last week / in 2024",
+            "commonTrap": "Thấy tiêu đề bài báo dùng 'Opens' (Hiện tại đơn theo văn phong báo chí) nên chọn nhầm (A) mà quên đọc chữ 'yesterday morning' ở cuối câu 1!",
+            "paraphrases": [
+              {
+                "textInPassage": "officially inaugurated",
+                "textInAnswer": "formally opened",
+                "meaningVi": "chính thức khánh thành / khai trương"
+              }
+            ]
+          },
+          "applyRule": "Luôn quét cuối câu bài báo: thấy 'yesterday / last Tuesday' → loại ngay HTĐ & HTHT, chốt Quá khứ đơn (V-ed).",
+          "contextBridge": {
+            "beforeCue": "Subject: EcoHaul Logistics Opens Third Solar-Powered Distribution Hub",
+            "afterCue": "Spanning 140,000 square feet, the facility will serve as a central sorting hub for e-commerce retailers",
+            "connectorOrRef": "Chỗ trống [143] • Quá khứ đơn (yesterday morning)",
+            "logicVi": "Bài báo tường thuật sự kiện khánh thành diễn ra sáng hôm qua ('yesterday morning') nên chia Quá khứ đơn 'inaugurated'."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-08-q144",
+        "blankNumber": 144,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "center",
+          "B": "warranty",
+          "C": "brochure",
+          "D": "audience"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Chuỗi cung ứng (sorting center)",
+            "signal": "Đi với 'the facility will serve as a central sorting ___ for e-commerce retailers' → 'sorting center' (trung tâm phân loại hàng)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp ghép với 'central sorting' tại [144].",
+            "optionsVi": {
+              "A": "center: trung tâm (sorting center: trung tâm phân loại)",
+              "B": "warranty: giấy bảo hành",
+              "C": "brochure: tờ gấp quảng cáo",
+              "D": "audience: khán giả"
+            }
+          },
+          "proof": {
+            "explanation": "Một cơ sở rộng 140.000 bộ vuông phục vụ các nhà bán lẻ thương mại điện tử ở 3 bang đóng vai trò là trung tâm phân loại hàng hóa ('a central sorting center').",
+            "evidenceQuote": "the facility will serve as a central sorting [144] _______ for e-commerce retailers across Ohio, Indiana, and Michigan.",
+            "evidenceSentenceId": "p6-s2-08-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'sorting center' là thuật ngữ logistics/TMĐT cực chuẩn.",
+            "B": "Loại vì không chỉ địa điểm/cơ sở.",
+            "C": "Loại vì không hợp nghĩa với 'the facility'.",
+            "D": "Loại vì chỉ con người, không phải tòa nhà kho vận."
+          },
+          "keyTakeaways": {
+            "formula": "distribution hub / sorting center / fulfillment center (trung tâm phân loại & giao nhận)",
+            "commonTrap": "Thấy từ 'central' ngay trước nên ngại lặp gốc từ với 'center', nhưng trong tiếng Anh thương mại 'central sorting center / central hub' hoàn toàn chuẩn và tự nhiên!",
+            "paraphrases": [
+              {
+                "textInPassage": "central sorting center",
+                "textInAnswer": "regional distribution facility",
+                "meaningVi": "cơ sở phân loại và phân phối khu vực"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'the facility will serve as a sorting / distribution / training ___' → chọn ngay 'center / hub'.",
+          "contextBridge": {
+            "beforeCue": "officially inaugurated its third solar-powered distribution hub yesterday morning on the outskirts of Columbus.",
+            "afterCue": "Chief Executive Officer David Alvarez stated that rooftop solar panels generate enough electricity to charge the company's entire fleet",
+            "connectorOrRef": "Chỗ trống [144] • Thuật ngữ logistics: sorting center",
+            "logicVi": "Giải thích chức năng của cơ sở rộng 140.000 bộ vuông vừa khánh thành: làm trung tâm phân loại hàng ('sorting center') cho ba bang."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-08-q145",
+        "blankNumber": 145,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Ohio experienced unusually heavy snowfall during the first week of January.",
+          "B": "Many online shoppers prefer free returns when purchasing winter apparel.",
+          "C": "This self-sustaining energy design is projected to trim the hub's annual operating expenses by nearly thirty percent.",
+          "D": "EcoHaul Logistics previously sponsored a youth basketball tournament in Detroit."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'This self-sustaining energy design' & đối ứng với 'However' câu sau)",
+            "signal": "Câu trước: pin mặt trời trên mái tự cấp đủ điện sạc 80 xe tải điện; câu sau bắt đầu bằng 'However, Alvarez acknowledged... rising costs remain key challenges' → [145] dùng 'This self-sustaining energy design' nêu điểm tích cực về tiết kiệm chi phí để tạo đà đối lập cho câu sau!"
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối hoàn hảo hai đầu vào [145].",
+            "optionsVi": {
+              "A": "Ohio đã trải qua đợt tuyết rơi dày bất thường trong tuần đầu tiên của tháng Giêng.",
+              "B": "Nhiều người mua sắm trực tuyến thích đổi trả miễn phí khi mua trang phục mùa đông.",
+              "C": "Thiết kế năng lượng tự chủ này được dự báo sẽ cắt giảm gần ba mươi phần trăm chi phí vận hành hàng năm của trung tâm.",
+              "D": "EcoHaul Logistics trước đây từng tài trợ một giải bóng rổ trẻ tại Detroit."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'This self-sustaining energy design' ở (C) quy chiếu thẳng vào hệ thống pin mặt trời tự sạc 80 xe điện (câu trước), đồng thời nói về việc 'trim annual operating expenses' (giảm chi phí) — tạo cặp đối lập hoàn mỹ với 'However... rising battery-component costs' ở câu ngay sau.",
+            "evidenceQuote": "rooftop solar panels generate enough electricity to charge the company's entire fleet of eighty electric delivery vans overnight.",
+            "evidenceSentenceId": "p6-s2-08-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì thời tiết tháng Giêng lạc đề hoàn toàn.",
+            "B": "Loại vì thói quen đổi trả quần áo không liên quan năng lượng mặt trời.",
+            "C": "ĐÚNG — Nối chặt pin mặt trời câu trước ('This self-sustaining energy design') và tương phản chi phí với câu sau ('trim expenses' ↔ 'However, rising costs').",
+            "D": "Loại vì chuyện tài trợ thể thao không ăn nhập mạch tài chính/năng lượng của CEO."
+          },
+          "keyTakeaways": {
+            "formula": "Hệ thống tự cấp điện → This self-sustaining design trims expenses (+) → However, rising costs remain challenges (-)",
+            "commonTrap": "Thấy địa danh 'Ohio' ở (A) hay tên công ty 'EcoHaul Logistics' ở (D) rồi chọn vội mà không đọc cặp đối chiếu 'trim expenses' ↔ 'rising costs'.",
+            "paraphrases": [
+              {
+                "textInPassage": "trim annual operating expenses",
+                "textInAnswer": "lower yearly running costs",
+                "meaningVi": "cắt giảm chi phí vận hành hàng năm"
+              }
+            ]
+          },
+          "applyRule": "Thấy câu ngay sau nêu mặt trái ('However, rising costs...'), hãy chọn câu điền vào nêu mặt tích cực trực tiếp của công nghệ câu trước ('This... design trims expenses').",
+          "contextBridge": {
+            "beforeCue": "Chief Executive Officer David Alvarez stated that rooftop solar panels generate enough electricity to charge the company's entire fleet of eighty electric delivery vans overnight.",
+            "afterCue": "However, Alvarez acknowledged that rising battery-component costs and long waiting lists for heavy electric trucks remain key challenges for the firm's planned expansion into western states next year.",
+            "connectorOrRef": "Quy chiếu & Đối lập: 'This self-sustaining energy design' (← pin mặt trời) & 'trim expenses' (↔ 'However, rising costs')",
+            "logicVi": "'This self-sustaining energy design' tóm gọn hệ thống mái pin mặt trời tự sạc 80 xe điện và nhấn mạnh hiệu quả giảm 30% chi phí, làm đòn bẩy tương phản hoàn hảo cho câu tiếp theo về thách thức giá pin tăng."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-08-q146",
+        "blankNumber": 146,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Therefore",
+          "B": "Furthermore",
+          "C": "Similarly",
+          "D": "However"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối Tương phản (tích cực ↔ thách thức)",
+            "signal": "Câu trước: hệ thống pin mặt trời giảm 30% chi phí vận hành (+) ↔ Câu này: CEO thừa nhận chi phí linh kiện pin tăng và chờ xe tải điện lâu vẫn là thách thức (-) → chọn 'However'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối chuyển chiều sang thách thức tại [146].",
+            "optionsVi": {
+              "A": "Therefore: Do đó",
+              "B": "Furthermore: Hơn nữa",
+              "C": "Similarly: Tương tự",
+              "D": "However: Tuy nhiên"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ 'acknowledged' (thừa nhận) đi kèm 'remain key challenges' (vẫn là thách thức then chốt) đảo chiều rõ rệt từ kết quả tích cực ở câu trước sang khó khăn thực tế → bắt buộc chọn 'However'.",
+            "evidenceQuote": "[146] _______, Alvarez acknowledged that rising battery-component costs and long waiting lists for heavy electric trucks remain key challenges",
+            "evidenceSentenceId": "p6-s2-08-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì chi phí linh kiện pin tăng không phải kết quả của việc lắp pin mặt trời.",
+            "B": "Loại vì không bổ sung thêm điểm thuận lợi.",
+            "C": "Loại vì hai vế trái chiều nhau, không tương đồng.",
+            "D": "ĐÚNG — Đảo chiều chuẩn mực từ thành tựu sang thách thức ('However, ... acknowledged that ... remain challenges')."
+          },
+          "keyTakeaways": {
+            "formula": "Thành tựu / Lợi ích (+). However, [CEO] acknowledged that [challenges] (-).",
+            "commonTrap": "Thấy cả hai câu đều dẫn lời CEO Alvarez nên tưởng bổ sung mà chọn 'Furthermore'.",
+            "paraphrases": [
+              {
+                "textInPassage": "remain key challenges",
+                "textInAnswer": "continue to pose major obstacles",
+                "meaningVi": "vẫn là những trở ngại lớn"
+              }
+            ]
+          },
+          "applyRule": "Thấy động từ 'acknowledged / admitted / warned that ... challenges' sau câu khen ngợi → 99% chọn 'However / Nevertheless'.",
+          "contextBridge": {
+            "beforeCue": "This self-sustaining energy design is projected to trim the hub's annual operating expenses by nearly thirty percent.",
+            "afterCue": "Alvarez acknowledged that rising battery-component costs and long waiting lists for heavy electric trucks remain key challenges",
+            "connectorOrRef": "Trạng từ nối đảo chiều: However",
+            "logicVi": "'However' tạo đối lập cân bằng đặc trưng của báo chí kinh doanh: bên cạnh lợi thế giảm 30% chi phí vận hành, CEO vẫn thừa nhận thách thức giá pin và nguồn cung xe tải điện."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-09",
+    "title": "Bài 23 (Article): Xưởng Gốm Thủ công Nhận Giải thưởng Xuất khẩu Quốc gia",
+    "genre": "Article",
+    "headerMeta": {
+      "from": "Artisan & Enterprise Weekly",
+      "to": "Small Business Spotlight",
+      "date": "November 12",
+      "subject": "Kiln & Clay Studio Wins National Export Excellence Award"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-09-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-09-s1",
+            "en": "SAVANNAH — Family-owned ceramics maker Kiln & Clay Studio was honored last Friday with the National Export Excellence Award for tripling its overseas shipments over the past three years.",
+            "vi": "SAVANNAH — Cơ sở sản xuất gốm gia đình Kiln & Clay Studio đã được vinh danh vào thứ Sáu tuần trước với Giải thưởng Xuất khẩu Xuất sắc Quốc gia nhờ tăng gấp ba lượng hàng xuất khẩu ra nước ngoài trong ba năm qua."
+          },
+          {
+            "id": "p6-s2-09-s2",
+            "en": "Founded in 2014 by sister-and-brother team Mei and Daniel Wu, the studio initially sold hand-glazed tableware exclusively at local craft fairs before catching the attention of boutique hotel [131] _______ in Japan and Scandinavia.",
+            "vi": "Được thành lập năm 2014 bởi hai chị em Mei và Daniel Wu, xưởng ban đầu chỉ bán đồ ăn bằng gốm tráng men thủ công tại các hội chợ thủ công địa phương trước khi thu hút sự chú ý của các [131] _______ khách sạn boutique tại Nhật Bản và Bắc Âu."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-09-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-09-s3",
+            "en": "Demand for the studio's minimalist stoneware surged rapidly after a Tokyo design magazine featured its signature matte-blue dinnerware set in 2023. [132] _______, the founders invested in two larger electric kilns and expanded their workshop staff from six to twenty-four skilled potters.",
+            "vi": "Nhu cầu đối với dòng gốm đá tối giản của xưởng tăng vọt nhanh chóng sau khi một tạp chí thiết kế tại Tokyo giới thiệu bộ đồ ăn men xanh lì đặc trưng của hãng vào năm 2023. [132] _______, hai nhà sáng lập đã đầu tư thêm hai lò nung điện cỡ lớn hơn và mở rộng đội ngũ xưởng từ sáu lên hai mươi bốn nghệ nhân gốm lành nghề."
+          },
+          {
+            "id": "p6-s2-09-s4",
+            "en": "Despite rapid growth, Ms. Wu emphasized that every bowl and platter is still inspected [133] _______ by hand before being packed in biodegradable foam.",
+            "vi": "Bất chấp tốc độ tăng trưởng nhanh, cô Wu nhấn mạnh rằng từng chiếc bát và đĩa lớn vẫn được kiểm tra [133] _______ bằng tay trước khi đóng gói bằng xốp phân hủy sinh học."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-09-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-09-s5",
+            "en": "The $25,000 cash prize accompanying the national award will help finance the next phase of the company's growth. [134] _______.",
+            "vi": "Giải thưởng tiền mặt 25.000 đô la đi kèm danh hiệu quốc gia sẽ góp phần tài trợ cho giai đoạn tăng trưởng tiếp theo của công ty. [134] _______."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-09-q131",
+        "blankNumber": 131,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "mechanics",
+          "B": "tenants",
+          "C": "buyers",
+          "D": "commuters"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Thương mại & Mua hàng (boutique hotel buyers)",
+            "signal": "Xưởng gốm tăng gấp 3 xuất khẩu sau khi lọt vào mắt xanh của các 'người phụ trách thu mua' ('buyers') của khách sạn boutique ở Nhật và Bắc Âu."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ chỉ nghề nghiệp/vai trò phù hợp tại [131].",
+            "optionsVi": {
+              "A": "mechanics: thợ cơ khí",
+              "B": "tenants: người thuê nhà/văn phòng",
+              "C": "buyers: chuyên viên thu mua / người mua sỉ",
+              "D": "commuters: người đi làm hàng ngày"
+            }
+          },
+          "proof": {
+            "explanation": "Trong ngành bán lẻ và khách sạn, 'buyers' là bộ phận chuyên tìm nguồn cung và đặt mua đồ nội thất/đồ ăn ('hand-glazed tableware') với số lượng lớn cho khách sạn → 'boutique hotel buyers'.",
+            "evidenceQuote": "catching the attention of boutique hotel [131] _______ in Japan and Scandinavia.",
+            "evidenceSentenceId": "p6-s2-09-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì thợ cơ khí không đi nhập bát đĩa gốm cho khách sạn.",
+            "B": "Loại vì người thuê nhà sai bối cảnh khách sạn và xuất khẩu.",
+            "C": "ĐÚNG — 'hotel buyers' (bộ phận thu mua của khách sạn) khớp 100% mạch xuất khẩu gốm.",
+            "D": "Loại vì người đi làm không liên quan."
+          },
+          "keyTakeaways": {
+            "formula": "retail / hotel / corporate + buyers (chuyên viên thu mua thương mại)",
+            "commonTrap": "Chỉ hiểu 'buyer' là khách mua lẻ cá nhân mà quên trong tiếng Anh kinh doanh 'buyer' là chức danh chuyên viên thu mua B2B!",
+            "paraphrases": [
+              {
+                "textInPassage": "boutique hotel buyers",
+                "textInAnswer": "hospitality procurement specialists",
+                "meaningVi": "chuyên viên thu mua ngành khách sạn"
+              }
+            ]
+          },
+          "applyRule": "Thấy bài về doanh nghiệp mở rộng xuất khẩu B2B sang chuỗi cửa hàng/khách sạn → danh từ chỉ đối tác đặt hàng là 'buyers / distributors / importers'.",
+          "contextBridge": {
+            "beforeCue": "Family-owned ceramics maker Kiln & Clay Studio was honored last Friday with the National Export Excellence Award for tripling its overseas shipments",
+            "afterCue": "Demand for the studio's minimalist stoneware surged rapidly after a Tokyo design magazine featured its signature matte-blue dinnerware set in 2023.",
+            "connectorOrRef": "Chỗ trống [131] • Từ vựng B2B: boutique hotel buyers",
+            "logicVi": "Nhờ thu hút các chuyên viên thu mua ('buyers') của khách sạn boutique tại Nhật Bản và Bắc Âu, xưởng gốm mới bùng nổ đơn hàng xuất khẩu."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-09-q132",
+        "blankNumber": 132,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "As a result",
+          "B": "Nevertheless",
+          "C": "On the contrary",
+          "D": "Otherwise"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối chỉ Hệ quả Kinh doanh (As a result)",
+            "signal": "Câu trước: nhu cầu tăng vọt nhanh chóng sau khi lên tạp chí Tokyo → Câu này: đầu tư thêm 2 lò nung lớn & tăng nhân sự từ 6 lên 24 nghệ nhân → chọn 'As a result'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối chỉ quan hệ nhân quả tại [132].",
+            "optionsVi": {
+              "A": "As a result: Kết quả là, do đó",
+              "B": "Nevertheless: Tuy nhiên",
+              "C": "On the contrary: Trái lại",
+              "D": "Otherwise: Nếu không thì"
+            }
+          },
+          "proof": {
+            "explanation": "Nhu cầu tăng vọt ('Demand... surged rapidly') chính là nguyên nhân trực tiếp thúc đẩy hai nhà sáng lập mua thêm lò nung và tuyển thêm thợ gốm → chọn 'As a result'.",
+            "evidenceQuote": "Demand for the studio's minimalist stoneware surged rapidly... [132] _______, the founders invested in two larger electric kilns and expanded their workshop staff",
+            "evidenceSentenceId": "p6-s2-09-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Nối mượt từ tăng trưởng nhu cầu sang mở rộng năng lực sản xuất.",
+            "B": "Loại vì không mang nghĩa đối lập.",
+            "C": "Loại vì không bác bỏ câu trước.",
+            "D": "Loại vì không phải câu điều kiện cảnh báo."
+          },
+          "keyTakeaways": {
+            "formula": "Demand surged rapidly. As a result / Consequently, the company expanded staff & equipment.",
+            "commonTrap": "Ba lựa chọn B, C, D đều là nhóm tương phản/ngược chiều — loại ngay lập tức!",
+            "paraphrases": [
+              {
+                "textInPassage": "expanded their workshop staff",
+                "textInAnswer": "hired additional artisans",
+                "meaningVi": "tuyển thêm nghệ nhân cho xưởng"
+              }
+            ]
+          },
+          "applyRule": "Nhu cầu tăng vọt ('Demand surged') → mở rộng nhà xưởng/nhân sự = 100% quan hệ Nhân quả → chọn 'As a result / Therefore'.",
+          "contextBridge": {
+            "beforeCue": "Demand for the studio's minimalist stoneware surged rapidly after a Tokyo design magazine featured its signature matte-blue dinnerware set in 2023.",
+            "afterCue": "the founders invested in two larger electric kilns and expanded their workshop staff from six to twenty-four skilled potters.",
+            "connectorOrRef": "Cụm từ nối nhân quả: As a result",
+            "logicVi": "'As a result' cho thấy việc mua thêm hai lò điện và tăng gấp 4 lần nhân sự là phản ứng trực tiếp trước làn sóng đơn hàng tăng vọt từ năm 2023."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-09-q133",
+        "blankNumber": 133,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "individual",
+          "B": "individuality",
+          "C": "individuals",
+          "D": "individually"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Trạng từ bổ nghĩa cho động từ bị động 'is inspected')",
+            "signal": "Cấu trúc bị động hoàn chỉnh 'every bowl and platter is still inspected [Adv] by hand' → cần Trạng từ 'individually' (từng chiếc một)."
+          },
+          "translation": {
+            "questionVi": "Chọn từ loại đúng sau động từ 'is still inspected' tại [133].",
+            "optionsVi": {
+              "A": "individual (adj/n): cá nhân, riêng lẻ",
+              "B": "individuality (n): cá tính",
+              "C": "individuals (n số nhiều): các cá nhân",
+              "D": "individually (adv): từng cái riêng lẻ"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ bị động 'is still inspected' cần Trạng từ bổ nghĩa cách thức kiểm tra từng chiếc bát đĩa một → 'inspected individually by hand'.",
+            "evidenceQuote": "every bowl and platter is still inspected [133] _______ by hand before being packed",
+            "evidenceSentenceId": "p6-s2-09-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tính từ không bổ nghĩa cho động từ hành động 'inspected'.",
+            "B": "Loại vì danh từ sai cấu trúc sau động từ bị động.",
+            "C": "Loại vì danh từ số nhiều sai ngữ pháp.",
+            "D": "ĐÚNG — Trạng từ bổ nghĩa động từ bị động 'be + V3/ed + Adv'."
+          },
+          "keyTakeaways": {
+            "formula": "be + V3/ed + Adverb (inspected individually / packaged carefully / verified manually)",
+            "commonTrap": "Thấy 'by hand' đứng sau dễ tưởng cần danh từ, nhưng 'by hand' là cụm giới từ chỉ cách thức nên trước nó vẫn bổ nghĩa cho 'inspected' bằng Trạng từ!",
+            "paraphrases": [
+              {
+                "textInPassage": "inspected individually by hand",
+                "textInAnswer": "checked one by one manually",
+                "meaningVi": "được kiểm tra thủ công từng chiếc một"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'be + V3/ed + ___ + giới từ (by/before/for)' → 95% điền Trạng từ (-ly).",
+          "contextBridge": {
+            "beforeCue": "As a result, the founders invested in two larger electric kilns and expanded their workshop staff from six to twenty-four skilled potters.",
+            "afterCue": "The $25,000 cash prize accompanying the national award will help finance the next phase of the company's growth.",
+            "connectorOrRef": "Chỗ trống [133] • Từ loại (Adv bổ nghĩa bị động)",
+            "logicVi": "Dù mở rộng gấp bốn lần nhân sự, từng sản phẩm vẫn được kiểm tra thủ công riêng lẻ ('inspected individually') để giữ chất lượng cao cấp."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-09-q134",
+        "blankNumber": 134,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Savannah's historic district attracts millions of domestic tourists each spring.",
+          "B": "Specifically, the studio plans to use these funds to launch a bilingual wholesale website and open a showroom in Copenhagen.",
+          "C": "Local pottery classes for beginners are offered at the community arts center.",
+          "D": "Electric utility rates for industrial workshops are reviewed every autumn."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'these funds' → 'The $25,000 cash prize' & trạng từ cụ thể hóa 'Specifically')",
+            "signal": "Câu trước: khoản tiền thưởng $25,000 sẽ giúp tài trợ giai đoạn tăng trưởng tiếp theo ('next phase of the company's growth') → [134] cụ thể hóa cách dùng 'these funds'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu kết cụ thể hóa kế hoạch tốt nhất vào [134].",
+            "optionsVi": {
+              "A": "Khu phố cổ Savannah thu hút hàng triệu du khách nội địa mỗi mùa xuân.",
+              "B": "Cụ thể, xưởng dự định dùng số tiền này để ra mắt trang web bán sỉ song ngữ và mở một phòng trưng bày tại Copenhagen.",
+              "C": "Các lớp học làm gốm địa phương cho người mới bắt đầu được tổ chức tại trung tâm nghệ thuật cộng đồng.",
+              "D": "Giá điện cho các xưởng công nghiệp được rà soát vào mỗi mùa thu."
+            }
+          },
+          "proof": {
+            "explanation": "Từ nối 'Specifically' (Cụ thể là) và cụm quy chiếu 'these funds' ở (B) bám chặt vào 'The $25,000 cash prize... next phase of growth' câu trước, đồng thời khớp mạch xuất khẩu sang Bắc Âu ('Scandinavia' → 'Copenhagen') đã nêu ở đoạn 1.",
+            "evidenceQuote": "The $25,000 cash prize accompanying the national award will help finance the next phase of the company's growth.",
+            "evidenceSentenceId": "p6-s2-09-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang du lịch Savannah.",
+            "B": "ĐÚNG — 'Specifically' + 'these funds' giải thích thẳng kế hoạch tiêu khoản thưởng $25,000 và kết nối mạch thị trường Bắc Âu (Copenhagen).",
+            "C": "Loại vì lớp học làm gốm cộng đồng không liên quan chiến lược xuất khẩu của Kiln & Clay.",
+            "D": "Loại vì giá điện mùa thu hoàn toàn cắt đứt mạch bài báo vinh danh doanh nghiệp."
+          },
+          "keyTakeaways": {
+            "formula": "Cash prize / grant will finance next phase → Specifically, the company plans to use these funds to + mục tiêu cụ thể",
+            "commonTrap": "Bẫy (A) lặp địa danh 'Savannah' và (C) lặp chủ đề 'pottery', nhưng chỉ (B) có cầu nối 'these funds' quy chiếu đúng '$25,000 cash prize'!",
+            "paraphrases": [
+              {
+                "textInPassage": "The $25,000 cash prize",
+                "textInAnswer": "these funds",
+                "meaningVi": "số tiền thưởng này"
+              }
+            ]
+          },
+          "applyRule": "Câu trước nhắc khoản tiền thưởng/vốn đầu tư ('cash prize / grant / funding') + 'next phase' → chọn câu chứa 'Specifically... these funds' để nêu kế hoạch chi tiêu cụ thể.",
+          "contextBridge": {
+            "beforeCue": "The $25,000 cash prize accompanying the national award will help finance the next phase of the company's growth.",
+            "afterCue": "(Kết thúc bản tin — chốt tầm nhìn mở rộng quốc tế)",
+            "connectorOrRef": "Cầu nối cụ thể hóa: 'Specifically' + 'these funds' (= $25,000 cash prize) + liên kết 'Scandinavia' ↔ 'Copenhagen'",
+            "logicVi": "'Specifically' mở ra kế hoạch chi tiết cho giai đoạn tăng trưởng mới bằng số tiền thưởng ('these funds'), đồng thời khép vòng tròn mạch xuất khẩu Bắc Âu bằng showroom Copenhagen."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s2-10",
+    "title": "Bài 24 (Article): Chuỗi Khách sạn Áp dụng Khóa phòng Thông minh Không chạm",
+    "genre": "Article",
+    "headerMeta": {
+      "from": "Hospitality Tech Digest",
+      "to": "Industry Innovation Newsletter",
+      "date": "October 22",
+      "subject": "Crestview Hotels Rolls Out Smartphone Keyless Entry Chainwide"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s2-10-p1",
+        "sentences": [
+          {
+            "id": "p6-s2-10-s1",
+            "en": "AUSTIN — Crestview Hotels announced on Tuesday that it has completed the installation of contactless digital door locks across all twenty-eight of its North American properties.",
+            "vi": "AUSTIN — Chuỗi Khách sạn Crestview hôm thứ Ba thông báo đã hoàn tất việc lắp đặt khóa cửa kỹ thuật số không chạm tại toàn bộ hai mươi tám cơ sở ở Bắc Mỹ."
+          },
+          {
+            "id": "p6-s2-10-s2",
+            "en": "Guests [135] _______ through the Crestview mobile app can now verify their identity prior to arrival, select a preferred floor, and unlock their guest room directly with their smartphone.",
+            "vi": "Khách lưu trú [135] _______ qua ứng dụng di động Crestview nay có thể xác minh danh tính trước khi đến, chọn tầng mong muốn và mở khóa phòng nghỉ trực tiếp bằng điện thoại thông minh."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-10-p2",
+        "sentences": [
+          {
+            "id": "p6-s2-10-s3",
+            "en": "According to Chief Information Officer Hannah Park, the system was piloted at four airport hotels last year before expanding nationwide. [136] _______.",
+            "vi": "Theo Giám đốc Công nghệ Thông tin Hannah Park, hệ thống đã được thí điểm tại bốn khách sạn gần sân bay vào năm ngoái trước khi mở rộng toàn quốc. [136] _______."
+          },
+          {
+            "id": "p6-s2-10-s4",
+            "en": "[137] _______, eliminating plastic magnetic keycards is expected to prevent more than four metric tons of single-use vinyl waste from entering landfills each year.",
+            "vi": "[137] _______, việc loại bỏ thẻ từ nhựa được kỳ vọng sẽ ngăn hơn bốn tấn rác thải nhựa vinyl dùng một lần bị đưa ra bãi rác mỗi năm."
+          }
+        ]
+      },
+      {
+        "id": "p6-s2-10-p3",
+        "sentences": [
+          {
+            "id": "p6-s2-10-s5",
+            "en": "Front-desk staff remain on duty around the clock to assist travelers who prefer traditional keycards or need personalized local [138] _______ during their stay.",
+            "vi": "Nhân viên lễ tân vẫn trực suốt ngày đêm để hỗ trợ những du khách thích dùng thẻ khóa truyền thống hoặc cần những [138] _______ địa phương mang tính cá nhân hóa trong kỳ lưu trú."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s2-10-q135",
+        "blankNumber": 135,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "book",
+          "B": "booked",
+          "C": "bookings",
+          "D": "booking"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Rút gọn mệnh đề quan hệ chủ động (Present Participle)",
+            "signal": "Động từ chính của câu là 'can now verify'; 'Guests' là chủ thể chủ động đặt phòng ('who book through the app') → rút gọn thành 'booking'."
+          },
+          "translation": {
+            "questionVi": "Chọn phân từ rút gọn chủ động đúng sau 'Guests' tại [135].",
+            "optionsVi": {
+              "A": "book: đặt phòng (động từ chia thì)",
+              "B": "booked: bị đặt (V3 bị động — sai vì khách chủ động đặt)",
+              "C": "bookings: các đơn đặt phòng (danh từ số nhiều)",
+              "D": "booking: đặt phòng (V-ing rút gọn chủ động)"
+            }
+          },
+          "proof": {
+            "explanation": "Câu đã có động từ chính 'can now verify, select, and unlock'; 'Guests' là người tự thực hiện hành động đặt phòng qua ứng dụng ('Guests who book through the Crestview mobile app') → rút gọn chủ động dùng 'booking'.",
+            "evidenceQuote": "Guests [135] _______ through the Crestview mobile app can now verify their identity",
+            "evidenceSentenceId": "p6-s2-10-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tạo hai động từ chính ('book' và 'can verify') trong một câu đơn.",
+            "B": "Loại vì dùng 'booked' biến khách thành đối tượng bị đặt phòng (vô nghĩa).",
+            "C": "Loại vì hai danh từ số nhiều 'Guests bookings' không ghép nhau ở đây.",
+            "D": "ĐÚNG — Rút gọn chủ động 'Guests (who are) booking through the app'."
+          },
+          "keyTakeaways": {
+            "formula": "Guests / Travelers / Customers + booking / registering + through [app/website] + V chính",
+            "commonTrap": "Thấy 'Guests' số nhiều dễ chọn V0 'book' vì không kiểm tra động từ chính 'can now verify' ở giữa câu.",
+            "paraphrases": [
+              {
+                "textInPassage": "Guests booking through the mobile app",
+                "textInAnswer": "travelers who make reservations online",
+                "meaningVi": "khách đặt phòng qua ứng dụng di động"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Người (Guests/Travelers) + ___ + through [app] + can/will/may V' → 100% chọn V-ing rút gọn chủ động.",
+          "contextBridge": {
+            "beforeCue": "Crestview Hotels announced on Tuesday that it has completed the installation of contactless digital door locks across all twenty-eight of its North American properties.",
+            "afterCue": "According to Chief Information Officer Hannah Park, the system was piloted at four airport hotels last year before expanding nationwide.",
+            "connectorOrRef": "Chỗ trống [135] • Rút gọn chủ động (Guests booking)",
+            "logicVi": "Khách đặt phòng qua ứng dụng ('Guests booking through the app') hưởng trọn tiện ích nhận phòng không chạm và mở cửa bằng điện thoại."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-10-q136",
+        "blankNumber": 136,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "During that trial, average front-desk check-in times dropped by sixty percent and guest satisfaction scores rose markedly.",
+          "B": "Crestview Hotels also operates an acclaimed steakhouse at its Austin flagship.",
+          "C": "Airline fuel prices fluctuated significantly throughout the third quarter.",
+          "D": "Hotel room rates in North America are generally lowest during mid-winter."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'During that trial' → 'was piloted at four airport hotels last year')",
+            "signal": "Câu trước: hệ thống được thí điểm ('was piloted') tại 4 khách sạn sân bay năm ngoái → [136] báo kết quả tích cực của đợt thí điểm đó bằng 'During that trial', mở đường cho từ nối bổ sung 'Furthermore' (lợi ích môi trường) ở câu sau!"
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối hoàn hảo hai đầu vào [136].",
+            "optionsVi": {
+              "A": "Trong đợt thử nghiệm đó, thời gian làm thủ tục trung bình tại quầy lễ tân đã giảm sáu mươi phần trăm và điểm hài lòng của khách tăng rõ rệt.",
+              "B": "Chuỗi Khách sạn Crestview cũng vận hành một nhà hàng bít-tết nổi tiếng tại cơ sở chủ lực ở Austin.",
+              "C": "Giá nhiên liệu hàng không biến động mạnh suốt quý ba.",
+              "D": "Giá phòng khách sạn tại Bắc Mỹ nhìn chung thấp nhất vào giữa mùa đông."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'During that trial' ở (A) quy chiếu trực tiếp tới động từ 'was piloted' (được thí điểm) ở câu trước, đồng thời cung cấp lợi ích vận hành thứ nhất (giảm 60% thời gian check-in & tăng điểm hài lòng) làm tiền đề hoàn mỹ cho từ 'Furthermore' (lợi ích môi trường thứ hai) ở câu ngay sau.",
+            "evidenceQuote": "the system was piloted at four airport hotels last year before expanding nationwide.",
+            "evidenceSentenceId": "p6-s2-10-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'that trial' = 'was piloted', giải thích lý do mở rộng toàn quốc và tạo cặp lợi ích hoàn chỉnh với 'Furthermore' ở câu sau.",
+            "B": "Loại vì nhà hàng bít-tết ở Austin lạc đề hoàn toàn khỏi công nghệ khóa phòng thông minh.",
+            "C": "Loại vì giá nhiên liệu máy bay không liên quan khách sạn.",
+            "D": "Loại vì giá phòng mùa đông cắt đứt mạch kết quả thí điểm công nghệ."
+          },
+          "keyTakeaways": {
+            "formula": "was piloted at 4 locations → During that trial, [lợi ích vận hành] → Furthermore, [lợi ích môi trường]",
+            "commonTrap": "Bẫy (B) lặp tên 'Crestview Hotels' và 'Austin', (D) lặp 'North America', nhưng chỉ (A) sở hữu cầu nối đồng nghĩa 'was piloted' ↔ 'that trial'!",
+            "paraphrases": [
+              {
+                "textInPassage": "was piloted at four airport hotels",
+                "textInAnswer": "During that trial",
+                "meaningVi": "trong đợt thí điểm / thử nghiệm đó"
+              }
+            ]
+          },
+          "applyRule": "Thấy động từ 'was piloted / tested' ở câu trước → ưu tiên tìm câu chứa cụm quy chiếu 'During that trial / Those test results' nêu số liệu thành công.",
+          "contextBridge": {
+            "beforeCue": "According to Chief Information Officer Hannah Park, the system was piloted at four airport hotels last year before expanding nationwide.",
+            "afterCue": "Furthermore, eliminating plastic magnetic keycards is expected to prevent more than four metric tons of single-use vinyl waste from entering landfills each year.",
+            "connectorOrRef": "Quy chiếu đồng nghĩa: 'During that trial' (= was piloted) + tiền đề lợi ích cho 'Furthermore'",
+            "logicVi": "'During that trial' nối trực tiếp với giai đoạn thí điểm năm ngoái, nêu kết quả vượt trội (giảm 60% thời gian check-in) để câu sau dùng 'Furthermore' bổ sung thêm lợi ích xanh (giảm 4 tấn rác nhựa)."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-10-q137",
+        "blankNumber": 137,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Furthermore",
+          "C": "Otherwise",
+          "D": "In contrast"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối bổ sung lợi ích thứ hai (Furthermore)",
+            "signal": "Câu trước: giảm 60% thời gian check-in & tăng hài lòng khách (+) → Câu này: loại bỏ thẻ từ nhựa giúp giảm hơn 4 tấn rác vinyl mỗi năm (+) → quan hệ bổ sung dùng 'Furthermore'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối bổ sung phù hợp tại [137].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Furthermore: Hơn nữa, ngoài ra",
+              "C": "Otherwise: Nếu không thì",
+              "D": "In contrast: Trái lại"
+            }
+          },
+          "proof": {
+            "explanation": "Lợi ích bảo vệ môi trường (giảm hơn 4 tấn rác thải nhựa mỗi năm) bổ sung song song vào lợi ích tốc độ và sự hài lòng khách hàng vừa nêu ở câu [136] → chọn 'Furthermore'.",
+            "evidenceQuote": "[137] _______, eliminating plastic magnetic keycards is expected to prevent more than four metric tons of single-use vinyl waste",
+            "evidenceSentenceId": "p6-s2-10-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không tương phản với lợi ích câu trước.",
+            "B": "ĐÚNG — Cộng thêm lợi ích bền vững môi trường cho sáng kiến khóa không chạm.",
+            "C": "Loại vì không diễn tả hậu quả điều kiện.",
+            "D": "Loại vì không so sánh đối lập."
+          },
+          "keyTakeaways": {
+            "formula": "Lợi ích vận hành/trải nghiệm (+). Furthermore / Moreover, + Lợi ích môi trường (+).",
+            "commonTrap": "Ba lựa chọn A, C, D đều mang nghĩa đối lập/cảnh báo — bài đang cộng dồn 2 lợi ích nên chốt ngay B!",
+            "paraphrases": [
+              {
+                "textInPassage": "prevent single-use vinyl waste from entering landfills",
+                "textInAnswer": "reduce plastic disposal",
+                "meaningVi": "giảm lượng rác nhựa thải ra môi trường"
+              }
+            ]
+          },
+          "applyRule": "Hai câu liên tiếp nêu 2 nhóm lợi ích khác mảng (vận hành + môi trường) nhưng cùng chiều tích cực → chọn 'Furthermore / In addition'.",
+          "contextBridge": {
+            "beforeCue": "During that trial, average front-desk check-in times dropped by sixty percent and guest satisfaction scores rose markedly.",
+            "afterCue": "eliminating plastic magnetic keycards is expected to prevent more than four metric tons of single-use vinyl waste from entering landfills each year.",
+            "connectorOrRef": "Trạng từ nối bổ sung: Furthermore",
+            "logicVi": "'Furthermore' mở rộng lợi ích của khóa kỹ thuật số từ trải nghiệm khách hàng sang tác động bảo vệ môi trường (cắt giảm 4 tấn nhựa/năm)."
+          }
+        }
+      },
+      {
+        "id": "p6-s2-10-q138",
+        "blankNumber": 138,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "penalties",
+          "B": "invoices",
+          "C": "recommendations",
+          "D": "inspections"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Dịch vụ Khách sạn (local recommendations)",
+            "signal": "Lễ tân trực 24/7 để hỗ trợ du khách cần 'personalized local ___ during their stay' (gợi ý địa điểm ăn uống/tham quan địa phương)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp sau 'personalized local' tại [138].",
+            "optionsVi": {
+              "A": "penalties: tiền phạt",
+              "B": "invoices: hóa đơn",
+              "C": "recommendations: những gợi ý, đề xuất (nhà hàng, điểm tham quan)",
+              "D": "inspections: các cuộc thanh tra"
+            }
+          },
+          "proof": {
+            "explanation": "Lễ tân khách sạn trực 24/7 không chỉ phát thẻ khóa truyền thống mà còn tư vấn các gợi ý địa điểm địa phương phù hợp sở thích từng du khách ('personalized local recommendations').",
+            "evidenceQuote": "assist travelers who prefer traditional keycards or need personalized local [138] _______ during their stay.",
+            "evidenceSentenceId": "p6-s2-10-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không du khách nào cần 'tiền phạt' địa phương.",
+            "B": "Loại vì hóa đơn không ghép với 'personalized local'.",
+            "C": "ĐÚNG — 'local recommendations' (gợi ý địa điểm địa phương) là cụm cực chuẩn trong ngành du lịch – khách sạn.",
+            "D": "Loại vì thanh tra sai ngữ cảnh lễ tân khách sạn."
+          },
+          "keyTakeaways": {
+            "formula": "personalized local recommendations (gợi ý ăn chơi/tham quan địa phương theo sở thích)",
+            "commonTrap": "Chỉ nhớ nghĩa 'thư giới thiệu xin việc' của 'recommendation' mà quên nghĩa 'gợi ý địa điểm' cực quen thuộc trong khách sạn/du lịch.",
+            "paraphrases": [
+              {
+                "textInPassage": "personalized local recommendations",
+                "textInAnswer": "tailored dining and sightseeing suggestions",
+                "meaningVi": "gợi ý ăn uống và tham quan theo sở thích"
+              }
+            ]
+          },
+          "applyRule": "Bối cảnh lễ tân khách sạn hỗ trợ du khách ('front-desk staff + local ___') → chọn ngay 'recommendations / tips / advice'.",
+          "contextBridge": {
+            "beforeCue": "Front-desk staff remain on duty around the clock to assist travelers who prefer traditional keycards",
+            "afterCue": "(Kết thúc bài báo — nhấn mạnh vẫn giữ yếu tố phục vụ con người song song công nghệ)",
+            "connectorOrRef": "Chỗ trống [138] • Collocation khách sạn: local recommendations",
+            "logicVi": "Dù mở khóa bằng smartphone, lễ tân vẫn trực 24/7 để hỗ trợ thẻ truyền thống và gợi ý địa điểm địa phương ('local recommendations') cho khách."
+          }
+        }
+      }
+    ]
+  }
+]

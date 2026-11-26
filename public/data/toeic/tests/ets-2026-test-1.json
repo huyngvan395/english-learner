@@ -1,0 +1,3385 @@
+{
+  "id": "ets-2026-test-1",
+  "series": "ETS TOEIC 2026 (New Format Practice)",
+  "year": 2026,
+  "title": "ETS TOEIC 2026 — Test 1 (New Format)",
+  "subtitle": "Đề xu hướng mới 2026: Bảng biểu lịch hội thảo, Triple Passage 3 văn bản liên kết & ngữ cảnh AI/Xanh.",
+  "durationMinutes": 45,
+  "parts": {
+    "part1": [
+      {
+        "id": "e26t1-p1-1",
+        "part": 1,
+        "sceneType": "scene-objects",
+        "title": "Bàn làm việc văn phòng tối giản có máy tính",
+        "illustrationKey": "office-laptop",
+        "imageUrl": "/images/part1/part1_office_desk.jpg",
+        "transcript": [
+          {
+            "id": "e26t1-p1-1-opt-A",
+            "speaker": "Statement (A)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "A. A monitor has been placed on a desk.",
+            "vi": "A. Một màn hình máy tính được đặt trên bàn làm việc.",
+            "evidenceForQuestionIds": [
+              "e26t1-p1-1"
+            ],
+            "startMs": 240,
+            "endMs": 3480
+          },
+          {
+            "id": "e26t1-p1-1-opt-B",
+            "speaker": "Statement (B)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "B. Papers are scattered all over the floor.",
+            "vi": "B. Giấy tờ bị vứt vương vãi khắp sàn nhà.",
+            "evidenceForQuestionIds": [],
+            "startMs": 4080,
+            "endMs": 7368
+          },
+          {
+            "id": "e26t1-p1-1-opt-C",
+            "speaker": "Statement (C)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "C. A printer is being repaired by an engineer.",
+            "vi": "C. Máy in đang được kỹ sư sửa chữa.",
+            "evidenceForQuestionIds": [],
+            "startMs": 7968,
+            "endMs": 11328
+          },
+          {
+            "id": "e26t1-p1-1-opt-D",
+            "speaker": "Statement (D)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "D. Window curtains are tied back with rope.",
+            "vi": "D. Rèm cửa sổ được buộc lại bằng dây thừng.",
+            "evidenceForQuestionIds": [],
+            "startMs": 11928,
+            "endMs": 15072
+          }
+        ],
+        "options": {
+          "A": {
+            "en": "A monitor has been placed on a desk.",
+            "vi": "Một màn hình máy tính được đặt trên bàn làm việc."
+          },
+          "B": {
+            "en": "Papers are scattered all over the floor.",
+            "vi": "Giấy tờ bị vứt vương vãi khắp sàn nhà."
+          },
+          "C": {
+            "en": "A printer is being repaired by an engineer.",
+            "vi": "Máy in đang được kỹ sư sửa chữa."
+          },
+          "D": {
+            "en": "Window curtains are tied back with rope.",
+            "vi": "Rèm cửa sổ được buộc lại bằng dây thừng."
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy hiện tại hoàn thành bị động (has been placed)",
+          "trapAnalysis": "Với tranh không người, 'has been placed' (đã được đặt sẵn) là đáp án đúng để miêu tả vị trí đồ vật.",
+          "paraphrases": [
+            {
+              "audioPhrase": "has been placed on",
+              "answerPhrase": "is positioned on",
+              "meaningVi": "được đặt trên"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Màn hình/máy tính được đặt gọn gàng trên mặt bàn.",
+            "B": "Sai: Không có giấy vương vãi trên sàn.",
+            "C": "Sai: Dùng 'is being repaired' nhưng không có người trong ảnh.",
+            "D": "Sai: Không có rèm buộc dây thừng."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p1-1-v1",
+              "word": "scatter",
+              "pos": "v",
+              "ipaUK": "/ˈskætə/",
+              "ipaUS": "/ˈskætɚ/",
+              "meaning": "rải rác, vương vãi",
+              "exampleEn": "Draft sketches were scattered across the studio desk.",
+              "exampleVi": "Các bản phác thảo nằm rải rác trên bàn phòng thiết kế."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p1-1.mp3"
+      },
+      {
+        "id": "e26t1-p1-2",
+        "part": 1,
+        "sceneType": "scene-objects",
+        "title": "Khu vực quán cà phê ngoài trời yên tĩnh",
+        "illustrationKey": "cafe-patio",
+        "imageUrl": "/images/part1/part1_cafe_patio.jpg",
+        "transcript": [
+          {
+            "id": "e26t1-p1-2-opt-A",
+            "speaker": "Statement (A)",
+            "voiceGender": "female",
+            "accent": "en-GB",
+            "en": "A. Waitstaff are pouring coffee into mugs.",
+            "vi": "A. Nhân viên phục vụ đang rót cà phê vào cốc.",
+            "evidenceForQuestionIds": [],
+            "startMs": 240,
+            "endMs": 3360
+          },
+          {
+            "id": "e26t1-p1-2-opt-B",
+            "speaker": "Statement (B)",
+            "voiceGender": "female",
+            "accent": "en-GB",
+            "en": "B. Outdoor tables and chairs are arranged for dining.",
+            "vi": "B. Bàn ghế ngoài trời được kê sẵn cho khách dùng bữa.",
+            "evidenceForQuestionIds": [
+              "e26t1-p1-2"
+            ],
+            "startMs": 3960,
+            "endMs": 7608
+          },
+          {
+            "id": "e26t1-p1-2-opt-C",
+            "speaker": "Statement (C)",
+            "voiceGender": "female",
+            "accent": "en-GB",
+            "en": "C. Bicycles are parked inside a dining hall.",
+            "vi": "C. Xe đạp đang đỗ bên trong phòng ăn.",
+            "evidenceForQuestionIds": [],
+            "startMs": 8208,
+            "endMs": 11784
+          },
+          {
+            "id": "e26t1-p1-2-opt-D",
+            "speaker": "Statement (D)",
+            "voiceGender": "female",
+            "accent": "en-GB",
+            "en": "D. Umbrellas have been folded up for storage.",
+            "vi": "D. Ô che nắng đã được gập gọn để cất kho.",
+            "evidenceForQuestionIds": [],
+            "startMs": 12384,
+            "endMs": 15624
+          }
+        ],
+        "options": {
+          "A": {
+            "en": "Waitstaff are pouring coffee into mugs.",
+            "vi": "Nhân viên phục vụ đang rót cà phê vào cốc."
+          },
+          "B": {
+            "en": "Outdoor tables and chairs are arranged for dining.",
+            "vi": "Bàn ghế ngoài trời được kê sẵn cho khách dùng bữa."
+          },
+          "C": {
+            "en": "Bicycles are parked inside a dining hall.",
+            "vi": "Xe đạp đang đỗ bên trong phòng ăn."
+          },
+          "D": {
+            "en": "Umbrellas have been folded up for storage.",
+            "vi": "Ô che nắng đã được gập gọn để cất kho."
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy vật thể bị động trạng thái (are arranged)",
+          "trapAnalysis": "Bàn ghế ngoài trời được bày trí sẵn sàng phục vụ -> 'Outdoor tables and chairs are arranged for dining'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "arranged for dining",
+              "answerPhrase": "set up for guests",
+              "meaningVi": "được bố trí cho thực khách"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Sai: Không có nhân viên đang rót cà phê.",
+            "B": "Đúng: Tả chuẩn bàn ghế quán cà phê ngoài trời.",
+            "C": "Sai: Không có xe đạp trong phòng ăn.",
+            "D": "Sai: Không có cảnh ô bị gấp cất kho."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p1-2-v1",
+              "word": "patio",
+              "pos": "n",
+              "ipaUK": "/ˈpætiəʊ/",
+              "ipaUS": "/ˈpætioʊ/",
+              "meaning": "sân hiên ngoài trời",
+              "exampleEn": "The café expands seating onto the sunny patio in spring.",
+              "exampleVi": "Quán cà phê mở rộng chỗ ngồi ra sân hiên nắng vào mùa xuân."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p1-2.mp3"
+      },
+      {
+        "id": "e26t1-p1-3",
+        "part": 1,
+        "sceneType": "multiple-people",
+        "title": "Người đi bộ trên con phố thương mại",
+        "illustrationKey": "cafe-patio",
+        "imageUrl": "/images/part1/part1_street_walk.jpg",
+        "transcript": [
+          {
+            "id": "e26t1-p1-3-opt-A",
+            "speaker": "Statement (A)",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "A. Pedestrians are walking along a city street.",
+            "vi": "A. Người đi bộ đang đi dọc theo một con phố thành thị.",
+            "evidenceForQuestionIds": [
+              "e26t1-p1-3"
+            ],
+            "startMs": 240,
+            "endMs": 3288
+          },
+          {
+            "id": "e26t1-p1-3-opt-B",
+            "speaker": "Statement (B)",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "B. Cars are stuck in a flooded tunnel.",
+            "vi": "B. Ô tô đang mắc kẹt trong đường hầm ngập nước.",
+            "evidenceForQuestionIds": [],
+            "startMs": 3888,
+            "endMs": 6456
+          },
+          {
+            "id": "e26t1-p1-3-opt-C",
+            "speaker": "Statement (C)",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "C. A vendor is selling fruit from a boat.",
+            "vi": "C. Người bán hàng đang bán trái cây từ trên thuyền.",
+            "evidenceForQuestionIds": [],
+            "startMs": 7056,
+            "endMs": 10008
+          },
+          {
+            "id": "e26t1-p1-3-opt-D",
+            "speaker": "Statement (D)",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "D. Trees are being pruned with chainsaws.",
+            "vi": "D. Cây cối đang được tỉa bằng cưa máy.",
+            "evidenceForQuestionIds": [],
+            "startMs": 10608,
+            "endMs": 13440
+          }
+        ],
+        "options": {
+          "A": {
+            "en": "Pedestrians are walking along a city street.",
+            "vi": "Người đi bộ đang đi dọc theo một con phố thành thị."
+          },
+          "B": {
+            "en": "Cars are stuck in a flooded tunnel.",
+            "vi": "Ô tô đang mắc kẹt trong đường hầm ngập nước."
+          },
+          "C": {
+            "en": "A vendor is selling fruit from a boat.",
+            "vi": "Người bán hàng đang bán trái cây từ trên thuyền."
+          },
+          "D": {
+            "en": "Trees are being pruned with chainsaws.",
+            "vi": "Cây cối đang được tỉa bằng cưa máy."
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy từ đồng âm / gần âm & bối cảnh đô thị",
+          "trapAnalysis": "Nhận diện từ khóa 'Pedestrians' (người đi bộ) + 'walking along a city street'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "pedestrians",
+              "answerPhrase": "people walking on foot",
+              "meaningVi": "người đi bộ"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Mô tả chuẩn xác người đi bộ di chuyển trên đường phố.",
+            "B": "Sai: Không phải đường hầm ngập nước.",
+            "C": "Sai: Không có thuyền hay quầy hoa quả.",
+            "D": "Sai: Không có ai đang cưa tỉa cây."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p1-3-v1",
+              "word": "pedestrian",
+              "pos": "n",
+              "ipaUK": "/pəˈdestriən/",
+              "ipaUS": "/pəˈdestriən/",
+              "meaning": "người đi bộ",
+              "exampleEn": "The downtown avenue is reserved for pedestrians on weekends.",
+              "exampleVi": "Đại lộ trung tâm dành riêng cho người đi bộ vào cuối tuần."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p1-3.mp3"
+      },
+      {
+        "id": "e26t1-p1-4",
+        "part": 1,
+        "sceneType": "scene-objects",
+        "title": "Quang cảnh máy bay và khu vực sân bay",
+        "illustrationKey": "cafe-patio",
+        "imageUrl": "/images/part1/part1_airport_lounge.jpg",
+        "transcript": [
+          {
+            "id": "e26t1-p1-4-opt-A",
+            "speaker": "Statement (A)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "A. Luggage is being weighed at a ticket counter.",
+            "vi": "A. Hành lý đang được cân tại quầy vé.",
+            "evidenceForQuestionIds": [],
+            "startMs": 240,
+            "endMs": 3624
+          },
+          {
+            "id": "e26t1-p1-4-opt-B",
+            "speaker": "Statement (B)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "B. An aircraft is visible outside in the sky.",
+            "vi": "B. Một chiếc máy bay có thể nhìn thấy bên ngoài bầu trời.",
+            "evidenceForQuestionIds": [
+              "e26t1-p1-4"
+            ],
+            "startMs": 4224,
+            "endMs": 7872
+          },
+          {
+            "id": "e26t1-p1-4-opt-C",
+            "speaker": "Statement (C)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "C. Pilots are shaking hands beside a runway.",
+            "vi": "C. Các phi công đang bắt tay cạnh đường băng.",
+            "evidenceForQuestionIds": [],
+            "startMs": 8472,
+            "endMs": 12096
+          },
+          {
+            "id": "e26t1-p1-4-opt-D",
+            "speaker": "Statement (D)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "D. A train is pulling into an underground station.",
+            "vi": "D. Đoàn tàu đang tiến vào nhà ga ngầm.",
+            "evidenceForQuestionIds": [],
+            "startMs": 12696,
+            "endMs": 16440
+          }
+        ],
+        "options": {
+          "A": {
+            "en": "Luggage is being weighed at a ticket counter.",
+            "vi": "Hành lý đang được cân tại quầy vé."
+          },
+          "B": {
+            "en": "An aircraft is visible outside in the sky.",
+            "vi": "Một chiếc máy bay có thể nhìn thấy bên ngoài bầu trời."
+          },
+          "C": {
+            "en": "Pilots are shaking hands beside a runway.",
+            "vi": "Các phi công đang bắt tay cạnh đường băng."
+          },
+          "D": {
+            "en": "A train is pulling into an underground station.",
+            "vi": "Đoàn tàu đang tiến vào nhà ga ngầm."
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy từ khái quát hóa vật thể (aircraft = plane)",
+          "trapAnalysis": "ETS thích thay 'airplane' bằng từ trang trọng 'aircraft' hoặc dùng tính từ 'visible' (có thể thấy trong khung hình).",
+          "paraphrases": [
+            {
+              "audioPhrase": "aircraft",
+              "answerPhrase": "airplane / jet",
+              "meaningVi": "máy bay"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Sai: Không có cảnh cân hành lý tại quầy vé.",
+            "B": "Đúng: Khung cảnh hàng không / cánh máy bay rõ ràng ngoài trời.",
+            "C": "Sai: Không có phi công bắt tay.",
+            "D": "Sai: Không phải tàu điện ngầm."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p1-4-v1",
+              "word": "aircraft",
+              "pos": "n",
+              "ipaUK": "/ˈeəkrɑːft/",
+              "ipaUS": "/ˈerkræft/",
+              "meaning": "máy bay, phi cơ",
+              "exampleEn": "Passengers must fasten seat belts whenever the aircraft climbs.",
+              "exampleVi": "Hành khách phải thắt dây an toàn mỗi khi máy bay lấy độ cao."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p1-4.mp3"
+      }
+    ],
+    "part2": [
+      {
+        "id": "e26t1-p2-1",
+        "part": 2,
+        "questionType": "Wh-question",
+        "title": "Who — Hỏi ai sẽ đón khách VIP ở sân bay",
+        "questionLine": {
+          "id": "e26t1-p2-1-q",
+          "speaker": "Speaker A",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Who's picking up the visiting architects from the airport?",
+          "vi": "Ai sẽ đón các kiến trúc sư đến thăm từ sân bay?",
+          "startMs": 240,
+          "endMs": 3936
+        },
+        "options": {
+          "A": {
+            "en": "David volunteered to drive them.",
+            "vi": "David đã xung phong lái xe đón họ.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 4536,
+            "endMs": 7440
+          },
+          "B": {
+            "en": "Terminal Two, near Gate B.",
+            "vi": "Nhà ga số Hai, gần Cổng B.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 8040,
+            "endMs": 11040
+          },
+          "C": {
+            "en": "They designed the west wing.",
+            "vi": "Họ đã thiết kế cánh phía tây.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 11640,
+            "endMs": 14520
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy liên tưởng chủ đề 'airport -> Terminal' & 'architects -> designed'",
+          "trapAnalysis": "Câu hỏi 'Who' -> chọn ngay tên người + hành động tương đương ('drive them' = 'picking up').",
+          "paraphrases": [
+            {
+              "audioPhrase": "picking up",
+              "answerPhrase": "volunteered to drive them",
+              "meaningVi": "lái xe đi đón"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Chỉ rõ David nhận nhiệm vụ lái xe đón.",
+            "B": "Sai: Trả lời địa điểm do liên tưởng 'airport'.",
+            "C": "Sai: Liên tưởng nghề 'architects' -> 'designed'."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-1-v1",
+              "word": "volunteer",
+              "pos": "v",
+              "ipaUK": "/ˌvɒlənˈtɪə/",
+              "ipaUS": "/ˌvɑːlənˈtɪr/",
+              "meaning": "tình nguyện, xung phong",
+              "exampleEn": "Several interns volunteered to organize the welcome packets.",
+              "exampleVi": "Vài thực tập sinh xung phong chuẩn bị túi tài liệu chào đón."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-1.mp3"
+      },
+      {
+        "id": "e26t1-p2-2",
+        "part": 2,
+        "questionType": "Wh-question",
+        "title": "Where — Hỏi địa điểm tổ chức tiệc chia tay",
+        "questionLine": {
+          "id": "e26t1-p2-2-q",
+          "speaker": "Speaker A",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Where are we holding Helen's retirement dinner?",
+          "vi": "Chúng ta tổ chức tiệc chia tay nghỉ hưu của Helen ở đâu?",
+          "startMs": 240,
+          "endMs": 3264
+        },
+        "options": {
+          "A": {
+            "en": "At seven-thirty sharp.",
+            "vi": "Đúng bảy giờ rưỡi.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 3864,
+            "endMs": 6528
+          },
+          "B": {
+            "en": "At that Italian bistro across from the plaza.",
+            "vi": "Tại quán ăn Ý đối diện quảng trường ấy.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 7128,
+            "endMs": 10968
+          },
+          "C": {
+            "en": "Hold on, I'll transfer your call.",
+            "vi": "Chờ máy chút, tôi sẽ chuyển cuộc gọi.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 11568,
+            "endMs": 14784
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy đồng âm 'holding' (tổ chức) vs 'Hold on' (giữ máy)",
+          "trapAnalysis": "Cẩn thận bẫy (C) lặp từ 'hold' với nghĩa hoàn toàn khác!",
+          "paraphrases": [
+            {
+              "audioPhrase": "holding a dinner",
+              "answerPhrase": "at that Italian bistro",
+              "meaningVi": "địa điểm tổ chức bữa tiệc"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Sai: Trả lời giờ giấc (When).",
+            "B": "Đúng: Nêu chính xác tên & vị trí nhà hàng.",
+            "C": "Sai bẫy lặp từ 'hold'."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-2-v1",
+              "word": "retirement",
+              "pos": "n",
+              "ipaUK": "/rɪˈtaɪəmənt/",
+              "ipaUS": "/rɪˈtaɪrmənt/",
+              "meaning": "sự nghỉ hưu",
+              "exampleEn": "Colleagues signed a framed card for Helen's retirement.",
+              "exampleVi": "Đồng nghiệp ký tặng tấm thiệp đóng khung nhân dịp Helen nghỉ hưu."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-2.mp3"
+      },
+      {
+        "id": "e26t1-p2-3",
+        "part": 2,
+        "questionType": "Wh-question",
+        "title": "What — Hỏi lý do trì hoãn xuất hàng",
+        "questionLine": {
+          "id": "e26t1-p2-3-q",
+          "speaker": "Speaker A",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "What caused the delay in shipping the ceramic tiles?",
+          "vi": "Điều gì đã gây ra sự chậm trễ trong việc giao lô gạch gốm?",
+          "startMs": 240,
+          "endMs": 4080
+        },
+        "options": {
+          "A": {
+            "en": "A customs paperwork error at the port.",
+            "vi": "Một lỗi giấy tờ hải quan tại cảng.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 4680,
+            "endMs": 7968
+          },
+          "B": {
+            "en": "Yes, they're made of ceramic.",
+            "vi": "Vâng, chúng được làm bằng gốm.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 8568,
+            "endMs": 11664
+          },
+          "C": {
+            "en": "Twenty crates in total.",
+            "vi": "Tổng cộng hai mươi thùng gỗ.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 12264,
+            "endMs": 15168
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy lặp từ 'ceramic' + Yes/No",
+          "trapAnalysis": "'What caused...?' hỏi nguyên nhân -> 'A customs paperwork error at the port'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "caused the delay",
+              "answerPhrase": "customs paperwork error",
+              "meaningVi": "nguyên nhân chậm trễ"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Nêu đúng nguyên nhân gây chậm trễ giao hàng.",
+            "B": "Sai: Trả lời Yes/No cho câu What + lặp 'ceramic'.",
+            "C": "Sai: Trả lời số lượng (How many)."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-3-v1",
+              "word": "paperwork",
+              "pos": "n",
+              "ipaUK": "/ˈpeɪpəwɜːk/",
+              "ipaUS": "/ˈpeɪpɚwɝːk/",
+              "meaning": "giấy tờ, thủ tục hành chính",
+              "exampleEn": "Customs paperwork must be verified before departure.",
+              "exampleVi": "Giấy tờ hải quan phải được xác minh trước khi tàu chạy."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-3.mp3"
+      },
+      {
+        "id": "e26t1-p2-4",
+        "part": 2,
+        "questionType": "Câu hỏi đuôi (Tag)",
+        "title": "Tag — Xác nhận báo cáo đã duyệt chưa",
+        "questionLine": {
+          "id": "e26t1-p2-4-q",
+          "speaker": "Speaker A",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "The legal department approved the revised contract, didn't they?",
+          "vi": "Phòng pháp chế đã phê duyệt hợp đồng chỉnh sửa rồi phải không?",
+          "startMs": 240,
+          "endMs": 4488
+        },
+        "options": {
+          "A": {
+            "en": "They asked for one minor change to Clause 5.",
+            "vi": "Họ yêu cầu sửa một chi tiết nhỏ ở Điều khoản 5.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 5088,
+            "endMs": 8952
+          },
+          "B": {
+            "en": "You can contact me by email.",
+            "vi": "Bạn có thể liên hệ tôi qua email.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 9552,
+            "endMs": 12504
+          },
+          "C": {
+            "en": "It's a two-year lease.",
+            "vi": "Đó là hợp đồng thuê hai năm.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 13104,
+            "endMs": 15696
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy gần âm 'contract' / 'contact' + phủ định gián tiếp",
+          "trapAnalysis": "Không nói 'No' nhưng nêu thẳng việc pháp chế yêu cầu chỉnh sửa thêm điều khoản -> chưa duyệt hoàn toàn!",
+          "paraphrases": [
+            {
+              "audioPhrase": "approved the contract",
+              "answerPhrase": "asked for one minor change",
+              "meaningVi": "chưa duyệt hẳn, yêu cầu chỉnh nhỏ"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Phản hồi chuẩn xác tình trạng hợp đồng.",
+            "B": "Sai bẫy gần âm 'contract' vs 'contact'.",
+            "C": "Sai: Nêu thời hạn thay vì trạng thái phê duyệt."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-4-v1",
+              "word": "clause",
+              "pos": "n",
+              "ipaUK": "/klɔːz/",
+              "ipaUS": "/klɔːz/",
+              "meaning": "điều khoản hợp đồng",
+              "exampleEn": "Please review the confidentiality clause carefully.",
+              "exampleVi": "Vui lòng xem kỹ điều khoản bảo mật."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-4.mp3"
+      },
+      {
+        "id": "e26t1-p2-5",
+        "part": 2,
+        "questionType": "Đề nghị / Yêu cầu",
+        "title": "Suggestion — Gợi ý dời họp sang phòng lớn hơn",
+        "questionLine": {
+          "id": "e26t1-p2-5-q",
+          "speaker": "Speaker A",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Why don't we move the workshop to a larger room?",
+          "vi": "Sao chúng ta không chuyển buổi hội thảo sang phòng lớn hơn nhỉ?",
+          "startMs": 240,
+          "endMs": 3360
+        },
+        "options": {
+          "A": {
+            "en": "Because the office moved last year.",
+            "vi": "Vì văn phòng chuyển đi năm ngoái.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 3960,
+            "endMs": 7032
+          },
+          "B": {
+            "en": "Good idea—thirty more people just signed up.",
+            "vi": "Ý hay đấy—ba mươi người nữa vừa mới đăng ký.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 7632,
+            "endMs": 11208
+          },
+          "C": {
+            "en": "The shop sells handmade pottery.",
+            "vi": "Cửa hàng bán đồ gốm thủ công.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 11808,
+            "endMs": 15096
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy 'Why don't we' là câu ĐỀ XUẤT chứ không hỏi lý do 'Why'",
+          "trapAnalysis": "(A) dùng 'Because' để đánh lừa thí sinh tưởng là câu hỏi 'Why'! Với 'Why don't we...?', đáp án đúng là đồng tình hoặc từ chối đề xuất.",
+          "paraphrases": [
+            {
+              "audioPhrase": "Why don't we",
+              "answerPhrase": "Good idea",
+              "meaningVi": "đồng tình với lời đề xuất"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Sai bẫy 'Because' cho câu đề xuất 'Why don't we'.",
+            "B": "Đúng: Đồng tình ('Good idea') và bổ sung lý do tăng số người.",
+            "C": "Sai bẫy lặp từ 'shop' từ 'workshop'."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-5-v1",
+              "word": "sign up",
+              "pos": "phrase",
+              "ipaUK": "/saɪn ʌp/",
+              "ipaUS": "/saɪn ʌp/",
+              "meaning": "đăng ký tham gia",
+              "exampleEn": "Over sixty staff signed up for the Excel workshop.",
+              "exampleVi": "Hơn sáu mươi nhân viên đã đăng ký buổi học Excel."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-5.mp3"
+      },
+      {
+        "id": "e26t1-p2-6",
+        "part": 2,
+        "questionType": "Yes/No",
+        "title": "Yes/No — Hỏi có giảm giá cho nhóm không",
+        "questionLine": {
+          "id": "e26t1-p2-6-q",
+          "speaker": "Speaker A",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Does the museum offer a discount for corporate groups?",
+          "vi": "Bảo tàng có ưu đãi giảm giá cho đoàn doanh nghiệp không?",
+          "startMs": 240,
+          "endMs": 3840
+        },
+        "options": {
+          "A": {
+            "en": "Only if you have at least fifteen guests.",
+            "vi": "Chỉ áp dụng nếu đoàn bạn có ít nhất mười lăm khách.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 4440,
+            "endMs": 7392
+          },
+          "B": {
+            "en": "We counted the tickets twice.",
+            "vi": "Chúng tôi đã đếm vé hai lần.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 7992,
+            "endMs": 10512
+          },
+          "C": {
+            "en": "The exhibition features modern sculpture.",
+            "vi": "Triển lãm trưng bày điêu khắc hiện đại.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 11112,
+            "endMs": 14760
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy trả lời kèm điều kiện ('Only if...')",
+          "trapAnalysis": "ETS 2026 cực ưa chuộng câu trả lời có điều kiện 'Only if...' thay cho 'Yes/No'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "offer a discount",
+              "answerPhrase": "only if at least fifteen guests",
+              "meaningVi": "điều kiện hưởng giảm giá"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Nêu điều kiện cụ thể để được giảm giá đoàn.",
+            "B": "Sai bẫy gần âm 'discount' / 'counted'.",
+            "C": "Sai: Lạc đề sang nội dung triển lãm."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-6-v1",
+              "word": "corporate",
+              "pos": "adj",
+              "ipaUK": "/ˈkɔːpərət/",
+              "ipaUS": "/ˈkɔːrpərət/",
+              "meaning": "thuộc doanh nghiệp, công ty",
+              "exampleEn": "The hotel provides special rates for corporate bookings.",
+              "exampleVi": "Khách sạn áp dụng mức giá riêng cho đặt phòng doanh nghiệp."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-6.mp3"
+      },
+      {
+        "id": "e26t1-p2-7",
+        "part": 2,
+        "questionType": "Câu trần thuật (Statement)",
+        "title": "Statement — Lo lắng thiết bị không kịp giao",
+        "questionLine": {
+          "id": "e26t1-p2-7-q",
+          "speaker": "Speaker A",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "I'm worried the new sound system won't arrive before Saturday's concert.",
+          "vi": "Tôi lo dàn âm thanh mới sẽ không tới kịp trước buổi hòa nhạc thứ Bảy.",
+          "startMs": 240,
+          "endMs": 4824
+        },
+        "options": {
+          "A": {
+            "en": "The courier just confirmed delivery for Thursday afternoon.",
+            "vi": "Bên chuyển phát vừa xác nhận giao vào chiều thứ Năm rồi.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 5424,
+            "endMs": 9768
+          },
+          "B": {
+            "en": "That sounds like a wonderful idea.",
+            "vi": "Nghe có vẻ là một ý tưởng tuyệt vời.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 10368,
+            "endMs": 13416
+          },
+          "C": {
+            "en": "Front-row seats are already sold out.",
+            "vi": "Ghế hàng đầu đã bán hết rồi.",
+            "speaker": "Speaker B",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "startMs": 14016,
+            "endMs": 17280
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy đồng âm 'sound system' vs 'sounds like'",
+          "trapAnalysis": "Trả lời trấn an nỗi lo bằng thông tin lịch giao hàng sớm hơn dự kiến (thứ Năm < thứ Bảy).",
+          "paraphrases": [
+            {
+              "audioPhrase": "won't arrive before Saturday",
+              "answerPhrase": "confirmed delivery for Thursday",
+              "meaningVi": "giao sớm vào thứ Năm"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Xác nhận giao vào chiều thứ Năm để giải tỏa lo lắng.",
+            "B": "Sai bẫy lặp 'sound / sounds'.",
+            "C": "Sai: Liên tưởng 'concert' -> 'seats'."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-7-v1",
+              "word": "courier",
+              "pos": "n",
+              "ipaUK": "/ˈkʊriə/",
+              "ipaUS": "/ˈkʊriɚ/",
+              "meaning": "đơn vị chuyển phát nhanh",
+              "exampleEn": "A courier will pick up the signed blueprints at 4 P.M.",
+              "exampleVi": "Nhân viên chuyển phát sẽ đến lấy bản vẽ đã ký lúc 4 giờ chiều."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-7.mp3"
+      },
+      {
+        "id": "e26t1-p2-8",
+        "part": 2,
+        "questionType": "Trả lời gián tiếp (Indirect)",
+        "title": "Indirect — Hỏi đã biết mật khẩu Wi-Fi mới chưa",
+        "questionLine": {
+          "id": "e26t1-p2-8-q",
+          "speaker": "Speaker A",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Do you happen to know the updated Wi-Fi password for guests?",
+          "vi": "Bạn có tình cờ biết mật khẩu Wi-Fi mới cho khách không?",
+          "startMs": 240,
+          "endMs": 4248
+        },
+        "options": {
+          "A": {
+            "en": "It's printed on the sign behind the front desk.",
+            "vi": "Nó được in trên tấm biển phía sau quầy lễ tân ấy.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 4848,
+            "endMs": 8304
+          },
+          "B": {
+            "en": "Yes, I passed the lobby five minutes ago.",
+            "vi": "Vâng, tôi đi ngang sảnh năm phút trước.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 8904,
+            "endMs": 12720
+          },
+          "C": {
+            "en": "The guests checked out early.",
+            "vi": "Khách đã trả phòng sớm.",
+            "speaker": "Speaker B",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "startMs": 13320,
+            "endMs": 16200
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy chỉ dẫn nơi tìm thông tin + gần âm 'password / passed'",
+          "trapAnalysis": "Thay vì đọc mật khẩu, người nói chỉ chỗ xem trực tiếp ('printed on the sign behind the front desk').",
+          "paraphrases": [
+            {
+              "audioPhrase": "know the password",
+              "answerPhrase": "printed on the sign",
+              "meaningVi": "xem trên biển thông báo"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "Đúng: Hướng dẫn vị trí có ghi sẵn mật khẩu Wi-Fi.",
+            "B": "Sai bẫy gần âm 'password' / 'passed'.",
+            "C": "Sai bẫy lặp từ 'guests'."
+          },
+          "keyVocab": [
+            {
+              "id": "e26t1-p2-8-v1",
+              "word": "front desk",
+              "pos": "phrase",
+              "ipaUK": "/frʌnt desk/",
+              "ipaUS": "/frʌnt desk/",
+              "meaning": "quầy lễ tân",
+              "exampleEn": "Visitors must pick up a temporary pass at the front desk.",
+              "exampleVi": "Khách đến phải nhận thẻ tạm tại quầy lễ tân."
+            }
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p2-8.mp3"
+      }
+    ],
+    "part3": [
+      {
+        "id": "e26t1-p3-1",
+        "part": 3,
+        "title": "Nâng cấp dây chuyền đóng gói tại nhà máy thực phẩm",
+        "scenario": "Sản xuất & Bảo trì",
+        "speakerCount": 2,
+        "hasGraphic": false,
+        "transcript": [
+          {
+            "id": "e26t1-p3-1-l1",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-GB",
+            "en": "Carlos, the sealing machine on Line 2 jammed twice during the morning shift.",
+            "vi": "Carlos, máy hàn miệng túi ở Dây chuyền 2 bị kẹt hai lần trong ca sáng rồi.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-1-q1"
+            ],
+            "startMs": 240,
+            "endMs": 5304
+          },
+          {
+            "id": "e26t1-p3-1-l2",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "I noticed the heat belt is worn out. Replacing it takes about ninety minutes, so we'll need to pause Line 2.",
+            "vi": "Tôi thấy dây đai nhiệt đã mòn rồi. Thay nó mất khoảng chín mươi phút nên ta phải tạm dừng Dây chuyền 2.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-1-q2"
+            ],
+            "startMs": 5684,
+            "endMs": 13100
+          },
+          {
+            "id": "e26t1-p3-1-l3",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-GB",
+            "en": "Can we wait until the lunch changeover at twelve-thirty? That way we won't miss the supermarket delivery cutoff.",
+            "vi": "Ta đợi đến lúc chuyển ca trưa lúc 12 giờ rưỡi được không? Như thế ta sẽ không lỡ hạn giao hàng siêu thị.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-1-q3"
+            ],
+            "startMs": 13480,
+            "endMs": 20920
+          },
+          {
+            "id": "e26t1-p3-1-l4",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "Sure, I'll pull the spare belt from inventory now so my team can swap it right at twelve-thirty.",
+            "vi": "Được, tôi sẽ lấy dây đai dự phòng từ kho ngay để đội của tôi thay đúng lúc 12 giờ rưỡi.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-1-q3"
+            ],
+            "startMs": 21300,
+            "endMs": 26988
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p3-1-q1",
+            "questionNumber": 32,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What problem does the woman report?",
+            "promptVi": "Người phụ nữ báo cáo sự cố gì?",
+            "options": {
+              "A": {
+                "en": "A packaging machine keeps stopping.",
+                "vi": "Một máy đóng gói liên tục bị kẹt/dừng."
+              },
+              "B": {
+                "en": "A delivery truck broke down.",
+                "vi": "Một xe tải giao hàng bị hỏng."
+              },
+              "C": {
+                "en": "Several workers arrived late.",
+                "vi": "Vài công nhân đến trễ."
+              },
+              "D": {
+                "en": "A supermarket canceled an order.",
+                "vi": "Một siêu thị hủy đơn hàng."
+              }
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "trapType": "Paraphrase 'sealing machine jammed twice' -> 'packaging machine keeps stopping'",
+              "trapAnalysis": "Câu đầu báo rõ sự cố máy hàn túi bị kẹt 2 lần.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "sealing machine jammed",
+                  "answerPhrase": "packaging machine keeps stopping",
+                  "meaningVi": "máy đóng gói bị kẹt"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Đúng.",
+                "B": "Sai.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p3-1-q2",
+            "questionNumber": 33,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "How long does the man say the repair will take?",
+            "promptVi": "Người đàn ông nói việc sửa chữa mất bao lâu?",
+            "options": {
+              "A": {
+                "en": "Thirty minutes",
+                "vi": "Ba mươi phút"
+              },
+              "B": {
+                "en": "One hour",
+                "vi": "Một tiếng"
+              },
+              "C": {
+                "en": "Ninety minutes",
+                "vi": "Chín mươi phút"
+              },
+              "D": {
+                "en": "Two hours",
+                "vi": "Hai tiếng"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Bắt chính xác con số thời gian ('about ninety minutes')",
+              "trapAnalysis": "Carlos nói: 'Replacing it takes about ninety minutes'.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "ninety minutes",
+                  "answerPhrase": "an hour and a half",
+                  "meaningVi": "chín mươi phút"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai.",
+                "B": "Sai.",
+                "C": "Đúng: 90 phút.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p3-1-q3",
+            "questionNumber": 34,
+            "questionType": "Hành động tiếp theo",
+            "prompt": "What will the man do immediately?",
+            "promptVi": "Người đàn ông sẽ làm gì ngay bây giờ?",
+            "options": {
+              "A": {
+                "en": "Call the supermarket manager",
+                "vi": "Gọi quản lý siêu thị"
+              },
+              "B": {
+                "en": "Shut down Line 2 right away",
+                "vi": "Tắt Dây chuyền 2 ngay lập tức"
+              },
+              "C": {
+                "en": "Retrieve a spare part from storage",
+                "vi": "Lấy linh kiện dự phòng từ kho"
+              },
+              "D": {
+                "en": "Order a brand-new machine",
+                "vi": "Đặt mua máy mới tinh"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Paraphrase 'pull the spare belt from inventory' -> 'retrieve a spare part from storage'",
+              "trapAnalysis": "Đừng chọn (B) vì họ thống nhất đợi tới 12:30 mới dừng máy; việc làm NGAY là lấy dây đai dự phòng từ kho.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "pull the spare belt from inventory",
+                  "answerPhrase": "retrieve a spare part from storage",
+                  "meaningVi": "lấy linh kiện dự phòng trong kho"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai.",
+                "B": "Sai: Chờ tới 12:30.",
+                "C": "Đúng: pull spare belt from inventory = lấy linh kiện dự phòng.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": [
+          {
+            "id": "e26t1-p3-1-v1",
+            "word": "worn out",
+            "pos": "adj",
+            "ipaUK": "/wɔːn aʊt/",
+            "ipaUS": "/wɔːrn aʊt/",
+            "meaning": "bị mòn hỏng do dùng nhiều",
+            "exampleEn": "Replace any worn out rubber seals during routine servicing.",
+            "exampleVi": "Thay mọi gioăng cao su bị mòn trong đợt bảo dưỡng định kỳ."
+          }
+        ],
+        "audioUrl": "/audio/toeic/e26t1-p3-1.mp3"
+      },
+      {
+        "id": "e26t1-p3-2",
+        "part": 3,
+        "title": "Đặt phòng đào tạo kèm bảng giá thiết bị (Có bảng biểu)",
+        "scenario": "Hành chính & Đào tạo",
+        "speakerCount": 2,
+        "hasGraphic": true,
+        "transcript": [
+          {
+            "id": "e26t1-p3-2-l1",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "Hi Hannah, I'm reserving a seminar room at Riverside Center for our forty regional sales reps.",
+            "vi": "Chào Hannah, tôi đang đặt phòng hội thảo tại Trung tâm Riverside cho bốn mươi nhân viên kinh doanh khu vực.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-2-q1"
+            ],
+            "startMs": 240,
+            "endMs": 6144
+          },
+          {
+            "id": "e26t1-p3-2-l2",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Make sure it has built-in video conferencing since our Singapore branch is joining remotely.",
+            "vi": "Đảm bảo phòng có sẵn hệ thống hội nghị truyền hình tích hợp vì chi nhánh Singapore sẽ tham gia từ xa nhé.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-2-q2"
+            ],
+            "startMs": 6524,
+            "endMs": 11972
+          },
+          {
+            "id": "e26t1-p3-2-l3",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "Got it. I'll pick the smallest room that fits everyone and includes video conferencing—no need to overpay.",
+            "vi": "Hiểu rồi. Tôi sẽ chọn phòng nhỏ nhất đủ chứa mọi người mà có hội nghị truyền hình—không cần trả quá tiền.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-2-q2"
+            ],
+            "startMs": 12352,
+            "endMs": 19120
+          },
+          {
+            "id": "e26t1-p3-2-l4",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Sounds smart. Send me the room number once confirmed so I can add it to the calendar invite.",
+            "vi": "Hợp lý đấy. Gửi tôi số phòng ngay khi xác nhận để tôi thêm vào thư mời lịch họp nhé.",
+            "evidenceForQuestionIds": [
+              "e26t1-p3-2-q3"
+            ],
+            "startMs": 19500,
+            "endMs": 26124
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p3-2-q1",
+            "questionNumber": 35,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "Why does the woman say video conferencing is necessary?",
+            "promptVi": "Tại sao người phụ nữ nói cần hệ thống hội nghị truyền hình?",
+            "options": {
+              "A": {
+                "en": "An overseas office will participate remotely.",
+                "vi": "Một văn phòng nước ngoài sẽ tham gia từ xa."
+              },
+              "B": {
+                "en": "The keynote speaker missed a flight.",
+                "vi": "Diễn giả chính lỡ chuyến bay."
+              },
+              "C": {
+                "en": "The session will be posted on TV.",
+                "vi": "Buổi học sẽ phát trên TV."
+              },
+              "D": {
+                "en": "Clients requested recorded interviews.",
+                "vi": "Khách hàng yêu cầu ghi hình phỏng vấn."
+              }
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "trapType": "Paraphrase 'Singapore branch is joining remotely' -> 'overseas office will participate remotely'",
+              "trapAnalysis": "Câu 2 nêu rõ lý do cần video conferencing.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "Singapore branch joining remotely",
+                  "answerPhrase": "overseas office participating remotely",
+                  "meaningVi": "chi nhánh nước ngoài họp từ xa"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Đúng.",
+                "B": "Sai.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p3-2-q2",
+            "questionNumber": 36,
+            "questionType": "Câu hỏi bảng biểu (Graphic)",
+            "prompt": "Look at the graphic. Which room will the man reserve?",
+            "promptVi": "Nhìn vào bảng biểu. Người đàn ông sẽ đặt phòng nào?",
+            "options": {
+              "A": {
+                "en": "Cedar Room",
+                "vi": "Phòng Cedar"
+              },
+              "B": {
+                "en": "Maple Hall",
+                "vi": "Sảnh Maple"
+              },
+              "C": {
+                "en": "Oak Suite",
+                "vi": "Phòng Oak"
+              },
+              "D": {
+                "en": "Grand Auditorium",
+                "vi": "Khán phòng Grand"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Kết hợp 3 điều kiện: >= 40 người, Có Video Conferencing, nhỏ nhất/rẻ nhất thỏa mãn",
+              "trapAnalysis": "Cedar (25 người -> quá nhỏ); Maple (45 người nhưng Video = No -> loại!); Oak Suite (50 người, Video = Yes, $480) nhỏ hơn Grand (120 người, $900) -> chọn Oak Suite!",
+              "paraphrases": [
+                {
+                  "audioPhrase": "smallest room for 40 with video",
+                  "answerPhrase": "Oak Suite (50 seats, Yes)",
+                  "meaningVi": "chọn phòng Oak Suite"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai: Chỉ chứa 25 người (< 40).",
+                "B": "Sai bẫy: Đủ 45 người nhưng KHÔNG có Video Conferencing.",
+                "C": "Đúng: Chứa 50 người, có Video, nhỏ & tiết kiệm hơn Grand.",
+                "D": "Sai: Quá lớn và đắt ($900)."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p3-2-q3",
+            "questionNumber": 37,
+            "questionType": "Hành động tiếp theo",
+            "prompt": "What will the woman update after receiving confirmation?",
+            "promptVi": "Người phụ nữ sẽ cập nhật gì sau khi nhận xác nhận?",
+            "options": {
+              "A": {
+                "en": "The budget spreadsheet",
+                "vi": "Bảng tính ngân sách"
+              },
+              "B": {
+                "en": "The digital calendar invitation",
+                "vi": "Thư mời lịch họp điện tử"
+              },
+              "C": {
+                "en": "The catering lunch menu",
+                "vi": "Thực đơn bữa trưa"
+              },
+              "D": {
+                "en": "The company lobby sign",
+                "vi": "Biển thông báo sảnh"
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Câu cuối: 'add it to the calendar invite'",
+              "trapAnalysis": "Bắt đúng cụm 'calendar invite'.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "add it to the calendar invite",
+                  "answerPhrase": "update the digital calendar invitation",
+                  "meaningVi": "cập nhật thư mời lịch"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": [
+          {
+            "id": "e26t1-p3-2-v1",
+            "word": "built-in",
+            "pos": "adj",
+            "ipaUK": "/ˌbɪlt ˈɪn/",
+            "ipaUS": "/ˌbɪlt ˈɪn/",
+            "meaning": "tích hợp sẵn",
+            "exampleEn": "Every studio desk features built-in USB-C charging ports.",
+            "exampleVi": "Mỗi bàn studio đều tích hợp sẵn cổng sạc USB-C."
+          }
+        ],
+        "graphic": {
+          "title": "Riverside Center — Seminar Rooms",
+          "headers": [
+            "Room Name",
+            "Capacity",
+            "Video Conf.",
+            "Half-Day Rate"
+          ],
+          "rows": [
+            [
+              "Cedar Room",
+              "25 people",
+              "Yes",
+              "$290"
+            ],
+            [
+              "Maple Hall",
+              "45 people",
+              "No",
+              "$360"
+            ],
+            [
+              "Oak Suite",
+              "50 people",
+              "Yes",
+              "$480"
+            ],
+            [
+              "Grand Auditorium",
+              "120 people",
+              "Yes",
+              "$900"
+            ]
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p3-2.mp3"
+      }
+    ],
+    "part4": [
+      {
+        "id": "e26t1-p4-1",
+        "part": 4,
+        "title": "Hướng dẫn tham quan nhà máy rang cà phê thủ công",
+        "talkType": "Hướng dẫn tham quan (Tour)",
+        "hasGraphic": false,
+        "transcript": [
+          {
+            "id": "e26t1-p4-1-l1",
+            "speaker": "Guide",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Welcome to Summit Roasters! Before we step onto the roasting floor, please clip these audio receivers to your collars so you can hear me clearly over the machinery.",
+            "vi": "Chào mừng tới Xưởng rang Summit Roasters! Trước khi vào khu rang, vui lòng kẹp máy thu âm thanh này lên cổ áo để nghe rõ tôi nói giữa tiếng máy móc.",
+            "evidenceForQuestionIds": [
+              "e26t1-p4-1-q1"
+            ],
+            "startMs": 240,
+            "endMs": 10536
+          },
+          {
+            "id": "e26t1-p4-1-l2",
+            "speaker": "Guide",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "First, we'll see how green beans from Colombia and Ethiopia are sorted by density, followed by a live small-batch roast.",
+            "vi": "Đầu tiên ta sẽ xem hạt cà phê xanh từ Colombia và Ethiopia được phân loại theo mật độ ra sao, tiếp theo là mẻ rang trực tiếp cỡ nhỏ.",
+            "evidenceForQuestionIds": [
+              "e26t1-p4-1-q2"
+            ],
+            "startMs": 10916,
+            "endMs": 18716
+          },
+          {
+            "id": "e26t1-p4-1-l3",
+            "speaker": "Guide",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "At the end of our 45-minute tour, you're all invited to our tasting bar to sample three seasonal blends free of charge.",
+            "vi": "Cuối chuyến tham quan 45 phút, mọi người đều được mời tới quầy nếm thử dùng miễn phí ba dòng phối trộn theo mùa.",
+            "evidenceForQuestionIds": [
+              "e26t1-p4-1-q3"
+            ],
+            "startMs": 19096,
+            "endMs": 26584
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p4-1-q1",
+            "questionNumber": 71,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "Why are visitors asked to wear audio receivers?",
+            "promptVi": "Tại sao khách tham quan được yêu cầu đeo máy thu âm thanh?",
+            "options": {
+              "A": {
+                "en": "The equipment inside is noisy.",
+                "vi": "Thiết bị bên trong rất ồn."
+              },
+              "B": {
+                "en": "The tour is offered in four languages.",
+                "vi": "Tour có bốn ngôn ngữ."
+              },
+              "C": {
+                "en": "Microphones are prohibited.",
+                "vi": "Micro bị cấm."
+              },
+              "D": {
+                "en": "The room is very dark.",
+                "vi": "Căn phòng rất tối."
+              }
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "trapType": "Paraphrase 'hear me clearly over the machinery' -> 'equipment inside is noisy'",
+              "trapAnalysis": "Tiếng máy móc ồn nên cần đeo máy thu để nghe rõ hướng dẫn viên.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "over the machinery",
+                  "answerPhrase": "equipment is noisy",
+                  "meaningVi": "tiếng máy móc ồn ào"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Đúng.",
+                "B": "Sai.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p4-1-q2",
+            "questionNumber": 72,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What will the group observe first?",
+            "promptVi": "Nhóm sẽ quan sát công đoạn nào đầu tiên?",
+            "options": {
+              "A": {
+                "en": "Coffee packaging",
+                "vi": "Đóng gói cà phê"
+              },
+              "B": {
+                "en": "Bean sorting",
+                "vi": "Phân loại hạt cà phê"
+              },
+              "C": {
+                "en": "Espresso brewing",
+                "vi": "Pha chế espresso"
+              },
+              "D": {
+                "en": "Truck loading",
+                "vi": "Chất hàng lên xe tải"
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Câu 2: 'First, we'll see how green beans ... are sorted'",
+              "trapAnalysis": "Bắt đúng từ chỉ thứ tự 'First'.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "green beans are sorted",
+                  "answerPhrase": "bean sorting",
+                  "meaningVi": "phân loại hạt"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p4-1-q3",
+            "questionNumber": 73,
+            "questionType": "Hành động tiếp theo",
+            "prompt": "What will happen at the end of the tour?",
+            "promptVi": "Điều gì sẽ diễn ra vào cuối chuyến tham quan?",
+            "options": {
+              "A": {
+                "en": "Guests will receive discount coupons.",
+                "vi": "Khách nhận phiếu giảm giá."
+              },
+              "B": {
+                "en": "Guests can taste seasonal coffee blends.",
+                "vi": "Khách có thể nếm thử các dòng cà phê theo mùa."
+              },
+              "C": {
+                "en": "The founder will sign books.",
+                "vi": "Nhà sáng lập ký tặng sách."
+              },
+              "D": {
+                "en": "A shuttle bus will depart.",
+                "vi": "Xe đưa đón sẽ khởi hành."
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Paraphrase 'sample three seasonal blends' -> 'taste seasonal coffee blends'",
+              "trapAnalysis": "sample = taste (nếm thử).",
+              "paraphrases": [
+                {
+                  "audioPhrase": "sample blends",
+                  "answerPhrase": "taste coffee blends",
+                  "meaningVi": "nếm thử các dòng cà phê"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": [
+          {
+            "id": "e26t1-p4-1-v1",
+            "word": "sample",
+            "pos": "v",
+            "ipaUK": "/ˈsɑːmpl/",
+            "ipaUS": "/ˈsæmpl/",
+            "meaning": "nếm thử, dùng thử mẫu",
+            "exampleEn": "Expo visitors can sample organic teas at Booth 14.",
+            "exampleVi": "Khách triển lãm có thể nếm thử trà hữu cơ tại Gian 14."
+          }
+        ],
+        "audioUrl": "/audio/toeic/e26t1-p4-1.mp3"
+      },
+      {
+        "id": "e26t1-p4-2",
+        "part": 4,
+        "title": "Giới thiệu diễn giả hội thảo thiết kế bền vững (Có lịch trình)",
+        "talkType": "Giới thiệu (Introduction)",
+        "hasGraphic": true,
+        "transcript": [
+          {
+            "id": "e26t1-p4-2-l1",
+            "speaker": "Host",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "Good afternoon, and welcome back to the Urban Architecture Forum. I'm pleased to introduce our next speaker, Elena Rostova.",
+            "vi": "Chào buổi chiều và chào mừng quay lại Diễn đàn Kiến trúc Đô thị. Tôi hân hạnh giới thiệu diễn giả tiếp theo, Elena Rostova.",
+            "evidenceForQuestionIds": [
+              "e26t1-p4-2-q1"
+            ],
+            "startMs": 240,
+            "endMs": 8136
+          },
+          {
+            "id": "e26t1-p4-2-l2",
+            "speaker": "Host",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "Elena pioneered modular timber apartment towers in Stockholm that cut construction carbon emissions by sixty percent.",
+            "vi": "Elena tiên phong xây các tòa chung cư gỗ mô-đun tại Stockholm giúp cắt giảm 60% khí thải carbon xây dựng.",
+            "evidenceForQuestionIds": [
+              "e26t1-p4-2-q1"
+            ],
+            "startMs": 8516,
+            "endMs": 15044
+          },
+          {
+            "id": "e26t1-p4-2-l3",
+            "speaker": "Host",
+            "voiceGender": "male",
+            "accent": "en-GB",
+            "en": "Before she begins, please note one quick schedule update: the session right after lunch has been moved from Hall B to the Main Auditorium to accommodate everyone.",
+            "vi": "Trước khi cô ấy bắt đầu, xin lưu ý một cập nhật lịch nhỏ: phiên họp ngay sau bữa trưa đã chuyển từ Sảnh B sang Khán phòng Chính để đủ chỗ cho mọi người.",
+            "evidenceForQuestionIds": [
+              "e26t1-p4-2-q2",
+              "e26t1-p4-2-q3"
+            ],
+            "startMs": 15424,
+            "endMs": 24112
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p4-2-q1",
+            "questionNumber": 74,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What is Elena Rostova known for?",
+            "promptVi": "Elena Rostova nổi tiếng về lĩnh vực nào?",
+            "options": {
+              "A": {
+                "en": "Low-carbon wooden apartment buildings",
+                "vi": "Các tòa chung cư gỗ phát thải carbon thấp"
+              },
+              "B": {
+                "en": "High-speed rail bridges",
+                "vi": "Cầu đường sắt cao tốc"
+              },
+              "C": {
+                "en": "Solar street lighting",
+                "vi": "Đèn đường năng lượng mặt trời"
+              },
+              "D": {
+                "en": "Historic museum restoration",
+                "vi": "Trùng tu bảo tàng lịch sử"
+              }
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "trapType": "Paraphrase 'modular timber apartment towers ... cut carbon emissions' -> 'low-carbon wooden apartment buildings'",
+              "trapAnalysis": "timber = wooden (gỗ xây dựng).",
+              "paraphrases": [
+                {
+                  "audioPhrase": "timber apartment towers",
+                  "answerPhrase": "wooden apartment buildings",
+                  "meaningVi": "chung cư bằng gỗ"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Đúng.",
+                "B": "Sai.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p4-2-q2",
+            "questionNumber": 75,
+            "questionType": "Câu hỏi bảng biểu (Graphic)",
+            "prompt": "Look at the graphic. Which session was relocated to the Main Auditorium?",
+            "promptVi": "Nhìn vào lịch trình. Phiên hội thảo nào đã được dời sang Khán phòng Chính?",
+            "options": {
+              "A": {
+                "en": "Smart Transit Hubs",
+                "vi": "Trung tâm Giao thông Thông minh"
+              },
+              "B": {
+                "en": "Timber High-Rises",
+                "vi": "Nhà cao tầng bằng gỗ"
+              },
+              "C": {
+                "en": "Green Roof Retrofits",
+                "vi": "Cải tạo Mái nhà Xanh"
+              },
+              "D": {
+                "en": "Closing Panel Q&A",
+                "vi": "Tọa đàm Hỏi đáp Bế mạc"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Đối chiếu manh mối 'the session right after lunch' trên bảng lịch trình",
+              "trapAnalysis": "Lunch Break là 12:15–1:15 -> phiên ngay sau bữa trưa lúc 1:30 là 'Green Roof Retrofits' (ban đầu ở Hall B)!",
+              "paraphrases": [
+                {
+                  "audioPhrase": "right after lunch (Hall B)",
+                  "answerPhrase": "Green Roof Retrofits (1:30 P.M.)",
+                  "meaningVi": "phiên ngay sau bữa trưa"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai: Phiên sáng 10:00.",
+                "B": "Sai: Phiên trước trưa 11:15.",
+                "C": "Đúng: 1:30 P.M. ngay sau Lunch Break và vốn ở Hall B.",
+                "D": "Sai: Phiên cuối ngày 3:00."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "e26t1-p4-2-q3",
+            "questionNumber": 76,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "Why was the session moved?",
+            "promptVi": "Tại sao phiên hội thảo được chuyển phòng?",
+            "options": {
+              "A": {
+                "en": "The projector broke.",
+                "vi": "Máy chiếu bị hỏng."
+              },
+              "B": {
+                "en": "More space was needed for attendees.",
+                "vi": "Cần không gian lớn hơn cho người tham dự."
+              },
+              "C": {
+                "en": "The speaker arrived late.",
+                "vi": "Diễn giả đến muộn."
+              },
+              "D": {
+                "en": "Maintenance started in Hall B.",
+                "vi": "Sảnh B bắt đầu bảo trì."
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Paraphrase 'to accommodate everyone' -> 'more space was needed'",
+              "trapAnalysis": "accommodate everyone = đủ sức chứa cho tất cả mọi người.",
+              "paraphrases": [
+                {
+                  "audioPhrase": "accommodate everyone",
+                  "answerPhrase": "more space needed",
+                  "meaningVi": "đủ chỗ cho mọi người"
+                }
+              ],
+              "optionAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": [
+          {
+            "id": "e26t1-p4-2-v1",
+            "word": "pioneer",
+            "pos": "v",
+            "ipaUK": "/ˌpaɪəˈnɪə/",
+            "ipaUS": "/ˌpaɪəˈnɪr/",
+            "meaning": "tiên phong phát triển",
+            "exampleEn": "Her studio pioneered zero-waste modular housing.",
+            "exampleVi": "Studio của cô tiên phong phát triển nhà mô-đun không rác thải."
+          }
+        ],
+        "graphic": {
+          "title": "Urban Architecture Forum — Schedule",
+          "headers": [
+            "Time",
+            "Session Title",
+            "Original Room"
+          ],
+          "rows": [
+            [
+              "10:00 A.M.",
+              "Smart Transit Hubs",
+              "Main Auditorium"
+            ],
+            [
+              "11:15 A.M.",
+              "Timber High-Rises",
+              "Main Auditorium"
+            ],
+            [
+              "12:15 P.M.",
+              "Networking Lunch Break",
+              "Atrium"
+            ],
+            [
+              "1:30 P.M.",
+              "Green Roof Retrofits",
+              "Hall B"
+            ],
+            [
+              "3:00 P.M.",
+              "Closing Panel Q&A",
+              "Main Auditorium"
+            ]
+          ]
+        },
+        "audioUrl": "/audio/toeic/e26t1-p4-2.mp3"
+      }
+    ],
+    "part5": [
+      {
+        "id": "e26t1-p5-1",
+        "part": 5,
+        "topic": "Từ loại (Word Forms)",
+        "difficulty": "Cơ bản",
+        "sentence": "The keynote speaker delivered a remarkably _______ overview of emerging AI regulations.",
+        "options": {
+          "A": "clarity",
+          "B": "clear",
+          "C": "clearly",
+          "D": "clarify"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Từ loại — Tính từ đứng giữa trạng từ và danh từ",
+            "signal": "Cấu trúc: a + Adv ('remarkably') + [Adj] + N ('overview')."
+          },
+          "translation": {
+            "questionVi": "Diễn giả chính đã mang đến một bản tổng quan rõ ràng đáng kinh ngạc về các quy định AI mới nổi.",
+            "optionsVi": {
+              "A": "sự rõ ràng (danh từ)",
+              "B": "rõ ràng, mạch lạc (tính từ)",
+              "C": "một cách rõ ràng (trạng từ)",
+              "D": "làm rõ (động từ)"
+            }
+          },
+          "proof": {
+            "explanation": "Đứng sau trạng từ 'remarkably' và bổ nghĩa cho danh từ 'overview' bắt buộc là tính từ -> 'clear'."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai: danh từ.",
+            "B": "Đúng: a + Adv + Adj + N.",
+            "C": "Sai: trạng từ không bổ nghĩa trực tiếp cho danh từ.",
+            "D": "Sai: động từ."
+          },
+          "keyTakeaways": {
+            "formula": "a/an/the + Adv + Adj + Noun",
+            "commonTrap": "Thấy động từ 'delivered' ở đầu câu dễ chọn nhầm trạng từ 'clearly'.",
+            "paraphrases": [
+              {
+                "textInPassage": "emerging regulations",
+                "textInAnswer": "upcoming rules",
+                "meaningVi": "các quy định mới nổi"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-2",
+        "part": 5,
+        "topic": "Giới từ & Liên từ",
+        "difficulty": "Trung bình",
+        "sentence": "All badges must be visibly worn _______ employees are inside the secure data center.",
+        "options": {
+          "A": "during",
+          "B": "while",
+          "C": "within",
+          "D": "until of"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Phân biệt Liên từ 'while' vs Giới từ 'during'",
+            "signal": "Sau chỗ trống là mệnh đề đầy đủ 'employees are inside...'."
+          },
+          "translation": {
+            "questionVi": "Mọi thẻ nhân viên phải được đeo ở nơi dễ thấy trong khi nhân viên ở bên trong trung tâm dữ liệu bảo mật.",
+            "optionsVi": {
+              "A": "trong suốt (+ danh từ)",
+              "B": "trong khi (+ mệnh đề S+V)",
+              "C": "trong vòng (+ khoảng thời gian/không gian)",
+              "D": "sai ngữ pháp"
+            }
+          },
+          "proof": {
+            "explanation": "Theo sau là mệnh đề hoàn chỉnh 'employees are inside...' -> chọn liên từ 'while' (không dùng giới từ 'during')."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai ngữ pháp: during + Noun Phrase.",
+            "B": "Đúng: while + S + V.",
+            "C": "Sai: within là giới từ.",
+            "D": "Sai cấu trúc: không có 'until of'."
+          },
+          "keyTakeaways": {
+            "formula": "during + Noun  ≠  while + S + V (hoặc V-ing)",
+            "commonTrap": "Cặp bẫy 'during vs while' xuất hiện gần như trong 100% đề thi ETS!",
+            "paraphrases": [
+              {
+                "textInPassage": "visibly worn",
+                "textInAnswer": "displayed clearly",
+                "meaningVi": "đeo ở vị trí dễ nhìn thấy"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-3",
+        "part": 5,
+        "topic": "Thể bị động (Passive Voice)",
+        "difficulty": "Trung bình",
+        "sentence": "The prototype electric ferry is currently _______ in calm coastal waters before commercial launch.",
+        "options": {
+          "A": "testing",
+          "B": "being tested",
+          "C": "tested to",
+          "D": "been tested"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Thể bị động Hiện tại tiếp diễn (is being + V3)",
+            "signal": "Chủ ngữ là vật ('electric ferry') + trạng từ 'currently' + không có tân ngữ sau chỗ trống."
+          },
+          "translation": {
+            "questionVi": "Chiếc phà điện nguyên mẫu hiện đang được thử nghiệm tại vùng biển ven bờ êm ả trước khi ra mắt thương mại.",
+            "optionsVi": {
+              "A": "đang thử nghiệm (chủ động)",
+              "B": "đang được thử nghiệm (bị động tiếp diễn)",
+              "C": "sai cấu trúc",
+              "D": "sai trợ động từ (is không đi với been)"
+            }
+          },
+          "proof": {
+            "explanation": "Chủ ngữ 'ferry' chịu tác động của hành động 'test' tại thời điểm hiện tại ('currently') -> 'is currently being tested'."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai thể: phà không tự thử nghiệm được.",
+            "B": "Đúng: is + (currently) + being + V3.",
+            "C": "Sai giới từ 'to' sau tested.",
+            "D": "Sai: 'is' không đi trực tiếp với 'been'."
+          },
+          "keyTakeaways": {
+            "formula": "is/are + (currently) + being + V3/ed",
+            "commonTrap": "Quên chữ 'being' hoặc chọn chủ động 'testing' theo thói quen sau 'is'.",
+            "paraphrases": [
+              {
+                "textInPassage": "commercial launch",
+                "textInAnswer": "public market release",
+                "meaningVi": "ra mắt thương mại"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-4",
+        "part": 5,
+        "topic": "Từ vựng & Collocations công sở",
+        "difficulty": "Trung bình",
+        "sentence": "The warranty becomes void if the espresso machine is opened by an _______ repair technician.",
+        "options": {
+          "A": "unauthorized",
+          "B": "unoccupied",
+          "C": "unanimous",
+          "D": "unavoidable"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Từ vựng hợp đồng & bảo hành",
+            "signal": "Ngữ cảnh: bảo hành bị vô hiệu nếu mở máy bởi kỹ thuật viên 'không được ủy quyền'."
+          },
+          "translation": {
+            "questionVi": "Chế độ bảo hành sẽ mất hiệu lực nếu máy pha espresso bị mở bởi một kỹ thuật viên sửa chữa không được ủy quyền.",
+            "optionsVi": {
+              "A": "không được ủy quyền / trái phép",
+              "B": "đang trống, không có người",
+              "C": "nhất trí hoàn toàn",
+              "D": "không thể tránh khỏi"
+            }
+          },
+          "proof": {
+            "explanation": "'unauthorized repair technician' khớp chính xác điều khoản hủy bảo hành trong TOEIC."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Đúng: không được hãng ủy quyền.",
+            "B": "Sai nghĩa: dùng cho phòng/ghế.",
+            "C": "Sai nghĩa: dùng cho biểu quyết.",
+            "D": "Sai nghĩa: dùng cho sự cố/chậm trễ."
+          },
+          "keyTakeaways": {
+            "formula": "unauthorized + access / personnel / repair (trái phép, không có thẩm quyền)",
+            "commonTrap": "4 từ đều bắt đầu bằng tiền tố 'un-' gây rối mắt.",
+            "paraphrases": [
+              {
+                "textInPassage": "becomes void",
+                "textInAnswer": "is no longer valid",
+                "meaningVi": "mất hiệu lực"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-5",
+        "part": 5,
+        "topic": "Phân từ V-ing / V-ed",
+        "difficulty": "Nâng cao",
+        "sentence": "_______ thoroughly by two independent labs, the biodegradable film exceeded every durability benchmark.",
+        "options": {
+          "A": "Evaluating",
+          "B": "Evaluated",
+          "C": "To evaluate",
+          "D": "Evaluate"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Rút gọn mệnh đề trạng ngữ dạng bị động đầu câu",
+            "signal": "Chủ ngữ vế sau là 'the biodegradable film' (vật chịu tác động) + cụm 'by two independent labs'."
+          },
+          "translation": {
+            "questionVi": "Sau khi được hai phòng thí nghiệm độc lập đánh giá kỹ lưỡng, lớp màng phân hủy sinh học đã vượt mọi tiêu chuẩn độ bền.",
+            "optionsVi": {
+              "A": "Đang đánh giá (chủ động)",
+              "B": "Được đánh giá (bị động V3)",
+              "C": "Để đánh giá (mục đích)",
+              "D": "Đánh giá (mệnh lệnh)"
+            }
+          },
+          "proof": {
+            "explanation": "Mệnh đề gốc là 'After it was evaluated thoroughly by two independent labs' -> rút gọn đồng chủ ngữ dạng bị động còn 'Evaluated'."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai thể: lớp màng không tự đánh giá.",
+            "B": "Đúng: Rút gọn bị động V3 đầu câu khớp 'by two labs'.",
+            "C": "Sai nghĩa mục đích.",
+            "D": "Sai cấu trúc mệnh lệnh."
+          },
+          "keyTakeaways": {
+            "formula": "V3/ed (+ by Agent), S(vật/người bị tác động) + V",
+            "commonTrap": "Thói quen cứ thấy chỗ trống đầu câu trước dấu phẩy là chọn V-ing.",
+            "paraphrases": [
+              {
+                "textInPassage": "exceeded every benchmark",
+                "textInAnswer": "surpassed all standards",
+                "meaningVi": "vượt mọi tiêu chuẩn"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-6",
+        "part": 5,
+        "topic": "So sánh & Câu điều kiện",
+        "difficulty": "Trung bình",
+        "sentence": "Had the courier arrived ten minutes earlier, we _______ the signed customs forms today.",
+        "options": {
+          "A": "will file",
+          "B": "would have filed",
+          "C": "file",
+          "D": "had filed"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Đảo ngữ Câu điều kiện loại 3",
+            "signal": "Mệnh đề đầu là đảo ngữ 'Had + S + V3' (điều kiện trái quá khứ)."
+          },
+          "translation": {
+            "questionVi": "Giá như nhân viên chuyển phát tới sớm hơn mười phút, chúng ta đã nộp xong tờ khai hải quan có chữ ký trong hôm nay rồi.",
+            "optionsVi": {
+              "A": "sẽ nộp (loại 1)",
+              "B": "đã có thể nộp rồi (loại 3)",
+              "C": "nộp (hiện tại đơn)",
+              "D": "đã nộp (quá khứ hoàn thành)"
+            }
+          },
+          "proof": {
+            "explanation": "Công thức chuẩn đảo ngữ điều kiện loại 3: 'Had + S + V3, S + would/could + have + V3'."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai: mệnh đề loại 1 không đi với 'Had + S + V3'.",
+            "B": "Đúng: Khớp chuẩn điều kiện loại 3.",
+            "C": "Sai thì.",
+            "D": "Sai: không lặp lại 'had + V3' ở mệnh đề chính."
+          },
+          "keyTakeaways": {
+            "formula": "Had + S + V3, S + would/could + have + V3",
+            "commonTrap": "Thấy chữ 'today' ở cuối câu nên chọn nhầm 'will file'.",
+            "paraphrases": [
+              {
+                "textInPassage": "file customs forms",
+                "textInAnswer": "submit import paperwork",
+                "meaningVi": "nộp tờ khai hải quan"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-7",
+        "part": 5,
+        "topic": "Mệnh đề quan hệ & Rút gọn",
+        "difficulty": "Nâng cao",
+        "sentence": "Small businesses _______ annual revenue falls below $1 million may qualify for the city grant.",
+        "options": {
+          "A": "which",
+          "B": "who",
+          "C": "whose",
+          "D": "where"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Đại từ quan hệ sở hữu 'whose' dùng cho cả vật/tổ chức",
+            "signal": "Sau chỗ trống là cụm danh từ 'annual revenue' thuộc sở hữu của 'Small businesses'."
+          },
+          "translation": {
+            "questionVi": "Các doanh nghiệp nhỏ có doanh thu hằng năm dưới 1 triệu đô la có thể đủ điều kiện nhận tài trợ của thành phố.",
+            "optionsVi": {
+              "A": "cái mà (chủ/tân ngữ)",
+              "B": "người mà",
+              "C": "có ... của nó (sở hữu + N)",
+              "D": "nơi mà"
+            }
+          },
+          "proof": {
+            "explanation": "Quan hệ sở hữu 'their annual revenue' (doanh thu của doanh nghiệp nhỏ) -> dùng 'whose' cho cả người lẫn tổ chức/vật."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai: không thể nói 'which annual revenue'.",
+            "B": "Sai: 'who' không chỉ doanh nghiệp và không mang nghĩa sở hữu.",
+            "C": "Đúng: 'whose + Noun' diễn tả sở hữu.",
+            "D": "Sai: không chỉ địa điểm."
+          },
+          "keyTakeaways": {
+            "formula": "Noun (Person/Company/Thing) + whose + Noun + V",
+            "commonTrap": "Nhiều bạn nghĩ 'whose' chỉ dùng cho người nên bỏ qua đáp án (C)!",
+            "paraphrases": [
+              {
+                "textInPassage": "qualify for a grant",
+                "textInAnswer": "be eligible for funding",
+                "meaningVi": "đủ điều kiện nhận tài trợ"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-8",
+        "part": 5,
+        "topic": "Sự hòa hợp chủ–vị",
+        "difficulty": "Trung bình",
+        "sentence": "A growing number of commuters _______ switching to electric scooters for short urban trips.",
+        "options": {
+          "A": "is",
+          "B": "are",
+          "C": "was",
+          "D": "has"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Phân biệt 'A number of' (số nhiều) vs 'The number of' (số ít)",
+            "signal": "Chủ ngữ là 'A growing number of commuters' + V-ing 'switching'."
+          },
+          "translation": {
+            "questionVi": "Ngày càng nhiều người đi làm đang chuyển sang dùng xe trượt điện cho các chặng ngắn trong đô thị.",
+            "optionsVi": {
+              "A": "đang (số ít)",
+              "B": "đang (số nhiều)",
+              "C": "đã đang (số ít)",
+              "D": "đã (không đi với V-ing)"
+            }
+          },
+          "proof": {
+            "explanation": "'A (growing) number of + N(số nhiều)' luôn chia động từ số nhiều -> 'are switching'."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Sai: nhầm với 'The number of'.",
+            "B": "Đúng: A number of + N(số nhiều) + V(số nhiều).",
+            "C": "Sai số ít và thì.",
+            "D": "Sai: has không đi trực tiếp với V-ing."
+          },
+          "keyTakeaways": {
+            "formula": "A number of + N(số nhiều) + V(số nhiều)  ≠  The number of + N(số nhiều) + V(số ít)",
+            "commonTrap": "Cặp bẫy 'A number of' vs 'The number of' là tủ kinh điển của Part 5.",
+            "paraphrases": [
+              {
+                "textInPassage": "a growing number of",
+                "textInAnswer": "increasingly many",
+                "meaningVi": "ngày càng nhiều"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-9",
+        "part": 5,
+        "topic": "Đại từ & Từ hạn định",
+        "difficulty": "Trung bình",
+        "sentence": "The boutique carries two lines of leather briefcases, and _______ comes with a lifetime zipper guarantee.",
+        "options": {
+          "A": "each",
+          "B": "both",
+          "C": "several",
+          "D": "all"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Đại từ số ít 'each' làm chủ ngữ",
+            "signal": "Động từ phía sau là 'comes' (chia số ít) + đề cập tới 2 dòng sản phẩm."
+          },
+          "translation": {
+            "questionVi": "Cửa hàng bán hai dòng cặp da, và mỗi dòng đều đi kèm bảo hành khóa kéo trọn đời.",
+            "optionsVi": {
+              "A": "mỗi cái (chia số ít)",
+              "B": "cả hai (chia số nhiều)",
+              "C": "một vài (chia số nhiều)",
+              "D": "tất cả (chia số nhiều)"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ 'comes' ở ngôi thứ 3 số ít -> chỉ có 'each' hòa hợp đúng ngữ pháp."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Đúng: each + V(số ít 'comes').",
+            "B": "Sai: 'both' phải đi với 'come'.",
+            "C": "Sai: 'several' đi với số nhiều và cần >=3.",
+            "D": "Sai: 'all' đi với số nhiều."
+          },
+          "keyTakeaways": {
+            "formula": "each (of them) + V(số ít)  ≠  both + V(số nhiều)",
+            "commonTrap": "Thấy 'two lines' ở đầu câu liền chọn vội 'both' mà không nhìn động từ 'comes' số ít!",
+            "paraphrases": [
+              {
+                "textInPassage": "lifetime guarantee",
+                "textInAnswer": "permanent warranty",
+                "meaningVi": "bảo hành trọn đời"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e26t1-p5-10",
+        "part": 5,
+        "topic": "Từ vựng & Collocations công sở",
+        "difficulty": "Nâng cao",
+        "sentence": "During peak holiday weeks, the fulfillment center operates at maximum _______ to avoid backlogs.",
+        "options": {
+          "A": "capacity",
+          "B": "civility",
+          "C": "fragility",
+          "D": "simplicity"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Collocation sản xuất & vận hành (at maximum capacity)",
+            "signal": "Cụm cố định 'operate at maximum/full capacity' (vận hành hết công suất)."
+          },
+          "translation": {
+            "questionVi": "Trong những tuần lễ cao điểm, trung tâm xử lý đơn hàng vận hành hết công suất để tránh tồn đọng.",
+            "optionsVi": {
+              "A": "công suất, sức chứa",
+              "B": "sự lịch thiệp",
+              "C": "tính dễ vỡ",
+              "D": "sự đơn giản"
+            }
+          },
+          "proof": {
+            "explanation": "'at maximum capacity' là cụm collocation chuẩn mực trong TOEIC về nhà máy, kho vận và khách sạn."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Đúng: vận hành ở công suất tối đa.",
+            "B": "Sai nghĩa.",
+            "C": "Sai nghĩa.",
+            "D": "Sai nghĩa."
+          },
+          "keyTakeaways": {
+            "formula": "operate at full / maximum capacity (vận hành hết công suất)",
+            "commonTrap": "Nhầm lẫn 4 danh từ cùng đuôi '-ity'.",
+            "paraphrases": [
+              {
+                "textInPassage": "avoid backlogs",
+                "textInAnswer": "prevent order delays",
+                "meaningVi": "tránh tồn đọng đơn hàng"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "part6": [
+      {
+        "id": "e26t1-p6-1",
+        "title": "Memo nội bộ triển khai dịch vụ xe buýt điện đưa đón nhân viên",
+        "genre": "Memo",
+        "paragraphs": [
+          {
+            "id": "e26t1-p6-1-p1",
+            "sentences": [
+              {
+                "id": "e26t1-p6-1-s1",
+                "en": "To ease morning traffic congestion around our campus, Workplace Services is launching a free electric shuttle [131] September 1.",
+                "vi": "Để giảm ùn tắc giao thông sáng quanh khuôn viên, bộ phận Dịch vụ Văn phòng sẽ khai trương xe đưa đón điện miễn phí có hiệu lực từ 1/9."
+              },
+              {
+                "id": "e26t1-p6-1-s2",
+                "en": "Shuttles will run every fifteen minutes between Harbor Metro Station and Building C from 7:00 to 9:30 A.M. [132]",
+                "vi": "Xe chạy mỗi 15 phút giữa Ga tàu điện Harbor và Tòa nhà C từ 7:00 đến 9:30 sáng. [132]"
+              }
+            ]
+          },
+          {
+            "id": "e26t1-p6-1-p2",
+            "sentences": [
+              {
+                "id": "e26t1-p6-1-s3",
+                "en": "Riders simply tap their employee ID badge upon boarding—no [133] reservation is needed.",
+                "vi": "Người đi chỉ cần chạm thẻ nhân viên khi lên xe—không cần đặt chỗ trước."
+              },
+              {
+                "id": "e26t1-p6-1-s4",
+                "en": "Track live shuttle arrivals anytime by [134] the CampusMove app from our internal portal.",
+                "vi": "Theo dõi giờ xe đến trực tiếp bất kỳ lúc nào bằng cách tải ứng dụng CampusMove từ cổng nội bộ."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p6-1-q1",
+            "blankNumber": 131,
+            "questionType": "Từ vựng",
+            "options": {
+              "A": "effective",
+              "B": "selective",
+              "C": "protective",
+              "D": "defective"
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Tính từ pháp lý/thông báo ('effective + Date')",
+                "signal": "Cụm chuẩn thông báo TOEIC: 'effective September 1' (= bắt đầu áp dụng từ 1/9)."
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [131].",
+                "optionsVi": {
+                  "A": "có hiệu lực từ (+ ngày)",
+                  "B": "có chọn lọc",
+                  "C": "mang tính bảo vệ",
+                  "D": "bị lỗi hỏng"
+                }
+              },
+              "proof": {
+                "explanation": "'effective + Date' xuất hiện cực kỳ dày đặc trong Memo & Notice ETS.",
+                "evidenceQuote": "To ease morning traffic congestion around our campus, Workplace Services is launching a free electric shuttle [131] September 1.",
+                "evidenceSentenceId": "e26t1-p6-1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: 'effective + Date' xuất hiện cực kỳ dày đặc trong Memo & Notice ETS.",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (có chọn lọc).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (mang tính bảo vệ).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (bị lỗi hỏng)."
+              },
+              "keyTakeaways": {
+                "formula": "effective + Date (bắt đầu có hiệu lực từ ngày...)",
+                "commonTrap": "4 tính từ cùng đuôi '-ective' gây nhiễu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p6-1-q2",
+            "blankNumber": 132,
+            "questionType": "Điền câu (Sentence Insertion)",
+            "options": {
+              "A": "Return trips to the metro station will operate on the same fifteen-minute schedule from 4:30 to 7:00 P.M.",
+              "B": "Parking tickets can be paid online.",
+              "C": "The gym pool is closed for cleaning.",
+              "D": "Please update your emergency phone number."
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Điền câu bổ sung lịch chiều về khớp với lịch sáng",
+                "signal": "Câu trước nêu lịch buổi sáng (7:00–9:30 A.M.) -> câu (A) nêu đối xứng lịch chiều về (4:30–7:00 P.M.) cùng tần suất 15 phút!"
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [132].",
+                "optionsVi": {
+                  "A": "Các chuyến chiều về ga tàu điện chạy cùng lịch 15 phút từ 4:30 đến 7:00 tối.",
+                  "B": "Vé phạt đỗ xe trả online.",
+                  "C": "Bể bơi phòng gym đóng cửa vệ sinh.",
+                  "D": "Cập nhật số điện thoại khẩn cấp."
+                }
+              },
+              "proof": {
+                "explanation": "Cấu trúc đối xứng hoàn hảo: buổi sáng đến công ty <-> buổi chiều về ga tàu.",
+                "evidenceQuote": "Shuttles will run every fifteen minutes between Harbor Metro Station and Building C from 7:00 to 9:30 A.M. [132]",
+                "evidenceSentenceId": "e26t1-p6-1-s2"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: Cấu trúc đối xứng hoàn hảo: buổi sáng đến công ty <-> buổi chiều về ga tàu.",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Vé phạt đỗ xe trả online.).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Bể bơi phòng gym đóng cửa vệ sinh.).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Cập nhật số điện thoại khẩn cấp.)."
+              },
+              "keyTakeaways": {
+                "formula": "Khi câu trước nêu lịch chiều đi, câu điền rất hay nêu lịch chiều về!",
+                "commonTrap": "Chọn câu chung chung về văn phòng.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p6-1-q3",
+            "blankNumber": 133,
+            "questionType": "Từ vựng",
+            "options": {
+              "A": "advance",
+              "B": "advanced",
+              "C": "advancing",
+              "D": "advancement"
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Collocation cố định 'advance reservation / notice'",
+                "signal": "Trước 'reservation' dùng danh từ/tính từ định ngữ 'advance' (= đặt trước), KHÔNG dùng 'advanced' (= tiên tiến)!"
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [133].",
+                "optionsVi": {
+                  "A": "đặt trước ('advance reservation')",
+                  "B": "tiên tiến, nâng cao",
+                  "C": "đang tiến tới",
+                  "D": "sự thăng tiến"
+                }
+              },
+              "proof": {
+                "explanation": "'no advance reservation is needed' là cụm tủ ăn điểm tuyệt đối của TOEIC.",
+                "evidenceQuote": "Riders simply tap their employee ID badge upon boarding—no [133] reservation is needed.",
+                "evidenceSentenceId": "e26t1-p6-1-s3"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: 'no advance reservation is needed' là cụm tủ ăn điểm tuyệt đối của TOEIC.",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (tiên tiến, nâng cao).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (đang tiến tới).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (sự thăng tiến)."
+              },
+              "keyTakeaways": {
+                "formula": "advance + reservation / booking / notice / payment",
+                "commonTrap": "Rất nhiều thí sinh nhầm chọn 'advanced' (trình độ cao)!",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p6-1-q4",
+            "blankNumber": 134,
+            "questionType": "Ngữ pháp",
+            "options": {
+              "A": "download",
+              "B": "downloading",
+              "C": "downloaded",
+              "D": "downloads"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Giới từ 'by' + V-ing chỉ phương thức",
+                "signal": "Sau giới từ 'by' luôn dùng V-ing ('by downloading') khi có tân ngữ phía sau."
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [134].",
+                "optionsVi": {
+                  "A": "V nguyên mẫu",
+                  "B": "bằng cách tải xuống (V-ing)",
+                  "C": "V-ed",
+                  "D": "Vs"
+                }
+              },
+              "proof": {
+                "explanation": "Giới từ 'by + V-ing' diễn tả cách thức thực hiện hành động.",
+                "evidenceQuote": "Track live shuttle arrivals anytime by [134] the CampusMove app from our internal portal.",
+                "evidenceSentenceId": "e26t1-p6-1-s4"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (V nguyên mẫu).",
+                "B": "Đúng: Giới từ 'by + V-ing' diễn tả cách thức thực hiện hành động.",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (V-ed).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Vs)."
+              },
+              "keyTakeaways": {
+                "formula": "by + V-ing (+ Object)",
+                "commonTrap": "Bỏ quên giới từ 'by' đứng ngay trước chỗ trống.",
+                "paraphrases": []
+              }
+            }
+          }
+        ],
+        "headerMeta": {
+          "from": "Workplace Services",
+          "to": "All Campus Employees",
+          "date": "August 12",
+          "subject": "New Electric Commuter Shuttle"
+        }
+      },
+      {
+        "id": "e26t1-p6-2",
+        "title": "Quảng cáo dịch vụ in ấn thương mại tốc hành",
+        "genre": "Advertisement",
+        "paragraphs": [
+          {
+            "id": "e26t1-p6-2-p1",
+            "sentences": [
+              {
+                "id": "e26t1-p6-2-s1",
+                "en": "Preparing for an upcoming trade show or investor pitch? PrintWave delivers crisp banners, brochures, and business cards with [135] turnaround times.",
+                "vi": "Đang chuẩn bị cho hội chợ thương mại hay buổi gọi vốn sắp tới? PrintWave giao biểu ngữ, tờ rơi và danh thiếp sắc nét với thời gian hoàn thiện nhanh chóng."
+              },
+              {
+                "id": "e26t1-p6-2-s2",
+                "en": "Orders uploaded before 11:00 A.M. are ready for courier dispatch the very same afternoon. [136]",
+                "vi": "Đơn hàng tải lên trước 11 giờ sáng sẵn sàng giao hỏa tốc ngay trong chiều cùng ngày. [136]"
+              }
+            ]
+          },
+          {
+            "id": "e26t1-p6-2-p2",
+            "sentences": [
+              {
+                "id": "e26t1-p6-2-s3",
+                "en": "[137], our in-house graphic specialists inspect every file for color accuracy and bleed margins at no extra fee.",
+                "vi": "Hơn nữa, chuyên viên đồ họa nội bộ của ta kiểm tra mọi file về độ chuẩn màu và lề cắt hoàn toàn miễn phí."
+              },
+              {
+                "id": "e26t1-p6-2-s4",
+                "en": "Visit printwave.co today to request a free sample pack of our recycled matte and glossy [138].",
+                "vi": "Truy cập printwave.co hôm nay để yêu cầu bộ mẫu miễn phí các loại giấy mờ và bóng tái chế của chúng tôi."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p6-2-q1",
+            "blankNumber": 135,
+            "questionType": "Từ vựng",
+            "options": {
+              "A": "rapid",
+              "B": "fragile",
+              "C": "crowded",
+              "D": "absent"
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Collocation 'rapid turnaround times'",
+                "signal": "Dịch vụ in trong ngày -> 'rapid turnaround times' (thời gian xoay vòng/hoàn tất nhanh)."
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [135].",
+                "optionsVi": {
+                  "A": "nhanh chóng",
+                  "B": "dễ vỡ",
+                  "C": "đông đúc",
+                  "D": "vắng mặt"
+                }
+              },
+              "proof": {
+                "explanation": "Khớp trực tiếp với tiêu đề 'Same-Day Business Printing'.",
+                "evidenceQuote": "Preparing for an upcoming trade show or investor pitch? PrintWave delivers crisp banners, brochures, and business cards with [135] turnaround times.",
+                "evidenceSentenceId": "e26t1-p6-2-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: Khớp trực tiếp với tiêu đề 'Same-Day Business Printing'.",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (dễ vỡ).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (đông đúc).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (vắng mặt)."
+              },
+              "keyTakeaways": {
+                "formula": "rapid / quick turnaround time",
+                "commonTrap": "Không hiểu nghĩa từ 'turnaround' (thời gian hoàn tất đơn hàng).",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p6-2-q2",
+            "blankNumber": 136,
+            "questionType": "Điền câu (Sentence Insertion)",
+            "options": {
+              "A": "Customers within the metro area may also choose free curbside pickup at our Midtown shop.",
+              "B": "Our office chairs carry a five-year warranty.",
+              "C": "Please silence mobile phones during the lecture.",
+              "D": "Monthly utility bills rose slightly in July."
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Điền câu bổ sung tùy chọn nhận hàng",
+                "signal": "Câu trước nói giao bằng courier trong chiều cùng ngày -> câu (A) bổ sung lựa chọn tự lấy miễn phí tại cửa hàng Midtown."
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [136].",
+                "optionsVi": {
+                  "A": "Khách trong nội thành cũng có thể chọn tự đến nhận miễn phí tại cửa hàng Midtown.",
+                  "B": "Ghế văn phòng bảo hành 5 năm.",
+                  "C": "Tắt chuông điện thoại khi nghe giảng.",
+                  "D": "Hóa đơn điện nước tăng tháng 7."
+                }
+              },
+              "proof": {
+                "explanation": "Từ nối 'also' + chủ đề giao/nhận đơn hàng nối khít câu trước.",
+                "evidenceQuote": "Orders uploaded before 11:00 A.M. are ready for courier dispatch the very same afternoon. [136]",
+                "evidenceSentenceId": "e26t1-p6-2-s2"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: Từ nối 'also' + chủ đề giao/nhận đơn hàng nối khít câu trước.",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Ghế văn phòng bảo hành 5 năm.).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Tắt chuông điện thoại khi nghe giảng.).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Hóa đơn điện nước tăng tháng 7.)."
+              },
+              "keyTakeaways": {
+                "formula": "Bắt cặp 'courier dispatch' <-> 'curbside pickup'",
+                "commonTrap": "Chọn câu sai chủ đề in ấn.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p6-2-q3",
+            "blankNumber": 137,
+            "questionType": "Từ nối",
+            "options": {
+              "A": "Moreover",
+              "B": "However",
+              "C": "Otherwise",
+              "D": "Instead"
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Trạng từ nối bổ sung ưu điểm dịch vụ",
+                "signal": "Thêm một lợi ích miễn phí nữa (kiểm tra màu sắc không thu phí) -> dùng 'Moreover'."
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [137].",
+                "optionsVi": {
+                  "A": "Hơn nữa",
+                  "B": "Tuy nhiên",
+                  "C": "Nếu không thì",
+                  "D": "Thay vào đó"
+                }
+              },
+              "proof": {
+                "explanation": "Mạch liệt kê các ưu điểm bán hàng -> 'Moreover'.",
+                "evidenceQuote": "[137], our in-house graphic specialists inspect every file for color accuracy and bleed margins at no extra fee.",
+                "evidenceSentenceId": "e26t1-p6-2-s3"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: Mạch liệt kê các ưu điểm bán hàng -> 'Moreover'.",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Tuy nhiên).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Nếu không thì).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Thay vào đó)."
+              },
+              "keyTakeaways": {
+                "formula": "Moreover / Furthermore / In addition, S + V",
+                "commonTrap": "Dùng từ nối đối lập.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p6-2-q4",
+            "blankNumber": 138,
+            "questionType": "Từ vựng",
+            "options": {
+              "A": "stocks",
+              "B": "recipes",
+              "C": "fares",
+              "D": "routes"
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Từ vựng chuyên ngành in ấn ('paper stocks' = chất liệu giấy)",
+                "signal": "Trong ngành in, 'matte and glossy stocks' nghĩa là các loại chất liệu giấy mờ và giấy bóng!"
+              },
+              "translation": {
+                "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [138].",
+                "optionsVi": {
+                  "A": "chất liệu giấy in / kho hàng",
+                  "B": "công thức nấu ăn",
+                  "C": "giá vé tàu xe",
+                  "D": "tuyến đường"
+                }
+              },
+              "proof": {
+                "explanation": "Loại trừ B, C, D hoàn toàn vô nghĩa -> chọn ngay 'stocks' (paper stocks).",
+                "evidenceQuote": "Visit printwave.co today to request a free sample pack of our recycled matte and glossy [138].",
+                "evidenceSentenceId": "e26t1-p6-2-s4"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Đúng: Loại trừ B, C, D hoàn toàn vô nghĩa -> chọn ngay 'stocks' (paper stocks).",
+                "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (công thức nấu ăn).",
+                "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (giá vé tàu xe).",
+                "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (tuyến đường)."
+              },
+              "keyTakeaways": {
+                "formula": "recycled matte/glossy stocks (chất liệu giấy in)",
+                "commonTrap": "Chỉ biết 'stock' là cổ phiếu nên phân vân.",
+                "paraphrases": []
+              }
+            }
+          }
+        ],
+        "headerMeta": {
+          "subject": "PrintWave Commercial Graphics — Same-Day Business Printing"
+        }
+      }
+    ],
+    "part7": [
+      {
+        "id": "e26t1-p7-1",
+        "title": "Single Passage — Thông báo mở rộng giờ mở cửa Thư viện Thành phố",
+        "passageCountType": "single",
+        "topic": "Thông báo công cộng",
+        "passages": [
+          {
+            "id": "e26t1-p7-1-d1",
+            "tabLabel": "Thông báo",
+            "genre": "Notice",
+            "title": "Extended Evening Hours & New Study Pods — Central Library",
+            "paragraphs": [
+              {
+                "id": "e26t1-p7-1-p1",
+                "sentences": [
+                  {
+                    "id": "e26t1-p7-1-s1",
+                    "en": "Beginning November 1, Central Library will extend its weekday closing time from 7:00 P.M. to 9:30 P.M. in response to our spring reader survey.",
+                    "vi": "Từ ngày 1/11, Thư viện Trung tâm sẽ kéo dài giờ đóng cửa ngày thường từ 7:00 tối đến 9:30 tối nhằm đáp ứng khảo sát bạn đọc mùa xuân."
+                  },
+                  {
+                    "id": "e26t1-p7-1-s2",
+                    "en": "Six soundproof video-call pods have also been installed on the third floor and may be booked for up to two hours daily with a free library card.",
+                    "vi": "Sáu buồng gọi video cách âm cũng đã được lắp tại tầng ba và có thể đặt tối đa hai giờ mỗi ngày bằng thẻ thư viện miễn phí."
+                  },
+                  {
+                    "id": "e26t1-p7-1-s3",
+                    "en": "Please note that the children's wing on Floor 1 will continue closing at 6:30 P.M.",
+                    "vi": "Xin lưu ý khu thiếu nhi tại Tầng 1 vẫn tiếp tục đóng cửa lúc 6:30 tối."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p7-1-q1",
+            "questionNumber": 147,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "Why did the library decide to stay open later on weekdays?",
+            "options": {
+              "A": "It hired extra librarians.",
+              "B": "Readers requested it in a survey.",
+              "C": "A nearby university closed.",
+              "D": "City funding doubled."
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Chi tiết nguyên nhân",
+                "signal": "Câu s1: 'in response to our spring reader survey'."
+              },
+              "translation": {
+                "questionVi": "Tại sao mở cửa muộn hơn?",
+                "optionsVi": {
+                  "A": "Tuyển thêm thủ thư",
+                  "B": "Bạn đọc đề xuất qua khảo sát",
+                  "C": "Đại học gần đó đóng cửa",
+                  "D": "Ngân sách tăng gấp đôi"
+                }
+              },
+              "proof": {
+                "explanation": "Đáp ứng phản hồi từ khảo sát bạn đọc mùa xuân.",
+                "evidenceQuote": "in response to our spring reader survey",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "e26t1-p7-1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Cụm 'in response to' báo hiệu nguyên nhân",
+                "commonTrap": "Suy diễn ngoài văn bản.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p7-1-q2",
+            "questionNumber": 148,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "What is required to reserve a third-floor study pod?",
+            "options": {
+              "A": "A $5 hourly fee",
+              "B": "A library membership card",
+              "C": "A student ID",
+              "D": "Approval from a supervisor"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Chi tiết điều kiện",
+                "signal": "Câu s2: 'with a free library card'."
+              },
+              "translation": {
+                "questionVi": "Cần gì để đặt buồng gọi video?",
+                "optionsVi": {
+                  "A": "Phí 5 đô/giờ",
+                  "B": "Thẻ thành viên thư viện",
+                  "C": "Thẻ sinh viên",
+                  "D": "Phê duyệt quản lý"
+                }
+              },
+              "proof": {
+                "explanation": "Chỉ cần thẻ thư viện miễn phí.",
+                "evidenceQuote": "may be booked for up to two hours daily with a free library card",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "e26t1-p7-1-s2"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Paraphrase 'library card' -> 'library membership card'",
+                "commonTrap": "Nhầm sang phí giờ.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p7-1-q3",
+            "questionNumber": 149,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "What remains unchanged after November 1?",
+            "options": {
+              "A": "The weekday closing time of the main floor",
+              "B": "The closing hour of the children's area",
+              "C": "The number of computers on Floor 3",
+              "D": "Weekend parking rules"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Chi tiết ngoại lệ",
+                "signal": "Câu s3: 'children's wing on Floor 1 will continue closing at 6:30 P.M.'."
+              },
+              "translation": {
+                "questionVi": "Điều gì không thay đổi?",
+                "optionsVi": {
+                  "A": "Giờ đóng cửa khu chính",
+                  "B": "Giờ đóng cửa khu thiếu nhi",
+                  "C": "Số máy tính tầng 3",
+                  "D": "Quy định đỗ xe"
+                }
+              },
+              "proof": {
+                "explanation": "'will continue closing at 6:30 P.M.' = giữ nguyên không đổi.",
+                "evidenceQuote": "the children's wing on Floor 1 will continue closing at 6:30 P.M.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "e26t1-p7-1-s3"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Tìm động từ 'continue / remain'",
+                "commonTrap": "Bỏ qua câu lưu ý cuối đoạn.",
+                "paraphrases": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e26t1-p7-2",
+        "title": "Triple Passage — Bảng giá thiết bị, Hóa đơn & Email phản hồi lỗi",
+        "passageCountType": "triple",
+        "topic": "Đoạn ba (Triple Passage) — Tổng hợp 3 văn bản",
+        "passages": [
+          {
+            "id": "e26t1-p7-2-d1",
+            "tabLabel": "VB 1: Bảng giá",
+            "genre": "Advertisement",
+            "title": "NordicBrew Commercial Coffee Machines",
+            "tableData": {
+              "headers": [
+                "Model",
+                "Cups/Hour",
+                "Price",
+                "Warranty"
+              ],
+              "rows": [
+                {
+                  "id": "e26t1-p7-2-r1",
+                  "cells": [
+                    "NB-100 Compact",
+                    "40",
+                    "$1,200",
+                    "1 year"
+                  ]
+                },
+                {
+                  "id": "e26t1-p7-2-r2",
+                  "cells": [
+                    "NB-300 Café Pro",
+                    "120",
+                    "$2,600",
+                    "2 years"
+                  ]
+                },
+                {
+                  "id": "e26t1-p7-2-r3",
+                  "cells": [
+                    "NB-500 Hotel Max",
+                    "250",
+                    "$4,400",
+                    "3 years"
+                  ]
+                }
+              ]
+            },
+            "paragraphs": [
+              {
+                "id": "e26t1-p7-2-d1-p1",
+                "sentences": [
+                  {
+                    "id": "e26t1-p7-2-d1-s1",
+                    "en": "Orders over $2,000 qualify for complimentary on-site setup and a free water filter pack.",
+                    "vi": "Đơn hàng trên 2.000 đô la được lắp đặt miễn phí tận nơi và tặng một bộ lọc nước."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "e26t1-p7-2-d2",
+            "tabLabel": "VB 2: Hóa đơn",
+            "genre": "Invoice / Form",
+            "title": "NordicBrew Invoice #NB-9041",
+            "headerMeta": [
+              {
+                "label": "Buyer",
+                "value": "Harbor Bakery (Attn: Owen Sato)"
+              },
+              {
+                "label": "Purchase Date",
+                "value": "March 10"
+              },
+              {
+                "label": "Item",
+                "value": "1 × NB-300 Café Pro ($2,600)"
+              },
+              {
+                "label": "Setup Fee",
+                "value": "$0 (Promotional Waiver)"
+              }
+            ],
+            "paragraphs": [
+              {
+                "id": "e26t1-p7-2-d2-p1",
+                "sentences": [
+                  {
+                    "id": "e26t1-p7-2-d2-s1",
+                    "en": "Technician delivery & installation completed on March 14. Serial #300-8819.",
+                    "vi": "Kỹ thuật viên giao hàng & lắp đặt hoàn tất ngày 14/3. Số sê-ri #300-8819."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "e26t1-p7-2-d3",
+            "tabLabel": "VB 3: Email hỗ trợ",
+            "genre": "Email",
+            "title": "Re: Invoice #NB-9041 — Missing Filter Pack",
+            "headerMeta": [
+              {
+                "label": "From",
+                "value": "Owen Sato, Harbor Bakery"
+              },
+              {
+                "label": "To",
+                "value": "support@nordicbrew.com"
+              },
+              {
+                "label": "Date",
+                "value": "March 15"
+              }
+            ],
+            "paragraphs": [
+              {
+                "id": "e26t1-p7-2-d3-p1",
+                "sentences": [
+                  {
+                    "id": "e26t1-p7-2-d3-s1",
+                    "en": "Your technician did a wonderful job installing our new machine yesterday and testing the steam wand.",
+                    "vi": "Kỹ thuật viên của quý công ty đã lắp đặt máy mới và kiểm tra vòi đánh sữa rất tuyệt vời hôm qua."
+                  },
+                  {
+                    "id": "e26t1-p7-2-d3-s2",
+                    "en": "However, after he left, we noticed the complimentary water filter pack advertised for qualifying orders was not included in the box.",
+                    "vi": "Tuy nhiên sau khi anh ấy rời đi, chúng tôi nhận thấy bộ lọc nước tặng kèm quảng cáo cho đơn đủ điều kiện không có trong hộp."
+                  },
+                  {
+                    "id": "e26t1-p7-2-d3-s3",
+                    "en": "Could you ship one to our Harbor Street shop before Friday? We'd also like to upgrade our coverage to three years if possible.",
+                    "vi": "Quý công ty có thể gửi một bộ tới cửa hàng phố Harbor trước thứ Sáu không? Chúng tôi cũng muốn nâng cấp bảo hành lên ba năm nếu được."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "e26t1-p7-2-q1",
+            "questionNumber": 186,
+            "questionType": "Suy luận (Inference)",
+            "prompt": "How long is the current warranty on Harbor Bakery's coffee machine?",
+            "options": {
+              "A": "One year",
+              "B": "Two years",
+              "C": "Three years",
+              "D": "Five years"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Liên kết VB 2 (Model NB-300) + VB 1 (Bảng bảo hành)",
+                "signal": "VB2 cho biết họ mua NB-300 Café Pro; tra bảng VB1 -> NB-300 bảo hành 2 năm (2 years)!"
+              },
+              "translation": {
+                "questionVi": "Bảo hành hiện tại bao lâu?",
+                "optionsVi": {
+                  "A": "1 năm",
+                  "B": "2 năm",
+                  "C": "3 năm",
+                  "D": "5 năm"
+                }
+              },
+              "proof": {
+                "explanation": "Harbor Bakery mua NB-300 ($2,600) -> bảo hành tiêu chuẩn 2 năm (VB1), và trong VB3 họ mới đang hỏi nâng lên 3 năm.",
+                "evidenceQuote": "1 × NB-300 Café Pro ($2,600)",
+                "evidencePassageIndex": 1,
+                "evidenceSentenceId": "e26t1-p7-2-d2-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai: NB-100.",
+                "B": "Đúng: NB-300 bảo hành 2 năm.",
+                "C": "Sai: Là mức đang xin nâng cấp.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Triple Passage: Ghép tên Model ở VB2 tra ngược về bảng VB1",
+                "commonTrap": "Chọn nhầm 3 năm do thấy số 'three years' ở VB3.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p7-2-q2",
+            "questionNumber": 187,
+            "questionType": "Suy luận (Inference)",
+            "prompt": "Why was Harbor Bakery charged $0 for setup?",
+            "options": {
+              "A": "They installed the machine themselves.",
+              "B": "Their purchase exceeded $2,000.",
+              "C": "They bought three machines.",
+              "D": "They used an employee coupon."
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Liên kết VB 1 ($2,000) + VB 2 ($2,600)",
+                "signal": "VB1 s1: đơn trên $2,000 miễn phí lắp đặt; VB2: máy NB-300 giá $2,600 (> $2,000)!"
+              },
+              "translation": {
+                "questionVi": "Tại sao miễn phí lắp đặt?",
+                "optionsVi": {
+                  "A": "Tự lắp",
+                  "B": "Đơn hàng vượt 2.000 đô la",
+                  "C": "Mua ba máy",
+                  "D": "Dùng mã nhân viên"
+                }
+              },
+              "proof": {
+                "explanation": "Giá NB-300 là $2,600 vượt mức $2,000 quy định ở VB1.",
+                "evidenceQuote": "Orders over $2,000 qualify for complimentary on-site setup",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "e26t1-p7-2-d1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu điều kiện khuyến mãi VB1 với tổng tiền hóa đơn VB2",
+                "commonTrap": "Không kiểm tra con số $2,000 ở VB1.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p7-2-q3",
+            "questionNumber": 188,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "On what date was the machine installed?",
+            "options": {
+              "A": "March 10",
+              "B": "March 14",
+              "C": "March 15",
+              "D": "March 18"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Phân biệt ngày mua (March 10), ngày lắp (March 14), ngày gửi mail (March 15)",
+                "signal": "VB2 s1 ghi rõ: 'delivery & installation completed on March 14' (khớp chữ 'yesterday' trong email ngày 15/3!)."
+              },
+              "translation": {
+                "questionVi": "Máy được lắp ngày nào?",
+                "optionsVi": {
+                  "A": "10/3 (ngày mua)",
+                  "B": "14/3 (ngày lắp)",
+                  "C": "15/3 (ngày gửi email)",
+                  "D": "18/3"
+                }
+              },
+              "proof": {
+                "explanation": "VB2 s1 khẳng định hoàn tất lắp đặt ngày 14/3.",
+                "evidenceQuote": "Technician delivery & installation completed on March 14",
+                "evidencePassageIndex": 1,
+                "evidenceSentenceId": "e26t1-p7-2-d2-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai: Ngày mua hàng.",
+                "B": "Đúng.",
+                "C": "Sai: Ngày viết email.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Luôn kiểm tra chéo các mốc ngày giữa 3 văn bản",
+                "commonTrap": "Nhầm ngày Purchase Date (March 10).",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p7-2-q4",
+            "questionNumber": 189,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "What item is missing from Harbor Bakery's order?",
+            "options": {
+              "A": "A steam wand",
+              "B": "A water filter pack",
+              "C": "A power cable",
+              "D": "A printed warranty card"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Chi tiết VB 3 (s2)",
+                "signal": "VB3 s2: 'complimentary water filter pack ... was not included in the box'."
+              },
+              "translation": {
+                "questionVi": "Món đồ nào bị thiếu?",
+                "optionsVi": {
+                  "A": "Vòi đánh sữa",
+                  "B": "Bộ lọc nước tặng kèm",
+                  "C": "Dây nguồn",
+                  "D": "Thẻ bảo hành"
+                }
+              },
+              "proof": {
+                "explanation": "Owen báo thiếu bộ lọc nước miễn phí.",
+                "evidenceQuote": "the complimentary water filter pack ... was not included in the box",
+                "evidencePassageIndex": 2,
+                "evidenceSentenceId": "e26t1-p7-2-d3-s2"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai: Đã kiểm tra xong.",
+                "B": "Đúng.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Đọc kỹ câu có từ nối 'However' ở VB3",
+                "commonTrap": "Bị nhiễu bởi 'steam wand' ở câu trước.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "e26t1-p7-2-q5",
+            "questionNumber": 190,
+            "questionType": "Suy luận (Inference)",
+            "prompt": "What additional service does Mr. Sato inquire about?",
+            "options": {
+              "A": "Buying a second NB-500 machine",
+              "B": "Extending the machine's warranty by one year",
+              "C": "Scheduling barista training",
+              "D": "Returning the NB-300 for a refund"
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Liên kết VB 1 (2 years) + VB 3 (upgrade to 3 years = +1 year!)",
+                "signal": "Bảo hành gốc NB-300 là 2 năm -> xin nâng lên 3 năm nghĩa là gia hạn thêm 1 năm!"
+              },
+              "translation": {
+                "questionVi": "Ông Sato hỏi thêm dịch vụ gì?",
+                "optionsVi": {
+                  "A": "Mua máy thứ hai",
+                  "B": "Gia hạn bảo hành thêm một năm",
+                  "C": "Đào tạo pha chế",
+                  "D": "Trả máy hoàn tiền"
+                }
+              },
+              "proof": {
+                "explanation": "VB3 s3: 'upgrade our coverage to three years' (từ 2 năm lên 3 năm = thêm 1 năm).",
+                "evidenceQuote": "upgrade our coverage to three years if possible",
+                "evidencePassageIndex": 2,
+                "evidenceSentenceId": "e26t1-p7-2-d3-s3"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Sai.",
+                "B": "Đúng: coverage = warranty; 2 -> 3 years = +1 year.",
+                "C": "Sai.",
+                "D": "Sai."
+              },
+              "keyTakeaways": {
+                "formula": "Paraphrase 'coverage' = 'warranty'",
+                "commonTrap": "Không nhận ra 'coverage' đồng nghĩa với 'warranty'.",
+                "paraphrases": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

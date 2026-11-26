@@ -1,0 +1,497 @@
+{
+  "id": "drill-p3-graphic",
+  "part": 3,
+  "title": "Dạng câu hỏi Bảng biểu / Sơ đồ (Graphic)",
+  "subtitle": "Kết hợp đồng thời 2–3 điều kiện trong audio để loại trừ bảng giá cước & sơ đồ tầng.",
+  "focusTag": "Graphic Table",
+  "part3": [
+    {
+      "id": "dp3-gr-1",
+      "part": 3,
+      "title": "Chọn gói vận chuyển kiện hàng dễ vỡ (Bảng giá cước)",
+      "scenario": "Logistics (Bảng biểu)",
+      "speakerCount": 2,
+      "hasGraphic": true,
+      "transcript": [
+        {
+          "id": "dp3-gr-1-l1",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Hi, I need to send a four-kilogram box of handmade ceramic mugs to Denver by Thursday.",
+          "vi": "Chào anh, tôi cần gửi một thùng bốn cân cốc gốm thủ công tới Denver chậm nhất thứ Năm.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 6168
+        },
+        {
+          "id": "dp3-gr-1-l2",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Today is Monday, so standard ground shipping won't make it in time—you'll need a service taking three days or less.",
+          "vi": "Hôm nay là thứ Hai, nên gửi đường bộ tiêu chuẩn sẽ không kịp—chị cần dịch vụ mất ba ngày trở xuống.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-1-q2"
+          ],
+          "startMs": 6548,
+          "endMs": 12956
+        },
+        {
+          "id": "dp3-gr-1-l3",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "And since they're fragile, I definitely want full transit insurance included, as long as it's under $50.",
+          "vi": "Và vì chúng dễ vỡ, tôi chắc chắn muốn có sẵn bảo hiểm vận chuyển toàn phần, miễn là dưới 50 đô la.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-1-q2"
+          ],
+          "startMs": 13336,
+          "endMs": 20344
+        },
+        {
+          "id": "dp3-gr-1-l4",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Perfect! I'll print the fragile-handling stickers right now so the depot crew packs extra cushioning.",
+          "vi": "Hoàn hảo! Tôi sẽ in nhãn hàng dễ vỡ ngay để đội kho chèn thêm đệm chống sốc.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-1-q3"
+          ],
+          "startMs": 20724,
+          "endMs": 27660
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-gr-1-q1",
+          "questionNumber": 1,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What is inside the woman's package?",
+          "promptVi": "Bên trong kiện hàng của người phụ nữ là gì?",
+          "options": {
+            "A": {
+              "en": "Electronic sensors",
+              "vi": "Cảm biến điện tử"
+            },
+            "B": {
+              "en": "Ceramic mugs",
+              "vi": "Cốc gốm thủ công"
+            },
+            "C": {
+              "en": "Printed brochures",
+              "vi": "Tờ rơi in ấn"
+            },
+            "D": {
+              "en": "Coffee beans",
+              "vi": "Hạt cà phê"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu mở đầu: 'handmade ceramic mugs'",
+            "trapAnalysis": "Nghe rõ vật phẩm cần gửi.",
+            "paraphrases": [
+              {
+                "audioPhrase": "ceramic mugs",
+                "answerPhrase": "fragile pottery items",
+                "meaningVi": "cốc gốm dễ vỡ"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-gr-1-q2",
+          "questionNumber": 2,
+          "questionType": "Câu hỏi bảng biểu (Graphic)",
+          "prompt": "Look at the graphic. Which shipping tier will the woman select?",
+          "promptVi": "Nhìn vào bảng biểu. Người phụ nữ sẽ chọn gói giao hàng nào?",
+          "options": {
+            "A": {
+              "en": "Economy Ground",
+              "vi": "Gói Economy Ground"
+            },
+            "B": {
+              "en": "Priority 3-Day",
+              "vi": "Gói Priority 3-Day"
+            },
+            "C": {
+              "en": "Express 2-Day",
+              "vi": "Gói Express 2-Day"
+            },
+            "D": {
+              "en": "Overnight Air",
+              "vi": "Gói Overnight Air"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "Loại trừ từng hàng dựa trên 3 tiêu chí: <= 3 ngày, Insurance = Yes, giá < $50",
+            "trapAnalysis": "Economy (5 ngày -> loại); Priority 3-Day (Insurance = No -> bẫy lớn!); Express 2-Day (2 ngày, Insurance = Yes, $42 < $50 -> ĐÚNG!); Overnight ($78 > $50 -> loại).",
+            "paraphrases": [
+              {
+                "audioPhrase": "3 days or less + insurance + under $50",
+                "answerPhrase": "Express 2-Day ($42)",
+                "meaningVi": "khớp gói Express 2-Day"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai: 5 ngày quá chậm.",
+              "B": "Sai bẫy: Đủ 3 ngày nhưng KHÔNG bao gồm bảo hiểm.",
+              "C": "Đúng: 2 ngày, có sẵn bảo hiểm, giá $42.",
+              "D": "Sai: Giá $78 vượt mức $50."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-gr-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What will the man do next?",
+          "promptVi": "Người đàn ông sẽ làm gì tiếp theo?",
+          "options": {
+            "A": {
+              "en": "Weigh a second box",
+              "vi": "Cân thêm hộp thứ hai"
+            },
+            "B": {
+              "en": "Print fragile warning labels",
+              "vi": "In nhãn cảnh báo hàng dễ vỡ"
+            },
+            "C": {
+              "en": "Call the Denver recipient",
+              "vi": "Gọi người nhận ở Denver"
+            },
+            "D": {
+              "en": "Check a customs form",
+              "vi": "Kiểm tra tờ khai hải quan"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'fragile-handling stickers' -> 'fragile warning labels'",
+            "trapAnalysis": "Câu cuối: 'print the fragile-handling stickers'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "fragile-handling stickers",
+                "answerPhrase": "fragile warning labels",
+                "meaningVi": "nhãn cảnh báo hàng dễ vỡ"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-gr-1-v1",
+          "word": "fragile",
+          "pos": "adj",
+          "ipaUK": "/ˈfrædʒaɪl/",
+          "ipaUS": "/ˈfrædʒl/",
+          "meaning": "dễ vỡ, mỏng manh",
+          "exampleEn": "Mark every crate containing glassware as fragile.",
+          "exampleVi": "Đánh dấu hàng dễ vỡ cho mọi kiện chứa đồ thủy tinh."
+        }
+      ],
+      "graphic": {
+        "title": "SwiftPost Courier — 4kg Package Rates",
+        "headers": [
+          "Tier",
+          "Transit Time",
+          "Full Insurance",
+          "Fee"
+        ],
+        "rows": [
+          [
+            "Economy Ground",
+            "5 business days",
+            "No",
+            "$16"
+          ],
+          [
+            "Priority 3-Day",
+            "3 business days",
+            "No",
+            "$28"
+          ],
+          [
+            "Express 2-Day",
+            "2 business days",
+            "Included",
+            "$42"
+          ],
+          [
+            "Overnight Air",
+            "Next morning",
+            "Included",
+            "$78"
+          ]
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp3-gr-1.mp3"
+    },
+    {
+      "id": "dp3-gr-2",
+      "part": 3,
+      "title": "Chọn khu vực lắp đặt máy bán hàng tự động (Sơ đồ tầng)",
+      "scenario": "Vận hành tòa nhà (Sơ đồ/Bảng)",
+      "speakerCount": 2,
+      "hasGraphic": true,
+      "transcript": [
+        {
+          "id": "dp3-gr-2-l1",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Claire, the vendor is delivering our healthy-snack vending machine tomorrow, and we need to confirm the floor spot.",
+          "vi": "Claire, nhà cung cấp sẽ giao máy bán đồ ăn nhẹ lành mạnh vào ngày mai và ta cần chốt vị trí trên sàn.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 6384
+        },
+        {
+          "id": "dp3-gr-2-l2",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Remember the technician said it requires a dedicated 220-volt outlet and shouldn't sit in direct sunlight.",
+          "vi": "Nhớ lời kỹ thuật viên nói máy cần ổ cắm 220 vôn riêng và không được đặt dưới ánh nắng trực tiếp nhé.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-2-q2"
+          ],
+          "startMs": 6764,
+          "endMs": 13868
+        },
+        {
+          "id": "dp3-gr-2-l3",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Right—that rules out the South Atrium because of the skylight, and Zone A doesn't have high-voltage power.",
+          "vi": "Đúng—thế thì loại Sảnh Nam vì có giếng trời, còn Khu A không có ổ điện cao áp.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-2-q2"
+          ],
+          "startMs": 14248,
+          "endMs": 20464
+        },
+        {
+          "id": "dp3-gr-2-l4",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Awesome! Let's notify Security to unlock the service elevator at nine A.M. for the delivery crew.",
+          "vi": "Tuyệt! Hãy báo bộ phận An ninh mở khóa thang máy chở hàng lúc chín giờ sáng cho đội giao hàng.",
+          "evidenceForQuestionIds": [
+            "dp3-gr-2-q3"
+          ],
+          "startMs": 20844,
+          "endMs": 28140
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-gr-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What are the speakers deciding?",
+          "promptVi": "Hai người đang quyết định việc gì?",
+          "options": {
+            "A": {
+              "en": "Where to install a vending machine",
+              "vi": "Đặt máy bán hàng tự động ở đâu"
+            },
+            "B": {
+              "en": "Which snacks to sell in the cafeteria",
+              "vi": "Bán đồ ăn vặt nào ở căng tin"
+            },
+            "C": {
+              "en": "When to repair a skylight",
+              "vi": "Khi nào sửa giếng trời"
+            },
+            "D": {
+              "en": "How to hire night security",
+              "vi": "Cách tuyển bảo vệ ca đêm"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'confirm the floor spot' cho 'vending machine'",
+            "trapAnalysis": "Chủ đề chọn vị trí lắp máy bán hàng.",
+            "paraphrases": [
+              {
+                "audioPhrase": "confirm the floor spot",
+                "answerPhrase": "where to install",
+                "meaningVi": "chọn vị trí lắp đặt"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-gr-2-q2",
+          "questionNumber": 5,
+          "questionType": "Câu hỏi bảng biểu (Graphic)",
+          "prompt": "Look at the graphic. Where will the machine be placed?",
+          "promptVi": "Nhìn vào bảng biểu. Máy sẽ được đặt tại đâu?",
+          "options": {
+            "A": {
+              "en": "Zone A — Main Lobby",
+              "vi": "Khu A — Sảnh chính"
+            },
+            "B": {
+              "en": "Zone B — South Atrium",
+              "vi": "Khu B — Sảnh Nam"
+            },
+            "C": {
+              "en": "Zone C — East Breakroom",
+              "vi": "Khu C — Phòng nghỉ phía Đông"
+            },
+            "D": {
+              "en": "Zone D — Outdoor Terrace",
+              "vi": "Khu D — Sân thượng ngoài trời"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "Đối chiếu 2 điều kiện: 220V = Yes & Direct Sunlight = No",
+            "trapAnalysis": "Zone A (110V -> loại); Zone B (Sunlight = Yes -> loại); Zone C (220V, Shaded -> ĐÚNG!); Zone D (Sunlight = Yes -> loại).",
+            "paraphrases": [
+              {
+                "audioPhrase": "220-volt + no direct sunlight",
+                "answerPhrase": "Zone C — East Breakroom",
+                "meaningVi": "khớp Khu C"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai: Chỉ có điện 110V.",
+              "B": "Sai: Có ánh nắng trực tiếp từ giếng trời.",
+              "C": "Đúng: Đủ 220V và nằm trong bóng râm (Shaded).",
+              "D": "Sai: Ngoài trời có nắng trực tiếp."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-gr-2-q3",
+          "questionNumber": 6,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "Why will the speakers contact security?",
+          "promptVi": "Tại sao hai người sẽ liên hệ bộ phận an ninh?",
+          "options": {
+            "A": {
+              "en": "To issue visitor badges",
+              "vi": "Để cấp thẻ khách"
+            },
+            "B": {
+              "en": "To unlock the freight elevator",
+              "vi": "Để mở khóa thang máy chở hàng"
+            },
+            "C": {
+              "en": "To inspect electrical wiring",
+              "vi": "Để kiểm tra dây điện"
+            },
+            "D": {
+              "en": "To reserve parking cones",
+              "vi": "Để giữ cọc đỗ xe"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'service elevator' -> 'freight elevator'",
+            "trapAnalysis": "Câu cuối: 'unlock the service elevator at nine A.M.'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "service elevator",
+                "answerPhrase": "freight elevator",
+                "meaningVi": "thang máy chở hàng"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: service elevator = freight elevator.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-gr-2-v1",
+          "word": "dedicated",
+          "pos": "adj",
+          "ipaUK": "/ˈdedɪkeɪtɪd/",
+          "ipaUS": "/ˈdedɪkeɪtɪd/",
+          "meaning": "chuyên dụng, dành riêng cho",
+          "exampleEn": "Server racks require a dedicated cooling circuit.",
+          "exampleVi": "Tủ máy chủ cần một mạch làm mát chuyên dụng."
+        }
+      ],
+      "graphic": {
+        "title": "Floor 1 — Equipment Placement Zones",
+        "headers": [
+          "Zone",
+          "Location",
+          "Power Outlet",
+          "Lighting"
+        ],
+        "rows": [
+          [
+            "Zone A",
+            "Main Lobby",
+            "110V Standard",
+            "Shaded"
+          ],
+          [
+            "Zone B",
+            "South Atrium",
+            "220V Dedicated",
+            "Direct Sunlight"
+          ],
+          [
+            "Zone C",
+            "East Breakroom",
+            "220V Dedicated",
+            "Shaded"
+          ],
+          [
+            "Zone D",
+            "Outdoor Terrace",
+            "220V Dedicated",
+            "Direct Sunlight"
+          ]
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp3-gr-2.mp3"
+    }
+  ]
+}

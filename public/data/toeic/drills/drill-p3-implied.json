@@ -1,0 +1,401 @@
+{
+  "id": "drill-p3-implied",
+  "part": 3,
+  "title": "Dạng câu hỏi Hàm ý người nói (Implied Meaning)",
+  "subtitle": "Giải mã thành ngữ và ẩn ý ('at a snail's pace', so sánh chi phí) trong ngữ cảnh.",
+  "focusTag": "Implied Meaning",
+  "part3": [
+    {
+      "id": "dp3-im-1",
+      "part": 3,
+      "title": "Hàm ý khi trao đổi về báo cáo kiểm toán",
+      "scenario": "Tài chính & Kế toán (Hàm ý)",
+      "speakerCount": 2,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-im-1-l1",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Owen, can we finish verifying the Q3 supplier invoices before four o'clock?",
+          "vi": "Owen, chúng ta có thể xác minh xong các hóa đơn nhà cung cấp quý 3 trước bốn giờ không?",
+          "evidenceForQuestionIds": [
+            "dp3-im-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 5808
+        },
+        {
+          "id": "dp3-im-1-l2",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Well, there are still ninety invoices left and the accounting server has been running at a snail's pace all afternoon.",
+          "vi": "À, vẫn còn tận chín mươi hóa đơn nữa mà máy chủ kế toán chiều nay chạy chậm như rùa ấy.",
+          "evidenceForQuestionIds": [
+            "dp3-im-1-q2"
+          ],
+          "startMs": 6188,
+          "endMs": 12812
+        },
+        {
+          "id": "dp3-im-1-l3",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Fair enough. I'll tell Ms. Park we'll deliver the verified ledger first thing tomorrow morning instead.",
+          "vi": "Hợp lý thôi. Tôi sẽ báo cô Park là ta sẽ giao sổ cái đã xác minh ngay đầu sáng mai vậy.",
+          "evidenceForQuestionIds": [
+            "dp3-im-1-q3"
+          ],
+          "startMs": 13192,
+          "endMs": 20224
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-im-1-q1",
+          "questionNumber": 1,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What task are the speakers working on?",
+          "promptVi": "Hai người đang làm công việc gì?",
+          "options": {
+            "A": {
+              "en": "Checking vendor invoices",
+              "vi": "Kiểm tra hóa đơn nhà cung cấp"
+            },
+            "B": {
+              "en": "Upgrading office computers",
+              "vi": "Nâng cấp máy tính văn phòng"
+            },
+            "C": {
+              "en": "Interviewing accounting interns",
+              "vi": "Phỏng vấn thực tập sinh kế toán"
+            },
+            "D": {
+              "en": "Booking a client dinner",
+              "vi": "Đặt tiệc tối khách hàng"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'verifying supplier invoices' -> 'checking vendor invoices'",
+            "trapAnalysis": "supplier = vendor; verifying = checking.",
+            "paraphrases": [
+              {
+                "audioPhrase": "verifying supplier invoices",
+                "answerPhrase": "checking vendor invoices",
+                "meaningVi": "kiểm tra hóa đơn nhà cung cấp"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-im-1-q2",
+          "questionNumber": 2,
+          "questionType": "Hàm ý người nói (Implied Meaning)",
+          "prompt": "What does the man mean when he says, 'the accounting server has been running at a snail's pace'?",
+          "promptVi": "Người đàn ông muốn nói gì khi bảo 'máy chủ kế toán chạy chậm như rùa'?",
+          "options": {
+            "A": {
+              "en": "They will not meet the four o'clock deadline.",
+              "vi": "Họ sẽ không kịp hoàn thành trước hạn bốn giờ."
+            },
+            "B": {
+              "en": "He wants to buy a new printer.",
+              "vi": "Anh ấy muốn mua máy in mới."
+            },
+            "C": {
+              "en": "He already finished all ninety invoices.",
+              "vi": "Anh ấy đã làm xong hết chín mươi hóa đơn."
+            },
+            "D": {
+              "en": "The server room is too noisy.",
+              "vi": "Phòng máy chủ quá ồn."
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Thành ngữ 'at a snail's pace' (cực chậm) -> hàm ý không kịp hạn 4 giờ!",
+            "trapAnalysis": "Đáp án khớp mạch câu sau khi người phụ nữ quyết định dời sang đầu sáng mai.",
+            "paraphrases": [
+              {
+                "audioPhrase": "at a snail's pace",
+                "answerPhrase": "too slowly to finish on time",
+                "meaningVi": "quá chậm không kịp tiến độ"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng: Hàm ý không thể kịp hạn 4 giờ chiều.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-im-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What will the woman tell Ms. Park?",
+          "promptVi": "Người phụ nữ sẽ báo gì với cô Park?",
+          "options": {
+            "A": {
+              "en": "The ledger will be ready tomorrow morning.",
+              "vi": "Sổ cái sẽ sẵn sàng vào sáng mai."
+            },
+            "B": {
+              "en": "Ninety invoices were lost.",
+              "vi": "Chín mươi hóa đơn bị mất."
+            },
+            "C": {
+              "en": "IT replaced the server.",
+              "vi": "Phòng CNTT đã thay máy chủ."
+            },
+            "D": {
+              "en": "She needs extra staff today.",
+              "vi": "Cô cần thêm nhân sự hôm nay."
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu cuối: 'deliver the verified ledger first thing tomorrow morning'",
+            "trapAnalysis": "Bắt đúng mốc 'tomorrow morning'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "first thing tomorrow morning",
+                "answerPhrase": "early the next morning",
+                "meaningVi": "ngay đầu giờ sáng mai"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-im-1-v1",
+          "word": "ledger",
+          "pos": "n",
+          "ipaUK": "/ˈledʒə/",
+          "ipaUS": "/ˈledʒɚ/",
+          "meaning": "sổ cái kế toán",
+          "exampleEn": "Auditors cross-checked every entry in the quarterly ledger.",
+          "exampleVi": "Kiểm toán viên đối chiếu từng mục trong sổ cái quý."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-im-1.mp3"
+    },
+    {
+      "id": "dp3-im-2",
+      "part": 3,
+      "title": "Hàm ý về chi phí thuê địa điểm sự kiện",
+      "scenario": "Tổ chức sự kiện (Hàm ý)",
+      "speakerCount": 2,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-im-2-l1",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Did you see the catering quote from Silver Spoon for our staff appreciation picnic?",
+          "vi": "Bạn đã xem báo giá tiệc từ bên Silver Spoon cho buổi dã ngoại tri ân nhân viên chưa?",
+          "evidenceForQuestionIds": [
+            "dp3-im-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 5304
+        },
+        {
+          "id": "dp3-im-2-l2",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "I did—it's $65 per person! That's nearly double what we spent last summer.",
+          "vi": "Xem rồi—tận 65 đô mỗi người! Gần gấp đôi số tiền ta chi mùa hè năm ngoái.",
+          "evidenceForQuestionIds": [
+            "dp3-im-2-q2"
+          ],
+          "startMs": 5684,
+          "endMs": 12620
+        },
+        {
+          "id": "dp3-im-2-l3",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Have you tried calling Bayside Grill? They catered our winter workshop and stayed well within budget.",
+          "vi": "Bạn đã thử gọi Bayside Grill chưa? Họ từng lo tiệc hội thảo mùa đông cho ta mà vẫn nằm gọn trong ngân sách.",
+          "evidenceForQuestionIds": [
+            "dp3-im-2-q3"
+          ],
+          "startMs": 13000,
+          "endMs": 19888
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-im-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What event are the speakers planning?",
+          "promptVi": "Hai người đang lên kế hoạch cho sự kiện nào?",
+          "options": {
+            "A": {
+              "en": "An employee appreciation picnic",
+              "vi": "Buổi dã ngoại tri ân nhân viên"
+            },
+            "B": {
+              "en": "A winter sales summit",
+              "vi": "Hội nghị bán hàng mùa đông"
+            },
+            "C": {
+              "en": "A restaurant grand opening",
+              "vi": "Lễ khai trương nhà hàng"
+            },
+            "D": {
+              "en": "A product photo shoot",
+              "vi": "Buổi chụp ảnh sản phẩm"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Bẫy sự kiện quá khứ 'winter workshop'",
+            "trapAnalysis": "Sự kiện ĐANG lên kế hoạch là 'staff appreciation picnic' (staff = employee); 'winter workshop' là chuyện đã qua.",
+            "paraphrases": [
+              {
+                "audioPhrase": "staff appreciation picnic",
+                "answerPhrase": "employee appreciation picnic",
+                "meaningVi": "dã ngoại tri ân nhân viên"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai: Chỉ là sự kiện mùa đông cũ.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-im-2-q2",
+          "questionNumber": 5,
+          "questionType": "Hàm ý người nói (Implied Meaning)",
+          "prompt": "What does the woman imply when she says, 'That's nearly double what we spent last summer'?",
+          "promptVi": "Người phụ nữ hàm ý gì khi nói 'Gần gấp đôi số tiền ta chi mùa hè năm ngoái'?",
+          "options": {
+            "A": {
+              "en": "The company's staff doubled in size.",
+              "vi": "Nhân sự công ty tăng gấp đôi."
+            },
+            "B": {
+              "en": "She thinks Silver Spoon's quote is too high.",
+              "vi": "Cô ấy cho rằng báo giá của Silver Spoon quá cao."
+            },
+            "C": {
+              "en": "She wants to cancel the picnic completely.",
+              "vi": "Cô ấy muốn hủy hẳn buổi dã ngoại."
+            },
+            "D": {
+              "en": "Last summer's food was poor quality.",
+              "vi": "Đồ ăn mùa hè năm ngoái chất lượng kém."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Phản ứng bất ngờ về giá ($65, gần gấp đôi năm ngoái) -> chê báo giá quá đắt!",
+            "trapAnalysis": "Củng cố bởi lời gợi ý nhà cung cấp rẻ hơn ('Bayside Grill') ngay câu sau.",
+            "paraphrases": [
+              {
+                "audioPhrase": "nearly double what we spent",
+                "answerPhrase": "quote is too expensive",
+                "meaningVi": "báo giá quá cao"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: Hàm ý giá quá đắt so với ngân sách.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-im-2-q3",
+          "questionNumber": 6,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What does the man recommend?",
+          "promptVi": "Người đàn ông khuyến nghị điều gì?",
+          "options": {
+            "A": {
+              "en": "Reducing the guest list",
+              "vi": "Cắt giảm danh sách khách mời"
+            },
+            "B": {
+              "en": "Contacting a different caterer",
+              "vi": "Liên hệ một đơn vị cung cấp tiệc khác"
+            },
+            "C": {
+              "en": "Cooking the meals in-house",
+              "vi": "Tự nấu ăn nội bộ"
+            },
+            "D": {
+              "en": "Moving the picnic indoors",
+              "vi": "Chuyển buổi dã ngoại vào trong nhà"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu cuối gợi ý gọi 'Bayside Grill'",
+            "trapAnalysis": "contacting a different caterer = gọi Bayside Grill.",
+            "paraphrases": [
+              {
+                "audioPhrase": "calling Bayside Grill",
+                "answerPhrase": "contacting a different caterer",
+                "meaningVi": "liên hệ bên tiệc khác"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-im-2-v1",
+          "word": "within budget",
+          "pos": "phrase",
+          "ipaUK": "/wɪˈðɪn ˈbʌdʒɪt/",
+          "ipaUS": "/wɪˈðɪn ˈbʌdʒɪt/",
+          "meaning": "nằm trong giới hạn ngân sách",
+          "exampleEn": "The renovation finished two weeks early and well within budget.",
+          "exampleVi": "Việc cải tạo xong sớm hai tuần và hoàn toàn trong ngân sách."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-im-2.mp3"
+    }
+  ]
+}

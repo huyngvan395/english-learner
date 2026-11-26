@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-11-26T15:10:00.000000+00:00",
+  "totalPrompts": 44,
+  "countsByMode": {
+    "translation": 30,
+    "toeic-email": 8,
+    "opinion": 6
+  },
+  "batches": [
+    {
+      "id": "translation_basic",
+      "mode": "translation",
+      "difficulty": "Cơ bản",
+      "label": "Dịch & Viết Việt → Anh (Cơ bản — 10 đoạn)",
+      "file": "translation_basic.json",
+      "count": 10
+    },
+    {
+      "id": "translation_intermediate",
+      "mode": "translation",
+      "difficulty": "Trung bình",
+      "label": "Dịch & Viết Việt → Anh (Trung bình — 10 đoạn)",
+      "file": "translation_intermediate.json",
+      "count": 10
+    },
+    {
+      "id": "translation_advanced",
+      "mode": "translation",
+      "difficulty": "Nâng cao",
+      "label": "Dịch & Viết Việt → Anh (Nâng cao — 10 đoạn)",
+      "file": "translation_advanced.json",
+      "count": 10
+    },
+    {
+      "id": "toeic_emails",
+      "mode": "toeic-email",
+      "label": "TOEIC Writing — Phản hồi Email Q6–7 (8 đề)",
+      "file": "toeic_emails.json",
+      "count": 8
+    },
+    {
+      "id": "opinion_summary",
+      "mode": "opinion",
+      "label": "Quan điểm & Tóm tắt — Q8 & Paraphrase (6 đề)",
+      "file": "opinion_summary.json",
+      "count": 6
+    }
+  ]
+}

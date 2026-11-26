@@ -1,0 +1,4847 @@
+{
+  "id": "toeic-ets",
+  "title": "Từ Vựng ETS TOEIC (Tần Suất Cao Đề Thật)",
+  "subtitle": "Tổng hợp những từ & bẫy paraphrase xuất hiện dày đặc trong bộ đề thi ETS 2022–2026.",
+  "category": "toeic",
+  "levelLabel": "B2 – C1",
+  "tags": [
+    "#b2",
+    "#c1",
+    "#toeic",
+    "#ets"
+  ],
+  "coverTheme": "toeic-ets",
+  "accentGradient": "from-violet-600 via-purple-600 to-fuchsia-600",
+  "badgeText": "ETS REAL TEST",
+  "words": [
+    {
+      "id": "ets-1",
+      "deckId": "toeic-ets",
+      "word": "streamline",
+      "pos": "v",
+      "ipaUK": "/ˈstriːm.laɪn/",
+      "ipaUS": "/ˈstriːm.laɪn/",
+      "meaning": "tinh gọn, hợp lý hóa (quy trình)",
+      "examples": [
+        {
+          "en": "Cloud accounting tools streamline monthly payroll approvals.",
+          "vi": "Công cụ kế toán đám mây tinh gọn quy trình duyệt lương hàng tháng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "streamlined",
+          "pos": "adj",
+          "meaning": "được tinh gọn"
+        }
+      ],
+      "synonyms": [
+        "simplify",
+        "optimize",
+        "modernize"
+      ],
+      "antonyms": [
+        "complicate"
+      ],
+      "collocations": [
+        {
+          "phrase": "streamline operations",
+          "meaning": "tinh gọn vận hành"
+        }
+      ],
+      "definitionEn": "To redesign a work process or system so it becomes simpler, faster, and more efficient.",
+      "definitionVi": "Thiết kế lại quy trình làm việc hoặc hệ thống trở nên tinh gọn, nhanh chóng và hiệu quả hơn.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-2",
+      "deckId": "toeic-ets",
+      "word": "tentative",
+      "pos": "adj",
+      "ipaUK": "/ˈten.tə.tɪv/",
+      "ipaUS": "/ˈten.t̬ə.t̬ɪv/",
+      "meaning": "dự kiến, tạm thời (chưa chốt)",
+      "examples": [
+        {
+          "en": "We scheduled a tentative launch for May 18 pending board approval.",
+          "vi": "Chúng tôi đặt lịch ra mắt dự kiến ngày 18/5 chờ hội đồng duyệt."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "tentatively",
+          "pos": "adv",
+          "meaning": "tạm thời, dự kiến"
+        }
+      ],
+      "synonyms": [
+        "provisional",
+        "preliminary",
+        "unconfirmed"
+      ],
+      "antonyms": [
+        "confirmed",
+        "final"
+      ],
+      "collocations": [
+        {
+          "phrase": "tentative schedule",
+          "meaning": "lịch trình dự kiến"
+        }
+      ],
+      "definitionEn": "Planned provisionally and not yet finalized, meaning the date or detail may still change.",
+      "definitionVi": "Được sắp xếp tạm thời theo dự kiến và chưa chốt chính thức, vẫn có thể thay đổi.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-3",
+      "deckId": "toeic-ets",
+      "word": "expedite",
+      "pos": "v",
+      "ipaUK": "/ˈek.spə.daɪt/",
+      "ipaUS": "/ˈek.spə.daɪt/",
+      "meaning": "xúc tiến, đẩy nhanh xử lý",
+      "examples": [
+        {
+          "en": "Submitting digital scans will expedite your customs clearance.",
+          "vi": "Nộp bản scan kỹ thuật số sẽ đẩy nhanh thủ tục thông quan của bạn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "expedited",
+          "pos": "adj",
+          "meaning": "hỏa tốc"
+        }
+      ],
+      "synonyms": [
+        "accelerate",
+        "speed up",
+        "hasten"
+      ],
+      "antonyms": [
+        "delay",
+        "postpone"
+      ],
+      "collocations": [
+        {
+          "phrase": "expedited shipping",
+          "meaning": "vận chuyển hỏa tốc"
+        }
+      ],
+      "definitionEn": "To make an official process, approval, or delivery happen faster than normal.",
+      "definitionVi": "Đẩy nhanh tiến độ xử lý của một quy trình, thủ tục phê duyệt hoặc chuyến giao hàng.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-4",
+      "deckId": "toeic-ets",
+      "word": "discrepancy",
+      "pos": "n",
+      "ipaUK": "/dɪˈskrep.ən.si/",
+      "ipaUS": "/dɪˈskrep.ən.si/",
+      "meaning": "sự chênh lệch, sai khác (hóa đơn/số liệu)",
+      "examples": [
+        {
+          "en": "Accounting spotted a $240 discrepancy on the quarterly ledger.",
+          "vi": "Phòng kế toán phát hiện chênh lệch 240 đô la trên sổ cái quý."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "inconsistency",
+        "mismatch",
+        "difference"
+      ],
+      "antonyms": [
+        "consistency"
+      ],
+      "collocations": [
+        {
+          "phrase": "billing discrepancy",
+          "meaning": "sai lệch hóa đơn"
+        }
+      ],
+      "definitionEn": "An unexpected difference or mismatch between two financial figures, records, or reports.",
+      "definitionVi": "Sự sai lệch hoặc không trùng khớp bất thường giữa hai con số tài chính, sổ sách hay báo cáo.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-5",
+      "deckId": "toeic-ets",
+      "word": "stringent",
+      "pos": "adj",
+      "ipaUK": "/ˈstrɪn.dʒənt/",
+      "ipaUS": "/ˈstrɪn.dʒənt/",
+      "meaning": "nghiêm ngặt, khắt khe",
+      "examples": [
+        {
+          "en": "Medical devices undergo stringent durability testing before export.",
+          "vi": "Thiết bị y tế trải qua kiểm định độ bền nghiêm ngặt trước khi xuất khẩu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "stringently",
+          "pos": "adv",
+          "meaning": "một cách nghiêm ngặt"
+        }
+      ],
+      "synonyms": [
+        "strict",
+        "rigorous",
+        "demanding"
+      ],
+      "antonyms": [
+        "lenient",
+        "lax"
+      ],
+      "collocations": [
+        {
+          "phrase": "stringent standards",
+          "meaning": "tiêu chuẩn khắt khe"
+        }
+      ],
+      "definitionEn": "Very strict, demanding, and carefully enforced—especially regarding rules or quality standards.",
+      "definitionVi": "Rất nghiêm ngặt, khắt khe và được áp dụng chặt chẽ — đặc biệt về quy định hay tiêu chuẩn chất lượng.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-6",
+      "deckId": "toeic-ets",
+      "word": "promptly",
+      "pos": "adv",
+      "ipaUK": "/ˈprɒmpt.li/",
+      "ipaUS": "/ˈprɑːmpt.li/",
+      "meaning": "đúng giờ, ngay lập tức",
+      "examples": [
+        {
+          "en": "The shuttle departs promptly at 7:15 A.M. from Gate 2.",
+          "vi": "Xe đưa đón khởi hành đúng 7:15 sáng từ Cổng 2."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "prompt",
+          "pos": "adj",
+          "meaning": "nhanh chóng, đúng giờ"
+        }
+      ],
+      "synonyms": [
+        "punctually",
+        "immediately",
+        "without delay"
+      ],
+      "antonyms": [
+        "belatedly"
+      ],
+      "collocations": [
+        {
+          "phrase": "begin promptly at",
+          "meaning": "bắt đầu đúng giờ lúc"
+        },
+        {
+          "phrase": "respond promptly",
+          "meaning": "phản hồi nhanh"
+        }
+      ],
+      "definitionEn": "Immediately, without unnecessary delay, or at the exact scheduled time.",
+      "definitionVi": "Ngay lập tức không chậm trễ, hoặc đúng chính xác thời gian đã định.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-7",
+      "deckId": "toeic-ets",
+      "word": "adjacent",
+      "pos": "adj",
+      "ipaUK": "/əˈdʒeɪ.sənt/",
+      "ipaUS": "/əˈdʒeɪ.sənt/",
+      "meaning": "liền kề, ngay kế bên (đi với to)",
+      "examples": [
+        {
+          "en": "Visitor parking is located in the garage adjacent to Building C.",
+          "vi": "Bãi đỗ xe khách nằm tại nhà xe liền kề Tòa nhà C."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "next to",
+        "adjoining",
+        "neighboring",
+        "abutting",
+        "contiguous"
+      ],
+      "antonyms": [
+        "distant",
+        "remote"
+      ],
+      "collocations": [
+        {
+          "phrase": "adjacent to",
+          "meaning": "nằm ngay sát bên"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/adjacent-us.mp3",
+      "definitionEn": "Located right next to or immediately adjoining another building, room, or area.",
+      "definitionVi": "Nằm ngay sát bên cạnh hoặc tiếp giáp trực tiếp với tòa nhà, căn phòng hay khu vực khác.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-8",
+      "deckId": "toeic-ets",
+      "word": "contingent",
+      "pos": "adj",
+      "ipaUK": "/kənˈtɪn.dʒənt/",
+      "ipaUS": "/kənˈtɪn.dʒənt/",
+      "meaning": "tùy thuộc vào (đi với on/upon)",
+      "examples": [
+        {
+          "en": "The job offer is contingent upon passing a background check.",
+          "vi": "Thư mời nhận việc tùy thuộc vào việc vượt qua kiểm tra lý lịch."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "contingency",
+          "pos": "n",
+          "meaning": "phương án dự phòng"
+        }
+      ],
+      "synonyms": [
+        "dependent on",
+        "conditional on",
+        "subject to"
+      ],
+      "antonyms": [
+        "unconditional"
+      ],
+      "collocations": [
+        {
+          "phrase": "contingent upon",
+          "meaning": "phụ thuộc vào"
+        },
+        {
+          "phrase": "contingency plan",
+          "meaning": "kế hoạch dự phòng"
+        }
+      ],
+      "definitionEn": "Dependent on a particular future event, vote, or condition being fulfilled first.",
+      "definitionVi": "Phụ thuộc vào việc một sự kiện, cuộc bỏ phiếu hoặc điều kiện cụ thể được đáp ứng trước.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-9",
+      "deckId": "toeic-ets",
+      "word": "waive",
+      "pos": "v",
+      "ipaUK": "/weɪv/",
+      "ipaUS": "/weɪv/",
+      "meaning": "miễn trừ (phí, điều kiện)",
+      "examples": [
+        {
+          "en": "The vendor agreed to waive the restocking fee on our return.",
+          "vi": "Nhà cung cấp đồng ý miễn phí nhập kho lại cho đơn trả hàng của chúng tôi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "waiver",
+          "pos": "n",
+          "meaning": "giấy miễn trừ"
+        }
+      ],
+      "synonyms": [
+        "forgo",
+        "exempt",
+        "drop"
+      ],
+      "antonyms": [
+        "impose",
+        "charge"
+      ],
+      "collocations": [
+        {
+          "phrase": "waive a fee",
+          "meaning": "miễn khoản phí"
+        }
+      ],
+      "definitionEn": "To officially agree not to charge a fee or not to enforce a specific rule or requirement.",
+      "definitionVi": "Chính thức đồng ý miễn một khoản phí hoặc không áp dụng một điều kiện/quy định nào đó.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-10",
+      "deckId": "toeic-ets",
+      "word": "designated",
+      "pos": "adj",
+      "ipaUK": "/ˈdez.ɪɡ.neɪ.tɪd/",
+      "ipaUS": "/ˈdez.ɪɡ.neɪ.t̬ɪd/",
+      "meaning": "được chỉ định riêng",
+      "examples": [
+        {
+          "en": "Couriers must park only in the designated loading bay.",
+          "vi": "Nhân viên giao hàng chỉ được đỗ tại khu vực bốc dỡ được chỉ định."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "designate",
+          "pos": "v",
+          "meaning": "chỉ định"
+        },
+        {
+          "word": "designation",
+          "pos": "n",
+          "meaning": "chức danh"
+        }
+      ],
+      "synonyms": [
+        "assigned",
+        "appointed",
+        "specified"
+      ],
+      "antonyms": [
+        "unassigned"
+      ],
+      "collocations": [
+        {
+          "phrase": "designated zone",
+          "meaning": "khu vực được chỉ định"
+        }
+      ],
+      "definitionEn": "Officially chosen, marked, or set aside for one specific purpose or person.",
+      "definitionVi": "Được chính thức chỉ định, đánh dấu hoặc dành riêng cho một mục đích hay cá nhân cụ thể.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-11",
+      "deckId": "toeic-ets",
+      "word": "correspondence",
+      "pos": "n",
+      "ipaUK": "/ˌkɒr.ɪˈspɒn.dəns/",
+      "ipaUS": "/ˌkɔːr.əˈspɑːn.dəns/",
+      "meaning": "thư từ trao đổi (email, công văn)",
+      "examples": [
+        {
+          "en": "Please quote your case ID in all written correspondence.",
+          "vi": "Vui lòng trích dẫn mã hồ sơ trong mọi thư từ trao đổi bằng văn bản."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "correspond",
+          "pos": "v",
+          "meaning": "trao đổi thư; tương ứng"
+        },
+        {
+          "word": "corresponding",
+          "pos": "adj",
+          "meaning": "tương ứng"
+        }
+      ],
+      "synonyms": [
+        "mail",
+        "communication"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "business correspondence",
+          "meaning": "thư tín thương mại"
+        }
+      ],
+      "definitionEn": "Official letters, emails, or written messages exchanged between businesses or individuals.",
+      "definitionVi": "Thư từ, email hoặc công văn trao đổi qua lại giữa doanh nghiệp và đối tác/khách hàng.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-12",
+      "deckId": "toeic-ets",
+      "word": "exceed",
+      "pos": "v",
+      "ipaUK": "/ɪkˈsiːd/",
+      "ipaUS": "/ɪkˈsiːd/",
+      "meaning": "vượt quá (dự báo, giới hạn)",
+      "examples": [
+        {
+          "en": "Quarterly sign-ups are expected to exceed our target by 20%.",
+          "vi": "Lượt đăng ký hàng quý dự kiến sẽ vượt mục tiêu của chúng tôi 20%."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "excessive",
+          "pos": "adj",
+          "meaning": "quá mức"
+        },
+        {
+          "word": "exceedingly",
+          "pos": "adv",
+          "meaning": "cực kỳ"
+        }
+      ],
+      "synonyms": [
+        "surpass",
+        "outperform",
+        "go beyond"
+      ],
+      "antonyms": [
+        "fall short of"
+      ],
+      "collocations": [
+        {
+          "phrase": "exceed expectations",
+          "meaning": "vượt kỳ vọng"
+        }
+      ],
+      "definitionEn": "To go beyond a target number, budget limit, legal maximum, or expectation.",
+      "definitionVi": "Vượt lên trên con số mục tiêu, hạn mức ngân sách, giới hạn quy định hoặc kỳ vọng.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-13",
+      "deckId": "toeic-ets",
+      "word": "substantial",
+      "pos": "adj",
+      "ipaUK": "/səbˈstæn.ʃəl/",
+      "ipaUS": "/səbˈstæn.ʃəl/",
+      "meaning": "đáng kể, lớn lao",
+      "examples": [
+        {
+          "en": "Bulk ordering yielded a substantial reduction in unit cost.",
+          "vi": "Đặt hàng số lượng lớn mang lại mức giảm đáng kể về đơn giá."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "substantially",
+          "pos": "adv",
+          "meaning": "một cách đáng kể"
+        }
+      ],
+      "synonyms": [
+        "significant",
+        "considerable",
+        "sizable"
+      ],
+      "antonyms": [
+        "minor",
+        "negligible"
+      ],
+      "collocations": [
+        {
+          "phrase": "substantial savings",
+          "meaning": "khoản tiết kiệm đáng kể"
+        }
+      ],
+      "definitionEn": "Large in size, value, amount, or importance enough to make a noticeable difference.",
+      "definitionVi": "Đáng kể về quy mô, giá trị, số lượng hoặc tầm quan trọng đủ tạo ra khác biệt rõ rệt.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-14",
+      "deckId": "toeic-ets",
+      "word": "authorize",
+      "pos": "v",
+      "ipaUK": "/ˈɔː.θə.raɪz/",
+      "ipaUS": "/ˈɑː.θə.raɪz/",
+      "meaning": "ủy quyền, cấp phép chính thức",
+      "examples": [
+        {
+          "en": "Only finance officers can authorize checks over $5,000.",
+          "vi": "Chỉ cán bộ tài chính mới có thể ủy quyền ký séc trên 5.000 đô la."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "authorization",
+          "pos": "n",
+          "meaning": "giấy ủy quyền"
+        },
+        {
+          "word": "authorized",
+          "pos": "adj",
+          "meaning": "được ủy quyền"
+        }
+      ],
+      "synonyms": [
+        "approve",
+        "permit",
+        "sanction"
+      ],
+      "antonyms": [
+        "prohibit",
+        "deny"
+      ],
+      "collocations": [
+        {
+          "phrase": "authorized dealer",
+          "meaning": "đại lý ủy quyền chính thức"
+        }
+      ],
+      "definitionEn": "To give official legal or managerial permission for a payment, purchase, or action.",
+      "definitionVi": "Cấp quyền hợp pháp hoặc sự cho phép chính thức của quản lý cho một giao dịch hay hành động.",
+      "topicId": "ets-operations"
+    },
+    {
+      "id": "ets-15",
+      "deckId": "toeic-ets",
+      "word": "outage",
+      "pos": "n",
+      "ipaUK": "/ˈaʊ.tɪdʒ/",
+      "ipaUS": "/ˈaʊ.t̬ɪdʒ/",
+      "meaning": "sự cố mất điện / gián đoạn mạng",
+      "examples": [
+        {
+          "en": "A brief network outage paused online bookings for ten minutes.",
+          "vi": "Sự cố gián đoạn mạng ngắn đã tạm dừng đặt chỗ trực tuyến trong mười phút."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "blackout",
+        "disruption",
+        "downtime"
+      ],
+      "antonyms": [
+        "restoration"
+      ],
+      "collocations": [
+        {
+          "phrase": "power outage",
+          "meaning": "sự cố mất điện"
+        }
+      ],
+      "definitionEn": "A temporary period during which electricity, internet, or a digital service stops working.",
+      "definitionVi": "Khoảng thời gian tạm ngắt mà điện lưới, mạng internet hoặc dịch vụ số ngừng hoạt động.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-16",
+      "deckId": "toeic-ets",
+      "word": "prospective",
+      "pos": "adj",
+      "ipaUK": "/prəˈspek.tɪv/",
+      "ipaUS": "/prəˈspek.tɪv/",
+      "meaning": "tiềm năng, triển vọng",
+      "examples": [
+        {
+          "en": "The trade booth attracted dozens of prospective wholesale buyers.",
+          "vi": "Gian hàng hội chợ đã thu hút hàng chục người mua sỉ tiềm năng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "prospect",
+          "pos": "n",
+          "meaning": "triển vọng, khách tiềm năng"
+        }
+      ],
+      "synonyms": [
+        "potential",
+        "future",
+        "likely"
+      ],
+      "antonyms": [
+        "current",
+        "former"
+      ],
+      "collocations": [
+        {
+          "phrase": "prospective client",
+          "meaning": "khách hàng tiềm năng"
+        }
+      ],
+      "definitionEn": "Likely or expected to become a customer, employee, or business partner in the near future.",
+      "definitionVi": "Có tiềm năng và triển vọng trở thành khách hàng, nhân viên hoặc đối tác trong tương lai gần.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-17",
+      "deckId": "toeic-ets",
+      "word": "fluctuate",
+      "pos": "v",
+      "ipaUK": "/ˈflʌk.tʃu.eɪt/",
+      "ipaUS": "/ˈflʌk.tʃu.eɪt/",
+      "meaning": "dao động, biến động lên xuống",
+      "examples": [
+        {
+          "en": "Airfares fluctuate sharply around national holidays.",
+          "vi": "Giá vé máy bay biến động mạnh vào các dịp lễ quốc gia."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "fluctuation",
+          "pos": "n",
+          "meaning": "sự biến động"
+        }
+      ],
+      "synonyms": [
+        "vary",
+        "shift",
+        "oscillate"
+      ],
+      "antonyms": [
+        "stabilize"
+      ],
+      "collocations": [
+        {
+          "phrase": "price fluctuations",
+          "meaning": "biến động giá cả"
+        }
+      ],
+      "definitionEn": "To rise and fall irregularly in price, amount, or level over a period of time.",
+      "definitionVi": "Tăng giảm dao động thất thường về giá cả, số lượng hoặc mức độ theo thời gian.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-18",
+      "deckId": "toeic-ets",
+      "word": "comprehensive",
+      "pos": "adj",
+      "ipaUK": "/ˌkɒm.prɪˈhen.sɪv/",
+      "ipaUS": "/ˌkɑːm.prəˈhen.sɪv/",
+      "meaning": "toàn diện, bao quát đầy đủ",
+      "examples": [
+        {
+          "en": "Every new hire receives a comprehensive benefits handbook.",
+          "vi": "Mỗi nhân viên mới nhận một cuốn sổ tay phúc lợi toàn diện."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "comprehensively",
+          "pos": "adv",
+          "meaning": "toàn diện"
+        }
+      ],
+      "synonyms": [
+        "thorough",
+        "complete",
+        "exhaustive"
+      ],
+      "antonyms": [
+        "partial",
+        "incomplete"
+      ],
+      "collocations": [
+        {
+          "phrase": "comprehensive report",
+          "meaning": "báo cáo toàn diện"
+        }
+      ],
+      "definitionEn": "Complete and thorough, covering almost every relevant detail or aspect of a topic.",
+      "definitionVi": "Toàn diện và kỹ lưỡng, bao quát hầu như mọi chi tiết hay khía cạnh liên quan.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-19",
+      "deckId": "toeic-ets",
+      "word": "lucrative",
+      "pos": "adj",
+      "ipaUK": "/ˈluː.krə.tɪv/",
+      "ipaUS": "/ˈluː.krə.t̬ɪv/",
+      "meaning": "sinh lời cao, béo bở",
+      "examples": [
+        {
+          "en": "The startup signed a lucrative licensing deal in Japan.",
+          "vi": "Startup đã ký một thỏa thuận cấp phép đầy lợi nhuận tại Nhật Bản."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "profitable",
+        "remunerative"
+      ],
+      "antonyms": [
+        "unprofitable"
+      ],
+      "collocations": [
+        {
+          "phrase": "lucrative contract",
+          "meaning": "hợp đồng béo bở"
+        }
+      ],
+      "definitionEn": "Generating a large amount of profit or financial reward.",
+      "definitionVi": "Mang lại nguồn lợi nhuận lớn hoặc giá trị tài chính cao.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-20",
+      "deckId": "toeic-ets",
+      "word": "commence",
+      "pos": "v",
+      "ipaUK": "/kəˈmens/",
+      "ipaUS": "/kəˈmens/",
+      "meaning": "bắt đầu, khởi công (trang trọng)",
+      "examples": [
+        {
+          "en": "Bridge reinforcement work will commence at dawn on Monday.",
+          "vi": "Công tác gia cố cầu sẽ khởi công vào rạng sáng thứ Hai."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "commencement",
+          "pos": "n",
+          "meaning": "sự khởi đầu; lễ tốt nghiệp"
+        }
+      ],
+      "synonyms": [
+        "begin",
+        "start",
+        "launch"
+      ],
+      "antonyms": [
+        "conclude",
+        "terminate"
+      ],
+      "collocations": [
+        {
+          "phrase": "commence operations",
+          "meaning": "bắt đầu vận hành"
+        }
+      ],
+      "definitionEn": "To begin or officially start an operation, construction project, or formal ceremony.",
+      "definitionVi": "Bắt đầu hoặc chính thức khởi công một hoạt động, dự án xây dựng hay buổi lễ.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-21",
+      "deckId": "toeic-ets",
+      "word": "consolidate",
+      "pos": "v",
+      "ipaUK": "/kənˈsɒl.ɪ.deɪt/",
+      "ipaUS": "/kənˈsɑː.lə.deɪt/",
+      "meaning": "hợp nhất, củng cố (kho bãi, tài khoản)",
+      "examples": [
+        {
+          "en": "We plan to consolidate three regional offices into one modern campus.",
+          "vi": "Chúng tôi dự định hợp nhất ba văn phòng khu vực thành một khuôn viên hiện đại."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "consolidation",
+          "pos": "n",
+          "meaning": "sự hợp nhất"
+        }
+      ],
+      "synonyms": [
+        "merge",
+        "combine",
+        "unify"
+      ],
+      "antonyms": [
+        "split",
+        "separate"
+      ],
+      "collocations": [
+        {
+          "phrase": "consolidate shipments",
+          "meaning": "gộp các lô hàng"
+        }
+      ],
+      "definitionEn": "To merge (also similar to combine, unify) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hợp nhất, củng cố (kho bãi, tài khoản).",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-22",
+      "deckId": "toeic-ets",
+      "word": "compliance",
+      "pos": "n",
+      "ipaUK": "/kəmˈplaɪ.əns/",
+      "ipaUS": "/kəmˈplaɪ.əns/",
+      "meaning": "sự tuân thủ (luật, tiêu chuẩn — đi với with)",
+      "examples": [
+        {
+          "en": "All suppliers operate in full compliance with labor standards.",
+          "vi": "Mọi nhà cung cấp hoạt động tuân thủ đầy đủ tiêu chuẩn lao động."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "comply",
+          "pos": "v",
+          "meaning": "tuân thủ"
+        },
+        {
+          "word": "compliant",
+          "pos": "adj",
+          "meaning": "tuân thủ"
+        }
+      ],
+      "synonyms": [
+        "adherence",
+        "conformity"
+      ],
+      "antonyms": [
+        "violation",
+        "noncompliance"
+      ],
+      "collocations": [
+        {
+          "phrase": "in compliance with",
+          "meaning": "tuân thủ theo"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to adherence, conformity.",
+      "definitionVi": "Danh từ dùng để chỉ sự tuân thủ (luật, tiêu chuẩn — đi với with).",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-23",
+      "deckId": "toeic-ets",
+      "word": "relocate",
+      "pos": "v",
+      "ipaUK": "/ˌriː.ləʊˈkeɪt/",
+      "ipaUS": "/ˌriːˈloʊ.keɪt/",
+      "meaning": "di dời, chuyển địa điểm",
+      "examples": [
+        {
+          "en": "The design studio will relocate to a brighter warehouse loft downtown.",
+          "vi": "Studio thiết kế sẽ chuyển sang tầng gác kho sáng sủa hơn ở trung tâm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "relocation",
+          "pos": "n",
+          "meaning": "sự chuyển địa điểm"
+        }
+      ],
+      "synonyms": [
+        "move",
+        "transfer",
+        "shift"
+      ],
+      "antonyms": [
+        "remain"
+      ],
+      "collocations": [
+        {
+          "phrase": "relocate headquarters",
+          "meaning": "chuyển trụ sở chính"
+        }
+      ],
+      "definitionEn": "To move (also similar to transfer, shift) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động di dời, chuyển địa điểm.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-24",
+      "deckId": "toeic-ets",
+      "word": "remodel",
+      "pos": "v",
+      "ipaUK": "/ˌriːˈmɒd.əl/",
+      "ipaUS": "/ˌriːˈmɑː.dəl/",
+      "meaning": "cải tạo, thiết kế lại kiến trúc",
+      "examples": [
+        {
+          "en": "The bakery closed for ten days to remodel its dining area.",
+          "vi": "Tiệm bánh đóng cửa mười ngày để thiết kế lại khu vực ăn uống."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "remodeling",
+          "pos": "n",
+          "meaning": "việc cải tạo"
+        }
+      ],
+      "synonyms": [
+        "renovate",
+        "refurbish",
+        "redesign"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "remodel a kitchen",
+          "meaning": "cải tạo nhà bếp"
+        }
+      ],
+      "definitionEn": "To renovate (also similar to refurbish, redesign) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cải tạo, thiết kế lại kiến trúc.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-25",
+      "deckId": "toeic-ets",
+      "word": "refurbish",
+      "pos": "v",
+      "ipaUK": "/ˌriːˈfɜː.bɪʃ/",
+      "ipaUS": "/ˌriːˈfɝː.bɪʃ/",
+      "meaning": "tân trang lại như mới (nội thất, thiết bị)",
+      "examples": [
+        {
+          "en": "Technicians will refurbish returned laptops to factory standards.",
+          "vi": "Kỹ thuật viên sẽ tân trang lại các laptop hoàn trả về chuẩn nhà máy."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "refurbished",
+          "pos": "adj",
+          "meaning": "đã được tân trang"
+        }
+      ],
+      "synonyms": [
+        "renovate",
+        "restore",
+        "renew"
+      ],
+      "antonyms": [
+        "deteriorate"
+      ],
+      "collocations": [
+        {
+          "phrase": "refurbished equipment",
+          "meaning": "thiết bị tân trang"
+        }
+      ],
+      "definitionEn": "To renovate (also similar to restore, renew) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tân trang lại như mới (nội thất, thiết bị).",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-26",
+      "deckId": "toeic-ets",
+      "word": "unanimous",
+      "pos": "adj",
+      "ipaUK": "/juːˈnæn.ɪ.məs/",
+      "ipaUS": "/juːˈnæn.ə.məs/",
+      "meaning": "nhất trí hoàn toàn (100% phiếu)",
+      "examples": [
+        {
+          "en": "The board reached a unanimous decision to expand paid leave.",
+          "vi": "Hội đồng quản trị đã nhất trí hoàn toàn quyết định tăng ngày nghỉ có lương."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "unanimously",
+          "pos": "adv",
+          "meaning": "nhất trí 100%"
+        }
+      ],
+      "synonyms": [
+        "united",
+        "agreed",
+        "in full accord"
+      ],
+      "antonyms": [
+        "divided",
+        "split"
+      ],
+      "collocations": [
+        {
+          "phrase": "unanimous approval",
+          "meaning": "sự phê duyệt nhất trí tuyệt đối"
+        }
+      ],
+      "definitionEn": "Having the quality of being united, agreed, in full accord.",
+      "definitionVi": "Tính từ mô tả đặc điểm nhất trí hoàn toàn (100% phiếu).",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-27",
+      "deckId": "toeic-ets",
+      "word": "preliminary",
+      "pos": "adj",
+      "ipaUK": "/prɪˈlɪm.ɪ.nər.i/",
+      "ipaUS": "/prɪˈlɪm.ə.ner.i/",
+      "meaning": "sơ bộ, ban đầu",
+      "examples": [
+        {
+          "en": "Preliminary figures indicate a 14% rise in weekend visitors.",
+          "vi": "Số liệu sơ bộ cho thấy lượng khách cuối tuần tăng 14%."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "initial",
+        "introductory",
+        "tentative"
+      ],
+      "antonyms": [
+        "final",
+        "conclusive"
+      ],
+      "collocations": [
+        {
+          "phrase": "preliminary findings",
+          "meaning": "kết quả sơ bộ"
+        }
+      ],
+      "definitionEn": "Having the quality of being initial, introductory, tentative.",
+      "definitionVi": "Tính từ mô tả đặc điểm sơ bộ, ban đầu.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-28",
+      "deckId": "toeic-ets",
+      "word": "consecutive",
+      "pos": "adj",
+      "ipaUK": "/kənˈsek.jʊ.tɪv/",
+      "ipaUS": "/kənˈsek.jə.t̬ɪv/",
+      "meaning": "liên tiếp, liền kề nhau",
+      "examples": [
+        {
+          "en": "Our store won the service excellence award for five consecutive years.",
+          "vi": "Cửa hàng chúng tôi thắng giải dịch vụ xuất sắc suốt năm năm liên tiếp."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "consecutively",
+          "pos": "adv",
+          "meaning": "liên tiếp"
+        }
+      ],
+      "synonyms": [
+        "successive",
+        "back-to-back",
+        "in a row"
+      ],
+      "antonyms": [
+        "intermittent"
+      ],
+      "collocations": [
+        {
+          "phrase": "consecutive quarters",
+          "meaning": "các quý liên tiếp"
+        }
+      ],
+      "definitionEn": "Having the quality of being successive, back-to-back, in a row.",
+      "definitionVi": "Tính từ mô tả đặc điểm liên tiếp, liền kề nhau.",
+      "topicId": "ets-compliance"
+    },
+    {
+      "id": "ets-29",
+      "deckId": "toeic-ets",
+      "word": "redundant",
+      "pos": "adj",
+      "ipaUK": "/rɪˈdʌn.dənt/",
+      "ipaUS": "/rɪˈdʌn.dənt/",
+      "meaning": "dư thừa, không cần thiết (hoặc bị cắt giảm nhân sự)",
+      "examples": [
+        {
+          "en": "The new CRM eliminates redundant manual entry across departments.",
+          "vi": "Hệ thống CRM mới loại bỏ việc nhập liệu thủ công trùng lặp giữa các phòng ban."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "redundancy",
+          "pos": "n",
+          "meaning": "sự dư thừa"
+        }
+      ],
+      "synonyms": [
+        "superfluous",
+        "unnecessary",
+        "repetitive"
+      ],
+      "antonyms": [
+        "essential",
+        "necessary"
+      ],
+      "collocations": [
+        {
+          "phrase": "eliminate redundant steps",
+          "meaning": "loại bỏ các bước thừa"
+        }
+      ],
+      "definitionEn": "Having the quality of being superfluous, unnecessary, repetitive.",
+      "definitionVi": "Tính từ mô tả đặc điểm dư thừa, không cần thiết (hoặc bị cắt giảm nhân sự).",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-30",
+      "deckId": "toeic-ets",
+      "word": "deliberate",
+      "pos": "adj",
+      "ipaUK": "/dɪˈlɪb.ər.ət/",
+      "ipaUS": "/dɪˈlɪb.ɚ.ət/",
+      "meaning": "có chủ đích, thận trọng cân nhắc",
+      "examples": [
+        {
+          "en": "We took a deliberate approach to entering European markets.",
+          "vi": "Chúng tôi áp dụng cách tiếp cận thận trọng khi gia nhập thị trường châu Âu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "deliberately",
+          "pos": "adv",
+          "meaning": "cố ý, thận trọng"
+        }
+      ],
+      "synonyms": [
+        "intentional",
+        "careful",
+        "calculated"
+      ],
+      "antonyms": [
+        "accidental",
+        "hasty"
+      ],
+      "collocations": [
+        {
+          "phrase": "deliberate decision",
+          "meaning": "quyết định cân nhắc kỹ"
+        }
+      ],
+      "definitionEn": "Having the quality of being intentional, careful, calculated.",
+      "definitionVi": "Tính từ mô tả đặc điểm có chủ đích, thận trọng cân nhắc.",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-31",
+      "deckId": "toeic-ets",
+      "word": "solely",
+      "pos": "adv",
+      "ipaUK": "/ˈsəʊl.li/",
+      "ipaUS": "/ˈsoʊl.li/",
+      "meaning": "duy nhất, chỉ riêng",
+      "examples": [
+        {
+          "en": "Access to the rooftop garden is reserved solely for building tenants.",
+          "vi": "Lối lên vườn sân thượng chỉ dành riêng cho cư dân tòa nhà."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "sole",
+          "pos": "adj",
+          "meaning": "duy nhất"
+        }
+      ],
+      "synonyms": [
+        "exclusively",
+        "only",
+        "entirely"
+      ],
+      "antonyms": [
+        "jointly"
+      ],
+      "collocations": [
+        {
+          "phrase": "solely responsible for",
+          "meaning": "chịu trách nhiệm duy nhất về"
+        }
+      ],
+      "definitionEn": "In a way that is exclusively, only, entirely.",
+      "definitionVi": "Trạng từ diễn tả cách thức/mức độ duy nhất, chỉ riêng.",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-32",
+      "deckId": "toeic-ets",
+      "word": "exclusively",
+      "pos": "adv",
+      "ipaUK": "/ɪkˈskluː.sɪv.li/",
+      "ipaUS": "/ɪkˈskluː.sɪv.li/",
+      "meaning": "độc quyền, chỉ dành riêng cho",
+      "examples": [
+        {
+          "en": "These leather bags are sold exclusively through our online boutique.",
+          "vi": "Những chiếc túi da này được bán độc quyền trên cửa hàng trực tuyến của chúng tôi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "exclusive",
+          "pos": "adj",
+          "meaning": "độc quyền, cao cấp"
+        }
+      ],
+      "synonyms": [
+        "solely",
+        "uniquely"
+      ],
+      "antonyms": [
+        "widely"
+      ],
+      "collocations": [
+        {
+          "phrase": "exclusive rights",
+          "meaning": "quyền độc quyền"
+        }
+      ],
+      "definitionEn": "In a way that is solely, uniquely.",
+      "definitionVi": "Trạng từ diễn tả cách thức/mức độ độc quyền, chỉ dành riêng cho.",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-33",
+      "deckId": "toeic-ets",
+      "word": "overdue",
+      "pos": "adj",
+      "ipaUK": "/ˌəʊ.vəˈdʒuː/",
+      "ipaUS": "/ˌoʊ.vɚˈduː/",
+      "meaning": "quá hạn (thanh toán, bảo trì, chuyến bay)",
+      "examples": [
+        {
+          "en": "Automated reminders are sent whenever an account is seven days overdue.",
+          "vi": "Lời nhắc tự động được gửi bất cứ khi nào tài khoản quá hạn bảy ngày."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "late",
+        "past due",
+        "delayed"
+      ],
+      "antonyms": [
+        "on time",
+        "early"
+      ],
+      "collocations": [
+        {
+          "phrase": "overdue invoice",
+          "meaning": "hóa đơn quá hạn"
+        }
+      ],
+      "definitionEn": "Having the quality of being late, past due, delayed.",
+      "definitionVi": "Tính từ mô tả đặc điểm quá hạn (thanh toán, bảo trì, chuyến bay).",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-34",
+      "deckId": "toeic-ets",
+      "word": "remit",
+      "pos": "v",
+      "ipaUK": "/rɪˈmɪt/",
+      "ipaUS": "/rɪˈmɪt/",
+      "meaning": "chuyển tiền thanh toán (hóa đơn)",
+      "examples": [
+        {
+          "en": "Please remit payment within thirty calendar days of receipt.",
+          "vi": "Vui lòng chuyển tiền thanh toán trong vòng ba mươi ngày kể từ khi nhận hóa đơn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "remittance",
+          "pos": "n",
+          "meaning": "khoản tiền chuyển"
+        }
+      ],
+      "synonyms": [
+        "pay",
+        "send payment",
+        "settle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "remit payment",
+          "meaning": "chuyển khoản thanh toán"
+        }
+      ],
+      "definitionEn": "To pay (also similar to send payment, settle) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động chuyển tiền thanh toán (hóa đơn).",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-35",
+      "deckId": "toeic-ets",
+      "word": "reimburse",
+      "pos": "v",
+      "ipaUK": "/ˌriː.ɪmˈbɜːs/",
+      "ipaUS": "/ˌriː.ɪmˈbɝːs/",
+      "meaning": "bồi hoàn chi phí",
+      "examples": [
+        {
+          "en": "The company will reimburse staff for approved hotel and meal receipts.",
+          "vi": "Công ty sẽ hoàn trả cho nhân viên các hóa đơn khách sạn và ăn uống được duyệt."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "reimbursement",
+          "pos": "n",
+          "meaning": "sự bồi hoàn"
+        }
+      ],
+      "synonyms": [
+        "repay",
+        "refund"
+      ],
+      "antonyms": [
+        "charge"
+      ],
+      "collocations": [
+        {
+          "phrase": "full reimbursement",
+          "meaning": "hoàn trả toàn bộ"
+        }
+      ],
+      "definitionEn": "To pay money back to an employee or customer for approved expenses they paid out of pocket.",
+      "definitionVi": "Hoàn trả lại tiền cho nhân viên hoặc khách hàng đối với các khoản chi phí hợp lệ họ đã ứng trước.",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-36",
+      "deckId": "toeic-ets",
+      "word": "liaise",
+      "pos": "v",
+      "ipaUK": "/liˈeɪz/",
+      "ipaUS": "/liˈeɪz/",
+      "meaning": "liên lạc, phối hợp làm đầu mối (đi với with)",
+      "examples": [
+        {
+          "en": "The coordinator must liaise closely with overseas manufacturers.",
+          "vi": "Điều phối viên phải liên hệ chặt chẽ với các nhà sản xuất nước ngoài."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "liaison",
+          "pos": "n",
+          "meaning": "người liên lạc đầu mối"
+        }
+      ],
+      "synonyms": [
+        "communicate",
+        "coordinate",
+        "interface"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "liaise with clients",
+          "meaning": "làm đầu mối phối hợp với khách hàng"
+        }
+      ],
+      "definitionEn": "To communicate (also similar to coordinate, interface) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động liên lạc, phối hợp làm đầu mối (đi với with).",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-37",
+      "deckId": "toeic-ets",
+      "word": "calibrate",
+      "pos": "v",
+      "ipaUK": "/ˈkæl.ɪ.breɪt/",
+      "ipaUS": "/ˈkæl.ə.breɪt/",
+      "meaning": "hiệu chuẩn (máy móc, cảm biến đo lường)",
+      "examples": [
+        {
+          "en": "Lab technicians calibrate the precision scales every Monday.",
+          "vi": "Kỹ thuật viên phòng thí nghiệm hiệu chuẩn cân chính xác mỗi sáng thứ Hai."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "calibration",
+          "pos": "n",
+          "meaning": "sự hiệu chuẩn"
+        }
+      ],
+      "synonyms": [
+        "adjust",
+        "fine-tune",
+        "standardize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "calibrate instruments",
+          "meaning": "hiệu chuẩn thiết bị đo"
+        }
+      ],
+      "definitionEn": "To adjust (also similar to fine-tune, standardize) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hiệu chuẩn (máy móc, cảm biến đo lường).",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-38",
+      "deckId": "toeic-ets",
+      "word": "backordered",
+      "pos": "adj",
+      "ipaUK": "/ˈbækˌɔː.dəd/",
+      "ipaUS": "/ˈbækˌɔːr.dɚd/",
+      "meaning": "tạm hết hàng, đang chờ nhập giao sau",
+      "examples": [
+        {
+          "en": "Two popular ceramic tile patterns are currently backordered until June.",
+          "vi": "Hai mẫu gạch gốm bán chạy hiện đang tạm hết hàng chờ đến tháng Sáu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "backorder",
+          "pos": "n",
+          "meaning": "đơn đặt chờ hàng"
+        }
+      ],
+      "synonyms": [
+        "out of stock",
+        "pending restock"
+      ],
+      "antonyms": [
+        "in stock"
+      ],
+      "collocations": [
+        {
+          "phrase": "item on backorder",
+          "meaning": "mặt hàng đang đặt chờ"
+        }
+      ],
+      "definitionEn": "Having the quality of being out of stock, pending restock.",
+      "definitionVi": "Tính từ mô tả đặc điểm tạm hết hàng, đang chờ nhập giao sau.",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-39",
+      "deckId": "toeic-ets",
+      "word": "malfunction",
+      "pos": "n",
+      "ipaUK": "/ˌmælˈfʌŋk.ʃən/",
+      "ipaUS": "/ˌmælˈfʌŋk.ʃən/",
+      "meaning": "sự cố trục trặc kỹ thuật của máy",
+      "examples": [
+        {
+          "en": "A conveyor sensor malfunction briefly halted the packaging line.",
+          "vi": "Lỗi cảm biến băng chuyền đã tạm dừng dây chuyền đóng gói trong chốc lát."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "breakdown",
+        "glitch",
+        "failure"
+      ],
+      "antonyms": [
+        "smooth operation"
+      ],
+      "collocations": [
+        {
+          "phrase": "mechanical malfunction",
+          "meaning": "trục trặc cơ khí"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to breakdown, glitch, failure.",
+      "definitionVi": "Danh từ dùng để chỉ sự cố trục trặc kỹ thuật của máy.",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-40",
+      "deckId": "toeic-ets",
+      "word": "patron",
+      "pos": "n",
+      "ipaUK": "/ˈpeɪ.trən/",
+      "ipaUS": "/ˈpeɪ.trən/",
+      "meaning": "khách hàng quen (nhà hàng, thư viện, bảo tàng)",
+      "examples": [
+        {
+          "en": "Every museum patron receives an invitation to the autumn preview.",
+          "vi": "Mỗi khách quen của bảo tàng đều nhận thiệp mời dự buổi xem trước mùa thu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "patronage",
+          "pos": "n",
+          "meaning": "sự ủng hộ của khách hàng"
+        }
+      ],
+      "synonyms": [
+        "customer",
+        "client",
+        "visitor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "thank you for your patronage",
+          "meaning": "cảm ơn sự ủng hộ của quý khách"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to customer, client, visitor.",
+      "definitionVi": "Danh từ dùng để chỉ khách hàng quen (nhà hàng, thư viện, bảo tàng).",
+      "topicId": "ets-precision"
+    },
+    {
+      "id": "ets-41",
+      "deckId": "toeic-ets",
+      "word": "beverage",
+      "pos": "n",
+      "ipaUK": "/ˈbev.ər.ɪdʒ/",
+      "ipaUS": "/ˈbev.ɚ.ɪdʒ/",
+      "meaning": "đồ uống, thức uống (trang trọng)",
+      "examples": [
+        {
+          "en": "Every guest receives one complimentary hot beverage in the lounge.",
+          "vi": "Mỗi khách được tặng một đồ uống nóng miễn phí tại phòng chờ."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "drink",
+        "refreshment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "food and beverage",
+          "meaning": "ẩm thực và đồ uống (F&B)"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to drink, refreshment.",
+      "definitionVi": "Danh từ dùng để chỉ đồ uống, thức uống (trang trọng).",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-42",
+      "deckId": "toeic-ets",
+      "word": "refreshments",
+      "pos": "n",
+      "ipaUK": "/rɪˈfreʃ.mənts/",
+      "ipaUS": "/rɪˈfreʃ.mənts/",
+      "meaning": "đồ ăn nhẹ và nước giải khát (luôn dùng số nhiều)",
+      "examples": [
+        {
+          "en": "Light refreshments will be served during the fifteen-minute intermission.",
+          "vi": "Đồ ăn nhẹ sẽ được phục vụ trong giờ giải lao mười lăm phút."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "snacks and drinks",
+        "light fare"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "light refreshments",
+          "meaning": "tiệc trà nhẹ"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to snacks and drinks, light fare.",
+      "definitionVi": "Danh từ dùng để chỉ đồ ăn nhẹ và nước giải khát (luôn dùng số nhiều).",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-43",
+      "deckId": "toeic-ets",
+      "word": "intermission",
+      "pos": "n",
+      "ipaUK": "/ˌɪn.təˈmɪʃ.ən/",
+      "ipaUS": "/ˌɪn.t̬ɚˈmɪʃ.ən/",
+      "meaning": "giờ giải lao giữa buổi diễn/hội nghị",
+      "examples": [
+        {
+          "en": "Attendees gathered in the foyer for coffee during the intermission.",
+          "vi": "Người tham dự tập trung tại tiền sảnh uống cà phê trong giờ nghỉ giải lao."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "break",
+        "interval",
+        "pause"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "fifteen-minute intermission",
+          "meaning": "giờ giải lao 15 phút"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to break, interval, pause.",
+      "definitionVi": "Danh từ dùng để chỉ giờ giải lao giữa buổi diễn/hội nghị.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-44",
+      "deckId": "toeic-ets",
+      "word": "attire",
+      "pos": "n",
+      "ipaUK": "/əˈtaɪər/",
+      "ipaUS": "/əˈtaɪr/",
+      "meaning": "trang phục (trang trọng)",
+      "examples": [
+        {
+          "en": "Business casual attire is appropriate for the client networking dinner.",
+          "vi": "Trang phục công sở thoải mái là phù hợp cho bữa tối giao lưu khách hàng."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "clothing",
+        "apparel",
+        "dress"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "formal attire",
+          "meaning": "trang phục trang trọng"
+        },
+        {
+          "phrase": "business attire",
+          "meaning": "trang phục công sở"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to clothing, apparel, dress.",
+      "definitionVi": "Danh từ dùng để chỉ trang phục (trang trọng).",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-45",
+      "deckId": "toeic-ets",
+      "word": "apparel",
+      "pos": "n",
+      "ipaUK": "/əˈpær.əl/",
+      "ipaUS": "/əˈpæ.ɹəl/",
+      "meaning": "quần áo, hàng may mặc",
+      "examples": [
+        {
+          "en": "The athletic apparel retailer opened three flagship stores this spring.",
+          "vi": "Nhà bán lẻ quần áo thể thao đã mở ba cửa hàng chủ lực mùa xuân này."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "clothing",
+        "garments",
+        "wear",
+        "dight",
+        "don"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "outdoor apparel",
+          "meaning": "trang phục dã ngoại"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/apparel-us.mp3",
+      "definitionEn": "A concept, item, or formal term closely related to clothing, garments, wear.",
+      "definitionVi": "Danh từ dùng để chỉ quần áo, hàng may mặc.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-46",
+      "deckId": "toeic-ets",
+      "word": "cuisine",
+      "pos": "n",
+      "ipaUK": "/kwɪˈziːn/",
+      "ipaUS": "/kwɪˈziːn/",
+      "meaning": "ẩm thực, phong cách nấu nướng",
+      "examples": [
+        {
+          "en": "Chef Morales specializes in contemporary Mediterranean cuisine.",
+          "vi": "Bếp trưởng Morales chuyên về ẩm thực Địa Trung Hải đương đại."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "cooking",
+        "gastronomy",
+        "fare"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "local cuisine",
+          "meaning": "ẩm thực địa phương"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to cooking, gastronomy, fare.",
+      "definitionVi": "Danh từ dùng để chỉ ẩm thực, phong cách nấu nướng.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-47",
+      "deckId": "toeic-ets",
+      "word": "venue",
+      "pos": "n",
+      "ipaUK": "/ˈven.juː/",
+      "ipaUS": "/ˈven.juː/",
+      "meaning": "địa điểm tổ chức sự kiện",
+      "examples": [
+        {
+          "en": "We selected a riverside convention center as our conference venue.",
+          "vi": "Chúng tôi chọn một trung tâm hội nghị ven sông làm địa điểm tổ chức."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "location",
+        "site",
+        "hall"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "event venue",
+          "meaning": "địa điểm sự kiện"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to location, site, hall.",
+      "definitionVi": "Danh từ dùng để chỉ địa điểm tổ chức sự kiện.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-48",
+      "deckId": "toeic-ets",
+      "word": "keynote",
+      "pos": "n",
+      "ipaUK": "/ˈkiː.nəʊt/",
+      "ipaUS": "/ˈkiː.noʊt/",
+      "meaning": "bài phát biểu chính / diễn giả chính",
+      "examples": [
+        {
+          "en": "Dr. Lin delivered an inspiring keynote on renewable urban grids.",
+          "vi": "Tiến sĩ Lin đã trình bày bài diễn văn chính đầy cảm hứng về lưới điện đô thị tái tạo."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "main address",
+        "featured speech"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "keynote speaker",
+          "meaning": "diễn giả chính"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to main address, featured speech.",
+      "definitionVi": "Danh từ dùng để chỉ bài phát biểu chính / diễn giả chính.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-49",
+      "deckId": "toeic-ets",
+      "word": "brochure",
+      "pos": "n",
+      "ipaUK": "/ˈbrəʊ.ʃər/",
+      "ipaUS": "/broʊˈʃʊr/",
+      "meaning": "tờ gấp quảng cáo, cuốn giới thiệu sản phẩm",
+      "examples": [
+        {
+          "en": "Pick up a trail map and brochure at the visitor information desk.",
+          "vi": "Lấy bản đồ đường mòn và tờ gấp giới thiệu tại bàn thông tin du khách."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "pamphlet",
+        "leaflet",
+        "booklet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "promotional brochure",
+          "meaning": "tờ rơi quảng bá"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to pamphlet, leaflet, booklet.",
+      "definitionVi": "Danh từ dùng để chỉ tờ gấp quảng cáo, cuốn giới thiệu sản phẩm.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-50",
+      "deckId": "toeic-ets",
+      "word": "endorse",
+      "pos": "v",
+      "ipaUK": "/ɪnˈdɔːs/",
+      "ipaUS": "/ɪnˈdɔːrs/",
+      "meaning": "chứng thực, ủng hộ, đại diện quảng bá",
+      "examples": [
+        {
+          "en": "Several Olympic cyclists endorse our carbon-frame bicycles.",
+          "vi": "Nhiều tay đua xe đạp Olympic đại diện quảng bá cho dòng xe khung carbon của chúng tôi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "endorsement",
+          "pos": "n",
+          "meaning": "sự chứng thực, quảng bá"
+        }
+      ],
+      "synonyms": [
+        "back",
+        "support",
+        "sponsor"
+      ],
+      "antonyms": [
+        "oppose"
+      ],
+      "collocations": [
+        {
+          "phrase": "celebrity endorsement",
+          "meaning": "người nổi tiếng quảng bá"
+        }
+      ],
+      "definitionEn": "To back (also similar to support, sponsor) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động chứng thực, ủng hộ, đại diện quảng bá.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-51",
+      "deckId": "toeic-ets",
+      "word": "acclaim",
+      "pos": "n",
+      "ipaUK": "/ə.ˈkleɪm/",
+      "ipaUS": "/ə.ˈkleɪm/",
+      "meaning": "sự khen ngợi nhiệt liệt, tán dương",
+      "examples": [
+        {
+          "en": "The documentary earned critical acclaim at international film festivals.",
+          "vi": "Bộ phim tài liệu nhận được sự tán dương từ giới phê bình tại các liên hoan phim quốc tế."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "acclaimed",
+          "pos": "adj",
+          "meaning": "được ca ngợi rộng rãi"
+        }
+      ],
+      "synonyms": [
+        "praise",
+        "applause",
+        "recognition"
+      ],
+      "antonyms": [
+        "criticism"
+      ],
+      "collocations": [
+        {
+          "phrase": "critically acclaimed",
+          "meaning": "được giới phê bình ca ngợi"
+        }
+      ],
+      "audioUrlUK": "https://api.dictionaryapi.dev/media/pronunciations/en/acclaim-uk.mp3",
+      "definitionEn": "A concept, item, or formal term closely related to praise, applause, recognition.",
+      "definitionVi": "Danh từ dùng để chỉ sự khen ngợi nhiệt liệt, tán dương.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-52",
+      "deckId": "toeic-ets",
+      "word": "renowned",
+      "pos": "adj",
+      "ipaUK": "/rɪˈnaʊnd/",
+      "ipaUS": "/rɪˈnaʊnd/",
+      "meaning": "nổi tiếng, lừng danh",
+      "examples": [
+        {
+          "en": "The conservatory is renowned for its rare orchid collection.",
+          "vi": "Nhà kính nổi tiếng với bộ sưu tập hoa lan quý hiếm."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "famous",
+        "celebrated",
+        "distinguished"
+      ],
+      "antonyms": [
+        "obscure",
+        "unknown"
+      ],
+      "collocations": [
+        {
+          "phrase": "world-renowned",
+          "meaning": "nổi tiếng thế giới"
+        }
+      ],
+      "definitionEn": "Having the quality of being famous, celebrated, distinguished.",
+      "definitionVi": "Tính từ mô tả đặc điểm nổi tiếng, lừng danh.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-53",
+      "deckId": "toeic-ets",
+      "word": "esteemed",
+      "pos": "adj",
+      "ipaUK": "/ɪˈstiːmd/",
+      "ipaUS": "/ɪˈstiːmd/",
+      "meaning": "đáng kính, uy tín cao",
+      "examples": [
+        {
+          "en": "We are honored to welcome our esteemed colleagues from Zurich.",
+          "vi": "Chúng tôi vinh dự chào đón các đồng nghiệp đáng kính đến từ Zurich."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "esteem",
+          "pos": "n",
+          "meaning": "sự kính trọng"
+        }
+      ],
+      "synonyms": [
+        "respected",
+        "admired",
+        "prestigious"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "highly esteemed",
+          "meaning": "rất được kính trọng"
+        }
+      ],
+      "definitionEn": "Having the quality of being respected, admired, prestigious.",
+      "definitionVi": "Tính từ mô tả đặc điểm đáng kính, uy tín cao.",
+      "topicId": "ets-hospitality"
+    },
+    {
+      "id": "ets-54",
+      "deckId": "toeic-ets",
+      "word": "lucid",
+      "pos": "adj",
+      "ipaUK": "/ˈluː.sɪd/",
+      "ipaUS": "/ˈluː.sɪd/",
+      "meaning": "sáng sủa, rõ ràng mạch lạc",
+      "examples": [
+        {
+          "en": "The manual offers a lucid explanation of complex tax rules.",
+          "vi": "Cuốn hướng dẫn đưa ra lời giải thích mạch lạc về các quy định thuế phức tạp."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "clear",
+        "intelligible",
+        "coherent"
+      ],
+      "antonyms": [
+        "confusing",
+        "vague"
+      ],
+      "collocations": [
+        {
+          "phrase": "lucid explanation",
+          "meaning": "giải thích rõ ràng"
+        }
+      ],
+      "definitionEn": "Having the quality of being clear, intelligible, coherent.",
+      "definitionVi": "Tính từ mô tả đặc điểm sáng sủa, rõ ràng mạch lạc.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-55",
+      "deckId": "toeic-ets",
+      "word": "surplus",
+      "pos": "n",
+      "ipaUK": "/ˈsɜː.pləs/",
+      "ipaUS": "/ˈsɝː.pləs/",
+      "meaning": "lượng dư thừa, thặng dư",
+      "examples": [
+        {
+          "en": "The bakery donates any daily bread surplus to local shelters.",
+          "vi": "Tiệm bánh quyên góp toàn bộ bánh mì dư hàng ngày cho các nhà tạm trú địa phương."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "excess",
+        "overflow",
+        "extra"
+      ],
+      "antonyms": [
+        "shortage",
+        "deficit"
+      ],
+      "collocations": [
+        {
+          "phrase": "budget surplus",
+          "meaning": "thặng dư ngân sách"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to excess, overflow, extra.",
+      "definitionVi": "Danh từ dùng để chỉ lượng dư thừa, thặng dư.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-56",
+      "deckId": "toeic-ets",
+      "word": "deficit",
+      "pos": "n",
+      "ipaUK": "/ˈdef.ɪ.sɪt/",
+      "ipaUS": "/ˈdef.ə.sɪt/",
+      "meaning": "sự thâm hụt, thiếu hụt",
+      "examples": [
+        {
+          "en": "Strong export growth helped narrow the quarterly trade deficit.",
+          "vi": "Tăng trưởng xuất khẩu mạnh giúp thu hẹp thâm hụt thương mại hàng quý."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "shortfall",
+        "shortage"
+      ],
+      "antonyms": [
+        "surplus"
+      ],
+      "collocations": [
+        {
+          "phrase": "trade deficit",
+          "meaning": "thâm hụt thương mại"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to shortfall, shortage.",
+      "definitionVi": "Danh từ dùng để chỉ sự thâm hụt, thiếu hụt.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-57",
+      "deckId": "toeic-ets",
+      "word": "incentive",
+      "pos": "n",
+      "ipaUK": "/ɪnˈsen.tɪv/",
+      "ipaUS": "/ɪnˈsen.t̬ɪv/",
+      "meaning": "ưu đãi, động lực khuyến khích",
+      "examples": [
+        {
+          "en": "Sales staff receive quarterly bonuses as a performance incentive.",
+          "vi": "Nhân viên kinh doanh nhận thưởng quý như một động lực hiệu suất."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "incentivize",
+          "pos": "v",
+          "meaning": "khuyến khích bằng ưu đãi"
+        }
+      ],
+      "synonyms": [
+        "motivation",
+        "bonus",
+        "perk"
+      ],
+      "antonyms": [
+        "deterrent"
+      ],
+      "collocations": [
+        {
+          "phrase": "tax incentive",
+          "meaning": "ưu đãi thuế"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to motivation, bonus, perk.",
+      "definitionVi": "Danh từ dùng để chỉ ưu đãi, động lực khuyến khích.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-58",
+      "deckId": "toeic-ets",
+      "word": "subsidy",
+      "pos": "n",
+      "ipaUK": "/ˈsʌb.sɪ.di/",
+      "ipaUS": "/ˈsʌb.sə.di/",
+      "meaning": "khoản trợ cấp (từ chính phủ/công ty)",
+      "examples": [
+        {
+          "en": "Commuters qualify for a monthly public-transit subsidy.",
+          "vi": "Nhân viên đi làm đủ điều kiện nhận trợ cấp phương tiện công cộng hàng tháng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "subsidize",
+          "pos": "v",
+          "meaning": "trợ giá, trợ cấp"
+        }
+      ],
+      "synonyms": [
+        "grant",
+        "allowance",
+        "stipend"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "government subsidy",
+          "meaning": "trợ cấp chính phủ"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to grant, allowance, stipend.",
+      "definitionVi": "Danh từ dùng để chỉ khoản trợ cấp (từ chính phủ/công ty).",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-59",
+      "deckId": "toeic-ets",
+      "word": "stipend",
+      "pos": "n",
+      "ipaUK": "/ˈstaɪ.pend/",
+      "ipaUS": "/ˈstaɪ.pend/",
+      "meaning": "khoản phụ cấp cố định (thực tập, công tác)",
+      "examples": [
+        {
+          "en": "Remote workers receive a $500 home-office equipment stipend.",
+          "vi": "Nhân viên làm từ xa nhận phụ cấp 500 đô la mua thiết bị văn phòng tại nhà."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "allowance",
+        "grant"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "monthly stipend",
+          "meaning": "phụ cấp hàng tháng"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to allowance, grant.",
+      "definitionVi": "Danh từ dùng để chỉ khoản phụ cấp cố định (thực tập, công tác).",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-60",
+      "deckId": "toeic-ets",
+      "word": "turnover",
+      "pos": "n",
+      "ipaUK": "/ˈtɜːn.əʊ.vər/",
+      "ipaUS": "/ˈtɝːn.oʊ.vɚ/",
+      "meaning": "tỷ lệ nghỉ việc nhân sự; doanh thu bán hàng",
+      "examples": [
+        {
+          "en": "Flexible hours helped reduce employee turnover by half.",
+          "vi": "Giờ làm linh hoạt giúp giảm một nửa tỷ lệ nhân viên nghỉ việc."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "attrition",
+        "revenue"
+      ],
+      "antonyms": [
+        "retention"
+      ],
+      "collocations": [
+        {
+          "phrase": "staff turnover",
+          "meaning": "tỷ lệ biến động nhân sự"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to attrition, revenue.",
+      "definitionVi": "Danh từ dùng để chỉ tỷ lệ nghỉ việc nhân sự; doanh thu bán hàng.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-61",
+      "deckId": "toeic-ets",
+      "word": "retention",
+      "pos": "n",
+      "ipaUK": "/rɪˈten.ʃən/",
+      "ipaUS": "/rɪˈten.ʃən/",
+      "meaning": "sự giữ chân (nhân viên, khách hàng)",
+      "examples": [
+        {
+          "en": "Career mentorship programs improve long-term employee retention.",
+          "vi": "Chương trình cố vấn nghề nghiệp cải thiện khả năng giữ chân nhân viên lâu dài."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "retain",
+          "pos": "v",
+          "meaning": "giữ lại"
+        }
+      ],
+      "synonyms": [
+        "preservation",
+        "keeping"
+      ],
+      "antonyms": [
+        "attrition",
+        "turnover"
+      ],
+      "collocations": [
+        {
+          "phrase": "customer retention",
+          "meaning": "giữ chân khách hàng"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to preservation, keeping.",
+      "definitionVi": "Danh từ dùng để chỉ sự giữ chân (nhân viên, khách hàng).",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-62",
+      "deckId": "toeic-ets",
+      "word": "procurement",
+      "pos": "n",
+      "ipaUK": "/prəˈkjʊə.mənt/",
+      "ipaUS": "/prəˈkjʊr.mənt/",
+      "meaning": "công tác thu mua, đấu thầu vật tư",
+      "examples": [
+        {
+          "en": "The procurement department negotiates raw material contracts.",
+          "vi": "Phòng thu mua đàm phán các hợp đồng nguyên liệu thô."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "procure",
+          "pos": "v",
+          "meaning": "thu mua, kiếm được"
+        }
+      ],
+      "synonyms": [
+        "purchasing",
+        "acquisition"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "procurement policy",
+          "meaning": "chính sách thu mua"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to purchasing, acquisition.",
+      "definitionVi": "Danh từ dùng để chỉ công tác thu mua, đấu thầu vật tư.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-63",
+      "deckId": "toeic-ets",
+      "word": "logistics",
+      "pos": "n",
+      "ipaUK": "/ləˈdʒɪs.tɪks/",
+      "ipaUS": "/ləˈdʒɪs.tɪks/",
+      "meaning": "hậu cần, vận chuyển kho bãi",
+      "examples": [
+        {
+          "en": "Efficient logistics cut our average shipping time to two days.",
+          "vi": "Hệ thống hậu cần hiệu quả rút ngắn thời gian giao hàng trung bình xuống hai ngày."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "logistical",
+          "pos": "adj",
+          "meaning": "thuộc về hậu cần"
+        }
+      ],
+      "synonyms": [
+        "supply chain",
+        "distribution"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "logistics coordinator",
+          "meaning": "điều phối viên logistics"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to supply chain, distribution.",
+      "definitionVi": "Danh từ dùng để chỉ hậu cần, vận chuyển kho bãi.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-64",
+      "deckId": "toeic-ets",
+      "word": "customs",
+      "pos": "n",
+      "ipaUK": "/ˈkʌs.təmz/",
+      "ipaUS": "/ˈkʌs.təmz/",
+      "meaning": "hải quan, thủ tục thông quan",
+      "examples": [
+        {
+          "en": "International parcels may take extra days to clear customs.",
+          "vi": "Bưu kiện quốc tế có thể mất thêm vài ngày để làm thủ tục hải quan."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "border control",
+        "import inspection"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "clear customs",
+          "meaning": "thông quan hải quan"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to border control, import inspection.",
+      "definitionVi": "Danh từ dùng để chỉ hải quan, thủ tục thông quan.",
+      "topicId": "ets-trade"
+    },
+    {
+      "id": "ets-65",
+      "deckId": "toeic-ets",
+      "word": "tariff",
+      "pos": "n",
+      "ipaUK": "/ˈtær.ɪf/",
+      "ipaUS": "/ˈter.ɪf/",
+      "meaning": "thuế quan xuất nhập khẩu",
+      "examples": [
+        {
+          "en": "A new import tariff raised the retail cost of steel components.",
+          "vi": "Thuế nhập khẩu mới đã làm tăng giá bán lẻ linh kiện thép."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "duty",
+        "import tax",
+        "levy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "customs tariff",
+          "meaning": "biểu thuế hải quan"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to duty, import tax, levy.",
+      "definitionVi": "Danh từ dùng để chỉ thuế quan xuất nhập khẩu.",
+      "topicId": "ets-trade"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ets-operations",
+      "name": "Vận hành & Quy trình ETS",
+      "icon": "operations",
+      "words": [
+        {
+          "id": "ets-1",
+          "deckId": "toeic-ets",
+          "word": "streamline",
+          "pos": "v",
+          "ipaUK": "/ˈstriːm.laɪn/",
+          "ipaUS": "/ˈstriːm.laɪn/",
+          "meaning": "tinh gọn, hợp lý hóa (quy trình)",
+          "examples": [
+            {
+              "en": "Cloud accounting tools streamline monthly payroll approvals.",
+              "vi": "Công cụ kế toán đám mây tinh gọn quy trình duyệt lương hàng tháng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "streamlined",
+              "pos": "adj",
+              "meaning": "được tinh gọn"
+            }
+          ],
+          "synonyms": [
+            "simplify",
+            "optimize",
+            "modernize"
+          ],
+          "antonyms": [
+            "complicate"
+          ],
+          "collocations": [
+            {
+              "phrase": "streamline operations",
+              "meaning": "tinh gọn vận hành"
+            }
+          ],
+          "definitionEn": "To redesign a work process or system so it becomes simpler, faster, and more efficient.",
+          "definitionVi": "Thiết kế lại quy trình làm việc hoặc hệ thống trở nên tinh gọn, nhanh chóng và hiệu quả hơn.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-2",
+          "deckId": "toeic-ets",
+          "word": "tentative",
+          "pos": "adj",
+          "ipaUK": "/ˈten.tə.tɪv/",
+          "ipaUS": "/ˈten.t̬ə.t̬ɪv/",
+          "meaning": "dự kiến, tạm thời (chưa chốt)",
+          "examples": [
+            {
+              "en": "We scheduled a tentative launch for May 18 pending board approval.",
+              "vi": "Chúng tôi đặt lịch ra mắt dự kiến ngày 18/5 chờ hội đồng duyệt."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "tentatively",
+              "pos": "adv",
+              "meaning": "tạm thời, dự kiến"
+            }
+          ],
+          "synonyms": [
+            "provisional",
+            "preliminary",
+            "unconfirmed"
+          ],
+          "antonyms": [
+            "confirmed",
+            "final"
+          ],
+          "collocations": [
+            {
+              "phrase": "tentative schedule",
+              "meaning": "lịch trình dự kiến"
+            }
+          ],
+          "definitionEn": "Planned provisionally and not yet finalized, meaning the date or detail may still change.",
+          "definitionVi": "Được sắp xếp tạm thời theo dự kiến và chưa chốt chính thức, vẫn có thể thay đổi.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-3",
+          "deckId": "toeic-ets",
+          "word": "expedite",
+          "pos": "v",
+          "ipaUK": "/ˈek.spə.daɪt/",
+          "ipaUS": "/ˈek.spə.daɪt/",
+          "meaning": "xúc tiến, đẩy nhanh xử lý",
+          "examples": [
+            {
+              "en": "Submitting digital scans will expedite your customs clearance.",
+              "vi": "Nộp bản scan kỹ thuật số sẽ đẩy nhanh thủ tục thông quan của bạn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "expedited",
+              "pos": "adj",
+              "meaning": "hỏa tốc"
+            }
+          ],
+          "synonyms": [
+            "accelerate",
+            "speed up",
+            "hasten"
+          ],
+          "antonyms": [
+            "delay",
+            "postpone"
+          ],
+          "collocations": [
+            {
+              "phrase": "expedited shipping",
+              "meaning": "vận chuyển hỏa tốc"
+            }
+          ],
+          "definitionEn": "To make an official process, approval, or delivery happen faster than normal.",
+          "definitionVi": "Đẩy nhanh tiến độ xử lý của một quy trình, thủ tục phê duyệt hoặc chuyến giao hàng.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-4",
+          "deckId": "toeic-ets",
+          "word": "discrepancy",
+          "pos": "n",
+          "ipaUK": "/dɪˈskrep.ən.si/",
+          "ipaUS": "/dɪˈskrep.ən.si/",
+          "meaning": "sự chênh lệch, sai khác (hóa đơn/số liệu)",
+          "examples": [
+            {
+              "en": "Accounting spotted a $240 discrepancy on the quarterly ledger.",
+              "vi": "Phòng kế toán phát hiện chênh lệch 240 đô la trên sổ cái quý."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "inconsistency",
+            "mismatch",
+            "difference"
+          ],
+          "antonyms": [
+            "consistency"
+          ],
+          "collocations": [
+            {
+              "phrase": "billing discrepancy",
+              "meaning": "sai lệch hóa đơn"
+            }
+          ],
+          "definitionEn": "An unexpected difference or mismatch between two financial figures, records, or reports.",
+          "definitionVi": "Sự sai lệch hoặc không trùng khớp bất thường giữa hai con số tài chính, sổ sách hay báo cáo.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-5",
+          "deckId": "toeic-ets",
+          "word": "stringent",
+          "pos": "adj",
+          "ipaUK": "/ˈstrɪn.dʒənt/",
+          "ipaUS": "/ˈstrɪn.dʒənt/",
+          "meaning": "nghiêm ngặt, khắt khe",
+          "examples": [
+            {
+              "en": "Medical devices undergo stringent durability testing before export.",
+              "vi": "Thiết bị y tế trải qua kiểm định độ bền nghiêm ngặt trước khi xuất khẩu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "stringently",
+              "pos": "adv",
+              "meaning": "một cách nghiêm ngặt"
+            }
+          ],
+          "synonyms": [
+            "strict",
+            "rigorous",
+            "demanding"
+          ],
+          "antonyms": [
+            "lenient",
+            "lax"
+          ],
+          "collocations": [
+            {
+              "phrase": "stringent standards",
+              "meaning": "tiêu chuẩn khắt khe"
+            }
+          ],
+          "definitionEn": "Very strict, demanding, and carefully enforced—especially regarding rules or quality standards.",
+          "definitionVi": "Rất nghiêm ngặt, khắt khe và được áp dụng chặt chẽ — đặc biệt về quy định hay tiêu chuẩn chất lượng.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-6",
+          "deckId": "toeic-ets",
+          "word": "promptly",
+          "pos": "adv",
+          "ipaUK": "/ˈprɒmpt.li/",
+          "ipaUS": "/ˈprɑːmpt.li/",
+          "meaning": "đúng giờ, ngay lập tức",
+          "examples": [
+            {
+              "en": "The shuttle departs promptly at 7:15 A.M. from Gate 2.",
+              "vi": "Xe đưa đón khởi hành đúng 7:15 sáng từ Cổng 2."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "prompt",
+              "pos": "adj",
+              "meaning": "nhanh chóng, đúng giờ"
+            }
+          ],
+          "synonyms": [
+            "punctually",
+            "immediately",
+            "without delay"
+          ],
+          "antonyms": [
+            "belatedly"
+          ],
+          "collocations": [
+            {
+              "phrase": "begin promptly at",
+              "meaning": "bắt đầu đúng giờ lúc"
+            },
+            {
+              "phrase": "respond promptly",
+              "meaning": "phản hồi nhanh"
+            }
+          ],
+          "definitionEn": "Immediately, without unnecessary delay, or at the exact scheduled time.",
+          "definitionVi": "Ngay lập tức không chậm trễ, hoặc đúng chính xác thời gian đã định.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-7",
+          "deckId": "toeic-ets",
+          "word": "adjacent",
+          "pos": "adj",
+          "ipaUK": "/əˈdʒeɪ.sənt/",
+          "ipaUS": "/əˈdʒeɪ.sənt/",
+          "meaning": "liền kề, ngay kế bên (đi với to)",
+          "examples": [
+            {
+              "en": "Visitor parking is located in the garage adjacent to Building C.",
+              "vi": "Bãi đỗ xe khách nằm tại nhà xe liền kề Tòa nhà C."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "next to",
+            "adjoining",
+            "neighboring",
+            "abutting",
+            "contiguous"
+          ],
+          "antonyms": [
+            "distant",
+            "remote"
+          ],
+          "collocations": [
+            {
+              "phrase": "adjacent to",
+              "meaning": "nằm ngay sát bên"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/adjacent-us.mp3",
+          "definitionEn": "Located right next to or immediately adjoining another building, room, or area.",
+          "definitionVi": "Nằm ngay sát bên cạnh hoặc tiếp giáp trực tiếp với tòa nhà, căn phòng hay khu vực khác.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-8",
+          "deckId": "toeic-ets",
+          "word": "contingent",
+          "pos": "adj",
+          "ipaUK": "/kənˈtɪn.dʒənt/",
+          "ipaUS": "/kənˈtɪn.dʒənt/",
+          "meaning": "tùy thuộc vào (đi với on/upon)",
+          "examples": [
+            {
+              "en": "The job offer is contingent upon passing a background check.",
+              "vi": "Thư mời nhận việc tùy thuộc vào việc vượt qua kiểm tra lý lịch."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "contingency",
+              "pos": "n",
+              "meaning": "phương án dự phòng"
+            }
+          ],
+          "synonyms": [
+            "dependent on",
+            "conditional on",
+            "subject to"
+          ],
+          "antonyms": [
+            "unconditional"
+          ],
+          "collocations": [
+            {
+              "phrase": "contingent upon",
+              "meaning": "phụ thuộc vào"
+            },
+            {
+              "phrase": "contingency plan",
+              "meaning": "kế hoạch dự phòng"
+            }
+          ],
+          "definitionEn": "Dependent on a particular future event, vote, or condition being fulfilled first.",
+          "definitionVi": "Phụ thuộc vào việc một sự kiện, cuộc bỏ phiếu hoặc điều kiện cụ thể được đáp ứng trước.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-9",
+          "deckId": "toeic-ets",
+          "word": "waive",
+          "pos": "v",
+          "ipaUK": "/weɪv/",
+          "ipaUS": "/weɪv/",
+          "meaning": "miễn trừ (phí, điều kiện)",
+          "examples": [
+            {
+              "en": "The vendor agreed to waive the restocking fee on our return.",
+              "vi": "Nhà cung cấp đồng ý miễn phí nhập kho lại cho đơn trả hàng của chúng tôi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "waiver",
+              "pos": "n",
+              "meaning": "giấy miễn trừ"
+            }
+          ],
+          "synonyms": [
+            "forgo",
+            "exempt",
+            "drop"
+          ],
+          "antonyms": [
+            "impose",
+            "charge"
+          ],
+          "collocations": [
+            {
+              "phrase": "waive a fee",
+              "meaning": "miễn khoản phí"
+            }
+          ],
+          "definitionEn": "To officially agree not to charge a fee or not to enforce a specific rule or requirement.",
+          "definitionVi": "Chính thức đồng ý miễn một khoản phí hoặc không áp dụng một điều kiện/quy định nào đó.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-10",
+          "deckId": "toeic-ets",
+          "word": "designated",
+          "pos": "adj",
+          "ipaUK": "/ˈdez.ɪɡ.neɪ.tɪd/",
+          "ipaUS": "/ˈdez.ɪɡ.neɪ.t̬ɪd/",
+          "meaning": "được chỉ định riêng",
+          "examples": [
+            {
+              "en": "Couriers must park only in the designated loading bay.",
+              "vi": "Nhân viên giao hàng chỉ được đỗ tại khu vực bốc dỡ được chỉ định."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "designate",
+              "pos": "v",
+              "meaning": "chỉ định"
+            },
+            {
+              "word": "designation",
+              "pos": "n",
+              "meaning": "chức danh"
+            }
+          ],
+          "synonyms": [
+            "assigned",
+            "appointed",
+            "specified"
+          ],
+          "antonyms": [
+            "unassigned"
+          ],
+          "collocations": [
+            {
+              "phrase": "designated zone",
+              "meaning": "khu vực được chỉ định"
+            }
+          ],
+          "definitionEn": "Officially chosen, marked, or set aside for one specific purpose or person.",
+          "definitionVi": "Được chính thức chỉ định, đánh dấu hoặc dành riêng cho một mục đích hay cá nhân cụ thể.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-11",
+          "deckId": "toeic-ets",
+          "word": "correspondence",
+          "pos": "n",
+          "ipaUK": "/ˌkɒr.ɪˈspɒn.dəns/",
+          "ipaUS": "/ˌkɔːr.əˈspɑːn.dəns/",
+          "meaning": "thư từ trao đổi (email, công văn)",
+          "examples": [
+            {
+              "en": "Please quote your case ID in all written correspondence.",
+              "vi": "Vui lòng trích dẫn mã hồ sơ trong mọi thư từ trao đổi bằng văn bản."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "correspond",
+              "pos": "v",
+              "meaning": "trao đổi thư; tương ứng"
+            },
+            {
+              "word": "corresponding",
+              "pos": "adj",
+              "meaning": "tương ứng"
+            }
+          ],
+          "synonyms": [
+            "mail",
+            "communication"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "business correspondence",
+              "meaning": "thư tín thương mại"
+            }
+          ],
+          "definitionEn": "Official letters, emails, or written messages exchanged between businesses or individuals.",
+          "definitionVi": "Thư từ, email hoặc công văn trao đổi qua lại giữa doanh nghiệp và đối tác/khách hàng.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-12",
+          "deckId": "toeic-ets",
+          "word": "exceed",
+          "pos": "v",
+          "ipaUK": "/ɪkˈsiːd/",
+          "ipaUS": "/ɪkˈsiːd/",
+          "meaning": "vượt quá (dự báo, giới hạn)",
+          "examples": [
+            {
+              "en": "Quarterly sign-ups are expected to exceed our target by 20%.",
+              "vi": "Lượt đăng ký hàng quý dự kiến sẽ vượt mục tiêu của chúng tôi 20%."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "excessive",
+              "pos": "adj",
+              "meaning": "quá mức"
+            },
+            {
+              "word": "exceedingly",
+              "pos": "adv",
+              "meaning": "cực kỳ"
+            }
+          ],
+          "synonyms": [
+            "surpass",
+            "outperform",
+            "go beyond"
+          ],
+          "antonyms": [
+            "fall short of"
+          ],
+          "collocations": [
+            {
+              "phrase": "exceed expectations",
+              "meaning": "vượt kỳ vọng"
+            }
+          ],
+          "definitionEn": "To go beyond a target number, budget limit, legal maximum, or expectation.",
+          "definitionVi": "Vượt lên trên con số mục tiêu, hạn mức ngân sách, giới hạn quy định hoặc kỳ vọng.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-13",
+          "deckId": "toeic-ets",
+          "word": "substantial",
+          "pos": "adj",
+          "ipaUK": "/səbˈstæn.ʃəl/",
+          "ipaUS": "/səbˈstæn.ʃəl/",
+          "meaning": "đáng kể, lớn lao",
+          "examples": [
+            {
+              "en": "Bulk ordering yielded a substantial reduction in unit cost.",
+              "vi": "Đặt hàng số lượng lớn mang lại mức giảm đáng kể về đơn giá."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "substantially",
+              "pos": "adv",
+              "meaning": "một cách đáng kể"
+            }
+          ],
+          "synonyms": [
+            "significant",
+            "considerable",
+            "sizable"
+          ],
+          "antonyms": [
+            "minor",
+            "negligible"
+          ],
+          "collocations": [
+            {
+              "phrase": "substantial savings",
+              "meaning": "khoản tiết kiệm đáng kể"
+            }
+          ],
+          "definitionEn": "Large in size, value, amount, or importance enough to make a noticeable difference.",
+          "definitionVi": "Đáng kể về quy mô, giá trị, số lượng hoặc tầm quan trọng đủ tạo ra khác biệt rõ rệt.",
+          "topicId": "ets-operations"
+        },
+        {
+          "id": "ets-14",
+          "deckId": "toeic-ets",
+          "word": "authorize",
+          "pos": "v",
+          "ipaUK": "/ˈɔː.θə.raɪz/",
+          "ipaUS": "/ˈɑː.θə.raɪz/",
+          "meaning": "ủy quyền, cấp phép chính thức",
+          "examples": [
+            {
+              "en": "Only finance officers can authorize checks over $5,000.",
+              "vi": "Chỉ cán bộ tài chính mới có thể ủy quyền ký séc trên 5.000 đô la."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "authorization",
+              "pos": "n",
+              "meaning": "giấy ủy quyền"
+            },
+            {
+              "word": "authorized",
+              "pos": "adj",
+              "meaning": "được ủy quyền"
+            }
+          ],
+          "synonyms": [
+            "approve",
+            "permit",
+            "sanction"
+          ],
+          "antonyms": [
+            "prohibit",
+            "deny"
+          ],
+          "collocations": [
+            {
+              "phrase": "authorized dealer",
+              "meaning": "đại lý ủy quyền chính thức"
+            }
+          ],
+          "definitionEn": "To give official legal or managerial permission for a payment, purchase, or action.",
+          "definitionVi": "Cấp quyền hợp pháp hoặc sự cho phép chính thức của quản lý cho một giao dịch hay hành động.",
+          "topicId": "ets-operations"
+        }
+      ]
+    },
+    {
+      "id": "ets-compliance",
+      "name": "Pháp lý, Chính sách & Hợp nhất",
+      "icon": "contract",
+      "words": [
+        {
+          "id": "ets-15",
+          "deckId": "toeic-ets",
+          "word": "outage",
+          "pos": "n",
+          "ipaUK": "/ˈaʊ.tɪdʒ/",
+          "ipaUS": "/ˈaʊ.t̬ɪdʒ/",
+          "meaning": "sự cố mất điện / gián đoạn mạng",
+          "examples": [
+            {
+              "en": "A brief network outage paused online bookings for ten minutes.",
+              "vi": "Sự cố gián đoạn mạng ngắn đã tạm dừng đặt chỗ trực tuyến trong mười phút."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "blackout",
+            "disruption",
+            "downtime"
+          ],
+          "antonyms": [
+            "restoration"
+          ],
+          "collocations": [
+            {
+              "phrase": "power outage",
+              "meaning": "sự cố mất điện"
+            }
+          ],
+          "definitionEn": "A temporary period during which electricity, internet, or a digital service stops working.",
+          "definitionVi": "Khoảng thời gian tạm ngắt mà điện lưới, mạng internet hoặc dịch vụ số ngừng hoạt động.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-16",
+          "deckId": "toeic-ets",
+          "word": "prospective",
+          "pos": "adj",
+          "ipaUK": "/prəˈspek.tɪv/",
+          "ipaUS": "/prəˈspek.tɪv/",
+          "meaning": "tiềm năng, triển vọng",
+          "examples": [
+            {
+              "en": "The trade booth attracted dozens of prospective wholesale buyers.",
+              "vi": "Gian hàng hội chợ đã thu hút hàng chục người mua sỉ tiềm năng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "prospect",
+              "pos": "n",
+              "meaning": "triển vọng, khách tiềm năng"
+            }
+          ],
+          "synonyms": [
+            "potential",
+            "future",
+            "likely"
+          ],
+          "antonyms": [
+            "current",
+            "former"
+          ],
+          "collocations": [
+            {
+              "phrase": "prospective client",
+              "meaning": "khách hàng tiềm năng"
+            }
+          ],
+          "definitionEn": "Likely or expected to become a customer, employee, or business partner in the near future.",
+          "definitionVi": "Có tiềm năng và triển vọng trở thành khách hàng, nhân viên hoặc đối tác trong tương lai gần.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-17",
+          "deckId": "toeic-ets",
+          "word": "fluctuate",
+          "pos": "v",
+          "ipaUK": "/ˈflʌk.tʃu.eɪt/",
+          "ipaUS": "/ˈflʌk.tʃu.eɪt/",
+          "meaning": "dao động, biến động lên xuống",
+          "examples": [
+            {
+              "en": "Airfares fluctuate sharply around national holidays.",
+              "vi": "Giá vé máy bay biến động mạnh vào các dịp lễ quốc gia."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "fluctuation",
+              "pos": "n",
+              "meaning": "sự biến động"
+            }
+          ],
+          "synonyms": [
+            "vary",
+            "shift",
+            "oscillate"
+          ],
+          "antonyms": [
+            "stabilize"
+          ],
+          "collocations": [
+            {
+              "phrase": "price fluctuations",
+              "meaning": "biến động giá cả"
+            }
+          ],
+          "definitionEn": "To rise and fall irregularly in price, amount, or level over a period of time.",
+          "definitionVi": "Tăng giảm dao động thất thường về giá cả, số lượng hoặc mức độ theo thời gian.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-18",
+          "deckId": "toeic-ets",
+          "word": "comprehensive",
+          "pos": "adj",
+          "ipaUK": "/ˌkɒm.prɪˈhen.sɪv/",
+          "ipaUS": "/ˌkɑːm.prəˈhen.sɪv/",
+          "meaning": "toàn diện, bao quát đầy đủ",
+          "examples": [
+            {
+              "en": "Every new hire receives a comprehensive benefits handbook.",
+              "vi": "Mỗi nhân viên mới nhận một cuốn sổ tay phúc lợi toàn diện."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "comprehensively",
+              "pos": "adv",
+              "meaning": "toàn diện"
+            }
+          ],
+          "synonyms": [
+            "thorough",
+            "complete",
+            "exhaustive"
+          ],
+          "antonyms": [
+            "partial",
+            "incomplete"
+          ],
+          "collocations": [
+            {
+              "phrase": "comprehensive report",
+              "meaning": "báo cáo toàn diện"
+            }
+          ],
+          "definitionEn": "Complete and thorough, covering almost every relevant detail or aspect of a topic.",
+          "definitionVi": "Toàn diện và kỹ lưỡng, bao quát hầu như mọi chi tiết hay khía cạnh liên quan.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-19",
+          "deckId": "toeic-ets",
+          "word": "lucrative",
+          "pos": "adj",
+          "ipaUK": "/ˈluː.krə.tɪv/",
+          "ipaUS": "/ˈluː.krə.t̬ɪv/",
+          "meaning": "sinh lời cao, béo bở",
+          "examples": [
+            {
+              "en": "The startup signed a lucrative licensing deal in Japan.",
+              "vi": "Startup đã ký một thỏa thuận cấp phép đầy lợi nhuận tại Nhật Bản."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "profitable",
+            "remunerative"
+          ],
+          "antonyms": [
+            "unprofitable"
+          ],
+          "collocations": [
+            {
+              "phrase": "lucrative contract",
+              "meaning": "hợp đồng béo bở"
+            }
+          ],
+          "definitionEn": "Generating a large amount of profit or financial reward.",
+          "definitionVi": "Mang lại nguồn lợi nhuận lớn hoặc giá trị tài chính cao.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-20",
+          "deckId": "toeic-ets",
+          "word": "commence",
+          "pos": "v",
+          "ipaUK": "/kəˈmens/",
+          "ipaUS": "/kəˈmens/",
+          "meaning": "bắt đầu, khởi công (trang trọng)",
+          "examples": [
+            {
+              "en": "Bridge reinforcement work will commence at dawn on Monday.",
+              "vi": "Công tác gia cố cầu sẽ khởi công vào rạng sáng thứ Hai."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "commencement",
+              "pos": "n",
+              "meaning": "sự khởi đầu; lễ tốt nghiệp"
+            }
+          ],
+          "synonyms": [
+            "begin",
+            "start",
+            "launch"
+          ],
+          "antonyms": [
+            "conclude",
+            "terminate"
+          ],
+          "collocations": [
+            {
+              "phrase": "commence operations",
+              "meaning": "bắt đầu vận hành"
+            }
+          ],
+          "definitionEn": "To begin or officially start an operation, construction project, or formal ceremony.",
+          "definitionVi": "Bắt đầu hoặc chính thức khởi công một hoạt động, dự án xây dựng hay buổi lễ.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-21",
+          "deckId": "toeic-ets",
+          "word": "consolidate",
+          "pos": "v",
+          "ipaUK": "/kənˈsɒl.ɪ.deɪt/",
+          "ipaUS": "/kənˈsɑː.lə.deɪt/",
+          "meaning": "hợp nhất, củng cố (kho bãi, tài khoản)",
+          "examples": [
+            {
+              "en": "We plan to consolidate three regional offices into one modern campus.",
+              "vi": "Chúng tôi dự định hợp nhất ba văn phòng khu vực thành một khuôn viên hiện đại."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "consolidation",
+              "pos": "n",
+              "meaning": "sự hợp nhất"
+            }
+          ],
+          "synonyms": [
+            "merge",
+            "combine",
+            "unify"
+          ],
+          "antonyms": [
+            "split",
+            "separate"
+          ],
+          "collocations": [
+            {
+              "phrase": "consolidate shipments",
+              "meaning": "gộp các lô hàng"
+            }
+          ],
+          "definitionEn": "To merge (also similar to combine, unify) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hợp nhất, củng cố (kho bãi, tài khoản).",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-22",
+          "deckId": "toeic-ets",
+          "word": "compliance",
+          "pos": "n",
+          "ipaUK": "/kəmˈplaɪ.əns/",
+          "ipaUS": "/kəmˈplaɪ.əns/",
+          "meaning": "sự tuân thủ (luật, tiêu chuẩn — đi với with)",
+          "examples": [
+            {
+              "en": "All suppliers operate in full compliance with labor standards.",
+              "vi": "Mọi nhà cung cấp hoạt động tuân thủ đầy đủ tiêu chuẩn lao động."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "comply",
+              "pos": "v",
+              "meaning": "tuân thủ"
+            },
+            {
+              "word": "compliant",
+              "pos": "adj",
+              "meaning": "tuân thủ"
+            }
+          ],
+          "synonyms": [
+            "adherence",
+            "conformity"
+          ],
+          "antonyms": [
+            "violation",
+            "noncompliance"
+          ],
+          "collocations": [
+            {
+              "phrase": "in compliance with",
+              "meaning": "tuân thủ theo"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to adherence, conformity.",
+          "definitionVi": "Danh từ dùng để chỉ sự tuân thủ (luật, tiêu chuẩn — đi với with).",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-23",
+          "deckId": "toeic-ets",
+          "word": "relocate",
+          "pos": "v",
+          "ipaUK": "/ˌriː.ləʊˈkeɪt/",
+          "ipaUS": "/ˌriːˈloʊ.keɪt/",
+          "meaning": "di dời, chuyển địa điểm",
+          "examples": [
+            {
+              "en": "The design studio will relocate to a brighter warehouse loft downtown.",
+              "vi": "Studio thiết kế sẽ chuyển sang tầng gác kho sáng sủa hơn ở trung tâm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "relocation",
+              "pos": "n",
+              "meaning": "sự chuyển địa điểm"
+            }
+          ],
+          "synonyms": [
+            "move",
+            "transfer",
+            "shift"
+          ],
+          "antonyms": [
+            "remain"
+          ],
+          "collocations": [
+            {
+              "phrase": "relocate headquarters",
+              "meaning": "chuyển trụ sở chính"
+            }
+          ],
+          "definitionEn": "To move (also similar to transfer, shift) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động di dời, chuyển địa điểm.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-24",
+          "deckId": "toeic-ets",
+          "word": "remodel",
+          "pos": "v",
+          "ipaUK": "/ˌriːˈmɒd.əl/",
+          "ipaUS": "/ˌriːˈmɑː.dəl/",
+          "meaning": "cải tạo, thiết kế lại kiến trúc",
+          "examples": [
+            {
+              "en": "The bakery closed for ten days to remodel its dining area.",
+              "vi": "Tiệm bánh đóng cửa mười ngày để thiết kế lại khu vực ăn uống."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "remodeling",
+              "pos": "n",
+              "meaning": "việc cải tạo"
+            }
+          ],
+          "synonyms": [
+            "renovate",
+            "refurbish",
+            "redesign"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "remodel a kitchen",
+              "meaning": "cải tạo nhà bếp"
+            }
+          ],
+          "definitionEn": "To renovate (also similar to refurbish, redesign) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cải tạo, thiết kế lại kiến trúc.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-25",
+          "deckId": "toeic-ets",
+          "word": "refurbish",
+          "pos": "v",
+          "ipaUK": "/ˌriːˈfɜː.bɪʃ/",
+          "ipaUS": "/ˌriːˈfɝː.bɪʃ/",
+          "meaning": "tân trang lại như mới (nội thất, thiết bị)",
+          "examples": [
+            {
+              "en": "Technicians will refurbish returned laptops to factory standards.",
+              "vi": "Kỹ thuật viên sẽ tân trang lại các laptop hoàn trả về chuẩn nhà máy."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "refurbished",
+              "pos": "adj",
+              "meaning": "đã được tân trang"
+            }
+          ],
+          "synonyms": [
+            "renovate",
+            "restore",
+            "renew"
+          ],
+          "antonyms": [
+            "deteriorate"
+          ],
+          "collocations": [
+            {
+              "phrase": "refurbished equipment",
+              "meaning": "thiết bị tân trang"
+            }
+          ],
+          "definitionEn": "To renovate (also similar to restore, renew) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tân trang lại như mới (nội thất, thiết bị).",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-26",
+          "deckId": "toeic-ets",
+          "word": "unanimous",
+          "pos": "adj",
+          "ipaUK": "/juːˈnæn.ɪ.məs/",
+          "ipaUS": "/juːˈnæn.ə.məs/",
+          "meaning": "nhất trí hoàn toàn (100% phiếu)",
+          "examples": [
+            {
+              "en": "The board reached a unanimous decision to expand paid leave.",
+              "vi": "Hội đồng quản trị đã nhất trí hoàn toàn quyết định tăng ngày nghỉ có lương."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "unanimously",
+              "pos": "adv",
+              "meaning": "nhất trí 100%"
+            }
+          ],
+          "synonyms": [
+            "united",
+            "agreed",
+            "in full accord"
+          ],
+          "antonyms": [
+            "divided",
+            "split"
+          ],
+          "collocations": [
+            {
+              "phrase": "unanimous approval",
+              "meaning": "sự phê duyệt nhất trí tuyệt đối"
+            }
+          ],
+          "definitionEn": "Having the quality of being united, agreed, in full accord.",
+          "definitionVi": "Tính từ mô tả đặc điểm nhất trí hoàn toàn (100% phiếu).",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-27",
+          "deckId": "toeic-ets",
+          "word": "preliminary",
+          "pos": "adj",
+          "ipaUK": "/prɪˈlɪm.ɪ.nər.i/",
+          "ipaUS": "/prɪˈlɪm.ə.ner.i/",
+          "meaning": "sơ bộ, ban đầu",
+          "examples": [
+            {
+              "en": "Preliminary figures indicate a 14% rise in weekend visitors.",
+              "vi": "Số liệu sơ bộ cho thấy lượng khách cuối tuần tăng 14%."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "initial",
+            "introductory",
+            "tentative"
+          ],
+          "antonyms": [
+            "final",
+            "conclusive"
+          ],
+          "collocations": [
+            {
+              "phrase": "preliminary findings",
+              "meaning": "kết quả sơ bộ"
+            }
+          ],
+          "definitionEn": "Having the quality of being initial, introductory, tentative.",
+          "definitionVi": "Tính từ mô tả đặc điểm sơ bộ, ban đầu.",
+          "topicId": "ets-compliance"
+        },
+        {
+          "id": "ets-28",
+          "deckId": "toeic-ets",
+          "word": "consecutive",
+          "pos": "adj",
+          "ipaUK": "/kənˈsek.jʊ.tɪv/",
+          "ipaUS": "/kənˈsek.jə.t̬ɪv/",
+          "meaning": "liên tiếp, liền kề nhau",
+          "examples": [
+            {
+              "en": "Our store won the service excellence award for five consecutive years.",
+              "vi": "Cửa hàng chúng tôi thắng giải dịch vụ xuất sắc suốt năm năm liên tiếp."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "consecutively",
+              "pos": "adv",
+              "meaning": "liên tiếp"
+            }
+          ],
+          "synonyms": [
+            "successive",
+            "back-to-back",
+            "in a row"
+          ],
+          "antonyms": [
+            "intermittent"
+          ],
+          "collocations": [
+            {
+              "phrase": "consecutive quarters",
+              "meaning": "các quý liên tiếp"
+            }
+          ],
+          "definitionEn": "Having the quality of being successive, back-to-back, in a row.",
+          "definitionVi": "Tính từ mô tả đặc điểm liên tiếp, liền kề nhau.",
+          "topicId": "ets-compliance"
+        }
+      ]
+    },
+    {
+      "id": "ets-precision",
+      "name": "Hiệu suất, Tiến độ & Thanh toán",
+      "icon": "finance",
+      "words": [
+        {
+          "id": "ets-29",
+          "deckId": "toeic-ets",
+          "word": "redundant",
+          "pos": "adj",
+          "ipaUK": "/rɪˈdʌn.dənt/",
+          "ipaUS": "/rɪˈdʌn.dənt/",
+          "meaning": "dư thừa, không cần thiết (hoặc bị cắt giảm nhân sự)",
+          "examples": [
+            {
+              "en": "The new CRM eliminates redundant manual entry across departments.",
+              "vi": "Hệ thống CRM mới loại bỏ việc nhập liệu thủ công trùng lặp giữa các phòng ban."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "redundancy",
+              "pos": "n",
+              "meaning": "sự dư thừa"
+            }
+          ],
+          "synonyms": [
+            "superfluous",
+            "unnecessary",
+            "repetitive"
+          ],
+          "antonyms": [
+            "essential",
+            "necessary"
+          ],
+          "collocations": [
+            {
+              "phrase": "eliminate redundant steps",
+              "meaning": "loại bỏ các bước thừa"
+            }
+          ],
+          "definitionEn": "Having the quality of being superfluous, unnecessary, repetitive.",
+          "definitionVi": "Tính từ mô tả đặc điểm dư thừa, không cần thiết (hoặc bị cắt giảm nhân sự).",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-30",
+          "deckId": "toeic-ets",
+          "word": "deliberate",
+          "pos": "adj",
+          "ipaUK": "/dɪˈlɪb.ər.ət/",
+          "ipaUS": "/dɪˈlɪb.ɚ.ət/",
+          "meaning": "có chủ đích, thận trọng cân nhắc",
+          "examples": [
+            {
+              "en": "We took a deliberate approach to entering European markets.",
+              "vi": "Chúng tôi áp dụng cách tiếp cận thận trọng khi gia nhập thị trường châu Âu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "deliberately",
+              "pos": "adv",
+              "meaning": "cố ý, thận trọng"
+            }
+          ],
+          "synonyms": [
+            "intentional",
+            "careful",
+            "calculated"
+          ],
+          "antonyms": [
+            "accidental",
+            "hasty"
+          ],
+          "collocations": [
+            {
+              "phrase": "deliberate decision",
+              "meaning": "quyết định cân nhắc kỹ"
+            }
+          ],
+          "definitionEn": "Having the quality of being intentional, careful, calculated.",
+          "definitionVi": "Tính từ mô tả đặc điểm có chủ đích, thận trọng cân nhắc.",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-31",
+          "deckId": "toeic-ets",
+          "word": "solely",
+          "pos": "adv",
+          "ipaUK": "/ˈsəʊl.li/",
+          "ipaUS": "/ˈsoʊl.li/",
+          "meaning": "duy nhất, chỉ riêng",
+          "examples": [
+            {
+              "en": "Access to the rooftop garden is reserved solely for building tenants.",
+              "vi": "Lối lên vườn sân thượng chỉ dành riêng cho cư dân tòa nhà."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "sole",
+              "pos": "adj",
+              "meaning": "duy nhất"
+            }
+          ],
+          "synonyms": [
+            "exclusively",
+            "only",
+            "entirely"
+          ],
+          "antonyms": [
+            "jointly"
+          ],
+          "collocations": [
+            {
+              "phrase": "solely responsible for",
+              "meaning": "chịu trách nhiệm duy nhất về"
+            }
+          ],
+          "definitionEn": "In a way that is exclusively, only, entirely.",
+          "definitionVi": "Trạng từ diễn tả cách thức/mức độ duy nhất, chỉ riêng.",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-32",
+          "deckId": "toeic-ets",
+          "word": "exclusively",
+          "pos": "adv",
+          "ipaUK": "/ɪkˈskluː.sɪv.li/",
+          "ipaUS": "/ɪkˈskluː.sɪv.li/",
+          "meaning": "độc quyền, chỉ dành riêng cho",
+          "examples": [
+            {
+              "en": "These leather bags are sold exclusively through our online boutique.",
+              "vi": "Những chiếc túi da này được bán độc quyền trên cửa hàng trực tuyến của chúng tôi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "exclusive",
+              "pos": "adj",
+              "meaning": "độc quyền, cao cấp"
+            }
+          ],
+          "synonyms": [
+            "solely",
+            "uniquely"
+          ],
+          "antonyms": [
+            "widely"
+          ],
+          "collocations": [
+            {
+              "phrase": "exclusive rights",
+              "meaning": "quyền độc quyền"
+            }
+          ],
+          "definitionEn": "In a way that is solely, uniquely.",
+          "definitionVi": "Trạng từ diễn tả cách thức/mức độ độc quyền, chỉ dành riêng cho.",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-33",
+          "deckId": "toeic-ets",
+          "word": "overdue",
+          "pos": "adj",
+          "ipaUK": "/ˌəʊ.vəˈdʒuː/",
+          "ipaUS": "/ˌoʊ.vɚˈduː/",
+          "meaning": "quá hạn (thanh toán, bảo trì, chuyến bay)",
+          "examples": [
+            {
+              "en": "Automated reminders are sent whenever an account is seven days overdue.",
+              "vi": "Lời nhắc tự động được gửi bất cứ khi nào tài khoản quá hạn bảy ngày."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "late",
+            "past due",
+            "delayed"
+          ],
+          "antonyms": [
+            "on time",
+            "early"
+          ],
+          "collocations": [
+            {
+              "phrase": "overdue invoice",
+              "meaning": "hóa đơn quá hạn"
+            }
+          ],
+          "definitionEn": "Having the quality of being late, past due, delayed.",
+          "definitionVi": "Tính từ mô tả đặc điểm quá hạn (thanh toán, bảo trì, chuyến bay).",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-34",
+          "deckId": "toeic-ets",
+          "word": "remit",
+          "pos": "v",
+          "ipaUK": "/rɪˈmɪt/",
+          "ipaUS": "/rɪˈmɪt/",
+          "meaning": "chuyển tiền thanh toán (hóa đơn)",
+          "examples": [
+            {
+              "en": "Please remit payment within thirty calendar days of receipt.",
+              "vi": "Vui lòng chuyển tiền thanh toán trong vòng ba mươi ngày kể từ khi nhận hóa đơn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "remittance",
+              "pos": "n",
+              "meaning": "khoản tiền chuyển"
+            }
+          ],
+          "synonyms": [
+            "pay",
+            "send payment",
+            "settle"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "remit payment",
+              "meaning": "chuyển khoản thanh toán"
+            }
+          ],
+          "definitionEn": "To pay (also similar to send payment, settle) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động chuyển tiền thanh toán (hóa đơn).",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-35",
+          "deckId": "toeic-ets",
+          "word": "reimburse",
+          "pos": "v",
+          "ipaUK": "/ˌriː.ɪmˈbɜːs/",
+          "ipaUS": "/ˌriː.ɪmˈbɝːs/",
+          "meaning": "bồi hoàn chi phí",
+          "examples": [
+            {
+              "en": "The company will reimburse staff for approved hotel and meal receipts.",
+              "vi": "Công ty sẽ hoàn trả cho nhân viên các hóa đơn khách sạn và ăn uống được duyệt."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "reimbursement",
+              "pos": "n",
+              "meaning": "sự bồi hoàn"
+            }
+          ],
+          "synonyms": [
+            "repay",
+            "refund"
+          ],
+          "antonyms": [
+            "charge"
+          ],
+          "collocations": [
+            {
+              "phrase": "full reimbursement",
+              "meaning": "hoàn trả toàn bộ"
+            }
+          ],
+          "definitionEn": "To pay money back to an employee or customer for approved expenses they paid out of pocket.",
+          "definitionVi": "Hoàn trả lại tiền cho nhân viên hoặc khách hàng đối với các khoản chi phí hợp lệ họ đã ứng trước.",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-36",
+          "deckId": "toeic-ets",
+          "word": "liaise",
+          "pos": "v",
+          "ipaUK": "/liˈeɪz/",
+          "ipaUS": "/liˈeɪz/",
+          "meaning": "liên lạc, phối hợp làm đầu mối (đi với with)",
+          "examples": [
+            {
+              "en": "The coordinator must liaise closely with overseas manufacturers.",
+              "vi": "Điều phối viên phải liên hệ chặt chẽ với các nhà sản xuất nước ngoài."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "liaison",
+              "pos": "n",
+              "meaning": "người liên lạc đầu mối"
+            }
+          ],
+          "synonyms": [
+            "communicate",
+            "coordinate",
+            "interface"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "liaise with clients",
+              "meaning": "làm đầu mối phối hợp với khách hàng"
+            }
+          ],
+          "definitionEn": "To communicate (also similar to coordinate, interface) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động liên lạc, phối hợp làm đầu mối (đi với with).",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-37",
+          "deckId": "toeic-ets",
+          "word": "calibrate",
+          "pos": "v",
+          "ipaUK": "/ˈkæl.ɪ.breɪt/",
+          "ipaUS": "/ˈkæl.ə.breɪt/",
+          "meaning": "hiệu chuẩn (máy móc, cảm biến đo lường)",
+          "examples": [
+            {
+              "en": "Lab technicians calibrate the precision scales every Monday.",
+              "vi": "Kỹ thuật viên phòng thí nghiệm hiệu chuẩn cân chính xác mỗi sáng thứ Hai."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "calibration",
+              "pos": "n",
+              "meaning": "sự hiệu chuẩn"
+            }
+          ],
+          "synonyms": [
+            "adjust",
+            "fine-tune",
+            "standardize"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "calibrate instruments",
+              "meaning": "hiệu chuẩn thiết bị đo"
+            }
+          ],
+          "definitionEn": "To adjust (also similar to fine-tune, standardize) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hiệu chuẩn (máy móc, cảm biến đo lường).",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-38",
+          "deckId": "toeic-ets",
+          "word": "backordered",
+          "pos": "adj",
+          "ipaUK": "/ˈbækˌɔː.dəd/",
+          "ipaUS": "/ˈbækˌɔːr.dɚd/",
+          "meaning": "tạm hết hàng, đang chờ nhập giao sau",
+          "examples": [
+            {
+              "en": "Two popular ceramic tile patterns are currently backordered until June.",
+              "vi": "Hai mẫu gạch gốm bán chạy hiện đang tạm hết hàng chờ đến tháng Sáu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "backorder",
+              "pos": "n",
+              "meaning": "đơn đặt chờ hàng"
+            }
+          ],
+          "synonyms": [
+            "out of stock",
+            "pending restock"
+          ],
+          "antonyms": [
+            "in stock"
+          ],
+          "collocations": [
+            {
+              "phrase": "item on backorder",
+              "meaning": "mặt hàng đang đặt chờ"
+            }
+          ],
+          "definitionEn": "Having the quality of being out of stock, pending restock.",
+          "definitionVi": "Tính từ mô tả đặc điểm tạm hết hàng, đang chờ nhập giao sau.",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-39",
+          "deckId": "toeic-ets",
+          "word": "malfunction",
+          "pos": "n",
+          "ipaUK": "/ˌmælˈfʌŋk.ʃən/",
+          "ipaUS": "/ˌmælˈfʌŋk.ʃən/",
+          "meaning": "sự cố trục trặc kỹ thuật của máy",
+          "examples": [
+            {
+              "en": "A conveyor sensor malfunction briefly halted the packaging line.",
+              "vi": "Lỗi cảm biến băng chuyền đã tạm dừng dây chuyền đóng gói trong chốc lát."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "breakdown",
+            "glitch",
+            "failure"
+          ],
+          "antonyms": [
+            "smooth operation"
+          ],
+          "collocations": [
+            {
+              "phrase": "mechanical malfunction",
+              "meaning": "trục trặc cơ khí"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to breakdown, glitch, failure.",
+          "definitionVi": "Danh từ dùng để chỉ sự cố trục trặc kỹ thuật của máy.",
+          "topicId": "ets-precision"
+        },
+        {
+          "id": "ets-40",
+          "deckId": "toeic-ets",
+          "word": "patron",
+          "pos": "n",
+          "ipaUK": "/ˈpeɪ.trən/",
+          "ipaUS": "/ˈpeɪ.trən/",
+          "meaning": "khách hàng quen (nhà hàng, thư viện, bảo tàng)",
+          "examples": [
+            {
+              "en": "Every museum patron receives an invitation to the autumn preview.",
+              "vi": "Mỗi khách quen của bảo tàng đều nhận thiệp mời dự buổi xem trước mùa thu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "patronage",
+              "pos": "n",
+              "meaning": "sự ủng hộ của khách hàng"
+            }
+          ],
+          "synonyms": [
+            "customer",
+            "client",
+            "visitor"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "thank you for your patronage",
+              "meaning": "cảm ơn sự ủng hộ của quý khách"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to customer, client, visitor.",
+          "definitionVi": "Danh từ dùng để chỉ khách hàng quen (nhà hàng, thư viện, bảo tàng).",
+          "topicId": "ets-precision"
+        }
+      ]
+    },
+    {
+      "id": "ets-hospitality",
+      "name": "Sự kiện, Ẩm thực & Khách sạn",
+      "icon": "hospitality",
+      "words": [
+        {
+          "id": "ets-41",
+          "deckId": "toeic-ets",
+          "word": "beverage",
+          "pos": "n",
+          "ipaUK": "/ˈbev.ər.ɪdʒ/",
+          "ipaUS": "/ˈbev.ɚ.ɪdʒ/",
+          "meaning": "đồ uống, thức uống (trang trọng)",
+          "examples": [
+            {
+              "en": "Every guest receives one complimentary hot beverage in the lounge.",
+              "vi": "Mỗi khách được tặng một đồ uống nóng miễn phí tại phòng chờ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "drink",
+            "refreshment"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "food and beverage",
+              "meaning": "ẩm thực và đồ uống (F&B)"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to drink, refreshment.",
+          "definitionVi": "Danh từ dùng để chỉ đồ uống, thức uống (trang trọng).",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-42",
+          "deckId": "toeic-ets",
+          "word": "refreshments",
+          "pos": "n",
+          "ipaUK": "/rɪˈfreʃ.mənts/",
+          "ipaUS": "/rɪˈfreʃ.mənts/",
+          "meaning": "đồ ăn nhẹ và nước giải khát (luôn dùng số nhiều)",
+          "examples": [
+            {
+              "en": "Light refreshments will be served during the fifteen-minute intermission.",
+              "vi": "Đồ ăn nhẹ sẽ được phục vụ trong giờ giải lao mười lăm phút."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "snacks and drinks",
+            "light fare"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "light refreshments",
+              "meaning": "tiệc trà nhẹ"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to snacks and drinks, light fare.",
+          "definitionVi": "Danh từ dùng để chỉ đồ ăn nhẹ và nước giải khát (luôn dùng số nhiều).",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-43",
+          "deckId": "toeic-ets",
+          "word": "intermission",
+          "pos": "n",
+          "ipaUK": "/ˌɪn.təˈmɪʃ.ən/",
+          "ipaUS": "/ˌɪn.t̬ɚˈmɪʃ.ən/",
+          "meaning": "giờ giải lao giữa buổi diễn/hội nghị",
+          "examples": [
+            {
+              "en": "Attendees gathered in the foyer for coffee during the intermission.",
+              "vi": "Người tham dự tập trung tại tiền sảnh uống cà phê trong giờ nghỉ giải lao."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "break",
+            "interval",
+            "pause"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "fifteen-minute intermission",
+              "meaning": "giờ giải lao 15 phút"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to break, interval, pause.",
+          "definitionVi": "Danh từ dùng để chỉ giờ giải lao giữa buổi diễn/hội nghị.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-44",
+          "deckId": "toeic-ets",
+          "word": "attire",
+          "pos": "n",
+          "ipaUK": "/əˈtaɪər/",
+          "ipaUS": "/əˈtaɪr/",
+          "meaning": "trang phục (trang trọng)",
+          "examples": [
+            {
+              "en": "Business casual attire is appropriate for the client networking dinner.",
+              "vi": "Trang phục công sở thoải mái là phù hợp cho bữa tối giao lưu khách hàng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "clothing",
+            "apparel",
+            "dress"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "formal attire",
+              "meaning": "trang phục trang trọng"
+            },
+            {
+              "phrase": "business attire",
+              "meaning": "trang phục công sở"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to clothing, apparel, dress.",
+          "definitionVi": "Danh từ dùng để chỉ trang phục (trang trọng).",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-45",
+          "deckId": "toeic-ets",
+          "word": "apparel",
+          "pos": "n",
+          "ipaUK": "/əˈpær.əl/",
+          "ipaUS": "/əˈpæ.ɹəl/",
+          "meaning": "quần áo, hàng may mặc",
+          "examples": [
+            {
+              "en": "The athletic apparel retailer opened three flagship stores this spring.",
+              "vi": "Nhà bán lẻ quần áo thể thao đã mở ba cửa hàng chủ lực mùa xuân này."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "clothing",
+            "garments",
+            "wear",
+            "dight",
+            "don"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "outdoor apparel",
+              "meaning": "trang phục dã ngoại"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/apparel-us.mp3",
+          "definitionEn": "A concept, item, or formal term closely related to clothing, garments, wear.",
+          "definitionVi": "Danh từ dùng để chỉ quần áo, hàng may mặc.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-46",
+          "deckId": "toeic-ets",
+          "word": "cuisine",
+          "pos": "n",
+          "ipaUK": "/kwɪˈziːn/",
+          "ipaUS": "/kwɪˈziːn/",
+          "meaning": "ẩm thực, phong cách nấu nướng",
+          "examples": [
+            {
+              "en": "Chef Morales specializes in contemporary Mediterranean cuisine.",
+              "vi": "Bếp trưởng Morales chuyên về ẩm thực Địa Trung Hải đương đại."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "cooking",
+            "gastronomy",
+            "fare"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "local cuisine",
+              "meaning": "ẩm thực địa phương"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to cooking, gastronomy, fare.",
+          "definitionVi": "Danh từ dùng để chỉ ẩm thực, phong cách nấu nướng.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-47",
+          "deckId": "toeic-ets",
+          "word": "venue",
+          "pos": "n",
+          "ipaUK": "/ˈven.juː/",
+          "ipaUS": "/ˈven.juː/",
+          "meaning": "địa điểm tổ chức sự kiện",
+          "examples": [
+            {
+              "en": "We selected a riverside convention center as our conference venue.",
+              "vi": "Chúng tôi chọn một trung tâm hội nghị ven sông làm địa điểm tổ chức."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "location",
+            "site",
+            "hall"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "event venue",
+              "meaning": "địa điểm sự kiện"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to location, site, hall.",
+          "definitionVi": "Danh từ dùng để chỉ địa điểm tổ chức sự kiện.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-48",
+          "deckId": "toeic-ets",
+          "word": "keynote",
+          "pos": "n",
+          "ipaUK": "/ˈkiː.nəʊt/",
+          "ipaUS": "/ˈkiː.noʊt/",
+          "meaning": "bài phát biểu chính / diễn giả chính",
+          "examples": [
+            {
+              "en": "Dr. Lin delivered an inspiring keynote on renewable urban grids.",
+              "vi": "Tiến sĩ Lin đã trình bày bài diễn văn chính đầy cảm hứng về lưới điện đô thị tái tạo."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "main address",
+            "featured speech"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "keynote speaker",
+              "meaning": "diễn giả chính"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to main address, featured speech.",
+          "definitionVi": "Danh từ dùng để chỉ bài phát biểu chính / diễn giả chính.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-49",
+          "deckId": "toeic-ets",
+          "word": "brochure",
+          "pos": "n",
+          "ipaUK": "/ˈbrəʊ.ʃər/",
+          "ipaUS": "/broʊˈʃʊr/",
+          "meaning": "tờ gấp quảng cáo, cuốn giới thiệu sản phẩm",
+          "examples": [
+            {
+              "en": "Pick up a trail map and brochure at the visitor information desk.",
+              "vi": "Lấy bản đồ đường mòn và tờ gấp giới thiệu tại bàn thông tin du khách."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "pamphlet",
+            "leaflet",
+            "booklet"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "promotional brochure",
+              "meaning": "tờ rơi quảng bá"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to pamphlet, leaflet, booklet.",
+          "definitionVi": "Danh từ dùng để chỉ tờ gấp quảng cáo, cuốn giới thiệu sản phẩm.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-50",
+          "deckId": "toeic-ets",
+          "word": "endorse",
+          "pos": "v",
+          "ipaUK": "/ɪnˈdɔːs/",
+          "ipaUS": "/ɪnˈdɔːrs/",
+          "meaning": "chứng thực, ủng hộ, đại diện quảng bá",
+          "examples": [
+            {
+              "en": "Several Olympic cyclists endorse our carbon-frame bicycles.",
+              "vi": "Nhiều tay đua xe đạp Olympic đại diện quảng bá cho dòng xe khung carbon của chúng tôi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "endorsement",
+              "pos": "n",
+              "meaning": "sự chứng thực, quảng bá"
+            }
+          ],
+          "synonyms": [
+            "back",
+            "support",
+            "sponsor"
+          ],
+          "antonyms": [
+            "oppose"
+          ],
+          "collocations": [
+            {
+              "phrase": "celebrity endorsement",
+              "meaning": "người nổi tiếng quảng bá"
+            }
+          ],
+          "definitionEn": "To back (also similar to support, sponsor) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động chứng thực, ủng hộ, đại diện quảng bá.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-51",
+          "deckId": "toeic-ets",
+          "word": "acclaim",
+          "pos": "n",
+          "ipaUK": "/ə.ˈkleɪm/",
+          "ipaUS": "/ə.ˈkleɪm/",
+          "meaning": "sự khen ngợi nhiệt liệt, tán dương",
+          "examples": [
+            {
+              "en": "The documentary earned critical acclaim at international film festivals.",
+              "vi": "Bộ phim tài liệu nhận được sự tán dương từ giới phê bình tại các liên hoan phim quốc tế."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "acclaimed",
+              "pos": "adj",
+              "meaning": "được ca ngợi rộng rãi"
+            }
+          ],
+          "synonyms": [
+            "praise",
+            "applause",
+            "recognition"
+          ],
+          "antonyms": [
+            "criticism"
+          ],
+          "collocations": [
+            {
+              "phrase": "critically acclaimed",
+              "meaning": "được giới phê bình ca ngợi"
+            }
+          ],
+          "audioUrlUK": "https://api.dictionaryapi.dev/media/pronunciations/en/acclaim-uk.mp3",
+          "definitionEn": "A concept, item, or formal term closely related to praise, applause, recognition.",
+          "definitionVi": "Danh từ dùng để chỉ sự khen ngợi nhiệt liệt, tán dương.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-52",
+          "deckId": "toeic-ets",
+          "word": "renowned",
+          "pos": "adj",
+          "ipaUK": "/rɪˈnaʊnd/",
+          "ipaUS": "/rɪˈnaʊnd/",
+          "meaning": "nổi tiếng, lừng danh",
+          "examples": [
+            {
+              "en": "The conservatory is renowned for its rare orchid collection.",
+              "vi": "Nhà kính nổi tiếng với bộ sưu tập hoa lan quý hiếm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "famous",
+            "celebrated",
+            "distinguished"
+          ],
+          "antonyms": [
+            "obscure",
+            "unknown"
+          ],
+          "collocations": [
+            {
+              "phrase": "world-renowned",
+              "meaning": "nổi tiếng thế giới"
+            }
+          ],
+          "definitionEn": "Having the quality of being famous, celebrated, distinguished.",
+          "definitionVi": "Tính từ mô tả đặc điểm nổi tiếng, lừng danh.",
+          "topicId": "ets-hospitality"
+        },
+        {
+          "id": "ets-53",
+          "deckId": "toeic-ets",
+          "word": "esteemed",
+          "pos": "adj",
+          "ipaUK": "/ɪˈstiːmd/",
+          "ipaUS": "/ɪˈstiːmd/",
+          "meaning": "đáng kính, uy tín cao",
+          "examples": [
+            {
+              "en": "We are honored to welcome our esteemed colleagues from Zurich.",
+              "vi": "Chúng tôi vinh dự chào đón các đồng nghiệp đáng kính đến từ Zurich."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "esteem",
+              "pos": "n",
+              "meaning": "sự kính trọng"
+            }
+          ],
+          "synonyms": [
+            "respected",
+            "admired",
+            "prestigious"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "highly esteemed",
+              "meaning": "rất được kính trọng"
+            }
+          ],
+          "definitionEn": "Having the quality of being respected, admired, prestigious.",
+          "definitionVi": "Tính từ mô tả đặc điểm đáng kính, uy tín cao.",
+          "topicId": "ets-hospitality"
+        }
+      ]
+    },
+    {
+      "id": "ets-trade",
+      "name": "Tài chính, Nhân sự & Xuất nhập khẩu",
+      "icon": "logistics",
+      "words": [
+        {
+          "id": "ets-54",
+          "deckId": "toeic-ets",
+          "word": "lucid",
+          "pos": "adj",
+          "ipaUK": "/ˈluː.sɪd/",
+          "ipaUS": "/ˈluː.sɪd/",
+          "meaning": "sáng sủa, rõ ràng mạch lạc",
+          "examples": [
+            {
+              "en": "The manual offers a lucid explanation of complex tax rules.",
+              "vi": "Cuốn hướng dẫn đưa ra lời giải thích mạch lạc về các quy định thuế phức tạp."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "clear",
+            "intelligible",
+            "coherent"
+          ],
+          "antonyms": [
+            "confusing",
+            "vague"
+          ],
+          "collocations": [
+            {
+              "phrase": "lucid explanation",
+              "meaning": "giải thích rõ ràng"
+            }
+          ],
+          "definitionEn": "Having the quality of being clear, intelligible, coherent.",
+          "definitionVi": "Tính từ mô tả đặc điểm sáng sủa, rõ ràng mạch lạc.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-55",
+          "deckId": "toeic-ets",
+          "word": "surplus",
+          "pos": "n",
+          "ipaUK": "/ˈsɜː.pləs/",
+          "ipaUS": "/ˈsɝː.pləs/",
+          "meaning": "lượng dư thừa, thặng dư",
+          "examples": [
+            {
+              "en": "The bakery donates any daily bread surplus to local shelters.",
+              "vi": "Tiệm bánh quyên góp toàn bộ bánh mì dư hàng ngày cho các nhà tạm trú địa phương."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "excess",
+            "overflow",
+            "extra"
+          ],
+          "antonyms": [
+            "shortage",
+            "deficit"
+          ],
+          "collocations": [
+            {
+              "phrase": "budget surplus",
+              "meaning": "thặng dư ngân sách"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to excess, overflow, extra.",
+          "definitionVi": "Danh từ dùng để chỉ lượng dư thừa, thặng dư.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-56",
+          "deckId": "toeic-ets",
+          "word": "deficit",
+          "pos": "n",
+          "ipaUK": "/ˈdef.ɪ.sɪt/",
+          "ipaUS": "/ˈdef.ə.sɪt/",
+          "meaning": "sự thâm hụt, thiếu hụt",
+          "examples": [
+            {
+              "en": "Strong export growth helped narrow the quarterly trade deficit.",
+              "vi": "Tăng trưởng xuất khẩu mạnh giúp thu hẹp thâm hụt thương mại hàng quý."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "shortfall",
+            "shortage"
+          ],
+          "antonyms": [
+            "surplus"
+          ],
+          "collocations": [
+            {
+              "phrase": "trade deficit",
+              "meaning": "thâm hụt thương mại"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to shortfall, shortage.",
+          "definitionVi": "Danh từ dùng để chỉ sự thâm hụt, thiếu hụt.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-57",
+          "deckId": "toeic-ets",
+          "word": "incentive",
+          "pos": "n",
+          "ipaUK": "/ɪnˈsen.tɪv/",
+          "ipaUS": "/ɪnˈsen.t̬ɪv/",
+          "meaning": "ưu đãi, động lực khuyến khích",
+          "examples": [
+            {
+              "en": "Sales staff receive quarterly bonuses as a performance incentive.",
+              "vi": "Nhân viên kinh doanh nhận thưởng quý như một động lực hiệu suất."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "incentivize",
+              "pos": "v",
+              "meaning": "khuyến khích bằng ưu đãi"
+            }
+          ],
+          "synonyms": [
+            "motivation",
+            "bonus",
+            "perk"
+          ],
+          "antonyms": [
+            "deterrent"
+          ],
+          "collocations": [
+            {
+              "phrase": "tax incentive",
+              "meaning": "ưu đãi thuế"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to motivation, bonus, perk.",
+          "definitionVi": "Danh từ dùng để chỉ ưu đãi, động lực khuyến khích.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-58",
+          "deckId": "toeic-ets",
+          "word": "subsidy",
+          "pos": "n",
+          "ipaUK": "/ˈsʌb.sɪ.di/",
+          "ipaUS": "/ˈsʌb.sə.di/",
+          "meaning": "khoản trợ cấp (từ chính phủ/công ty)",
+          "examples": [
+            {
+              "en": "Commuters qualify for a monthly public-transit subsidy.",
+              "vi": "Nhân viên đi làm đủ điều kiện nhận trợ cấp phương tiện công cộng hàng tháng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "subsidize",
+              "pos": "v",
+              "meaning": "trợ giá, trợ cấp"
+            }
+          ],
+          "synonyms": [
+            "grant",
+            "allowance",
+            "stipend"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "government subsidy",
+              "meaning": "trợ cấp chính phủ"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to grant, allowance, stipend.",
+          "definitionVi": "Danh từ dùng để chỉ khoản trợ cấp (từ chính phủ/công ty).",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-59",
+          "deckId": "toeic-ets",
+          "word": "stipend",
+          "pos": "n",
+          "ipaUK": "/ˈstaɪ.pend/",
+          "ipaUS": "/ˈstaɪ.pend/",
+          "meaning": "khoản phụ cấp cố định (thực tập, công tác)",
+          "examples": [
+            {
+              "en": "Remote workers receive a $500 home-office equipment stipend.",
+              "vi": "Nhân viên làm từ xa nhận phụ cấp 500 đô la mua thiết bị văn phòng tại nhà."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "allowance",
+            "grant"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "monthly stipend",
+              "meaning": "phụ cấp hàng tháng"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to allowance, grant.",
+          "definitionVi": "Danh từ dùng để chỉ khoản phụ cấp cố định (thực tập, công tác).",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-60",
+          "deckId": "toeic-ets",
+          "word": "turnover",
+          "pos": "n",
+          "ipaUK": "/ˈtɜːn.əʊ.vər/",
+          "ipaUS": "/ˈtɝːn.oʊ.vɚ/",
+          "meaning": "tỷ lệ nghỉ việc nhân sự; doanh thu bán hàng",
+          "examples": [
+            {
+              "en": "Flexible hours helped reduce employee turnover by half.",
+              "vi": "Giờ làm linh hoạt giúp giảm một nửa tỷ lệ nhân viên nghỉ việc."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "attrition",
+            "revenue"
+          ],
+          "antonyms": [
+            "retention"
+          ],
+          "collocations": [
+            {
+              "phrase": "staff turnover",
+              "meaning": "tỷ lệ biến động nhân sự"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to attrition, revenue.",
+          "definitionVi": "Danh từ dùng để chỉ tỷ lệ nghỉ việc nhân sự; doanh thu bán hàng.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-61",
+          "deckId": "toeic-ets",
+          "word": "retention",
+          "pos": "n",
+          "ipaUK": "/rɪˈten.ʃən/",
+          "ipaUS": "/rɪˈten.ʃən/",
+          "meaning": "sự giữ chân (nhân viên, khách hàng)",
+          "examples": [
+            {
+              "en": "Career mentorship programs improve long-term employee retention.",
+              "vi": "Chương trình cố vấn nghề nghiệp cải thiện khả năng giữ chân nhân viên lâu dài."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "retain",
+              "pos": "v",
+              "meaning": "giữ lại"
+            }
+          ],
+          "synonyms": [
+            "preservation",
+            "keeping"
+          ],
+          "antonyms": [
+            "attrition",
+            "turnover"
+          ],
+          "collocations": [
+            {
+              "phrase": "customer retention",
+              "meaning": "giữ chân khách hàng"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to preservation, keeping.",
+          "definitionVi": "Danh từ dùng để chỉ sự giữ chân (nhân viên, khách hàng).",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-62",
+          "deckId": "toeic-ets",
+          "word": "procurement",
+          "pos": "n",
+          "ipaUK": "/prəˈkjʊə.mənt/",
+          "ipaUS": "/prəˈkjʊr.mənt/",
+          "meaning": "công tác thu mua, đấu thầu vật tư",
+          "examples": [
+            {
+              "en": "The procurement department negotiates raw material contracts.",
+              "vi": "Phòng thu mua đàm phán các hợp đồng nguyên liệu thô."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "procure",
+              "pos": "v",
+              "meaning": "thu mua, kiếm được"
+            }
+          ],
+          "synonyms": [
+            "purchasing",
+            "acquisition"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "procurement policy",
+              "meaning": "chính sách thu mua"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to purchasing, acquisition.",
+          "definitionVi": "Danh từ dùng để chỉ công tác thu mua, đấu thầu vật tư.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-63",
+          "deckId": "toeic-ets",
+          "word": "logistics",
+          "pos": "n",
+          "ipaUK": "/ləˈdʒɪs.tɪks/",
+          "ipaUS": "/ləˈdʒɪs.tɪks/",
+          "meaning": "hậu cần, vận chuyển kho bãi",
+          "examples": [
+            {
+              "en": "Efficient logistics cut our average shipping time to two days.",
+              "vi": "Hệ thống hậu cần hiệu quả rút ngắn thời gian giao hàng trung bình xuống hai ngày."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "logistical",
+              "pos": "adj",
+              "meaning": "thuộc về hậu cần"
+            }
+          ],
+          "synonyms": [
+            "supply chain",
+            "distribution"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "logistics coordinator",
+              "meaning": "điều phối viên logistics"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to supply chain, distribution.",
+          "definitionVi": "Danh từ dùng để chỉ hậu cần, vận chuyển kho bãi.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-64",
+          "deckId": "toeic-ets",
+          "word": "customs",
+          "pos": "n",
+          "ipaUK": "/ˈkʌs.təmz/",
+          "ipaUS": "/ˈkʌs.təmz/",
+          "meaning": "hải quan, thủ tục thông quan",
+          "examples": [
+            {
+              "en": "International parcels may take extra days to clear customs.",
+              "vi": "Bưu kiện quốc tế có thể mất thêm vài ngày để làm thủ tục hải quan."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "border control",
+            "import inspection"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "clear customs",
+              "meaning": "thông quan hải quan"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to border control, import inspection.",
+          "definitionVi": "Danh từ dùng để chỉ hải quan, thủ tục thông quan.",
+          "topicId": "ets-trade"
+        },
+        {
+          "id": "ets-65",
+          "deckId": "toeic-ets",
+          "word": "tariff",
+          "pos": "n",
+          "ipaUK": "/ˈtær.ɪf/",
+          "ipaUS": "/ˈter.ɪf/",
+          "meaning": "thuế quan xuất nhập khẩu",
+          "examples": [
+            {
+              "en": "A new import tariff raised the retail cost of steel components.",
+              "vi": "Thuế nhập khẩu mới đã làm tăng giá bán lẻ linh kiện thép."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "duty",
+            "import tax",
+            "levy"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "customs tariff",
+              "meaning": "biểu thuế hải quan"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to duty, import tax, levy.",
+          "definitionVi": "Danh từ dùng để chỉ thuế quan xuất nhập khẩu.",
+          "topicId": "ets-trade"
+        }
+      ]
+    }
+  ]
+}

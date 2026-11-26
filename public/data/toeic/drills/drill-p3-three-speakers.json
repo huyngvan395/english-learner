@@ -1,0 +1,412 @@
+{
+  "id": "drill-p3-three-speakers",
+  "part": 3,
+  "title": "Hội thoại 3 người (3-Speaker Discussions)",
+  "subtitle": "Theo dõi chính xác vai trò từng nhân vật trong họp kỹ thuật và triển lãm.",
+  "focusTag": "3 Speakers",
+  "part3": [
+    {
+      "id": "dp3-3s-1",
+      "part": 3,
+      "title": "Hội thoại 3 người khắc phục lỗi ứng dụng thanh toán",
+      "scenario": "Công nghệ & CSKH (3 người)",
+      "speakerCount": 3,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-3s-1-l1",
+          "speaker": "Man 1",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Thanks for jumping on quickly, Sarah and Ben. Several shoppers reported that coupon codes aren't applying at checkout.",
+          "vi": "Cảm ơn đã họp nhanh, Sarah và Ben. Vài khách mua sắm báo mã giảm giá không áp dụng được lúc thanh toán.",
+          "evidenceForQuestionIds": [
+            "dp3-3s-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 8136
+        },
+        {
+          "id": "dp3-3s-1-l2",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "I traced the bug—last night's currency-rounding patch accidentally disabled ten-digit promo codes.",
+          "vi": "Tôi tìm ra lỗi rồi—bản vá làm tròn tiền tệ tối qua vô tình vô hiệu hóa các mã khuyến mãi mười ký tự.",
+          "evidenceForQuestionIds": [
+            "dp3-3s-1-q2"
+          ],
+          "startMs": 8516,
+          "endMs": 15116
+        },
+        {
+          "id": "dp3-3s-1-l3",
+          "speaker": "Man 2",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "How fast can we roll out a fix? Our flash sale starts in two hours.",
+          "vi": "Ta tung bản sửa lỗi nhanh cỡ nào? Đợt flash sale bắt đầu sau hai tiếng nữa.",
+          "evidenceForQuestionIds": [],
+          "startMs": 15496,
+          "endMs": 21568
+        },
+        {
+          "id": "dp3-3s-1-l4",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Give me thirty minutes to push the hotfix. Ben, could your team send apology vouchers to anyone affected today?",
+          "vi": "Cho tôi ba mươi phút để đẩy bản sửa nóng. Ben, đội anh gửi phiếu xin lỗi cho khách bị ảnh hưởng hôm nay nhé?",
+          "evidenceForQuestionIds": [
+            "dp3-3s-1-q3"
+          ],
+          "startMs": 21948,
+          "endMs": 29676
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-3s-1-q1",
+          "questionNumber": 1,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What issue are customers experiencing?",
+          "promptVi": "Khách hàng đang gặp sự cố gì?",
+          "options": {
+            "A": {
+              "en": "Discount codes fail to work at checkout.",
+              "vi": "Mã giảm giá không hoạt động khi thanh toán."
+            },
+            "B": {
+              "en": "Product photos fail to load.",
+              "vi": "Ảnh sản phẩm không tải được."
+            },
+            "C": {
+              "en": "Delivery tracking links expired.",
+              "vi": "Link theo dõi giao hàng hết hạn."
+            },
+            "D": {
+              "en": "Credit cards are charged twice.",
+              "vi": "Thẻ tín dụng bị trừ tiền hai lần."
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'coupon codes aren't applying' -> 'discount codes fail to work'",
+            "trapAnalysis": "Câu đầu nêu chính xác lỗi mã giảm giá.",
+            "paraphrases": [
+              {
+                "audioPhrase": "coupon codes aren't applying",
+                "answerPhrase": "discount codes fail to work",
+                "meaningVi": "mã giảm giá bị lỗi"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-3s-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What caused the technical problem?",
+          "promptVi": "Nguyên nhân của sự cố kỹ thuật là gì?",
+          "options": {
+            "A": {
+              "en": "A server power outage",
+              "vi": "Sự cố mất điện máy chủ"
+            },
+            "B": {
+              "en": "A recent software update",
+              "vi": "Một bản cập nhật phần mềm gần đây"
+            },
+            "C": {
+              "en": "An expired security certificate",
+              "vi": "Chứng chỉ bảo mật hết hạn"
+            },
+            "D": {
+              "en": "Unusually high traffic",
+              "vi": "Lưu lượng truy cập tăng đột biến"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'last night's patch' -> 'a recent software update'",
+            "trapAnalysis": "patch = software update (bản vá phần mềm).",
+            "paraphrases": [
+              {
+                "audioPhrase": "last night's patch",
+                "answerPhrase": "a recent software update",
+                "meaningVi": "bản cập nhật phần mềm tối qua"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-3s-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What does Sarah ask Ben to do?",
+          "promptVi": "Sarah nhờ Ben làm gì?",
+          "options": {
+            "A": {
+              "en": "Delay the flash sale",
+              "vi": "Hoãn đợt flash sale"
+            },
+            "B": {
+              "en": "Test the hotfix on mobile",
+              "vi": "Kiểm thử bản vá trên di động"
+            },
+            "C": {
+              "en": "Issue vouchers to affected shoppers",
+              "vi": "Gửi phiếu ưu đãi cho khách bị ảnh hưởng"
+            },
+            "D": {
+              "en": "Call the payment processor",
+              "vi": "Gọi cổng thanh toán"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "Phân biệt đúng ai nhờ ai trong hội thoại 3 người!",
+            "trapAnalysis": "Sarah nói: 'Ben, could your team send apology vouchers to anyone affected today?'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "send apology vouchers",
+                "answerPhrase": "issue vouchers to affected shoppers",
+                "meaningVi": "gửi phiếu ưu đãi xin lỗi khách"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Sai.",
+              "C": "Đúng.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-3s-1-v1",
+          "word": "roll out",
+          "pos": "phrase",
+          "ipaUK": "/rəʊl aʊt/",
+          "ipaUS": "/roʊl aʊt/",
+          "meaning": "triển khai, tung ra diện rộng",
+          "exampleEn": "The company will roll out its updated mobile app next Monday.",
+          "exampleVi": "Công ty sẽ triển khai ứng dụng di động mới vào thứ Hai tới."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-3s-1.mp3"
+    },
+    {
+      "id": "dp3-3s-2",
+      "part": 3,
+      "title": "Hội thoại 3 người bố trí triển lãm tranh bảo tàng",
+      "scenario": "Nghệ thuật & Sự kiện (3 người)",
+      "speakerCount": 3,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-3s-2-l1",
+          "speaker": "Woman 1",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Welcome to Gallery West, everyone. As curator, I want the coastal oil paintings hung along the north wall.",
+          "vi": "Chào mừng tới Phòng trưng bày Tây. Với tư cách giám tuyển, tôi muốn các bức sơn dầu biển treo dọc tường phía bắc.",
+          "evidenceForQuestionIds": [
+            "dp3-3s-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 7944
+        },
+        {
+          "id": "dp3-3s-2-l2",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Got it—I'll angle the overhead track spotlights so there's zero glare on the canvases.",
+          "vi": "Hiểu rồi—tôi sẽ chỉnh góc đèn rọi thanh ray trên trần để không bị chói trên mặt tranh.",
+          "evidenceForQuestionIds": [
+            "dp3-3s-2-q2"
+          ],
+          "startMs": 8324,
+          "endMs": 13580
+        },
+        {
+          "id": "dp3-3s-2-l3",
+          "speaker": "Woman 2",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "And I've finished printing the bilingual wall plaques with QR codes for the audio guide.",
+          "vi": "Còn tôi đã in xong các bảng chú thích tường song ngữ kèm mã QR cho hướng dẫn âm thanh rồi.",
+          "evidenceForQuestionIds": [
+            "dp3-3s-2-q3"
+          ],
+          "startMs": 13960,
+          "endMs": 19264
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-3s-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "Where is the conversation taking place?",
+          "promptVi": "Cuộc hội thoại diễn ra ở đâu?",
+          "options": {
+            "A": {
+              "en": "At a framing workshop",
+              "vi": "Tại xưởng đóng khung"
+            },
+            "B": {
+              "en": "In an art gallery",
+              "vi": "Trong một phòng trưng bày nghệ thuật"
+            },
+            "C": {
+              "en": "At an outdoor market",
+              "vi": "Tại chợ ngoài trời"
+            },
+            "D": {
+              "en": "In a university library",
+              "vi": "Trong thư viện đại học"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu mở đầu: 'Welcome to Gallery West' + 'curator / oil paintings'",
+            "trapAnalysis": "Nhận diện ngay không gian bảo tàng/phòng tranh.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Gallery West / curator",
+                "answerPhrase": "art gallery",
+                "meaningVi": "phòng trưng bày nghệ thuật"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-3s-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What is the man responsible for?",
+          "promptVi": "Người đàn ông chịu trách nhiệm việc gì?",
+          "options": {
+            "A": {
+              "en": "Adjusting the exhibition lighting",
+              "vi": "Điều chỉnh ánh sáng triển lãm"
+            },
+            "B": {
+              "en": "Writing artist biographies",
+              "vi": "Viết tiểu sử họa sĩ"
+            },
+            "C": {
+              "en": "Selling admission tickets",
+              "vi": "Bán vé vào cửa"
+            },
+            "D": {
+              "en": "Transporting wooden crates",
+              "vi": "Vận chuyển thùng gỗ"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'angle the overhead track spotlights' -> 'adjusting exhibition lighting'",
+            "trapAnalysis": "Theo dõi kỹ vai trò của từng người trong hội thoại 3 người!",
+            "paraphrases": [
+              {
+                "audioPhrase": "angle overhead spotlights",
+                "answerPhrase": "adjust exhibition lighting",
+                "meaningVi": "chỉnh góc đèn chiếu tranh"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-3s-2-q3",
+          "questionNumber": 6,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What feature do the wall plaques include?",
+          "promptVi": "Các bảng chú thích tường có tích hợp tính năng gì?",
+          "options": {
+            "A": {
+              "en": "Braille text",
+              "vi": "Chữ nổi Braille"
+            },
+            "B": {
+              "en": "QR codes for audio tours",
+              "vi": "Mã QR cho hướng dẫn âm thanh"
+            },
+            "C": {
+              "en": "Price tags for collectors",
+              "vi": "Nhãn giá cho nhà sưu tập"
+            },
+            "D": {
+              "en": "Maps of nearby cafés",
+              "vi": "Bản đồ quán cà phê gần đó"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Woman 2 nói: 'QR codes for the audio guide'",
+            "trapAnalysis": "audio guide = audio tours.",
+            "paraphrases": [
+              {
+                "audioPhrase": "audio guide",
+                "answerPhrase": "audio tours",
+                "meaningVi": "hướng dẫn tham quan bằng âm thanh"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-3s-2-v1",
+          "word": "curator",
+          "pos": "n",
+          "ipaUK": "/kjʊəˈreɪtə/",
+          "ipaUS": "/ˈkjʊreɪtɚ/",
+          "meaning": "giám tuyển bảo tàng/triển lãm",
+          "exampleEn": "The chief curator selected forty works for the autumn showcase.",
+          "exampleVi": "Giám tuyển trưởng đã chọn bốn mươi tác phẩm cho đợt trưng bày mùa thu."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-3s-2.mp3"
+    }
+  ]
+}

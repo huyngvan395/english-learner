@@ -1,0 +1,384 @@
+{
+  "id": "drill-p2-wh-people",
+  "part": 2,
+  "title": "Câu hỏi Who / Where / When",
+  "subtitle": "Bắt nhanh tên người, phòng ban, vị trí số và mốc thời gian.",
+  "focusTag": "Who / Where / When",
+  "part2": [
+    {
+      "id": "dp2-wp-1",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "Who — Người phụ trách ngân sách quảng cáo",
+      "questionLine": {
+        "id": "dp2-wp-1-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Who's in charge of the social media advertising budget?",
+        "vi": "Ai phụ trách ngân sách quảng cáo mạng xã hội?",
+        "startMs": 240,
+        "endMs": 4080
+      },
+      "options": {
+        "A": {
+          "en": "Rachel took over that role last month.",
+          "vi": "Rachel đã tiếp quản vị trí đó tháng trước.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4680,
+          "endMs": 7920
+        },
+        "B": {
+          "en": "There's no extra charge for delivery.",
+          "vi": "Không có phụ phí giao hàng.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 8520,
+          "endMs": 11568
+        },
+        "C": {
+          "en": "Next Tuesday at ten.",
+          "vi": "Thứ Ba tới lúc mười giờ.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12168,
+          "endMs": 15144
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đồng âm 'in charge of' (phụ trách) vs 'extra charge' (phụ phí)",
+        "trapAnalysis": "(B) đánh lừa bằng từ 'charge' nghĩa khác; (A) đưa ra đúng tên người phụ trách.",
+        "paraphrases": [
+          {
+            "audioPhrase": "in charge of",
+            "answerPhrase": "took over that role",
+            "meaningVi": "tiếp quản vai trò phụ trách"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Chỉ rõ Rachel đảm nhận vai trò này.",
+          "B": "Sai bẫy đồng âm 'charge'.",
+          "C": "Sai: Trả lời thời gian."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wp-1-v1",
+            "word": "take over",
+            "pos": "phrase",
+            "ipaUK": "/teɪk ˈəʊvə/",
+            "ipaUS": "/teɪk ˈoʊvɚ/",
+            "meaning": "tiếp quản, đảm nhận",
+            "exampleEn": "Rachel will take over the regional sales account in June.",
+            "exampleVi": "Rachel sẽ tiếp quản mảng bán hàng khu vực vào tháng Sáu."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wp-1.mp3"
+    },
+    {
+      "id": "dp2-wp-2",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "Where — Nơi tìm mẫu đơn hoàn chi phí",
+      "questionLine": {
+        "id": "dp2-wp-2-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Where can I find the travel reimbursement form?",
+        "vi": "Tôi có thể tìm mẫu đơn hoàn chi phí công tác ở đâu?",
+        "startMs": 240,
+        "endMs": 3432
+      },
+      "options": {
+        "A": {
+          "en": "Under the Finance tab on our company website.",
+          "vi": "Trong mục Tài chính trên trang web công ty.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4032,
+          "endMs": 7608
+        },
+        "B": {
+          "en": "She traveled to Zurich twice.",
+          "vi": "Cô ấy đi công tác Zurich hai lần.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 8208,
+          "endMs": 11136
+        },
+        "C": {
+          "en": "Yes, keep all your receipts.",
+          "vi": "Vâng, hãy giữ lại mọi hóa đơn.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 11736,
+          "endMs": 15024
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'travel' và trả lời 'Yes'",
+        "trapAnalysis": "Câu hỏi 'Where' có thể chỉ vị trí số trên website/phần mềm ('Under the Finance tab').",
+        "paraphrases": [
+          {
+            "audioPhrase": "find the form",
+            "answerPhrase": "under the Finance tab",
+            "meaningVi": "vị trí biểu mẫu trên web"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Chỉ rõ vị trí tìm biểu mẫu.",
+          "B": "Sai bẫy lặp 'travel'.",
+          "C": "Sai: Câu Wh không trả lời Yes."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wp-2-v1",
+            "word": "reimbursement",
+            "pos": "n",
+            "ipaUK": "/ˌriːɪmˈbɜːsmənt/",
+            "ipaUS": "/ˌriːɪmˈbɝːsmənt/",
+            "meaning": "sự hoàn trả chi phí",
+            "exampleEn": "Submit hotel receipts within seven days for reimbursement.",
+            "exampleVi": "Nộp hóa đơn khách sạn trong vòng bảy ngày để được hoàn phí."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wp-2.mp3"
+    },
+    {
+      "id": "dp2-wp-3",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "When — Thời điểm khai trương chi nhánh mới",
+      "questionLine": {
+        "id": "dp2-wp-3-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "When does the downtown bakery branch officially open?",
+        "vi": "Khi nào chi nhánh tiệm bánh trung tâm chính thức khai trương?",
+        "startMs": 240,
+        "endMs": 3528
+      },
+      "options": {
+        "A": {
+          "en": "Right beside the subway exit.",
+          "vi": "Ngay cạnh lối ra tàu điện ngầm.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4128,
+          "endMs": 7032
+        },
+        "B": {
+          "en": "The grand opening is set for May tenth.",
+          "vi": "Lễ khai trương được ấn định vào ngày mười tháng Năm.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 7632,
+          "endMs": 10920
+        },
+        "C": {
+          "en": "Fresh pastries and espresso.",
+          "vi": "Bánh ngọt tươi và cà phê espresso.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 11520,
+          "endMs": 14544
+        }
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "trapType": "Bẫy phân biệt When vs Where/What",
+        "trapAnalysis": "Nghe rõ từ để hỏi 'When' -> bắt mốc ngày 'May tenth'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "officially open",
+            "answerPhrase": "grand opening is set for",
+            "meaningVi": "ngày khai trương chính thức"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai: Địa điểm (Where).",
+          "B": "Đúng: Ấn định ngày khai trương cụ thể.",
+          "C": "Sai: Liệt kê món ăn (What)."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wp-3-v1",
+            "word": "grand opening",
+            "pos": "phrase",
+            "ipaUK": "/ɡrænd ˈəʊpnɪŋ/",
+            "ipaUS": "/ɡrænd ˈoʊpnɪŋ/",
+            "meaning": "lễ khai trương lớn",
+            "exampleEn": "Customers receive 20% off during our grand opening week.",
+            "exampleVi": "Khách hàng được giảm 20% trong tuần lễ khai trương."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wp-3.mp3"
+    },
+    {
+      "id": "dp2-wp-4",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "Who — Hỏi ai sẽ dẫn tour cho đối tác",
+      "questionLine": {
+        "id": "dp2-wp-4-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Who should I contact to arrange a factory tour?",
+        "vi": "Tôi nên liên hệ ai để sắp xếp chuyến tham quan nhà máy?",
+        "startMs": 240,
+        "endMs": 3744
+      },
+      "options": {
+        "A": {
+          "en": "Call Operations—they handle all visitor schedules.",
+          "vi": "Gọi phòng Vận hành—họ xử lý mọi lịch khách tham quan.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 4344,
+          "endMs": 8160
+        },
+        "B": {
+          "en": "The tour lasts ninety minutes.",
+          "vi": "Chuyến tham quan kéo dài chín mươi phút.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 8760,
+          "endMs": 11424
+        },
+        "C": {
+          "en": "Safety goggles are required.",
+          "vi": "Bắt buộc đeo kính bảo hộ.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 12024,
+          "endMs": 14688
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy câu hỏi 'Who' trả lời bằng tên Phòng ban",
+        "trapAnalysis": "Đáp án cho 'Who' không nhất thiết là tên riêng mà rất hay là tên phòng ban ('Operations').",
+        "paraphrases": [
+          {
+            "audioPhrase": "who to contact",
+            "answerPhrase": "call Operations",
+            "meaningVi": "liên hệ phòng vận hành"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Chỉ đích danh phòng ban phụ trách.",
+          "B": "Sai: Trả lời thời lượng (How long).",
+          "C": "Sai: Nêu quy định thay vì người liên hệ."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wp-4-v1",
+            "word": "operations",
+            "pos": "n",
+            "ipaUK": "/ˌɒpəˈreɪʃnz/",
+            "ipaUS": "/ˌɑːpəˈreɪʃnz/",
+            "meaning": "bộ phận vận hành",
+            "exampleEn": "Operations coordinates daily deliveries across four plants.",
+            "exampleVi": "Phòng vận hành điều phối giao hàng hàng ngày tại bốn nhà máy."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wp-4.mp3"
+    },
+    {
+      "id": "dp2-wp-5",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "When — Hỏi thời gian kỹ thuật viên quay lại",
+      "questionLine": {
+        "id": "dp2-wp-5-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "When will the technician return to test the elevator?",
+        "vi": "Khi nào kỹ thuật viên sẽ quay lại kiểm tra thang máy?",
+        "startMs": 240,
+        "endMs": 3696
+      },
+      "options": {
+        "A": {
+          "en": "Take the stairs to the fourth floor.",
+          "vi": "Đi cầu thang bộ lên tầng bốn.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4296,
+          "endMs": 6768
+        },
+        "B": {
+          "en": "Right after he picks up a replacement sensor.",
+          "vi": "Ngay sau khi anh ấy đi lấy cảm biến thay thế.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 7368,
+          "endMs": 10416
+        },
+        "C": {
+          "en": "No, I returned the badge already.",
+          "vi": "Không, tôi đã trả thẻ rồi.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 11016,
+          "endMs": 14016
+        }
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "trapType": "Bẫy lặp từ 'return' & trả lời bằng mệnh đề thời gian ('Right after...')",
+        "trapAnalysis": "Mệnh đề 'Right after he picks up...' là cách trả lời 'When' rất phổ biến thay vì nêu giờ cụ thể.",
+        "paraphrases": [
+          {
+            "audioPhrase": "when will he return",
+            "answerPhrase": "right after he picks up a sensor",
+            "meaningVi": "ngay sau khi lấy cảm biến"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai: Lời khuyên thay thế, không trả lời 'When'.",
+          "B": "Đúng: Chỉ rõ thời điểm quay lại sau khi lấy linh kiện.",
+          "C": "Sai bẫy lặp 'return' + 'No'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wp-5-v1",
+            "word": "replacement",
+            "pos": "n",
+            "ipaUK": "/rɪˈpleɪsmənt/",
+            "ipaUS": "/rɪˈpleɪsmənt/",
+            "meaning": "vật/người thay thế",
+            "exampleEn": "We ordered a replacement cable for the conference mic.",
+            "exampleVi": "Chúng tôi đã đặt dây cáp thay thế cho micro hội nghị."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wp-5.mp3"
+    }
+  ]
+}

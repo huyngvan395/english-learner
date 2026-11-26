@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-word-forms",
+  "part": 5,
+  "title": "Chuyên đề 1: Từ loại (Word Forms)",
+  "subtitle": "Phân biệt nhanh Danh/Động/Tính/Trạng từ và cặp dễ nhầm confident/confidential.",
+  "focusTag": "Word Forms",
+  "part5": [
+    {
+      "id": "dp5-wf-1",
+      "part": 5,
+      "topic": "Từ loại (Word Forms)",
+      "difficulty": "Cơ bản",
+      "sentence": "Our pharmacy offers _______ consultations for patients managing chronic prescriptions.",
+      "options": {
+        "A": "confident",
+        "B": "confidential",
+        "C": "confidentiality",
+        "D": "confidentially"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại — Phân biệt hai tính từ cùng gốc",
+          "signal": "Đứng trước danh từ 'consultations' cần tính từ mang nghĩa 'bảo mật, riêng tư'."
+        },
+        "translation": {
+          "questionVi": "Hiệu thuốc của chúng tôi cung cấp các buổi tư vấn bảo mật cho bệnh nhân dùng đơn thuốc dài hạn.",
+          "optionsVi": {
+            "A": "tự tin (tính từ)",
+            "B": "bảo mật, riêng tư (tính từ)",
+            "C": "tính bảo mật (danh từ)",
+            "D": "một cách bảo mật (trạng từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Cần tính từ bổ nghĩa cho 'consultations' với nghĩa 'riêng tư, bảo mật' -> 'confidential' (khác 'confident' = tự tin)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai nghĩa: 'confident' là tự tin.",
+          "B": "Đúng: tính từ 'confidential' khớp cả từ loại lẫn nghĩa.",
+          "C": "Sai: danh từ.",
+          "D": "Sai: trạng từ."
+        },
+        "keyTakeaways": {
+          "formula": "confident (tự tin) ≠ confidential (bảo mật)",
+          "commonTrap": "Cặp tính từ dễ nhầm nhất nhì trong Part 5: confident vs confidential.",
+          "paraphrases": [
+            {
+              "textInPassage": "confidential consultations",
+              "textInAnswer": "private advice sessions",
+              "meaningVi": "tư vấn bảo mật"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-wf-2",
+      "part": 5,
+      "topic": "Từ loại (Word Forms)",
+      "difficulty": "Cơ bản",
+      "sentence": "The new invoicing platform has _______ reduced errors in monthly client billing.",
+      "options": {
+        "A": "drama",
+        "B": "dramatic",
+        "C": "dramatically",
+        "D": "dramatize"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại — Trạng từ nằm giữa trợ động từ và V3",
+          "signal": "Cấu trúc: has + [Adv] + V3 ('reduced')."
+        },
+        "translation": {
+          "questionVi": "Nền tảng xuất hóa đơn mới đã giảm đáng kể sai sót trong việc tính cước khách hàng hàng tháng.",
+          "optionsVi": {
+            "A": "kịch tính (danh từ)",
+            "B": "đáng kể, mạnh mẽ (tính từ)",
+            "C": "một cách đáng kể (trạng từ)",
+            "D": "kịch tính hóa (động từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Giữa trợ động từ 'has' và phân từ 'reduced' luôn điền trạng từ -> 'dramatically'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: danh từ.",
+          "B": "Sai: tính từ không bổ nghĩa động từ.",
+          "C": "Đúng: has + Adv + V3.",
+          "D": "Sai: động từ."
+        },
+        "keyTakeaways": {
+          "formula": "have/has/had + Adv + V3/ed",
+          "commonTrap": "Bỏ qua vị trí kẹp giữa 'has ... reduced' dễ chọn tính từ.",
+          "paraphrases": [
+            {
+              "textInPassage": "dramatically reduced",
+              "textInAnswer": "cut sharply",
+              "meaningVi": "giảm đáng kể"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-wf-3",
+      "part": 5,
+      "topic": "Từ loại (Word Forms)",
+      "difficulty": "Trung bình",
+      "sentence": "Strong _______ from senior executives helped the sustainability initiative succeed.",
+      "options": {
+        "A": "commit",
+        "B": "committed",
+        "C": "commitment",
+        "D": "committing"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại — Danh từ sau tính từ làm chủ ngữ",
+          "signal": "Cấu trúc: Adj ('Strong') + [Noun] + prep ('from')."
+        },
+        "translation": {
+          "questionVi": "Cam kết mạnh mẽ từ ban lãnh đạo cấp cao đã giúp sáng kiến bền vững thành công.",
+          "optionsVi": {
+            "A": "cam kết (động từ)",
+            "B": "tận tâm (tính từ)",
+            "C": "sự cam kết (danh từ)",
+            "D": "đang cam kết (V-ing)"
+          }
+        },
+        "proof": {
+          "explanation": "Sau tính từ 'Strong' và trước giới từ 'from' cần danh từ làm chủ ngữ chính -> 'commitment'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: động từ.",
+          "B": "Sai: tính từ không làm chủ ngữ.",
+          "C": "Đúng: Adj + Noun + from.",
+          "D": "Sai: V-ing không kết hợp tự nhiên với 'Strong'."
+        },
+        "keyTakeaways": {
+          "formula": "Adj + Noun + Preposition + ...",
+          "commonTrap": "Chọn nhầm V-ing thay cho danh từ gốc có đuôi '-ment'.",
+          "paraphrases": [
+            {
+              "textInPassage": "strong commitment",
+              "textInAnswer": "firm dedication",
+              "meaningVi": "sự cam kết mạnh mẽ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-wf-4",
+      "part": 5,
+      "topic": "Từ loại (Word Forms)",
+      "difficulty": "Trung bình",
+      "sentence": "Please keep the laboratory doors tightly _______ while temperature tests are underway.",
+      "options": {
+        "A": "seal",
+        "B": "sealed",
+        "C": "sealing",
+        "D": "seals"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại — Cấu trúc 'keep + O + Adj/V-ed'",
+          "signal": "Cấu trúc: keep + O ('doors') + Adv ('tightly') + [Adj/V3 trạng thái]."
+        },
+        "translation": {
+          "questionVi": "Vui lòng giữ các cửa phòng thí nghiệm đóng kín chặt trong khi thử nghiệm nhiệt độ đang diễn ra.",
+          "optionsVi": {
+            "A": "niêm phong (V/N)",
+            "B": "được đóng kín (Adj/V3)",
+            "C": "đang đóng (V-ing)",
+            "D": "đóng (Vs)"
+          }
+        },
+        "proof": {
+          "explanation": "Cửa ở trạng thái được đóng kín -> 'keep + O + V3/Adj' -> 'tightly sealed'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: động từ nguyên mẫu.",
+          "B": "Đúng: keep + O + Adj/V3.",
+          "C": "Sai: cửa không tự đóng kín.",
+          "D": "Sai: động từ chia thì."
+        },
+        "keyTakeaways": {
+          "formula": "keep / make / find / leave + O + Adj (hoặc V3 bị động)",
+          "commonTrap": "Thấy 'tightly' tưởng phải đi với V-ing mà quên cấu trúc 'keep + O + Adj'.",
+          "paraphrases": [
+            {
+              "textInPassage": "tests are underway",
+              "textInAnswer": "experiments are in progress",
+              "meaningVi": "thử nghiệm đang diễn ra"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-wf-5",
+      "part": 5,
+      "topic": "Từ loại (Word Forms)",
+      "difficulty": "Nâng cao",
+      "sentence": "The board will review each applicant's _______ before offering a partnership share.",
+      "options": {
+        "A": "qualify",
+        "B": "qualified",
+        "C": "qualifications",
+        "D": "qualifying"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại — Danh từ sau sở hữu cách ('s)",
+          "signal": "Sau sở hữu cách 'each applicant's' bắt buộc là một danh từ."
+        },
+        "translation": {
+          "questionVi": "Hội đồng sẽ xem xét năng lực bằng cấp của từng ứng viên trước khi đề nghị cổ phần đối tác.",
+          "optionsVi": {
+            "A": "đủ điều kiện (động từ)",
+            "B": "có đủ trình độ (tính từ)",
+            "C": "bằng cấp, trình độ chuyên môn (danh từ)",
+            "D": "đạt tiêu chuẩn (tính từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Sở hữu cách ('s) luôn đòi hỏi danh từ phía sau -> 'qualifications' (năng lực/bằng cấp)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: động từ.",
+          "B": "Sai: tính từ.",
+          "C": "Đúng: Possessive ('s) + Noun.",
+          "D": "Sai: tính từ/V-ing."
+        },
+        "keyTakeaways": {
+          "formula": "Sở hữu cách (N's / my / their) + Noun",
+          "commonTrap": "Nhầm 'qualifying' khi quên sở hữu cách cần danh từ chuẩn.",
+          "paraphrases": [
+            {
+              "textInPassage": "qualifications",
+              "textInAnswer": "credentials and experience",
+              "meaningVi": "bằng cấp và năng lực"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

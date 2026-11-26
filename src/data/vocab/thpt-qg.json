@@ -1,0 +1,931 @@
+{
+  "id": "thpt-qg",
+  "title": "Từ Vựng Chuyên Sâu THPT Quốc Gia",
+  "subtitle": "Từ vựng, cụm từ cố định & dễ nhầm lẫn trọng tâm đề thi tốt nghiệp THPT môn Tiếng Anh.",
+  "category": "academic",
+  "levelLabel": "B1 – B2",
+  "tags": [
+    "#b1",
+    "#b2",
+    "#thpt"
+  ],
+  "coverTheme": "thpt",
+  "accentGradient": "from-teal-500 via-emerald-600 to-green-600",
+  "badgeText": "THPT QG",
+  "words": [
+    {
+      "id": "thpt-1",
+      "deckId": "thpt-qg",
+      "word": "preserve",
+      "pos": "v",
+      "ipaUK": "/prɪˈzɜːv/",
+      "ipaUS": "/prɪˈzɝːv/",
+      "meaning": "bảo tồn, gìn giữ (di sản, thiên nhiên)",
+      "examples": [
+        {
+          "en": "Local artisans help preserve centuries-old pottery traditions.",
+          "vi": "Nghệ nhân địa phương góp phần bảo tồn nghề gốm hàng trăm năm tuổi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "preservation",
+          "pos": "n",
+          "meaning": "sự bảo tồn"
+        }
+      ],
+      "synonyms": [
+        "conserve",
+        "protect",
+        "safeguard"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "collocations": [
+        {
+          "phrase": "preserve cultural heritage",
+          "meaning": "bảo tồn di sản văn hóa"
+        }
+      ],
+      "definitionEn": "To conserve (also similar to protect, safeguard) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động bảo tồn, gìn giữ (di sản, thiên nhiên).",
+      "topicId": "thpt-nature"
+    },
+    {
+      "id": "thpt-2",
+      "deckId": "thpt-qg",
+      "word": "endangered",
+      "pos": "adj",
+      "ipaUK": "/ɪnˈdeɪn.dʒəd/",
+      "ipaUS": "/ɪnˈdeɪn.dʒɚd/",
+      "meaning": "có nguy cơ tuyệt chủng",
+      "examples": [
+        {
+          "en": "Marine sanctuaries protect endangered sea turtles.",
+          "vi": "Khu bảo tồn biển bảo vệ các loài rùa biển có nguy cơ tuyệt chủng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "endanger",
+          "pos": "v",
+          "meaning": "gây nguy hiểm"
+        }
+      ],
+      "synonyms": [
+        "threatened",
+        "at risk"
+      ],
+      "antonyms": [
+        "thriving"
+      ],
+      "collocations": [
+        {
+          "phrase": "endangered species",
+          "meaning": "loài có nguy cơ tuyệt chủng"
+        }
+      ],
+      "definitionEn": "Having the quality of being threatened, at risk.",
+      "definitionVi": "Tính từ mô tả đặc điểm có nguy cơ tuyệt chủng.",
+      "topicId": "thpt-nature"
+    },
+    {
+      "id": "thpt-3",
+      "deckId": "thpt-qg",
+      "word": "broaden",
+      "pos": "v",
+      "ipaUK": "/ˈbrɔː.dən/",
+      "ipaUS": "/ˈbrɑː.dən/",
+      "meaning": "mở mang, mở rộng (kiến thức, tầm nhìn)",
+      "examples": [
+        {
+          "en": "Exchange semesters help students broaden their horizons.",
+          "vi": "Học kỳ trao đổi giúp sinh viên mở mang tầm nhìn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "broad",
+          "pos": "adj",
+          "meaning": "rộng lớn"
+        }
+      ],
+      "synonyms": [
+        "widen",
+        "expand"
+      ],
+      "antonyms": [
+        "narrow"
+      ],
+      "collocations": [
+        {
+          "phrase": "broaden one’s horizons",
+          "meaning": "mở mang tầm mắt"
+        }
+      ],
+      "definitionEn": "To widen (also similar to expand) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động mở mang, mở rộng (kiến thức, tầm nhìn).",
+      "topicId": "thpt-nature"
+    },
+    {
+      "id": "thpt-4",
+      "deckId": "thpt-qg",
+      "word": "adaptable",
+      "pos": "adj",
+      "ipaUK": "/əˈdæptəbəl/",
+      "ipaUS": "/əˈdæptəbəl/",
+      "meaning": "có khả năng thích nghi tốt",
+      "examples": [
+        {
+          "en": "Modern workplaces reward graduates who stay adaptable.",
+          "vi": "Môi trường làm việc hiện đại trọng dụng người có khả năng thích nghi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "adapt",
+          "pos": "v",
+          "meaning": "thích nghi"
+        },
+        {
+          "word": "adaptation",
+          "pos": "n",
+          "meaning": "sự thích nghi"
+        }
+      ],
+      "synonyms": [
+        "flexible",
+        "versatile",
+        "adaptive"
+      ],
+      "antonyms": [
+        "rigid"
+      ],
+      "collocations": [
+        {
+          "phrase": "adapt to change",
+          "meaning": "thích nghi với thay đổi"
+        }
+      ],
+      "definitionEn": "Having the quality of being flexible, versatile, adaptive.",
+      "definitionVi": "Tính từ mô tả đặc điểm có khả năng thích nghi tốt.",
+      "topicId": "thpt-nature"
+    },
+    {
+      "id": "thpt-5",
+      "deckId": "thpt-qg",
+      "word": "volunteer",
+      "pos": "v",
+      "ipaUK": "/ˌvɒl.ənˈtɪər/",
+      "ipaUS": "/ˌvɑː.lənˈtɪr/",
+      "meaning": "tình nguyện làm việc gì",
+      "examples": [
+        {
+          "en": "Local students often volunteer to plant mangroves along the coast.",
+          "vi": "Học sinh địa phương thường tình nguyện trồng rừng ngập mặn ven biển."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "voluntary",
+          "pos": "adj",
+          "meaning": "tự nguyện"
+        }
+      ],
+      "synonyms": [
+        "offer freely"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "voluntary work",
+          "meaning": "công việc tình nguyện"
+        }
+      ],
+      "definitionEn": "To offer freely (also similar to offer freely) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tình nguyện làm việc gì.",
+      "topicId": "thpt-nature"
+    },
+    {
+      "id": "thpt-6",
+      "deckId": "thpt-qg",
+      "word": "aware",
+      "pos": "adj",
+      "ipaUK": "/əˈweər/",
+      "ipaUS": "/əˈwer/",
+      "meaning": "nhận thức được, có ý thức về (đi với of)",
+      "examples": [
+        {
+          "en": "Teenagers are increasingly aware of digital privacy risks.",
+          "vi": "Thanh thiếu niên ngày càng ý thức về rủi ro quyền riêng tư số."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "awareness",
+          "pos": "n",
+          "meaning": "nhận thức"
+        }
+      ],
+      "synonyms": [
+        "conscious",
+        "informed"
+      ],
+      "antonyms": [
+        "unaware"
+      ],
+      "collocations": [
+        {
+          "phrase": "raise awareness of",
+          "meaning": "nâng cao nhận thức về"
+        }
+      ],
+      "definitionEn": "Having the quality of being conscious, informed.",
+      "definitionVi": "Tính từ mô tả đặc điểm nhận thức được, có ý thức về (đi với of).",
+      "topicId": "thpt-nature"
+    },
+    {
+      "id": "thpt-7",
+      "deckId": "thpt-qg",
+      "word": "distinguish",
+      "pos": "v",
+      "ipaUK": "/dɪˈstɪŋ.ɡwɪʃ/",
+      "ipaUS": "/dɪˈstɪŋ.ɡwɪʃ/",
+      "meaning": "phân biệt rõ ràng",
+      "examples": [
+        {
+          "en": "Media literacy helps readers distinguish facts from rumors.",
+          "vi": "Kiến thức truyền thông giúp độc giả phân biệt sự thật với tin đồn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "distinguished",
+          "pos": "adj",
+          "meaning": "xuất chúng, lỗi lạc"
+        }
+      ],
+      "synonyms": [
+        "differentiate",
+        "tell apart"
+      ],
+      "antonyms": [
+        "confuse"
+      ],
+      "collocations": [
+        {
+          "phrase": "distinguish between A and B",
+          "meaning": "phân biệt A và B"
+        }
+      ],
+      "definitionEn": "To differentiate (also similar to tell apart) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động phân biệt rõ ràng.",
+      "topicId": "thpt-self"
+    },
+    {
+      "id": "thpt-8",
+      "deckId": "thpt-qg",
+      "word": "enthusiastic",
+      "pos": "adj",
+      "ipaUK": "/ɪnˌθjuː.ziˈæs.tɪk/",
+      "ipaUS": "/ɪnˌθuː.ziˈæs.tɪk/",
+      "meaning": "nhiệt tình, hào hứng",
+      "examples": [
+        {
+          "en": "Audiences gave an enthusiastic welcome to the youth orchestra.",
+          "vi": "Khán giả đón nhận nhiệt tình dàn nhạc trẻ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "enthusiasm",
+          "pos": "n",
+          "meaning": "sự nhiệt huyết"
+        }
+      ],
+      "synonyms": [
+        "eager",
+        "passionate"
+      ],
+      "antonyms": [
+        "indifferent"
+      ],
+      "collocations": [
+        {
+          "phrase": "enthusiastic response",
+          "meaning": "phản hồi hào hứng"
+        }
+      ],
+      "definitionEn": "Having the quality of being eager, passionate.",
+      "definitionVi": "Tính từ mô tả đặc điểm nhiệt tình, hào hứng.",
+      "topicId": "thpt-self"
+    },
+    {
+      "id": "thpt-9",
+      "deckId": "thpt-qg",
+      "word": "independent",
+      "pos": "adj",
+      "ipaUK": "/ˌɪn.dɪˈpen.dənt/",
+      "ipaUS": "/ˌɪn.dəˈpen.dənt/",
+      "meaning": "độc lập, tự chủ",
+      "examples": [
+        {
+          "en": "Part-time tutoring helped her become financially independent.",
+          "vi": "Dạy thêm bán thời gian giúp cô tự chủ tài chính."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "independence",
+          "pos": "n",
+          "meaning": "sự độc lập"
+        }
+      ],
+      "synonyms": [
+        "self-reliant",
+        "autonomous"
+      ],
+      "antonyms": [
+        "dependent"
+      ],
+      "collocations": [
+        {
+          "phrase": "financially independent",
+          "meaning": "độc lập tài chính"
+        }
+      ],
+      "definitionEn": "Having the quality of being self-reliant, autonomous.",
+      "definitionVi": "Tính từ mô tả đặc điểm độc lập, tự chủ.",
+      "topicId": "thpt-self"
+    },
+    {
+      "id": "thpt-10",
+      "deckId": "thpt-qg",
+      "word": "habitat",
+      "pos": "n",
+      "ipaUK": "/ˈhæb.ɪ.tæt/",
+      "ipaUS": "/ˈhæb.ə.tæt/",
+      "meaning": "môi trường sống tự nhiên",
+      "examples": [
+        {
+          "en": "Deforestation threatens the natural habitat of forest birds.",
+          "vi": "Phá rừng đe dọa môi trường sống tự nhiên của các loài chim rừng."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "natural environment",
+        "ecosystem"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "wildlife habitat",
+          "meaning": "môi trường sống động vật hoang dã"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to natural environment, ecosystem.",
+      "definitionVi": "Danh từ dùng để chỉ môi trường sống tự nhiên.",
+      "topicId": "thpt-self"
+    },
+    {
+      "id": "thpt-11",
+      "deckId": "thpt-qg",
+      "word": "accomplish",
+      "pos": "v",
+      "ipaUK": "/əˈkɐm.plɪʃ/",
+      "ipaUS": "/əˈkɐm.plɪʃ/",
+      "meaning": "hoàn thành xuất sắc",
+      "examples": [
+        {
+          "en": "With clear milestones, the club can accomplish its fundraising goal.",
+          "vi": "Với lộ trình rõ ràng, câu lạc bộ có thể hoàn thành mục tiêu gây quỹ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "accomplishment",
+          "pos": "n",
+          "meaning": "thành tựu"
+        }
+      ],
+      "synonyms": [
+        "achieve",
+        "fulfill",
+        "carry out",
+        "complete",
+        "consummate"
+      ],
+      "antonyms": [
+        "fail"
+      ],
+      "collocations": [
+        {
+          "phrase": "accomplish a mission",
+          "meaning": "hoàn thành sứ mệnh"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/accomplish-us.mp3",
+      "definitionEn": "To achieve (also similar to fulfill, carry out) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hoàn thành xuất sắc.",
+      "topicId": "thpt-self"
+    },
+    {
+      "id": "thpt-12",
+      "deckId": "thpt-qg",
+      "word": "perspective",
+      "pos": "n",
+      "ipaUK": "/pəˈspek.tɪv/",
+      "ipaUS": "/pɚˈspek.tɪv/",
+      "meaning": "góc nhìn, quan điểm",
+      "examples": [
+        {
+          "en": "Reading biographies broadens your historical perspective.",
+          "vi": "Đọc tiểu sử giúp mở rộng góc nhìn lịch sử của bạn."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "viewpoint",
+        "outlook",
+        "angle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "from a global perspective",
+          "meaning": "từ góc nhìn toàn cầu"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to viewpoint, outlook, angle.",
+      "definitionVi": "Danh từ dùng để chỉ góc nhìn, quan điểm.",
+      "topicId": "thpt-self"
+    }
+  ],
+  "topics": [
+    {
+      "id": "thpt-nature",
+      "name": "Thiên nhiên, Môi trường & Di sản",
+      "icon": "environment",
+      "words": [
+        {
+          "id": "thpt-1",
+          "deckId": "thpt-qg",
+          "word": "preserve",
+          "pos": "v",
+          "ipaUK": "/prɪˈzɜːv/",
+          "ipaUS": "/prɪˈzɝːv/",
+          "meaning": "bảo tồn, gìn giữ (di sản, thiên nhiên)",
+          "examples": [
+            {
+              "en": "Local artisans help preserve centuries-old pottery traditions.",
+              "vi": "Nghệ nhân địa phương góp phần bảo tồn nghề gốm hàng trăm năm tuổi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "preservation",
+              "pos": "n",
+              "meaning": "sự bảo tồn"
+            }
+          ],
+          "synonyms": [
+            "conserve",
+            "protect",
+            "safeguard"
+          ],
+          "antonyms": [
+            "destroy"
+          ],
+          "collocations": [
+            {
+              "phrase": "preserve cultural heritage",
+              "meaning": "bảo tồn di sản văn hóa"
+            }
+          ],
+          "definitionEn": "To conserve (also similar to protect, safeguard) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động bảo tồn, gìn giữ (di sản, thiên nhiên).",
+          "topicId": "thpt-nature"
+        },
+        {
+          "id": "thpt-2",
+          "deckId": "thpt-qg",
+          "word": "endangered",
+          "pos": "adj",
+          "ipaUK": "/ɪnˈdeɪn.dʒəd/",
+          "ipaUS": "/ɪnˈdeɪn.dʒɚd/",
+          "meaning": "có nguy cơ tuyệt chủng",
+          "examples": [
+            {
+              "en": "Marine sanctuaries protect endangered sea turtles.",
+              "vi": "Khu bảo tồn biển bảo vệ các loài rùa biển có nguy cơ tuyệt chủng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "endanger",
+              "pos": "v",
+              "meaning": "gây nguy hiểm"
+            }
+          ],
+          "synonyms": [
+            "threatened",
+            "at risk"
+          ],
+          "antonyms": [
+            "thriving"
+          ],
+          "collocations": [
+            {
+              "phrase": "endangered species",
+              "meaning": "loài có nguy cơ tuyệt chủng"
+            }
+          ],
+          "definitionEn": "Having the quality of being threatened, at risk.",
+          "definitionVi": "Tính từ mô tả đặc điểm có nguy cơ tuyệt chủng.",
+          "topicId": "thpt-nature"
+        },
+        {
+          "id": "thpt-3",
+          "deckId": "thpt-qg",
+          "word": "broaden",
+          "pos": "v",
+          "ipaUK": "/ˈbrɔː.dən/",
+          "ipaUS": "/ˈbrɑː.dən/",
+          "meaning": "mở mang, mở rộng (kiến thức, tầm nhìn)",
+          "examples": [
+            {
+              "en": "Exchange semesters help students broaden their horizons.",
+              "vi": "Học kỳ trao đổi giúp sinh viên mở mang tầm nhìn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "broad",
+              "pos": "adj",
+              "meaning": "rộng lớn"
+            }
+          ],
+          "synonyms": [
+            "widen",
+            "expand"
+          ],
+          "antonyms": [
+            "narrow"
+          ],
+          "collocations": [
+            {
+              "phrase": "broaden one’s horizons",
+              "meaning": "mở mang tầm mắt"
+            }
+          ],
+          "definitionEn": "To widen (also similar to expand) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động mở mang, mở rộng (kiến thức, tầm nhìn).",
+          "topicId": "thpt-nature"
+        },
+        {
+          "id": "thpt-4",
+          "deckId": "thpt-qg",
+          "word": "adaptable",
+          "pos": "adj",
+          "ipaUK": "/əˈdæptəbəl/",
+          "ipaUS": "/əˈdæptəbəl/",
+          "meaning": "có khả năng thích nghi tốt",
+          "examples": [
+            {
+              "en": "Modern workplaces reward graduates who stay adaptable.",
+              "vi": "Môi trường làm việc hiện đại trọng dụng người có khả năng thích nghi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "adapt",
+              "pos": "v",
+              "meaning": "thích nghi"
+            },
+            {
+              "word": "adaptation",
+              "pos": "n",
+              "meaning": "sự thích nghi"
+            }
+          ],
+          "synonyms": [
+            "flexible",
+            "versatile",
+            "adaptive"
+          ],
+          "antonyms": [
+            "rigid"
+          ],
+          "collocations": [
+            {
+              "phrase": "adapt to change",
+              "meaning": "thích nghi với thay đổi"
+            }
+          ],
+          "definitionEn": "Having the quality of being flexible, versatile, adaptive.",
+          "definitionVi": "Tính từ mô tả đặc điểm có khả năng thích nghi tốt.",
+          "topicId": "thpt-nature"
+        },
+        {
+          "id": "thpt-5",
+          "deckId": "thpt-qg",
+          "word": "volunteer",
+          "pos": "v",
+          "ipaUK": "/ˌvɒl.ənˈtɪər/",
+          "ipaUS": "/ˌvɑː.lənˈtɪr/",
+          "meaning": "tình nguyện làm việc gì",
+          "examples": [
+            {
+              "en": "Local students often volunteer to plant mangroves along the coast.",
+              "vi": "Học sinh địa phương thường tình nguyện trồng rừng ngập mặn ven biển."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "voluntary",
+              "pos": "adj",
+              "meaning": "tự nguyện"
+            }
+          ],
+          "synonyms": [
+            "offer freely"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "voluntary work",
+              "meaning": "công việc tình nguyện"
+            }
+          ],
+          "definitionEn": "To offer freely (also similar to offer freely) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tình nguyện làm việc gì.",
+          "topicId": "thpt-nature"
+        },
+        {
+          "id": "thpt-6",
+          "deckId": "thpt-qg",
+          "word": "aware",
+          "pos": "adj",
+          "ipaUK": "/əˈweər/",
+          "ipaUS": "/əˈwer/",
+          "meaning": "nhận thức được, có ý thức về (đi với of)",
+          "examples": [
+            {
+              "en": "Teenagers are increasingly aware of digital privacy risks.",
+              "vi": "Thanh thiếu niên ngày càng ý thức về rủi ro quyền riêng tư số."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "awareness",
+              "pos": "n",
+              "meaning": "nhận thức"
+            }
+          ],
+          "synonyms": [
+            "conscious",
+            "informed"
+          ],
+          "antonyms": [
+            "unaware"
+          ],
+          "collocations": [
+            {
+              "phrase": "raise awareness of",
+              "meaning": "nâng cao nhận thức về"
+            }
+          ],
+          "definitionEn": "Having the quality of being conscious, informed.",
+          "definitionVi": "Tính từ mô tả đặc điểm nhận thức được, có ý thức về (đi với of).",
+          "topicId": "thpt-nature"
+        }
+      ]
+    },
+    {
+      "id": "thpt-self",
+      "name": "Giáo dục & Phát triển bản thân",
+      "icon": "education",
+      "words": [
+        {
+          "id": "thpt-7",
+          "deckId": "thpt-qg",
+          "word": "distinguish",
+          "pos": "v",
+          "ipaUK": "/dɪˈstɪŋ.ɡwɪʃ/",
+          "ipaUS": "/dɪˈstɪŋ.ɡwɪʃ/",
+          "meaning": "phân biệt rõ ràng",
+          "examples": [
+            {
+              "en": "Media literacy helps readers distinguish facts from rumors.",
+              "vi": "Kiến thức truyền thông giúp độc giả phân biệt sự thật với tin đồn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "distinguished",
+              "pos": "adj",
+              "meaning": "xuất chúng, lỗi lạc"
+            }
+          ],
+          "synonyms": [
+            "differentiate",
+            "tell apart"
+          ],
+          "antonyms": [
+            "confuse"
+          ],
+          "collocations": [
+            {
+              "phrase": "distinguish between A and B",
+              "meaning": "phân biệt A và B"
+            }
+          ],
+          "definitionEn": "To differentiate (also similar to tell apart) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động phân biệt rõ ràng.",
+          "topicId": "thpt-self"
+        },
+        {
+          "id": "thpt-8",
+          "deckId": "thpt-qg",
+          "word": "enthusiastic",
+          "pos": "adj",
+          "ipaUK": "/ɪnˌθjuː.ziˈæs.tɪk/",
+          "ipaUS": "/ɪnˌθuː.ziˈæs.tɪk/",
+          "meaning": "nhiệt tình, hào hứng",
+          "examples": [
+            {
+              "en": "Audiences gave an enthusiastic welcome to the youth orchestra.",
+              "vi": "Khán giả đón nhận nhiệt tình dàn nhạc trẻ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "enthusiasm",
+              "pos": "n",
+              "meaning": "sự nhiệt huyết"
+            }
+          ],
+          "synonyms": [
+            "eager",
+            "passionate"
+          ],
+          "antonyms": [
+            "indifferent"
+          ],
+          "collocations": [
+            {
+              "phrase": "enthusiastic response",
+              "meaning": "phản hồi hào hứng"
+            }
+          ],
+          "definitionEn": "Having the quality of being eager, passionate.",
+          "definitionVi": "Tính từ mô tả đặc điểm nhiệt tình, hào hứng.",
+          "topicId": "thpt-self"
+        },
+        {
+          "id": "thpt-9",
+          "deckId": "thpt-qg",
+          "word": "independent",
+          "pos": "adj",
+          "ipaUK": "/ˌɪn.dɪˈpen.dənt/",
+          "ipaUS": "/ˌɪn.dəˈpen.dənt/",
+          "meaning": "độc lập, tự chủ",
+          "examples": [
+            {
+              "en": "Part-time tutoring helped her become financially independent.",
+              "vi": "Dạy thêm bán thời gian giúp cô tự chủ tài chính."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "independence",
+              "pos": "n",
+              "meaning": "sự độc lập"
+            }
+          ],
+          "synonyms": [
+            "self-reliant",
+            "autonomous"
+          ],
+          "antonyms": [
+            "dependent"
+          ],
+          "collocations": [
+            {
+              "phrase": "financially independent",
+              "meaning": "độc lập tài chính"
+            }
+          ],
+          "definitionEn": "Having the quality of being self-reliant, autonomous.",
+          "definitionVi": "Tính từ mô tả đặc điểm độc lập, tự chủ.",
+          "topicId": "thpt-self"
+        },
+        {
+          "id": "thpt-10",
+          "deckId": "thpt-qg",
+          "word": "habitat",
+          "pos": "n",
+          "ipaUK": "/ˈhæb.ɪ.tæt/",
+          "ipaUS": "/ˈhæb.ə.tæt/",
+          "meaning": "môi trường sống tự nhiên",
+          "examples": [
+            {
+              "en": "Deforestation threatens the natural habitat of forest birds.",
+              "vi": "Phá rừng đe dọa môi trường sống tự nhiên của các loài chim rừng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "natural environment",
+            "ecosystem"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "wildlife habitat",
+              "meaning": "môi trường sống động vật hoang dã"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to natural environment, ecosystem.",
+          "definitionVi": "Danh từ dùng để chỉ môi trường sống tự nhiên.",
+          "topicId": "thpt-self"
+        },
+        {
+          "id": "thpt-11",
+          "deckId": "thpt-qg",
+          "word": "accomplish",
+          "pos": "v",
+          "ipaUK": "/əˈkɐm.plɪʃ/",
+          "ipaUS": "/əˈkɐm.plɪʃ/",
+          "meaning": "hoàn thành xuất sắc",
+          "examples": [
+            {
+              "en": "With clear milestones, the club can accomplish its fundraising goal.",
+              "vi": "Với lộ trình rõ ràng, câu lạc bộ có thể hoàn thành mục tiêu gây quỹ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "accomplishment",
+              "pos": "n",
+              "meaning": "thành tựu"
+            }
+          ],
+          "synonyms": [
+            "achieve",
+            "fulfill",
+            "carry out",
+            "complete",
+            "consummate"
+          ],
+          "antonyms": [
+            "fail"
+          ],
+          "collocations": [
+            {
+              "phrase": "accomplish a mission",
+              "meaning": "hoàn thành sứ mệnh"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/accomplish-us.mp3",
+          "definitionEn": "To achieve (also similar to fulfill, carry out) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hoàn thành xuất sắc.",
+          "topicId": "thpt-self"
+        },
+        {
+          "id": "thpt-12",
+          "deckId": "thpt-qg",
+          "word": "perspective",
+          "pos": "n",
+          "ipaUK": "/pəˈspek.tɪv/",
+          "ipaUS": "/pɚˈspek.tɪv/",
+          "meaning": "góc nhìn, quan điểm",
+          "examples": [
+            {
+              "en": "Reading biographies broadens your historical perspective.",
+              "vi": "Đọc tiểu sử giúp mở rộng góc nhìn lịch sử của bạn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "viewpoint",
+            "outlook",
+            "angle"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "from a global perspective",
+              "meaning": "từ góc nhìn toàn cầu"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to viewpoint, outlook, angle.",
+          "definitionVi": "Danh từ dùng để chỉ góc nhìn, quan điểm.",
+          "topicId": "thpt-self"
+        }
+      ]
+    }
+  ]
+}

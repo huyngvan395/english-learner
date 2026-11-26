@@ -1,0 +1,324 @@
+{
+  "id": "drill-p1-passive",
+  "part": 1,
+  "title": "Bẫy Hiện tại tiếp diễn bị động (is being + V3)",
+  "subtitle": "Trị dứt điểm bẫy 'being + V3' kinh điển trong tranh không có người.",
+  "focusTag": "Passive Trap",
+  "part1": [
+    {
+      "id": "dp1-pv-1",
+      "part": 1,
+      "sceneType": "scene-objects",
+      "title": "Bẫy 'is being + V3' vs 'has been + V3' trong nhà kho",
+      "illustrationKey": "warehouse-shelves",
+      "imageUrl": "/images/part1/part1_warehouse.jpg",
+      "transcript": [
+        {
+          "id": "dp1-pv-1-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "A. Cartons are being loaded onto a conveyor belt.",
+          "vi": "A. Các thùng các-tông đang được chất lên băng chuyền.",
+          "evidenceForQuestionIds": [],
+          "startMs": 240,
+          "endMs": 3864
+        },
+        {
+          "id": "dp1-pv-1-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "B. Packages are being wrapped in plastic film.",
+          "vi": "B. Các kiện hàng đang được bọc màng nhựa.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4464,
+          "endMs": 7920
+        },
+        {
+          "id": "dp1-pv-1-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "C. Boxes have been stacked on high storage racks.",
+          "vi": "C. Các thùng hàng đã được xếp chồng trên kệ lưu trữ cao.",
+          "evidenceForQuestionIds": [
+            "dp1-pv-1"
+          ],
+          "startMs": 8520,
+          "endMs": 12384
+        },
+        {
+          "id": "dp1-pv-1-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "D. A pallet is being lifted by two workers.",
+          "vi": "D. Một tấm pallet đang được hai công nhân nhấc lên.",
+          "evidenceForQuestionIds": [],
+          "startMs": 12984,
+          "endMs": 16440
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "Cartons are being loaded onto a conveyor belt.",
+          "vi": "Các thùng các-tông đang được chất lên băng chuyền."
+        },
+        "B": {
+          "en": "Packages are being wrapped in plastic film.",
+          "vi": "Các kiện hàng đang được bọc màng nhựa."
+        },
+        "C": {
+          "en": "Boxes have been stacked on high storage racks.",
+          "vi": "Các thùng hàng đã được xếp chồng trên kệ lưu trữ cao."
+        },
+        "D": {
+          "en": "A pallet is being lifted by two workers.",
+          "vi": "Một tấm pallet đang được hai công nhân nhấc lên."
+        }
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "trapType": "Bẫy phân biệt 'are being V3' (đang có người làm) vs 'have been V3' (trạng thái hoàn tất)",
+        "trapAnalysis": "Cả A, B, D đều dùng 'being + V3' nhưng ảnh kho hàng KHÔNG có người thao tác -> chọn ngay C ('have been stacked').",
+        "paraphrases": [
+          {
+            "audioPhrase": "have been stacked",
+            "answerPhrase": "are piled up in place",
+            "meaningVi": "đã được xếp chồng sẵn"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai bẫy 'are being loaded': Không có ai đang bốc hàng lên băng chuyền.",
+          "B": "Sai bẫy 'are being wrapped': Không có cảnh bọc màng nhựa.",
+          "C": "Đúng: 'have been stacked' mô tả trạng thái thùng đã xếp sẵn trên kệ cao.",
+          "D": "Sai bẫy 'is being lifted': Không có hai công nhân nào đang nhấc pallet."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-pv-1-v1",
+            "word": "stack",
+            "pos": "v",
+            "ipaUK": "/stæk/",
+            "ipaUS": "/stæk/",
+            "meaning": "xếp chồng lên nhau",
+            "exampleEn": "Empty pallets should be stacked neatly beside Gate B.",
+            "exampleVi": "Các tấm pallet trống nên được xếp chồng gọn cạnh Cổng B."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-pv-1.mp3"
+    },
+    {
+      "id": "dp1-pv-2",
+      "part": 1,
+      "sceneType": "scene-objects",
+      "title": "Bẫy 'being + V3' tại quán cà phê sân hiên",
+      "illustrationKey": "cafe-patio",
+      "imageUrl": "/images/part1/part1_cafe_patio.jpg",
+      "transcript": [
+        {
+          "id": "dp1-pv-2-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "A. Tables are being wiped down with a cloth.",
+          "vi": "A. Bàn đang được lau sạch bằng khăn.",
+          "evidenceForQuestionIds": [],
+          "startMs": 240,
+          "endMs": 3216
+        },
+        {
+          "id": "dp1-pv-2-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "B. Chairs are being carried into a storage shed.",
+          "vi": "B. Ghế đang được khiêng vào nhà kho.",
+          "evidenceForQuestionIds": [],
+          "startMs": 3816,
+          "endMs": 7080
+        },
+        {
+          "id": "dp1-pv-2-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "C. Seating has been set up in an outdoor area.",
+          "vi": "C. Chỗ ngồi đã được bố trí sẵn ở khu vực ngoài trời.",
+          "evidenceForQuestionIds": [
+            "dp1-pv-2"
+          ],
+          "startMs": 7680,
+          "endMs": 11256
+        },
+        {
+          "id": "dp1-pv-2-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "D. Menus are being printed on a copy machine.",
+          "vi": "D. Thực đơn đang được in trên máy photocopy.",
+          "evidenceForQuestionIds": [],
+          "startMs": 11856,
+          "endMs": 15168
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "Tables are being wiped down with a cloth.",
+          "vi": "Bàn đang được lau sạch bằng khăn."
+        },
+        "B": {
+          "en": "Chairs are being carried into a storage shed.",
+          "vi": "Ghế đang được khiêng vào nhà kho."
+        },
+        "C": {
+          "en": "Seating has been set up in an outdoor area.",
+          "vi": "Chỗ ngồi đã được bố trí sẵn ở khu vực ngoài trời."
+        },
+        "D": {
+          "en": "Menus are being printed on a copy machine.",
+          "vi": "Thực đơn đang được in trên máy photocopy."
+        }
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "trapType": "Bẫy thì hiện tại tiếp diễn bị động ở ảnh không người",
+        "trapAnalysis": "Loại sạch 3 phương án chứa 'are being + V3' vì không có nhân viên nào xuất hiện trong khung hình!",
+        "paraphrases": [
+          {
+            "audioPhrase": "seating has been set up",
+            "answerPhrase": "tables and chairs are arranged",
+            "meaningVi": "chỗ ngồi đã được bố trí"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai bẫy 'are being wiped': Không có người đang lau bàn.",
+          "B": "Sai bẫy 'are being carried': Không có ai đang khiêng ghế.",
+          "C": "Đúng: 'has been set up' miêu tả chính xác trạng thái bàn ghế đã kê sẵn ngoài trời.",
+          "D": "Sai bẫy 'are being printed': Không có máy photocopy."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-pv-2-v1",
+            "word": "set up",
+            "pos": "phrase",
+            "ipaUK": "/set ʌp/",
+            "ipaUS": "/set ʌp/",
+            "meaning": "bố trí, lắp đặt sẵn",
+            "exampleEn": "Extra folding chairs have been set up for the guest lecture.",
+            "exampleVi": "Ghế gấp bổ sung đã được bố trí cho buổi diễn thuyết."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-pv-2.mp3"
+    },
+    {
+      "id": "dp1-pv-3",
+      "part": 1,
+      "sceneType": "scene-objects",
+      "title": "Bẫy 'being + V3' tại bàn văn phòng không người",
+      "illustrationKey": "office-laptop",
+      "imageUrl": "/images/part1/part1_office_desk.jpg",
+      "transcript": [
+        {
+          "id": "dp1-pv-3-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "A. A keyboard is being cleaned with a brush.",
+          "vi": "A. Bàn phím đang được vệ sinh bằng cọ.",
+          "evidenceForQuestionIds": [],
+          "startMs": 240,
+          "endMs": 4032
+        },
+        {
+          "id": "dp1-pv-3-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "B. Equipment is arranged neatly on a workspace.",
+          "vi": "B. Thiết bị được sắp xếp gọn gàng trên mặt bàn làm việc.",
+          "evidenceForQuestionIds": [
+            "dp1-pv-3"
+          ],
+          "startMs": 4632,
+          "endMs": 8784
+        },
+        {
+          "id": "dp1-pv-3-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "C. Cables are being connected beneath the table.",
+          "vi": "C. Dây cáp đang được đấu nối dưới gầm bàn.",
+          "evidenceForQuestionIds": [],
+          "startMs": 9384,
+          "endMs": 13272
+        },
+        {
+          "id": "dp1-pv-3-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "D. A chair is being assembled with a screwdriver.",
+          "vi": "D. Chiếc ghế đang được lắp ráp bằng tua-vít.",
+          "evidenceForQuestionIds": [],
+          "startMs": 13872,
+          "endMs": 17976
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "A keyboard is being cleaned with a brush.",
+          "vi": "Bàn phím đang được vệ sinh bằng cọ."
+        },
+        "B": {
+          "en": "Equipment is arranged neatly on a workspace.",
+          "vi": "Thiết bị được sắp xếp gọn gàng trên mặt bàn làm việc."
+        },
+        "C": {
+          "en": "Cables are being connected beneath the table.",
+          "vi": "Dây cáp đang được đấu nối dưới gầm bàn."
+        },
+        "D": {
+          "en": "A chair is being assembled with a screwdriver.",
+          "vi": "Chiếc ghế đang được lắp ráp bằng tua-vít."
+        }
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "trapType": "Bẫy 3 câu 'is/are being + V3' gây nhiễu",
+        "trapAnalysis": "Cả A, C, D dùng bị động tiếp diễn (phải có bàn tay/người đang làm). Chỉ (B) dùng 'is arranged' tả trạng thái tĩnh!",
+        "paraphrases": [
+          {
+            "audioPhrase": "equipment is arranged",
+            "answerPhrase": "computer devices are neatly placed",
+            "meaningVi": "thiết bị được bày trí"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai bẫy 'is being cleaned': Không có ai đang vệ sinh bàn phím.",
+          "B": "Đúng: 'is arranged neatly on a workspace' tả trạng thái gọn gàng của thiết bị.",
+          "C": "Sai bẫy 'are being connected': Không thấy người đấu dây.",
+          "D": "Sai bẫy 'is being assembled': Không có cảnh lắp ráp ghế."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-pv-3-v1",
+            "word": "assemble",
+            "pos": "v",
+            "ipaUK": "/əˈsembl/",
+            "ipaUS": "/əˈsembl/",
+            "meaning": "lắp ráp; tập hợp",
+            "exampleEn": "Technicians will assemble the modular desks tomorrow morning.",
+            "exampleVi": "Kỹ thuật viên sẽ lắp ráp các bàn mô-đun vào sáng mai."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-pv-3.mp3"
+    }
+  ]
+}

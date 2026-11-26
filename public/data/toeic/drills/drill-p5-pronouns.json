@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-pronouns",
+  "part": 5,
+  "title": "Chuyên đề 9: Đại từ & Từ hạn định",
+  "subtitle": "Phân biệt phản thân 'itself', 'that/those', 'another/other' và 'Anyone who'.",
+  "focusTag": "Pronouns",
+  "part5": [
+    {
+      "id": "dp5-pr-1",
+      "part": 5,
+      "topic": "Đại từ & Từ hạn định",
+      "difficulty": "Cơ bản",
+      "sentence": "Visitors should leave _______ oversized umbrellas at the museum coat check.",
+      "options": {
+        "A": "they",
+        "B": "them",
+        "C": "their",
+        "D": "theirs"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Tính từ sở hữu đứng trước cụm danh từ",
+          "signal": "Trước cụm danh từ 'oversized umbrellas' cần tính từ sở hữu thay cho 'Visitors'."
+        },
+        "translation": {
+          "questionVi": "Khách tham quan nên gửi những chiếc ô cỡ lớn của họ tại quầy gửi đồ của bảo tàng.",
+          "optionsVi": {
+            "A": "họ (chủ ngữ)",
+            "B": "họ (tân ngữ)",
+            "C": "của họ (tính từ sở hữu + N)",
+            "D": "cái của họ (đại từ sở hữu)"
+          }
+        },
+        "proof": {
+          "explanation": "Trước danh từ 'oversized umbrellas' chỉ dùng được tính từ sở hữu 'their'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: đại từ chủ ngữ.",
+          "B": "Sai: đại từ tân ngữ.",
+          "C": "Đúng: their + Noun Phrase.",
+          "D": "Sai: 'theirs' đứng độc lập không có danh từ sau."
+        },
+        "keyTakeaways": {
+          "formula": "Possessive Adjective (my/your/his/her/its/our/their) + Noun",
+          "commonTrap": "Chọn nhầm 'theirs' khi thấy từ dài hơn.",
+          "paraphrases": [
+            {
+              "textInPassage": "coat check",
+              "textInAnswer": "item storage counter",
+              "meaningVi": "quầy gửi áo khoác/đồ đạc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pr-2",
+      "part": 5,
+      "topic": "Đại từ & Từ hạn định",
+      "difficulty": "Trung bình",
+      "sentence": "The new accounting software updates _______ automatically every midnight.",
+      "options": {
+        "A": "it",
+        "B": "its",
+        "C": "itself",
+        "D": "itself's"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Đại từ phản thân làm tân ngữ (tự cập nhật chính nó)",
+          "signal": "Chủ ngữ và tân ngữ là cùng một đối tượng ('The new accounting software')."
+        },
+        "translation": {
+          "questionVi": "Phần mềm kế toán mới tự động cập nhật chính nó vào mỗi nửa đêm.",
+          "optionsVi": {
+            "A": "nó (chỉ đối tượng khác)",
+            "B": "của nó (cần N sau)",
+            "C": "chính nó (đại từ phản thân)",
+            "D": "không tồn tại"
+          }
+        },
+        "proof": {
+          "explanation": "Khi chủ thể tác động lên chính mình (phần mềm tự cập nhật nó) -> dùng đại từ phản thân 'itself'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: dùng 'it' dễ hiểu là cập nhật 1 thứ khác.",
+          "B": "Sai: thiếu danh từ sau 'its'.",
+          "C": "Đúng: S + V + Reflexive Pronoun.",
+          "D": "Sai chính tả: không có dạng sở hữu này."
+        },
+        "keyTakeaways": {
+          "formula": "Subject (Thing) + V + itself (khi S và O là cùng một vật)",
+          "commonTrap": "Chọn nhầm 'it' thay vì 'itself'.",
+          "paraphrases": [
+            {
+              "textInPassage": "updates itself",
+              "textInAnswer": "installs patches automatically",
+              "meaningVi": "tự cập nhật"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pr-3",
+      "part": 5,
+      "topic": "Đại từ & Từ hạn định",
+      "difficulty": "Trung bình",
+      "sentence": "Our warranty covers factory defects, while _______ from rival brands often exclude battery wear.",
+      "options": {
+        "A": "that",
+        "B": "those",
+        "C": "this",
+        "D": "one"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Đại từ chỉ định thay thế danh từ số nhiều ('those')",
+          "signal": "Cần đại từ số nhiều đứng trước 'from rival brands' và hòa hợp với động từ số nhiều 'exclude'."
+        },
+        "translation": {
+          "questionVi": "Chế độ bảo hành của ta bao gồm lỗi nhà máy, trong khi bảo hành từ các hãng đối thủ thường loại trừ hao mòn pin.",
+          "optionsVi": {
+            "A": "cái đó (số ít)",
+            "B": "những cái đó (số nhiều — thay thế danh từ)",
+            "C": "cái này (số ít)",
+            "D": "một cái (số ít)"
+          }
+        },
+        "proof": {
+          "explanation": "Động từ phía sau là 'exclude' (số nhiều) -> phải dùng đại từ chỉ định số nhiều 'those' (= warranties from rival brands)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai số ít: cần 'excludes'.",
+          "B": "Đúng: 'those + prep phrase' thay thế danh từ số nhiều trong phép so sánh.",
+          "C": "Sai số ít.",
+          "D": "Sai số ít."
+        },
+        "keyTakeaways": {
+          "formula": "that of / from (thay N số ít)  ≠  those of / from (thay N số nhiều)",
+          "commonTrap": "Cặp 'that vs those' trong câu so sánh là điểm lấy 850+ cực dễ nếu nhìn động từ phía sau!",
+          "paraphrases": [
+            {
+              "textInPassage": "exclude battery wear",
+              "textInAnswer": "do not cover battery degradation",
+              "meaningVi": "loại trừ hao mòn pin"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pr-4",
+      "part": 5,
+      "topic": "Đại từ & Từ hạn định",
+      "difficulty": "Trung bình",
+      "sentence": "If this conference room is occupied, we can book _______ one on the fifth floor.",
+      "options": {
+        "A": "other",
+        "B": "another",
+        "C": "others",
+        "D": "the others"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Phân biệt another / other / others",
+          "signal": "Sau chỗ trống là đại từ số ít 'one' (= one conference room)."
+        },
+        "translation": {
+          "questionVi": "Nếu phòng họp này có người dùng, chúng ta có thể đặt một phòng khác ở tầng năm.",
+          "optionsVi": {
+            "A": "khác (+ danh từ số nhiều)",
+            "B": "một cái khác (+ N số ít / one)",
+            "C": "những cái khác (đứng độc lập)",
+            "D": "những cái còn lại (đứng độc lập)"
+          }
+        },
+        "proof": {
+          "explanation": "'another' đi với danh từ số ít hoặc đại từ 'one' ('another one' = một phòng khác)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: 'other' không đi trực tiếp với 'one' (phải có 'the other one').",
+          "B": "Đúng: another + N(số ít) / one.",
+          "C": "Sai: không đứng trước danh từ.",
+          "D": "Sai: không đứng trước danh từ."
+        },
+        "keyTakeaways": {
+          "formula": "another + N(số ít)/one  ≠  other + N(số nhiều)  ≠  others (độc lập)",
+          "commonTrap": "Rất dễ nhầm giữa 'other' và 'another'.",
+          "paraphrases": [
+            {
+              "textInPassage": "is occupied",
+              "textInAnswer": "is currently in use",
+              "meaningVi": "đang có người sử dụng"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pr-5",
+      "part": 5,
+      "topic": "Đại từ & Từ hạn định",
+      "difficulty": "Nâng cao",
+      "sentence": "_______ who wishes to enroll in the leadership seminar should notify HR before Tuesday.",
+      "options": {
+        "A": "Anyone",
+        "B": "Those",
+        "C": "Some",
+        "D": "Many"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Đại từ bất định số ít đứng trước mệnh đề quan hệ 'who'",
+          "signal": "Động từ trong mệnh đề quan hệ là 'wishes' (chia số ít!)."
+        },
+        "translation": {
+          "questionVi": "Bất kỳ ai muốn đăng ký buổi hội thảo lãnh đạo nên báo cho phòng Nhân sự trước thứ Ba.",
+          "optionsVi": {
+            "A": "bất kỳ ai (số ít — đi với 'wishes')",
+            "B": "những người mà (số nhiều — cần 'wish')",
+            "C": "một số (số nhiều)",
+            "D": "nhiều người (số nhiều)"
+          }
+        },
+        "proof": {
+          "explanation": "Động từ 'wishes' chia ngôi 3 số ít -> bắt buộc dùng đại từ số ít 'Anyone' (không dùng 'Those')."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: Anyone who + V(số ít).",
+          "B": "Sai số: 'Those who' phải đi với 'wish'.",
+          "C": "Sai số nhiều.",
+          "D": "Sai số nhiều."
+        },
+        "keyTakeaways": {
+          "formula": "Anyone who + V(số ít)  ≠  Those who + V(số nhiều)",
+          "commonTrap": "Cặp bẫy 'Anyone who' vs 'Those who' chỉ phân biệt bằng chữ '-s/-es' của động từ phía sau!",
+          "paraphrases": [
+            {
+              "textInPassage": "enroll in",
+              "textInAnswer": "sign up for / register for",
+              "meaningVi": "đăng ký tham gia"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

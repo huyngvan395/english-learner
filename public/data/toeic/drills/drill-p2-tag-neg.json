@@ -1,0 +1,384 @@
+{
+  "id": "drill-p2-tag-neg",
+  "part": 2,
+  "title": "Câu hỏi đuôi (Tag) & Câu hỏi phủ định",
+  "subtitle": "Không bị lừa bởi 'Didn't/Isn't/Haven't' và luyện đính chính với 'Actually'.",
+  "focusTag": "Tag & Negative",
+  "part2": [
+    {
+      "id": "dp2-tn-1",
+      "part": 2,
+      "questionType": "Câu hỏi đuôi (Tag)",
+      "title": "Tag — Xác nhận nhân sự mới bắt đầu thứ Hai",
+      "questionLine": {
+        "id": "dp2-tn-1-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "The new graphic designer starts this Monday, doesn't she?",
+        "vi": "Nhà thiết kế đồ họa mới bắt đầu làm việc thứ Hai này phải không?",
+        "startMs": 240,
+        "endMs": 4272
+      },
+      "options": {
+        "A": {
+          "en": "Actually, her start date was pushed to Wednesday.",
+          "vi": "Thực ra ngày bắt đầu của cô ấy được dời sang thứ Tư rồi.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4872,
+          "endMs": 8832
+        },
+        "B": {
+          "en": "She designed the lobby sign.",
+          "vi": "Cô ấy thiết kế tấm biển sảnh.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 9432,
+          "endMs": 12264
+        },
+        "C": {
+          "en": "On the first Monday of June.",
+          "vi": "Vào thứ Hai đầu tiên của tháng Sáu.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12864,
+          "endMs": 15816
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đính chính thông tin với 'Actually'",
+        "trapAnalysis": "Câu hỏi đuôi kiểm tra thông tin -> nếu thông tin sai, người nghe đính chính trực tiếp bằng 'Actually...'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "starts this Monday",
+            "answerPhrase": "pushed to Wednesday",
+            "meaningVi": "dời ngày bắt đầu sang thứ Tư"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Đính chính lịch nhận việc dời sang thứ Tư.",
+          "B": "Sai: Không xác nhận thời điểm bắt đầu.",
+          "C": "Sai: Lặp 'Monday' nhưng lệch ngữ cảnh."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-tn-1-v1",
+            "word": "push back",
+            "pos": "phrase",
+            "ipaUK": "/pʊʃ bæk/",
+            "ipaUS": "/pʊʃ bæk/",
+            "meaning": "lùi lịch, dời lại sau",
+            "exampleEn": "The product launch was pushed back by two weeks.",
+            "exampleVi": "Lễ ra mắt sản phẩm bị lùi lại hai tuần."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-tn-1.mp3"
+    },
+    {
+      "id": "dp2-tn-2",
+      "part": 2,
+      "questionType": "Yes/No",
+      "title": "Negative Question — Hỏi phủ định về email xác nhận",
+      "questionLine": {
+        "id": "dp2-tn-2-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Haven't you received the shipping confirmation yet?",
+        "vi": "Bạn vẫn chưa nhận được email xác nhận giao hàng sao?",
+        "startMs": 240,
+        "endMs": 3552
+      },
+      "options": {
+        "A": {
+          "en": "Not yet—let me check my spam folder.",
+          "vi": "Vẫn chưa—để tôi kiểm tra thư mục thư rác xem.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4152,
+          "endMs": 7536
+        },
+        "B": {
+          "en": "The firm is headquartered in Berlin.",
+          "vi": "Công ty đặt trụ sở tại Berlin.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 8136,
+          "endMs": 11400
+        },
+        "C": {
+          "en": "Yes, I shipped two boxes.",
+          "vi": "Vâng, tôi đã gửi hai hộp.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 12000,
+          "endMs": 15120
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy gần âm 'confirmation / firm' & phản hồi kiểm tra spam",
+        "trapAnalysis": "Trả lời 'Not yet' khớp tuyệt đối với câu hỏi phủ định hiện tại hoàn thành 'Haven't you ... yet?'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "received confirmation",
+            "answerPhrase": "check my spam folder",
+            "meaningVi": "kiểm tra hộp thư rác"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Phản hồi tự nhiên rằng chưa thấy và sẽ kiểm tra mục spam.",
+          "B": "Sai bẫy gần âm 'confirmation' / 'firm'.",
+          "C": "Sai: Hiểu nhầm chủ thể gửi hàng."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-tn-2-v1",
+            "word": "confirmation",
+            "pos": "n",
+            "ipaUK": "/ˌkɒnfəˈmeɪʃn/",
+            "ipaUS": "/ˌkɑːnfɚˈmeɪʃn/",
+            "meaning": "thư/sự xác nhận",
+            "exampleEn": "Guests receive an automatic booking confirmation by email.",
+            "exampleVi": "Khách nhận được email xác nhận đặt phòng tự động."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-tn-2.mp3"
+    },
+    {
+      "id": "dp2-tn-3",
+      "part": 2,
+      "questionType": "Câu hỏi đuôi (Tag)",
+      "title": "Tag — Xác nhận hóa đơn đã gồm thuế VAT",
+      "questionLine": {
+        "id": "dp2-tn-3-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "That invoice already includes sales tax, right?",
+        "vi": "Hóa đơn đó đã bao gồm thuế bán hàng rồi đúng không?",
+        "startMs": 240,
+        "endMs": 3984
+      },
+      "options": {
+        "A": {
+          "en": "Yes, the final figure is at the bottom.",
+          "vi": "Đúng rồi, con số tổng cuối cùng nằm ở phía dưới cùng.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 4584,
+          "endMs": 8256
+        },
+        "B": {
+          "en": "A taxi is waiting outside.",
+          "vi": "Có xe taxi đang đợi bên ngoài.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 8856,
+          "endMs": 12336
+        },
+        "C": {
+          "en": "Send it to the sales director.",
+          "vi": "Gửi nó cho giám đốc kinh doanh.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 12936,
+          "endMs": 16152
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy gần âm 'tax' vs 'taxi' & lặp 'sales'",
+        "trapAnalysis": "Bẫy (B) 'tax/taxi' là một trong những cặp đồng âm kinh điển nhất mọi thời đại của TOEIC Part 2!",
+        "paraphrases": [
+          {
+            "audioPhrase": "includes sales tax",
+            "answerPhrase": "final figure at the bottom",
+            "meaningVi": "tổng tiền đã gồm thuế"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Xác nhận đã tính thuế và chỉ vị trí tổng tiền.",
+          "B": "Sai bẫy gần âm 'tax' vs 'taxi'.",
+          "C": "Sai bẫy lặp từ 'sales'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-tn-3-v1",
+            "word": "figure",
+            "pos": "n",
+            "ipaUK": "/ˈfɪɡə/",
+            "ipaUS": "/ˈfɪɡjɚ/",
+            "meaning": "con số, số liệu tài chính",
+            "exampleEn": "Please double-check the quarterly revenue figures.",
+            "exampleVi": "Vui lòng kiểm tra lại các số liệu doanh thu quý."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-tn-3.mp3"
+    },
+    {
+      "id": "dp2-tn-4",
+      "part": 2,
+      "questionType": "Yes/No",
+      "title": "Negative Question — Hỏi phủ định buổi đào tạo",
+      "questionLine": {
+        "id": "dp2-tn-4-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Isn't the software training session supposed to be in Lab B?",
+        "vi": "Chẳng phải buổi đào tạo phần mềm dự kiến diễn ra ở Phòng Lab B sao?",
+        "startMs": 240,
+        "endMs": 3744
+      },
+      "options": {
+        "A": {
+          "en": "They moved it to Room 204 because of extra attendees.",
+          "vi": "Họ chuyển nó sang Phòng 204 vì có thêm người tham dự.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4344,
+          "endMs": 8928
+        },
+        "B": {
+          "en": "The software updates automatically.",
+          "vi": "Phần mềm tự động cập nhật.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 9528,
+          "endMs": 12696
+        },
+        "C": {
+          "en": "No, I took the morning train.",
+          "vi": "Không, tôi đi chuyến tàu sáng.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 13296,
+          "endMs": 16272
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đồng âm 'training / train' & thông báo đổi phòng",
+        "trapAnalysis": "(C) bẫy từ 'train' từ 'training'; (A) giải thích rõ đã chuyển phòng họp.",
+        "paraphrases": [
+          {
+            "audioPhrase": "in Lab B",
+            "answerPhrase": "moved it to Room 204",
+            "meaningVi": "đã đổi sang phòng khác"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Đính chính địa điểm mới và nêu lý do.",
+          "B": "Sai bẫy lặp 'software'.",
+          "C": "Sai bẫy gần âm 'training' / 'train'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-tn-4-v1",
+            "word": "supposed to",
+            "pos": "phrase",
+            "ipaUK": "/səˈpəʊzd tuː/",
+            "ipaUS": "/səˈpoʊzd tuː/",
+            "meaning": "dự kiến, theo kế hoạch là",
+            "exampleEn": "The courier was supposed to arrive before noon.",
+            "exampleVi": "Nhân viên giao hàng theo lịch phải tới trước trưa."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-tn-4.mp3"
+    },
+    {
+      "id": "dp2-tn-5",
+      "part": 2,
+      "questionType": "Câu hỏi đuôi (Tag)",
+      "title": "Tag — Xác nhận siêu thị mở cửa chủ nhật",
+      "questionLine": {
+        "id": "dp2-tn-5-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "The hardware store stays open on Sundays, doesn't it?",
+        "vi": "Cửa hàng kim khí vẫn mở cửa vào Chủ nhật phải không?",
+        "startMs": 240,
+        "endMs": 4128
+      },
+      "options": {
+        "A": {
+          "en": "Only until four in the afternoon.",
+          "vi": "Chỉ mở tới bốn giờ chiều thôi.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4728,
+          "endMs": 7776
+        },
+        "B": {
+          "en": "Software installation takes ten minutes.",
+          "vi": "Cài đặt phần mềm mất mười phút.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 8376,
+          "endMs": 11856
+        },
+        "C": {
+          "en": "It's a sunny weekend.",
+          "vi": "Đây là một cuối tuần đầy nắng.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 12456,
+          "endMs": 15096
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy gần âm 'Sundays / sunny' & đối lập 'hardware / software'",
+        "trapAnalysis": "Trả lời giới hạn khung giờ ('Only until four') vừa xác nhận có mở cửa vừa bổ sung thông tin hữu ích.",
+        "paraphrases": [
+          {
+            "audioPhrase": "stays open on Sundays",
+            "answerPhrase": "only until four",
+            "meaningVi": "mở cửa nhưng đóng sớm lúc 4 giờ"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Xác nhận có mở và nêu giờ đóng cửa sớm.",
+          "B": "Sai bẫy liên tưởng 'hardware' -> 'software'.",
+          "C": "Sai bẫy gần âm 'Sundays' / 'sunny'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-tn-5-v1",
+            "word": "hardware",
+            "pos": "n",
+            "ipaUK": "/ˈhɑːdweə/",
+            "ipaUS": "/ˈhɑːrdwer/",
+            "meaning": "đồ kim khí, dụng cụ; phần cứng",
+            "exampleEn": "We bought extra screws and paint at the local hardware store.",
+            "exampleVi": "Chúng tôi mua thêm ốc vít và sơn ở tiệm kim khí gần đây."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-tn-5.mp3"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "wr-tr-a01",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Đàm phán gia hạn hợp đồng cung ứng & Điều khoản thanh toán",
+    "category": "Đàm phán thương mại",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi ông Laurent, khi thỏa thuận cung ứng hiện tại của chúng ta sắp hết hiệu lực vào cuối tháng Mười Hai, tôi muốn khởi động sớm các cuộc trao đổi về việc gia hạn hợp đồng thêm hai năm. Dù chúng tôi đánh giá cao độ ổn định về chất lượng linh kiện của quý công ty suốt ba năm qua, mức đề xuất tăng giá 8% cho năm tới hiện vượt quá ngưỡng điều chỉnh ngân sách sản xuất của chúng tôi. Để duy trì quan hệ hợp tác đôi bên cùng có lợi, chúng tôi sẵn sàng cam kết tăng sản lượng đặt hàng tối thiểu hàng năm thêm 20% với điều kiện đơn giá chỉ tăng tối đa 3%. Ngoài ra, chúng tôi cũng đề nghị nới rộng thời hạn thanh toán từ 30 ngày lên 45 ngày kể từ ngày xuất hóa đơn nhằm tối ưu dòng tiền vận hành. Tôi hy vọng hai bên có thể nhóm họp trực tuyến vào thứ Tư tuần tới để đi đến phương án thống nhất trước khi trình ban giám đốc phê duyệt.",
+    "instructions": "Dịch thư đàm phán thương mại cấp cao sang tiếng Anh sắc bén, ngoại giao (C1), sử dụng chính xác thuật ngữ hợp đồng và tài chính.",
+    "checklist": [
+      "Mở đầu đàm phán gia hạn 2 năm trước khi thỏa thuận hiện tại hết hạn cuối tháng 12",
+      "Khéo léo ghi nhận chất lượng ổn định 3 năm qua nhưng từ chối mức tăng giá 8%",
+      "Đưa điều kiện đánh đổi (tăng 20% sản lượng tối thiểu đổi lấy mức tăng giá trần 3%)",
+      "Đề xuất nới thời hạn thanh toán từ Net 30 lên Net 45 để tối ưu dòng tiền & hẹn họp thứ Tư tới"
+    ],
+    "vocabHints": [
+      { "phrase": "as our current supply agreement approaches expiration", "pos": "phrase", "meaningVi": "khi hợp đồng cung ứng hiện tại sắp hết hạn" },
+      { "phrase": "mutually beneficial partnership", "pos": "n", "meaningVi": "quan hệ hợp tác đôi bên cùng có lợi" },
+      { "phrase": "commit to a 20% increase in annual minimum order volume", "pos": "phrase", "meaningVi": "cam kết tăng sản lượng tối thiểu năm thêm 20%" },
+      { "phrase": "provided that unit prices are capped at", "pos": "phrase", "meaningVi": "với điều kiện đơn giá tăng trần tối đa" },
+      { "phrase": "extend payment terms from Net 30 to Net 45", "pos": "phrase", "meaningVi": "nới thời hạn thanh toán từ 30 lên 45 ngày" },
+      { "phrase": "optimize operating cash flow", "pos": "phrase", "meaningVi": "tối ưu dòng tiền vận hành" }
+    ],
+    "recommendedWords": { "min": 115, "max": 175 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a02",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Chiến lược mở rộng thị trường sang khu vực Đông Nam Á",
+    "category": "Chiến lược kinh doanh",
+    "sourceLanguage": "vi",
+    "passage": "Sau khi củng cố vững chắc thị phần trong nước, hội đồng quản trị đã thông qua lộ trình mở rộng sang hai thị trường trọng điểm Đông Nam Á là Thái Lan và Indonesia trong giai đoạn 2026–2028. Thay vì đầu tư ồ ạt vào hệ thống cửa hàng vật lý ngay từ đầu, công ty sẽ áp dụng chiến lược thâm nhập tinh gọn thông qua liên doanh với các nhà phân phối bản địa am hiểu sâu sắc hành vi tiêu dùng khu vực. Song song đó, đội ngũ Nghiên cứu và Phát triển đang bản địa hóa công thức sản phẩm cũng như bao bì nhằm tuân thủ chặt chẽ các tiêu chuẩn kiểm định nhập khẩu của từng quốc gia. Dù chi phí tiếp thị trong mười tám tháng đầu dự báo sẽ tạm thời thu hẹp biên lợi nhuận hợp nhất, ban lãnh đạo tin tưởng bước đi này sẽ tạo ra động lực tăng trưởng doanh thu bền vững cho cả thập kỷ tới.",
+    "instructions": "Dịch bản tóm tắt chiến lược sang tiếng Anh kinh doanh trình độ cao, chú ý liên kết chặt bằng mệnh đề nhượng bộ và cụm danh từ học thuật.",
+    "checklist": [
+      "Trình bày quyết định mở rộng sang Thái Lan & Indonesia giai đoạn 2026–2028 sau khi vững thị phần nội địa",
+      "Nêu chiến lược thâm nhập tinh gọn (liên doanh với nhà phân phối bản địa thay vì mở cửa hàng vật lý ồ ạt)",
+      "Đề cập công tác bản địa hóa công thức & bao bì của R&D để đáp ứng chuẩn nhập khẩu",
+      "Nhận định cân bằng: chi phí marketing 18 tháng đầu thu hẹp biên lợi nhuận tạm thời nhưng tạo tăng trưởng bền vững"
+    ],
+    "vocabHints": [
+      { "phrase": "consolidate domestic market share", "pos": "phrase", "meaningVi": "củng cố thị phần trong nước" },
+      { "phrase": "lean market-entry strategy", "pos": "n", "meaningVi": "chiến lược thâm nhập thị trường tinh gọn" },
+      { "phrase": "form joint ventures with local distributors", "pos": "phrase", "meaningVi": "liên doanh với nhà phân phối bản địa" },
+      { "phrase": "localize product formulations and packaging", "pos": "phrase", "meaningVi": "bản địa hóa công thức và bao bì" },
+      { "phrase": "temporarily compress consolidated profit margins", "pos": "phrase", "meaningVi": "tạm thời thu hẹp biên lợi nhuận hợp nhất" },
+      { "phrase": "sustainable long-term revenue growth engine", "pos": "n", "meaningVi": "động lực tăng trưởng doanh thu bền vững" }
+    ],
+    "recommendedWords": { "min": 115, "max": 175 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a03",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Thư xin lỗi cấp lãnh đạo xử lý khủng hoảng gián đoạn dịch vụ",
+    "category": "Quản trị khủng hoảng",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi Quý Khách hàng Doanh nghiệp, với tư cách Giám đốc Điều hành, tôi xin gửi lời xin lỗi trực tiếp và sâu sắc nhất về sự cố gián đoạn máy chủ đám mây kéo dài bốn tiếng vào sáng thứ Ba vừa qua. Chúng tôi hoàn toàn thấu hiểu rằng bất kỳ phút ngừng trệ nào trên nền tảng thanh toán đều ảnh hưởng trực tiếp tới hoạt động kinh doanh và uy tín của quý vị trước người tiêu dùng. Ngay sau khi khôi phục toàn bộ dịch vụ, chúng tôi đã tiến hành kiểm toán kỹ thuật độc lập và xác nhận không có bất kỳ dữ liệu khách hàng nào bị rò rỉ hay xâm phạm. Ngoài việc tự động hoàn trả 20% phí thuê bao tháng này theo cam kết chất lượng dịch vụ, chúng tôi đang gấp rút bổ sung cụm máy chủ dự phòng đa vùng nhằm ngăn chặn sự cố tương tự tái diễn. Chúng tôi cam kết minh bạch tuyệt đối trong báo cáo kỹ thuật đầy đủ sẽ được công bố vào thứ Sáu và nỗ lực hết mình để xứng đáng với niềm tin của quý vị.",
+    "instructions": "Dịch bức thư lãnh đạo xử lý khủng hoảng sang tiếng Anh chuẩn mực C1, giữ giọng điệu điềm tĩnh, minh bạch và chịu trách nhiệm cao.",
+    "checklist": [
+      "Lời xin lỗi trực tiếp từ CEO về sự cố gián đoạn đám mây 4 tiếng sáng thứ Ba & bày tỏ thấu hiểu tác động",
+      "Xác nhận qua kiểm toán độc lập rằng không có rò rỉ hay xâm phạm dữ liệu khách hàng",
+      "Nêu 2 hành động khắc phục (tự động hoàn 20% phí tháng theo SLA + bổ sung máy chủ dự phòng đa vùng)",
+      "Cam kết công bố báo cáo kỹ thuật minh bạch vào thứ Sáu để khôi phục niềm tin"
+    ],
+    "vocabHints": [
+      { "phrase": "unscheduled four-hour cloud outage", "pos": "n", "meaningVi": "sự cố gián đoạn máy chủ đám mây 4 tiếng" },
+      { "phrase": "independent technical audit", "pos": "n", "meaningVi": "kiểm toán kỹ thuật độc lập" },
+      { "phrase": "no customer data was compromised or breached", "pos": "phrase", "meaningVi": "không có dữ liệu khách hàng nào bị rò rỉ/xâm phạm" },
+      { "phrase": "Service Level Agreement (SLA)", "pos": "n", "meaningVi": "cam kết chất lượng dịch vụ" },
+      { "phrase": "multi-region redundancy / failover clusters", "pos": "n", "meaningVi": "cụm máy chủ dự phòng đa vùng" },
+      { "phrase": "full transparency / post-incident report", "pos": "n", "meaningVi": "sự minh bạch tuyệt đối / báo cáo kỹ thuật sau sự cố" }
+    ],
+    "recommendedWords": { "min": 120, "max": 180 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a04",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Lộ trình chuyển đổi số & Ứng dụng AI trong vận hành doanh nghiệp",
+    "category": "Công nghệ & Chuyển đổi số",
+    "sourceLanguage": "vi",
+    "passage": "Việc tích hợp trí tuệ nhân tạo vào quy trình vận hành không còn là một lựa chọn thử nghiệm mà đã trở thành yếu tố sống còn giúp doanh nghiệp duy trì năng lực cạnh tranh. Tuy nhiên, nhiều dự án chuyển đổi số thất bại không phải do hạn chế công nghệ mà bắt nguồn từ dữ liệu phân mảnh và tâm lý e ngại thay đổi của đội ngũ nhân sự. Do đó, giai đoạn một trong lộ trình của chúng ta sẽ ưu tiên chuẩn hóa kho dữ liệu tập trung và tự động hóa các tác vụ lặp lại có rủi ro thấp như đối chiếu hóa đơn và phân loại chứng từ. Song song với đầu tư hạ tầng, phòng Nhân sự sẽ triển khai chương trình đào tạo lại kỹ năng để nhân viên hiểu rõ AI đóng vai trò trợ lý gia tăng năng suất chứ không thay thế tư duy sáng tạo của con người. Cách tiếp cận từng bước này vừa giúp kiểm soát chặt chi phí triển khai vừa đảm bảo tỷ lệ ứng dụng thực tế cao trên toàn hệ thống.",
+    "instructions": "Dịch đoạn phân tích về chuyển đổi số và AI sang tiếng Anh học thuật – thương mại mạch lạc, tránh lặp từ đơn điệu.",
+    "checklist": [
+      "Khẳng định tích hợp AI là yếu tố sống còn để giữ năng lực cạnh tranh",
+      "Chỉ ra 2 nguyên nhân thất bại thực sự (dữ liệu phân mảnh & tâm lý ngại thay đổi) chứ không phải công nghệ",
+      "Trình bày giai đoạn 1 (chuẩn hóa dữ liệu tập trung & tự động hóa đối chiếu hóa đơn, phân loại chứng từ)",
+      "Nêu chương trình đào tạo lại kỹ năng của HR & lợi ích kiểm soát chi phí, nâng tỷ lệ ứng dụng thực tế"
+    ],
+    "vocabHints": [
+      { "phrase": "maintain a competitive edge", "pos": "phrase", "meaningVi": "duy trì lợi thế cạnh tranh" },
+      { "phrase": "fragmented data silos", "pos": "n", "meaningVi": "dữ liệu phân mảnh" },
+      { "phrase": "resistance to change", "pos": "n", "meaningVi": "tâm lý e ngại thay đổi" },
+      { "phrase": "invoice reconciliation", "pos": "n", "meaningVi": "đối chiếu hóa đơn" },
+      { "phrase": "reskilling / upskilling program", "pos": "n", "meaningVi": "chương trình đào tạo lại / nâng cao kỹ năng" },
+      { "phrase": "phased approach / high adoption rate", "pos": "n", "meaningVi": "cách tiếp cận từng bước / tỷ lệ ứng dụng cao" }
+    ],
+    "recommendedWords": { "min": 120, "max": 180 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a05",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Phân tích báo cáo tài chính quý & Biên lợi nhuận gộp",
+    "category": "Tài chính doanh nghiệp",
+    "sourceLanguage": "vi",
+    "passage": "Trong quý hai năm nay, tổng doanh thu thuần của tập đoàn đạt 48,5 triệu đô la, tăng 14% so với cùng kỳ năm ngoái nhờ đà phục hồi ấn tượng của mảng dịch vụ đăng ký phần mềm doanh nghiệp. Mặc dù giá nguyên liệu đầu vào cho nhóm sản phẩm phần cứng tăng nhẹ do biến động tỷ giá, biên lợi nhuận gộp toàn tập đoàn vẫn cải thiện thêm 1,8 điểm phần trăm nhờ tỷ trọng doanh thu định kỳ cao hơn. Chi phí quản lý doanh nghiệp được kiểm soát kỷ luật ở mức 11% doanh thu, giúp lợi nhuận hoạt động vượt 6% so với dự báo của các nhà phân tích. Dòng tiền tự do dương mạnh mẽ cho phép chúng ta chủ động giảm dư nợ vay ngắn hạn mà không ảnh hưởng tới ngân sách đầu tư nghiên cứu sản phẩm mới. Bước sang nửa cuối năm, ban tài chính sẽ tiếp tục theo dõi sát biến động lãi suất để điều chỉnh linh hoạt kế hoạch phân bổ vốn.",
+    "instructions": "Dịch đoạn phân tích tài chính sang tiếng Anh chuẩn thuật ngữ kế toán – đầu tư (YoY, gross margin, recurring revenue, free cash flow).",
+    "checklist": [
+      "Nêu doanh thu thuần Q2 ($48.5M, tăng 14% YoY) nhờ mảng phần mềm đăng ký doanh nghiệp",
+      "Giải thích biên lợi nhuận gộp vẫn tăng 1,8 điểm phần trăm bất chấp biến động tỷ giá & giá nguyên liệu",
+      "Nêu chi phí quản lý ở mức 11% doanh thu giúp lợi nhuận hoạt động vượt dự báo 6%",
+      "Đề cập dòng tiền tự do giúp giảm nợ ngắn hạn và định hướng theo dõi lãi suất nửa cuối năm"
+    ],
+    "vocabHints": [
+      { "phrase": "net revenue rose 14% year over year (YoY)", "pos": "phrase", "meaningVi": "doanh thu thuần tăng 14% so với cùng kỳ" },
+      { "phrase": "exchange-rate fluctuations", "pos": "n", "meaningVi": "biến động tỷ giá" },
+      { "phrase": "gross profit margin expanded by 1.8 percentage points", "pos": "phrase", "meaningVi": "biên lợi nhuận gộp cải thiện 1,8 điểm phần trăm" },
+      { "phrase": "recurring software subscription revenue", "pos": "n", "meaningVi": "doanh thu định kỳ từ đăng ký phần mềm" },
+      { "phrase": "strong positive free cash flow", "pos": "n", "meaningVi": "dòng tiền tự do dương mạnh mẽ" },
+      { "phrase": "capital allocation plan", "pos": "n", "meaningVi": "kế hoạch phân bổ vốn" }
+    ],
+    "recommendedWords": { "min": 120, "max": 180 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a06",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Thông điệp tái cấu trúc tổ chức & Định hướng tinh gọn",
+    "category": "Lãnh đạo & Nhân sự",
+    "sourceLanguage": "vi",
+    "passage": "Để đáp ứng tốc độ thay đổi chóng mặt của thị trường và rút ngắn chu kỳ ra quyết định, công ty sẽ thực hiện một đợt tái cấu trúc tổ chức có trọng tâm bắt đầu từ đầu quý tới. Theo mô hình mới, hai bộ phận Tiếp thị Sản phẩm và Nghiên cứu Khách hàng sẽ được hợp nhất thành một khối thống nhất nhằm loại bỏ sự chồng chéo chức năng và tăng tốc độ phản hồi thị trường. Chúng tôi khẳng định đợt điều chỉnh này hướng tới mục tiêu nâng cao hiệu quả phối hợp chứ không nhằm cắt giảm nhân sự hàng loạt. Những nhân viên có vai trò thay đổi sẽ được ưu tiên điều chuyển nội bộ kèm gói đào tạo chuyển đổi và lộ trình thăng tiến minh bạch. Trong tuần tới, ban giám đốc sẽ tổ chức các buổi đối thoại trực tiếp theo từng khối để lắng nghe thắc mắc và đảm bảo quá trình chuyển giao diễn ra êm thấm.",
+    "instructions": "Dịch thông điệp nội bộ về tái cấu trúc sang tiếng Anh trang trọng, trấn an nhân sự và giữ sắc thái lãnh đạo chuyên nghiệp.",
+    "checklist": [
+      "Nêu lý do tái cấu trúc có trọng tâm từ quý tới (ứng phó thị trường nhanh & rút ngắn chu kỳ quyết định)",
+      "Trình bày việc hợp nhất Tiếp thị Sản phẩm & Nghiên cứu Khách hàng để bỏ chồng chéo",
+      "Trấn an rằng mục tiêu không phải cắt giảm hàng loạt mà ưu tiên điều chuyển nội bộ + đào tạo",
+      "Thông báo các buổi đối thoại trực tiếp tuần tới để giải đáp thắc mắc"
+    ],
+    "vocabHints": [
+      { "phrase": "targeted organizational restructuring", "pos": "n", "meaningVi": "tái cấu trúc tổ chức có trọng tâm" },
+      { "phrase": "shorten decision-making cycles", "pos": "phrase", "meaningVi": "rút ngắn chu kỳ ra quyết định" },
+      { "phrase": "eliminate overlapping responsibilities", "pos": "phrase", "meaningVi": "loại bỏ sự chồng chéo chức năng" },
+      { "phrase": "large-scale layoffs / workforce reductions", "pos": "n", "meaningVi": "cắt giảm nhân sự hàng loạt" },
+      { "phrase": "internal redeployment / mobility", "pos": "n", "meaningVi": "điều chuyển nội bộ" },
+      { "phrase": "town-hall Q&A sessions", "pos": "n", "meaningVi": "các buổi đối thoại giải đáp trực tiếp" }
+    ],
+    "recommendedWords": { "min": 115, "max": 175 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a07",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Chính sách làm việc kết hợp (Hybrid) & Cam kết phát triển bền vững ESG",
+    "category": "Văn hóa & Bền vững",
+    "sourceLanguage": "vi",
+    "passage": "Song hành với mục tiêu trung hòa carbon vào năm 2032, tập đoàn chính thức áp dụng lâu dài mô hình làm việc kết hợp hai ngày từ xa mỗi tuần cho toàn bộ khối văn phòng. Khảo sát nội bộ cho thấy chính sách này không chỉ nâng cao đáng kể sự gắn kết nhân viên mà còn giúp cắt giảm ước tính 35% lượng khí thải phát sinh từ việc di chuyển đi làm hàng ngày. Đồng thời, trụ sở chính đang được chuyển đổi sang sử dụng 100% điện tái tạo kết hợp hệ thống cảm biến ánh sáng thông minh giúp tiết kiệm năng lượng ngoài giờ làm việc. Bên cạnh cam kết môi trường, công ty dành 1% lợi nhuận trước thuế mỗi năm cho quỹ học bổng công nghệ dành cho sinh viên có hoàn cảnh khó khăn. Chúng tôi tin rằng hiệu quả kinh doanh bền vững luôn phải gắn liền với trách nhiệm xã hội và môi trường thiết thực.",
+    "instructions": "Dịch văn bản về chính sách Hybrid & ESG sang tiếng Anh mượt mà, sử dụng chuẩn cụm từ phát triển bền vững doanh nghiệp.",
+    "checklist": [
+      "Nêu chính sách Hybrid dài hạn (2 ngày làm từ xa/tuần) gắn với mục tiêu trung hòa carbon năm 2032",
+      "Trích 2 lợi ích từ khảo sát (tăng gắn kết nhân viên & giảm 35% khí thải đi lại)",
+      "Nêu giải pháp tại trụ sở chính (100% điện tái tạo & cảm biến ánh sáng thông minh)",
+      "Đề cập cam kết xã hội (1% lợi nhuận trước thuế cho học bổng công nghệ) và thông điệp kết"
+    ],
+    "vocabHints": [
+      { "phrase": "carbon neutrality by 2032", "pos": "n", "meaningVi": "trung hòa carbon vào năm 2032" },
+      { "phrase": "permanently adopt a hybrid work model", "pos": "phrase", "meaningVi": "áp dụng lâu dài mô hình làm việc kết hợp" },
+      { "phrase": "daily commuting emissions", "pos": "n", "meaningVi": "khí thải từ việc đi lại hàng ngày" },
+      { "phrase": "transition to 100% renewable electricity", "pos": "phrase", "meaningVi": "chuyển sang 100% điện tái tạo" },
+      { "phrase": "pre-tax profits", "pos": "n", "meaningVi": "lợi nhuận trước thuế" },
+      { "phrase": "corporate social responsibility", "pos": "n", "meaningVi": "trách nhiệm xã hội doanh nghiệp" }
+    ],
+    "recommendedWords": { "min": 115, "max": 175 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a08",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Đề xuất đầu tư nâng cấp dây chuyền sản xuất bao bì xanh",
+    "category": "Đầu tư & Sản xuất",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi Ủy ban Đầu tư, tôi xin trình bày đề xuất giải ngân 1,2 triệu đô la để lắp đặt dây chuyền ép khuôn bao bì sinh học tự động thế hệ mới tại nhà máy Bình Dương. Trước quy định siết chặt nhựa dùng một lần sắp có hiệu lực tại thị trường châu Âu, việc chủ động chuyển đổi công nghệ là điều kiện tiên quyết để giữ chân ba khách hàng xuất khẩu chủ lực chiếm hơn 60% doanh số nhà máy. Dây chuyền mới sở hữu công suất cao hơn 40% trong khi giảm một phần tư lượng điện năng tiêu thụ trên mỗi tấn thành phẩm. Theo mô hình dòng tiền thận trọng, dự án sẽ đạt điểm hòa vốn sau hai mươi tám tháng vận hành và tạo ra biên lợi nhuận bổ sung vượt trội từ năm thứ ba trở đi. Rất mong nhận được sự chấp thuận của Ủy ban để chúng tôi kịp ký hợp đồng cung cấp thiết bị trong quý này.",
+    "instructions": "Dịch bản đề xuất đầu tư vốn (CapEx Proposal) sang tiếng Anh trang trọng, sử dụng chuẩn thuật ngữ đầu tư (break-even point, prerequisite, conservative cash-flow model).",
+    "checklist": [
+      "Trình bày đề xuất giải ngân $1.2M lắp dây chuyền bao bì sinh học tại Bình Dương",
+      "Giải thích tính cấp thiết (quy định châu Âu siết nhựa dùng một lần; giữ 3 khách xuất khẩu chiếm >60% doanh số)",
+      "Nêu thông số kỹ thuật (công suất +40%, điện năng tiêu thụ giảm 25%/tấn)",
+      "Trình bày thời gian hòa vốn (28 tháng theo mô hình thận trọng) và xin duyệt kịp ký trong quý"
+    ],
+    "vocabHints": [
+      { "phrase": "capital disbursement / allocation", "pos": "n", "meaningVi": "giải ngân vốn đầu tư" },
+      { "phrase": "strict single-use plastic regulations", "pos": "n", "meaningVi": "quy định siết chặt nhựa dùng một lần" },
+      { "phrase": "a prerequisite for retaining key export accounts", "pos": "phrase", "meaningVi": "điều kiện tiên quyết để giữ chân khách xuất khẩu chủ lực" },
+      { "phrase": "energy consumption per metric ton", "pos": "n", "meaningVi": "lượng điện tiêu thụ trên mỗi tấn" },
+      { "phrase": "reach the break-even point in 28 months", "pos": "phrase", "meaningVi": "đạt điểm hòa vốn sau 28 tháng" },
+      { "phrase": "under a conservative cash-flow projection", "pos": "phrase", "meaningVi": "theo mô hình dự báo dòng tiền thận trọng" }
+    ],
+    "recommendedWords": { "min": 120, "max": 180 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a09",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Quản trị rủi ro chuỗi cung ứng & Đa dạng hóa nguồn cung",
+    "category": "Chuỗi cung ứng & Rủi ro",
+    "sourceLanguage": "vi",
+    "passage": "Những biến động địa chính trị và chi phí vận tải biển leo thang trong hai năm qua đã bộc lộ rõ điểm yếu của việc phụ thuộc quá mức vào một nguồn cung linh kiện duy nhất. Nhằm nâng cao khả năng chống chịu cho chuỗi cung ứng, phòng Mua hàng đã hoàn tất thẩm định thêm bốn nhà cung cấp đạt chuẩn quốc tế tại hai khu vực địa lý khác nhau. Bên cạnh chiến lược đa nguồn cung, chúng tôi cũng nâng mức tồn kho an toàn đối với các vi mạch thiết yếu từ ba tuần lên sáu tuần sản xuất để chủ động ứng phó mọi gián đoạn đột ngột. Dù việc tăng tồn kho tạm thời làm gia tăng chi phí lưu kho, khoản đầu tư phòng ngừa này nhỏ hơn rất nhiều so với thiệt hại nếu dây chuyền lắp ráp phải tạm dừng. Chúng tôi sẽ đánh giá định kỳ chỉ số rủi ro nhà cung cấp mỗi quý nhằm duy trì sự cân bằng tối ưu giữa chi phí và độ an toàn vận hành.",
+    "instructions": "Dịch báo cáo quản trị rủi ro chuỗi cung ứng sang tiếng Anh chuyên ngành sắc bén (supply-chain resilience, dual-sourcing, safety stock).",
+    "checklist": [
+      "Nêu bối cảnh biến động địa chính trị & cước biển cao bộc lộ rủi ro phụ thuộc 1 nguồn cung",
+      "Trình bày 2 biện pháp: thẩm định thêm 4 nhà cung cấp ở 2 khu vực + tăng tồn kho an toàn vi mạch từ 3 lên 6 tuần",
+      "So sánh chi phí lưu kho tăng thêm với thiệt hại nặng nề nếu dừng dây chuyền",
+      "Cam kết đánh giá chỉ số rủi ro nhà cung cấp hàng quý để cân bằng chi phí và an toàn"
+    ],
+    "vocabHints": [
+      { "phrase": "geopolitical disruptions and surging ocean freight rates", "pos": "n", "meaningVi": "biến động địa chính trị và cước vận tải biển tăng vọt" },
+      { "phrase": "overreliance on a single supplier", "pos": "n", "meaningVi": "phụ thuộc quá mức vào một nhà cung cấp" },
+      { "phrase": "strengthen supply-chain resilience", "pos": "phrase", "meaningVi": "nâng cao khả năng chống chịu chuỗi cung ứng" },
+      { "phrase": "vet / qualify four additional suppliers", "pos": "phrase", "meaningVi": "thẩm định thêm bốn nhà cung cấp" },
+      { "phrase": "safety stock of critical microchips", "pos": "n", "meaningVi": "tồn kho an toàn đối với vi mạch thiết yếu" },
+      { "phrase": "outweigh the cost of an assembly-line halt", "pos": "phrase", "meaningVi": "nhỏ hơn nhiều so với thiệt hại dừng dây chuyền" }
+    ],
+    "recommendedWords": { "min": 120, "max": 180 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-tr-a10",
+    "mode": "translation",
+    "difficulty": "Nâng cao",
+    "title": "Bài phát biểu tổng kết năm & Tầm nhìn chiến lược của CEO",
+    "category": "Truyền thông điều hành",
+    "sourceLanguage": "vi",
+    "passage": "Thưa toàn thể anh chị em đồng nghiệp, nhìn lại một năm đầy thử thách nhưng cũng vô cùng rực rỡ vừa qua, tôi thực sự tự hào trước bản lĩnh và tinh thần đổi mới không ngừng của đại gia đình chúng ta. Bất chấp sức mua toàn cầu chững lại, chúng ta vẫn chinh phục thành công hơn ba trăm khách hàng doanh nghiệp mới và ra mắt hai dòng sản phẩm chủ lực nhận được đánh giá xuất sắc từ thị trường. Những cột mốc ấn tượng ấy không đến từ may mắn, mà là thành quả của hàng nghìn giờ phối hợp bền bỉ giữa các phòng ban từ kỹ thuật, vận hành đến chăm sóc khách hàng. Bước sang năm mới, trọng tâm chiến lược của chúng ta sẽ chuyển dịch từ tăng trưởng nhanh theo quy mô sang tối ưu chiều sâu trải nghiệm người dùng và nâng tầm năng lực nhân sự. Hãy cùng nhau giữ vững ngọn lửa khát vọng này để biến năm tới thành chương phát triển bứt phá nhất trong lịch sử công ty.",
+    "instructions": "Dịch bài phát biểu cuối năm của CEO sang tiếng Anh truyền cảm hứng, trang trọng nhưng ấm áp, giàu nhịp điệu hùng biện.",
+    "checklist": [
+      "Mở đầu nhìn lại năm nhiều thử thách nhưng rực rỡ & bày tỏ tự hào về bản lĩnh, tinh thần đổi mới",
+      "Nêu 2 thành tựu bất chấp sức mua chững lại (>300 khách doanh nghiệp mới & 2 sản phẩm chủ lực được khen)",
+      "Ghi nhận thành quả là nhờ phối hợp bền bỉ giữa các phòng ban chứ không do may mắn",
+      "Công bố trọng tâm năm mới (chuyển từ tăng quy mô sang chiều sâu trải nghiệm & năng lực nhân sự) + lời hiệu triệu kết"
+    ],
+    "vocabHints": [
+      { "phrase": "resilience and relentless spirit of innovation", "pos": "n", "meaningVi": "bản lĩnh kiên cường và tinh thần đổi mới không ngừng" },
+      { "phrase": "despite sluggish global consumer demand", "pos": "phrase", "meaningVi": "bất chấp sức mua toàn cầu chững lại" },
+      { "phrase": "onboard over 300 new enterprise clients", "pos": "phrase", "meaningVi": "chinh phục hơn 300 khách hàng doanh nghiệp mới" },
+      { "phrase": "cross-functional collaboration", "pos": "n", "meaningVi": "sự phối hợp liên phòng ban" },
+      { "phrase": "pivot from rapid scale to deeper user experience", "pos": "phrase", "meaningVi": "chuyển dịch từ tăng quy mô sang chiều sâu trải nghiệm" },
+      { "phrase": "a breakthrough chapter in our company's history", "pos": "n", "meaningVi": "chương phát triển bứt phá nhất trong lịch sử công ty" }
+    ],
+    "recommendedWords": { "min": 120, "max": 185 },
+    "recommendedMinutes": 15
+  }
+]

@@ -1,0 +1,399 @@
+{
+  "id": "drill-p4-voicemail",
+  "part": 4,
+  "title": "Tin nhắn thoại (Phone Messages)",
+  "subtitle": "Nhắc lịch hẹn y tế, báo giao nhầm vật liệu và yêu cầu gọi lại.",
+  "focusTag": "Phone Messages",
+  "part4": [
+    {
+      "id": "dp4-vm-1",
+      "part": 4,
+      "title": "Tin nhắn thoại nhắc lịch khám và gửi hồ sơ trước",
+      "talkType": "Tin nhắn thoại (Phone Message)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-vm-1-l1",
+          "speaker": "Caller",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Hello Mr. Nguyen, this is Claire from Oakwood Vision Clinic reminding you of your eye exam this Wednesday at 2:30 P.M.",
+          "vi": "Chào anh Nguyễn, tôi là Claire từ Phòng khám Mắt Oakwood gọi nhắc lịch khám mắt của anh vào 2:30 chiều thứ Tư này.",
+          "evidenceForQuestionIds": [
+            "dp4-vm-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 7776
+        },
+        {
+          "id": "dp4-vm-1-l2",
+          "speaker": "Caller",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Since this is your first visit to our new downtown branch, please arrive fifteen minutes early and bring your current eyeglasses.",
+          "vi": "Vì đây là lần đầu anh tới chi nhánh trung tâm mới, vui lòng đến sớm mười lăm phút và mang theo kính mắt hiện tại.",
+          "evidenceForQuestionIds": [
+            "dp4-vm-1-q2"
+          ],
+          "startMs": 8156,
+          "endMs": 15452
+        },
+        {
+          "id": "dp4-vm-1-l3",
+          "speaker": "Caller",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Free two-hour parking is validated inside the garage behind Maple Street. Call us if you need to reschedule.",
+          "vi": "Bãi đỗ xe miễn phí hai tiếng được xác nhận trong nhà xe phía sau phố Maple. Hãy gọi lại nếu anh cần đổi lịch.",
+          "evidenceForQuestionIds": [
+            "dp4-vm-1-q3"
+          ],
+          "startMs": 15832,
+          "endMs": 23392
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-vm-1-q1",
+          "questionNumber": 1,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What is the main purpose of the message?",
+          "promptVi": "Mục đích chính của tin nhắn là gì?",
+          "options": {
+            "A": {
+              "en": "To confirm a medical appointment",
+              "vi": "Xác nhận và nhắc lịch khám bệnh"
+            },
+            "B": {
+              "en": "To advertise new sunglasses",
+              "vi": "Quảng cáo kính râm mới"
+            },
+            "C": {
+              "en": "To report lab test results",
+              "vi": "Báo kết quả xét nghiệm"
+            },
+            "D": {
+              "en": "To collect an overdue bill",
+              "vi": "Thu hóa đơn quá hạn"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'reminding you of your eye exam'",
+            "trapAnalysis": "Tin nhắn nhắc lịch khám mắt.",
+            "paraphrases": [
+              {
+                "audioPhrase": "reminding of eye exam",
+                "answerPhrase": "confirm a medical appointment",
+                "meaningVi": "nhắc lịch khám"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-vm-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What should Mr. Nguyen bring with him?",
+          "promptVi": "Anh Nguyễn cần mang theo gì?",
+          "options": {
+            "A": {
+              "en": "A referral letter",
+              "vi": "Giấy giới thiệu"
+            },
+            "B": {
+              "en": "His existing glasses",
+              "vi": "Cặp kính hiện đang dùng"
+            },
+            "C": {
+              "en": "Cash for parking",
+              "vi": "Tiền mặt gửi xe"
+            },
+            "D": {
+              "en": "A printed street map",
+              "vi": "Bản đồ đường in sẵn"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'current eyeglasses' -> 'existing glasses'",
+            "trapAnalysis": "Câu 2: 'bring your current eyeglasses'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "current eyeglasses",
+                "answerPhrase": "existing glasses",
+                "meaningVi": "kính đang đeo"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-vm-1-q3",
+          "questionNumber": 3,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What perk is mentioned at the end of the call?",
+          "promptVi": "Tiện ích nào được nhắc ở cuối cuộc gọi?",
+          "options": {
+            "A": {
+              "en": "Complimentary parking for two hours",
+              "vi": "Đỗ xe miễn phí hai giờ"
+            },
+            "B": {
+              "en": "A free lens cleaning kit",
+              "vi": "Bộ lau kính miễn phí"
+            },
+            "C": {
+              "en": "Weekend clinic hours",
+              "vi": "Giờ khám cuối tuần"
+            },
+            "D": {
+              "en": "Same-day frame delivery",
+              "vi": "Giao gọng kính trong ngày"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'Free two-hour parking is validated'",
+            "trapAnalysis": "Bãi đỗ xe miễn phí 2 tiếng.",
+            "paraphrases": [
+              {
+                "audioPhrase": "validated free parking",
+                "answerPhrase": "complimentary parking",
+                "meaningVi": "đỗ xe miễn phí"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-vm-1-v1",
+          "word": "validate",
+          "pos": "v",
+          "ipaUK": "/ˈvælɪdeɪt/",
+          "ipaUS": "/ˈvælɪdeɪt/",
+          "meaning": "đóng dấu xác nhận miễn phí (vé xe); chứng thực",
+          "exampleEn": "Ask the receptionist to validate your parking ticket before leaving.",
+          "exampleVi": "Nhờ lễ tân xác nhận miễn phí vé đỗ xe trước khi ra về."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-vm-1.mp3"
+    },
+    {
+      "id": "dp4-vm-2",
+      "part": 4,
+      "title": "Tin nhắn thoại báo giao nhầm vật liệu xây dựng",
+      "talkType": "Tin nhắn thoại (Phone Message)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-vm-2-l1",
+          "speaker": "Caller",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Hi, this is Omar from Meridian Interiors calling about Order 8842 delivered to our studio this morning.",
+          "vi": "Chào bạn, tôi là Omar từ Nội thất Meridian gọi về Đơn hàng 8842 giao tới xưởng sáng nay.",
+          "evidenceForQuestionIds": [
+            "dp4-vm-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 7728
+        },
+        {
+          "id": "dp4-vm-2-l2",
+          "speaker": "Caller",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "The quantity of walnut floorboards is accurate, but we received glossy finish instead of the matte finish listed on our invoice.",
+          "vi": "Số lượng ván sàn gỗ óc chó thì chính xác, nhưng ta nhận phải bề mặt bóng thay vì bề mặt mờ ghi trên hóa đơn.",
+          "evidenceForQuestionIds": [
+            "dp4-vm-2-q2"
+          ],
+          "startMs": 8108,
+          "endMs": 15644
+        },
+        {
+          "id": "dp4-vm-2-l3",
+          "speaker": "Caller",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Our installation crew starts Thursday, so please call me back today to arrange an exchange pickup.",
+          "vi": "Đội lắp đặt của chúng tôi bắt đầu thứ Năm, nên vui lòng gọi lại hôm nay để sắp xếp thu hồi đổi hàng.",
+          "evidenceForQuestionIds": [
+            "dp4-vm-2-q3"
+          ],
+          "startMs": 16024,
+          "endMs": 22288
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-vm-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "Where does the caller likely work?",
+          "promptVi": "Người gọi nhiều khả năng làm việc ở đâu?",
+          "options": {
+            "A": {
+              "en": "An interior design firm",
+              "vi": "Công ty thiết kế nội thất"
+            },
+            "B": {
+              "en": "A shipping port",
+              "vi": "Cảng vận chuyển"
+            },
+            "C": {
+              "en": "A lumber forest",
+              "vi": "Khu khai thác gỗ"
+            },
+            "D": {
+              "en": "An accounting office",
+              "vi": "Văn phòng kế toán"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'Meridian Interiors' + 'installation crew'",
+            "trapAnalysis": "Tên công ty + sản phẩm sàn gỗ -> thiết kế nội thất.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Meridian Interiors",
+                "answerPhrase": "interior design firm",
+                "meaningVi": "công ty nội thất"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-vm-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What is wrong with the delivery?",
+          "promptVi": "Đơn hàng giao tới bị lỗi gì?",
+          "options": {
+            "A": {
+              "en": "Too few boxes arrived.",
+              "vi": "Giao thiếu thùng."
+            },
+            "B": {
+              "en": "The wrong surface finish was sent.",
+              "vi": "Gửi nhầm loại bề mặt hoàn thiện."
+            },
+            "C": {
+              "en": "Several boards were cracked.",
+              "vi": "Vài tấm ván bị nứt."
+            },
+            "D": {
+              "en": "The invoice total is wrong.",
+              "vi": "Tổng hóa đơn tính sai."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu 2: 'glossy finish instead of matte finish'",
+            "trapAnalysis": "Số lượng đúng (accurate), lỗi nằm ở loại bề mặt bóng thay vì mờ!",
+            "paraphrases": [
+              {
+                "audioPhrase": "glossy instead of matte",
+                "answerPhrase": "wrong surface finish",
+                "meaningVi": "nhầm bề mặt sản phẩm"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai: quantity is accurate.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-vm-2-q3",
+          "questionNumber": 6,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What does Omar ask the listener to do today?",
+          "promptVi": "Omar yêu cầu người nghe làm gì trong hôm nay?",
+          "options": {
+            "A": {
+              "en": "Send a revised bill",
+              "vi": "Gửi hóa đơn sửa đổi"
+            },
+            "B": {
+              "en": "Call back to schedule an exchange",
+              "vi": "Gọi lại để hẹn lịch đổi hàng"
+            },
+            "C": {
+              "en": "Visit the client's home",
+              "vi": "Ghé nhà khách hàng"
+            },
+            "D": {
+              "en": "Cancel Order 8842",
+              "vi": "Hủy Đơn hàng 8842"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu cuối: 'call me back today to arrange an exchange pickup'",
+            "trapAnalysis": "Bắt đúng yêu cầu gọi lại xếp lịch đổi hàng.",
+            "paraphrases": [
+              {
+                "audioPhrase": "arrange an exchange pickup",
+                "answerPhrase": "schedule an exchange",
+                "meaningVi": "sắp xếp lịch đổi hàng"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-vm-2-v1",
+          "word": "finish",
+          "pos": "n",
+          "ipaUK": "/ˈfɪnɪʃ/",
+          "ipaUS": "/ˈfɪnɪʃ/",
+          "meaning": "lớp bề mặt hoàn thiện (bóng/mờ)",
+          "exampleEn": "Architects chose a durable matte finish for the lobby floors.",
+          "exampleVi": "Các kiến trúc sư chọn lớp hoàn thiện mờ bền bỉ cho sàn sảnh."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-vm-2.mp3"
+    }
+  ]
+}

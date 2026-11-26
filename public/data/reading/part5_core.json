@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "t1-p5-101",
+    "part": 5,
+    "topic": "Từ loại (Word Form)",
+    "difficulty": "Cơ bản",
+    "sentence": "Ms. Sato’s _______ to detail ensured that the annual financial report contained zero calculation errors.",
+    "options": {
+      "A": "attentive",
+      "B": "attentively",
+      "C": "attention",
+      "D": "attend"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Từ loại (Word Form) — Vị trí Danh từ sau sở hữu cách",
+        "signal": "Đứng sau sở hữu cách 'Ms. Sato’s' và trước giới từ 'to' (cụm cố định attention to detail) bắt buộc cần Danh từ."
+      },
+      "translation": {
+        "questionVi": "Sự chú ý đến từng chi tiết của cô Sato đã đảm bảo rằng báo cáo tài chính thường niên không có lỗi tính toán nào.",
+        "optionsVi": {
+          "A": "attentive (adj): chăm chú, ân cần",
+          "B": "attentively (adv): một cách chăm chú",
+          "C": "attention (n): sự chú ý",
+          "D": "attend (v): tham dự"
+        }
+      },
+      "proof": {
+        "explanation": "Sau sở hữu cách ('s) luôn là Danh từ làm chủ ngữ cho động từ 'ensured'. Collocation kinh điển: attention to detail (sự tỉ mỉ)."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì là tính từ.",
+        "B": "Loại vì là trạng từ.",
+        "C": "ĐÚNG — Danh từ phù hợp cả ngữ pháp lẫn collocation.",
+        "D": "Loại vì là động từ nguyên mẫu."
+      },
+      "keyTakeaways": {
+        "formula": "Sở hữu cách ('s) / Tính từ sở hữu + (Adj) + Noun",
+        "commonTrap": "Nhầm động từ attend (tham dự) với danh từ attention (sự chú ý).",
+        "paraphrases": [
+          {
+            "textInPassage": "attention to detail",
+            "textInAnswer": "meticulousness / thoroughness",
+            "meaningVi": "sự tỉ mỉ chi tiết"
+          }
+        ]
+      },
+      "applyRule": "Sở hữu cách ('s) / Tính từ sở hữu + (Adj) + Noun",
+      "structureBreakdown": {
+        "fullStructure": "Ms. Sato’s [ attention ] to detail ensured that the annual financial report contained zero calculation errors.",
+        "modifiers": "Chuyên đề trọng tâm: Từ loại (Word Form) — Dấu hiệu: Đứng sau sở hữu cách 'Ms. Sato’s' và trước giới từ 'to' (cụm cố định attention to detail) bắt buộc cần Danh từ."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-102",
+    "part": 5,
+    "topic": "Từ loại (Word Form)",
+    "difficulty": "Trung bình",
+    "sentence": "The board praised the marketing team for designing a _______ successful product launch campaign.",
+    "options": {
+      "A": "remark",
+      "B": "remarkable",
+      "C": "remarkably",
+      "D": "remarked"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Từ loại (Word Form) — Trạng từ bổ nghĩa Tính từ",
+        "signal": "Cấu trúc 'a + [trống] + successful (adj) + campaign (n)' → Cần Trạng từ (-ly) bổ nghĩa cho tính từ 'successful'."
+      },
+      "translation": {
+        "questionVi": "Hội đồng quản trị khen ngợi đội tiếp thị vì đã thiết kế một chiến dịch ra mắt sản phẩm thành công đáng kinh ngạc.",
+        "optionsVi": {
+          "A": "remark (n/v): nhận xét",
+          "B": "remarkable (adj): đáng chú ý",
+          "C": "remarkably (adv): một cách đáng kinh ngạc",
+          "D": "remarked (v-ed): đã nhận xét"
+        }
+      },
+      "proof": {
+        "explanation": "Tính từ 'successful' đã bổ nghĩa cho danh từ 'campaign'. Để nhấn mạnh mức độ thành công của tính từ này, bắt buộc dùng Trạng từ 'remarkably'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì là danh từ/động từ.",
+        "B": "Loại vì tính từ không bổ nghĩa cho tính từ 'successful'.",
+        "C": "ĐÚNG — Trạng từ bổ nghĩa tính từ: remarkably successful.",
+        "D": "Loại vì là động từ quá khứ."
+      },
+      "keyTakeaways": {
+        "formula": "a/an/the + Adverb (-ly) + Adjective + Noun",
+        "commonTrap": "Thấy mạo từ 'a' liền chọn tính từ 'remarkable' mà bỏ qua tính từ 'successful' ngay sau chỗ trống.",
+        "paraphrases": [
+          {
+            "textInPassage": "remarkably successful",
+            "textInAnswer": "exceptionally effective",
+            "meaningVi": "thành công vượt bậc"
+          }
+        ]
+      },
+      "applyRule": "a/an/the + Adverb (-ly) + Adjective + Noun",
+      "structureBreakdown": {
+        "fullStructure": "The board praised the marketing team for designing a [ remarkably ] successful product launch campaign.",
+        "modifiers": "Chuyên đề trọng tâm: Từ loại (Word Form) — Dấu hiệu: Cấu trúc 'a + [trống] + successful (adj) + campaign (n)' → Cần Trạng từ (-ly) bổ nghĩa cho tính từ 'successful'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-103",
+    "part": 5,
+    "topic": "Thì & Hòa hợp chủ vị",
+    "difficulty": "Trung bình",
+    "sentence": "By the time the new convention center opens next autumn, the city _______ three additional subway lines.",
+    "options": {
+      "A": "completes",
+      "B": "completed",
+      "C": "will have completed",
+      "D": "has been completing"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Thì động từ — Tương lai hoàn thành (Future Perfect)",
+        "signal": "Dấu hiệu kinh điển: 'By the time + S + V(HTĐ) [mốc tương lai next autumn], S + will have + V3/ed'."
+      },
+      "translation": {
+        "questionVi": "Tính đến lúc trung tâm hội nghị mới mở cửa mùa thu tới, thành phố sẽ đã hoàn thành thêm ba tuyến tàu điện ngầm.",
+        "optionsVi": {
+          "A": "completes: hoàn thành (HTĐ)",
+          "B": "completed: đã hoàn thành (QKĐ)",
+          "C": "will have completed: sẽ đã hoàn thành (TLHT)",
+          "D": "has been completing: đã và đang hoàn thành (HTHTTD)"
+        }
+      },
+      "proof": {
+        "explanation": "Hành động hoàn tất trước một thời điểm xác định trong tương lai ('opens next autumn') bắt buộc chia Tương lai hoàn thành 'will have completed'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì HTĐ không diễn tả hành động hoàn tất trước mốc tương lai.",
+        "B": "Loại vì QKĐ mâu thuẫn với 'next autumn'.",
+        "C": "ĐÚNG — Chuẩn công thức By the time + HTĐ → will have + V3/ed.",
+        "D": "Loại vì HTHTTD chỉ hành động kéo dài tới hiện tại."
+      },
+      "keyTakeaways": {
+        "formula": "By the time + S + V(s/es) [tương lai], S + will have + V3/ed",
+        "commonTrap": "Thấy động từ 'opens' chia hiện tại đơn nên chọn nhầm A.",
+        "paraphrases": [
+          {
+            "textInPassage": "additional subway lines",
+            "textInAnswer": "expanded public transit routes",
+            "meaningVi": "các tuyến giao thông mở rộng"
+          }
+        ]
+      },
+      "applyRule": "By the time + S + V(s/es) [tương lai], S + will have + V3/ed",
+      "structureBreakdown": {
+        "fullStructure": "By the time the new convention center opens next autumn, the city [ will have completed ] three additional subway lines.",
+        "modifiers": "Chuyên đề trọng tâm: Thì & Hòa hợp chủ vị — Dấu hiệu: Dấu hiệu kinh điển: 'By the time + S + V(HTĐ) [mốc tương lai next autumn], S + will have + V3/ed'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-104",
+    "part": 5,
+    "topic": "Thì & Hòa hợp chủ vị",
+    "difficulty": "Nâng cao",
+    "sentence": "A comprehensive list of approved travel vendors _______ available on the company intranet since Monday.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "has been",
+      "D": "have been"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Hòa hợp Chủ vị (N1 of N2) & Hiện tại hoàn thành",
+        "signal": "Chủ ngữ chính là danh từ số ít 'A comprehensive list' (không phải 'vendors'), kèm dấu hiệu 'since Monday'."
+      },
+      "translation": {
+        "questionVi": "Một danh sách toàn diện các nhà cung cấp du lịch được duyệt đã có sẵn trên mạng nội bộ từ thứ Hai.",
+        "optionsVi": {
+          "A": "are: là (HTĐ, số nhiều)",
+          "B": "were: đã là (QKĐ, số nhiều)",
+          "C": "has been: đã là (HTHT, số ít)",
+          "D": "have been: đã là (HTHT, số nhiều)"
+        }
+      },
+      "proof": {
+        "explanation": "Cấu trúc 'N1 + of + N2' chia động từ theo N1 ('A list' — số ít). Kết hợp 'since Monday' → Hiện tại hoàn thành số ít 'has been'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì sai thì và sai số.",
+        "B": "Loại vì sai thì quá khứ và sai số.",
+        "C": "ĐÚNG — Chia số ít theo 'A list' và HTHT theo 'since Monday'.",
+        "D": "Loại vì bẫy chia số nhiều theo 'vendors'."
+      },
+      "keyTakeaways": {
+        "formula": "A list / The number / A series + of + N(số nhiều) + V(số ít)",
+        "commonTrap": "Nhìn danh từ số nhiều 'vendors' sát chỗ trống rồi chia 'have been'.",
+        "paraphrases": [
+          {
+            "textInPassage": "available on the intranet",
+            "textInAnswer": "accessible to staff online",
+            "meaningVi": "nhân viên có thể truy cập nội bộ"
+          }
+        ]
+      },
+      "applyRule": "A list / The number / A series + of + N(số nhiều) + V(số ít)",
+      "structureBreakdown": {
+        "fullStructure": "A comprehensive list of approved travel vendors [ has been ] available on the company intranet since Monday.",
+        "modifiers": "Chuyên đề trọng tâm: Thì & Hòa hợp chủ vị — Dấu hiệu: Chủ ngữ chính là danh từ số ít 'A comprehensive list' (không phải 'vendors'), kèm dấu hiệu 'since Monday'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-105",
+    "part": 5,
+    "topic": "Thể bị động (Passive Voice)",
+    "difficulty": "Cơ bản",
+    "sentence": "All visitor badges must _______ to the security desk prior to leaving the research facility.",
+    "options": {
+      "A": "return",
+      "B": "returning",
+      "C": "be returned",
+      "D": "have returned"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Thể bị động với Động từ khuyết thiếu (Modal Passive)",
+        "signal": "Chủ ngữ chỉ vật 'All visitor badges' + không có tân ngữ sau chỗ trống (chỉ có giới từ 'to') → must be + V3/ed."
+      },
+      "translation": {
+        "questionVi": "Tất cả thẻ khách tham quan phải được trả lại cho bàn bảo vệ trước khi rời cơ sở nghiên cứu.",
+        "optionsVi": {
+          "A": "return: trả lại (chủ động)",
+          "B": "returning: đang trả lại",
+          "C": "be returned: được trả lại (bị động)",
+          "D": "have returned: đã trả lại (chủ động)"
+        }
+      },
+      "proof": {
+        "explanation": "Thẻ khách không thể tự trả chính nó và sau động từ không có tân ngữ trực tiếp → Cần thể bị động sau 'must': 'be returned'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì chủ động.",
+        "B": "Loại vì sau 'must' không dùng V-ing.",
+        "C": "ĐÚNG — Modal + be + V3/ed.",
+        "D": "Loại vì chủ động."
+      },
+      "keyTakeaways": {
+        "formula": "Chủ ngữ vật + must/should/can/will + be + V3/ed (+ giới từ)",
+        "commonTrap": "Không để ý giới từ 'to' ngay sau chỗ trống (dấu hiệu thiếu tân ngữ → bị động).",
+        "paraphrases": [
+          {
+            "textInPassage": "prior to leaving",
+            "textInAnswer": "before departing",
+            "meaningVi": "trước khi rời đi"
+          }
+        ]
+      },
+      "applyRule": "Chủ ngữ vật + must/should/can/will + be + V3/ed (+ giới từ)",
+      "structureBreakdown": {
+        "fullStructure": "All visitor badges must [ be returned ] to the security desk prior to leaving the research facility.",
+        "modifiers": "Chuyên đề trọng tâm: Thể bị động (Passive Voice) — Dấu hiệu: Chủ ngữ chỉ vật 'All visitor badges' + không có tân ngữ sau chỗ trống (chỉ có giới từ 'to') → must be + V3/ed."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-106",
+    "part": 5,
+    "topic": "Thể bị động (Passive Voice)",
+    "difficulty": "Trung bình",
+    "sentence": "The historic theater on Oak Street _______ extensively before its grand reopening next month.",
+    "options": {
+      "A": "is renovating",
+      "B": "is being renovated",
+      "C": "has renovated",
+      "D": "renovates"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Thể bị động Hiện tại tiếp diễn",
+        "signal": "Chủ ngữ vật 'The historic theater' + trạng từ 'extensively' (không có tân ngữ) + đang tiến hành trước tháng tới."
+      },
+      "translation": {
+        "questionVi": "Nhà hát lịch sử trên phố Oak hiện đang được cải tạo quy mô lớn trước lễ mở cửa trở lại tháng tới.",
+        "optionsVi": {
+          "A": "is renovating: đang cải tạo (chủ động)",
+          "B": "is being renovated: đang được cải tạo (bị động)",
+          "C": "has renovated: đã cải tạo (chủ động)",
+          "D": "renovates: cải tạo (chủ động)"
+        }
+      },
+      "proof": {
+        "explanation": "'renovate' là ngoại động từ nhưng phía sau không có tân ngữ → Bắt buộc chia bị động. Duy nhất B là dạng bị động."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì chủ động.",
+        "B": "ĐÚNG — Bị động hiện tại tiếp diễn (is being + V3/ed).",
+        "C": "Loại vì chủ động.",
+        "D": "Loại vì chủ động."
+      },
+      "keyTakeaways": {
+        "formula": "Ngoại động từ + [không tân ngữ] → Be + (being) + V3/ed",
+        "commonTrap": "Mẹo 3 giây: 3 đáp án chủ động, 1 đáp án bị động với chủ ngữ vật → kiểm tra không có tân ngữ là chốt ngay B.",
+        "paraphrases": [
+          {
+            "textInPassage": "is being renovated",
+            "textInAnswer": "undergoing refurbishment",
+            "meaningVi": "đang được tân trang"
+          }
+        ]
+      },
+      "applyRule": "Ngoại động từ + [không tân ngữ] → Be + (being) + V3/ed",
+      "structureBreakdown": {
+        "fullStructure": "The historic theater on Oak Street [ is being renovated ] extensively before its grand reopening next month.",
+        "modifiers": "Chuyên đề trọng tâm: Thể bị động (Passive Voice) — Dấu hiệu: Chủ ngữ vật 'The historic theater' + trạng từ 'extensively' (không có tân ngữ) + đang tiến hành trước tháng tới."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-107",
+    "part": 5,
+    "topic": "Mệnh đề quan hệ & Rút gọn",
+    "difficulty": "Trung bình",
+    "sentence": "Applicants _______ resumes demonstrate fluency in both Japanese and English will be prioritized for interviews.",
+    "options": {
+      "A": "who",
+      "B": "whom",
+      "C": "whose",
+      "D": "which"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Đại từ quan hệ sở hữu (Whose + Noun)",
+        "signal": "Trước chỗ trống là 'Applicants' (người), ngay sau chỗ trống là danh từ 'resumes' thuộc sở hữu của họ."
+      },
+      "translation": {
+        "questionVi": "Những ứng viên có hồ sơ thể hiện sự thông thạo cả tiếng Nhật và tiếng Anh sẽ được ưu tiên phỏng vấn.",
+        "optionsVi": {
+          "A": "who: người mà (S/O)",
+          "B": "whom: người mà (O)",
+          "C": "whose: của người mà (+ Noun)",
+          "D": "which: cái mà (vật)"
+        }
+      },
+      "proof": {
+        "explanation": "Giữa Applicants và resumes là quan hệ sở hữu (= their resumes) → Duy nhất 'whose' đứng trực tiếp trước danh từ trần 'resumes'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì who không đứng trước danh từ sở hữu.",
+        "B": "Loại vì whom không làm tính từ sở hữu.",
+        "C": "ĐÚNG — whose + Noun.",
+        "D": "Loại vì which chỉ vật."
+      },
+      "keyTakeaways": {
+        "formula": "Noun (người/vật) + whose + Noun (không mạo từ) + Verb",
+        "commonTrap": "Thấy 'Applicants' là người nên vội chọn 'who' mà bỏ qua danh từ 'resumes' đứng ngay sau.",
+        "paraphrases": [
+          {
+            "textInPassage": "will be prioritized",
+            "textInAnswer": "receive first consideration",
+            "meaningVi": "được ưu tiên xem xét"
+          }
+        ]
+      },
+      "applyRule": "Noun (người/vật) + whose + Noun (không mạo từ) + Verb",
+      "structureBreakdown": {
+        "fullStructure": "Applicants [ whose ] resumes demonstrate fluency in both Japanese and English will be prioritized for interviews.",
+        "modifiers": "Chuyên đề trọng tâm: Mệnh đề quan hệ & Rút gọn — Dấu hiệu: Trước chỗ trống là 'Applicants' (người), ngay sau chỗ trống là danh từ 'resumes' thuộc sở hữu của họ."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-108",
+    "part": 5,
+    "topic": "Mệnh đề quan hệ & Rút gọn",
+    "difficulty": "Nâng cao",
+    "sentence": "The equipment _______ by the laboratory yesterday has already been calibrated for clinical trials.",
+    "options": {
+      "A": "purchasing",
+      "B": "purchased",
+      "C": "was purchased",
+      "D": "purchases"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Rút gọn Mệnh đề quan hệ bị động (V3/ed)",
+        "signal": "Câu đã có động từ chính 'has already been calibrated' + dấu hiệu bị động 'by the laboratory'."
+      },
+      "translation": {
+        "questionVi": "Thiết bị được phòng thí nghiệm mua hôm qua đã được hiệu chuẩn cho các thử nghiệm lâm sàng.",
+        "optionsVi": {
+          "A": "purchasing: đang mua (chủ động)",
+          "B": "purchased: được mua (rút gọn bị động)",
+          "C": "was purchased: đã được mua (V chia thì)",
+          "D": "purchases: mua (V chia thì)"
+        }
+      },
+      "proof": {
+        "explanation": "Câu đầy đủ: 'The equipment [which was purchased by the laboratory yesterday] has already been calibrated'. Rút gọn bị động bỏ 'which was' → 'purchased'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì V-ing mang nghĩa chủ động.",
+        "B": "ĐÚNG — Quá khứ phân từ V3/ed rút gọn bị động.",
+        "C": "Loại vì tạo ra 2 động từ chia thì không có liên từ nối.",
+        "D": "Loại vì sai thì và thừa động từ chính."
+      },
+      "keyTakeaways": {
+        "formula": "S + [V3/ed + by ...] (rút gọn MĐQH bị động) + V(chính)",
+        "commonTrap": "Thấy 'yesterday' liền chọn bẫy C ('was purchased') mà không đọc hết câu để thấy động từ chính.",
+        "paraphrases": [
+          {
+            "textInPassage": "purchased by",
+            "textInAnswer": "acquired by",
+            "meaningVi": "được mua sắm bởi"
+          }
+        ]
+      },
+      "applyRule": "S + [V3/ed + by ...] (rút gọn MĐQH bị động) + V(chính)",
+      "structureBreakdown": {
+        "fullStructure": "The equipment [ purchased ] by the laboratory yesterday has already been calibrated for clinical trials.",
+        "modifiers": "Chuyên đề trọng tâm: Mệnh đề quan hệ & Rút gọn — Dấu hiệu: Câu đã có động từ chính 'has already been calibrated' + dấu hiệu bị động 'by the laboratory'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-109",
+    "part": 5,
+    "topic": "Liên từ & Giới từ",
+    "difficulty": "Cơ bản",
+    "sentence": "_______ severe winter storms disrupted regional flights, the keynote speaker arrived on time via high-speed rail.",
+    "options": {
+      "A": "Despite",
+      "B": "Because of",
+      "C": "Although",
+      "D": "During"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Liên từ nhượng bộ (Although + Mệnh đề)",
+        "signal": "Phía sau có mệnh đề đầy đủ S ('severe winter storms') + V ('disrupted'), hai vế trái ngược nhau."
+      },
+      "translation": {
+        "questionVi": "Mặc dù bão mùa đông khắc nghiệt làm gián đoạn chuyến bay khu vực, diễn giả chính vẫn đến đúng giờ bằng tàu cao tốc.",
+        "optionsVi": {
+          "A": "Despite (prep): mặc dù (+ N/V-ing)",
+          "B": "Because of (prep): bởi vì (+ N/V-ing)",
+          "C": "Although (conj): mặc dù (+ S + V)",
+          "D": "During (prep): trong suốt (+ N)"
+        }
+      },
+      "proof": {
+        "explanation": "Vế đầu có động từ chia thì 'disrupted' → Bắt buộc chọn Liên từ. Duy nhất 'Although' là liên từ và khớp nghĩa tương phản."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì Despite là giới từ.",
+        "B": "Loại vì Because of là giới từ và sai nghĩa.",
+        "C": "ĐÚNG — Although + S + V.",
+        "D": "Loại vì During là giới từ."
+      },
+      "keyTakeaways": {
+        "formula": "Although / Even though + S + V  ≠  Despite / In spite of + Noun/V-ing",
+        "commonTrap": "Dịch nghĩa thấy Despite cũng là 'mặc dù' nên chọn nhầm mà quên kiểm tra động từ 'disrupted'.",
+        "paraphrases": [
+          {
+            "textInPassage": "arrived on time",
+            "textInAnswer": "reached the venue punctually",
+            "meaningVi": "đến địa điểm đúng giờ"
+          }
+        ]
+      },
+      "applyRule": "Although / Even though + S + V  ≠  Despite / In spite of + Noun/V-ing",
+      "structureBreakdown": {
+        "fullStructure": "[ Although ] severe winter storms disrupted regional flights, the keynote speaker arrived on time via high-speed rail.",
+        "modifiers": "Chuyên đề trọng tâm: Liên từ & Giới từ — Dấu hiệu: Phía sau có mệnh đề đầy đủ S ('severe winter storms') + V ('disrupted'), hai vế trái ngược nhau."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-110",
+    "part": 5,
+    "topic": "Liên từ & Giới từ",
+    "difficulty": "Trung bình",
+    "sentence": "Customers seeking a full refund must return unopened items _______ fourteen days of the purchase date.",
+    "options": {
+      "A": "within",
+      "B": "until",
+      "C": "among",
+      "D": "between"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Giới từ thời gian giới hạn (Within + khoảng thời gian)",
+        "signal": "Cụm thời lượng 'fourteen days of the purchase date' + hành động đơn lẻ 'return' → 'trong vòng 14 ngày'."
+      },
+      "translation": {
+        "questionVi": "Khách hàng muốn hoàn tiền đầy đủ phải trả hàng chưa mở hộp trong vòng 14 ngày kể từ ngày mua.",
+        "optionsVi": {
+          "A": "within: trong vòng (khoảng thời gian)",
+          "B": "until: cho đến tận (mốc thời gian liên tục)",
+          "C": "among: ở giữa (≥3 đối tượng)",
+          "D": "between: giữa (2 đối tượng)"
+        }
+      },
+      "proof": {
+        "explanation": "'within + khoảng thời gian' diễn tả hạn mức hoàn tất một hành động. Cấu trúc 'within X days of purchase' xuất hiện cực nhiều trong chính sách đổi trả TOEIC."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — within 14 days of purchase.",
+        "B": "Loại vì until đi với mốc thời gian cụ thể.",
+        "C": "Loại vì sai nghĩa.",
+        "D": "Loại vì between cần 'between A and B'."
+      },
+      "keyTakeaways": {
+        "formula": "within + khoảng thời gian (days/weeks) | by + mốc hạn chót",
+        "commonTrap": "Nhầm giữa within, by và until.",
+        "paraphrases": [
+          {
+            "textInPassage": "unopened items",
+            "textInAnswer": "sealed original merchandise",
+            "meaningVi": "hàng hóa còn nguyên niêm phong"
+          }
+        ]
+      },
+      "applyRule": "within + khoảng thời gian (days/weeks) | by + mốc hạn chót",
+      "structureBreakdown": {
+        "fullStructure": "Customers seeking a full refund must return unopened items [ within ] fourteen days of the purchase date.",
+        "modifiers": "Chuyên đề trọng tâm: Liên từ & Giới từ — Dấu hiệu: Cụm thời lượng 'fourteen days of the purchase date' + hành động đơn lẻ 'return' → 'trong vòng 14 ngày'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-111",
+    "part": 5,
+    "topic": "Phân từ / V-ing / To-V",
+    "difficulty": "Trung bình",
+    "sentence": "The operations manager recommended _______ an automated inventory scanner to reduce manual data entry.",
+    "options": {
+      "A": "adopt",
+      "B": "to adopt",
+      "C": "adopting",
+      "D": "adopted"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Danh động từ (Gerund — recommend + V-ing)",
+        "signal": "Động từ 'recommend' không có tân ngữ người phía sau luôn đi trực tiếp với V-ing."
+      },
+      "translation": {
+        "questionVi": "Giám đốc vận hành đề xuất áp dụng máy quét kiểm kê tự động để giảm việc nhập liệu thủ công.",
+        "optionsVi": {
+          "A": "adopt: áp dụng (V0)",
+          "B": "to adopt: để áp dụng (To-V)",
+          "C": "adopting: việc áp dụng (V-ing)",
+          "D": "adopted: đã áp dụng (V3)"
+        }
+      },
+      "proof": {
+        "explanation": "Các động từ recommend, suggest, consider, avoid, postpone, discontinue luôn đi với V-ing làm tân ngữ trực tiếp."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì sau recommend không dùng V0 trực tiếp.",
+        "B": "Loại vì recommend không đi trực tiếp với to-V.",
+        "C": "ĐÚNG — recommend + V-ing.",
+        "D": "Loại vì phân từ quá khứ không làm tân ngữ."
+      },
+      "keyTakeaways": {
+        "formula": "recommend / suggest / consider / avoid / postpone + V-ing",
+        "commonTrap": "Dịch tiếng Việt 'đề xuất làm gì' rồi chọn nhầm To-V ('to adopt').",
+        "paraphrases": [
+          {
+            "textInPassage": "reduce manual data entry",
+            "textInAnswer": "minimize hand-typed records",
+            "meaningVi": "giảm nhập liệu thủ công"
+          }
+        ]
+      },
+      "applyRule": "recommend / suggest / consider / avoid / postpone + V-ing",
+      "structureBreakdown": {
+        "fullStructure": "The operations manager recommended [ adopting ] an automated inventory scanner to reduce manual data entry.",
+        "modifiers": "Chuyên đề trọng tâm: Phân từ / V-ing / To-V — Dấu hiệu: Động từ 'recommend' không có tân ngữ người phía sau luôn đi trực tiếp với V-ing."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-112",
+    "part": 5,
+    "topic": "Phân từ / V-ing / To-V",
+    "difficulty": "Nâng cao",
+    "sentence": "_______ with the preliminary survey results, the product team decided to proceed directly to mass production.",
+    "options": {
+      "A": "Satisfy",
+      "B": "Satisfying",
+      "C": "Satisfied",
+      "D": "Satisfaction"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Rút gọn Mệnh đề trạng ngữ đồng chủ ngữ (V3/ed đầu câu)",
+        "signal": "Chủ ngữ vế sau là 'the product team' (người) + giới từ 'with' → be satisfied with rút gọn còn 'Satisfied with'."
+      },
+      "translation": {
+        "questionVi": "Hài lòng với kết quả khảo sát sơ bộ, đội ngũ sản phẩm quyết định tiến thẳng tới sản xuất hàng loạt.",
+        "optionsVi": {
+          "A": "Satisfy (v): làm hài lòng",
+          "B": "Satisfying (adj): mang lại sự hài lòng (chỉ vật)",
+          "C": "Satisfied (adj/V3): cảm thấy hài lòng (chỉ người)",
+          "D": "Satisfaction (n): sự hài lòng"
+        }
+      },
+      "proof": {
+        "explanation": "Câu gốc: 'Because the product team was satisfied with...'. Rút gọn đồng chủ ngữ bỏ 'Because + S + was' → 'Satisfied with'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì V0 không đứng đầu mệnh đề phân từ.",
+        "B": "Loại vì -ing chỉ tính chất sự vật, không đi với 'with' chỉ cảm xúc người.",
+        "C": "ĐÚNG — Satisfied with = cảm thấy hài lòng với.",
+        "D": "Loại vì danh từ thiếu giới từ 'With'."
+      },
+      "keyTakeaways": {
+        "formula": "V3/ed + prep (Satisfied with / Pleased with / Located in), S + V",
+        "commonTrap": "Nhầm tính từ đuôi -ing và -ed.",
+        "paraphrases": [
+          {
+            "textInPassage": "preliminary survey results",
+            "textInAnswer": "initial feedback data",
+            "meaningVi": "dữ liệu khảo sát ban đầu"
+          }
+        ]
+      },
+      "applyRule": "V3/ed + prep (Satisfied with / Pleased with / Located in), S + V",
+      "structureBreakdown": {
+        "fullStructure": "[ Satisfied ] with the preliminary survey results, the product team decided to proceed directly to mass production.",
+        "modifiers": "Chuyên đề trọng tâm: Phân từ / V-ing / To-V — Dấu hiệu: Chủ ngữ vế sau là 'the product team' (người) + giới từ 'with' → be satisfied with rút gọn còn 'Satisfied with'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-113",
+    "part": 5,
+    "topic": "Câu điều kiện & So sánh",
+    "difficulty": "Nâng cao",
+    "sentence": "_______ you encounter any technical difficulties during setup, please dial extension 402 for immediate assistance.",
+    "options": {
+      "A": "Should",
+      "B": "Had",
+      "C": "Were",
+      "D": "Unless"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Đảo ngữ Câu điều kiện Loại 1 (Should + S + V0)",
+        "signal": "Sau chỗ trống là 'you + encounter (V0)' và vế sau là câu mệnh lệnh ('please dial') → Đảo ngữ If loại 1."
+      },
+      "translation": {
+        "questionVi": "Nếu quý khách gặp bất kỳ khó khăn kỹ thuật nào khi cài đặt, vui lòng bấm máy lẻ 402 để được hỗ trợ ngay.",
+        "optionsVi": {
+          "A": "Should: Nếu (đảo ngữ If loại 1)",
+          "B": "Had: Nếu đã (đảo ngữ If loại 3 + V3)",
+          "C": "Were: Nếu (đảo ngữ If loại 2 + to V)",
+          "D": "Unless: Trừ khi (ngược nghĩa)"
+        }
+      },
+      "proof": {
+        "explanation": "Câu gốc: 'If you should encounter..., please dial...'. Đảo ngữ trang trọng bỏ If, đưa 'Should' lên đầu câu."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — Should + S + V0, câu mệnh lệnh.",
+        "B": "Loại vì Had đòi hỏi V3 'encountered'.",
+        "C": "Loại vì Were đòi hỏi 'to encounter'.",
+        "D": "Loại vì Unless làm câu vô nghĩa."
+      },
+      "keyTakeaways": {
+        "formula": "Should + S + V0, S + will/can + V0 (hoặc V-mệnh lệnh)",
+        "commonTrap": "Nhầm 'Should' đầu câu là câu hỏi (cuối câu là dấu chấm, không phải dấu hỏi).",
+        "paraphrases": [
+          {
+            "textInPassage": "encounter difficulties",
+            "textInAnswer": "experience system issues",
+            "meaningVi": "gặp sự cố kỹ thuật"
+          }
+        ]
+      },
+      "applyRule": "Should + S + V0, S + will/can + V0 (hoặc V-mệnh lệnh)",
+      "structureBreakdown": {
+        "fullStructure": "[ Should ] you encounter any technical difficulties during setup, please dial extension 402 for immediate assistance.",
+        "modifiers": "Chuyên đề trọng tâm: Câu điều kiện & So sánh — Dấu hiệu: Sau chỗ trống là 'you + encounter (V0)' và vế sau là câu mệnh lệnh ('please dial') → Đảo ngữ If loại 1."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-114",
+    "part": 5,
+    "topic": "Từ vựng & Collocations công sở",
+    "difficulty": "Trung bình",
+    "sentence": "Because the original conference hall is undergoing repairs, the seminar has been _______ to the Grand Pavilion.",
+    "options": {
+      "A": "relocated",
+      "B": "reimbursed",
+      "C": "recruited",
+      "D": "repaired"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Từ vựng ngữ cảnh — Sự kiện & Địa điểm",
+        "signal": "Hội trường cũ đang sửa + giới từ 'to + địa điểm mới (the Grand Pavilion)' → Động từ 'chuyển địa điểm'."
+      },
+      "translation": {
+        "questionVi": "Vì hội trường cũ đang được sửa chữa, buổi hội thảo đã được chuyển sang khu Grand Pavilion.",
+        "optionsVi": {
+          "A": "relocated: được chuyển địa điểm",
+          "B": "reimbursed: được hoàn tiền",
+          "C": "recruited: được tuyển dụng",
+          "D": "repaired: được sửa chữa"
+        }
+      },
+      "proof": {
+        "explanation": "Cấu trúc 'be relocated to + [địa điểm mới]' mang nghĩa chính xác nhất là di dời sang địa điểm khác."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — relocated to the Grand Pavilion.",
+        "B": "Loại vì dùng cho chi phí.",
+        "C": "Loại vì dùng cho nhân sự.",
+        "D": "Loại vì không thể sửa hội thảo sang chỗ khác."
+      },
+      "keyTakeaways": {
+        "formula": "be relocated to + [địa điểm mới] = be moved to",
+        "commonTrap": "Cả 4 đáp án cùng tiền tố 're-' dễ nhầm khi đọc nhanh.",
+        "paraphrases": [
+          {
+            "textInPassage": "undergoing repairs",
+            "textInAnswer": "under maintenance",
+            "meaningVi": "đang được sửa chữa"
+          }
+        ]
+      },
+      "applyRule": "be relocated to + [địa điểm mới] = be moved to",
+      "structureBreakdown": {
+        "fullStructure": "Because the original conference hall is undergoing repairs, the seminar has been [ relocated ] to the Grand Pavilion.",
+        "modifiers": "Chuyên đề trọng tâm: Từ vựng & Collocations công sở — Dấu hiệu: Hội trường cũ đang sửa + giới từ 'to + địa điểm mới (the Grand Pavilion)' → Động từ 'chuyển địa điểm'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-115",
+    "part": 5,
+    "topic": "Từ vựng & Collocations công sở",
+    "difficulty": "Nâng cao",
+    "sentence": "To ensure full _______ with international export laws, all packaging labels must list every ingredient in two languages.",
+    "options": {
+      "A": "compliance",
+      "B": "allowance",
+      "C": "attendance",
+      "D": "reliance"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Collocation thương mại — Danh từ đi với giới từ 'with'",
+        "signal": "Cụm cố định 'compliance with + laws/regulations/standards' (tuân thủ pháp luật/quy định)."
+      },
+      "translation": {
+        "questionVi": "Để đảm bảo tuân thủ đầy đủ luật xuất khẩu quốc tế, mọi nhãn bao bì phải ghi thành phần bằng hai ngôn ngữ.",
+        "optionsVi": {
+          "A": "compliance: sự tuân thủ (+ with)",
+          "B": "allowance: phụ cấp, hạn mức",
+          "C": "attendance: sự tham dự",
+          "D": "reliance: sự phụ thuộc (+ on)"
+        }
+      },
+      "proof": {
+        "explanation": "Chỉ có 'compliance' kết hợp chuẩn cả ngữ nghĩa lẫn giới từ 'with' khi nói về luật xuất khẩu."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — full compliance with export laws.",
+        "B": "Loại vì sai nghĩa.",
+        "C": "Loại vì sai nghĩa.",
+        "D": "Loại vì reliance đi với giới từ 'on'."
+      },
+      "keyTakeaways": {
+        "formula": "ensure compliance with / in compliance with + laws / standards",
+        "commonTrap": "4 từ cùng đuôi '-ance' đánh lừa người không thuộc giới từ đi kèm.",
+        "paraphrases": [
+          {
+            "textInPassage": "ensure full compliance with",
+            "textInAnswer": "strictly abide by",
+            "meaningVi": "tuân thủ nghiêm ngặt"
+          }
+        ]
+      },
+      "applyRule": "ensure compliance with / in compliance with + laws / standards",
+      "structureBreakdown": {
+        "fullStructure": "To ensure full [ compliance ] with international export laws, all packaging labels must list every ingredient in two languages.",
+        "modifiers": "Chuyên đề trọng tâm: Từ vựng & Collocations công sở — Dấu hiệu: Cụm cố định 'compliance with + laws/regulations/standards' (tuân thủ pháp luật/quy định)."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-116",
+    "part": 5,
+    "topic": "Từ loại (Word Form)",
+    "difficulty": "Trung bình",
+    "sentence": "The merger is expected to increase operational _______ by consolidating two overlapping distribution warehouses.",
+    "options": {
+      "A": "efficient",
+      "B": "efficiently",
+      "C": "efficiency",
+      "D": "efficiencies"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Từ loại (Word Form) — Danh từ không đếm được làm Tân ngữ",
+        "signal": "Sau động từ 'increase' + tính từ 'operational' cần Danh từ không đếm được 'efficiency'."
+      },
+      "translation": {
+        "questionVi": "Thương vụ sáp nhập dự kiến tăng hiệu quả vận hành bằng cách hợp nhất hai kho phân phối chồng chéo.",
+        "optionsVi": {
+          "A": "efficient (adj): hiệu quả",
+          "B": "efficiently (adv): một cách hiệu quả",
+          "C": "efficiency (n - KĐĐ): hiệu suất, hiệu quả",
+          "D": "efficiencies (n - số nhiều): các khoản tiết kiệm cụ thể"
+        }
+      },
+      "proof": {
+        "explanation": "Cụm danh từ kinh doanh tiêu chuẩn: 'operational efficiency' (hiệu quả vận hành — không đếm được)."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì là tính từ.",
+        "B": "Loại vì là trạng từ.",
+        "C": "ĐÚNG — operational efficiency.",
+        "D": "Loại vì số nhiều không dùng sau 'increase operational ___' mang nghĩa tổng quát."
+      },
+      "keyTakeaways": {
+        "formula": "increase / improve + operational efficiency",
+        "commonTrap": "Phân vân giữa danh từ không đếm được (C) và số nhiều (D).",
+        "paraphrases": [
+          {
+            "textInPassage": "consolidating two warehouses",
+            "textInAnswer": "merging storage facilities",
+            "meaningVi": "hợp nhất kho bãi"
+          }
+        ]
+      },
+      "applyRule": "increase / improve + operational efficiency",
+      "structureBreakdown": {
+        "fullStructure": "The merger is expected to increase operational [ efficiency ] by consolidating two overlapping distribution warehouses.",
+        "modifiers": "Chuyên đề trọng tâm: Từ loại (Word Form) — Dấu hiệu: Sau động từ 'increase' + tính từ 'operational' cần Danh từ không đếm được 'efficiency'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-117",
+    "part": 5,
+    "topic": "Từ loại (Word Form)",
+    "difficulty": "Cơ bản",
+    "sentence": "Please submit your signed expense voucher to the accounting department as _______ as possible.",
+    "options": {
+      "A": "prompt",
+      "B": "promptly",
+      "C": "promptness",
+      "D": "prompted"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Từ loại (Word Form) — Trạng từ trong cấu trúc so sánh bằng",
+        "signal": "Động từ thường 'submit' + cấu trúc 'as + [Adv] + as possible' → Cần Trạng từ 'promptly'."
+      },
+      "translation": {
+        "questionVi": "Vui lòng nộp chứng từ chi phí đã ký cho phòng kế toán càng nhanh chóng càng tốt.",
+        "optionsVi": {
+          "A": "prompt (adj): nhanh chóng",
+          "B": "promptly (adv): một cách nhanh chóng",
+          "C": "promptness (n): sự nhanh chóng",
+          "D": "prompted (v-ed): được thúc đẩy"
+        }
+      },
+      "proof": {
+        "explanation": "Từ cần điền bổ nghĩa cho động từ hành động 'submit' (nộp như thế nào?) nên bắt buộc là Trạng từ 'promptly'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì là tính từ (chỉ dùng với be/linking verb).",
+        "B": "ĐÚNG — submit ... as promptly as possible.",
+        "C": "Loại vì là danh từ.",
+        "D": "Loại vì là động từ quá khứ."
+      },
+      "keyTakeaways": {
+        "formula": "V(thường) + as + Adverb + as possible",
+        "commonTrap": "Quen miệng chọn tính từ trong cấu trúc 'as ... as' mà không kiểm tra động từ chính là động từ thường.",
+        "paraphrases": [
+          {
+            "textInPassage": "as promptly as possible",
+            "textInAnswer": "without delay",
+            "meaningVi": "càng sớm càng tốt"
+          }
+        ]
+      },
+      "applyRule": "V(thường) + as + Adverb + as possible",
+      "structureBreakdown": {
+        "fullStructure": "Please submit your signed expense voucher to the accounting department as [ promptly ] as possible.",
+        "modifiers": "Chuyên đề trọng tâm: Từ loại (Word Form) — Dấu hiệu: Động từ thường 'submit' + cấu trúc 'as + [Adv] + as possible' → Cần Trạng từ 'promptly'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-118",
+    "part": 5,
+    "topic": "Thì & Hòa hợp chủ vị",
+    "difficulty": "Cơ bản",
+    "sentence": "Every employee who attends tomorrow’s workshop _______ a printed reference guide upon check-in.",
+    "options": {
+      "A": "receive",
+      "B": "receives",
+      "C": "are receiving",
+      "D": "were received"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Hòa hợp Chủ vị với 'Every + N(số ít)'",
+        "signal": "Chủ ngữ bắt đầu bằng 'Every employee' luôn chia động từ SỐ ÍT, bất kể mệnh đề quan hệ chen giữa."
+      },
+      "translation": {
+        "questionVi": "Mọi nhân viên tham dự hội thảo ngày mai đều nhận được sách hướng dẫn bản in khi điểm danh.",
+        "optionsVi": {
+          "A": "receive: nhận (số nhiều)",
+          "B": "receives: nhận (số ít)",
+          "C": "are receiving: đang nhận (số nhiều)",
+          "D": "were received: đã được nhận (bị động QK)"
+        }
+      },
+      "proof": {
+        "explanation": "Chủ ngữ 'Every + danh từ số ít' luôn đi với động từ chia số ít → 'receives' (thì hiện tại đơn chỉ lịch trình chắc chắn)."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì chia số nhiều.",
+        "B": "ĐÚNG — Every employee + receives (số ít).",
+        "C": "Loại vì chia số nhiều.",
+        "D": "Loại vì sai thì quá khứ và bị động."
+      },
+      "keyTakeaways": {
+        "formula": "Every / Each + N(số ít) + [MĐQH] + V(số ít)",
+        "commonTrap": "Nhìn thấy 'tomorrow' rồi phân vân vì không thấy 'will receive', quên mất HTĐ cũng diễn tả quy định/lịch trình cố định.",
+        "paraphrases": [
+          {
+            "textInPassage": "upon check-in",
+            "textInAnswer": "when registering at the venue",
+            "meaningVi": "ngay khi làm thủ tục điểm danh"
+          }
+        ]
+      },
+      "applyRule": "Every / Each + N(số ít) + [MĐQH] + V(số ít)",
+      "structureBreakdown": {
+        "fullStructure": "Every employee who attends tomorrow’s workshop [ receives ] a printed reference guide upon check-in.",
+        "modifiers": "Chuyên đề trọng tâm: Thì & Hòa hợp chủ vị — Dấu hiệu: Chủ ngữ bắt đầu bằng 'Every employee' luôn chia động từ SỐ ÍT, bất kể mệnh đề quan hệ chen giữa."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-119",
+    "part": 5,
+    "topic": "Thể bị động (Passive Voice)",
+    "difficulty": "Nâng cao",
+    "sentence": "Had the replacement motor arrived on Monday, the assembly line _______ back in operation by Tuesday morning.",
+    "options": {
+      "A": "will be",
+      "B": "would have been",
+      "C": "has been",
+      "D": "is being"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Đảo ngữ Câu điều kiện Loại 3 (Had + S + V3)",
+        "signal": "Vế đầu đảo ngữ điều kiện loại 3 'Had the replacement motor arrived' (trái sự thật quá khứ) → Vế sau: would have + V3."
+      },
+      "translation": {
+        "questionVi": "Giá như mô-tơ thay thế đến vào thứ Hai thì dây chuyền lắp ráp đã hoạt động trở lại vào sáng thứ Ba rồi.",
+        "optionsVi": {
+          "A": "will be: sẽ (loại 1)",
+          "B": "would have been: đã có thể (loại 3)",
+          "C": "has been: đã (HTHT)",
+          "D": "is being: đang (HTTD)"
+        }
+      },
+      "proof": {
+        "explanation": "Đảo ngữ điều kiện loại 3: 'Had + S + V3, S + would have + V3/been' diễn tả giả định không có thật trong quá khứ."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì chỉ dùng cho điều kiện loại 1.",
+        "B": "ĐÚNG — Chuẩn công thức đảo ngữ loại 3.",
+        "C": "Loại vì sai cấu trúc điều kiện.",
+        "D": "Loại vì sai thì."
+      },
+      "keyTakeaways": {
+        "formula": "Had + S + V3/ed, S + would/could + have + V3/ed",
+        "commonTrap": "Thấy mốc 'by Tuesday morning' tưởng là tương lai rồi chọn A.",
+        "paraphrases": [
+          {
+            "textInPassage": "back in operation",
+            "textInAnswer": "resumed normal production",
+            "meaningVi": "hoạt động trở lại"
+          }
+        ]
+      },
+      "applyRule": "Had + S + V3/ed, S + would/could + have + V3/ed",
+      "structureBreakdown": {
+        "fullStructure": "Had the replacement motor arrived on Monday, the assembly line [ would have been ] back in operation by Tuesday morning.",
+        "modifiers": "Chuyên đề trọng tâm: Thể bị động (Passive Voice) — Dấu hiệu: Vế đầu đảo ngữ điều kiện loại 3 'Had the replacement motor arrived' (trái sự thật quá khứ) → Vế sau: would have + V3."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-120",
+    "part": 5,
+    "topic": "Liên từ & Giới từ",
+    "difficulty": "Trung bình",
+    "sentence": "_______ the scheduled software migration, online account statements will be temporarily inaccessible from midnight to 4 A.M.",
+    "options": {
+      "A": "Because",
+      "B": "Due to",
+      "C": "Whereas",
+      "D": "Unless"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Giới từ chỉ nguyên nhân (Due to + Cụm danh từ)",
+        "signal": "Phía sau là cụm danh từ 'the scheduled software migration' (KHÔNG có động từ chia thì) → Cần Giới từ chỉ nguyên nhân."
+      },
+      "translation": {
+        "questionVi": "Do quá trình chuyển đổi phần mềm theo lịch trình, sao kê tài khoản trực tuyến sẽ tạm thời không truy cập được từ nửa đêm đến 4 giờ sáng.",
+        "optionsVi": {
+          "A": "Because (conj): bởi vì (+ S + V)",
+          "B": "Due to (prep): bởi vì, do (+ Noun Phrase)",
+          "C": "Whereas (conj): trong khi đó",
+          "D": "Unless (conj): trừ khi"
+        }
+      },
+      "proof": {
+        "explanation": "'the scheduled software migration' là cụm danh từ ('scheduled' chỉ là tính từ bổ nghĩa cho 'migration'). Do đó cần giới từ 'Due to'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì Because là liên từ, cần S + V.",
+        "B": "ĐÚNG — Due to + Cụm danh từ.",
+        "C": "Loại vì là liên từ tương phản.",
+        "D": "Loại vì là liên từ điều kiện."
+      },
+      "keyTakeaways": {
+        "formula": "Due to / Owing to / Because of + Noun Phrase  ≠  Because / Since + S + V",
+        "commonTrap": "Nhầm tính từ 'scheduled' là động từ quá khứ rồi chọn nhầm 'Because'!",
+        "paraphrases": [
+          {
+            "textInPassage": "temporarily inaccessible",
+            "textInAnswer": "unavailable for a short period",
+            "meaningVi": "tạm thời không truy cập được"
+          }
+        ]
+      },
+      "applyRule": "Due to / Owing to / Because of + Noun Phrase  ≠  Because / Since + S + V",
+      "structureBreakdown": {
+        "fullStructure": "[ Due to ] the scheduled software migration, online account statements will be temporarily inaccessible from midnight to 4 A.M.",
+        "modifiers": "Chuyên đề trọng tâm: Liên từ & Giới từ — Dấu hiệu: Phía sau là cụm danh từ 'the scheduled software migration' (KHÔNG có động từ chia thì) → Cần Giới từ chỉ nguyên nhân."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-121",
+    "part": 5,
+    "topic": "Câu điều kiện & So sánh",
+    "difficulty": "Trung bình",
+    "sentence": "The newly upgraded electric delivery vans operate significantly _______ than our previous diesel fleet.",
+    "options": {
+      "A": "quiet",
+      "B": "quieter",
+      "C": "more quietly",
+      "D": "most quietly"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "So sánh hơn của Trạng từ (V-thường + more + Adv + than)",
+        "signal": "Động từ thường 'operate' + trạng từ nhấn mạnh 'significantly' + 'than' → Cần So sánh hơn của Trạng từ."
+      },
+      "translation": {
+        "questionVi": "Các xe tải giao hàng chạy điện mới nâng cấp vận hành êm ái hơn đáng kể so với đội xe dầu cũ của chúng ta.",
+        "optionsVi": {
+          "A": "quiet (adj): yên tĩnh",
+          "B": "quieter (adj so sánh hơn): yên tĩnh hơn",
+          "C": "more quietly (adv so sánh hơn): êm ái hơn",
+          "D": "most quietly (adv so sánh nhất): êm nhất"
+        }
+      },
+      "proof": {
+        "explanation": "Động từ chính là động từ hành động 'operate' (vận hành như thế nào?) nên phải dùng Trạng từ 'quietly', dạng so sánh hơn với 'than' là 'more quietly'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì tính từ gốc.",
+        "B": "Loại vì là tính từ so sánh hơn, không bổ nghĩa cho động từ 'operate'.",
+        "C": "ĐÚNG — operate + significantly more quietly + than.",
+        "D": "Loại vì so sánh nhất không đi với 'than'."
+      },
+      "keyTakeaways": {
+        "formula": "V(thường) + (much/far/significantly) + more + Adv(-ly) + than",
+        "commonTrap": "Thấy 'than' liền chọn 'quieter' mà quên kiểm tra xem từ cần điền bổ nghĩa cho danh từ hay động từ thường.",
+        "paraphrases": [
+          {
+            "textInPassage": "significantly more quietly",
+            "textInAnswer": "with much less noise",
+            "meaningVi": "ít tiếng ồn hơn đáng kể"
+          }
+        ]
+      },
+      "applyRule": "V(thường) + (much/far/significantly) + more + Adv(-ly) + than",
+      "structureBreakdown": {
+        "fullStructure": "The newly upgraded electric delivery vans operate significantly [ more quietly ] than our previous diesel fleet.",
+        "modifiers": "Chuyên đề trọng tâm: Câu điều kiện & So sánh — Dấu hiệu: Động từ thường 'operate' + trạng từ nhấn mạnh 'significantly' + 'than' → Cần So sánh hơn của Trạng từ."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-122",
+    "part": 5,
+    "topic": "Phân từ / V-ing / To-V",
+    "difficulty": "Cơ bản",
+    "sentence": "Staff members are encouraged _______ carpooling or public transit during the downtown bridge construction.",
+    "options": {
+      "A": "use",
+      "B": "using",
+      "C": "to use",
+      "D": "used"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Cấu trúc bị động của động từ yêu cầu/khuyến khích (be encouraged + to V)",
+        "signal": "Cấu trúc cố định: encourage sb to do sth → Bị động: sb be encouraged + to V."
+      },
+      "translation": {
+        "questionVi": "Nhân viên được khuyến khích đi chung xe hoặc dùng phương tiện công cộng trong thời gian xây cầu trung tâm.",
+        "optionsVi": {
+          "A": "use: dùng (V0)",
+          "B": "using: đang dùng (V-ing)",
+          "C": "to use: sử dụng (To-V)",
+          "D": "used: đã dùng (V3)"
+        }
+      },
+      "proof": {
+        "explanation": "Các động từ encourage, advise, require, ask, remind khi chia bị động luôn theo sau bởi 'to V'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì thiếu 'to'.",
+        "B": "Loại vì cấu trúc bị động be encouraged đi với to-V.",
+        "C": "ĐÚNG — be encouraged to use.",
+        "D": "Loại vì sai dạng động từ."
+      },
+      "keyTakeaways": {
+        "formula": "be encouraged / required / advised / asked / reminded + to V0",
+        "commonTrap": "Nhầm với trường hợp chủ động 'encourage + V-ing' (khi không có tân ngữ người).",
+        "paraphrases": [
+          {
+            "textInPassage": "public transit",
+            "textInAnswer": "buses and subways",
+            "meaningVi": "phương tiện giao thông công cộng"
+          }
+        ]
+      },
+      "applyRule": "be encouraged / required / advised / asked / reminded + to V0",
+      "structureBreakdown": {
+        "fullStructure": "Staff members are encouraged [ to use ] carpooling or public transit during the downtown bridge construction.",
+        "modifiers": "Chuyên đề trọng tâm: Phân từ / V-ing / To-V — Dấu hiệu: Cấu trúc cố định: encourage sb to do sth → Bị động: sb be encouraged + to V."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-123",
+    "part": 5,
+    "topic": "Mệnh đề quan hệ & Rút gọn",
+    "difficulty": "Trung bình",
+    "sentence": "The Kyoto branch, _______ opened only eighteen months ago, has already become our highest-performing store in Asia.",
+    "options": {
+      "A": "that",
+      "B": "which",
+      "C": "where",
+      "D": "what"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Mệnh đề quan hệ không xác định (Có dấu phẩy → KHÔNG dùng 'that')",
+        "signal": "Ngay sau dấu phẩy ',' và trước động từ 'opened' (thiếu chủ ngữ) → Bắt buộc dùng 'which' thay cho 'The Kyoto branch'."
+      },
+      "translation": {
+        "questionVi": "Chi nhánh Kyoto, vốn mới mở cách đây mười tám tháng, đã trở thành cửa hàng có doanh số cao nhất châu Á của chúng tôi.",
+        "optionsVi": {
+          "A": "that: không được dùng sau dấu phẩy",
+          "B": "which: cái mà (làm chủ ngữ sau dấu phẩy)",
+          "C": "where: nơi mà (phải theo sau bởi S + V đủ)",
+          "D": "what: điều mà (không làm đại từ quan hệ)"
+        }
+      },
+      "proof": {
+        "explanation": "Sau dấu phẩy tuyệt đối không dùng 'that'. Phía sau là động từ 'opened' thiếu chủ ngữ nên không dùng trạng từ 'where' → chọn 'which'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì 'that' bị cấm trong mệnh đề quan hệ có dấu phẩy.",
+        "B": "ĐÚNG — 'which' làm chủ ngữ cho 'opened'.",
+        "C": "Loại vì 'where' không làm chủ ngữ cho động từ 'opened'.",
+        "D": "Loại vì 'what' không đứng sau danh từ có dấu phẩy."
+      },
+      "keyTakeaways": {
+        "formula": "Noun (vật/địa điểm), which + Verb ... (KHÔNG dùng that/where làm chủ ngữ)",
+        "commonTrap": "Thấy địa danh 'The Kyoto branch' liền chọn bẫy 'where' mà quên kiểm tra sau chỗ trống thiếu chủ ngữ!",
+        "paraphrases": [
+          {
+            "textInPassage": "highest-performing store",
+            "textInAnswer": "top-earning retail branch",
+            "meaningVi": "chi nhánh đạt hiệu suất cao nhất"
+          }
+        ]
+      },
+      "applyRule": "Noun (vật/địa điểm), which + Verb ... (KHÔNG dùng that/where làm chủ ngữ)",
+      "structureBreakdown": {
+        "fullStructure": "The Kyoto branch, [ which ] opened only eighteen months ago, has already become our highest-performing store in Asia.",
+        "modifiers": "Chuyên đề trọng tâm: Mệnh đề quan hệ & Rút gọn — Dấu hiệu: Ngay sau dấu phẩy ',' và trước động từ 'opened' (thiếu chủ ngữ) → Bắt buộc dùng 'which' thay cho 'The Kyoto branch'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-124",
+    "part": 5,
+    "topic": "Từ vựng & Collocations công sở",
+    "difficulty": "Trung bình",
+    "sentence": "To avoid late penalties, all corporate tax filings must be submitted _______ the March 31 deadline.",
+    "options": {
+      "A": "prior to",
+      "B": "aside from",
+      "C": "instead of",
+      "D": "regardless of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Cụm giới từ thời gian (prior to = before)",
+        "signal": "Ngữ cảnh tránh bị phạt nộp trễ (avoid late penalties) + mốc hạn chót 'the March 31 deadline' → 'trước hạn chót'."
+      },
+      "translation": {
+        "questionVi": "Để tránh phí phạt nộp chậm, mọi hồ sơ thuế doanh nghiệp phải được nộp trước hạn chót ngày 31 tháng 3.",
+        "optionsVi": {
+          "A": "prior to: trước khi",
+          "B": "aside from: ngoài ra, bên cạnh",
+          "C": "instead of: thay vì",
+          "D": "regardless of: bất chấp"
+        }
+      },
+      "proof": {
+        "explanation": "Cụm giới từ trang trọng 'prior to' (= before) kết hợp tự nhiên nhất với 'deadline' trong văn bản kinh doanh."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — prior to the deadline (trước hạn chót).",
+        "B": "Loại vì sai nghĩa.",
+        "C": "Loại vì sai nghĩa.",
+        "D": "Loại vì 'bất chấp hạn chót' mâu thuẫn với 'tránh bị phạt'."
+      },
+      "keyTakeaways": {
+        "formula": "prior to + Noun / V-ing = before",
+        "commonTrap": "Không nhớ nghĩa chính xác của 4 cụm giới từ trang trọng rất hay thi TOEIC.",
+        "paraphrases": [
+          {
+            "textInPassage": "avoid late penalties",
+            "textInAnswer": "prevent overdue fines",
+            "meaningVi": "tránh phí phạt nộp trễ"
+          }
+        ]
+      },
+      "applyRule": "prior to + Noun / V-ing = before",
+      "structureBreakdown": {
+        "fullStructure": "To avoid late penalties, all corporate tax filings must be submitted [ prior to ] the March 31 deadline.",
+        "modifiers": "Chuyên đề trọng tâm: Từ vựng & Collocations công sở — Dấu hiệu: Ngữ cảnh tránh bị phạt nộp trễ (avoid late penalties) + mốc hạn chót 'the March 31 deadline' → 'trước hạn chót'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-125",
+    "part": 5,
+    "topic": "Từ vựng & Collocations công sở",
+    "difficulty": "Nâng cao",
+    "sentence": "Because our primary glass supplier experienced a factory fire, management quickly activated its _______ plan.",
+    "options": {
+      "A": "contingency",
+      "B": "correspondence",
+      "C": "compliment",
+      "D": "consumption"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Collocation quản trị rủi ro (contingency plan)",
+        "signal": "Nhà cung cấp chính gặp hỏa hoạn → Ban quản lý kích hoạt 'kế hoạch dự phòng' (contingency plan)."
+      },
+      "translation": {
+        "questionVi": "Vì nhà cung cấp kính chính gặp sự cố cháy nhà máy, ban lãnh đạo đã nhanh chóng kích hoạt kế hoạch dự phòng.",
+        "optionsVi": {
+          "A": "contingency: tình huống dự phòng (contingency plan)",
+          "B": "correspondence: thư tín trao đổi",
+          "C": "compliment: lời khen ngợi",
+          "D": "consumption: sự tiêu thụ"
+        }
+      },
+      "proof": {
+        "explanation": "'contingency plan' (kế hoạch dự phòng rủi ro) là cụm từ vàng trong TOEIC Part 5 và Part 7 chủ đề vận hành."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — activate a contingency plan.",
+        "B": "Loại vì sai nghĩa.",
+        "C": "Loại vì sai nghĩa.",
+        "D": "Loại vì sai nghĩa."
+      },
+      "keyTakeaways": {
+        "formula": "contingency plan = backup / emergency plan",
+        "commonTrap": "4 danh từ đều bắt đầu bằng 'co-' gây nhiễu thị giác.",
+        "paraphrases": [
+          {
+            "textInPassage": "activated its contingency plan",
+            "textInAnswer": "implemented backup procedures",
+            "meaningVi": "kích hoạt quy trình dự phòng"
+          }
+        ]
+      },
+      "applyRule": "contingency plan = backup / emergency plan",
+      "structureBreakdown": {
+        "fullStructure": "Because our primary glass supplier experienced a factory fire, management quickly activated its [ contingency ] plan.",
+        "modifiers": "Chuyên đề trọng tâm: Từ vựng & Collocations công sở — Dấu hiệu: Nhà cung cấp chính gặp hỏa hoạn → Ban quản lý kích hoạt 'kế hoạch dự phòng' (contingency plan)."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-126",
+    "part": 5,
+    "topic": "Từ loại (Word Form)",
+    "difficulty": "Trung bình",
+    "sentence": "The architect presented three _______ proposals for expanding the municipal library’s reading room.",
+    "options": {
+      "A": "innovate",
+      "B": "innovation",
+      "C": "innovative",
+      "D": "innovatively"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Từ loại (Word Form) — Tính từ bổ nghĩa Danh từ",
+        "signal": "Cấu trúc 'three + [Adj] + proposals (n)' → Cần Tính từ 'innovative'."
+      },
+      "translation": {
+        "questionVi": "Kiến trúc sư đã trình bày ba đề xuất sáng tạo nhằm mở rộng phòng đọc của thư viện thành phố.",
+        "optionsVi": {
+          "A": "innovate (v): đổi mới",
+          "B": "innovation (n): sự đổi mới",
+          "C": "innovative (adj): sáng tạo, đổi mới",
+          "D": "innovatively (adv): một cách sáng tạo"
+        }
+      },
+      "proof": {
+        "explanation": "Đứng trước danh từ số nhiều 'proposals' và sau số từ 'three' cần Tính từ mô tả tính chất → 'innovative'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì là động từ.",
+        "B": "Loại vì 'innovation proposals' không chuẩn bằng tính từ mô tả tính chất 'innovative proposals'.",
+        "C": "ĐÚNG — innovative proposals.",
+        "D": "Loại vì là trạng từ."
+      },
+      "keyTakeaways": {
+        "formula": "Số từ / Mạo từ + Adjective + Noun",
+        "commonTrap": "Phân vân giữa danh từ ghép (B) và tính từ (C) — khi có tính từ gốc rõ nghĩa ('innovative'), luôn ưu tiên tính từ.",
+        "paraphrases": [
+          {
+            "textInPassage": "innovative proposals",
+            "textInAnswer": "creative design plans",
+            "meaningVi": "các đề xuất thiết kế sáng tạo"
+          }
+        ]
+      },
+      "applyRule": "Số từ / Mạo từ + Adjective + Noun",
+      "structureBreakdown": {
+        "fullStructure": "The architect presented three [ innovative ] proposals for expanding the municipal library’s reading room.",
+        "modifiers": "Chuyên đề trọng tâm: Từ loại (Word Form) — Dấu hiệu: Cấu trúc 'three + [Adj] + proposals (n)' → Cần Tính từ 'innovative'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-127",
+    "part": 5,
+    "topic": "Liên từ & Giới từ",
+    "difficulty": "Nâng cao",
+    "sentence": "Employees may redeem their wellness vouchers for either gym memberships _______ ergonomic home-office chairs.",
+    "options": {
+      "A": "nor",
+      "B": "or",
+      "C": "and",
+      "D": "but"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Liên từ tương quan (Correlative Conjunction: either ... or)",
+        "signal": "Xuất hiện từ khóa 'either' phía trước → Bắt buộc đi cặp với 'or'."
+      },
+      "translation": {
+        "questionVi": "Nhân viên có thể quy đổi phiếu chăm sóc sức khỏe lấy thẻ tập gym hoặc ghế văn phòng công thái học.",
+        "optionsVi": {
+          "A": "nor: đi với neither",
+          "B": "or: đi với either",
+          "C": "and: đi với both",
+          "D": "but: đi với not only ... but also"
+        }
+      },
+      "proof": {
+        "explanation": "Cặp liên từ tương quan bất biến trong tiếng Anh: either A or B (hoặc A hoặc B)."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì nor đi với neither.",
+        "B": "ĐÚNG — either ... or.",
+        "C": "Loại vì and đi với both.",
+        "D": "Loại vì sai cặp liên từ."
+      },
+      "keyTakeaways": {
+        "formula": "either A or B | neither A nor B | both A and B | not only A but also B",
+        "commonTrap": "Đọc nhanh không nhìn thấy chữ 'either' đứng trước 'gym memberships'.",
+        "paraphrases": [
+          {
+            "textInPassage": "redeem wellness vouchers",
+            "textInAnswer": "exchange benefit coupons",
+            "meaningVi": "quy đổi phiếu phúc lợi"
+          }
+        ]
+      },
+      "applyRule": "either A or B | neither A nor B | both A and B | not only A but also B",
+      "structureBreakdown": {
+        "fullStructure": "Employees may redeem their wellness vouchers for either gym memberships [ or ] ergonomic home-office chairs.",
+        "modifiers": "Chuyên đề trọng tâm: Liên từ & Giới từ — Dấu hiệu: Xuất hiện từ khóa 'either' phía trước → Bắt buộc đi cặp với 'or'."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-128",
+    "part": 5,
+    "topic": "Từ vựng & Collocations công sở",
+    "difficulty": "Trung bình",
+    "sentence": "All confidential client files must be stored in a locked cabinet and handled with the utmost _______.",
+    "options": {
+      "A": "discretion",
+      "B": "direction",
+      "C": "dimension",
+      "D": "distraction"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "classification": {
+        "category": "Từ vựng ngữ cảnh bảo mật (utmost discretion)",
+        "signal": "Hồ sơ mật khách hàng (confidential client files) + cụm cố định 'with the utmost discretion' (hết sức cẩn trọng, bảo mật)."
+      },
+      "translation": {
+        "questionVi": "Mọi hồ sơ mật của khách hàng phải được cất trong tủ khóa và xử lý với sự thận trọng bảo mật tối đa.",
+        "optionsVi": {
+          "A": "discretion: sự thận trọng, giữ bí mật",
+          "B": "direction: phương hướng, chỉ đạo",
+          "C": "dimension: kích thước, chiều",
+          "D": "distraction: sự xao nhãng"
+        }
+      },
+      "proof": {
+        "explanation": "'utmost discretion' là collocation cực chuẩn trong môi trường pháp lý, nhân sự và chăm sóc khách hàng VIP."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "ĐÚNG — with the utmost discretion.",
+        "B": "Loại vì sai nghĩa.",
+        "C": "Loại vì sai nghĩa.",
+        "D": "Loại vì mang nghĩa tiêu cực."
+      },
+      "keyTakeaways": {
+        "formula": "with the utmost discretion = with maximum confidentiality and care",
+        "commonTrap": "4 danh từ bắt đầu bằng 'di-' và kết thúc '-tion' rất giống nhau về mặt chữ.",
+        "paraphrases": [
+          {
+            "textInPassage": "with the utmost discretion",
+            "textInAnswer": "strictly confidentially",
+            "meaningVi": "bảo mật tuyệt đối"
+          }
+        ]
+      },
+      "applyRule": "with the utmost discretion = with maximum confidentiality and care",
+      "structureBreakdown": {
+        "fullStructure": "All confidential client files must be stored in a locked cabinet and handled with the utmost [ discretion ].",
+        "modifiers": "Chuyên đề trọng tâm: Từ vựng & Collocations công sở — Dấu hiệu: Hồ sơ mật khách hàng (confidential client files) + cụm cố định 'with the utmost discretion' (hết sức cẩn trọng, bảo mật)."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-129",
+    "part": 5,
+    "topic": "Thì & Hòa hợp chủ vị",
+    "difficulty": "Trung bình",
+    "sentence": "Since relocating to the harbor district in 2022, Meridian Maritime _______ its cargo handling capacity by forty percent.",
+    "options": {
+      "A": "doubles",
+      "B": "doubled",
+      "C": "has doubled",
+      "D": "will double"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "classification": {
+        "category": "Thì Hiện tại hoàn thành với 'Since + mốc quá khứ'",
+        "signal": "Mệnh đề mở đầu 'Since relocating ... in 2022' (kể từ năm 2022 tới nay) → Mệnh đề chính bắt buộc chia Hiện tại hoàn thành."
+      },
+      "translation": {
+        "questionVi": "Kể từ khi chuyển sang khu vực cảng vào năm 2022, Meridian Maritime đã tăng gấp đôi 40% công suất xử lý hàng hóa (tăng công suất lên 40%).",
+        "optionsVi": {
+          "A": "doubles: HTĐ",
+          "B": "doubled: QKĐ",
+          "C": "has doubled: đã tăng gấp đôi (HTHT)",
+          "D": "will double: Tương lai đơn"
+        }
+      },
+      "proof": {
+        "explanation": "'Since + mốc thời gian quá khứ' là dấu hiệu chắc chắn 100% cho thì Hiện tại hoàn thành ở mệnh đề chính → 'has doubled'."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì HTĐ không đi với Since + mốc năm.",
+        "B": "Loại vì thấy '2022' chọn QKĐ là bẫy cực phổ biến — có chữ 'Since'!",
+        "C": "ĐÚNG — Since ... 2022 → has doubled.",
+        "D": "Loại vì sai thì tương lai."
+      },
+      "keyTakeaways": {
+        "formula": "Since + mốc quá khứ / V-ing, S + have/has + V3/ed",
+        "commonTrap": "Chỉ nhìn thấy năm '2022' rồi vội chọn quá khứ đơn 'doubled' mà bỏ quên chữ 'Since' ở đầu câu!",
+        "paraphrases": [
+          {
+            "textInPassage": "cargo handling capacity",
+            "textInAnswer": "freight processing volume",
+            "meaningVi": "công suất xử lý hàng hóa"
+          }
+        ]
+      },
+      "applyRule": "Since + mốc quá khứ / V-ing, S + have/has + V3/ed",
+      "structureBreakdown": {
+        "fullStructure": "Since relocating to the harbor district in 2022, Meridian Maritime [ has doubled ] its cargo handling capacity by forty percent.",
+        "modifiers": "Chuyên đề trọng tâm: Thì & Hòa hợp chủ vị — Dấu hiệu: Mệnh đề mở đầu 'Since relocating ... in 2022' (kể từ năm 2022 tới nay) → Mệnh đề chính bắt buộc chia Hiện tại hoàn thành."
+      }
+    }
+  },
+  {
+    "id": "t1-p5-130",
+    "part": 5,
+    "topic": "Phân từ / V-ing / To-V",
+    "difficulty": "Nâng cao",
+    "sentence": "We look forward to _______ your engineering delegation at our Munich robotics plant next Thursday.",
+    "options": {
+      "A": "welcome",
+      "B": "welcoming",
+      "C": "welcomed",
+      "D": "welcomes"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "classification": {
+        "category": "Giới từ 'to' + V-ing (look forward to + V-ing)",
+        "signal": "Cụm cố định kinh điển cuối thư công sở: 'look forward to + V-ing / Noun' ('to' ở đây là giới từ, KHÔNG phải to-V!)."
+      },
+      "translation": {
+        "questionVi": "Chúng tôi rất mong chờ được đón tiếp phái đoàn kỹ thuật của quý công ty tại nhà máy robot Munich vào thứ Năm tới.",
+        "optionsVi": {
+          "A": "welcome (V0): đón tiếp",
+          "B": "welcoming (V-ing): việc đón tiếp",
+          "C": "welcomed (V3): đã đón tiếp",
+          "D": "welcomes (Vs): đón tiếp"
+        }
+      },
+      "proof": {
+        "explanation": "Trong các cụm 'look forward to, be committed to, be dedicated to, object to, be accustomed to', từ 'to' là GIỚI TỪ nên động từ theo sau PHẢI ở dạng V-ing."
+      },
+      "wrongOptionsAnalysis": {
+        "A": "Loại vì bẫy kinh điển tưởng 'to' đi với V0.",
+        "B": "ĐÚNG — look forward to + V-ing.",
+        "C": "Loại vì dạng bị động/quá khứ.",
+        "D": "Loại vì chia ngôi thứ ba số ít."
+      },
+      "keyTakeaways": {
+        "formula": "look forward to / be committed to / be dedicated to / object to + V-ing",
+        "commonTrap": "Bẫy số 1 của người học TOEIC: cứ thấy 'to' là chọn ngay động từ nguyên mẫu 'welcome'!",
+        "paraphrases": [
+          {
+            "textInPassage": "look forward to welcoming",
+            "textInAnswer": "eagerly anticipate hosting",
+            "meaningVi": "hào hứng mong đón tiếp"
+          }
+        ]
+      },
+      "applyRule": "look forward to / be committed to / be dedicated to / object to + V-ing",
+      "structureBreakdown": {
+        "fullStructure": "We look forward to [ welcoming ] your engineering delegation at our Munich robotics plant next Thursday.",
+        "modifiers": "Chuyên đề trọng tâm: Phân từ / V-ing / To-V — Dấu hiệu: Cụm cố định kinh điển cuối thư công sở: 'look forward to + V-ing / Noun' ('to' ở đây là giới từ, KHÔNG phải to-V!)."
+      }
+    }
+  }
+]

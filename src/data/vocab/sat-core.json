@@ -1,0 +1,770 @@
+{
+  "id": "sat-core",
+  "title": "Từ Vựng SAT Cốt Lõi",
+  "subtitle": "Từ vựng học thuật sắc bén xuất hiện nhiều trong Digital SAT Reading & Writing.",
+  "category": "academic",
+  "levelLabel": "C1",
+  "tags": [
+    "#c1",
+    "#sat"
+  ],
+  "coverTheme": "sat",
+  "accentGradient": "from-indigo-600 via-blue-700 to-slate-700",
+  "badgeText": "SAT CORE",
+  "words": [
+    {
+      "id": "sat-1",
+      "deckId": "sat-core",
+      "word": "corroborate",
+      "pos": "v",
+      "ipaUK": "/kəˈrɒb.ə.reɪt/",
+      "ipaUS": "/kəˈrɑː.bə.reɪt/",
+      "meaning": "củng cố, xác thực thêm (bằng chứng)",
+      "examples": [
+        {
+          "en": "Ice-core samples corroborate the climatologist’s hypothesis.",
+          "vi": "Mẫu lõi băng củng cố giả thuyết của nhà khí hậu học."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "corroboration",
+          "pos": "n",
+          "meaning": "sự xác chứng"
+        }
+      ],
+      "synonyms": [
+        "confirm",
+        "substantiate"
+      ],
+      "antonyms": [
+        "refute",
+        "contradict"
+      ],
+      "collocations": [
+        {
+          "phrase": "corroborate evidence",
+          "meaning": "xác thực bằng chứng"
+        }
+      ],
+      "definitionEn": "To confirm (also similar to substantiate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động củng cố, xác thực thêm (bằng chứng).",
+      "topicId": "sat-logic"
+    },
+    {
+      "id": "sat-2",
+      "deckId": "sat-core",
+      "word": "ephemeral",
+      "pos": "adj",
+      "ipaUK": "/ɪˈfem.ər.əl/",
+      "ipaUS": "/ɪˈfem.ɚ.əl/",
+      "meaning": "phù du, ngắn ngủi, chóng tàn",
+      "examples": [
+        {
+          "en": "Viral internet memes are notoriously ephemeral.",
+          "vi": "Các trào lưu meme trên mạng nổi tiếng là chóng tàn."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "fleeting",
+        "transient",
+        "short-lived"
+      ],
+      "antonyms": [
+        "permanent",
+        "enduring"
+      ],
+      "collocations": [
+        {
+          "phrase": "ephemeral trend",
+          "meaning": "xu hướng ngắn ngủi"
+        }
+      ],
+      "definitionEn": "Having the quality of being fleeting, transient, short-lived.",
+      "definitionVi": "Tính từ mô tả đặc điểm phù du, ngắn ngủi, chóng tàn.",
+      "topicId": "sat-logic"
+    },
+    {
+      "id": "sat-3",
+      "deckId": "sat-core",
+      "word": "pragmatic",
+      "pos": "adj",
+      "ipaUK": "/præɡˈmæt.ɪk/",
+      "ipaUS": "/præɡˈmæt̬.ɪk/",
+      "meaning": "thực tế, thực dụng theo tính khả thi",
+      "examples": [
+        {
+          "en": "The council adopted a pragmatic plan to repair aging bridges.",
+          "vi": "Hội đồng áp dụng kế hoạch thực tế để sửa các cây cầu cũ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "pragmatism",
+          "pos": "n",
+          "meaning": "chủ nghĩa thực dụng"
+        }
+      ],
+      "synonyms": [
+        "practical",
+        "realistic"
+      ],
+      "antonyms": [
+        "idealistic"
+      ],
+      "collocations": [
+        {
+          "phrase": "pragmatic approach",
+          "meaning": "cách tiếp cận thực tế"
+        }
+      ],
+      "definitionEn": "Having the quality of being practical, realistic.",
+      "definitionVi": "Tính từ mô tả đặc điểm thực tế, thực dụng theo tính khả thi.",
+      "topicId": "sat-logic"
+    },
+    {
+      "id": "sat-4",
+      "deckId": "sat-core",
+      "word": "ambiguous",
+      "pos": "adj",
+      "ipaUK": "/æmˈbɪɡ.ju.əs/",
+      "ipaUS": "/æmˈbɪɡjuəs/",
+      "meaning": "mơ hồ, đa nghĩa",
+      "examples": [
+        {
+          "en": "Lawyers rewrote the ambiguous phrasing in section four.",
+          "vi": "Luật sư viết lại câu chữ mơ hồ ở mục bốn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "ambiguity",
+          "pos": "n",
+          "meaning": "sự mơ hồ"
+        }
+      ],
+      "synonyms": [
+        "vague",
+        "unclear",
+        "equivocal"
+      ],
+      "antonyms": [
+        "explicit",
+        "clear"
+      ],
+      "collocations": [
+        {
+          "phrase": "ambiguous clause",
+          "meaning": "điều khoản mơ hồ"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/ambiguous-us.mp3",
+      "definitionEn": "Having the quality of being vague, unclear, equivocal.",
+      "definitionVi": "Tính từ mô tả đặc điểm mơ hồ, đa nghĩa.",
+      "topicId": "sat-logic"
+    },
+    {
+      "id": "sat-5",
+      "deckId": "sat-core",
+      "word": "bolster",
+      "pos": "v",
+      "ipaUK": "/ˈbəʊl.stər/",
+      "ipaUS": "/ˈboʊl.stɚ/",
+      "meaning": "củng cố, tăng cường (niềm tin, lập luận)",
+      "examples": [
+        {
+          "en": "Record exports helped bolster confidence in the tech sector.",
+          "vi": "Xuất khẩu kỷ lục giúp củng cố niềm tin vào lĩnh vực công nghệ."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "strengthen",
+        "reinforce",
+        "boost"
+      ],
+      "antonyms": [
+        "undermine",
+        "weaken"
+      ],
+      "collocations": [
+        {
+          "phrase": "bolster confidence",
+          "meaning": "củng cố niềm tin"
+        }
+      ],
+      "definitionEn": "To strengthen (also similar to reinforce, boost) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động củng cố, tăng cường (niềm tin, lập luận).",
+      "topicId": "sat-logic"
+    },
+    {
+      "id": "sat-6",
+      "deckId": "sat-core",
+      "word": "undermine",
+      "pos": "v",
+      "ipaUK": "/ˌʌn.dəˈmaɪn/",
+      "ipaUS": "/ˌʌn.dɚˈmaɪn/",
+      "meaning": "làm suy yếu, phá hoại ngầm",
+      "examples": [
+        {
+          "en": "Inconsistent rules can undermine public trust.",
+          "vi": "Quy định thiếu nhất quán có thể làm suy yếu niềm tin công chúng."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "weaken",
+        "erode"
+      ],
+      "antonyms": [
+        "bolster",
+        "strengthen"
+      ],
+      "collocations": [
+        {
+          "phrase": "undermine credibility",
+          "meaning": "làm suy giảm uy tín"
+        }
+      ],
+      "definitionEn": "To weaken (also similar to erode) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động làm suy yếu, phá hoại ngầm.",
+      "topicId": "sat-nuance"
+    },
+    {
+      "id": "sat-7",
+      "deckId": "sat-core",
+      "word": "nuance",
+      "pos": "n",
+      "ipaUK": "/ˈnjuː.ɑːns/",
+      "ipaUS": "/ˈnuː.ɑːns/",
+      "meaning": "sắc thái tinh tế",
+      "examples": [
+        {
+          "en": "Skilled translators capture every cultural nuance of the text.",
+          "vi": "Biên dịch viên giỏi nắm bắt từng sắc thái văn hóa của văn bản."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "nuanced",
+          "pos": "adj",
+          "meaning": "tinh tế, đa chiều"
+        }
+      ],
+      "synonyms": [
+        "subtlety",
+        "shade of meaning"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "subtle nuance",
+          "meaning": "sắc thái tinh vi"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to subtlety, shade of meaning.",
+      "definitionVi": "Danh từ dùng để chỉ sắc thái tinh tế.",
+      "topicId": "sat-nuance"
+    },
+    {
+      "id": "sat-8",
+      "deckId": "sat-core",
+      "word": "refute",
+      "pos": "v",
+      "ipaUK": "/rɪˈfjuːt/",
+      "ipaUS": "/rɪˈfjuːt/",
+      "meaning": "bác bỏ bằng chứng cứ xác đáng",
+      "examples": [
+        {
+          "en": "New telescope imagery may refute the earlier orbital model.",
+          "vi": "Hình ảnh kính thiên văn mới có thể bác bỏ mô hình quỹ đạo trước đó."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "refutation",
+          "pos": "n",
+          "meaning": "sự bác bỏ"
+        }
+      ],
+      "synonyms": [
+        "disprove",
+        "rebut"
+      ],
+      "antonyms": [
+        "corroborate",
+        "confirm"
+      ],
+      "collocations": [
+        {
+          "phrase": "refute a claim",
+          "meaning": "bác bỏ tuyên bố"
+        }
+      ],
+      "definitionEn": "To disprove (also similar to rebut) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động bác bỏ bằng chứng cứ xác đáng.",
+      "topicId": "sat-nuance"
+    },
+    {
+      "id": "sat-9",
+      "deckId": "sat-core",
+      "word": "meticulous",
+      "pos": "adj",
+      "ipaUK": "/məˈtɪk.jə.ləs/",
+      "ipaUS": "/məˈtɪk.jə.ləs/",
+      "meaning": "tỉ mỉ, cực kỳ cẩn trọng từng chi tiết",
+      "examples": [
+        {
+          "en": "Restoring oil paintings requires meticulous brushwork.",
+          "vi": "Phục chế tranh sơn dầu đòi hỏi nét cọ cực kỳ tỉ mỉ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "meticulously",
+          "pos": "adv",
+          "meaning": "một cách tỉ mỉ"
+        }
+      ],
+      "synonyms": [
+        "thorough",
+        "painstaking"
+      ],
+      "antonyms": [
+        "careless"
+      ],
+      "collocations": [
+        {
+          "phrase": "meticulous attention to detail",
+          "meaning": "sự tỉ mỉ đến từng chi tiết"
+        }
+      ],
+      "definitionEn": "Having the quality of being thorough, painstaking.",
+      "definitionVi": "Tính từ mô tả đặc điểm tỉ mỉ, cực kỳ cẩn trọng từng chi tiết.",
+      "topicId": "sat-nuance"
+    },
+    {
+      "id": "sat-10",
+      "deckId": "sat-core",
+      "word": "ubiquity",
+      "pos": "n",
+      "ipaUK": "/juːˈbɪk.wɪ.ti/",
+      "ipaUS": "/juːˈbɪk.wə.t̬i/",
+      "meaning": "sự hiện diện khắp mọi nơi",
+      "examples": [
+        {
+          "en": "The ubiquity of smartphones reshaped retail shopping.",
+          "vi": "Sự phổ biến khắp nơi của điện thoại thông minh đã định hình lại ngành bán lẻ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "ubiquitous",
+          "pos": "adj",
+          "meaning": "khắp mọi nơi"
+        }
+      ],
+      "synonyms": [
+        "omnipresence"
+      ],
+      "antonyms": [
+        "rarity"
+      ],
+      "collocations": [
+        {
+          "phrase": "global ubiquity",
+          "meaning": "phổ biến toàn cầu"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to omnipresence.",
+      "definitionVi": "Danh từ dùng để chỉ sự hiện diện khắp mọi nơi.",
+      "topicId": "sat-nuance"
+    }
+  ],
+  "topics": [
+    {
+      "id": "sat-logic",
+      "name": "Lập luận, Bằng chứng & Phản biện",
+      "icon": "education",
+      "words": [
+        {
+          "id": "sat-1",
+          "deckId": "sat-core",
+          "word": "corroborate",
+          "pos": "v",
+          "ipaUK": "/kəˈrɒb.ə.reɪt/",
+          "ipaUS": "/kəˈrɑː.bə.reɪt/",
+          "meaning": "củng cố, xác thực thêm (bằng chứng)",
+          "examples": [
+            {
+              "en": "Ice-core samples corroborate the climatologist’s hypothesis.",
+              "vi": "Mẫu lõi băng củng cố giả thuyết của nhà khí hậu học."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "corroboration",
+              "pos": "n",
+              "meaning": "sự xác chứng"
+            }
+          ],
+          "synonyms": [
+            "confirm",
+            "substantiate"
+          ],
+          "antonyms": [
+            "refute",
+            "contradict"
+          ],
+          "collocations": [
+            {
+              "phrase": "corroborate evidence",
+              "meaning": "xác thực bằng chứng"
+            }
+          ],
+          "definitionEn": "To confirm (also similar to substantiate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động củng cố, xác thực thêm (bằng chứng).",
+          "topicId": "sat-logic"
+        },
+        {
+          "id": "sat-2",
+          "deckId": "sat-core",
+          "word": "ephemeral",
+          "pos": "adj",
+          "ipaUK": "/ɪˈfem.ər.əl/",
+          "ipaUS": "/ɪˈfem.ɚ.əl/",
+          "meaning": "phù du, ngắn ngủi, chóng tàn",
+          "examples": [
+            {
+              "en": "Viral internet memes are notoriously ephemeral.",
+              "vi": "Các trào lưu meme trên mạng nổi tiếng là chóng tàn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "fleeting",
+            "transient",
+            "short-lived"
+          ],
+          "antonyms": [
+            "permanent",
+            "enduring"
+          ],
+          "collocations": [
+            {
+              "phrase": "ephemeral trend",
+              "meaning": "xu hướng ngắn ngủi"
+            }
+          ],
+          "definitionEn": "Having the quality of being fleeting, transient, short-lived.",
+          "definitionVi": "Tính từ mô tả đặc điểm phù du, ngắn ngủi, chóng tàn.",
+          "topicId": "sat-logic"
+        },
+        {
+          "id": "sat-3",
+          "deckId": "sat-core",
+          "word": "pragmatic",
+          "pos": "adj",
+          "ipaUK": "/præɡˈmæt.ɪk/",
+          "ipaUS": "/præɡˈmæt̬.ɪk/",
+          "meaning": "thực tế, thực dụng theo tính khả thi",
+          "examples": [
+            {
+              "en": "The council adopted a pragmatic plan to repair aging bridges.",
+              "vi": "Hội đồng áp dụng kế hoạch thực tế để sửa các cây cầu cũ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "pragmatism",
+              "pos": "n",
+              "meaning": "chủ nghĩa thực dụng"
+            }
+          ],
+          "synonyms": [
+            "practical",
+            "realistic"
+          ],
+          "antonyms": [
+            "idealistic"
+          ],
+          "collocations": [
+            {
+              "phrase": "pragmatic approach",
+              "meaning": "cách tiếp cận thực tế"
+            }
+          ],
+          "definitionEn": "Having the quality of being practical, realistic.",
+          "definitionVi": "Tính từ mô tả đặc điểm thực tế, thực dụng theo tính khả thi.",
+          "topicId": "sat-logic"
+        },
+        {
+          "id": "sat-4",
+          "deckId": "sat-core",
+          "word": "ambiguous",
+          "pos": "adj",
+          "ipaUK": "/æmˈbɪɡ.ju.əs/",
+          "ipaUS": "/æmˈbɪɡjuəs/",
+          "meaning": "mơ hồ, đa nghĩa",
+          "examples": [
+            {
+              "en": "Lawyers rewrote the ambiguous phrasing in section four.",
+              "vi": "Luật sư viết lại câu chữ mơ hồ ở mục bốn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "ambiguity",
+              "pos": "n",
+              "meaning": "sự mơ hồ"
+            }
+          ],
+          "synonyms": [
+            "vague",
+            "unclear",
+            "equivocal"
+          ],
+          "antonyms": [
+            "explicit",
+            "clear"
+          ],
+          "collocations": [
+            {
+              "phrase": "ambiguous clause",
+              "meaning": "điều khoản mơ hồ"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/ambiguous-us.mp3",
+          "definitionEn": "Having the quality of being vague, unclear, equivocal.",
+          "definitionVi": "Tính từ mô tả đặc điểm mơ hồ, đa nghĩa.",
+          "topicId": "sat-logic"
+        },
+        {
+          "id": "sat-5",
+          "deckId": "sat-core",
+          "word": "bolster",
+          "pos": "v",
+          "ipaUK": "/ˈbəʊl.stər/",
+          "ipaUS": "/ˈboʊl.stɚ/",
+          "meaning": "củng cố, tăng cường (niềm tin, lập luận)",
+          "examples": [
+            {
+              "en": "Record exports helped bolster confidence in the tech sector.",
+              "vi": "Xuất khẩu kỷ lục giúp củng cố niềm tin vào lĩnh vực công nghệ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "strengthen",
+            "reinforce",
+            "boost"
+          ],
+          "antonyms": [
+            "undermine",
+            "weaken"
+          ],
+          "collocations": [
+            {
+              "phrase": "bolster confidence",
+              "meaning": "củng cố niềm tin"
+            }
+          ],
+          "definitionEn": "To strengthen (also similar to reinforce, boost) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động củng cố, tăng cường (niềm tin, lập luận).",
+          "topicId": "sat-logic"
+        }
+      ]
+    },
+    {
+      "id": "sat-nuance",
+      "name": "Sắc thái ngôn ngữ & Đánh giá học thuật",
+      "icon": "strategy",
+      "words": [
+        {
+          "id": "sat-6",
+          "deckId": "sat-core",
+          "word": "undermine",
+          "pos": "v",
+          "ipaUK": "/ˌʌn.dəˈmaɪn/",
+          "ipaUS": "/ˌʌn.dɚˈmaɪn/",
+          "meaning": "làm suy yếu, phá hoại ngầm",
+          "examples": [
+            {
+              "en": "Inconsistent rules can undermine public trust.",
+              "vi": "Quy định thiếu nhất quán có thể làm suy yếu niềm tin công chúng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "weaken",
+            "erode"
+          ],
+          "antonyms": [
+            "bolster",
+            "strengthen"
+          ],
+          "collocations": [
+            {
+              "phrase": "undermine credibility",
+              "meaning": "làm suy giảm uy tín"
+            }
+          ],
+          "definitionEn": "To weaken (also similar to erode) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động làm suy yếu, phá hoại ngầm.",
+          "topicId": "sat-nuance"
+        },
+        {
+          "id": "sat-7",
+          "deckId": "sat-core",
+          "word": "nuance",
+          "pos": "n",
+          "ipaUK": "/ˈnjuː.ɑːns/",
+          "ipaUS": "/ˈnuː.ɑːns/",
+          "meaning": "sắc thái tinh tế",
+          "examples": [
+            {
+              "en": "Skilled translators capture every cultural nuance of the text.",
+              "vi": "Biên dịch viên giỏi nắm bắt từng sắc thái văn hóa của văn bản."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "nuanced",
+              "pos": "adj",
+              "meaning": "tinh tế, đa chiều"
+            }
+          ],
+          "synonyms": [
+            "subtlety",
+            "shade of meaning"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "subtle nuance",
+              "meaning": "sắc thái tinh vi"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to subtlety, shade of meaning.",
+          "definitionVi": "Danh từ dùng để chỉ sắc thái tinh tế.",
+          "topicId": "sat-nuance"
+        },
+        {
+          "id": "sat-8",
+          "deckId": "sat-core",
+          "word": "refute",
+          "pos": "v",
+          "ipaUK": "/rɪˈfjuːt/",
+          "ipaUS": "/rɪˈfjuːt/",
+          "meaning": "bác bỏ bằng chứng cứ xác đáng",
+          "examples": [
+            {
+              "en": "New telescope imagery may refute the earlier orbital model.",
+              "vi": "Hình ảnh kính thiên văn mới có thể bác bỏ mô hình quỹ đạo trước đó."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "refutation",
+              "pos": "n",
+              "meaning": "sự bác bỏ"
+            }
+          ],
+          "synonyms": [
+            "disprove",
+            "rebut"
+          ],
+          "antonyms": [
+            "corroborate",
+            "confirm"
+          ],
+          "collocations": [
+            {
+              "phrase": "refute a claim",
+              "meaning": "bác bỏ tuyên bố"
+            }
+          ],
+          "definitionEn": "To disprove (also similar to rebut) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động bác bỏ bằng chứng cứ xác đáng.",
+          "topicId": "sat-nuance"
+        },
+        {
+          "id": "sat-9",
+          "deckId": "sat-core",
+          "word": "meticulous",
+          "pos": "adj",
+          "ipaUK": "/məˈtɪk.jə.ləs/",
+          "ipaUS": "/məˈtɪk.jə.ləs/",
+          "meaning": "tỉ mỉ, cực kỳ cẩn trọng từng chi tiết",
+          "examples": [
+            {
+              "en": "Restoring oil paintings requires meticulous brushwork.",
+              "vi": "Phục chế tranh sơn dầu đòi hỏi nét cọ cực kỳ tỉ mỉ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "meticulously",
+              "pos": "adv",
+              "meaning": "một cách tỉ mỉ"
+            }
+          ],
+          "synonyms": [
+            "thorough",
+            "painstaking"
+          ],
+          "antonyms": [
+            "careless"
+          ],
+          "collocations": [
+            {
+              "phrase": "meticulous attention to detail",
+              "meaning": "sự tỉ mỉ đến từng chi tiết"
+            }
+          ],
+          "definitionEn": "Having the quality of being thorough, painstaking.",
+          "definitionVi": "Tính từ mô tả đặc điểm tỉ mỉ, cực kỳ cẩn trọng từng chi tiết.",
+          "topicId": "sat-nuance"
+        },
+        {
+          "id": "sat-10",
+          "deckId": "sat-core",
+          "word": "ubiquity",
+          "pos": "n",
+          "ipaUK": "/juːˈbɪk.wɪ.ti/",
+          "ipaUS": "/juːˈbɪk.wə.t̬i/",
+          "meaning": "sự hiện diện khắp mọi nơi",
+          "examples": [
+            {
+              "en": "The ubiquity of smartphones reshaped retail shopping.",
+              "vi": "Sự phổ biến khắp nơi của điện thoại thông minh đã định hình lại ngành bán lẻ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "ubiquitous",
+              "pos": "adj",
+              "meaning": "khắp mọi nơi"
+            }
+          ],
+          "synonyms": [
+            "omnipresence"
+          ],
+          "antonyms": [
+            "rarity"
+          ],
+          "collocations": [
+            {
+              "phrase": "global ubiquity",
+              "meaning": "phổ biến toàn cầu"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to omnipresence.",
+          "definitionVi": "Danh từ dùng để chỉ sự hiện diện khắp mọi nơi.",
+          "topicId": "sat-nuance"
+        }
+      ]
+    }
+  ]
+}

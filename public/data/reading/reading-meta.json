@@ -1,0 +1,97 @@
+{
+  "updatedAt": "2026-11-26T13:00:00.000000+00:00",
+  "part5": {
+    "totalQuestions": 130,
+    "topics": [
+      "Từ loại (Word Form)",
+      "Thì & Hòa hợp chủ vị",
+      "Thể bị động (Passive Voice)",
+      "Mệnh đề quan hệ & Rút gọn",
+      "Liên từ & Giới từ",
+      "Phân từ / V-ing / To-V",
+      "Câu điều kiện & So sánh",
+      "Đại từ, Từ hạn định & Lượng từ",
+      "Từ vựng & Collocations công sở"
+    ],
+    "batches": [
+      {
+        "id": "part5_core",
+        "label": "Bộ cốt lõi (Core 30 câu)",
+        "file": "part5_core.json",
+        "count": 30
+      },
+      {
+        "id": "part5_batch1",
+        "label": "Bộ mở rộng 1 — Ngữ pháp cốt lõi & Mệnh đề (50 câu)",
+        "file": "part5_batch1.json",
+        "count": 50
+      },
+      {
+        "id": "part5_batch2",
+        "label": "Bộ mở rộng 2 — Liên từ, Câu phức & Từ vựng (50 câu)",
+        "file": "part5_batch2.json",
+        "count": 50
+      }
+    ]
+  },
+  "part6": {
+    "totalPassages": 24,
+    "totalQuestions": 96,
+    "batches": [
+      {
+        "id": "part6_core",
+        "label": "Bộ cốt lõi (Core — 4 đoạn / 16 câu)",
+        "file": "part6_core.json",
+        "passageCount": 4,
+        "questionCount": 16
+      },
+      {
+        "id": "part6_set1",
+        "label": "Bộ mở rộng 1 — Email & Memo (10 đoạn / 40 câu)",
+        "file": "part6_set1.json",
+        "passageCount": 10,
+        "questionCount": 40
+      },
+      {
+        "id": "part6_set2",
+        "label": "Bộ mở rộng 2 — Notice, Quảng cáo & Bản tin (10 đoạn / 40 câu)",
+        "file": "part6_set2.json",
+        "passageCount": 10,
+        "questionCount": 40
+      }
+    ]
+  },
+  "part7": {
+    "totalSets": 25,
+    "totalQuestions": 111,
+    "singleCount": 12,
+    "doubleCount": 8,
+    "tripleCount": 5,
+    "batches": [
+      {
+        "id": "part7_single",
+        "label": "Đoạn đơn (Single Passage — 12 bài)",
+        "passageCountType": "single",
+        "file": "part7_single.json",
+        "setCount": 12,
+        "questionCount": 46
+      },
+      {
+        "id": "part7_double",
+        "label": "Đoạn kép (Double Passage — 8 bài)",
+        "passageCountType": "double",
+        "file": "part7_double.json",
+        "setCount": 8,
+        "questionCount": 40
+      },
+      {
+        "id": "part7_triple",
+        "label": "Đoạn ba (Triple Passage — 5 bài)",
+        "passageCountType": "triple",
+        "file": "part7_triple.json",
+        "setCount": 5,
+        "questionCount": 25
+      }
+    ]
+  }
+}

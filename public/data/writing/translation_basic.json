@@ -1,0 +1,262 @@
+[
+  {
+    "id": "wr-tr-b01",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Giới thiệu bản thân & Công việc mới",
+    "category": "Giao tiếp công sở",
+    "sourceLanguage": "vi",
+    "passage": "Xin chào mọi người, tôi tên là Minh và tôi vừa gia nhập phòng Tiếp thị từ thứ Hai tuần này. Trước đây, tôi có hai năm kinh nghiệm quản lý nội dung mạng xã hội cho một công ty bán lẻ tại Hà Nội. Ở vị trí mới này, tôi sẽ phụ trách viết bài quảng bá sản phẩm và hỗ trợ các chiến dịch truyền thông trực tuyến. Tôi rất vui khi được làm việc cùng cả nhóm và mong nhận được sự hướng dẫn của anh chị trong thời gian đầu. Nếu mọi người có bất kỳ góp ý nào, xin đừng ngần ngại trao đổi trực tiếp với tôi nhé.",
+    "instructions": "Dịch đoạn văn giới thiệu trên sang tiếng Anh tự nhiên theo văn phong thân thiện, chuyên nghiệp khi mới nhận việc.",
+    "checklist": [
+      "Giới thiệu tên, phòng ban và thời điểm bắt đầu công việc (thứ Hai tuần này)",
+      "Nêu kinh nghiệm 2 năm làm quản lý nội dung mạng xã hội tại công ty bán lẻ ở Hà Nội",
+      "Trình bày nhiệm vụ ở vị trí mới (viết bài quảng bá & hỗ trợ chiến dịch trực tuyến)",
+      "Bày tỏ niềm vui hợp tác và lời mời góp ý lịch sự"
+    ],
+    "vocabHints": [
+      { "phrase": "join the Marketing Department", "pos": "phrase", "meaningVi": "gia nhập phòng Tiếp thị" },
+      { "phrase": "manage social media content", "pos": "phrase", "meaningVi": "quản lý nội dung mạng xã hội" },
+      { "phrase": "be responsible for + V-ing", "pos": "phrase", "meaningVi": "phụ trách việc gì" },
+      { "phrase": "online promotional campaigns", "pos": "n", "meaningVi": "các chiến dịch quảng bá trực tuyến" },
+      { "phrase": "look forward to working with", "pos": "phrase", "meaningVi": "mong đợi được làm việc cùng" },
+      { "phrase": "please feel free to share feedback", "pos": "phrase", "meaningVi": "đừng ngần ngại chia sẻ góp ý" }
+    ],
+    "recommendedWords": { "min": 75, "max": 120 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b02",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Lịch trình làm việc hàng ngày ở văn phòng",
+    "category": "Thói quen công sở",
+    "sourceLanguage": "vi",
+    "passage": "Mỗi ngày đi làm, tôi thường đến văn phòng lúc 8 giờ 15 sáng để có đủ thời gian kiểm tra email và lập danh sách việc cần làm. Vào lúc 9 giờ, nhóm của tôi có một buổi họp nhanh kéo dài mười lăm phút để cập nhật tiến độ công việc trong ngày. Buổi sáng là khoảng thời gian tôi tập trung tốt nhất, nên tôi luôn ưu tiên xử lý các báo cáo quan trọng trước giờ nghỉ trưa. Vào buổi chiều, tôi chủ yếu trao đổi với khách hàng qua điện thoại và chuẩn bị tài liệu cho ngày hôm sau. Trước khi rời văn phòng lúc 5 giờ 30, tôi luôn sắp xếp bàn làm việc gọn gàng để sáng mai bắt đầu thật thoải mái.",
+    "instructions": "Dịch đoạn văn mô tả lịch trình hàng ngày sang tiếng Anh, chú ý chia đúng thì Hiện tại đơn và dùng trạng từ tần suất tự nhiên.",
+    "checklist": [
+      "Nêu giờ đến văn phòng (8:15) và hai việc đầu ngày (kiểm tra email, lập to-do list)",
+      "Đề cập buổi họp nhanh 15 phút lúc 9 giờ để cập nhật tiến độ",
+      "Giải thích lý do ưu tiên làm báo cáo quan trọng vào buổi sáng",
+      "Mô tả công việc buổi chiều và thói quen dọn bàn trước 5:30 chiều"
+    ],
+    "vocabHints": [
+      { "phrase": "make a to-do list", "pos": "phrase", "meaningVi": "lập danh sách việc cần làm" },
+      { "phrase": "have a quick fifteen-minute stand-up meeting", "pos": "phrase", "meaningVi": "họp nhanh 15 phút" },
+      { "phrase": "prioritize important reports", "pos": "phrase", "meaningVi": "ưu tiên các báo cáo quan trọng" },
+      { "phrase": "communicate with clients by phone", "pos": "phrase", "meaningVi": "trao đổi với khách hàng qua điện thoại" },
+      { "phrase": "tidy up my desk", "pos": "phrase", "meaningVi": "dọn dẹp gọn gàng bàn làm việc" },
+      { "phrase": "before leaving the office", "pos": "phrase", "meaningVi": "trước khi rời văn phòng" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b03",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Đặt phòng họp & Xác nhận lịch hẹn tuần tới",
+    "category": "Lịch hẹn & Họp hành",
+    "sourceLanguage": "vi",
+    "passage": "Chào Lan, tôi viết email này để xác nhận cuộc họp giữa hai bộ phận vào lúc 2 giờ chiều thứ Tư tuần tới. Tôi đã đặt Phòng họp B ở tầng ba vì phòng này có máy chiếu lớn và sức chứa cho mười hai người. Trong buổi họp, chúng ta sẽ thảo luận kế hoạch ra mắt sản phẩm tháng sau và phân công nhiệm vụ cho từng thành viên. Bạn vui lòng gửi trước bản trình bày của nhóm bạn cho tôi chậm nhất sáng thứ Ba để tôi tổng hợp chung nhé. Nếu khung giờ này không thuận tiện cho quản lý của bạn, hãy báo lại sớm để tôi điều chỉnh.",
+    "instructions": "Dịch sang một email nội bộ tiếng Anh rõ ràng, lịch sự và đúng văn phong công sở.",
+    "checklist": [
+      "Xác nhận thời gian họp (2:00 chiều thứ Tư tuần tới) giữa hai bộ phận",
+      "Nêu địa điểm (Phòng họp B, tầng 3) và lý do chọn phòng (máy chiếu lớn, 12 người)",
+      "Nêu 2 nội dung cuộc họp (kế hoạch ra mắt sản phẩm & phân công nhiệm vụ)",
+      "Nhờ gửi trước slide chậm nhất sáng thứ Ba và đề nghị báo sớm nếu cần đổi giờ"
+    ],
+    "vocabHints": [
+      { "phrase": "confirm our interdepartmental meeting", "pos": "phrase", "meaningVi": "xác nhận cuộc họp giữa hai bộ phận" },
+      { "phrase": "reserve Conference Room B", "pos": "phrase", "meaningVi": "đặt trước Phòng họp B" },
+      { "phrase": "seat up to twelve people", "pos": "phrase", "meaningVi": "có sức chứa tới 12 người" },
+      { "phrase": "assign tasks to each member", "pos": "phrase", "meaningVi": "phân công nhiệm vụ cho từng thành viên" },
+      { "phrase": "no later than Tuesday morning", "pos": "phrase", "meaningVi": "chậm nhất vào sáng thứ Ba" },
+      { "phrase": "adjust the schedule", "pos": "phrase", "meaningVi": "điều chỉnh lịch trình" }
+    ],
+    "recommendedWords": { "min": 75, "max": 120 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b04",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Hỏi thông tin trạng thái đơn hàng trực tuyến",
+    "category": "Mua sắm & Đơn hàng",
+    "sourceLanguage": "vi",
+    "passage": "Xin chào bộ phận Chăm sóc Khách hàng, tôi đã đặt mua hai chiếc đèn bàn LED trên trang web của quý công ty vào ngày 5 tháng 4 với mã đơn hàng #LB-204. Theo email xác nhận, kiện hàng dự kiến sẽ được giao đến địa chỉ văn phòng của tôi vào ngày hôm qua. Tuy nhiên, đến sáng nay tôi vẫn chưa nhận được hàng cũng như tin nhắn cập nhật từ đơn vị vận chuyển. Quý công ty vui lòng kiểm tra trạng thái hiện tại của đơn hàng và cho tôi biết thời gian giao dự kiến mới được không? Tôi rất cần hai chiếc đèn này trước cuối tuần để hoàn thiện góc làm việc tại nhà.",
+    "instructions": "Dịch sang tiếng Anh theo văn phong khách hàng hỏi thông tin đơn hàng lịch sự, dùng đúng thì Quá khứ đơn và Hiện tại hoàn thành.",
+    "checklist": [
+      "Nêu rõ sản phẩm (2 đèn bàn LED), ngày đặt (5/4) và mã đơn (#LB-204)",
+      "Trình bày lịch giao dự kiến ban đầu (hôm qua) nhưng sáng nay vẫn chưa nhận hàng hay tin nhắn",
+      "Đề nghị kiểm tra trạng thái đơn hàng và báo thời gian giao mới",
+      "Nêu lý do cần hàng trước cuối tuần"
+    ],
+    "vocabHints": [
+      { "phrase": "place an order for", "pos": "phrase", "meaningVi": "đặt mua sản phẩm gì" },
+      { "phrase": "confirmation email", "pos": "n", "meaningVi": "email xác nhận" },
+      { "phrase": "be scheduled to arrive", "pos": "phrase", "meaningVi": "dự kiến được giao đến" },
+      { "phrase": "delivery carrier", "pos": "n", "meaningVi": "đơn vị vận chuyển" },
+      { "phrase": "check the current status of", "pos": "phrase", "meaningVi": "kiểm tra trạng thái hiện tại của" },
+      { "phrase": "estimated delivery date", "pos": "n", "meaningVi": "ngày giao hàng dự kiến" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b05",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Email xin nghỉ phép ngắn ngày & Bàn giao việc",
+    "category": "Nhân sự & Nội bộ",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi chị Hương, tôi viết thư này để xin phép nghỉ hai ngày, vào thứ Năm ngày 15 và thứ Sáu ngày 16 tháng 5, để giải quyết việc gia đình. Tôi sẽ quay lại làm việc bình thường vào sáng thứ Hai tuần sau. Trước khi nghỉ, tôi sẽ hoàn tất toàn bộ báo cáo doanh số tuần này và gửi cho chị vào chiều thứ Tư. Trong hai ngày tôi vắng mặt, anh Tuấn đã đồng ý hỗ trợ theo dõi các email khẩn cấp từ khách hàng giúp tôi. Tôi vẫn sẽ kiểm tra tin nhắn điện thoại nếu có việc thật sự gấp cần xử lý.",
+    "instructions": "Dịch đoạn xin nghỉ phép trên sang email tiếng Anh trang trọng vừa phải gửi quản lý trực tiếp.",
+    "checklist": [
+      "Xin nghỉ 2 ngày cụ thể (Thứ Năm 15/5 & Thứ Sáu 16/5) vì lý do gia đình và báo ngày quay lại",
+      "Cam kết hoàn tất báo cáo doanh số tuần trước chiều thứ Tư",
+      "Thông báo người hỗ trợ bàn giao công việc (anh Tuấn xử lý email khách hàng khẩn)",
+      "Khẳng định vẫn có thể liên lạc qua điện thoại nếu có việc khẩn cấp"
+    ],
+    "vocabHints": [
+      { "phrase": "request two days of paid leave", "pos": "phrase", "meaningVi": "xin nghỉ phép hai ngày" },
+      { "phrase": "attend to personal family matters", "pos": "phrase", "meaningVi": "giải quyết việc gia đình" },
+      { "phrase": "return to the office on Monday", "pos": "phrase", "meaningVi": "quay lại văn phòng vào thứ Hai" },
+      { "phrase": "during my absence", "pos": "phrase", "meaningVi": "trong thời gian tôi vắng mặt" },
+      { "phrase": "cover urgent client emails", "pos": "phrase", "meaningVi": "hỗ trợ xử lý email khẩn từ khách hàng" },
+      { "phrase": "reachable by phone", "pos": "phrase", "meaningVi": "có thể liên lạc qua điện thoại" }
+    ],
+    "recommendedWords": { "min": 75, "max": 120 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b06",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Trải nghiệm mua sắm thiết bị tại cửa hàng công nghệ",
+    "category": "Đời sống & Dịch vụ",
+    "sourceLanguage": "vi",
+    "passage": "Cuối tuần trước, tôi đã ghé cửa hàng điện máy TechZone ở trung tâm thành phố để mua một chiếc bàn phím không dây mới. Dù cửa hàng rất đông khách vào chiều Chủ nhật, nhân viên bán hàng vẫn nhiệt tình chào đón và giúp tôi dùng thử ba mẫu khác nhau. Anh ấy giải thích rất rõ ràng về thời lượng pin cũng như chế độ bảo hành hai năm của từng sản phẩm. Nhờ được tư vấn kỹ lưỡng, tôi đã chọn được chiếc bàn phím vừa gõ êm tay vừa nằm gọn trong ngân sách dự kiến. Tôi rất hài lòng với chất lượng phục vụ ở đây và chắc chắn sẽ giới thiệu cửa hàng này cho đồng nghiệp.",
+    "instructions": "Dịch đoạn chia sẻ trải nghiệm sang tiếng Anh dùng thì Quá khứ đơn tự nhiên, tránh dịch từng chữ.",
+    "checklist": [
+      "Nêu thời gian, địa điểm (cuối tuần trước, TechZone trung tâm) và mục đích mua bàn phím không dây",
+      "Mô tả thái độ nhân viên bất chấp cửa hàng đông khách (chào đón nhiệt tình, cho thử 3 mẫu)",
+      "Đề cập thông tin được tư vấn (thời lượng pin, bảo hành 2 năm) và kết quả chọn đúng ngân sách",
+      "Thể hiện sự hài lòng và ý định giới thiệu cho đồng nghiệp"
+    ],
+    "vocabHints": [
+      { "phrase": "wireless keyboard", "pos": "n", "meaningVi": "bàn phím không dây" },
+      { "phrase": "even though the store was crowded", "pos": "phrase", "meaningVi": "dù cửa hàng rất đông khách" },
+      { "phrase": "battery life", "pos": "n", "meaningVi": "thời lượng pin" },
+      { "phrase": "two-year warranty", "pos": "n", "meaningVi": "bảo hành hai năm" },
+      { "phrase": "stay well within my budget", "pos": "phrase", "meaningVi": "nằm gọn trong ngân sách" },
+      { "phrase": "recommend the store to colleagues", "pos": "phrase", "meaningVi": "giới thiệu cửa hàng cho đồng nghiệp" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b07",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Thói quen tự học tiếng Anh mỗi sáng",
+    "category": "Học tập & Phát triển",
+    "sourceLanguage": "vi",
+    "passage": "Để chuẩn bị cho kỳ thi TOEIC vào tháng 10 tới, tôi đã xây dựng thói quen tự học tiếng Anh bốn mươi lăm phút mỗi sáng trước khi đi làm. Tôi bắt đầu bằng việc ôn lại hai mươi từ vựng cũ bằng thẻ ghi nhớ để tránh quên mặt chữ và cách phát âm. Sau đó, tôi luyện nghe một đoạn hội thoại ngắn và ghi chép lại những cụm từ thường gặp trong môi trường công sở. Vào hai ngày cuối tuần, tôi dành thêm thời gian làm một bài kiểm tra đọc hiểu nhỏ để rèn tốc độ làm bài. Nhờ duy trì đều đặn suốt hai tháng qua, tôi cảm thấy tự tin hơn nhiều khi đọc email và tài liệu tiếng Anh.",
+    "instructions": "Dịch đoạn văn về thói quen học tập sang tiếng Anh mạch lạc, chú ý dùng linh hoạt Hiện tại đơn và Hiện tại hoàn thành.",
+    "checklist": [
+      "Nêu mục tiêu (thi TOEIC tháng 10) và thói quen học 45 phút mỗi sáng",
+      "Trình bày 2 hoạt động sáng (ôn 20 từ bằng flashcard + luyện nghe hội thoại & ghi chép cụm từ công sở)",
+      "Nêu hoạt động cuối tuần (làm bài đọc ngắn rèn tốc độ)",
+      "Chỉ ra kết quả sau 2 tháng duy trì đều đặn (tự tin hơn khi đọc email & tài liệu)"
+    ],
+    "vocabHints": [
+      { "phrase": "build a daily study routine", "pos": "phrase", "meaningVi": "xây dựng thói quen học hàng ngày" },
+      { "phrase": "review vocabulary with flashcards", "pos": "phrase", "meaningVi": "ôn từ vựng bằng thẻ ghi nhớ" },
+      { "phrase": "take notes on useful workplace phrases", "pos": "phrase", "meaningVi": "ghi chép cụm từ công sở hữu ích" },
+      { "phrase": "improve reading speed", "pos": "phrase", "meaningVi": "cải thiện tốc độ đọc" },
+      { "phrase": "stick to the schedule consistently", "pos": "phrase", "meaningVi": "duy trì lịch học đều đặn" },
+      { "phrase": "feel much more confident", "pos": "phrase", "meaningVi": "cảm thấy tự tin hơn nhiều" }
+    ],
+    "recommendedWords": { "min": 80, "max": 130 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b08",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Xác nhận lịch giao hàng & Cảm ơn khách hàng",
+    "category": "Chăm sóc khách hàng",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi anh Nam, cảm ơn anh đã đặt mua bộ bàn ghế phòng họp tại Nội thất An Phát vào sáng nay. Chúng tôi xin xác nhận đã nhận đủ khoản thanh toán và đội kho đang đóng gói cẩn thận toàn bộ sản phẩm cho đơn hàng của anh. Nhân viên kỹ thuật của chúng tôi sẽ giao hàng và lắp đặt miễn phí tại văn phòng anh vào sáng thứ Sáu, từ 9 giờ đến 11 giờ. Trước khi xe khởi hành ba mươi phút, tài xế sẽ gọi điện thông báo để bộ phận lễ tân tiện đón tiếp. Nếu anh cần thay đổi khung giờ giao hàng, xin vui lòng phản hồi lại email này trước 4 giờ chiều ngày mai.",
+    "instructions": "Dịch sang một email xác nhận giao hàng tiếng Anh chuyên nghiệp, lịch sự và chính xác thời gian.",
+    "checklist": [
+      "Cảm ơn đơn hàng bàn ghế phòng họp và xác nhận đã nhận đủ thanh toán",
+      "Thông báo lịch giao & lắp đặt miễn phí (sáng thứ Sáu, 9:00–11:00)",
+      "Nêu quy trình tài xế gọi trước 30 phút để lễ tân đón tiếp",
+      "Hướng dẫn phản hồi trước 4 giờ chiều mai nếu cần đổi giờ giao"
+    ],
+    "vocabHints": [
+      { "phrase": "confirm receipt of full payment", "pos": "phrase", "meaningVi": "xác nhận đã nhận đủ thanh toán" },
+      { "phrase": "free delivery and on-site assembly", "pos": "phrase", "meaningVi": "giao hàng và lắp đặt miễn phí tận nơi" },
+      { "phrase": "thirty minutes prior to departure", "pos": "phrase", "meaningVi": "30 phút trước khi khởi hành" },
+      { "phrase": "front-desk staff", "pos": "n", "meaningVi": "bộ phận lễ tân" },
+      { "phrase": "reschedule the delivery window", "pos": "phrase", "meaningVi": "đổi khung giờ giao hàng" },
+      { "phrase": "reply to this email", "pos": "phrase", "meaningVi": "phản hồi lại email này" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b09",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Mời đồng nghiệp ăn trưa chào mừng thành viên mới",
+    "category": "Văn hóa doanh nghiệp",
+    "sourceLanguage": "vi",
+    "passage": "Chào cả phòng, để chào mừng bạn Linh vừa gia nhập nhóm Thiết kế tuần này, chúng ta sẽ tổ chức một bữa trưa thân mật vào thứ Sáu lúc 12 giờ. Tôi đã đặt một bàn lớn cho mười người tại nhà hàng món Ý nằm ngay đối diện tòa nhà văn phòng. Bữa ăn này sẽ là dịp tuyệt vời để mọi người trò chuyện thoải mái và giúp Linh làm quen nhanh hơn với các thành viên trong nhóm. Công ty sẽ hỗ trợ một phần chi phí cho bữa trưa chào mừng này. Mọi người vui lòng xác nhận tham dự trước trưa thứ Năm và báo nếu có yêu cầu ăn chay nhé.",
+    "instructions": "Dịch lời mời ăn trưa sang email tiếng Anh gần gũi, thân thiện nhưng vẫn rõ ràng thông tin thời gian và địa điểm.",
+    "checklist": [
+      "Nêu mục đích (chào mừng Linh vào nhóm Thiết kế) và thời gian (12:00 trưa thứ Sáu)",
+      "Nêu địa điểm (nhà hàng Ý đối diện tòa nhà, bàn 10 người)",
+      "Đề cập ý nghĩa gắn kết và việc công ty hỗ trợ một phần chi phí",
+      "Nhờ xác nhận tham dự và báo yêu cầu ăn chay trước trưa thứ Năm"
+    ],
+    "vocabHints": [
+      { "phrase": "welcome a new team member", "pos": "phrase", "meaningVi": "chào mừng thành viên mới" },
+      { "phrase": "casual team lunch", "pos": "n", "meaningVi": "bữa trưa thân mật của nhóm" },
+      { "phrase": "directly across from our office building", "pos": "phrase", "meaningVi": "ngay đối diện tòa nhà văn phòng" },
+      { "phrase": "get to know everyone better", "pos": "phrase", "meaningVi": "làm quen mọi người nhanh hơn" },
+      { "phrase": "partially cover the cost", "pos": "phrase", "meaningVi": "hỗ trợ một phần chi phí" },
+      { "phrase": "vegetarian options / dietary requirements", "pos": "n", "meaningVi": "món chay / yêu cầu ăn kiêng" }
+    ],
+    "recommendedWords": { "min": 75, "max": 120 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-tr-b10",
+    "mode": "translation",
+    "difficulty": "Cơ bản",
+    "title": "Hướng dẫn ngày đầu cho nhân viên mới",
+    "category": "Đào tạo & Hội nhập",
+    "sourceLanguage": "vi",
+    "passage": "Chào mừng bạn đến với Công ty Công nghệ Ánh Dương vào thứ Hai tuần tới. Khi đến tòa nhà lúc 8 giờ 30 sáng, vui lòng xuất trình căn cước công dân tại quầy lễ tân tầng một để nhận thẻ nhân viên tạm thời. Sau đó, đại diện phòng Nhân sự sẽ đón bạn lên tầng năm để hoàn tất hồ sơ và bàn giao máy tính xách tay công ty. Trong buổi sáng, bạn sẽ tham dự buổi giới thiệu ngắn về nội quy văn phòng và các phần mềm làm việc nội bộ. Đừng quên mang theo sổ tay cá nhân nếu bạn muốn ghi chú lại những thông tin quan trọng nhé.",
+    "instructions": "Dịch thông báo chào đón nhân viên mới sang tiếng Anh rõ ràng, dùng câu mệnh lệnh lịch sự chuẩn công sở.",
+    "checklist": [
+      "Chào mừng đến công ty thứ Hai tới lúc 8:30 sáng",
+      "Hướng dẫn xuất trình CCCD tại lễ tân tầng 1 nhận thẻ tạm thời",
+      "Thông báo phòng Nhân sự đón lên tầng 5 làm hồ sơ và nhận laptop",
+      "Đề cập buổi giới thiệu nội quy & phần mềm nội bộ buổi sáng cùng lời nhắc mang sổ tay"
+    ],
+    "vocabHints": [
+      { "phrase": "present your photo ID", "pos": "phrase", "meaningVi": "xuất trình giấy tờ tùy thân có ảnh" },
+      { "phrase": "temporary employee badge", "pos": "n", "meaningVi": "thẻ nhân viên tạm thời" },
+      { "phrase": "HR representative", "pos": "n", "meaningVi": "đại diện phòng Nhân sự" },
+      { "phrase": "complete onboarding paperwork", "pos": "phrase", "meaningVi": "hoàn tất hồ sơ nhận việc" },
+      { "phrase": "company-issued laptop", "pos": "n", "meaningVi": "máy tính xách tay công ty cấp" },
+      { "phrase": "brief orientation session", "pos": "n", "meaningVi": "buổi định hướng ngắn" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 10
+  }
+]

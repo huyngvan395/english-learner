@@ -1,0 +1,515 @@
+{
+  "id": "drill-p7-skills",
+  "part": 7,
+  "title": "Chuyên đề Suy luận, NOT/TRUE, Vocab & Điền câu [1-4]",
+  "subtitle": "Luyện riêng các dạng câu hỏi phân loại 850–990 điểm trong Part 7.",
+  "focusTag": "Inference & Skills",
+  "part7": [
+    {
+      "id": "dp7-sk-1",
+      "title": "Kỹ năng Suy luận (Inference), NOT/TRUE & Vocab in Context — Bài báo thương mại",
+      "passageCountType": "single",
+      "topic": "Kỹ năng nâng cao: Inference, NOT/TRUE & Vocab",
+      "passages": [
+        {
+          "id": "dp7-sk-1-d1",
+          "tabLabel": "Bài báo phân tích",
+          "genre": "Article",
+          "title": "Why Regional Supermarkets Are Adding Micro-Fulfillment Centers",
+          "paragraphs": [
+            {
+              "id": "dp7-sk-1-p1",
+              "sentences": [
+                {
+                  "id": "dp7-sk-1-s1",
+                  "en": "Faced with rising urban delivery costs, three mid-sized grocery chains in Ohio have converted unused back-room storage into automated micro-fulfillment centers.",
+                  "vi": "Đối mặt chi phí giao hàng đô thị tăng cao, ba chuỗi siêu thị cỡ vừa tại Ohio đã cải tạo kho sau không dùng thành các trung tâm xử lý đơn vi mô tự động."
+                },
+                {
+                  "id": "dp7-sk-1-s2",
+                  "en": "Compact robotic shuttles pick dry goods in under four minutes, leaving store staff free to hand-select fresh produce and bakery items.",
+                  "vi": "Các xe robot nhỏ gọn lấy hàng khô dưới bốn phút, giúp nhân viên cửa hàng rảnh tay tự chọn nông sản tươi và đồ nướng."
+                }
+              ]
+            },
+            {
+              "id": "dp7-sk-1-p2",
+              "sentences": [
+                {
+                  "id": "dp7-sk-1-s3",
+                  "en": "Industry analyst Dr. Karen Cho notes that although initial robotics installation carries a hefty price tag, participating grocers typically recover their investment within twenty months through lower courier mileage.",
+                  "vi": "Chuyên gia phân tích ngành Tiến sĩ Karen Cho nhận định rằng dù lắp đặt robot ban đầu tốn chi phí lớn, các siêu thị tham gia thường hoàn vốn trong 20 tháng nhờ giảm quãng đường giao hàng."
+                },
+                {
+                  "id": "dp7-sk-1-s4",
+                  "en": "Shoppers benefit as well: curbside pickup windows have shortened from three hours to just thirty minutes.",
+                  "vi": "Người mua cũng hưởng lợi: khung chờ nhận hàng tại lề đường rút ngắn từ ba giờ xuống chỉ còn ba mươi phút."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-sk-1-q1",
+          "questionNumber": 1,
+          "questionType": "Từ đồng nghĩa (Vocab in Context)",
+          "prompt": "In paragraph 2, the word 'hefty' is closest in meaning to:",
+          "options": {
+            "A": "substantial",
+            "B": "temporary",
+            "C": "unfair",
+            "D": "secret"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Vocab in Context — Đoán nghĩa qua mệnh đề nhượng bộ 'although'",
+              "signal": "Mệnh đề 'although initial robotics installation carries a hefty price tag, grocers recover their investment...' -> 'hefty price tag' = chi phí lớn/đáng kể = substantial!"
+            },
+            "translation": {
+              "questionVi": "Từ 'hefty' gần nghĩa nhất với:",
+              "optionsVi": {
+                "A": "đáng kể, lớn",
+                "B": "tạm thời",
+                "C": "bất công",
+                "D": "bí mật"
+              }
+            },
+            "proof": {
+              "explanation": "Cụm 'a hefty price tag' tương đương 'a substantial cost'.",
+              "evidenceQuote": "carries a hefty price tag",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-1-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: hefty = substantial / large.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Dùng từ nối 'although' để suy luận sắc thái nghĩa của từ lạ",
+              "commonTrap": "Đoán mò mà không xem cụm danh từ 'price tag'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-1-q2",
+          "questionNumber": 2,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "What can be inferred about fresh vegetables and baked goods?",
+          "options": {
+            "A": "They are no longer sold online.",
+            "B": "They are still chosen by human employees rather than robots.",
+            "C": "They require three hours to pack.",
+            "D": "They cost more than dry goods."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Suy luận trực tiếp từ câu s2",
+              "signal": "Câu s2: robot lấy hàng khô, còn nhân viên ('store staff') tự tay chọn ('hand-select') nông sản tươi và đồ nướng!"
+            },
+            "translation": {
+              "questionVi": "Suy luận về rau tươi và đồ nướng?",
+              "optionsVi": {
+                "A": "Không bán online nữa",
+                "B": "Vẫn do nhân viên con người chọn chứ không phải robot",
+                "C": "Mất 3 giờ đóng gói",
+                "D": "Đắt hơn hàng khô"
+              }
+            },
+            "proof": {
+              "explanation": "'hand-select' = chọn bằng tay bởi con người.",
+              "evidenceQuote": "leaving store staff free to hand-select fresh produce and bakery items",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Chú ý từ khóa 'hand-select' đối lập với 'robotic shuttles'",
+              "commonTrap": "Tưởng robot lấy toàn bộ mọi loại hàng.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-1-q3",
+          "questionNumber": 3,
+          "questionType": "Loại trừ (NOT/TRUE)",
+          "prompt": "Which statement is NOT supported by the article?",
+          "options": {
+            "A": "Micro-fulfillment centers use existing back-room space.",
+            "B": "Grocers generally recoup setup costs in under two years.",
+            "C": "Curbside wait times dropped to thirty minutes.",
+            "D": "All grocery chains in Ohio have adopted the robots."
+          },
+          "correctAnswer": "D",
+          "explanation": {
+            "classification": {
+              "category": "Câu hỏi Loại trừ (NOT) — Bẫy từ cực đoan 'All'",
+              "signal": "Bài chỉ nói 'three mid-sized grocery chains in Ohio', KHÔNG phải 'All grocery chains'!"
+            },
+            "translation": {
+              "questionVi": "Câu nào SAI/KHÔNG có trong bài?",
+              "optionsVi": {
+                "A": "Dùng kho sau có sẵn (Đúng s1)",
+                "B": "Hoàn vốn dưới 2 năm = 20 tháng (Đúng s3)",
+                "C": "Thời gian chờ còn 30 phút (Đúng s4)",
+                "D": "TẤT CẢ chuỗi siêu thị Ohio đã áp dụng (SAI!)"
+              }
+            },
+            "proof": {
+              "explanation": "Bài chỉ nhắc 3 chuỗi cỡ vừa ('three mid-sized chains'), không phải toàn bộ ('All').",
+              "evidenceQuote": "three mid-sized grocery chains in Ohio have converted unused back-room storage",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Có trong s1.",
+              "B": "Có trong s3 (20 months < 2 years).",
+              "C": "Có trong s4.",
+              "D": "Đúng: Bẫy tuyệt đối hóa 'All'."
+            },
+            "keyTakeaways": {
+              "formula": "Luôn cảnh giác đáp án chứa 'All / Only / Never / Always' trong câu NOT!",
+              "commonTrap": "Bỏ sót '20 months' = dưới 2 năm nên tưởng (B) sai.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-1-q4",
+          "questionNumber": 4,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "Why do participating grocers save money over time?",
+          "options": {
+            "A": "They pay less in delivery driving distances.",
+            "B": "They closed half their physical stores.",
+            "C": "They charge shoppers an extra pickup fee.",
+            "D": "They receive state electricity rebates."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Paraphrase 'lower courier mileage' -> 'less in delivery driving distances'",
+              "signal": "Câu s3: 'through lower courier mileage'."
+            },
+            "translation": {
+              "questionVi": "Tiết kiệm tiền nhờ đâu?",
+              "optionsVi": {
+                "A": "Giảm quãng đường chạy xe giao hàng",
+                "B": "Đóng nửa số cửa hàng",
+                "C": "Thu thêm phí nhận hàng",
+                "D": "Nhận hoàn tiền điện"
+              }
+            },
+            "proof": {
+              "explanation": "courier mileage = delivery driving distances.",
+              "evidenceQuote": "through lower courier mileage",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-1-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Paraphrase 'mileage' = 'driving distances'",
+              "commonTrap": "Không hiểu nghĩa từ 'mileage'.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp7-sk-2",
+      "title": "Kỹ năng Điền câu [1][2][3][4], Inference & Vocab — Email chính sách hoàn trả",
+      "passageCountType": "single",
+      "topic": "Kỹ năng nâng cao: Điền câu [1][2][3][4] & Suy luận",
+      "passages": [
+        {
+          "id": "dp7-sk-2-d1",
+          "tabLabel": "Email chính sách",
+          "genre": "Email",
+          "title": "Updated Corporate Travel Policy",
+          "headerMeta": [
+            {
+              "label": "From",
+              "value": "Finance Department"
+            },
+            {
+              "label": "To",
+              "value": "All Traveling Staff"
+            }
+          ],
+          "paragraphs": [
+            {
+              "id": "dp7-sk-2-p1",
+              "sentences": [
+                {
+                  "id": "dp7-sk-2-s1",
+                  "en": "Starting June 1, employees booking domestic business flights must use the OrbitTravel corporate portal at least ten days before departure. [1]",
+                  "vi": "Từ ngày 1/6, nhân viên đặt vé máy bay công tác nội địa phải dùng cổng doanh nghiệp OrbitTravel ít nhất 10 ngày trước khi khởi hành. [1]"
+                },
+                {
+                  "id": "dp7-sk-2-s2",
+                  "en": "Bookings made outside the portal will require written justification from a department vice president before reimbursement is issued. [2]",
+                  "vi": "Các đặt vé thực hiện ngoài cổng sẽ cần giải trình bằng văn bản từ phó chủ tịch phòng ban trước khi được hoàn phí. [2]"
+                },
+                {
+                  "id": "dp7-sk-2-s3",
+                  "en": "In addition, the daily meal allowance for high-cost metropolitan areas has been raised from $65 to $80. [3]",
+                  "vi": "Thêm vào đó, phụ cấp ăn uống hàng ngày tại các đô thị đắt đỏ đã được nâng từ 65 đô lên 80 đô. [3]"
+                },
+                {
+                  "id": "dp7-sk-2-s4",
+                  "en": "Itemized restaurant receipts—rather than summary credit-card slips—must be uploaded within seven days of returning home. [4]",
+                  "vi": "Hóa đơn nhà hàng chi tiết từng món—chứ không phải biên lai thẻ tín dụng tổng—phải được tải lên trong vòng 7 ngày sau khi trở về. [4]"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-sk-2-q1",
+          "questionNumber": 5,
+          "questionType": "Điền câu [1][2][3][4]",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? 'This advance window helps the company secure significantly lower airfares.'",
+          "options": {
+            "A": "[1]",
+            "B": "[2]",
+            "C": "[3]",
+            "D": "[4]"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu [1][2][3][4] — Tìm cụm từ quy chiếu 'This advance window'",
+              "signal": "Cụm 'This advance window' quy chiếu TRỰC TIẾP về 'at least ten days before departure' ở câu ngay trước vị trí [1]!"
+            },
+            "translation": {
+              "questionVi": "Đặt câu vào vị trí nào?",
+              "optionsVi": {
+                "A": "Vị trí [1]",
+                "B": "Vị trí [2]",
+                "C": "Vị trí [3]",
+                "D": "Vị trí [4]"
+              }
+            },
+            "proof": {
+              "explanation": "Câu trước [1] nói đặt vé 'at least ten days before departure' -> 'This advance window' + 'lower airfares' nối khít 100% tại [1]!",
+              "evidenceQuote": "at least ten days before departure. [1]",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'This advance window' = 'at least ten days before departure'.",
+              "B": "Sai: Câu trước [2] nói về giải trình phó chủ tịch.",
+              "C": "Sai: Câu trước [3] nói về phụ cấp ăn uống.",
+              "D": "Sai: Câu trước [4] nói về hóa đơn nhà hàng."
+            },
+            "keyTakeaways": {
+              "formula": "Bí kíp 990 cho dạng [1][2][3][4]: Luôn khoanh tròn từ quy chiếu (This / That / Such / These) trong câu đề!",
+              "commonTrap": "Chỉ dịch ý chung chung mà không soi từ quy chiếu 'This advance window'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-2-q2",
+          "questionNumber": 6,
+          "questionType": "Từ đồng nghĩa (Vocab in Context)",
+          "prompt": "The word 'issued' in sentence 2 is closest in meaning to:",
+          "options": {
+            "A": "debated",
+            "B": "paid out",
+            "C": "canceled",
+            "D": "printed"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Vocab in Context ('reimbursement is issued')",
+              "signal": "Hoàn trả chi phí được 'chi trả' -> 'paid out'."
+            },
+            "translation": {
+              "questionVi": "Từ 'issued' gần nghĩa nhất với:",
+              "optionsVi": {
+                "A": "tranh luận",
+                "B": "chi trả, thanh toán",
+                "C": "hủy bỏ",
+                "D": "in ấn"
+              }
+            },
+            "proof": {
+              "explanation": "'before reimbursement is issued' = trước khi tiền hoàn phí được chi trả.",
+              "evidenceQuote": "before reimbursement is issued",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-2-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Đoán nghĩa động từ qua chủ ngữ 'reimbursement' (khoản hoàn tiền)",
+              "commonTrap": "Nhầm sang 'printed'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-2-q3",
+          "questionNumber": 7,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "What happens if an employee uploads only a credit-card summary slip for a client dinner?",
+          "options": {
+            "A": "They receive an extra $15.",
+            "B": "The meal receipt does not meet Finance requirements.",
+            "C": "OrbitTravel automatically approves it.",
+            "D": "The vice president pays in cash."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Suy luận từ quy định câu s4",
+              "signal": "Câu s4 yêu cầu 'Itemized restaurant receipts—rather than summary credit-card slips'."
+            },
+            "translation": {
+              "questionVi": "Nếu chỉ nộp biên lai tổng thẻ tín dụng thì sao?",
+              "optionsVi": {
+                "A": "Được thưởng 15 đô",
+                "B": "Không đáp ứng quy định của phòng Tài chính",
+                "C": "OrbitTravel tự duyệt",
+                "D": "Phó chủ tịch trả tiền mặt"
+              }
+            },
+            "proof": {
+              "explanation": "Phòng Tài chính bắt buộc hóa đơn liệt kê từng món, không chấp nhận biên lai tổng.",
+              "evidenceQuote": "Itemized restaurant receipts—rather than summary credit-card slips—must be uploaded",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-2-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Chú ý cụm loại trừ 'rather than'",
+              "commonTrap": "Không biết từ 'itemized' (liệt kê chi tiết từng mục).",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-2-q4",
+          "questionNumber": 8,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "By how much did the daily meal allowance for expensive cities increase?",
+          "options": {
+            "A": "$10",
+            "B": "$15",
+            "C": "$20",
+            "D": "$25"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Tính toán trừ đơn giản ($80 - $65 = $15)",
+              "signal": "Câu s3: 'raised from $65 to $80' -> tăng thêm $15!"
+            },
+            "translation": {
+              "questionVi": "Tăng thêm bao nhiêu?",
+              "optionsVi": {
+                "A": "$10",
+                "B": "$15",
+                "C": "$20",
+                "D": "$25"
+              }
+            },
+            "proof": {
+              "explanation": "$80 - $65 = $15.",
+              "evidenceQuote": "raised from $65 to $80",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-2-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: $80 - $65 = $15.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Cẩn thận câu hỏi 'By how much' (tăng bao nhiêu) khác 'To how much' (tăng tới mức nào)",
+              "commonTrap": "Trừ nhầm số.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sk-2-q5",
+          "questionNumber": 9,
+          "questionType": "Loại trừ (NOT/TRUE)",
+          "prompt": "Which of the following is TRUE according to the email?",
+          "options": {
+            "A": "International flights must be booked 30 days ahead.",
+            "B": "Booking outside OrbitTravel requires VP approval in writing.",
+            "C": "Meal receipts may be uploaded up to a month later.",
+            "D": "The new policy starts July 1."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Câu hỏi TRUE (Đối chiếu từng câu)",
+              "signal": "Câu s2: 'require written justification from a department vice president' = VP approval in writing!"
+            },
+            "translation": {
+              "questionVi": "Điều nào ĐÚNG?",
+              "optionsVi": {
+                "A": "Sai: Chỉ nói nội địa 10 ngày.",
+                "B": "Đúng: Đặt ngoài cổng cần giải trình bằng văn bản của Phó chủ tịch.",
+                "C": "Sai: Trong vòng 7 ngày.",
+                "D": "Sai: Bắt đầu 1/6."
+              }
+            },
+            "proof": {
+              "explanation": "Khớp trực tiếp câu s2.",
+              "evidenceQuote": "require written justification from a department vice president",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sk-2-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Kiểm tra chính xác từng con số & đối tượng",
+              "commonTrap": "Nhầm June 1 thành July 1.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

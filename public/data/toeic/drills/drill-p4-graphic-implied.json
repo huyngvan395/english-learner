@@ -1,0 +1,459 @@
+{
+  "id": "drill-p4-graphic-implied",
+  "part": 4,
+  "title": "Bài nói có Bảng biểu & Hàm ý người nói",
+  "subtitle": "Kết hợp bảng điều phối xe lạnh & bảng doanh số quý với câu hỏi ẩn ý.",
+  "focusTag": "Graphic & Implied",
+  "part4": [
+    {
+      "id": "dp4-gi-1",
+      "part": 4,
+      "title": "Báo cáo giao hàng nội bộ kèm bảng lịch trình xe tải (Graphic + Implied)",
+      "talkType": "Phát biểu cuộc họp (Meeting)",
+      "hasGraphic": true,
+      "transcript": [
+        {
+          "id": "dp4-gi-1-l1",
+          "speaker": "Supervisor",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Morning, dispatch team. Our refrigerated truck serving the coastal grocery chain is still waiting on a new thermostat valve at the repair shop.",
+          "vi": "Chào buổi sáng đội điều phối. Xe tải lạnh phục vụ chuỗi siêu thị ven biển vẫn đang chờ van điều nhiệt mới ở xưởng sửa chữa.",
+          "evidenceForQuestionIds": [
+            "dp4-gi-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 9456
+        },
+        {
+          "id": "dp4-gi-1-l2",
+          "speaker": "Supervisor",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "We'll have to assign our backup cold-chain van to cover that coastal route—the one departing earliest on the morning board.",
+          "vi": "Ta sẽ phải điều xe tải lạnh dự phòng chạy tuyến ven biển đó—tuyến khởi hành sớm nhất trên bảng lịch buổi sáng.",
+          "evidenceForQuestionIds": [
+            "dp4-gi-1-q2"
+          ],
+          "startMs": 9836,
+          "endMs": 16484
+        },
+        {
+          "id": "dp4-gi-1-l3",
+          "speaker": "Supervisor",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "I know everyone already has packed schedules, so any driver who picks up an extra leg today will earn double overtime pay.",
+          "vi": "Tôi biết lịch ai cũng dày đặc rồi, nên bất kỳ tài xế nào nhận thêm chặng hôm nay sẽ được hưởng lương làm thêm giờ gấp đôi.",
+          "evidenceForQuestionIds": [
+            "dp4-gi-1-q3"
+          ],
+          "startMs": 16864,
+          "endMs": 23944
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-gi-1-q1",
+          "questionNumber": 1,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Why is a backup van needed today?",
+          "promptVi": "Tại sao hôm nay cần xe tải dự phòng?",
+          "options": {
+            "A": {
+              "en": "A regular truck is being repaired.",
+              "vi": "Một chiếc xe tải thường ngày đang được sửa chữa."
+            },
+            "B": {
+              "en": "Fuel prices rose suddenly.",
+              "vi": "Giá nhiên liệu tăng đột ngột."
+            },
+            "C": {
+              "en": "Two drivers called in sick.",
+              "vi": "Hai tài xế báo ốm."
+            },
+            "D": {
+              "en": "Order volume tripled.",
+              "vi": "Lượng đơn tăng gấp ba."
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu 1: 'waiting on a new thermostat valve at the repair shop'",
+            "trapAnalysis": "Xe thường ngày đang nằm xưởng chờ linh kiện.",
+            "paraphrases": [
+              {
+                "audioPhrase": "at the repair shop",
+                "answerPhrase": "being repaired",
+                "meaningVi": "đang sửa chữa"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-gi-1-q2",
+          "questionNumber": 2,
+          "questionType": "Câu hỏi bảng biểu (Graphic)",
+          "prompt": "Look at the graphic. Which route will the backup van cover?",
+          "promptVi": "Nhìn vào bảng biểu. Xe tải dự phòng sẽ chạy tuyến nào?",
+          "options": {
+            "A": {
+              "en": "Route 101 — Harbor Market",
+              "vi": "Tuyến 101 — Chợ Cảng"
+            },
+            "B": {
+              "en": "Route 204 — Valley Farms",
+              "vi": "Tuyến 204 — Trang trại Thung lũng"
+            },
+            "C": {
+              "en": "Route 310 — Midtown Grocers",
+              "vi": "Tuyến 310 — Siêu thị Trung tâm"
+            },
+            "D": {
+              "en": "Route 415 — Summit Hotels",
+              "vi": "Tuyến 415 — Khách sạn Đỉnh đồi"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Đối chiếu manh mối 'departing earliest on the morning board'",
+            "trapAnalysis": "Giờ sớm nhất trên bảng là 5:30 A.M. -> Route 101 (Harbor Market)!",
+            "paraphrases": [
+              {
+                "audioPhrase": "departing earliest",
+                "answerPhrase": "Route 101 (5:30 A.M.)",
+                "meaningVi": "tuyến chạy sớm nhất"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng: 5:30 A.M. sớm nhất và là khu vực cảng ven biển.",
+              "B": "Sai: 6:15.",
+              "C": "Sai: 7:00.",
+              "D": "Sai: 8:30."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-gi-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hàm ý người nói (Implied Meaning)",
+          "prompt": "What incentive is offered to drivers who take an extra delivery leg?",
+          "promptVi": "Chế độ khuyến khích nào dành cho tài xế nhận thêm chặng?",
+          "options": {
+            "A": {
+              "en": "An extra paid vacation day",
+              "vi": "Thêm một ngày nghỉ phép có lương"
+            },
+            "B": {
+              "en": "Double overtime pay",
+              "vi": "Lương làm thêm giờ gấp đôi"
+            },
+            "C": {
+              "en": "A newer company vehicle",
+              "vi": "Xe công ty đời mới hơn"
+            },
+            "D": {
+              "en": "Free highway tolls",
+              "vi": "Miễn phí cầu đường"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu cuối: 'earn double overtime pay'",
+            "trapAnalysis": "Lương tăng ca gấp đôi để khích lệ tài xế nhận chặng thêm.",
+            "paraphrases": [
+              {
+                "audioPhrase": "double overtime pay",
+                "answerPhrase": "twice the normal overtime rate",
+                "meaningVi": "lương tăng ca gấp đôi"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-gi-1-v1",
+          "word": "dispatch",
+          "pos": "n",
+          "ipaUK": "/dɪˈspætʃ/",
+          "ipaUS": "/dɪˈspætʃ/",
+          "meaning": "bộ phận điều phối vận tải",
+          "exampleEn": "Drivers must notify dispatch immediately of road closures.",
+          "exampleVi": "Tài xế phải báo bộ phận điều phối ngay khi có đường cấm."
+        }
+      ],
+      "graphic": {
+        "title": "Morning Cold-Chain Dispatch Board",
+        "headers": [
+          "Route",
+          "Destination",
+          "Departure"
+        ],
+        "rows": [
+          [
+            "Route 101",
+            "Harbor Market",
+            "5:30 A.M."
+          ],
+          [
+            "Route 204",
+            "Valley Farms",
+            "6:15 A.M."
+          ],
+          [
+            "Route 310",
+            "Midtown Grocers",
+            "7:00 A.M."
+          ],
+          [
+            "Route 415",
+            "Summit Hotels",
+            "8:30 A.M."
+          ]
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp4-gi-1.mp3"
+    },
+    {
+      "id": "dp4-gi-2",
+      "part": 4,
+      "title": "Hàm ý trong thông báo họp đánh giá doanh số quý (Graphic + Implied)",
+      "talkType": "Phát biểu cuộc họp (Meeting)",
+      "hasGraphic": true,
+      "transcript": [
+        {
+          "id": "dp4-gi-2-l1",
+          "speaker": "Director",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Let's review our Q4 product-line sales chart on the screen. Overall revenue rose twelve percent—congratulations to all four product teams!",
+          "vi": "Hãy xem biểu đồ doanh số dòng sản phẩm quý 4 trên màn hình. Tổng doanh thu tăng mười hai phần trăm—chúc mừng cả bốn đội sản phẩm!",
+          "evidenceForQuestionIds": [
+            "dp4-gi-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 9984
+        },
+        {
+          "id": "dp4-gi-2-l2",
+          "speaker": "Director",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Looking closely, one category actually slipped below target even though we poured $40,000 into television ads for it.",
+          "vi": "Nhìn kỹ thì có một danh mục thực tế lại tụt dưới chỉ tiêu dù ta đã rót tới 40.000 đô la vào quảng cáo truyền hình cho nó.",
+          "evidenceForQuestionIds": [
+            "dp4-gi-2-q2"
+          ],
+          "startMs": 10364,
+          "endMs": 18188
+        },
+        {
+          "id": "dp4-gi-2-l3",
+          "speaker": "Director",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Wait—our target buyers for that item are college students who barely own television sets! Next quarter let's shift that ad spend to short social-media videos instead.",
+          "vi": "Khoan đã—khách hàng mục tiêu của món đó là sinh viên đại học vốn hầu như không có TV! Quý tới hãy chuyển ngân sách quảng cáo đó sang video ngắn mạng xã hội nhé.",
+          "evidenceForQuestionIds": [
+            "dp4-gi-2-q3"
+          ],
+          "startMs": 18568,
+          "endMs": 29176
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-gi-2-q1",
+          "questionNumber": 4,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "How did overall fourth-quarter revenue perform?",
+          "promptVi": "Tổng doanh thu quý 4 diễn biến ra sao?",
+          "options": {
+            "A": {
+              "en": "It grew by twelve percent.",
+              "vi": "Tăng trưởng mười hai phần trăm."
+            },
+            "B": {
+              "en": "It stayed flat.",
+              "vi": "Giữ nguyên không đổi."
+            },
+            "C": {
+              "en": "It dropped by five percent.",
+              "vi": "Giảm năm phần trăm."
+            },
+            "D": {
+              "en": "It missed every target.",
+              "vi": "Không đạt chỉ tiêu nào."
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'Overall revenue rose twelve percent'",
+            "trapAnalysis": "rose = grew.",
+            "paraphrases": [
+              {
+                "audioPhrase": "rose twelve percent",
+                "answerPhrase": "grew by 12%",
+                "meaningVi": "tăng 12%"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-gi-2-q2",
+          "questionNumber": 5,
+          "questionType": "Câu hỏi bảng biểu (Graphic)",
+          "prompt": "Look at the graphic. Which product line missed its Q4 target?",
+          "promptVi": "Nhìn vào bảng biểu. Dòng sản phẩm nào không đạt chỉ tiêu quý 4?",
+          "options": {
+            "A": {
+              "en": "Wireless Earbuds",
+              "vi": "Tai nghe không dây"
+            },
+            "B": {
+              "en": "Smart Desk Lamps",
+              "vi": "Đèn bàn thông minh"
+            },
+            "C": {
+              "en": "Portable Chargers",
+              "vi": "Sạc dự phòng di động"
+            },
+            "D": {
+              "en": "Laptop Stands",
+              "vi": "Giá đỡ laptop"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "So sánh cột Target vs Actual trên bảng doanh số",
+            "trapAnalysis": "Earbuds ($240k > $220k), Lamps ($165k > $150k), Chargers ($112k < $140k -> DƯỚI CHỈ TIÊU!), Stands ($98k > $90k).",
+            "paraphrases": [
+              {
+                "audioPhrase": "slipped below target",
+                "answerPhrase": "Portable Chargers ($112k vs $140k)",
+                "meaningVi": "tụt dưới chỉ tiêu"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai: Vượt chỉ tiêu.",
+              "B": "Sai: Vượt chỉ tiêu.",
+              "C": "Đúng: Đạt $112k thấp hơn chỉ tiêu $140k.",
+              "D": "Sai: Vượt chỉ tiêu."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-gi-2-q3",
+          "questionNumber": 6,
+          "questionType": "Hàm ý người nói (Implied Meaning)",
+          "prompt": "What does the speaker imply by saying, 'college students barely own television sets'?",
+          "promptVi": "Người nói hàm ý gì khi bảo 'sinh viên đại học hầu như không có TV'?",
+          "options": {
+            "A": {
+              "en": "Television ads reached the wrong audience.",
+              "vi": "Quảng cáo truyền hình đã nhắm sai kênh tiếp cận khách hàng."
+            },
+            "B": {
+              "en": "The company should sell televisions.",
+              "vi": "Công ty nên bán TV."
+            },
+            "C": {
+              "en": "Student discounts should end.",
+              "vi": "Nên dừng giảm giá sinh viên."
+            },
+            "D": {
+              "en": "Ad budgets should be cut to zero.",
+              "vi": "Nên cắt ngân sách quảng cáo về 0."
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Dạng câu hỏi Hàm ý người nói (Implied Meaning)",
+            "trapAnalysis": "Hàm ý chỉ ra sai lầm kênh quảng cáo TV -> câu sau chốt chuyển sang video mạng xã hội!",
+            "paraphrases": [
+              {
+                "audioPhrase": "barely own television sets",
+                "answerPhrase": "TV ads reached the wrong channel",
+                "meaningVi": "quảng cáo TV sai kênh"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-gi-2-v1",
+          "word": "ad spend",
+          "pos": "phrase",
+          "ipaUK": "/æd spend/",
+          "ipaUS": "/æd spend/",
+          "meaning": "ngân sách chi tiêu quảng cáo",
+          "exampleEn": "We shifted 30% of our ad spend toward mobile search.",
+          "exampleVi": "Ta đã chuyển 30% ngân sách quảng cáo sang tìm kiếm di động."
+        }
+      ],
+      "graphic": {
+        "title": "Q4 Product-Line Revenue vs. Target",
+        "headers": [
+          "Product Line",
+          "Q4 Target",
+          "Q4 Actual"
+        ],
+        "rows": [
+          [
+            "Wireless Earbuds",
+            "$220,000",
+            "$240,000"
+          ],
+          [
+            "Smart Desk Lamps",
+            "$150,000",
+            "$165,000"
+          ],
+          [
+            "Portable Chargers",
+            "$140,000",
+            "$112,000"
+          ],
+          [
+            "Laptop Stands",
+            "$90,000",
+            "$98,000"
+          ]
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp4-gi-2.mp3"
+    }
+  ]
+}

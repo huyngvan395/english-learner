@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-participles",
+  "part": 5,
+  "title": "Chuyên đề 6: Phân từ V-ing / V-ed",
+  "subtitle": "Phân biệt tính từ cảm xúc, rút gọn đầu câu và 'find + O + V-ing'.",
+  "focusTag": "Participles",
+  "part5": [
+    {
+      "id": "dp5-pt-1",
+      "part": 5,
+      "topic": "Phân từ V-ing / V-ed",
+      "difficulty": "Cơ bản",
+      "sentence": "The board members were deeply _______ with the startup's rapid expansion across Southeast Asia.",
+      "options": {
+        "A": "impress",
+        "B": "impressing",
+        "C": "impressed",
+        "D": "impressive"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Phân từ cảm xúc (V-ed tả cảm xúc của người)",
+          "signal": "Chủ ngữ là người ('board members') + giới từ 'with' -> 'be impressed with'."
+        },
+        "translation": {
+          "questionVi": "Các thành viên hội đồng quản trị vô cùng ấn tượng với tốc độ mở rộng nhanh chóng của startup khắp Đông Nam Á.",
+          "optionsVi": {
+            "A": "gây ấn tượng (động từ)",
+            "B": "đang gây ấn tượng",
+            "C": "cảm thấy ấn tượng (V-ed cảm xúc)",
+            "D": "gây ấn tượng (tính từ cho vật)"
+          }
+        },
+        "proof": {
+          "explanation": "Miêu tả cảm nhận của người đi kèm giới từ 'with' -> dùng V-ed 'impressed'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai từ loại.",
+          "B": "Sai phân từ.",
+          "C": "Đúng: be impressed with/by.",
+          "D": "Sai: 'impressive' không đi theo cấu trúc 'people were impressive with'."
+        },
+        "keyTakeaways": {
+          "formula": "Person + be + V-ed (impressed / satisfied / pleased / interested) + prep",
+          "commonTrap": "Nhầm giữa 'impressed' (cảm thấy ấn tượng) và 'impressive' (gây ấn tượng).",
+          "paraphrases": [
+            {
+              "textInPassage": "rapid expansion",
+              "textInAnswer": "fast regional growth",
+              "meaningVi": "mở rộng nhanh chóng"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pt-2",
+      "part": 5,
+      "topic": "Phân từ V-ing / V-ed",
+      "difficulty": "Trung bình",
+      "sentence": "We noticed a _______ drop in energy consumption after installing motion-activated lighting.",
+      "options": {
+        "A": "notice",
+        "B": "noticing",
+        "C": "noticeable",
+        "D": "noticed"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Tính từ vs Phân từ bổ nghĩa danh từ",
+          "signal": "Sau mạo từ 'a' và trước danh từ 'drop' cần tính từ mang nghĩa 'đáng kể, dễ nhận thấy'."
+        },
+        "translation": {
+          "questionVi": "Chúng tôi nhận thấy mức giảm tiêu thụ năng lượng đáng kể sau khi lắp đèn cảm biến chuyển động.",
+          "optionsVi": {
+            "A": "thông báo (V/N)",
+            "B": "đang nhận thấy (V-ing)",
+            "C": "đáng kể, rõ rệt (tính từ)",
+            "D": "đã được chú ý (V-ed)"
+          }
+        },
+        "proof": {
+          "explanation": "Cụm collocation chuẩn là 'a noticeable drop / improvement' (sự sụt giảm rõ rệt)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai từ loại.",
+          "B": "Sai: 'drop' không tự nhận thấy.",
+          "C": "Đúng: tính từ 'noticeable' chuẩn collocation.",
+          "D": "Sai sắc thái nghĩa so với 'noticeable'."
+        },
+        "keyTakeaways": {
+          "formula": "a noticeable / significant + drop / increase / improvement",
+          "commonTrap": "Chọn nhầm 'noticed' khi không phân biệt tính từ '-able' với V-ed.",
+          "paraphrases": [
+            {
+              "textInPassage": "noticeable drop",
+              "textInAnswer": "clear decrease",
+              "meaningVi": "sự sụt giảm rõ rệt"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pt-3",
+      "part": 5,
+      "topic": "Phân từ V-ing / V-ed",
+      "difficulty": "Trung bình",
+      "sentence": "_______ at the airport two hours early, Ms. Gomez had plenty of time to review her slides.",
+      "options": {
+        "A": "Arriving",
+        "B": "Arrived",
+        "C": "Arrive",
+        "D": "To be arrived"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Rút gọn mệnh đề trạng ngữ chủ động (V-ing đầu câu)",
+          "signal": "Chủ ngữ vế sau là 'Ms. Gomez' (chủ động đến sân bay) + nội động từ 'arrive' không có dạng bị động."
+        },
+        "translation": {
+          "questionVi": "Đến sân bay sớm hai tiếng, cô Gomez có nhiều thời gian xem lại các trang trình chiếu của mình.",
+          "optionsVi": {
+            "A": "Đến nơi (V-ing chủ động)",
+            "B": "Sai: 'arrive' là nội động từ không chia bị động",
+            "C": "Động từ nguyên mẫu",
+            "D": "Sai ngữ pháp"
+          }
+        },
+        "proof": {
+          "explanation": "'arrive' là nội động từ (chủ động) -> rút gọn đồng chủ ngữ đầu câu thành 'Arriving'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: V-ing chủ động đầu câu.",
+          "B": "Sai: nội động từ không có dạng phân từ bị động.",
+          "C": "Sai cấu trúc.",
+          "D": "Sai ngữ pháp."
+        },
+        "keyTakeaways": {
+          "formula": "V-ing (chủ động) + ..., S(người thực hiện) + V",
+          "commonTrap": "Nhầm dùng 'Arrived' vì dịch sang tiếng Việt là 'đã đến'.",
+          "paraphrases": [
+            {
+              "textInPassage": "plenty of time",
+              "textInAnswer": "ample time",
+              "meaningVi": "nhiều thời gian dư dả"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pt-4",
+      "part": 5,
+      "topic": "Phân từ V-ing / V-ed",
+      "difficulty": "Nâng cao",
+      "sentence": "All _______ documents must be signed in blue ink and placed inside the sealed envelope.",
+      "options": {
+        "A": "enclose",
+        "B": "enclosing",
+        "C": "enclosed",
+        "D": "enclosure"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Phân từ V-ed làm tính từ trước danh từ",
+          "signal": "Tài liệu 'được đính kèm bên trong phong bì' (chịu tác động -> bị động 'enclosed')."
+        },
+        "translation": {
+          "questionVi": "Mọi tài liệu đính kèm phải được ký bằng mực xanh và bỏ vào trong phong bì niêm phong.",
+          "optionsVi": {
+            "A": "đính kèm (động từ)",
+            "B": "đang đính kèm (chủ động)",
+            "C": "được đính kèm (V-ed tính từ)",
+            "D": "tài liệu kèm theo (danh từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Cụm văn phòng kinh điển: 'enclosed documents' / 'attached files' (tài liệu được đính kèm)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai từ loại.",
+          "B": "Sai thể: tài liệu không tự đính kèm.",
+          "C": "Đúng: V-ed bị động làm tính từ.",
+          "D": "Sai: không dùng danh từ 'enclosure documents'."
+        },
+        "keyTakeaways": {
+          "formula": "enclosed / attached / revised / updated + Noun",
+          "commonTrap": "Phân vân giữa 'enclosing' và 'enclosed' — hãy hỏi danh từ đó tự làm hay bị làm!",
+          "paraphrases": [
+            {
+              "textInPassage": "enclosed documents",
+              "textInAnswer": "attached paperwork",
+              "meaningVi": "tài liệu đính kèm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pt-5",
+      "part": 5,
+      "topic": "Phân từ V-ing / V-ed",
+      "difficulty": "Nâng cao",
+      "sentence": "Customers found the redesigned mobile banking checkout process far less _______ than before.",
+      "options": {
+        "A": "confuse",
+        "B": "confused",
+        "C": "confusing",
+        "D": "confusion"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Cấu trúc 'find + O(vật) + Adj(V-ing)'",
+          "signal": "Tân ngữ là vật ('checkout process') -> tính chất gây bối rối của quy trình dùng V-ing 'confusing'."
+        },
+        "translation": {
+          "questionVi": "Khách hàng thấy quy trình thanh toán ngân hàng di động thiết kế lại đỡ gây rối hơn nhiều so với trước.",
+          "optionsVi": {
+            "A": "gây bối rối (động từ)",
+            "B": "cảm thấy bối rối (cho người)",
+            "C": "gây rối, khó hiểu (cho vật)",
+            "D": "sự nhầm lẫn (danh từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Sau 'find + O(vật) + less ___' cần tính từ mô tả bản chất của quy trình -> 'confusing'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: động từ.",
+          "B": "Sai: 'confused' dùng cho cảm xúc của người.",
+          "C": "Đúng: 'confusing' mô tả quy trình.",
+          "D": "Sai: danh từ."
+        },
+        "keyTakeaways": {
+          "formula": "find + O(thing) + V-ing (confusing / frustrating / exciting)",
+          "commonTrap": "Nhìn thấy 'Customers' đầu câu nên chọn nhầm 'confused', quên mất tính từ đang bổ nghĩa cho tân ngữ 'checkout process'!",
+          "paraphrases": [
+            {
+              "textInPassage": "far less confusing",
+              "textInAnswer": "much easier to follow",
+              "meaningVi": "đỡ gây rối hơn nhiều"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

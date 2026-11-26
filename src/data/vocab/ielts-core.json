@@ -1,0 +1,1064 @@
+{
+  "id": "ielts-core",
+  "title": "IELTS Cơ Bản & Nâng Cao (Band 4–9)",
+  "subtitle": "Từ vựng học thuật chủ đề Môi trường, Giáo dục, Công nghệ & Xã hội cho Reading & Writing.",
+  "category": "academic",
+  "levelLabel": "Band 4.5 – 8.5",
+  "tags": [
+    "#b1",
+    "#b2",
+    "#c1",
+    "#ielts"
+  ],
+  "coverTheme": "ielts",
+  "accentGradient": "from-red-500 via-rose-600 to-orange-500",
+  "badgeText": "IELTS",
+  "words": [
+    {
+      "id": "ielts-1",
+      "deckId": "ielts-core",
+      "word": "sustainable",
+      "pos": "adj",
+      "ipaUK": "/səˈsteɪ.nə.bəl/",
+      "ipaUS": "/səˈsteɪ.nə.bəl/",
+      "meaning": "bền vững, thân thiện môi trường",
+      "examples": [
+        {
+          "en": "Cities are investing heavily in sustainable public transit.",
+          "vi": "Các thành phố đang đầu tư mạnh vào giao thông công cộng bền vững."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "sustainability",
+          "pos": "n",
+          "meaning": "tính bền vững"
+        }
+      ],
+      "synonyms": [
+        "eco-friendly",
+        "renewable"
+      ],
+      "antonyms": [
+        "unsustainable"
+      ],
+      "collocations": [
+        {
+          "phrase": "sustainable development",
+          "meaning": "phát triển bền vững"
+        }
+      ],
+      "definitionEn": "Having the quality of being eco-friendly, renewable.",
+      "definitionVi": "Tính từ mô tả đặc điểm bền vững, thân thiện môi trường.",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-2",
+      "deckId": "ielts-core",
+      "word": "ubiquitous",
+      "pos": "adj",
+      "ipaUK": "/juːˈbɪk.wɪ.təs/",
+      "ipaUS": "/juːˈbɪk.wə.t̬əs/",
+      "meaning": "có mặt ở khắp mọi nơi (Band 8+)",
+      "examples": [
+        {
+          "en": "QR payment codes have become ubiquitous across Asian cities.",
+          "vi": "Mã thanh toán QR đã trở nên phổ biến khắp các thành phố châu Á."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "ubiquity",
+          "pos": "n",
+          "meaning": "sự phổ biến khắp nơi"
+        }
+      ],
+      "synonyms": [
+        "omnipresent",
+        "pervasive"
+      ],
+      "antonyms": [
+        "rare",
+        "scarce"
+      ],
+      "collocations": [
+        {
+          "phrase": "ubiquitous presence",
+          "meaning": "hiện diện khắp nơi"
+        }
+      ],
+      "definitionEn": "Having the quality of being omnipresent, pervasive.",
+      "definitionVi": "Tính từ mô tả đặc điểm có mặt ở khắp mọi nơi (Band 8+).",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-3",
+      "deckId": "ielts-core",
+      "word": "exacerbate",
+      "pos": "v",
+      "ipaUK": "/ɪɡˈzæs.ə.beɪt/",
+      "ipaUS": "/ɪɡˈzæs.ɚ.beɪt/",
+      "meaning": "làm trầm trọng thêm (khủng hoảng, vấn đề)",
+      "examples": [
+        {
+          "en": "Unplanned urban sprawl can exacerbate traffic congestion.",
+          "vi": "Mở rộng đô thị thiếu quy hoạch có thể làm trầm trọng thêm tắc đường."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "exacerbation",
+          "pos": "n",
+          "meaning": "sự làm nặng thêm"
+        }
+      ],
+      "synonyms": [
+        "worsen",
+        "aggravate"
+      ],
+      "antonyms": [
+        "alleviate",
+        "mitigate"
+      ],
+      "collocations": [
+        {
+          "phrase": "exacerbate inequality",
+          "meaning": "làm trầm trọng thêm bất bình đẳng"
+        }
+      ],
+      "definitionEn": "To worsen (also similar to aggravate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động làm trầm trọng thêm (khủng hoảng, vấn đề).",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-4",
+      "deckId": "ielts-core",
+      "word": "deteriorate",
+      "pos": "v",
+      "ipaUK": "/dɪˈtɪə.ri.ə.reɪt/",
+      "ipaUS": "/dɪˈtɪr.i.ə.reɪt/",
+      "meaning": "xuống cấp, xấu đi theo thời gian",
+      "examples": [
+        {
+          "en": "Air quality can deteriorate rapidly during winter inversions.",
+          "vi": "Chất lượng không khí có thể xấu đi nhanh vào mùa đông."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "deterioration",
+          "pos": "n",
+          "meaning": "sự xuống cấp"
+        }
+      ],
+      "synonyms": [
+        "decline",
+        "degrade"
+      ],
+      "antonyms": [
+        "improve",
+        "recover"
+      ],
+      "collocations": [
+        {
+          "phrase": "deteriorating infrastructure",
+          "meaning": "hạ tầng xuống cấp"
+        }
+      ],
+      "definitionEn": "To decline (also similar to degrade) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động xuống cấp, xấu đi theo thời gian.",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-5",
+      "deckId": "ielts-core",
+      "word": "incentivize",
+      "pos": "v",
+      "ipaUK": "/ɪnˈsen.tɪ.vaɪz/",
+      "ipaUS": "/ɪnˈsen.t̬ə.vaɪz/",
+      "meaning": "tạo động lực, khuyến khích",
+      "examples": [
+        {
+          "en": "Tax rebates incentivize households to install heat pumps.",
+          "vi": "Hoàn thuế khuyến khích hộ gia đình lắp đặt bơm nhiệt."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "incentive",
+          "pos": "n",
+          "meaning": "động lực, ưu đãi"
+        }
+      ],
+      "synonyms": [
+        "motivate",
+        "encourage"
+      ],
+      "antonyms": [
+        "deter"
+      ],
+      "collocations": [
+        {
+          "phrase": "incentivize innovation",
+          "meaning": "thúc đẩy đổi mới"
+        }
+      ],
+      "definitionEn": "To motivate (also similar to encourage) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tạo động lực, khuyến khích.",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-6",
+      "deckId": "ielts-core",
+      "word": "curriculum",
+      "pos": "n",
+      "ipaUK": "/kəˈrɪk.jə.ləm/",
+      "ipaUS": "/kəˈrɪk.jə.ləm/",
+      "meaning": "chương trình giảng dạy",
+      "examples": [
+        {
+          "en": "Data literacy should be woven into the high-school curriculum.",
+          "vi": "Kỹ năng dữ liệu nên được tích hợp vào chương trình trung học."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "extracurricular",
+          "pos": "adj",
+          "meaning": "ngoại khóa"
+        }
+      ],
+      "synonyms": [
+        "syllabus",
+        "course of study"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "national curriculum",
+          "meaning": "chương trình giáo dục quốc gia"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to syllabus, course of study.",
+      "definitionVi": "Danh từ dùng để chỉ chương trình giảng dạy.",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-7",
+      "deckId": "ielts-core",
+      "word": "prevalent",
+      "pos": "adj",
+      "ipaUK": "/ˈprev.əl.ənt/",
+      "ipaUS": "/ˈprev.əl.ənt/",
+      "meaning": "thịnh hành, phổ biến rộng rãi",
+      "examples": [
+        {
+          "en": "Remote work is increasingly prevalent in software engineering.",
+          "vi": "Làm việc từ xa ngày càng thịnh hành trong ngành phần mềm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "prevalence",
+          "pos": "n",
+          "meaning": "mức độ phổ biến"
+        }
+      ],
+      "synonyms": [
+        "widespread",
+        "common"
+      ],
+      "antonyms": [
+        "rare"
+      ],
+      "collocations": [
+        {
+          "phrase": "increasingly prevalent",
+          "meaning": "ngày càng phổ biến"
+        }
+      ],
+      "definitionEn": "Having the quality of being widespread, common.",
+      "definitionVi": "Tính từ mô tả đặc điểm thịnh hành, phổ biến rộng rãi.",
+      "topicId": "ielts-env"
+    },
+    {
+      "id": "ielts-8",
+      "deckId": "ielts-core",
+      "word": "innovative",
+      "pos": "adj",
+      "ipaUK": "/ˈɪn.ə.və.tɪv/",
+      "ipaUS": "/ˈɪn.ə.veɪ.t̬ɪv/",
+      "meaning": "đổi mới, sáng tạo đột phá",
+      "examples": [
+        {
+          "en": "The team won praise for its innovative desalination filter.",
+          "vi": "Nhóm nhận lời khen nhờ bộ lọc khử mặn sáng tạo."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "innovate",
+          "pos": "v",
+          "meaning": "đổi mới"
+        },
+        {
+          "word": "innovation",
+          "pos": "n",
+          "meaning": "sự đổi mới"
+        }
+      ],
+      "synonyms": [
+        "groundbreaking",
+        "inventive"
+      ],
+      "antonyms": [
+        "conventional"
+      ],
+      "collocations": [
+        {
+          "phrase": "innovative solution",
+          "meaning": "giải pháp đột phá"
+        }
+      ],
+      "definitionEn": "Having the quality of being groundbreaking, inventive.",
+      "definitionVi": "Tính từ mô tả đặc điểm đổi mới, sáng tạo đột phá.",
+      "topicId": "ielts-soc"
+    },
+    {
+      "id": "ielts-9",
+      "deckId": "ielts-core",
+      "word": "urbanization",
+      "pos": "n",
+      "ipaUK": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
+      "ipaUS": "/ˌɝː.bən.əˈzeɪ.ʃən/",
+      "meaning": "quá trình đô thị hóa",
+      "examples": [
+        {
+          "en": "Rapid urbanization places immense pressure on water networks.",
+          "vi": "Đô thị hóa nhanh tạo áp lực khổng lồ lên mạng lưới cấp nước."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "urban",
+          "pos": "adj",
+          "meaning": "thuộc đô thị"
+        }
+      ],
+      "synonyms": [
+        "city growth"
+      ],
+      "antonyms": [
+        "rural flight"
+      ],
+      "collocations": [
+        {
+          "phrase": "rapid urbanization",
+          "meaning": "đô thị hóa nhanh"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to city growth.",
+      "definitionVi": "Danh từ dùng để chỉ quá trình đô thị hóa.",
+      "topicId": "ielts-soc"
+    },
+    {
+      "id": "ielts-10",
+      "deckId": "ielts-core",
+      "word": "biodiversity",
+      "pos": "n",
+      "ipaUK": "/ˌbaɪ.əʊ.daɪˈvɜː.sə.ti/",
+      "ipaUS": "/ˌbaɪ.oʊ.dɪˈvɝː.sə.t̬i/",
+      "meaning": "đa dạng sinh học",
+      "examples": [
+        {
+          "en": "Protected wetlands preserve vital coastal biodiversity.",
+          "vi": "Vùng đất ngập nước được bảo vệ giữ gìn đa dạng sinh học ven biển."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "ecological variety"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "biodiversity loss",
+          "meaning": "suy giảm đa dạng sinh học"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to ecological variety.",
+      "definitionVi": "Danh từ dùng để chỉ đa dạng sinh học.",
+      "topicId": "ielts-soc"
+    },
+    {
+      "id": "ielts-11",
+      "deckId": "ielts-core",
+      "word": "emission",
+      "pos": "n",
+      "ipaUK": "/ɪˈmɪʃ.ən/",
+      "ipaUS": "/ɪˈmɪʃ.ən/",
+      "meaning": "khí thải, sự phát thải",
+      "examples": [
+        {
+          "en": "The new policy sets a strict carbon emission limit for ferries.",
+          "vi": "Chính sách mới đặt giới hạn khí thải carbon nghiêm ngặt cho tàu phà."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "emit",
+          "pos": "v",
+          "meaning": "thải ra"
+        }
+      ],
+      "synonyms": [
+        "discharge",
+        "release"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "carbon emissions",
+          "meaning": "khí thải carbon"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to discharge, release.",
+      "definitionVi": "Danh từ dùng để chỉ khí thải, sự phát thải.",
+      "topicId": "ielts-soc"
+    },
+    {
+      "id": "ielts-12",
+      "deckId": "ielts-core",
+      "word": "inequality",
+      "pos": "n",
+      "ipaUK": "/ˌɪn.ɪˈkwɒl.ə.ti/",
+      "ipaUS": "/ˌɪn.ɪˈkwɑː.lə.t̬i/",
+      "meaning": "sự bất bình đẳng",
+      "examples": [
+        {
+          "en": "Quality public schools help bridge socioeconomic inequality.",
+          "vi": "Trường công chất lượng giúp thu hẹp bất bình đẳng kinh tế xã hội."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "unequal",
+          "pos": "adj",
+          "meaning": "không bình đẳng"
+        }
+      ],
+      "synonyms": [
+        "disparity",
+        "imbalance"
+      ],
+      "antonyms": [
+        "equality"
+      ],
+      "collocations": [
+        {
+          "phrase": "income inequality",
+          "meaning": "bất bình đẳng thu nhập"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to disparity, imbalance.",
+      "definitionVi": "Danh từ dùng để chỉ sự bất bình đẳng.",
+      "topicId": "ielts-soc"
+    },
+    {
+      "id": "ielts-13",
+      "deckId": "ielts-core",
+      "word": "demographic",
+      "pos": "adj",
+      "ipaUK": "/ˌdem.əˈɡræf.ɪk/",
+      "ipaUS": "/ˌdem.əˈɡræf.ɪk/",
+      "meaning": "thuộc nhân khẩu học",
+      "examples": [
+        {
+          "en": "Aging populations represent a major demographic shift.",
+          "vi": "Dân số già hóa đại diện cho sự chuyển dịch nhân khẩu học lớn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "demographics",
+          "pos": "n",
+          "meaning": "dữ liệu nhân khẩu học"
+        }
+      ],
+      "synonyms": [
+        "population-based"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "demographic shift",
+          "meaning": "chuyển dịch nhân khẩu học"
+        }
+      ],
+      "definitionEn": "Having the quality of being population-based.",
+      "definitionVi": "Tính từ mô tả đặc điểm thuộc nhân khẩu học.",
+      "topicId": "ielts-soc"
+    },
+    {
+      "id": "ielts-14",
+      "deckId": "ielts-core",
+      "word": "longevity",
+      "pos": "n",
+      "ipaUK": "/lɒnˈdʒev.ə.ti/",
+      "ipaUS": "/lɑːnˈdʒev.ə.t̬i/",
+      "meaning": "tuổi thọ cao, độ bền lâu dài",
+      "examples": [
+        {
+          "en": "Preventive healthcare has steadily increased human longevity.",
+          "vi": "Y tế dự phòng đã nâng cao đều đặn tuổi thọ con người."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "long life",
+        "durability"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "increase longevity",
+          "meaning": "kéo dài tuổi thọ"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to long life, durability.",
+      "definitionVi": "Danh từ dùng để chỉ tuổi thọ cao, độ bền lâu dài.",
+      "topicId": "ielts-soc"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ielts-env",
+      "name": "Môi trường, Khí hậu & Đô thị hóa",
+      "icon": "environment",
+      "words": [
+        {
+          "id": "ielts-1",
+          "deckId": "ielts-core",
+          "word": "sustainable",
+          "pos": "adj",
+          "ipaUK": "/səˈsteɪ.nə.bəl/",
+          "ipaUS": "/səˈsteɪ.nə.bəl/",
+          "meaning": "bền vững, thân thiện môi trường",
+          "examples": [
+            {
+              "en": "Cities are investing heavily in sustainable public transit.",
+              "vi": "Các thành phố đang đầu tư mạnh vào giao thông công cộng bền vững."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "sustainability",
+              "pos": "n",
+              "meaning": "tính bền vững"
+            }
+          ],
+          "synonyms": [
+            "eco-friendly",
+            "renewable"
+          ],
+          "antonyms": [
+            "unsustainable"
+          ],
+          "collocations": [
+            {
+              "phrase": "sustainable development",
+              "meaning": "phát triển bền vững"
+            }
+          ],
+          "definitionEn": "Having the quality of being eco-friendly, renewable.",
+          "definitionVi": "Tính từ mô tả đặc điểm bền vững, thân thiện môi trường.",
+          "topicId": "ielts-env"
+        },
+        {
+          "id": "ielts-2",
+          "deckId": "ielts-core",
+          "word": "ubiquitous",
+          "pos": "adj",
+          "ipaUK": "/juːˈbɪk.wɪ.təs/",
+          "ipaUS": "/juːˈbɪk.wə.t̬əs/",
+          "meaning": "có mặt ở khắp mọi nơi (Band 8+)",
+          "examples": [
+            {
+              "en": "QR payment codes have become ubiquitous across Asian cities.",
+              "vi": "Mã thanh toán QR đã trở nên phổ biến khắp các thành phố châu Á."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "ubiquity",
+              "pos": "n",
+              "meaning": "sự phổ biến khắp nơi"
+            }
+          ],
+          "synonyms": [
+            "omnipresent",
+            "pervasive"
+          ],
+          "antonyms": [
+            "rare",
+            "scarce"
+          ],
+          "collocations": [
+            {
+              "phrase": "ubiquitous presence",
+              "meaning": "hiện diện khắp nơi"
+            }
+          ],
+          "definitionEn": "Having the quality of being omnipresent, pervasive.",
+          "definitionVi": "Tính từ mô tả đặc điểm có mặt ở khắp mọi nơi (Band 8+).",
+          "topicId": "ielts-env"
+        },
+        {
+          "id": "ielts-3",
+          "deckId": "ielts-core",
+          "word": "exacerbate",
+          "pos": "v",
+          "ipaUK": "/ɪɡˈzæs.ə.beɪt/",
+          "ipaUS": "/ɪɡˈzæs.ɚ.beɪt/",
+          "meaning": "làm trầm trọng thêm (khủng hoảng, vấn đề)",
+          "examples": [
+            {
+              "en": "Unplanned urban sprawl can exacerbate traffic congestion.",
+              "vi": "Mở rộng đô thị thiếu quy hoạch có thể làm trầm trọng thêm tắc đường."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "exacerbation",
+              "pos": "n",
+              "meaning": "sự làm nặng thêm"
+            }
+          ],
+          "synonyms": [
+            "worsen",
+            "aggravate"
+          ],
+          "antonyms": [
+            "alleviate",
+            "mitigate"
+          ],
+          "collocations": [
+            {
+              "phrase": "exacerbate inequality",
+              "meaning": "làm trầm trọng thêm bất bình đẳng"
+            }
+          ],
+          "definitionEn": "To worsen (also similar to aggravate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động làm trầm trọng thêm (khủng hoảng, vấn đề).",
+          "topicId": "ielts-env"
+        },
+        {
+          "id": "ielts-4",
+          "deckId": "ielts-core",
+          "word": "deteriorate",
+          "pos": "v",
+          "ipaUK": "/dɪˈtɪə.ri.ə.reɪt/",
+          "ipaUS": "/dɪˈtɪr.i.ə.reɪt/",
+          "meaning": "xuống cấp, xấu đi theo thời gian",
+          "examples": [
+            {
+              "en": "Air quality can deteriorate rapidly during winter inversions.",
+              "vi": "Chất lượng không khí có thể xấu đi nhanh vào mùa đông."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "deterioration",
+              "pos": "n",
+              "meaning": "sự xuống cấp"
+            }
+          ],
+          "synonyms": [
+            "decline",
+            "degrade"
+          ],
+          "antonyms": [
+            "improve",
+            "recover"
+          ],
+          "collocations": [
+            {
+              "phrase": "deteriorating infrastructure",
+              "meaning": "hạ tầng xuống cấp"
+            }
+          ],
+          "definitionEn": "To decline (also similar to degrade) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động xuống cấp, xấu đi theo thời gian.",
+          "topicId": "ielts-env"
+        },
+        {
+          "id": "ielts-5",
+          "deckId": "ielts-core",
+          "word": "incentivize",
+          "pos": "v",
+          "ipaUK": "/ɪnˈsen.tɪ.vaɪz/",
+          "ipaUS": "/ɪnˈsen.t̬ə.vaɪz/",
+          "meaning": "tạo động lực, khuyến khích",
+          "examples": [
+            {
+              "en": "Tax rebates incentivize households to install heat pumps.",
+              "vi": "Hoàn thuế khuyến khích hộ gia đình lắp đặt bơm nhiệt."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "incentive",
+              "pos": "n",
+              "meaning": "động lực, ưu đãi"
+            }
+          ],
+          "synonyms": [
+            "motivate",
+            "encourage"
+          ],
+          "antonyms": [
+            "deter"
+          ],
+          "collocations": [
+            {
+              "phrase": "incentivize innovation",
+              "meaning": "thúc đẩy đổi mới"
+            }
+          ],
+          "definitionEn": "To motivate (also similar to encourage) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tạo động lực, khuyến khích.",
+          "topicId": "ielts-env"
+        },
+        {
+          "id": "ielts-6",
+          "deckId": "ielts-core",
+          "word": "curriculum",
+          "pos": "n",
+          "ipaUK": "/kəˈrɪk.jə.ləm/",
+          "ipaUS": "/kəˈrɪk.jə.ləm/",
+          "meaning": "chương trình giảng dạy",
+          "examples": [
+            {
+              "en": "Data literacy should be woven into the high-school curriculum.",
+              "vi": "Kỹ năng dữ liệu nên được tích hợp vào chương trình trung học."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "extracurricular",
+              "pos": "adj",
+              "meaning": "ngoại khóa"
+            }
+          ],
+          "synonyms": [
+            "syllabus",
+            "course of study"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "national curriculum",
+              "meaning": "chương trình giáo dục quốc gia"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to syllabus, course of study.",
+          "definitionVi": "Danh từ dùng để chỉ chương trình giảng dạy.",
+          "topicId": "ielts-env"
+        },
+        {
+          "id": "ielts-7",
+          "deckId": "ielts-core",
+          "word": "prevalent",
+          "pos": "adj",
+          "ipaUK": "/ˈprev.əl.ənt/",
+          "ipaUS": "/ˈprev.əl.ənt/",
+          "meaning": "thịnh hành, phổ biến rộng rãi",
+          "examples": [
+            {
+              "en": "Remote work is increasingly prevalent in software engineering.",
+              "vi": "Làm việc từ xa ngày càng thịnh hành trong ngành phần mềm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "prevalence",
+              "pos": "n",
+              "meaning": "mức độ phổ biến"
+            }
+          ],
+          "synonyms": [
+            "widespread",
+            "common"
+          ],
+          "antonyms": [
+            "rare"
+          ],
+          "collocations": [
+            {
+              "phrase": "increasingly prevalent",
+              "meaning": "ngày càng phổ biến"
+            }
+          ],
+          "definitionEn": "Having the quality of being widespread, common.",
+          "definitionVi": "Tính từ mô tả đặc điểm thịnh hành, phổ biến rộng rãi.",
+          "topicId": "ielts-env"
+        }
+      ]
+    },
+    {
+      "id": "ielts-soc",
+      "name": "Giáo dục, Xã hội & Đổi mới công nghệ",
+      "icon": "education",
+      "words": [
+        {
+          "id": "ielts-8",
+          "deckId": "ielts-core",
+          "word": "innovative",
+          "pos": "adj",
+          "ipaUK": "/ˈɪn.ə.və.tɪv/",
+          "ipaUS": "/ˈɪn.ə.veɪ.t̬ɪv/",
+          "meaning": "đổi mới, sáng tạo đột phá",
+          "examples": [
+            {
+              "en": "The team won praise for its innovative desalination filter.",
+              "vi": "Nhóm nhận lời khen nhờ bộ lọc khử mặn sáng tạo."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "innovate",
+              "pos": "v",
+              "meaning": "đổi mới"
+            },
+            {
+              "word": "innovation",
+              "pos": "n",
+              "meaning": "sự đổi mới"
+            }
+          ],
+          "synonyms": [
+            "groundbreaking",
+            "inventive"
+          ],
+          "antonyms": [
+            "conventional"
+          ],
+          "collocations": [
+            {
+              "phrase": "innovative solution",
+              "meaning": "giải pháp đột phá"
+            }
+          ],
+          "definitionEn": "Having the quality of being groundbreaking, inventive.",
+          "definitionVi": "Tính từ mô tả đặc điểm đổi mới, sáng tạo đột phá.",
+          "topicId": "ielts-soc"
+        },
+        {
+          "id": "ielts-9",
+          "deckId": "ielts-core",
+          "word": "urbanization",
+          "pos": "n",
+          "ipaUK": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
+          "ipaUS": "/ˌɝː.bən.əˈzeɪ.ʃən/",
+          "meaning": "quá trình đô thị hóa",
+          "examples": [
+            {
+              "en": "Rapid urbanization places immense pressure on water networks.",
+              "vi": "Đô thị hóa nhanh tạo áp lực khổng lồ lên mạng lưới cấp nước."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "urban",
+              "pos": "adj",
+              "meaning": "thuộc đô thị"
+            }
+          ],
+          "synonyms": [
+            "city growth"
+          ],
+          "antonyms": [
+            "rural flight"
+          ],
+          "collocations": [
+            {
+              "phrase": "rapid urbanization",
+              "meaning": "đô thị hóa nhanh"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to city growth.",
+          "definitionVi": "Danh từ dùng để chỉ quá trình đô thị hóa.",
+          "topicId": "ielts-soc"
+        },
+        {
+          "id": "ielts-10",
+          "deckId": "ielts-core",
+          "word": "biodiversity",
+          "pos": "n",
+          "ipaUK": "/ˌbaɪ.əʊ.daɪˈvɜː.sə.ti/",
+          "ipaUS": "/ˌbaɪ.oʊ.dɪˈvɝː.sə.t̬i/",
+          "meaning": "đa dạng sinh học",
+          "examples": [
+            {
+              "en": "Protected wetlands preserve vital coastal biodiversity.",
+              "vi": "Vùng đất ngập nước được bảo vệ giữ gìn đa dạng sinh học ven biển."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "ecological variety"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "biodiversity loss",
+              "meaning": "suy giảm đa dạng sinh học"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to ecological variety.",
+          "definitionVi": "Danh từ dùng để chỉ đa dạng sinh học.",
+          "topicId": "ielts-soc"
+        },
+        {
+          "id": "ielts-11",
+          "deckId": "ielts-core",
+          "word": "emission",
+          "pos": "n",
+          "ipaUK": "/ɪˈmɪʃ.ən/",
+          "ipaUS": "/ɪˈmɪʃ.ən/",
+          "meaning": "khí thải, sự phát thải",
+          "examples": [
+            {
+              "en": "The new policy sets a strict carbon emission limit for ferries.",
+              "vi": "Chính sách mới đặt giới hạn khí thải carbon nghiêm ngặt cho tàu phà."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "emit",
+              "pos": "v",
+              "meaning": "thải ra"
+            }
+          ],
+          "synonyms": [
+            "discharge",
+            "release"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "carbon emissions",
+              "meaning": "khí thải carbon"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to discharge, release.",
+          "definitionVi": "Danh từ dùng để chỉ khí thải, sự phát thải.",
+          "topicId": "ielts-soc"
+        },
+        {
+          "id": "ielts-12",
+          "deckId": "ielts-core",
+          "word": "inequality",
+          "pos": "n",
+          "ipaUK": "/ˌɪn.ɪˈkwɒl.ə.ti/",
+          "ipaUS": "/ˌɪn.ɪˈkwɑː.lə.t̬i/",
+          "meaning": "sự bất bình đẳng",
+          "examples": [
+            {
+              "en": "Quality public schools help bridge socioeconomic inequality.",
+              "vi": "Trường công chất lượng giúp thu hẹp bất bình đẳng kinh tế xã hội."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "unequal",
+              "pos": "adj",
+              "meaning": "không bình đẳng"
+            }
+          ],
+          "synonyms": [
+            "disparity",
+            "imbalance"
+          ],
+          "antonyms": [
+            "equality"
+          ],
+          "collocations": [
+            {
+              "phrase": "income inequality",
+              "meaning": "bất bình đẳng thu nhập"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to disparity, imbalance.",
+          "definitionVi": "Danh từ dùng để chỉ sự bất bình đẳng.",
+          "topicId": "ielts-soc"
+        },
+        {
+          "id": "ielts-13",
+          "deckId": "ielts-core",
+          "word": "demographic",
+          "pos": "adj",
+          "ipaUK": "/ˌdem.əˈɡræf.ɪk/",
+          "ipaUS": "/ˌdem.əˈɡræf.ɪk/",
+          "meaning": "thuộc nhân khẩu học",
+          "examples": [
+            {
+              "en": "Aging populations represent a major demographic shift.",
+              "vi": "Dân số già hóa đại diện cho sự chuyển dịch nhân khẩu học lớn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "demographics",
+              "pos": "n",
+              "meaning": "dữ liệu nhân khẩu học"
+            }
+          ],
+          "synonyms": [
+            "population-based"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "demographic shift",
+              "meaning": "chuyển dịch nhân khẩu học"
+            }
+          ],
+          "definitionEn": "Having the quality of being population-based.",
+          "definitionVi": "Tính từ mô tả đặc điểm thuộc nhân khẩu học.",
+          "topicId": "ielts-soc"
+        },
+        {
+          "id": "ielts-14",
+          "deckId": "ielts-core",
+          "word": "longevity",
+          "pos": "n",
+          "ipaUK": "/lɒnˈdʒev.ə.ti/",
+          "ipaUS": "/lɑːnˈdʒev.ə.t̬i/",
+          "meaning": "tuổi thọ cao, độ bền lâu dài",
+          "examples": [
+            {
+              "en": "Preventive healthcare has steadily increased human longevity.",
+              "vi": "Y tế dự phòng đã nâng cao đều đặn tuổi thọ con người."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "long life",
+            "durability"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "increase longevity",
+              "meaning": "kéo dài tuổi thọ"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to long life, durability.",
+          "definitionVi": "Danh từ dùng để chỉ tuổi thọ cao, độ bền lâu dài.",
+          "topicId": "ielts-soc"
+        }
+      ]
+    }
+  ]
+}

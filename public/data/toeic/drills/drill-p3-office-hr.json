@@ -1,0 +1,401 @@
+{
+  "id": "drill-p3-office-hr",
+  "part": 3,
+  "title": "Hội thoại Văn phòng & Nhân sự",
+  "subtitle": "Tuyển dụng vòng cuối, giờ làm linh hoạt và phân công dự án.",
+  "focusTag": "Office & HR",
+  "part3": [
+    {
+      "id": "dp3-hr-1",
+      "part": 3,
+      "title": "Phỏng vấn ứng viên kỹ sư dữ liệu vòng cuối",
+      "scenario": "Nhân sự & Tuyển dụng",
+      "speakerCount": 2,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-hr-1-l1",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Marcus, HR narrowed down the data engineer applications to three strong finalists.",
+          "vi": "Marcus, phòng Nhân sự đã rút gọn hồ sơ kỹ sư dữ liệu xuống còn ba ứng viên vòng cuối rất tiềm năng.",
+          "evidenceForQuestionIds": [
+            "dp3-hr-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 6048
+        },
+        {
+          "id": "dp3-hr-1-l2",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Awesome. Since one of them lives in Chicago, should we run all three final interviews over video to keep things fair?",
+          "vi": "Tuyệt quá. Vì một bạn sống ở Chicago, ta có nên phỏng vấn vòng cuối cả ba qua video để đảm bảo công bằng không?",
+          "evidenceForQuestionIds": [
+            "dp3-hr-1-q2"
+          ],
+          "startMs": 6428,
+          "endMs": 14348
+        },
+        {
+          "id": "dp3-hr-1-l3",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Yes, that makes scheduling much simpler too. I'll send you their coding portfolios this afternoon.",
+          "vi": "Đúng rồi, làm thế sắp lịch cũng đơn giản hơn nhiều. Chiều nay tôi sẽ gửi bạn hồ sơ dự án code của họ.",
+          "evidenceForQuestionIds": [
+            "dp3-hr-1-q3"
+          ],
+          "startMs": 14728,
+          "endMs": 21832
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-hr-1-q1",
+          "questionNumber": 1,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What are the speakers organizing?",
+          "promptVi": "Hai người đang tổ chức việc gì?",
+          "options": {
+            "A": {
+              "en": "Final-round job interviews",
+              "vi": "Phỏng vấn tuyển dụng vòng cuối"
+            },
+            "B": {
+              "en": "An office relocation",
+              "vi": "Chuyển văn phòng"
+            },
+            "C": {
+              "en": "A client software demo",
+              "vi": "Buổi giới thiệu phần mềm khách hàng"
+            },
+            "D": {
+              "en": "An annual salary review",
+              "vi": "Đánh giá lương thường niên"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Nghe từ khóa 'data engineer applications / finalists / interviews'",
+            "trapAnalysis": "Cả hội thoại xoay quanh phỏng vấn vòng cuối cho vị trí kỹ sư dữ liệu.",
+            "paraphrases": [
+              {
+                "audioPhrase": "three strong finalists",
+                "answerPhrase": "final-round job interviews",
+                "meaningVi": "phỏng vấn vòng cuối"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-hr-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Why does the man suggest video interviews?",
+          "promptVi": "Tại sao người đàn ông đề xuất phỏng vấn qua video?",
+          "options": {
+            "A": {
+              "en": "The meeting rooms are being painted.",
+              "vi": "Phòng họp đang được sơn."
+            },
+            "B": {
+              "en": "One candidate resides in another city.",
+              "vi": "Một ứng viên sống ở thành phố khác."
+            },
+            "C": {
+              "en": "The hiring manager is on leave.",
+              "vi": "Trưởng phòng tuyển dụng đang nghỉ phép."
+            },
+            "D": {
+              "en": "Video calls record automatically.",
+              "vi": "Cuộc gọi video tự động ghi hình."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'lives in Chicago' -> 'resides in another city'",
+            "trapAnalysis": "Lý do Marcus đưa ra là có một ứng viên ở Chicago.",
+            "paraphrases": [
+              {
+                "audioPhrase": "lives in Chicago",
+                "answerPhrase": "resides in another city",
+                "meaningVi": "sống ở thành phố khác"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: lives in Chicago = resides in another city.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-hr-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What will the woman send the man this afternoon?",
+          "promptVi": "Người phụ nữ sẽ gửi gì cho người đàn ông chiều nay?",
+          "options": {
+            "A": {
+              "en": "Salary offer letters",
+              "vi": "Thư mời nhận việc kèm lương"
+            },
+            "B": {
+              "en": "Travel reimbursement forms",
+              "vi": "Đơn hoàn chi phí đi lại"
+            },
+            "C": {
+              "en": "Samples of the candidates' work",
+              "vi": "Mẫu dự án công việc của ứng viên"
+            },
+            "D": {
+              "en": "Updated interview rubrics",
+              "vi": "Thang chấm phỏng vấn mới"
+            }
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "trapType": "Paraphrase 'coding portfolios' -> 'samples of the candidates' work'",
+            "trapAnalysis": "coding portfolios = bộ mẫu sản phẩm/dự án công việc.",
+            "paraphrases": [
+              {
+                "audioPhrase": "coding portfolios",
+                "answerPhrase": "samples of work",
+                "meaningVi": "hồ sơ mẫu công việc"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Sai.",
+              "C": "Đúng.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-hr-1-v1",
+          "word": "narrow down",
+          "pos": "phrase",
+          "ipaUK": "/ˈnærəʊ daʊn/",
+          "ipaUS": "/ˈnæroʊ daʊn/",
+          "meaning": "thu hẹp danh sách chọn lọc",
+          "exampleEn": "We narrowed down fifty resumes to five top applicants.",
+          "exampleVi": "Chúng tôi đã lọc năm mươi hồ sơ xuống năm ứng viên hàng đầu."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-hr-1.mp3"
+    },
+    {
+      "id": "dp3-hr-2",
+      "part": 3,
+      "title": "Điều chỉnh chính sách làm việc linh hoạt",
+      "scenario": "Nhân sự & Văn phòng",
+      "speakerCount": 2,
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp3-hr-2-l1",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Nadia, I heard management is expanding our flexible-hours pilot program next quarter.",
+          "vi": "Nadia, tôi nghe ban lãnh đạo sắp mở rộng chương trình thí điểm giờ làm linh hoạt vào quý tới.",
+          "evidenceForQuestionIds": [
+            "dp3-hr-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 5976
+        },
+        {
+          "id": "dp3-hr-2-l2",
+          "speaker": "Woman",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Yes! After our survey showed a 20-percent jump in job satisfaction, every department except Reception can start between seven and ten A.M.",
+          "vi": "Đúng rồi! Sau khi khảo sát cho thấy mức hài lòng công việc tăng 20%, mọi phòng ban trừ Lễ tân có thể bắt đầu từ 7 đến 10 giờ sáng.",
+          "evidenceForQuestionIds": [
+            "dp3-hr-2-q2"
+          ],
+          "startMs": 6356,
+          "endMs": 15596
+        },
+        {
+          "id": "dp3-hr-2-l3",
+          "speaker": "Man",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "That's great news. I'll share the updated handbook link with my analysts during Monday's stand-up.",
+          "vi": "Tin tuyệt quá. Tôi sẽ chia sẻ đường link sổ tay mới cho các chuyên viên phân tích trong buổi họp sáng thứ Hai.",
+          "evidenceForQuestionIds": [
+            "dp3-hr-2-q3"
+          ],
+          "startMs": 15976,
+          "endMs": 22936
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp3-hr-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What policy change are the speakers discussing?",
+          "promptVi": "Hai người nói đang bàn về thay đổi chính sách nào?",
+          "options": {
+            "A": {
+              "en": "Flexible work start times",
+              "vi": "Giờ bắt đầu làm việc linh hoạt"
+            },
+            "B": {
+              "en": "New overtime pay rates",
+              "vi": "Mức lương làm thêm giờ mới"
+            },
+            "C": {
+              "en": "Expanded parental leave",
+              "vi": "Mở rộng chế độ nghỉ thai sản"
+            },
+            "D": {
+              "en": "Free commuter rail passes",
+              "vi": "Vé tàu đi làm miễn phí"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Nghe rõ 'flexible-hours pilot program' & 'start between seven and ten'",
+            "trapAnalysis": "Cả đoạn nói về giờ bắt đầu làm việc linh hoạt.",
+            "paraphrases": [
+              {
+                "audioPhrase": "flexible-hours",
+                "answerPhrase": "flexible work start times",
+                "meaningVi": "giờ làm việc linh hoạt"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-hr-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Which group is NOT included in the expanded schedule?",
+          "promptVi": "Nhóm nào KHÔNG nằm trong lịch linh hoạt mở rộng?",
+          "options": {
+            "A": {
+              "en": "Data analysts",
+              "vi": "Chuyên viên phân tích dữ liệu"
+            },
+            "B": {
+              "en": "Reception staff",
+              "vi": "Nhân viên lễ tân"
+            },
+            "C": {
+              "en": "Software engineers",
+              "vi": "Kỹ sư phần mềm"
+            },
+            "D": {
+              "en": "Marketing coordinators",
+              "vi": "Điều phối viên marketing"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Bẫy từ ngoại lệ 'except Reception'",
+            "trapAnalysis": "Chú ý từ khóa loại trừ 'except Reception'!",
+            "paraphrases": [
+              {
+                "audioPhrase": "except Reception",
+                "answerPhrase": "not included: reception staff",
+                "meaningVi": "ngoại trừ bộ phận lễ tân"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: except Reception.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp3-hr-2-q3",
+          "questionNumber": 6,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What will the man do on Monday?",
+          "promptVi": "Người đàn ông sẽ làm gì vào thứ Hai?",
+          "options": {
+            "A": {
+              "en": "Conduct a staff survey",
+              "vi": "Tiến hành khảo sát nhân viên"
+            },
+            "B": {
+              "en": "Send his team a link to the updated guide",
+              "vi": "Gửi đội nhóm link sổ tay cập nhật"
+            },
+            "C": {
+              "en": "Cover the front reception desk",
+              "vi": "Trực thay quầy lễ tân"
+            },
+            "D": {
+              "en": "Meet with the CEO",
+              "vi": "Gặp Tổng giám đốc"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'share the updated handbook link' -> 'send a link to the updated guide'",
+            "trapAnalysis": "Câu cuối: 'share the updated handbook link with my analysts during Monday's stand-up'.",
+            "paraphrases": [
+              {
+                "audioPhrase": "handbook link",
+                "answerPhrase": "link to the updated guide",
+                "meaningVi": "đường dẫn sổ tay cập nhật"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp3-hr-2-v1",
+          "word": "pilot program",
+          "pos": "phrase",
+          "ipaUK": "/ˈpaɪlət ˈprəʊɡræm/",
+          "ipaUS": "/ˈpaɪlət ˈproʊɡræm/",
+          "meaning": "chương trình thí điểm",
+          "exampleEn": "The branch tested a four-day week as a six-month pilot program.",
+          "exampleVi": "Chi nhánh thử nghiệm tuần làm 4 ngày như chương trình thí điểm 6 tháng."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp3-hr-2.mp3"
+    }
+  ]
+}

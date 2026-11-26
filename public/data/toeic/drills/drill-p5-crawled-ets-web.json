@@ -1,0 +1,1514 @@
+{
+  "id": "drill-p5-crawled-ets-web",
+  "part": 5,
+  "title": "Part 5 Thực chiến — Kho mở ETS Web (Auto-Crawled)",
+  "subtitle": "Tuyển tập 35 câu ngữ pháp & từ vựng Part 5 cào tự động từ GitHub English-ETS-TOEIC-web kèm giải thích 5 lớp.",
+  "focusTag": "Auto-Crawled GitHub",
+  "part5": [
+    {
+      "id": "drill-p5-crawled-ets-web-q1",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "The human resources director scheduled an annual performance _______ for all full-time software engineers.",
+      "options": {
+        "A": "appraise",
+        "B": "appraisal",
+        "C": "appraised",
+        "D": "appraisingly"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Giám đốc nhân sự đã lên lịch một buổi đánh giá hiệu suất hàng năm cho tất cả kỹ sư phần mềm làm việc toàn thời gian.",
+          "optionsVi": {
+            "A": "đánh giá",
+            "B": "sự đánh giá",
+            "C": "được đánh giá",
+            "D": "một cách đánh giá"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"appraise\" (đánh giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) appraisal (sự đánh giá) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"appraised\" (được đánh giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"appraisingly\" (một cách đánh giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q2",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "All warehouse personnel must strictly follow the updated _______ regulations during night shifts.",
+      "options": {
+        "A": "safely",
+        "B": "safest",
+        "C": "save",
+        "D": "safety"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Tất cả nhân viên kho phải tuân thủ nghiêm ngặt các quy định updated trong ca đêm.",
+          "optionsVi": {
+            "A": "an toàn",
+            "B": "an toàn nhất",
+            "C": "lưu",
+            "D": "an toàn"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"safely\" (an toàn) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"safest\" (an toàn nhất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"save\" (lưu) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) safety (an toàn) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q3",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "The chief architect presented a _______ feasible proposal for migrating our legacy database.",
+      "options": {
+        "A": "technically",
+        "B": "technical",
+        "C": "technician",
+        "D": "technique"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Kiến trúc sư trưởng đã trình bày một đề xuất khả thi cho việc di chuyển cơ sở dữ liệu cũ của chúng tôi.",
+          "optionsVi": {
+            "A": "về mặt kỹ thuật",
+            "B": "kỹ thuật",
+            "C": "kỹ thuật viên",
+            "D": "kỹ thuật"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) technically (về mặt kỹ thuật) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"technical\" (kỹ thuật) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"technician\" (kỹ thuật viên) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"technique\" (kỹ thuật) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q4",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Despite rising travel costs, the downtown hotel maintained a high _______ rate throughout the fourth quarter.",
+      "options": {
+        "A": "occupant",
+        "B": "occupy",
+        "C": "occupancy",
+        "D": "occupied"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Bất chấp chi phí đi lại tăng, khách sạn trung tâm thành phố vẫn duy trì tỷ lệ lấp đầy cao trong suốt quý tư.",
+          "optionsVi": {
+            "A": "người cư ngụ",
+            "B": "chiếm giữ",
+            "C": "công suất phòng",
+            "D": "được chiếm đóng"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"occupant\" (người cư ngụ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"occupy\" (chiếm giữ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) occupancy (công suất phòng) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"occupied\" (được chiếm đóng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q5",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "The operations committee drafted a comprehensive _______ plan in case the primary cloud provider experiences an outage.",
+      "options": {
+        "A": "contingency",
+        "B": "contingent",
+        "C": "continually",
+        "D": "continuation"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Ủy ban vận hành đã soạn một kế hoạch toàn diện phòng trường hợp nhà cung cấp đám mây chính gặp sự cố.",
+          "optionsVi": {
+            "A": "dự phòng",
+            "B": "tùy thuộc",
+            "C": "liên tục",
+            "D": "sự tiếp tục"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) contingency (dự phòng) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"contingent\" (tùy thuộc) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"continually\" (liên tục) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"continuation\" (sự tiếp tục) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q6",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "To protect user privacy, all sensitive records are stored on _______ encrypted servers.",
+      "options": {
+        "A": "heavy",
+        "B": "heavily",
+        "C": "heaviness",
+        "D": "heavier"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Để bảo vệ quyền riêng tư của người dùng, tất cả hồ sơ nhạy cảm được lưu trữ trên các máy chủ được mã hóa.",
+          "optionsVi": {
+            "A": "nặng",
+            "B": "nặng nề",
+            "C": "sự nặng nề",
+            "D": "nặng hơn"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"heavy\" (nặng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) heavily (nặng nề) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"heaviness\" (sự nặng nề) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"heavier\" (nặng hơn) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q7",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "The newly appointed chief financial officer implemented _______ cost-cutting measures across all regional branches.",
+      "options": {
+        "A": "stringently",
+        "B": "stringency",
+        "C": "more stringently",
+        "D": "stringent"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Kế toán trưởng mới được bổ nhiệm đã triển khai các biện pháp cắt giảm chi phí trên tất cả các chi nhánh khu vực.",
+          "optionsVi": {
+            "A": "một cách nghiêm ngặt",
+            "B": "sự nghiêm ngặt",
+            "C": "nghiêm ngặt hơn",
+            "D": "nghiêm ngặt"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"stringently\" (một cách nghiêm ngặt) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"stringency\" (sự nghiêm ngặt) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"more stringently\" (nghiêm ngặt hơn) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) stringent (nghiêm ngặt) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q8",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Before signing the lease, the legal team requested a thorough _______ of the building's structural integrity.",
+      "options": {
+        "A": "assess",
+        "B": "assessed",
+        "C": "assessment",
+        "D": "assessing"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Trước khi ký hợp đồng thuê, đội ngũ pháp lý đã yêu cầu kiểm tra kỹ lưỡng về độ bền kết cấu của tòa nhà.",
+          "optionsVi": {
+            "A": "đánh giá",
+            "B": "đã đánh giá",
+            "C": "đánh giá",
+            "D": "đang đánh giá"
+          }
+        },
+        "proof": {
+          "explanation": "np"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"assess\" (đánh giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"assessed\" (đã đánh giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) assessment (đánh giá) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"assessing\" (đang đánh giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q9",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "All branch offices will be closed next Monday in _______ of the national holiday.",
+      "options": {
+        "A": "observance",
+        "B": "observation",
+        "C": "compliance",
+        "D": "accordance"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Tất cả các chi nhánh sẽ đóng cửa vào thứ Hai tuần tới vào ngày ___ của ngày lễ quốc gia.",
+          "optionsVi": {
+            "A": "sự tuân thủ",
+            "B": "sự quan sát",
+            "C": "sự chấp hành",
+            "D": "sự phù hợp"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) observance (sự tuân thủ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"observation\" (sự quan sát) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"compliance\" (sự chấp hành) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"accordance\" (sự phù hợp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q10",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "To maintain security standards, all remote workers must configure their devices in _______ with our IT guidelines.",
+      "options": {
+        "A": "response",
+        "B": "charge",
+        "C": "compliance",
+        "D": "favor"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Để duy trì các tiêu chuẩn bảo mật, tất cả nhân viên làm việc từ xa phải cấu hình thiết bị của mình trong ___ theo hướng dẫn CNTT của chúng tôi.",
+          "optionsVi": {
+            "A": "phản hồi",
+            "B": "phí",
+            "C": "sự chấp hành",
+            "D": "ủng hộ"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"response\" (phản hồi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"charge\" (phí) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) compliance (sự chấp hành) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"favor\" (ủng hộ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q11",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "Please _______ in mind that the staging server undergoes routine maintenance every Sunday night.",
+      "options": {
+        "A": "hold",
+        "B": "bear",
+        "C": "take",
+        "D": "make"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Xin lưu ý rằng máy chủ staging được bảo trì định kỳ vào mỗi tối Chủ nhật.",
+          "optionsVi": {
+            "A": "giữ",
+            "B": "gấu",
+            "C": "lấy",
+            "D": "làm"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"hold\" (giữ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) bear (gấu) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"take\" (lấy) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"make\" (làm) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q12",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "Only vendors that _______ the strict quality criteria will be invited to submit a final bid.",
+      "options": {
+        "A": "reach",
+        "B": "catch",
+        "C": "commit",
+        "D": "meet"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Chỉ những nhà cung cấp đáp ứng các tiêu chí chất lượng nghiêm ngặt mới được mời nộp hồ sơ dự thầu cuối cùng.",
+          "optionsVi": {
+            "A": "vươn tới",
+            "B": "bắt",
+            "C": "cam kết",
+            "D": "gặp nhau"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"reach\" (vươn tới) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"catch\" (bắt) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"commit\" (cam kết) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) meet (gặp nhau) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q13",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "After three hours of negotiation, the steering committee finally _______ a consensus on the Q3 roadmap.",
+      "options": {
+        "A": "reached",
+        "B": "arrived",
+        "C": "met",
+        "D": "took"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Sau ba giờ đàm phán, ban chỉ đạo cuối cùng đã ___ đạt được sự đồng thuận về lộ trình Q3.",
+          "optionsVi": {
+            "A": "đã đạt",
+            "B": "đã đến",
+            "C": "gặp",
+            "D": "đã lấy"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) reached (đã đạt) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"arrived\" (đã đến) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"met\" (gặp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"took\" (đã lấy) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q14",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "System backups must be verified _______ a regular basis to prevent catastrophic data loss.",
+      "options": {
+        "A": "in",
+        "B": "on",
+        "C": "at",
+        "D": "by"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Việc sao lưu hệ thống phải được xác minh ___ định kỳ để tránh mất dữ liệu nghiêm trọng.",
+          "optionsVi": {
+            "A": "trong",
+            "B": "trên",
+            "C": "tại",
+            "D": "bởi"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"in\" (trong) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) on (trên) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"at\" (tại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"by\" (bởi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q15",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "The software startup pursued rapid user growth at the _______ of long-term profitability.",
+      "options": {
+        "A": "cost",
+        "B": "price",
+        "C": "expense",
+        "D": "charge"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Startup phần mềm này đã theo đuổi sự tăng trưởng người dùng nhanh chóng ở mức ___ của lợi nhuận dài hạn.",
+          "optionsVi": {
+            "A": "chi phí",
+            "B": "giá",
+            "C": "chi phí",
+            "D": "phí"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"cost\" (chi phí) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"price\" (giá) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) expense (chi phí) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"charge\" (phí) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q16",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "Please note that all conference room reservations are _______ to change depending on executive availability.",
+      "options": {
+        "A": "likely",
+        "B": "capable",
+        "C": "eligible",
+        "D": "subject"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Xin lưu ý rằng tất cả các đặt phòng hội nghị đều có thể thay đổi tùy theo khả năng của ban điều hành.",
+          "optionsVi": {
+            "A": "có khả năng",
+            "B": "có năng lực",
+            "C": "đủ điều kiện",
+            "D": "chủ đề"
+          }
+        },
+        "proof": {
+          "explanation": "colloc"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"likely\" (có khả năng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"capable\" (có năng lực) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"eligible\" (đủ điều kiện) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) subject (chủ đề) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q17",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Please review the _______ specification document before joining the architecture review meeting.",
+      "options": {
+        "A": "attached",
+        "B": "attaching",
+        "C": "attach",
+        "D": "attachment"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Vui lòng xem xét tài liệu đặc tả trước khi tham gia cuộc họp đánh giá kiến trúc.",
+          "optionsVi": {
+            "A": "đính kèm",
+            "B": "đang đính kèm",
+            "C": "đính kèm",
+            "D": "đính kèm"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) attached (đính kèm) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"attaching\" (đang đính kèm) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"attach\" (đính kèm) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"attachment\" (đính kèm) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q18",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "Due to _______ demand for our AI analytics tool, we are adding three more cloud clusters.",
+      "options": {
+        "A": "overwhelmed",
+        "B": "overwhelm",
+        "C": "overwhelming",
+        "D": "overwhelmingly"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Do nhu cầu cao đối với công cụ phân tích AI của chúng tôi, chúng tôi đang thêm ba cụm đám mây nữa.",
+          "optionsVi": {
+            "A": "choáng ngợp",
+            "B": "áp đảo",
+            "C": "áp đảo",
+            "D": "một cách áp đảo"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"overwhelmed\" (choáng ngợp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"overwhelm\" (áp đảo) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) overwhelming (áp đảo) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"overwhelmingly\" (một cách áp đảo) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q19",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Delivery drivers must park their vehicles only in the _______ loading zone behind the warehouse.",
+      "options": {
+        "A": "designating",
+        "B": "designated",
+        "C": "designate",
+        "D": "designation"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Tài xế giao hàng chỉ được đỗ xe trong khu vực bốc dỡ phía sau kho.",
+          "optionsVi": {
+            "A": "chỉ định",
+            "B": "dược chỉ định",
+            "C": "chỉ định",
+            "D": "sự chỉ định"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"designating\" (chỉ định) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) designated (dược chỉ định) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"designate\" (chỉ định) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"designation\" (sự chỉ định) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q20",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "The subscription discount applies only to new sign-ups, not to _______ enterprise clients.",
+      "options": {
+        "A": "existed",
+        "B": "exist",
+        "C": "existence",
+        "D": "existing"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Giảm giá đăng ký chỉ áp dụng cho đăng ký mới, không áp dụng cho khách hàng doanh nghiệp hiện có.",
+          "optionsVi": {
+            "A": "tồn tại",
+            "B": "tồn tại",
+            "C": "sự tồn tại",
+            "D": "tồn tại"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"existed\" (tồn tại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"exist\" (tồn tại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"existence\" (sự tồn tại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) existing (tồn tại) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q21",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "The board of directors will vote on the _______ budget during tomorrow's quarterly meeting.",
+      "options": {
+        "A": "proposed",
+        "B": "proposing",
+        "C": "propose",
+        "D": "proposal"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Hội đồng quản trị sẽ bỏ phiếu về ngân sách của quý trong cuộc họp hàng quý ngày mai.",
+          "optionsVi": {
+            "A": "được đề xuất",
+            "B": "đang đề xuất",
+            "C": "đề xuất",
+            "D": "đề xuất"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) proposed (được đề xuất) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"proposing\" (đang đề xuất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"propose\" (đề xuất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"proposal\" (đề xuất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q22",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Contractors must present _______ security credentials before entering the server room.",
+      "options": {
+        "A": "updating",
+        "B": "update",
+        "C": "updated",
+        "D": "updates"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Nhà thầu phải xuất trình giấy tờ xác thực an ninh trước khi vào phòng máy chủ.",
+          "optionsVi": {
+            "A": "cập nhật",
+            "B": "cập nhật",
+            "C": "đã cập nhật",
+            "D": "cập nhật"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"updating\" (cập nhật) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"update\" (cập nhật) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) updated (đã cập nhật) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"updates\" (cập nhật) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q23",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "The cybersecurity seminar proved highly _______ for engineers who had little prior exposure to zero-trust networks.",
+      "options": {
+        "A": "enlightened",
+        "B": "enlightening",
+        "C": "enlighten",
+        "D": "enlightenment"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Hội thảo về an ninh mạng đã chứng minh rất hữu ích cho các kỹ sư ít tiếp xúc trước đó với mạng lưới không tin cậy.",
+          "optionsVi": {
+            "A": "được khai sáng",
+            "B": "mang tính khai sáng",
+            "C": "giác ngộ",
+            "D": "sự giác ngộ"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"enlightened\" (được khai sáng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) enlightening (mang tính khai sáng) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"enlighten\" (giác ngộ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"enlightenment\" (sự giác ngộ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q24",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Any _______ expenses incurred during the client visit must be accompanied by original itemized receipts.",
+      "options": {
+        "A": "remained",
+        "B": "remain",
+        "C": "remainder",
+        "D": "remaining"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Bất kỳ chi phí ___ phát sinh trong chuyến thăm khách hàng phải kèm theo biên lai chi tiết gốc.",
+          "optionsVi": {
+            "A": "đã còn lại",
+            "B": "còn lại",
+            "C": "phần còn lại",
+            "D": "còn lại"
+          }
+        },
+        "proof": {
+          "explanation": "part"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"remained\" (đã còn lại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"remain\" (còn lại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"remainder\" (phần còn lại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) remaining (còn lại) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q25",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "Every _______ for the senior backend developer role must complete a live coding challenge.",
+      "options": {
+        "A": "application",
+        "B": "applicable",
+        "C": "applicant",
+        "D": "apply"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Mọi ___ cho vị trí lập trình viên backend cao cấp phải hoàn thành một bài thử lập trình trực tiếp.",
+          "optionsVi": {
+            "A": "ứng dụng",
+            "B": "áp dụng",
+            "C": "người nộp đơn",
+            "D": "áp dụng"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"application\" (ứng dụng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"applicable\" (áp dụng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) applicant (người nộp đơn) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"apply\" (áp dụng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q26",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "The deployment pipeline ran _______ after the DevOps team optimized the container images.",
+      "options": {
+        "A": "smoothly",
+        "B": "smooth",
+        "C": "smoothness",
+        "D": "smoother"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Đường dẫn triển khai đã chạy ___ sau khi đội DevOps tối ưu hóa các hình ảnh container.",
+          "optionsVi": {
+            "A": "suôn sẻ",
+            "B": "mịn màng",
+            "C": "sự trơn láng",
+            "D": "mượt hơn"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) smoothly (suôn sẻ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"smooth\" (mịn màng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"smoothness\" (sự trơn láng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"smoother\" (mượt hơn) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q27",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "Automating repetitive testing tasks has significantly boosted the engineering team's overall _______.",
+      "options": {
+        "A": "production",
+        "B": "productivity",
+        "C": "productive",
+        "D": "productively"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Tự động hóa các tác vụ kiểm thử lặp đi lặp lại đã tăng đáng kể ___ tổng thể của đội ngũ kỹ sư.",
+          "optionsVi": {
+            "A": "sản xuất",
+            "B": "năng suất",
+            "C": "năng suất",
+            "D": "một cách hiệu quả"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"production\" (sản xuất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) productivity (năng suất) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"productive\" (năng suất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"productively\" (một cách hiệu quả) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q28",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "All salary details discussed during the onboarding session must be kept strictly _______.",
+      "options": {
+        "A": "confident",
+        "B": "confidentiality",
+        "C": "confidently",
+        "D": "confidential"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Mọi chi tiết lương được thảo luận trong buổi hướng dẫn phải được giữ ___ tuyệt đối.",
+          "optionsVi": {
+            "A": "tự tin",
+            "B": "sự bảo mật",
+            "C": "một cách tự tin",
+            "D": "bí mật"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"confident\" (tự tin) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"confidentiality\" (sự bảo mật) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"confidently\" (một cách tự tin) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) confidential (bí mật) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q29",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Our main _______ in the cloud storage market just lowered its enterprise pricing by fifteen percent.",
+      "options": {
+        "A": "competitor",
+        "B": "competition",
+        "C": "competitive",
+        "D": "compete"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "___ chính của chúng tôi trên thị trường lưu trữ đám mây vừa giảm giá doanh nghiệp xuống mười lăm phần trăm.",
+          "optionsVi": {
+            "A": "đối thủ",
+            "B": "cạnh tranh",
+            "C": "cạnh tranh",
+            "D": "cạnh tranh"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) competitor (đối thủ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"competition\" (cạnh tranh) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"competitive\" (cạnh tranh) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"compete\" (cạnh tranh) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q30",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "The chief technology officer was very _______ of the junior developer's innovative debugging script.",
+      "options": {
+        "A": "support",
+        "B": "supportive",
+        "C": "supporter",
+        "D": "supportively"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Giám đốc công nghệ rất ___ với kịch bản gỡ lỗi sáng tạo của lập trình viên mới.",
+          "optionsVi": {
+            "A": "hỗ trợ",
+            "B": "hỗ trợ",
+            "C": "người ủng hộ",
+            "D": "một cách ủng hộ"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"support\" (hỗ trợ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) supportive (hỗ trợ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"supporter\" (người ủng hộ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"supportively\" (một cách ủng hộ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q31",
+      "part": 5,
+      "topic": "Từ loại (Word Form)",
+      "difficulty": "Trung bình",
+      "sentence": "Upgrading to fiber-optic lines required a _______ investment, but it cut network latency in half.",
+      "options": {
+        "A": "considerate",
+        "B": "considerably",
+        "C": "considerable",
+        "D": "consideration"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại (Word Form)",
+          "signal": "4 đáp án cùng gốc từ (danh/động/tính/trạng từ) — xét vị trí ngữ pháp quanh chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Nâng cấp lên đường truyền cáp quang yêu cầu một khoản đầu tư ___, nhưng nó đã giảm một nửa độ trễ mạng.",
+          "optionsVi": {
+            "A": "ân cần",
+            "B": "đáng kể",
+            "C": "đáng kể",
+            "D": "sự cân nhắc"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"considerate\" (ân cần) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"considerably\" (đáng kể) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) considerable (đáng kể) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"consideration\" (sự cân nhắc) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Xác định cấu trúc cụm từ quanh chỗ trống (S + V + O / Adv + Adj / Adj + N) để chọn đúng hậu tố từ loại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q32",
+      "part": 5,
+      "topic": "Từ loại & Chia động từ",
+      "difficulty": "Trung bình",
+      "sentence": "Strict _______ of the clean-desk policy has reduced the risk of unauthorized data exposure.",
+      "options": {
+        "A": "observation",
+        "B": "observant",
+        "C": "observe",
+        "D": "observance"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "classification": {
+          "category": "Từ loại & Chia động từ",
+          "signal": "4 đáp án biến thể cùng gốc từ — phân tích vai trò chủ ngữ, thì và thể bị động/chủ động."
+        },
+        "translation": {
+          "questionVi": "Việc tuân thủ nghiêm ngặt chính sách bàn làm việc sạch sẽ đã giảm nguy cơ lộ dữ liệu trái phép.",
+          "optionsVi": {
+            "A": "sự quan sát",
+            "B": "tinh ý",
+            "C": "quan sát",
+            "D": "sự tuân thủ"
+          }
+        },
+        "proof": {
+          "explanation": "wordform"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"observation\" (sự quan sát) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"observant\" (tinh ý) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"observe\" (quan sát) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "ĐÁP ÁN ĐÚNG: (D) observance (sự tuân thủ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+        },
+        "keyTakeaways": {
+          "formula": "Kiểm tra chủ ngữ số ít/nhiều, dấu hiệu thì thời gian và dạng V-ing/V-ed/to-V.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q33",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "_______ the new authentication module passed all unit tests, it still needs a security audit before release.",
+      "options": {
+        "A": "Despite",
+        "B": "Although",
+        "C": "Because of",
+        "D": "Moreover"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Mặc dù mô-đun xác thực mới đã vượt qua tất cả các bài kiểm tra đơn vị, nhưng nó vẫn cần được kiểm toán bảo mật trước khi phát hành.",
+          "optionsVi": {
+            "A": "Mặc dù",
+            "B": "Mặc dù",
+            "C": "Bởi vì",
+            "D": "Hơn nữa"
+          }
+        },
+        "proof": {
+          "explanation": "conj"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"Despite\" (Mặc dù) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) Although (Mặc dù) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"Because of\" (Bởi vì) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"Moreover\" (Hơn nữa) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q34",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "_______ the pull request is approved by two senior reviewers, the CI/CD pipeline will deploy it automatically.",
+      "options": {
+        "A": "Once",
+        "B": "Upon",
+        "C": "During",
+        "D": "Prior to"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Nếu yêu cầu kéo được hai người đánh giá cao cấp phê duyệt, pipeline CI/CD sẽ triển khai nó tự động.",
+          "optionsVi": {
+            "A": "Một khi",
+            "B": "Ngay khi",
+            "C": "Trong suốt",
+            "D": "Trước khi"
+          }
+        },
+        "proof": {
+          "explanation": "conj"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) Once (Một khi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"Upon\" (Ngay khi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"During\" (Trong suốt) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"Prior to\" (Trước khi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-ets-web-q35",
+      "part": 5,
+      "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+      "difficulty": "Trung bình",
+      "sentence": "Temporary contractors cannot access the production database _______ they obtain written authorization from the CTO.",
+      "options": {
+        "A": "without",
+        "B": "except",
+        "C": "unless",
+        "D": "otherwise"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Từ vựng ngữ cảnh (Vocabulary)",
+          "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+        },
+        "translation": {
+          "questionVi": "Nhân viên hợp đồng tạm thời không thể truy cập cơ sở dữ liệu sản xuất nếu họ không nhận được sự cho phép bằng văn bản từ CTO.",
+          "optionsVi": {
+            "A": "không có",
+            "B": "trừ",
+            "C": "trừ khi",
+            "D": "nếu không thì"
+          }
+        },
+        "proof": {
+          "explanation": "conj"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"without\" (không có) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "Loại (B) \"except\" (trừ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "ĐÁP ÁN ĐÚNG: (C) unless (trừ khi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "D": "Loại (D) \"otherwise\" (nếu không thì) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    }
+  ]
+}

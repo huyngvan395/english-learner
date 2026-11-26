@@ -1,0 +1,262 @@
+[
+  {
+    "id": "wr-tr-m01",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Giải quyết khiếu nại giao hàng chậm & Đề xuất bù đắp",
+    "category": "Dịch vụ khách hàng",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi ông David, chúng tôi thành thật xin lỗi vì lô hàng bao bì in ấn của quý công ty đã bị giao chậm hai ngày so với cam kết ban đầu. Qua kiểm tra với bộ phận vận chuyển, sự chậm trễ này xuất phát từ tình trạng ùn tắc nghiêm trọng tại cảng do bão lớn đầu tuần. Hiện tại, kiện hàng đã thông quan và chắc chắn sẽ được giao đến kho của quý công ty trước 10 giờ sáng ngày mai. Để bù đắp cho sự bất tiện ngoài ý muốn này, chúng tôi xin miễn toàn bộ phí vận chuyển cho đơn hàng hiện tại và áp dụng mức giảm 10% cho đơn đặt hàng tiếp theo. Rất mong nhận được sự thông cảm của ông và tiếp tục đồng hành lâu dài cùng quý công ty.",
+    "instructions": "Dịch sang email xin lỗi và xử lý khiếu nại chuyên nghiệp bằng tiếng Anh thương mại (tránh dùng từ ngữ đổ lỗi thô cứng).",
+    "checklist": [
+      "Xin lỗi chân thành về việc lô hàng bao bì bị trễ 2 ngày so với cam kết",
+      "Giải thích nguyên nhân (tắc nghẽn cảng do bão lớn) và cập nhật hàng đã thông quan, giao trước 10h sáng mai",
+      "Đưa ra 2 chính sách bù đắp (miễn phí vận chuyển đơn hiện tại + giảm 10% đơn kế tiếp)",
+      "Bày tỏ mong muốn được thông cảm và hợp tác lâu dài"
+    ],
+    "vocabHints": [
+      { "phrase": "sincerely apologize for the delay", "pos": "phrase", "meaningVi": "thành thật xin lỗi về sự chậm trễ" },
+      { "phrase": "severe port congestion", "pos": "n", "meaningVi": "tình trạng ùn tắc cảng nghiêm trọng" },
+      { "phrase": "clear customs", "pos": "phrase", "meaningVi": "thông quan hàng hóa" },
+      { "phrase": "make up for the inconvenience", "pos": "phrase", "meaningVi": "bù đắp cho sự bất tiện" },
+      { "phrase": "waive the entire shipping fee", "pos": "phrase", "meaningVi": "miễn toàn bộ phí vận chuyển" },
+      { "phrase": "appreciate your patience and understanding", "pos": "phrase", "meaningVi": "trân trọng sự kiên nhẫn và thông cảm" }
+    ],
+    "recommendedWords": { "min": 95, "max": 145 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m02",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Báo cáo tiến độ dự án website hàng tuần",
+    "category": "Quản lý dự án",
+    "sourceLanguage": "vi",
+    "passage": "Chào anh Hoàng, tôi gửi anh bản cập nhật tiến độ tuần thứ tư của dự án nâng cấp cổng thông tin khách hàng. Tính đến hôm nay, nhóm lập trình đã hoàn thành giao diện trang chủ mới và tích hợp xong cổng thanh toán trực tuyến đúng theo lộ trình đề ra. Tuy nhiên, phần kiểm thử bảo mật trên thiết bị di động đang chậm hơn dự kiến hai ngày do phát sinh một lỗi hiển thị nhỏ trên trình duyệt Safari. Kỹ sư trưởng của chúng tôi đã tìm ra nguyên nhân gốc rễ và dự kiến sẽ khắc phục triệt để trước chiều thứ Năm. Nhìn chung, ngày ra mắt chính thức vào đầu tháng sau vẫn không bị ảnh hưởng và chi phí dự án vẫn nằm gọn trong ngân sách được duyệt.",
+    "instructions": "Dịch báo cáo tiến độ dự án sang tiếng Anh mạch lạc, sử dụng chuẩn các cụm từ quản trị dự án (ahead/behind schedule, root cause, within budget).",
+    "checklist": [
+      "Mở đầu báo cáo tuần thứ 4 của dự án nâng cấp cổng khách hàng",
+      "Nêu 2 hạng mục hoàn thành đúng tiến độ (giao diện trang chủ & cổng thanh toán)",
+      "Trình bày điểm trễ 2 ngày ở khâu kiểm thử bảo mật di động (lỗi Safari) và kế hoạch sửa trước chiều thứ Năm",
+      "Khẳng định ngày ra mắt đầu tháng sau không bị ảnh hưởng và chi phí trong ngân sách"
+    ],
+    "vocabHints": [
+      { "phrase": "weekly progress update", "pos": "n", "meaningVi": "bản cập nhật tiến độ hàng tuần" },
+      { "phrase": "right on schedule", "pos": "phrase", "meaningVi": "đúng theo lộ trình" },
+      { "phrase": "two days behind schedule", "pos": "phrase", "meaningVi": "chậm tiến độ hai ngày" },
+      { "phrase": "identify the root cause", "pos": "phrase", "meaningVi": "xác định nguyên nhân gốc rễ" },
+      { "phrase": "resolve the issue completely", "pos": "phrase", "meaningVi": "khắc phục triệt để vấn đề" },
+      { "phrase": "well within the approved budget", "pos": "phrase", "meaningVi": "nằm gọn trong ngân sách đã duyệt" }
+    ],
+    "recommendedWords": { "min": 95, "max": 145 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m03",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Thông báo bảo trì điện & Chuyển khu vực làm việc tạm thời",
+    "category": "Thông báo nội bộ",
+    "sourceLanguage": "vi",
+    "passage": "Nhằm nâng cấp hệ thống điều hòa trung tâm trước mùa cao điểm nắng nóng, ban quản lý tòa nhà sẽ tiến hành bảo trì kỹ thuật tại toàn bộ cánh Đông tầng bốn vào thứ Bảy tuần này, từ 8 giờ sáng đến 4 giờ chiều. Trong khung giờ nói trên, nguồn điện và hệ thống mạng dây tại khu vực này sẽ bị ngắt tạm thời để đảm bảo an toàn thi công. Các nhân viên có lịch làm thêm giờ cuối tuần được khuyến nghị chuyển sang làm việc tại phòng đào tạo tầng hai hoặc đăng ký làm việc từ xa tại nhà. Xin vui lòng tắt hoàn toàn máy tính bàn và rút phích cắm các thiết bị điện cá nhân trước khi ra về vào chiều thứ Sáu. Cảm ơn sự phối hợp của toàn thể nhân viên nhằm giúp đợt bảo trì diễn ra suôn sẻ.",
+    "instructions": "Dịch thông báo nội bộ trên sang tiếng Anh trang trọng, sử dụng thể bị động và cấu trúc khuyến nghị tự nhiên.",
+    "checklist": [
+      "Nêu mục đích nâng cấp điều hòa trung tâm, địa điểm (cánh Đông tầng 4) và khung giờ (Thứ Bảy 8:00–16:00)",
+      "Thông báo tạm ngắt điện và mạng dây vì lý do an toàn thi công",
+      "Đưa ra 2 phương án thay thế cho nhân viên làm thêm giờ cuối tuần",
+      "Nhắc nhở tắt máy tính & rút phích cắm chiều thứ Sáu và cảm ơn sự hợp tác"
+    ],
+    "vocabHints": [
+      { "phrase": "central air-conditioning system", "pos": "n", "meaningVi": "hệ thống điều hòa trung tâm" },
+      { "phrase": "during the maintenance window", "pos": "phrase", "meaningVi": "trong khung giờ bảo trì" },
+      { "phrase": "be temporarily disconnected", "pos": "phrase", "meaningVi": "bị ngắt kết nối tạm thời" },
+      { "phrase": "be advised to relocate to", "pos": "phrase", "meaningVi": "được khuyến nghị chuyển sang" },
+      { "phrase": "unplug personal electronic devices", "pos": "phrase", "meaningVi": "rút phích cắm thiết bị điện cá nhân" },
+      { "phrase": "run smoothly", "pos": "phrase", "meaningVi": "diễn ra suôn sẻ" }
+    ],
+    "recommendedWords": { "min": 95, "max": 150 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m04",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Xin phê duyệt ngân sách mua phần mềm thiết kế",
+    "category": "Tài chính & Đề xuất",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi chị Thảo, tôi viết email này để đề xuất phê duyệt khoản ngân sách 3.600 đô la nhằm mua gói bản quyền thường niên phần mềm thiết kế cộng tác DesignCloud cho sáu thành viên nhóm Sáng tạo. Hiện tại, chúng tôi vẫn đang sử dụng phiên bản ngoại tuyến cũ, khiến việc chia sẻ tệp dung lượng lớn và tổng hợp góp ý từ khách hàng mất rất nhiều thời gian. Theo kết quả dùng thử hai tuần vừa qua, DesignCloud giúp rút ngắn gần 30% thời gian chỉnh sửa mẫu quảng cáo và giảm thiểu lỗi đồng bộ phiên bản. Hơn nữa, nếu chúng ta ký hợp đồng trước ngày 30 tháng này, nhà cung cấp sẽ tặng thêm hai tháng sử dụng miễn phí kèm một buổi đào tạo trực tuyến. Tôi đã đính kèm báo giá chi tiết và bảng so sánh chi phí để chị xem xét.",
+    "instructions": "Dịch đề xuất ngân sách sang email tiếng Anh thuyết phục, nhấn mạnh lợi ích định lượng và ưu đãi chốt sớm.",
+    "checklist": [
+      "Nêu rõ khoản đề xuất ($3,600) để mua bản quyền năm DesignCloud cho 6 thành viên",
+      "Trình bày hạn chế của bản ngoại tuyến cũ (chậm chia sẻ tệp lớn & gom góp ý)",
+      "Dẫn chứng kết quả thử nghiệm 2 tuần (giảm 30% thời gian chỉnh sửa, ít lỗi phiên bản)",
+      "Nêu ưu đãi chốt trước ngày 30 (+2 tháng miễn phí & 1 buổi đào tạo) và tài liệu đính kèm"
+    ],
+    "vocabHints": [
+      { "phrase": "request budget approval for", "pos": "phrase", "meaningVi": "đề xuất phê duyệt ngân sách cho" },
+      { "phrase": "annual license subscription", "pos": "n", "meaningVi": "gói bản quyền thường niên" },
+      { "phrase": "outdated offline version", "pos": "n", "meaningVi": "phiên bản ngoại tuyến cũ" },
+      { "phrase": "cut revision time by nearly 30%", "pos": "phrase", "meaningVi": "rút ngắn thời gian chỉnh sửa gần 30%" },
+      { "phrase": "minimize version-control errors", "pos": "phrase", "meaningVi": "giảm thiểu lỗi đồng bộ phiên bản" },
+      { "phrase": "itemized quote and cost comparison", "pos": "n", "meaningVi": "báo giá chi tiết và bảng so sánh chi phí" }
+    ],
+    "recommendedWords": { "min": 100, "max": 150 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m05",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Tóm tắt kết quả cuộc họp định kỳ cùng khách hàng",
+    "category": "Họp hành & Báo cáo",
+    "sourceLanguage": "vi",
+    "passage": "Cảm ơn anh chị đã dành thời gian tham dự buổi họp rà soát chiến dịch quý ba sáng nay. Để đảm bảo cả hai bên thống nhất mọi đầu việc, tôi xin tóm tắt ngắn gọn ba quyết định chính vừa được thông qua. Thứ nhất, chúng ta nhất trí điều chỉnh ngân sách quảng cáo kỹ thuật số tăng thêm 15% cho khu vực miền Nam bắt đầu từ tháng tới. Thứ hai, nhóm sản xuất nội dung sẽ bàn giao toàn bộ ba video giới thiệu sản phẩm mới chậm nhất vào thứ Sáu tuần sau. Cuối cùng, buổi họp đánh giá hiệu quả tiếp theo được ấn định vào 10 giờ sáng ngày 25 tháng 8. Xin vui lòng phản hồi lại nếu có bất kỳ chi tiết nào cần bổ sung hoặc hiệu chỉnh.",
+    "instructions": "Dịch email tóm tắt biên bản họp (Meeting Recap) sang tiếng Anh súc tích, có cấu trúc liệt kê mạch lạc.",
+    "checklist": [
+      "Cảm ơn tham dự họp rà soát chiến dịch Q3 và nêu mục đích tóm tắt 3 quyết định chính",
+      "Trình bày quyết định 1 (tăng 15% ngân sách digital miền Nam từ tháng tới)",
+      "Trình bày quyết định 2 (giao 3 video sản phẩm mới chậm nhất thứ Sáu tuần sau)",
+      "Nêu lịch họp đánh giá tiếp theo (10:00 sáng ngày 25/8) và mời phản hồi chỉnh sửa"
+    ],
+    "vocabHints": [
+      { "phrase": "ensure both teams are aligned", "pos": "phrase", "meaningVi": "đảm bảo cả hai bên thống nhất" },
+      { "phrase": "summarize the three key decisions", "pos": "phrase", "meaningVi": "tóm tắt ba quyết định chính" },
+      { "phrase": "reallocate / increase the digital ad budget", "pos": "phrase", "meaningVi": "tăng ngân sách quảng cáo số" },
+      { "phrase": "deliver all three promotional videos", "pos": "phrase", "meaningVi": "bàn giao toàn bộ ba video quảng bá" },
+      { "phrase": "be scheduled for August 25 at 10:00 A.M.", "pos": "phrase", "meaningVi": "được ấn định vào 10h sáng 25/8" },
+      { "phrase": "require any additions or corrections", "pos": "phrase", "meaningVi": "cần bổ sung hoặc hiệu chỉnh" }
+    ],
+    "recommendedWords": { "min": 95, "max": 145 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m06",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Đề xuất cải tiến quy trình tiếp nhận hỗ trợ khách hàng",
+    "category": "Vận hành & Quy trình",
+    "sourceLanguage": "vi",
+    "passage": "Trong ba tháng gần đây, số lượng yêu cầu hỗ trợ kỹ thuật gửi qua email và điện thoại đã tăng gấp đôi do lượng người dùng mới tăng mạnh. Vì mọi yêu cầu hiện đang được ghi nhận thủ công trên bảng tính dùng chung, một số phiếu hỗ trợ khẩn cấp đôi khi bị bỏ sót hoặc phản hồi chậm quá hai mươi bốn giờ. Tôi đề xuất chúng ta triển khai hệ thống phân loại phiếu hỗ trợ tự động theo mức độ ưu tiên để phân bổ công việc đồng đều giữa các chuyên viên. Bên cạnh đó, việc xây dựng một trang Câu hỏi thường gặp chi tiết sẽ giúp khách hàng tự xử lý nhanh các lỗi đăng nhập cơ bản. Nếu áp dụng đồng thời hai giải pháp này, tôi tin tỷ lệ hài lòng của khách hàng sẽ cải thiện rõ rệt ngay trong quý tới.",
+    "instructions": "Dịch bản đề xuất cải tiến quy trình sang tiếng Anh chặt chẽ, làm rõ quan hệ Nguyên nhân – Vấn đề – Giải pháp – Kết quả.",
+    "checklist": [
+      "Nêu thực trạng số yêu cầu hỗ trợ tăng gấp đôi trong 3 tháng gần đây",
+      "Chỉ ra bất cập của việc ghi nhận thủ công trên bảng tính (bỏ sót phiếu khẩn, chậm > 24h)",
+      "Đề xuất 2 giải pháp (hệ thống phân loại tự động theo độ ưu tiên + trang FAQ chi tiết)",
+      "Dự báo tác động tích cực lên mức độ hài lòng khách hàng trong quý tới"
+    ],
+    "vocabHints": [
+      { "phrase": "double in volume", "pos": "phrase", "meaningVi": "tăng gấp đôi về số lượng" },
+      { "phrase": "log manually in a shared spreadsheet", "pos": "phrase", "meaningVi": "ghi nhận thủ công trên bảng tính dùng chung" },
+      { "phrase": "be overlooked / fall through the cracks", "pos": "phrase", "meaningVi": "bị bỏ sót" },
+      { "phrase": "automated ticketing system", "pos": "n", "meaningVi": "hệ thống phân loại phiếu hỗ trợ tự động" },
+      { "phrase": "comprehensive FAQ page", "pos": "n", "meaningVi": "trang Câu hỏi thường gặp chi tiết" },
+      { "phrase": "customer satisfaction ratings", "pos": "n", "meaningVi": "tỷ lệ hài lòng của khách hàng" }
+    ],
+    "recommendedWords": { "min": 100, "max": 150 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m07",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Thư mời phỏng vấn & Hướng dẫn chuẩn bị cho ứng viên",
+    "category": "Tuyển dụng & Nhân sự",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi anh Khánh, cảm ơn anh đã quan tâm ứng tuyển vị trí Chuyên viên Phân tích Dữ liệu tại Công ty Tài chính Sao Việt. Sau khi xem xét kỹ hồ sơ, hội đồng tuyển dụng rất ấn tượng với các dự án trực quan hóa dữ liệu mà anh đã thực hiện trước đây. Chúng tôi trân trọng mời anh tham dự vòng phỏng vấn trực tiếp kéo dài một tiếng vào lúc 9 giờ 30 sáng thứ Năm, ngày 22 tháng 5, tại trụ sở chính tầng mười hai. Trong buổi gặp, ngoài việc trao đổi kinh nghiệm làm việc, anh sẽ thực hiện một bài tập tình huống ngắn trong mười lăm phút để đánh giá tư duy phân tích. Vui lòng phản hồi xác nhận trước thứ Ba để chúng tôi chuẩn bị thẻ khách và tài liệu cần thiết.",
+    "instructions": "Dịch thư mời phỏng vấn sang tiếng Anh trang trọng, lịch sự đúng chuẩn bộ phận Nhân sự (HR).",
+    "checklist": [
+      "Cảm ơn ứng tuyển vị trí Chuyên viên Phân tích Dữ liệu & khen các dự án trực quan hóa dữ liệu",
+      "Mời phỏng vấn trực tiếp 1 tiếng lúc 9:30 sáng Thứ Năm 22/5 tại tầng 12 trụ sở chính",
+      "Mô tả nội dung buổi phỏng vấn (trao đổi kinh nghiệm + bài tập tình huống 15 phút)",
+      "Yêu cầu xác nhận tham dự trước thứ Ba để chuẩn bị thẻ khách & tài liệu"
+    ],
+    "vocabHints": [
+      { "phrase": "data visualization projects", "pos": "n", "meaningVi": "các dự án trực quan hóa dữ liệu" },
+      { "phrase": "be pleased to invite you to an on-site interview", "pos": "phrase", "meaningVi": "trân trọng mời bạn dự phỏng vấn trực tiếp" },
+      { "phrase": "short fifteen-minute case study", "pos": "n", "meaningVi": "bài tập tình huống ngắn 15 phút" },
+      { "phrase": "assess analytical thinking", "pos": "phrase", "meaningVi": "đánh giá tư duy phân tích" },
+      { "phrase": "confirm your attendance by Tuesday", "pos": "phrase", "meaningVi": "xác nhận tham dự trước thứ Ba" },
+      { "phrase": "arrange a visitor pass", "pos": "phrase", "meaningVi": "chuẩn bị thẻ khách" }
+    ],
+    "recommendedWords": { "min": 95, "max": 145 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m08",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Kế hoạch công tác & Quy trình hoàn chi phí chuyến đi",
+    "category": "Công tác & Hành chính",
+    "sourceLanguage": "vi",
+    "passage": "Chào Trang, tuần tới tôi và kỹ sư trưởng sẽ có chuyến công tác ba ngày tại Đà Nẵng để khảo sát địa điểm mở chi nhánh miền Trung và gặp gỡ hai nhà cung cấp địa phương. Chuyến bay của chúng tôi khởi hành lúc 7 giờ sáng thứ Tư và dự kiến quay về Hà Nội vào tối thứ Sáu. Nhờ em hỗ trợ đặt hai phòng khách sạn gần trung tâm hội nghị cũng như sắp xếp xe đưa đón sân bay giúp anh nhé. Toàn bộ hóa đơn ăn ở và đi lại phát sinh trong chuyến công tác sẽ được anh lưu giữ đầy đủ và nộp lên cổng thanh toán nội bộ ngay khi trở về. Nếu cần chữ ký phê duyệt của giám đốc trước khi xuất vé máy bay, em cứ gửi biểu mẫu qua email cho anh trong hôm nay.",
+    "instructions": "Dịch email trao đổi công tác sang tiếng Anh tự nhiên, dùng chuẩn từ vựng hành chính & công tác (itinerary, reimbursement, itemized receipts).",
+    "checklist": [
+      "Nêu kế hoạch công tác 3 ngày tại Đà Nẵng (khảo sát chi nhánh & gặp 2 nhà cung cấp) cùng kỹ sư trưởng",
+      "Cung cấp lịch bay (đi 7h sáng Thứ Tư, về tối Thứ Sáu)",
+      "Nhờ đặt 2 phòng khách sạn gần trung tâm hội nghị và xe đưa đón sân bay",
+      "Cam kết lưu đủ hóa đơn nộp cổng thanh toán nội bộ & sẵn sàng xử lý thủ tục duyệt vé"
+    ],
+    "vocabHints": [
+      { "phrase": "three-day business trip", "pos": "n", "meaningVi": "chuyến công tác ba ngày" },
+      { "phrase": "inspect potential branch locations", "pos": "phrase", "meaningVi": "khảo sát địa điểm mở chi nhánh" },
+      { "phrase": "airport shuttle / transfer", "pos": "n", "meaningVi": "xe đưa đón sân bay" },
+      { "phrase": "retain all itemized receipts", "pos": "phrase", "meaningVi": "lưu giữ đầy đủ hóa đơn chi tiết" },
+      { "phrase": "internal reimbursement portal", "pos": "n", "meaningVi": "cổng thanh toán hoàn chi phí nội bộ" },
+      { "phrase": "prior to issuing the flight tickets", "pos": "phrase", "meaningVi": "trước khi xuất vé máy bay" }
+    ],
+    "recommendedWords": { "min": 95, "max": 150 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m09",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Đề xuất hợp tác đồng tổ chức hội thảo khách hàng",
+    "category": "Đối tác & Kinh doanh",
+    "sourceLanguage": "vi",
+    "passage": "Kính gửi bà Claire, tiếp nối cuộc trò chuyện rất cởi mở tại triển lãm thương mại tuần trước, tôi viết thư này để đề xuất hai công ty chúng ta đồng tổ chức một hội thảo trực tuyến miễn phí vào tháng Chín tới. Chủ đề dự kiến là ứng dụng giải pháp đóng gói thân thiện môi trường nhằm tối ưu chi phí cho các doanh nghiệp bán lẻ vừa và nhỏ. Phía chúng tôi có thể đảm nhận khâu kỹ thuật phát sóng trực tuyến, thiết kế ấn phẩm truyền thông và quảng bá tới hơn năm nghìn khách hàng trong danh sách email. Đổi lại, chúng tôi rất mong chuyên gia chuỗi cung ứng của quý công ty chia sẻ một nghiên cứu tình huống thực tế dài hai mươi phút. Nếu bà quan tâm tới ý tưởng này, chúng ta có thể sắp xếp một cuộc gọi ngắn vào tuần tới để thống nhất lịch trình chi tiết.",
+    "instructions": "Dịch thư đề xuất hợp tác B2B sang tiếng Anh trang trọng, lịch thiệp và giàu sức thuyết phục.",
+    "checklist": [
+      "Nhắc cuộc gặp tại triển lãm tuần trước & đề xuất đồng tổ chức webinar miễn phí tháng 9",
+      "Nêu rõ chủ đề (bao bì thân thiện môi trường giúp tối ưu chi phí cho SME bán lẻ)",
+      "Nêu phần đóng góp của bên gửi (kỹ thuật phát sóng, ấn phẩm, quảng bá tới >5.000 khách)",
+      "Đề nghị phía đối tác chia sẻ case study 20 phút và hẹn cuộc gọi tuần tới"
+    ],
+    "vocabHints": [
+      { "phrase": "co-host a complimentary webinar", "pos": "phrase", "meaningVi": "đồng tổ chức hội thảo trực tuyến miễn phí" },
+      { "phrase": "eco-friendly packaging solutions", "pos": "n", "meaningVi": "giải pháp đóng gói thân thiện môi trường" },
+      { "phrase": "small and medium-sized retailers", "pos": "n", "meaningVi": "các doanh nghiệp bán lẻ vừa và nhỏ" },
+      { "phrase": "handle live-streaming logistics", "pos": "phrase", "meaningVi": "đảm nhận khâu kỹ thuật phát sóng trực tuyến" },
+      { "phrase": "present a twenty-minute real-world case study", "pos": "phrase", "meaningVi": "trình bày nghiên cứu tình huống thực tế 20 phút" },
+      { "phrase": "align on a detailed timeline", "pos": "phrase", "meaningVi": "thống nhất lịch trình chi tiết" }
+    ],
+    "recommendedWords": { "min": 100, "max": 155 },
+    "recommendedMinutes": 12
+  },
+  {
+    "id": "wr-tr-m10",
+    "mode": "translation",
+    "difficulty": "Trung bình",
+    "title": "Tổng kết đánh giá hiệu suất quý & Mục tiêu đào tạo",
+    "category": "Quản trị nhân sự",
+    "sourceLanguage": "vi",
+    "passage": "Trong quý vừa qua, đội ngũ Kinh doanh đã vượt mục tiêu doanh thu đề ra 12% nhờ chiến lược chăm sóc khách hàng doanh nghiệp bài bản và tốc độ phản hồi báo giá nhanh hơn. Đặc biệt, tỷ lệ khách hàng cũ gia hạn hợp đồng thường niên đã tăng từ 78% lên 86%, một con số rất đáng khích lệ trong bối cảnh thị trường cạnh tranh gay gắt. Tuy nhiên, kết quả khảo sát nội bộ cũng cho thấy nhiều nhân sự mới vẫn gặp lúng túng khi thuyết trình sản phẩm kỹ thuật bằng tiếng Anh cho đối tác nước ngoài. Do đó, sang quý tới, công ty sẽ tài trợ một khóa đào tạo kỹ năng thuyết trình thương mại kéo dài sáu tuần cho toàn bộ chuyên viên tư vấn. Mục tiêu của chúng ta là nâng cao đồng đều năng lực chuyên môn và chuẩn bị sẵn sàng cho các hợp đồng quốc tế quy mô lớn hơn.",
+    "instructions": "Dịch bản tổng kết hiệu suất sang tiếng Anh chuyên nghiệp, thể hiện tốt sự chuyển ý giữa thành tựu và định hướng đào tạo.",
+    "checklist": [
+      "Nêu thành tích vượt 12% mục tiêu doanh thu quý nhờ chăm sóc B2B và báo giá nhanh",
+      "Trích số liệu tỷ lệ gia hạn hợp đồng tăng từ 78% lên 86% giữa cạnh tranh gay gắt",
+      "Chỉ ra điểm yếu từ khảo sát nội bộ (nhân sự mới lúng túng khi thuyết trình kỹ thuật bằng tiếng Anh)",
+      "Trình bày kế hoạch tài trợ khóa thuyết trình thương mại 6 tuần và mục tiêu cho quý tới"
+    ],
+    "vocabHints": [
+      { "phrase": "exceed the quarterly revenue target by 12%", "pos": "phrase", "meaningVi": "vượt mục tiêu doanh thu quý 12%" },
+      { "phrase": "annual contract renewal rate", "pos": "n", "meaningVi": "tỷ lệ gia hạn hợp đồng thường niên" },
+      { "phrase": "amid fierce market competition", "pos": "phrase", "meaningVi": "giữa bối cảnh cạnh tranh gay gắt" },
+      { "phrase": "struggle to deliver technical pitches", "pos": "phrase", "meaningVi": "gặp khó khăn khi thuyết trình sản phẩm kỹ thuật" },
+      { "phrase": "sponsor a six-week business presentation course", "pos": "phrase", "meaningVi": "tài trợ khóa học thuyết trình thương mại 6 tuần" },
+      { "phrase": "large-scale international accounts", "pos": "n", "meaningVi": "các hợp đồng quốc tế quy mô lớn" }
+    ],
+    "recommendedWords": { "min": 100, "max": 155 },
+    "recommendedMinutes": 12
+  }
+]

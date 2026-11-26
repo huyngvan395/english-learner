@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-comp-cond",
+  "part": 5,
+  "title": "Chuyên đề 8: So sánh & Câu điều kiện",
+  "subtitle": "Trạng từ nhấn mạnh so sánh hơn ('significantly') và đảo ngữ 'Were S to V'.",
+  "focusTag": "Comp & Cond",
+  "part5": [
+    {
+      "id": "dp5-cc-1",
+      "part": 5,
+      "topic": "So sánh & Câu điều kiện",
+      "difficulty": "Cơ bản",
+      "sentence": "The hybrid SUV offers _______ fuel economy than any previous model in our lineup.",
+      "options": {
+        "A": "good",
+        "B": "better",
+        "C": "best",
+        "D": "well"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "So sánh hơn với dấu hiệu 'than'",
+          "signal": "Phía sau chỗ trống có từ 'than' + bổ nghĩa cho danh từ 'fuel economy'."
+        },
+        "translation": {
+          "questionVi": "Mẫu SUV hybrid mang lại khả năng tiết kiệm nhiên liệu tốt hơn bất kỳ mẫu tiền nhiệm nào trong dòng xe của ta.",
+          "optionsVi": {
+            "A": "tốt (nguyên mẫu)",
+            "B": "tốt hơn (so sánh hơn)",
+            "C": "tốt nhất (so sánh nhất)",
+            "D": "tốt (trạng từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Có 'than' bắt buộc dùng so sánh hơn của tính từ 'good' -> 'better'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai dạng nguyên thể.",
+          "B": "Đúng: better + N + than.",
+          "C": "Sai: so sánh nhất cần 'the best'.",
+          "D": "Sai từ loại: trạng từ."
+        },
+        "keyTakeaways": {
+          "formula": "Adj-er / more + Adj + (Noun) + than",
+          "commonTrap": "Bị từ 'any' làm phân tâm sang so sánh nhất.",
+          "paraphrases": [
+            {
+              "textInPassage": "fuel economy",
+              "textInAnswer": "gas mileage efficiency",
+              "meaningVi": "mức tiết kiệm nhiên liệu"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-cc-2",
+      "part": 5,
+      "topic": "So sánh & Câu điều kiện",
+      "difficulty": "Trung bình",
+      "sentence": "Of all the regional warehouses audited this spring, the Busan facility achieved the _______ accuracy rate.",
+      "options": {
+        "A": "high",
+        "B": "higher",
+        "C": "highest",
+        "D": "highly"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "So sánh nhất trong nhóm >= 3 đối tượng",
+          "signal": "Dấu hiệu kép: 'Of all the regional warehouses...' + mạo từ 'the' trước chỗ trống."
+        },
+        "translation": {
+          "questionVi": "Trong tất cả các nhà kho khu vực được kiểm toán mùa xuân này, cơ sở Busan đạt tỷ lệ chính xác cao nhất.",
+          "optionsVi": {
+            "A": "cao",
+            "B": "cao hơn",
+            "C": "cao nhất (so sánh nhất)",
+            "D": "rất cao (trạng từ)"
+          }
+        },
+        "proof": {
+          "explanation": "So sánh 1 cơ sở với toàn bộ nhóm ('Of all...') + 'the' -> dùng so sánh nhất 'highest'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai.",
+          "B": "Sai: chỉ dùng cho 2 đối tượng.",
+          "C": "Đúng: the + highest + N.",
+          "D": "Sai: trạng từ."
+        },
+        "keyTakeaways": {
+          "formula": "Of all + N(số nhiều), S + V + the + Adj-est / most Adj",
+          "commonTrap": "Bỏ quên cụm 'Of all...' đầu câu.",
+          "paraphrases": [
+            {
+              "textInPassage": "accuracy rate",
+              "textInAnswer": "precision score",
+              "meaningVi": "tỷ lệ chính xác"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-cc-3",
+      "part": 5,
+      "topic": "So sánh & Câu điều kiện",
+      "difficulty": "Trung bình",
+      "sentence": "If the supplier _______ the missing valves by noon, we can finish assembly before evening.",
+      "options": {
+        "A": "delivers",
+        "B": "delivered",
+        "C": "will deliver",
+        "D": "had delivered"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Câu điều kiện loại 1 (If + Hiện tại đơn, S + can/will + V0)",
+          "signal": "Vế chính dùng 'can finish' -> vế If chia Hiện tại đơn."
+        },
+        "translation": {
+          "questionVi": "Nếu nhà cung cấp giao các van còn thiếu trước trưa, chúng ta có thể hoàn tất lắp ráp trước buổi tối.",
+          "optionsVi": {
+            "A": "giao (hiện tại đơn)",
+            "B": "đã giao (loại 2)",
+            "C": "sẽ giao (sai sau If)",
+            "D": "đã giao (loại 3)"
+          }
+        },
+        "proof": {
+          "explanation": "Điều kiện có thật ở tương lai -> vế If chia Hiện tại đơn ('delivers'), không dùng 'will'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: If + S + V(s/es), S + can + V0.",
+          "B": "Sai loại 2 (cần 'could finish').",
+          "C": "Sai: không dùng 'will' trong vế If loại 1.",
+          "D": "Sai loại 3."
+        },
+        "keyTakeaways": {
+          "formula": "If + S + V(hiện tại đơn), S + will/can/may + V0",
+          "commonTrap": "Thói quen dịch 'nếu sẽ giao' dẫn tới chọn 'will deliver'.",
+          "paraphrases": [
+            {
+              "textInPassage": "finish assembly",
+              "textInAnswer": "complete production",
+              "meaningVi": "hoàn tất lắp ráp"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-cc-4",
+      "part": 5,
+      "topic": "So sánh & Câu điều kiện",
+      "difficulty": "Nâng cao",
+      "sentence": "The renovated commuter terminal is _______ more spacious than the old station.",
+      "options": {
+        "A": "very",
+        "B": "significantly",
+        "C": "too",
+        "D": "so"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Trạng từ nhấn mạnh trước So sánh hơn",
+          "signal": "Trước 'more spacious than' chỉ dùng được nhóm trạng từ nhấn mạnh (much / far / significantly / considerably)."
+        },
+        "translation": {
+          "questionVi": "Nhà ga tàu ngoại ô mới cải tạo rộng rãi hơn đáng kể so với nhà ga cũ.",
+          "optionsVi": {
+            "A": "rất (không đi với so sánh hơn)",
+            "B": "đáng kể (nhấn mạnh so sánh hơn)",
+            "C": "quá (không đi với so sánh hơn)",
+            "D": "quá (không đi với so sánh hơn)"
+          }
+        },
+        "proof": {
+          "explanation": "'very / too / so' KHÔNG đứng trước so sánh hơn; chỉ 'significantly / much / far / even' mới hợp chuẩn."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai ngữ pháp: không nói 'very more spacious'.",
+          "B": "Đúng: significantly + more Adj + than.",
+          "C": "Sai ngữ pháp.",
+          "D": "Sai ngữ pháp."
+        },
+        "keyTakeaways": {
+          "formula": "much / far / even / a lot / significantly + Comparative (more Adj / Adj-er)",
+          "commonTrap": "Cực dễ chọn nhầm 'very' do dịch tiếng Việt 'rất rộng hơn'!",
+          "paraphrases": [
+            {
+              "textInPassage": "significantly more spacious",
+              "textInAnswer": "far roomier",
+              "meaningVi": "rộng rãi hơn đáng kể"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-cc-5",
+      "part": 5,
+      "topic": "So sánh & Câu điều kiện",
+      "difficulty": "Nâng cao",
+      "sentence": "Were the company _______ a four-day workweek, employee retention would likely rise.",
+      "options": {
+        "A": "adopt",
+        "B": "to adopt",
+        "C": "adopting",
+        "D": "adopted"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Đảo ngữ Câu điều kiện loại 2 (Were + S + to V)",
+          "signal": "Vế đầu bắt đầu bằng 'Were + S' + vế chính dùng 'would likely rise'."
+        },
+        "translation": {
+          "questionVi": "Nếu công ty áp dụng tuần làm việc bốn ngày, tỷ lệ giữ chân nhân viên nhiều khả năng sẽ tăng lên.",
+          "optionsVi": {
+            "A": "V nguyên mẫu (sai)",
+            "B": "để áp dụng ('Were S to V')",
+            "C": "V-ing",
+            "D": "V3 bị động (sai thể vì có O phía sau)"
+          }
+        },
+        "proof": {
+          "explanation": "Đảo ngữ câu điều kiện loại 2 với động từ thường bắt buộc dùng cấu trúc 'Were + S + to V'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: thiếu 'to'.",
+          "B": "Đúng: Were + S + to V0, S + would + V0.",
+          "C": "Sai cấu trúc.",
+          "D": "Sai thể bị động vì có tân ngữ 'a four-day workweek'."
+        },
+        "keyTakeaways": {
+          "formula": "Were + S + to V0, S + would/could + V0",
+          "commonTrap": "Rất ít bạn nhớ cấu trúc 'Were + S + to V' nên dễ chọn 'adopted' hoặc 'adopt'.",
+          "paraphrases": [
+            {
+              "textInPassage": "employee retention",
+              "textInAnswer": "keeping staff long-term",
+              "meaningVi": "tỷ lệ giữ chân nhân sự"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

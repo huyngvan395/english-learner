@@ -1,0 +1,324 @@
+{
+  "id": "drill-p1-single",
+  "part": 1,
+  "title": "Tả 1 người — Hành động & Tư thế",
+  "subtitle": "Luyện nghe chuẩn động từ V-ing & tư thế người tại văn phòng, nhà bếp.",
+  "focusTag": "Single Person",
+  "part1": [
+    {
+      "id": "dp1-s-1",
+      "part": 1,
+      "sceneType": "single-person",
+      "title": "Nhân viên tập trung đọc tài liệu trên màn hình",
+      "illustrationKey": "office-laptop",
+      "imageUrl": "/images/part1/part1_office_laptop.jpg",
+      "transcript": [
+        {
+          "id": "dp1-s-1-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "A. The woman is looking at a computer screen.",
+          "vi": "A. Người phụ nữ đang nhìn vào màn hình máy tính.",
+          "evidenceForQuestionIds": [
+            "dp1-s-1"
+          ],
+          "startMs": 240,
+          "endMs": 3552
+        },
+        {
+          "id": "dp1-s-1-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "B. The woman is plugging in a desk lamp.",
+          "vi": "B. Người phụ nữ đang cắm phích đèn bàn.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4152,
+          "endMs": 7248
+        },
+        {
+          "id": "dp1-s-1-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "C. The woman is watering a potted plant.",
+          "vi": "C. Người phụ nữ đang tưới một chậu cây.",
+          "evidenceForQuestionIds": [],
+          "startMs": 7848,
+          "endMs": 11112
+        },
+        {
+          "id": "dp1-s-1-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "D. The woman is locking a filing cabinet.",
+          "vi": "D. Người phụ nữ đang khóa tủ hồ sơ.",
+          "evidenceForQuestionIds": [],
+          "startMs": 11712,
+          "endMs": 14976
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "The woman is looking at a computer screen.",
+          "vi": "Người phụ nữ đang nhìn vào màn hình máy tính."
+        },
+        "B": {
+          "en": "The woman is plugging in a desk lamp.",
+          "vi": "Người phụ nữ đang cắm phích đèn bàn."
+        },
+        "C": {
+          "en": "The woman is watering a potted plant.",
+          "vi": "Người phụ nữ đang tưới một chậu cây."
+        },
+        "D": {
+          "en": "The woman is locking a filing cabinet.",
+          "vi": "Người phụ nữ đang khóa tủ hồ sơ."
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy động từ hành động tay",
+        "trapAnalysis": "Chú ý ánh mắt và tư thế ngồi hướng trực tiếp vào màn hình -> 'looking at a computer screen'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "looking at a screen",
+            "answerPhrase": "viewing a laptop display",
+            "meaningVi": "nhìn vào màn hình"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Phản ánh chính xác ánh nhìn và thao tác trên máy tính.",
+          "B": "Sai: Không có hành động cắm đèn.",
+          "C": "Sai: Không tưới cây.",
+          "D": "Sai: Không khóa tủ."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-s-1-v1",
+            "word": "plug in",
+            "pos": "phrase",
+            "ipaUK": "/plʌɡ ɪn/",
+            "ipaUS": "/plʌɡ ɪn/",
+            "meaning": "cắm phích điện",
+            "exampleEn": "Make sure to plug in the projector before the briefing.",
+            "exampleVi": "Hãy chắc chắn cắm điện máy chiếu trước buổi họp."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-s-1.mp3"
+    },
+    {
+      "id": "dp1-s-2",
+      "part": 1,
+      "sceneType": "single-person",
+      "title": "Đầu bếp đứng thao tác bên mặt quầy bếp",
+      "illustrationKey": "cafe-patio",
+      "imageUrl": "/images/part1/part1_restaurant_chef.jpg",
+      "transcript": [
+        {
+          "id": "dp1-s-2-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "A. The chef is sweeping under a stove.",
+          "vi": "A. Đầu bếp đang quét dưới bếp lò.",
+          "evidenceForQuestionIds": [],
+          "startMs": 240,
+          "endMs": 3456
+        },
+        {
+          "id": "dp1-s-2-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "B. The person is standing near a kitchen counter.",
+          "vi": "B. Người này đang đứng gần quầy bếp.",
+          "evidenceForQuestionIds": [
+            "dp1-s-2"
+          ],
+          "startMs": 4056,
+          "endMs": 7704
+        },
+        {
+          "id": "dp1-s-2-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "C. The man is unloading boxes from a delivery van.",
+          "vi": "C. Người đàn ông đang dỡ thùng từ xe giao hàng.",
+          "evidenceForQuestionIds": [],
+          "startMs": 8304,
+          "endMs": 12384
+        },
+        {
+          "id": "dp1-s-2-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "D. The worker is painting a brick wall.",
+          "vi": "D. Công nhân đang sơn một bức tường gạch.",
+          "evidenceForQuestionIds": [],
+          "startMs": 12984,
+          "endMs": 16152
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "The chef is sweeping under a stove.",
+          "vi": "Đầu bếp đang quét dưới bếp lò."
+        },
+        "B": {
+          "en": "The person is standing near a kitchen counter.",
+          "vi": "Người này đang đứng gần quầy bếp."
+        },
+        "C": {
+          "en": "The man is unloading boxes from a delivery van.",
+          "vi": "Người đàn ông đang dỡ thùng từ xe giao hàng."
+        },
+        "D": {
+          "en": "The worker is painting a brick wall.",
+          "vi": "Công nhân đang sơn một bức tường gạch."
+        }
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "trapType": "Bẫy vị trí đứng + đồ vật xung quanh",
+        "trapAnalysis": "Dùng cấu trúc an toàn 'standing near a kitchen counter' đúng tuyệt đối với tư thế người trong ảnh.",
+        "paraphrases": [
+          {
+            "audioPhrase": "standing near",
+            "answerPhrase": "positioned beside",
+            "meaningVi": "đứng gần"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai: Không có chổi hay hành động quét.",
+          "B": "Đúng: Người đang đứng làm việc sát quầy bếp.",
+          "C": "Sai: Không có xe giao hàng.",
+          "D": "Sai: Không có hành động sơn tường."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-s-2-v1",
+            "word": "kitchen counter",
+            "pos": "phrase",
+            "ipaUK": "/ˈkɪtʃɪn ˈkaʊntə/",
+            "ipaUS": "/ˈkɪtʃɪn ˈkaʊntɚ/",
+            "meaning": "mặt quầy bếp",
+            "exampleEn": "Fresh herbs are lined up neatly on the kitchen counter.",
+            "exampleVi": "Rau thơm tươi được bày gọn trên mặt quầy bếp."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-s-2.mp3"
+    },
+    {
+      "id": "dp1-s-3",
+      "part": 1,
+      "sceneType": "single-person",
+      "title": "Nhân viên mặc áo công sở làm việc với máy tính",
+      "illustrationKey": "office-laptop",
+      "imageUrl": "/images/part1/part1_office_laptop.jpg",
+      "transcript": [
+        {
+          "id": "dp1-s-3-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "A. She is folding a newspaper on her lap.",
+          "vi": "A. Cô ấy đang gấp một tờ báo trên đùi.",
+          "evidenceForQuestionIds": [],
+          "startMs": 240,
+          "endMs": 3984
+        },
+        {
+          "id": "dp1-s-3-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "B. She is reaching for a book on a high shelf.",
+          "vi": "B. Cô ấy đang với lấy sách trên kệ cao.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4584,
+          "endMs": 8352
+        },
+        {
+          "id": "dp1-s-3-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "C. She is seated indoors using a portable device.",
+          "vi": "C. Cô ấy đang ngồi trong nhà sử dụng thiết bị di động/laptop.",
+          "evidenceForQuestionIds": [
+            "dp1-s-3"
+          ],
+          "startMs": 8952,
+          "endMs": 13344
+        },
+        {
+          "id": "dp1-s-3-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "D. She is waving goodbye from a balcony.",
+          "vi": "D. Cô ấy đang vẫy tay chào tạm biệt từ ban công.",
+          "evidenceForQuestionIds": [],
+          "startMs": 13944,
+          "endMs": 17520
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "She is folding a newspaper on her lap.",
+          "vi": "Cô ấy đang gấp một tờ báo trên đùi."
+        },
+        "B": {
+          "en": "She is reaching for a book on a high shelf.",
+          "vi": "Cô ấy đang với lấy sách trên kệ cao."
+        },
+        "C": {
+          "en": "She is seated indoors using a portable device.",
+          "vi": "Cô ấy đang ngồi trong nhà sử dụng thiết bị di động/laptop."
+        },
+        "D": {
+          "en": "She is waving goodbye from a balcony.",
+          "vi": "Cô ấy đang vẫy tay chào tạm biệt từ ban công."
+        }
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "trapType": "Bẫy Paraphrase laptop = portable device",
+        "trapAnalysis": "ETS rất chuộng cách diễn đạt khái quát hơn: 'laptop' -> 'portable device', 'in an office' -> 'indoors'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "portable device",
+            "answerPhrase": "laptop computer",
+            "meaningVi": "thiết bị di động/máy tính xách tay"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai: Không có tờ báo.",
+          "B": "Sai: Không với tay lên kệ cao.",
+          "C": "Đúng: Paraphrase chính xác ngồi trong văn phòng dùng laptop.",
+          "D": "Sai: Không ở ban công."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-s-3-v1",
+            "word": "portable",
+            "pos": "adj",
+            "ipaUK": "/ˈpɔːtəbl/",
+            "ipaUS": "/ˈpɔːrtəbl/",
+            "meaning": "di động, dễ mang theo",
+            "exampleEn": "Our sales reps carry portable scanners to trade shows.",
+            "exampleVi": "Nhân viên kinh doanh mang máy quét cầm tay tới hội chợ."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-s-3.mp3"
+    }
+  ]
+}

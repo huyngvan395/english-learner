@@ -1,0 +1,2598 @@
+{
+  "id": "oxford-5000",
+  "title": "Oxford 5000 (B2 – C1)",
+  "subtitle": "2000 từ nâng cao giúp bứt phá Band C1, đọc hiểu báo chí kinh tế và TOEIC 900+.",
+  "category": "oxford",
+  "levelLabel": "B2 – C1",
+  "tags": [
+    "#b2",
+    "#c1",
+    "#oxford"
+  ],
+  "coverTheme": "oxford-5000",
+  "accentGradient": "from-rose-600 via-pink-600 to-purple-600",
+  "badgeText": "ADVANCED C1",
+  "words": [
+    {
+      "id": "ox5-1",
+      "deckId": "oxford-5000",
+      "word": "implement",
+      "pos": "v",
+      "ipaUK": "/ˈɪm.plɪ.ment/",
+      "ipaUS": "/ˈɪm.plə.ment/",
+      "meaning": "triển khai, thực thi (chính sách, hệ thống)",
+      "examples": [
+        {
+          "en": "The hospital will implement electronic records next quarter.",
+          "vi": "Bệnh viện sẽ triển khai hồ sơ điện tử vào quý tới."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "implementation",
+          "pos": "n",
+          "meaning": "sự triển khai"
+        }
+      ],
+      "synonyms": [
+        "execute",
+        "carry out",
+        "enact"
+      ],
+      "antonyms": [
+        "abandon"
+      ],
+      "collocations": [
+        {
+          "phrase": "implement a policy",
+          "meaning": "thực thi chính sách"
+        }
+      ],
+      "definitionEn": "To put an official plan, policy, or software system into active daily operation.",
+      "definitionVi": "Đưa một kế hoạch, chính sách hoặc hệ thống phần mềm vào triển khai thực thi thực tế.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-2",
+      "deckId": "oxford-5000",
+      "word": "unprecedented",
+      "pos": "adj",
+      "ipaUK": "/ʌnˈpres.ɪ.den.tɪd/",
+      "ipaUS": "/ʌnˈpres.ə.den.t̬ɪd/",
+      "meaning": "chưa từng có tiền lệ",
+      "examples": [
+        {
+          "en": "The electric scooter saw unprecedented demand across Europe.",
+          "vi": "Mẫu xe điện ghi nhận nhu cầu chưa từng có trên khắp châu Âu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "precedent",
+          "pos": "n",
+          "meaning": "tiền lệ"
+        }
+      ],
+      "synonyms": [
+        "unparalleled",
+        "historic",
+        "unmatched"
+      ],
+      "antonyms": [
+        "ordinary"
+      ],
+      "collocations": [
+        {
+          "phrase": "unprecedented growth",
+          "meaning": "tăng trưởng chưa từng có"
+        }
+      ],
+      "definitionEn": "Having the quality of being unparalleled, historic, unmatched.",
+      "definitionVi": "Tính từ mô tả đặc điểm chưa từng có tiền lệ.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-3",
+      "deckId": "oxford-5000",
+      "word": "mitigate",
+      "pos": "v",
+      "ipaUK": "/ˈmɪt.ɪ.ɡeɪt/",
+      "ipaUS": "/ˈmɪt̬.ə.ɡeɪt/",
+      "meaning": "giảm thiểu, làm dịu bớt (rủi ro)",
+      "examples": [
+        {
+          "en": "Diversifying suppliers helps mitigate shipping bottlenecks.",
+          "vi": "Đa dạng hóa nhà cung cấp giúp giảm thiểu tắc nghẽn vận tải."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "mitigation",
+          "pos": "n",
+          "meaning": "sự giảm thiểu"
+        }
+      ],
+      "synonyms": [
+        "alleviate",
+        "lessen",
+        "reduce"
+      ],
+      "antonyms": [
+        "aggravate"
+      ],
+      "collocations": [
+        {
+          "phrase": "mitigate risks",
+          "meaning": "giảm thiểu rủi ro"
+        }
+      ],
+      "definitionEn": "To alleviate (also similar to lessen, reduce) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động giảm thiểu, làm dịu bớt (rủi ro).",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-4",
+      "deckId": "oxford-5000",
+      "word": "consensus",
+      "pos": "n",
+      "ipaUK": "/kənˈsen.səs/",
+      "ipaUS": "/kənˈsen.səs/",
+      "meaning": "sự đồng thuận chung",
+      "examples": [
+        {
+          "en": "The panel reached a consensus on the revised hybrid policy.",
+          "vi": "Hội đồng đạt được sự đồng thuận về chính sách làm việc kết hợp sửa đổi."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "agreement",
+        "unanimity",
+        "accord"
+      ],
+      "antonyms": [
+        "disagreement"
+      ],
+      "collocations": [
+        {
+          "phrase": "reach a consensus",
+          "meaning": "đạt được sự đồng thuận"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to agreement, unanimity, accord.",
+      "definitionVi": "Danh từ dùng để chỉ sự đồng thuận chung.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-5",
+      "deckId": "oxford-5000",
+      "word": "viable",
+      "pos": "adj",
+      "ipaUK": "/ˈvaɪ.ə.bəl/",
+      "ipaUS": "/ˈvaɪ.ə.bəl/",
+      "meaning": "khả thi, có thể thực hiện thành công",
+      "examples": [
+        {
+          "en": "Solar microgrids are now a financially viable option for factories.",
+          "vi": "Lưới điện mặt trời nhỏ hiện là lựa chọn khả thi về tài chính cho nhà máy."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "viability",
+          "pos": "n",
+          "meaning": "tính khả thi"
+        }
+      ],
+      "synonyms": [
+        "feasible",
+        "practical",
+        "workable"
+      ],
+      "antonyms": [
+        "unfeasible"
+      ],
+      "collocations": [
+        {
+          "phrase": "economically viable",
+          "meaning": "khả thi về kinh tế"
+        }
+      ],
+      "definitionEn": "Having the quality of being feasible, practical, workable.",
+      "definitionVi": "Tính từ mô tả đặc điểm khả thi, có thể thực hiện thành công.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-6",
+      "deckId": "oxford-5000",
+      "word": "scrutinize",
+      "pos": "v",
+      "ipaUK": "/ˈskruː.tɪ.naɪz/",
+      "ipaUS": "/ˈskruː.t̬ən.aɪz/",
+      "meaning": "xem xét kỹ lưỡng, soi xét cẩn thận",
+      "examples": [
+        {
+          "en": "Legal counsel must scrutinize every clause before contract signing.",
+          "vi": "Cố vấn pháp lý phải xem xét kỹ từng điều khoản trước khi ký hợp đồng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "scrutiny",
+          "pos": "n",
+          "meaning": "sự giám sát kỹ"
+        }
+      ],
+      "synonyms": [
+        "examine closely",
+        "audit",
+        "inspect"
+      ],
+      "antonyms": [
+        "overlook"
+      ],
+      "collocations": [
+        {
+          "phrase": "under close scrutiny",
+          "meaning": "dưới sự giám sát chặt chẽ"
+        }
+      ],
+      "definitionEn": "To examine closely (also similar to audit, inspect) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động xem xét kỹ lưỡng, soi xét cẩn thận.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-7",
+      "deckId": "oxford-5000",
+      "word": "subsequent",
+      "pos": "adj",
+      "ipaUK": "/ˈsʌb.sɪ.kwənt/",
+      "ipaUS": "/ˈsʌb.sɪ.kwənt/",
+      "meaning": "tiếp theo, xảy ra sau đó",
+      "examples": [
+        {
+          "en": "Initial trials stalled, yet subsequent versions ran flawlessly.",
+          "vi": "Thử nghiệm ban đầu gặp trục trặc, nhưng các bản sau chạy hoàn hảo."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "subsequently",
+          "pos": "adv",
+          "meaning": "sau đó"
+        }
+      ],
+      "synonyms": [
+        "following",
+        "ensuing",
+        "later"
+      ],
+      "antonyms": [
+        "previous",
+        "prior"
+      ],
+      "collocations": [
+        {
+          "phrase": "subsequent to",
+          "meaning": "sau khi"
+        }
+      ],
+      "definitionEn": "Having the quality of being following, ensuing, later.",
+      "definitionVi": "Tính từ mô tả đặc điểm tiếp theo, xảy ra sau đó.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-8",
+      "deckId": "oxford-5000",
+      "word": "transparent",
+      "pos": "adj",
+      "ipaUK": "/trænˈspær.ənt/",
+      "ipaUS": "/trænˈsper.ənt/",
+      "meaning": "minh bạch, rõ ràng",
+      "examples": [
+        {
+          "en": "Clients value our transparent pricing with zero hidden fees.",
+          "vi": "Khách hàng đánh giá cao mức giá minh bạch không phí ẩn của chúng tôi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "transparency",
+          "pos": "n",
+          "meaning": "tính minh bạch"
+        }
+      ],
+      "synonyms": [
+        "open",
+        "clear",
+        "candid"
+      ],
+      "antonyms": [
+        "opaque"
+      ],
+      "collocations": [
+        {
+          "phrase": "transparent pricing",
+          "meaning": "định giá minh bạch"
+        }
+      ],
+      "definitionEn": "Having the quality of being open, clear, candid.",
+      "definitionVi": "Tính từ mô tả đặc điểm minh bạch, rõ ràng.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-9",
+      "deckId": "oxford-5000",
+      "word": "alleviate",
+      "pos": "v",
+      "ipaUK": "/əˈliː.vi.eɪt/",
+      "ipaUS": "/əˈli.vi.eɪt/",
+      "meaning": "làm dịu bớt, giảm nhẹ (ùn tắc, áp lực)",
+      "examples": [
+        {
+          "en": "Express bus lanes were built to alleviate rush-hour congestion.",
+          "vi": "Làn xe buýt nhanh được xây để giảm ùn tắc giờ cao điểm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "alleviation",
+          "pos": "n",
+          "meaning": "sự giảm nhẹ"
+        }
+      ],
+      "synonyms": [
+        "ease",
+        "relieve",
+        "mitigate",
+        "address",
+        "allay"
+      ],
+      "antonyms": [
+        "worsen",
+        "exacerbate"
+      ],
+      "collocations": [
+        {
+          "phrase": "alleviate congestion",
+          "meaning": "giảm ùn tắc"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/alleviate-us.mp3",
+      "definitionEn": "To ease (also similar to relieve, mitigate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động làm dịu bớt, giảm nhẹ (ùn tắc, áp lực).",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-10",
+      "deckId": "oxford-5000",
+      "word": "benchmark",
+      "pos": "n",
+      "ipaUK": "/ˈbentʃ.mɑːk/",
+      "ipaUS": "/ˈbentʃ.mɑːrk/",
+      "meaning": "chuẩn mực đối chiếu, cột mốc chuẩn",
+      "examples": [
+        {
+          "en": "Our quiet heat pump set a new industry benchmark.",
+          "vi": "Máy bơm nhiệt vận hành êm của chúng tôi đặt ra chuẩn mực mới cho ngành."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "standard",
+        "yardstick",
+        "criterion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "industry benchmark",
+          "meaning": "chuẩn mực ngành"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to standard, yardstick, criterion.",
+      "definitionVi": "Danh từ dùng để chỉ chuẩn mực đối chiếu, cột mốc chuẩn.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-11",
+      "deckId": "oxford-5000",
+      "word": "booming",
+      "pos": "adj",
+      "ipaUK": "/ˈbuː.mɪŋ/",
+      "ipaUS": "/ˈbuː.mɪŋ/",
+      "meaning": "phát triển bùng nổ, thịnh vượng",
+      "examples": [
+        {
+          "en": "E-commerce demand created a booming warehouse market.",
+          "vi": "Nhu cầu thương mại điện tử tạo ra thị trường kho bãi bùng nổ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "boom",
+          "pos": "n",
+          "meaning": "sự bùng nổ"
+        }
+      ],
+      "synonyms": [
+        "thriving",
+        "flourishing",
+        "prospering"
+      ],
+      "antonyms": [
+        "stagnant",
+        "declining"
+      ],
+      "collocations": [
+        {
+          "phrase": "booming economy",
+          "meaning": "nền kinh tế bùng nổ"
+        }
+      ],
+      "definitionEn": "Having the quality of being thriving, flourishing, prospering.",
+      "definitionVi": "Tính từ mô tả đặc điểm phát triển bùng nổ, thịnh vượng.",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-12",
+      "deckId": "oxford-5000",
+      "word": "bottleneck",
+      "pos": "n",
+      "ipaUK": "/ˈbɒt.əl.nek/",
+      "ipaUS": "/ˈbɑː.t̬əl.nek/",
+      "meaning": "nút thắt cổ chai (gây chậm quy trình)",
+      "examples": [
+        {
+          "en": "Manual invoice checks became a major bottleneck at month-end.",
+          "vi": "Kiểm tra hóa đơn thủ công trở thành nút thắt lớn vào cuối tháng."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "logjam",
+        "obstacle",
+        "chokepoint"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "production bottleneck",
+          "meaning": "nút thắt sản xuất"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to logjam, obstacle, chokepoint.",
+      "definitionVi": "Danh từ dùng để chỉ nút thắt cổ chai (gây chậm quy trình).",
+      "topicId": "ox5-strategy"
+    },
+    {
+      "id": "ox5-13",
+      "deckId": "oxford-5000",
+      "word": "cohesive",
+      "pos": "adj",
+      "ipaUK": "/kəʊˈhiː.sɪv/",
+      "ipaUS": "/koʊˈhiː.sɪv/",
+      "meaning": "gắn kết chặt chẽ, mạch lạc",
+      "examples": [
+        {
+          "en": "Weekly stand-ups help remote teams remain cohesive.",
+          "vi": "Họp đứng hàng tuần giúp các nhóm làm từ xa giữ sự gắn kết."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "cohesion",
+          "pos": "n",
+          "meaning": "sự gắn kết"
+        }
+      ],
+      "synonyms": [
+        "united",
+        "unified",
+        "integrated"
+      ],
+      "antonyms": [
+        "fragmented"
+      ],
+      "collocations": [
+        {
+          "phrase": "cohesive team",
+          "meaning": "đội ngũ gắn kết"
+        }
+      ],
+      "definitionEn": "Having the quality of being united, unified, integrated.",
+      "definitionVi": "Tính từ mô tả đặc điểm gắn kết chặt chẽ, mạch lạc.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-14",
+      "deckId": "oxford-5000",
+      "word": "credibility",
+      "pos": "n",
+      "ipaUK": "/ˌkred.əˈbɪl.ə.ti/",
+      "ipaUS": "/ˌkred.əˈbɪl.ə.t̬i/",
+      "meaning": "độ tin cậy, uy tín chuyên môn",
+      "examples": [
+        {
+          "en": "Third-party lab data boosted the product’s scientific credibility.",
+          "vi": "Dữ liệu phòng thí nghiệm độc lập nâng cao uy tín khoa học của sản phẩm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "credible",
+          "pos": "adj",
+          "meaning": "đáng tin cậy"
+        }
+      ],
+      "synonyms": [
+        "trustworthiness",
+        "reliability"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "collocations": [
+        {
+          "phrase": "build credibility",
+          "meaning": "xây dựng uy tín"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to trustworthiness, reliability.",
+      "definitionVi": "Danh từ dùng để chỉ độ tin cậy, uy tín chuyên môn.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-15",
+      "deckId": "oxford-5000",
+      "word": "curtail",
+      "pos": "v",
+      "ipaUK": "/kɜːˈteɪl/",
+      "ipaUS": "/kɝːˈteɪl/",
+      "meaning": "cắt giảm, hạn chế bớt",
+      "examples": [
+        {
+          "en": "The firm decided to curtail discretionary spending during the audit.",
+          "vi": "Công ty quyết định cắt giảm các khoản chi không thiết yếu trong đợt kiểm toán."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "reduce",
+        "cut back",
+        "restrict"
+      ],
+      "antonyms": [
+        "expand",
+        "extend"
+      ],
+      "collocations": [
+        {
+          "phrase": "curtail expenses",
+          "meaning": "cắt giảm chi phí"
+        }
+      ],
+      "definitionEn": "To reduce (also similar to cut back, restrict) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cắt giảm, hạn chế bớt.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-16",
+      "deckId": "oxford-5000",
+      "word": "deplete",
+      "pos": "v",
+      "ipaUK": "/dɪˈpliːt/",
+      "ipaUS": "/dɪˈpliːt/",
+      "meaning": "làm cạn kiệt (nguồn dự trữ, hàng tồn)",
+      "examples": [
+        {
+          "en": "Holiday flash sales could quickly deplete our winter coat stock.",
+          "vi": "Đợt giảm giá chớp nhoáng mùa lễ có thể nhanh chóng làm cạn kho áo khoác đông."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "depletion",
+          "pos": "n",
+          "meaning": "sự cạn kiệt"
+        }
+      ],
+      "synonyms": [
+        "exhaust",
+        "drain",
+        "use up"
+      ],
+      "antonyms": [
+        "replenish"
+      ],
+      "collocations": [
+        {
+          "phrase": "depleted inventory",
+          "meaning": "kho hàng cạn kiệt"
+        }
+      ],
+      "definitionEn": "To exhaust (also similar to drain, use up) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động làm cạn kiệt (nguồn dự trữ, hàng tồn).",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-17",
+      "deckId": "oxford-5000",
+      "word": "replenish",
+      "pos": "v",
+      "ipaUK": "/rɪˈplen.ɪʃ/",
+      "ipaUS": "/rɪˈplen.ɪʃ/",
+      "meaning": "bổ sung, làm đầy lại (hàng hóa, vật tư)",
+      "examples": [
+        {
+          "en": "Night crews replenish grocery shelves before 6 A.M.",
+          "vi": "Đội ca đêm bổ sung hàng lên kệ siêu thị trước 6 giờ sáng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "replenishment",
+          "pos": "n",
+          "meaning": "sự bổ sung hàng"
+        }
+      ],
+      "synonyms": [
+        "restock",
+        "refill",
+        "renew"
+      ],
+      "antonyms": [
+        "deplete"
+      ],
+      "collocations": [
+        {
+          "phrase": "replenish stock",
+          "meaning": "nhập bổ sung hàng"
+        }
+      ],
+      "definitionEn": "To restock (also similar to refill, renew) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động bổ sung, làm đầy lại (hàng hóa, vật tư).",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-18",
+      "deckId": "oxford-5000",
+      "word": "disruptive",
+      "pos": "adj",
+      "ipaUK": "/dɪsˈrʌp.tɪv/",
+      "ipaUS": "/dɪsˈrʌp.tɪv/",
+      "meaning": "gây gián đoạn; mang tính đột phá thay đổi ngành",
+      "examples": [
+        {
+          "en": "Construction noise proved disruptive to nearby offices.",
+          "vi": "Tiếng ồn xây dựng gây gián đoạn cho các văn phòng lân cận."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "disrupt",
+          "pos": "v",
+          "meaning": "làm gián đoạn"
+        },
+        {
+          "word": "disruption",
+          "pos": "n",
+          "meaning": "sự gián đoạn"
+        }
+      ],
+      "synonyms": [
+        "interruptive",
+        "groundbreaking"
+      ],
+      "antonyms": [
+        "smooth"
+      ],
+      "collocations": [
+        {
+          "phrase": "supply chain disruption",
+          "meaning": "gián đoạn chuỗi cung ứng"
+        }
+      ],
+      "definitionEn": "Having the quality of being interruptive, groundbreaking.",
+      "definitionVi": "Tính từ mô tả đặc điểm gây gián đoạn; mang tính đột phá thay đổi ngành.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-19",
+      "deckId": "oxford-5000",
+      "word": "diversify",
+      "pos": "v",
+      "ipaUK": "/daɪˈvɜː.sɪ.faɪ/",
+      "ipaUS": "/daɪˈvɝː.sə.faɪ/",
+      "meaning": "đa dạng hóa (sản phẩm, đầu tư)",
+      "examples": [
+        {
+          "en": "The roaster plans to diversify into cold-brew cans and tea blends.",
+          "vi": "Xưởng rang cà phê dự định đa dạng hóa sang cà phê ủ lạnh và trà phối trộn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "diversification",
+          "pos": "n",
+          "meaning": "sự đa dạng hóa"
+        },
+        {
+          "word": "diverse",
+          "pos": "adj",
+          "meaning": "đa dạng"
+        }
+      ],
+      "synonyms": [
+        "branch out",
+        "broaden"
+      ],
+      "antonyms": [
+        "specialize narrowly"
+      ],
+      "collocations": [
+        {
+          "phrase": "diversify a portfolio",
+          "meaning": "đa dạng hóa danh mục"
+        }
+      ],
+      "definitionEn": "To branch out (also similar to broaden) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đa dạng hóa (sản phẩm, đầu tư).",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-20",
+      "deckId": "oxford-5000",
+      "word": "entail",
+      "pos": "v",
+      "ipaUK": "/ɪnˈteɪl/",
+      "ipaUS": "/ɪnˈteɪl/",
+      "meaning": "đòi hỏi, bao gồm theo hệ quả tất yếu",
+      "examples": [
+        {
+          "en": "The regional director role will entail frequent travel across Asia.",
+          "vi": "Vị trí giám đốc khu vực sẽ đòi hỏi đi công tác thường xuyên khắp châu Á."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "involve",
+        "require",
+        "necessitate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "entail significant effort",
+          "meaning": "đòi hỏi nhiều nỗ lực"
+        }
+      ],
+      "definitionEn": "To involve (also similar to require, necessitate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đòi hỏi, bao gồm theo hệ quả tất yếu.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-21",
+      "deckId": "oxford-5000",
+      "word": "foster",
+      "pos": "v",
+      "ipaUK": "/ˈfɒs.tər/",
+      "ipaUS": "/ˈfɑː.stɚ/",
+      "meaning": "nuôi dưỡng, thúc đẩy (đổi mới, hợp tác)",
+      "examples": [
+        {
+          "en": "Open lounges are designed to foster spontaneous teamwork.",
+          "vi": "Phòng chờ mở được thiết kế để thúc đẩy sự hợp tác tự nhiên."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "encourage",
+        "promote",
+        "cultivate"
+      ],
+      "antonyms": [
+        "hinder"
+      ],
+      "collocations": [
+        {
+          "phrase": "foster innovation",
+          "meaning": "thúc đẩy đổi mới"
+        }
+      ],
+      "definitionEn": "To encourage (also similar to promote, cultivate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nuôi dưỡng, thúc đẩy (đổi mới, hợp tác).",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-22",
+      "deckId": "oxford-5000",
+      "word": "imminent",
+      "pos": "adj",
+      "ipaUK": "/ˈɪm.ɪ.nənt/",
+      "ipaUS": "/ˈɪm.ə.nənt/",
+      "meaning": "sắp xảy ra đến nơi",
+      "examples": [
+        {
+          "en": "An announcement regarding the merger is thought to be imminent.",
+          "vi": "Thông báo về thương vụ sáp nhập được cho là sắp diễn ra."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "impending",
+        "forthcoming",
+        "approaching"
+      ],
+      "antonyms": [
+        "distant"
+      ],
+      "collocations": [
+        {
+          "phrase": "imminent launch",
+          "meaning": "đợt ra mắt cận kề"
+        }
+      ],
+      "definitionEn": "Having the quality of being impending, forthcoming, approaching.",
+      "definitionVi": "Tính từ mô tả đặc điểm sắp xảy ra đến nơi.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-23",
+      "deckId": "oxford-5000",
+      "word": "indispensable",
+      "pos": "adj",
+      "ipaUK": "/ˌɪn.dɪˈspen.sə.bəl/",
+      "ipaUS": "/ˌɪn.dɪˈspen.sə.bəl/",
+      "meaning": "không thể thiếu được",
+      "examples": [
+        {
+          "en": "Automated alerts have become indispensable for server admins.",
+          "vi": "Cảnh báo tự động đã trở nên không thể thiếu với quản trị viên máy chủ."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "essential",
+        "vital",
+        "crucial"
+      ],
+      "antonyms": [
+        "dispensable",
+        "optional"
+      ],
+      "collocations": [
+        {
+          "phrase": "indispensable tool",
+          "meaning": "công cụ không thể thiếu"
+        }
+      ],
+      "definitionEn": "Having the quality of being essential, vital, crucial.",
+      "definitionVi": "Tính từ mô tả đặc điểm không thể thiếu được.",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-24",
+      "deckId": "oxford-5000",
+      "word": "leverage",
+      "pos": "v",
+      "ipaUK": "/ˈliː.vər.ɪdʒ/",
+      "ipaUS": "/ˈlev.ɚ.ɪdʒ/",
+      "meaning": "tận dụng tối đa (lợi thế, công nghệ)",
+      "examples": [
+        {
+          "en": "Small shops can leverage social video to reach younger buyers.",
+          "vi": "Cửa hàng nhỏ có thể tận dụng video mạng xã hội để tiếp cận khách trẻ."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "utilize",
+        "capitalize on",
+        "harness"
+      ],
+      "antonyms": [
+        "waste"
+      ],
+      "collocations": [
+        {
+          "phrase": "leverage expertise",
+          "meaning": "tận dụng chuyên môn"
+        }
+      ],
+      "definitionEn": "To utilize (also similar to capitalize on, harness) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tận dụng tối đa (lợi thế, công nghệ).",
+      "topicId": "ox5-supply"
+    },
+    {
+      "id": "ox5-25",
+      "deckId": "oxford-5000",
+      "word": "milestone",
+      "pos": "n",
+      "ipaUK": "/ˈmaɪl.stəʊn/",
+      "ipaUS": "/ˈmaɪl.stoʊn/",
+      "meaning": "cột mốc quan trọng",
+      "examples": [
+        {
+          "en": "Reaching one million active users marked a historic milestone.",
+          "vi": "Đạt một triệu người dùng hoạt động đánh dấu cột mốc lịch sử."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "landmark",
+        "achievement",
+        "turning point"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "reach a milestone",
+          "meaning": "đạt cột mốc quan trọng"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to landmark, achievement, turning point.",
+      "definitionVi": "Danh từ dùng để chỉ cột mốc quan trọng.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-26",
+      "deckId": "oxford-5000",
+      "word": "obsolete",
+      "pos": "adj",
+      "ipaUK": "/ˌɒb.səlˈiːt/",
+      "ipaUS": "/ˌɑːb.səlˈiːt/",
+      "meaning": "lỗi thời, không còn được dùng nữa",
+      "examples": [
+        {
+          "en": "Cloud backups quickly made magnetic tape drives obsolete.",
+          "vi": "Sao lưu đám mây nhanh chóng khiến ổ băng từ trở nên lỗi thời."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "outdated",
+        "antiquated",
+        "defunct"
+      ],
+      "antonyms": [
+        "modern",
+        "cutting-edge"
+      ],
+      "collocations": [
+        {
+          "phrase": "render obsolete",
+          "meaning": "khiến trở nên lỗi thời"
+        }
+      ],
+      "definitionEn": "Having the quality of being outdated, antiquated, defunct.",
+      "definitionVi": "Tính từ mô tả đặc điểm lỗi thời, không còn được dùng nữa.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-27",
+      "deckId": "oxford-5000",
+      "word": "overhaul",
+      "pos": "n",
+      "ipaUK": "/ˈəʊ.və.hɔːl/",
+      "ipaUS": "/ˈoʊ.vɚ.hɑːl/",
+      "meaning": "cuộc đại tu, cải tổ toàn diện",
+      "examples": [
+        {
+          "en": "The website underwent a complete visual overhaul last spring.",
+          "vi": "Trang web đã trải qua cuộc cải tổ giao diện toàn diện mùa xuân trước."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "revamp",
+        "restructuring",
+        "renovation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "major overhaul",
+          "meaning": "đại tu quy mô lớn"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to revamp, restructuring, renovation.",
+      "definitionVi": "Danh từ dùng để chỉ cuộc đại tu, cải tổ toàn diện.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-28",
+      "deckId": "oxford-5000",
+      "word": "paramount",
+      "pos": "adj",
+      "ipaUK": "/ˈpær.ə.maʊnt/",
+      "ipaUS": "/ˈper.ə.maʊnt/",
+      "meaning": "tối thượng, quan trọng bậc nhất",
+      "examples": [
+        {
+          "en": "Passenger safety remains of paramount importance to our airline.",
+          "vi": "An toàn hành khách luôn là yếu tố quan trọng bậc nhất của hãng bay chúng tôi."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "supreme",
+        "foremost",
+        "primary"
+      ],
+      "antonyms": [
+        "secondary"
+      ],
+      "collocations": [
+        {
+          "phrase": "of paramount importance",
+          "meaning": "vô cùng quan trọng"
+        }
+      ],
+      "definitionEn": "Having the quality of being supreme, foremost, primary.",
+      "definitionVi": "Tính từ mô tả đặc điểm tối thượng, quan trọng bậc nhất.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-29",
+      "deckId": "oxford-5000",
+      "word": "proficient",
+      "pos": "adj",
+      "ipaUK": "/prəˈfɪʃ.ənt/",
+      "ipaUS": "/prəˈfɪʃ.ənt/",
+      "meaning": "thành thạo, giỏi chuyên môn (đi với in)",
+      "examples": [
+        {
+          "en": "Candidates should be proficient in Excel pivot tables and SQL.",
+          "vi": "Ứng viên cần thành thạo bảng tổng hợp Excel và SQL."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "proficiency",
+          "pos": "n",
+          "meaning": "sự thành thạo"
+        }
+      ],
+      "synonyms": [
+        "skilled",
+        "adept",
+        "competent"
+      ],
+      "antonyms": [
+        "unskilled"
+      ],
+      "collocations": [
+        {
+          "phrase": "proficient in",
+          "meaning": "thành thạo về"
+        }
+      ],
+      "definitionEn": "Having the quality of being skilled, adept, competent.",
+      "definitionVi": "Tính từ mô tả đặc điểm thành thạo, giỏi chuyên môn (đi với in).",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-30",
+      "deckId": "oxford-5000",
+      "word": "reconcile",
+      "pos": "v",
+      "ipaUK": "/ˈrek.ən.saɪl/",
+      "ipaUS": "/ˈrek.ən.saɪl/",
+      "meaning": "đối chiếu khớp sổ sách; hòa giải",
+      "examples": [
+        {
+          "en": "Bookkeepers reconcile bank statements at the end of every week.",
+          "vi": "Nhân viên kế toán đối chiếu sao kê ngân hàng vào cuối mỗi tuần."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "reconciliation",
+          "pos": "n",
+          "meaning": "sự đối chiếu sổ sách"
+        }
+      ],
+      "synonyms": [
+        "balance",
+        "align",
+        "harmonize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "reconcile accounts",
+          "meaning": "đối chiếu khớp tài khoản"
+        }
+      ],
+      "definitionEn": "To balance (also similar to align, harmonize) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đối chiếu khớp sổ sách; hòa giải.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-31",
+      "deckId": "oxford-5000",
+      "word": "resilient",
+      "pos": "adj",
+      "ipaUK": "/rɪˈzɪl.jənt/",
+      "ipaUS": "/rɪˈzɪl.jənt/",
+      "meaning": "kiên cường, phục hồi nhanh sau khủng hoảng",
+      "examples": [
+        {
+          "en": "A resilient supply chain adapts quickly to port closures.",
+          "vi": "Chuỗi cung ứng bền bỉ thích nghi nhanh khi cảng bị đóng cửa."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "resilience",
+          "pos": "n",
+          "meaning": "khả năng phục hồi"
+        }
+      ],
+      "synonyms": [
+        "robust",
+        "adaptable",
+        "tough"
+      ],
+      "antonyms": [
+        "fragile"
+      ],
+      "collocations": [
+        {
+          "phrase": "resilient business model",
+          "meaning": "mô hình kinh doanh bền bỉ"
+        }
+      ],
+      "definitionEn": "Having the quality of being robust, adaptable, tough.",
+      "definitionVi": "Tính từ mô tả đặc điểm kiên cường, phục hồi nhanh sau khủng hoảng.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-32",
+      "deckId": "oxford-5000",
+      "word": "rigorous",
+      "pos": "adj",
+      "ipaUK": "/ˈrɪɡ.ər.əs/",
+      "ipaUS": "/ˈrɪɡ.ɚ.əs/",
+      "meaning": "nghiêm ngặt, khắt khe, tỉ mỉ",
+      "examples": [
+        {
+          "en": "Every pilot completes rigorous simulator drills twice a year.",
+          "vi": "Mỗi phi công hoàn thành các bài tập mô phỏng khắt khe hai lần mỗi năm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "rigorously",
+          "pos": "adv",
+          "meaning": "nghiêm ngặt"
+        }
+      ],
+      "synonyms": [
+        "stringent",
+        "thorough",
+        "strict"
+      ],
+      "antonyms": [
+        "lax"
+      ],
+      "collocations": [
+        {
+          "phrase": "rigorous testing",
+          "meaning": "kiểm định nghiêm ngặt"
+        }
+      ],
+      "definitionEn": "Having the quality of being stringent, thorough, strict.",
+      "definitionVi": "Tính từ mô tả đặc điểm nghiêm ngặt, khắt khe, tỉ mỉ.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-33",
+      "deckId": "oxford-5000",
+      "word": "spearhead",
+      "pos": "v",
+      "ipaUK": "/ˈspɪə.hed/",
+      "ipaUS": "/ˈspɪr.hed/",
+      "meaning": "dẫn đầu, tiên phong chỉ đạo (dự án)",
+      "examples": [
+        {
+          "en": "Ms. Gomez will spearhead our sustainable packaging initiative.",
+          "vi": "Cô Gomez sẽ dẫn đầu sáng kiến bao bì bền vững của chúng tôi."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "lead",
+        "champion",
+        "pioneer"
+      ],
+      "antonyms": [
+        "follow"
+      ],
+      "collocations": [
+        {
+          "phrase": "spearhead a campaign",
+          "meaning": "dẫn dắt chiến dịch"
+        }
+      ],
+      "definitionEn": "To lead (also similar to champion, pioneer) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động dẫn đầu, tiên phong chỉ đạo (dự án).",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-34",
+      "deckId": "oxford-5000",
+      "word": "tangible",
+      "pos": "adj",
+      "ipaUK": "/ˈtæn.dʒə.bəl/",
+      "ipaUS": "/ˈtæn.dʒə.bəl/",
+      "meaning": "hữu hình, cụ thể rõ rệt",
+      "examples": [
+        {
+          "en": "Training workshops delivered tangible gains in call resolution speed.",
+          "vi": "Hội thảo đào tạo mang lại cải thiện rõ rệt về tốc độ xử lý cuộc gọi."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "concrete",
+        "measurable",
+        "real"
+      ],
+      "antonyms": [
+        "intangible"
+      ],
+      "collocations": [
+        {
+          "phrase": "tangible results",
+          "meaning": "kết quả cụ thể rõ rệt"
+        }
+      ],
+      "definitionEn": "Having the quality of being concrete, measurable, real.",
+      "definitionVi": "Tính từ mô tả đặc điểm hữu hình, cụ thể rõ rệt.",
+      "topicId": "ox5-leadership"
+    },
+    {
+      "id": "ox5-35",
+      "deckId": "oxford-5000",
+      "word": "versatile",
+      "pos": "adj",
+      "ipaUK": "/ˈvɜː.sə.taɪl/",
+      "ipaUS": "/ˈvɝː.sə.t̬əl/",
+      "meaning": "đa năng, linh hoạt nhiều công dụng",
+      "examples": [
+        {
+          "en": "Modular desks offer a versatile setup for growing studios.",
+          "vi": "Bàn mô-đun mang lại cách bố trí đa năng cho các studio đang mở rộng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "versatility",
+          "pos": "n",
+          "meaning": "tính đa năng"
+        }
+      ],
+      "synonyms": [
+        "adaptable",
+        "multipurpose",
+        "flexible"
+      ],
+      "antonyms": [
+        "limited"
+      ],
+      "collocations": [
+        {
+          "phrase": "versatile workspace",
+          "meaning": "không gian làm việc đa năng"
+        }
+      ],
+      "definitionEn": "Having the quality of being adaptable, multipurpose, flexible.",
+      "definitionVi": "Tính từ mô tả đặc điểm đa năng, linh hoạt nhiều công dụng.",
+      "topicId": "ox5-leadership"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ox5-strategy",
+      "name": "Chiến lược, Đổi mới & Minh bạch C1",
+      "icon": "strategy",
+      "words": [
+        {
+          "id": "ox5-1",
+          "deckId": "oxford-5000",
+          "word": "implement",
+          "pos": "v",
+          "ipaUK": "/ˈɪm.plɪ.ment/",
+          "ipaUS": "/ˈɪm.plə.ment/",
+          "meaning": "triển khai, thực thi (chính sách, hệ thống)",
+          "examples": [
+            {
+              "en": "The hospital will implement electronic records next quarter.",
+              "vi": "Bệnh viện sẽ triển khai hồ sơ điện tử vào quý tới."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "implementation",
+              "pos": "n",
+              "meaning": "sự triển khai"
+            }
+          ],
+          "synonyms": [
+            "execute",
+            "carry out",
+            "enact"
+          ],
+          "antonyms": [
+            "abandon"
+          ],
+          "collocations": [
+            {
+              "phrase": "implement a policy",
+              "meaning": "thực thi chính sách"
+            }
+          ],
+          "definitionEn": "To put an official plan, policy, or software system into active daily operation.",
+          "definitionVi": "Đưa một kế hoạch, chính sách hoặc hệ thống phần mềm vào triển khai thực thi thực tế.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-2",
+          "deckId": "oxford-5000",
+          "word": "unprecedented",
+          "pos": "adj",
+          "ipaUK": "/ʌnˈpres.ɪ.den.tɪd/",
+          "ipaUS": "/ʌnˈpres.ə.den.t̬ɪd/",
+          "meaning": "chưa từng có tiền lệ",
+          "examples": [
+            {
+              "en": "The electric scooter saw unprecedented demand across Europe.",
+              "vi": "Mẫu xe điện ghi nhận nhu cầu chưa từng có trên khắp châu Âu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "precedent",
+              "pos": "n",
+              "meaning": "tiền lệ"
+            }
+          ],
+          "synonyms": [
+            "unparalleled",
+            "historic",
+            "unmatched"
+          ],
+          "antonyms": [
+            "ordinary"
+          ],
+          "collocations": [
+            {
+              "phrase": "unprecedented growth",
+              "meaning": "tăng trưởng chưa từng có"
+            }
+          ],
+          "definitionEn": "Having the quality of being unparalleled, historic, unmatched.",
+          "definitionVi": "Tính từ mô tả đặc điểm chưa từng có tiền lệ.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-3",
+          "deckId": "oxford-5000",
+          "word": "mitigate",
+          "pos": "v",
+          "ipaUK": "/ˈmɪt.ɪ.ɡeɪt/",
+          "ipaUS": "/ˈmɪt̬.ə.ɡeɪt/",
+          "meaning": "giảm thiểu, làm dịu bớt (rủi ro)",
+          "examples": [
+            {
+              "en": "Diversifying suppliers helps mitigate shipping bottlenecks.",
+              "vi": "Đa dạng hóa nhà cung cấp giúp giảm thiểu tắc nghẽn vận tải."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "mitigation",
+              "pos": "n",
+              "meaning": "sự giảm thiểu"
+            }
+          ],
+          "synonyms": [
+            "alleviate",
+            "lessen",
+            "reduce"
+          ],
+          "antonyms": [
+            "aggravate"
+          ],
+          "collocations": [
+            {
+              "phrase": "mitigate risks",
+              "meaning": "giảm thiểu rủi ro"
+            }
+          ],
+          "definitionEn": "To alleviate (also similar to lessen, reduce) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động giảm thiểu, làm dịu bớt (rủi ro).",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-4",
+          "deckId": "oxford-5000",
+          "word": "consensus",
+          "pos": "n",
+          "ipaUK": "/kənˈsen.səs/",
+          "ipaUS": "/kənˈsen.səs/",
+          "meaning": "sự đồng thuận chung",
+          "examples": [
+            {
+              "en": "The panel reached a consensus on the revised hybrid policy.",
+              "vi": "Hội đồng đạt được sự đồng thuận về chính sách làm việc kết hợp sửa đổi."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "agreement",
+            "unanimity",
+            "accord"
+          ],
+          "antonyms": [
+            "disagreement"
+          ],
+          "collocations": [
+            {
+              "phrase": "reach a consensus",
+              "meaning": "đạt được sự đồng thuận"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to agreement, unanimity, accord.",
+          "definitionVi": "Danh từ dùng để chỉ sự đồng thuận chung.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-5",
+          "deckId": "oxford-5000",
+          "word": "viable",
+          "pos": "adj",
+          "ipaUK": "/ˈvaɪ.ə.bəl/",
+          "ipaUS": "/ˈvaɪ.ə.bəl/",
+          "meaning": "khả thi, có thể thực hiện thành công",
+          "examples": [
+            {
+              "en": "Solar microgrids are now a financially viable option for factories.",
+              "vi": "Lưới điện mặt trời nhỏ hiện là lựa chọn khả thi về tài chính cho nhà máy."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "viability",
+              "pos": "n",
+              "meaning": "tính khả thi"
+            }
+          ],
+          "synonyms": [
+            "feasible",
+            "practical",
+            "workable"
+          ],
+          "antonyms": [
+            "unfeasible"
+          ],
+          "collocations": [
+            {
+              "phrase": "economically viable",
+              "meaning": "khả thi về kinh tế"
+            }
+          ],
+          "definitionEn": "Having the quality of being feasible, practical, workable.",
+          "definitionVi": "Tính từ mô tả đặc điểm khả thi, có thể thực hiện thành công.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-6",
+          "deckId": "oxford-5000",
+          "word": "scrutinize",
+          "pos": "v",
+          "ipaUK": "/ˈskruː.tɪ.naɪz/",
+          "ipaUS": "/ˈskruː.t̬ən.aɪz/",
+          "meaning": "xem xét kỹ lưỡng, soi xét cẩn thận",
+          "examples": [
+            {
+              "en": "Legal counsel must scrutinize every clause before contract signing.",
+              "vi": "Cố vấn pháp lý phải xem xét kỹ từng điều khoản trước khi ký hợp đồng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "scrutiny",
+              "pos": "n",
+              "meaning": "sự giám sát kỹ"
+            }
+          ],
+          "synonyms": [
+            "examine closely",
+            "audit",
+            "inspect"
+          ],
+          "antonyms": [
+            "overlook"
+          ],
+          "collocations": [
+            {
+              "phrase": "under close scrutiny",
+              "meaning": "dưới sự giám sát chặt chẽ"
+            }
+          ],
+          "definitionEn": "To examine closely (also similar to audit, inspect) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động xem xét kỹ lưỡng, soi xét cẩn thận.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-7",
+          "deckId": "oxford-5000",
+          "word": "subsequent",
+          "pos": "adj",
+          "ipaUK": "/ˈsʌb.sɪ.kwənt/",
+          "ipaUS": "/ˈsʌb.sɪ.kwənt/",
+          "meaning": "tiếp theo, xảy ra sau đó",
+          "examples": [
+            {
+              "en": "Initial trials stalled, yet subsequent versions ran flawlessly.",
+              "vi": "Thử nghiệm ban đầu gặp trục trặc, nhưng các bản sau chạy hoàn hảo."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "subsequently",
+              "pos": "adv",
+              "meaning": "sau đó"
+            }
+          ],
+          "synonyms": [
+            "following",
+            "ensuing",
+            "later"
+          ],
+          "antonyms": [
+            "previous",
+            "prior"
+          ],
+          "collocations": [
+            {
+              "phrase": "subsequent to",
+              "meaning": "sau khi"
+            }
+          ],
+          "definitionEn": "Having the quality of being following, ensuing, later.",
+          "definitionVi": "Tính từ mô tả đặc điểm tiếp theo, xảy ra sau đó.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-8",
+          "deckId": "oxford-5000",
+          "word": "transparent",
+          "pos": "adj",
+          "ipaUK": "/trænˈspær.ənt/",
+          "ipaUS": "/trænˈsper.ənt/",
+          "meaning": "minh bạch, rõ ràng",
+          "examples": [
+            {
+              "en": "Clients value our transparent pricing with zero hidden fees.",
+              "vi": "Khách hàng đánh giá cao mức giá minh bạch không phí ẩn của chúng tôi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "transparency",
+              "pos": "n",
+              "meaning": "tính minh bạch"
+            }
+          ],
+          "synonyms": [
+            "open",
+            "clear",
+            "candid"
+          ],
+          "antonyms": [
+            "opaque"
+          ],
+          "collocations": [
+            {
+              "phrase": "transparent pricing",
+              "meaning": "định giá minh bạch"
+            }
+          ],
+          "definitionEn": "Having the quality of being open, clear, candid.",
+          "definitionVi": "Tính từ mô tả đặc điểm minh bạch, rõ ràng.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-9",
+          "deckId": "oxford-5000",
+          "word": "alleviate",
+          "pos": "v",
+          "ipaUK": "/əˈliː.vi.eɪt/",
+          "ipaUS": "/əˈli.vi.eɪt/",
+          "meaning": "làm dịu bớt, giảm nhẹ (ùn tắc, áp lực)",
+          "examples": [
+            {
+              "en": "Express bus lanes were built to alleviate rush-hour congestion.",
+              "vi": "Làn xe buýt nhanh được xây để giảm ùn tắc giờ cao điểm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "alleviation",
+              "pos": "n",
+              "meaning": "sự giảm nhẹ"
+            }
+          ],
+          "synonyms": [
+            "ease",
+            "relieve",
+            "mitigate",
+            "address",
+            "allay"
+          ],
+          "antonyms": [
+            "worsen",
+            "exacerbate"
+          ],
+          "collocations": [
+            {
+              "phrase": "alleviate congestion",
+              "meaning": "giảm ùn tắc"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/alleviate-us.mp3",
+          "definitionEn": "To ease (also similar to relieve, mitigate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động làm dịu bớt, giảm nhẹ (ùn tắc, áp lực).",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-10",
+          "deckId": "oxford-5000",
+          "word": "benchmark",
+          "pos": "n",
+          "ipaUK": "/ˈbentʃ.mɑːk/",
+          "ipaUS": "/ˈbentʃ.mɑːrk/",
+          "meaning": "chuẩn mực đối chiếu, cột mốc chuẩn",
+          "examples": [
+            {
+              "en": "Our quiet heat pump set a new industry benchmark.",
+              "vi": "Máy bơm nhiệt vận hành êm của chúng tôi đặt ra chuẩn mực mới cho ngành."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "standard",
+            "yardstick",
+            "criterion"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "industry benchmark",
+              "meaning": "chuẩn mực ngành"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to standard, yardstick, criterion.",
+          "definitionVi": "Danh từ dùng để chỉ chuẩn mực đối chiếu, cột mốc chuẩn.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-11",
+          "deckId": "oxford-5000",
+          "word": "booming",
+          "pos": "adj",
+          "ipaUK": "/ˈbuː.mɪŋ/",
+          "ipaUS": "/ˈbuː.mɪŋ/",
+          "meaning": "phát triển bùng nổ, thịnh vượng",
+          "examples": [
+            {
+              "en": "E-commerce demand created a booming warehouse market.",
+              "vi": "Nhu cầu thương mại điện tử tạo ra thị trường kho bãi bùng nổ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "boom",
+              "pos": "n",
+              "meaning": "sự bùng nổ"
+            }
+          ],
+          "synonyms": [
+            "thriving",
+            "flourishing",
+            "prospering"
+          ],
+          "antonyms": [
+            "stagnant",
+            "declining"
+          ],
+          "collocations": [
+            {
+              "phrase": "booming economy",
+              "meaning": "nền kinh tế bùng nổ"
+            }
+          ],
+          "definitionEn": "Having the quality of being thriving, flourishing, prospering.",
+          "definitionVi": "Tính từ mô tả đặc điểm phát triển bùng nổ, thịnh vượng.",
+          "topicId": "ox5-strategy"
+        },
+        {
+          "id": "ox5-12",
+          "deckId": "oxford-5000",
+          "word": "bottleneck",
+          "pos": "n",
+          "ipaUK": "/ˈbɒt.əl.nek/",
+          "ipaUS": "/ˈbɑː.t̬əl.nek/",
+          "meaning": "nút thắt cổ chai (gây chậm quy trình)",
+          "examples": [
+            {
+              "en": "Manual invoice checks became a major bottleneck at month-end.",
+              "vi": "Kiểm tra hóa đơn thủ công trở thành nút thắt lớn vào cuối tháng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "logjam",
+            "obstacle",
+            "chokepoint"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "production bottleneck",
+              "meaning": "nút thắt sản xuất"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to logjam, obstacle, chokepoint.",
+          "definitionVi": "Danh từ dùng để chỉ nút thắt cổ chai (gây chậm quy trình).",
+          "topicId": "ox5-strategy"
+        }
+      ]
+    },
+    {
+      "id": "ox5-supply",
+      "name": "Quản trị Rủi ro & Chuỗi cung ứng",
+      "icon": "logistics",
+      "words": [
+        {
+          "id": "ox5-13",
+          "deckId": "oxford-5000",
+          "word": "cohesive",
+          "pos": "adj",
+          "ipaUK": "/kəʊˈhiː.sɪv/",
+          "ipaUS": "/koʊˈhiː.sɪv/",
+          "meaning": "gắn kết chặt chẽ, mạch lạc",
+          "examples": [
+            {
+              "en": "Weekly stand-ups help remote teams remain cohesive.",
+              "vi": "Họp đứng hàng tuần giúp các nhóm làm từ xa giữ sự gắn kết."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "cohesion",
+              "pos": "n",
+              "meaning": "sự gắn kết"
+            }
+          ],
+          "synonyms": [
+            "united",
+            "unified",
+            "integrated"
+          ],
+          "antonyms": [
+            "fragmented"
+          ],
+          "collocations": [
+            {
+              "phrase": "cohesive team",
+              "meaning": "đội ngũ gắn kết"
+            }
+          ],
+          "definitionEn": "Having the quality of being united, unified, integrated.",
+          "definitionVi": "Tính từ mô tả đặc điểm gắn kết chặt chẽ, mạch lạc.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-14",
+          "deckId": "oxford-5000",
+          "word": "credibility",
+          "pos": "n",
+          "ipaUK": "/ˌkred.əˈbɪl.ə.ti/",
+          "ipaUS": "/ˌkred.əˈbɪl.ə.t̬i/",
+          "meaning": "độ tin cậy, uy tín chuyên môn",
+          "examples": [
+            {
+              "en": "Third-party lab data boosted the product’s scientific credibility.",
+              "vi": "Dữ liệu phòng thí nghiệm độc lập nâng cao uy tín khoa học của sản phẩm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "credible",
+              "pos": "adj",
+              "meaning": "đáng tin cậy"
+            }
+          ],
+          "synonyms": [
+            "trustworthiness",
+            "reliability"
+          ],
+          "antonyms": [
+            "doubt"
+          ],
+          "collocations": [
+            {
+              "phrase": "build credibility",
+              "meaning": "xây dựng uy tín"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to trustworthiness, reliability.",
+          "definitionVi": "Danh từ dùng để chỉ độ tin cậy, uy tín chuyên môn.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-15",
+          "deckId": "oxford-5000",
+          "word": "curtail",
+          "pos": "v",
+          "ipaUK": "/kɜːˈteɪl/",
+          "ipaUS": "/kɝːˈteɪl/",
+          "meaning": "cắt giảm, hạn chế bớt",
+          "examples": [
+            {
+              "en": "The firm decided to curtail discretionary spending during the audit.",
+              "vi": "Công ty quyết định cắt giảm các khoản chi không thiết yếu trong đợt kiểm toán."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "reduce",
+            "cut back",
+            "restrict"
+          ],
+          "antonyms": [
+            "expand",
+            "extend"
+          ],
+          "collocations": [
+            {
+              "phrase": "curtail expenses",
+              "meaning": "cắt giảm chi phí"
+            }
+          ],
+          "definitionEn": "To reduce (also similar to cut back, restrict) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cắt giảm, hạn chế bớt.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-16",
+          "deckId": "oxford-5000",
+          "word": "deplete",
+          "pos": "v",
+          "ipaUK": "/dɪˈpliːt/",
+          "ipaUS": "/dɪˈpliːt/",
+          "meaning": "làm cạn kiệt (nguồn dự trữ, hàng tồn)",
+          "examples": [
+            {
+              "en": "Holiday flash sales could quickly deplete our winter coat stock.",
+              "vi": "Đợt giảm giá chớp nhoáng mùa lễ có thể nhanh chóng làm cạn kho áo khoác đông."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "depletion",
+              "pos": "n",
+              "meaning": "sự cạn kiệt"
+            }
+          ],
+          "synonyms": [
+            "exhaust",
+            "drain",
+            "use up"
+          ],
+          "antonyms": [
+            "replenish"
+          ],
+          "collocations": [
+            {
+              "phrase": "depleted inventory",
+              "meaning": "kho hàng cạn kiệt"
+            }
+          ],
+          "definitionEn": "To exhaust (also similar to drain, use up) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động làm cạn kiệt (nguồn dự trữ, hàng tồn).",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-17",
+          "deckId": "oxford-5000",
+          "word": "replenish",
+          "pos": "v",
+          "ipaUK": "/rɪˈplen.ɪʃ/",
+          "ipaUS": "/rɪˈplen.ɪʃ/",
+          "meaning": "bổ sung, làm đầy lại (hàng hóa, vật tư)",
+          "examples": [
+            {
+              "en": "Night crews replenish grocery shelves before 6 A.M.",
+              "vi": "Đội ca đêm bổ sung hàng lên kệ siêu thị trước 6 giờ sáng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "replenishment",
+              "pos": "n",
+              "meaning": "sự bổ sung hàng"
+            }
+          ],
+          "synonyms": [
+            "restock",
+            "refill",
+            "renew"
+          ],
+          "antonyms": [
+            "deplete"
+          ],
+          "collocations": [
+            {
+              "phrase": "replenish stock",
+              "meaning": "nhập bổ sung hàng"
+            }
+          ],
+          "definitionEn": "To restock (also similar to refill, renew) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động bổ sung, làm đầy lại (hàng hóa, vật tư).",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-18",
+          "deckId": "oxford-5000",
+          "word": "disruptive",
+          "pos": "adj",
+          "ipaUK": "/dɪsˈrʌp.tɪv/",
+          "ipaUS": "/dɪsˈrʌp.tɪv/",
+          "meaning": "gây gián đoạn; mang tính đột phá thay đổi ngành",
+          "examples": [
+            {
+              "en": "Construction noise proved disruptive to nearby offices.",
+              "vi": "Tiếng ồn xây dựng gây gián đoạn cho các văn phòng lân cận."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "disrupt",
+              "pos": "v",
+              "meaning": "làm gián đoạn"
+            },
+            {
+              "word": "disruption",
+              "pos": "n",
+              "meaning": "sự gián đoạn"
+            }
+          ],
+          "synonyms": [
+            "interruptive",
+            "groundbreaking"
+          ],
+          "antonyms": [
+            "smooth"
+          ],
+          "collocations": [
+            {
+              "phrase": "supply chain disruption",
+              "meaning": "gián đoạn chuỗi cung ứng"
+            }
+          ],
+          "definitionEn": "Having the quality of being interruptive, groundbreaking.",
+          "definitionVi": "Tính từ mô tả đặc điểm gây gián đoạn; mang tính đột phá thay đổi ngành.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-19",
+          "deckId": "oxford-5000",
+          "word": "diversify",
+          "pos": "v",
+          "ipaUK": "/daɪˈvɜː.sɪ.faɪ/",
+          "ipaUS": "/daɪˈvɝː.sə.faɪ/",
+          "meaning": "đa dạng hóa (sản phẩm, đầu tư)",
+          "examples": [
+            {
+              "en": "The roaster plans to diversify into cold-brew cans and tea blends.",
+              "vi": "Xưởng rang cà phê dự định đa dạng hóa sang cà phê ủ lạnh và trà phối trộn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "diversification",
+              "pos": "n",
+              "meaning": "sự đa dạng hóa"
+            },
+            {
+              "word": "diverse",
+              "pos": "adj",
+              "meaning": "đa dạng"
+            }
+          ],
+          "synonyms": [
+            "branch out",
+            "broaden"
+          ],
+          "antonyms": [
+            "specialize narrowly"
+          ],
+          "collocations": [
+            {
+              "phrase": "diversify a portfolio",
+              "meaning": "đa dạng hóa danh mục"
+            }
+          ],
+          "definitionEn": "To branch out (also similar to broaden) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đa dạng hóa (sản phẩm, đầu tư).",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-20",
+          "deckId": "oxford-5000",
+          "word": "entail",
+          "pos": "v",
+          "ipaUK": "/ɪnˈteɪl/",
+          "ipaUS": "/ɪnˈteɪl/",
+          "meaning": "đòi hỏi, bao gồm theo hệ quả tất yếu",
+          "examples": [
+            {
+              "en": "The regional director role will entail frequent travel across Asia.",
+              "vi": "Vị trí giám đốc khu vực sẽ đòi hỏi đi công tác thường xuyên khắp châu Á."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "involve",
+            "require",
+            "necessitate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "entail significant effort",
+              "meaning": "đòi hỏi nhiều nỗ lực"
+            }
+          ],
+          "definitionEn": "To involve (also similar to require, necessitate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đòi hỏi, bao gồm theo hệ quả tất yếu.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-21",
+          "deckId": "oxford-5000",
+          "word": "foster",
+          "pos": "v",
+          "ipaUK": "/ˈfɒs.tər/",
+          "ipaUS": "/ˈfɑː.stɚ/",
+          "meaning": "nuôi dưỡng, thúc đẩy (đổi mới, hợp tác)",
+          "examples": [
+            {
+              "en": "Open lounges are designed to foster spontaneous teamwork.",
+              "vi": "Phòng chờ mở được thiết kế để thúc đẩy sự hợp tác tự nhiên."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "encourage",
+            "promote",
+            "cultivate"
+          ],
+          "antonyms": [
+            "hinder"
+          ],
+          "collocations": [
+            {
+              "phrase": "foster innovation",
+              "meaning": "thúc đẩy đổi mới"
+            }
+          ],
+          "definitionEn": "To encourage (also similar to promote, cultivate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nuôi dưỡng, thúc đẩy (đổi mới, hợp tác).",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-22",
+          "deckId": "oxford-5000",
+          "word": "imminent",
+          "pos": "adj",
+          "ipaUK": "/ˈɪm.ɪ.nənt/",
+          "ipaUS": "/ˈɪm.ə.nənt/",
+          "meaning": "sắp xảy ra đến nơi",
+          "examples": [
+            {
+              "en": "An announcement regarding the merger is thought to be imminent.",
+              "vi": "Thông báo về thương vụ sáp nhập được cho là sắp diễn ra."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "impending",
+            "forthcoming",
+            "approaching"
+          ],
+          "antonyms": [
+            "distant"
+          ],
+          "collocations": [
+            {
+              "phrase": "imminent launch",
+              "meaning": "đợt ra mắt cận kề"
+            }
+          ],
+          "definitionEn": "Having the quality of being impending, forthcoming, approaching.",
+          "definitionVi": "Tính từ mô tả đặc điểm sắp xảy ra đến nơi.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-23",
+          "deckId": "oxford-5000",
+          "word": "indispensable",
+          "pos": "adj",
+          "ipaUK": "/ˌɪn.dɪˈspen.sə.bəl/",
+          "ipaUS": "/ˌɪn.dɪˈspen.sə.bəl/",
+          "meaning": "không thể thiếu được",
+          "examples": [
+            {
+              "en": "Automated alerts have become indispensable for server admins.",
+              "vi": "Cảnh báo tự động đã trở nên không thể thiếu với quản trị viên máy chủ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "essential",
+            "vital",
+            "crucial"
+          ],
+          "antonyms": [
+            "dispensable",
+            "optional"
+          ],
+          "collocations": [
+            {
+              "phrase": "indispensable tool",
+              "meaning": "công cụ không thể thiếu"
+            }
+          ],
+          "definitionEn": "Having the quality of being essential, vital, crucial.",
+          "definitionVi": "Tính từ mô tả đặc điểm không thể thiếu được.",
+          "topicId": "ox5-supply"
+        },
+        {
+          "id": "ox5-24",
+          "deckId": "oxford-5000",
+          "word": "leverage",
+          "pos": "v",
+          "ipaUK": "/ˈliː.vər.ɪdʒ/",
+          "ipaUS": "/ˈlev.ɚ.ɪdʒ/",
+          "meaning": "tận dụng tối đa (lợi thế, công nghệ)",
+          "examples": [
+            {
+              "en": "Small shops can leverage social video to reach younger buyers.",
+              "vi": "Cửa hàng nhỏ có thể tận dụng video mạng xã hội để tiếp cận khách trẻ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "utilize",
+            "capitalize on",
+            "harness"
+          ],
+          "antonyms": [
+            "waste"
+          ],
+          "collocations": [
+            {
+              "phrase": "leverage expertise",
+              "meaning": "tận dụng chuyên môn"
+            }
+          ],
+          "definitionEn": "To utilize (also similar to capitalize on, harness) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tận dụng tối đa (lợi thế, công nghệ).",
+          "topicId": "ox5-supply"
+        }
+      ]
+    },
+    {
+      "id": "ox5-leadership",
+      "name": "Lãnh đạo, Chuẩn mực & Tối ưu hóa",
+      "icon": "leadership",
+      "words": [
+        {
+          "id": "ox5-25",
+          "deckId": "oxford-5000",
+          "word": "milestone",
+          "pos": "n",
+          "ipaUK": "/ˈmaɪl.stəʊn/",
+          "ipaUS": "/ˈmaɪl.stoʊn/",
+          "meaning": "cột mốc quan trọng",
+          "examples": [
+            {
+              "en": "Reaching one million active users marked a historic milestone.",
+              "vi": "Đạt một triệu người dùng hoạt động đánh dấu cột mốc lịch sử."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "landmark",
+            "achievement",
+            "turning point"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "reach a milestone",
+              "meaning": "đạt cột mốc quan trọng"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to landmark, achievement, turning point.",
+          "definitionVi": "Danh từ dùng để chỉ cột mốc quan trọng.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-26",
+          "deckId": "oxford-5000",
+          "word": "obsolete",
+          "pos": "adj",
+          "ipaUK": "/ˌɒb.səlˈiːt/",
+          "ipaUS": "/ˌɑːb.səlˈiːt/",
+          "meaning": "lỗi thời, không còn được dùng nữa",
+          "examples": [
+            {
+              "en": "Cloud backups quickly made magnetic tape drives obsolete.",
+              "vi": "Sao lưu đám mây nhanh chóng khiến ổ băng từ trở nên lỗi thời."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "outdated",
+            "antiquated",
+            "defunct"
+          ],
+          "antonyms": [
+            "modern",
+            "cutting-edge"
+          ],
+          "collocations": [
+            {
+              "phrase": "render obsolete",
+              "meaning": "khiến trở nên lỗi thời"
+            }
+          ],
+          "definitionEn": "Having the quality of being outdated, antiquated, defunct.",
+          "definitionVi": "Tính từ mô tả đặc điểm lỗi thời, không còn được dùng nữa.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-27",
+          "deckId": "oxford-5000",
+          "word": "overhaul",
+          "pos": "n",
+          "ipaUK": "/ˈəʊ.və.hɔːl/",
+          "ipaUS": "/ˈoʊ.vɚ.hɑːl/",
+          "meaning": "cuộc đại tu, cải tổ toàn diện",
+          "examples": [
+            {
+              "en": "The website underwent a complete visual overhaul last spring.",
+              "vi": "Trang web đã trải qua cuộc cải tổ giao diện toàn diện mùa xuân trước."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "revamp",
+            "restructuring",
+            "renovation"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "major overhaul",
+              "meaning": "đại tu quy mô lớn"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to revamp, restructuring, renovation.",
+          "definitionVi": "Danh từ dùng để chỉ cuộc đại tu, cải tổ toàn diện.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-28",
+          "deckId": "oxford-5000",
+          "word": "paramount",
+          "pos": "adj",
+          "ipaUK": "/ˈpær.ə.maʊnt/",
+          "ipaUS": "/ˈper.ə.maʊnt/",
+          "meaning": "tối thượng, quan trọng bậc nhất",
+          "examples": [
+            {
+              "en": "Passenger safety remains of paramount importance to our airline.",
+              "vi": "An toàn hành khách luôn là yếu tố quan trọng bậc nhất của hãng bay chúng tôi."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "supreme",
+            "foremost",
+            "primary"
+          ],
+          "antonyms": [
+            "secondary"
+          ],
+          "collocations": [
+            {
+              "phrase": "of paramount importance",
+              "meaning": "vô cùng quan trọng"
+            }
+          ],
+          "definitionEn": "Having the quality of being supreme, foremost, primary.",
+          "definitionVi": "Tính từ mô tả đặc điểm tối thượng, quan trọng bậc nhất.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-29",
+          "deckId": "oxford-5000",
+          "word": "proficient",
+          "pos": "adj",
+          "ipaUK": "/prəˈfɪʃ.ənt/",
+          "ipaUS": "/prəˈfɪʃ.ənt/",
+          "meaning": "thành thạo, giỏi chuyên môn (đi với in)",
+          "examples": [
+            {
+              "en": "Candidates should be proficient in Excel pivot tables and SQL.",
+              "vi": "Ứng viên cần thành thạo bảng tổng hợp Excel và SQL."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "proficiency",
+              "pos": "n",
+              "meaning": "sự thành thạo"
+            }
+          ],
+          "synonyms": [
+            "skilled",
+            "adept",
+            "competent"
+          ],
+          "antonyms": [
+            "unskilled"
+          ],
+          "collocations": [
+            {
+              "phrase": "proficient in",
+              "meaning": "thành thạo về"
+            }
+          ],
+          "definitionEn": "Having the quality of being skilled, adept, competent.",
+          "definitionVi": "Tính từ mô tả đặc điểm thành thạo, giỏi chuyên môn (đi với in).",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-30",
+          "deckId": "oxford-5000",
+          "word": "reconcile",
+          "pos": "v",
+          "ipaUK": "/ˈrek.ən.saɪl/",
+          "ipaUS": "/ˈrek.ən.saɪl/",
+          "meaning": "đối chiếu khớp sổ sách; hòa giải",
+          "examples": [
+            {
+              "en": "Bookkeepers reconcile bank statements at the end of every week.",
+              "vi": "Nhân viên kế toán đối chiếu sao kê ngân hàng vào cuối mỗi tuần."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "reconciliation",
+              "pos": "n",
+              "meaning": "sự đối chiếu sổ sách"
+            }
+          ],
+          "synonyms": [
+            "balance",
+            "align",
+            "harmonize"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "reconcile accounts",
+              "meaning": "đối chiếu khớp tài khoản"
+            }
+          ],
+          "definitionEn": "To balance (also similar to align, harmonize) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đối chiếu khớp sổ sách; hòa giải.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-31",
+          "deckId": "oxford-5000",
+          "word": "resilient",
+          "pos": "adj",
+          "ipaUK": "/rɪˈzɪl.jənt/",
+          "ipaUS": "/rɪˈzɪl.jənt/",
+          "meaning": "kiên cường, phục hồi nhanh sau khủng hoảng",
+          "examples": [
+            {
+              "en": "A resilient supply chain adapts quickly to port closures.",
+              "vi": "Chuỗi cung ứng bền bỉ thích nghi nhanh khi cảng bị đóng cửa."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "resilience",
+              "pos": "n",
+              "meaning": "khả năng phục hồi"
+            }
+          ],
+          "synonyms": [
+            "robust",
+            "adaptable",
+            "tough"
+          ],
+          "antonyms": [
+            "fragile"
+          ],
+          "collocations": [
+            {
+              "phrase": "resilient business model",
+              "meaning": "mô hình kinh doanh bền bỉ"
+            }
+          ],
+          "definitionEn": "Having the quality of being robust, adaptable, tough.",
+          "definitionVi": "Tính từ mô tả đặc điểm kiên cường, phục hồi nhanh sau khủng hoảng.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-32",
+          "deckId": "oxford-5000",
+          "word": "rigorous",
+          "pos": "adj",
+          "ipaUK": "/ˈrɪɡ.ər.əs/",
+          "ipaUS": "/ˈrɪɡ.ɚ.əs/",
+          "meaning": "nghiêm ngặt, khắt khe, tỉ mỉ",
+          "examples": [
+            {
+              "en": "Every pilot completes rigorous simulator drills twice a year.",
+              "vi": "Mỗi phi công hoàn thành các bài tập mô phỏng khắt khe hai lần mỗi năm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "rigorously",
+              "pos": "adv",
+              "meaning": "nghiêm ngặt"
+            }
+          ],
+          "synonyms": [
+            "stringent",
+            "thorough",
+            "strict"
+          ],
+          "antonyms": [
+            "lax"
+          ],
+          "collocations": [
+            {
+              "phrase": "rigorous testing",
+              "meaning": "kiểm định nghiêm ngặt"
+            }
+          ],
+          "definitionEn": "Having the quality of being stringent, thorough, strict.",
+          "definitionVi": "Tính từ mô tả đặc điểm nghiêm ngặt, khắt khe, tỉ mỉ.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-33",
+          "deckId": "oxford-5000",
+          "word": "spearhead",
+          "pos": "v",
+          "ipaUK": "/ˈspɪə.hed/",
+          "ipaUS": "/ˈspɪr.hed/",
+          "meaning": "dẫn đầu, tiên phong chỉ đạo (dự án)",
+          "examples": [
+            {
+              "en": "Ms. Gomez will spearhead our sustainable packaging initiative.",
+              "vi": "Cô Gomez sẽ dẫn đầu sáng kiến bao bì bền vững của chúng tôi."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "lead",
+            "champion",
+            "pioneer"
+          ],
+          "antonyms": [
+            "follow"
+          ],
+          "collocations": [
+            {
+              "phrase": "spearhead a campaign",
+              "meaning": "dẫn dắt chiến dịch"
+            }
+          ],
+          "definitionEn": "To lead (also similar to champion, pioneer) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động dẫn đầu, tiên phong chỉ đạo (dự án).",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-34",
+          "deckId": "oxford-5000",
+          "word": "tangible",
+          "pos": "adj",
+          "ipaUK": "/ˈtæn.dʒə.bəl/",
+          "ipaUS": "/ˈtæn.dʒə.bəl/",
+          "meaning": "hữu hình, cụ thể rõ rệt",
+          "examples": [
+            {
+              "en": "Training workshops delivered tangible gains in call resolution speed.",
+              "vi": "Hội thảo đào tạo mang lại cải thiện rõ rệt về tốc độ xử lý cuộc gọi."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "concrete",
+            "measurable",
+            "real"
+          ],
+          "antonyms": [
+            "intangible"
+          ],
+          "collocations": [
+            {
+              "phrase": "tangible results",
+              "meaning": "kết quả cụ thể rõ rệt"
+            }
+          ],
+          "definitionEn": "Having the quality of being concrete, measurable, real.",
+          "definitionVi": "Tính từ mô tả đặc điểm hữu hình, cụ thể rõ rệt.",
+          "topicId": "ox5-leadership"
+        },
+        {
+          "id": "ox5-35",
+          "deckId": "oxford-5000",
+          "word": "versatile",
+          "pos": "adj",
+          "ipaUK": "/ˈvɜː.sə.taɪl/",
+          "ipaUS": "/ˈvɝː.sə.t̬əl/",
+          "meaning": "đa năng, linh hoạt nhiều công dụng",
+          "examples": [
+            {
+              "en": "Modular desks offer a versatile setup for growing studios.",
+              "vi": "Bàn mô-đun mang lại cách bố trí đa năng cho các studio đang mở rộng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "versatility",
+              "pos": "n",
+              "meaning": "tính đa năng"
+            }
+          ],
+          "synonyms": [
+            "adaptable",
+            "multipurpose",
+            "flexible"
+          ],
+          "antonyms": [
+            "limited"
+          ],
+          "collocations": [
+            {
+              "phrase": "versatile workspace",
+              "meaning": "không gian làm việc đa năng"
+            }
+          ],
+          "definitionEn": "Having the quality of being adaptable, multipurpose, flexible.",
+          "definitionVi": "Tính từ mô tả đặc điểm đa năng, linh hoạt nhiều công dụng.",
+          "topicId": "ox5-leadership"
+        }
+      ]
+    }
+  ]
+}

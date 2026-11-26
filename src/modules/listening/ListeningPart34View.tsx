@@ -1,0 +1,395 @@
+import React, { useMemo, useState } from 'react';
+import {
+  BookmarkCheck,
+  BookmarkPlus,
+  CheckCircle2,
+  MessageSquareText,
+  RotateCcw,
+  Sparkles,
+  Table2,
+  Users,
+  Volume2,
+} from 'lucide-react';
+import { LISTENING_PART3_SETS } from '../../data/listeningPart3';
+import { LISTENING_PART4_SETS } from '../../data/listeningPart4';
+import { ListeningPart3Set, ListeningPart4Set, OptionKey } from '../../types';
+import { useApp } from '../../context/AppContext';
+import { SmartAudioPlayer } from '../../components/SmartAudioPlayer';
+import { ListeningAnalysisPanel } from './ListeningAnalysisPanel';
+import { speakText } from '../../utils/speech';
+
+interface ListeningPart34ViewProps {
+  part: 3 | 4;
+}
+
+const OPTION_KEYS: OptionKey[] = ['A', 'B', 'C', 'D'];
+
+export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part }) => {
+  const { recordAttempt, saveListeningVocab, isWordSaved } = useApp();
+  const sets: (ListeningPart3Set | ListeningPart4Set)[] =
+    part === 3 ? LISTENING_PART3_SETS : LISTENING_PART4_SETS;
+
+  const [setIdx, setSetIdx] = useState(0);
+  const [answers, setAnswers] = useState<Record<string, OptionKey>>({});
+  const [submittedSets, setSubmittedSets] = useState<Record<string, boolean>>({});
+  const [activeLineId, setActiveLineId] = useState<string | null>(null);
+  const [externalPlay, setExternalPlay] = useState<{ index: number; token: number } | null>(null);
+
+  const currentSet = sets[setIdx] || sets[0];
+  const isSubmitted = Boolean(submittedSets[currentSet.id]);
+
+  const audioLines = useMemo(
+    () =>
+      currentSet.transcript.map((t) => ({
+        id: t.id,
+        text: t.en,
+        accent: t.accent,
+        gender: t.voiceGender,
+        startMs: t.startMs,
+        endMs: t.endMs,
+      })),
+    [currentSet]
+  );
+
+  const allAnswered = currentSet.questions.every((q) => Boolean(answers[q.id]));
+
+  const handleSubmitSet = () => {
+    if (isSubmitted) return;
+    setSubmittedSets((prev) => ({ ...prev, [currentSet.id]: true }));
+    const correct = currentSet.questions.filter((q) => answers[q.id] === q.correctAnswer).length;
+    recordAttempt({
+      module: 'listening',
+      partLabel: `Part ${part}`,
+      correctCount: correct,
+      totalCount: currentSet.questions.length,
+      topics: currentSet.questions.map((q) => ({
+        topic: `Part ${part} — ${q.questionType}`,
+        correct: answers[q.id] === q.correctAnswer,
+      })),
+    });
+  };
+
+  return (
+    <div className="space-y-5">
+      {/* Set Selector */}
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-[#111827] p-4">
+        <div className="flex flex-wrap gap-2">
+          {sets.map((s, i) => (
+            <button
+              key={s.id}
+              type="button"
+              onClick={() => {
+                setSetIdx(i);
+                setActiveLineId(null);
+              }}
+              className={`rounded-xl px-4 py-2 text-xs sm:text-sm font-bold transition ${
+                setIdx === i
+                  ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 text-white shadow-sm'
+                  : 'bg-slate-800 text-slate-300 hover:text-white'
+              }`}
+            >
+              {part === 3 ? `Hội thoại ${i + 1}` : `Bài nói ${i + 1}`}
+              {s.hasGraphic ? ' • Có bảng biểu' : ''}
+            </button>
+          ))}
+        </div>
+
+        {isSubmitted && (
+          <button
+            type="button"
+            onClick={() => {
+              setSubmittedSets((p) => ({ ...p, [currentSet.id]: false }));
+              setAnswers((prev) => {
+                const next = { ...prev };
+                currentSet.questions.forEach((q) => delete next[q.id]);
+                return next;
+              });
+            }}
+            className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 px-3 py-1.5 text-xs font-bold text-slate-200 hover:text-white"
+          >
+            <RotateCcw className="h-3.5 w-3.5" />
+            Làm lại đoạn này
+          </button>
+        )}
+      </div>
+
+      {/* Audio + Metadata + Graphic Table */}
+      <div className="rounded-2xl border border-slate-700/80 bg-[#1E293B] p-5 shadow-card space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="inline-flex items-center gap-1 rounded-md bg-indigo-500/20 px-2.5 py-0.5 text-[11px] font-bold text-indigo-300">
+                <Users className="h-3.5 w-3.5" />
+                {currentSet.part === 3
+                  ? `Hội thoại ${currentSet.speakerCount} người`
+                  : currentSet.talkType}
+              </span>
+              {currentSet.hasGraphic && (
+                <span className="inline-flex items-center gap-1 rounded-md bg-cyan-500/20 px-2.5 py-0.5 text-[11px] font-bold text-cyan-300">
+                  <Table2 className="h-3.5 w-3.5" />
+                  Kèm bảng biểu (Graphic Question)
+                </span>
+              )}
+            </div>
+            <h3 className="mt-1.5 text-lg font-extrabold text-white">{currentSet.title}</h3>
+          </div>
+        </div>
+
+        <SmartAudioPlayer
+          lines={audioLines}
+          audioUrl={currentSet.audioUrl}
+          activeLineId={activeLineId}
+          onActiveLineChange={(lineId) => setActiveLineId(lineId)}
+          externalPlayLineIndex={externalPlay}
+          label={`Audio Part ${part} — ${currentSet.transcript.length} lượt thoại phân vai giọng Nam/Nữ`}
+        />
+
+        {/* Graphic Table if present */}
+        {currentSet.graphic && (
+          <div className="rounded-2xl border border-cyan-500/35 bg-slate-950/75 p-4 space-y-2.5">
+            <div>
+              <h4 className="text-sm sm:text-base font-extrabold text-cyan-200">
+                {currentSet.graphic.title}
+              </h4>
+              {currentSet.graphic.subtitle && (
+                <p className="text-xs text-slate-400">{currentSet.graphic.subtitle}</p>
+              )}
+            </div>
+            <div className="overflow-x-auto rounded-xl border border-slate-800">
+              <table className="w-full text-left text-xs sm:text-sm">
+                <thead className="bg-slate-900 text-slate-300 uppercase text-[11px]">
+                  <tr>
+                    {currentSet.graphic.headers.map((h) => (
+                      <th key={h} className="px-3.5 py-2.5 font-bold">
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-800 bg-slate-950/60">
+                  {currentSet.graphic.rows.map((row, ri) => (
+                    <tr key={ri} className="hover:bg-slate-800/40">
+                      {row.map((cell, ci) => (
+                        <td
+                          key={ci}
+                          className={`px-3.5 py-2.5 ${
+                            ci === 0 ? 'font-bold text-white' : 'text-slate-300'
+                          }`}
+                        >
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {currentSet.graphic.footnote && (
+              <p className="text-[11px] italic text-slate-400">{currentSet.graphic.footnote}</p>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* Interactive Transcript + Shared Key Vocab (Revealed after submission) */}
+      {isSubmitted && (
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
+          <div className="xl:col-span-7 rounded-2xl border border-indigo-500/35 bg-[#1E293B] p-5 shadow-card space-y-3">
+            <div className="flex items-center justify-between gap-2">
+              <h4 className="inline-flex items-center gap-2 text-sm font-extrabold text-indigo-300 uppercase tracking-wider">
+                <MessageSquareText className="h-4 w-4" />
+                Interactive Transcript song ngữ (Bấm từng câu để nghe lại)
+              </h4>
+            </div>
+            <div className="space-y-2.5">
+              {currentSet.transcript.map((line, idx) => {
+                const isActive = activeLineId === line.id;
+                const hasEv = (line.evidenceForQuestionIds?.length ?? 0) > 0;
+                return (
+                  <button
+                    key={line.id}
+                    type="button"
+                    onClick={() => setExternalPlay({ index: idx, token: Date.now() })}
+                    className={`w-full rounded-xl border p-3.5 text-left transition flex items-start justify-between gap-3 ${
+                      isActive
+                        ? 'border-cyan-400 bg-cyan-500/15'
+                        : hasEv
+                        ? 'transcript-evidence border-indigo-400/50'
+                        : 'border-slate-800 bg-slate-900/75 hover:border-slate-700'
+                    }`}
+                  >
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span
+                          className={`text-xs font-extrabold ${
+                            line.voiceGender === 'female' ? 'text-pink-300' : 'text-sky-300'
+                          }`}
+                        >
+                          {line.speaker}
+                        </span>
+                        {hasEv && (
+                          <span className="rounded bg-amber-500/20 px-1.5 py-0.5 text-[10px] font-bold text-amber-300">
+                            Dẫn chứng đáp án
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm text-white leading-relaxed">{line.en}</p>
+                      <p className="text-xs text-slate-400 leading-relaxed">{line.vi}</p>
+                    </div>
+                    <Volume2 className="h-4 w-4 shrink-0 text-cyan-400 mt-1" />
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Shared Set Key Listening Vocab */}
+          <div className="xl:col-span-5 rounded-2xl border border-violet-500/35 bg-[#1E293B] p-5 shadow-card space-y-3">
+            <h4 className="inline-flex items-center gap-2 text-sm font-extrabold text-violet-300 uppercase tracking-wider">
+              <Sparkles className="h-4 w-4" />
+              Từ vựng trọng tâm của đoạn nghe
+            </h4>
+            <div className="space-y-2.5">
+              {currentSet.keyVocab.map((v) => {
+                const saved = isWordSaved(v.id);
+                return (
+                  <div
+                    key={v.id}
+                    className="rounded-xl border border-slate-700/70 bg-slate-900/85 p-3.5 space-y-2"
+                  >
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span className="font-bold text-sm text-white">{v.word}</span>
+                        <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-bold text-indigo-300">
+                          {v.pos}
+                        </span>
+                        <span className="font-mono text-xs text-slate-400">{v.ipaUS}</span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => speakText(v.word, { accent: 'en-US' })}
+                        className="rounded-lg bg-slate-800 p-1.5 text-cyan-400 hover:bg-indigo-600 hover:text-white"
+                      >
+                        <Volume2 className="h-3.5 w-3.5" />
+                      </button>
+                    </div>
+                    <p className="text-xs font-semibold text-emerald-300">{v.meaning}</p>
+                    <p className="text-[11px] text-slate-400 italic">{v.exampleEn}</p>
+                    <button
+                      type="button"
+                      onClick={() => saveListeningVocab(v)}
+                      disabled={saved}
+                      className={`inline-flex w-full items-center justify-center gap-1.5 rounded-lg py-1.5 text-xs font-bold transition ${
+                        saved
+                          ? 'bg-emerald-500/15 border border-emerald-500/40 text-emerald-300'
+                          : 'bg-indigo-600 hover:bg-indigo-500 text-white'
+                      }`}
+                    >
+                      {saved ? (
+                        <>
+                          <BookmarkCheck className="h-3.5 w-3.5" />
+                          Đã lưu vào Từ vựng của tôi
+                        </>
+                      ) : (
+                        <>
+                          <BookmarkPlus className="h-3.5 w-3.5" />
+                          Lưu vào Từ vựng của tôi
+                        </>
+                      )}
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 3 Sub-Questions */}
+      <div className="space-y-4">
+        {currentSet.questions.map((q) => {
+          const userChoice = answers[q.id];
+          return (
+            <div
+              key={q.id}
+              className="rounded-2xl border border-slate-700/80 bg-[#1E293B] p-5 shadow-card"
+            >
+              <div className="flex flex-wrap items-center justify-between gap-2 mb-2.5">
+                <span className="rounded-lg bg-indigo-500/20 border border-indigo-500/30 px-2.5 py-1 text-xs font-extrabold text-indigo-300">
+                  Câu {q.questionNumber}
+                </span>
+                <span className="rounded-md bg-slate-900 border border-slate-700 px-2.5 py-0.5 text-[11px] font-bold text-cyan-300">
+                  {q.questionType}
+                </span>
+              </div>
+
+              <p className="text-sm sm:text-base font-bold text-white leading-relaxed">{q.prompt}</p>
+              {isSubmitted && <p className="mt-1 text-xs text-cyan-300">{q.promptVi}</p>}
+
+              <div className="mt-3.5 grid grid-cols-1 md:grid-cols-2 gap-2.5">
+                {OPTION_KEYS.map((k) => {
+                  const chosen = userChoice === k;
+                  const right = k === q.correctAnswer;
+                  let cls =
+                    'border-slate-700/80 bg-slate-900/75 text-slate-200 hover:border-indigo-500/60';
+                  if (isSubmitted) {
+                    if (right) cls = 'border-emerald-500 bg-emerald-500/15 text-emerald-100';
+                    else if (chosen) cls = 'border-rose-500 bg-rose-500/15 text-rose-100';
+                    else cls = 'border-slate-800 bg-slate-900/40 text-slate-500';
+                  } else if (chosen) {
+                    cls = 'border-indigo-400 bg-indigo-500/20 text-white ring-2 ring-indigo-500/30';
+                  }
+
+                  return (
+                    <button
+                      key={k}
+                      type="button"
+                      disabled={isSubmitted}
+                      onClick={() => setAnswers((prev) => ({ ...prev, [q.id]: k }))}
+                      className={`flex items-start gap-3 rounded-xl border p-3.5 text-left text-sm transition ${cls}`}
+                    >
+                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-slate-800 text-xs font-bold mt-0.5">
+                        {k}
+                      </span>
+                      <div>
+                        <p className="font-medium leading-snug">{q.options[k].en}</p>
+                        {isSubmitted && (
+                          <p className="mt-1 text-xs text-slate-400">{q.options[k].vi}</p>
+                        )}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {isSubmitted && (
+                <ListeningAnalysisPanel
+                  questionId={q.id}
+                  questionLabel={`Listening Part ${part} — Câu ${q.questionNumber} (${q.questionType})`}
+                  correctAnswer={q.correctAnswer}
+                  userAnswer={userChoice}
+                  optionKeys={OPTION_KEYS}
+                  explanation={q.explanation}
+                />
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {!isSubmitted && (
+        <div className="flex justify-end">
+          <button
+            type="button"
+            disabled={!allAnswered}
+            onClick={handleSubmitSet}
+            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 disabled:opacity-40 px-7 py-3 text-sm font-bold text-white shadow-glow hover:from-blue-500 hover:to-violet-500 transition"
+          >
+            <CheckCircle2 className="h-5 w-5" />
+            Nộp bài (3 câu) &amp; Mở khóa Interactive Transcript + Phân tích
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};

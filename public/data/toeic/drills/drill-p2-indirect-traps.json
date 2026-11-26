@@ -1,0 +1,384 @@
+{
+  "id": "drill-p2-indirect-traps",
+  "part": 2,
+  "title": "Chuyên đề Trả lời gián tiếp & Bẫy đồng âm",
+  "subtitle": "Chinh phục mức 850+: câu hỏi ngược, chuyển người trả lời & bẫy copy/coffee, board, check.",
+  "focusTag": "Indirect & Homophones",
+  "part2": [
+    {
+      "id": "dp2-it-1",
+      "part": 2,
+      "questionType": "Trả lời gián tiếp (Indirect)",
+      "title": "Bẫy hỏi lại bằng câu hỏi (Question-for-Question)",
+      "questionLine": {
+        "id": "dp2-it-1-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Should we invite the regional branch managers to Friday's briefing?",
+        "vi": "Chúng ta có nên mời các giám đốc chi nhánh khu vực tới buổi họp ngắn thứ Sáu không?",
+        "startMs": 240,
+        "endMs": 4368
+      },
+      "options": {
+        "A": {
+          "en": "Wouldn't a summary email be more efficient?",
+          "vi": "Một email tóm tắt chẳng phải sẽ hiệu quả hơn sao?",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4968,
+          "endMs": 8472
+        },
+        "B": {
+          "en": "He manages thirty engineers.",
+          "vi": "Anh ấy quản lý ba mươi kỹ sư.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 9072,
+          "endMs": 12216
+        },
+        "C": {
+          "en": "The briefing was quite brief.",
+          "vi": "Buổi họp ngắn thực sự khá ngắn.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12816,
+          "endMs": 15816
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy trả lời bằng câu hỏi ngược + lặp từ 'brief / manager'",
+        "trapAnalysis": "ETS mức 800+ cực thích đáp án là một câu hỏi đề xuất ngược lại ('Wouldn't ... be more efficient?').",
+        "paraphrases": [
+          {
+            "audioPhrase": "invite to briefing",
+            "answerPhrase": "summary email more efficient",
+            "meaningVi": "đề xuất gửi email thay cho mời họp"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Gợi ý phương án gửi email tóm tắt hiệu quả hơn thay vì gọi họp.",
+          "B": "Sai bẫy lặp 'manager / manages'.",
+          "C": "Sai bẫy lặp 'briefing / brief'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-it-1-v1",
+            "word": "efficient",
+            "pos": "adj",
+            "ipaUK": "/ɪˈfɪʃnt/",
+            "ipaUS": "/ɪˈfɪʃnt/",
+            "meaning": "hiệu quả, tối ưu thời gian/chi phí",
+            "exampleEn": "Automated invoicing is far more efficient than manual entry.",
+            "exampleVi": "Xuất hóa đơn tự động hiệu quả hơn nhiều so với nhập tay."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-it-1.mp3"
+    },
+    {
+      "id": "dp2-it-2",
+      "part": 2,
+      "questionType": "Trả lời gián tiếp (Indirect)",
+      "title": "Bẫy đồng âm 'copy' vs 'coffee' & trả lời gián tiếp",
+      "questionLine": {
+        "id": "dp2-it-2-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Did you make twenty copies of the training handout?",
+        "vi": "Bạn đã photo hai mươi bản tài liệu phát tay khóa đào tạo chưa?",
+        "startMs": 240,
+        "endMs": 3720
+      },
+      "options": {
+        "A": {
+          "en": "The photocopier jammed halfway through.",
+          "vi": "Máy photocopy bị kẹt giấy giữa chừng rồi.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4320,
+          "endMs": 7704
+        },
+        "B": {
+          "en": "Two cups of black coffee, thanks.",
+          "vi": "Hai tách cà phê đen, cảm ơn.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 8304,
+          "endMs": 11616
+        },
+        "C": {
+          "en": "Hand it over to the reception desk.",
+          "vi": "Đưa nó qua quầy lễ tân.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 12216,
+          "endMs": 15312
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đồng âm 'copies' vs 'coffee' & nêu sự cố thay cho chữ 'No'",
+        "trapAnalysis": "Cặp 'copy / coffee' là bẫy âm thanh cực hiểm của Part 2! (A) báo máy kẹt giấy -> hàm ý chưa photo xong.",
+        "paraphrases": [
+          {
+            "audioPhrase": "make copies",
+            "answerPhrase": "photocopier jammed",
+            "meaningVi": "máy photo kẹt giấy nên chưa xong"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Báo sự cố kẹt giấy giải thích tại sao chưa xong.",
+          "B": "Sai bẫy đồng âm 'copies' vs 'coffee'.",
+          "C": "Sai bẫy lặp 'handout / hand'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-it-2-v1",
+            "word": "jam",
+            "pos": "v",
+            "ipaUK": "/dʒæm/",
+            "ipaUS": "/dʒæm/",
+            "meaning": "bị kẹt (giấy, máy móc)",
+            "exampleEn": "Call maintenance if the printer paper tray jams again.",
+            "exampleVi": "Gọi bảo trì nếu khay giấy máy in lại bị kẹt."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-it-2.mp3"
+    },
+    {
+      "id": "dp2-it-3",
+      "part": 2,
+      "questionType": "Trả lời gián tiếp (Indirect)",
+      "title": "Bẫy 'I'm not sure / Ask someone else'",
+      "questionLine": {
+        "id": "dp2-it-3-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "When will the renovations on the third floor finish?",
+        "vi": "Khi nào việc cải tạo ở tầng ba sẽ hoàn tất?",
+        "startMs": 240,
+        "endMs": 3624
+      },
+      "options": {
+        "A": {
+          "en": "You'd better ask the facilities director.",
+          "vi": "Bạn nên hỏi giám đốc cơ sở vật chất thì hơn.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4224,
+          "endMs": 7200
+        },
+        "B": {
+          "en": "It has a glossy wooden finish.",
+          "vi": "Nó có lớp phủ gỗ bóng.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 7800,
+          "endMs": 10320
+        },
+        "C": {
+          "en": "Yes, three floors in total.",
+          "vi": "Vâng, tổng cộng ba tầng.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 10920,
+          "endMs": 13656
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy từ đa nghĩa 'finish' (hoàn tất vs lớp sơn phủ) & chuyển người trả lời",
+        "trapAnalysis": "Không biết thông tin -> giới thiệu sang đúng người nắm rõ ('facilities director').",
+        "paraphrases": [
+          {
+            "audioPhrase": "when will renovations finish",
+            "answerPhrase": "ask the facilities director",
+            "meaningVi": "chuyển hỏi giám đốc cơ sở vật chất"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Hướng dẫn hỏi đúng người phụ trách cải tạo.",
+          "B": "Sai bẫy đồng âm 'finish' (danh từ: lớp hoàn thiện bề mặt).",
+          "C": "Sai: Dùng Yes cho câu When."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-it-3-v1",
+            "word": "renovation",
+            "pos": "n",
+            "ipaUK": "/ˌrenəˈveɪʃn/",
+            "ipaUS": "/ˌrenəˈveɪʃn/",
+            "meaning": "việc cải tạo, tu sửa",
+            "exampleEn": "The lobby will remain open throughout the renovation.",
+            "exampleVi": "Sảnh chính vẫn mở cửa trong suốt thời gian tu sửa."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-it-3.mp3"
+    },
+    {
+      "id": "dp2-it-4",
+      "part": 2,
+      "questionType": "Trả lời gián tiếp (Indirect)",
+      "title": "Bẫy đồng âm 'board' (hội đồng vs lên máy bay)",
+      "questionLine": {
+        "id": "dp2-it-4-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Is the board meeting still scheduled for ten o'clock?",
+        "vi": "Cuộc họp hội đồng quản trị vẫn theo lịch lúc mười giờ chứ?",
+        "startMs": 240,
+        "endMs": 3672
+      },
+      "options": {
+        "A": {
+          "en": "Didn't you see Elena's email about rescheduling?",
+          "vi": "Bạn chưa xem email của Elena về việc đổi lịch sao?",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4272,
+          "endMs": 8112
+        },
+        "B": {
+          "en": "Passengers are boarding at Gate 12.",
+          "vi": "Hành khách đang lên máy bay ở Cổng 12.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 8712,
+          "endMs": 12000
+        },
+        "C": {
+          "en": "Ten wooden boards were delivered.",
+          "vi": "Mười tấm ván gỗ đã được giao.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 12600,
+          "endMs": 15792
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đồng âm 3 nghĩa của 'board' + câu hỏi ngược",
+        "trapAnalysis": "(B) dùng 'boarding' (lên máy bay), (C) dùng 'wooden boards' (ván gỗ) — cả hai đều gài bẫy từ 'board'!",
+        "paraphrases": [
+          {
+            "audioPhrase": "still scheduled",
+            "answerPhrase": "email about rescheduling",
+            "meaningVi": "đã đổi lịch qua email"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Hàm ý lịch họp đã thay đổi và nhắc xem email của Elena.",
+          "B": "Sai bẫy đồng âm 'boarding'.",
+          "C": "Sai bẫy đồng âm 'wooden boards'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-it-4-v1",
+            "word": "reschedule",
+            "pos": "v",
+            "ipaUK": "/ˌriːˈʃedjuːl/",
+            "ipaUS": "/ˌriːˈskedʒuːl/",
+            "meaning": "dời lịch, xếp lại lịch",
+            "exampleEn": "We had to reschedule the product demo to Thursday.",
+            "exampleVi": "Chúng tôi phải dời buổi giới thiệu sản phẩm sang thứ Năm."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-it-4.mp3"
+    },
+    {
+      "id": "dp2-it-5",
+      "part": 2,
+      "questionType": "Trả lời gián tiếp (Indirect)",
+      "title": "Bẫy đồng âm 'check' (kiểm tra vs séc thanh toán) & hàm ý",
+      "questionLine": {
+        "id": "dp2-it-5-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Could you check whether the conference microphones have fresh batteries?",
+        "vi": "Bạn có thể kiểm tra xem micro hội nghị đã có pin mới chưa?",
+        "startMs": 240,
+        "endMs": 4536
+      },
+      "options": {
+        "A": {
+          "en": "A technician tested all of them ten minutes ago.",
+          "vi": "Một kỹ thuật viên vừa kiểm tra hết chúng mười phút trước rồi.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 5136,
+          "endMs": 8712
+        },
+        "B": {
+          "en": "I'll pay by check instead of cash.",
+          "vi": "Tôi sẽ trả bằng séc thay vì tiền mặt.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 9312,
+          "endMs": 12144
+        },
+        "C": {
+          "en": "The batteries cost six dollars.",
+          "vi": "Pin có giá sáu đô la.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 12744,
+          "endMs": 15648
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đồng âm 'check' + trả lời gián tiếp việc đã được xử lý rồi",
+        "trapAnalysis": "Không cần kiểm tra lại vì kỹ thuật viên đã kiểm tra toàn bộ ('tested all of them') 10 phút trước!",
+        "paraphrases": [
+          {
+            "audioPhrase": "check the microphones",
+            "answerPhrase": "technician tested all of them",
+            "meaningVi": "kỹ thuật viên đã kiểm tra hết rồi"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Báo tin yên tâm rằng thiết bị đã được kiểm tra kỹ rồi.",
+          "B": "Sai bẫy đồng âm 'pay by check'.",
+          "C": "Sai: Báo giá pin thay vì phản hồi yêu cầu."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-it-5-v1",
+            "word": "fresh",
+            "pos": "adj",
+            "ipaUK": "/freʃ/",
+            "ipaUS": "/freʃ/",
+            "meaning": "mới (pin, thông tin); tươi",
+            "exampleEn": "Keep a pack of fresh batteries inside the podium drawer.",
+            "exampleVi": "Giữ sẵn một vỉ pin mới trong ngăn kéo bục phát biểu."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-it-5.mp3"
+    }
+  ]
+}

@@ -1,0 +1,1939 @@
+{
+  "id": "englishclub-web-practice-1",
+  "series": "Web Practice — EnglishClub (Playwright Auto-Crawled)",
+  "year": 2026,
+  "title": "EnglishClub 7-Part Practice (30 câu)",
+  "subtitle": "Cào trực tiếp qua Playwright + BeautifulSoup4 từ englishclub.com (đủ 7 Part, ảnh & MP3 gốc lưu cục bộ, bắt 21 XHR JSON).",
+  "durationMinutes": 30,
+  "parts": {
+    "part1": [
+      {
+        "id": "englishclub-web-practice-1-p1-q1",
+        "part": 1,
+        "sceneType": "single-person",
+        "title": "EnglishClub Part 1 — Photo #1",
+        "illustrationKey": "office-laptop",
+        "imageUrl": "/images/toeic/englishclub-web-practice-1/ec_p1_1.jpg",
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p1_1.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p1-q1-l1",
+            "speaker": "Option (A)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(A) The woman is wearing glasses.",
+            "vi": "(A) Người phụ nữ đang đeo kính.",
+            "evidenceForQuestionIds": [],
+            "startMs": 350,
+            "endMs": 4319
+          },
+          {
+            "id": "englishclub-web-practice-1-p1-q1-l2",
+            "speaker": "Option (B)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(B) There is a note on the keyboard.",
+            "vi": "(B) Có một mảnh giấy trên bàn phím.",
+            "evidenceForQuestionIds": [],
+            "startMs": 4359,
+            "endMs": 8689
+          },
+          {
+            "id": "englishclub-web-practice-1-p1-q1-l3",
+            "speaker": "Option (C)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(C) The woman is facing the monitor.",
+            "vi": "(C) Người phụ nữ đang đối diện với màn hình.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p1-q1"
+            ],
+            "startMs": 8729,
+            "endMs": 13059
+          },
+          {
+            "id": "englishclub-web-practice-1-p1-q1-l4",
+            "speaker": "Option (D)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(D) There is a lamp above the computer.",
+            "vi": "(D) Có một chiếc đèn phía trên máy tính.",
+            "evidenceForQuestionIds": [],
+            "startMs": 13099,
+            "endMs": 17770
+          }
+        ],
+        "options": {
+          "A": {
+            "en": "The woman is wearing glasses.",
+            "vi": "Người phụ nữ đang đeo kính."
+          },
+          "B": {
+            "en": "There is a note on the keyboard.",
+            "vi": "Có một mảnh giấy trên bàn phím."
+          },
+          "C": {
+            "en": "The woman is facing the monitor.",
+            "vi": "Người phụ nữ đang đối diện với màn hình."
+          },
+          "D": {
+            "en": "There is a lamp above the computer.",
+            "vi": "Có một chiếc đèn phía trên máy tính."
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "trapType": "Bẫy vị trí & giới từ Part 1 (EnglishClub)",
+          "trapAnalysis": "Đáp án đúng là (C): \"The woman is facing the monitor.\" (Người phụ nữ đang đối diện với màn hình.).",
+          "paraphrases": [],
+          "optionAnalysis": {
+            "A": "SAI: Người phụ nữ đang đeo kính.",
+            "B": "SAI: Có một mảnh giấy trên bàn phím.",
+            "C": "ĐÚNG: Người phụ nữ đang đối diện với màn hình.",
+            "D": "SAI: Có một chiếc đèn phía trên máy tính."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "englishclub-web-practice-1-p1-q3",
+        "part": 1,
+        "sceneType": "scene-objects",
+        "title": "EnglishClub Part 1 — Photo #3",
+        "illustrationKey": "office-laptop",
+        "imageUrl": "/images/toeic/englishclub-web-practice-1/ec_p1_3.jpg",
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p1_3.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p1-q3-l1",
+            "speaker": "Option (A)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(A) The man is on a pathway.",
+            "vi": "(A) Người đàn ông đang trên một con đường.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p1-q3"
+            ],
+            "startMs": 350,
+            "endMs": 4051
+          },
+          {
+            "id": "englishclub-web-practice-1-p1-q3-l2",
+            "speaker": "Option (B)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(B) The mountains are covered with snow.",
+            "vi": "(B) Những ngọn núi phủ đầy tuyết.",
+            "evidenceForQuestionIds": [],
+            "startMs": 4091,
+            "endMs": 9379
+          },
+          {
+            "id": "englishclub-web-practice-1-p1-q3-l3",
+            "speaker": "Option (C)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(C) The man is carrying a cap.",
+            "vi": "(C) Người đàn ông đang mang một chiếc mũ.",
+            "evidenceForQuestionIds": [],
+            "startMs": 9419,
+            "endMs": 13385
+          },
+          {
+            "id": "englishclub-web-practice-1-p1-q3-l4",
+            "speaker": "Option (D)",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "(D) The sandals are in the water.",
+            "vi": "(D) Những đôi dép đang ở trong nước.",
+            "evidenceForQuestionIds": [],
+            "startMs": 13425,
+            "endMs": 17770
+          }
+        ],
+        "options": {
+          "A": {
+            "en": "The man is on a pathway.",
+            "vi": "Người đàn ông đang trên một con đường."
+          },
+          "B": {
+            "en": "The mountains are covered with snow.",
+            "vi": "Những ngọn núi phủ đầy tuyết."
+          },
+          "C": {
+            "en": "The man is carrying a cap.",
+            "vi": "Người đàn ông đang mang một chiếc mũ."
+          },
+          "D": {
+            "en": "The sandals are in the water.",
+            "vi": "Những đôi dép đang ở trong nước."
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy vị trí & giới từ Part 1 (EnglishClub)",
+          "trapAnalysis": "Đáp án đúng là (A): \"The man is on a pathway.\" (Người đàn ông đang trên một con đường.).",
+          "paraphrases": [],
+          "optionAnalysis": {
+            "A": "ĐÚNG: Người đàn ông đang trên một con đường.",
+            "B": "SAI: Những ngọn núi phủ đầy tuyết.",
+            "C": "SAI: Người đàn ông đang mang một chiếc mũ.",
+            "D": "SAI: Những đôi dép đang ở trong nước."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "part2": [
+      {
+        "id": "englishclub-web-practice-1-p2-q2",
+        "part": 2,
+        "questionType": "Yes/No",
+        "title": "EnglishClub Part 2 — Câu #2",
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p2_2.mp3",
+        "questionLine": {
+          "id": "englishclub-web-practice-1-p2-q2-q",
+          "speaker": "Question",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Do you think the boss will take us out for lunch today?",
+          "vi": "Bạn có nghĩ rằng sếp sẽ đưa chúng ta đi ăn trưa hôm nay không?",
+          "startMs": 350,
+          "endMs": 5292
+        },
+        "options": {
+          "A": {
+            "en": "I had a hamburger and fries.",
+            "vi": "Tôi đã ăn một chiếc hamburger và khoai tây chiên.",
+            "speaker": "Speaker (A)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 5332,
+            "endMs": 8117
+          },
+          "B": {
+            "en": "He's probably too busy today.",
+            "vi": "Có lẽ hôm nay anh ấy quá bận.",
+            "speaker": "Speaker (B)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 8157,
+            "endMs": 11032
+          },
+          "C": {
+            "en": "I didn't take the bus.",
+            "vi": "Tôi đã không đi xe buýt.",
+            "speaker": "Speaker (C)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 11072,
+            "endMs": 13300
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy Part 2 (Yes/No)",
+          "trapAnalysis": "Câu hỏi: \"Do you think the boss will take us out for lunch today?\" (Bạn có nghĩ rằng sếp sẽ đưa chúng ta đi ăn trưa hôm nay không?). Đáp án (B): \"He's probably too busy today.\" (Có lẽ hôm nay anh ấy quá bận.).",
+          "paraphrases": [],
+          "optionAnalysis": {
+            "A": "SAI: Tôi đã ăn một chiếc hamburger và khoai tây chiên.",
+            "B": "ĐÚNG: Có lẽ hôm nay anh ấy quá bận.",
+            "C": "SAI: Tôi đã không đi xe buýt."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "englishclub-web-practice-1-p2-q3",
+        "part": 2,
+        "questionType": "Yes/No",
+        "title": "EnglishClub Part 2 — Câu #3",
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p2_3.mp3",
+        "questionLine": {
+          "id": "englishclub-web-practice-1-p2-q3-q",
+          "speaker": "Question",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Did you fax the letter to the client?",
+          "vi": "Bạn đã fax bức thư cho khách hàng chưa?",
+          "startMs": 350,
+          "endMs": 4093
+        },
+        "options": {
+          "A": {
+            "en": "I'll type it after lunch.",
+            "vi": "Tôi sẽ gõ nó sau bữa trưa.",
+            "speaker": "Speaker (A)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 4133,
+            "endMs": 6966
+          },
+          "B": {
+            "en": "No, I sent it by email.",
+            "vi": "Không, tôi đã gửi nó bằng email.",
+            "speaker": "Speaker (B)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 7006,
+            "endMs": 9636
+          },
+          "C": {
+            "en": "I collected some important facts.",
+            "vi": "Tôi đã thu thập một số dữ kiện quan trọng.",
+            "speaker": "Speaker (C)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 9676,
+            "endMs": 13300
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy Part 2 (Yes/No)",
+          "trapAnalysis": "Câu hỏi: \"Did you fax the letter to the client?\" (Bạn đã fax bức thư cho khách hàng chưa?). Đáp án (B): \"No, I sent it by email.\" (Không, tôi đã gửi nó bằng email.).",
+          "paraphrases": [],
+          "optionAnalysis": {
+            "A": "SAI: Tôi sẽ gõ nó sau bữa trưa.",
+            "B": "ĐÚNG: Không, tôi đã gửi nó bằng email.",
+            "C": "SAI: Tôi đã thu thập một số dữ kiện quan trọng."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "englishclub-web-practice-1-p2-q4",
+        "part": 2,
+        "questionType": "Yes/No",
+        "title": "EnglishClub Part 2 — Câu #4",
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p2_4.mp3",
+        "questionLine": {
+          "id": "englishclub-web-practice-1-p2-q4-q",
+          "speaker": "Question",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Did you have to wait very long?",
+          "vi": "Bạn có phải chờ lâu không?",
+          "startMs": 350,
+          "endMs": 3679
+        },
+        "options": {
+          "A": {
+            "en": "No more than an hour.",
+            "vi": "Không quá một giờ.",
+            "speaker": "Speaker (A)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 3719,
+            "endMs": 6296
+          },
+          "B": {
+            "en": "I hate long line-ups.",
+            "vi": "Tôi ghét những hàng dài.",
+            "speaker": "Speaker (B)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 6336,
+            "endMs": 8913
+          },
+          "C": {
+            "en": "I've gained twenty pounds.",
+            "vi": "Tôi đã tăng hai mươi pound.",
+            "speaker": "Speaker (C)",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "startMs": 8953,
+            "endMs": 12050
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bẫy Part 2 (Yes/No)",
+          "trapAnalysis": "Câu hỏi: \"Did you have to wait very long?\" (Bạn có phải chờ lâu không?). Đáp án (A): \"No more than an hour.\" (Không quá một giờ.).",
+          "paraphrases": [],
+          "optionAnalysis": {
+            "A": "ĐÚNG: Không quá một giờ.",
+            "B": "SAI: Tôi ghét những hàng dài.",
+            "C": "SAI: Tôi đã tăng hai mươi pound."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "part3": [
+      {
+        "id": "englishclub-web-practice-1-p3-s1",
+        "part": 3,
+        "title": "EnglishClub Part 3 — Hội thoại #1",
+        "scenario": "EnglishClub Public TOEIC Short Conversation",
+        "speakerCount": 2,
+        "hasGraphic": false,
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p3_1.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p3-s1-l1",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "Do you want to share a taxi to the airport? We can save on expenses that way, and as you know the company is trying to cut costs.",
+            "vi": "Đàn ông: Bạn có muốn đi chung taxi đến sân bay không? Chúng ta có thể tiết kiệm chi phí theo cách đó, và như bạn biết, công ty đang cố gắng cắt giảm chi phí.",
+            "evidenceForQuestionIds": [],
+            "startMs": 350,
+            "endMs": 10002
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s1-l2",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Actually I'm not flying. I'm going to the conference by bus. I have to leave tomorrow because it's going to take two days to get there.",
+            "vi": "Đàn bà: Thật ra tôi không bay. Tôi sẽ đi hội nghị bằng xe buýt. Tôi phải đi vào ngày mai vì sẽ mất hai ngày để đến đó.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p3-s1-q1",
+              "englishclub-web-practice-1-p3-s1-q2",
+              "englishclub-web-practice-1-p3-s1-q3"
+            ],
+            "startMs": 10042,
+            "endMs": 20143
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s1-l3",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "That's right. I forgot that you are afraid of flying. Are you taking a vacation day tomorrow?",
+            "vi": "Đàn ông: Đúng rồi. Tôi quên rằng bạn sợ bay. Ngày mai bạn sẽ nghỉ phép à?",
+            "evidenceForQuestionIds": [],
+            "startMs": 20183,
+            "endMs": 27141
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s1-l4",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Well, I worked some overtime last week, so I just banked it instead of wasting a holiday day.",
+            "vi": "Đàn bà: Chà, tuần trước tôi đã làm thêm giờ, nên tôi chỉ tích lũy nó thay vì bỏ phí một ngày lễ.",
+            "evidenceForQuestionIds": [],
+            "startMs": 27181,
+            "endMs": 34120
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p3-s1-q1",
+            "questionNumber": 1,
+            "questionType": "Ý chính / Chủ đề",
+            "prompt": "What are the man and woman mainly discussing?",
+            "promptVi": "Người đàn ông và người phụ nữ đang chủ yếu thảo luận về chuyện gì?",
+            "options": {
+              "A": {
+                "en": "A vacation",
+                "vi": "Một kỳ nghỉ"
+              },
+              "B": {
+                "en": "A budget",
+                "vi": "Ngân sách"
+              },
+              "C": {
+                "en": "A company policy",
+                "vi": "Chính sách công ty"
+              },
+              "D": {
+                "en": "A conference",
+                "vi": "Một hội nghị"
+              }
+            },
+            "correctAnswer": "D",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 3 (EnglishClub)",
+              "trapAnalysis": "Đáp án (D) \"A conference\" (Một hội nghị).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Một kỳ nghỉ",
+                "B": "SAI: Ngân sách",
+                "C": "SAI: Chính sách công ty",
+                "D": "ĐÚNG: Một hội nghị"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s1-q2",
+            "questionNumber": 2,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "How is the woman traveling?",
+            "promptVi": "Người phụ nữ đang đi du lịch như thế nào?",
+            "options": {
+              "A": {
+                "en": "By plane",
+                "vi": "Bằng máy bay"
+              },
+              "B": {
+                "en": "By bus",
+                "vi": "Bằng xe buýt"
+              },
+              "C": {
+                "en": "By taxi",
+                "vi": "Bằng taxi"
+              },
+              "D": {
+                "en": "By car",
+                "vi": "Bằng ô tô"
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 3 (EnglishClub)",
+              "trapAnalysis": "Đáp án (B) \"By bus\" (Bằng xe buýt).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Bằng máy bay",
+                "B": "ĐÚNG: Bằng xe buýt",
+                "C": "SAI: Bằng taxi",
+                "D": "SAI: Bằng ô tô"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s1-q3",
+            "questionNumber": 3,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "Why aren't the man and woman going together?",
+            "promptVi": "Tại sao người đàn ông và người phụ nữ không đi cùng nhau?",
+            "options": {
+              "A": {
+                "en": "The woman needs to arrive earlier.",
+                "vi": "Người phụ nữ cần đến sớm hơn."
+              },
+              "B": {
+                "en": "The man has to work overtime.",
+                "vi": "Người đàn ông phải làm thêm giờ."
+              },
+              "C": {
+                "en": "The woman dislikes air travel.",
+                "vi": "Người phụ nữ không thích đi máy bay."
+              },
+              "D": {
+                "en": "The man has to go to the bank first.",
+                "vi": "Người đàn ông phải đi ngân hàng trước."
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 3 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"The woman dislikes air travel.\" (Người phụ nữ không thích đi máy bay.).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Người phụ nữ cần đến sớm hơn.",
+                "B": "SAI: Người đàn ông phải làm thêm giờ.",
+                "C": "ĐÚNG: Người phụ nữ không thích đi máy bay.",
+                "D": "SAI: Người đàn ông phải đi ngân hàng trước."
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": []
+      },
+      {
+        "id": "englishclub-web-practice-1-p3-s2",
+        "part": 3,
+        "title": "EnglishClub Part 3 — Hội thoại #2",
+        "scenario": "EnglishClub Public TOEIC Short Conversation",
+        "speakerCount": 2,
+        "hasGraphic": false,
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p3_2.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p3-s2-l1",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "I have a doctor's appointment this afternoon. Are you going to be in the office, or do you have a meeting?",
+            "vi": "Người đàn ông: Tôi có một cuộc hẹn với bác sĩ vào chiều nay. Bạn sẽ có mặt ở văn phòng chứ, hay là bạn có cuộc họp?",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p3-s2-q1",
+              "englishclub-web-practice-1-p3-s2-q3"
+            ],
+            "startMs": 350,
+            "endMs": 8094
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s2-l2",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "I'll be here. And, don't worry. I don't have much on for today, so I'll handle all of your calls.",
+            "vi": "Người phụ nữ: Tôi sẽ ở đây. Và đừng lo. Hôm nay tôi không bận lắm, nên tôi sẽ xử lý tất cả các cuộc gọi của bạn.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p3-s2-q2"
+            ],
+            "startMs": 8134,
+            "endMs": 15221
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s2-l3",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "Thanks. I'm expecting a call from my lawyer. He's supposed to be sending me some changes to the contracts.",
+            "vi": "Người đàn ông: Cảm ơn. Tôi đang chờ một cuộc gọi từ luật sư của tôi. Anh ấy dự định sẽ gửi cho tôi một số thay đổi về các hợp đồng.",
+            "evidenceForQuestionIds": [],
+            "startMs": 15261,
+            "endMs": 23005
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s2-l4",
+            "speaker": "Woman",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "I'll make sure to take a detailed message if he calls. Is there anything you want to tell him?",
+            "vi": "Người phụ nữ: Tôi sẽ đảm bảo ghi lại một tin nhắn chi tiết nếu anh ấy gọi. Có gì bạn muốn nói với anh ấy không?",
+            "evidenceForQuestionIds": [],
+            "startMs": 23045,
+            "endMs": 29912
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s2-l5",
+            "speaker": "Man",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "Well, you could remind him that I'm going to need to come downtown and sign a few papers in front of him. I'll have to set something up for",
+            "vi": "Người đàn ông: Ừ, bạn có thể nhắc anh ấy rằng tôi sẽ cần phải đến trung tâm thành phố và ký một vài giấy tờ trước mặt anh ấy. Tôi sẽ phải sắp xếp một cái gì đó cho",
+            "evidenceForQuestionIds": [],
+            "startMs": 29952,
+            "endMs": 40050
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p3-s2-q1",
+            "questionNumber": 1,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What does the man have to do today?",
+            "promptVi": "Người đàn ông phải làm gì hôm nay?",
+            "options": {
+              "A": {
+                "en": "Visit his lawyer",
+                "vi": "Gặp luật sư của anh ta"
+              },
+              "B": {
+                "en": "Get a massage",
+                "vi": "Đi massage"
+              },
+              "C": {
+                "en": "Go to the doctor",
+                "vi": "Đi khám bác sĩ"
+              },
+              "D": {
+                "en": "Make an appointment",
+                "vi": "Đặt một cuộc hẹn"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 3 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"Go to the doctor\" (Đi khám bác sĩ).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Gặp luật sư của anh ta",
+                "B": "SAI: Đi massage",
+                "C": "ĐÚNG: Đi khám bác sĩ",
+                "D": "SAI: Đặt một cuộc hẹn"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s2-q2",
+            "questionNumber": 2,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What can be inferred from the conversation?",
+            "promptVi": "Có thể suy ra điều gì từ cuộc trò chuyện?",
+            "options": {
+              "A": {
+                "en": "The woman is the man's receptionist.",
+                "vi": "Người phụ nữ là lễ tân của người đàn ông."
+              },
+              "B": {
+                "en": "The lawyer works in the same building.",
+                "vi": "Luật sư làm việc trong cùng tòa nhà."
+              },
+              "C": {
+                "en": "The woman has no deadlines today.",
+                "vi": "Người phụ nữ hôm nay không có hạn chót."
+              },
+              "D": {
+                "en": "The man and woman have a meeting this afternoon.",
+                "vi": "Người đàn ông và người phụ nữ có một cuộc họp vào buổi chiều hôm nay."
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 3 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"The woman has no deadlines today.\" (Người phụ nữ hôm nay không có hạn chót.).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Người phụ nữ là lễ tân của người đàn ông.",
+                "B": "SAI: Luật sư làm việc trong cùng tòa nhà.",
+                "C": "ĐÚNG: Người phụ nữ hôm nay không có hạn chót.",
+                "D": "SAI: Người đàn ông và người phụ nữ có một cuộc họp vào buổi chiều hôm nay."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p3-s2-q3",
+            "questionNumber": 3,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What does the woman offer to do for the man?",
+            "promptVi": "Người phụ nữ đề nghị làm gì cho người đàn ông?",
+            "options": {
+              "A": {
+                "en": "Answer his phone",
+                "vi": "Trả lời điện thoại cho anh ta"
+              },
+              "B": {
+                "en": "Call his lawyer",
+                "vi": "Gọi cho luật sư của anh ấy"
+              },
+              "C": {
+                "en": "Pick up the newspaper",
+                "vi": "Lấy tờ báo"
+              },
+              "D": {
+                "en": "Take notes at the meeting",
+                "vi": "Ghi chú tại cuộc họp"
+              }
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 3 (EnglishClub)",
+              "trapAnalysis": "Đáp án (A) \"Answer his phone\" (Trả lời điện thoại cho anh ta).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "ĐÚNG: Trả lời điện thoại cho anh ta",
+                "B": "SAI: Gọi cho luật sư của anh ấy",
+                "C": "SAI: Lấy tờ báo",
+                "D": "SAI: Ghi chú tại cuộc họp"
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": []
+      }
+    ],
+    "part4": [
+      {
+        "id": "englishclub-web-practice-1-p4-s1",
+        "part": 4,
+        "title": "EnglishClub Part 4 — Bài nói #1",
+        "talkType": "Hướng dẫn tham quan (Tour)",
+        "hasGraphic": false,
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p4_1.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l1",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Good morning ladies and gentleman.",
+            "vi": "Chào buổi sáng quý bà và quý ông.",
+            "evidenceForQuestionIds": [],
+            "startMs": 350,
+            "endMs": 2949
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l2",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "This is your tour guide speaking.",
+            "vi": "Đây là hướng dẫn viên của quý vị đang phát biểu.",
+            "evidenceForQuestionIds": [],
+            "startMs": 2989,
+            "endMs": 5511
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l3",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "I hope you have enjoyed the cruise of the inner harbour today.",
+            "vi": "Tôi hy vọng quý vị đã thích chuyến du thuyền qua cảng trong hôm nay.",
+            "evidenceForQuestionIds": [],
+            "startMs": 5551,
+            "endMs": 10290
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l4",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "We certainly had a nice day for it, especially compared to yesterday.",
+            "vi": "Chắc chắn chúng ta đã có một ngày đẹp trời cho chuyến đi, đặc biệt so với hôm qua.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s1-q2"
+            ],
+            "startMs": 10330,
+            "endMs": 15604
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l5",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "The ship will be docking in approximately five minutes.",
+            "vi": "Con tàu sẽ cập bến trong khoảng năm phút nữa.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s1-q3"
+            ],
+            "startMs": 15644,
+            "endMs": 19848
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l6",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Once we are docked, please collect all of your belongings and exit the ship.",
+            "vi": "Khi tàu đã cập bến, xin vui lòng lấy tất cả đồ đạc của quý vị và rời tàu.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s1-q1"
+            ],
+            "startMs": 19888,
+            "endMs": 25697
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l7",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "As a reminder, our group will be exiting to the right.",
+            "vi": "Xin nhắc lại, nhóm của chúng ta sẽ rời tàu về phía bên phải.",
+            "evidenceForQuestionIds": [],
+            "startMs": 25737,
+            "endMs": 29865
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l8",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Follow the north ramp all the way to the far end of the platform.",
+            "vi": "Đi theo con dốc phía bắc cho đến hết cuối bến.",
+            "evidenceForQuestionIds": [],
+            "startMs": 29905,
+            "endMs": 34873
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-l9",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Before heading to the farmer's market we will gather under the ferry terminal Welcome Sign for a group photo.",
+            "vi": "Trước khi đến chợ nông sản, chúng ta sẽ tập trung dưới bảng Chào mừng tại bến phà để chụp ảnh nhóm.",
+            "evidenceForQuestionIds": [],
+            "startMs": 34913,
+            "endMs": 43030
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p4-s1-q1",
+            "questionNumber": 1,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What should the passengers do before exiting the ship?",
+            "promptVi": "Hành khách nên làm gì trước khi rời khỏi tàu?",
+            "options": {
+              "A": {
+                "en": "Welcome the visitors",
+                "vi": "Chào đón khách"
+              },
+              "B": {
+                "en": "Check the time",
+                "vi": "Kiểm tra thời gian"
+              },
+              "C": {
+                "en": "Collect their personal items",
+                "vi": "Nhặt các đồ dùng cá nhân của họ"
+              },
+              "D": {
+                "en": "Take a picture",
+                "vi": "Chụp một bức ảnh"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"Collect their personal items\" (Nhặt các đồ dùng cá nhân của họ).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Chào đón khách",
+                "B": "SAI: Kiểm tra thời gian",
+                "C": "ĐÚNG: Nhặt các đồ dùng cá nhân của họ",
+                "D": "SAI: Chụp một bức ảnh"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-q2",
+            "questionNumber": 2,
+            "questionType": "Hàm ý người nói (Implied Meaning)",
+            "prompt": "What does the speaker imply?",
+            "promptVi": "Người nói ám chỉ điều gì?",
+            "options": {
+              "A": {
+                "en": "The water was rough.",
+                "vi": "Nước biển gợn sóng."
+              },
+              "B": {
+                "en": "The weather was poor yesterday.",
+                "vi": "Thời tiết hôm qua xấu."
+              },
+              "C": {
+                "en": "The tour went faster than usual.",
+                "vi": "Chuyến tham quan diễn ra nhanh hơn bình thường."
+              },
+              "D": {
+                "en": "There is only one way to exit.",
+                "vi": "Chỉ có một lối ra duy nhất."
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (B) \"The weather was poor yesterday.\" (Thời tiết hôm qua xấu.).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Nước biển gợn sóng.",
+                "B": "ĐÚNG: Thời tiết hôm qua xấu.",
+                "C": "SAI: Chuyến tham quan diễn ra nhanh hơn bình thường.",
+                "D": "SAI: Chỉ có một lối ra duy nhất."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s1-q3",
+            "questionNumber": 3,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What will happen in five minutes?",
+            "promptVi": "Điều gì sẽ xảy ra trong năm phút nữa?",
+            "options": {
+              "A": {
+                "en": "The ship will arrive at the dock.",
+                "vi": "Con tàu sẽ cập bến."
+              },
+              "B": {
+                "en": "The passengers will go shopping.",
+                "vi": "Các hành khách sẽ đi mua sắm."
+              },
+              "C": {
+                "en": "The passengers will take photos of the ship.",
+                "vi": "Các hành khách sẽ chụp ảnh con tàu."
+              },
+              "D": {
+                "en": "The market will open.",
+                "vi": "Chợ sẽ mở cửa."
+              }
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (A) \"The ship will arrive at the dock.\" (Con tàu sẽ cập bến.).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "ĐÚNG: Con tàu sẽ cập bến.",
+                "B": "SAI: Các hành khách sẽ đi mua sắm.",
+                "C": "SAI: Các hành khách sẽ chụp ảnh con tàu.",
+                "D": "SAI: Chợ sẽ mở cửa."
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": []
+      },
+      {
+        "id": "englishclub-web-practice-1-p4-s2",
+        "part": 4,
+        "title": "EnglishClub Part 4 — Bài nói #2",
+        "talkType": "Giới thiệu (Introduction)",
+        "hasGraphic": false,
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p4_2.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l1",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "I'd like to welcome you all to the fourth annual poet's brunch.",
+            "vi": "Tôi xin chào mừng tất cả các bạn đến với buổi brunch của các nhà thơ lần thứ tư hàng năm.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s2-q2"
+            ],
+            "startMs": 350,
+            "endMs": 5195
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l2",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "In just a few minutes a server will be around to offer you coffee or tea.",
+            "vi": "Chỉ vài phút nữa, sẽ có nhân viên phục vụ đi quanh để mời các bạn cà phê hoặc trà.",
+            "evidenceForQuestionIds": [],
+            "startMs": 5235,
+            "endMs": 10849
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l3",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "Please take a moment to fill out your name tag and introduce yourself to the other artists at your table.",
+            "vi": "Xin hãy dành một chút thời gian để điền vào thẻ tên của bạn và giới thiệu bản thân với các nghệ sĩ khác trên bàn của bạn.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s2-q1",
+              "englishclub-web-practice-1-p4-s2-q3"
+            ],
+            "startMs": 10889,
+            "endMs": 18964
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l4",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "Lunch will be served at 11:00 am sharp, followed by a reading from last year's prize winner.",
+            "vi": "Bữa trưa sẽ được phục vụ đúng 11:00 sáng, sau đó là buổi đọc thơ của người chiến thắng giải thưởng năm ngoái.",
+            "evidenceForQuestionIds": [],
+            "startMs": 19004,
+            "endMs": 26079
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l5",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "If any of you did not receive your free gift at the door, please make sure to pick it up on your way out.",
+            "vi": "Nếu bất kỳ ai trong số các bạn chưa nhận được quà miễn phí tại cửa, vui lòng chắc chắn lấy nó khi ra về.",
+            "evidenceForQuestionIds": [],
+            "startMs": 26119,
+            "endMs": 34194
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l6",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "This year's gift is a poetry anthology from local youth writers.",
+            "vi": "Quà tặng năm nay là một tuyển tập thơ của các nhà văn trẻ địa phương.",
+            "evidenceForQuestionIds": [],
+            "startMs": 34234,
+            "endMs": 39156
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l7",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "You will be amazed at the emerging talent in our town.",
+            "vi": "Bạn sẽ ngạc nhiên trước tài năng đang nổi lên trong thị trấn của chúng ta.",
+            "evidenceForQuestionIds": [],
+            "startMs": 39196,
+            "endMs": 43349
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-l8",
+            "speaker": "Speaker",
+            "voiceGender": "male",
+            "accent": "en-US",
+            "en": "In fact, a group of young writers meet once a month around this very table.",
+            "vi": "Thực tế, một nhóm các nhà văn trẻ gặp nhau mỗi tháng một lần quanh chính bàn này.",
+            "evidenceForQuestionIds": [],
+            "startMs": 43389,
+            "endMs": 48980
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p4-s2-q1",
+            "questionNumber": 1,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "How often does this event take place?",
+            "promptVi": "Sự kiện này diễn ra thường xuyên như thế nào?",
+            "options": {
+              "A": {
+                "en": "Monthly",
+                "vi": "Hàng tháng"
+              },
+              "B": {
+                "en": "Four times a year",
+                "vi": "Bốn lần một năm"
+              },
+              "C": {
+                "en": "Once a year",
+                "vi": "Một lần một năm"
+              },
+              "D": {
+                "en": "Every four years",
+                "vi": "Mỗi bốn năm"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"Once a year\" (Một lần một năm).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Hàng tháng",
+                "B": "SAI: Bốn lần một năm",
+                "C": "ĐÚNG: Một lần một năm",
+                "D": "SAI: Mỗi bốn năm"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-q2",
+            "questionNumber": 2,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What will happen after the brunch?",
+            "promptVi": "Chuyện gì sẽ xảy ra sau bữa ăn nhẹ buổi trưa?",
+            "options": {
+              "A": {
+                "en": "The people will be served drinks.",
+                "vi": "Mọi người sẽ được phục vụ đồ uống."
+              },
+              "B": {
+                "en": "An artist will show his drawings.",
+                "vi": "Một nghệ sĩ sẽ trưng bày các bản vẽ của anh ấy."
+              },
+              "C": {
+                "en": "The guests will introduce themselves.",
+                "vi": "Các vị khách sẽ tự giới thiệu bản thân."
+              },
+              "D": {
+                "en": "A poet will read a poem.",
+                "vi": "Một nhà thơ sẽ đọc một bài thơ."
+              }
+            },
+            "correctAnswer": "D",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (D) \"A poet will read a poem.\" (Một nhà thơ sẽ đọc một bài thơ.).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Mọi người sẽ được phục vụ đồ uống.",
+                "B": "SAI: Một nghệ sĩ sẽ trưng bày các bản vẽ của anh ấy.",
+                "C": "SAI: Các vị khách sẽ tự giới thiệu bản thân.",
+                "D": "ĐÚNG: Một nhà thơ sẽ đọc một bài thơ."
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s2-q3",
+            "questionNumber": 3,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What do guests get to take home?",
+            "promptVi": "Khách mời được mang gì về nhà?",
+            "options": {
+              "A": {
+                "en": "Lunch",
+                "vi": "Bữa trưa"
+              },
+              "B": {
+                "en": "A book of mythology",
+                "vi": "Một cuốn sách về thần thoại"
+              },
+              "C": {
+                "en": "A collection of poems",
+                "vi": "Một tuyển tập thơ"
+              },
+              "D": {
+                "en": "A painting",
+                "vi": "Một bức tranh"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"A collection of poems\" (Một tuyển tập thơ).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Bữa trưa",
+                "B": "SAI: Một cuốn sách về thần thoại",
+                "C": "ĐÚNG: Một tuyển tập thơ",
+                "D": "SAI: Một bức tranh"
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": []
+      },
+      {
+        "id": "englishclub-web-practice-1-p4-s3",
+        "part": 4,
+        "title": "EnglishClub Part 4 — Bài nói #3",
+        "talkType": "Tin nhắn thoại (Phone Message)",
+        "hasGraphic": false,
+        "audioUrl": "/audio/toeic/englishclub-web-practice-1/ec_p4_3.mp3",
+        "transcript": [
+          {
+            "id": "englishclub-web-practice-1-p4-s3-l1",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "Thank you for calling Speedy Reservations.",
+            "vi": "Cảm ơn bạn đã gọi đến Dịch vụ Đặt chỗ Nhanh.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s3-q1",
+              "englishclub-web-practice-1-p4-s3-q3"
+            ],
+            "startMs": 350,
+            "endMs": 4919
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s3-l2",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "All of our operators are busy at this time.",
+            "vi": "Tất cả các nhân viên tổng đài của chúng tôi hiện đang bận.",
+            "evidenceForQuestionIds": [],
+            "startMs": 4959,
+            "endMs": 9637
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s3-l3",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "If you are looking for flight schedules, please visit our online booking service at www.speedyresos.com.",
+            "vi": "Nếu bạn đang tìm lịch trình chuyến bay, vui lòng truy cập dịch vụ đặt vé trực tuyến của chúng tôi tại www.speedyresos.com.",
+            "evidenceForQuestionIds": [
+              "englishclub-web-practice-1-p4-s3-q2"
+            ],
+            "startMs": 9677,
+            "endMs": 20991
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s3-l4",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "If this is a personal call and you know the extension of the staff member you would like to speak to at this time, press the number now.",
+            "vi": "Nếu đây là một cuộc gọi cá nhân và bạn biết máy nhánh của nhân viên mà bạn muốn nói chuyện vào thời điểm này, hãy nhấn số ngay bây giờ.",
+            "evidenceForQuestionIds": [],
+            "startMs": 21031,
+            "endMs": 35826
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s3-l5",
+            "speaker": "Speaker",
+            "voiceGender": "female",
+            "accent": "en-US",
+            "en": "All other inquiries please hold for the",
+            "vi": "Tất cả các yêu cầu khác vui lòng chờ cho",
+            "evidenceForQuestionIds": [],
+            "startMs": 35866,
+            "endMs": 40050
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p4-s3-q1",
+            "questionNumber": 1,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "Where would you hear this type of talk?",
+            "promptVi": "Bạn sẽ nghe loại trò chuyện này ở đâu?",
+            "options": {
+              "A": {
+                "en": "In an airport",
+                "vi": "Ở sân bay"
+              },
+              "B": {
+                "en": "At a bus station",
+                "vi": "Tại bến xe buýt"
+              },
+              "C": {
+                "en": "On a telephone",
+                "vi": "Qua điện thoại"
+              },
+              "D": {
+                "en": "On television",
+                "vi": "Trên truyền hình"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"On a telephone\" (Qua điện thoại).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Ở sân bay",
+                "B": "SAI: Tại bến xe buýt",
+                "C": "ĐÚNG: Qua điện thoại",
+                "D": "SAI: Trên truyền hình"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s3-q2",
+            "questionNumber": 2,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "Who should visit the website?",
+            "promptVi": "Ai nên truy cập vào trang web?",
+            "options": {
+              "A": {
+                "en": "Staff members of Speedy Reservations",
+                "vi": "Nhân viên của Speedy Reservations"
+              },
+              "B": {
+                "en": "Callers looking for special schedules",
+                "vi": "Người gọi đang tìm lịch trình đặc biệt"
+              },
+              "C": {
+                "en": "Callers looking for staff members",
+                "vi": "Người gọi đang tìm nhân viên"
+              },
+              "D": {
+                "en": "People looking for fight times",
+                "vi": "Người tìm thời gian chuyến bay"
+              }
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (B) \"Callers looking for special schedules\" (Người gọi đang tìm lịch trình đặc biệt).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Nhân viên của Speedy Reservations",
+                "B": "ĐÚNG: Người gọi đang tìm lịch trình đặc biệt",
+                "C": "SAI: Người gọi đang tìm nhân viên",
+                "D": "SAI: Người tìm thời gian chuyến bay"
+              },
+              "keyVocab": []
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p4-s3-q3",
+            "questionNumber": 3,
+            "questionType": "Thông tin chi tiết",
+            "prompt": "What is the quickest way to get connected to a representative?",
+            "promptVi": "Cách nhanh nhất để kết nối với nhân viên đại diện là gì?",
+            "options": {
+              "A": {
+                "en": "Hang up and call again",
+                "vi": "Cúp máy và gọi lại"
+              },
+              "B": {
+                "en": "Call back later",
+                "vi": "Gọi lại sau"
+              },
+              "C": {
+                "en": "Wait patiently",
+                "vi": "Chờ đợi kiên nhẫn"
+              },
+              "D": {
+                "en": "Call a different number",
+                "vi": "Gọi một số khác"
+              }
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "trapType": "Nghe hiểu Part 4 (EnglishClub)",
+              "trapAnalysis": "Đáp án (C) \"Wait patiently\" (Chờ đợi kiên nhẫn).",
+              "paraphrases": [],
+              "optionAnalysis": {
+                "A": "SAI: Cúp máy và gọi lại",
+                "B": "SAI: Gọi lại sau",
+                "C": "ĐÚNG: Chờ đợi kiên nhẫn",
+                "D": "SAI: Gọi một số khác"
+              },
+              "keyVocab": []
+            }
+          }
+        ],
+        "keyVocab": []
+      }
+    ],
+    "part5": [
+      {
+        "id": "englishclub-web-practice-1-p5-q1",
+        "part": 5,
+        "topic": "Từ vựng ngữ cảnh (Vocabulary)",
+        "difficulty": "Trung bình",
+        "sentence": "Despite having four years of experience in software programming, Mr. Jones hadn't used a word processing program _______.",
+        "options": {
+          "A": "prior",
+          "B": "advanced",
+          "C": "previous",
+          "D": "before"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Từ vựng ngữ cảnh (Vocabulary)",
+            "signal": "4 đáp án khác gốc từ hoàn toàn — dịch nghĩa câu để chọn từ hợp ngữ cảnh công sở TOEIC."
+          },
+          "translation": {
+            "questionVi": "Mặc dù có bốn năm kinh nghiệm trong lập trình phần mềm, ông Jones chưa từng sử dụng một chương trình xử lý văn bản _______.",
+            "optionsVi": {
+              "A": "trước đây",
+              "B": "nâng cao",
+              "C": "trước đó",
+              "D": "trước đây"
+            }
+          },
+          "proof": {
+            "explanation": "Choices A is an adjective .(I have a prior engagement.) Choice B is a verb .(I advanced the money to her.) Choice C is an adjective .(That was my previous job.) The correct answer is D . The sentence requires an adverb."
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại (A) \"prior\" (trước đây) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+            "B": "Loại (B) \"advanced\" (nâng cao) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+            "C": "Loại (C) \"previous\" (trước đó) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+            "D": "ĐÁP ÁN ĐÚNG: (D) before (trước đây) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+          },
+          "keyTakeaways": {
+            "formula": "Đọc trọn câu, xác định collocation hoặc manh mối ngữ cảnh trước và sau chỗ trống.",
+            "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+            "paraphrases": []
+          }
+        }
+      }
+    ],
+    "part6": [],
+    "part7": [
+      {
+        "id": "englishclub-web-practice-1-p7-s1",
+        "title": "EnglishClub Part 7 — Reading #1",
+        "passageCountType": "single",
+        "topic": "Đọc hiểu EnglishClub #1",
+        "passages": [
+          {
+            "id": "englishclub-web-practice-1-p7-s1-d1",
+            "tabLabel": "Văn bản 1 (Email)",
+            "genre": "Email",
+            "title": "EnglishClub Part 7 — Email #1",
+            "paragraphs": [
+              {
+                "id": "englishclub-web-practice-1-p7-s1-d1-p1",
+                "sentences": [
+                  {
+                    "id": "englishclub-web-practice-1-p7-s1-d1-p1-s1",
+                    "en": "Memo Memorandum To: Supervisors From: Judy Linquiest, Human Resource Manager Sub: Probation periods As of January 1st all new employees will be subject to a 3 month probationary period.",
+                    "vi": "Thông báo Nội dung: Gửi: Các giám sát Viết bởi: Judy Linquiest, Quản lý Nhân sự Về: Thời gian thử việc Bắt đầu từ ngày 1 tháng 1, tất cả nhân viên mới sẽ phải trải qua thời gian thử việc 3 tháng."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s1-d1-p1-s2",
+                    "en": "Medical, holiday, and flextime benefits will not apply to new staff members until the full 3 months have expired.",
+                    "vi": "Các quyền lợi về y tế, nghỉ lễ và thời gian linh hoạt sẽ không áp dụng cho nhân viên mới cho đến khi đủ 3 tháng."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s1-d1-p1-s3",
+                    "en": "After the three months have been completed, please contact your employees and inform them that their probationary period has ended.",
+                    "vi": "Sau khi kết thúc ba tháng, vui lòng liên hệ với nhân viên của bạn và thông báo rằng thời gian thử việc của họ đã kết thúc."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s1-d1-p1-s4",
+                    "en": "The HR department will contact you by email 2 days in advance to remind you of the date.",
+                    "vi": "Bộ phận Nhân sự sẽ liên hệ với bạn qua email trước 2 ngày để nhắc nhở bạn về ngày này."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s1-d1-p1-s5",
+                    "en": "Thank you for your cooperation.",
+                    "vi": "Cảm ơn sự hợp tác của bạn."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p7-s1-q1",
+            "questionNumber": 1,
+            "questionType": "Ý chính (Main Idea)",
+            "prompt": "What is the main purpose of this memo?",
+            "promptVi": "Mục đích chính của bản ghi nhớ này là gì?",
+            "options": {
+              "A": "To inform all employees of a new expiration date.",
+              "B": "To put staff members on probation.",
+              "C": "To introduce the HR department.",
+              "D": "To inform supervisors of a change in policy."
+            },
+            "correctAnswer": "D",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Ý chính (Main Idea)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Mục đích chính của bản ghi nhớ này là gì?",
+                "optionsVi": {
+                  "A": "Để thông báo cho tất cả nhân viên về một ngày hết hạn mới.",
+                  "B": "Để đưa các nhân viên vào thời gian thử việc.",
+                  "C": "Để giới thiệu bộ phận nhân sự.",
+                  "D": "Để thông báo cho các giám sát viên về một thay đổi trong chính sách."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (D) \"To inform supervisors of a change in policy.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Memo Memorandum To: Supervisors From: Judy Linquiest, Human Resource Manager Sub: Probation periods As of January 1st all new employees will be subject to a 3 month probationary period.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s1-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"To inform all employees of a new expiration date.\" (Để thông báo cho tất cả nhân viên về một ngày hết hạn mới.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "Loại (B) \"To put staff members on probation.\" (Để đưa các nhân viên vào thời gian thử việc.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "Loại (C) \"To introduce the HR department.\" (Để giới thiệu bộ phận nhân sự.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "ĐÁP ÁN ĐÚNG: (D) To inform supervisors of a change in policy. (Để thông báo cho các giám sát viên về một thay đổi trong chính sách.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s1-q2",
+            "questionNumber": 2,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "When does the change come into effect?",
+            "promptVi": "Khi nào thay đổi có hiệu lực?",
+            "options": {
+              "A": "Today.",
+              "B": "In 2 days.",
+              "C": "In 3 months.",
+              "D": "On January 1st."
+            },
+            "correctAnswer": "D",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Khi nào thay đổi có hiệu lực?",
+                "optionsVi": {
+                  "A": "Hôm nay.",
+                  "B": "Trong 2 ngày.",
+                  "C": "Trong 3 tháng.",
+                  "D": "Vào ngày 1 tháng 1."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (D) \"On January 1st.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Memo Memorandum To: Supervisors From: Judy Linquiest, Human Resource Manager Sub: Probation periods As of January 1st all new employees will be subject to a 3 month probationary period.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s1-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"Today.\" (Hôm nay.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "Loại (B) \"In 2 days.\" (Trong 2 ngày.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "Loại (C) \"In 3 months.\" (Trong 3 tháng.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "ĐÁP ÁN ĐÚNG: (D) On January 1st. (Vào ngày 1 tháng 1.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "englishclub-web-practice-1-p7-s2",
+        "title": "EnglishClub Part 7 — Reading #2",
+        "passageCountType": "single",
+        "topic": "Đọc hiểu EnglishClub #2",
+        "passages": [
+          {
+            "id": "englishclub-web-practice-1-p7-s2-d1",
+            "tabLabel": "Văn bản 1 (Article)",
+            "genre": "Article",
+            "title": "EnglishClub Part 7 — Article #2",
+            "paragraphs": [
+              {
+                "id": "englishclub-web-practice-1-p7-s2-d1-p1",
+                "sentences": [
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s1",
+                    "en": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                    "vi": "Quảng cáo KÍNH MÁT VÀ HỘP MIỄN PHÍ Mua gói thuê bao 12 tháng của Vacation the Nation ngay hôm nay và nhận ngay một cặp kính Sunnies Sunglasses kèm hộp da mềm riêng của bạn.* Để nhận kính Sunnies miễn phí, bạn chỉ cần làm theo 3 bước đơn giản sau."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s2",
+                    "en": "Purchase a copy of Vacation the Nation , New York's #1 Travel magazine.",
+                    "vi": "Quảng cáo KÍNH MÁT VÀ HỘP MIỄN PHÍ Mua gói thuê bao 12 tháng của Vacation the Nation ngay hôm nay và nhận ngay một cặp kính Sunnies Sunglasses kèm hộp da mềm riêng của bạn.* Để nhận kính Sunnies miễn phí, bạn chỉ cần làm theo 3 bước đơn giản sau."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s3",
+                    "en": "Fill out the application card (found in the center of the magazine) Mail the card and $21.",
+                    "vi": "Quảng cáo KÍNH MÁT VÀ HỘP MIỄN PHÍ Mua gói thuê bao 12 tháng của Vacation the Nation ngay hôm nay và nhận ngay một cặp kính Sunnies Sunglasses kèm hộp da mềm riêng của bạn.* Để nhận kính Sunnies miễn phí, bạn chỉ cần làm theo 3 bước đơn giản sau."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s4",
+                    "en": "95 US to the address provided *This is a limited time offer only.",
+                    "vi": "Mua một bản sao của Vacation the Nation, tạp chí du lịch số 1 của New York. Điền đầy đủ thông tin vào thẻ đăng ký (có trong phần trung tâm của tạp chí) Gửi thẻ cùng $21,95 USD đến địa chỉ được cung cấp *Đây là ưu đãi có thời hạn. Đơn đăng ký và khoản tiền phải được nhận trước hoặc vào ngày 1 tháng 12 năm 2004."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s5",
+                    "en": "Application and funds must be received no later than Dec 1st 2004.",
+                    "vi": "Mua một bản sao của Vacation the Nation, tạp chí du lịch số 1 của New York. Điền đầy đủ thông tin vào thẻ đăng ký (có trong phần trung tâm của tạp chí) Gửi thẻ cùng $21,95 USD đến địa chỉ được cung cấp *Đây là ưu đãi có thời hạn. Đơn đăng ký và khoản tiền phải được nhận trước hoặc vào ngày 1 tháng 12 năm 2004."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s6",
+                    "en": "Canadian residents should add $3 US for shipping.",
+                    "vi": "Cư dân Canada nên cộng thêm $3 USD cho phí vận chuyển. Ưu đãi này không áp dụng cho cư dân ngoài Bắc Mỹ."
+                  },
+                  {
+                    "id": "englishclub-web-practice-1-p7-s2-d1-p1-s7",
+                    "en": "Offer not available for residents outside of North America.",
+                    "vi": "Cư dân Canada nên cộng thêm $3 USD cho phí vận chuyển. Ưu đãi này không áp dụng cho cư dân ngoài Bắc Mỹ."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q1",
+            "questionNumber": 1,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "What is this advertisement for?",
+            "promptVi": "Quảng cáo này là cho cái gì?",
+            "options": {
+              "A": "A summer trip.",
+              "B": "A travel company.",
+              "C": "A special deal.",
+              "D": "A free magazine."
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Quảng cáo này là cho cái gì?",
+                "optionsVi": {
+                  "A": "Một chuyến du lịch mùa hè.",
+                  "B": "Một công ty du lịch.",
+                  "C": "Một ưu đãi đặc biệt.",
+                  "D": "Một tạp chí miễn phí."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (C) \"A special deal.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"A summer trip.\" (Một chuyến du lịch mùa hè.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "Loại (B) \"A travel company.\" (Một công ty du lịch.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "ĐÁP ÁN ĐÚNG: (C) A special deal. (Một ưu đãi đặc biệt.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+                "D": "Loại (D) \"A free magazine.\" (Một tạp chí miễn phí.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q2",
+            "questionNumber": 2,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "How much do the sunglasses cost?",
+            "promptVi": "Kính râm giá bao nhiêu?",
+            "options": {
+              "A": "They are free with a subscription.",
+              "B": "They cost $1.",
+              "C": "They cost $3 Canadian.",
+              "D": "They cost $21. 95 US."
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Kính râm giá bao nhiêu?",
+                "optionsVi": {
+                  "A": "Chúng miễn phí khi đăng ký.",
+                  "B": "Chúng có giá 1 đô la.",
+                  "C": "Chúng có giá 3 đô la Canada.",
+                  "D": "Chúng có giá 21,95 đô la Mỹ."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (A) \"They are free with a subscription.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "ĐÁP ÁN ĐÚNG: (A) They are free with a subscription. (Chúng miễn phí khi đăng ký.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+                "B": "Loại (B) \"They cost $1.\" (Chúng có giá 1 đô la.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "Loại (C) \"They cost $3 Canadian.\" (Chúng có giá 3 đô la Canada.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "Loại (D) \"They cost $21. 95 US.\" (Chúng có giá 21,95 đô la Mỹ.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q3",
+            "questionNumber": 3,
+            "questionType": "Loại trừ (NOT/TRUE)",
+            "prompt": "Who cannot benefit from this special deal?",
+            "promptVi": "Ai không thể hưởng lợi từ ưu đãi đặc biệt này?",
+            "options": {
+              "A": "Canadians.",
+              "B": "UK residents.",
+              "C": "North Americans.",
+              "D": "US residents."
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Loại trừ (NOT/TRUE)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Ai không thể hưởng lợi từ ưu đãi đặc biệt này?",
+                "optionsVi": {
+                  "A": "Người Canada.",
+                  "B": "Cư dân Vương quốc Anh.",
+                  "C": "Người Bắc Mỹ.",
+                  "D": "Cư dân Mỹ."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (B) \"UK residents.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Canadian residents should add $3 US for shipping.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s6"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"Canadians.\" (Người Canada.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "ĐÁP ÁN ĐÚNG: (B) UK residents. (Cư dân Vương quốc Anh.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+                "C": "Loại (C) \"North Americans.\" (Người Bắc Mỹ.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "Loại (D) \"US residents.\" (Cư dân Mỹ.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q4",
+            "questionNumber": 4,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "Which company was unsatisfied?",
+            "promptVi": "Công ty nào không hài lòng?",
+            "options": {
+              "A": "Stan Mason's company.",
+              "B": "The Shoe People.",
+              "C": "JT Construction",
+              "D": "The sole company."
+            },
+            "correctAnswer": "C",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Công ty nào không hài lòng?",
+                "optionsVi": {
+                  "A": "Công ty của Stan Mason.",
+                  "B": "The Shoe People.",
+                  "C": "JT Construction",
+                  "D": "The sole company."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (C) \"JT Construction\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"Stan Mason's company.\" (Công ty của Stan Mason.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "Loại (B) \"The Shoe People.\" (The Shoe People.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "ĐÁP ÁN ĐÚNG: (C) JT Construction (JT Construction) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+                "D": "Loại (D) \"The sole company.\" (The sole company.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q5",
+            "questionNumber": 5,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "How many people are on John Trimbald's crew?",
+            "promptVi": "Có bao nhiêu người trong đoàn thủy thủ của John Trimbald?",
+            "options": {
+              "A": "Four.",
+              "B": "Five.",
+              "C": "Six.",
+              "D": "Twelve."
+            },
+            "correctAnswer": "A",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Có bao nhiêu người trong đoàn thủy thủ của John Trimbald?",
+                "optionsVi": {
+                  "A": "Bốn.",
+                  "B": "Năm.",
+                  "C": "Sáu.",
+                  "D": "Mười hai."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (A) \"Four.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "ĐÁP ÁN ĐÚNG: (A) Four. (Bốn.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+                "B": "Loại (B) \"Five.\" (Năm.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "Loại (C) \"Six.\" (Sáu.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "Loại (D) \"Twelve.\" (Mười hai.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q6",
+            "questionNumber": 6,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "What is the spray used for?",
+            "promptVi": "Xịt này dùng để làm gì?",
+            "options": {
+              "A": "To protect the boots from water.",
+              "B": "To protect the soles from heat.",
+              "C": "To protect the floors from soles.",
+              "D": "To protect the boots from rubber."
+            },
+            "correctAnswer": "B",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "Xịt này dùng để làm gì?",
+                "optionsVi": {
+                  "A": "Để bảo vệ đôi ủng khỏi nước.",
+                  "B": "Để bảo vệ đế giày khỏi nhiệt.",
+                  "C": "Để bảo vệ sàn khỏi đế giày.",
+                  "D": "Để bảo vệ đôi ủng khỏi cao su."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (B) \"To protect the soles from heat.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"To protect the boots from water.\" (Để bảo vệ đôi ủng khỏi nước.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "ĐÁP ÁN ĐÚNG: (B) To protect the soles from heat. (Để bảo vệ đế giày khỏi nhiệt.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+                "C": "Loại (C) \"To protect the floors from soles.\" (Để bảo vệ sàn khỏi đế giày.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "Loại (D) \"To protect the boots from rubber.\" (Để bảo vệ đôi ủng khỏi cao su.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          },
+          {
+            "id": "englishclub-web-practice-1-p7-s2-q7",
+            "questionNumber": 7,
+            "questionType": "Thông tin chi tiết (Detail)",
+            "prompt": "What should John Trimbald do if he remains unsatisfied?",
+            "promptVi": "John Trimbald nên làm gì nếu anh ấy vẫn chưa hài lòng?",
+            "options": {
+              "A": "Return just the spray.",
+              "B": "Call the President.",
+              "C": "Mail another letter.",
+              "D": "Request a refund."
+            },
+            "correctAnswer": "D",
+            "explanation": {
+              "classification": {
+                "category": "Part 7 — Thông tin chi tiết (Detail)",
+                "signal": "Định vị từ khóa câu hỏi trong văn bản gốc."
+              },
+              "translation": {
+                "questionVi": "John Trimbald nên làm gì nếu anh ấy vẫn chưa hài lòng?",
+                "optionsVi": {
+                  "A": "Chỉ trả lại bình xịt.",
+                  "B": "Gọi cho Tổng thống.",
+                  "C": "Gửi thêm một lá thư.",
+                  "D": "Yêu cầu hoàn tiền."
+                }
+              },
+              "proof": {
+                "explanation": "Đáp án (D) \"Request a refund.\" được chứng minh trực tiếp bởi câu dẫn chứng trong văn bản.",
+                "evidenceQuote": "Advertisement FREE SUNGLASSES AND CASE Purchase a 12 month subscription to Vacation the Nation today and receive a free pair of Sunnies Sunglasses with your very own soft leather case.* To get your free Sunnies follow these 3 easy steps.",
+                "evidencePassageIndex": 0,
+                "evidenceSentenceId": "englishclub-web-practice-1-p7-s2-d1-p1-s1"
+              },
+              "wrongOptionsAnalysis": {
+                "A": "Loại (A) \"Return just the spray.\" (Chỉ trả lại bình xịt.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "B": "Loại (B) \"Call the President.\" (Gọi cho Tổng thống.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "C": "Loại (C) \"Mail another letter.\" (Gửi thêm một lá thư.) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+                "D": "ĐÁP ÁN ĐÚNG: (D) Request a refund. (Yêu cầu hoàn tiền.) — Phù hợp chính xác về ngữ pháp và ngữ cảnh."
+              },
+              "keyTakeaways": {
+                "formula": "Đối chiếu câu dẫn chứng và cách diễn đạt đồng nghĩa (Paraphrase).",
+                "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+                "paraphrases": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

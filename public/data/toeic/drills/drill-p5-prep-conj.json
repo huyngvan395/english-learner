@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-prep-conj",
+  "part": 5,
+  "title": "Chuyên đề 7: Giới từ & Liên từ",
+  "subtitle": "Trọn bộ cặp bẫy 'by/until', 'Notwithstanding', 'provided that' và cụm giới từ cố định.",
+  "focusTag": "Prep & Conj",
+  "part5": [
+    {
+      "id": "dp5-pc-1",
+      "part": 5,
+      "topic": "Giới từ & Liên từ",
+      "difficulty": "Cơ bản",
+      "sentence": "All overtime hours must be approved by a supervisor _______ advance.",
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "at",
+        "D": "by"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Cụm giới từ cố định (in advance)",
+          "signal": "Collocation kinh điển TOEIC: 'in advance' = trước thời hạn."
+        },
+        "translation": {
+          "questionVi": "Mọi giờ làm thêm đều phải được giám sát viên phê duyệt trước.",
+          "optionsVi": {
+            "A": "trên / vào (ngày)",
+            "B": "trước ('in advance')",
+            "C": "tại",
+            "D": "bởi / chậm nhất"
+          }
+        },
+        "proof": {
+          "explanation": "'in advance' là cụm giới từ cố định mang nghĩa 'làm trước, đặt trước'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai giới từ.",
+          "B": "Đúng: 'in advance' = beforehand.",
+          "C": "Sai giới từ.",
+          "D": "Sai giới từ."
+        },
+        "keyTakeaways": {
+          "formula": "in advance = beforehand (trước đó)",
+          "commonTrap": "Nhầm sang 'at advance' hoặc 'on advance'.",
+          "paraphrases": [
+            {
+              "textInPassage": "in advance",
+              "textInAnswer": "beforehand",
+              "meaningVi": "trước thời hạn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pc-2",
+      "part": 5,
+      "topic": "Giới từ & Liên từ",
+      "difficulty": "Trung bình",
+      "sentence": "_______ the delay in receiving parts, the assembly line still met its monthly target.",
+      "options": {
+        "A": "Because of",
+        "B": "Notwithstanding",
+        "C": "Even though",
+        "D": "Provided that"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Giới từ nhượng bộ trang trọng (Notwithstanding = Despite)",
+          "signal": "Phía sau là cụm danh từ 'the delay...' + 2 vế mang nghĩa tương phản (chậm linh kiện >< vẫn đạt chỉ tiêu)."
+        },
+        "translation": {
+          "questionVi": "Bất chấp sự chậm trễ nhận linh kiện, dây chuyền lắp ráp vẫn hoàn thành chỉ tiêu tháng.",
+          "optionsVi": {
+            "A": "bởi vì (+ N — sai nghĩa)",
+            "B": "bất chấp, mặc dù (+ N)",
+            "C": "mặc dù (+ S+V — sai ngữ pháp)",
+            "D": "miễn là (+ S+V)"
+          }
+        },
+        "proof": {
+          "explanation": "'Notwithstanding' là giới từ nhượng bộ trang trọng tương đương 'Despite / In spite of' (+ Noun Phrase)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai nghĩa nguyên nhân.",
+          "B": "Đúng: Giới từ nhượng bộ + Cụm danh từ.",
+          "C": "Sai: Even though cần mệnh đề S+V.",
+          "D": "Sai cả ngữ pháp lẫn nghĩa."
+        },
+        "keyTakeaways": {
+          "formula": "Notwithstanding = Despite = In spite of + Noun Phrase",
+          "commonTrap": "Thí sinh lạ từ 'Notwithstanding' nên chọn nhầm 'Even though' dù phía sau không có động từ!",
+          "paraphrases": [
+            {
+              "textInPassage": "notwithstanding",
+              "textInAnswer": "despite / regardless of",
+              "meaningVi": "bất chấp, mặc dù"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pc-3",
+      "part": 5,
+      "topic": "Giới từ & Liên từ",
+      "difficulty": "Trung bình",
+      "sentence": "The hotel shuttle departs _______ the hour from 6:00 A.M. to 11:00 P.M.",
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "to",
+        "D": "with"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Cụm giới từ thời gian (on the hour = đúng mỗi đầu giờ)",
+          "signal": "Ngữ cảnh lịch chạy xe buýt đưa đón khách sạn."
+        },
+        "translation": {
+          "questionVi": "Xe đưa đón của khách sạn khởi hành đúng mỗi đầu giờ tròn từ 6:00 sáng đến 11:00 tối.",
+          "optionsVi": {
+            "A": "đúng đầu giờ ('on the hour')",
+            "B": "trong",
+            "C": "tới",
+            "D": "cùng với"
+          }
+        },
+        "proof": {
+          "explanation": "Thành ngữ thời gian 'on the hour' nghĩa là đúng 6:00, 7:00, 8:00... (cứ tròn giờ là chạy)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: cụm chuẩn 'on the hour'.",
+          "B": "Sai: 'in an hour' là sau 1 tiếng nữa.",
+          "C": "Sai.",
+          "D": "Sai."
+        },
+        "keyTakeaways": {
+          "formula": "on the hour (đúng mỗi giờ tròn: 6:00, 7:00, 8:00...)",
+          "commonTrap": "Nhầm với 'in the hour'.",
+          "paraphrases": [
+            {
+              "textInPassage": "on the hour",
+              "textInAnswer": "every 60 minutes sharp",
+              "meaningVi": "đúng mỗi giờ tròn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pc-4",
+      "part": 5,
+      "topic": "Giới từ & Liên từ",
+      "difficulty": "Nâng cao",
+      "sentence": "Guests may use the rooftop fitness lounge _______ they present a valid room key card.",
+      "options": {
+        "A": "provided that",
+        "B": "due to",
+        "C": "regardless of",
+        "D": "prior to"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Liên từ điều kiện (provided that = if)",
+          "signal": "Sau chỗ trống là mệnh đề đầy đủ 'they present a valid room key card'."
+        },
+        "translation": {
+          "questionVi": "Khách lưu trú có thể sử dụng phòng gym tầng thượng miễn là họ xuất trình thẻ khóa phòng hợp lệ.",
+          "optionsVi": {
+            "A": "miễn là, với điều kiện là (+ S+V)",
+            "B": "do, bởi vì (+ N)",
+            "C": "bất kể (+ N)",
+            "D": "trước khi (+ N/V-ing)"
+          }
+        },
+        "proof": {
+          "explanation": "Chỉ có 'provided that' là liên từ đi với mệnh đề (S + V) và mang nghĩa điều kiện phù hợp."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: provided that = as long as = if (+ S+V).",
+          "B": "Sai: giới từ + N.",
+          "C": "Sai: giới từ + N.",
+          "D": "Sai: giới từ + N."
+        },
+        "keyTakeaways": {
+          "formula": "provided (that) / as long as / on condition that + S + V",
+          "commonTrap": "Nhìn thấy 'provided' tưởng là động từ bị động V3 mà không nhận ra liên từ điều kiện!",
+          "paraphrases": [
+            {
+              "textInPassage": "provided that",
+              "textInAnswer": "as long as / on condition that",
+              "meaningVi": "miễn là, với điều kiện là"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pc-5",
+      "part": 5,
+      "topic": "Giới từ & Liên từ",
+      "difficulty": "Trung bình",
+      "sentence": "All dietary requests must be submitted to Catering _______ Friday at 3:00 P.M.",
+      "options": {
+        "A": "until",
+        "B": "by",
+        "C": "since",
+        "D": "for"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Phân biệt 'by' (hạn chót) vs 'until' (hành động kéo dài liên tục)",
+          "signal": "Động từ 'be submitted' là hành động diễn ra 1 lần trước hạn chót."
+        },
+        "translation": {
+          "questionVi": "Mọi yêu cầu ăn kiêng phải được nộp cho bộ phận Tiệc chậm nhất là 3 giờ chiều thứ Sáu.",
+          "optionsVi": {
+            "A": "cho đến khi (hành động kéo dài liên tục)",
+            "B": "trước / chậm nhất là (hạn chót)",
+            "C": "kể từ khi (hoàn thành)",
+            "D": "trong khoảng"
+          }
+        },
+        "proof": {
+          "explanation": "Nộp đơn/báo cáo trước hạn chót (deadline) luôn dùng 'by', không dùng 'until'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: 'until' dùng cho trạng thái/hành động kéo dài (stay open until...).",
+          "B": "Đúng: 'by + deadline' = no later than.",
+          "C": "Sai.",
+          "D": "Sai."
+        },
+        "keyTakeaways": {
+          "formula": "by + deadline (submit/finish/pay)  ≠  until + time (remain/stay/work)",
+          "commonTrap": "Cặp bẫy 'by vs until' là một trong những câu hỏi tần suất cao nhất Part 5.",
+          "paraphrases": [
+            {
+              "textInPassage": "by Friday at 3:00 P.M.",
+              "textInAnswer": "no later than Friday afternoon",
+              "meaningVi": "chậm nhất 3 giờ chiều thứ Sáu"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

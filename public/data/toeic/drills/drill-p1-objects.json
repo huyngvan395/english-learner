@@ -1,0 +1,324 @@
+{
+  "id": "drill-p1-objects",
+  "part": 1,
+  "title": "Tả vật & Khung cảnh (Không người)",
+  "subtitle": "Làm chủ từ vựng trạng thái tĩnh: unoccupied, lined up, display racks.",
+  "focusTag": "Objects & Scenes",
+  "part1": [
+    {
+      "id": "dp1-o-1",
+      "part": 1,
+      "sceneType": "scene-objects",
+      "title": "Không gian bàn làm việc gọn gàng không người",
+      "illustrationKey": "office-laptop",
+      "imageUrl": "/images/part1/part1_office_desk.jpg",
+      "transcript": [
+        {
+          "id": "dp1-o-1-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "A. The workstation is currently unoccupied.",
+          "vi": "A. Khu vực bàn làm việc hiện đang không có người ngồi.",
+          "evidenceForQuestionIds": [
+            "dp1-o-1"
+          ],
+          "startMs": 240,
+          "endMs": 3744
+        },
+        {
+          "id": "dp1-o-1-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "B. A coffee cup has spilled across the keyboard.",
+          "vi": "B. Cốc cà phê đã bị đổ tràn lên bàn phím.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4344,
+          "endMs": 7944
+        },
+        {
+          "id": "dp1-o-1-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "C. Bookshelves have collapsed onto the desk.",
+          "vi": "C. Giá sách đã đổ sập xuống mặt bàn.",
+          "evidenceForQuestionIds": [],
+          "startMs": 8544,
+          "endMs": 11832
+        },
+        {
+          "id": "dp1-o-1-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "D. Curtains are completely covering the monitor.",
+          "vi": "D. Rèm cửa đang che kín màn hình.",
+          "evidenceForQuestionIds": [],
+          "startMs": 12432,
+          "endMs": 15768
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "The workstation is currently unoccupied.",
+          "vi": "Khu vực bàn làm việc hiện đang không có người ngồi."
+        },
+        "B": {
+          "en": "A coffee cup has spilled across the keyboard.",
+          "vi": "Cốc cà phê đã bị đổ tràn lên bàn phím."
+        },
+        "C": {
+          "en": "Bookshelves have collapsed onto the desk.",
+          "vi": "Giá sách đã đổ sập xuống mặt bàn."
+        },
+        "D": {
+          "en": "Curtains are completely covering the monitor.",
+          "vi": "Rèm cửa đang che kín màn hình."
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy từ vựng trạng thái trống (unoccupied)",
+        "trapAnalysis": "'unoccupied' = không có người ngồi/sử dụng — từ khóa vàng của tranh không người Part 1!",
+        "paraphrases": [
+          {
+            "audioPhrase": "unoccupied",
+            "answerPhrase": "empty / vacant / nobody seated",
+            "meaningVi": "đang trống, không có người"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Bàn làm việc (workstation) đang trống không người (unoccupied).",
+          "B": "Sai: Không có cà phê đổ.",
+          "C": "Sai: Không có kệ sập.",
+          "D": "Sai: Màn hình lộ rõ."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-o-1-v1",
+            "word": "unoccupied",
+            "pos": "adj",
+            "ipaUK": "/ʌnˈɒkjupaɪd/",
+            "ipaUS": "/ʌnˈɑːkjupaɪd/",
+            "meaning": "đang trống, không có người ở/ngồi",
+            "exampleEn": "Please turn off lights in any unoccupied conference rooms.",
+            "exampleVi": "Vui lòng tắt đèn ở các phòng họp không có người."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-o-1.mp3"
+    },
+    {
+      "id": "dp1-o-2",
+      "part": 1,
+      "sceneType": "scene-objects",
+      "title": "Dãy tủ sách cổ điển trong thư viện",
+      "illustrationKey": "office-laptop",
+      "imageUrl": "/images/part1/part1_library_study.jpg",
+      "transcript": [
+        {
+          "id": "dp1-o-2-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "A. Shelves are filled with numerous volumes.",
+          "vi": "A. Các kệ chứa đầy vô số cuốn sách.",
+          "evidenceForQuestionIds": [
+            "dp1-o-2"
+          ],
+          "startMs": 240,
+          "endMs": 3576
+        },
+        {
+          "id": "dp1-o-2-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "B. Ladders are leaning against a glass window.",
+          "vi": "B. Những chiếc thang đang tựa vào cửa kính.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4176,
+          "endMs": 7584
+        },
+        {
+          "id": "dp1-o-2-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "C. Snow is piling up on the floor.",
+          "vi": "C. Tuyết đang chất đống trên sàn nhà.",
+          "evidenceForQuestionIds": [],
+          "startMs": 8184,
+          "endMs": 11376
+        },
+        {
+          "id": "dp1-o-2-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "D. Newspapers are taped to every door.",
+          "vi": "D. Báo giấy được dán băng dính lên mọi cánh cửa.",
+          "evidenceForQuestionIds": [],
+          "startMs": 11976,
+          "endMs": 15192
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "Shelves are filled with numerous volumes.",
+          "vi": "Các kệ chứa đầy vô số cuốn sách."
+        },
+        "B": {
+          "en": "Ladders are leaning against a glass window.",
+          "vi": "Những chiếc thang đang tựa vào cửa kính."
+        },
+        "C": {
+          "en": "Snow is piling up on the floor.",
+          "vi": "Tuyết đang chất đống trên sàn nhà."
+        },
+        "D": {
+          "en": "Newspapers are taped to every door.",
+          "vi": "Báo giấy được dán băng dính lên mọi cánh cửa."
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy Paraphrase 'books' -> 'volumes'",
+        "trapAnalysis": "Trong ngữ cảnh thư viện, 'volumes' đồng nghĩa trực tiếp với 'books' (các tập/cuốn sách).",
+        "paraphrases": [
+          {
+            "audioPhrase": "filled with volumes",
+            "answerPhrase": "packed with books",
+            "meaningVi": "chứa đầy các cuốn sách"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Các giá sách chất đầy nhiều cuốn sách (volumes).",
+          "B": "Sai: Không có thang dựa cửa kính.",
+          "C": "Sai: Không gian trong nhà, không có tuyết.",
+          "D": "Sai: Không có báo dán cửa."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-o-2-v1",
+            "word": "volume",
+            "pos": "n",
+            "ipaUK": "/ˈvɒljuːm/",
+            "ipaUS": "/ˈvɑːljuːm/",
+            "meaning": "quyển sách, tập sách; khối lượng",
+            "exampleEn": "The archive stores over ten thousand historical volumes.",
+            "exampleVi": "Kho lưu trữ cất giữ hơn mười nghìn tập sách lịch sử."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-o-2.mp3"
+    },
+    {
+      "id": "dp1-o-3",
+      "part": 1,
+      "sceneType": "scene-objects",
+      "title": "Khu vực trưng bày quần áo gọn gàng",
+      "illustrationKey": "warehouse-shelves",
+      "imageUrl": "/images/part1/part1_retail_store.jpg",
+      "transcript": [
+        {
+          "id": "dp1-o-3-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "A. Clothing items hang neatly on display racks.",
+          "vi": "A. Các món trang phục được treo gọn gàng trên giá trưng bày.",
+          "evidenceForQuestionIds": [
+            "dp1-o-3"
+          ],
+          "startMs": 240,
+          "endMs": 3480
+        },
+        {
+          "id": "dp1-o-3-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "B. A cash register is overflowing with coins.",
+          "vi": "B. Máy tính tiền đang tràn ngập tiền xu.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4080,
+          "endMs": 7320
+        },
+        {
+          "id": "dp1-o-3-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "C. Mannequins have been stacked inside a truck.",
+          "vi": "C. Ma-nơ-canh đã được chất vào trong xe tải.",
+          "evidenceForQuestionIds": [],
+          "startMs": 7920,
+          "endMs": 11040
+        },
+        {
+          "id": "dp1-o-3-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "D. The ceiling lights are all switched off.",
+          "vi": "D. Toàn bộ đèn trần đều đã tắt.",
+          "evidenceForQuestionIds": [],
+          "startMs": 11640,
+          "endMs": 14448
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "Clothing items hang neatly on display racks.",
+          "vi": "Các món trang phục được treo gọn gàng trên giá trưng bày."
+        },
+        "B": {
+          "en": "A cash register is overflowing with coins.",
+          "vi": "Máy tính tiền đang tràn ngập tiền xu."
+        },
+        "C": {
+          "en": "Mannequins have been stacked inside a truck.",
+          "vi": "Ma-nơ-canh đã được chất vào trong xe tải."
+        },
+        "D": {
+          "en": "The ceiling lights are all switched off.",
+          "vi": "Toàn bộ đèn trần đều đã tắt."
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy động từ nội động 'hang' tả trạng thái đồ vật",
+        "trapAnalysis": "Động từ 'hang' (treo) có thể dùng ở dạng chủ động đơn để tả đồ vật đang treo sẵn trên giá.",
+        "paraphrases": [
+          {
+            "audioPhrase": "hang on display racks",
+            "answerPhrase": "are suspended from clothing rails",
+            "meaningVi": "treo trên giá trưng bày"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Trang phục treo ngay ngắn trên giá trưng bày trong cửa hàng.",
+          "B": "Sai: Không thấy máy tính tiền tràn xu.",
+          "C": "Sai: Không có xe tải.",
+          "D": "Sai: Cửa hàng đang sáng đèn."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-o-3-v1",
+            "word": "display rack",
+            "pos": "phrase",
+            "ipaUK": "/dɪˈspleɪ ræk/",
+            "ipaUS": "/dɪˈspleɪ ræk/",
+            "meaning": "giá kệ trưng bày hàng",
+            "exampleEn": "New winter coats were moved to the front display rack.",
+            "exampleVi": "Áo khoác đông mới được chuyển ra giá trưng bày phía trước."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-o-3.mp3"
+    }
+  ]
+}

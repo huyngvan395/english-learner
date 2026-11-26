@@ -1,0 +1,399 @@
+{
+  "id": "drill-p4-tour-event",
+  "part": 4,
+  "title": "Hướng dẫn tham quan & Sự kiện",
+  "subtitle": "Quy định tham quan nhà kính thực vật và lễ trao giải thiết kế.",
+  "focusTag": "Tours & Events",
+  "part4": [
+    {
+      "id": "dp4-te-1",
+      "part": 4,
+      "title": "Hướng dẫn tham quan Vườn Thực vật Nhà kính",
+      "talkType": "Hướng dẫn tham quan (Tour)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-te-1-l1",
+          "speaker": "Guide",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Welcome to the Riverside Botanical Conservatory! Today we'll explore three climate domes housing over two thousand rare plant species.",
+          "vi": "Chào mừng tới Nhà kính Thực vật Riverside! Hôm nay ta sẽ khám phá ba mái vòm khí hậu chứa hơn hai nghìn loài thực vật quý hiếm.",
+          "evidenceForQuestionIds": [
+            "dp4-te-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 9384
+        },
+        {
+          "id": "dp4-te-1-l2",
+          "speaker": "Guide",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Photography without flash is welcome everywhere, though we kindly ask everyone to stay on the stone pathways so delicate root systems aren't disturbed.",
+          "vi": "Chụp ảnh không dùng đèn flash được hoan nghênh mọi nơi, nhưng xin mọi người vui lòng đi đúng lối đá để không làm ảnh hưởng bộ rễ mỏng manh.",
+          "evidenceForQuestionIds": [
+            "dp4-te-1-q2"
+          ],
+          "startMs": 9764,
+          "endMs": 18332
+        },
+        {
+          "id": "dp4-te-1-l3",
+          "speaker": "Guide",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "en": "Our first stop is the Tropical Rainforest Dome, where a misting system activates every half hour—so feel free to stow away cameras if you'd rather keep them dry.",
+          "vi": "Điểm dừng đầu tiên là Vòm Rừng Mưa Nhiệt Đới, nơi hệ thống phun sương bật mỗi nửa tiếng—nên hãy cất máy ảnh nếu bạn muốn giữ khô nhé.",
+          "evidenceForQuestionIds": [
+            "dp4-te-1-q3"
+          ],
+          "startMs": 18712,
+          "endMs": 28312
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-te-1-q1",
+          "questionNumber": 1,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "Where does the talk take place?",
+          "promptVi": "Bài nói diễn ra ở đâu?",
+          "options": {
+            "A": {
+              "en": "At a botanical conservatory",
+              "vi": "Tại nhà kính vườn thực vật"
+            },
+            "B": {
+              "en": "At a natural history museum",
+              "vi": "Tại bảo tàng lịch sử tự nhiên"
+            },
+            "C": {
+              "en": "At a city aquarium",
+              "vi": "Tại thủy cung thành phố"
+            },
+            "D": {
+              "en": "At a mountain campsite",
+              "vi": "Tại khu cắm trại trên núi"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'Riverside Botanical Conservatory'",
+            "trapAnalysis": "Vườn thực vật nhà kính.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Botanical Conservatory",
+                "answerPhrase": "greenhouse garden",
+                "meaningVi": "nhà kính thực vật"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-te-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "Why should visitors remain on the stone pathways?",
+          "promptVi": "Tại sao khách cần đi đúng trên lối đá?",
+          "options": {
+            "A": {
+              "en": "To protect fragile plant roots",
+              "vi": "Để bảo vệ hệ rễ cây mỏng manh"
+            },
+            "B": {
+              "en": "To avoid wet paint",
+              "vi": "Để tránh sơn ướt"
+            },
+            "C": {
+              "en": "To stay near security cameras",
+              "vi": "Để gần camera an ninh"
+            },
+            "D": {
+              "en": "To hear the audio speakers",
+              "vi": "Để nghe loa phát thanh"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'delicate root systems aren't disturbed' -> 'protect fragile plant roots'",
+            "trapAnalysis": "delicate = fragile.",
+            "paraphrases": [
+              {
+                "audioPhrase": "delicate root systems",
+                "answerPhrase": "fragile plant roots",
+                "meaningVi": "bộ rễ cây mỏng manh"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-te-1-q3",
+          "questionNumber": 3,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What happens every thirty minutes in the first dome?",
+          "promptVi": "Điều gì xảy ra mỗi ba mươi phút tại mái vòm đầu tiên?",
+          "options": {
+            "A": {
+              "en": "A short film plays.",
+              "vi": "Chiếu một phim ngắn."
+            },
+            "B": {
+              "en": "Water mist is sprayed.",
+              "vi": "Hệ thống phun sương hoạt động."
+            },
+            "C": {
+              "en": "The roof panels open.",
+              "vi": "Các tấm mái mở ra."
+            },
+            "D": {
+              "en": "A botanist feeds butterflies.",
+              "vi": "Nhà thực vật cho bướm ăn."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'every half hour' = 'every thirty minutes'; 'misting system activates' = 'water mist is sprayed'",
+            "trapAnalysis": "Chú ý quy đổi half hour = 30 minutes.",
+            "paraphrases": [
+              {
+                "audioPhrase": "misting system activates",
+                "answerPhrase": "water mist is sprayed",
+                "meaningVi": "hệ thống phun sương bật"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-te-1-v1",
+          "word": "delicate",
+          "pos": "adj",
+          "ipaUK": "/ˈdelɪkət/",
+          "ipaUS": "/ˈdelɪkət/",
+          "meaning": "mỏng manh, dễ tổn thương",
+          "exampleEn": "Handle delicate orchid blossoms with extreme care.",
+          "exampleVi": "Hãy chăm sóc những bông hoa lan mỏng manh thật cẩn thận."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-te-1.mp3"
+    },
+    {
+      "id": "dp4-te-2",
+      "part": 4,
+      "title": "Giới thiệu sự kiện trao giải thiết kế thường niên",
+      "talkType": "Giới thiệu (Introduction)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-te-2-l1",
+          "speaker": "Host",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Good evening, guests, and thank you for joining the tenth annual Pacific Industrial Design Awards!",
+          "vi": "Chào buổi tối quý khách và cảm ơn đã tham dự Lễ trao giải Thiết kế Công nghiệp Thái Bình Dương lần thứ mười!",
+          "evidenceForQuestionIds": [
+            "dp4-te-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 6552
+        },
+        {
+          "id": "dp4-te-2-l2",
+          "speaker": "Host",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "This year our judges reviewed over six hundred entries from fourteen countries, with a special emphasis on repairable consumer electronics.",
+          "vi": "Năm nay ban giám khảo đã chấm hơn sáu trăm tác phẩm từ mười bốn quốc gia, đặc biệt chú trọng đồ điện tử tiêu dùng dễ sửa chữa.",
+          "evidenceForQuestionIds": [
+            "dp4-te-2-q2"
+          ],
+          "startMs": 6932,
+          "endMs": 15548
+        },
+        {
+          "id": "dp4-te-2-l3",
+          "speaker": "Host",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "Right after tonight's trophy ceremony, please head to the Mezzanine Gallery where all winning prototypes are on display for hands-on testing.",
+          "vi": "Ngay sau lễ trao cúp tối nay, mời quý vị lên Phòng trưng bày Tầng lửng nơi toàn bộ mẫu thử đoạt giải đang bày để trải nghiệm trực tiếp.",
+          "evidenceForQuestionIds": [
+            "dp4-te-2-q3"
+          ],
+          "startMs": 15928,
+          "endMs": 24112
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-te-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What kind of event is taking place?",
+          "promptVi": "Sự kiện nào đang diễn ra?",
+          "options": {
+            "A": {
+              "en": "An industrial design awards ceremony",
+              "vi": "Lễ trao giải thiết kế công nghiệp"
+            },
+            "B": {
+              "en": "A music festival",
+              "vi": "Lễ hội âm nhạc"
+            },
+            "C": {
+              "en": "A job recruitment expo",
+              "vi": "Hội chợ tuyển dụng"
+            },
+            "D": {
+              "en": "A shareholders' vote",
+              "vi": "Cuộc bỏ phiếu cổ đông"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'Pacific Industrial Design Awards'",
+            "trapAnalysis": "Lễ trao giải thiết kế công nghiệp thường niên.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Awards",
+                "answerPhrase": "awards ceremony",
+                "meaningVi": "lễ trao giải"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-te-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What category received special focus this year?",
+          "promptVi": "Hạng mục nào được đặc biệt chú trọng năm nay?",
+          "options": {
+            "A": {
+              "en": "Luxury wooden furniture",
+              "vi": "Nội thất gỗ cao cấp"
+            },
+            "B": {
+              "en": "Repairable electronic devices",
+              "vi": "Thiết bị điện tử dễ sửa chữa"
+            },
+            "C": {
+              "en": "Electric bicycles",
+              "vi": "Xe đạp điện"
+            },
+            "D": {
+              "en": "Recycled clothing",
+              "vi": "Quần áo tái chế"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'emphasis on repairable consumer electronics'",
+            "trapAnalysis": "emphasis = special focus.",
+            "paraphrases": [
+              {
+                "audioPhrase": "special emphasis",
+                "answerPhrase": "special focus",
+                "meaningVi": "trọng tâm đặc biệt"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-te-2-q3",
+          "questionNumber": 6,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "What are guests invited to do after the ceremony?",
+          "promptVi": "Khách mời được mời làm gì sau buổi lễ?",
+          "options": {
+            "A": {
+              "en": "Try out winning prototypes upstairs",
+              "vi": "Trải nghiệm các mẫu thử đoạt giải ở tầng lửng"
+            },
+            "B": {
+              "en": "Attend a press dinner",
+              "vi": "Dự tiệc báo chí"
+            },
+            "C": {
+              "en": "Vote for next year's theme",
+              "vi": "Bỏ phiếu chủ đề năm sau"
+            },
+            "D": {
+              "en": "Pick up gift bags at reception",
+              "vi": "Nhận túi quà ở lễ tân"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'hands-on testing' -> 'try out'",
+            "trapAnalysis": "Mezzanine Gallery = phòng trưng bày tầng lửng.",
+            "paraphrases": [
+              {
+                "audioPhrase": "hands-on testing",
+                "answerPhrase": "try out prototypes",
+                "meaningVi": "trải nghiệm trực tiếp mẫu thử"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-te-2-v1",
+          "word": "hands-on",
+          "pos": "adj",
+          "ipaUK": "/ˌhændz ˈɒn/",
+          "ipaUS": "/ˌhændz ˈɑːn/",
+          "meaning": "thực hành trực tiếp, tự tay trải nghiệm",
+          "exampleEn": "The workshop includes two hours of hands-on lab practice.",
+          "exampleVi": "Hội thảo gồm hai giờ thực hành trực tiếp trong phòng lab."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-te-2.mp3"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "id": "drill-p4-advertisement",
+  "part": 4,
+  "title": "Quảng cáo & Radio",
+  "subtitle": "Bắt nhanh ưu đãi dùng thử, mã giảm giá và lợi ích sản phẩm dịch vụ.",
+  "focusTag": "Advertisements",
+  "part4": [
+    {
+      "id": "dp4-ad-1",
+      "part": 4,
+      "title": "Quảng cáo không gian làm việc chung WorkNest",
+      "talkType": "Quảng cáo (Advertisement)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-ad-1-l1",
+          "speaker": "Speaker",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Growing your startup but not ready for a five-year office lease? Discover WorkNest Coworking right beside Central Station.",
+          "vi": "Startup của bạn đang phát triển nhưng chưa sẵn sàng ký hợp đồng thuê văn phòng năm năm? Hãy khám phá Không gian làm việc chung WorkNest ngay cạnh Ga Trung tâm.",
+          "evidenceForQuestionIds": [
+            "dp4-ad-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 8472
+        },
+        {
+          "id": "dp4-ad-1-l2",
+          "speaker": "Speaker",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Our month-to-month plans include gigabit fiber Internet, soundproof phone booths, and unlimited meeting-room credits.",
+          "vi": "Gói thuê theo từng tháng của chúng tôi bao gồm Internet cáp quang tốc độ cao, buồng điện thoại cách âm và giờ họp phòng không giới hạn.",
+          "evidenceForQuestionIds": [
+            "dp4-ad-1-q2"
+          ],
+          "startMs": 8852,
+          "endMs": 16028
+        },
+        {
+          "id": "dp4-ad-1-l3",
+          "speaker": "Speaker",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Book a guided walkthrough on worknest.com this week and enjoy your first week of hot-desking completely free.",
+          "vi": "Đặt lịch tham quan có hướng dẫn trên worknest.com tuần này để trải nghiệm tuần đầu tiên làm việc tự do hoàn toàn miễn phí.",
+          "evidenceForQuestionIds": [
+            "dp4-ad-1-q3"
+          ],
+          "startMs": 16408,
+          "endMs": 22840
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-ad-1-q1",
+          "questionNumber": 1,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "Who is the advertisement aimed at?",
+          "promptVi": "Quảng cáo hướng đến đối tượng nào?",
+          "options": {
+            "A": {
+              "en": "Small growing businesses",
+              "vi": "Các doanh nghiệp nhỏ/startup đang phát triển"
+            },
+            "B": {
+              "en": "Commercial property landlords",
+              "vi": "Chủ cho thuê bất động sản"
+            },
+            "C": {
+              "en": "University freshmen",
+              "vi": "Sinh viên năm nhất"
+            },
+            "D": {
+              "en": "Hotel travel agents",
+              "vi": "Đại lý du lịch khách sạn"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu đầu: 'Growing your startup'",
+            "trapAnalysis": "startup = small growing business.",
+            "paraphrases": [
+              {
+                "audioPhrase": "growing your startup",
+                "answerPhrase": "small growing businesses",
+                "meaningVi": "doanh nghiệp khởi nghiệp"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-ad-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What benefit of WorkNest memberships is highlighted?",
+          "promptVi": "Lợi ích nào của gói thành viên WorkNest được nhấn mạnh?",
+          "options": {
+            "A": {
+              "en": "Free downtown parking",
+              "vi": "Đỗ xe miễn phí trung tâm"
+            },
+            "B": {
+              "en": "Short-term flexible leases",
+              "vi": "Hợp đồng thuê ngắn hạn linh hoạt theo tháng"
+            },
+            "C": {
+              "en": "On-site childcare",
+              "vi": "Dịch vụ trông trẻ tại chỗ"
+            },
+            "D": {
+              "en": "Complimentary printing paper",
+              "vi": "Giấy in miễn phí"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'month-to-month plans' -> 'short-term flexible leases'",
+            "trapAnalysis": "Không cần hợp đồng 5 năm mà thuê từng tháng.",
+            "paraphrases": [
+              {
+                "audioPhrase": "month-to-month plans",
+                "answerPhrase": "short-term flexible leases",
+                "meaningVi": "gói thuê theo tháng linh hoạt"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-ad-1-q3",
+          "questionNumber": 3,
+          "questionType": "Hành động tiếp theo",
+          "prompt": "How can listeners earn a free trial week?",
+          "promptVi": "Người nghe làm thế nào để nhận một tuần dùng thử miễn phí?",
+          "options": {
+            "A": {
+              "en": "By signing a two-year deal",
+              "vi": "Ký hợp đồng hai năm"
+            },
+            "B": {
+              "en": "By scheduling a tour online",
+              "vi": "Đặt lịch tham quan trực tuyến"
+            },
+            "C": {
+              "en": "By bringing a colleague",
+              "vi": "Dẫn theo đồng nghiệp"
+            },
+            "D": {
+              "en": "By paying in cash",
+              "vi": "Thanh toán tiền mặt"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'Book a guided walkthrough on worknest.com' -> 'scheduling a tour online'",
+            "trapAnalysis": "walkthrough = tour.",
+            "paraphrases": [
+              {
+                "audioPhrase": "guided walkthrough",
+                "answerPhrase": "tour",
+                "meaningVi": "chuyến tham quan hướng dẫn"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-ad-1-v1",
+          "word": "soundproof",
+          "pos": "adj",
+          "ipaUK": "/ˈsaʊndpruːf/",
+          "ipaUS": "/ˈsaʊndpruːf/",
+          "meaning": "cách âm",
+          "exampleEn": "Private soundproof pods make client calls quiet and clear.",
+          "exampleVi": "Các buồng cách âm riêng giúp cuộc gọi khách hàng yên tĩnh rõ ràng."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-ad-1.mp3"
+    },
+    {
+      "id": "dp4-ad-2",
+      "part": 4,
+      "title": "Quảng cáo dịch vụ bảo dưỡng xe điện GreenDrive",
+      "talkType": "Quảng cáo (Advertisement)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-ad-2-l1",
+          "speaker": "Speaker",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Own an electric vehicle? Keep your battery running at peak range with GreenDrive Auto Care.",
+          "vi": "Bạn sở hữu xe điện? Hãy giữ pin xe vận hành ở tầm di chuyển đỉnh cao với Trung tâm Chăm sóc Xe GreenDrive.",
+          "evidenceForQuestionIds": [
+            "dp4-ad-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 7056
+        },
+        {
+          "id": "dp4-ad-2-l2",
+          "speaker": "Speaker",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Our certified technicians perform full battery diagnostics, tire rotations, and brake checks in under forty-five minutes while you relax in our Wi-Fi lounge.",
+          "vi": "Kỹ thuật viên có chứng chỉ của chúng tôi thực hiện chẩn đoán pin toàn diện, đảo lốp và kiểm tra phanh dưới bốn mươi lăm phút trong lúc bạn thư giãn tại phòng chờ Wi-Fi.",
+          "evidenceForQuestionIds": [
+            "dp4-ad-2-q2"
+          ],
+          "startMs": 7436,
+          "endMs": 18596
+        },
+        {
+          "id": "dp4-ad-2-l3",
+          "speaker": "Speaker",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Even better—schedule your service on a Tuesday or Wednesday and receive a complimentary exterior car wash!",
+          "vi": "Tuyệt hơn nữa—hãy đặt lịch bảo dưỡng vào thứ Ba hoặc thứ Tư để nhận ngay gói rửa xe bên ngoài miễn phí!",
+          "evidenceForQuestionIds": [
+            "dp4-ad-2-q3"
+          ],
+          "startMs": 18976,
+          "endMs": 27088
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-ad-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What type of business is GreenDrive Auto Care?",
+          "promptVi": "GreenDrive Auto Care thuộc loại hình kinh doanh gì?",
+          "options": {
+            "A": {
+              "en": "An electric-vehicle service center",
+              "vi": "Trung tâm bảo dưỡng xe điện"
+            },
+            "B": {
+              "en": "A used-car dealership",
+              "vi": "Đại lý bán xe cũ"
+            },
+            "C": {
+              "en": "A highway charging network",
+              "vi": "Mạng lưới trạm sạc cao tốc"
+            },
+            "D": {
+              "en": "A car rental agency",
+              "vi": "Đại lý cho thuê xe"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu 1 & 2: 'electric vehicle / battery diagnostics / tire rotations'",
+            "trapAnalysis": "Trung tâm bảo dưỡng chăm sóc xe điện.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Auto Care / diagnostics",
+                "answerPhrase": "service center",
+                "meaningVi": "trung tâm bảo dưỡng xe"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-ad-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "How long does a typical service visit take?",
+          "promptVi": "Một lần bảo dưỡng tiêu chuẩn mất bao lâu?",
+          "options": {
+            "A": {
+              "en": "Less than 45 minutes",
+              "vi": "Dưới 45 phút"
+            },
+            "B": {
+              "en": "Two full hours",
+              "vi": "Trọn hai tiếng"
+            },
+            "C": {
+              "en": "Half a business day",
+              "vi": "Nửa ngày làm việc"
+            },
+            "D": {
+              "en": "Overnight",
+              "vi": "Qua đêm"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'under forty-five minutes' -> 'less than 45 minutes'",
+            "trapAnalysis": "under = less than.",
+            "paraphrases": [
+              {
+                "audioPhrase": "under 45 minutes",
+                "answerPhrase": "less than 45 minutes",
+                "meaningVi": "dưới 45 phút"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-ad-2-q3",
+          "questionNumber": 6,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What bonus is offered for midweek appointments?",
+          "promptVi": "Ưu đãi tặng thêm cho lịch hẹn giữa tuần là gì?",
+          "options": {
+            "A": {
+              "en": "A free car wash",
+              "vi": "Rửa xe miễn phí"
+            },
+            "B": {
+              "en": "Half-price new tires",
+              "vi": "Giảm nửa giá lốp mới"
+            },
+            "C": {
+              "en": "A loaner vehicle",
+              "vi": "Xe mượn tạm"
+            },
+            "D": {
+              "en": "Free battery replacement",
+              "vi": "Thay pin miễn phí"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'Tuesday or Wednesday' = 'midweek', 'complimentary exterior car wash' = 'free car wash'",
+            "trapAnalysis": "Câu cuối nêu rõ ưu đãi rửa xe miễn phí.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Tuesday or Wednesday",
+                "answerPhrase": "midweek",
+                "meaningVi": "giữa tuần"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-ad-2-v1",
+          "word": "diagnostics",
+          "pos": "n",
+          "ipaUK": "/ˌdaɪəɡˈnɒstɪks/",
+          "ipaUS": "/ˌdaɪəɡˈnɑːstɪks/",
+          "meaning": "chẩn đoán kỹ thuật",
+          "exampleEn": "Digital diagnostics locate engine faults in minutes.",
+          "exampleVi": "Chẩn đoán kỹ thuật số phát hiện lỗi động cơ trong vài phút."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-ad-2.mp3"
+    }
+  ]
+}

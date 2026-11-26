@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-sva",
+  "part": 5,
+  "title": "Chuyên đề 3: Sự hòa hợp chủ–vị (SVA)",
+  "subtitle": "Tránh bẫy chủ ngữ V-ing, 'along with', 'The number of' và danh từ không đếm được.",
+  "focusTag": "Subject–Verb",
+  "part5": [
+    {
+      "id": "dp5-sva-1",
+      "part": 5,
+      "topic": "Sự hòa hợp chủ–vị",
+      "difficulty": "Cơ bản",
+      "sentence": "Submitting travel receipts online _______ employees to receive reimbursements much faster.",
+      "options": {
+        "A": "allow",
+        "B": "allows",
+        "C": "are allowing",
+        "D": "were allowing"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Chủ ngữ là Danh động từ (V-ing) luôn chia số ít",
+          "signal": "Chủ ngữ là cả cụm 'Submitting travel receipts online' (việc nộp hóa đơn)."
+        },
+        "translation": {
+          "questionVi": "Việc nộp hóa đơn công tác trực tuyến giúp nhân viên nhận tiền hoàn phí nhanh hơn nhiều.",
+          "optionsVi": {
+            "A": "cho phép (số nhiều)",
+            "B": "cho phép (số ít)",
+            "C": "đang cho phép (số nhiều)",
+            "D": "đã đang cho phép (số nhiều)"
+          }
+        },
+        "proof": {
+          "explanation": "Chủ ngữ là cụm V-ing ('Submitting...') luôn được xem là ngôi thứ 3 số ít -> chọn 'allows'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai số: nhầm theo danh từ số nhiều 'receipts'.",
+          "B": "Đúng: V-ing Subject + V(số ít).",
+          "C": "Sai số nhiều.",
+          "D": "Sai số nhiều và thì."
+        },
+        "keyTakeaways": {
+          "formula": "V-ing (+ O) + V(số ít)",
+          "commonTrap": "Nhìn thấy 'receipts' số nhiều trước chỗ trống nên chia nhầm 'allow'!",
+          "paraphrases": [
+            {
+              "textInPassage": "receive reimbursements",
+              "textInAnswer": "get expenses paid back",
+              "meaningVi": "nhận hoàn trả chi phí"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-sva-2",
+      "part": 5,
+      "topic": "Sự hòa hợp chủ–vị",
+      "difficulty": "Trung bình",
+      "sentence": "The CEO, along with two regional vice presidents, _______ attending the Tokyo expo next week.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "were",
+        "D": "have been"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Chủ ngữ nối bởi 'along with / as well as / together with'",
+          "signal": "Động từ luôn chia theo chủ ngữ THỨ NHẤT ('The CEO' — số ít), bỏ qua phần xen giữa hai dấu phẩy."
+        },
+        "translation": {
+          "questionVi": "Tổng giám đốc, cùng với hai phó chủ tịch khu vực, sẽ tham dự triển lãm Tokyo vào tuần tới.",
+          "optionsVi": {
+            "A": "đang/sẽ (số ít)",
+            "B": "đang/sẽ (số nhiều)",
+            "C": "đã (số nhiều quá khứ)",
+            "D": "đã (số nhiều hoàn thành)"
+          }
+        },
+        "proof": {
+          "explanation": "Chủ ngữ chính là 'The CEO' (số ít); cụm ', along with ...,' chỉ là thành phần bổ sung -> chia số ít 'is'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: Chia theo chủ ngữ đầu 'The CEO'.",
+          "B": "Sai: bị đánh lừa cộng gộp 3 người.",
+          "C": "Sai số và thì ('next week').",
+          "D": "Sai số và thì."
+        },
+        "keyTakeaways": {
+          "formula": "S1 + , along with / together with / as well as + S2, + V(chia theo S1)",
+          "commonTrap": "Rất dễ cộng gộp S1 + S2 thành số nhiều và chọn 'are'!",
+          "paraphrases": [
+            {
+              "textInPassage": "attending the expo",
+              "textInAnswer": "participating in the trade show",
+              "meaningVi": "tham dự triển lãm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-sva-3",
+      "part": 5,
+      "topic": "Sự hòa hợp chủ–vị",
+      "difficulty": "Trung bình",
+      "sentence": "The number of subscribers to our digital business journal _______ surpassed 80,000 this month.",
+      "options": {
+        "A": "have",
+        "B": "has",
+        "C": "are",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Cấu trúc 'The number of + N(số nhiều) + V(số ít)'",
+          "signal": "Chủ ngữ cốt lõi là 'The number' (con số — số ít) + V3 'surpassed'."
+        },
+        "translation": {
+          "questionVi": "Số lượng độc giả đăng ký tạp chí kinh doanh số của ta đã vượt mốc 80.000 trong tháng này.",
+          "optionsVi": {
+            "A": "đã (số nhiều)",
+            "B": "đã (số ít)",
+            "C": "bị động số nhiều",
+            "D": "bị động quá khứ số nhiều"
+          }
+        },
+        "proof": {
+          "explanation": "'The number of + N(số nhiều)' luôn chia động từ số ít -> 'has surpassed'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: nhầm với 'A number of'.",
+          "B": "Đúng: The number of + V(số ít).",
+          "C": "Sai thể bị động và số.",
+          "D": "Sai thể và thì."
+        },
+        "keyTakeaways": {
+          "formula": "The number of + N(số nhiều) + V(số ít)",
+          "commonTrap": "Nhầm sang 'have' vì thấy 'subscribers' số nhiều.",
+          "paraphrases": [
+            {
+              "textInPassage": "surpassed",
+              "textInAnswer": "exceeded",
+              "meaningVi": "vượt qua mốc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-sva-4",
+      "part": 5,
+      "topic": "Sự hòa hợp chủ–vị",
+      "difficulty": "Trung bình",
+      "sentence": "Every one of the newly renovated hotel suites _______ equipped with smart climate controls.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "were",
+        "D": "have"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Cấu trúc 'Every one of / Each of + N(số nhiều) + V(số ít)'",
+          "signal": "Chủ ngữ lõi là 'Every one' (số ít) + 'equipped with' (bị động trạng thái hiện tại)."
+        },
+        "translation": {
+          "questionVi": "Mỗi phòng hạng sang mới cải tạo của khách sạn đều được trang bị hệ thống điều khiển nhiệt độ thông minh.",
+          "optionsVi": {
+            "A": "được (số nhiều)",
+            "B": "được (số ít)",
+            "C": "đã được (số nhiều)",
+            "D": "có (thiếu been)"
+          }
+        },
+        "proof": {
+          "explanation": "'Every one of / Each of' luôn chia động từ số ít -> 'is equipped with'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai số nhiều theo 'suites'.",
+          "B": "Đúng: Every one of + N(số nhiều) + V(số ít).",
+          "C": "Sai số nhiều.",
+          "D": "Sai cấu trúc bị động."
+        },
+        "keyTakeaways": {
+          "formula": "Each / Every one / One + of + the + N(số nhiều) + V(số ít)",
+          "commonTrap": "Thấy 'suites' số nhiều ngay trước động từ nên chia nhầm 'are'.",
+          "paraphrases": [
+            {
+              "textInPassage": "equipped with",
+              "textInAnswer": "fitted with / featuring",
+              "meaningVi": "được trang bị"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-sva-5",
+      "part": 5,
+      "topic": "Sự hòa hợp chủ–vị",
+      "difficulty": "Nâng cao",
+      "sentence": "Detailed information about the upcoming merger _______ available on the investor portal.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "were",
+        "D": "have been"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Danh từ không đếm được (Uncountable Nouns) luôn chia số ít",
+          "signal": "'information' (cũng như equipment, furniture, luggage, advice) là danh từ không đếm được."
+        },
+        "translation": {
+          "questionVi": "Thông tin chi tiết về thương vụ sáp nhập sắp tới hiện có sẵn trên cổng thông tin nhà đầu tư.",
+          "optionsVi": {
+            "A": "số nhiều",
+            "B": "số ít (hiện tại)",
+            "C": "số nhiều quá khứ",
+            "D": "số nhiều hoàn thành"
+          }
+        },
+        "proof": {
+          "explanation": "'information' không đếm được -> luôn đi với động từ số ít 'is'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai số nhiều.",
+          "B": "Đúng: Uncountable Noun + V(số ít).",
+          "C": "Sai số nhiều.",
+          "D": "Sai số nhiều."
+        },
+        "keyTakeaways": {
+          "formula": "information / equipment / merchandise / machinery / luggage + V(số ít)",
+          "commonTrap": "Nghĩ 'thông tin chi tiết' có nhiều mục nên chia số nhiều.",
+          "paraphrases": [
+            {
+              "textInPassage": "upcoming merger",
+              "textInAnswer": "planned company combination",
+              "meaningVi": "thương vụ sáp nhập sắp tới"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

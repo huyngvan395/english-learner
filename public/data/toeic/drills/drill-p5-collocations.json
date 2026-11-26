@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-collocations",
+  "part": 5,
+  "title": "Chuyên đề 10: Từ vựng & Collocations công sở",
+  "subtitle": "Bộ cụm ăn điểm Part 5: comply with, take into account, go into effect, inclement weather.",
+  "focusTag": "Collocations",
+  "part5": [
+    {
+      "id": "dp5-co-1",
+      "part": 5,
+      "topic": "Từ vựng & Collocations công sở",
+      "difficulty": "Trung bình",
+      "sentence": "All food suppliers must strictly _______ with regional hygiene standards to retain their contracts.",
+      "options": {
+        "A": "comply",
+        "B": "obey",
+        "C": "follow",
+        "D": "enforce"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Collocation động từ + giới từ 'with'",
+          "signal": "Phía sau chỗ trống có giới từ 'with' -> 'comply with' (tuân thủ)."
+        },
+        "translation": {
+          "questionVi": "Mọi nhà cung cấp thực phẩm phải tuân thủ nghiêm ngặt tiêu chuẩn vệ sinh khu vực để giữ hợp đồng.",
+          "optionsVi": {
+            "A": "tuân thủ (+ with)",
+            "B": "tuân lệnh (ngoại động từ, không dùng with)",
+            "C": "làm theo (không dùng with)",
+            "D": "thực thi (chủ thể là cơ quan quản lý)"
+          }
+        },
+        "proof": {
+          "explanation": "Chỉ 'comply' kết hợp trực tiếp với giới từ 'with' mang nghĩa tuân thủ quy định/tiêu chuẩn."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: comply with = abide by = adhere to.",
+          "B": "Sai giới từ: obey + O (không có with).",
+          "C": "Sai giới từ: follow + O.",
+          "D": "Sai nghĩa và giới từ."
+        },
+        "keyTakeaways": {
+          "formula": "comply with = adhere to = abide by + rules/standards/regulations",
+          "commonTrap": "4 từ đều mang nghĩa gần nhau về 'quy định', chỉ phân biệt qua giới từ 'with'!",
+          "paraphrases": [
+            {
+              "textInPassage": "comply with standards",
+              "textInAnswer": "meet safety requirements",
+              "meaningVi": "tuân thủ tiêu chuẩn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-co-2",
+      "part": 5,
+      "topic": "Từ vựng & Collocations công sở",
+      "difficulty": "Trung bình",
+      "sentence": "Please take traffic conditions into _______ when estimating delivery arrival times.",
+      "options": {
+        "A": "account",
+        "B": "receipt",
+        "C": "charge",
+        "D": "progress"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Collocation kinh điển 'take ... into account'",
+          "signal": "Cụm cố định: 'take something into account / consideration' = cân nhắc đến."
+        },
+        "translation": {
+          "questionVi": "Vui lòng cân nhắc đến tình hình giao thông khi ước tính thời gian giao hàng đến nơi.",
+          "optionsVi": {
+            "A": "tính đến ('take into account')",
+            "B": "biên lai",
+            "C": "phí / phụ trách",
+            "D": "tiến độ"
+          }
+        },
+        "proof": {
+          "explanation": "'take X into account' là cụm thành ngữ công sở cực kỳ quen thuộc trong Part 5 & Part 6."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: cụm cố định 'take ... into account'.",
+          "B": "Sai collocation.",
+          "C": "Sai collocation.",
+          "D": "Sai collocation."
+        },
+        "keyTakeaways": {
+          "formula": "take + X + into account / consideration = consider X",
+          "commonTrap": "Nghĩ 'account' chỉ có nghĩa là 'tài khoản ngân hàng'.",
+          "paraphrases": [
+            {
+              "textInPassage": "take into account",
+              "textInAnswer": "factor in / consider",
+              "meaningVi": "cân nhắc, tính đến"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-co-3",
+      "part": 5,
+      "topic": "Từ vựng & Collocations công sở",
+      "difficulty": "Trung bình",
+      "sentence": "Subscribers are encouraged to take full _______ of our free weekly market briefings.",
+      "options": {
+        "A": "advantage",
+        "B": "benefit",
+        "C": "profit",
+        "D": "opportunity"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Collocation cố định 'take (full) advantage of'",
+          "signal": "Cấu trúc: take + (full) + [Noun] + of."
+        },
+        "translation": {
+          "questionVi": "Người đăng ký được khuyến khích tận dụng tối đa các bản tin thị trường miễn phí hàng tuần của chúng tôi.",
+          "optionsVi": {
+            "A": "lợi thế ('take advantage of' = tận dụng)",
+            "B": "lợi ích",
+            "C": "lợi nhuận",
+            "D": "cơ hội"
+          }
+        },
+        "proof": {
+          "explanation": "Chỉ 'advantage' đi trong cụm cố định 'take (full) advantage of' (tận dụng triệt để)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: Collocation chuẩn 100%.",
+          "B": "Sai: không nói 'take benefit of'.",
+          "C": "Sai.",
+          "D": "Sai: dùng 'seize/take an opportunity to V'."
+        },
+        "keyTakeaways": {
+          "formula": "take (full) advantage of + N = make the most of + N",
+          "commonTrap": "4 danh từ đều có nghĩa tích cực về 'lợi ích/cơ hội'.",
+          "paraphrases": [
+            {
+              "textInPassage": "take full advantage of",
+              "textInAnswer": "make maximum use of",
+              "meaningVi": "tận dụng tối đa"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-co-4",
+      "part": 5,
+      "topic": "Từ vựng & Collocations công sở",
+      "difficulty": "Nâng cao",
+      "sentence": "The new safety guidelines will go into _______ on the first day of next month.",
+      "options": {
+        "A": "effect",
+        "B": "affect",
+        "C": "effort",
+        "D": "defect"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Collocation pháp lý 'go into / take effect'",
+          "signal": "Cụm cố định: 'go into effect' / 'come into effect' = chính thức có hiệu lực."
+        },
+        "translation": {
+          "questionVi": "Các hướng dẫn an toàn mới sẽ chính thức có hiệu lực vào ngày đầu tiên của tháng tới.",
+          "optionsVi": {
+            "A": "hiệu lực ('go into effect')",
+            "B": "ảnh hưởng (động từ)",
+            "C": "nỗ lực",
+            "D": "khiếm khuyết, lỗi sản phẩm"
+          }
+        },
+        "proof": {
+          "explanation": "'go into effect' diễn tả chính sách/luật lệ bắt đầu được áp dụng chính thức."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: go/come into effect.",
+          "B": "Sai: 'affect' là động từ.",
+          "C": "Sai nghĩa.",
+          "D": "Sai nghĩa."
+        },
+        "keyTakeaways": {
+          "formula": "go / come into effect = take effect = become effective",
+          "commonTrap": "Cặp gây nhiễu kinh điển: effect vs affect vs effort.",
+          "paraphrases": [
+            {
+              "textInPassage": "go into effect",
+              "textInAnswer": "begin to apply officially",
+              "meaningVi": "bắt đầu có hiệu lực"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-co-5",
+      "part": 5,
+      "topic": "Từ vựng & Collocations công sở",
+      "difficulty": "Nâng cao",
+      "sentence": "We regret to inform passengers that Flight 218 has been delayed due to _______ weather.",
+      "options": {
+        "A": "inclement",
+        "B": "redundant",
+        "C": "fluent",
+        "D": "lenient"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Collocation hàng không & thời tiết (inclement weather)",
+          "signal": "Cụm từ chuyên dụng trong thông báo sân bay/công ty: 'inclement weather' (thời tiết khắc nghiệt)."
+        },
+        "translation": {
+          "questionVi": "Chúng tôi rất tiếc phải thông báo tới hành khách rằng Chuyến bay 218 bị trễ do thời tiết khắc nghiệt.",
+          "optionsVi": {
+            "A": "khắc nghiệt, xấu (thời tiết)",
+            "B": "dư thừa, trùng lặp",
+            "C": "trôi chảy (ngôn ngữ)",
+            "D": "khoan hồng, nới lỏng"
+          }
+        },
+        "proof": {
+          "explanation": "'inclement weather' là cụm từ chuẩn xác nhất trong văn phong thông báo TOEIC."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: inclement weather = severe/bad weather.",
+          "B": "Sai nghĩa.",
+          "C": "Sai nghĩa.",
+          "D": "Sai nghĩa."
+        },
+        "keyTakeaways": {
+          "formula": "inclement weather = severe / harsh weather conditions",
+          "commonTrap": "4 tính từ đều kết thúc bằng đuôi '-ent'.",
+          "paraphrases": [
+            {
+              "textInPassage": "inclement weather",
+              "textInAnswer": "severe storm conditions",
+              "meaningVi": "thời tiết khắc nghiệt"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

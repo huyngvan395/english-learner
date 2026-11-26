@@ -1,0 +1,443 @@
+{
+  "id": "drill-p6-email-letter",
+  "part": 6,
+  "title": "Email & Thư thương mại (Sentence Insertion)",
+  "subtitle": "Xử lý khiếu nại giao thiếu hàng & thư mời tài trợ — luyện bắt từ quy chiếu điền câu.",
+  "focusTag": "Email / Letter",
+  "part6": [
+    {
+      "id": "dp6-em-1",
+      "title": "Email giải quyết đơn hàng giao thiếu phụ kiện",
+      "genre": "Email",
+      "paragraphs": [
+        {
+          "id": "dp6-em-1-p1",
+          "sentences": [
+            {
+              "id": "dp6-em-1-s1",
+              "en": "Thank you for contacting Lumina Audio regarding your recent studio-headphone purchase. We apologize that the braided audio cable was [131] from your shipment.",
+              "vi": "Cảm ơn bạn đã liên hệ Lumina Audio về đơn mua tai nghe phòng thu gần đây. Chúng tôi xin lỗi vì dây cáp âm thanh bọc dù bị thiếu khỏi kiện hàng."
+            },
+            {
+              "id": "dp6-em-1-s2",
+              "en": "A replacement cable has already been packed and dispatched via overnight courier at our expense. [132]",
+              "vi": "Một sợi cáp thay thế đã được đóng gói và gửi chuyển phát qua đêm bằng chi phí của chúng tôi. [132]"
+            }
+          ]
+        },
+        {
+          "id": "dp6-em-1-p2",
+          "sentences": [
+            {
+              "id": "dp6-em-1-s3",
+              "en": "[133], we have added a $20 store credit to your Lumina account as a gesture of goodwill.",
+              "vi": "Ngoài ra, chúng tôi đã cộng 20 đô la tín dụng mua hàng vào tài khoản Lumina của bạn như một lời tri ân thiện chí."
+            },
+            {
+              "id": "dp6-em-1-s4",
+              "en": "Please reply directly to this message [134] you experience any further trouble with your headphones.",
+              "vi": "Vui lòng trả lời trực tiếp email này nếu bạn gặp bất kỳ trục trặc nào khác với tai nghe."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp6-em-1-q1",
+          "blankNumber": 131,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "missing",
+            "B": "attached",
+            "C": "excessive",
+            "D": "installed"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Tính từ 'missing from' (bị thiếu khỏi)",
+              "signal": "Câu sau gửi cáp thay thế -> chứng tỏ cáp ban đầu bị 'missing from' (thiếu khỏi gói hàng)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [131].",
+              "optionsVi": {
+                "A": "bị thiếu, thất lạc",
+                "B": "được đính kèm",
+                "C": "quá mức",
+                "D": "được lắp đặt"
+              }
+            },
+            "proof": {
+              "explanation": "'was missing from your shipment' giải thích lý do phải gửi cáp thay thế.",
+              "evidenceQuote": "Thank you for contacting Lumina Audio regarding your recent studio-headphone purchase. We apologize that the braided audio cable was [131] from your shipment.",
+              "evidenceSentenceId": "dp6-em-1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'was missing from your shipment' giải thích lý do phải gửi cáp thay thế.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (được đính kèm).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (quá mức).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (được lắp đặt)."
+            },
+            "keyTakeaways": {
+              "formula": "be missing from + N",
+              "commonTrap": "Không đọc câu sau để suy ngược nghĩa câu trước.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-em-1-q2",
+          "blankNumber": 132,
+          "questionType": "Điền câu (Sentence Insertion)",
+          "options": {
+            "A": "You will receive a tracking link by text message once the courier scans the parcel tonight.",
+            "B": "Our wireless speakers come in four colors.",
+            "C": "Store hours are shorter on national holidays.",
+            "D": "Please submit your resume on our careers page."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu nối tiếp ý 'dispatched via overnight courier'",
+              "signal": "Câu trước báo đã gửi qua chuyển phát qua đêm -> câu (A) cung cấp thông tin theo dõi kiện hàng ('tracking link / courier / parcel')!"
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [132].",
+              "optionsVi": {
+                "A": "Bạn sẽ nhận đường link theo dõi qua tin nhắn khi bên chuyển phát quét kiện hàng tối nay.",
+                "B": "Loa không dây có bốn màu.",
+                "C": "Giờ cửa hàng ngắn hơn ngày lễ.",
+                "D": "Nộp hồ sơ trên trang tuyển dụng."
+              }
+            },
+            "proof": {
+              "explanation": "Từ khóa liên kết chặt: 'overnight courier' <-> 'courier scans the parcel'.",
+              "evidenceQuote": "A replacement cable has already been packed and dispatched via overnight courier at our expense. [132]",
+              "evidenceSentenceId": "dp6-em-1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Từ khóa liên kết chặt: 'overnight courier' <-> 'courier scans the parcel'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Loa không dây có bốn màu.).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Giờ cửa hàng ngắn hơn ngày lễ.).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Nộp hồ sơ trên trang tuyển dụng.)."
+            },
+            "keyTakeaways": {
+              "formula": "Câu theo dõi bưu kiện luôn đi ngay sau câu báo đã gửi hàng",
+              "commonTrap": "Chọn câu lạc mạch chăm sóc khách hàng.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-em-1-q3",
+          "blankNumber": 133,
+          "questionType": "Từ nối",
+          "options": {
+            "A": "Additionally",
+            "B": "Conversely",
+            "C": "Otherwise",
+            "D": "Unless"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Trạng từ nối bổ sung đền bù",
+              "signal": "Ngoài gửi cáp thay thế, công ty tặng thêm voucher $20 -> dùng 'Additionally'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [133].",
+              "optionsVi": {
+                "A": "Thêm vào đó",
+                "B": "Ngược lại",
+                "C": "Nếu không thì",
+                "D": "Trừ khi"
+              }
+            },
+            "proof": {
+              "explanation": "Bổ sung thiện chí đền bù thứ 2 -> 'Additionally'.",
+              "evidenceQuote": "[133], we have added a $20 store credit to your Lumina account as a gesture of goodwill.",
+              "evidenceSentenceId": "dp6-em-1-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Bổ sung thiện chí đền bù thứ 2 -> 'Additionally'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Ngược lại).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Nếu không thì).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Trừ khi)."
+            },
+            "keyTakeaways": {
+              "formula": "Additionally / Furthermore, S + V",
+              "commonTrap": "Dùng 'Conversely' khi không có sự đối lập.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-em-1-q4",
+          "blankNumber": 134,
+          "questionType": "Ngữ pháp",
+          "options": {
+            "A": "unless",
+            "B": "if",
+            "C": "despite",
+            "D": "during"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Liên từ điều kiện 'if' ở giữa câu",
+              "signal": "Phía sau là mệnh đề 'you experience...' (nếu bạn gặp trục trặc hãy phản hồi lại) -> chọn 'if'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [134].",
+              "optionsVi": {
+                "A": "trừ khi (ngược nghĩa)",
+                "B": "nếu (+ S+V)",
+                "C": "mặc dù (+ N)",
+                "D": "trong suốt (+ N)"
+              }
+            },
+            "proof": {
+              "explanation": "Sau câu mệnh lệnh 'Please reply...' dùng mệnh đề điều kiện 'if you experience...' tự nhiên và chuẩn mực nhất.",
+              "evidenceQuote": "Please reply directly to this message [134] you experience any further trouble with your headphones.",
+              "evidenceSentenceId": "dp6-em-1-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (trừ khi (ngược nghĩa)).",
+              "B": "Đúng: Sau câu mệnh lệnh 'Please reply...' dùng mệnh đề điều kiện 'if you experience...' tự nhiên và chuẩn mực nhất.",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (mặc dù (+ N)).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (trong suốt (+ N))."
+            },
+            "keyTakeaways": {
+              "formula": "Please + V0 + if + S + V(hiện tại đơn)",
+              "commonTrap": "Nhầm giới từ 'despite / during' hoặc ngược nghĩa 'unless'.",
+              "paraphrases": []
+            }
+          }
+        }
+      ],
+      "headerMeta": {
+        "from": "care@luminaaudio.com",
+        "to": "Mr. Devon Brooks",
+        "date": "May 14",
+        "subject": "Replacement Cable for Order #5521"
+      }
+    },
+    {
+      "id": "dp6-em-2",
+      "title": "Thư mời hợp tác tài trợ Hội thảo Công nghệ Xanh",
+      "genre": "Email",
+      "paragraphs": [
+        {
+          "id": "dp6-em-2-p1",
+          "sentences": [
+            {
+              "id": "dp6-em-2-s1",
+              "en": "On behalf of the GreenTech Organizing Committee, I am writing to invite Solaris Corp to become a Gold Sponsor at our [135] forum in October.",
+              "vi": "Thay mặt Ban tổ chức GreenTech, tôi viết thư mời Solaris Corp trở thành Nhà tài trợ Vàng tại diễn đàn thường niên của chúng tôi vào tháng Mười."
+            },
+            {
+              "id": "dp6-em-2-s2",
+              "en": "More than 1,200 sustainability executives and clean-energy investors are confirmed to attend. [136]",
+              "vi": "Hơn 1.200 lãnh đạo phát triển bền vững và nhà đầu tư năng lượng sạch đã xác nhận tham dự. [136]"
+            }
+          ]
+        },
+        {
+          "id": "dp6-em-2-p2",
+          "sentences": [
+            {
+              "id": "dp6-em-2-s3",
+              "en": "Gold Sponsors receive a prime exhibition booth near the main stage as well as a ten-minute speaking [137] during the opening keynote.",
+              "vi": "Nhà tài trợ Vàng nhận một gian hàng đắc địa gần sân khấu chính cũng như khung giờ phát biểu mười phút trong phiên khai mạc."
+            },
+            {
+              "id": "dp6-em-2-s4",
+              "en": "I have [138] our sponsorship brochure and would be glad to schedule a brief call next week.",
+              "vi": "Tôi đã đính kèm tờ giới thiệu tài trợ và rất vui lòng sắp xếp cuộc gọi ngắn vào tuần tới."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp6-em-2-q1",
+          "blankNumber": 135,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "upcoming",
+            "B": "outdated",
+            "C": "vacant",
+            "D": "former"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Tính từ chỉ sự kiện sắp diễn ra ('upcoming')",
+              "signal": "Thư viết tháng 7 mời dự diễn đàn tháng 10 -> dùng 'upcoming'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [135].",
+              "optionsVi": {
+                "A": "sắp tới, sắp diễn ra",
+                "B": "lỗi thời",
+                "C": "bỏ trống",
+                "D": "trước đây"
+              }
+            },
+            "proof": {
+              "explanation": "Sự kiện tương lai luôn đi với 'upcoming'.",
+              "evidenceQuote": "On behalf of the GreenTech Organizing Committee, I am writing to invite Solaris Corp to become a Gold Sponsor at our [135] forum in October.",
+              "evidenceSentenceId": "dp6-em-2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Sự kiện tương lai luôn đi với 'upcoming'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (lỗi thời).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (bỏ trống).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (trước đây)."
+            },
+            "keyTakeaways": {
+              "formula": "our upcoming + conference / forum / launch",
+              "commonTrap": "Không nhìn mốc ngày tháng của thư (July -> October).",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-em-2-q2",
+          "blankNumber": 136,
+          "questionType": "Điền câu (Sentence Insertion)",
+          "options": {
+            "A": "This gathering offers your brand unmatched visibility among key industry decision-makers.",
+            "B": "Last year's rain forced the outdoor market indoors.",
+            "C": "All flights into Gate 9 were rerouted.",
+            "D": "Please bring a photo ID to pick up your paycheck."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu kết nối con số 1.200 lãnh đạo -> giá trị thương hiệu",
+              "signal": "Cụm 'This gathering' quy chiếu trực tiếp về diễn đàn có 1.200 lãnh đạo ở câu trước!"
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [136].",
+              "optionsVi": {
+                "A": "Sự kiện này mang lại cho thương hiệu bạn độ nhận diện vượt trội trước các nhà ra quyết định chủ chốt.",
+                "B": "Mưa năm ngoái buộc chợ ngoài trời dời vào nhà.",
+                "C": "Chuyến bay cổng 9 chuyển hướng.",
+                "D": "Mang giấy tờ tùy thân nhận lương."
+              }
+            },
+            "proof": {
+              "explanation": "Mạch thuyết phục tài trợ cực kỳ logic: đông lãnh đạo -> độ phủ thương hiệu cao.",
+              "evidenceQuote": "More than 1,200 sustainability executives and clean-energy investors are confirmed to attend. [136]",
+              "evidenceSentenceId": "dp6-em-2-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Mạch thuyết phục tài trợ cực kỳ logic: đông lãnh đạo -> độ phủ thương hiệu cao.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Mưa năm ngoái buộc chợ ngoài trời dời vào nhà.).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Chuyến bay cổng 9 chuyển hướng.).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Mang giấy tờ tùy thân nhận lương.)."
+            },
+            "keyTakeaways": {
+              "formula": "Tìm cụm quy chiếu 'This gathering / This event'",
+              "commonTrap": "Bị nhiễu bởi chi tiết không thuộc thư mời tài trợ.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-em-2-q3",
+          "blankNumber": 137,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "slot",
+            "B": "aisle",
+            "C": "receipt",
+            "D": "ledge"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Collocation hội nghị ('speaking slot' = khung giờ phát biểu)",
+              "signal": "'a ten-minute speaking slot' là cụm chuẩn mực trong tổ chức hội thảo TOEIC."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [137].",
+              "optionsVi": {
+                "A": "khung giờ, suất (phát biểu/hẹn)",
+                "B": "lối đi",
+                "C": "hóa đơn",
+                "D": "gờ tường"
+              }
+            },
+            "proof": {
+              "explanation": "Chỉ 'slot' đi với 'speaking' mang nghĩa suất/khung giờ phát biểu.",
+              "evidenceQuote": "Gold Sponsors receive a prime exhibition booth near the main stage as well as a ten-minute speaking [137] during the opening keynote.",
+              "evidenceSentenceId": "dp6-em-2-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Chỉ 'slot' đi với 'speaking' mang nghĩa suất/khung giờ phát biểu.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (lối đi).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (hóa đơn).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (gờ tường)."
+            },
+            "keyTakeaways": {
+              "formula": "speaking slot / time slot (khung giờ)",
+              "commonTrap": "Chưa quen nghĩa 'slot' là khung giờ.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-em-2-q4",
+          "blankNumber": 138,
+          "questionType": "Ngữ pháp",
+          "options": {
+            "A": "attach",
+            "B": "attached",
+            "C": "attaching",
+            "D": "attachment"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Thì Hiện tại hoàn thành (have + V3)",
+              "signal": "Câu thư thương mại quen thuộc: 'I have attached...' (Tôi đã đính kèm...)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [138].",
+              "optionsVi": {
+                "A": "V nguyên mẫu",
+                "B": "đã đính kèm (V3)",
+                "C": "V-ing",
+                "D": "tệp đính kèm (danh từ)"
+              }
+            },
+            "proof": {
+              "explanation": "Sau trợ động từ 'have' dùng V3 'attached'.",
+              "evidenceQuote": "I have [138] our sponsorship brochure and would be glad to schedule a brief call next week.",
+              "evidenceSentenceId": "dp6-em-2-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (V nguyên mẫu).",
+              "B": "Đúng: Sau trợ động từ 'have' dùng V3 'attached'.",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (V-ing).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (tệp đính kèm (danh từ))."
+            },
+            "keyTakeaways": {
+              "formula": "I have attached + Document",
+              "commonTrap": "Nhầm sang danh từ 'attachment'.",
+              "paraphrases": []
+            }
+          }
+        }
+      ],
+      "headerMeta": {
+        "from": "events@greentechforum.org",
+        "to": "Ms. Mei-Ling Zhou",
+        "date": "July 8",
+        "subject": "Sponsorship Invitation — GreenTech Annual Forum"
+      }
+    }
+  ]
+}

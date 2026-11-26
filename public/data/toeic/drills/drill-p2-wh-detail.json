@@ -1,0 +1,384 @@
+{
+  "id": "drill-p2-wh-detail",
+  "part": 2,
+  "title": "Câu hỏi What / Which / How / Why",
+  "subtitle": "Phân biệt How much / How often / Why bỏ 'Because' và bẫy lặp từ.",
+  "focusTag": "What / Which / How / Why",
+  "part2": [
+    {
+      "id": "dp2-wd-1",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "What — Hỏi nội dung chương trình đào tạo",
+      "questionLine": {
+        "id": "dp2-wd-1-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "What topics will be covered in tomorrow's cybersecurity seminar?",
+        "vi": "Những chủ đề nào sẽ được đề cập trong hội thảo an ninh mạng ngày mai?",
+        "startMs": 240,
+        "endMs": 4392
+      },
+      "options": {
+        "A": {
+          "en": "Mainly phishing prevention and password management.",
+          "vi": "Chủ yếu là phòng chống lừa đảo và quản lý mật khẩu.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4992,
+          "endMs": 8856
+        },
+        "B": {
+          "en": "The seminar room is on the top floor.",
+          "vi": "Phòng hội thảo ở tầng cao nhất.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 9456,
+          "endMs": 12648
+        },
+        "C": {
+          "en": "Yes, attendance is mandatory.",
+          "vi": "Vâng, tham dự là bắt buộc.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 13248,
+          "endMs": 16584
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'seminar' + Yes/No",
+        "trapAnalysis": "Nghe 'What topics' -> tìm cụm danh từ liệt kê nội dung ('phishing prevention and password management').",
+        "paraphrases": [
+          {
+            "audioPhrase": "topics covered",
+            "answerPhrase": "phishing prevention and password management",
+            "meaningVi": "các chủ đề trong hội thảo"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Nêu trực tiếp hai chủ đề chính.",
+          "B": "Sai: Trả lời địa điểm.",
+          "C": "Sai: Dùng 'Yes' cho câu hỏi What."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wd-1-v1",
+            "word": "mandatory",
+            "pos": "adj",
+            "ipaUK": "/ˈmændətəri/",
+            "ipaUS": "/ˈmændətɔːri/",
+            "meaning": "bắt buộc",
+            "exampleEn": "Annual data privacy training is mandatory for all staff.",
+            "exampleVi": "Khóa đào tạo bảo mật dữ liệu hàng năm là bắt buộc với mọi nhân viên."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wd-1.mp3"
+    },
+    {
+      "id": "dp2-wd-2",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "Which — Hỏi chọn mẫu logo",
+      "questionLine": {
+        "id": "dp2-wd-2-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Which of the three logo designs did the client prefer?",
+        "vi": "Khách hàng thích mẫu thiết kế logo nào trong ba mẫu?",
+        "startMs": 240,
+        "endMs": 3984
+      },
+      "options": {
+        "A": {
+          "en": "They liked the minimalist blue version best.",
+          "vi": "Họ thích nhất phiên bản màu xanh dương tối giản.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4584,
+          "endMs": 8232
+        },
+        "B": {
+          "en": "Three graphic designers worked on it.",
+          "vi": "Ba nhà thiết kế đồ họa đã làm việc đó.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 8832,
+          "endMs": 11928
+        },
+        "C": {
+          "en": "We delivered the files on Monday.",
+          "vi": "Chúng tôi đã bàn giao file hôm thứ Hai.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 12528,
+          "endMs": 15576
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp số 'three' & 'design / designers'",
+        "trapAnalysis": "'Which of the three' -> chọn phiên bản cụ thể ('the minimalist blue version').",
+        "paraphrases": [
+          {
+            "audioPhrase": "prefer",
+            "answerPhrase": "liked ... best",
+            "meaningVi": "ưa thích nhất"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Chỉ rõ phương án khách hàng chọn.",
+          "B": "Sai bẫy lặp 'three' và 'design'.",
+          "C": "Sai: Trả lời thời gian bàn giao."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wd-2-v1",
+            "word": "minimalist",
+            "pos": "adj",
+            "ipaUK": "/ˈmɪnɪməlɪst/",
+            "ipaUS": "/ˈmɪnɪməlɪst/",
+            "meaning": "tối giản",
+            "exampleEn": "The brand adopted a minimalist packaging style this year.",
+            "exampleVi": "Thương hiệu đã áp dụng phong cách bao bì tối giản năm nay."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wd-2.mp3"
+    },
+    {
+      "id": "dp2-wd-3",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "How much — Hỏi phí nâng cấp gian hàng",
+      "questionLine": {
+        "id": "dp2-wd-3-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "How much does it cost to upgrade to a corner exhibition booth?",
+        "vi": "Nâng cấp lên gian hàng triển lãm góc tốn bao nhiêu tiền?",
+        "startMs": 240,
+        "endMs": 4320
+      },
+      "options": {
+        "A": {
+          "en": "Around four hundred dollars extra.",
+          "vi": "Thêm khoảng bốn trăm đô la.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4920,
+          "endMs": 7344
+        },
+        "B": {
+          "en": "Just around the corner from the lobby.",
+          "vi": "Ngay chỗ góc rẽ từ sảnh chính.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 7944,
+          "endMs": 10920
+        },
+        "C": {
+          "en": "The exhibition runs for three days.",
+          "vi": "Triển lãm diễn ra trong ba ngày.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 11520,
+          "endMs": 14832
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp từ 'corner' & 'exhibition'",
+        "trapAnalysis": "'How much' hỏi chi phí -> bắt con số tiền tệ ('four hundred dollars extra').",
+        "paraphrases": [
+          {
+            "audioPhrase": "cost to upgrade",
+            "answerPhrase": "four hundred dollars extra",
+            "meaningVi": "chi phí nâng cấp thêm"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Nêu chính xác khoản phí nâng cấp.",
+          "B": "Sai bẫy lặp 'corner' sang chỉ đường.",
+          "C": "Sai: Trả lời thời lượng."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wd-3-v1",
+            "word": "booth",
+            "pos": "n",
+            "ipaUK": "/buːð/",
+            "ipaUS": "/buːθ/",
+            "meaning": "gian hàng triển lãm",
+            "exampleEn": "Visitors stopped by our booth to test the new headset.",
+            "exampleVi": "Khách tham quan ghé gian hàng của ta dùng thử tai nghe mới."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wd-3.mp3"
+    },
+    {
+      "id": "dp2-wd-4",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "Why — Hỏi lý do đóng cửa bãi đỗ xe phía bắc",
+      "questionLine": {
+        "id": "dp2-wd-4-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Why is the north parking garage closed today?",
+        "vi": "Tại sao nhà để xe phía bắc hôm nay đóng cửa?",
+        "startMs": 240,
+        "endMs": 3408
+      },
+      "options": {
+        "A": {
+          "en": "Crews are repainting the lane markings.",
+          "vi": "Đội thi công đang sơn lại các vạch kẻ làn xe.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4008,
+          "endMs": 7224
+        },
+        "B": {
+          "en": "Close the door when you leave.",
+          "vi": "Đóng cửa lại khi bạn rời đi.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 7824,
+          "endMs": 10608
+        },
+        "C": {
+          "en": "Park near the south entrance.",
+          "vi": "Đỗ xe gần lối vào phía nam.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 11208,
+          "endMs": 14280
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'closed / close' & không dùng 'Because'",
+        "trapAnalysis": "Trả lời 'Why' trực tiếp bằng hành động đang diễn ra gây đóng cửa ('repainting the lane markings').",
+        "paraphrases": [
+          {
+            "audioPhrase": "garage closed",
+            "answerPhrase": "repainting the lane markings",
+            "meaningVi": "đóng cửa để sơn vạch kẻ"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Giải thích nguyên nhân đóng cửa nhà xe.",
+          "B": "Sai bẫy lặp 'close'.",
+          "C": "Sai: Chỉ là gợi ý chỗ đỗ khác, không giải thích 'Why'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wd-4-v1",
+            "word": "marking",
+            "pos": "n",
+            "ipaUK": "/ˈmɑːkɪŋ/",
+            "ipaUS": "/ˈmɑːrkɪŋ/",
+            "meaning": "vạch kẻ, dấu hiệu",
+            "exampleEn": "Fresh yellow markings clearly separate pedestrian walkways.",
+            "exampleVi": "Vạch kẻ vàng mới phân tách rõ lối đi cho người đi bộ."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wd-4.mp3"
+    },
+    {
+      "id": "dp2-wd-5",
+      "part": 2,
+      "questionType": "Wh-question",
+      "title": "How often — Hỏi tần suất kiểm kê kho",
+      "questionLine": {
+        "id": "dp2-wd-5-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "How often do we conduct a full inventory audit?",
+        "vi": "Bao lâu thì chúng ta tiến hành kiểm kê tồn kho toàn diện một lần?",
+        "startMs": 240,
+        "endMs": 3792
+      },
+      "options": {
+        "A": {
+          "en": "At the end of every quarter.",
+          "vi": "Vào cuối mỗi quý.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4392,
+          "endMs": 7272
+        },
+        "B": {
+          "en": "Yes, the audit went smoothly.",
+          "vi": "Vâng, cuộc kiểm kê diễn ra suôn sẻ.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 7872,
+          "endMs": 11064
+        },
+        "C": {
+          "en": "In the main warehouse downtown.",
+          "vi": "Tại kho chính ở trung tâm.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 11664,
+          "endMs": 14808
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy 'How often' cần cụm tần suất",
+        "trapAnalysis": "Cụm 'At the end of every quarter' (= quarterly) trả lời chính xác cho câu hỏi tần suất 'How often'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "how often",
+            "answerPhrase": "at the end of every quarter",
+            "meaningVi": "tần suất mỗi quý một lần"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Nêu tần suất định kỳ hàng quý.",
+          "B": "Sai: Trả lời Yes/No.",
+          "C": "Sai: Trả lời địa điểm."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-wd-5-v1",
+            "word": "inventory audit",
+            "pos": "phrase",
+            "ipaUK": "/ˈɪnvəntri ˈɔːdɪt/",
+            "ipaUS": "/ˈɪnvəntɔːri ˈɔːdɪt/",
+            "meaning": "kiểm kê hàng tồn kho",
+            "exampleEn": "Barcode scanners cut our inventory audit time in half.",
+            "exampleVi": "Máy quét mã vạch giúp giảm một nửa thời gian kiểm kê kho."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-wd-5.mp3"
+    }
+  ]
+}

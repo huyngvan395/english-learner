@@ -1,0 +1,542 @@
+{
+  "id": "drill-p7-double",
+  "part": 7,
+  "title": "Double Passage — Liên kết 2 văn bản",
+  "subtitle": "2 bộ bài đọc kép rèn kỹ năng tính ngày chính sách vé & đối chiếu bảng giá hợp đồng.",
+  "focusTag": "Double Passage",
+  "part7": [
+    {
+      "id": "dp7-db-1",
+      "title": "Double Passage — Chính sách vé hội nghị & Email yêu cầu đổi tên",
+      "passageCountType": "double",
+      "topic": "Double Passage — Liên kết chính sách & Email",
+      "passages": [
+        {
+          "id": "dp7-db-1-d1",
+          "tabLabel": "VB 1: Chính sách vé",
+          "genre": "Notice",
+          "title": "FinTech Asia Summit — Ticket Policy",
+          "paragraphs": [
+            {
+              "id": "dp7-db-1-d1-p1",
+              "sentences": [
+                {
+                  "id": "dp7-db-1-d1-s1",
+                  "en": "Full refunds are issued for cancellations requested at least 21 days before the October 25 summit.",
+                  "vi": "Hoàn tiền toàn bộ cho các yêu cầu hủy ít nhất 21 ngày trước hội nghị ngày 25/10."
+                },
+                {
+                  "id": "dp7-db-1-d1-s2",
+                  "en": "Between 20 and 7 days prior to the event, refunds are no longer available, but tickets may be transferred to a colleague at no cost.",
+                  "vi": "Từ 20 đến 7 ngày trước sự kiện, không còn hoàn tiền nhưng vé có thể chuyển tên sang đồng nghiệp hoàn toàn miễn phí."
+                },
+                {
+                  "id": "dp7-db-1-d1-s3",
+                  "en": "Transfers requested within 6 days of opening incur a $40 badge-reprinting fee.",
+                  "vi": "Chuyển nhượng yêu cầu trong vòng 6 ngày trước khai mạc chịu phí in lại thẻ 40 đô la."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dp7-db-1-d2",
+          "tabLabel": "VB 2: Email khách hàng",
+          "genre": "Email",
+          "title": "Ticket #FT-3082 — Name Change Request",
+          "headerMeta": [
+            {
+              "label": "From",
+              "value": "Kenji Sato"
+            },
+            {
+              "label": "Date",
+              "value": "October 12"
+            },
+            {
+              "label": "To",
+              "value": "registration@fintechasia.org"
+            }
+          ],
+          "paragraphs": [
+            {
+              "id": "dp7-db-1-d2-p1",
+              "sentences": [
+                {
+                  "id": "dp7-db-1-d2-s1",
+                  "en": "Unfortunately, an urgent client audit prevents me from attending the FinTech Asia Summit on October 25.",
+                  "vi": "Rất tiếc một đợt kiểm toán khách hàng khẩn khiến tôi không thể dự Hội nghị FinTech Asia ngày 25/10."
+                },
+                {
+                  "id": "dp7-db-1-d2-s2",
+                  "en": "Rather than letting my seat go unused, I would like to transfer Ticket #FT-3082 to my senior analyst, Rina Watanabe.",
+                  "vi": "Thay vì bỏ trống ghế, tôi muốn chuyển Vé #FT-3082 sang chuyên viên phân tích cấp cao của tôi, Rina Watanabe."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-db-1-q1",
+          "questionNumber": 1,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "How much will Kenji Sato have to pay to transfer his ticket?",
+          "options": {
+            "A": "$0",
+            "B": "$20",
+            "C": "$40",
+            "D": "$75"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Tính toán ngày liên kết 2 văn bản!",
+              "signal": "Sự kiện 25/10, email gửi ngày 12/10 -> cách 13 ngày! Tra VB1 s2: từ 20 đến 7 ngày trước sự kiện chuyển cho đồng nghiệp 'at no cost' ($0)!"
+            },
+            "translation": {
+              "questionVi": "Phí chuyển vé là bao nhiêu?",
+              "optionsVi": {
+                "A": "$0 (miễn phí)",
+                "B": "$20",
+                "C": "$40",
+                "D": "$75"
+              }
+            },
+            "proof": {
+              "explanation": "25/10 - 12/10 = 13 ngày -> nằm trong khung 7–20 ngày -> miễn phí ($0)!",
+              "evidenceQuote": "Between 20 and 7 days prior to the event ... transferred to a colleague at no cost",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-db-1-d1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 13 ngày trước sự kiện -> $0.",
+              "B": "Sai.",
+              "C": "Sai: Chỉ áp dụng nếu <= 6 ngày.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Double Passage tính ngày: Event Date - Email Date rồi tra bảng quy định",
+              "commonTrap": "Chọn nhầm $40 mà không tính khoảng cách 13 ngày!",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-db-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Why can Mr. Sato not attend the summit?",
+          "options": {
+            "A": "He fell ill.",
+            "B": "He has an urgent client audit.",
+            "C": "His flight was canceled.",
+            "D": "He changed employers."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết VB 2 (s1)",
+              "signal": "VB2 s1: 'an urgent client audit prevents me from attending'."
+            },
+            "translation": {
+              "questionVi": "Tại sao ông ấy không đi được?",
+              "optionsVi": {
+                "A": "Bị ốm",
+                "B": "Có đợt kiểm toán khách hàng khẩn",
+                "C": "Hủy chuyến bay",
+                "D": "Đổi công ty"
+              }
+            },
+            "proof": {
+              "explanation": "Lý do nêu rõ ngay câu 1 email.",
+              "evidenceQuote": "an urgent client audit prevents me from attending",
+              "evidencePassageIndex": 1,
+              "evidenceSentenceId": "dp7-db-1-d2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Đọc kỹ câu đầu email",
+              "commonTrap": "Suy đoán ngoài bài.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-db-1-q3",
+          "questionNumber": 3,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Who will attend the summit in Mr. Sato's place?",
+          "options": {
+            "A": "His branch director",
+            "B": "Rina Watanabe",
+            "C": "An external auditor",
+            "D": "No one"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết VB 2 (s2)",
+              "signal": "VB2 s2: 'transfer Ticket #FT-3082 to my senior analyst, Rina Watanabe'."
+            },
+            "translation": {
+              "questionVi": "Ai đi thay ông Sato?",
+              "optionsVi": {
+                "A": "Giám đốc chi nhánh",
+                "B": "Rina Watanabe",
+                "C": "Kiểm toán viên ngoài",
+                "D": "Không ai"
+              }
+            },
+            "proof": {
+              "explanation": "Chuyển vé cho chuyên viên Rina Watanabe.",
+              "evidenceQuote": "transfer Ticket #FT-3082 to my senior analyst, Rina Watanabe",
+              "evidencePassageIndex": 1,
+              "evidenceSentenceId": "dp7-db-1-d2-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Bắt chính xác tên riêng",
+              "commonTrap": "Nhầm vai trò.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-db-1-q4",
+          "questionNumber": 4,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "What is true about Kenji Sato's request on October 12?",
+          "options": {
+            "A": "He is still eligible for a full refund.",
+            "B": "He missed the refund deadline.",
+            "C": "He must pay a $40 reprinting fee.",
+            "D": "His ticket cannot be transferred."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Suy luận liên kết 2 văn bản",
+              "signal": "Hạn hoàn tiền đầy đủ là >= 21 ngày trước 25/10 (tức trước 4/10). Ngày 12/10 đã qua hạn hoàn tiền!"
+            },
+            "translation": {
+              "questionVi": "Điều nào đúng ngày 12/10?",
+              "optionsVi": {
+                "A": "Vẫn đủ điều kiện hoàn tiền đủ",
+                "B": "Đã lỡ hạn hoàn tiền",
+                "C": "Phải trả phí 40 đô",
+                "D": "Không chuyển tên được"
+              }
+            },
+            "proof": {
+              "explanation": "13 ngày < 21 ngày nên không còn hoàn tiền (VB1 s2).",
+              "evidenceQuote": "Between 20 and 7 days prior to the event, refunds are no longer available",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-db-1-d1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Kiểm tra mốc điều kiện của từng hạng mục",
+              "commonTrap": "Không đối chiếu mốc 21 ngày.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp7-db-2",
+      "title": "Double Passage — Báo giá dịch vụ dọn văn phòng & Email đặt lịch",
+      "passageCountType": "double",
+      "topic": "Double Passage — Bảng giá & Email thương mại",
+      "passages": [
+        {
+          "id": "dp7-db-2-d1",
+          "tabLabel": "VB 1: Bảng giá dịch vụ",
+          "genre": "Advertisement",
+          "title": "SparkClean Commercial Office Plans",
+          "tableData": {
+            "headers": [
+              "Plan",
+              "Visits / Week",
+              "Carpet Steam",
+              "Monthly Rate"
+            ],
+            "rows": [
+              {
+                "id": "dp7-db-2-r1",
+                "cells": [
+                  "Basic",
+                  "2 evenings",
+                  "Not included",
+                  "$650"
+                ]
+              },
+              {
+                "id": "dp7-db-2-r2",
+                "cells": [
+                  "Standard",
+                  "3 evenings",
+                  "Quarterly",
+                  "$920"
+                ]
+              },
+              {
+                "id": "dp7-db-2-r3",
+                "cells": [
+                  "Executive",
+                  "5 evenings",
+                  "Monthly",
+                  "$1,450"
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "id": "dp7-db-2-d1-p1",
+              "sentences": [
+                {
+                  "id": "dp7-db-2-d1-s1",
+                  "en": "All plans include eco-certified cleaning supplies. Sign a 12-month contract to receive 10 percent off monthly rates.",
+                  "vi": "Mọi gói đều bao gồm dung dịch tẩy rửa chứng nhận sinh thái. Ký hợp đồng 12 tháng được giảm 10% giá tháng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dp7-db-2-d2",
+          "tabLabel": "VB 2: Email đặt gói",
+          "genre": "Email",
+          "title": "Office Cleaning Contract Inquiry",
+          "headerMeta": [
+            {
+              "label": "From",
+              "value": "Nora Al-Mansoor, CrestLaw"
+            },
+            {
+              "label": "To",
+              "value": "sales@sparkclean.co"
+            }
+          ],
+          "paragraphs": [
+            {
+              "id": "dp7-db-2-d2-p1",
+              "sentences": [
+                {
+                  "id": "dp7-db-2-d2-s1",
+                  "en": "Our law office operates Monday through Friday and hosts frequent evening client consultations, so we need cleaning after business hours every single weekday.",
+                  "vi": "Văn phòng luật của chúng tôi hoạt động thứ Hai đến thứ Sáu và thường có buổi tư vấn khách hàng buổi tối, nên ta cần dọn dẹp sau giờ làm tất cả các ngày trong tuần."
+                },
+                {
+                  "id": "dp7-db-2-d2-s2",
+                  "en": "We are ready to commit to a full-year agreement starting June 1.",
+                  "vi": "Chúng tôi sẵn sàng cam kết hợp đồng trọn một năm bắt đầu từ ngày 1/6."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-db-2-q1",
+          "questionNumber": 5,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "Which SparkClean plan fits CrestLaw's schedule?",
+          "options": {
+            "A": "Basic",
+            "B": "Standard",
+            "C": "Executive",
+            "D": "None of the plans"
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "classification": {
+              "category": "Liên kết VB 2 ('every single weekday' = 5 ngày) + VB 1",
+              "signal": "Monday through Friday = 5 evenings/week -> chỉ gói Executive ($1,450) cung cấp 5 buổi tối/tuần!"
+            },
+            "translation": {
+              "questionVi": "Gói nào phù hợp?",
+              "optionsVi": {
+                "A": "Basic (2 buổi)",
+                "B": "Standard (3 buổi)",
+                "C": "Executive (5 buổi)",
+                "D": "Không gói nào"
+              }
+            },
+            "proof": {
+              "explanation": "Khớp 'every single weekday' = '5 evenings'.",
+              "evidenceQuote": "we need cleaning after business hours every single weekday",
+              "evidencePassageIndex": 1,
+              "evidenceSentenceId": "dp7-db-2-d2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Sai.",
+              "C": "Đúng.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Quy đổi cụm từ chỉ tần suất (every weekday = 5 days/week)",
+              "commonTrap": "Không đối chiếu bảng số buổi.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-db-2-q2",
+          "questionNumber": 6,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "How often will CrestLaw's carpets be steam-cleaned?",
+          "options": {
+            "A": "Never",
+            "B": "Once a month",
+            "C": "Once a quarter",
+            "D": "Once a year"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Liên kết gói Executive -> cột Carpet Steam ở VB 1",
+              "signal": "Gói Executive đi kèm Carpet Steam = Monthly (= once a month)!"
+            },
+            "translation": {
+              "questionVi": "Bao lâu giặt thảm một lần?",
+              "optionsVi": {
+                "A": "Không bao giờ",
+                "B": "Mỗi tháng một lần",
+                "C": "Mỗi quý một lần",
+                "D": "Mỗi năm một lần"
+              }
+            },
+            "proof": {
+              "explanation": "Gói Executive bao gồm giặt thảm hàng tháng (Monthly).",
+              "evidenceQuote": "All plans include eco-certified cleaning supplies",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-db-2-d1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: Executive = Monthly.",
+              "C": "Sai: Là của gói Standard.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Sau khi chốt đúng gói ở câu trước, tra đúng hàng tương ứng",
+              "commonTrap": "Nhìn nhầm hàng Standard.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-db-2-q3",
+          "questionNumber": 7,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "What discount will CrestLaw qualify for?",
+          "options": {
+            "A": "Free first month",
+            "B": "10 percent off monthly rates",
+            "C": "25 percent off carpet care",
+            "D": "Free weekend visits"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Liên kết VB 2 ('full-year agreement') + VB 1 ('12-month contract -> 10% off')",
+              "signal": "full-year = 12-month -> giảm 10% giá tháng!"
+            },
+            "translation": {
+              "questionVi": "Hưởng ưu đãi gì?",
+              "optionsVi": {
+                "A": "Miễn tháng đầu",
+                "B": "Giảm 10% phí hàng tháng",
+                "C": "Giảm 25% giặt thảm",
+                "D": "Miễn cuối tuần"
+              }
+            },
+            "proof": {
+              "explanation": "VB2 s2 cam kết hợp đồng 1 năm (12 tháng) -> hưởng ưu đãi 10% tại VB1 s1.",
+              "evidenceQuote": "Sign a 12-month contract to receive 10 percent off monthly rates",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-db-2-d1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Paraphrase 'full-year agreement' = '12-month contract'",
+              "commonTrap": "Bỏ sót câu ưu đãi dưới bảng VB1.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-db-2-q4",
+          "questionNumber": 8,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "What is included with every SparkClean plan?",
+          "options": {
+            "A": "Window tinting",
+            "B": "Eco-certified cleaning products",
+            "C": "Monthly carpet steam",
+            "D": "Weekend daytime shifts"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết VB 1 (s1)",
+              "signal": "VB1 s1: 'All plans include eco-certified cleaning supplies'."
+            },
+            "translation": {
+              "questionVi": "Mọi gói đều gồm gì?",
+              "optionsVi": {
+                "A": "Dán kính",
+                "B": "Sản phẩm vệ sinh chứng nhận sinh thái",
+                "C": "Giặt thảm hàng tháng",
+                "D": "Ca ngày cuối tuần"
+              }
+            },
+            "proof": {
+              "explanation": "supplies = products.",
+              "evidenceQuote": "All plans include eco-certified cleaning supplies",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-db-2-d1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai: Chỉ gói Executive.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Phân biệt quyền lợi chung ('All plans') vs quyền lợi riêng từng gói",
+              "commonTrap": "Nhầm quyền lợi gói Executive thành mọi gói.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

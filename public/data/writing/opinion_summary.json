@@ -1,0 +1,158 @@
+[
+  {
+    "id": "wr-op-01",
+    "mode": "opinion",
+    "difficulty": "Trung bình",
+    "title": "Q8 Opinion: Làm việc Kết hợp (Hybrid) vs. Làm việc Toàn thời gian tại Văn phòng",
+    "category": "Quan điểm công sở (Q8)",
+    "sourceLanguage": "en",
+    "passage": "Some companies believe employees are most productive and collaborative when everyone works in the office five days a week. Others argue that offering a hybrid schedule—allowing staff to work from home two or three days per week—leads to higher job satisfaction and better performance.\n\nWhich work arrangement do you think is better for modern businesses? Support your opinion with specific reasons and examples.",
+    "instructions": "Viết một đoạn/bài nghị luận ngắn bằng tiếng Anh (140–220 từ) nêu rõ quan điểm cá nhân, đưa ra ít nhất 2 luận điểm có ví dụ thực tế và kết luận rõ ràng.",
+    "checklist": [
+      "Nêu rõ lập trường ngay câu mở đầu (ủng hộ Hybrid hay làm toàn thời gian tại văn phòng)",
+      "Phát triển ít nhất 2 luận điểm rõ ràng kèm lý do/ví dụ thực tế (VD: tiết kiệm thời gian đi lại, tập trung sâu, gắn kết nhóm)",
+      "Sử dụng từ nối lập luận mạch lạc (First, Moreover, However, Consequently, In conclusion)",
+      "Có câu phản biện nhẹ (acknowledging the opposing view) hoặc kết luận tóm gọn thuyết phục"
+    ],
+    "vocabHints": [
+      { "phrase": "strike a balance between focus and collaboration", "pos": "phrase", "meaningVi": "cân bằng giữa sự tập trung và phối hợp nhóm" },
+      { "phrase": "eliminate daily commuting stress", "pos": "phrase", "meaningVi": "loại bỏ căng thẳng đi lại hàng ngày" },
+      { "phrase": "boost employee retention and morale", "pos": "phrase", "meaningVi": "tăng giữ chân nhân sự và tinh thần làm việc" },
+      { "phrase": "in-person brainstorming sessions", "pos": "n", "meaningVi": "các buổi động não trực tiếp" },
+      { "phrase": "clear performance metrics", "pos": "n", "meaningVi": "chỉ số đánh giá hiệu suất rõ ràng" },
+      { "phrase": "outweigh the minor drawbacks", "pos": "phrase", "meaningVi": "vượt trội so với những hạn chế nhỏ" }
+    ],
+    "recommendedWords": { "min": 140, "max": 220 },
+    "recommendedMinutes": 20
+  },
+  {
+    "id": "wr-op-02",
+    "mode": "opinion",
+    "difficulty": "Trung bình",
+    "title": "Q8 Opinion: Doanh nghiệp nên Đào tạo Nhân sự Nội bộ hay Tuyển Chuyên gia Bên ngoài?",
+    "category": "Nhân sự & Chiến lược (Q8)",
+    "sourceLanguage": "en",
+    "passage": "When a company needs advanced technical or leadership skills, management faces a choice: invest time and money in training current employees to fill the role, or recruit experienced specialists from outside the organization.\n\nWhich approach do you think brings greater long-term benefits to a company? Explain your reasoning with specific examples.",
+    "instructions": "Viết bài nêu quan điểm bằng tiếng Anh (140–220 từ), lập luận chặt chẽ giữa lợi ích dài hạn của đào tạo nội bộ và tuyển mới bên ngoài.",
+    "checklist": [
+      "Đưa ra quan điểm rõ ràng về chiến lược nhân sự hiệu quả hơn về dài hạn",
+      "Trình bày ít nhất 2 lý do thuyết phục (VD: hiểu văn hóa công ty, tăng lòng trung thành vs tư duy mới mẻ, rút ngắn thời gian triển khai)",
+      "Đưa ra ít nhất 1 ví dụ minh họa cụ thể trong bối cảnh doanh nghiệp",
+      "Dùng đa dạng cấu trúc câu (mệnh đề quan hệ, câu điều kiện hoặc nhượng bộ 'Although / While')"
+    ],
+    "vocabHints": [
+      { "phrase": "promote from within", "pos": "phrase", "meaningVi": "đề bạt / phát triển từ nhân sự nội bộ" },
+      { "phrase": "foster strong employee loyalty", "pos": "phrase", "meaningVi": "nuôi dưỡng lòng trung thành bền chặt" },
+      { "phrase": "familiar with internal workflows and culture", "pos": "phrase", "meaningVi": "am hiểu quy trình và văn hóa nội bộ" },
+      { "phrase": "bring fresh industry perspectives", "pos": "phrase", "meaningVi": "mang lại góc nhìn mới mẻ từ thị trường" },
+      { "phrase": "shorten the onboarding curve", "pos": "phrase", "meaningVi": "rút ngắn thời gian làm quen công việc" },
+      { "phrase": "cost-effective in the long run", "pos": "phrase", "meaningVi": "hiệu quả chi phí về lâu dài" }
+    ],
+    "recommendedWords": { "min": 140, "max": 220 },
+    "recommendedMinutes": 20
+  },
+  {
+    "id": "wr-op-03",
+    "mode": "opinion",
+    "difficulty": "Nâng cao",
+    "title": "Q8 Opinion: Tác động của Trí tuệ Nhân tạo (AI) đối với Kỹ năng Nhân viên Văn phòng",
+    "category": "Công nghệ & Nghề nghiệp (Q8)",
+    "sourceLanguage": "en",
+    "passage": "As generative AI tools rapidly automate drafting emails, summarizing reports, and analyzing spreadsheets, some observers worry that office workers will become overly dependent on technology and lose critical thinking skills. Others believe AI frees employees to focus on more creative and strategic tasks.\n\nDo you think workplace AI tools do more to strengthen or weaken employees' professional skills? Support your view with specific reasons.",
+    "instructions": "Viết bài luận ngắn trình độ B2–C1 bằng tiếng Anh (150–230 từ), phân tích cả cơ hội lẫn rủi ro và bảo vệ vững chắc lập trường của bạn.",
+    "checklist": [
+      "Nêu luận điểm chính rõ ràng (AI giúp củng cố hay làm suy yếu năng lực chuyên môn)",
+      "Phân tích 2 khía cạnh cụ thể (VD: tự động hóa việc lặp lại giải phóng tư duy chiến lược vs nguy cơ ỷ lại nếu thiếu kiểm chứng)",
+      "Đưa ra đề xuất sử dụng AI có trách nhiệm để tối đa hóa hiệu quả",
+      "Sử dụng từ vựng học thuật/công sở chính xác và tránh lặp từ 'AI' quá nhiều bằng các từ thay thế (automated tools, intelligent systems)"
+    ],
+    "vocabHints": [
+      { "phrase": "offload repetitive administrative tasks", "pos": "phrase", "meaningVi": "gỡ bỏ các tác vụ hành chính lặp lại" },
+      { "phrase": "overreliance on automated tools", "pos": "n", "meaningVi": "sự phụ thuộc quá mức vào công cụ tự động" },
+      { "phrase": "critical judgment and verification", "pos": "n", "meaningVi": "tư duy phản biện và năng lực kiểm chứng" },
+      { "phrase": "strategic problem-solving", "pos": "n", "meaningVi": "giải quyết vấn đề mang tính chiến lược" },
+      { "phrase": "serve as a productivity multiplier", "pos": "phrase", "meaningVi": "đóng vai trò đòn bẩy nhân năng suất" },
+      { "phrase": "clear workplace guidelines", "pos": "n", "meaningVi": "hướng dẫn sử dụng rõ ràng tại công sở" }
+    ],
+    "recommendedWords": { "min": 150, "max": 230 },
+    "recommendedMinutes": 20
+  },
+  {
+    "id": "wr-op-04",
+    "mode": "opinion",
+    "difficulty": "Trung bình",
+    "title": "Tóm tắt & Paraphrase: Thử nghiệm Tuần làm việc 4 ngày tại Châu Âu",
+    "category": "Tóm tắt & Paraphrase",
+    "sourceLanguage": "en",
+    "passage": "Over the past year, sixty mid-sized companies in the United Kingdom participated in a six-month trial of a four-day workweek with no reduction in employee pay. Instead of squeezing forty hours into four exhausting days, teams redesigned their schedules by cutting unnecessary status meetings, batching email replies, and automating routine reporting.\n\nBy the end of the pilot, participating firms reported an average revenue increase of 4 percent alongside a 65 percent drop in employee sick days. Ninety-two percent of the companies decided to continue the shorter workweek permanently, though managers noted that customer-facing retail and logistics teams required staggered shifts to maintain five-day service coverage.",
+    "instructions": "Viết một đoạn tóm tắt bằng tiếng Anh (80–120 từ) truyền tải đủ 3 ý cốt lõi của bài đọc trên bằng ngôn từ PARAPHRASE của riêng bạn (không chép nguyên câu từ đoạn gốc).",
+    "checklist": [
+      "Tóm tắt bối cảnh thử nghiệm (60 doanh nghiệp Anh thử tuần làm việc 4 ngày giữ nguyên lương bằng cách cắt họp thừa & tối ưu quy trình)",
+      "Nêu được kết quả tích cực chính (doanh thu tăng nhẹ 4%, giảm 65% ngày nghỉ ốm, đa số công ty giữ lâu dài)",
+      "Nhắc tới thách thức/lưu ý quan trọng (bộ phận dịch vụ khách hàng & kho vận cần chia ca xen kẽ để trực đủ 5 ngày)",
+      "Diễn đạt lại bằng từ đồng nghĩa và cấu trúc mới thay vì sao chép nguyên văn đoạn gốc"
+    ],
+    "vocabHints": [
+      { "phrase": "without cutting wages / maintaining full pay", "pos": "phrase", "meaningVi": "giữ nguyên mức lương" },
+      { "phrase": "streamline daily workflows", "pos": "phrase", "meaningVi": "tinh gọn quy trình làm việc hàng ngày" },
+      { "phrase": "absenteeism / sick leave declined sharply", "pos": "phrase", "meaningVi": "tình trạng nghỉ ốm giảm mạnh" },
+      { "phrase": "adopt the policy permanently", "pos": "phrase", "meaningVi": "áp dụng chính sách lâu dài" },
+      { "phrase": "rotating / staggered schedules", "pos": "n", "meaningVi": "lịch trực xoay ca / xen kẽ" },
+      { "phrase": "uninterrupted client service", "pos": "n", "meaningVi": "dịch vụ khách hàng không gián đoạn" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-op-05",
+    "mode": "opinion",
+    "difficulty": "Trung bình",
+    "title": "Tóm tắt & Paraphrase: Chuỗi Siêu thị Chuyển đổi sang Bao bì Phân hủy Sinh học",
+    "category": "Tóm tắt & Paraphrase",
+    "sourceLanguage": "en",
+    "passage": "GreenLeaf Markets, a regional grocery chain with forty-two stores, recently finished phasing out single-use plastic bags in favor of durable cornstarch-based alternatives that break down within ninety days. Getting there took eighteen months of testing because early biodegradable prototypes tore easily under heavy produce and cost nearly twice as much as conventional plastic.\n\nManagement ultimately overcame both obstacles by signing a direct bulk supply contract with a local agricultural cooperative, keeping packaging costs inside its annual budget. Customer surveys indicate that 84 percent of shoppers view the brand more favorably since the switch, prompting rival chains to explore similar environmental initiatives.",
+    "instructions": "Đọc đoạn văn trên và viết đoạn tóm tắt tiếng Anh (80–120 từ) bằng cách diễn đạt lại (paraphrase) toàn bộ vấn đề, giải pháp và tác động thị trường.",
+    "checklist": [
+      "Tóm tắt hành động chuyển đổi của GreenLeaf Markets (bỏ túi nhựa dùng một lần sang túi tinh bột ngô phân hủy trong 90 ngày)",
+      "Nêu 2 khó khăn ban đầu trong 18 tháng thử nghiệm (dễ rách khi đựng đồ nặng & chi phí cao gấp đôi)",
+      "Nêu cách giải quyết (ký hợp đồng mua sỉ trực tiếp với hợp tác xã nông nghiệp địa phương để giữ đúng ngân sách)",
+      "Nêu kết quả thương hiệu (84% khách hàng đánh giá tích cực hơn, thúc đẩy đối thủ làm theo) bằng ngôn từ paraphrase"
+    ],
+    "vocabHints": [
+      { "phrase": "replace disposable plastic with plant-based bags", "pos": "phrase", "meaningVi": "thay túi nhựa dùng một lần bằng túi thực vật" },
+      { "phrase": "initial durability and cost hurdles", "pos": "n", "meaningVi": "rào cản độ bền và chi phí ban đầu" },
+      { "phrase": "partner directly with a regional farming group", "pos": "phrase", "meaningVi": "hợp tác trực tiếp với nhóm nông nghiệp địa phương" },
+      { "phrase": "stay within planned expenditure", "pos": "phrase", "meaningVi": "giữ chi phí trong kế hoạch" },
+      { "phrase": "boost brand perception / customer loyalty", "pos": "phrase", "meaningVi": "nâng cao hình ảnh thương hiệu" },
+      { "phrase": "encourage competitors to follow suit", "pos": "phrase", "meaningVi": "thúc đẩy đối thủ làm theo" }
+    ],
+    "recommendedWords": { "min": 80, "max": 125 },
+    "recommendedMinutes": 15
+  },
+  {
+    "id": "wr-op-06",
+    "mode": "opinion",
+    "difficulty": "Nâng cao",
+    "title": "Tóm tắt & Phản biện: Giao tiếp Đa thế hệ trong Doanh nghiệp Hiện đại",
+    "category": "Tóm tắt & Quan điểm",
+    "sourceLanguage": "en",
+    "passage": "Today's corporate offices frequently bring together four generations of employees, each shaped by distinct communication habits. While senior executives often prefer structured emails or brief phone calls for important decisions, younger hires tend to favor instant messaging platforms that allow rapid, informal exchanges.\n\nWhen teams fail to establish shared communication norms, minor misunderstandings can quickly escalate into missed deadlines or workplace friction. Leading HR researchers therefore recommend creating a concise 'team communication charter' specifying which channels should be used for urgent alerts, formal approvals, and casual brainstorming.",
+    "instructions": "Viết đoạn tiếng Anh (110–160 từ) gồm 2 phần ngắn: (1) Tóm tắt ngắn gọn vấn đề và giải pháp trong đoạn văn bằng ngôn từ paraphrase; (2) Nêu quan điểm cá nhân của bạn xem quy ước giao tiếp nhóm có hiệu quả thực tế không và vì sao.",
+    "checklist": [
+      "Tóm tắt bằng ngôn từ paraphrase sự khác biệt thói quen giao tiếp giữa các thế hệ (email/điện thoại vs chat nhanh) và hệ quả khi thiếu quy tắc chung",
+      "Tóm tắt giải pháp 'team communication charter' (quy định rõ kênh nào cho việc khẩn, duyệt chính thức hay thảo luận)",
+      "Đưa ra quan điểm cá nhân rõ ràng kèm lý do hoặc ví dụ cụ thể về hiệu quả thực tế của giải pháp này",
+      "Liên kết mạch lạc giữa phần tóm tắt và phần nêu quan điểm"
+    ],
+    "vocabHints": [
+      { "phrase": "multigenerational workforce", "pos": "n", "meaningVi": "lực lượng lao động đa thế hệ" },
+      { "phrase": "divergent communication preferences", "pos": "n", "meaningVi": "thói quen giao tiếp khác biệt" },
+      { "phrase": "workplace friction / avoidable misunderstandings", "pos": "n", "meaningVi": "ma sát công sở / hiểu lầm đáng tiếc" },
+      { "phrase": "shared communication guidelines", "pos": "n", "meaningVi": "quy ước giao tiếp dùng chung" },
+      { "phrase": "designate specific channels by urgency", "pos": "phrase", "meaningVi": "phân định kênh cụ thể theo mức độ khẩn cấp" },
+      { "phrase": "in my view, such a framework is highly practical because...", "pos": "phrase", "meaningVi": "theo quan điểm của tôi, khung quy ước này rất thực tế vì..." }
+    ],
+    "recommendedWords": { "min": 110, "max": 165 },
+    "recommendedMinutes": 18
+  }
+]

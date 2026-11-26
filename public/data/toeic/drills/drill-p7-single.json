@@ -1,0 +1,596 @@
+{
+  "id": "drill-p7-single",
+  "part": 7,
+  "title": "Single Passage — Email, Text Chain & Notice",
+  "subtitle": "3 bài đọc đơn chuẩn ETS gồm Email khuyến mãi, Chuỗi chat kỹ thuật và Thông báo tủ nhận hàng.",
+  "focusTag": "Single Passage",
+  "part7": [
+    {
+      "id": "dp7-sg-1",
+      "title": "Single Email — Khuyến mãi gói bảo dưỡng xe đạp điện",
+      "passageCountType": "single",
+      "topic": "Single: Email & Quảng cáo",
+      "passages": [
+        {
+          "id": "dp7-sg-1-d1",
+          "tabLabel": "Email ưu đãi",
+          "genre": "Email",
+          "title": "Spring Tune-Up Special at VoltCycle",
+          "headerMeta": [
+            {
+              "label": "From",
+              "value": "VoltCycle Service Shop"
+            },
+            {
+              "label": "Subject",
+              "value": "25% Off Spring E-Bike Tune-Ups"
+            }
+          ],
+          "paragraphs": [
+            {
+              "id": "dp7-sg-1-p1",
+              "sentences": [
+                {
+                  "id": "dp7-sg-1-s1",
+                  "en": "Get your electric bicycle ready for warmer rides! Book a complete brake, chain, and battery diagnostic before April 15 and save 25 percent.",
+                  "vi": "Chuẩn bị xe đạp điện sẵn sàng cho những chuyến đi ấm áp! Đặt gói kiểm tra phanh, xích và pin toàn diện trước 15/4 để tiết kiệm 25%."
+                },
+                {
+                  "id": "dp7-sg-1-s2",
+                  "en": "Drop-off service is completed within three hours, and customers who bought their bikes from VoltCycle receive free loaner bicycles while waiting.",
+                  "vi": "Dịch vụ gửi xe hoàn tất trong vòng ba giờ, và khách từng mua xe tại VoltCycle được mượn xe đạp tạm miễn phí trong lúc chờ."
+                },
+                {
+                  "id": "dp7-sg-1-s3",
+                  "en": "Reserve online at voltcycle.net—walk-in slots are not eligible for the 25-percent discount.",
+                  "vi": "Đặt lịch trực tuyến tại voltcycle.net—khách đến trực tiếp không đặt trước không áp dụng ưu đãi giảm 25%."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-sg-1-q1",
+          "questionNumber": 1,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "How can customers qualify for the 25-percent discount?",
+          "options": {
+            "A": "By visiting without an appointment",
+            "B": "By booking online before April 15",
+            "C": "By buying a new battery",
+            "D": "By referring a friend"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết điều kiện khuyến mãi",
+              "signal": "Kết hợp s1 ('before April 15') + s3 ('Reserve online... walk-in slots are not eligible')."
+            },
+            "translation": {
+              "questionVi": "Cách hưởng ưu đãi 25%?",
+              "optionsVi": {
+                "A": "Đến trực tiếp không hẹn",
+                "B": "Đặt trực tuyến trước 15/4",
+                "C": "Mua pin mới",
+                "D": "Giới thiệu bạn"
+              }
+            },
+            "proof": {
+              "explanation": "Phải đặt lịch online trước 15/4; khách walk-in không được giảm.",
+              "evidenceQuote": "Reserve online at voltcycle.net—walk-in slots are not eligible for the 25-percent discount",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-1-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: walk-in bị loại trừ.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Đọc kỹ câu ngoại lệ ở cuối email",
+              "commonTrap": "Bỏ sót câu cuối loại trừ khách walk-in.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Who is eligible for a free loaner bicycle?",
+          "options": {
+            "A": "Anyone visiting on a weekday",
+            "B": "Customers who purchased their bikes at VoltCycle",
+            "C": "First-time visitors",
+            "D": "Online newsletter subscribers"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết đối tượng ưu đãi",
+              "signal": "Câu s2: 'customers who bought their bikes from VoltCycle'."
+            },
+            "translation": {
+              "questionVi": "Ai được mượn xe tạm miễn phí?",
+              "optionsVi": {
+                "A": "Khách ngày thường",
+                "B": "Khách đã mua xe tại VoltCycle",
+                "C": "Khách lần đầu",
+                "D": "Người nhận bản tin"
+              }
+            },
+            "proof": {
+              "explanation": "Chỉ khách từng mua xe của chính VoltCycle.",
+              "evidenceQuote": "customers who bought their bikes from VoltCycle receive free loaner bicycles",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng: bought = purchased.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Paraphrase 'bought' -> 'purchased'",
+              "commonTrap": "Đọc lướt tưởng ai cũng được mượn.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-1-q3",
+          "questionNumber": 3,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "How long does the drop-off tune-up take?",
+          "options": {
+            "A": "One hour",
+            "B": "Three hours",
+            "C": "One full day",
+            "D": "Two days"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết thời lượng",
+              "signal": "Câu s2: 'completed within three hours'."
+            },
+            "translation": {
+              "questionVi": "Mất bao lâu?",
+              "optionsVi": {
+                "A": "1 giờ",
+                "B": "3 giờ",
+                "C": "1 ngày",
+                "D": "2 ngày"
+              }
+            },
+            "proof": {
+              "explanation": "Hoàn tất trong vòng 3 giờ.",
+              "evidenceQuote": "Drop-off service is completed within three hours",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Bắt đúng con số thời gian",
+              "commonTrap": "Nhầm số liệu.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp7-sg-2",
+      "title": "Single Text Chain — Nhóm kỹ thuật xử lý lỗi âm thanh trước hội nghị",
+      "passageCountType": "single",
+      "topic": "Single: Chuỗi tin nhắn (Text Message Chain)",
+      "passages": [
+        {
+          "id": "dp7-sg-2-d1",
+          "tabLabel": "Tin nhắn nhóm",
+          "genre": "Text Message Chain",
+          "title": "Main Hall AV Setup",
+          "chatMessages": [
+            {
+              "id": "dp7-sg-2-m1",
+              "sender": "Devon",
+              "time": "8:05 A.M.",
+              "align": "left",
+              "en": "Morning! I tested the wireless lapel mics in Main Hall—Channel 1 sounds crisp, but Channel 2 has static.",
+              "vi": "Chào buổi sáng! Tôi đã test micro cài áo không dây ở Sảnh chính—Kênh 1 rất rõ, nhưng Kênh 2 bị rè."
+            },
+            {
+              "id": "dp7-sg-2-m2",
+              "sender": "Hana",
+              "time": "8:07 A.M.",
+              "align": "right",
+              "en": "That happened last week when the battery pack was low. Did you swap in fresh AA cells?",
+              "vi": "Tuần trước cũng bị thế khi pin yếu. Bạn đã thay pin AA mới chưa?"
+            },
+            {
+              "id": "dp7-sg-2-m3",
+              "sender": "Devon",
+              "time": "8:09 A.M.",
+              "align": "left",
+              "en": "Yep, brand-new batteries—still static. Could be interference from the lobby router.",
+              "vi": "Rồi, pin mới tinh luôn—vẫn rè. Có thể do nhiễu sóng từ bộ phát Wi-Fi ở sảnh."
+            },
+            {
+              "id": "dp7-sg-2-m4",
+              "sender": "Hana",
+              "time": "8:11 A.M.",
+              "align": "right",
+              "en": "Let's switch Channel 2 to our wired backup podium mic for the 9:00 keynote so we don't risk any dropouts.",
+              "vi": "Chuyển Kênh 2 sang micro bục có dây dự phòng cho bài phát biểu chính lúc 9:00 đi để tránh rủi ro mất tiếng nhé."
+            }
+          ],
+          "paragraphs": []
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-sg-2-q1",
+          "questionNumber": 4,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "What problem did Devon discover?",
+          "options": {
+            "A": "The keynote speaker is late.",
+            "B": "One wireless microphone has audio static.",
+            "C": "The projector bulb burned out.",
+            "D": "The hall doors are locked."
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết sự cố trong chat",
+              "signal": "Tin nhắn m1: 'Channel 2 has static'."
+            },
+            "translation": {
+              "questionVi": "Devon phát hiện lỗi gì?",
+              "optionsVi": {
+                "A": "Diễn giả trễ",
+                "B": "Một micro không dây bị rè nhiễu âm thanh",
+                "C": "Bóng đèn máy chiếu cháy",
+                "D": "Cửa sảnh khóa"
+              }
+            },
+            "proof": {
+              "explanation": "Kênh 2 của micro không dây bị rè (static).",
+              "evidenceQuote": "Channel 2 has static",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-2-m1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Đọc kỹ tin mở đầu nêu vấn đề",
+              "commonTrap": "Bỏ qua từ 'static'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "What did Devon already try before messaging Hana at 8:09?",
+          "options": {
+            "A": "Moving the lobby router",
+            "B": "Installing fresh batteries",
+            "C": "Calling the manufacturer",
+            "D": "Restarting the sound board"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết kiểm tra loại trừ",
+              "signal": "Tin nhắn m3: 'Yep, brand-new batteries—still static'."
+            },
+            "translation": {
+              "questionVi": "Devon đã thử cách nào?",
+              "optionsVi": {
+                "A": "Di chuyển bộ phát Wi-Fi",
+                "B": "Thay pin mới",
+                "C": "Gọi nhà sản xuất",
+                "D": "Khởi động lại bàn trộn"
+              }
+            },
+            "proof": {
+              "explanation": "Devon xác nhận đã thay pin mới tinh nhưng vẫn bị rè.",
+              "evidenceQuote": "Yep, brand-new batteries—still static",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-2-m3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: Mới chỉ nghi ngờ do router.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Phân biệt việc ĐÃ thử vs giả thuyết",
+              "commonTrap": "Nhầm suy đoán 'interference from router'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-2-q3",
+          "questionNumber": 6,
+          "questionType": "Suy luận (Inference)",
+          "prompt": "What does Hana propose for the 9:00 A.M. keynote?",
+          "options": {
+            "A": "Postponing the keynote by thirty minutes",
+            "B": "Using a wired backup microphone",
+            "C": "Turning off the lobby Wi-Fi",
+            "D": "Sharing Channel 1 between speakers"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Giải pháp cuối chuỗi tin nhắn",
+              "signal": "Tin nhắn m4: 'switch Channel 2 to our wired backup podium mic'."
+            },
+            "translation": {
+              "questionVi": "Hana đề xuất gì?",
+              "optionsVi": {
+                "A": "Hoãn bài phát biểu 30 phút",
+                "B": "Dùng micro có dây dự phòng",
+                "C": "Tắt Wi-Fi sảnh",
+                "D": "Dùng chung Kênh 1"
+              }
+            },
+            "proof": {
+              "explanation": "Chuyển sang micro có dây tại bục để an toàn tuyệt đối.",
+              "evidenceQuote": "switch Channel 2 to our wired backup podium mic",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-2-m4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Đọc tin chốt quyết định ở cuối chuỗi",
+              "commonTrap": "Nhầm giữa giả thuyết và quyết định.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp7-sg-3",
+      "title": "Single Notice — Thông báo thay đổi quy trình nhận bưu kiện tòa nhà",
+      "passageCountType": "single",
+      "topic": "Single: Thông báo (Notice)",
+      "passages": [
+        {
+          "id": "dp7-sg-3-d1",
+          "tabLabel": "Thông báo tòa nhà",
+          "genre": "Notice",
+          "title": "Smart Parcel Lockers Installed in Lobby",
+          "paragraphs": [
+            {
+              "id": "dp7-sg-3-p1",
+              "sentences": [
+                {
+                  "id": "dp7-sg-3-s1",
+                  "en": "To eliminate package backlogs at the concierge desk, Ridgeview Towers has installed 60 smart parcel lockers beside the mailroom.",
+                  "vi": "Để xóa bỏ tình trạng ùn ứ bưu kiện tại quầy lễ tân, Tòa nhà Ridgeview đã lắp 60 tủ giao nhận thông minh cạnh phòng thư."
+                },
+                {
+                  "id": "dp7-sg-3-s2",
+                  "en": "When a courier deposits a parcel, residents automatically receive a six-digit pickup code by email and SMS.",
+                  "vi": "Khi shipper bỏ bưu kiện vào tủ, cư dân tự động nhận mã lấy hàng sáu chữ số qua email và SMS."
+                },
+                {
+                  "id": "dp7-sg-3-s3",
+                  "en": "Parcels must be collected within 72 hours; oversized crates that do not fit in lockers will still be held at the concierge desk.",
+                  "vi": "Bưu kiện phải được lấy trong vòng 72 giờ; các thùng quá khổ không vừa tủ vẫn được giữ tại quầy lễ tân."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp7-sg-3-q1",
+          "questionNumber": 7,
+          "questionType": "Ý chính (Main Idea)",
+          "prompt": "Why were the smart lockers installed?",
+          "options": {
+            "A": "To reduce package congestion at the front desk",
+            "B": "To generate extra rental income",
+            "C": "To store resident bicycles",
+            "D": "To replace the building elevator"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Ý chính mục đích",
+              "signal": "Câu s1: 'To eliminate package backlogs at the concierge desk'."
+            },
+            "translation": {
+              "questionVi": "Tại sao lắp tủ thông minh?",
+              "optionsVi": {
+                "A": "Giảm ùn ứ bưu kiện ở quầy lễ tân",
+                "B": "Tăng thu nhập thuê",
+                "C": "Cất xe đạp cư dân",
+                "D": "Thay thang máy"
+              }
+            },
+            "proof": {
+              "explanation": "eliminate backlogs = reduce congestion.",
+              "evidenceQuote": "To eliminate package backlogs at the concierge desk",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-3-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Paraphrase 'eliminate backlogs' -> 'reduce congestion'",
+              "commonTrap": "Không biết từ 'backlog' (tồn đọng).",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-3-q2",
+          "questionNumber": 8,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "How do residents open their assigned locker?",
+          "options": {
+            "A": "With a physical brass key",
+            "B": "With a six-digit code sent electronically",
+            "C": "By showing a photo ID to a guard",
+            "D": "By paying a small coin fee"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết quy trình",
+              "signal": "Câu s2: 'six-digit pickup code by email and SMS'."
+            },
+            "translation": {
+              "questionVi": "Mở tủ bằng cách nào?",
+              "optionsVi": {
+                "A": "Chìa khóa đồng",
+                "B": "Mã 6 chữ số gửi điện tử",
+                "C": "Trình CCCD cho bảo vệ",
+                "D": "Bỏ xu"
+              }
+            },
+            "proof": {
+              "explanation": "Gửi mã 6 số tự động qua email và SMS.",
+              "evidenceQuote": "receive a six-digit pickup code by email and SMS",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-3-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Paraphrase 'by email and SMS' -> 'sent electronically'",
+              "commonTrap": "Không nhận ra từ khái quát 'electronically'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-3-q3",
+          "questionNumber": 9,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Where should residents collect oversized crates?",
+          "options": {
+            "A": "Inside the mailroom",
+            "B": "At the concierge desk",
+            "C": "At the courier's depot",
+            "D": "In the underground garage"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết ngoại lệ",
+              "signal": "Câu s3: 'oversized crates ... will still be held at the concierge desk'."
+            },
+            "translation": {
+              "questionVi": "Lấy thùng quá khổ ở đâu?",
+              "optionsVi": {
+                "A": "Trong phòng thư",
+                "B": "Tại quầy lễ tân",
+                "C": "Tại kho shipper",
+                "D": "Dưới hầm xe"
+              }
+            },
+            "proof": {
+              "explanation": "Thùng quá khổ vẫn do quầy lễ tân giữ.",
+              "evidenceQuote": "oversized crates that do not fit in lockers will still be held at the concierge desk",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-3-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Chú ý vế sau dấu chấm phẩy nêu ngoại lệ",
+              "commonTrap": "Đọc nhanh nhầm sang mailroom.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp7-sg-3-q4",
+          "questionNumber": 10,
+          "questionType": "Thông tin chi tiết (Detail)",
+          "prompt": "Within how many hours must locker parcels be picked up?",
+          "options": {
+            "A": "24 hours",
+            "B": "48 hours",
+            "C": "72 hours",
+            "D": "96 hours"
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "classification": {
+              "category": "Chi tiết con số thời hạn",
+              "signal": "Câu s3: 'collected within 72 hours'."
+            },
+            "translation": {
+              "questionVi": "Phải lấy hàng trong bao nhiêu giờ?",
+              "optionsVi": {
+                "A": "24 giờ",
+                "B": "48 giờ",
+                "C": "72 giờ",
+                "D": "96 giờ"
+              }
+            },
+            "proof": {
+              "explanation": "Quy định rõ 72 giờ.",
+              "evidenceQuote": "Parcels must be collected within 72 hours",
+              "evidencePassageIndex": 0,
+              "evidenceSentenceId": "dp7-sg-3-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai.",
+              "B": "Sai.",
+              "C": "Đúng.",
+              "D": "Sai."
+            },
+            "keyTakeaways": {
+              "formula": "Bắt đúng con số 72 hours",
+              "commonTrap": "Nhầm với 60 tủ.",
+              "paraphrases": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

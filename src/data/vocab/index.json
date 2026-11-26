@@ -1,0 +1,65 @@
+{
+  "totalWords": 384,
+  "decks": [
+    {
+      "id": "toeic-600",
+      "file": "toeic-600.json",
+      "count": 84
+    },
+    {
+      "id": "toeic-ets",
+      "file": "toeic-ets.json",
+      "count": 65
+    },
+    {
+      "id": "toeic-idioms",
+      "file": "toeic-idioms.json",
+      "count": 24
+    },
+    {
+      "id": "common-1000",
+      "file": "common-1000.json",
+      "count": 30
+    },
+    {
+      "id": "communication-daily",
+      "file": "communication-daily.json",
+      "count": 15
+    },
+    {
+      "id": "oxford-3000",
+      "file": "oxford-3000.json",
+      "count": 65
+    },
+    {
+      "id": "oxford-5000",
+      "file": "oxford-5000.json",
+      "count": 35
+    },
+    {
+      "id": "ielts-core",
+      "file": "ielts-core.json",
+      "count": 14
+    },
+    {
+      "id": "thpt-qg",
+      "file": "thpt-qg.json",
+      "count": 12
+    },
+    {
+      "id": "sat-core",
+      "file": "sat-core.json",
+      "count": 10
+    },
+    {
+      "id": "toefl-essential",
+      "file": "toefl-essential.json",
+      "count": 10
+    },
+    {
+      "id": "topic-business",
+      "file": "topic-business.json",
+      "count": 20
+    }
+  ]
+}

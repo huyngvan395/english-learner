@@ -1,0 +1,1116 @@
+{
+  "id": "communication-daily",
+  "title": "Từ Vựng Tiếng Anh Giao Tiếp",
+  "subtitle": "Phản xạ nhanh trong giao tiếp công sở, đặt lịch hẹn, điện thoại & trò chuyện tự nhiên.",
+  "category": "common",
+  "levelLabel": "A2 – B1",
+  "tags": [
+    "#a2",
+    "#b1",
+    "#communication",
+    "#common"
+  ],
+  "coverTheme": "communication",
+  "accentGradient": "from-sky-500 via-blue-500 to-indigo-600",
+  "badgeText": "GIAO TIẾP",
+  "words": [
+    {
+      "id": "comm-1",
+      "deckId": "communication-daily",
+      "word": "appreciate",
+      "pos": "v",
+      "ipaUK": "/əˈpriː.ʃi.eɪt/",
+      "ipaUS": "/əˈpriː.ʃi.eɪt/",
+      "meaning": "trân trọng, cảm kích, đánh giá cao",
+      "examples": [
+        {
+          "en": "I truly appreciate your quick turnaround on this proposal.",
+          "vi": "Tôi thực sự cảm kích tiến độ xử lý nhanh của bạn cho đề xuất này."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "appreciation",
+          "pos": "n",
+          "meaning": "lòng biết ơn"
+        }
+      ],
+      "synonyms": [
+        "value",
+        "be grateful for"
+      ],
+      "antonyms": [
+        "disregard"
+      ],
+      "collocations": [
+        {
+          "phrase": "greatly appreciate",
+          "meaning": "vô cùng cảm kích"
+        }
+      ],
+      "definitionEn": "To value (also similar to be grateful for) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động trân trọng, cảm kích, đánh giá cao.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-2",
+      "deckId": "communication-daily",
+      "word": "clarify",
+      "pos": "v",
+      "ipaUK": "/ˈklær.ə.faɪ/",
+      "ipaUS": "/ˈkler.ə.faɪ/",
+      "meaning": "làm rõ, giải thích cho dễ hiểu",
+      "examples": [
+        {
+          "en": "Could you clarify the shipping cutoff time for Friday orders?",
+          "vi": "Bạn có thể làm rõ mốc chốt đơn giao hàng ngày thứ Sáu không?"
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "clarification",
+          "pos": "n",
+          "meaning": "sự làm rõ"
+        }
+      ],
+      "synonyms": [
+        "explain",
+        "clear up"
+      ],
+      "antonyms": [
+        "confuse"
+      ],
+      "collocations": [
+        {
+          "phrase": "ask for clarification",
+          "meaning": "yêu cầu làm rõ"
+        }
+      ],
+      "definitionEn": "To explain (also similar to clear up) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động làm rõ, giải thích cho dễ hiểu.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-3",
+      "deckId": "communication-daily",
+      "word": "apologize",
+      "pos": "v",
+      "ipaUK": "/əˈpɒləd͡ʒaɪz/",
+      "ipaUS": "/əˈpɒləd͡ʒaɪz/",
+      "meaning": "xin lỗi",
+      "examples": [
+        {
+          "en": "We sincerely apologize for the delay in answering your ticket.",
+          "vi": "Chúng tôi chân thành xin lỗi vì chậm phản hồi yêu cầu của bạn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "apology",
+          "pos": "n",
+          "meaning": "lời xin lỗi"
+        }
+      ],
+      "synonyms": [
+        "say sorry",
+        "express regret"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "apologize for the inconvenience",
+          "meaning": "xin lỗi vì sự bất tiện"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/apologize-us.mp3",
+      "definitionEn": "To say sorry (also similar to express regret) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động xin lỗi.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-4",
+      "deckId": "communication-daily",
+      "word": "postpone",
+      "pos": "v",
+      "ipaUK": "/pəʊstˈpəʊn/",
+      "ipaUS": "/poʊstˈpoʊn/",
+      "meaning": "hoãn lại sang thời điểm sau",
+      "examples": [
+        {
+          "en": "Let’s postpone the review until Ms. Lin returns from Osaka.",
+          "vi": "Hãy hoãn buổi rà soát đến khi cô Lin trở về từ Osaka."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "postponement",
+          "pos": "n",
+          "meaning": "sự trì hoãn"
+        }
+      ],
+      "synonyms": [
+        "put off",
+        "defer",
+        "delay"
+      ],
+      "antonyms": [
+        "bring forward"
+      ],
+      "collocations": [
+        {
+          "phrase": "postpone until further notice",
+          "meaning": "hoãn đến khi có thông báo mới"
+        }
+      ],
+      "definitionEn": "To put off (also similar to defer, delay) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hoãn lại sang thời điểm sau.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-5",
+      "deckId": "communication-daily",
+      "word": "recommend",
+      "pos": "v",
+      "ipaUK": "/ˌrek.əˈmend/",
+      "ipaUS": "/ˌrek.əˈmend/",
+      "meaning": "giới thiệu, khuyên dùng",
+      "examples": [
+        {
+          "en": "Can you recommend a reliable caterer near the convention hall?",
+          "vi": "Bạn có thể giới thiệu bên tiệc uy tín gần trung tâm hội nghị không?"
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "recommendation",
+          "pos": "n",
+          "meaning": "lời khuyến nghị"
+        }
+      ],
+      "synonyms": [
+        "endorse",
+        "suggest",
+        "advise"
+      ],
+      "antonyms": [
+        "discourage"
+      ],
+      "collocations": [
+        {
+          "phrase": "highly recommend",
+          "meaning": "rất khuyên dùng"
+        }
+      ],
+      "definitionEn": "To endorse (also similar to suggest, advise) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động giới thiệu, khuyên dùng.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-6",
+      "deckId": "communication-daily",
+      "word": "hesitate",
+      "pos": "v",
+      "ipaUK": "/ˈhez.ɪ.teɪt/",
+      "ipaUS": "/ˈhez.ə.teɪt/",
+      "meaning": "do dự, ngần ngại",
+      "examples": [
+        {
+          "en": "Please do not hesitate to call if you need assistance.",
+          "vi": "Xin đừng ngần ngại gọi nếu bạn cần hỗ trợ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "hesitation",
+          "pos": "n",
+          "meaning": "sự do dự"
+        }
+      ],
+      "synonyms": [
+        "pause",
+        "waver"
+      ],
+      "antonyms": [
+        "proceed"
+      ],
+      "collocations": [
+        {
+          "phrase": "do not hesitate to",
+          "meaning": "đừng ngần ngại làm gì"
+        }
+      ],
+      "definitionEn": "To pause (also similar to waver) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động do dự, ngần ngại.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-7",
+      "deckId": "communication-daily",
+      "word": "transfer",
+      "pos": "v",
+      "ipaUK": "/trænsˈfɜːr/",
+      "ipaUS": "/trænsˈfɝː/",
+      "meaning": "chuyển máy (điện thoại); chuyển công tác",
+      "examples": [
+        {
+          "en": "One moment—I’ll transfer your call to the billing desk.",
+          "vi": "Chờ một chút—tôi sẽ chuyển cuộc gọi của bạn sang bộ phận thanh toán."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "transferable",
+          "pos": "adj",
+          "meaning": "có thể chuyển nhượng"
+        }
+      ],
+      "synonyms": [
+        "forward",
+        "relocate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "transfer a call",
+          "meaning": "chuyển cuộc gọi"
+        }
+      ],
+      "definitionEn": "To forward (also similar to relocate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động chuyển máy (điện thoại); chuyển công tác.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-8",
+      "deckId": "communication-daily",
+      "word": "inquire",
+      "pos": "v",
+      "ipaUK": "/ɪnˈkwaɪər/",
+      "ipaUS": "/ɪnˈkwaɪr/",
+      "meaning": "hỏi thăm thông tin",
+      "examples": [
+        {
+          "en": "I am writing to inquire about corporate membership rates.",
+          "vi": "Tôi viết thư hỏi về mức phí thành viên doanh nghiệp."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "inquiry",
+          "pos": "n",
+          "meaning": "yêu cầu tìm hiểu"
+        }
+      ],
+      "synonyms": [
+        "ask",
+        "query",
+        "check"
+      ],
+      "antonyms": [
+        "reply"
+      ],
+      "collocations": [
+        {
+          "phrase": "inquire about",
+          "meaning": "hỏi thông tin về"
+        }
+      ],
+      "definitionEn": "To ask (also similar to query, check) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hỏi thăm thông tin.",
+      "topicId": "comm-polite"
+    },
+    {
+      "id": "comm-9",
+      "deckId": "communication-daily",
+      "word": "feedback",
+      "pos": "n",
+      "ipaUK": "/ˈfiːd.bæk/",
+      "ipaUS": "/ˈfiːd.bæk/",
+      "meaning": "ý kiến phản hồi, góp ý",
+      "examples": [
+        {
+          "en": "We welcome your honest feedback on our checkout redesign.",
+          "vi": "Chúng tôi hoan nghênh góp ý thẳng thắn của bạn về giao diện thanh toán mới."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "comments",
+        "input",
+        "review"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "constructive feedback",
+          "meaning": "phản hồi mang tính xây dựng"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to comments, input, review.",
+      "definitionVi": "Danh từ dùng để chỉ ý kiến phản hồi, góp ý.",
+      "topicId": "comm-phone"
+    },
+    {
+      "id": "comm-10",
+      "deckId": "communication-daily",
+      "word": "reschedule",
+      "pos": "v",
+      "ipaUK": "/ˌriːˈʃed.juːl/",
+      "ipaUS": "/ˌriːˈskedʒ.uːl/",
+      "meaning": "dời lịch, sắp xếp lại lịch hẹn",
+      "examples": [
+        {
+          "en": "May we reschedule our dental checkup to Thursday afternoon?",
+          "vi": "Chúng tôi có thể dời lịch khám răng sang chiều thứ Năm không?"
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "rearrange",
+        "move the date"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "reschedule an appointment",
+          "meaning": "đổi lịch hẹn"
+        }
+      ],
+      "definitionEn": "To rearrange (also similar to move the date) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động dời lịch, sắp xếp lại lịch hẹn.",
+      "topicId": "comm-phone"
+    },
+    {
+      "id": "comm-11",
+      "deckId": "communication-daily",
+      "word": "confirm",
+      "pos": "v",
+      "ipaUK": "/kənˈfɜːm/",
+      "ipaUS": "/kənˈfɝːm/",
+      "meaning": "xác nhận lại",
+      "examples": [
+        {
+          "en": "I’m calling to confirm our dinner table for six at 7 P.M.",
+          "vi": "Tôi gọi để xác nhận bàn ăn tối cho sáu người lúc 7 giờ tối."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "confirmation",
+          "pos": "n",
+          "meaning": "sự xác nhận"
+        }
+      ],
+      "synonyms": [
+        "verify"
+      ],
+      "antonyms": [
+        "cancel"
+      ],
+      "collocations": [
+        {
+          "phrase": "confirm attendance",
+          "meaning": "xác nhận tham dự"
+        }
+      ],
+      "definitionEn": "To verify (also similar to verify) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động xác nhận lại.",
+      "topicId": "comm-phone"
+    },
+    {
+      "id": "comm-12",
+      "deckId": "communication-daily",
+      "word": "inform",
+      "pos": "v",
+      "ipaUK": "/ɪnˈfɔːm/",
+      "ipaUS": "/ɪnˈfɔːrm/",
+      "meaning": "thông báo, báo tin cho ai",
+      "examples": [
+        {
+          "en": "Please inform the driver if your flight lands early.",
+          "vi": "Vui lòng báo cho tài xế nếu chuyến bay của bạn hạ cánh sớm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "information",
+          "pos": "n",
+          "meaning": "thông tin"
+        },
+        {
+          "word": "informative",
+          "pos": "adj",
+          "meaning": "nhiều thông tin hữu ích"
+        }
+      ],
+      "synonyms": [
+        "notify",
+        "tell",
+        "update"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "keep sb informed",
+          "meaning": "liên tục cập nhật cho ai"
+        }
+      ],
+      "definitionEn": "To notify (also similar to tell, update) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động thông báo, báo tin cho ai.",
+      "topicId": "comm-phone"
+    },
+    {
+      "id": "comm-13",
+      "deckId": "communication-daily",
+      "word": "remind",
+      "pos": "v",
+      "ipaUK": "/rɪˈmaɪnd/",
+      "ipaUS": "/rɪˈmaɪnd/",
+      "meaning": "nhắc nhở ai nhớ làm gì",
+      "examples": [
+        {
+          "en": "Please remind all team members to submit timesheets by Friday.",
+          "vi": "Vui lòng nhắc nhở tất cả thành viên nộp bảng chấm công trước thứ Sáu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "reminder",
+          "pos": "n",
+          "meaning": "lời nhắc"
+        }
+      ],
+      "synonyms": [
+        "prompt",
+        "jog memory"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "friendly reminder",
+          "meaning": "lời nhắc nhở nhẹ nhàng"
+        }
+      ],
+      "definitionEn": "To prompt (also similar to jog memory) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nhắc nhở ai nhớ làm gì.",
+      "topicId": "comm-phone"
+    },
+    {
+      "id": "comm-14",
+      "deckId": "communication-daily",
+      "word": "regarding",
+      "pos": "phrase",
+      "ipaUK": "/rɪˈɡɑː.dɪŋ/",
+      "ipaUS": "/rɪˈɡɑːr.dɪŋ/",
+      "meaning": "về việc, liên quan đến (rất hay mở đầu email/điện thoại)",
+      "examples": [
+        {
+          "en": "I am calling regarding the invoice we received yesterday.",
+          "vi": "Tôi gọi về hóa đơn mà chúng tôi nhận được hôm qua."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "concerning",
+        "about",
+        "with respect to"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "regarding your inquiry",
+          "meaning": "liên quan đến câu hỏi của bạn"
+        }
+      ],
+      "definitionEn": "A common English expression meaning 'concerning, about, with respect to'.",
+      "definitionVi": "Cụm từ cố định mang nghĩa về việc, liên quan đến (rất hay mở đầu email/điện thoại).",
+      "topicId": "comm-phone"
+    },
+    {
+      "id": "comm-15",
+      "deckId": "communication-daily",
+      "word": "reach",
+      "pos": "v",
+      "ipaUK": "/riːtʃ/",
+      "ipaUS": "/riːtʃ/",
+      "meaning": "liên lạc được với ai; đạt tới",
+      "examples": [
+        {
+          "en": "You can reach me at extension 204 until five o’clock.",
+          "vi": "Bạn có thể liên lạc với tôi qua máy lẻ 204 cho đến năm giờ."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "contact",
+        "get hold of"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "reach sb by phone",
+          "meaning": "liên hệ ai qua điện thoại"
+        }
+      ],
+      "definitionEn": "To contact (also similar to get hold of) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động liên lạc được với ai; đạt tới.",
+      "topicId": "comm-phone"
+    }
+  ],
+  "topics": [
+    {
+      "id": "comm-polite",
+      "name": "Giao tiếp lịch sự & Xử lý tình huống",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "comm-1",
+          "deckId": "communication-daily",
+          "word": "appreciate",
+          "pos": "v",
+          "ipaUK": "/əˈpriː.ʃi.eɪt/",
+          "ipaUS": "/əˈpriː.ʃi.eɪt/",
+          "meaning": "trân trọng, cảm kích, đánh giá cao",
+          "examples": [
+            {
+              "en": "I truly appreciate your quick turnaround on this proposal.",
+              "vi": "Tôi thực sự cảm kích tiến độ xử lý nhanh của bạn cho đề xuất này."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "appreciation",
+              "pos": "n",
+              "meaning": "lòng biết ơn"
+            }
+          ],
+          "synonyms": [
+            "value",
+            "be grateful for"
+          ],
+          "antonyms": [
+            "disregard"
+          ],
+          "collocations": [
+            {
+              "phrase": "greatly appreciate",
+              "meaning": "vô cùng cảm kích"
+            }
+          ],
+          "definitionEn": "To value (also similar to be grateful for) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động trân trọng, cảm kích, đánh giá cao.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-2",
+          "deckId": "communication-daily",
+          "word": "clarify",
+          "pos": "v",
+          "ipaUK": "/ˈklær.ə.faɪ/",
+          "ipaUS": "/ˈkler.ə.faɪ/",
+          "meaning": "làm rõ, giải thích cho dễ hiểu",
+          "examples": [
+            {
+              "en": "Could you clarify the shipping cutoff time for Friday orders?",
+              "vi": "Bạn có thể làm rõ mốc chốt đơn giao hàng ngày thứ Sáu không?"
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "clarification",
+              "pos": "n",
+              "meaning": "sự làm rõ"
+            }
+          ],
+          "synonyms": [
+            "explain",
+            "clear up"
+          ],
+          "antonyms": [
+            "confuse"
+          ],
+          "collocations": [
+            {
+              "phrase": "ask for clarification",
+              "meaning": "yêu cầu làm rõ"
+            }
+          ],
+          "definitionEn": "To explain (also similar to clear up) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động làm rõ, giải thích cho dễ hiểu.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-3",
+          "deckId": "communication-daily",
+          "word": "apologize",
+          "pos": "v",
+          "ipaUK": "/əˈpɒləd͡ʒaɪz/",
+          "ipaUS": "/əˈpɒləd͡ʒaɪz/",
+          "meaning": "xin lỗi",
+          "examples": [
+            {
+              "en": "We sincerely apologize for the delay in answering your ticket.",
+              "vi": "Chúng tôi chân thành xin lỗi vì chậm phản hồi yêu cầu của bạn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "apology",
+              "pos": "n",
+              "meaning": "lời xin lỗi"
+            }
+          ],
+          "synonyms": [
+            "say sorry",
+            "express regret"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "apologize for the inconvenience",
+              "meaning": "xin lỗi vì sự bất tiện"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/apologize-us.mp3",
+          "definitionEn": "To say sorry (also similar to express regret) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động xin lỗi.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-4",
+          "deckId": "communication-daily",
+          "word": "postpone",
+          "pos": "v",
+          "ipaUK": "/pəʊstˈpəʊn/",
+          "ipaUS": "/poʊstˈpoʊn/",
+          "meaning": "hoãn lại sang thời điểm sau",
+          "examples": [
+            {
+              "en": "Let’s postpone the review until Ms. Lin returns from Osaka.",
+              "vi": "Hãy hoãn buổi rà soát đến khi cô Lin trở về từ Osaka."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "postponement",
+              "pos": "n",
+              "meaning": "sự trì hoãn"
+            }
+          ],
+          "synonyms": [
+            "put off",
+            "defer",
+            "delay"
+          ],
+          "antonyms": [
+            "bring forward"
+          ],
+          "collocations": [
+            {
+              "phrase": "postpone until further notice",
+              "meaning": "hoãn đến khi có thông báo mới"
+            }
+          ],
+          "definitionEn": "To put off (also similar to defer, delay) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hoãn lại sang thời điểm sau.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-5",
+          "deckId": "communication-daily",
+          "word": "recommend",
+          "pos": "v",
+          "ipaUK": "/ˌrek.əˈmend/",
+          "ipaUS": "/ˌrek.əˈmend/",
+          "meaning": "giới thiệu, khuyên dùng",
+          "examples": [
+            {
+              "en": "Can you recommend a reliable caterer near the convention hall?",
+              "vi": "Bạn có thể giới thiệu bên tiệc uy tín gần trung tâm hội nghị không?"
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "recommendation",
+              "pos": "n",
+              "meaning": "lời khuyến nghị"
+            }
+          ],
+          "synonyms": [
+            "endorse",
+            "suggest",
+            "advise"
+          ],
+          "antonyms": [
+            "discourage"
+          ],
+          "collocations": [
+            {
+              "phrase": "highly recommend",
+              "meaning": "rất khuyên dùng"
+            }
+          ],
+          "definitionEn": "To endorse (also similar to suggest, advise) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động giới thiệu, khuyên dùng.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-6",
+          "deckId": "communication-daily",
+          "word": "hesitate",
+          "pos": "v",
+          "ipaUK": "/ˈhez.ɪ.teɪt/",
+          "ipaUS": "/ˈhez.ə.teɪt/",
+          "meaning": "do dự, ngần ngại",
+          "examples": [
+            {
+              "en": "Please do not hesitate to call if you need assistance.",
+              "vi": "Xin đừng ngần ngại gọi nếu bạn cần hỗ trợ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "hesitation",
+              "pos": "n",
+              "meaning": "sự do dự"
+            }
+          ],
+          "synonyms": [
+            "pause",
+            "waver"
+          ],
+          "antonyms": [
+            "proceed"
+          ],
+          "collocations": [
+            {
+              "phrase": "do not hesitate to",
+              "meaning": "đừng ngần ngại làm gì"
+            }
+          ],
+          "definitionEn": "To pause (also similar to waver) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động do dự, ngần ngại.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-7",
+          "deckId": "communication-daily",
+          "word": "transfer",
+          "pos": "v",
+          "ipaUK": "/trænsˈfɜːr/",
+          "ipaUS": "/trænsˈfɝː/",
+          "meaning": "chuyển máy (điện thoại); chuyển công tác",
+          "examples": [
+            {
+              "en": "One moment—I’ll transfer your call to the billing desk.",
+              "vi": "Chờ một chút—tôi sẽ chuyển cuộc gọi của bạn sang bộ phận thanh toán."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "transferable",
+              "pos": "adj",
+              "meaning": "có thể chuyển nhượng"
+            }
+          ],
+          "synonyms": [
+            "forward",
+            "relocate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "transfer a call",
+              "meaning": "chuyển cuộc gọi"
+            }
+          ],
+          "definitionEn": "To forward (also similar to relocate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động chuyển máy (điện thoại); chuyển công tác.",
+          "topicId": "comm-polite"
+        },
+        {
+          "id": "comm-8",
+          "deckId": "communication-daily",
+          "word": "inquire",
+          "pos": "v",
+          "ipaUK": "/ɪnˈkwaɪər/",
+          "ipaUS": "/ɪnˈkwaɪr/",
+          "meaning": "hỏi thăm thông tin",
+          "examples": [
+            {
+              "en": "I am writing to inquire about corporate membership rates.",
+              "vi": "Tôi viết thư hỏi về mức phí thành viên doanh nghiệp."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "inquiry",
+              "pos": "n",
+              "meaning": "yêu cầu tìm hiểu"
+            }
+          ],
+          "synonyms": [
+            "ask",
+            "query",
+            "check"
+          ],
+          "antonyms": [
+            "reply"
+          ],
+          "collocations": [
+            {
+              "phrase": "inquire about",
+              "meaning": "hỏi thông tin về"
+            }
+          ],
+          "definitionEn": "To ask (also similar to query, check) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hỏi thăm thông tin.",
+          "topicId": "comm-polite"
+        }
+      ]
+    },
+    {
+      "id": "comm-phone",
+      "name": "Điện thoại, Email & Lịch hẹn",
+      "icon": "schedule",
+      "words": [
+        {
+          "id": "comm-9",
+          "deckId": "communication-daily",
+          "word": "feedback",
+          "pos": "n",
+          "ipaUK": "/ˈfiːd.bæk/",
+          "ipaUS": "/ˈfiːd.bæk/",
+          "meaning": "ý kiến phản hồi, góp ý",
+          "examples": [
+            {
+              "en": "We welcome your honest feedback on our checkout redesign.",
+              "vi": "Chúng tôi hoan nghênh góp ý thẳng thắn của bạn về giao diện thanh toán mới."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "comments",
+            "input",
+            "review"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "constructive feedback",
+              "meaning": "phản hồi mang tính xây dựng"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to comments, input, review.",
+          "definitionVi": "Danh từ dùng để chỉ ý kiến phản hồi, góp ý.",
+          "topicId": "comm-phone"
+        },
+        {
+          "id": "comm-10",
+          "deckId": "communication-daily",
+          "word": "reschedule",
+          "pos": "v",
+          "ipaUK": "/ˌriːˈʃed.juːl/",
+          "ipaUS": "/ˌriːˈskedʒ.uːl/",
+          "meaning": "dời lịch, sắp xếp lại lịch hẹn",
+          "examples": [
+            {
+              "en": "May we reschedule our dental checkup to Thursday afternoon?",
+              "vi": "Chúng tôi có thể dời lịch khám răng sang chiều thứ Năm không?"
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "rearrange",
+            "move the date"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "reschedule an appointment",
+              "meaning": "đổi lịch hẹn"
+            }
+          ],
+          "definitionEn": "To rearrange (also similar to move the date) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động dời lịch, sắp xếp lại lịch hẹn.",
+          "topicId": "comm-phone"
+        },
+        {
+          "id": "comm-11",
+          "deckId": "communication-daily",
+          "word": "confirm",
+          "pos": "v",
+          "ipaUK": "/kənˈfɜːm/",
+          "ipaUS": "/kənˈfɝːm/",
+          "meaning": "xác nhận lại",
+          "examples": [
+            {
+              "en": "I’m calling to confirm our dinner table for six at 7 P.M.",
+              "vi": "Tôi gọi để xác nhận bàn ăn tối cho sáu người lúc 7 giờ tối."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "confirmation",
+              "pos": "n",
+              "meaning": "sự xác nhận"
+            }
+          ],
+          "synonyms": [
+            "verify"
+          ],
+          "antonyms": [
+            "cancel"
+          ],
+          "collocations": [
+            {
+              "phrase": "confirm attendance",
+              "meaning": "xác nhận tham dự"
+            }
+          ],
+          "definitionEn": "To verify (also similar to verify) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động xác nhận lại.",
+          "topicId": "comm-phone"
+        },
+        {
+          "id": "comm-12",
+          "deckId": "communication-daily",
+          "word": "inform",
+          "pos": "v",
+          "ipaUK": "/ɪnˈfɔːm/",
+          "ipaUS": "/ɪnˈfɔːrm/",
+          "meaning": "thông báo, báo tin cho ai",
+          "examples": [
+            {
+              "en": "Please inform the driver if your flight lands early.",
+              "vi": "Vui lòng báo cho tài xế nếu chuyến bay của bạn hạ cánh sớm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "information",
+              "pos": "n",
+              "meaning": "thông tin"
+            },
+            {
+              "word": "informative",
+              "pos": "adj",
+              "meaning": "nhiều thông tin hữu ích"
+            }
+          ],
+          "synonyms": [
+            "notify",
+            "tell",
+            "update"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "keep sb informed",
+              "meaning": "liên tục cập nhật cho ai"
+            }
+          ],
+          "definitionEn": "To notify (also similar to tell, update) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động thông báo, báo tin cho ai.",
+          "topicId": "comm-phone"
+        },
+        {
+          "id": "comm-13",
+          "deckId": "communication-daily",
+          "word": "remind",
+          "pos": "v",
+          "ipaUK": "/rɪˈmaɪnd/",
+          "ipaUS": "/rɪˈmaɪnd/",
+          "meaning": "nhắc nhở ai nhớ làm gì",
+          "examples": [
+            {
+              "en": "Please remind all team members to submit timesheets by Friday.",
+              "vi": "Vui lòng nhắc nhở tất cả thành viên nộp bảng chấm công trước thứ Sáu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "reminder",
+              "pos": "n",
+              "meaning": "lời nhắc"
+            }
+          ],
+          "synonyms": [
+            "prompt",
+            "jog memory"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "friendly reminder",
+              "meaning": "lời nhắc nhở nhẹ nhàng"
+            }
+          ],
+          "definitionEn": "To prompt (also similar to jog memory) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nhắc nhở ai nhớ làm gì.",
+          "topicId": "comm-phone"
+        },
+        {
+          "id": "comm-14",
+          "deckId": "communication-daily",
+          "word": "regarding",
+          "pos": "phrase",
+          "ipaUK": "/rɪˈɡɑː.dɪŋ/",
+          "ipaUS": "/rɪˈɡɑːr.dɪŋ/",
+          "meaning": "về việc, liên quan đến (rất hay mở đầu email/điện thoại)",
+          "examples": [
+            {
+              "en": "I am calling regarding the invoice we received yesterday.",
+              "vi": "Tôi gọi về hóa đơn mà chúng tôi nhận được hôm qua."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "concerning",
+            "about",
+            "with respect to"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "regarding your inquiry",
+              "meaning": "liên quan đến câu hỏi của bạn"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'concerning, about, with respect to'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa về việc, liên quan đến (rất hay mở đầu email/điện thoại).",
+          "topicId": "comm-phone"
+        },
+        {
+          "id": "comm-15",
+          "deckId": "communication-daily",
+          "word": "reach",
+          "pos": "v",
+          "ipaUK": "/riːtʃ/",
+          "ipaUS": "/riːtʃ/",
+          "meaning": "liên lạc được với ai; đạt tới",
+          "examples": [
+            {
+              "en": "You can reach me at extension 204 until five o’clock.",
+              "vi": "Bạn có thể liên lạc với tôi qua máy lẻ 204 cho đến năm giờ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "contact",
+            "get hold of"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "reach sb by phone",
+              "meaning": "liên hệ ai qua điện thoại"
+            }
+          ],
+          "definitionEn": "To contact (also similar to get hold of) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động liên lạc được với ai; đạt tới.",
+          "topicId": "comm-phone"
+        }
+      ]
+    }
+  ]
+}

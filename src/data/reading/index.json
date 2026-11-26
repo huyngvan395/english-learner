@@ -1,0 +1,17 @@
+{
+  "testId": "ets-reading-test-1",
+  "title": "Bộ đề mẫu số 1 — TOEIC Reading chuẩn ETS",
+  "counts": {
+    "part5": 30,
+    "part6Passages": 4,
+    "part6Questions": 16,
+    "part7Sets": 5,
+    "part7Questions": 23,
+    "totalQuestions": 69
+  },
+  "files": {
+    "part5": "test1_part5.json",
+    "part6": "test1_part6.json",
+    "part7": "test1_part7.json"
+  }
+}

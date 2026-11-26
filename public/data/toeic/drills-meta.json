@@ -1,0 +1,392 @@
+[
+  {
+    "id": "drill-p1-single",
+    "part": 1,
+    "title": "Tả 1 người — Hành động & Tư thế",
+    "subtitle": "Luyện nghe chuẩn động từ V-ing & tư thế người tại văn phòng, nhà bếp.",
+    "focusTag": "Single Person",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 5,
+    "questionCount": 3
+  },
+  {
+    "id": "drill-p1-multiple",
+    "part": 1,
+    "title": "Tả nhiều người — Tương tác công sở",
+    "subtitle": "Phân biệt nhóm người họp hành, thảo luận và hành động bẫy.",
+    "focusTag": "Multiple People",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 5,
+    "questionCount": 3
+  },
+  {
+    "id": "drill-p1-objects",
+    "part": 1,
+    "title": "Tả vật & Khung cảnh (Không người)",
+    "subtitle": "Làm chủ từ vựng trạng thái tĩnh: unoccupied, lined up, display racks.",
+    "focusTag": "Objects & Scenes",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 5,
+    "questionCount": 3
+  },
+  {
+    "id": "drill-p1-passive",
+    "part": 1,
+    "title": "Bẫy Hiện tại tiếp diễn bị động (is being + V3)",
+    "subtitle": "Trị dứt điểm bẫy 'being + V3' kinh điển trong tranh không có người.",
+    "focusTag": "Passive Trap",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 6,
+    "questionCount": 3
+  },
+  {
+    "id": "drill-p2-wh-people",
+    "part": 2,
+    "title": "Câu hỏi Who / Where / When",
+    "subtitle": "Bắt nhanh tên người, phòng ban, vị trí số và mốc thời gian.",
+    "focusTag": "Who / Where / When",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p2-wh-detail",
+    "part": 2,
+    "title": "Câu hỏi What / Which / How / Why",
+    "subtitle": "Phân biệt How much / How often / Why bỏ 'Because' và bẫy lặp từ.",
+    "focusTag": "What / Which / How / Why",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 7,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p2-yesno-or",
+    "part": 2,
+    "title": "Yes/No & Câu hỏi lựa chọn (Or)",
+    "subtitle": "Thành thạo đáp án không dùng Yes/No và câu trả lời kết hợp cả hai phương án.",
+    "focusTag": "Yes/No & Or",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 7,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p2-tag-neg",
+    "part": 2,
+    "title": "Câu hỏi đuôi (Tag) & Câu hỏi phủ định",
+    "subtitle": "Không bị lừa bởi 'Didn't/Isn't/Haven't' và luyện đính chính với 'Actually'.",
+    "focusTag": "Tag & Negative",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 7,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p2-statements",
+    "part": 2,
+    "title": "Câu trần thuật (Statements)",
+    "subtitle": "Phản xạ đề xuất giải pháp, đồng cảm và tiếp nhận thông báo công sở.",
+    "focusTag": "Statements",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 7,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p2-indirect-traps",
+    "part": 2,
+    "title": "Chuyên đề Trả lời gián tiếp & Bẫy đồng âm",
+    "subtitle": "Chinh phục mức 850+: câu hỏi ngược, chuyển người trả lời & bẫy copy/coffee, board, check.",
+    "focusTag": "Indirect & Homophones",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 8,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p3-office-hr",
+    "part": 3,
+    "title": "Hội thoại Văn phòng & Nhân sự",
+    "subtitle": "Tuyển dụng vòng cuối, giờ làm linh hoạt và phân công dự án.",
+    "focusTag": "Office & HR",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 8,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p3-shopping-travel",
+    "part": 3,
+    "title": "Mua sắm, Dịch vụ & Du lịch",
+    "subtitle": "Đổi trả hàng hóa, miễn phí đổi vé tàu và xử lý trễ chuyến bay.",
+    "focusTag": "Shopping & Travel",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 8,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p3-graphic",
+    "part": 3,
+    "title": "Dạng câu hỏi Bảng biểu / Sơ đồ (Graphic)",
+    "subtitle": "Kết hợp đồng thời 2–3 điều kiện trong audio để loại trừ bảng giá cước & sơ đồ tầng.",
+    "focusTag": "Graphic Table",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 9,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p3-implied",
+    "part": 3,
+    "title": "Dạng câu hỏi Hàm ý người nói (Implied Meaning)",
+    "subtitle": "Giải mã thành ngữ và ẩn ý ('at a snail's pace', so sánh chi phí) trong ngữ cảnh.",
+    "focusTag": "Implied Meaning",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 9,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p3-three-speakers",
+    "part": 3,
+    "title": "Hội thoại 3 người (3-Speaker Discussions)",
+    "subtitle": "Theo dõi chính xác vai trò từng nhân vật trong họp kỹ thuật và triển lãm.",
+    "focusTag": "3 Speakers",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 9,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p4-voicemail",
+    "part": 4,
+    "title": "Tin nhắn thoại (Phone Messages)",
+    "subtitle": "Nhắc lịch hẹn y tế, báo giao nhầm vật liệu và yêu cầu gọi lại.",
+    "focusTag": "Phone Messages",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 8,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p4-announcement",
+    "part": 4,
+    "title": "Thông báo nội bộ & Giao thông",
+    "subtitle": "Diễn tập PCCC tòa nhà và thông báo trên tàu tốc hành.",
+    "focusTag": "Announcements",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 8,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p4-advertisement",
+    "part": 4,
+    "title": "Quảng cáo & Radio",
+    "subtitle": "Bắt nhanh ưu đãi dùng thử, mã giảm giá và lợi ích sản phẩm dịch vụ.",
+    "focusTag": "Advertisements",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 8,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p4-tour-event",
+    "part": 4,
+    "title": "Hướng dẫn tham quan & Sự kiện",
+    "subtitle": "Quy định tham quan nhà kính thực vật và lễ trao giải thiết kế.",
+    "focusTag": "Tours & Events",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 8,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p4-graphic-implied",
+    "part": 4,
+    "title": "Bài nói có Bảng biểu & Hàm ý người nói",
+    "subtitle": "Kết hợp bảng điều phối xe lạnh & bảng doanh số quý với câu hỏi ẩn ý.",
+    "focusTag": "Graphic & Implied",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 10,
+    "questionCount": 6
+  },
+  {
+    "id": "drill-p5-word-forms",
+    "part": 5,
+    "title": "Chuyên đề 1: Từ loại (Word Forms)",
+    "subtitle": "Phân biệt nhanh Danh/Động/Tính/Trạng từ và cặp dễ nhầm confident/confidential.",
+    "focusTag": "Word Forms",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 5,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-tenses",
+    "part": 5,
+    "title": "Chuyên đề 2: Thì động từ (Verb Tenses)",
+    "subtitle": "Làm chủ Hiện tại hoàn thành với 'For the past', 'Once' và Quá khứ hoàn thành.",
+    "focusTag": "Verb Tenses",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 5,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-sva",
+    "part": 5,
+    "title": "Chuyên đề 3: Sự hòa hợp chủ–vị (SVA)",
+    "subtitle": "Tránh bẫy chủ ngữ V-ing, 'along with', 'The number of' và danh từ không đếm được.",
+    "focusTag": "Subject–Verb",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-passive",
+    "part": 5,
+    "title": "Chuyên đề 4: Thể bị động (Passive Voice)",
+    "subtitle": "Nhận diện bị động sau Modal, 'had to be V3' và trạng từ kẹp giữa 'are automatically V3'.",
+    "focusTag": "Passive Voice",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-relative",
+    "part": 5,
+    "title": "Chuyên đề 5: Mệnh đề quan hệ & Rút gọn",
+    "subtitle": "Thành thạo rút gọn V-ing/V3, trạng từ 'where' và 'two of which'.",
+    "focusTag": "Relative Clauses",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-participles",
+    "part": 5,
+    "title": "Chuyên đề 6: Phân từ V-ing / V-ed",
+    "subtitle": "Phân biệt tính từ cảm xúc, rút gọn đầu câu và 'find + O + V-ing'.",
+    "focusTag": "Participles",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-prep-conj",
+    "part": 5,
+    "title": "Chuyên đề 7: Giới từ & Liên từ",
+    "subtitle": "Trọn bộ cặp bẫy 'by/until', 'Notwithstanding', 'provided that' và cụm giới từ cố định.",
+    "focusTag": "Prep & Conj",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-comp-cond",
+    "part": 5,
+    "title": "Chuyên đề 8: So sánh & Câu điều kiện",
+    "subtitle": "Trạng từ nhấn mạnh so sánh hơn ('significantly') và đảo ngữ 'Were S to V'.",
+    "focusTag": "Comp & Cond",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-pronouns",
+    "part": 5,
+    "title": "Chuyên đề 9: Đại từ & Từ hạn định",
+    "subtitle": "Phân biệt phản thân 'itself', 'that/those', 'another/other' và 'Anyone who'.",
+    "focusTag": "Pronouns",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 5,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p5-collocations",
+    "part": 5,
+    "title": "Chuyên đề 10: Từ vựng & Collocations công sở",
+    "subtitle": "Bộ cụm ăn điểm Part 5: comply with, take into account, go into effect, inclement weather.",
+    "focusTag": "Collocations",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 6,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p6-email-letter",
+    "part": 6,
+    "title": "Email & Thư thương mại (Sentence Insertion)",
+    "subtitle": "Xử lý khiếu nại giao thiếu hàng & thư mời tài trợ — luyện bắt từ quy chiếu điền câu.",
+    "focusTag": "Email / Letter",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 10,
+    "questionCount": 8
+  },
+  {
+    "id": "drill-p6-memo-notice",
+    "part": 6,
+    "title": "Memo & Thông báo nội bộ (Từ nối ngữ cảnh)",
+    "subtitle": "Quy định đặt phòng họp & bảo trì HVAC — chọn từ nối chuẩn mạch lập luận.",
+    "focusTag": "Memo / Notice",
+    "difficulty": "Trung bình",
+    "estimatedMinutes": 10,
+    "questionCount": 8
+  },
+  {
+    "id": "drill-p6-ad-article",
+    "part": 6,
+    "title": "Quảng cáo & Bài báo kinh tế",
+    "subtitle": "Khóa học phân tích dữ liệu & phà điện xanh — luyện phân từ và từ vựng báo chí.",
+    "focusTag": "Ad / Article",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 10,
+    "questionCount": 8
+  },
+  {
+    "id": "drill-p7-single",
+    "part": 7,
+    "title": "Single Passage — Email, Text Chain & Notice",
+    "subtitle": "3 bài đọc đơn chuẩn ETS gồm Email khuyến mãi, Chuỗi chat kỹ thuật và Thông báo tủ nhận hàng.",
+    "focusTag": "Single Passage",
+    "difficulty": "Cơ bản",
+    "estimatedMinutes": 12,
+    "questionCount": 10
+  },
+  {
+    "id": "drill-p7-double",
+    "part": 7,
+    "title": "Double Passage — Liên kết 2 văn bản",
+    "subtitle": "2 bộ bài đọc kép rèn kỹ năng tính ngày chính sách vé & đối chiếu bảng giá hợp đồng.",
+    "focusTag": "Double Passage",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 14,
+    "questionCount": 8
+  },
+  {
+    "id": "drill-p7-triple",
+    "part": 7,
+    "title": "Triple Passage — Tổng hợp 3 văn bản",
+    "subtitle": "Bộ 3 văn bản Lễ hội Sách (Bài báo + Bảng phí + Email) luyện tính tổng chi phí liên kết.",
+    "focusTag": "Triple Passage",
+    "difficulty": "Nâng cao",
+    "estimatedMinutes": 12,
+    "questionCount": 5
+  },
+  {
+    "id": "drill-p7-skills",
+    "part": 7,
+    "title": "Chuyên đề Suy luận, NOT/TRUE, Vocab & Điền câu [1-4]",
+    "subtitle": "Luyện riêng các dạng câu hỏi phân loại 850–990 điểm trong Part 7.",
+    "focusTag": "Inference & Skills",
+    "difficulty": "Thực chiến ETS",
+    "estimatedMinutes": 14,
+    "questionCount": 9
+  },
+  {
+    "id": "drill-p5-crawled-ets-web",
+    "part": 5,
+    "title": "Part 5 Thực chiến — Kho mở ETS Web (Auto-Crawled)",
+    "subtitle": "Tuyển tập 35 câu ngữ pháp & từ vựng Part 5 cào tự động từ GitHub English-ETS-TOEIC-web kèm giải thích 5 lớp.",
+    "focusTag": "Auto-Crawled GitHub",
+    "difficulty": "Thực chiến ETS",
+    "questionCount": 35,
+    "estimatedMinutes": 17
+  },
+  {
+    "id": "drill-p5-crawled-hf-tutor",
+    "part": 5,
+    "title": "Part 5 Gia sư AI — HuggingFace TOEIC Tutor (Auto-Crawled)",
+    "subtitle": "Tuyển tập 35 câu Part 5 cào từ HuggingFace Open Dataset (nggiabao19/toeic-tutor-v1) với công thức & mẹo tránh bẫy chi tiết.",
+    "focusTag": "Auto-Crawled HuggingFace",
+    "difficulty": "Trung bình",
+    "questionCount": 35,
+    "estimatedMinutes": 17
+  }
+]

@@ -1,0 +1,443 @@
+{
+  "id": "drill-p6-memo-notice",
+  "part": 6,
+  "title": "Memo & Thông báo nội bộ (Từ nối ngữ cảnh)",
+  "subtitle": "Quy định đặt phòng họp & bảo trì HVAC — chọn từ nối chuẩn mạch lập luận.",
+  "focusTag": "Memo / Notice",
+  "part6": [
+    {
+      "id": "dp6-mn-1",
+      "title": "Memo nội bộ thay đổi quy trình đặt phòng họp",
+      "genre": "Memo",
+      "paragraphs": [
+        {
+          "id": "dp6-mn-1-p1",
+          "sentences": [
+            {
+              "id": "dp6-mn-1-s1",
+              "en": "Recently, several teams have been unable to locate available rooms because reserved slots often go [131] when meetings end early.",
+              "vi": "Gần đây nhiều nhóm không tìm được phòng trống vì các khung giờ đã đặt thường bị bỏ trống khi cuộc họp kết thúc sớm."
+            },
+            {
+              "id": "dp6-mn-1-s2",
+              "en": "To solve this issue, our booking system will now require hosts to check in on the door tablet within ten minutes of a meeting's start. [132]",
+              "vi": "Để giải quyết vấn đề này, hệ thống đặt phòng giờ yêu cầu người chủ trì xác nhận trên máy tính bảng ngoài cửa trong vòng 10 phút đầu cuộc họp. [132]"
+            }
+          ]
+        },
+        {
+          "id": "dp6-mn-1-p2",
+          "sentences": [
+            {
+              "id": "dp6-mn-1-s3",
+              "en": "[133], if a meeting is canceled ahead of time, please delete the calendar entry promptly.",
+              "vi": "Tương tự, nếu cuộc họp bị hủy sớm, vui lòng xóa lịch ngay lập tức."
+            },
+            {
+              "id": "dp6-mn-1-s4",
+              "en": "We appreciate your [134] in making shared workspaces fairer for everyone.",
+              "vi": "Chúng tôi trân trọng sự hợp tác của các bạn giúp không gian chung công bằng hơn cho mọi người."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp6-mn-1-q1",
+          "blankNumber": 131,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "unused",
+            "B": "crowded",
+            "C": "repaired",
+            "D": "locked"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Cụm động từ 'go unused' (bị bỏ không dùng)",
+              "signal": "Cuộc họp kết thúc sớm nhưng vẫn giữ lịch -> phòng 'go unused' (bị bỏ trống lãng phí)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [131].",
+              "optionsVi": {
+                "A": "không được sử dụng",
+                "B": "đông đúc",
+                "C": "được sửa chữa",
+                "D": "bị khóa"
+              }
+            },
+            "proof": {
+              "explanation": "'go unused / unnoticed / unanswered' là cấu trúc rất hay gặp trong Part 6.",
+              "evidenceQuote": "Recently, several teams have been unable to locate available rooms because reserved slots often go [131] when meetings end early.",
+              "evidenceSentenceId": "dp6-mn-1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'go unused / unnoticed / unanswered' là cấu trúc rất hay gặp trong Part 6.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (đông đúc).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (được sửa chữa).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (bị khóa)."
+            },
+            "keyTakeaways": {
+              "formula": "go + un-V3 (go unused = bị bỏ trống)",
+              "commonTrap": "Không nắm cấu trúc 'go + Adj'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-mn-1-q2",
+          "blankNumber": 132,
+          "questionType": "Điền câu (Sentence Insertion)",
+          "options": {
+            "A": "If no one checks in during that window, the room will automatically be released for other teams.",
+            "B": "New espresso beans have arrived in the breakroom.",
+            "C": "Building security closes the rooftop at dusk.",
+            "D": "Please submit travel invoices in euros."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu nêu cơ chế tự động giải phóng phòng sau 10 phút",
+              "signal": "Cụm 'during that window' quy chiếu thẳng về 'within ten minutes' ở câu trước!"
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [132].",
+              "optionsVi": {
+                "A": "Nếu không ai check-in trong khung thời gian đó, phòng sẽ tự động được nhả cho nhóm khác.",
+                "B": "Hạt espresso mới về phòng nghỉ.",
+                "C": "An ninh đóng sân thượng lúc chạng vạng.",
+                "D": "Nộp hóa đơn bằng đồng euro."
+              }
+            },
+            "proof": {
+              "explanation": "Liên kết khít tuyệt đối: 'check in within ten minutes' <-> 'checks in during that window'.",
+              "evidenceQuote": "To solve this issue, our booking system will now require hosts to check in on the door tablet within ten minutes of a meeting's start. [132]",
+              "evidenceSentenceId": "dp6-mn-1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Liên kết khít tuyệt đối: 'check in within ten minutes' <-> 'checks in during that window'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Hạt espresso mới về phòng nghỉ.).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (An ninh đóng sân thượng lúc chạng vạng.).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Nộp hóa đơn bằng đồng euro.)."
+            },
+            "keyTakeaways": {
+              "formula": "Kiểm tra đại từ/cụm quy chiếu ('that window')",
+              "commonTrap": "Bỏ qua manh mối thời gian.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-mn-1-q3",
+          "blankNumber": 133,
+          "questionType": "Từ nối",
+          "options": {
+            "A": "Similarly",
+            "B": "However",
+            "C": "Therefore",
+            "D": "Despite"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Trạng từ nối ý song song ('Similarly')",
+              "signal": "Nêu thêm một thói quen tốt tương tự giúp tránh lãng phí phòng -> 'Similarly'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [133].",
+              "optionsVi": {
+                "A": "Tương tự như vậy",
+                "B": "Tuy nhiên",
+                "C": "Do đó",
+                "D": "Mặc dù (+ N)"
+              }
+            },
+            "proof": {
+              "explanation": "Câu trước nhắc check-in, câu này nhắc xóa lịch khi hủy sớm -> hai quy tắc hỗ trợ song song -> 'Similarly'.",
+              "evidenceQuote": "[133], if a meeting is canceled ahead of time, please delete the calendar entry promptly.",
+              "evidenceSentenceId": "dp6-mn-1-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Câu trước nhắc check-in, câu này nhắc xóa lịch khi hủy sớm -> hai quy tắc hỗ trợ song song -> 'Similarly'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Tuy nhiên).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Do đó).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Mặc dù (+ N))."
+            },
+            "keyTakeaways": {
+              "formula": "Similarly / Likewise, S + V",
+              "commonTrap": "Chọn 'However' khi không hề trái ngược.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-mn-1-q4",
+          "blankNumber": 134,
+          "questionType": "Ngữ pháp",
+          "options": {
+            "A": "cooperate",
+            "B": "cooperative",
+            "C": "cooperation",
+            "D": "cooperatively"
+          },
+          "correctAnswer": "C",
+          "explanation": {
+            "classification": {
+              "category": "Từ loại — Danh từ sau tính từ sở hữu 'your'",
+              "signal": "Cụm kết thư kinh điển TOEIC: 'We appreciate your cooperation'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [134].",
+              "optionsVi": {
+                "A": "hợp tác (V)",
+                "B": "mang tính hợp tác (Adj)",
+                "C": "sự hợp tác (N)",
+                "D": "một cách hợp tác (Adv)"
+              }
+            },
+            "proof": {
+              "explanation": "Sau tính từ sở hữu 'your' bắt buộc là danh từ -> 'cooperation'.",
+              "evidenceQuote": "We appreciate your [134] in making shared workspaces fairer for everyone.",
+              "evidenceSentenceId": "dp6-mn-1-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (hợp tác (V)).",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (mang tính hợp tác (Adj)).",
+              "C": "Đúng: Sau tính từ sở hữu 'your' bắt buộc là danh từ -> 'cooperation'.",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (một cách hợp tác (Adv))."
+            },
+            "keyTakeaways": {
+              "formula": "appreciate your + cooperation / assistance / patience",
+              "commonTrap": "Nhầm sang tính từ 'cooperative'.",
+              "paraphrases": []
+            }
+          }
+        }
+      ],
+      "headerMeta": {
+        "from": "Office Administration",
+        "to": "All Department Heads",
+        "date": "September 3",
+        "subject": "Updated Meeting Room Booking Rules"
+      }
+    },
+    {
+      "id": "dp6-mn-2",
+      "title": "Thông báo bảo trì hệ thống điều hòa tòa nhà",
+      "genre": "Notice",
+      "paragraphs": [
+        {
+          "id": "dp6-mn-2-p1",
+          "sentences": [
+            {
+              "id": "dp6-mn-2-s1",
+              "en": "Facilities engineers will replace air-filtration units on Floors 4 through 6 this Thursday between 1:00 and 3:00 P.M. to improve indoor air [135].",
+              "vi": "Kỹ sư cơ sở vật chất sẽ thay bộ lọc không khí tầng 4 đến tầng 6 thứ Năm này từ 1:00 đến 3:00 chiều để cải thiện chất lượng không khí trong nhà."
+            },
+            {
+              "id": "dp6-mn-2-s2",
+              "en": "During these two hours, airflow in meeting rooms may feel slightly warmer than usual. [136]",
+              "vi": "Trong hai tiếng này, luồng khí ở phòng họp có thể hơi ấm hơn thường lệ. [136]"
+            }
+          ]
+        },
+        {
+          "id": "dp6-mn-2-p2",
+          "sentences": [
+            {
+              "id": "dp6-mn-2-s3",
+              "en": "[137], all elevators, restrooms, and office power outlets will operate without interruption.",
+              "vi": "Tuy nhiên, toàn bộ thang máy, nhà vệ sinh và ổ điện văn phòng vẫn hoạt động không gián đoạn."
+            },
+            {
+              "id": "dp6-mn-2-s4",
+              "en": "Anyone with special workspace requests should contact Facilities [138] Wednesday noon.",
+              "vi": "Bất kỳ ai có yêu cầu không gian làm việc đặc biệt hãy liên hệ Cơ sở vật chất trước trưa thứ Tư."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp6-mn-2-q1",
+          "blankNumber": 135,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "quality",
+            "B": "quantity",
+            "C": "receipt",
+            "D": "tariff"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Collocation môi trường ('indoor air quality')",
+              "signal": "Thay bộ lọc không khí để nâng cao 'indoor air quality' (chất lượng không khí)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [135].",
+              "optionsVi": {
+                "A": "chất lượng",
+                "B": "số lượng",
+                "C": "biên lai",
+                "D": "thuế quan"
+              }
+            },
+            "proof": {
+              "explanation": "'indoor air quality' là cụm cố định cực quen thuộc.",
+              "evidenceQuote": "Facilities engineers will replace air-filtration units on Floors 4 through 6 this Thursday between 1:00 and 3:00 P.M. to improve indoor air [135].",
+              "evidenceSentenceId": "dp6-mn-2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'indoor air quality' là cụm cố định cực quen thuộc.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (số lượng).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (biên lai).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (thuế quan)."
+            },
+            "keyTakeaways": {
+              "formula": "improve air / service / product quality",
+              "commonTrap": "Nhầm 'quality' với 'quantity'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-mn-2-q2",
+          "blankNumber": 136,
+          "questionType": "Điền câu (Sentence Insertion)",
+          "options": {
+            "A": "Teams hosting large client meetings are encouraged to book rooms on Floors 1 through 3 instead.",
+            "B": "The company picnic featured live jazz music.",
+            "C": "All laptops must run antivirus scans weekly.",
+            "D": "Our Berlin subsidiary hired twelve designers."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu đưa giải pháp cho phòng họp bị nóng tầng 4–6",
+              "signal": "Tầng 4–6 hơi ấm -> gợi ý đặt phòng họp sang tầng 1–3! Quá logic!"
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [136].",
+              "optionsVi": {
+                "A": "Các nhóm họp khách hàng đông người được khuyến khích đặt phòng tầng 1 đến 3 thay thế.",
+                "B": "Dã ngoại có nhạc jazz.",
+                "C": "Laptop phải quét virus hàng tuần.",
+                "D": "Chi nhánh Berlin tuyển 12 thiết kế."
+              }
+            },
+            "proof": {
+              "explanation": "Giải pháp trực tiếp cho tác động 'meeting rooms may feel slightly warmer' ở tầng 4–6.",
+              "evidenceQuote": "During these two hours, airflow in meeting rooms may feel slightly warmer than usual. [136]",
+              "evidenceSentenceId": "dp6-mn-2-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Giải pháp trực tiếp cho tác động 'meeting rooms may feel slightly warmer' ở tầng 4–6.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Dã ngoại có nhạc jazz.).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Laptop phải quét virus hàng tuần.).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Chi nhánh Berlin tuyển 12 thiết kế.)."
+            },
+            "keyTakeaways": {
+              "formula": "Câu giải pháp luôn nối trực tiếp sau câu nêu bất tiện",
+              "commonTrap": "Không đối chiếu số tầng (4–6 vs 1–3).",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-mn-2-q3",
+          "blankNumber": 137,
+          "questionType": "Từ nối",
+          "options": {
+            "A": "However",
+            "B": "Therefore",
+            "C": "For example",
+            "D": "Besides of"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Trạng từ nối tương phản trấn an ('However')",
+              "signal": "Câu trước nói điều hòa tạm giảm, câu sau trấn an thang máy & điện vẫn chạy bình thường -> 'However'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [137].",
+              "optionsVi": {
+                "A": "Tuy nhiên",
+                "B": "Do đó",
+                "C": "Ví dụ",
+                "D": "Sai ngữ pháp"
+              }
+            },
+            "proof": {
+              "explanation": "Chuyển từ bất tiện sang điểm trấn an -> 'However'.",
+              "evidenceQuote": "[137], all elevators, restrooms, and office power outlets will operate without interruption.",
+              "evidenceSentenceId": "dp6-mn-2-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Chuyển từ bất tiện sang điểm trấn an -> 'However'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Do đó).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Ví dụ).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Sai ngữ pháp)."
+            },
+            "keyTakeaways": {
+              "formula": "Inconvenience. However, other services operate normally.",
+              "commonTrap": "Nhầm sang 'Therefore'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-mn-2-q4",
+          "blankNumber": 138,
+          "questionType": "Ngữ pháp",
+          "options": {
+            "A": "prior to",
+            "B": "until of",
+            "C": "while",
+            "D": "since"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Giới từ chỉ hạn trước mốc thời gian ('prior to' = before)",
+              "signal": "Cần liên hệ TRƯỚC trưa thứ Tư (trước khi bảo trì diễn ra thứ Năm) -> 'prior to'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [138].",
+              "optionsVi": {
+                "A": "trước (+ mốc thời gian/N)",
+                "B": "sai ngữ pháp",
+                "C": "trong khi (+ S+V)",
+                "D": "kể từ khi"
+              }
+            },
+            "proof": {
+              "explanation": "'prior to Wednesday noon' = before Wednesday noon.",
+              "evidenceQuote": "Anyone with special workspace requests should contact Facilities [138] Wednesday noon.",
+              "evidenceSentenceId": "dp6-mn-2-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'prior to Wednesday noon' = before Wednesday noon.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (sai ngữ pháp).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (trong khi (+ S+V)).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (kể từ khi)."
+            },
+            "keyTakeaways": {
+              "formula": "prior to = before + Time/Noun",
+              "commonTrap": "Nhầm 'since' với mốc tương lai.",
+              "paraphrases": []
+            }
+          }
+        }
+      ],
+      "headerMeta": {
+        "from": "Facilities Team",
+        "to": "Floors 4–6 Occupants",
+        "date": "October 6",
+        "subject": "HVAC Filter Replacement This Thursday"
+      }
+    }
+  ]
+}

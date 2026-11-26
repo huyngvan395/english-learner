@@ -1,0 +1,765 @@
+{
+  "id": "toefl-essential",
+  "title": "Từ Vựng Thiết Yếu Cho TOEFL",
+  "subtitle": "Từ vựng học thuật Đại học (Khoa học, Sinh học, Lịch sử, Kinh tế) chuẩn TOEFL iBT.",
+  "category": "academic",
+  "levelLabel": "B2 – C1",
+  "tags": [
+    "#b2",
+    "#c1",
+    "#toefl"
+  ],
+  "coverTheme": "toefl",
+  "accentGradient": "from-fuchsia-600 via-purple-600 to-indigo-600",
+  "badgeText": "TOEFL iBT",
+  "words": [
+    {
+      "id": "toefl-1",
+      "deckId": "toefl-essential",
+      "word": "hypothesis",
+      "pos": "n",
+      "ipaUK": "/haɪˈpɒθ.ə.sɪs/",
+      "ipaUS": "/haɪˈpɑː.θə.sɪs/",
+      "meaning": "giả thuyết khoa học",
+      "examples": [
+        {
+          "en": "Biologists designed controlled experiments to test the hypothesis.",
+          "vi": "Các nhà sinh học thiết kế thí nghiệm đối chứng để kiểm tra giả thuyết."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "hypothesize",
+          "pos": "v",
+          "meaning": "đặt giả thuyết"
+        }
+      ],
+      "synonyms": [
+        "theory",
+        "proposition"
+      ],
+      "antonyms": [
+        "proven fact"
+      ],
+      "collocations": [
+        {
+          "phrase": "test a hypothesis",
+          "meaning": "kiểm chứng giả thuyết"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to theory, proposition.",
+      "definitionVi": "Danh từ dùng để chỉ giả thuyết khoa học.",
+      "topicId": "toefl-science"
+    },
+    {
+      "id": "toefl-2",
+      "deckId": "toefl-essential",
+      "word": "phenomenon",
+      "pos": "n",
+      "ipaUK": "/fəˈnɒm.ɪ.nən/",
+      "ipaUS": "/fəˈnɑː.mə.nɑːn/",
+      "meaning": "hiện tượng (số nhiều: phenomena)",
+      "examples": [
+        {
+          "en": "Auroras are an extraordinary atmospheric phenomenon.",
+          "vi": "Cực quang là một hiện tượng khí quyển kỳ diệu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "phenomenal",
+          "pos": "adj",
+          "meaning": "phi thường"
+        }
+      ],
+      "synonyms": [
+        "occurrence",
+        "event"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "natural phenomenon",
+          "meaning": "hiện tượng tự nhiên"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to occurrence, event.",
+      "definitionVi": "Danh từ dùng để chỉ hiện tượng (số nhiều: phenomena).",
+      "topicId": "toefl-science"
+    },
+    {
+      "id": "toefl-3",
+      "deckId": "toefl-essential",
+      "word": "abundant",
+      "pos": "adj",
+      "ipaUK": "/əˈbʌn.dn̩t/",
+      "ipaUS": "/əˈbʌn.dn̩t/",
+      "meaning": "dồi dào, phong phú",
+      "examples": [
+        {
+          "en": "Volcanic soil supplies abundant nutrients for coffee crops.",
+          "vi": "Đất núi lửa cung cấp nguồn dinh dưỡng dồi dào cho cây cà phê."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "abundance",
+          "pos": "n",
+          "meaning": "sự dồi dào"
+        }
+      ],
+      "synonyms": [
+        "plentiful",
+        "ample",
+        "bountiful",
+        "copious",
+        "exuberant"
+      ],
+      "antonyms": [
+        "scarce",
+        "sparse"
+      ],
+      "collocations": [
+        {
+          "phrase": "abundant evidence",
+          "meaning": "bằng chứng dồi dào"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/abundant-us.mp3",
+      "definitionEn": "Having the quality of being plentiful, ample, bountiful.",
+      "definitionVi": "Tính từ mô tả đặc điểm dồi dào, phong phú.",
+      "topicId": "toefl-science"
+    },
+    {
+      "id": "toefl-4",
+      "deckId": "toefl-essential",
+      "word": "synthesis",
+      "pos": "n",
+      "ipaUK": "/ˈsɪn.θə.sɪs/",
+      "ipaUS": "/ˈsɪn.θə.sɪs/",
+      "meaning": "sự tổng hợp",
+      "examples": [
+        {
+          "en": "Her paper presents a lucid synthesis of behavioral economics.",
+          "vi": "Bài nghiên cứu của cô đưa ra tổng hợp rõ ràng về kinh tế học hành vi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "synthesize",
+          "pos": "v",
+          "meaning": "tổng hợp"
+        }
+      ],
+      "synonyms": [
+        "combination",
+        "integration"
+      ],
+      "antonyms": [
+        "analysis"
+      ],
+      "collocations": [
+        {
+          "phrase": "chemical synthesis",
+          "meaning": "tổng hợp hóa học"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to combination, integration.",
+      "definitionVi": "Danh từ dùng để chỉ sự tổng hợp.",
+      "topicId": "toefl-science"
+    },
+    {
+      "id": "toefl-5",
+      "deckId": "toefl-essential",
+      "word": "sediment",
+      "pos": "n",
+      "ipaUK": "/ˈsed.ɪ.mənt/",
+      "ipaUS": "/ˈsed.ə.mənt/",
+      "meaning": "trầm tích, lớp cặn lắng",
+      "examples": [
+        {
+          "en": "River sediment gradually builds fertile coastal deltas.",
+          "vi": "Trầm tích sông dần bồi đắp nên các đồng bằng ven biển màu mỡ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "sedimentary",
+          "pos": "adj",
+          "meaning": "thuộc trầm tích"
+        }
+      ],
+      "synonyms": [
+        "deposit",
+        "silt"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "layers of sediment",
+          "meaning": "các lớp trầm tích"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to deposit, silt.",
+      "definitionVi": "Danh từ dùng để chỉ trầm tích, lớp cặn lắng.",
+      "topicId": "toefl-science"
+    },
+    {
+      "id": "toefl-6",
+      "deckId": "toefl-essential",
+      "word": "catalyst",
+      "pos": "n",
+      "ipaUK": "/ˈkæt.əl.ɪst/",
+      "ipaUS": "/ˈkæt̬.əl.ɪst/",
+      "meaning": "chất xúc tác; nhân tố thúc đẩy đột biến",
+      "examples": [
+        {
+          "en": "High-speed rail acted as a catalyst for regional tourism.",
+          "vi": "Đường sắt cao tốc đóng vai trò chất xúc tác cho du lịch vùng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "catalyze",
+          "pos": "v",
+          "meaning": "xúc tác"
+        }
+      ],
+      "synonyms": [
+        "spark",
+        "stimulus",
+        "driver"
+      ],
+      "antonyms": [
+        "inhibitor"
+      ],
+      "collocations": [
+        {
+          "phrase": "act as a catalyst for",
+          "meaning": "làm chất xúc tác cho"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to spark, stimulus, driver.",
+      "definitionVi": "Danh từ dùng để chỉ chất xúc tác; nhân tố thúc đẩy đột biến.",
+      "topicId": "toefl-research"
+    },
+    {
+      "id": "toefl-7",
+      "deckId": "toefl-essential",
+      "word": "erosion",
+      "pos": "n",
+      "ipaUK": "/ɪˈrəʊ.ʒən/",
+      "ipaUS": "/ɪˈroʊ.ʒən/",
+      "meaning": "sự xói mòn (đất, bờ biển)",
+      "examples": [
+        {
+          "en": "Coastal mangroves dramatically slow shoreline erosion.",
+          "vi": "Rừng ngập mặn ven biển làm chậm đáng kể xói mòn bờ biển."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "erode",
+          "pos": "v",
+          "meaning": "xói mòn"
+        }
+      ],
+      "synonyms": [
+        "wearing away",
+        "degradation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "soil erosion",
+          "meaning": "xói mòn đất"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to wearing away, degradation.",
+      "definitionVi": "Danh từ dùng để chỉ sự xói mòn (đất, bờ biển).",
+      "topicId": "toefl-research"
+    },
+    {
+      "id": "toefl-8",
+      "deckId": "toefl-essential",
+      "word": "equilibrium",
+      "pos": "n",
+      "ipaUK": "/ˌiː.kwɪˈlɪb.ri.əm/",
+      "ipaUS": "/ˌiː.kwəˈlɪb.ri.əm/",
+      "meaning": "trạng thái cân bằng",
+      "examples": [
+        {
+          "en": "Market prices settle when supply and demand reach equilibrium.",
+          "vi": "Giá thị trường ổn định khi cung và cầu đạt trạng thái cân bằng."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "balance",
+        "stability"
+      ],
+      "antonyms": [
+        "imbalance"
+      ],
+      "collocations": [
+        {
+          "phrase": "reach equilibrium",
+          "meaning": "đạt trạng thái cân bằng"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to balance, stability.",
+      "definitionVi": "Danh từ dùng để chỉ trạng thái cân bằng.",
+      "topicId": "toefl-research"
+    },
+    {
+      "id": "toefl-9",
+      "deckId": "toefl-essential",
+      "word": "empirical",
+      "pos": "adj",
+      "ipaUK": "/ɪmˈpɪr.ɪ.kəl/",
+      "ipaUS": "/ɪmˈpɪr.ɪ.kəl/",
+      "meaning": "thực nghiệm, dựa trên quan sát dữ liệu",
+      "examples": [
+        {
+          "en": "Policy reforms should rest on solid empirical research.",
+          "vi": "Cải cách chính sách nên dựa trên nghiên cứu thực nghiệm vững chắc."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "experimental",
+        "observational"
+      ],
+      "antonyms": [
+        "theoretical"
+      ],
+      "collocations": [
+        {
+          "phrase": "empirical data",
+          "meaning": "dữ liệu thực nghiệm"
+        }
+      ],
+      "definitionEn": "Having the quality of being experimental, observational.",
+      "definitionVi": "Tính từ mô tả đặc điểm thực nghiệm, dựa trên quan sát dữ liệu.",
+      "topicId": "toefl-research"
+    },
+    {
+      "id": "toefl-10",
+      "deckId": "toefl-essential",
+      "word": "migrate",
+      "pos": "v",
+      "ipaUK": "/maɪˈɡreɪt/",
+      "ipaUS": "/ˈmaɪ.ɡreɪt/",
+      "meaning": "di cư, di trú (động vật); chuyển hệ thống dữ liệu",
+      "examples": [
+        {
+          "en": "Millions of shorebirds migrate south before winter arrives.",
+          "vi": "Hàng triệu loài chim biển di cư về phương nam trước khi mùa đông tới."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "migration",
+          "pos": "n",
+          "meaning": "sự di cư / chuyển đổi dữ liệu"
+        }
+      ],
+      "synonyms": [
+        "relocate",
+        "move seasonally"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "seasonal migration",
+          "meaning": "di cư theo mùa"
+        }
+      ],
+      "definitionEn": "To relocate (also similar to move seasonally) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động di cư, di trú (động vật); chuyển hệ thống dữ liệu.",
+      "topicId": "toefl-research"
+    }
+  ],
+  "topics": [
+    {
+      "id": "toefl-science",
+      "name": "Khoa học Tự nhiên & Địa chất",
+      "icon": "science",
+      "words": [
+        {
+          "id": "toefl-1",
+          "deckId": "toefl-essential",
+          "word": "hypothesis",
+          "pos": "n",
+          "ipaUK": "/haɪˈpɒθ.ə.sɪs/",
+          "ipaUS": "/haɪˈpɑː.θə.sɪs/",
+          "meaning": "giả thuyết khoa học",
+          "examples": [
+            {
+              "en": "Biologists designed controlled experiments to test the hypothesis.",
+              "vi": "Các nhà sinh học thiết kế thí nghiệm đối chứng để kiểm tra giả thuyết."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "hypothesize",
+              "pos": "v",
+              "meaning": "đặt giả thuyết"
+            }
+          ],
+          "synonyms": [
+            "theory",
+            "proposition"
+          ],
+          "antonyms": [
+            "proven fact"
+          ],
+          "collocations": [
+            {
+              "phrase": "test a hypothesis",
+              "meaning": "kiểm chứng giả thuyết"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to theory, proposition.",
+          "definitionVi": "Danh từ dùng để chỉ giả thuyết khoa học.",
+          "topicId": "toefl-science"
+        },
+        {
+          "id": "toefl-2",
+          "deckId": "toefl-essential",
+          "word": "phenomenon",
+          "pos": "n",
+          "ipaUK": "/fəˈnɒm.ɪ.nən/",
+          "ipaUS": "/fəˈnɑː.mə.nɑːn/",
+          "meaning": "hiện tượng (số nhiều: phenomena)",
+          "examples": [
+            {
+              "en": "Auroras are an extraordinary atmospheric phenomenon.",
+              "vi": "Cực quang là một hiện tượng khí quyển kỳ diệu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "phenomenal",
+              "pos": "adj",
+              "meaning": "phi thường"
+            }
+          ],
+          "synonyms": [
+            "occurrence",
+            "event"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "natural phenomenon",
+              "meaning": "hiện tượng tự nhiên"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to occurrence, event.",
+          "definitionVi": "Danh từ dùng để chỉ hiện tượng (số nhiều: phenomena).",
+          "topicId": "toefl-science"
+        },
+        {
+          "id": "toefl-3",
+          "deckId": "toefl-essential",
+          "word": "abundant",
+          "pos": "adj",
+          "ipaUK": "/əˈbʌn.dn̩t/",
+          "ipaUS": "/əˈbʌn.dn̩t/",
+          "meaning": "dồi dào, phong phú",
+          "examples": [
+            {
+              "en": "Volcanic soil supplies abundant nutrients for coffee crops.",
+              "vi": "Đất núi lửa cung cấp nguồn dinh dưỡng dồi dào cho cây cà phê."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "abundance",
+              "pos": "n",
+              "meaning": "sự dồi dào"
+            }
+          ],
+          "synonyms": [
+            "plentiful",
+            "ample",
+            "bountiful",
+            "copious",
+            "exuberant"
+          ],
+          "antonyms": [
+            "scarce",
+            "sparse"
+          ],
+          "collocations": [
+            {
+              "phrase": "abundant evidence",
+              "meaning": "bằng chứng dồi dào"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/abundant-us.mp3",
+          "definitionEn": "Having the quality of being plentiful, ample, bountiful.",
+          "definitionVi": "Tính từ mô tả đặc điểm dồi dào, phong phú.",
+          "topicId": "toefl-science"
+        },
+        {
+          "id": "toefl-4",
+          "deckId": "toefl-essential",
+          "word": "synthesis",
+          "pos": "n",
+          "ipaUK": "/ˈsɪn.θə.sɪs/",
+          "ipaUS": "/ˈsɪn.θə.sɪs/",
+          "meaning": "sự tổng hợp",
+          "examples": [
+            {
+              "en": "Her paper presents a lucid synthesis of behavioral economics.",
+              "vi": "Bài nghiên cứu của cô đưa ra tổng hợp rõ ràng về kinh tế học hành vi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "synthesize",
+              "pos": "v",
+              "meaning": "tổng hợp"
+            }
+          ],
+          "synonyms": [
+            "combination",
+            "integration"
+          ],
+          "antonyms": [
+            "analysis"
+          ],
+          "collocations": [
+            {
+              "phrase": "chemical synthesis",
+              "meaning": "tổng hợp hóa học"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to combination, integration.",
+          "definitionVi": "Danh từ dùng để chỉ sự tổng hợp.",
+          "topicId": "toefl-science"
+        },
+        {
+          "id": "toefl-5",
+          "deckId": "toefl-essential",
+          "word": "sediment",
+          "pos": "n",
+          "ipaUK": "/ˈsed.ɪ.mənt/",
+          "ipaUS": "/ˈsed.ə.mənt/",
+          "meaning": "trầm tích, lớp cặn lắng",
+          "examples": [
+            {
+              "en": "River sediment gradually builds fertile coastal deltas.",
+              "vi": "Trầm tích sông dần bồi đắp nên các đồng bằng ven biển màu mỡ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "sedimentary",
+              "pos": "adj",
+              "meaning": "thuộc trầm tích"
+            }
+          ],
+          "synonyms": [
+            "deposit",
+            "silt"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "layers of sediment",
+              "meaning": "các lớp trầm tích"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to deposit, silt.",
+          "definitionVi": "Danh từ dùng để chỉ trầm tích, lớp cặn lắng.",
+          "topicId": "toefl-science"
+        }
+      ]
+    },
+    {
+      "id": "toefl-research",
+      "name": "Nghiên cứu, Giả thuyết & Thực nghiệm",
+      "icon": "education",
+      "words": [
+        {
+          "id": "toefl-6",
+          "deckId": "toefl-essential",
+          "word": "catalyst",
+          "pos": "n",
+          "ipaUK": "/ˈkæt.əl.ɪst/",
+          "ipaUS": "/ˈkæt̬.əl.ɪst/",
+          "meaning": "chất xúc tác; nhân tố thúc đẩy đột biến",
+          "examples": [
+            {
+              "en": "High-speed rail acted as a catalyst for regional tourism.",
+              "vi": "Đường sắt cao tốc đóng vai trò chất xúc tác cho du lịch vùng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "catalyze",
+              "pos": "v",
+              "meaning": "xúc tác"
+            }
+          ],
+          "synonyms": [
+            "spark",
+            "stimulus",
+            "driver"
+          ],
+          "antonyms": [
+            "inhibitor"
+          ],
+          "collocations": [
+            {
+              "phrase": "act as a catalyst for",
+              "meaning": "làm chất xúc tác cho"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to spark, stimulus, driver.",
+          "definitionVi": "Danh từ dùng để chỉ chất xúc tác; nhân tố thúc đẩy đột biến.",
+          "topicId": "toefl-research"
+        },
+        {
+          "id": "toefl-7",
+          "deckId": "toefl-essential",
+          "word": "erosion",
+          "pos": "n",
+          "ipaUK": "/ɪˈrəʊ.ʒən/",
+          "ipaUS": "/ɪˈroʊ.ʒən/",
+          "meaning": "sự xói mòn (đất, bờ biển)",
+          "examples": [
+            {
+              "en": "Coastal mangroves dramatically slow shoreline erosion.",
+              "vi": "Rừng ngập mặn ven biển làm chậm đáng kể xói mòn bờ biển."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "erode",
+              "pos": "v",
+              "meaning": "xói mòn"
+            }
+          ],
+          "synonyms": [
+            "wearing away",
+            "degradation"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "soil erosion",
+              "meaning": "xói mòn đất"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to wearing away, degradation.",
+          "definitionVi": "Danh từ dùng để chỉ sự xói mòn (đất, bờ biển).",
+          "topicId": "toefl-research"
+        },
+        {
+          "id": "toefl-8",
+          "deckId": "toefl-essential",
+          "word": "equilibrium",
+          "pos": "n",
+          "ipaUK": "/ˌiː.kwɪˈlɪb.ri.əm/",
+          "ipaUS": "/ˌiː.kwəˈlɪb.ri.əm/",
+          "meaning": "trạng thái cân bằng",
+          "examples": [
+            {
+              "en": "Market prices settle when supply and demand reach equilibrium.",
+              "vi": "Giá thị trường ổn định khi cung và cầu đạt trạng thái cân bằng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "balance",
+            "stability"
+          ],
+          "antonyms": [
+            "imbalance"
+          ],
+          "collocations": [
+            {
+              "phrase": "reach equilibrium",
+              "meaning": "đạt trạng thái cân bằng"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to balance, stability.",
+          "definitionVi": "Danh từ dùng để chỉ trạng thái cân bằng.",
+          "topicId": "toefl-research"
+        },
+        {
+          "id": "toefl-9",
+          "deckId": "toefl-essential",
+          "word": "empirical",
+          "pos": "adj",
+          "ipaUK": "/ɪmˈpɪr.ɪ.kəl/",
+          "ipaUS": "/ɪmˈpɪr.ɪ.kəl/",
+          "meaning": "thực nghiệm, dựa trên quan sát dữ liệu",
+          "examples": [
+            {
+              "en": "Policy reforms should rest on solid empirical research.",
+              "vi": "Cải cách chính sách nên dựa trên nghiên cứu thực nghiệm vững chắc."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "experimental",
+            "observational"
+          ],
+          "antonyms": [
+            "theoretical"
+          ],
+          "collocations": [
+            {
+              "phrase": "empirical data",
+              "meaning": "dữ liệu thực nghiệm"
+            }
+          ],
+          "definitionEn": "Having the quality of being experimental, observational.",
+          "definitionVi": "Tính từ mô tả đặc điểm thực nghiệm, dựa trên quan sát dữ liệu.",
+          "topicId": "toefl-research"
+        },
+        {
+          "id": "toefl-10",
+          "deckId": "toefl-essential",
+          "word": "migrate",
+          "pos": "v",
+          "ipaUK": "/maɪˈɡreɪt/",
+          "ipaUS": "/ˈmaɪ.ɡreɪt/",
+          "meaning": "di cư, di trú (động vật); chuyển hệ thống dữ liệu",
+          "examples": [
+            {
+              "en": "Millions of shorebirds migrate south before winter arrives.",
+              "vi": "Hàng triệu loài chim biển di cư về phương nam trước khi mùa đông tới."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "migration",
+              "pos": "n",
+              "meaning": "sự di cư / chuyển đổi dữ liệu"
+            }
+          ],
+          "synonyms": [
+            "relocate",
+            "move seasonally"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "seasonal migration",
+              "meaning": "di cư theo mùa"
+            }
+          ],
+          "definitionEn": "To relocate (also similar to move seasonally) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động di cư, di trú (động vật); chuyển hệ thống dữ liệu.",
+          "topicId": "toefl-research"
+        }
+      ]
+    }
+  ]
+}

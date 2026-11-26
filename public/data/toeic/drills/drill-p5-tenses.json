@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-tenses",
+  "part": 5,
+  "title": "Chuyên đề 2: Thì động từ (Verb Tenses)",
+  "subtitle": "Làm chủ Hiện tại hoàn thành với 'For the past', 'Once' và Quá khứ hoàn thành.",
+  "focusTag": "Verb Tenses",
+  "part5": [
+    {
+      "id": "dp5-tn-1",
+      "part": 5,
+      "topic": "Thì động từ (Verb Tenses)",
+      "difficulty": "Cơ bản",
+      "sentence": "Last quarter, Meridian Logistics _______ three electric delivery vans to its city fleet.",
+      "options": {
+        "A": "adds",
+        "B": "added",
+        "C": "will add",
+        "D": "has added"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Thì Quá khứ đơn với mốc thời gian xác định",
+          "signal": "Dấu hiệu rõ rệt: 'Last quarter' (quý trước — đã kết thúc trong quá khứ)."
+        },
+        "translation": {
+          "questionVi": "Quý trước, Meridian Logistics đã bổ sung ba xe tải giao hàng chạy điện vào đội xe thành phố.",
+          "optionsVi": {
+            "A": "bổ sung (hiện tại đơn)",
+            "B": "đã bổ sung (quá khứ đơn)",
+            "C": "sẽ bổ sung (tương lai)",
+            "D": "đã bổ sung (hiện tại hoàn thành)"
+          }
+        },
+        "proof": {
+          "explanation": "Mốc quá khứ kết thúc rõ ràng 'Last quarter' bắt buộc dùng Quá khứ đơn -> 'added'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thì hiện tại.",
+          "B": "Đúng: Quá khứ đơn khớp 'Last quarter'.",
+          "C": "Sai thì tương lai.",
+          "D": "Sai: hiện tại hoàn thành không đi với mốc quá khứ đã chấm dứt."
+        },
+        "keyTakeaways": {
+          "formula": "Last + week/month/quarter/year / yesterday / in 2023 -> V2/ed",
+          "commonTrap": "Hay nhầm giữa 'added' và 'has added'.",
+          "paraphrases": [
+            {
+              "textInPassage": "city fleet",
+              "textInAnswer": "group of delivery vehicles",
+              "meaningVi": "đội xe giao hàng"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-tn-2",
+      "part": 5,
+      "topic": "Thì động từ (Verb Tenses)",
+      "difficulty": "Trung bình",
+      "sentence": "For the past five years, Dr. Chen _______ a cross-departmental team on battery efficiency.",
+      "options": {
+        "A": "leads",
+        "B": "led",
+        "C": "has led",
+        "D": "will lead"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Thì Hiện tại hoàn thành với 'For the past + khoảng thời gian'",
+          "signal": "Dấu hiệu tủ: 'For the past five years'."
+        },
+        "translation": {
+          "questionVi": "Trong suốt năm năm qua, Tiến sĩ Chen đã dẫn dắt một nhóm liên phòng ban về hiệu suất pin.",
+          "optionsVi": {
+            "A": "dẫn dắt (hiện tại đơn)",
+            "B": "đã dẫn dắt (quá khứ đơn)",
+            "C": "đã và đang dẫn dắt (hiện tại hoàn thành)",
+            "D": "sẽ dẫn dắt (tương lai)"
+          }
+        },
+        "proof": {
+          "explanation": "'For the past/last + khoảng thời gian' luôn đi với thì Hiện tại hoàn thành -> 'has led'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thì.",
+          "B": "Sai: 'past' ở đây nằm trong cụm 'For the past 5 years' (tính tới hiện tại).",
+          "C": "Đúng: Hiện tại hoàn thành.",
+          "D": "Sai thì tương lai."
+        },
+        "keyTakeaways": {
+          "formula": "For the past / last + duration  ->  S + has/have + V3",
+          "commonTrap": "Nhìn thấy chữ 'past' liền vội chia Quá khứ đơn 'led' — bẫy kinh điển!",
+          "paraphrases": [
+            {
+              "textInPassage": "cross-departmental",
+              "textInAnswer": "involving multiple departments",
+              "meaningVi": "liên phòng ban"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-tn-3",
+      "part": 5,
+      "topic": "Thì động từ (Verb Tenses)",
+      "difficulty": "Trung bình",
+      "sentence": "Once the inspection team _______ the safety certificate, the new wing will open to guests.",
+      "options": {
+        "A": "issues",
+        "B": "will issue",
+        "C": "issued",
+        "D": "had issued"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Mệnh đề trạng ngữ chỉ thời gian ở tương lai (Once + Hiện tại đơn)",
+          "signal": "Vế chính ở tương lai đơn ('will open') -> sau 'Once' KHÔNG dùng 'will'."
+        },
+        "translation": {
+          "questionVi": "Ngay khi đội kiểm định cấp chứng chỉ an toàn, khu cánh mới sẽ mở cửa đón khách.",
+          "optionsVi": {
+            "A": "cấp (hiện tại đơn)",
+            "B": "sẽ cấp (sai sau Once)",
+            "C": "đã cấp (quá khứ)",
+            "D": "đã cấp (quá khứ hoàn thành)"
+          }
+        },
+        "proof": {
+          "explanation": "Trong mệnh đề thời gian (when, once, until, as soon as, before, after) nói về tương lai, động từ chia Hiện tại đơn -> 'issues'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: Once + S + V(hiện tại đơn), S + will + V0.",
+          "B": "Sai ngữ pháp: không dùng 'will' trong mệnh đề thời gian.",
+          "C": "Sai thì.",
+          "D": "Sai thì."
+        },
+        "keyTakeaways": {
+          "formula": "Once / When / As soon as / Until + S + V(hiện tại đơn), S + will + V0",
+          "commonTrap": "Dịch tiếng Việt 'ngay khi sẽ cấp' rồi chọn nhầm 'will issue'.",
+          "paraphrases": [
+            {
+              "textInPassage": "issue a certificate",
+              "textInAnswer": "grant official approval",
+              "meaningVi": "cấp giấy chứng nhận"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-tn-4",
+      "part": 5,
+      "topic": "Thì động từ (Verb Tenses)",
+      "difficulty": "Nâng cao",
+      "sentence": "Before joining Crestline Bank in 2022, Mr. Okafor _______ as a senior auditor in London.",
+      "options": {
+        "A": "works",
+        "B": "has worked",
+        "C": "had worked",
+        "D": "will have worked"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Thì Quá khứ hoàn thành (hành động xảy ra trước một mốc quá khứ)",
+          "signal": "Mốc quá khứ rõ ràng: 'Before joining ... in 2022'."
+        },
+        "translation": {
+          "questionVi": "Trước khi gia nhập Ngân hàng Crestline năm 2022, ông Okafor đã từng làm kiểm toán viên cấp cao tại London.",
+          "optionsVi": {
+            "A": "làm việc (hiện tại)",
+            "B": "đã làm việc (hiện tại hoàn thành)",
+            "C": "đã từng làm việc (quá khứ hoàn thành)",
+            "D": "sẽ đã làm (tương lai hoàn thành)"
+          }
+        },
+        "proof": {
+          "explanation": "Hành động xảy ra và hoàn tất TRƯỚC một mốc quá khứ (2022) -> chia Quá khứ hoàn thành 'had worked'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thì hiện tại.",
+          "B": "Sai: mốc 2022 đã chấm dứt trong quá khứ.",
+          "C": "Đúng: Quá khứ hoàn thành cho hành động trước mốc quá khứ.",
+          "D": "Sai thì tương lai."
+        },
+        "keyTakeaways": {
+          "formula": "Before + Past event/date, S + had + V3",
+          "commonTrap": "Nhầm giữa 'has worked' và 'had worked'.",
+          "paraphrases": [
+            {
+              "textInPassage": "senior auditor",
+              "textInAnswer": "experienced financial inspector",
+              "meaningVi": "kiểm toán viên cấp cao"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-tn-5",
+      "part": 5,
+      "topic": "Thì động từ (Verb Tenses)",
+      "difficulty": "Trung bình",
+      "sentence": "Every Thursday afternoon, the maintenance crew _______ all rooftop solar arrays for dust.",
+      "options": {
+        "A": "checks",
+        "B": "checked",
+        "C": "is checking",
+        "D": "has checked"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Thì Hiện tại đơn chỉ thói quen định kỳ",
+          "signal": "Dấu hiệu tần suất: 'Every Thursday afternoon' + chủ ngữ số ít 'crew'."
+        },
+        "translation": {
+          "questionVi": "Chiều thứ Năm hằng tuần, đội bảo trì kiểm tra bụi trên toàn bộ dãy pin mặt trời trên mái.",
+          "optionsVi": {
+            "A": "kiểm tra (hiện tại đơn)",
+            "B": "đã kiểm tra (quá khứ)",
+            "C": "đang kiểm tra (tiếp diễn)",
+            "D": "đã kiểm tra (hoàn thành)"
+          }
+        },
+        "proof": {
+          "explanation": "Hành động lặp đi lặp lại đều đặn ('Every Thursday afternoon') chia Hiện tại đơn -> 'checks'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: Hiện tại đơn hòa hợp với 'the maintenance crew'.",
+          "B": "Sai thì quá khứ.",
+          "C": "Sai thì tiếp diễn.",
+          "D": "Sai thì hoàn thành."
+        },
+        "keyTakeaways": {
+          "formula": "Every + day/week/month + S + V(s/es)",
+          "commonTrap": "Chia sai thì vì không chú ý cụm trạng từ tần suất đầu câu.",
+          "paraphrases": [
+            {
+              "textInPassage": "maintenance crew",
+              "textInAnswer": "repair staff",
+              "meaningVi": "đội bảo trì"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

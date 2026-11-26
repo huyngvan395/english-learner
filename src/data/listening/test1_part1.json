@@ -1,0 +1,654 @@
+[
+  {
+    "id": "t1-l1-q1",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Tranh 1: Nhân viên nữ cầm máy tính bên cửa sổ (Tả 1 người)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/part1/part1_office_laptop.jpg",
+    "transcript": [
+      {
+        "id": "t1-l1-q1-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. She is typing on an open laptop computer.",
+        "vi": "A. Cô ấy đang gõ phím trên một chiếc máy tính xách tay đang mở.",
+        "startMs": 250,
+        "endMs": 3922
+      },
+      {
+        "id": "t1-l1-q1-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. She is resting her hands on a closed laptop by a window.",
+        "vi": "B. Cô ấy đang đặt tay lên một chiếc laptop gập kín bên cạnh cửa sổ.",
+        "evidenceForQuestionIds": [
+          "t1-l1-q1"
+        ],
+        "startMs": 4572,
+        "endMs": 8796
+      },
+      {
+        "id": "t1-l1-q1-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. She is handing a blazer to a coworker.",
+        "vi": "C. Cô ấy đang đưa chiếc áo vest cho một đồng nghiệp.",
+        "startMs": 9446,
+        "endMs": 12926
+      },
+      {
+        "id": "t1-l1-q1-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. She is wiping down a glass windowpane.",
+        "vi": "D. Cô ấy đang lau sạch tấm kính cửa sổ.",
+        "startMs": 13576,
+        "endMs": 16888
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "She is typing on an open laptop computer.",
+        "vi": "Cô ấy đang gõ phím trên một chiếc máy tính xách tay đang mở."
+      },
+      "B": {
+        "en": "She is resting her hands on a closed laptop by a window.",
+        "vi": "Cô ấy đang đặt tay lên một chiếc laptop gập kín bên cạnh cửa sổ."
+      },
+      "C": {
+        "en": "She is handing a blazer to a coworker.",
+        "vi": "Cô ấy đang đưa chiếc áo vest cho một đồng nghiệp."
+      },
+      "D": {
+        "en": "She is wiping down a glass windowpane.",
+        "vi": "Cô ấy đang lau sạch tấm kính cửa sổ."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy Trạng thái đồ vật (closed laptop ≠ open laptop) & Đối tượng không xuất hiện",
+      "trapAnalysis": "Chiếc laptop trên đùi cô ấy đang GẬP KÍN (closed) và hai tay cô đặt nhẹ lên nắp máy chứ không mở ra gõ phím (bẫy A cực điển hình!). Đáp án C gài từ 'coworker' nhưng ảnh chỉ có 1 người.",
+      "paraphrases": [
+        {
+          "audioPhrase": "resting her hands on a closed laptop",
+          "answerPhrase": "holding a shut computer on her lap",
+          "meaningVi": "đặt tay lên chiếc laptop đang gập kín"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI — Laptop đang gập kín, cô ấy không gõ phím.",
+        "B": "ĐÚNG — Mô tả chính xác 100% tư thế tay đặt trên laptop gập cạnh cửa sổ.",
+        "C": "SAI — Cô ấy đang mặc áo vest xám, không đưa cho ai và không có đồng nghiệp.",
+        "D": "SAI — Cửa sổ ở phía sau nhưng cô ấy không lau kính."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-t1-p1-1",
+          "word": "rest one's hands on",
+          "pos": "phrase",
+          "ipaUK": "/rest wʌnz hændz ɒn/",
+          "ipaUS": "/rest wʌnz hændz ɑːn/",
+          "meaning": "đặt nhẹ tay lên trên",
+          "exampleEn": "She rested her hands on the closed folder.",
+          "exampleVi": "Cô ấy đặt tay lên tập hồ sơ đã đóng."
+        },
+        {
+          "id": "lv-t1-p1-2",
+          "word": "wipe down",
+          "pos": "phrase",
+          "ipaUK": "/waɪp daʊn/",
+          "ipaUS": "/waɪp daʊn/",
+          "meaning": "lau chùi sạch bề mặt",
+          "exampleEn": "Staff wipe down the counters before closing.",
+          "exampleVi": "Nhân viên lau sạch quầy trước khi đóng cửa."
+        }
+      ]
+    },
+    "audioUrl": "/audio/listening/p1_q1.mp3"
+  },
+  {
+    "id": "t1-l1-q2",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Tranh 2: Nhóm đồng nghiệp thảo luận trước bảng ghi chú (Tả nhiều người)",
+    "illustrationKey": "meeting-whiteboard",
+    "imageUrl": "/images/part1/part1_meeting_room.jpg",
+    "transcript": [
+      {
+        "id": "t1-l1-q2-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. A woman is pointing at sticky notes arranged on a wall.",
+        "vi": "A. Một người phụ nữ đang chỉ vào các tờ giấy ghi chú dán trên tường.",
+        "evidenceForQuestionIds": [
+          "t1-l1-q2"
+        ],
+        "startMs": 250,
+        "endMs": 4306
+      },
+      {
+        "id": "t1-l1-q2-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. Everyone in the meeting room is standing up.",
+        "vi": "B. Mọi người trong phòng họp đều đang đứng.",
+        "startMs": 4956,
+        "endMs": 8460
+      },
+      {
+        "id": "t1-l1-q2-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. The laptops have been stacked in a corner.",
+        "vi": "C. Những chiếc máy tính xách tay đã được xếp chồng ở một góc.",
+        "startMs": 9110,
+        "endMs": 12422
+      },
+      {
+        "id": "t1-l1-q2-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. A presenter is turning off a ceiling projector.",
+        "vi": "D. Một người thuyết trình đang tắt máy chiếu gắn trần.",
+        "startMs": 13072,
+        "endMs": 16672
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "A woman is pointing at sticky notes arranged on a wall.",
+        "vi": "Một người phụ nữ đang chỉ vào các tờ giấy ghi chú dán trên tường."
+      },
+      "B": {
+        "en": "Everyone in the meeting room is standing up.",
+        "vi": "Mọi người trong phòng họp đều đang đứng."
+      },
+      "C": {
+        "en": "The laptops have been stacked in a corner.",
+        "vi": "Những chiếc máy tính xách tay đã được xếp chồng ở một góc."
+      },
+      "D": {
+        "en": "A presenter is turning off a ceiling projector.",
+        "vi": "Một người thuyết trình đang tắt máy chiếu gắn trần."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy Khái quát quá mức ('Everyone') & Sai vị trí đồ vật ('stacked in a corner')",
+      "trapAnalysis": "Chỉ có duy nhất 1 người phụ nữ áo trắng đứng chỉ vào giấy note, còn các đồng nghiệp khác đều đang ngồi quanh bàn → loại ngay B ('Everyone'). Các laptop đang mở rải rác trên bàn họp chứ không xếp chồng.",
+      "paraphrases": [
+        {
+          "audioPhrase": "pointing at sticky notes arranged on a wall",
+          "answerPhrase": "gesturing toward notes posted on the board",
+          "meaningVi": "chỉ tay vào giấy ghi chú dán trên tường"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Cô gái áo trắng đứng giơ tay chỉ vào mảng giấy ghi chú hồng/vàng dán trên tường.",
+        "B": "SAI — Bốn người xung quanh bàn đều đang ngồi.",
+        "C": "SAI — Laptop đang mở sử dụng trên bàn, không xếp chồng.",
+        "D": "SAI — Không có máy chiếu trần nào đang được tắt."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-t1-p1-3",
+          "word": "sticky note",
+          "pos": "n",
+          "ipaUK": "/ˈstɪk.i nəʊt/",
+          "ipaUS": "/ˈstɪk.i noʊt/",
+          "meaning": "giấy ghi chú dán tường",
+          "exampleEn": "We organized ideas with colorful sticky notes.",
+          "exampleVi": "Chúng tôi sắp xếp ý tưởng bằng giấy ghi chú nhiều màu."
+        },
+        {
+          "id": "lv-t1-p1-4",
+          "word": "arranged on",
+          "pos": "phrase",
+          "ipaUK": "/əˈreɪndʒd ɒn/",
+          "ipaUS": "/əˈreɪndʒd ɑːn/",
+          "meaning": "được sắp xếp ngay ngắn trên",
+          "exampleEn": "Brochures are neatly arranged on the counter.",
+          "exampleVi": "Tờ rơi được xếp ngay ngắn trên quầy."
+        }
+      ]
+    },
+    "audioUrl": "/audio/listening/p1_q2.mp3"
+  },
+  {
+    "id": "t1-l1-q3",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Tranh 3: Không gian bên trong quán cà phê (Tả bối cảnh & người)",
+    "illustrationKey": "cafe-patio",
+    "imageUrl": "/images/part1/part1_cafe_patio.jpg",
+    "transcript": [
+      {
+        "id": "t1-l1-q3-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Customers are lining up outdoors under umbrellas.",
+        "vi": "A. Khách hàng đang xếp hàng ngoài trời dưới những chiếc ô.",
+        "startMs": 250,
+        "endMs": 4810
+      },
+      {
+        "id": "t1-l1-q3-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. A large potted plant stands near empty chairs inside a café.",
+        "vi": "B. Một chậu cây lớn đặt gần những chiếc ghế trống bên trong quán cà phê.",
+        "evidenceForQuestionIds": [
+          "t1-l1-q3"
+        ],
+        "startMs": 5460,
+        "endMs": 10980
+      },
+      {
+        "id": "t1-l1-q3-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. Chairs have been overturned on top of the counter.",
+        "vi": "C. Ghế đã bị lật úp lên trên mặt quầy.",
+        "startMs": 11630,
+        "endMs": 15710
+      },
+      {
+        "id": "t1-l1-q3-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. A waiter is sweeping the floor behind the bar.",
+        "vi": "D. Một người phục vụ đang quét sàn phía sau quầy bar.",
+        "startMs": 16360,
+        "endMs": 20464
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Customers are lining up outdoors under umbrellas.",
+        "vi": "Khách hàng đang xếp hàng ngoài trời dưới những chiếc ô."
+      },
+      "B": {
+        "en": "A large potted plant stands near empty chairs inside a café.",
+        "vi": "Một chậu cây lớn đặt gần những chiếc ghế trống bên trong quán cà phê."
+      },
+      "C": {
+        "en": "Chairs have been overturned on top of the counter.",
+        "vi": "Ghế đã bị lật úp lên trên mặt quầy."
+      },
+      "D": {
+        "en": "A waiter is sweeping the floor behind the bar.",
+        "vi": "Một người phục vụ đang quét sàn phía sau quầy bar."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy Trong nhà vs. Ngoài trời (inside a café ≠ outdoors) & Hành động giả (sweeping)",
+      "trapAnalysis": "Ảnh chụp BÊN TRONG quán cà phê (có bảng menu đen, quầy pha chế, cây trồng chậu lớn ở chính giữa, nhóm ghế trống phía trước). Đáp án A sai bối cảnh ngoài trời, D gài hành động quét sàn không xảy ra.",
+      "paraphrases": [
+        {
+          "audioPhrase": "stands near empty chairs",
+          "answerPhrase": "is positioned beside unoccupied seating",
+          "meaningVi": "được đặt cạnh các ghế trống"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI — Đây là không gian trong nhà, không có ô hay khách xếp hàng ngoài trời.",
+        "B": "ĐÚNG — Chậu cây cao lớn đứng nổi bật ngay sát cụm ghế trắng trống trong quán.",
+        "C": "SAI — Ghế đặt ngay ngắn dưới sàn, không úp lên quầy.",
+        "D": "SAI — Nhân viên đứng sau quầy pha chế không cầm chổi quét sàn."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-t1-p1-5",
+          "word": "potted plant",
+          "pos": "phrase",
+          "ipaUK": "/ˌpɒt.ɪd ˈplɑːnt/",
+          "ipaUS": "/ˌpɑːt̬.ɪd ˈplænt/",
+          "meaning": "cây trồng trong chậu",
+          "exampleEn": "A tall potted plant brightens the lobby corner.",
+          "exampleVi": "Một chậu cây cao làm sáng bừng góc sảnh."
+        }
+      ]
+    },
+    "audioUrl": "/audio/listening/p1_q3.mp3"
+  },
+  {
+    "id": "t1-l1-q4",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Tranh 4: Lối đi giữa hai dãy kệ hàng trong kho (Tả vật — không người)",
+    "illustrationKey": "warehouse-shelves",
+    "imageUrl": "/images/part1/part1_warehouse.jpg",
+    "transcript": [
+      {
+        "id": "t1-l1-q4-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. Workers are loading cartons onto a delivery truck.",
+        "vi": "A. Công nhân đang chất các thùng các-tông lên xe tải giao hàng.",
+        "startMs": 250,
+        "endMs": 4234
+      },
+      {
+        "id": "t1-l1-q4-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. Shelves are being assembled by technicians.",
+        "vi": "B. Các kệ hàng đang được kỹ thuật viên lắp ráp.",
+        "startMs": 4884,
+        "endMs": 8388
+      },
+      {
+        "id": "t1-l1-q4-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. Boxes and wrapped packages are stacked along both sides of an aisle.",
+        "vi": "C. Các thùng hộp và kiện hàng bọc kín được xếp chồng dọc hai bên lối đi.",
+        "evidenceForQuestionIds": [
+          "t1-l1-q4"
+        ],
+        "startMs": 9038,
+        "endMs": 13790
+      },
+      {
+        "id": "t1-l1-q4-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. A forklift is blocking the center walkway.",
+        "vi": "D. Một chiếc xe nâng đang chặn lối đi chính giữa.",
+        "startMs": 14440,
+        "endMs": 17992
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Workers are loading cartons onto a delivery truck.",
+        "vi": "Công nhân đang chất các thùng các-tông lên xe tải giao hàng."
+      },
+      "B": {
+        "en": "Shelves are being assembled by technicians.",
+        "vi": "Các kệ hàng đang được kỹ thuật viên lắp ráp."
+      },
+      "C": {
+        "en": "Boxes and wrapped packages are stacked along both sides of an aisle.",
+        "vi": "Các thùng hộp và kiện hàng bọc kín được xếp chồng dọc hai bên lối đi."
+      },
+      "D": {
+        "en": "A forklift is blocking the center walkway.",
+        "vi": "Một chiếc xe nâng đang chặn lối đi chính giữa."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy Tranh không người nhưng đáp án có 'Workers' / 'being assembled'",
+      "trapAnalysis": "Quy tắc bất biến Part 1: Tranh hoàn toàn KHÔNG CÓ NGƯỜI → Loại lập tức A ('Workers') và B (bị động tiếp diễn 'are being assembled'). Lối đi chính giữa hoàn toàn trống trải nên loại D.",
+      "paraphrases": [
+        {
+          "audioPhrase": "stacked along both sides of an aisle",
+          "answerPhrase": "piled neatly on warehouse racks",
+          "meaningVi": "được xếp chồng dọc hai bên lối đi kho"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI — Không có công nhân hay xe tải trong ảnh.",
+        "B": "SAI — Bẫy bị động tiếp diễn 'being + V3' cho ảnh không người.",
+        "C": "ĐÚNG — Mô tả trạng thái tĩnh chính xác các thùng hàng và kiện bọc màng co dọc hai dãy kệ.",
+        "D": "SAI — Lối đi giữa hoàn toàn thông thoáng, không có xe nâng."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-t1-p1-6",
+          "word": "aisle",
+          "pos": "n",
+          "ipaUK": "/aɪl/",
+          "ipaUS": "/aɪl/",
+          "meaning": "lối đi giữa hai dãy kệ/ghế (âm s câm)",
+          "exampleEn": "Keep warehouse aisles clear at all times.",
+          "exampleVi": "Luôn giữ lối đi trong kho thông thoáng."
+        },
+        {
+          "id": "lv-t1-p1-7",
+          "word": "stacked",
+          "pos": "adj",
+          "ipaUK": "/stækt/",
+          "ipaUS": "/stækt/",
+          "meaning": "được xếp chồng lên nhau",
+          "exampleEn": "Pallets are stacked neatly on the upper racks.",
+          "exampleVi": "Các pallet được xếp chồng gọn gàng trên kệ trên."
+        }
+      ]
+    },
+    "audioUrl": "/audio/listening/p1_q4.mp3"
+  },
+  {
+    "id": "t1-l1-q5",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Tranh 5: Bàn làm việc dài cạnh cửa kính lớn (Tả vật — không người)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/part1/part1_office_desk.jpg",
+    "transcript": [
+      {
+        "id": "t1-l1-q5-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "A. An employee is typing beside a potted plant.",
+        "vi": "A. Một nhân viên đang gõ máy tính bên cạnh chậu cây.",
+        "startMs": 250,
+        "endMs": 3970
+      },
+      {
+        "id": "t1-l1-q5-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "B. An open laptop has been left on a long counter next to a window.",
+        "vi": "B. Một chiếc laptop đang mở được để trên chiếc bàn dài cạnh cửa sổ.",
+        "evidenceForQuestionIds": [
+          "t1-l1-q5"
+        ],
+        "startMs": 4620,
+        "endMs": 9156
+      },
+      {
+        "id": "t1-l1-q5-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "C. Blinds have been pulled down to block the sunlight.",
+        "vi": "C. Rèm cửa đã được kéo xuống để chắn ánh nắng.",
+        "startMs": 9806,
+        "endMs": 13358
+      },
+      {
+        "id": "t1-l1-q5-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "D. Stools are being carried into a conference room.",
+        "vi": "D. Những chiếc ghế đẩu đang được khiêng vào phòng họp.",
+        "startMs": 14008,
+        "endMs": 17392
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "An employee is typing beside a potted plant.",
+        "vi": "Một nhân viên đang gõ máy tính bên cạnh chậu cây."
+      },
+      "B": {
+        "en": "An open laptop has been left on a long counter next to a window.",
+        "vi": "Một chiếc laptop đang mở được để trên chiếc bàn dài cạnh cửa sổ."
+      },
+      "C": {
+        "en": "Blinds have been pulled down to block the sunlight.",
+        "vi": "Rèm cửa đã được kéo xuống để chắn ánh nắng."
+      },
+      "D": {
+        "en": "Stools are being carried into a conference room.",
+        "vi": "Những chiếc ghế đẩu đang được khiêng vào phòng họp."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy Hiện tại hoàn thành bị động ('has been left') cho ảnh không người",
+      "trapAnalysis": "Ảnh hoàn toàn không có nhân viên → loại A và D ('are being carried'). Cửa kính sáng rộng hoàn toàn không kéo rèm che nắng → loại C. Chỉ B dùng 'has been left' mô tả đúng trạng thái chiếc laptop mở nằm trên bàn dài cạnh cửa kính.",
+      "paraphrases": [
+        {
+          "audioPhrase": "has been left on a long counter",
+          "answerPhrase": "rests open on a wooden desk",
+          "meaningVi": "được đặt mở trên mặt bàn dài"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI — Không có người trong ảnh.",
+        "B": "ĐÚNG — Chiếc laptop mở + sổ tay nằm trên mặt bàn dài cạnh khung cửa kính cao.",
+        "C": "SAI — Cửa sổ sáng rõ, nhìn thấy tòa nhà bên ngoài, không hề kéo rèm che.",
+        "D": "SAI — Ghế đẩu trắng đặt yên dưới gầm bàn, không ai khiêng."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-t1-p1-8",
+          "word": "counter",
+          "pos": "n",
+          "ipaUK": "/ˈkaʊn.tər/",
+          "ipaUS": "/ˈkaʊn.t̬ɚ/",
+          "meaning": "mặt bàn dài / quầy giao dịch",
+          "exampleEn": "Leave the signed receipts on the front counter.",
+          "exampleVi": "Hãy để biên lai đã ký trên quầy phía trước."
+        }
+      ]
+    },
+    "audioUrl": "/audio/listening/p1_q5.mp3"
+  },
+  {
+    "id": "t1-l1-q6",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Tranh 6: Đại lộ trung tâm với xe cộ & nhà cao tầng (Tả khung cảnh đường phố)",
+    "illustrationKey": "cafe-patio",
+    "imageUrl": "/images/part1/part1_street_walk.jpg",
+    "transcript": [
+      {
+        "id": "t1-l1-q6-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. Pedestrians are boarding a double-decker bus.",
+        "vi": "A. Người đi bộ đang bước lên một chiếc xe buýt hai tầng.",
+        "startMs": 250,
+        "endMs": 3370
+      },
+      {
+        "id": "t1-l1-q6-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. Road workers are repaving a narrow alley.",
+        "vi": "B. Công nhân đường bộ đang trải nhựa một con hẻm hẹp.",
+        "startMs": 4020,
+        "endMs": 7116
+      },
+      {
+        "id": "t1-l1-q6-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. Vehicles are traveling along a wide city street lined with tall buildings.",
+        "vi": "C. Xe cộ đang di chuyển dọc một đại lộ rộng lớn với các tòa nhà cao tầng hai bên.",
+        "evidenceForQuestionIds": [
+          "t1-l1-q6"
+        ],
+        "startMs": 7766,
+        "endMs": 12350
+      },
+      {
+        "id": "t1-l1-q6-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. Traffic lights have been covered with plastic sheets.",
+        "vi": "D. Đèn giao thông đã được phủ bằng tấm bạt nhựa.",
+        "startMs": 13000,
+        "endMs": 16144
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Pedestrians are boarding a double-decker bus.",
+        "vi": "Người đi bộ đang bước lên một chiếc xe buýt hai tầng."
+      },
+      "B": {
+        "en": "Road workers are repaving a narrow alley.",
+        "vi": "Công nhân đường bộ đang trải nhựa một con hẻm hẹp."
+      },
+      "C": {
+        "en": "Vehicles are traveling along a wide city street lined with tall buildings.",
+        "vi": "Xe cộ đang di chuyển dọc một đại lộ rộng lớn với các tòa nhà cao tầng hai bên."
+      },
+      "D": {
+        "en": "Traffic lights have been covered with plastic sheets.",
+        "vi": "Đèn giao thông đã được phủ bằng tấm bạt nhựa."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy Chi tiết tưởng tượng (bus / road workers / plastic sheets)",
+      "trapAnalysis": "Ảnh cho thấy đại lộ rộng giữa các tòa nhà chọc trời với nhiều xe taxi vàng và xe con lưu thông. Các phương án A, B, D thêm thắt vật thể không hề có trong khung hình.",
+      "paraphrases": [
+        {
+          "audioPhrase": "lined with tall buildings",
+          "answerPhrase": "flanked by skyscrapers on both sides",
+          "meaningVi": "có các tòa nhà cao tầng dọc hai bên đường"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI — Không có xe buýt hai tầng nào.",
+        "B": "SAI — Đây là đại lộ rộng, không có công nhân sửa đường.",
+        "C": "ĐÚNG — Mô tả chính xác xe cộ đi trên con phố rộng giữa hai hàng nhà cao tầng.",
+        "D": "SAI — Đèn giao thông màu vàng hoạt động bình thường, không che bạt."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-t1-p1-9",
+          "word": "lined with",
+          "pos": "phrase",
+          "ipaUK": "/laɪnd wɪð/",
+          "ipaUS": "/laɪnd wɪð/",
+          "meaning": "có hàng dài (cây/tòa nhà) dọc hai bên",
+          "exampleEn": "The boulevard is lined with historic cafés.",
+          "exampleVi": "Đại lộ có các quán cà phê cổ dọc hai bên."
+        },
+        {
+          "id": "lv-t1-p1-10",
+          "word": "pedestrian",
+          "pos": "n",
+          "ipaUK": "/pəˈdes.tri.ən/",
+          "ipaUS": "/pəˈdes.tri.ən/",
+          "meaning": "người đi bộ",
+          "exampleEn": "Vehicles must yield to pedestrians at the crosswalk.",
+          "exampleVi": "Xe cộ phải nhường đường cho người đi bộ tại vạch qua đường."
+        }
+      ]
+    },
+    "audioUrl": "/audio/listening/p1_q6.mp3"
+  }
+]

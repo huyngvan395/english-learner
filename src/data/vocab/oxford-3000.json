@@ -1,0 +1,5172 @@
+{
+  "id": "oxford-3000",
+  "title": "Oxford 3000 (A1, A2, B1, B2)",
+  "subtitle": "Danh sách 3000 từ cốt lõi quan trọng nhất do Đại học Oxford tuyển chọn cho mọi người học.",
+  "category": "oxford",
+  "levelLabel": "A1 – B2",
+  "tags": [
+    "#a1",
+    "#a2",
+    "#b1",
+    "#b2",
+    "#oxford"
+  ],
+  "coverTheme": "oxford-3000",
+  "accentGradient": "from-amber-500 via-orange-500 to-rose-500",
+  "badgeText": "OXFORD 3000",
+  "words": [
+    {
+      "id": "ox3-1",
+      "deckId": "oxford-3000",
+      "word": "efficient",
+      "pos": "adj",
+      "ipaUK": "/ɪˈfɪʃ.ənt/",
+      "ipaUS": "/ɪˈfɪʃ.ənt/",
+      "meaning": "hiệu quả, năng suất cao",
+      "examples": [
+        {
+          "en": "The new warehouse layout delivers a far more efficient workflow.",
+          "vi": "Cách bố trí kho mới mang lại quy trình làm việc hiệu quả hơn nhiều."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "efficiency",
+          "pos": "n",
+          "meaning": "hiệu suất"
+        },
+        {
+          "word": "efficiently",
+          "pos": "adv",
+          "meaning": "một cách hiệu quả"
+        }
+      ],
+      "synonyms": [
+        "productive",
+        "effective"
+      ],
+      "antonyms": [
+        "inefficient",
+        "wasteful"
+      ],
+      "collocations": [
+        {
+          "phrase": "energy-efficient",
+          "meaning": "tiết kiệm năng lượng"
+        }
+      ],
+      "definitionEn": "Working cleanly and productively while wasting minimal time, money, or energy.",
+      "definitionVi": "Làm việc năng suất và khoa học, giảm thiểu tối đa lãng phí thời gian, tiền bạc hay năng lượng.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-2",
+      "deckId": "oxford-3000",
+      "word": "reliable",
+      "pos": "adj",
+      "ipaUK": "/rɪˈlaɪ.ə.bəl/",
+      "ipaUS": "/rɪˈlaɪ.ə.bəl/",
+      "meaning": "đáng tin cậy, ổn định",
+      "examples": [
+        {
+          "en": "Choosing a reliable courier guarantees timely international shipping.",
+          "vi": "Chọn đơn vị vận chuyển đáng tin cậy đảm bảo giao hàng quốc tế đúng hẹn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "rely",
+          "pos": "v",
+          "meaning": "dựa vào"
+        },
+        {
+          "word": "reliability",
+          "pos": "n",
+          "meaning": "độ tin cậy"
+        }
+      ],
+      "synonyms": [
+        "dependable",
+        "trustworthy"
+      ],
+      "antonyms": [
+        "unreliable"
+      ],
+      "collocations": [
+        {
+          "phrase": "reliable source",
+          "meaning": "nguồn tin đáng tin cậy"
+        }
+      ],
+      "definitionEn": "Consistently trustworthy and performing well whenever needed without unexpected failure.",
+      "definitionVi": "Luôn đáng tin cậy và vận hành ổn định bất cứ khi nào cần mà không hỏng hóc bất ngờ.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-3",
+      "deckId": "oxford-3000",
+      "word": "expand",
+      "pos": "v",
+      "ipaUK": "/ɪkˈspænd/",
+      "ipaUS": "/ɪkˈspænd/",
+      "meaning": "mở rộng (quy mô, thị trường)",
+      "examples": [
+        {
+          "en": "The bakery plans to expand into three neighboring cities next year.",
+          "vi": "Tiệm bánh dự định mở rộng sang ba thành phố lân cận vào năm tới."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "expansion",
+          "pos": "n",
+          "meaning": "sự mở rộng"
+        }
+      ],
+      "synonyms": [
+        "grow",
+        "broaden",
+        "enlarge"
+      ],
+      "antonyms": [
+        "shrink",
+        "downsize"
+      ],
+      "collocations": [
+        {
+          "phrase": "expand operations",
+          "meaning": "mở rộng quy mô hoạt động"
+        }
+      ],
+      "definitionEn": "To grow larger in physical size, store count, market reach, or range of services.",
+      "definitionVi": "Mở rộng quy mô về diện tích, số chi nhánh, phạm vi thị trường hoặc danh mục dịch vụ.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-4",
+      "deckId": "oxford-3000",
+      "word": "maintain",
+      "pos": "v",
+      "ipaUK": "/meɪnˈteɪn/",
+      "ipaUS": "/meɪnˈteɪn/",
+      "meaning": "duy trì; bảo trì, bảo dưỡng",
+      "examples": [
+        {
+          "en": "Engineers inspect and maintain the escalators every month.",
+          "vi": "Kỹ sư kiểm tra và bảo trì thang cuốn mỗi tháng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "maintenance",
+          "pos": "n",
+          "meaning": "sự bảo trì"
+        }
+      ],
+      "synonyms": [
+        "preserve",
+        "sustain",
+        "service"
+      ],
+      "antonyms": [
+        "neglect"
+      ],
+      "collocations": [
+        {
+          "phrase": "routine maintenance",
+          "meaning": "bảo trì định kỳ"
+        }
+      ],
+      "definitionEn": "To keep equipment, buildings, or standards in good working condition through regular care.",
+      "definitionVi": "Duy trì thiết bị, tòa nhà hoặc tiêu chuẩn ở trạng thái tốt nhờ chăm sóc, bảo dưỡng định kỳ.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-5",
+      "deckId": "oxford-3000",
+      "word": "participate",
+      "pos": "v",
+      "ipaUK": "/pɑːˈtɪs.ɪ.peɪt/",
+      "ipaUS": "/pɑːrˈtɪs.ə.peɪt/",
+      "meaning": "tham gia vào (đi với in)",
+      "examples": [
+        {
+          "en": "Staff are encouraged to participate in the annual charity marathon.",
+          "vi": "Nhân viên được khuyến khích tham gia giải chạy từ thiện thường niên."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "participant",
+          "pos": "n",
+          "meaning": "người tham gia"
+        },
+        {
+          "word": "participation",
+          "pos": "n",
+          "meaning": "sự tham gia"
+        }
+      ],
+      "synonyms": [
+        "take part in",
+        "join"
+      ],
+      "antonyms": [
+        "withdraw from"
+      ],
+      "collocations": [
+        {
+          "phrase": "active participation",
+          "meaning": "sự tham gia tích cực"
+        }
+      ],
+      "definitionEn": "To take part in (also similar to join) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tham gia vào (đi với in).",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-6",
+      "deckId": "oxford-3000",
+      "word": "significant",
+      "pos": "adj",
+      "ipaUK": "/sɪɡˈnɪf.ɪ.kənt/",
+      "ipaUS": "/sɪɡˈnɪf.ə.kənt/",
+      "meaning": "đáng kể, quan trọng",
+      "examples": [
+        {
+          "en": "Online bookings showed a significant rise over the holiday period.",
+          "vi": "Đặt chỗ trực tuyến ghi nhận mức tăng đáng kể trong kỳ nghỉ lễ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "significantly",
+          "pos": "adv",
+          "meaning": "đáng kể"
+        },
+        {
+          "word": "significance",
+          "pos": "n",
+          "meaning": "tầm quan trọng"
+        }
+      ],
+      "synonyms": [
+        "notable",
+        "substantial",
+        "major"
+      ],
+      "antonyms": [
+        "insignificant",
+        "minor"
+      ],
+      "collocations": [
+        {
+          "phrase": "significant impact",
+          "meaning": "tác động đáng kể"
+        }
+      ],
+      "definitionEn": "Having the quality of being notable, substantial, major.",
+      "definitionVi": "Tính từ mô tả đặc điểm đáng kể, quan trọng.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-7",
+      "deckId": "oxford-3000",
+      "word": "distribute",
+      "pos": "v",
+      "ipaUK": "/dɪˈstrɪb.juːt/",
+      "ipaUS": "/dɪˈstrɪb.juːt/",
+      "meaning": "phân phối, phát (tài liệu, hàng hóa)",
+      "examples": [
+        {
+          "en": "Volunteers will distribute event maps throughout the central plaza.",
+          "vi": "Tình nguyện viên sẽ phát bản đồ sự kiện khắp quảng trường trung tâm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "distribution",
+          "pos": "n",
+          "meaning": "sự phân phối"
+        },
+        {
+          "word": "distributor",
+          "pos": "n",
+          "meaning": "nhà phân phối"
+        }
+      ],
+      "synonyms": [
+        "hand out",
+        "circulate"
+      ],
+      "antonyms": [
+        "collect"
+      ],
+      "collocations": [
+        {
+          "phrase": "distribution center",
+          "meaning": "trung tâm phân phối"
+        }
+      ],
+      "definitionEn": "To hand out (also similar to circulate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động phân phối, phát (tài liệu, hàng hóa).",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-8",
+      "deckId": "oxford-3000",
+      "word": "annual",
+      "pos": "adj",
+      "ipaUK": "/ˈæn.ju.əl/",
+      "ipaUS": "/ˈæn.ju.əl/",
+      "meaning": "hàng năm, thường niên",
+      "examples": [
+        {
+          "en": "Our annual shareholders’ meeting convenes in April.",
+          "vi": "Đại hội cổ đông thường niên của chúng ta họp vào tháng Tư."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "annually",
+          "pos": "adv",
+          "meaning": "hàng năm"
+        }
+      ],
+      "synonyms": [
+        "yearly"
+      ],
+      "antonyms": [
+        "monthly",
+        "quarterly"
+      ],
+      "collocations": [
+        {
+          "phrase": "annual report",
+          "meaning": "báo cáo thường niên"
+        }
+      ],
+      "definitionEn": "Having the quality of being yearly.",
+      "definitionVi": "Tính từ mô tả đặc điểm hàng năm, thường niên.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-9",
+      "deckId": "oxford-3000",
+      "word": "promote",
+      "pos": "v",
+      "ipaUK": "/prəˈməʊt/",
+      "ipaUS": "/prəˈmoʊt/",
+      "meaning": "thăng chức; quảng bá (sản phẩm)",
+      "examples": [
+        {
+          "en": "The board voted to promote Ms. Hayes to regional marketing director.",
+          "vi": "Hội đồng đã bỏ phiếu thăng chức cô Hayes làm giám đốc tiếp thị khu vực."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "promotion",
+          "pos": "n",
+          "meaning": "thăng chức; khuyến mãi"
+        },
+        {
+          "word": "promotional",
+          "pos": "adj",
+          "meaning": "quảng bá"
+        }
+      ],
+      "synonyms": [
+        "advance",
+        "advertise"
+      ],
+      "antonyms": [
+        "demote"
+      ],
+      "collocations": [
+        {
+          "phrase": "promotional campaign",
+          "meaning": "chiến dịch quảng bá"
+        }
+      ],
+      "definitionEn": "To advance (also similar to advertise) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động thăng chức; quảng bá (sản phẩm).",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-10",
+      "deckId": "oxford-3000",
+      "word": "flexible",
+      "pos": "adj",
+      "ipaUK": "/ˈflek.sə.bəl/",
+      "ipaUS": "/ˈflek.sə.bəl/",
+      "meaning": "linh hoạt, dễ điều chỉnh",
+      "examples": [
+        {
+          "en": "The firm provides flexible working hours for working parents.",
+          "vi": "Công ty cung cấp giờ làm việc linh hoạt cho nhân viên có con nhỏ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "flexibility",
+          "pos": "n",
+          "meaning": "sự linh hoạt"
+        }
+      ],
+      "synonyms": [
+        "adaptable",
+        "adjustable"
+      ],
+      "antonyms": [
+        "rigid",
+        "inflexible"
+      ],
+      "collocations": [
+        {
+          "phrase": "flexible schedule",
+          "meaning": "lịch trình linh hoạt"
+        }
+      ],
+      "definitionEn": "Having the quality of being adaptable, adjustable.",
+      "definitionVi": "Tính từ mô tả đặc điểm linh hoạt, dễ điều chỉnh.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-11",
+      "deckId": "oxford-3000",
+      "word": "estimate",
+      "pos": "v",
+      "ipaUK": "/ˈes.tɪ.meɪt/",
+      "ipaUS": "/ˈes.tə.meɪt/",
+      "meaning": "ước tính, dự toán",
+      "examples": [
+        {
+          "en": "Contractors estimate the roof repair will take four days.",
+          "vi": "Nhà thầu ước tính việc sửa mái nhà sẽ mất bốn ngày."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "estimation",
+          "pos": "n",
+          "meaning": "sự ước tính"
+        }
+      ],
+      "synonyms": [
+        "calculate",
+        "project",
+        "approximate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "cost estimate",
+          "meaning": "bảng dự toán chi phí"
+        }
+      ],
+      "definitionEn": "To calculate (also similar to project, approximate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động ước tính, dự toán.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-12",
+      "deckId": "oxford-3000",
+      "word": "notify",
+      "pos": "v",
+      "ipaUK": "/ˈnəʊ.tɪ.faɪ/",
+      "ipaUS": "/ˈnoʊ.t̬ə.faɪ/",
+      "meaning": "thông báo chính thức",
+      "examples": [
+        {
+          "en": "Please notify HR two weeks before any planned vacation.",
+          "vi": "Vui lòng thông báo phòng nhân sự hai tuần trước kỳ nghỉ dự kiến."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "notification",
+          "pos": "n",
+          "meaning": "thông báo"
+        }
+      ],
+      "synonyms": [
+        "inform",
+        "alert",
+        "advise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "notify in writing",
+          "meaning": "thông báo bằng văn bản"
+        }
+      ],
+      "definitionEn": "To inform (also similar to alert, advise) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động thông báo chính thức.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-13",
+      "deckId": "oxford-3000",
+      "word": "submit",
+      "pos": "v",
+      "ipaUK": "/səbˈmɪt/",
+      "ipaUS": "/səbˈmɪt/",
+      "meaning": "nộp, đệ trình",
+      "examples": [
+        {
+          "en": "Employees must submit all travel claims by Friday afternoon.",
+          "vi": "Nhân viên phải nộp mọi yêu cầu thanh toán công tác trước chiều thứ Sáu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "submission",
+          "pos": "n",
+          "meaning": "bài nộp, sự đệ trình"
+        }
+      ],
+      "synonyms": [
+        "turn in",
+        "hand in",
+        "file"
+      ],
+      "antonyms": [
+        "withdraw"
+      ],
+      "collocations": [
+        {
+          "phrase": "submit an application",
+          "meaning": "nộp đơn ứng tuyển"
+        }
+      ],
+      "definitionEn": "To turn in (also similar to hand in, file) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nộp, đệ trình.",
+      "topicId": "ox3-efficiency"
+    },
+    {
+      "id": "ox3-14",
+      "deckId": "oxford-3000",
+      "word": "accurate",
+      "pos": "adj",
+      "ipaUK": "/ˈæk.jə.ɹɪt/",
+      "ipaUS": "/ˈæk.jə.ɹɪt/",
+      "meaning": "chính xác, chuẩn xác",
+      "examples": [
+        {
+          "en": "Barcode scanners ensure accurate real-time stock tracking.",
+          "vi": "Máy quét mã vạch đảm bảo theo dõi tồn kho chính xác theo thời gian thực."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "accuracy",
+          "pos": "n",
+          "meaning": "độ chính xác"
+        },
+        {
+          "word": "accurately",
+          "pos": "adv",
+          "meaning": "chính xác"
+        }
+      ],
+      "synonyms": [
+        "precise",
+        "exact",
+        "correct",
+        "just",
+        "nice"
+      ],
+      "antonyms": [
+        "inaccurate"
+      ],
+      "collocations": [
+        {
+          "phrase": "accurate forecast",
+          "meaning": "dự báo chính xác"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/accurate-us.mp3",
+      "definitionEn": "Having the quality of being precise, exact, correct.",
+      "definitionVi": "Tính từ mô tả đặc điểm chính xác, chuẩn xác.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-15",
+      "deckId": "oxford-3000",
+      "word": "adequate",
+      "pos": "adj",
+      "ipaUK": "/ˈæd.ə.kwət/",
+      "ipaUS": "/ˈæd.ə.kwət/",
+      "meaning": "đầy đủ, thỏa đáng",
+      "examples": [
+        {
+          "en": "Please verify that the hall has adequate lighting for filming.",
+          "vi": "Vui lòng kiểm tra hội trường có đủ ánh sáng để quay phim không."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "adequately",
+          "pos": "adv",
+          "meaning": "đầy đủ"
+        }
+      ],
+      "synonyms": [
+        "sufficient",
+        "enough",
+        "satisfactory",
+        "acceptable",
+        "correspondent"
+      ],
+      "antonyms": [
+        "inadequate",
+        "insufficient"
+      ],
+      "collocations": [
+        {
+          "phrase": "adequate funding",
+          "meaning": "nguồn vốn đầy đủ"
+        }
+      ],
+      "definitionEn": "Having the quality of being sufficient, enough, satisfactory.",
+      "definitionVi": "Tính từ mô tả đặc điểm đầy đủ, thỏa đáng.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-16",
+      "deckId": "oxford-3000",
+      "word": "adjust",
+      "pos": "v",
+      "ipaUK": "/əˈdʒʌst/",
+      "ipaUS": "/əˈdʒʌst/",
+      "meaning": "điều chỉnh, thích nghi",
+      "examples": [
+        {
+          "en": "We need to adjust our staffing schedule to handle weekend crowds.",
+          "vi": "Chúng tôi cần điều chỉnh lịch nhân sự để phục vụ lượng khách cuối tuần."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "adjustment",
+          "pos": "n",
+          "meaning": "sự điều chỉnh"
+        },
+        {
+          "word": "adjustable",
+          "pos": "adj",
+          "meaning": "có thể điều chỉnh"
+        }
+      ],
+      "synonyms": [
+        "modify",
+        "adapt",
+        "fine-tune",
+        "change",
+        "edit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "adjustable height",
+          "meaning": "độ cao điều chỉnh được"
+        }
+      ],
+      "definitionEn": "To modify (also similar to adapt, fine-tune) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động điều chỉnh, thích nghi.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-17",
+      "deckId": "oxford-3000",
+      "word": "adopt",
+      "pos": "v",
+      "ipaUK": "/əˈdɒpt/",
+      "ipaUS": "/əˈdɒpt/",
+      "meaning": "áp dụng (chính sách, công nghệ mới)",
+      "examples": [
+        {
+          "en": "Many regional clinics plan to adopt digital patient intake forms.",
+          "vi": "Nhiều phòng khám khu vực dự định áp dụng biểu mẫu tiếp nhận bệnh nhân điện tử."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "adoption",
+          "pos": "n",
+          "meaning": "sự áp dụng"
+        }
+      ],
+      "synonyms": [
+        "embrace",
+        "implement"
+      ],
+      "antonyms": [
+        "reject",
+        "abandon"
+      ],
+      "collocations": [
+        {
+          "phrase": "adopt new technology",
+          "meaning": "áp dụng công nghệ mới"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/adopt-us.mp3",
+      "definitionEn": "To embrace (also similar to implement) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động áp dụng (chính sách, công nghệ mới).",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-18",
+      "deckId": "oxford-3000",
+      "word": "analyze",
+      "pos": "v",
+      "ipaUK": "/ˈæn.əl.aɪz/",
+      "ipaUS": "/ˈæn.ə.laɪz/",
+      "meaning": "phân tích",
+      "examples": [
+        {
+          "en": "Data scientists analyze purchasing patterns before seasonal sales.",
+          "vi": "Chuyên gia dữ liệu phân tích xu hướng mua sắm trước các đợt giảm giá theo mùa."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "analysis",
+          "pos": "n",
+          "meaning": "bản phân tích"
+        },
+        {
+          "word": "analyst",
+          "pos": "n",
+          "meaning": "nhà phân tích"
+        }
+      ],
+      "synonyms": [
+        "examine",
+        "inspect",
+        "evaluate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "market analysis",
+          "meaning": "phân tích thị trường"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/analyze-us.mp3",
+      "definitionEn": "To examine (also similar to inspect, evaluate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động phân tích.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-19",
+      "deckId": "oxford-3000",
+      "word": "appoint",
+      "pos": "v",
+      "ipaUK": "/əˈpɔɪnt/",
+      "ipaUS": "/əˈpɔɪnt/",
+      "meaning": "bổ nhiệm (chức vụ); ấn định",
+      "examples": [
+        {
+          "en": "The board will appoint Dr. Silva as chief medical officer next week.",
+          "vi": "Hội đồng sẽ bổ nhiệm Tiến sĩ Silva làm giám đốc y khoa vào tuần tới."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "appointment",
+          "pos": "n",
+          "meaning": "cuộc hẹn; sự bổ nhiệm"
+        }
+      ],
+      "synonyms": [
+        "designate",
+        "nominate",
+        "name"
+      ],
+      "antonyms": [
+        "dismiss"
+      ],
+      "collocations": [
+        {
+          "phrase": "make an appointment",
+          "meaning": "đặt lịch hẹn"
+        }
+      ],
+      "definitionEn": "To designate (also similar to nominate, name) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động bổ nhiệm (chức vụ); ấn định.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-20",
+      "deckId": "oxford-3000",
+      "word": "approve",
+      "pos": "v",
+      "ipaUK": "/əˈpruːv/",
+      "ipaUS": "/əˈpruːv/",
+      "meaning": "phê duyệt, chấp thuận",
+      "examples": [
+        {
+          "en": "City planners must approve permits before construction begins.",
+          "vi": "Các nhà quy hoạch thành phố phải phê duyệt giấy phép trước khi khởi công."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "approval",
+          "pos": "n",
+          "meaning": "sự phê duyệt"
+        }
+      ],
+      "synonyms": [
+        "authorize",
+        "endorse",
+        "sanction"
+      ],
+      "antonyms": [
+        "reject",
+        "deny"
+      ],
+      "collocations": [
+        {
+          "phrase": "final approval",
+          "meaning": "phê duyệt cuối cùng"
+        }
+      ],
+      "definitionEn": "To authorize (also similar to endorse, sanction) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động phê duyệt, chấp thuận.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-21",
+      "deckId": "oxford-3000",
+      "word": "assign",
+      "pos": "v",
+      "ipaUK": "/əˈsaɪn/",
+      "ipaUS": "/əˈsaɪn/",
+      "meaning": "phân công (nhiệm vụ, phòng)",
+      "examples": [
+        {
+          "en": "Managers will assign an experienced mentor to each new intern.",
+          "vi": "Quản lý sẽ phân công một người cố vấn giàu kinh nghiệm cho mỗi thực tập sinh."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "assignment",
+          "pos": "n",
+          "meaning": "nhiệm vụ được giao"
+        }
+      ],
+      "synonyms": [
+        "allocate",
+        "delegate",
+        "designate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "assign tasks",
+          "meaning": "phân công công việc"
+        }
+      ],
+      "definitionEn": "To allocate (also similar to delegate, designate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động phân công (nhiệm vụ, phòng).",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-22",
+      "deckId": "oxford-3000",
+      "word": "assist",
+      "pos": "v",
+      "ipaUK": "/əˈsɪst/",
+      "ipaUS": "/əˈsɪst/",
+      "meaning": "hỗ trợ, giúp đỡ",
+      "examples": [
+        {
+          "en": "Floor staff are ready to assist shoppers with sizing.",
+          "vi": "Nhân viên bán hàng sẵn sàng hỗ trợ khách chọn kích cỡ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "assistance",
+          "pos": "n",
+          "meaning": "sự hỗ trợ"
+        },
+        {
+          "word": "assistant",
+          "pos": "n",
+          "meaning": "trợ lý"
+        }
+      ],
+      "synonyms": [
+        "help",
+        "aid",
+        "support"
+      ],
+      "antonyms": [
+        "hinder"
+      ],
+      "collocations": [
+        {
+          "phrase": "financial assistance",
+          "meaning": "hỗ trợ tài chính"
+        }
+      ],
+      "definitionEn": "To help (also similar to aid, support) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hỗ trợ, giúp đỡ.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-23",
+      "deckId": "oxford-3000",
+      "word": "assume",
+      "pos": "v",
+      "ipaUK": "/əˈsjuːm/",
+      "ipaUS": "/əˈsuːm/",
+      "meaning": "cho rằng, giả định; đảm nhận (trách nhiệm)",
+      "examples": [
+        {
+          "en": "Ms. Park will assume leadership of the European division in July.",
+          "vi": "Cô Park sẽ đảm nhận vai trò lãnh đạo chi nhánh châu Âu vào tháng Bảy."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "assumption",
+          "pos": "n",
+          "meaning": "giả định"
+        }
+      ],
+      "synonyms": [
+        "presume",
+        "suppose",
+        "take on"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "assume responsibility",
+          "meaning": "đảm nhận trách nhiệm"
+        }
+      ],
+      "definitionEn": "To presume (also similar to suppose, take on) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cho rằng, giả định; đảm nhận (trách nhiệm).",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-24",
+      "deckId": "oxford-3000",
+      "word": "benefit",
+      "pos": "n",
+      "ipaUK": "/ˈben.ɪ.fɪt/",
+      "ipaUS": "/ˈben.ə.fɪt/",
+      "meaning": "lợi ích; phúc lợi nhân viên",
+      "examples": [
+        {
+          "en": "Flexible scheduling is a major benefit for working parents.",
+          "vi": "Lịch làm việc linh hoạt là một phúc lợi lớn cho các bậc phụ huynh đi làm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "beneficial",
+          "pos": "adj",
+          "meaning": "có lợi"
+        }
+      ],
+      "synonyms": [
+        "advantage",
+        "perk",
+        "gain"
+      ],
+      "antonyms": [
+        "drawback"
+      ],
+      "collocations": [
+        {
+          "phrase": "mutual benefit",
+          "meaning": "lợi ích đôi bên"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to advantage, perk, gain.",
+      "definitionVi": "Danh từ dùng để chỉ lợi ích; phúc lợi nhân viên.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-25",
+      "deckId": "oxford-3000",
+      "word": "brief",
+      "pos": "adj",
+      "ipaUK": "/briːf/",
+      "ipaUS": "/briːf/",
+      "meaning": "ngắn gọn, vắn tắt",
+      "examples": [
+        {
+          "en": "Please review this brief summary before entering the boardroom.",
+          "vi": "Vui lòng xem bản tóm tắt ngắn gọn này trước khi vào phòng họp."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "briefly",
+          "pos": "adv",
+          "meaning": "ngắn gọn"
+        },
+        {
+          "word": "briefing",
+          "pos": "n",
+          "meaning": "buổi họp giao ban"
+        }
+      ],
+      "synonyms": [
+        "concise",
+        "short",
+        "succinct"
+      ],
+      "antonyms": [
+        "lengthy"
+      ],
+      "collocations": [
+        {
+          "phrase": "brief overview",
+          "meaning": "tổng quan ngắn gọn"
+        }
+      ],
+      "definitionEn": "Having the quality of being concise, short, succinct.",
+      "definitionVi": "Tính từ mô tả đặc điểm ngắn gọn, vắn tắt.",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-26",
+      "deckId": "oxford-3000",
+      "word": "capable",
+      "pos": "adj",
+      "ipaUK": "/ˈkeɪ.pə.bəl/",
+      "ipaUS": "/ˈkeɪ.pə.bəl/",
+      "meaning": "có năng lực, có khả năng (đi với of)",
+      "examples": [
+        {
+          "en": "The upgraded press is capable of printing 5,000 sheets per hour.",
+          "vi": "Máy in nâng cấp có khả năng in 5.000 tờ mỗi giờ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "capability",
+          "pos": "n",
+          "meaning": "năng lực, khả năng"
+        }
+      ],
+      "synonyms": [
+        "able",
+        "competent",
+        "proficient"
+      ],
+      "antonyms": [
+        "incapable"
+      ],
+      "collocations": [
+        {
+          "phrase": "capable of",
+          "meaning": "có khả năng làm gì"
+        }
+      ],
+      "definitionEn": "Having the quality of being able, competent, proficient.",
+      "definitionVi": "Tính từ mô tả đặc điểm có năng lực, có khả năng (đi với of).",
+      "topicId": "ox3-analysis"
+    },
+    {
+      "id": "ox3-27",
+      "deckId": "oxford-3000",
+      "word": "collaborate",
+      "pos": "v",
+      "ipaUK": "/kəˈlæb.ə.reɪt/",
+      "ipaUS": "/kəˈlæb.ə.reɪt/",
+      "meaning": "hợp tác, cộng tác (đi với with / on)",
+      "examples": [
+        {
+          "en": "Designers will collaborate with engineers to lighten the frame.",
+          "vi": "Nhà thiết kế sẽ hợp tác cùng kỹ sư để làm nhẹ khung máy."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "collaboration",
+          "pos": "n",
+          "meaning": "sự hợp tác"
+        },
+        {
+          "word": "collaborative",
+          "pos": "adj",
+          "meaning": "mang tính cộng tác"
+        }
+      ],
+      "synonyms": [
+        "cooperate",
+        "partner",
+        "team up"
+      ],
+      "antonyms": [
+        "compete"
+      ],
+      "collocations": [
+        {
+          "phrase": "in collaboration with",
+          "meaning": "hợp tác cùng với"
+        }
+      ],
+      "definitionEn": "To cooperate (also similar to partner, team up) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hợp tác, cộng tác (đi với with / on).",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-28",
+      "deckId": "oxford-3000",
+      "word": "commit",
+      "pos": "v",
+      "ipaUK": "/kəˈmɪt/",
+      "ipaUS": "/kəˈmɪt/",
+      "meaning": "cam kết (đi với to + V-ing/N)",
+      "examples": [
+        {
+          "en": "Our factory plans to commit to sourcing 100% recycled packaging.",
+          "vi": "Nhà máy của chúng tôi dự định cam kết sử dụng 100% bao bì tái chế."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "commitment",
+          "pos": "n",
+          "meaning": "sự cam kết"
+        },
+        {
+          "word": "committed",
+          "pos": "adj",
+          "meaning": "tận tâm, cam kết"
+        }
+      ],
+      "synonyms": [
+        "pledge",
+        "dedicate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "committed to excellence",
+          "meaning": "cam kết chất lượng xuất sắc"
+        }
+      ],
+      "definitionEn": "To pledge (also similar to dedicate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cam kết (đi với to + V-ing/N).",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-29",
+      "deckId": "oxford-3000",
+      "word": "complex",
+      "pos": "adj",
+      "ipaUK": "/ˈkɒm.pleks/",
+      "ipaUS": "/kɑːmˈpleks/",
+      "meaning": "phức tạp; n: khu phức hợp",
+      "examples": [
+        {
+          "en": "The new business complex includes offices, shops, and a gym.",
+          "vi": "Khu phức hợp văn phòng mới gồm văn phòng, cửa hàng và phòng gym."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "complexity",
+          "pos": "n",
+          "meaning": "độ phức tạp"
+        }
+      ],
+      "synonyms": [
+        "intricate",
+        "complicated"
+      ],
+      "antonyms": [
+        "simple"
+      ],
+      "collocations": [
+        {
+          "phrase": "residential complex",
+          "meaning": "khu phức hợp dân cư"
+        }
+      ],
+      "definitionEn": "Having the quality of being intricate, complicated.",
+      "definitionVi": "Tính từ mô tả đặc điểm phức tạp; n: khu phức hợp.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-30",
+      "deckId": "oxford-3000",
+      "word": "conduct",
+      "pos": "v",
+      "ipaUK": "/kənˈdʌkt/",
+      "ipaUS": "/kənˈdʌkt/",
+      "meaning": "tiến hành, thực hiện (khảo sát, kiểm toán)",
+      "examples": [
+        {
+          "en": "An independent lab will conduct safety tests on the new helmets.",
+          "vi": "Một phòng thí nghiệm độc lập sẽ tiến hành kiểm tra an toàn mũ bảo hiểm mới."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "carry out",
+        "perform",
+        "execute"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "conduct a survey",
+          "meaning": "tiến hành khảo sát"
+        }
+      ],
+      "definitionEn": "To carry out (also similar to perform, execute) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tiến hành, thực hiện (khảo sát, kiểm toán).",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-31",
+      "deckId": "oxford-3000",
+      "word": "confirm",
+      "pos": "v",
+      "ipaUK": "/kənˈfɜːm/",
+      "ipaUS": "/kənˈfɝːm/",
+      "meaning": "xác nhận",
+      "examples": [
+        {
+          "en": "Kindly confirm your hotel reservation by Thursday noon.",
+          "vi": "Vui lòng xác nhận đặt phòng khách sạn trước trưa thứ Năm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "confirmation",
+          "pos": "n",
+          "meaning": "sự xác nhận"
+        }
+      ],
+      "synonyms": [
+        "verify",
+        "validate"
+      ],
+      "antonyms": [
+        "cancel"
+      ],
+      "collocations": [
+        {
+          "phrase": "confirmation number",
+          "meaning": "mã số xác nhận"
+        }
+      ],
+      "definitionEn": "To verify (also similar to validate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động xác nhận.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-32",
+      "deckId": "oxford-3000",
+      "word": "consistent",
+      "pos": "adj",
+      "ipaUK": "/kənˈsɪs.tənt/",
+      "ipaUS": "/kənˈsɪs.tənt/",
+      "meaning": "nhất quán, ổn định",
+      "examples": [
+        {
+          "en": "Customers appreciate our consistent coffee flavor at every branch.",
+          "vi": "Khách hàng đánh giá cao hương vị cà phê ổn định ở mọi chi nhánh."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "consistency",
+          "pos": "n",
+          "meaning": "tính nhất quán"
+        },
+        {
+          "word": "consistently",
+          "pos": "adv",
+          "meaning": "luôn ổn định"
+        }
+      ],
+      "synonyms": [
+        "steady",
+        "uniform",
+        "reliable"
+      ],
+      "antonyms": [
+        "inconsistent"
+      ],
+      "collocations": [
+        {
+          "phrase": "consistent quality",
+          "meaning": "chất lượng ổn định"
+        }
+      ],
+      "definitionEn": "Having the quality of being steady, uniform, reliable.",
+      "definitionVi": "Tính từ mô tả đặc điểm nhất quán, ổn định.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-33",
+      "deckId": "oxford-3000",
+      "word": "consult",
+      "pos": "v",
+      "ipaUK": "/kənˈsʌlt/",
+      "ipaUS": "/kənˈsʌlt/",
+      "meaning": "tham khảo ý kiến, tư vấn",
+      "examples": [
+        {
+          "en": "Please consult the user manual before replacing the filter.",
+          "vi": "Vui lòng tham khảo sách hướng dẫn trước khi thay bộ lọc."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "consultant",
+          "pos": "n",
+          "meaning": "chuyên gia tư vấn"
+        },
+        {
+          "word": "consultation",
+          "pos": "n",
+          "meaning": "buổi tư vấn"
+        }
+      ],
+      "synonyms": [
+        "confer with",
+        "check",
+        "refer to"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "free consultation",
+          "meaning": "tư vấn miễn phí"
+        }
+      ],
+      "definitionEn": "To confer with (also similar to check, refer to) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tham khảo ý kiến, tư vấn.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-34",
+      "deckId": "oxford-3000",
+      "word": "contribute",
+      "pos": "v",
+      "ipaUK": "/kənˈtrɪb.juːt/",
+      "ipaUS": "/kənˈtrɪb.juːt/",
+      "meaning": "đóng góp, góp phần (đi với to)",
+      "examples": [
+        {
+          "en": "Clear documentation can contribute to a smoother product launch.",
+          "vi": "Tài liệu rõ ràng có thể góp phần giúp đợt ra mắt sản phẩm suôn sẻ hơn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "contribution",
+          "pos": "n",
+          "meaning": "sự đóng góp"
+        }
+      ],
+      "synonyms": [
+        "add to",
+        "donate",
+        "foster"
+      ],
+      "antonyms": [
+        "detract from"
+      ],
+      "collocations": [
+        {
+          "phrase": "make a contribution to",
+          "meaning": "đóng góp vào"
+        }
+      ],
+      "definitionEn": "To add to (also similar to donate, foster) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đóng góp, góp phần (đi với to).",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-35",
+      "deckId": "oxford-3000",
+      "word": "coordinate",
+      "pos": "v",
+      "ipaUK": "/kəʊˈɔː.dɪ.neɪt/",
+      "ipaUS": "/koʊˈɔːr.də.neɪt/",
+      "meaning": "điều phối, phối hợp",
+      "examples": [
+        {
+          "en": "Hannah will coordinate travel logistics for overseas executives.",
+          "vi": "Hannah sẽ điều phối hậu cần đi lại cho các lãnh đạo nước ngoài."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "coordinator",
+          "pos": "n",
+          "meaning": "điều phối viên"
+        },
+        {
+          "word": "coordination",
+          "pos": "n",
+          "meaning": "sự điều phối"
+        }
+      ],
+      "synonyms": [
+        "organize",
+        "synchronize",
+        "manage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "event coordinator",
+          "meaning": "điều phối viên sự kiện"
+        }
+      ],
+      "definitionEn": "To organize (also similar to synchronize, manage) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động điều phối, phối hợp.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-36",
+      "deckId": "oxford-3000",
+      "word": "crucial",
+      "pos": "adj",
+      "ipaUK": "/ˈkruː.ʃəl/",
+      "ipaUS": "/ˈkruː.ʃəl/",
+      "meaning": "then chốt, vô cùng quan trọng",
+      "examples": [
+        {
+          "en": "Early user testing is crucial for spotting navigation bugs.",
+          "vi": "Thử nghiệm người dùng sớm rất quan trọng để phát hiện lỗi điều hướng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "crucially",
+          "pos": "adv",
+          "meaning": "một cách then chốt"
+        }
+      ],
+      "synonyms": [
+        "vital",
+        "essential",
+        "critical"
+      ],
+      "antonyms": [
+        "trivial",
+        "minor"
+      ],
+      "collocations": [
+        {
+          "phrase": "play a crucial role",
+          "meaning": "đóng vai trò then chốt"
+        }
+      ],
+      "definitionEn": "Having the quality of being vital, essential, critical.",
+      "definitionVi": "Tính từ mô tả đặc điểm then chốt, vô cùng quan trọng.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-37",
+      "deckId": "oxford-3000",
+      "word": "decline",
+      "pos": "v",
+      "ipaUK": "/dɪˈklaɪn/",
+      "ipaUS": "/dɪˈklaɪn/",
+      "meaning": "sụt giảm; từ chối lịch sự",
+      "examples": [
+        {
+          "en": "Print newspaper subscriptions continue to decline each year.",
+          "vi": "Lượng đặt mua báo giấy tiếp tục sụt giảm mỗi năm."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "decrease",
+        "drop",
+        "turn down"
+      ],
+      "antonyms": [
+        "increase",
+        "accept"
+      ],
+      "collocations": [
+        {
+          "phrase": "politely decline",
+          "meaning": "từ chối lịch sự"
+        },
+        {
+          "phrase": "sharp decline",
+          "meaning": "sự sụt giảm mạnh"
+        }
+      ],
+      "definitionEn": "To decrease (also similar to drop, turn down) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động sụt giảm; từ chối lịch sự.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-38",
+      "deckId": "oxford-3000",
+      "word": "dedicate",
+      "pos": "v",
+      "ipaUK": "/ˈded.ɪ.keɪt/",
+      "ipaUS": "/ˈded.ə.keɪt/",
+      "meaning": "cống hiến, dành riêng cho",
+      "examples": [
+        {
+          "en": "We will dedicate a full-time account manager to your enterprise plan.",
+          "vi": "Chúng tôi sẽ dành riêng một quản lý tài khoản toàn thời gian cho gói doanh nghiệp của bạn."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "dedication",
+          "pos": "n",
+          "meaning": "sự tận tụy"
+        },
+        {
+          "word": "dedicated",
+          "pos": "adj",
+          "meaning": "tận tâm, chuyên trách"
+        }
+      ],
+      "synonyms": [
+        "devote",
+        "commit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "dedicated support",
+          "meaning": "hỗ trợ chuyên trách"
+        }
+      ],
+      "definitionEn": "To devote (also similar to commit) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cống hiến, dành riêng cho.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-39",
+      "deckId": "oxford-3000",
+      "word": "delay",
+      "pos": "v",
+      "ipaUK": "/dɪˈleɪ/",
+      "ipaUS": "/dɪˈleɪ/",
+      "meaning": "trì hoãn, làm chậm trễ",
+      "examples": [
+        {
+          "en": "Dense fog may delay morning departures by forty minutes.",
+          "vi": "Sương mù dày đặc có thể làm chậm các chuyến bay sáng bốn mươi phút."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "delayed",
+          "pos": "adj",
+          "meaning": "bị trễ"
+        }
+      ],
+      "synonyms": [
+        "postpone",
+        "hold up",
+        "defer"
+      ],
+      "antonyms": [
+        "expedite",
+        "advance"
+      ],
+      "collocations": [
+        {
+          "phrase": "without delay",
+          "meaning": "ngay không chậm trễ"
+        }
+      ],
+      "definitionEn": "To postpone (also similar to hold up, defer) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động trì hoãn, làm chậm trễ.",
+      "topicId": "ox3-teamwork"
+    },
+    {
+      "id": "ox3-40",
+      "deckId": "oxford-3000",
+      "word": "depart",
+      "pos": "v",
+      "ipaUK": "/dɪˈpɑːt/",
+      "ipaUS": "/dɪˈpɑːrt/",
+      "meaning": "khởi hành, rời đi",
+      "examples": [
+        {
+          "en": "The express train will depart from Platform 4 in ten minutes.",
+          "vi": "Tàu tốc hành sẽ khởi hành từ Sân ga 4 trong mười phút nữa."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "departure",
+          "pos": "n",
+          "meaning": "sự khởi hành"
+        }
+      ],
+      "synonyms": [
+        "leave",
+        "set off"
+      ],
+      "antonyms": [
+        "arrive"
+      ],
+      "collocations": [
+        {
+          "phrase": "departure lounge",
+          "meaning": "phòng chờ khởi hành"
+        }
+      ],
+      "definitionEn": "To leave (also similar to set off) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động khởi hành, rời đi.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-41",
+      "deckId": "oxford-3000",
+      "word": "domestic",
+      "pos": "adj",
+      "ipaUK": "/dəˈmes.tɪk/",
+      "ipaUS": "/dəˈmes.tɪk/",
+      "meaning": "nội địa, trong nước",
+      "examples": [
+        {
+          "en": "Both domestic and international flights use Terminal 2.",
+          "vi": "Cả chuyến bay nội địa lẫn quốc tế đều sử dụng Nhà ga 2."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "domestically",
+          "pos": "adv",
+          "meaning": "trong nước"
+        }
+      ],
+      "synonyms": [
+        "local",
+        "internal",
+        "national"
+      ],
+      "antonyms": [
+        "international",
+        "foreign"
+      ],
+      "collocations": [
+        {
+          "phrase": "domestic market",
+          "meaning": "thị trường nội địa"
+        }
+      ],
+      "definitionEn": "Having the quality of being local, internal, national.",
+      "definitionVi": "Tính từ mô tả đặc điểm nội địa, trong nước.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-42",
+      "deckId": "oxford-3000",
+      "word": "eligible",
+      "pos": "adj",
+      "ipaUK": "/ˈel.ɪ.dʒə.bəl/",
+      "ipaUS": "/ˈel.ə.dʒə.bəl/",
+      "meaning": "đủ điều kiện (đi với for / to V)",
+      "examples": [
+        {
+          "en": "Members who spend over $200 are eligible for free express shipping.",
+          "vi": "Thành viên chi tiêu trên 200 đô la đủ điều kiện miễn phí giao hỏa tốc."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "eligibility",
+          "pos": "n",
+          "meaning": "tư cách đủ điều kiện"
+        }
+      ],
+      "synonyms": [
+        "qualified",
+        "entitled"
+      ],
+      "antonyms": [
+        "ineligible"
+      ],
+      "collocations": [
+        {
+          "phrase": "eligible for",
+          "meaning": "đủ điều kiện nhận"
+        }
+      ],
+      "definitionEn": "Having the quality of being qualified, entitled.",
+      "definitionVi": "Tính từ mô tả đặc điểm đủ điều kiện (đi với for / to V).",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-43",
+      "deckId": "oxford-3000",
+      "word": "emphasize",
+      "pos": "v",
+      "ipaUK": "/ˈem.fə.saɪz/",
+      "ipaUS": "/ˈem.fə.saɪz/",
+      "meaning": "nhấn mạnh, làm nổi bật",
+      "examples": [
+        {
+          "en": "The trainer will emphasize ergonomic posture during the workshop.",
+          "vi": "Giảng viên sẽ nhấn mạnh tư thế công thái học trong buổi hội thảo."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "emphasis",
+          "pos": "n",
+          "meaning": "sự nhấn mạnh"
+        }
+      ],
+      "synonyms": [
+        "highlight",
+        "stress",
+        "underscore"
+      ],
+      "antonyms": [
+        "downplay"
+      ],
+      "collocations": [
+        {
+          "phrase": "place emphasis on",
+          "meaning": "đặt trọng tâm vào"
+        }
+      ],
+      "definitionEn": "To highlight (also similar to stress, underscore) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nhấn mạnh, làm nổi bật.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-44",
+      "deckId": "oxford-3000",
+      "word": "enhance",
+      "pos": "v",
+      "ipaUK": "/ɪnˈhɑːns/",
+      "ipaUS": "/ɪnˈhæns/",
+      "meaning": "nâng cao, tăng cường chất lượng",
+      "examples": [
+        {
+          "en": "Acoustical panels were added to enhance concert hall clarity.",
+          "vi": "Các tấm tiêu âm được lắp thêm để nâng cao độ trong của khán phòng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "enhancement",
+          "pos": "n",
+          "meaning": "sự cải tiến"
+        }
+      ],
+      "synonyms": [
+        "improve",
+        "boost",
+        "elevate"
+      ],
+      "antonyms": [
+        "diminish"
+      ],
+      "collocations": [
+        {
+          "phrase": "enhance user experience",
+          "meaning": "nâng cao trải nghiệm người dùng"
+        }
+      ],
+      "definitionEn": "To improve (also similar to boost, elevate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nâng cao, tăng cường chất lượng.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-45",
+      "deckId": "oxford-3000",
+      "word": "ensure",
+      "pos": "v",
+      "ipaUK": "/ɪnˈʃɔːr/",
+      "ipaUS": "/ɪnˈʃʊr/",
+      "meaning": "đảm bảo chắc chắn",
+      "examples": [
+        {
+          "en": "Double-checking addresses will ensure smooth package delivery.",
+          "vi": "Kiểm tra lại địa chỉ sẽ đảm bảo việc giao kiện hàng diễn ra suôn sẻ."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "guarantee",
+        "make sure",
+        "secure"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "ensure compliance",
+          "meaning": "đảm bảo tuân thủ"
+        }
+      ],
+      "definitionEn": "To guarantee (also similar to make sure, secure) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đảm bảo chắc chắn.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-46",
+      "deckId": "oxford-3000",
+      "word": "essential",
+      "pos": "adj",
+      "ipaUK": "/ɪˈsen.ʃəl/",
+      "ipaUS": "/ɪˈsen.ʃəl/",
+      "meaning": "thiết yếu, cốt lõi",
+      "examples": [
+        {
+          "en": "Strong listening skills are essential for global client support.",
+          "vi": "Kỹ năng nghe tốt là thiết yếu đối với hỗ trợ khách hàng toàn cầu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "essentially",
+          "pos": "adv",
+          "meaning": "về cơ bản"
+        }
+      ],
+      "synonyms": [
+        "vital",
+        "crucial",
+        "indispensable"
+      ],
+      "antonyms": [
+        "optional",
+        "unnecessary"
+      ],
+      "collocations": [
+        {
+          "phrase": "essential component",
+          "meaning": "thành phần thiết yếu"
+        }
+      ],
+      "definitionEn": "Having the quality of being vital, crucial, indispensable.",
+      "definitionVi": "Tính từ mô tả đặc điểm thiết yếu, cốt lõi.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-47",
+      "deckId": "oxford-3000",
+      "word": "exceed",
+      "pos": "v",
+      "ipaUK": "/ɪkˈsiːd/",
+      "ipaUS": "/ɪkˈsiːd/",
+      "meaning": "vượt quá",
+      "examples": [
+        {
+          "en": "Quarterly sign-ups are expected to exceed our target by 20%.",
+          "vi": "Lượt đăng ký hàng quý dự kiến sẽ vượt mục tiêu của chúng tôi 20%."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "excessive",
+          "pos": "adj",
+          "meaning": "quá mức"
+        }
+      ],
+      "synonyms": [
+        "surpass",
+        "outstrip"
+      ],
+      "antonyms": [
+        "fall below"
+      ],
+      "collocations": [
+        {
+          "phrase": "exceed the budget",
+          "meaning": "vượt ngân sách"
+        }
+      ],
+      "definitionEn": "To go beyond a target number, budget limit, legal maximum, or expectation.",
+      "definitionVi": "Vượt lên trên con số mục tiêu, hạn mức ngân sách, giới hạn quy định hoặc kỳ vọng.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-48",
+      "deckId": "oxford-3000",
+      "word": "facility",
+      "pos": "n",
+      "ipaUK": "/fəˈsɪl.ə.ti/",
+      "ipaUS": "/fəˈsɪl.ə.t̬i/",
+      "meaning": "cơ sở vật chất, nhà máy, tiện nghi",
+      "examples": [
+        {
+          "en": "The research facility operates twenty-four hours a day.",
+          "vi": "Cơ sở nghiên cứu hoạt động hai mươi bốn giờ mỗi ngày."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "plant",
+        "center",
+        "amenities"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "fitness facilities",
+          "meaning": "tiện nghi tập thể hình"
+        },
+        {
+          "phrase": "storage facility",
+          "meaning": "cơ sở lưu kho"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to plant, center, amenities.",
+      "definitionVi": "Danh từ dùng để chỉ cơ sở vật chất, nhà máy, tiện nghi.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-49",
+      "deckId": "oxford-3000",
+      "word": "feature",
+      "pos": "n",
+      "ipaUK": "/ˈfiː.tʃər/",
+      "ipaUS": "/ˈfiː.tʃɚ/",
+      "meaning": "tính năng nổi bật; v: có sự góp mặt của",
+      "examples": [
+        {
+          "en": "The main new feature of the smartwatch is its five-day battery life.",
+          "vi": "Tính năng mới chính của đồng hồ thông minh là thời lượng pin năm ngày."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "featured",
+          "pos": "adj",
+          "meaning": "nổi bật, tiêu biểu"
+        }
+      ],
+      "synonyms": [
+        "highlight",
+        "characteristic",
+        "include"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "key feature",
+          "meaning": "tính năng cốt lõi"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to highlight, characteristic, include.",
+      "definitionVi": "Danh từ dùng để chỉ tính năng nổi bật; v: có sự góp mặt của.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-50",
+      "deckId": "oxford-3000",
+      "word": "fund",
+      "pos": "v",
+      "ipaUK": "/fʌnd/",
+      "ipaUS": "/fʌnd/",
+      "meaning": "tài trợ, cấp vốn; n: quỹ",
+      "examples": [
+        {
+          "en": "A municipal grant will fund the renovation of three public libraries.",
+          "vi": "Khoản tài trợ thành phố sẽ cấp vốn cải tạo ba thư viện công cộng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "funding",
+          "pos": "n",
+          "meaning": "nguồn tài trợ"
+        }
+      ],
+      "synonyms": [
+        "finance",
+        "sponsor",
+        "back"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "raise funds",
+          "meaning": "gây quỹ"
+        }
+      ],
+      "definitionEn": "To finance (also similar to sponsor, back) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tài trợ, cấp vốn; n: quỹ.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-51",
+      "deckId": "oxford-3000",
+      "word": "generate",
+      "pos": "v",
+      "ipaUK": "/ˈdʒen.ə.reɪt/",
+      "ipaUS": "/ˈdʒen.ə.reɪt/",
+      "meaning": "tạo ra, phát sinh (doanh thu, điện năng)",
+      "examples": [
+        {
+          "en": "Rooftop solar panels generate half the warehouse’s electricity.",
+          "vi": "Pin mặt trời áp mái tạo ra một nửa lượng điện của nhà kho."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "generation",
+          "pos": "n",
+          "meaning": "sự tạo ra; thế hệ"
+        }
+      ],
+      "synonyms": [
+        "produce",
+        "create",
+        "yield"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "generate revenue",
+          "meaning": "tạo ra doanh thu"
+        }
+      ],
+      "definitionEn": "To produce (also similar to create, yield) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động tạo ra, phát sinh (doanh thu, điện năng).",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-52",
+      "deckId": "oxford-3000",
+      "word": "grant",
+      "pos": "n",
+      "ipaUK": "/ɡrɑːnt/",
+      "ipaUS": "/ɡrænt/",
+      "meaning": "khoản tài trợ không hoàn lại; v: cấp phép",
+      "examples": [
+        {
+          "en": "The university won a $300,000 research grant for clean water.",
+          "vi": "Trường đại học giành được khoản tài trợ nghiên cứu 300.000 đô la cho nước sạch."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "subsidy",
+        "award",
+        "permit"
+      ],
+      "antonyms": [
+        "deny"
+      ],
+      "collocations": [
+        {
+          "phrase": "grant access",
+          "meaning": "cấp quyền truy cập"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to subsidy, award, permit.",
+      "definitionVi": "Danh từ dùng để chỉ khoản tài trợ không hoàn lại; v: cấp phép.",
+      "topicId": "ox3-finance"
+    },
+    {
+      "id": "ox3-53",
+      "deckId": "oxford-3000",
+      "word": "guarantee",
+      "pos": "v",
+      "ipaUK": "/ˌɡær.ənˈtiː/",
+      "ipaUS": "/ˌɡer.ənˈtiː/",
+      "meaning": "bảo đảm, cam kết bảo hành",
+      "examples": [
+        {
+          "en": "We guarantee next-day delivery for orders placed before 3 P.M.",
+          "vi": "Chúng tôi đảm bảo giao hàng ngày hôm sau cho đơn đặt trước 3 giờ chiều."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "assure",
+        "warrant",
+        "promise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "money-back guarantee",
+          "meaning": "cam kết hoàn tiền"
+        }
+      ],
+      "definitionEn": "To assure (also similar to warrant, promise) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động bảo đảm, cam kết bảo hành.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-54",
+      "deckId": "oxford-3000",
+      "word": "identify",
+      "pos": "v",
+      "ipaUK": "/aɪˈden.tɪ.faɪ/",
+      "ipaUS": "/aɪˈden.t̬ə.faɪ/",
+      "meaning": "nhận diện, xác định",
+      "examples": [
+        {
+          "en": "Auditors can quickly identify opportunities to trim overhead.",
+          "vi": "Kiểm toán viên có thể nhanh chóng xác định các cơ hội cắt giảm chi phí chung."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "identification",
+          "pos": "n",
+          "meaning": "giấy tờ tùy thân, sự nhận dạng"
+        }
+      ],
+      "synonyms": [
+        "spot",
+        "pinpoint",
+        "recognize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "photo identification",
+          "meaning": "giấy tờ tùy thân có ảnh"
+        }
+      ],
+      "definitionEn": "To spot (also similar to pinpoint, recognize) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nhận diện, xác định.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-55",
+      "deckId": "oxford-3000",
+      "word": "impact",
+      "pos": "n",
+      "ipaUK": "/ˈɪm.pækt/",
+      "ipaUS": "/ˈɪm.pækt/",
+      "meaning": "tác động, ảnh hưởng mạnh",
+      "examples": [
+        {
+          "en": "Remote work had a lasting impact on commercial office demand.",
+          "vi": "Làm việc từ xa có tác động lâu dài lên nhu cầu văn phòng thương mại."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "impactful",
+          "pos": "adj",
+          "meaning": "có sức ảnh hưởng"
+        }
+      ],
+      "synonyms": [
+        "effect",
+        "influence",
+        "consequence"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "environmental impact",
+          "meaning": "tác động môi trường"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to effect, influence, consequence.",
+      "definitionVi": "Danh từ dùng để chỉ tác động, ảnh hưởng mạnh.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-56",
+      "deckId": "oxford-3000",
+      "word": "inspect",
+      "pos": "v",
+      "ipaUK": "/ɪnˈspekt/",
+      "ipaUS": "/ɪnˈspekt/",
+      "meaning": "kiểm tra kỹ lưỡng, thanh tra",
+      "examples": [
+        {
+          "en": "Safety officers inspect construction scaffolding weekly.",
+          "vi": "Cán bộ an toàn kiểm tra giàn giáo công trường hàng tuần."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "inspection",
+          "pos": "n",
+          "meaning": "cuộc kiểm định"
+        },
+        {
+          "word": "inspector",
+          "pos": "n",
+          "meaning": "thanh tra viên"
+        }
+      ],
+      "synonyms": [
+        "examine",
+        "check",
+        "audit"
+      ],
+      "antonyms": [
+        "overlook"
+      ],
+      "collocations": [
+        {
+          "phrase": "pass inspection",
+          "meaning": "vượt qua kiểm định"
+        }
+      ],
+      "definitionEn": "To examine (also similar to check, audit) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động kiểm tra kỹ lưỡng, thanh tra.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-57",
+      "deckId": "oxford-3000",
+      "word": "install",
+      "pos": "v",
+      "ipaUK": "/ɪnˈstɔːl/",
+      "ipaUS": "/ɪnˈstɑːl/",
+      "meaning": "lắp đặt (thiết bị), cài đặt (phần mềm)",
+      "examples": [
+        {
+          "en": "Technicians will install high-speed fiber routers on Friday.",
+          "vi": "Kỹ thuật viên sẽ lắp đặt bộ định tuyến cáp quang tốc độ cao vào thứ Sáu."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "installation",
+          "pos": "n",
+          "meaning": "việc lắp đặt"
+        }
+      ],
+      "synonyms": [
+        "set up",
+        "mount",
+        "fit"
+      ],
+      "antonyms": [
+        "uninstall",
+        "remove"
+      ],
+      "collocations": [
+        {
+          "phrase": "installation fee",
+          "meaning": "phí lắp đặt"
+        }
+      ],
+      "definitionEn": "To set up (also similar to mount, fit) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động lắp đặt (thiết bị), cài đặt (phần mềm).",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-58",
+      "deckId": "oxford-3000",
+      "word": "launch",
+      "pos": "v",
+      "ipaUK": "/lɔːntʃ/",
+      "ipaUS": "/lɑːntʃ/",
+      "meaning": "ra mắt (sản phẩm), khởi động (chiến dịch)",
+      "examples": [
+        {
+          "en": "The airline will launch nonstop service to Osaka in June.",
+          "vi": "Hãng hàng không sẽ khai trương đường bay thẳng tới Osaka vào tháng Sáu."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "introduce",
+        "roll out",
+        "unveil"
+      ],
+      "antonyms": [
+        "discontinue"
+      ],
+      "collocations": [
+        {
+          "phrase": "product launch",
+          "meaning": "buổi ra mắt sản phẩm"
+        }
+      ],
+      "definitionEn": "To introduce (also similar to roll out, unveil) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động ra mắt (sản phẩm), khởi động (chiến dịch).",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-59",
+      "deckId": "oxford-3000",
+      "word": "monitor",
+      "pos": "v",
+      "ipaUK": "/ˈmɒn.ɪ.tər/",
+      "ipaUS": "/ˈmɑː.nə.t̬ɚ/",
+      "meaning": "theo dõi, giám sát liên tục",
+      "examples": [
+        {
+          "en": "Sensors monitor cold-storage temperatures around the clock.",
+          "vi": "Cảm biến theo dõi nhiệt độ kho lạnh suốt ngày đêm."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "track",
+        "observe",
+        "oversee"
+      ],
+      "antonyms": [
+        "neglect"
+      ],
+      "collocations": [
+        {
+          "phrase": "monitor progress",
+          "meaning": "theo dõi tiến độ"
+        }
+      ],
+      "definitionEn": "To track (also similar to observe, oversee) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động theo dõi, giám sát liên tục.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-60",
+      "deckId": "oxford-3000",
+      "word": "negotiate",
+      "pos": "v",
+      "ipaUK": "/nəˈɡəʊ.ʃi.eɪt/",
+      "ipaUS": "/nəˈɡoʊ.ʃi.eɪt/",
+      "meaning": "đàm phán, thương lượng",
+      "examples": [
+        {
+          "en": "Purchasing managers will negotiate a 12% volume discount tomorrow.",
+          "vi": "Quản lý thu mua sẽ đàm phán mức chiết khấu 12% theo số lượng vào ngày mai."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "negotiation",
+          "pos": "n",
+          "meaning": "cuộc đàm phán"
+        }
+      ],
+      "synonyms": [
+        "bargain",
+        "discuss terms"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "negotiate a contract",
+          "meaning": "đàm phán hợp đồng"
+        }
+      ],
+      "definitionEn": "To bargain (also similar to discuss terms) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đàm phán, thương lượng.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-61",
+      "deckId": "oxford-3000",
+      "word": "obtain",
+      "pos": "v",
+      "ipaUK": "/əbˈteɪn/",
+      "ipaUS": "/əbˈteɪn/",
+      "meaning": "đạt được, lấy được (giấy phép, thông tin)",
+      "examples": [
+        {
+          "en": "Contractors must obtain a city permit before street paving.",
+          "vi": "Nhà thầu phải xin giấy phép thành phố trước khi trải nhựa đường."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "obtainable",
+          "pos": "adj",
+          "meaning": "có thể đạt được"
+        }
+      ],
+      "synonyms": [
+        "acquire",
+        "secure",
+        "get"
+      ],
+      "antonyms": [
+        "lose"
+      ],
+      "collocations": [
+        {
+          "phrase": "obtain approval",
+          "meaning": "xin được phê duyệt"
+        }
+      ],
+      "definitionEn": "To acquire (also similar to secure, get) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đạt được, lấy được (giấy phép, thông tin).",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-62",
+      "deckId": "oxford-3000",
+      "word": "operate",
+      "pos": "v",
+      "ipaUK": "/ˈɒp.ər.eɪt/",
+      "ipaUS": "/ˈɑː.pə.reɪt/",
+      "meaning": "vận hành, hoạt động",
+      "examples": [
+        {
+          "en": "The harbor ferry will operate daily between 6:00 A.M. and 10:00 P.M.",
+          "vi": "Chuyến phà cảng sẽ hoạt động hàng ngày từ 6:00 sáng đến 10:00 tối."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "operation",
+          "pos": "n",
+          "meaning": "hoạt động vận hành"
+        },
+        {
+          "word": "operational",
+          "pos": "adj",
+          "meaning": "thuộc vận hành"
+        }
+      ],
+      "synonyms": [
+        "run",
+        "function",
+        "manage"
+      ],
+      "antonyms": [
+        "shut down"
+      ],
+      "collocations": [
+        {
+          "phrase": "hours of operation",
+          "meaning": "giờ mở cửa hoạt động"
+        }
+      ],
+      "definitionEn": "To run (also similar to function, manage) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động vận hành, hoạt động.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-63",
+      "deckId": "oxford-3000",
+      "word": "revise",
+      "pos": "v",
+      "ipaUK": "/rɪˈvaɪz/",
+      "ipaUS": "/rɪˈvaɪz/",
+      "meaning": "chỉnh sửa, hiệu chỉnh (bản thảo, lịch)",
+      "examples": [
+        {
+          "en": "Please revise the meeting agenda before sending it to the client.",
+          "vi": "Vui lòng chỉnh sửa chương trình nghị sự trước khi gửi cho khách hàng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "revision",
+          "pos": "n",
+          "meaning": "bản chỉnh sửa"
+        },
+        {
+          "word": "revised",
+          "pos": "adj",
+          "meaning": "đã sửa đổi"
+        }
+      ],
+      "synonyms": [
+        "amend",
+        "update",
+        "modify"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "revised edition",
+          "meaning": "ấn bản sửa đổi"
+        }
+      ],
+      "definitionEn": "To amend (also similar to update, modify) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động chỉnh sửa, hiệu chỉnh (bản thảo, lịch).",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-64",
+      "deckId": "oxford-3000",
+      "word": "verify",
+      "pos": "v",
+      "ipaUK": "/ˈver.ɪ.faɪ/",
+      "ipaUS": "/ˈver.ə.faɪ/",
+      "meaning": "xác minh, kiểm chứng",
+      "examples": [
+        {
+          "en": "Receptionists verify guest IDs before issuing room keycards.",
+          "vi": "Lễ tân xác minh giấy tờ tùy thân khách trước khi cấp thẻ phòng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "verification",
+          "pos": "n",
+          "meaning": "sự xác minh"
+        }
+      ],
+      "synonyms": [
+        "confirm",
+        "validate",
+        "check"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "verify identity",
+          "meaning": "xác minh danh tính"
+        }
+      ],
+      "definitionEn": "To confirm (also similar to validate, check) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động xác minh, kiểm chứng.",
+      "topicId": "ox3-ops"
+    },
+    {
+      "id": "ox3-65",
+      "deckId": "oxford-3000",
+      "word": "withdraw",
+      "pos": "v",
+      "ipaUK": "/wɪðˈdrɔː/",
+      "ipaUS": "/wɪðˈdrɑː/",
+      "meaning": "rút (tiền, đơn ứng tuyển, sản phẩm)",
+      "examples": [
+        {
+          "en": "Applicants may withdraw their submission at any stage.",
+          "vi": "Ứng viên có thể rút hồ sơ của mình ở bất kỳ giai đoạn nào."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "withdrawal",
+          "pos": "n",
+          "meaning": "sự rút tiền / rút lui"
+        }
+      ],
+      "synonyms": [
+        "pull out",
+        "retract",
+        "remove"
+      ],
+      "antonyms": [
+        "deposit",
+        "submit"
+      ],
+      "collocations": [
+        {
+          "phrase": "withdraw funds",
+          "meaning": "rút tiền"
+        }
+      ],
+      "definitionEn": "To pull out (also similar to retract, remove) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động rút (tiền, đơn ứng tuyển, sản phẩm).",
+      "topicId": "ox3-ops"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ox3-efficiency",
+      "name": "Hiệu suất & Quản trị doanh nghiệp",
+      "icon": "strategy",
+      "words": [
+        {
+          "id": "ox3-1",
+          "deckId": "oxford-3000",
+          "word": "efficient",
+          "pos": "adj",
+          "ipaUK": "/ɪˈfɪʃ.ənt/",
+          "ipaUS": "/ɪˈfɪʃ.ənt/",
+          "meaning": "hiệu quả, năng suất cao",
+          "examples": [
+            {
+              "en": "The new warehouse layout delivers a far more efficient workflow.",
+              "vi": "Cách bố trí kho mới mang lại quy trình làm việc hiệu quả hơn nhiều."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "efficiency",
+              "pos": "n",
+              "meaning": "hiệu suất"
+            },
+            {
+              "word": "efficiently",
+              "pos": "adv",
+              "meaning": "một cách hiệu quả"
+            }
+          ],
+          "synonyms": [
+            "productive",
+            "effective"
+          ],
+          "antonyms": [
+            "inefficient",
+            "wasteful"
+          ],
+          "collocations": [
+            {
+              "phrase": "energy-efficient",
+              "meaning": "tiết kiệm năng lượng"
+            }
+          ],
+          "definitionEn": "Working cleanly and productively while wasting minimal time, money, or energy.",
+          "definitionVi": "Làm việc năng suất và khoa học, giảm thiểu tối đa lãng phí thời gian, tiền bạc hay năng lượng.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-2",
+          "deckId": "oxford-3000",
+          "word": "reliable",
+          "pos": "adj",
+          "ipaUK": "/rɪˈlaɪ.ə.bəl/",
+          "ipaUS": "/rɪˈlaɪ.ə.bəl/",
+          "meaning": "đáng tin cậy, ổn định",
+          "examples": [
+            {
+              "en": "Choosing a reliable courier guarantees timely international shipping.",
+              "vi": "Chọn đơn vị vận chuyển đáng tin cậy đảm bảo giao hàng quốc tế đúng hẹn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "rely",
+              "pos": "v",
+              "meaning": "dựa vào"
+            },
+            {
+              "word": "reliability",
+              "pos": "n",
+              "meaning": "độ tin cậy"
+            }
+          ],
+          "synonyms": [
+            "dependable",
+            "trustworthy"
+          ],
+          "antonyms": [
+            "unreliable"
+          ],
+          "collocations": [
+            {
+              "phrase": "reliable source",
+              "meaning": "nguồn tin đáng tin cậy"
+            }
+          ],
+          "definitionEn": "Consistently trustworthy and performing well whenever needed without unexpected failure.",
+          "definitionVi": "Luôn đáng tin cậy và vận hành ổn định bất cứ khi nào cần mà không hỏng hóc bất ngờ.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-3",
+          "deckId": "oxford-3000",
+          "word": "expand",
+          "pos": "v",
+          "ipaUK": "/ɪkˈspænd/",
+          "ipaUS": "/ɪkˈspænd/",
+          "meaning": "mở rộng (quy mô, thị trường)",
+          "examples": [
+            {
+              "en": "The bakery plans to expand into three neighboring cities next year.",
+              "vi": "Tiệm bánh dự định mở rộng sang ba thành phố lân cận vào năm tới."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "expansion",
+              "pos": "n",
+              "meaning": "sự mở rộng"
+            }
+          ],
+          "synonyms": [
+            "grow",
+            "broaden",
+            "enlarge"
+          ],
+          "antonyms": [
+            "shrink",
+            "downsize"
+          ],
+          "collocations": [
+            {
+              "phrase": "expand operations",
+              "meaning": "mở rộng quy mô hoạt động"
+            }
+          ],
+          "definitionEn": "To grow larger in physical size, store count, market reach, or range of services.",
+          "definitionVi": "Mở rộng quy mô về diện tích, số chi nhánh, phạm vi thị trường hoặc danh mục dịch vụ.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-4",
+          "deckId": "oxford-3000",
+          "word": "maintain",
+          "pos": "v",
+          "ipaUK": "/meɪnˈteɪn/",
+          "ipaUS": "/meɪnˈteɪn/",
+          "meaning": "duy trì; bảo trì, bảo dưỡng",
+          "examples": [
+            {
+              "en": "Engineers inspect and maintain the escalators every month.",
+              "vi": "Kỹ sư kiểm tra và bảo trì thang cuốn mỗi tháng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "maintenance",
+              "pos": "n",
+              "meaning": "sự bảo trì"
+            }
+          ],
+          "synonyms": [
+            "preserve",
+            "sustain",
+            "service"
+          ],
+          "antonyms": [
+            "neglect"
+          ],
+          "collocations": [
+            {
+              "phrase": "routine maintenance",
+              "meaning": "bảo trì định kỳ"
+            }
+          ],
+          "definitionEn": "To keep equipment, buildings, or standards in good working condition through regular care.",
+          "definitionVi": "Duy trì thiết bị, tòa nhà hoặc tiêu chuẩn ở trạng thái tốt nhờ chăm sóc, bảo dưỡng định kỳ.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-5",
+          "deckId": "oxford-3000",
+          "word": "participate",
+          "pos": "v",
+          "ipaUK": "/pɑːˈtɪs.ɪ.peɪt/",
+          "ipaUS": "/pɑːrˈtɪs.ə.peɪt/",
+          "meaning": "tham gia vào (đi với in)",
+          "examples": [
+            {
+              "en": "Staff are encouraged to participate in the annual charity marathon.",
+              "vi": "Nhân viên được khuyến khích tham gia giải chạy từ thiện thường niên."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "participant",
+              "pos": "n",
+              "meaning": "người tham gia"
+            },
+            {
+              "word": "participation",
+              "pos": "n",
+              "meaning": "sự tham gia"
+            }
+          ],
+          "synonyms": [
+            "take part in",
+            "join"
+          ],
+          "antonyms": [
+            "withdraw from"
+          ],
+          "collocations": [
+            {
+              "phrase": "active participation",
+              "meaning": "sự tham gia tích cực"
+            }
+          ],
+          "definitionEn": "To take part in (also similar to join) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tham gia vào (đi với in).",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-6",
+          "deckId": "oxford-3000",
+          "word": "significant",
+          "pos": "adj",
+          "ipaUK": "/sɪɡˈnɪf.ɪ.kənt/",
+          "ipaUS": "/sɪɡˈnɪf.ə.kənt/",
+          "meaning": "đáng kể, quan trọng",
+          "examples": [
+            {
+              "en": "Online bookings showed a significant rise over the holiday period.",
+              "vi": "Đặt chỗ trực tuyến ghi nhận mức tăng đáng kể trong kỳ nghỉ lễ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "significantly",
+              "pos": "adv",
+              "meaning": "đáng kể"
+            },
+            {
+              "word": "significance",
+              "pos": "n",
+              "meaning": "tầm quan trọng"
+            }
+          ],
+          "synonyms": [
+            "notable",
+            "substantial",
+            "major"
+          ],
+          "antonyms": [
+            "insignificant",
+            "minor"
+          ],
+          "collocations": [
+            {
+              "phrase": "significant impact",
+              "meaning": "tác động đáng kể"
+            }
+          ],
+          "definitionEn": "Having the quality of being notable, substantial, major.",
+          "definitionVi": "Tính từ mô tả đặc điểm đáng kể, quan trọng.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-7",
+          "deckId": "oxford-3000",
+          "word": "distribute",
+          "pos": "v",
+          "ipaUK": "/dɪˈstrɪb.juːt/",
+          "ipaUS": "/dɪˈstrɪb.juːt/",
+          "meaning": "phân phối, phát (tài liệu, hàng hóa)",
+          "examples": [
+            {
+              "en": "Volunteers will distribute event maps throughout the central plaza.",
+              "vi": "Tình nguyện viên sẽ phát bản đồ sự kiện khắp quảng trường trung tâm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "distribution",
+              "pos": "n",
+              "meaning": "sự phân phối"
+            },
+            {
+              "word": "distributor",
+              "pos": "n",
+              "meaning": "nhà phân phối"
+            }
+          ],
+          "synonyms": [
+            "hand out",
+            "circulate"
+          ],
+          "antonyms": [
+            "collect"
+          ],
+          "collocations": [
+            {
+              "phrase": "distribution center",
+              "meaning": "trung tâm phân phối"
+            }
+          ],
+          "definitionEn": "To hand out (also similar to circulate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động phân phối, phát (tài liệu, hàng hóa).",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-8",
+          "deckId": "oxford-3000",
+          "word": "annual",
+          "pos": "adj",
+          "ipaUK": "/ˈæn.ju.əl/",
+          "ipaUS": "/ˈæn.ju.əl/",
+          "meaning": "hàng năm, thường niên",
+          "examples": [
+            {
+              "en": "Our annual shareholders’ meeting convenes in April.",
+              "vi": "Đại hội cổ đông thường niên của chúng ta họp vào tháng Tư."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "annually",
+              "pos": "adv",
+              "meaning": "hàng năm"
+            }
+          ],
+          "synonyms": [
+            "yearly"
+          ],
+          "antonyms": [
+            "monthly",
+            "quarterly"
+          ],
+          "collocations": [
+            {
+              "phrase": "annual report",
+              "meaning": "báo cáo thường niên"
+            }
+          ],
+          "definitionEn": "Having the quality of being yearly.",
+          "definitionVi": "Tính từ mô tả đặc điểm hàng năm, thường niên.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-9",
+          "deckId": "oxford-3000",
+          "word": "promote",
+          "pos": "v",
+          "ipaUK": "/prəˈməʊt/",
+          "ipaUS": "/prəˈmoʊt/",
+          "meaning": "thăng chức; quảng bá (sản phẩm)",
+          "examples": [
+            {
+              "en": "The board voted to promote Ms. Hayes to regional marketing director.",
+              "vi": "Hội đồng đã bỏ phiếu thăng chức cô Hayes làm giám đốc tiếp thị khu vực."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "promotion",
+              "pos": "n",
+              "meaning": "thăng chức; khuyến mãi"
+            },
+            {
+              "word": "promotional",
+              "pos": "adj",
+              "meaning": "quảng bá"
+            }
+          ],
+          "synonyms": [
+            "advance",
+            "advertise"
+          ],
+          "antonyms": [
+            "demote"
+          ],
+          "collocations": [
+            {
+              "phrase": "promotional campaign",
+              "meaning": "chiến dịch quảng bá"
+            }
+          ],
+          "definitionEn": "To advance (also similar to advertise) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động thăng chức; quảng bá (sản phẩm).",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-10",
+          "deckId": "oxford-3000",
+          "word": "flexible",
+          "pos": "adj",
+          "ipaUK": "/ˈflek.sə.bəl/",
+          "ipaUS": "/ˈflek.sə.bəl/",
+          "meaning": "linh hoạt, dễ điều chỉnh",
+          "examples": [
+            {
+              "en": "The firm provides flexible working hours for working parents.",
+              "vi": "Công ty cung cấp giờ làm việc linh hoạt cho nhân viên có con nhỏ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "flexibility",
+              "pos": "n",
+              "meaning": "sự linh hoạt"
+            }
+          ],
+          "synonyms": [
+            "adaptable",
+            "adjustable"
+          ],
+          "antonyms": [
+            "rigid",
+            "inflexible"
+          ],
+          "collocations": [
+            {
+              "phrase": "flexible schedule",
+              "meaning": "lịch trình linh hoạt"
+            }
+          ],
+          "definitionEn": "Having the quality of being adaptable, adjustable.",
+          "definitionVi": "Tính từ mô tả đặc điểm linh hoạt, dễ điều chỉnh.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-11",
+          "deckId": "oxford-3000",
+          "word": "estimate",
+          "pos": "v",
+          "ipaUK": "/ˈes.tɪ.meɪt/",
+          "ipaUS": "/ˈes.tə.meɪt/",
+          "meaning": "ước tính, dự toán",
+          "examples": [
+            {
+              "en": "Contractors estimate the roof repair will take four days.",
+              "vi": "Nhà thầu ước tính việc sửa mái nhà sẽ mất bốn ngày."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "estimation",
+              "pos": "n",
+              "meaning": "sự ước tính"
+            }
+          ],
+          "synonyms": [
+            "calculate",
+            "project",
+            "approximate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "cost estimate",
+              "meaning": "bảng dự toán chi phí"
+            }
+          ],
+          "definitionEn": "To calculate (also similar to project, approximate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động ước tính, dự toán.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-12",
+          "deckId": "oxford-3000",
+          "word": "notify",
+          "pos": "v",
+          "ipaUK": "/ˈnəʊ.tɪ.faɪ/",
+          "ipaUS": "/ˈnoʊ.t̬ə.faɪ/",
+          "meaning": "thông báo chính thức",
+          "examples": [
+            {
+              "en": "Please notify HR two weeks before any planned vacation.",
+              "vi": "Vui lòng thông báo phòng nhân sự hai tuần trước kỳ nghỉ dự kiến."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "notification",
+              "pos": "n",
+              "meaning": "thông báo"
+            }
+          ],
+          "synonyms": [
+            "inform",
+            "alert",
+            "advise"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "notify in writing",
+              "meaning": "thông báo bằng văn bản"
+            }
+          ],
+          "definitionEn": "To inform (also similar to alert, advise) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động thông báo chính thức.",
+          "topicId": "ox3-efficiency"
+        },
+        {
+          "id": "ox3-13",
+          "deckId": "oxford-3000",
+          "word": "submit",
+          "pos": "v",
+          "ipaUK": "/səbˈmɪt/",
+          "ipaUS": "/səbˈmɪt/",
+          "meaning": "nộp, đệ trình",
+          "examples": [
+            {
+              "en": "Employees must submit all travel claims by Friday afternoon.",
+              "vi": "Nhân viên phải nộp mọi yêu cầu thanh toán công tác trước chiều thứ Sáu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "submission",
+              "pos": "n",
+              "meaning": "bài nộp, sự đệ trình"
+            }
+          ],
+          "synonyms": [
+            "turn in",
+            "hand in",
+            "file"
+          ],
+          "antonyms": [
+            "withdraw"
+          ],
+          "collocations": [
+            {
+              "phrase": "submit an application",
+              "meaning": "nộp đơn ứng tuyển"
+            }
+          ],
+          "definitionEn": "To turn in (also similar to hand in, file) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nộp, đệ trình.",
+          "topicId": "ox3-efficiency"
+        }
+      ]
+    },
+    {
+      "id": "ox3-analysis",
+      "name": "Phân tích, Phê duyệt & Phân công",
+      "icon": "education",
+      "words": [
+        {
+          "id": "ox3-14",
+          "deckId": "oxford-3000",
+          "word": "accurate",
+          "pos": "adj",
+          "ipaUK": "/ˈæk.jə.ɹɪt/",
+          "ipaUS": "/ˈæk.jə.ɹɪt/",
+          "meaning": "chính xác, chuẩn xác",
+          "examples": [
+            {
+              "en": "Barcode scanners ensure accurate real-time stock tracking.",
+              "vi": "Máy quét mã vạch đảm bảo theo dõi tồn kho chính xác theo thời gian thực."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "accuracy",
+              "pos": "n",
+              "meaning": "độ chính xác"
+            },
+            {
+              "word": "accurately",
+              "pos": "adv",
+              "meaning": "chính xác"
+            }
+          ],
+          "synonyms": [
+            "precise",
+            "exact",
+            "correct",
+            "just",
+            "nice"
+          ],
+          "antonyms": [
+            "inaccurate"
+          ],
+          "collocations": [
+            {
+              "phrase": "accurate forecast",
+              "meaning": "dự báo chính xác"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/accurate-us.mp3",
+          "definitionEn": "Having the quality of being precise, exact, correct.",
+          "definitionVi": "Tính từ mô tả đặc điểm chính xác, chuẩn xác.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-15",
+          "deckId": "oxford-3000",
+          "word": "adequate",
+          "pos": "adj",
+          "ipaUK": "/ˈæd.ə.kwət/",
+          "ipaUS": "/ˈæd.ə.kwət/",
+          "meaning": "đầy đủ, thỏa đáng",
+          "examples": [
+            {
+              "en": "Please verify that the hall has adequate lighting for filming.",
+              "vi": "Vui lòng kiểm tra hội trường có đủ ánh sáng để quay phim không."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "adequately",
+              "pos": "adv",
+              "meaning": "đầy đủ"
+            }
+          ],
+          "synonyms": [
+            "sufficient",
+            "enough",
+            "satisfactory",
+            "acceptable",
+            "correspondent"
+          ],
+          "antonyms": [
+            "inadequate",
+            "insufficient"
+          ],
+          "collocations": [
+            {
+              "phrase": "adequate funding",
+              "meaning": "nguồn vốn đầy đủ"
+            }
+          ],
+          "definitionEn": "Having the quality of being sufficient, enough, satisfactory.",
+          "definitionVi": "Tính từ mô tả đặc điểm đầy đủ, thỏa đáng.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-16",
+          "deckId": "oxford-3000",
+          "word": "adjust",
+          "pos": "v",
+          "ipaUK": "/əˈdʒʌst/",
+          "ipaUS": "/əˈdʒʌst/",
+          "meaning": "điều chỉnh, thích nghi",
+          "examples": [
+            {
+              "en": "We need to adjust our staffing schedule to handle weekend crowds.",
+              "vi": "Chúng tôi cần điều chỉnh lịch nhân sự để phục vụ lượng khách cuối tuần."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "adjustment",
+              "pos": "n",
+              "meaning": "sự điều chỉnh"
+            },
+            {
+              "word": "adjustable",
+              "pos": "adj",
+              "meaning": "có thể điều chỉnh"
+            }
+          ],
+          "synonyms": [
+            "modify",
+            "adapt",
+            "fine-tune",
+            "change",
+            "edit"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "adjustable height",
+              "meaning": "độ cao điều chỉnh được"
+            }
+          ],
+          "definitionEn": "To modify (also similar to adapt, fine-tune) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động điều chỉnh, thích nghi.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-17",
+          "deckId": "oxford-3000",
+          "word": "adopt",
+          "pos": "v",
+          "ipaUK": "/əˈdɒpt/",
+          "ipaUS": "/əˈdɒpt/",
+          "meaning": "áp dụng (chính sách, công nghệ mới)",
+          "examples": [
+            {
+              "en": "Many regional clinics plan to adopt digital patient intake forms.",
+              "vi": "Nhiều phòng khám khu vực dự định áp dụng biểu mẫu tiếp nhận bệnh nhân điện tử."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "adoption",
+              "pos": "n",
+              "meaning": "sự áp dụng"
+            }
+          ],
+          "synonyms": [
+            "embrace",
+            "implement"
+          ],
+          "antonyms": [
+            "reject",
+            "abandon"
+          ],
+          "collocations": [
+            {
+              "phrase": "adopt new technology",
+              "meaning": "áp dụng công nghệ mới"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/adopt-us.mp3",
+          "definitionEn": "To embrace (also similar to implement) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động áp dụng (chính sách, công nghệ mới).",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-18",
+          "deckId": "oxford-3000",
+          "word": "analyze",
+          "pos": "v",
+          "ipaUK": "/ˈæn.əl.aɪz/",
+          "ipaUS": "/ˈæn.ə.laɪz/",
+          "meaning": "phân tích",
+          "examples": [
+            {
+              "en": "Data scientists analyze purchasing patterns before seasonal sales.",
+              "vi": "Chuyên gia dữ liệu phân tích xu hướng mua sắm trước các đợt giảm giá theo mùa."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "analysis",
+              "pos": "n",
+              "meaning": "bản phân tích"
+            },
+            {
+              "word": "analyst",
+              "pos": "n",
+              "meaning": "nhà phân tích"
+            }
+          ],
+          "synonyms": [
+            "examine",
+            "inspect",
+            "evaluate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "market analysis",
+              "meaning": "phân tích thị trường"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/analyze-us.mp3",
+          "definitionEn": "To examine (also similar to inspect, evaluate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động phân tích.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-19",
+          "deckId": "oxford-3000",
+          "word": "appoint",
+          "pos": "v",
+          "ipaUK": "/əˈpɔɪnt/",
+          "ipaUS": "/əˈpɔɪnt/",
+          "meaning": "bổ nhiệm (chức vụ); ấn định",
+          "examples": [
+            {
+              "en": "The board will appoint Dr. Silva as chief medical officer next week.",
+              "vi": "Hội đồng sẽ bổ nhiệm Tiến sĩ Silva làm giám đốc y khoa vào tuần tới."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "appointment",
+              "pos": "n",
+              "meaning": "cuộc hẹn; sự bổ nhiệm"
+            }
+          ],
+          "synonyms": [
+            "designate",
+            "nominate",
+            "name"
+          ],
+          "antonyms": [
+            "dismiss"
+          ],
+          "collocations": [
+            {
+              "phrase": "make an appointment",
+              "meaning": "đặt lịch hẹn"
+            }
+          ],
+          "definitionEn": "To designate (also similar to nominate, name) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động bổ nhiệm (chức vụ); ấn định.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-20",
+          "deckId": "oxford-3000",
+          "word": "approve",
+          "pos": "v",
+          "ipaUK": "/əˈpruːv/",
+          "ipaUS": "/əˈpruːv/",
+          "meaning": "phê duyệt, chấp thuận",
+          "examples": [
+            {
+              "en": "City planners must approve permits before construction begins.",
+              "vi": "Các nhà quy hoạch thành phố phải phê duyệt giấy phép trước khi khởi công."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "approval",
+              "pos": "n",
+              "meaning": "sự phê duyệt"
+            }
+          ],
+          "synonyms": [
+            "authorize",
+            "endorse",
+            "sanction"
+          ],
+          "antonyms": [
+            "reject",
+            "deny"
+          ],
+          "collocations": [
+            {
+              "phrase": "final approval",
+              "meaning": "phê duyệt cuối cùng"
+            }
+          ],
+          "definitionEn": "To authorize (also similar to endorse, sanction) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động phê duyệt, chấp thuận.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-21",
+          "deckId": "oxford-3000",
+          "word": "assign",
+          "pos": "v",
+          "ipaUK": "/əˈsaɪn/",
+          "ipaUS": "/əˈsaɪn/",
+          "meaning": "phân công (nhiệm vụ, phòng)",
+          "examples": [
+            {
+              "en": "Managers will assign an experienced mentor to each new intern.",
+              "vi": "Quản lý sẽ phân công một người cố vấn giàu kinh nghiệm cho mỗi thực tập sinh."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "assignment",
+              "pos": "n",
+              "meaning": "nhiệm vụ được giao"
+            }
+          ],
+          "synonyms": [
+            "allocate",
+            "delegate",
+            "designate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "assign tasks",
+              "meaning": "phân công công việc"
+            }
+          ],
+          "definitionEn": "To allocate (also similar to delegate, designate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động phân công (nhiệm vụ, phòng).",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-22",
+          "deckId": "oxford-3000",
+          "word": "assist",
+          "pos": "v",
+          "ipaUK": "/əˈsɪst/",
+          "ipaUS": "/əˈsɪst/",
+          "meaning": "hỗ trợ, giúp đỡ",
+          "examples": [
+            {
+              "en": "Floor staff are ready to assist shoppers with sizing.",
+              "vi": "Nhân viên bán hàng sẵn sàng hỗ trợ khách chọn kích cỡ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "assistance",
+              "pos": "n",
+              "meaning": "sự hỗ trợ"
+            },
+            {
+              "word": "assistant",
+              "pos": "n",
+              "meaning": "trợ lý"
+            }
+          ],
+          "synonyms": [
+            "help",
+            "aid",
+            "support"
+          ],
+          "antonyms": [
+            "hinder"
+          ],
+          "collocations": [
+            {
+              "phrase": "financial assistance",
+              "meaning": "hỗ trợ tài chính"
+            }
+          ],
+          "definitionEn": "To help (also similar to aid, support) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hỗ trợ, giúp đỡ.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-23",
+          "deckId": "oxford-3000",
+          "word": "assume",
+          "pos": "v",
+          "ipaUK": "/əˈsjuːm/",
+          "ipaUS": "/əˈsuːm/",
+          "meaning": "cho rằng, giả định; đảm nhận (trách nhiệm)",
+          "examples": [
+            {
+              "en": "Ms. Park will assume leadership of the European division in July.",
+              "vi": "Cô Park sẽ đảm nhận vai trò lãnh đạo chi nhánh châu Âu vào tháng Bảy."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "assumption",
+              "pos": "n",
+              "meaning": "giả định"
+            }
+          ],
+          "synonyms": [
+            "presume",
+            "suppose",
+            "take on"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "assume responsibility",
+              "meaning": "đảm nhận trách nhiệm"
+            }
+          ],
+          "definitionEn": "To presume (also similar to suppose, take on) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cho rằng, giả định; đảm nhận (trách nhiệm).",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-24",
+          "deckId": "oxford-3000",
+          "word": "benefit",
+          "pos": "n",
+          "ipaUK": "/ˈben.ɪ.fɪt/",
+          "ipaUS": "/ˈben.ə.fɪt/",
+          "meaning": "lợi ích; phúc lợi nhân viên",
+          "examples": [
+            {
+              "en": "Flexible scheduling is a major benefit for working parents.",
+              "vi": "Lịch làm việc linh hoạt là một phúc lợi lớn cho các bậc phụ huynh đi làm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "beneficial",
+              "pos": "adj",
+              "meaning": "có lợi"
+            }
+          ],
+          "synonyms": [
+            "advantage",
+            "perk",
+            "gain"
+          ],
+          "antonyms": [
+            "drawback"
+          ],
+          "collocations": [
+            {
+              "phrase": "mutual benefit",
+              "meaning": "lợi ích đôi bên"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to advantage, perk, gain.",
+          "definitionVi": "Danh từ dùng để chỉ lợi ích; phúc lợi nhân viên.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-25",
+          "deckId": "oxford-3000",
+          "word": "brief",
+          "pos": "adj",
+          "ipaUK": "/briːf/",
+          "ipaUS": "/briːf/",
+          "meaning": "ngắn gọn, vắn tắt",
+          "examples": [
+            {
+              "en": "Please review this brief summary before entering the boardroom.",
+              "vi": "Vui lòng xem bản tóm tắt ngắn gọn này trước khi vào phòng họp."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "briefly",
+              "pos": "adv",
+              "meaning": "ngắn gọn"
+            },
+            {
+              "word": "briefing",
+              "pos": "n",
+              "meaning": "buổi họp giao ban"
+            }
+          ],
+          "synonyms": [
+            "concise",
+            "short",
+            "succinct"
+          ],
+          "antonyms": [
+            "lengthy"
+          ],
+          "collocations": [
+            {
+              "phrase": "brief overview",
+              "meaning": "tổng quan ngắn gọn"
+            }
+          ],
+          "definitionEn": "Having the quality of being concise, short, succinct.",
+          "definitionVi": "Tính từ mô tả đặc điểm ngắn gọn, vắn tắt.",
+          "topicId": "ox3-analysis"
+        },
+        {
+          "id": "ox3-26",
+          "deckId": "oxford-3000",
+          "word": "capable",
+          "pos": "adj",
+          "ipaUK": "/ˈkeɪ.pə.bəl/",
+          "ipaUS": "/ˈkeɪ.pə.bəl/",
+          "meaning": "có năng lực, có khả năng (đi với of)",
+          "examples": [
+            {
+              "en": "The upgraded press is capable of printing 5,000 sheets per hour.",
+              "vi": "Máy in nâng cấp có khả năng in 5.000 tờ mỗi giờ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "capability",
+              "pos": "n",
+              "meaning": "năng lực, khả năng"
+            }
+          ],
+          "synonyms": [
+            "able",
+            "competent",
+            "proficient"
+          ],
+          "antonyms": [
+            "incapable"
+          ],
+          "collocations": [
+            {
+              "phrase": "capable of",
+              "meaning": "có khả năng làm gì"
+            }
+          ],
+          "definitionEn": "Having the quality of being able, competent, proficient.",
+          "definitionVi": "Tính từ mô tả đặc điểm có năng lực, có khả năng (đi với of).",
+          "topicId": "ox3-analysis"
+        }
+      ]
+    },
+    {
+      "id": "ox3-teamwork",
+      "name": "Hợp tác, Điều phối & Giao tiếp",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "ox3-27",
+          "deckId": "oxford-3000",
+          "word": "collaborate",
+          "pos": "v",
+          "ipaUK": "/kəˈlæb.ə.reɪt/",
+          "ipaUS": "/kəˈlæb.ə.reɪt/",
+          "meaning": "hợp tác, cộng tác (đi với with / on)",
+          "examples": [
+            {
+              "en": "Designers will collaborate with engineers to lighten the frame.",
+              "vi": "Nhà thiết kế sẽ hợp tác cùng kỹ sư để làm nhẹ khung máy."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "collaboration",
+              "pos": "n",
+              "meaning": "sự hợp tác"
+            },
+            {
+              "word": "collaborative",
+              "pos": "adj",
+              "meaning": "mang tính cộng tác"
+            }
+          ],
+          "synonyms": [
+            "cooperate",
+            "partner",
+            "team up"
+          ],
+          "antonyms": [
+            "compete"
+          ],
+          "collocations": [
+            {
+              "phrase": "in collaboration with",
+              "meaning": "hợp tác cùng với"
+            }
+          ],
+          "definitionEn": "To cooperate (also similar to partner, team up) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hợp tác, cộng tác (đi với with / on).",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-28",
+          "deckId": "oxford-3000",
+          "word": "commit",
+          "pos": "v",
+          "ipaUK": "/kəˈmɪt/",
+          "ipaUS": "/kəˈmɪt/",
+          "meaning": "cam kết (đi với to + V-ing/N)",
+          "examples": [
+            {
+              "en": "Our factory plans to commit to sourcing 100% recycled packaging.",
+              "vi": "Nhà máy của chúng tôi dự định cam kết sử dụng 100% bao bì tái chế."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "commitment",
+              "pos": "n",
+              "meaning": "sự cam kết"
+            },
+            {
+              "word": "committed",
+              "pos": "adj",
+              "meaning": "tận tâm, cam kết"
+            }
+          ],
+          "synonyms": [
+            "pledge",
+            "dedicate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "committed to excellence",
+              "meaning": "cam kết chất lượng xuất sắc"
+            }
+          ],
+          "definitionEn": "To pledge (also similar to dedicate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cam kết (đi với to + V-ing/N).",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-29",
+          "deckId": "oxford-3000",
+          "word": "complex",
+          "pos": "adj",
+          "ipaUK": "/ˈkɒm.pleks/",
+          "ipaUS": "/kɑːmˈpleks/",
+          "meaning": "phức tạp; n: khu phức hợp",
+          "examples": [
+            {
+              "en": "The new business complex includes offices, shops, and a gym.",
+              "vi": "Khu phức hợp văn phòng mới gồm văn phòng, cửa hàng và phòng gym."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "complexity",
+              "pos": "n",
+              "meaning": "độ phức tạp"
+            }
+          ],
+          "synonyms": [
+            "intricate",
+            "complicated"
+          ],
+          "antonyms": [
+            "simple"
+          ],
+          "collocations": [
+            {
+              "phrase": "residential complex",
+              "meaning": "khu phức hợp dân cư"
+            }
+          ],
+          "definitionEn": "Having the quality of being intricate, complicated.",
+          "definitionVi": "Tính từ mô tả đặc điểm phức tạp; n: khu phức hợp.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-30",
+          "deckId": "oxford-3000",
+          "word": "conduct",
+          "pos": "v",
+          "ipaUK": "/kənˈdʌkt/",
+          "ipaUS": "/kənˈdʌkt/",
+          "meaning": "tiến hành, thực hiện (khảo sát, kiểm toán)",
+          "examples": [
+            {
+              "en": "An independent lab will conduct safety tests on the new helmets.",
+              "vi": "Một phòng thí nghiệm độc lập sẽ tiến hành kiểm tra an toàn mũ bảo hiểm mới."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "carry out",
+            "perform",
+            "execute"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "conduct a survey",
+              "meaning": "tiến hành khảo sát"
+            }
+          ],
+          "definitionEn": "To carry out (also similar to perform, execute) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tiến hành, thực hiện (khảo sát, kiểm toán).",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-31",
+          "deckId": "oxford-3000",
+          "word": "confirm",
+          "pos": "v",
+          "ipaUK": "/kənˈfɜːm/",
+          "ipaUS": "/kənˈfɝːm/",
+          "meaning": "xác nhận",
+          "examples": [
+            {
+              "en": "Kindly confirm your hotel reservation by Thursday noon.",
+              "vi": "Vui lòng xác nhận đặt phòng khách sạn trước trưa thứ Năm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "confirmation",
+              "pos": "n",
+              "meaning": "sự xác nhận"
+            }
+          ],
+          "synonyms": [
+            "verify",
+            "validate"
+          ],
+          "antonyms": [
+            "cancel"
+          ],
+          "collocations": [
+            {
+              "phrase": "confirmation number",
+              "meaning": "mã số xác nhận"
+            }
+          ],
+          "definitionEn": "To verify (also similar to validate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động xác nhận.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-32",
+          "deckId": "oxford-3000",
+          "word": "consistent",
+          "pos": "adj",
+          "ipaUK": "/kənˈsɪs.tənt/",
+          "ipaUS": "/kənˈsɪs.tənt/",
+          "meaning": "nhất quán, ổn định",
+          "examples": [
+            {
+              "en": "Customers appreciate our consistent coffee flavor at every branch.",
+              "vi": "Khách hàng đánh giá cao hương vị cà phê ổn định ở mọi chi nhánh."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "consistency",
+              "pos": "n",
+              "meaning": "tính nhất quán"
+            },
+            {
+              "word": "consistently",
+              "pos": "adv",
+              "meaning": "luôn ổn định"
+            }
+          ],
+          "synonyms": [
+            "steady",
+            "uniform",
+            "reliable"
+          ],
+          "antonyms": [
+            "inconsistent"
+          ],
+          "collocations": [
+            {
+              "phrase": "consistent quality",
+              "meaning": "chất lượng ổn định"
+            }
+          ],
+          "definitionEn": "Having the quality of being steady, uniform, reliable.",
+          "definitionVi": "Tính từ mô tả đặc điểm nhất quán, ổn định.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-33",
+          "deckId": "oxford-3000",
+          "word": "consult",
+          "pos": "v",
+          "ipaUK": "/kənˈsʌlt/",
+          "ipaUS": "/kənˈsʌlt/",
+          "meaning": "tham khảo ý kiến, tư vấn",
+          "examples": [
+            {
+              "en": "Please consult the user manual before replacing the filter.",
+              "vi": "Vui lòng tham khảo sách hướng dẫn trước khi thay bộ lọc."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "consultant",
+              "pos": "n",
+              "meaning": "chuyên gia tư vấn"
+            },
+            {
+              "word": "consultation",
+              "pos": "n",
+              "meaning": "buổi tư vấn"
+            }
+          ],
+          "synonyms": [
+            "confer with",
+            "check",
+            "refer to"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "free consultation",
+              "meaning": "tư vấn miễn phí"
+            }
+          ],
+          "definitionEn": "To confer with (also similar to check, refer to) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tham khảo ý kiến, tư vấn.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-34",
+          "deckId": "oxford-3000",
+          "word": "contribute",
+          "pos": "v",
+          "ipaUK": "/kənˈtrɪb.juːt/",
+          "ipaUS": "/kənˈtrɪb.juːt/",
+          "meaning": "đóng góp, góp phần (đi với to)",
+          "examples": [
+            {
+              "en": "Clear documentation can contribute to a smoother product launch.",
+              "vi": "Tài liệu rõ ràng có thể góp phần giúp đợt ra mắt sản phẩm suôn sẻ hơn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "contribution",
+              "pos": "n",
+              "meaning": "sự đóng góp"
+            }
+          ],
+          "synonyms": [
+            "add to",
+            "donate",
+            "foster"
+          ],
+          "antonyms": [
+            "detract from"
+          ],
+          "collocations": [
+            {
+              "phrase": "make a contribution to",
+              "meaning": "đóng góp vào"
+            }
+          ],
+          "definitionEn": "To add to (also similar to donate, foster) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đóng góp, góp phần (đi với to).",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-35",
+          "deckId": "oxford-3000",
+          "word": "coordinate",
+          "pos": "v",
+          "ipaUK": "/kəʊˈɔː.dɪ.neɪt/",
+          "ipaUS": "/koʊˈɔːr.də.neɪt/",
+          "meaning": "điều phối, phối hợp",
+          "examples": [
+            {
+              "en": "Hannah will coordinate travel logistics for overseas executives.",
+              "vi": "Hannah sẽ điều phối hậu cần đi lại cho các lãnh đạo nước ngoài."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "coordinator",
+              "pos": "n",
+              "meaning": "điều phối viên"
+            },
+            {
+              "word": "coordination",
+              "pos": "n",
+              "meaning": "sự điều phối"
+            }
+          ],
+          "synonyms": [
+            "organize",
+            "synchronize",
+            "manage"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "event coordinator",
+              "meaning": "điều phối viên sự kiện"
+            }
+          ],
+          "definitionEn": "To organize (also similar to synchronize, manage) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động điều phối, phối hợp.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-36",
+          "deckId": "oxford-3000",
+          "word": "crucial",
+          "pos": "adj",
+          "ipaUK": "/ˈkruː.ʃəl/",
+          "ipaUS": "/ˈkruː.ʃəl/",
+          "meaning": "then chốt, vô cùng quan trọng",
+          "examples": [
+            {
+              "en": "Early user testing is crucial for spotting navigation bugs.",
+              "vi": "Thử nghiệm người dùng sớm rất quan trọng để phát hiện lỗi điều hướng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "crucially",
+              "pos": "adv",
+              "meaning": "một cách then chốt"
+            }
+          ],
+          "synonyms": [
+            "vital",
+            "essential",
+            "critical"
+          ],
+          "antonyms": [
+            "trivial",
+            "minor"
+          ],
+          "collocations": [
+            {
+              "phrase": "play a crucial role",
+              "meaning": "đóng vai trò then chốt"
+            }
+          ],
+          "definitionEn": "Having the quality of being vital, essential, critical.",
+          "definitionVi": "Tính từ mô tả đặc điểm then chốt, vô cùng quan trọng.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-37",
+          "deckId": "oxford-3000",
+          "word": "decline",
+          "pos": "v",
+          "ipaUK": "/dɪˈklaɪn/",
+          "ipaUS": "/dɪˈklaɪn/",
+          "meaning": "sụt giảm; từ chối lịch sự",
+          "examples": [
+            {
+              "en": "Print newspaper subscriptions continue to decline each year.",
+              "vi": "Lượng đặt mua báo giấy tiếp tục sụt giảm mỗi năm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "decrease",
+            "drop",
+            "turn down"
+          ],
+          "antonyms": [
+            "increase",
+            "accept"
+          ],
+          "collocations": [
+            {
+              "phrase": "politely decline",
+              "meaning": "từ chối lịch sự"
+            },
+            {
+              "phrase": "sharp decline",
+              "meaning": "sự sụt giảm mạnh"
+            }
+          ],
+          "definitionEn": "To decrease (also similar to drop, turn down) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động sụt giảm; từ chối lịch sự.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-38",
+          "deckId": "oxford-3000",
+          "word": "dedicate",
+          "pos": "v",
+          "ipaUK": "/ˈded.ɪ.keɪt/",
+          "ipaUS": "/ˈded.ə.keɪt/",
+          "meaning": "cống hiến, dành riêng cho",
+          "examples": [
+            {
+              "en": "We will dedicate a full-time account manager to your enterprise plan.",
+              "vi": "Chúng tôi sẽ dành riêng một quản lý tài khoản toàn thời gian cho gói doanh nghiệp của bạn."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "dedication",
+              "pos": "n",
+              "meaning": "sự tận tụy"
+            },
+            {
+              "word": "dedicated",
+              "pos": "adj",
+              "meaning": "tận tâm, chuyên trách"
+            }
+          ],
+          "synonyms": [
+            "devote",
+            "commit"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "dedicated support",
+              "meaning": "hỗ trợ chuyên trách"
+            }
+          ],
+          "definitionEn": "To devote (also similar to commit) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cống hiến, dành riêng cho.",
+          "topicId": "ox3-teamwork"
+        },
+        {
+          "id": "ox3-39",
+          "deckId": "oxford-3000",
+          "word": "delay",
+          "pos": "v",
+          "ipaUK": "/dɪˈleɪ/",
+          "ipaUS": "/dɪˈleɪ/",
+          "meaning": "trì hoãn, làm chậm trễ",
+          "examples": [
+            {
+              "en": "Dense fog may delay morning departures by forty minutes.",
+              "vi": "Sương mù dày đặc có thể làm chậm các chuyến bay sáng bốn mươi phút."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "delayed",
+              "pos": "adj",
+              "meaning": "bị trễ"
+            }
+          ],
+          "synonyms": [
+            "postpone",
+            "hold up",
+            "defer"
+          ],
+          "antonyms": [
+            "expedite",
+            "advance"
+          ],
+          "collocations": [
+            {
+              "phrase": "without delay",
+              "meaning": "ngay không chậm trễ"
+            }
+          ],
+          "definitionEn": "To postpone (also similar to hold up, defer) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động trì hoãn, làm chậm trễ.",
+          "topicId": "ox3-teamwork"
+        }
+      ]
+    },
+    {
+      "id": "ox3-finance",
+      "name": "Tài chính, Tài trợ & Cơ sở vật chất",
+      "icon": "finance",
+      "words": [
+        {
+          "id": "ox3-40",
+          "deckId": "oxford-3000",
+          "word": "depart",
+          "pos": "v",
+          "ipaUK": "/dɪˈpɑːt/",
+          "ipaUS": "/dɪˈpɑːrt/",
+          "meaning": "khởi hành, rời đi",
+          "examples": [
+            {
+              "en": "The express train will depart from Platform 4 in ten minutes.",
+              "vi": "Tàu tốc hành sẽ khởi hành từ Sân ga 4 trong mười phút nữa."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "departure",
+              "pos": "n",
+              "meaning": "sự khởi hành"
+            }
+          ],
+          "synonyms": [
+            "leave",
+            "set off"
+          ],
+          "antonyms": [
+            "arrive"
+          ],
+          "collocations": [
+            {
+              "phrase": "departure lounge",
+              "meaning": "phòng chờ khởi hành"
+            }
+          ],
+          "definitionEn": "To leave (also similar to set off) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động khởi hành, rời đi.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-41",
+          "deckId": "oxford-3000",
+          "word": "domestic",
+          "pos": "adj",
+          "ipaUK": "/dəˈmes.tɪk/",
+          "ipaUS": "/dəˈmes.tɪk/",
+          "meaning": "nội địa, trong nước",
+          "examples": [
+            {
+              "en": "Both domestic and international flights use Terminal 2.",
+              "vi": "Cả chuyến bay nội địa lẫn quốc tế đều sử dụng Nhà ga 2."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "domestically",
+              "pos": "adv",
+              "meaning": "trong nước"
+            }
+          ],
+          "synonyms": [
+            "local",
+            "internal",
+            "national"
+          ],
+          "antonyms": [
+            "international",
+            "foreign"
+          ],
+          "collocations": [
+            {
+              "phrase": "domestic market",
+              "meaning": "thị trường nội địa"
+            }
+          ],
+          "definitionEn": "Having the quality of being local, internal, national.",
+          "definitionVi": "Tính từ mô tả đặc điểm nội địa, trong nước.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-42",
+          "deckId": "oxford-3000",
+          "word": "eligible",
+          "pos": "adj",
+          "ipaUK": "/ˈel.ɪ.dʒə.bəl/",
+          "ipaUS": "/ˈel.ə.dʒə.bəl/",
+          "meaning": "đủ điều kiện (đi với for / to V)",
+          "examples": [
+            {
+              "en": "Members who spend over $200 are eligible for free express shipping.",
+              "vi": "Thành viên chi tiêu trên 200 đô la đủ điều kiện miễn phí giao hỏa tốc."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "eligibility",
+              "pos": "n",
+              "meaning": "tư cách đủ điều kiện"
+            }
+          ],
+          "synonyms": [
+            "qualified",
+            "entitled"
+          ],
+          "antonyms": [
+            "ineligible"
+          ],
+          "collocations": [
+            {
+              "phrase": "eligible for",
+              "meaning": "đủ điều kiện nhận"
+            }
+          ],
+          "definitionEn": "Having the quality of being qualified, entitled.",
+          "definitionVi": "Tính từ mô tả đặc điểm đủ điều kiện (đi với for / to V).",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-43",
+          "deckId": "oxford-3000",
+          "word": "emphasize",
+          "pos": "v",
+          "ipaUK": "/ˈem.fə.saɪz/",
+          "ipaUS": "/ˈem.fə.saɪz/",
+          "meaning": "nhấn mạnh, làm nổi bật",
+          "examples": [
+            {
+              "en": "The trainer will emphasize ergonomic posture during the workshop.",
+              "vi": "Giảng viên sẽ nhấn mạnh tư thế công thái học trong buổi hội thảo."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "emphasis",
+              "pos": "n",
+              "meaning": "sự nhấn mạnh"
+            }
+          ],
+          "synonyms": [
+            "highlight",
+            "stress",
+            "underscore"
+          ],
+          "antonyms": [
+            "downplay"
+          ],
+          "collocations": [
+            {
+              "phrase": "place emphasis on",
+              "meaning": "đặt trọng tâm vào"
+            }
+          ],
+          "definitionEn": "To highlight (also similar to stress, underscore) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nhấn mạnh, làm nổi bật.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-44",
+          "deckId": "oxford-3000",
+          "word": "enhance",
+          "pos": "v",
+          "ipaUK": "/ɪnˈhɑːns/",
+          "ipaUS": "/ɪnˈhæns/",
+          "meaning": "nâng cao, tăng cường chất lượng",
+          "examples": [
+            {
+              "en": "Acoustical panels were added to enhance concert hall clarity.",
+              "vi": "Các tấm tiêu âm được lắp thêm để nâng cao độ trong của khán phòng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "enhancement",
+              "pos": "n",
+              "meaning": "sự cải tiến"
+            }
+          ],
+          "synonyms": [
+            "improve",
+            "boost",
+            "elevate"
+          ],
+          "antonyms": [
+            "diminish"
+          ],
+          "collocations": [
+            {
+              "phrase": "enhance user experience",
+              "meaning": "nâng cao trải nghiệm người dùng"
+            }
+          ],
+          "definitionEn": "To improve (also similar to boost, elevate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nâng cao, tăng cường chất lượng.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-45",
+          "deckId": "oxford-3000",
+          "word": "ensure",
+          "pos": "v",
+          "ipaUK": "/ɪnˈʃɔːr/",
+          "ipaUS": "/ɪnˈʃʊr/",
+          "meaning": "đảm bảo chắc chắn",
+          "examples": [
+            {
+              "en": "Double-checking addresses will ensure smooth package delivery.",
+              "vi": "Kiểm tra lại địa chỉ sẽ đảm bảo việc giao kiện hàng diễn ra suôn sẻ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "guarantee",
+            "make sure",
+            "secure"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "ensure compliance",
+              "meaning": "đảm bảo tuân thủ"
+            }
+          ],
+          "definitionEn": "To guarantee (also similar to make sure, secure) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đảm bảo chắc chắn.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-46",
+          "deckId": "oxford-3000",
+          "word": "essential",
+          "pos": "adj",
+          "ipaUK": "/ɪˈsen.ʃəl/",
+          "ipaUS": "/ɪˈsen.ʃəl/",
+          "meaning": "thiết yếu, cốt lõi",
+          "examples": [
+            {
+              "en": "Strong listening skills are essential for global client support.",
+              "vi": "Kỹ năng nghe tốt là thiết yếu đối với hỗ trợ khách hàng toàn cầu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "essentially",
+              "pos": "adv",
+              "meaning": "về cơ bản"
+            }
+          ],
+          "synonyms": [
+            "vital",
+            "crucial",
+            "indispensable"
+          ],
+          "antonyms": [
+            "optional",
+            "unnecessary"
+          ],
+          "collocations": [
+            {
+              "phrase": "essential component",
+              "meaning": "thành phần thiết yếu"
+            }
+          ],
+          "definitionEn": "Having the quality of being vital, crucial, indispensable.",
+          "definitionVi": "Tính từ mô tả đặc điểm thiết yếu, cốt lõi.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-47",
+          "deckId": "oxford-3000",
+          "word": "exceed",
+          "pos": "v",
+          "ipaUK": "/ɪkˈsiːd/",
+          "ipaUS": "/ɪkˈsiːd/",
+          "meaning": "vượt quá",
+          "examples": [
+            {
+              "en": "Quarterly sign-ups are expected to exceed our target by 20%.",
+              "vi": "Lượt đăng ký hàng quý dự kiến sẽ vượt mục tiêu của chúng tôi 20%."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "excessive",
+              "pos": "adj",
+              "meaning": "quá mức"
+            }
+          ],
+          "synonyms": [
+            "surpass",
+            "outstrip"
+          ],
+          "antonyms": [
+            "fall below"
+          ],
+          "collocations": [
+            {
+              "phrase": "exceed the budget",
+              "meaning": "vượt ngân sách"
+            }
+          ],
+          "definitionEn": "To go beyond a target number, budget limit, legal maximum, or expectation.",
+          "definitionVi": "Vượt lên trên con số mục tiêu, hạn mức ngân sách, giới hạn quy định hoặc kỳ vọng.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-48",
+          "deckId": "oxford-3000",
+          "word": "facility",
+          "pos": "n",
+          "ipaUK": "/fəˈsɪl.ə.ti/",
+          "ipaUS": "/fəˈsɪl.ə.t̬i/",
+          "meaning": "cơ sở vật chất, nhà máy, tiện nghi",
+          "examples": [
+            {
+              "en": "The research facility operates twenty-four hours a day.",
+              "vi": "Cơ sở nghiên cứu hoạt động hai mươi bốn giờ mỗi ngày."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "plant",
+            "center",
+            "amenities"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "fitness facilities",
+              "meaning": "tiện nghi tập thể hình"
+            },
+            {
+              "phrase": "storage facility",
+              "meaning": "cơ sở lưu kho"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to plant, center, amenities.",
+          "definitionVi": "Danh từ dùng để chỉ cơ sở vật chất, nhà máy, tiện nghi.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-49",
+          "deckId": "oxford-3000",
+          "word": "feature",
+          "pos": "n",
+          "ipaUK": "/ˈfiː.tʃər/",
+          "ipaUS": "/ˈfiː.tʃɚ/",
+          "meaning": "tính năng nổi bật; v: có sự góp mặt của",
+          "examples": [
+            {
+              "en": "The main new feature of the smartwatch is its five-day battery life.",
+              "vi": "Tính năng mới chính của đồng hồ thông minh là thời lượng pin năm ngày."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "featured",
+              "pos": "adj",
+              "meaning": "nổi bật, tiêu biểu"
+            }
+          ],
+          "synonyms": [
+            "highlight",
+            "characteristic",
+            "include"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "key feature",
+              "meaning": "tính năng cốt lõi"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to highlight, characteristic, include.",
+          "definitionVi": "Danh từ dùng để chỉ tính năng nổi bật; v: có sự góp mặt của.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-50",
+          "deckId": "oxford-3000",
+          "word": "fund",
+          "pos": "v",
+          "ipaUK": "/fʌnd/",
+          "ipaUS": "/fʌnd/",
+          "meaning": "tài trợ, cấp vốn; n: quỹ",
+          "examples": [
+            {
+              "en": "A municipal grant will fund the renovation of three public libraries.",
+              "vi": "Khoản tài trợ thành phố sẽ cấp vốn cải tạo ba thư viện công cộng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "funding",
+              "pos": "n",
+              "meaning": "nguồn tài trợ"
+            }
+          ],
+          "synonyms": [
+            "finance",
+            "sponsor",
+            "back"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "raise funds",
+              "meaning": "gây quỹ"
+            }
+          ],
+          "definitionEn": "To finance (also similar to sponsor, back) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tài trợ, cấp vốn; n: quỹ.",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-51",
+          "deckId": "oxford-3000",
+          "word": "generate",
+          "pos": "v",
+          "ipaUK": "/ˈdʒen.ə.reɪt/",
+          "ipaUS": "/ˈdʒen.ə.reɪt/",
+          "meaning": "tạo ra, phát sinh (doanh thu, điện năng)",
+          "examples": [
+            {
+              "en": "Rooftop solar panels generate half the warehouse’s electricity.",
+              "vi": "Pin mặt trời áp mái tạo ra một nửa lượng điện của nhà kho."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "generation",
+              "pos": "n",
+              "meaning": "sự tạo ra; thế hệ"
+            }
+          ],
+          "synonyms": [
+            "produce",
+            "create",
+            "yield"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "generate revenue",
+              "meaning": "tạo ra doanh thu"
+            }
+          ],
+          "definitionEn": "To produce (also similar to create, yield) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động tạo ra, phát sinh (doanh thu, điện năng).",
+          "topicId": "ox3-finance"
+        },
+        {
+          "id": "ox3-52",
+          "deckId": "oxford-3000",
+          "word": "grant",
+          "pos": "n",
+          "ipaUK": "/ɡrɑːnt/",
+          "ipaUS": "/ɡrænt/",
+          "meaning": "khoản tài trợ không hoàn lại; v: cấp phép",
+          "examples": [
+            {
+              "en": "The university won a $300,000 research grant for clean water.",
+              "vi": "Trường đại học giành được khoản tài trợ nghiên cứu 300.000 đô la cho nước sạch."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "subsidy",
+            "award",
+            "permit"
+          ],
+          "antonyms": [
+            "deny"
+          ],
+          "collocations": [
+            {
+              "phrase": "grant access",
+              "meaning": "cấp quyền truy cập"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to subsidy, award, permit.",
+          "definitionVi": "Danh từ dùng để chỉ khoản tài trợ không hoàn lại; v: cấp phép.",
+          "topicId": "ox3-finance"
+        }
+      ]
+    },
+    {
+      "id": "ox3-ops",
+      "name": "Kiểm định, Lắp đặt & Vận hành",
+      "icon": "operations",
+      "words": [
+        {
+          "id": "ox3-53",
+          "deckId": "oxford-3000",
+          "word": "guarantee",
+          "pos": "v",
+          "ipaUK": "/ˌɡær.ənˈtiː/",
+          "ipaUS": "/ˌɡer.ənˈtiː/",
+          "meaning": "bảo đảm, cam kết bảo hành",
+          "examples": [
+            {
+              "en": "We guarantee next-day delivery for orders placed before 3 P.M.",
+              "vi": "Chúng tôi đảm bảo giao hàng ngày hôm sau cho đơn đặt trước 3 giờ chiều."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "assure",
+            "warrant",
+            "promise"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "money-back guarantee",
+              "meaning": "cam kết hoàn tiền"
+            }
+          ],
+          "definitionEn": "To assure (also similar to warrant, promise) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động bảo đảm, cam kết bảo hành.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-54",
+          "deckId": "oxford-3000",
+          "word": "identify",
+          "pos": "v",
+          "ipaUK": "/aɪˈden.tɪ.faɪ/",
+          "ipaUS": "/aɪˈden.t̬ə.faɪ/",
+          "meaning": "nhận diện, xác định",
+          "examples": [
+            {
+              "en": "Auditors can quickly identify opportunities to trim overhead.",
+              "vi": "Kiểm toán viên có thể nhanh chóng xác định các cơ hội cắt giảm chi phí chung."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "identification",
+              "pos": "n",
+              "meaning": "giấy tờ tùy thân, sự nhận dạng"
+            }
+          ],
+          "synonyms": [
+            "spot",
+            "pinpoint",
+            "recognize"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "photo identification",
+              "meaning": "giấy tờ tùy thân có ảnh"
+            }
+          ],
+          "definitionEn": "To spot (also similar to pinpoint, recognize) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nhận diện, xác định.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-55",
+          "deckId": "oxford-3000",
+          "word": "impact",
+          "pos": "n",
+          "ipaUK": "/ˈɪm.pækt/",
+          "ipaUS": "/ˈɪm.pækt/",
+          "meaning": "tác động, ảnh hưởng mạnh",
+          "examples": [
+            {
+              "en": "Remote work had a lasting impact on commercial office demand.",
+              "vi": "Làm việc từ xa có tác động lâu dài lên nhu cầu văn phòng thương mại."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "impactful",
+              "pos": "adj",
+              "meaning": "có sức ảnh hưởng"
+            }
+          ],
+          "synonyms": [
+            "effect",
+            "influence",
+            "consequence"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "environmental impact",
+              "meaning": "tác động môi trường"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to effect, influence, consequence.",
+          "definitionVi": "Danh từ dùng để chỉ tác động, ảnh hưởng mạnh.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-56",
+          "deckId": "oxford-3000",
+          "word": "inspect",
+          "pos": "v",
+          "ipaUK": "/ɪnˈspekt/",
+          "ipaUS": "/ɪnˈspekt/",
+          "meaning": "kiểm tra kỹ lưỡng, thanh tra",
+          "examples": [
+            {
+              "en": "Safety officers inspect construction scaffolding weekly.",
+              "vi": "Cán bộ an toàn kiểm tra giàn giáo công trường hàng tuần."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "inspection",
+              "pos": "n",
+              "meaning": "cuộc kiểm định"
+            },
+            {
+              "word": "inspector",
+              "pos": "n",
+              "meaning": "thanh tra viên"
+            }
+          ],
+          "synonyms": [
+            "examine",
+            "check",
+            "audit"
+          ],
+          "antonyms": [
+            "overlook"
+          ],
+          "collocations": [
+            {
+              "phrase": "pass inspection",
+              "meaning": "vượt qua kiểm định"
+            }
+          ],
+          "definitionEn": "To examine (also similar to check, audit) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động kiểm tra kỹ lưỡng, thanh tra.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-57",
+          "deckId": "oxford-3000",
+          "word": "install",
+          "pos": "v",
+          "ipaUK": "/ɪnˈstɔːl/",
+          "ipaUS": "/ɪnˈstɑːl/",
+          "meaning": "lắp đặt (thiết bị), cài đặt (phần mềm)",
+          "examples": [
+            {
+              "en": "Technicians will install high-speed fiber routers on Friday.",
+              "vi": "Kỹ thuật viên sẽ lắp đặt bộ định tuyến cáp quang tốc độ cao vào thứ Sáu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "installation",
+              "pos": "n",
+              "meaning": "việc lắp đặt"
+            }
+          ],
+          "synonyms": [
+            "set up",
+            "mount",
+            "fit"
+          ],
+          "antonyms": [
+            "uninstall",
+            "remove"
+          ],
+          "collocations": [
+            {
+              "phrase": "installation fee",
+              "meaning": "phí lắp đặt"
+            }
+          ],
+          "definitionEn": "To set up (also similar to mount, fit) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động lắp đặt (thiết bị), cài đặt (phần mềm).",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-58",
+          "deckId": "oxford-3000",
+          "word": "launch",
+          "pos": "v",
+          "ipaUK": "/lɔːntʃ/",
+          "ipaUS": "/lɑːntʃ/",
+          "meaning": "ra mắt (sản phẩm), khởi động (chiến dịch)",
+          "examples": [
+            {
+              "en": "The airline will launch nonstop service to Osaka in June.",
+              "vi": "Hãng hàng không sẽ khai trương đường bay thẳng tới Osaka vào tháng Sáu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "introduce",
+            "roll out",
+            "unveil"
+          ],
+          "antonyms": [
+            "discontinue"
+          ],
+          "collocations": [
+            {
+              "phrase": "product launch",
+              "meaning": "buổi ra mắt sản phẩm"
+            }
+          ],
+          "definitionEn": "To introduce (also similar to roll out, unveil) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động ra mắt (sản phẩm), khởi động (chiến dịch).",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-59",
+          "deckId": "oxford-3000",
+          "word": "monitor",
+          "pos": "v",
+          "ipaUK": "/ˈmɒn.ɪ.tər/",
+          "ipaUS": "/ˈmɑː.nə.t̬ɚ/",
+          "meaning": "theo dõi, giám sát liên tục",
+          "examples": [
+            {
+              "en": "Sensors monitor cold-storage temperatures around the clock.",
+              "vi": "Cảm biến theo dõi nhiệt độ kho lạnh suốt ngày đêm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "track",
+            "observe",
+            "oversee"
+          ],
+          "antonyms": [
+            "neglect"
+          ],
+          "collocations": [
+            {
+              "phrase": "monitor progress",
+              "meaning": "theo dõi tiến độ"
+            }
+          ],
+          "definitionEn": "To track (also similar to observe, oversee) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động theo dõi, giám sát liên tục.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-60",
+          "deckId": "oxford-3000",
+          "word": "negotiate",
+          "pos": "v",
+          "ipaUK": "/nəˈɡəʊ.ʃi.eɪt/",
+          "ipaUS": "/nəˈɡoʊ.ʃi.eɪt/",
+          "meaning": "đàm phán, thương lượng",
+          "examples": [
+            {
+              "en": "Purchasing managers will negotiate a 12% volume discount tomorrow.",
+              "vi": "Quản lý thu mua sẽ đàm phán mức chiết khấu 12% theo số lượng vào ngày mai."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "negotiation",
+              "pos": "n",
+              "meaning": "cuộc đàm phán"
+            }
+          ],
+          "synonyms": [
+            "bargain",
+            "discuss terms"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "negotiate a contract",
+              "meaning": "đàm phán hợp đồng"
+            }
+          ],
+          "definitionEn": "To bargain (also similar to discuss terms) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đàm phán, thương lượng.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-61",
+          "deckId": "oxford-3000",
+          "word": "obtain",
+          "pos": "v",
+          "ipaUK": "/əbˈteɪn/",
+          "ipaUS": "/əbˈteɪn/",
+          "meaning": "đạt được, lấy được (giấy phép, thông tin)",
+          "examples": [
+            {
+              "en": "Contractors must obtain a city permit before street paving.",
+              "vi": "Nhà thầu phải xin giấy phép thành phố trước khi trải nhựa đường."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "obtainable",
+              "pos": "adj",
+              "meaning": "có thể đạt được"
+            }
+          ],
+          "synonyms": [
+            "acquire",
+            "secure",
+            "get"
+          ],
+          "antonyms": [
+            "lose"
+          ],
+          "collocations": [
+            {
+              "phrase": "obtain approval",
+              "meaning": "xin được phê duyệt"
+            }
+          ],
+          "definitionEn": "To acquire (also similar to secure, get) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đạt được, lấy được (giấy phép, thông tin).",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-62",
+          "deckId": "oxford-3000",
+          "word": "operate",
+          "pos": "v",
+          "ipaUK": "/ˈɒp.ər.eɪt/",
+          "ipaUS": "/ˈɑː.pə.reɪt/",
+          "meaning": "vận hành, hoạt động",
+          "examples": [
+            {
+              "en": "The harbor ferry will operate daily between 6:00 A.M. and 10:00 P.M.",
+              "vi": "Chuyến phà cảng sẽ hoạt động hàng ngày từ 6:00 sáng đến 10:00 tối."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "operation",
+              "pos": "n",
+              "meaning": "hoạt động vận hành"
+            },
+            {
+              "word": "operational",
+              "pos": "adj",
+              "meaning": "thuộc vận hành"
+            }
+          ],
+          "synonyms": [
+            "run",
+            "function",
+            "manage"
+          ],
+          "antonyms": [
+            "shut down"
+          ],
+          "collocations": [
+            {
+              "phrase": "hours of operation",
+              "meaning": "giờ mở cửa hoạt động"
+            }
+          ],
+          "definitionEn": "To run (also similar to function, manage) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động vận hành, hoạt động.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-63",
+          "deckId": "oxford-3000",
+          "word": "revise",
+          "pos": "v",
+          "ipaUK": "/rɪˈvaɪz/",
+          "ipaUS": "/rɪˈvaɪz/",
+          "meaning": "chỉnh sửa, hiệu chỉnh (bản thảo, lịch)",
+          "examples": [
+            {
+              "en": "Please revise the meeting agenda before sending it to the client.",
+              "vi": "Vui lòng chỉnh sửa chương trình nghị sự trước khi gửi cho khách hàng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "revision",
+              "pos": "n",
+              "meaning": "bản chỉnh sửa"
+            },
+            {
+              "word": "revised",
+              "pos": "adj",
+              "meaning": "đã sửa đổi"
+            }
+          ],
+          "synonyms": [
+            "amend",
+            "update",
+            "modify"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "revised edition",
+              "meaning": "ấn bản sửa đổi"
+            }
+          ],
+          "definitionEn": "To amend (also similar to update, modify) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động chỉnh sửa, hiệu chỉnh (bản thảo, lịch).",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-64",
+          "deckId": "oxford-3000",
+          "word": "verify",
+          "pos": "v",
+          "ipaUK": "/ˈver.ɪ.faɪ/",
+          "ipaUS": "/ˈver.ə.faɪ/",
+          "meaning": "xác minh, kiểm chứng",
+          "examples": [
+            {
+              "en": "Receptionists verify guest IDs before issuing room keycards.",
+              "vi": "Lễ tân xác minh giấy tờ tùy thân khách trước khi cấp thẻ phòng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "verification",
+              "pos": "n",
+              "meaning": "sự xác minh"
+            }
+          ],
+          "synonyms": [
+            "confirm",
+            "validate",
+            "check"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "verify identity",
+              "meaning": "xác minh danh tính"
+            }
+          ],
+          "definitionEn": "To confirm (also similar to validate, check) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động xác minh, kiểm chứng.",
+          "topicId": "ox3-ops"
+        },
+        {
+          "id": "ox3-65",
+          "deckId": "oxford-3000",
+          "word": "withdraw",
+          "pos": "v",
+          "ipaUK": "/wɪðˈdrɔː/",
+          "ipaUS": "/wɪðˈdrɑː/",
+          "meaning": "rút (tiền, đơn ứng tuyển, sản phẩm)",
+          "examples": [
+            {
+              "en": "Applicants may withdraw their submission at any stage.",
+              "vi": "Ứng viên có thể rút hồ sơ của mình ở bất kỳ giai đoạn nào."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "withdrawal",
+              "pos": "n",
+              "meaning": "sự rút tiền / rút lui"
+            }
+          ],
+          "synonyms": [
+            "pull out",
+            "retract",
+            "remove"
+          ],
+          "antonyms": [
+            "deposit",
+            "submit"
+          ],
+          "collocations": [
+            {
+              "phrase": "withdraw funds",
+              "meaning": "rút tiền"
+            }
+          ],
+          "definitionEn": "To pull out (also similar to retract, remove) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động rút (tiền, đơn ứng tuyển, sản phẩm).",
+          "topicId": "ox3-ops"
+        }
+      ]
+    }
+  ]
+}

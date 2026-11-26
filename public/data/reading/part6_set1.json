@@ -1,0 +1,2832 @@
+[
+  {
+    "id": "p6-s1-01",
+    "title": "Bài 5 (Email): Xác nhận Đơn hàng Nội thất Văn phòng & Xử lý Hàng tạm hết",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "Hannah Lindholm <orders@nordicdesk.com>",
+      "to": "Kenji Takahashi <k.takahashi@meridian-arch.com>",
+      "date": "April 6",
+      "subject": "Order #ND-4821 Confirmation and Partial Backorder Update"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-01-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-01-s1",
+            "en": "Dear Mr. Takahashi, Thank you for placing an order with NordicDesk Furnishings for your studio's upcoming relocation.",
+            "vi": "Kính gửi ông Takahashi, Cảm ơn ông đã đặt hàng tại NordicDesk Furnishings cho đợt chuyển địa điểm sắp tới của văn phòng thiết kế."
+          },
+          {
+            "id": "p6-s1-01-s2",
+            "en": "We have confirmed payment for twelve adjustable standing desks and twelve ergonomic task chairs, and our warehouse team has already begun preparing your [131] _______ for dispatch next Monday morning.",
+            "vi": "Chúng tôi đã xác nhận thanh toán cho mười hai bàn đứng điều chỉnh độ cao và mười hai ghế công thái học, và đội ngũ kho đã bắt đầu chuẩn bị [131] _______ của ông để xuất đi vào sáng thứ Hai tới."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-01-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-01-s3",
+            "en": "Unfortunately, the oak filing cabinets you requested are currently out of stock due to an unexpected delay at our timber supplier. [132] _______.",
+            "vi": "Rất tiếc là các tủ hồ sơ gỗ sồi mà ông yêu cầu hiện đang hết hàng do sự chậm trễ ngoài dự kiến từ nhà cung cấp gỗ của chúng tôi. [132] _______."
+          },
+          {
+            "id": "p6-s1-01-s4",
+            "en": "We expect this replenishment batch to arrive at our distribution center on April 18, allowing us to ship the cabinets at no extra delivery charge. [133] _______, if you prefer to receive an immediate refund for the cabinets or switch to our walnut finish, simply reply to this message.",
+            "vi": "Chúng tôi dự kiến lô hàng bổ sung này sẽ về trung tâm phân phối vào ngày 18/4, giúp chúng tôi giao tủ mà không tính thêm phí vận chuyển. [133] _______, nếu ông muốn nhận hoàn tiền ngay cho số tủ đó hoặc đổi sang lớp hoàn thiện gỗ óc chó, chỉ cần phản hồi lại email này."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-01-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-01-s5",
+            "en": "Once the desks and chairs leave our warehouse, an automated tracking link will be sent directly to your inbox so your facilities manager can coordinate receiving them [134] _______.",
+            "vi": "Ngay khi bàn và ghế rời kho, đường dẫn theo dõi tự động sẽ được gửi thẳng vào hộp thư để quản lý cơ sở vật chất của ông có thể điều phối việc tiếp nhận [134] _______."
+          },
+          {
+            "id": "p6-s1-01-s6",
+            "en": "We sincerely apologize for any inconvenience and appreciate your continued partnership.",
+            "vi": "Chúng tôi chân thành xin lỗi vì mọi sự bất tiện và trân trọng mối quan hệ hợp tác bền chặt của ông."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-01-q131",
+        "blankNumber": 131,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "membership",
+          "B": "shipment",
+          "C": "ingredient",
+          "D": "appointment"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Giao nhận / Kho vận",
+            "signal": "Đi với 'warehouse team', 'preparing your ___ for dispatch' (chuẩn bị lô hàng để xuất kho)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ phù hợp ngữ cảnh xuất kho tại [131].",
+            "optionsVi": {
+              "A": "membership: tư cách hội viên",
+              "B": "shipment: lô hàng vận chuyển",
+              "C": "ingredient: nguyên liệu (nấu ăn/pha chế)",
+              "D": "appointment: cuộc hẹn"
+            }
+          },
+          "proof": {
+            "explanation": "Đội kho đang đóng gói bàn ghế đã thanh toán để xuất đi ('for dispatch'), vì vậy danh từ chuẩn ngữ cảnh là 'shipment' (lô hàng gửi đi).",
+            "evidenceQuote": "our warehouse team has already begun preparing your [131] _______ for dispatch next Monday morning.",
+            "evidenceSentenceId": "p6-s1-01-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tư cách hội viên không thể xuất kho.",
+            "B": "ĐÚNG — 'prepare a shipment for dispatch' là cụm thương mại cực chuẩn.",
+            "C": "Loại vì dùng cho thực phẩm/mỹ phẩm, không dùng cho nội thất.",
+            "D": "Loại vì cuộc hẹn không do đội kho đóng gói."
+          },
+          "keyTakeaways": {
+            "formula": "prepare a shipment for dispatch (chuẩn bị lô hàng để gửi đi)",
+            "commonTrap": "Đừng nhầm 'shipment' (lô hàng) với 'shipping' (chi phí/dịch vụ vận chuyển).",
+            "paraphrases": [
+              {
+                "textInPassage": "preparing your shipment for dispatch",
+                "textInAnswer": "getting the order ready to ship",
+                "meaningVi": "chuẩn bị đơn hàng để gửi đi"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'warehouse + dispatch/carrier/tracking' → ưu tiên chọn 'shipment / consignment / delivery'.",
+          "contextBridge": {
+            "beforeCue": "Dear Mr. Takahashi, Thank you for placing an order with NordicDesk Furnishings for your studio's upcoming relocation.",
+            "afterCue": "Unfortunately, the oak filing cabinets you requested are currently out of stock due to an unexpected delay at our timber supplier.",
+            "connectorOrRef": "Chỗ trống [131] • Từ vựng ngữ cảnh",
+            "logicVi": "Câu đầu nhắc 'placing an order', câu này nối tiếp bằng việc đội kho chuẩn bị 'shipment' (lô hàng) của đơn hàng đó để xuất kho sáng thứ Hai."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-01-q132",
+        "blankNumber": 132,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "All ergonomic chairs are backed by a five-year structural warranty.",
+          "B": "Please note that our showroom closes early on national holidays.",
+          "C": "These missing units have therefore been placed on priority backorder with our manufacturer.",
+          "D": "The architect also selected glass partitions for the main conference area."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'These missing units' & cầu nối 'replenishment batch')",
+            "signal": "Câu trước báo 'oak filing cabinets... out of stock'; câu sau dùng cụm quy chiếu 'this replenishment batch' → [132] phải giải thích việc đặt bổ sung các tủ bị thiếu."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối mạch logic nhất vào vị trí [132].",
+            "optionsVi": {
+              "A": "Tất cả ghế công thái học đều được bảo hành khung năm năm.",
+              "B": "Xin lưu ý phòng trưng bày của chúng tôi đóng cửa sớm vào ngày lễ quốc gia.",
+              "C": "Do đó, những sản phẩm còn thiếu này đã được đưa vào diện đặt bổ sung ưu tiên với nhà sản xuất của chúng tôi.",
+              "D": "Kiến trúc sư cũng đã chọn vách ngăn kính cho khu vực phòng họp chính."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm quy chiếu 'These missing units' và từ nối 'therefore' ở (C) bám trực tiếp vào 'oak filing cabinets... currently out of stock' ở câu trước, đồng thời mở ra tiền đề cho cụm 'this replenishment batch' (lô hàng bổ sung này) ở câu ngay sau.",
+            "evidenceQuote": "We expect this replenishment batch to arrive at our distribution center on April 18",
+            "evidenceSentenceId": "p6-s1-01-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì quay sang nói bảo hành ghế, cắt đứt mạch về tủ hồ sơ hết hàng và khiến 'this replenishment batch' ở câu sau mất đối tượng quy chiếu.",
+            "B": "Loại vì lệch chủ đề sang giờ đóng cửa showroom.",
+            "C": "ĐÚNG — Nối hoàn hảo hai đầu: 'out of stock' → 'These missing units... priority backorder' → 'this replenishment batch'.",
+            "D": "Loại vì đưa thêm chi tiết vách kính không liên quan tới đơn hàng nội thất này."
+          },
+          "keyTakeaways": {
+            "formula": "Out of stock → These missing units (backorder) → this replenishment batch",
+            "commonTrap": "Chỉ nhìn từ 'ergonomic chairs' ở (A) thấy quen mắt với đoạn 1 rồi chọn bừa mà bỏ qua mạch đoạn 2.",
+            "paraphrases": [
+              {
+                "textInPassage": "placed on priority backorder",
+                "textInAnswer": "scheduled for expedited restocking",
+                "meaningVi": "được ưu tiên đặt bổ sung hàng"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'this + N' ở câu sau ('this replenishment batch') → câu cần điền PHẢI giới thiệu khái niệm tương đương ('priority backorder').",
+          "contextBridge": {
+            "beforeCue": "Unfortunately, the oak filing cabinets you requested are currently out of stock due to an unexpected delay at our timber supplier.",
+            "afterCue": "We expect this replenishment batch to arrive at our distribution center on April 18, allowing us to ship the cabinets at no extra delivery charge.",
+            "connectorOrRef": "Quy chiếu kép: 'These missing units' + 'therefore' ↔ 'this replenishment batch'",
+            "logicVi": "'These missing units' thay thế trực tiếp cho 'the oak filing cabinets' (câu trước), còn 'priority backorder with our manufacturer' tạo ra đối tượng mà cụm 'this replenishment batch' (câu sau) nhắc lại."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-01-q133",
+        "blankNumber": 133,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Similarly",
+          "C": "Otherwise",
+          "D": "Meanwhile"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối tương phản / đổi phương án",
+            "signal": "Câu trước: chờ giao lô bổ sung miễn phí ngày 18/4 ↔ Câu sau: nếu muốn hoàn tiền ngay hoặc đổi màu gỗ óc chó → chuyển hướng lựa chọn dùng 'However'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối đứng đầu câu tại [133].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Similarly: Tương tự như vậy",
+              "C": "Otherwise: Nếu không thì",
+              "D": "Meanwhile: Trong khi đó"
+            }
+          },
+          "proof": {
+            "explanation": "Vế trước đưa phương án mặc định (đợi giao miễn phí ngày 18/4), vế sau đưa phương án thay thế ngược lại (hoàn tiền ngay hoặc đổi mẫu gỗ óc chó) → quan hệ tương phản/ngoại lệ dùng 'However'.",
+            "evidenceQuote": "[133] _______, if you prefer to receive an immediate refund for the cabinets or switch to our walnut finish",
+            "evidenceSentenceId": "p6-s1-01-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Mở ra lựa chọn thay thế trái với việc chờ hàng ngày 18/4.",
+            "B": "Loại vì hai phương án không tương đồng.",
+            "C": "Loại vì vế sau không phải hệ quả tiêu cực nếu không làm vế trước.",
+            "D": "Loại vì không diễn tả hai hành động song song cùng lúc."
+          },
+          "keyTakeaways": {
+            "formula": "Phương án mặc định (wait for shipment). However, if you prefer + phương án thay thế...",
+            "commonTrap": "Thấy có chữ 'if' rồi dễ chọn nhầm 'Otherwise' mà không đọc nghĩa vế trước.",
+            "paraphrases": [
+              {
+                "textInPassage": "switch to our walnut finish",
+                "textInAnswer": "select an alternative wood color",
+                "meaningVi": "đổi sang màu gỗ khác"
+              }
+            ]
+          },
+          "applyRule": "Trước nêu phương án mặc định, sau mở bằng 'if you prefer...' → luôn chọn trạng từ chuyển hướng 'However'.",
+          "contextBridge": {
+            "beforeCue": "We expect this replenishment batch to arrive at our distribution center on April 18, allowing us to ship the cabinets at no extra delivery charge.",
+            "afterCue": "if you prefer to receive an immediate refund for the cabinets or switch to our walnut finish, simply reply to this message.",
+            "connectorOrRef": "Trạng từ nối tương phản: However",
+            "logicVi": "'However' tạo bước ngoặt lịch sự từ kế hoạch chờ hàng (18/4) sang giải pháp khác (hoàn tiền hoặc đổi màu) nếu khách không muốn đợi."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-01-q134",
+        "blankNumber": 134,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "efficient",
+          "B": "efficiency",
+          "C": "efficiencies",
+          "D": "efficiently"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Trạng từ bổ nghĩa cụm động từ)",
+            "signal": "Vị trí cuối câu sau cấu trúc hoàn chỉnh 'coordinate receiving them [Adv]' → cần Trạng từ 'efficiently'."
+          },
+          "translation": {
+            "questionVi": "Chọn từ loại đúng cho vị trí cuối câu tại [134].",
+            "optionsVi": {
+              "A": "efficient (adj): hiệu quả",
+              "B": "efficiency (n): sự hiệu quả",
+              "C": "efficiencies (n số nhiều): các hiệu quả",
+              "D": "efficiently (adv): một cách hiệu quả"
+            }
+          },
+          "proof": {
+            "explanation": "Mệnh đề 'your facilities manager can coordinate receiving them' đã đủ Chủ ngữ – Động từ – Tân ngữ ('them'), do đó vị trí cuối câu cần Trạng từ 'efficiently' bổ nghĩa cách thức thực hiện hành động điều phối/tiếp nhận.",
+            "evidenceQuote": "so your facilities manager can coordinate receiving them [134] _______.",
+            "evidenceSentenceId": "p6-s1-01-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tính từ không bổ nghĩa cho động từ hành động 'coordinate/receiving'.",
+            "B": "Loại vì danh từ đứng sau đại từ 'them' gây sai cấu trúc ngữ pháp.",
+            "C": "Loại vì danh từ số nhiều không đứng độc lập sau tân ngữ 'them'.",
+            "D": "ĐÚNG — Trạng từ bổ nghĩa cho động từ ở cuối mệnh đề hoàn chỉnh."
+          },
+          "keyTakeaways": {
+            "formula": "S + V + O (đại từ 'them/it') + Adverb",
+            "commonTrap": "Thấy danh từ 'manager' phía trước rồi tưởng cần tính từ, quên mất đã qua động từ và tân ngữ.",
+            "paraphrases": [
+              {
+                "textInPassage": "coordinate receiving them efficiently",
+                "textInAnswer": "manage the delivery smoothly",
+                "meaningVi": "điều phối việc nhận hàng hiệu quả"
+              }
+            ]
+          },
+          "applyRule": "Mệnh đề đã đủ S + V + O (đặc biệt O là đại từ 'it/them') mà còn chỗ trống cuối câu → 95% điền Trạng từ (-ly).",
+          "contextBridge": {
+            "beforeCue": "Once the desks and chairs leave our warehouse, an automated tracking link will be sent directly to your inbox",
+            "afterCue": "We sincerely apologize for any inconvenience and appreciate your continued partnership.",
+            "connectorOrRef": "Chỗ trống [134] • Từ loại (Trạng từ)",
+            "logicVi": "Link theo dõi tự động được gửi sớm để quản lý tòa nhà có thể điều phối nhận hàng một cách hiệu quả ('efficiently')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-02",
+    "title": "Bài 6 (Email): Phản hồi Khiếu nại Hóa đơn Kho vận Bị tính trùng",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "Clara Mendez <billing@harborfreight-log.com>",
+      "to": "David Okafor <d.okafor@crestline-foods.com>",
+      "date": "July 11",
+      "subject": "Re: Duplicate Charge on June Storage Invoice #HL-904"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-02-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-02-s1",
+            "en": "Dear Mr. Okafor, Thank you for bringing the discrepancy on your June invoice to our attention earlier today.",
+            "vi": "Kính gửi ông Okafor, Cảm ơn ông đã thông báo cho chúng tôi về sự sai lệch trên hóa đơn tháng Sáu vào sáng nay."
+          },
+          {
+            "id": "p6-s1-02-s2",
+            "en": "Our accounting team immediately audited your account records and [135] _______ that a technical glitch during our billing software migration caused the cold-storage fee of $1,450 to be billed twice.",
+            "vi": "Đội ngũ kế toán của chúng tôi đã lập tức kiểm tra hồ sơ tài khoản của ông và [135] _______ rằng một trục trặc kỹ thuật trong quá trình chuyển đổi phần mềm xuất hóa đơn đã khiến khoản phí kho lạnh 1.450 đô la bị tính hai lần."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-02-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-02-s3",
+            "en": "[136] _______, we have issued a full credit memo for the duplicate amount and updated your statement balance accordingly. [137] _______.",
+            "vi": "[136] _______, chúng tôi đã phát hành giấy báo có hoàn đủ số tiền bị tính trùng và cập nhật lại số dư sao kê tương ứng. [137] _______."
+          },
+          {
+            "id": "p6-s1-02-s4",
+            "en": "If you have already authorized an automatic bank transfer for the higher total, the overpaid sum will automatically be refunded to your corporate checking account within three business days.",
+            "vi": "Nếu ông đã phê duyệt lệnh chuyển khoản ngân hàng tự động cho mức tổng cao hơn, khoản thanh toán dư sẽ tự động được hoàn về tài khoản doanh nghiệp của ông trong vòng ba ngày làm việc."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-02-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-02-s5",
+            "en": "We have also implemented an extra verification step before monthly statements are released to prevent similar billing errors from [138] _______ again.",
+            "vi": "Chúng tôi cũng đã áp dụng thêm một bước xác minh bổ sung trước khi phát hành sao kê hàng tháng nhằm ngăn các lỗi hóa đơn tương tự [138] _______ lần nữa."
+          },
+          {
+            "id": "p6-s1-02-s6",
+            "en": "Please let me know if you need any supporting documentation for your finance department.",
+            "vi": "Vui lòng cho tôi biết nếu ông cần thêm chứng từ hỗ trợ nào cho phòng tài chính."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-02-q135",
+        "blankNumber": 135,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "confirmed",
+          "B": "confirming",
+          "C": "confirms",
+          "D": "will confirm"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thì động từ & Cấu trúc song song (Parallelism)",
+            "signal": "'audited your account records and [V-ed] that...' — nối 2 động từ quá khứ đơn bằng 'and'."
+          },
+          "translation": {
+            "questionVi": "Chọn thì động từ đúng song song với 'audited' tại [135].",
+            "optionsVi": {
+              "A": "confirmed: đã xác nhận (QKĐ)",
+              "B": "confirming: đang xác nhận (V-ing)",
+              "C": "confirms: xác nhận (HTĐ)",
+              "D": "will confirm: sẽ xác nhận (TLĐ)"
+            }
+          },
+          "proof": {
+            "explanation": "Chủ ngữ 'Our accounting team' thực hiện hai hành động nối tiếp trong quá khứ được nối bởi liên từ 'and': 'audited ... and confirmed ...' → chia Quá khứ đơn 'confirmed'.",
+            "evidenceQuote": "Our accounting team immediately audited your account records and [135] _______ that a technical glitch",
+            "evidenceSentenceId": "p6-s1-02-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Song song thì Quá khứ đơn với 'audited'.",
+            "B": "Loại vì V-ing không song song với động từ chia thì 'audited'.",
+            "C": "Loại vì lệch thì hiện tại so với 'audited' và 'caused'.",
+            "D": "Loại vì việc xác nhận lỗi đã hoàn tất rồi mới phát hành credit memo ở câu sau."
+          },
+          "keyTakeaways": {
+            "formula": "S + V1(ed) + O + and + V2(ed) + that-clause",
+            "commonTrap": "Thấy 'records' (số nhiều) đứng ngay trước 'and' nhưng chủ ngữ thực sự là 'Our accounting team'.",
+            "paraphrases": [
+              {
+                "textInPassage": "audited your account records",
+                "textInAnswer": "reviewed the billing history",
+                "meaningVi": "kiểm tra lại hồ sơ thanh toán"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'V1(ed) + ... + and + ___' trong cùng mạch tường thuật quá khứ → kiểm tra cấu trúc song song V2(ed) ngay.",
+          "contextBridge": {
+            "beforeCue": "Dear Mr. Okafor, Thank you for bringing the discrepancy on your June invoice to our attention earlier today.",
+            "afterCue": "[136] _______, we have issued a full credit memo for the duplicate amount and updated your statement balance accordingly.",
+            "connectorOrRef": "Chỗ trống [135] • Song song Quá khứ đơn",
+            "logicVi": "Khách báo sai lệch vào sáng nay ('earlier today') → kế toán lập tức kiểm tra ('audited') và xác nhận ('confirmed') lỗi tính trùng."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-02-q136",
+        "blankNumber": 136,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Nevertheless",
+          "B": "For instance",
+          "C": "In contrast",
+          "D": "Therefore"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối chỉ Kết quả (Cause → Effect)",
+            "signal": "Câu trước xác nhận lỗi tính trùng $1,450 → Câu này nêu hành động khắc phục (phát hành giấy báo có & cập nhật số dư) → dùng 'Therefore'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối chỉ quan hệ logic tại [136].",
+            "optionsVi": {
+              "A": "Nevertheless: Tuy nhiên",
+              "B": "For instance: Ví dụ như",
+              "C": "In contrast: Trái lại",
+              "D": "Therefore: Do đó, vì vậy"
+            }
+          },
+          "proof": {
+            "explanation": "Vì đã xác nhận lỗi tính trùng tiền kho lạnh nên công ty phát hành giấy báo có ('full credit memo') để điều chỉnh lại số dư — quan hệ Nguyên nhân → Kết quả rõ rệt, chọn 'Therefore'.",
+            "evidenceQuote": "a technical glitch during our billing software migration caused the cold-storage fee of $1,450 to be billed twice.",
+            "evidenceSentenceId": "p6-s1-02-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không mang ý tương phản.",
+            "B": "Loại vì hành động hoàn tiền không phải ví dụ minh họa cho lỗi phần mềm.",
+            "C": "Loại vì không so sánh đối lập hai đối tượng.",
+            "D": "ĐÚNG — Nối mượt từ việc xác nhận lỗi sang biện pháp xử lý hệ quả."
+          },
+          "keyTakeaways": {
+            "formula": "Nguyên nhân (xác nhận lỗi sai). Therefore / Consequently, + hành động khắc phục.",
+            "commonTrap": "Nhầm lẫn giữa 'Nevertheless' (tương phản) và 'Therefore' (kết quả).",
+            "paraphrases": [
+              {
+                "textInPassage": "issued a full credit memo",
+                "textInAnswer": "credited the overcharged amount",
+                "meaningVi": "ghi có hoàn lại khoản bị tính dư"
+              }
+            ]
+          },
+          "applyRule": "Câu trước: phát hiện/xác nhận lỗi → Câu sau: hoàn tiền/điều chỉnh hóa đơn → chọn từ nối kết quả (Therefore / As a result).",
+          "contextBridge": {
+            "beforeCue": "Our accounting team immediately audited your account records and confirmed that a technical glitch during our billing software migration caused the cold-storage fee of $1,450 to be billed twice.",
+            "afterCue": "we have issued a full credit memo for the duplicate amount and updated your statement balance accordingly.",
+            "connectorOrRef": "Trạng từ nối kết quả: Therefore",
+            "logicVi": "'Therefore' kết nối trực tiếp nguyên nhân (lỗi tính phí hai lần ở câu trước) với kết quả xử lý (phát hành giấy báo có & cập nhật sao kê ở câu sau)."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-02-q137",
+        "blankNumber": 137,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Our warehouse expansion near the port is scheduled to finish in November.",
+          "B": "A revised copy of this corrected invoice is attached to this e-mail for your records.",
+          "C": "Clients must submit all refrigeration temperature logs before the end of each month.",
+          "D": "We regret to inform you that storage rates will rise by five percent next year."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'this corrected invoice' & liên kết 'higher total')",
+            "signal": "Câu trước nói 'updated your statement balance'; câu sau nói 'If you have already authorized... the higher total' → [137] gửi kèm bản hóa đơn đã chỉnh sửa để khách đối chiếu."
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất điền vào [137].",
+            "optionsVi": {
+              "A": "Dự án mở rộng kho gần cảng của chúng tôi dự kiến hoàn thành vào tháng 11.",
+              "B": "Một bản sửa đổi của hóa đơn đã được điều chỉnh này được đính kèm trong email để ông lưu hồ sơ.",
+              "C": "Khách hàng phải nộp tất cả nhật ký nhiệt độ kho lạnh trước cuối mỗi tháng.",
+              "D": "Chúng tôi rất tiếc thông báo giá lưu kho sẽ tăng năm phần trăm vào năm tới."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'this corrected invoice' ở (B) quy chiếu thẳng tới bản sao kê vừa được cập nhật ('updated your statement balance') ở câu trước, đồng thời mở ra sự đối chiếu tự nhiên với 'the higher total' (tổng cũ cao hơn nếu đã lỡ chuyển khoản) ở câu sau.",
+            "evidenceQuote": "we have issued a full credit memo for the duplicate amount and updated your statement balance accordingly.",
+            "evidenceSentenceId": "p6-s1-02-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang xây dựng mở rộng kho.",
+            "B": "ĐÚNG — 'this corrected invoice' nối khít với việc cập nhật số dư hóa đơn vừa nêu.",
+            "C": "Loại vì lệch sang quy định kỹ thuật nhiệt độ, không ăn nhập bối cảnh xử lý hóa đơn.",
+            "D": "Loại vì thông báo tăng giá đột ngột trong email xin lỗi lỗi kế toán làm đứt mạch hoàn tiền."
+          },
+          "keyTakeaways": {
+            "formula": "Cập nhật số dư/hóa đơn → A revised copy of this corrected invoice is attached → xử lý nếu đã lỡ trả",
+            "commonTrap": "Bẫy từ khóa 'storage rates' (D) và 'refrigeration' (C) cùng chủ đề kho lạnh nhưng lệch hoàn toàn mục đích email.",
+            "paraphrases": [
+              {
+                "textInPassage": "revised copy of this corrected invoice",
+                "textInAnswer": "updated billing document",
+                "meaningVi": "chứng từ hóa đơn đã cập nhật"
+              }
+            ]
+          },
+          "applyRule": "Trong email xử lý sai sót hóa đơn: sau khi báo đã sửa số dư, câu tiếp theo chuẩn ETS thường gửi kèm 'revised/corrected invoice' kèm từ quy chiếu 'this'.",
+          "contextBridge": {
+            "beforeCue": "Therefore, we have issued a full credit memo for the duplicate amount and updated your statement balance accordingly.",
+            "afterCue": "If you have already authorized an automatic bank transfer for the higher total, the overpaid sum will automatically be refunded to your corporate checking account within three business days.",
+            "connectorOrRef": "Từ quy chiếu: 'this corrected invoice' ↔ 'updated your statement balance'",
+            "logicVi": "'this corrected invoice' bắt lại kết quả của hành động cập nhật sao kê ở câu trước và chuẩn bị bối cảnh cho giả định ở câu sau ('nếu đã lỡ chuyển khoản theo tổng cũ cao hơn')."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-02-q138",
+        "blankNumber": 138,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "purchasing",
+          "B": "complying",
+          "C": "occurring",
+          "D": "donating"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh & Collocation (prevent errors from occurring)",
+            "signal": "Cụm cố định: 'prevent similar billing errors from [occurring] again' (ngăn lỗi tương tự xảy ra lần nữa)."
+          },
+          "translation": {
+            "questionVi": "Chọn động từ V-ing đúng nghĩa sau 'prevent ... from' tại [138].",
+            "optionsVi": {
+              "A": "purchasing: mua sắm",
+              "B": "complying: tuân thủ",
+              "C": "occurring: xảy ra, tái diễn",
+              "D": "donating: quyên góp"
+            }
+          },
+          "proof": {
+            "explanation": "Chủ thể của hành động sau 'from' là 'similar billing errors' (các lỗi hóa đơn tương tự); lỗi chỉ có thể 'xảy ra' → 'occurring' ('prevent errors from occurring again').",
+            "evidenceQuote": "prevent similar billing errors from [138] _______ again.",
+            "evidenceSentenceId": "p6-s1-02-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lỗi hóa đơn không thể thực hiện hành động mua.",
+            "B": "Loại vì 'comply' đi với người/tổ chức tuân thủ quy định ('comply with').",
+            "C": "ĐÚNG — 'prevent errors from occurring' là collocation kinh điển trong TOEIC.",
+            "D": "Loại vì vô nghĩa trong ngữ cảnh hóa đơn."
+          },
+          "keyTakeaways": {
+            "formula": "prevent + problems / errors + from + occurring / happening / recurring",
+            "commonTrap": "Thấy từ 'complying' hay gặp trong bài công sở nên chọn nhầm mà không kiểm tra chủ thể là 'errors'.",
+            "paraphrases": [
+              {
+                "textInPassage": "prevent similar billing errors from occurring again",
+                "textInAnswer": "avoid future invoicing mistakes",
+                "meaningVi": "tránh sai sót hóa đơn trong tương lai"
+              }
+            ]
+          },
+          "applyRule": "Thấy cấu trúc 'prevent + errors/delays/accidents + from + ___' → chọn ngay 'occurring / happening'.",
+          "contextBridge": {
+            "beforeCue": "If you have already authorized an automatic bank transfer for the higher total, the overpaid sum will automatically be refunded to your corporate checking account within three business days.",
+            "afterCue": "Please let me know if you need any supporting documentation for your finance department.",
+            "connectorOrRef": "Chỗ trống [138] • Collocation: prevent errors from occurring",
+            "logicVi": "Sau khi xử lý hoàn tiền cho lỗi hiện tại, công ty bổ sung bước kiểm duyệt để ngăn lỗi hóa đơn tương tự tái diễn ('occurring again')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-03",
+    "title": "Bài 7 (Email): Lịch Bảo trì Hệ thống Máy chủ Kế toán Cuối tuần",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "IT Infrastructure Team <it-ops@solarisbank.com>",
+      "to": "All Finance and Branch Personnel",
+      "date": "September 17",
+      "subject": "Scheduled Maintenance for Accounting Portal This Saturday"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-03-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-03-s1",
+            "en": "To improve data encryption and speed up month-end reporting, the IT Infrastructure Team will conduct routine server maintenance on our internal accounting portal this Saturday, September 20, from 7:00 A.M. to 2:00 P.M.",
+            "vi": "Nhằm tăng cường mã hóa dữ liệu và đẩy nhanh báo cáo cuối tháng, Đội ngũ Hạ tầng CNTT sẽ tiến hành bảo trì máy chủ định kỳ cho cổng kế toán nội bộ vào thứ Bảy tuần này, ngày 20/9, từ 7:00 sáng đến 2:00 chiều."
+          },
+          {
+            "id": "p6-s1-03-s2",
+            "en": "Because several core database modules must be restarted, remote access to payroll files and expense ledgers will be temporarily [139] _______ throughout the seven-hour window.",
+            "vi": "Do một số mô-đun cơ sở dữ liệu lõi phải khởi động lại, quyền truy cập từ xa vào hồ sơ bảng lương và sổ chi phí sẽ tạm thời [139] _______ trong suốt khung giờ bảy tiếng này."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-03-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-03-s3",
+            "en": "All pending vendor invoices that require Saturday processing should [140] _______ before 6:00 P.M. on Friday so that no payment deadlines are missed.",
+            "vi": "Tất cả hóa đơn nhà cung cấp đang chờ cần xử lý vào thứ Bảy nên [140] _______ trước 6:00 chiều thứ Sáu để không bị trễ hạn thanh toán nào."
+          },
+          {
+            "id": "p6-s1-03-s4",
+            "en": "[141] _______, standard corporate e-mail, video conferencing, and customer support chat tools will continue operating normally without interruption.",
+            "vi": "[141] _______, email doanh nghiệp thông thường, hội nghị truyền hình và các công cụ chat hỗ trợ khách hàng sẽ vẫn tiếp tục hoạt động bình thường mà không bị gián đoạn."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-03-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-03-s5",
+            "en": "Once all security patches are installed, our engineers will run comprehensive system diagnostics before restoring user logins. [142] _______.",
+            "vi": "Sau khi toàn bộ bản vá bảo mật được cài đặt, các kỹ sư của chúng tôi sẽ chạy chẩn đoán hệ thống toàn diện trước khi khôi phục quyền đăng nhập người dùng. [142] _______."
+          },
+          {
+            "id": "p6-s1-03-s6",
+            "en": "Thank you for your cooperation as we strengthen our financial platform.",
+            "vi": "Cảm ơn sự phối hợp của các bạn trong quá trình chúng ta củng cố nền tảng tài chính."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-03-q139",
+        "blankNumber": 139,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "affordable",
+          "B": "generous",
+          "C": "persuasive",
+          "D": "unavailable"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Bảo trì CNTT",
+            "signal": "Khởi động lại mô-đun dữ liệu lõi → quyền truy cập từ xa tạm thời không khả dụng ('temporarily unavailable')."
+          },
+          "translation": {
+            "questionVi": "Chọn tính từ thích hợp sau 'will be temporarily' tại [139].",
+            "optionsVi": {
+              "A": "affordable: phải chăng (giá cả)",
+              "B": "generous: hào phóng",
+              "C": "persuasive: có sức thuyết phục",
+              "D": "unavailable: không khả dụng, tạm ngưng truy cập"
+            }
+          },
+          "proof": {
+            "explanation": "Vì cơ sở dữ liệu phải khởi động lại trong 7 tiếng bảo trì nên quyền truy cập ('remote access') sẽ tạm thời không dùng được ('temporarily unavailable').",
+            "evidenceQuote": "Because several core database modules must be restarted, remote access to payroll files and expense ledgers will be temporarily [139] _______",
+            "evidenceSentenceId": "p6-s1-03-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì dùng cho giá cả sản phẩm.",
+            "B": "Loại vì dùng cho tính cách/chính sách đãi ngộ.",
+            "C": "Loại vì dùng cho lập luận/bài thuyết trình.",
+            "D": "ĐÚNG — 'temporarily unavailable' là cụm chuẩn mực trong mọi thông báo bảo trì hệ thống."
+          },
+          "keyTakeaways": {
+            "formula": "be temporarily unavailable / offline (tạm thời không khả dụng)",
+            "commonTrap": "Đọc lướt không để ý tiền tố phủ định 'un-' trong 'unavailable'.",
+            "paraphrases": [
+              {
+                "textInPassage": "temporarily unavailable",
+                "textInAnswer": "out of service for a limited time",
+                "meaningVi": "tạm ngừng hoạt động trong thời gian ngắn"
+              }
+            ]
+          },
+          "applyRule": "Thông báo bảo trì máy chủ/website + 'temporarily ___' → chọn ngay 'unavailable / inaccessible / offline'.",
+          "contextBridge": {
+            "beforeCue": "the IT Infrastructure Team will conduct routine server maintenance on our internal accounting portal this Saturday, September 20, from 7:00 A.M. to 2:00 P.M.",
+            "afterCue": "All pending vendor invoices that require Saturday processing should be submitted before 6:00 P.M. on Friday",
+            "connectorOrRef": "Chỗ trống [139] • Từ vựng bảo trì CNTT",
+            "logicVi": "Hệ thống bảo trì từ 7h–14h dẫn đến quyền truy cập tạm thời không khả dụng ('unavailable'), và đó chính là lý do câu sau yêu cầu xử lý hóa đơn từ chiều thứ Sáu."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-03-q140",
+        "blankNumber": 140,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "submit",
+          "B": "be submitting",
+          "C": "be submitted",
+          "D": "have submitted"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thể bị động với Động từ khuyết thiếu (Modal Passive)",
+            "signal": "Chủ ngữ chỉ vật 'All pending vendor invoices' + không có tân ngữ sau chỗ trống ('before 6:00 P.M.') → Bị động 'should be submitted'."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng động từ đúng sau 'should' tại [140].",
+            "optionsVi": {
+              "A": "submit: nộp (chủ động)",
+              "B": "be submitting: đang nộp (chủ động tiếp diễn)",
+              "C": "be submitted: được nộp (bị động)",
+              "D": "have submitted: đã nộp (chủ động hoàn thành)"
+            }
+          },
+          "proof": {
+            "explanation": "'Hóa đơn nhà cung cấp' không thể tự nộp mà phải 'được nộp' trước 6 giờ chiều thứ Sáu, đồng thời sau chỗ trống là cụm giới từ 'before 6:00 P.M.' (không có tân ngữ) → dùng bị động 'should be submitted'.",
+            "evidenceQuote": "All pending vendor invoices that require Saturday processing should [140] _______ before 6:00 P.M. on Friday",
+            "evidenceSentenceId": "p6-s1-03-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì chủ động trong khi chủ ngữ là vật ('invoices') và thiếu tân ngữ.",
+            "B": "Loại vì vẫn là dạng chủ động.",
+            "C": "ĐÚNG — Modal verb + be + V3/ed ('should be submitted').",
+            "D": "Loại vì chủ động hoàn thành sai cả thể lẫn mốc thời gian tương lai."
+          },
+          "keyTakeaways": {
+            "formula": "Chủ ngữ vật + should / must / will + be + V3/ed (+ giới từ)",
+            "commonTrap": "Mệnh đề quan hệ dài 'that require Saturday processing' chen giữa làm học viên quên mất chủ ngữ gốc là vật 'invoices'.",
+            "paraphrases": [
+              {
+                "textInPassage": "should be submitted before 6:00 P.M.",
+                "textInAnswer": "must be turned in prior to 6:00 P.M.",
+                "meaningVi": "cần được nộp trước 6 giờ chiều"
+              }
+            ]
+          },
+          "applyRule": "Che mệnh đề 'that ...' đi, thấy 'All invoices should ___ before...' (vật + không tân ngữ) → chốt bị động 'be + V3/ed'.",
+          "contextBridge": {
+            "beforeCue": "remote access to payroll files and expense ledgers will be temporarily unavailable throughout the seven-hour window.",
+            "afterCue": "Meanwhile, standard corporate e-mail, video conferencing, and customer support chat tools will continue operating normally without interruption.",
+            "connectorOrRef": "Chỗ trống [140] • Bị động với should",
+            "logicVi": "Vì cổng kế toán ngưng hoạt động ngày thứ Bảy, các hóa đơn chờ xử lý phải 'được nộp' ('be submitted') sớm từ chiều thứ Sáu."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-03-q141",
+        "blankNumber": 141,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "As a result",
+          "B": "Meanwhile",
+          "C": "Otherwise",
+          "D": "Consequently"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối diễn tả song song / đối chiếu trong cùng khoảng thời gian",
+            "signal": "Cổng kế toán tạm ngưng bảo trì ↔ Trong khi đó, email, họp trực tuyến và chat hỗ trợ vẫn chạy bình thường → chọn 'Meanwhile'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối đứng đầu câu tại [141].",
+            "optionsVi": {
+              "A": "As a result: Kết quả là",
+              "B": "Meanwhile: Trong khi đó",
+              "C": "Otherwise: Nếu không thì",
+              "D": "Consequently: Do đó"
+            }
+          },
+          "proof": {
+            "explanation": "Hai câu mô tả hai trạng thái diễn ra đồng thời trong khung giờ bảo trì thứ Bảy: cổng kế toán tạm ngưng còn các công cụ giao tiếp khác vẫn chạy bình thường → dùng 'Meanwhile' (Trong khi đó).",
+            "evidenceQuote": "standard corporate e-mail, video conferencing, and customer support chat tools will continue operating normally without interruption.",
+            "evidenceSentenceId": "p6-s1-03-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì việc email chạy bình thường không phải 'kết quả' của việc nộp hóa đơn thứ Sáu.",
+            "B": "ĐÚNG — Chuyển sang mô tả tình trạng song song của các hệ thống khác trong lúc bảo trì.",
+            "C": "Loại vì không phải hệ quả điều kiện trái ngược.",
+            "D": "Loại vì đồng nghĩa với 'As a result', sai quan hệ nhân quả."
+          },
+          "keyTakeaways": {
+            "formula": "Hệ thống A tạm ngưng bảo trì. Meanwhile, hệ thống B vẫn hoạt động bình thường.",
+            "commonTrap": "Thấy A và D cùng nghĩa 'Kết quả là' — trong TOEIC khi 2 đáp án hoàn toàn đồng nghĩa và cùng chức năng ngữ pháp, cả 2 thường đều bị loại!",
+            "paraphrases": [
+              {
+                "textInPassage": "continue operating normally without interruption",
+                "textInAnswer": "remain fully functional",
+                "meaningVi": "vẫn hoạt động đầy đủ bình thường"
+              }
+            ]
+          },
+          "applyRule": "Mẹo loại nhanh: 'As a result' = 'Consequently' → loại cả 2; so sánh 2 trạng thái song song trong cùng thời gian → chọn 'Meanwhile'.",
+          "contextBridge": {
+            "beforeCue": "All pending vendor invoices that require Saturday processing should be submitted before 6:00 P.M. on Friday so that no payment deadlines are missed.",
+            "afterCue": "standard corporate e-mail, video conferencing, and customer support chat tools will continue operating normally without interruption.",
+            "connectorOrRef": "Trạng từ nối song song: Meanwhile",
+            "logicVi": "'Meanwhile' mở rộng phạm vi từ riêng cổng kế toán (bị ảnh hưởng) sang các dịch vụ CNTT khác (không bị ảnh hưởng trong cùng khung bảo trì)."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-03-q142",
+        "blankNumber": 142,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "An all-clear notification will then be posted on the company intranet as soon as access resumes.",
+          "B": "New employees must attend an orientation seminar during their first week.",
+          "C": "The previous encryption standard was adopted nearly a decade ago.",
+          "D": "Laptop chargers can be borrowed from the reception desk on the second floor."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Trình tự thời gian 'Once... → will then... → resumes')",
+            "signal": "Câu trước: kỹ sư chạy chẩn đoán trước khi khôi phục đăng nhập ('before restoring user logins') → [142] chốt bước kế tiếp thông báo khi hệ thống mở lại."
+          },
+          "translation": {
+            "questionVi": "Chọn câu kết nối mạch nhất vào vị trí [142].",
+            "optionsVi": {
+              "A": "Một thông báo hoàn tất sau đó sẽ được đăng trên mạng nội bộ công ty ngay khi quyền truy cập được khôi phục.",
+              "B": "Nhân viên mới phải tham dự buổi định hướng trong tuần đầu tiên.",
+              "C": "Tiêu chuẩn mã hóa trước đây đã được áp dụng gần một thập kỷ trước.",
+              "D": "Sạc laptop có thể được mượn tại quầy lễ tân tầng hai."
+            }
+          },
+          "proof": {
+            "explanation": "Trạng từ trình tự 'then' và cụm 'as soon as access resumes' ở (A) tiếp nối hoàn hảo quy trình cuối câu trước ('run comprehensive system diagnostics before restoring user logins').",
+            "evidenceQuote": "our engineers will run comprehensive system diagnostics before restoring user logins.",
+            "evidenceSentenceId": "p6-s1-03-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Tiếp nối chính xác chuỗi bước kỹ thuật: cài bản vá → chạy chẩn đoán → khôi phục đăng nhập → đăng thông báo mở lại.",
+            "B": "Loại vì lạc đề sang quy trình nhân sự mới.",
+            "C": "Loại vì lùi về lịch sử 10 năm trước, cắt ngang trình tự kết thúc bảo trì.",
+            "D": "Loại vì chuyện mượn sạc không liên quan đến lịch bảo trì máy chủ."
+          },
+          "keyTakeaways": {
+            "formula": "Once X is done, engineers will Y before restoring logins. → An all-clear notification will then be posted...",
+            "commonTrap": "Thấy chữ 'encryption' ở (C) trùng từ ở câu đầu bài nhưng đặt vào cuối bài bị gãy hoàn toàn trình tự thời gian.",
+            "paraphrases": [
+              {
+                "textInPassage": "restoring user logins",
+                "textInAnswer": "access resumes",
+                "meaningVi": "khôi phục quyền đăng nhập / truy cập trở lại"
+              }
+            ]
+          },
+          "applyRule": "Đoạn kết thông báo bảo trì luôn chốt bằng bước báo tin cho người dùng khi hệ thống mở lại (chú ý 'then' & 'as soon as access resumes').",
+          "contextBridge": {
+            "beforeCue": "Once all security patches are installed, our engineers will run comprehensive system diagnostics before restoring user logins.",
+            "afterCue": "Thank you for your cooperation as we strengthen our financial platform.",
+            "connectorOrRef": "Liên kết trình tự: 'then' + 'as soon as access resumes' ↔ 'restoring user logins'",
+            "logicVi": "Câu trước mô tả bước kiểm tra cuối trước khi mở lại đăng nhập; câu (A) dùng 'then' và lặp ý 'access resumes' để cho nhân viên biết làm sao nhận ra hệ thống đã dùng lại được."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-04",
+    "title": "Bài 8 (Email): Trao đổi Khách hàng về Gói Bảo dưỡng Điều hòa Trung tâm",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "Martin Kowalski <m.kowalski@breezetech-hvac.com>",
+      "to": "Rachel Brooks <rbrooks@oakridgehotel.com>",
+      "date": "May 12",
+      "subject": "Proposal for Quarterly HVAC Preventive Maintenance"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-04-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-04-s1",
+            "en": "Dear Ms. Brooks, It was a pleasure inspecting the rooftop cooling units at Oakridge Hotel yesterday afternoon.",
+            "vi": "Kính gửi bà Brooks, Rất hân hạnh được kiểm tra các cụm máy làm lạnh trên sân thượng tại Khách sạn Oakridge chiều hôm qua."
+          },
+          {
+            "id": "p6-s1-04-s2",
+            "en": "Overall, your primary compressors are in solid mechanical condition, though two intake filters have become [143] _______ clogged with dust and should be replaced before peak summer temperatures arrive.",
+            "vi": "Nhìn chung, các máy nén chính của bà đang ở tình trạng cơ khí tốt, dù hai bộ lọc khí đầu vào đã bị tắc bụi [143] _______ và nên được thay thế trước khi nắng nóng cao điểm mùa hè đến."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-04-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-04-s3",
+            "en": "As discussed, I have prepared a customized quarterly service plan tailored to hospitality properties of your size. [144] _______.",
+            "vi": "Như đã trao đổi, tôi đã soạn một gói dịch vụ bảo dưỡng theo quý được thiết kế riêng cho các cơ sở lưu trú có quy mô như khách sạn của bà. [144] _______."
+          },
+          {
+            "id": "p6-s1-04-s4",
+            "en": "By scheduling these routine checkups in advance, your engineering team can lower monthly electricity bills and extend the [145] _______ of each unit by up to five years.",
+            "vi": "Bằng cách đặt lịch các đợt kiểm tra định kỳ này trước, đội kỹ thuật của bà có thể giảm hóa đơn tiền điện hàng tháng và kéo dài [145] _______ của từng thiết bị thêm tới năm năm."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-04-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-04-s5",
+            "en": "[146] _______, subscribers to our annual plan receive priority twenty-four-hour emergency dispatch with zero weekend call-out fees.",
+            "vi": "[146] _______, khách hàng đăng ký gói năm của chúng tôi được hưởng dịch vụ điều phối kỹ thuật khẩn cấp ưu tiên 24 giờ mà không tốn phí gọi thợ cuối tuần."
+          },
+          {
+            "id": "p6-s1-04-s6",
+            "en": "Please review the attached quote and let me know when we may schedule a brief call to finalize the start date.",
+            "vi": "Vui lòng xem báo giá đính kèm và cho tôi biết khi nào chúng ta có thể sắp xếp cuộc gọi ngắn để chốt ngày bắt đầu."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-04-q143",
+        "blankNumber": 143,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "heavy",
+          "B": "heavily",
+          "C": "heaviness",
+          "D": "heavier"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Trạng từ bổ nghĩa cho phân từ/tính từ 'clogged')",
+            "signal": "Cấu trúc: become + [Adv] + Adj/P2 ('become heavily clogged')."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng từ đúng đứng trước tính từ phân từ 'clogged' tại [143].",
+            "optionsVi": {
+              "A": "heavy (adj): nặng",
+              "B": "heavily (adv): nặng nề, dày đặc",
+              "C": "heaviness (n): độ nặng",
+              "D": "heavier (adj so sánh hơn): nặng hơn"
+            }
+          },
+          "proof": {
+            "explanation": "'clogged' (bị tắc nghẽn) đóng vai trò tính từ sau động từ nối 'become'; để bổ nghĩa mức độ cho tính từ/phân từ, ta bắt buộc dùng Trạng từ 'heavily'.",
+            "evidenceQuote": "two intake filters have become [143] _______ clogged with dust",
+            "evidenceSentenceId": "p6-s1-04-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tính từ không đứng bổ nghĩa trực tiếp cho tính từ 'clogged'.",
+            "B": "ĐÚNG — 'heavily clogged' (tắc nghẽn nặng) chuẩn ngữ pháp và collocation.",
+            "C": "Loại vì danh từ sai cấu trúc trước 'clogged'.",
+            "D": "Loại vì tính từ so sánh hơn không bổ nghĩa cho 'clogged'."
+          },
+          "keyTakeaways": {
+            "formula": "be / become + Adverb + Past Participle (heavily clogged / severely damaged)",
+            "commonTrap": "Thấy động từ nối 'become' liền chọn ngay tính từ (A) mà quên nhìn từ 'clogged' phía sau chỗ trống!",
+            "paraphrases": [
+              {
+                "textInPassage": "heavily clogged with dust",
+                "textInAnswer": "severely blocked by debris",
+                "meaningVi": "bị tắc nghẽn nghiêm trọng do bụi bẩn"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'be/become + ___ + V-ed/Adj' → nhìn phía SAU chỗ trống trước; đã có tính từ rồi thì điền Trạng từ (-ly).",
+          "contextBridge": {
+            "beforeCue": "It was a pleasure inspecting the rooftop cooling units at Oakridge Hotel yesterday afternoon.",
+            "afterCue": "As discussed, I have prepared a customized quarterly service plan tailored to hospitality properties of your size.",
+            "connectorOrRef": "Chỗ trống [143] • Từ loại (Adv + Adj)",
+            "logicVi": "Bộ lọc đã bị tắc bụi nặng ('heavily clogged') là cơ sở thực tế để chuyên viên đề xuất gói bảo dưỡng định kỳ ở đoạn tiếp theo."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-04-q144",
+        "blankNumber": 144,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Oakridge Hotel recently renovated its third-floor banquet hall.",
+          "B": "Our technicians are required to renew their safety licenses every two years.",
+          "C": "Summer room reservations typically peak during July and August.",
+          "D": "It covers filter replacements, coil cleaning, and refrigerant pressure checks four times a year."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Đại từ quy chiếu 'It' & mở đường cho 'these routine checkups')",
+            "signal": "Câu trước giới thiệu 'a customized quarterly service plan'; câu sau nhắc lại 'these routine checkups' → [144] dùng 'It covers...' mô tả chi tiết các hạng mục kiểm tra trong gói."
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất điền vào [144].",
+            "optionsVi": {
+              "A": "Khách sạn Oakridge gần đây đã cải tạo phòng tiệc tầng ba.",
+              "B": "Kỹ thuật viên của chúng tôi bắt buộc gia hạn chứng chỉ an toàn mỗi hai năm.",
+              "C": "Lượng đặt phòng mùa hè thường đạt đỉnh vào tháng Bảy và tháng Tám.",
+              "D": "Gói này bao gồm thay bộ lọc, vệ sinh dàn trao đổi nhiệt và kiểm tra áp suất môi chất lạnh bốn lần mỗi năm."
+            }
+          },
+          "proof": {
+            "explanation": "Đại từ 'It' trong (D) thay thế chính xác cho 'a customized quarterly service plan' (câu trước), còn 'four times a year' giải thích chữ 'quarterly' và liệt kê các công việc làm tiền đề cho cụm 'these routine checkups' ở câu sau.",
+            "evidenceQuote": "By scheduling these routine checkups in advance, your engineering team can lower monthly electricity bills",
+            "evidenceSentenceId": "p6-s1-04-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang việc cải tạo phòng tiệc, không giải thích gói bảo dưỡng.",
+            "B": "Loại vì nói về chứng chỉ nội bộ thợ kỹ thuật, khiến 'these routine checkups' ở câu sau không có chỗ bám.",
+            "C": "Loại vì nói chung chung về lượng đặt phòng khách sạn.",
+            "D": "ĐÚNG — 'It' quy chiếu 'service plan'; các hạng mục kiểm tra 4 lần/năm nối khít với 'these routine checkups' ở câu sau."
+          },
+          "keyTakeaways": {
+            "formula": "Giới thiệu gói (quarterly plan) → It covers [chi tiết 4 lần/năm] → these routine checkups",
+            "commonTrap": "Bỏ qua sự ăn khớp từ vựng 'quarterly' = 'four times a year' và cụm quy chiếu 'these routine checkups'.",
+            "paraphrases": [
+              {
+                "textInPassage": "quarterly service plan",
+                "textInAnswer": "four times a year",
+                "meaningVi": "theo quý / bốn lần một năm"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'these + N' ở câu sau → kiểm tra xem lựa chọn nào vừa có đại từ nối câu trước ('It'), vừa liệt kê đúng danh sách để 'these + N' quy chiếu.",
+          "contextBridge": {
+            "beforeCue": "As discussed, I have prepared a customized quarterly service plan tailored to hospitality properties of your size.",
+            "afterCue": "By scheduling these routine checkups in advance, your engineering team can lower monthly electricity bills and extend the lifespan of each unit by up to five years.",
+            "connectorOrRef": "Quy chiếu kép: 'It' (= quarterly service plan) & 'four times a year' ↔ 'these routine checkups'",
+            "logicVi": "'It' nối thẳng về gói bảo dưỡng theo quý ở câu trước, đồng thời liệt kê 3 đầu mục kiểm tra định kỳ để cụm 'these routine checkups' ở câu sau có đối tượng rõ ràng."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-04-q145",
+        "blankNumber": 145,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "lifespan",
+          "B": "destination",
+          "C": "headquarters",
+          "D": "signature"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Kỹ thuật / Thiết bị",
+            "signal": "Cụm cố định 'extend the lifespan of each unit by up to five years' (kéo dài tuổi thọ thiết bị thêm tới 5 năm)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp sau 'extend the' tại [145].",
+            "optionsVi": {
+              "A": "lifespan: tuổi thọ (máy móc/thiết bị)",
+              "B": "destination: điểm đến",
+              "C": "headquarters: trụ sở chính",
+              "D": "signature: chữ ký"
+            }
+          },
+          "proof": {
+            "explanation": "Đi với động từ 'extend' (kéo dài), đối tượng 'each unit' (từng cụm máy điều hòa) và khoảng thời gian 'by up to five years', danh từ duy nhất hợp nghĩa là 'lifespan' (tuổi thọ sử dụng).",
+            "evidenceQuote": "extend the [145] _______ of each unit by up to five years.",
+            "evidenceSentenceId": "p6-s1-04-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'extend the lifespan of equipment' là collocation cực hay ra thi.",
+            "B": "Loại vì không thể kéo dài 'điểm đến' thêm 5 năm.",
+            "C": "Loại vì không hợp nghĩa với máy móc.",
+            "D": "Loại vì vô nghĩa."
+          },
+          "keyTakeaways": {
+            "formula": "extend / prolong + the lifespan (service life) of + equipment",
+            "commonTrap": "Chưa quen dùng 'lifespan' cho máy móc (từ này dùng được cho cả sinh vật lẫn thiết bị).",
+            "paraphrases": [
+              {
+                "textInPassage": "extend the lifespan of each unit",
+                "textInAnswer": "make the machines last longer",
+                "meaningVi": "giúp máy móc bền lâu hơn"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'extend the ___ of [máy móc] by X years' → chọn ngay 'lifespan / durability / service life'.",
+          "contextBridge": {
+            "beforeCue": "It covers filter replacements, coil cleaning, and refrigerant pressure checks four times a year.",
+            "afterCue": "Furthermore, subscribers to our annual plan receive priority twenty-four-hour emergency dispatch with zero weekend call-out fees.",
+            "connectorOrRef": "Chỗ trống [145] • Collocation: extend the lifespan",
+            "logicVi": "Lợi ích của bảo dưỡng định kỳ là giảm tiền điện và kéo dài tuổi thọ ('lifespan') thiết bị, rồi đoạn sau bổ sung thêm quyền lợi thứ ba."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-04-q146",
+        "blankNumber": 146,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Instead",
+          "C": "Furthermore",
+          "D": "Otherwise"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối bổ sung lợi ích (Addition)",
+            "signal": "Câu trước: giảm tiền điện & kéo dài tuổi thọ máy → Câu này: thêm đặc quyền gọi thợ khẩn cấp 24h miễn phí cuối tuần → quan hệ bổ sung dùng 'Furthermore'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối đầu đoạn tại [146].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Instead: Thay vào đó",
+              "C": "Furthermore: Hơn nữa, ngoài ra",
+              "D": "Otherwise: Nếu không thì"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 liệt kê hai lợi ích của gói bảo dưỡng (giảm tiền điện, tăng tuổi thọ), đoạn 3 tiếp tục cộng thêm quyền lợi ưu tiên xử lý khẩn cấp 24/7 → quan hệ bổ sung cùng chiều tích cực, chọn 'Furthermore'.",
+            "evidenceQuote": "[146] _______, subscribers to our annual plan receive priority twenty-four-hour emergency dispatch with zero weekend call-out fees.",
+            "evidenceSentenceId": "p6-s1-04-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không có sự đối lập giữa hai lợi ích.",
+            "B": "Loại vì đặc quyền khẩn cấp là cộng thêm chứ không thay thế lợi ích tiết kiệm điện.",
+            "C": "ĐÚNG — Bổ sung thêm quyền lợi hấp dẫn cho gói dịch vụ năm.",
+            "D": "Loại vì không nêu hậu quả nếu không đăng ký."
+          },
+          "keyTakeaways": {
+            "formula": "Lợi ích 1 & 2. Furthermore / In addition / Moreover, + Lợi ích 3.",
+            "commonTrap": "Thấy sang đoạn văn mới tưởng phải đổi ý bằng 'However', quên kiểm tra xem ý vẫn cùng chiều tích cực.",
+            "paraphrases": [
+              {
+                "textInPassage": "zero weekend call-out fees",
+                "textInAnswer": "no extra charges for weekend service",
+                "meaningVi": "miễn phí gọi thợ cuối tuần"
+              }
+            ]
+          },
+          "applyRule": "Đọc nhanh thái độ 2 câu trước–sau chỗ trống: cùng liệt kê ưu điểm (+) → chốt 'Furthermore / Moreover / In addition'.",
+          "contextBridge": {
+            "beforeCue": "By scheduling these routine checkups in advance, your engineering team can lower monthly electricity bills and extend the lifespan of each unit by up to five years.",
+            "afterCue": "subscribers to our annual plan receive priority twenty-four-hour emergency dispatch with zero weekend call-out fees.",
+            "connectorOrRef": "Trạng từ nối bổ sung: Furthermore",
+            "logicVi": "'Furthermore' nối liền mạch bán hàng từ hai lợi ích tiết kiệm dài hạn (đoạn 2) sang quyền lợi hỗ trợ khẩn cấp 24/7 (đoạn 3)."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-05",
+    "title": "Bài 9 (Email): Xác nhận Lịch Phỏng vấn Ứng viên & Hướng dẫn Chuẩn bị",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "Priya Nair <careers@vanguard-bio.com>",
+      "to": "Lucas Bennett <l.bennett@mailhub.net>",
+      "date": "February 18",
+      "subject": "Interview Confirmation — Senior Quality Assurance Specialist"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-05-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-05-s1",
+            "en": "Dear Mr. Bennett, We are pleased to confirm your on-site interview for the Senior Quality Assurance Specialist position on Tuesday, February 25, at 10:00 A.M.",
+            "vi": "Kính gửi anh Bennett, Chúng tôi rất vui mừng xác nhận buổi phỏng vấn trực tiếp cho vị trí Chuyên viên Đảm bảo Chất lượng Cấp cao vào thứ Ba, ngày 25/2, lúc 10:00 sáng."
+          },
+          {
+            "id": "p6-s1-05-s2",
+            "en": "You will meet first with our Laboratory Operations Director, Dr. Elena Morales, followed by a brief tour of our clinical testing [131] _______ on the second floor.",
+            "vi": "Trước tiên anh sẽ gặp Giám đốc Vận hành Phòng thí nghiệm, Tiến sĩ Elena Morales, tiếp theo là chuyến tham quan ngắn [131] _______ kiểm nghiệm lâm sàng ở tầng hai."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-05-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-05-s3",
+            "en": "Please arrive fifteen minutes early to check in with building security and obtain a temporary visitor badge. [132] _______, remember to bring a government-issued photo ID along with two printed copies of your professional certifications.",
+            "vi": "Vui lòng đến sớm mười lăm phút để làm thủ tục với bảo vệ tòa nhà và nhận thẻ khách tạm thời. [132] _______, hãy nhớ mang theo giấy tờ tùy thân có ảnh do nhà nước cấp cùng hai bản in chứng chỉ hành nghề của anh."
+          },
+          {
+            "id": "p6-s1-05-s4",
+            "en": "Candidates [133] _______ by car may park free of charge in the designated visitor bays located behind the west entrance.",
+            "vi": "Các ứng viên [133] _______ bằng ô tô có thể đỗ xe miễn phí tại khu vực đỗ dành cho khách nằm phía sau cổng tây."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-05-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-05-s5",
+            "en": "The entire interview process should last approximately ninety minutes, including a short case-study exercise with the compliance team. [134] _______.",
+            "vi": "Toàn bộ quy trình phỏng vấn dự kiến kéo dài khoảng chín mươi phút, bao gồm một bài tập tình huống ngắn cùng nhóm tuân thủ quy định. [134] _______."
+          },
+          {
+            "id": "p6-s1-05-s6",
+            "en": "We look forward to welcoming you to Vanguard BioLabs next week.",
+            "vi": "Chúng tôi rất mong được đón tiếp anh tại Vanguard BioLabs vào tuần tới."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-05-q131",
+        "blankNumber": 131,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "receipt",
+          "B": "allowance",
+          "C": "wing",
+          "D": "currency"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Không gian tòa nhà (wing = khu/cánh tòa nhà)",
+            "signal": "Đi với 'a brief tour of our clinical testing ___ on the second floor' → cần danh từ chỉ khu vực không gian."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ chỉ không gian phù hợp tại [131].",
+            "optionsVi": {
+              "A": "receipt: biên lai",
+              "B": "allowance: tiền trợ cấp",
+              "C": "wing: khu nhà, cánh tòa nhà",
+              "D": "currency: tiền tệ"
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'a brief tour of ... on the second floor' đòi hỏi một địa điểm/khu vực cụ thể bên trong tòa nhà; 'wing' (khu/dãy phòng chuyên biệt trong bệnh viện, phòng lab, bảo tàng) là đáp án duy nhất hợp nghĩa.",
+            "evidenceQuote": "a brief tour of our clinical testing [131] _______ on the second floor.",
+            "evidenceSentenceId": "p6-s1-05-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì biên lai không phải nơi tham quan.",
+            "B": "Loại vì trợ cấp là khái niệm tài chính.",
+            "C": "ĐÚNG — 'testing wing' (khu kiểm nghiệm) chuẩn bối cảnh phòng thí nghiệm/tòa nhà.",
+            "D": "Loại vì tiền tệ không liên quan."
+          },
+          "keyTakeaways": {
+            "formula": "west / clinical / research + wing (khu/cánh tòa nhà)",
+            "commonTrap": "Chỉ biết nghĩa 'đôi cánh chim/máy bay' của 'wing' mà bỏ quên nghĩa cực phổ biến trong TOEIC là 'khu nhà'.",
+            "paraphrases": [
+              {
+                "textInPassage": "clinical testing wing",
+                "textInAnswer": "laboratory section of the building",
+                "meaningVi": "khu phòng thí nghiệm trong tòa nhà"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'tour of our [chức năng] ___ on the X floor' → 'wing / facility / suite' là 3 từ chỉ khu vực ưu tiên hàng đầu.",
+          "contextBridge": {
+            "beforeCue": "We are pleased to confirm your on-site interview for the Senior Quality Assurance Specialist position on Tuesday, February 25, at 10:00 A.M.",
+            "afterCue": "Please arrive fifteen minutes early to check in with building security and obtain a temporary visitor badge.",
+            "connectorOrRef": "Chỗ trống [131] • Từ vựng không gian tòa nhà",
+            "logicVi": "Ứng viên phỏng vấn trực tiếp tại phòng lab nên sau cuộc gặp sẽ tham quan ngắn khu kiểm nghiệm ('clinical testing wing') ở tầng hai."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-05-q132",
+        "blankNumber": 132,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "In addition",
+          "B": "On the contrary",
+          "C": "Otherwise",
+          "D": "Nevertheless"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối bổ sung yêu cầu (Addition)",
+            "signal": "Câu trước: đến sớm 15 phút làm thủ tục bảo vệ → Câu này: nhớ mang CCCD/hộ chiếu và 2 bản in chứng chỉ → bổ sung yêu cầu chuẩn bị dùng 'In addition'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối thích hợp tại [132].",
+            "optionsVi": {
+              "A": "In addition: Ngoài ra, thêm vào đó",
+              "B": "On the contrary: Trái lại",
+              "C": "Otherwise: Nếu không thì",
+              "D": "Nevertheless: Tuy nhiên"
+            }
+          },
+          "proof": {
+            "explanation": "Cả hai câu đều đưa ra chỉ dẫn cần chuẩn bị trước buổi phỏng vấn (đến sớm lấy thẻ khách + mang giấy tờ tùy thân và bản in chứng chỉ) → quan hệ bổ sung, chọn 'In addition'.",
+            "evidenceQuote": "Please arrive fifteen minutes early to check in with building security... [132] _______, remember to bring a government-issued photo ID",
+            "evidenceSentenceId": "p6-s1-05-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Nối tiếp danh sách việc ứng viên cần chuẩn bị.",
+            "B": "Loại vì không phủ định hay đối lập câu trước.",
+            "C": "Loại vì không diễn tả hậu quả điều kiện.",
+            "D": "Loại vì không có sự nhượng bộ/tương phản."
+          },
+          "keyTakeaways": {
+            "formula": "Yêu cầu chuẩn bị 1 (Please arrive...). In addition, + Yêu cầu chuẩn bị 2 (remember to bring...).",
+            "commonTrap": "Thấy 3 đáp án B, C, D đều mang sắc thái đối lập/phủ định — chỉ duy nhất A mang nghĩa bổ sung!",
+            "paraphrases": [
+              {
+                "textInPassage": "government-issued photo ID",
+                "textInAnswer": "official identification document",
+                "meaningVi": "giấy tờ tùy thân chính thức có ảnh"
+              }
+            ]
+          },
+          "applyRule": "Trong email hướng dẫn ứng viên/khách tham dự, liệt kê thêm yêu cầu thứ hai → chọn ngay 'In addition / Additionally / Also'.",
+          "contextBridge": {
+            "beforeCue": "Please arrive fifteen minutes early to check in with building security and obtain a temporary visitor badge.",
+            "afterCue": "remember to bring a government-issued photo ID along with two printed copies of your professional certifications.",
+            "connectorOrRef": "Cụm từ nối bổ sung: In addition",
+            "logicVi": "'In addition' bổ sung yêu cầu mang giấy tờ tùy thân và bản in chứng chỉ ngay sau yêu cầu đến sớm 15 phút."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-05-q133",
+        "blankNumber": 133,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "arrive",
+          "B": "arrived",
+          "C": "arrival",
+          "D": "arriving"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Rút gọn mệnh đề quan hệ chủ động (Present Participle)",
+            "signal": "Câu đã có động từ chính 'may park' → chỗ trống sau 'Candidates' là rút gọn của 'who arrive by car' → 'arriving'."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng phân từ rút gọn đúng tại [133].",
+            "optionsVi": {
+              "A": "arrive: đến (động từ chia thì)",
+              "B": "arrived: đã đến (QKĐ / V-ed)",
+              "C": "arrival: sự đến (danh từ)",
+              "D": "arriving: đến (V-ing rút gọn chủ động)"
+            }
+          },
+          "proof": {
+            "explanation": "Động từ chính của câu là 'may park'; 'arrive' là nội động từ mang nghĩa chủ động ('Candidates who arrive by car'), nên khi rút gọn mệnh đề quan hệ ta dùng hiện tại phân từ 'arriving'.",
+            "evidenceQuote": "Candidates [133] _______ by car may park free of charge",
+            "evidenceSentenceId": "p6-s1-05-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tạo ra 2 động từ chia thì ('arrive' và 'may park') trong cùng 1 mệnh đề.",
+            "B": "Loại vì 'arrive' là nội động từ, không rút gọn bị động bằng V-ed.",
+            "C": "Loại vì danh từ 'arrival' không bổ nghĩa sau 'Candidates'.",
+            "D": "ĐÚNG — Rút gọn chủ động 'Candidates (who are) arriving by car'."
+          },
+          "keyTakeaways": {
+            "formula": "Danh từ chỉ người + V-ing (rút gọn chủ động) + Động từ chính của câu",
+            "commonTrap": "Thấy 'Candidates' số nhiều liền chọn V0 'arrive' mà không đọc tới động từ chính 'may park' phía sau!",
+            "paraphrases": [
+              {
+                "textInPassage": "designated visitor bays",
+                "textInAnswer": "reserved guest parking spaces",
+                "meaningVi": "ô đỗ xe dành riêng cho khách"
+              }
+            ]
+          },
+          "applyRule": "Luôn quét tìm động từ chính ('may park') trước khi điền động từ thứ hai; nếu đã có V chính và nghĩa chủ động → chốt V-ing.",
+          "contextBridge": {
+            "beforeCue": "In addition, remember to bring a government-issued photo ID along with two printed copies of your professional certifications.",
+            "afterCue": "The entire interview process should last approximately ninety minutes, including a short case-study exercise with the compliance team.",
+            "connectorOrRef": "Chỗ trống [133] • Rút gọn mệnh đề quan hệ (V-ing)",
+            "logicVi": "Câu hướng dẫn chỗ đỗ xe miễn phí riêng cho nhóm ứng viên di chuyển bằng ô tô ('Candidates arriving by car')."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-05-q134",
+        "blankNumber": 134,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Vanguard BioLabs recently opened a manufacturing plant in Zurich.",
+          "B": "Should you need to reschedule this appointment, please call our recruiting office at least twenty-four hours in advance.",
+          "C": "The compliance team submits quarterly audit reports to federal regulators.",
+          "D": "Lunch is served daily in the main cafeteria between noon and two o'clock."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'this appointment' & câu chốt chuẩn email xác nhận lịch)",
+            "signal": "Toàn bài xác nhận buổi phỏng vấn 90 phút vào thứ Ba 25/2 → [134] đưa hướng dẫn dời lịch bằng cụm quy chiếu 'this appointment' trước lời chào kết."
+          },
+          "translation": {
+            "questionVi": "Chọn câu kết phù hợp nhất vào vị trí [134].",
+            "optionsVi": {
+              "A": "Vanguard BioLabs gần đây đã mở một nhà máy sản xuất tại Zurich.",
+              "B": "Nếu anh cần dời lại cuộc hẹn này, vui lòng gọi cho phòng tuyển dụng của chúng tôi trước ít nhất hai mươi bốn giờ.",
+              "C": "Nhóm tuân thủ quy định nộp báo cáo kiểm toán hàng quý cho cơ quan quản lý liên bang.",
+              "D": "Bữa trưa được phục vụ hàng ngày tại nhà ăn chính từ 12 giờ đến 2 giờ chiều."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'this appointment' ở (B) quy chiếu trực tiếp về lịch phỏng vấn 90 phút vừa xác nhận, đồng thời hoàn tất đúng cấu trúc chuẩn của email HR (thông báo thời lượng → hướng dẫn nếu cần đổi lịch → lời chào hẹn gặp lại).",
+            "evidenceQuote": "The entire interview process should last approximately ninety minutes",
+            "evidenceSentenceId": "p6-s1-05-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang nhà máy ở Zurich, không liên quan lịch phỏng vấn.",
+            "B": "ĐÚNG — 'this appointment' quy chiếu lịch phỏng vấn và khớp hoàn hảo với vai trò câu chốt trước lời chào.",
+            "C": "Loại vì bẫy lặp chữ 'compliance team' nhưng đưa chi tiết nội bộ không cần thiết cho ứng viên.",
+            "D": "Loại vì buổi phỏng vấn 10:00–11:30 sáng và giờ ăn trưa nhân viên bị lệch chủ đề."
+          },
+          "keyTakeaways": {
+            "formula": "Đảo ngữ điều kiện loại 1 trong email lịch sự: Should you need to reschedule..., please call...",
+            "commonTrap": "Bẫy lặp từ khóa 'compliance team' ở (C) dễ hút người đọc lướt.",
+            "paraphrases": [
+              {
+                "textInPassage": "reschedule this appointment",
+                "textInAnswer": "change the interview time",
+                "meaningVi": "đổi lịch buổi phỏng vấn"
+              }
+            ]
+          },
+          "applyRule": "Câu áp chót của email xác nhận lịch hẹn/phỏng vấn gần như luôn là hướng dẫn đổi lịch hoặc liên hệ giải đáp (chú ý 'this appointment' / 'Should you need...').",
+          "contextBridge": {
+            "beforeCue": "The entire interview process should last approximately ninety minutes, including a short case-study exercise with the compliance team.",
+            "afterCue": "We look forward to welcoming you to Vanguard BioLabs next week.",
+            "connectorOrRef": "Từ quy chiếu: 'this appointment' (= on-site interview / 90-minute process)",
+            "logicVi": "Sau khi nêu thời lượng 90 phút để ứng viên cân đối lịch cá nhân, câu (B) dùng 'this appointment' hướng dẫn cách báo trước 24 giờ nếu cần dời lịch, rồi chuyển êm sang lời chào kết."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-06",
+    "title": "Bài 10 (Email): Thư Cảm ơn Đối tác Hậu Hội chợ Thương mại & Đề xuất Hợp tác",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "Sofia Rossi <s.rossi@verona-textiles.it>",
+      "to": "Marcus Vance <mvance@atelierhome.co>",
+      "date": "November 4",
+      "subject": "Great Meeting You at the Milan Home & Design Expo"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-06-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-06-s1",
+            "en": "Dear Mr. Vance, It was wonderful speaking with you at our booth during last week's Milan Home & Design Expo.",
+            "vi": "Kính gửi ông Vance, Thật tuyệt vời khi được trò chuyện cùng ông tại gian hàng của chúng tôi trong Triển lãm Nội thất & Thiết kế Milan tuần trước."
+          },
+          {
+            "id": "p6-s1-06-s2",
+            "en": "We were delighted to hear about Atelier Home's plans to introduce a sustainable linen collection across your retail stores next spring, and we greatly appreciated your thoughtful [135] _______ on our organic cotton weaves.",
+            "vi": "Chúng tôi rất vui khi nghe kế hoạch của Atelier Home nhằm ra mắt bộ sưu tập vải lanh bền vững tại các cửa hàng bán lẻ vào mùa xuân tới, và vô cùng trân trọng những [135] _______ sâu sắc của ông về dòng vải dệt bông hữu cơ của chúng tôi."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-06-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-06-s3",
+            "en": "As promised, I have sent a complimentary swatch book featuring our twenty newest upholstery fabrics via express courier to your Boston office. [136] _______.",
+            "vi": "Như đã hứa, tôi đã gửi một cuốn mẫu vải miễn phí gồm hai mươi loại vải bọc nội thất mới nhất của chúng tôi qua chuyển phát nhanh tới văn phòng Boston của ông. [136] _______."
+          },
+          {
+            "id": "p6-s1-06-s4",
+            "en": "Because our spinning mill handles dyeing and finishing in-house, we maintain strict quality control at every stage of production. [137] _______, we can fulfill custom color orders in as little as four weeks rather than the industry standard of eight.",
+            "vi": "Bởi nhà máy dệt của chúng tôi tự thực hiện khâu nhuộm và hoàn thiện nội bộ, chúng tôi duy trì kiểm soát chất lượng nghiêm ngặt ở mọi công đoạn sản xuất. [137] _______, chúng tôi có thể đáp ứng các đơn đặt màu riêng chỉ trong vòng bốn tuần thay vì mức chuẩn tám tuần của ngành."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-06-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-06-s5",
+            "en": "Once you have had an opportunity to examine the textile samples with your design directors, I would be happy to arrange a video conference to [138] _______ wholesale pricing and minimum order quantities.",
+            "vi": "Sau khi ông có dịp xem xét các mẫu vải cùng các giám đốc thiết kế của mình, tôi rất sẵn lòng sắp xếp một cuộc họp trực tuyến để [138] _______ mức giá bán sỉ và số lượng đặt hàng tối thiểu."
+          },
+          {
+            "id": "p6-s1-06-s6",
+            "en": "Please feel free to reach out anytime this month.",
+            "vi": "Xin đừng ngần ngại liên hệ với tôi bất cứ lúc nào trong tháng này."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-06-q135",
+        "blankNumber": 135,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "observant",
+          "B": "observe",
+          "C": "observations",
+          "D": "observably"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Danh từ sau tính từ sở hữu + tính từ)",
+            "signal": "Cấu trúc: your (tính từ sở hữu) + thoughtful (tính từ) + [Noun] + on sth."
+          },
+          "translation": {
+            "questionVi": "Chọn từ loại đúng sau 'your thoughtful' tại [135].",
+            "optionsVi": {
+              "A": "observant (adj): tinh ý, hay quan sát",
+              "B": "observe (v): quan sát",
+              "C": "observations (n): những nhận xét, đánh giá",
+              "D": "observably (adv): có thể nhận thấy rõ"
+            }
+          },
+          "proof": {
+            "explanation": "Đứng sau cụm 'your thoughtful' và trước giới từ 'on' cần một Danh từ làm tân ngữ cho động từ 'appreciated' → 'observations' (những nhận xét sâu sắc).",
+            "evidenceQuote": "greatly appreciated your thoughtful [135] _______ on our organic cotton weaves.",
+            "evidenceSentenceId": "p6-s1-06-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tính từ không thể làm tân ngữ chính kết thúc cụm danh từ trước giới từ 'on'.",
+            "B": "Loại vì động từ nguyên mẫu sai vị trí.",
+            "C": "ĐÚNG — Danh từ số nhiều khớp hoàn toàn cấu trúc 'your + Adj + N + on'.",
+            "D": "Loại vì trạng từ không đứng làm tân ngữ cho 'appreciated'."
+          },
+          "keyTakeaways": {
+            "formula": "appreciate + one's + thoughtful / valuable + observations / feedback + on sth",
+            "commonTrap": "Thấy 'thoughtful' quên nhận ra sau tính từ trước giới từ 'on' đang khuyết danh từ chính.",
+            "paraphrases": [
+              {
+                "textInPassage": "thoughtful observations",
+                "textInAnswer": "insightful comments",
+                "meaningVi": "những nhận xét sâu sắc"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'tính từ sở hữu (your) + tính từ (thoughtful) + ___ + giới từ (on)' → 100% điền Danh từ.",
+          "contextBridge": {
+            "beforeCue": "It was wonderful speaking with you at our booth during last week's Milan Home & Design Expo.",
+            "afterCue": "As promised, I have sent a complimentary swatch book featuring our twenty newest upholstery fabrics via express courier to your Boston office.",
+            "connectorOrRef": "Chỗ trống [135] • Từ loại (Danh từ)",
+            "logicVi": "Sự trao đổi trực tiếp tại gian hàng tuần trước để lại những nhận xét sâu sắc ('observations') của ông Vance về dòng vải hữu cơ."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-06-q136",
+        "blankNumber": 136,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "This parcel should arrive by Thursday afternoon and includes technical care sheets for each fabric.",
+          "B": "Next year's trade exposition will take place in Frankfurt instead of Milan.",
+          "C": "Many interior designers prefer darker curtains during the winter season.",
+          "D": "Our showroom receptionist speaks both English and Italian fluently."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'This parcel' & 'each fabric')",
+            "signal": "Câu trước: đã gửi cuốn mẫu vải qua chuyển phát nhanh ('sent a complimentary swatch book... via express courier') → [136] báo thời gian nhận bưu kiện này bằng 'This parcel'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất vào vị trí [136].",
+            "optionsVi": {
+              "A": "Bưu kiện này dự kiến sẽ đến vào chiều thứ Năm và có kèm các tờ hướng dẫn bảo quản kỹ thuật cho từng loại vải.",
+              "B": "Hội chợ thương mại năm tới sẽ diễn ra tại Frankfurt thay vì Milan.",
+              "C": "Nhiều nhà thiết kế nội thất chuộng rèm tối màu hơn vào mùa đông.",
+              "D": "Nhân viên lễ tân phòng trưng bày của chúng tôi nói trôi chảy cả tiếng Anh lẫn tiếng Ý."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm quy chiếu 'This parcel' ở (A) nhắc thẳng lại cuốn mẫu vải vừa gửi chuyển phát nhanh ('swatch book ... via express courier'), và 'each fabric' nối tiếp cụm 'twenty newest upholstery fabrics' ngay câu trước.",
+            "evidenceQuote": "I have sent a complimentary swatch book featuring our twenty newest upholstery fabrics via express courier to your Boston office.",
+            "evidenceSentenceId": "p6-s1-06-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'This parcel' quy chiếu trực tiếp kiện hàng mẫu vừa gửi, cung cấp lịch giao & tài liệu kèm theo.",
+            "B": "Loại vì lạc sang địa điểm tổ chức hội chợ năm sau.",
+            "C": "Loại vì nhận xét chung về rèm mùa đông không ăn nhập kế hoạch vải lanh mùa xuân.",
+            "D": "Loại vì chi tiết lễ tân phòng trưng bày hoàn toàn lệch mạch gửi mẫu hàng."
+          },
+          "keyTakeaways": {
+            "formula": "sent a [package/swatch book] via courier → This parcel should arrive by [time]...",
+            "commonTrap": "Thấy chữ 'Milan' trong (B) trùng với đoạn 1 nhưng lại chệch chủ đề gửi mẫu hàng của đoạn 2.",
+            "paraphrases": [
+              {
+                "textInPassage": "swatch book",
+                "textInAnswer": "textile samples",
+                "meaningVi": "bộ mẫu vải"
+              }
+            ]
+          },
+          "applyRule": "Thấy câu trước vừa thông báo gửi hàng/tài liệu qua chuyển phát → tìm câu chứa 'This parcel / This package / It should arrive...'.",
+          "contextBridge": {
+            "beforeCue": "As promised, I have sent a complimentary swatch book featuring our twenty newest upholstery fabrics via express courier to your Boston office.",
+            "afterCue": "Because our spinning mill handles dyeing and finishing in-house, we maintain strict quality control at every stage of production.",
+            "connectorOrRef": "Từ quy chiếu: 'This parcel' (= complimentary swatch book) + 'each fabric'",
+            "logicVi": "'This parcel' bắt chính xác kiện sách mẫu vải gửi đi Boston và thông báo ngày dự kiến đến (chiều thứ Năm) cùng tờ thông số kỹ thuật."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-06-q137",
+        "blankNumber": 137,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Otherwise",
+          "C": "For example",
+          "D": "Consequently"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối chỉ Hệ quả (Cause → Effect)",
+            "signal": "Câu trước: tự làm khâu nhuộm & hoàn thiện tại nhà máy, kiểm soát chặt → Câu này: rút ngắn thời gian giao đơn đặt màu xuống còn 4 tuần thay vì 8 tuần → chọn 'Consequently'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối hợp logic nhất tại [137].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Otherwise: Nếu không thì",
+              "C": "For example: Ví dụ như",
+              "D": "Consequently: Kết quả là, do đó"
+            }
+          },
+          "proof": {
+            "explanation": "Khả năng hoàn thành đơn đặt màu riêng trong 4 tuần (nhanh gấp đôi chuẩn ngành) là hệ quả trực tiếp của việc tự chủ quy trình nhuộm và hoàn thiện nội bộ ('handles dyeing and finishing in-house') → chọn 'Consequently'.",
+            "evidenceQuote": "Because our spinning mill handles dyeing and finishing in-house, we maintain strict quality control at every stage of production.",
+            "evidenceSentenceId": "p6-s1-06-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không mang quan hệ tương phản.",
+            "B": "Loại vì không diễn tả giả định trái ngược.",
+            "C": "Loại vì rút ngắn thời gian giao hàng là hệ quả/lợi thế chứ không phải ví dụ về kiểm soát chất lượng.",
+            "D": "ĐÚNG — Thể hiện rõ quan hệ Nguyên nhân (tự chủ quy trình) → Kết quả (giao nhanh 4 tuần)."
+          },
+          "keyTakeaways": {
+            "formula": "Lợi thế quy trình nội bộ (in-house). Consequently / As a result, + lợi thế tốc độ/chi phí.",
+            "commonTrap": "Dễ nhầm sang 'For example' nếu không thấy mối liên hệ trực tiếp giữa 'dyeing in-house' và 'custom color orders in four weeks'.",
+            "paraphrases": [
+              {
+                "textInPassage": "fulfill custom color orders",
+                "textInAnswer": "deliver tailored shade requests",
+                "meaningVi": "đáp ứng đơn hàng đặt màu riêng"
+              }
+            ]
+          },
+          "applyRule": "Quy trình tự chủ (in-house) → rút ngắn thời gian / giảm chi phí = quan hệ nhân quả → chọn 'Consequently / Therefore'.",
+          "contextBridge": {
+            "beforeCue": "Because our spinning mill handles dyeing and finishing in-house, we maintain strict quality control at every stage of production.",
+            "afterCue": "we can fulfill custom color orders in as little as four weeks rather than the industry standard of eight.",
+            "connectorOrRef": "Trạng từ nối kết quả: Consequently",
+            "logicVi": "Nhờ tự nhuộm màu ngay trong nhà máy, kết quả tất yếu ('Consequently') là rút ngắn thời gian giao đơn đặt màu từ 8 tuần xuống chỉ còn 4 tuần."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-06-q138",
+        "blankNumber": 138,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "postpone",
+          "B": "discuss",
+          "C": "depart",
+          "D": "occupy"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Đàm phán Thương mại",
+            "signal": "Sắp xếp cuộc họp video để '___ wholesale pricing and minimum order quantities' → thảo luận ('discuss')."
+          },
+          "translation": {
+            "questionVi": "Chọn động từ nguyên mẫu thích hợp sau 'to' tại [138].",
+            "optionsVi": {
+              "A": "postpone: hoãn lại",
+              "B": "discuss: thảo luận, trao đổi",
+              "C": "depart: khởi hành",
+              "D": "occupy: chiếm giữ"
+            }
+          },
+          "proof": {
+            "explanation": "Mục đích của cuộc họp trực tuyến với đối tác tiềm năng sau khi họ xem mẫu vải là để trao đổi giá sỉ và số lượng đặt tối thiểu → 'discuss wholesale pricing'.",
+            "evidenceQuote": "arrange a video conference to [138] _______ wholesale pricing and minimum order quantities.",
+            "evidenceSentenceId": "p6-s1-06-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không ai hẹn họp để 'hoãn' giá bán sỉ.",
+            "B": "ĐÚNG — 'discuss pricing and order quantities' tự nhiên và chính xác tuyệt đối.",
+            "C": "Loại vì 'depart' là nội động từ dùng cho chuyến đi/rời đi.",
+            "D": "Loại vì 'occupy' dùng cho không gian/vị trí, không đi với giá cả."
+          },
+          "keyTakeaways": {
+            "formula": "arrange a meeting / call to discuss + pricing / terms / quantities",
+            "commonTrap": "Lưu ý 'discuss' là ngoại động từ, đi thẳng với tân ngữ ('discuss pricing'), KHÔNG dùng 'discuss about'.",
+            "paraphrases": [
+              {
+                "textInPassage": "arrange a video conference to discuss",
+                "textInAnswer": "set up an online meeting to review",
+                "meaningVi": "sắp xếp họp trực tuyến để trao đổi"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'arrange a call/meeting to ___ + [pricing / details / contract terms]' → chọn 'discuss / review / negotiate'.",
+          "contextBridge": {
+            "beforeCue": "Once you have had an opportunity to examine the textile samples with your design directors,",
+            "afterCue": "Please feel free to reach out anytime this month.",
+            "connectorOrRef": "Chỗ trống [138] • Từ vựng đàm phán",
+            "logicVi": "Bước tiếp theo sau khi đối tác duyệt mẫu vải là họp video để thảo luận ('discuss') giá sỉ và sản lượng đặt tối thiểu."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-07",
+    "title": "Bài 11 (Memo): Cập nhật Chính sách Hoàn Chi phí Công tác & Hóa đơn Điện tử",
+    "genre": "Memo",
+    "headerMeta": {
+      "from": "Corporate Finance Department",
+      "to": "All Traveling Staff and Regional Managers",
+      "date": "January 14",
+      "subject": "Updated Travel Reimbursement Procedure Effective February 1"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-07-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-07-s1",
+            "en": "Beginning February 1, the Corporate Finance Department will transition from paper expense packets to our new mobile reimbursement portal, ClearSpend.",
+            "vi": "Bắt đầu từ ngày 1/2, Phòng Tài chính Doanh nghiệp sẽ chuyển từ hồ sơ chi phí bằng giấy sang cổng hoàn chi phí di động mới mang tên ClearSpend."
+          },
+          {
+            "id": "p6-s1-07-s2",
+            "en": "Under this updated policy, employees returning from business trips must upload digital photographs of all itemized hotel, meal, and transit [139] _______ within ten business days.",
+            "vi": "Theo chính sách cập nhật này, nhân viên trở về từ các chuyến công tác phải tải ảnh kỹ thuật số của toàn bộ [139] _______ chi tiết khách sạn, ăn uống và đi lại trong vòng mười ngày làm việc."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-07-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-07-s3",
+            "en": "Once uploaded, each claim will automatically [140] _______ to the employee's direct supervisor for digital sign-off before entering the payroll cycle. [141] _______.",
+            "vi": "Sau khi tải lên, mỗi yêu cầu thanh toán sẽ tự động [140] _______ tới quản lý trực tiếp của nhân viên để ký duyệt điện tử trước khi đưa vào kỳ lương. [141] _______."
+          },
+          {
+            "id": "p6-s1-07-s4",
+            "en": "Please ensure that credit-card summaries are not submitted in place of full vendor bills, as summary slips omit tax breakdowns required by our auditors.",
+            "vi": "Vui lòng đảm bảo không nộp bản tóm tắt sao kê thẻ tín dụng thay cho hóa đơn đầy đủ của nhà cung cấp, vì phiếu tóm tắt thiếu phần tách thuế theo yêu cầu của kiểm toán viên."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-07-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-07-s5",
+            "en": "All pending paper forms from January trips should be delivered to Room 310 by Friday, January 30. [142] _______, reimbursement processing for those claims will be delayed until the March payroll distribution.",
+            "vi": "Tất cả mẫu giấy còn tồn đọng của các chuyến công tác tháng Giêng cần được nộp về Phòng 310 chậm nhất thứ Sáu, ngày 30/1. [142] _______, việc xử lý hoàn tiền cho các yêu cầu đó sẽ bị lùi sang kỳ chi trả lương tháng Ba."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-07-q139",
+        "blankNumber": 139,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "receipts",
+          "B": "vacancies",
+          "C": "brochures",
+          "D": "guarantees"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Kế toán / Hoàn chi phí",
+            "signal": "Đi với 'itemized hotel, meal, and transit ___' (hóa đơn/biên lai chi tiết từng mục)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp tại [139].",
+            "optionsVi": {
+              "A": "receipts: biên lai, hóa đơn thanh toán",
+              "B": "vacancies: vị trí tuyển dụng trống / phòng trống",
+              "C": "brochures: tờ rơi quảng cáo",
+              "D": "guarantees: sự bảo đảm / giấy bảo hành"
+            }
+          },
+          "proof": {
+            "explanation": "Trong quy trình hoàn công tác phí ('travel reimbursement'), chứng từ liệt kê chi tiết khoản ăn ở đi lại ('itemized hotel, meal, and transit ___') chính là 'receipts' (biên lai chi tiết).",
+            "evidenceQuote": "upload digital photographs of all itemized hotel, meal, and transit [139] _______ within ten business days.",
+            "evidenceSentenceId": "p6-s1-07-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'itemized receipts' là cụm từ chuẩn 100% trong quy định thanh toán công tác phí.",
+            "B": "Loại vì dùng cho tuyển dụng hoặc phòng khách sạn còn trống.",
+            "C": "Loại vì tờ rơi không dùng để hoàn tiền.",
+            "D": "Loại vì giấy bảo hành không khớp với ăn uống, đi lại."
+          },
+          "keyTakeaways": {
+            "formula": "itemized receipts (biên lai có kê khai chi tiết từng món)",
+            "commonTrap": "Thấy chữ 'hotel' nên dễ bị hút vào 'vacancies' nếu không đọc ngữ cảnh 'reimbursement'.",
+            "paraphrases": [
+              {
+                "textInPassage": "itemized receipts",
+                "textInAnswer": "full vendor bills",
+                "meaningVi": "hóa đơn chi tiết từ nhà cung cấp"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'reimbursement + itemized ___' → chốt ngay 'receipts / invoices'.",
+          "contextBridge": {
+            "beforeCue": "Beginning February 1, the Corporate Finance Department will transition from paper expense packets to our new mobile reimbursement portal, ClearSpend.",
+            "afterCue": "Once uploaded, each claim will automatically be routed to the employee's direct supervisor for digital sign-off",
+            "connectorOrRef": "Chỗ trống [139] • Collocation: itemized receipts",
+            "logicVi": "Nhân viên tải ảnh biên lai chi tiết ('itemized receipts') lên cổng ClearSpend để hệ thống tự chuyển duyệt ở câu tiếp theo."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-07-q140",
+        "blankNumber": 140,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "route",
+          "B": "routing",
+          "C": "have routed",
+          "D": "be routed"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thể bị động Tương lai đơn (will + Adv + be + V3/ed)",
+            "signal": "Chủ ngữ vật 'each claim' + 'will automatically [be + V3] to the supervisor' (không có tân ngữ sau chỗ trống)."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng động từ bị động đúng sau 'will automatically' tại [140].",
+            "optionsVi": {
+              "A": "route: điều hướng (chủ động)",
+              "B": "routing: đang điều hướng (V-ing)",
+              "C": "have routed: đã điều hướng (chủ động hoàn thành)",
+              "D": "be routed: được tự động chuyển tiếp (bị động)"
+            }
+          },
+          "proof": {
+            "explanation": "'each claim' (mỗi yêu cầu hoàn tiền) là vật, phải 'được chuyển tới' quản lý trực tiếp ('to the employee's direct supervisor') và không có tân ngữ đứng sau → bắt buộc dùng bị động 'be routed'.",
+            "evidenceQuote": "each claim will automatically [140] _______ to the employee's direct supervisor for digital sign-off",
+            "evidenceSentenceId": "p6-s1-07-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì chủ động thiếu tân ngữ sau 'route'.",
+            "B": "Loại vì 'will' không đi trực tiếp với V-ing mà thiếu 'be'.",
+            "C": "Loại vì vừa chủ động vừa sai thì hoàn thành.",
+            "D": "ĐÚNG — Bị động tương lai chuẩn cấu trúc 'will + adv + be + V3/ed'."
+          },
+          "keyTakeaways": {
+            "formula": "Chủ ngữ vật + will + (adv) + be + V3/ed + to + người nhận",
+            "commonTrap": "Thấy trạng từ 'automatically' chen giữa dễ tưởng chủ ngữ tự làm hành động mà chọn chủ động (A).",
+            "paraphrases": [
+              {
+                "textInPassage": "be routed to the direct supervisor",
+                "textInAnswer": "be forwarded to one's manager",
+                "meaningVi": "được chuyển tiếp tới quản lý trực tiếp"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Vật + will + automatically + ___ + giới từ (to/for/by)' → 99% là bị động 'be + V3/ed'.",
+          "contextBridge": {
+            "beforeCue": "employees returning from business trips must upload digital photographs of all itemized hotel, meal, and transit receipts within ten business days.",
+            "afterCue": "Please ensure that credit-card summaries are not submitted in place of full vendor bills",
+            "connectorOrRef": "Chỗ trống [140] • Bị động tương lai (will be routed)",
+            "logicVi": "Sau khi nhân viên tải ảnh biên lai lên, mỗi hồ sơ sẽ tự động được định tuyến ('be routed') sang cấp trên ký duyệt."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-07-q141",
+        "blankNumber": 141,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Corporate laptops must be encrypted before traveling internationally.",
+          "B": "Our regional office in Denver recently doubled its sales staff.",
+          "C": "This streamlined workflow cuts average approval times from three weeks down to just four days.",
+          "D": "Employees may book economy-class flights through any approved travel agency."
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'This streamlined workflow')",
+            "signal": "Câu trước mô tả luồng tự động tải ảnh → chuyển quản lý ký duyệt điện tử → vào kỳ lương; [141] tóm tắt hiệu quả của chính quy trình này bằng 'This streamlined workflow'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối mạch hợp lý nhất vào [141].",
+            "optionsVi": {
+              "A": "Laptop công ty phải được mã hóa trước khi đi công tác quốc tế.",
+              "B": "Văn phòng khu vực ở Denver gần đây đã tăng gấp đôi nhân viên kinh doanh.",
+              "C": "Quy trình tinh gọn này cắt giảm thời gian duyệt trung bình từ ba tuần xuống chỉ còn bốn ngày.",
+              "D": "Nhân viên có thể đặt vé máy bay hạng phổ thông qua bất kỳ đại lý du lịch được duyệt nào."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm quy chiếu 'This streamlined workflow' ở (C) tổng kết chính xác chuỗi tự động hóa vừa trình bày ở câu trước ('Once uploaded → automatically routed → digital sign-off'), giải thích lợi ích thực tế của việc chuyển sang ClearSpend.",
+            "evidenceQuote": "Once uploaded, each claim will automatically be routed to the employee's direct supervisor for digital sign-off before entering the payroll cycle.",
+            "evidenceSentenceId": "p6-s1-07-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang bảo mật laptop.",
+            "B": "Loại vì tin nhân sự chi nhánh Denver không ăn nhập quy trình hoàn chi phí.",
+            "C": "ĐÚNG — 'This streamlined workflow' quy chiếu hoàn hảo quy trình duyệt tự động câu trước.",
+            "D": "Loại vì quy định đặt vé máy bay lệch khỏi mạch xử lý duyệt chứng từ."
+          },
+          "keyTakeaways": {
+            "formula": "Mô tả quy trình tự động mới → This streamlined workflow + lợi ích rút ngắn thời gian",
+            "commonTrap": "Thấy từ 'travel' trong (A) và (D) trùng chủ đề công tác nhưng không gắn với quy trình duyệt ClearSpend.",
+            "paraphrases": [
+              {
+                "textInPassage": "streamlined workflow",
+                "textInAnswer": "simplified approval process",
+                "meaningVi": "quy trình phê duyệt tinh gọn"
+              }
+            ]
+          },
+          "applyRule": "Sau câu mô tả các bước tự động hóa của hệ thống mới → ưu tiên câu bắt đầu bằng 'This streamlined workflow / This automated system' nêu lợi ích.",
+          "contextBridge": {
+            "beforeCue": "Once uploaded, each claim will automatically be routed to the employee's direct supervisor for digital sign-off before entering the payroll cycle.",
+            "afterCue": "Please ensure that credit-card summaries are not submitted in place of full vendor bills, as summary slips omit tax breakdowns required by our auditors.",
+            "connectorOrRef": "Cụm quy chiếu: 'This streamlined workflow' (= chuỗi tải ảnh → duyệt số → kỳ lương)",
+            "logicVi": "'This streamlined workflow' gom toàn bộ luồng duyệt điện tử ở câu trước để nhấn mạnh tốc độ xử lý nhanh (từ 3 tuần còn 4 ngày), rồi câu sau lưu ý loại chứng từ hợp lệ."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-07-q142",
+        "blankNumber": 142,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Moreover",
+          "B": "Otherwise",
+          "C": "Similarly",
+          "D": "Meanwhile"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối điều kiện trái ngược (Otherwise = Nếu không thì)",
+            "signal": "Câu trước: nộp hạn chót thứ Sáu 30/1 → Câu sau: bị trễ sang kỳ lương tháng Ba → cảnh báo hệ quả nếu trễ hạn dùng 'Otherwise'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối cảnh báo hệ quả tại [142].",
+            "optionsVi": {
+              "A": "Moreover: Hơn nữa",
+              "B": "Otherwise: Nếu không thì",
+              "C": "Similarly: Tương tự",
+              "D": "Meanwhile: Trong khi đó"
+            }
+          },
+          "proof": {
+            "explanation": "Câu trước đặt hạn chót nộp mẫu giấy ('by Friday, January 30'); câu sau nêu hậu quả nếu không nộp kịp ('reimbursement processing... will be delayed until March') → bắt buộc chọn 'Otherwise'.",
+            "evidenceQuote": "All pending paper forms from January trips should be delivered to Room 310 by Friday, January 30. [142] _______, reimbursement processing for those claims will be delayed",
+            "evidenceSentenceId": "p6-s1-07-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì bị trễ hoàn tiền không phải thông tin bổ sung tích cực.",
+            "B": "ĐÚNG — Nối mượt từ hạn chót (deadline) sang hậu quả nếu không tuân thủ.",
+            "C": "Loại vì không so sánh tương đồng.",
+            "D": "Loại vì không diễn tả hai sự việc xảy ra song song."
+          },
+          "keyTakeaways": {
+            "formula": "Yêu cầu / Hạn chót (must/should... by [Date]). Otherwise, + hậu quả (will be delayed / canceled).",
+            "commonTrap": "Không dịch ý tiêu cực 'will be delayed' ở câu sau nên chọn nhầm từ nối bổ sung.",
+            "paraphrases": [
+              {
+                "textInPassage": "will be delayed until March",
+                "textInAnswer": "will be postponed to the following month",
+                "meaningVi": "sẽ bị hoãn sang tháng kế tiếp"
+              }
+            ]
+          },
+          "applyRule": "Thấy mô típ kinh điển TOEIC: [Deadline / Yêu cầu bắt buộc]. ___, [bị trễ / bị hủy / mất quyền lợi] → chốt ngay 'Otherwise'.",
+          "contextBridge": {
+            "beforeCue": "All pending paper forms from January trips should be delivered to Room 310 by Friday, January 30.",
+            "afterCue": "reimbursement processing for those claims will be delayed until the March payroll distribution.",
+            "connectorOrRef": "Trạng từ nối điều kiện ngược: Otherwise",
+            "logicVi": "'Otherwise' (= nếu không nộp trước 30/1) liên kết hạn chót ở câu trước với hậu quả bị lùi sang kỳ lương tháng Ba ở câu sau."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-08",
+    "title": "Bài 12 (Memo): Triển khai Chế độ Giờ Làm việc Linh hoạt Mùa hè",
+    "genre": "Memo",
+    "headerMeta": {
+      "from": "Human Resources Division",
+      "to": "All Full-Time Headquarters Employees",
+      "date": "May 22",
+      "subject": "Pilot Launch of Summer Flexible-Hours Program"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-08-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-08-s1",
+            "en": "Following positive feedback from our annual employee engagement survey, executive leadership has approved a twelve-week Summer Flexible-Hours Program running from June 2 through August 29.",
+            "vi": "Tiếp nối những phản hồi tích cực từ khảo sát mức độ gắn kết nhân viên thường niên, ban lãnh đạo đã phê duyệt Chương trình Giờ làm việc Linh hoạt Mùa hè kéo dài mười hai tuần, từ ngày 2/6 đến hết 29/8."
+          },
+          {
+            "id": "p6-s1-08-s2",
+            "en": "Staff members [143] _______ in the pilot may choose to work nine-hour days from Monday to Thursday and conclude their workweek at 1:00 P.M. every Friday.",
+            "vi": "Các nhân viên [143] _______ chương trình thí điểm có thể chọn làm việc chín giờ mỗi ngày từ thứ Hai đến thứ Năm và kết thúc tuần làm việc lúc 1:00 chiều mỗi thứ Sáu."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-08-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-08-s3",
+            "en": "[144] _______, every department must maintain adequate afternoon coverage on Fridays so that client inquiries and urgent deliveries continue to be handled promptly.",
+            "vi": "[144] _______, mọi phòng ban vẫn phải duy trì đủ nhân sự trực buổi chiều thứ Sáu để các yêu cầu của khách hàng và đơn giao nhận khẩn cấp tiếp tục được xử lý kịp thời."
+          },
+          {
+            "id": "p6-s1-08-s4",
+            "en": "Department heads will therefore coordinate staggered schedules with their teams and record each employee's selected shift on the HR [145] _______ no later than Wednesday, May 28.",
+            "vi": "Do đó, trưởng phòng sẽ điều phối lịch làm việc xen kẽ cùng nhóm và ghi nhận ca làm việc mà từng nhân viên lựa chọn trên [145] _______ nhân sự chậm nhất vào thứ Tư, ngày 28/5."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-08-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-08-s5",
+            "en": "At the close of August, Human Resources will review productivity metrics and gather staff comments to evaluate the initiative. [146] _______.",
+            "vi": "Vào cuối tháng Tám, Phòng Nhân sự sẽ rà soát các chỉ số năng suất và thu thập ý kiến nhân viên để đánh giá sáng kiến này. [146] _______."
+          },
+          {
+            "id": "p6-s1-08-s6",
+            "en": "Please direct any questions regarding eligibility to your assigned HR business partner.",
+            "vi": "Vui lòng gửi mọi thắc mắc về điều kiện tham gia tới chuyên viên đối tác nhân sự phụ trách bộ phận của bạn."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-08-q143",
+        "blankNumber": 143,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "participate",
+          "B": "participating",
+          "C": "participated",
+          "D": "participation"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Rút gọn mệnh đề quan hệ chủ động (Present Participle)",
+            "signal": "Động từ chính của câu là 'may choose'; 'participate in' mang nghĩa chủ động → rút gọn thành 'participating in'."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng từ đúng sau 'Staff members' tại [143].",
+            "optionsVi": {
+              "A": "participate: tham gia (động từ chia thì)",
+              "B": "participating: tham gia (V-ing rút gọn chủ động)",
+              "C": "participated: đã tham gia (QKĐ)",
+              "D": "participation: sự tham gia (danh từ)"
+            }
+          },
+          "proof": {
+            "explanation": "Câu đã có động từ chính 'may choose', nên cụm 'who participate in the pilot' được rút gọn theo thể chủ động thành 'participating in the pilot'.",
+            "evidenceQuote": "Staff members [143] _______ in the pilot may choose to work nine-hour days",
+            "evidenceSentenceId": "p6-s1-08-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tạo hai động từ chính ('participate' và 'may choose') trong cùng một câu đơn.",
+            "B": "ĐÚNG — Rút gọn mệnh đề quan hệ chủ động chuẩn ngữ pháp.",
+            "C": "Loại vì 'participate' là nội động từ, không rút gọn bị động dạng V-ed.",
+            "D": "Loại vì danh từ đứng sau 'Staff members' sai cấu trúc."
+          },
+          "keyTakeaways": {
+            "formula": "Employees / Staff members + participating in + [chương trình] + V chính",
+            "commonTrap": "Thấy 'Staff members' số nhiều liền vội chọn 'participate' mà bỏ sót 'may choose' ở giữa câu.",
+            "paraphrases": [
+              {
+                "textInPassage": "Staff members participating in the pilot",
+                "textInAnswer": "employees joining the trial program",
+                "meaningVi": "nhân viên tham gia chương trình thí điểm"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'Người + ___ + in [sự kiện/chương trình] + V chính' → chốt luôn V-ing ('participating / enrolling').",
+          "contextBridge": {
+            "beforeCue": "executive leadership has approved a twelve-week Summer Flexible-Hours Program running from June 2 through August 29.",
+            "afterCue": "However, every department must maintain adequate afternoon coverage on Fridays",
+            "connectorOrRef": "Chỗ trống [143] • Rút gọn chủ động (participating)",
+            "logicVi": "Nhân viên tham gia chương trình thí điểm ('participating in the pilot') được chọn nghỉ sớm chiều thứ Sáu, dẫn tới yêu cầu bố trí người trực ở câu sau."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-08-q144",
+        "blankNumber": 144,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Therefore",
+          "B": "For example",
+          "C": "However",
+          "D": "Additionally"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Trạng từ nối giới hạn / tương phản (However)",
+            "signal": "Câu trước: nhân viên được nghỉ từ 1:00 chiều thứ Sáu ↔ Câu này: mỗi phòng ban vẫn bắt buộc duy trì đủ người trực chiều thứ Sáu → điều kiện ràng buộc đối lập dùng 'However'."
+          },
+          "translation": {
+            "questionVi": "Chọn trạng từ nối phù hợp đầu đoạn 2 tại [144].",
+            "optionsVi": {
+              "A": "Therefore: Do đó",
+              "B": "For example: Ví dụ như",
+              "C": "However: Tuy nhiên",
+              "D": "Additionally: Ngoài ra"
+            }
+          },
+          "proof": {
+            "explanation": "Vế trước trao quyền lợi nghỉ sớm chiều thứ Sáu, vế sau đặt điều kiện hạn chế ('must maintain adequate afternoon coverage on Fridays') → quan hệ tương phản/giới hạn rõ ràng, chọn 'However'.",
+            "evidenceQuote": "[144] _______, every department must maintain adequate afternoon coverage on Fridays",
+            "evidenceSentenceId": "p6-s1-08-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì yêu cầu trực chiều thứ Sáu không phải hệ quả tất yếu theo chiều thuận của việc cho nghỉ sớm.",
+            "B": "Loại vì không phải ví dụ minh họa.",
+            "C": "ĐÚNG — Mở đầu điều kiện ràng buộc trái chiều với quyền lợi vừa nêu.",
+            "D": "Loại vì sắc thái là giới hạn/ngoại lệ chứ không phải bổ sung thêm quyền lợi."
+          },
+          "keyTakeaways": {
+            "formula": "Quyền lợi linh hoạt (may conclude at 1:00 P.M.). However, + điều kiện bắt buộc (must maintain coverage).",
+            "commonTrap": "Thấy hai câu đều nói về 'Friday' dễ tưởng bổ sung mà chọn 'Additionally'.",
+            "paraphrases": [
+              {
+                "textInPassage": "maintain adequate afternoon coverage",
+                "textInAnswer": "keep enough staff on duty in the afternoon",
+                "meaningVi": "duy trì đủ nhân sự trực buổi chiều"
+              }
+            ]
+          },
+          "applyRule": "Cặp tín hiệu vàng: câu trước dùng 'may + quyền lợi', câu sau dùng 'must + điều kiện ràng buộc' → chốt ngay 'However'.",
+          "contextBridge": {
+            "beforeCue": "Staff members participating in the pilot may choose to work nine-hour days from Monday to Thursday and conclude their workweek at 1:00 P.M. every Friday.",
+            "afterCue": "every department must maintain adequate afternoon coverage on Fridays so that client inquiries and urgent deliveries continue to be handled promptly.",
+            "connectorOrRef": "Trạng từ nối giới hạn: However",
+            "logicVi": "'However' cân bằng giữa quyền lợi nghỉ sớm chiều thứ Sáu (đoạn 1) và trách nhiệm đảm bảo đủ người trực phục vụ khách hàng (đoạn 2)."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-08-q145",
+        "blankNumber": 145,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "invoice",
+          "B": "warehouse",
+          "C": "banquet",
+          "D": "portal"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Hệ thống Nhân sự nội bộ",
+            "signal": "Đi với 'record each employee's selected shift on the HR ___' (ghi nhận ca làm việc trên cổng thông tin nhân sự)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp sau 'on the HR' tại [145].",
+            "optionsVi": {
+              "A": "invoice: hóa đơn",
+              "B": "warehouse: nhà kho",
+              "C": "banquet: buổi tiệc lớn",
+              "D": "portal: cổng thông tin trực tuyến"
+            }
+          },
+          "proof": {
+            "explanation": "Trưởng phòng ghi nhận lịch làm việc của từng nhân viên trên nền tảng trực tuyến của phòng Nhân sự ('on the HR portal') → 'portal' khớp hoàn hảo cả giới từ 'on' lẫn ngữ cảnh công sở.",
+            "evidenceQuote": "record each employee's selected shift on the HR [145] _______ no later than Wednesday, May 28.",
+            "evidenceSentenceId": "p6-s1-08-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không ghi nhận lịch làm việc lên hóa đơn.",
+            "B": "Loại vì nhà kho là không gian vật lý, không dùng với 'HR' và 'record shift on'.",
+            "C": "Loại vì tiệc chiêu đãi hoàn toàn vô nghĩa.",
+            "D": "ĐÚNG — 'HR portal' (cổng nhân sự nội bộ) cực phổ biến trong TOEIC hiện đại."
+          },
+          "keyTakeaways": {
+            "formula": "on the HR / employee / tenant + portal",
+            "commonTrap": "Thấy từ 'portal' tưởng là từ IT nhưng trong TOEIC 'HR portal / employee portal' xuất hiện liên tục ở Memo nội bộ.",
+            "paraphrases": [
+              {
+                "textInPassage": "record each employee's selected shift on the HR portal",
+                "textInAnswer": "log staff schedules in the online system",
+                "meaningVi": "cập nhật lịch làm việc lên hệ thống trực tuyến"
+              }
+            ]
+          },
+          "applyRule": "Thấy giới từ 'on' + 'HR / employee / client ___' để nhập dữ liệu/đăng ký → chọn 'portal / platform'.",
+          "contextBridge": {
+            "beforeCue": "However, every department must maintain adequate afternoon coverage on Fridays",
+            "afterCue": "At the close of August, Human Resources will review productivity metrics and gather staff comments to evaluate the initiative.",
+            "connectorOrRef": "Chỗ trống [145] • Collocation: on the HR portal",
+            "logicVi": "Để kiểm soát lịch trực xen kẽ, trưởng phòng cập nhật ca đăng ký lên cổng nhân sự ('HR portal') trước ngày 28/5."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-08-q146",
+        "blankNumber": 146,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "If these results prove encouraging, the company may adopt flexible scheduling year-round.",
+          "B": "The annual company picnic has been moved to Riverside Park this July.",
+          "C": "Part-time interns are paid on an hourly basis every two weeks.",
+          "D": "Air-conditioning settings in the building are automatically lowered after six o'clock."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'these results' & mạch đánh giá chương trình thí điểm)",
+            "signal": "Câu trước: cuối tháng 8, HR rà soát chỉ số năng suất & ý kiến nhân viên để đánh giá thí điểm → [146] nêu bước tiếp theo dựa trên 'these results'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu nối mạch logic nhất vào vị trí [146].",
+            "optionsVi": {
+              "A": "Nếu những kết quả này cho thấy tín hiệu khả quan, công ty có thể áp dụng lịch làm việc linh hoạt quanh năm.",
+              "B": "Buổi dã ngoại thường niên của công ty đã được chuyển tới Công viên Riverside vào tháng Bảy này.",
+              "C": "Thực tập sinh bán thời gian được trả lương theo giờ mỗi hai tuần.",
+              "D": "Cài đặt điều hòa trong tòa nhà tự động giảm công suất sau sáu giờ tối."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm quy chiếu 'these results' ở (A) bắt thẳng lại kết quả rà soát 'productivity metrics and staff comments' ở câu trước, đồng thời giải thích đúng bản chất của một chương trình 'pilot' (thí điểm → nếu tốt sẽ áp dụng quanh năm).",
+            "evidenceQuote": "At the close of August, Human Resources will review productivity metrics and gather staff comments to evaluate the initiative.",
+            "evidenceSentenceId": "p6-s1-08-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'these results' quy chiếu trực tiếp kết quả đánh giá thí điểm và mở hướng áp dụng dài hạn.",
+            "B": "Loại vì lạc đề sang buổi picnic mùa hè.",
+            "C": "Loại vì Memo gửi riêng cho 'Full-Time Headquarters Employees' và đang nói chuyện đánh giá chương trình.",
+            "D": "Loại vì chuyện điều hòa tòa nhà hoàn toàn đứt mạch đánh giá năng suất."
+          },
+          "keyTakeaways": {
+            "formula": "Review metrics & gather comments (evaluate pilot) → If these results prove encouraging, adopt year-round",
+            "commonTrap": "Bị đánh lạc hướng bởi bối cảnh 'Summer' trong (B) (picnic tháng 7) hay '6 o'clock' trong (D).",
+            "paraphrases": [
+              {
+                "textInPassage": "adopt flexible scheduling year-round",
+                "textInAnswer": "make the flex-time policy permanent",
+                "meaningVi": "áp dụng chính sách giờ linh hoạt lâu dài quanh năm"
+              }
+            ]
+          },
+          "applyRule": "Bài về 'pilot program' (thí điểm): sau câu nói về khâu đánh giá ('evaluate the initiative') → tìm câu chứa 'If these results...' nói về việc nhân rộng/áp dụng lâu dài.",
+          "contextBridge": {
+            "beforeCue": "At the close of August, Human Resources will review productivity metrics and gather staff comments to evaluate the initiative.",
+            "afterCue": "Please direct any questions regarding eligibility to your assigned HR business partner.",
+            "connectorOrRef": "Cụm quy chiếu: 'these results' (= productivity metrics & staff comments)",
+            "logicVi": "'these results' thay thế cho dữ liệu năng suất và phản hồi nhân viên thu thập cuối tháng 8, chốt lại mục tiêu dài hạn của đợt thí điểm mùa hè."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-09",
+    "title": "Bài 13 (Memo): Mở rộng Gói Phúc lợi Sức khỏe & Phòng Gym cho Nhân viên",
+    "genre": "Memo",
+    "headerMeta": {
+      "from": "Employee Benefits Committee",
+      "to": "All Staff Members",
+      "date": "October 3",
+      "subject": "Expanded Employee Wellness Stipend and Fitness Partnerships"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-09-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-09-s1",
+            "en": "To support the physical and mental well-being of our workforce, the Employee Benefits Committee is pleased to announce an expansion of our annual wellness [131] _______ starting November 1.",
+            "vi": "Nhằm hỗ trợ sức khỏe thể chất và tinh thần của đội ngũ nhân sự, Ủy ban Phúc lợi Nhân viên vui mừng thông báo mở rộng khoản [131] _______ chăm sóc sức khỏe thường niên kể từ ngày 1/11."
+          },
+          {
+            "id": "p6-s1-09-s2",
+            "en": "The yearly allowance per employee will increase from $400 to $650 and may be applied toward gym memberships, yoga classes, ergonomic home-office gear, or nutrition coaching. [132] _______.",
+            "vi": "Mức trợ cấp hàng năm cho mỗi nhân viên sẽ tăng từ 400 đô la lên 650 đô la và có thể sử dụng cho thẻ tập gym, lớp yoga, thiết bị văn phòng công thái học tại nhà hoặc tư vấn dinh dưỡng. [132] _______."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-09-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-09-s3",
+            "en": "We have also partnered with PeakMotion Fitness, which operates three [133] _______ located studios within walking distance of our downtown headquarters.",
+            "vi": "Chúng tôi cũng đã hợp tác với PeakMotion Fitness, đơn vị vận hành ba phòng tập nằm ở vị trí [133] _______ trong phạm vi đi bộ quanh trụ sở trung tâm của chúng ta."
+          },
+          {
+            "id": "p6-s1-09-s4",
+            "en": "Employees who present their company identification badge at any PeakMotion branch will have their registration fee waived and receive a twenty-five percent corporate discount.",
+            "vi": "Nhân viên xuất trình thẻ nhận diện công ty tại bất kỳ chi nhánh PeakMotion nào sẽ được miễn phí đăng ký và hưởng mức giảm giá doanh nghiệp hai mươi lăm phần trăm."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-09-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-09-s5",
+            "en": "[134] _______, licensed wellness counselors will host complimentary thirty-minute stress-management workshops in the auditorium on the first Tuesday of each month.",
+            "vi": "[134] _______, các chuyên viên tư vấn sức khỏe có chứng chỉ sẽ tổ chức các buổi hội thảo quản lý căng thẳng miễn phí kéo dài ba mươi phút tại hội trường vào thứ Ba đầu tiên mỗi tháng."
+          },
+          {
+            "id": "p6-s1-09-s6",
+            "en": "Full program guidelines and claim instructions are now available on the Benefits section of the intranet.",
+            "vi": "Hướng dẫn đầy đủ về chương trình và cách yêu cầu chi trả hiện đã có tại mục Phúc lợi trên mạng nội bộ."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-09-q131",
+        "blankNumber": 131,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "penalty",
+          "B": "curfew",
+          "C": "shortage",
+          "D": "stipend"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Phúc lợi Nhân sự (paraphrase với 'allowance')",
+            "signal": "Câu sau lặp lại bằng 'The yearly allowance per employee will increase from $400 to $650' + tiêu đề có 'Wellness Stipend' → chọn 'stipend'."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp chỉ khoản hỗ trợ tài chính tại [131].",
+            "optionsVi": {
+              "A": "penalty: tiền phạt",
+              "B": "curfew: giờ giới nghiêm",
+              "C": "shortage: sự thiếu hụt",
+              "D": "stipend: khoản trợ cấp định kỳ"
+            }
+          },
+          "proof": {
+            "explanation": "Tiêu đề Memo ghi rõ 'Expanded Employee Wellness Stipend' và câu ngay sau giải thích 'The yearly allowance... will increase from $400 to $650' → 'stipend' (khoản trợ cấp) đồng nghĩa chuẩn xác với 'allowance'.",
+            "evidenceQuote": "The yearly allowance per employee will increase from $400 to $650",
+            "evidenceSentenceId": "p6-s1-09-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tiền phạt trái nghĩa hoàn toàn với phúc lợi.",
+            "B": "Loại vì giờ giới nghiêm không liên quan.",
+            "C": "Loại vì sự thiếu hụt sai nghĩa tích cực.",
+            "D": "ĐÚNG — 'wellness stipend' là cụm phúc lợi doanh nghiệp chuẩn mực và khớp tiêu đề."
+          },
+          "keyTakeaways": {
+            "formula": "wellness / travel / education + stipend (= allowance)",
+            "commonTrap": "Không đọc dòng Subject ('Expanded Employee Wellness Stipend') — mẹo ăn điểm cực nhanh trong Part 6!",
+            "paraphrases": [
+              {
+                "textInPassage": "annual wellness stipend",
+                "textInAnswer": "yearly allowance",
+                "meaningVi": "khoản trợ cấp chăm sóc sức khỏe hàng năm"
+              }
+            ]
+          },
+          "applyRule": "Luôn liếc dòng Subject và câu ngay sau chỗ trống — ETS rất hay lặp từ đồng nghĩa ('stipend' ↔ 'allowance').",
+          "contextBridge": {
+            "beforeCue": "Subject: Expanded Employee Wellness Stipend and Fitness Partnerships",
+            "afterCue": "The yearly allowance per employee will increase from $400 to $650 and may be applied toward gym memberships, yoga classes, ergonomic home-office gear, or nutrition coaching.",
+            "connectorOrRef": "Chỗ trống [131] • Đồng nghĩa: stipend ↔ allowance",
+            "logicVi": "Dòng Subject giới thiệu 'Wellness Stipend' và câu kế tiếp cụ thể hóa mức tăng từ $400 lên $650 dưới tên 'yearly allowance'."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-09-q132",
+        "blankNumber": 132,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "The company cafeteria will begin serving seasonal salads next Monday.",
+          "B": "Any unused balance from this fund, however, will not roll over into the following calendar year.",
+          "C": "PeakMotion Fitness first opened its flagship gym in Chicago ten years ago.",
+          "D": "All employees must complete their cybersecurity refresher course before December."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'this fund' nối tiếp khoản trợ cấp $650)",
+            "signal": "Câu trước nói về hạn mức trợ cấp $650/năm và các hạng mục được chi → [132] nêu quy định về số dư chưa dùng hết của khoản quỹ này ('this fund')."
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất điền vào [132].",
+            "optionsVi": {
+              "A": "Nhà ăn công ty sẽ bắt đầu phục vụ salad theo mùa vào thứ Hai tới.",
+              "B": "Tuy nhiên, bất kỳ số dư chưa sử dụng nào từ quỹ này sẽ không được cộng dồn sang năm dương lịch tiếp theo.",
+              "C": "PeakMotion Fitness lần đầu mở phòng gym chủ lực tại Chicago cách đây mười năm.",
+              "D": "Tất cả nhân viên phải hoàn thành khóa ôn tập an ninh mạng trước tháng Mười Hai."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'Any unused balance from this fund' ở (B) quy chiếu trực tiếp về khoản trợ cấp $650 hàng năm vừa nêu ở câu trước, bổ sung một quy tắc tài chính thiết yếu trước khi đoạn 2 chuyển sang đối tác PeakMotion.",
+            "evidenceQuote": "The yearly allowance per employee will increase from $400 to $650",
+            "evidenceSentenceId": "p6-s1-09-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang thực đơn nhà ăn.",
+            "B": "ĐÚNG — 'this fund' bắt chặt lấy khoản 'yearly allowance ($650)' và khép gọn đoạn quy định trợ cấp.",
+            "C": "Loại vì nhắc tên PeakMotion Fitness TRƯỚC khi đoạn 2 giới thiệu đối tác này ('We have also partnered with PeakMotion Fitness').",
+            "D": "Loại vì khóa an ninh mạng hoàn toàn lạc đề."
+          },
+          "keyTakeaways": {
+            "formula": "Trợ cấp hàng năm ($650) → Any unused balance from this fund will not roll over...",
+            "commonTrap": "Bẫy (C) nhắc trước tên riêng 'PeakMotion Fitness' trong khi đoạn 2 mới dùng 'also partnered with PeakMotion Fitness' để giới thiệu lần đầu!",
+            "paraphrases": [
+              {
+                "textInPassage": "roll over into the following year",
+                "textInAnswer": "carry forward to next year",
+                "meaningVi": "cộng dồn/chuyển tiếp sang năm sau"
+              }
+            ]
+          },
+          "applyRule": "Tránh chọn câu nhắc trước một đối tác/địa điểm mà đoạn sau mới dùng 'also partnered with / also introduce' để giới thiệu.",
+          "contextBridge": {
+            "beforeCue": "The yearly allowance per employee will increase from $400 to $650 and may be applied toward gym memberships, yoga classes, ergonomic home-office gear, or nutrition coaching.",
+            "afterCue": "We have also partnered with PeakMotion Fitness, which operates three conveniently located studios within walking distance of our downtown headquarters.",
+            "connectorOrRef": "Cụm quy chiếu: 'this fund' (= yearly allowance $650)",
+            "logicVi": "Đoạn 1 nói trọn vẹn về khoản trợ cấp tiền mặt; (B) dùng 'this fund' để nêu quy tắc không cộng dồn số dư, giúp đoạn 2 chuyển mượt bằng 'also partnered with' sang ưu đãi đối tác phòng gym."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-09-q133",
+        "blankNumber": 133,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "conveniently",
+          "B": "convenient",
+          "C": "convenience",
+          "D": "conveniences"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Trạng từ bổ nghĩa phân từ tính từ 'located')",
+            "signal": "Cụm cố định: 'three [Adv] located studios' → 'conveniently located' (tọa lạc thuận tiện)."
+          },
+          "translation": {
+            "questionVi": "Chọn từ loại đúng đứng trước 'located studios' tại [133].",
+            "optionsVi": {
+              "A": "conveniently (adv): một cách thuận tiện",
+              "B": "convenient (adj): thuận tiện",
+              "C": "convenience (n): sự tiện lợi",
+              "D": "conveniences (n số nhiều): các tiện ích"
+            }
+          },
+          "proof": {
+            "explanation": "Trước danh từ 'studios' đã có phân từ tính từ 'located' (tọa lạc); để bổ nghĩa cho 'located', ta cần Trạng từ 'conveniently' tạo thành cụm ghép 'conveniently located studios'.",
+            "evidenceQuote": "operates three [133] _______ located studios within walking distance",
+            "evidenceSentenceId": "p6-s1-09-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — 'conveniently located' là cặp Adv + P2 siêu kinh điển trong TOEIC.",
+            "B": "Loại vì tính từ không bổ nghĩa cho phân từ 'located'.",
+            "C": "Loại vì danh từ sai vị trí trước 'located'.",
+            "D": "Loại vì danh từ số nhiều sai cấu trúc."
+          },
+          "keyTakeaways": {
+            "formula": "Adv + P2 + Noun (conveniently located studios / centrally situated offices)",
+            "commonTrap": "Thấy số đếm 'three' và danh từ 'studios' nên chọn vội tính từ 'convenient' mà bỏ qua từ 'located' chen giữa.",
+            "paraphrases": [
+              {
+                "textInPassage": "conveniently located within walking distance",
+                "textInAnswer": "easily accessible on foot",
+                "meaningVi": "nằm gần, dễ đi bộ tới"
+              }
+            ]
+          },
+          "applyRule": "Thấy '___ + located / equipped / designed + Noun' → 100% điền Trạng từ (-ly).",
+          "contextBridge": {
+            "beforeCue": "We have also partnered with PeakMotion Fitness, which operates three",
+            "afterCue": "Employees who present their company identification badge at any PeakMotion branch will have their registration fee waived",
+            "connectorOrRef": "Chỗ trống [133] • Cấu trúc Adv + P2 + N",
+            "logicVi": "Ba cơ sở tọa lạc thuận tiện ('conveniently located') trong phạm vi đi bộ gần trụ sở là điểm hấp dẫn để nhân viên đăng ký ưu đãi."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-09-q134",
+        "blankNumber": 134,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "However",
+          "B": "Otherwise",
+          "C": "In addition",
+          "D": "Instead"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối bổ sung quyền lợi (In addition)",
+            "signal": "Đoạn 1: tăng quỹ trợ cấp $650; Đoạn 2: giảm giá gym PeakMotion; Đoạn 3: thêm hội thảo quản lý căng thẳng miễn phí → dùng 'In addition'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối mở đầu đoạn 3 tại [134].",
+            "optionsVi": {
+              "A": "However: Tuy nhiên",
+              "B": "Otherwise: Nếu không thì",
+              "C": "In addition: Ngoài ra, thêm vào đó",
+              "D": "Instead: Thay vào đó"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 tiếp tục bổ sung quyền lợi chăm sóc sức khỏe tinh thần (hội thảo quản lý căng thẳng miễn phí mỗi tháng) nối tiếp quyền lợi thể chất ở đoạn 2 → chọn 'In addition'.",
+            "evidenceQuote": "[134] _______, licensed wellness counselors will host complimentary thirty-minute stress-management workshops",
+            "evidenceSentenceId": "p6-s1-09-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không tương phản với đoạn trên.",
+            "B": "Loại vì không nêu hệ quả điều kiện trái ngược.",
+            "C": "ĐÚNG — Cộng thêm hoạt động phúc lợi tinh thần, hoàn thiện đúng cam kết 'physical and mental well-being' ở câu mở bài.",
+            "D": "Loại vì hội thảo không thay thế cho gói ưu đãi phòng gym."
+          },
+          "keyTakeaways": {
+            "formula": "Quyền lợi thể chất (gym) → In addition, + Quyền lợi tinh thần (stress-management workshops)",
+            "commonTrap": "Thấy bắt đầu đoạn mới dễ chọn cảm tính 'However' dù hai đoạn cùng chiều liệt kê phúc lợi.",
+            "paraphrases": [
+              {
+                "textInPassage": "complimentary stress-management workshops",
+                "textInAnswer": "free mental wellness sessions",
+                "meaningVi": "các buổi hội thảo sức khỏe tinh thần miễn phí"
+              }
+            ]
+          },
+          "applyRule": "Mẹo nhận diện cấu trúc bài Memo phúc lợi: Mở bài nêu 2 vế (physical & mental) → mỗi đoạn giới thiệu thêm 1 vế nối bằng 'also / In addition'.",
+          "contextBridge": {
+            "beforeCue": "Employees who present their company identification badge at any PeakMotion branch will have their registration fee waived and receive a twenty-five percent corporate discount.",
+            "afterCue": "licensed wellness counselors will host complimentary thirty-minute stress-management workshops in the auditorium on the first Tuesday of each month.",
+            "connectorOrRef": "Cụm từ nối bổ sung: In addition",
+            "logicVi": "'In addition' bổ sung mảng sức khỏe tinh thần (hội thảo giảm stress) tiếp sau ưu đãi thể chất tại PeakMotion, khớp trọn vẹn cụm 'physical and mental well-being' đầu bài."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p6-s1-10",
+    "title": "Bài 14 (Memo): Quy trình Bàn giao Thiết bị CNTT khi Luân chuyển Chi nhánh",
+    "genre": "Memo",
+    "headerMeta": {
+      "from": "Asset Management & IT Support",
+      "to": "All Department Managers",
+      "date": "August 8",
+      "subject": "Mandatory Equipment Transfer Checklist for Relocating Staff"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-s1-10-p1",
+        "sentences": [
+          {
+            "id": "p6-s1-10-s1",
+            "en": "Over the past quarter, several laptops and encrypted mobile phones were misplaced when employees transferred between regional branches without notifying IT Support.",
+            "vi": "Trong quý vừa qua, một số máy tính xách tay và điện thoại mã hóa đã bị thất lạc khi nhân viên luân chuyển giữa các chi nhánh khu vực mà không thông báo cho bộ phận Hỗ trợ CNTT."
+          },
+          {
+            "id": "p6-s1-10-s2",
+            "en": "To protect proprietary client data, our division [135] _______ a standardized Equipment Transfer Checklist that takes effect immediately across all offices.",
+            "vi": "Nhằm bảo vệ dữ liệu độc quyền của khách hàng, bộ phận của chúng tôi [135] _______ Bảng kiểm Bàn giao Thiết bị chuẩn hóa, có hiệu lực ngay lập tức trên toàn bộ các văn phòng."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-10-p2",
+        "sentences": [
+          {
+            "id": "p6-s1-10-s3",
+            "en": "Whenever a team member is reassigned to another city, the supervising manager must submit an electronic transfer request at least five business days prior to the employee's [136] _______.",
+            "vi": "Bất cứ khi nào một thành viên nhóm được điều chuyển sang thành phố khác, quản lý giám sát phải gửi yêu cầu chuyển giao điện tử ít nhất năm ngày làm việc trước khi nhân viên đó [136] _______."
+          },
+          {
+            "id": "p6-s1-10-s4",
+            "en": "IT technicians will then verify the device serial numbers, back up local project folders, and update regional network permissions before the move. [137] _______, relocating staff will be able to log in seamlessly on their very first morning at the new branch.",
+            "vi": "Các kỹ thuật viên CNTT sau đó sẽ đối chiếu số sê-ri thiết bị, sao lưu các thư mục dự án cục bộ và cập nhật quyền mạng khu vực trước khi chuyển đi. [137] _______, nhân viên luân chuyển sẽ có thể đăng nhập liền mạch ngay buổi sáng đầu tiên tại chi nhánh mới."
+          }
+        ]
+      },
+      {
+        "id": "p6-s1-10-p3",
+        "sentences": [
+          {
+            "id": "p6-s1-10-s5",
+            "en": "Please download the checklist from the IT Service Desk page and review it with your administrative coordinators this week. [138] _______.",
+            "vi": "Vui lòng tải bảng kiểm từ trang Bàn dịch vụ CNTT và rà soát cùng các điều phối viên hành chính của anh/chị trong tuần này. [138] _______."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p6-s1-10-q135",
+        "blankNumber": 135,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "has introduced",
+          "B": "introducing",
+          "C": "was introduced",
+          "D": "had introduced"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thì Hiện tại Hoàn thành chủ động (has introduced)",
+            "signal": "Câu 1 nêu sự việc 'Over the past quarter' → kết quả hiện tại 'takes effect immediately' + có tân ngữ 'a standardized Equipment Transfer Checklist' → Hiện tại hoàn thành chủ động."
+          },
+          "translation": {
+            "questionVi": "Chọn thì động từ phù hợp nhất tại [135].",
+            "optionsVi": {
+              "A": "has introduced: đã ban hành / giới thiệu (HTHT chủ động)",
+              "B": "introducing: đang giới thiệu (V-ing, thiếu trợ động từ)",
+              "C": "was introduced: đã được giới thiệu (QKĐ bị động)",
+              "D": "had introduced: đã từng giới thiệu trước một mốc quá khứ (QKHT)"
+            }
+          },
+          "proof": {
+            "explanation": "Chủ ngữ 'our division' là chủ thể ban hành chính sách (chủ động, có tân ngữ 'a standardized Equipment Transfer Checklist'), và chính sách này 'takes effect immediately' ở hiện tại → dùng Hiện tại hoàn thành 'has introduced'.",
+            "evidenceQuote": "our division [135] _______ a standardized Equipment Transfer Checklist that takes effect immediately",
+            "evidenceSentenceId": "p6-s1-10-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Diễn tả hành động vừa ban hành có hiệu lực ngay ở hiện tại ('takes effect immediately').",
+            "B": "Loại vì V-ing không thể làm động từ chính của câu.",
+            "C": "Loại vì bị động không đi kèm tân ngữ trực tiếp 'a standardized... Checklist'.",
+            "D": "Loại vì Quá khứ hoàn thành cần một mốc thời gian quá khứ làm chuẩn so sánh."
+          },
+          "keyTakeaways": {
+            "formula": "Over the past quarter... → our division has introduced/created + O (that takes effect immediately)",
+            "commonTrap": "Thấy câu trước chia quá khứ ('were misplaced') nên chọn nhầm Quá khứ hoàn thành (D).",
+            "paraphrases": [
+              {
+                "textInPassage": "takes effect immediately",
+                "textInAnswer": "is effective right away",
+                "meaningVi": "có hiệu lực ngay lập tức"
+              }
+            ]
+          },
+          "applyRule": "Ban hành quy trình mới gắn với hiện tại ('takes effect immediately') + có tân ngữ sau → chốt Hiện tại hoàn thành chủ động ('has introduced').",
+          "contextBridge": {
+            "beforeCue": "Over the past quarter, several laptops and encrypted mobile phones were misplaced when employees transferred between regional branches without notifying IT Support.",
+            "afterCue": "Whenever a team member is reassigned to another city, the supervising manager must submit an electronic transfer request",
+            "connectorOrRef": "Chỗ trống [135] • Hiện tại hoàn thành (has introduced)",
+            "logicVi": "Từ thực trạng thất lạc thiết bị quý trước, bộ phận CNTT nay đã ban hành ('has introduced') bảng kiểm bắt buộc áp dụng ngay."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-10-q136",
+        "blankNumber": 136,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "promotion",
+          "B": "departure",
+          "C": "admission",
+          "D": "subscription"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Điều chuyển Nhân sự",
+            "signal": "Nhân viên được điều chuyển sang thành phố khác ('reassigned to another city') → nộp đơn trước 5 ngày làm việc trước khi nhân viên 'rời đi' ('departure')."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ đúng ngữ cảnh sau 'prior to the employee's' tại [136].",
+            "optionsVi": {
+              "A": "promotion: sự thăng chức",
+              "B": "departure: sự rời đi / chuyển đi",
+              "C": "admission: sự vào cửa / nhập học",
+              "D": "subscription: gói đăng ký dài hạn"
+            }
+          },
+          "proof": {
+            "explanation": "Bối cảnh câu nói về việc 'reassigned to another city' và câu sau nhắc lại 'before the move' → danh từ chỉ thời điểm nhân viên rời chi nhánh cũ là 'departure'.",
+            "evidenceQuote": "Whenever a team member is reassigned to another city, the supervising manager must submit an electronic transfer request at least five business days prior to the employee's [136] _______.",
+            "evidenceSentenceId": "p6-s1-10-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì luân chuyển chi nhánh không đồng nghĩa với thăng chức.",
+            "B": "ĐÚNG — 'prior to the employee's departure' khớp tuyệt đối với 'reassigned to another city' và 'before the move'.",
+            "C": "Loại vì dùng cho vé vào cổng/tuyển sinh.",
+            "D": "Loại vì dùng cho báo chí/phần mềm."
+          },
+          "keyTakeaways": {
+            "formula": "prior to one's departure (trước ngày khởi hành / rời vị trí cũ)",
+            "commonTrap": "Chỉ nhớ 'departure' cho chuyến bay mà quên từ này dùng rất nhiều trong HR khi nhân viên rời văn phòng/chi nhánh.",
+            "paraphrases": [
+              {
+                "textInPassage": "prior to the employee's departure",
+                "textInAnswer": "before the move",
+                "meaningVi": "trước khi chuyển đi"
+              }
+            ]
+          },
+          "applyRule": "Thấy 'reassigned / relocating + prior to the employee's ___' → chọn ngay 'departure / transfer'.",
+          "contextBridge": {
+            "beforeCue": "Whenever a team member is reassigned to another city, the supervising manager must submit an electronic transfer request at least five business days prior to the employee's departure.",
+            "afterCue": "IT technicians will then verify the device serial numbers, back up local project folders, and update regional network permissions before the move.",
+            "connectorOrRef": "Chỗ trống [136] • Đồng nghĩa ngữ cảnh: departure ↔ the move",
+            "logicVi": "Quản lý nộp đơn trước ngày rời đi ('departure') 5 ngày làm việc để CNTT kịp sao lưu và cấp quyền trước lúc chuyển ('before the move')."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-10-q137",
+        "blankNumber": 137,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Nevertheless",
+          "B": "Instead",
+          "C": "As a result",
+          "D": "In contrast"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối chỉ Kết quả (Cause → Effect)",
+            "signal": "Câu trước: CNTT sao lưu thư mục & cập nhật sẵn quyền mạng khu vực → Câu này: nhân viên đăng nhập trơn tru ngay sáng đầu tiên ở chi nhánh mới → chọn 'As a result'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối thích hợp đầu câu tại [137].",
+            "optionsVi": {
+              "A": "Nevertheless: Tuy nhiên",
+              "B": "Instead: Thay vào đó",
+              "C": "As a result: Kết quả là, nhờ vậy",
+              "D": "In contrast: Trái lại"
+            }
+          },
+          "proof": {
+            "explanation": "Việc kỹ thuật viên chuẩn bị sẵn quyền mạng và sao lưu dữ liệu trước khi chuyển chính là nguyên nhân trực tiếp mang lại kết quả nhân viên đăng nhập mượt mà ngay sáng đầu tiên → chọn 'As a result'.",
+            "evidenceQuote": "IT technicians will then verify the device serial numbers, back up local project folders, and update regional network permissions before the move.",
+            "evidenceSentenceId": "p6-s1-10-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì không tương phản.",
+            "B": "Loại vì không thay thế hành động câu trước.",
+            "C": "ĐÚNG — Kết nối nhân quả hoàn hảo giữa chuẩn bị kỹ thuật và trải nghiệm đăng nhập liền mạch.",
+            "D": "Loại vì không đối lập hai đối tượng."
+          },
+          "keyTakeaways": {
+            "formula": "Chuẩn bị trước (back up & update permissions). As a result, + kết quả thuận lợi (log in seamlessly).",
+            "commonTrap": "Ba lựa chọn A, B, D đều mang nghĩa đối lập/thay thế — loại nhóm đồng hướng là ra ngay đáp án C!",
+            "paraphrases": [
+              {
+                "textInPassage": "log in seamlessly",
+                "textInAnswer": "access the network without technical issues",
+                "meaningVi": "đăng nhập hệ thống trơn tru không trục trặc"
+              }
+            ]
+          },
+          "applyRule": "Thấy 3 đáp án mang nghĩa tương phản/thay thế và 1 đáp án mang nghĩa kết quả ('As a result') → kiểm tra quan hệ nhân quả để chốt ngay.",
+          "contextBridge": {
+            "beforeCue": "IT technicians will then verify the device serial numbers, back up local project folders, and update regional network permissions before the move.",
+            "afterCue": "relocating staff will be able to log in seamlessly on their very first morning at the new branch.",
+            "connectorOrRef": "Cụm từ nối kết quả: As a result",
+            "logicVi": "'As a result' cho thấy việc nhân viên đăng nhập trơn tru ngay sáng đầu tiên ở chi nhánh mới là thành quả trực tiếp từ 3 bước chuẩn bị của đội CNTT."
+          }
+        }
+      },
+      {
+        "id": "p6-s1-10-q138",
+        "blankNumber": 138,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Our regional office in Seattle was recently recognized for energy conservation.",
+          "B": "Employees who forget their passwords can reset them via text message.",
+          "C": "New laptops are generally purchased in bulk at the start of each fiscal year.",
+          "D": "Failure to follow these steps may result in temporary suspension of remote network access."
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Quy chiếu 'these steps' & chốt tính bắt buộc của Memo)",
+            "signal": "Tiêu đề là 'Mandatory Equipment Transfer Checklist'; câu trước yêu cầu tải bảng kiểm và rà soát trong tuần này → [138] chốt hệ quả nếu không tuân thủ bằng 'these steps'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu kết phù hợp nhất vào vị trí [138].",
+            "optionsVi": {
+              "A": "Văn phòng khu vực ở Seattle gần đây được vinh danh về tiết kiệm năng lượng.",
+              "B": "Nhân viên quên mật khẩu có thể đặt lại qua tin nhắn văn bản.",
+              "C": "Laptop mới thường được mua số lượng lớn vào đầu mỗi năm tài chính.",
+              "D": "Việc không tuân thủ các bước này có thể dẫn đến tạm ngừng quyền truy cập mạng từ xa."
+            }
+          },
+          "proof": {
+            "explanation": "Cụm 'Failure to follow these steps' ở (D) quy chiếu trực tiếp về các bước trong bảng kiểm ('the checklist') và củng cố tính bắt buộc ('Mandatory') cùng mục tiêu bảo vệ dữ liệu ('protect proprietary client data') xuyên suốt bản Memo.",
+            "evidenceQuote": "Please download the checklist from the IT Service Desk page and review it with your administrative coordinators this week.",
+            "evidenceSentenceId": "p6-s1-10-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì lạc đề sang tiết kiệm năng lượng ở Seattle.",
+            "B": "Loại vì chuyện quên mật khẩu không liên quan quy trình luân chuyển thiết bị.",
+            "C": "Loại vì quy trình mua sắm laptop lệch khỏi chủ đề bàn giao thiết bị khi chuyển chi nhánh.",
+            "D": "ĐÚNG — 'these steps' quy chiếu toàn bộ quy trình bảng kiểm và chốt đúng văn phong kỷ luật bảo mật."
+          },
+          "keyTakeaways": {
+            "formula": "Mandatory checklist / policy → Failure to follow these steps may result in + chế tài bảo mật",
+            "commonTrap": "Bẫy (B) và (C) đều có từ khóa CNTT ('passwords', 'laptops') nhưng không hề nối với 'the checklist' ở câu trước.",
+            "paraphrases": [
+              {
+                "textInPassage": "Failure to follow these steps",
+                "textInAnswer": "noncompliance with the procedure",
+                "meaningVi": "không tuân thủ quy trình"
+              }
+            ]
+          },
+          "applyRule": "Trong Memo quy định bắt buộc ('Mandatory'), câu kết thường dùng 'Failure to follow these steps / Noncompliance may result in...' để nhấn mạnh chế tài.",
+          "contextBridge": {
+            "beforeCue": "Please download the checklist from the IT Service Desk page and review it with your administrative coordinators this week.",
+            "afterCue": "(Kết thúc văn bản — chốt chế tài tuân thủ bảo mật)",
+            "connectorOrRef": "Cụm quy chiếu: 'these steps' (= các bước trong Mandatory Equipment Transfer Checklist)",
+            "logicVi": "'these steps' gom lại toàn bộ các bước trong bảng kiểm bàn giao vừa nhắc và khép lại bản Memo bằng hệ quả bảo mật rõ ràng nếu không chấp hành."
+          }
+        }
+      }
+    ]
+  }
+]

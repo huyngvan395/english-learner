@@ -1,0 +1,1514 @@
+{
+  "id": "drill-p5-crawled-hf-tutor",
+  "part": 5,
+  "title": "Part 5 Gia sư AI — HuggingFace TOEIC Tutor (Auto-Crawled)",
+  "subtitle": "Tuyển tập 35 câu Part 5 cào từ HuggingFace Open Dataset (nggiabao19/toeic-tutor-v1) với công thức & mẹo tránh bẫy chi tiết.",
+  "focusTag": "Auto-Crawled HuggingFace",
+  "part5": [
+    {
+      "id": "drill-p5-crawled-hf-tutor-q1",
+      "part": 5,
+      "topic": "Tenses: Present Simple vs Present Continuous",
+      "difficulty": "Trung bình",
+      "sentence": "She usually _______ to the gym on weekends.",
+      "options": {
+        "A": "goes",
+        "B": "is going",
+        "C": "gone",
+        "D": "go"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Tenses: Present Simple vs Present Continuous",
+          "signal": "Chủ điểm: Tenses: Present Simple vs Present Continuous."
+        },
+        "translation": {
+          "questionVi": "Cô ấy thường __________ đến phòng tập vào cuối tuần.",
+          "optionsVi": {
+            "A": "đi",
+            "B": "đang đi",
+            "C": "đi rồi",
+            "D": "đi"
+          }
+        },
+        "proof": {
+          "explanation": "Câu đúng là 'goes' vì nó diễn tả thói quen, sử dụng thì hiện tại đơn. B sai vì thì hiện tại tiếp diễn không phù hợp với 'usually'. C sai vì 'gone' là hình thức quá khứ phân từ, không phù hợp. D không chính xác ngữ pháp do thiếu 's' cho ngôi thứ ba số ít. Coi chừng bị lừa với thì hiện tại tiếp diễn nha, chỉ dùng cho hành động đang diễn ra thôi!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) goes (đi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"is going\" (đang đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"gone\" (đi rồi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"go\" (đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "usually + V(s/es): Cụm này dùng để chỉ thói quen hay hành động xảy ra thường xuyên.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q2",
+      "part": 5,
+      "topic": "Modal Verbs",
+      "difficulty": "Trung bình",
+      "sentence": "You _______ have seen him at the party last night, but I'm not sure.",
+      "options": {
+        "A": "may",
+        "B": "should",
+        "C": "must",
+        "D": "can"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Modal Verbs",
+          "signal": "Chủ điểm: Modal Verbs."
+        },
+        "translation": {
+          "questionVi": "Bạn ___ có thể đã thấy anh ấy ở bữa tiệc tối qua, nhưng tôi không chắc.",
+          "optionsVi": {
+            "A": "có thể",
+            "B": "nên",
+            "C": "chắc chắn",
+            "D": "có thể"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'may' đúng vì nó diễn tả sự khả thi nhưng không chắc chắn. B sai vì 'should' không thể sử dụng khi đề cập đến khả năng. C sai vì 'must' thể hiện sự chắc chắn, không phải sự khả thi. D sai vì 'can' chỉ thể hiện khả năng mà không mang tính chất dự đoán. Nhớ học thuộc 'may' để phân biệt với 'can' nha, không thôi dễ bị nhầm lắm đó!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) may (có thể) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"should\" (nên) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"must\" (chắc chắn) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"can\" (có thể) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "may + V: 'may + V' được dùng để diễn tả sự phép khả năng hoặc sự cho phép.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q3",
+      "part": 5,
+      "topic": "Tenses: Future Forms (Will, Be going to, Present Continuous)",
+      "difficulty": "Trung bình",
+      "sentence": "The meeting _______ at 10 AM tomorrow.",
+      "options": {
+        "A": "is going to be held",
+        "B": "will be held",
+        "C": "is holding",
+        "D": "held"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Tenses: Future Forms (Will, Be going to, Present Continuous)",
+          "signal": "Chủ điểm: Tenses: Future Forms (Will, Be going to, Present Continuous)."
+        },
+        "translation": {
+          "questionVi": "Cuộc họp ______ vào lúc 10 giờ sáng ngày mai.",
+          "optionsVi": {
+            "A": "sẽ được tổ chức",
+            "B": "sẽ tổ chức",
+            "C": "đang tổ chức",
+            "D": "tổ chức"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án B đúng vì 'will be held' là thì tương lai đơn, thích hợp để diễn tả hành động sẽ xảy ra trong tương lai. A sai vì 'is going to be held' là thì tương lai gần, không phù hợp với ngữ cảnh chính thức như cuộc họp. C sai vì 'is holding' là hiện tại tiếp diễn, không phù hợp với thời gian cụ thể này. D sai vì 'held' là quá khứ, không phù hợp với nghĩa câu. Coi chừng nếu không chịu học, có thể bạn sẽ 'held' ở nhà vào sáng mai đấy!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"is going to be held\" (sẽ được tổ chức) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) will be held (sẽ tổ chức) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"is holding\" (đang tổ chức) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"held\" (tổ chức) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "will + V nguyên thể: Cách dùng 'will' để diễn tả sự việc xảy ra trong tương lai.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q4",
+      "part": 5,
+      "topic": "Mixed Conditional Sentences",
+      "difficulty": "Trung bình",
+      "sentence": "If she _______ harder, she would be in a better position now.",
+      "options": {
+        "A": "had studied",
+        "B": "studied",
+        "C": "studies",
+        "D": "has studied"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Mixed Conditional Sentences",
+          "signal": "Chủ điểm: Mixed Conditional Sentences."
+        },
+        "translation": {
+          "questionVi": "Nếu cô ấy _____ chăm chỉ hơn, cô ấy sẽ ở vị trí tốt hơn bây giờ.",
+          "optionsVi": {
+            "A": "đã học",
+            "B": "học",
+            "C": "học",
+            "D": "đã học"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A đúng vì câu này kết hợp giữa quá khứ và hiện tại, sử dụng 'had' để thể hiện điều kiện không xảy ra trong quá khứ nên không có kết quả hiện tại. B sai vì không dùng thì quá khứ hoàn thành; C sai vì thì hiện tại không hợp lý; D sai vì không diễn tả đúng hoàn cảnh. Nhớ kỹ nha, học hành chăm chỉ hôm nay sẽ giúp bạn có một tương lai tươi sáng hơn!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) had studied (đã học) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"studied\" (học) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"studies\" (học) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"has studied\" (đã học) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "If + S + had + V phân từ, S + would + be.: Dùng để kết hợp giữa điều kiện trong quá khứ và kết quả ở hiện tại.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q5",
+      "part": 5,
+      "topic": "Pronouns",
+      "difficulty": "Trung bình",
+      "sentence": "Neither of the candidates has submitted _______ application before the deadline.",
+      "options": {
+        "A": "their",
+        "B": "his or her",
+        "C": "its",
+        "D": "his"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Pronouns",
+          "signal": "Chủ điểm: Pronouns."
+        },
+        "translation": {
+          "questionVi": "Không một ứng viên nào đã nộp __________ đơn trước thời hạn.",
+          "optionsVi": {
+            "A": "của họ",
+            "B": "của anh ấy hoặc cô ấy",
+            "C": "của nó",
+            "D": "của anh ấy"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án B đúng vì 'his or her' là cách diễn đạt chuẩn trong trường hợp không xác định giới tính, phù hợp với 'neither'. A sai vì 'their' không dùng với 'neither'; C sai vì 'its' không thể chỉ người; D sai vì 'his' chỉ áp dụng cho nam giới. Coi chừng bị lừa nhé, nhớ là dùng 'his or her' chứ không phải 'their' với 'neither' nha!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"their\" (của họ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) his or her (của anh ấy hoặc cô ấy) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"its\" (của nó) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"his\" (của anh ấy) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "neither...nor: Cấu trúc này diễn tả sự phủ định của hai chủ thể, thường đi với động từ ở số ít.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q6",
+      "part": 5,
+      "topic": "Business Vocabulary: Conferences & Meetings",
+      "difficulty": "Trung bình",
+      "sentence": "During the meeting, we discussed several key issues that need to be _______ before the project can move forward.",
+      "options": {
+        "A": "resolved",
+        "B": "resolving",
+        "C": "resolution",
+        "D": "resolve"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Conferences & Meetings",
+          "signal": "Chủ điểm: Business Vocabulary: Conferences & Meetings."
+        },
+        "translation": {
+          "questionVi": "Trong cuộc họp, chúng tôi đã thảo luận về một số vấn đề quan trọng cần được ______ trước khi dự án có thể tiến triển.",
+          "optionsVi": {
+            "A": "giải quyết",
+            "B": "giải quyết (đang diễn ra)",
+            "C": "sự giải quyết",
+            "D": "giải quyết (hành động)"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'resolved' là đúng vì nó là dạng quá khứ phân từ, phù hợp với cấu trúc câu cần một động từ đã hoàn thành. B sai vì 'resolving' là dạng V-ing, không thể đứng một mình ở đây; C sai vì 'resolution' là danh từ, không phù hợp; D sai vì 'resolve' ở dạng nguyên thể không phù hợp ngữ pháp. Nhớ học thuộc mấy dạng động từ này nha, không là mất điểm đấy!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) resolved (giải quyết) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"resolving\" (giải quyết (đang diễn ra)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"resolution\" (sự giải quyết) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"resolve\" (giải quyết (hành động)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "'need to be + V-ed': Cách dùng này nhấn mạnh rằng một hành động cần phải hoàn thành trước khi tiếp tục.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q7",
+      "part": 5,
+      "topic": "Gerunds and Infinitives",
+      "difficulty": "Trung bình",
+      "sentence": "She decided _______ the job offer after much consideration.",
+      "options": {
+        "A": "to accept",
+        "B": "accepting",
+        "C": "accepted",
+        "D": "to accepting"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Gerunds and Infinitives",
+          "signal": "Chủ điểm: Gerunds and Infinitives."
+        },
+        "translation": {
+          "questionVi": "Cô ấy quyết định ______ lời mời làm việc sau khi cân nhắc kỹ.",
+          "optionsVi": {
+            "A": "chấp nhận",
+            "B": "chấp nhận",
+            "C": "đã chấp nhận",
+            "D": "để chấp nhận"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'to accept' đúng vì sau 'decide' thường đi kèm với động từ nguyên thể. B sai vì dùng V-ing sau 'decide' là không chính xác; C sai vì 'accepted' là dạng quá khứ; D sai vì không có cụm 'to accepting'. Nhớ kỹ nhé, 'decide' luôn đi với nguyên thể chứ không phải V-ing đâu!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) to accept (chấp nhận) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"accepting\" (chấp nhận) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"accepted\" (đã chấp nhận) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"to accepting\" (để chấp nhận) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "decide to + V: Cấu trúc này dùng để diễn tả quyết định làm gì đó.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q8",
+      "part": 5,
+      "topic": "Pronouns",
+      "difficulty": "Trung bình",
+      "sentence": "This is my brother's bike; it is _______.",
+      "options": {
+        "A": "his",
+        "B": "her",
+        "C": "their",
+        "D": "its"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Pronouns",
+          "signal": "Chủ điểm: Pronouns."
+        },
+        "translation": {
+          "questionVi": "Đây là xe đạp của anh trai tôi; nó là ____.",
+          "optionsVi": {
+            "A": "của anh ấy",
+            "B": "của cô ấy",
+            "C": "của họ",
+            "D": "của nó"
+          }
+        },
+        "proof": {
+          "explanation": "Hợp lý, 'his' là đại từ sở hữu đúng khi nói về xe đạp của một người nam. B sai vì 'her' không phù hợp với anh trai, C sai vì 'their' không chính xác với một cá nhân, D sai vì 'its' không ám chỉ con người. Cứ tưởng tượng chiếc xe đạp là một món quà của anh trai, xài 'his' là thoải mái nhất đó!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) his (của anh ấy) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"her\" (của cô ấy) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"their\" (của họ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"its\" (của nó) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "possessive pronoun: Dùng để chỉ sự sở hữu của một cá nhân lên một vật nào đó.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q9",
+      "part": 5,
+      "topic": "Tenses: Present Simple vs Present Continuous",
+      "difficulty": "Trung bình",
+      "sentence": "She usually _______ to the gym in the evenings.",
+      "options": {
+        "A": "go",
+        "B": "going",
+        "C": "gone",
+        "D": "goes"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Tenses: Present Simple vs Present Continuous",
+          "signal": "Chủ điểm: Tenses: Present Simple vs Present Continuous."
+        },
+        "translation": {
+          "questionVi": "Cô ấy thường _____ đến phòng tập gym vào buổi tối.",
+          "optionsVi": {
+            "A": "đi",
+            "B": "đang đi",
+            "C": "đã đi",
+            "D": "đi"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A là đúng vì 'usually' thường đi kèm với động từ chia ở thì hiện tại đơn (go) để diễn tả thói quen. B sai vì 'going' là thì hiện tại tiếp diễn, không phù hợp với 'usually'. C sai vì 'gone' là quá khứ phân từ, không dùng ở đây. D sai vì 'goes' không phù hợp với chủ ngữ 'She'. Coi chừng bị lừa bởi các loại từ! Nhớ, 'usually' thích giao du với hiện tại đơn nha!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) go (đi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"going\" (đang đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"gone\" (đã đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"goes\" (đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "usually + present simple: Cấu trúc này được dùng để diễn tả thói quen hoặc sự thật hiển nhiên.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q10",
+      "part": 5,
+      "topic": "Business Vocabulary: Marketing & Sales",
+      "difficulty": "Trung bình",
+      "sentence": "To measure the effectiveness of the campaign, we need to _______ the results carefully.",
+      "options": {
+        "A": "analyze",
+        "B": "analyzed",
+        "C": "analyzing",
+        "D": "analysis"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Marketing & Sales",
+          "signal": "Chủ điểm: Business Vocabulary: Marketing & Sales."
+        },
+        "translation": {
+          "questionVi": "Để đo lường hiệu quả của chiến dịch, chúng tôi cần __________ kết quả một cách cẩn thận.",
+          "optionsVi": {
+            "A": "phân tích",
+            "B": "đã phân tích",
+            "C": "đang phân tích",
+            "D": "phân tích (danh từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'analyze' là động từ nguyên thể đúng với câu cần một động từ, mang ý nghĩa là phải phân tích để đánh giá kết quả. B sai vì 'analyzed' là quá khứ không phù hợp, C sai vì là hiện tại phân từ không đúng trong cấu trúc câu này, D sai vì 'analysis' là danh từ không thể đứng ở đây. Coi chừng bị lừa, không phải 'phân tích' là dễ, phải chọn đúng động từ nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) analyze (phân tích) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"analyzed\" (đã phân tích) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"analyzing\" (đang phân tích) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"analysis\" (phân tích (danh từ)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "need to + V: Cấu trúc này được dùng để diễn tả nhu cầu, yêu cầu cần thiết phải làm gì.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q11",
+      "part": 5,
+      "topic": "Business Vocabulary: Conferences & Meetings",
+      "difficulty": "Trung bình",
+      "sentence": "The manager emphasized the importance of _______ during the meeting to achieve maximum productivity.",
+      "options": {
+        "A": "participation",
+        "B": "participate",
+        "C": "participant",
+        "D": "participating"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Conferences & Meetings",
+          "signal": "Chủ điểm: Business Vocabulary: Conferences & Meetings."
+        },
+        "translation": {
+          "questionVi": "Người quản lý nhấn mạnh tầm quan trọng của _____ trong cuộc họp để đạt được hiệu suất tối đa.",
+          "optionsVi": {
+            "A": "sự tham gia",
+            "B": "tham gia",
+            "C": "người tham gia",
+            "D": "đang tham gia"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A đúng vì 'participation' là danh từ và phù hợp với ngữ cảnh yêu cầu một yếu tố trong cuộc họp. B sai vì là động từ, không thể đứng một mình ở đây. C sai vì là danh từ chỉ người, không phù hợp. D sai vì cũng là động từ, không phù hợp về ngữ pháp. Nhớ nha, 'sự tham gia' là rất cần thiết, đừng để cuộc họp trở thành 'hội chợ không người'!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) participation (sự tham gia) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"participate\" (tham gia) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"participant\" (người tham gia) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"participating\" (đang tham gia) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "'importance of + noun': Cấu trúc này dùng để nhấn mạnh một yếu tố hoặc khía cạnh quan trọng nào đó trong một ngữ cảnh.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q12",
+      "part": 5,
+      "topic": "Prepositions of Place",
+      "difficulty": "Trung bình",
+      "sentence": "The keys are _______ the table.",
+      "options": {
+        "A": "on",
+        "B": "at",
+        "C": "in",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Prepositions of Place",
+          "signal": "Chủ điểm: Prepositions of Place."
+        },
+        "translation": {
+          "questionVi": "Chìa khóa nằm ___ bàn.",
+          "optionsVi": {
+            "A": "trên",
+            "B": "tại",
+            "C": "trong",
+            "D": "cho"
+          }
+        },
+        "proof": {
+          "explanation": "'on the table' là cụm diễn tả vị trí, dùng 'on' để chỉ vật đang nằm trên bề mặt của cái gì đó. B sai vì 'at' chỉ địa điểm tổng quát, C sai vì 'in' chỉ nơi trong không gian kín, D sai vì 'for' không phù hợp trong ngữ cảnh này. Nên nhớ, chìa khóa không phải là bạn thân, nó không ở trong trái tim bạn mà ở trên cái bàn thôi!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) on (trên) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"at\" (tại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"in\" (trong) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"for\" (cho) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "on + bề mặt: Dùng 'on' khi mô tả vị trí trên bề mặt của vật nào đó.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q13",
+      "part": 5,
+      "topic": "Tenses: Present Simple vs Present Continuous",
+      "difficulty": "Trung bình",
+      "sentence": "I usually _______ to work by bus.",
+      "options": {
+        "A": "go",
+        "B": "going",
+        "C": "gone",
+        "D": "goes"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Tenses: Present Simple vs Present Continuous",
+          "signal": "Chủ điểm: Tenses: Present Simple vs Present Continuous."
+        },
+        "translation": {
+          "questionVi": "Tôi thường ___ đến nơi làm việc bằng xe buýt.",
+          "optionsVi": {
+            "A": "đi",
+            "B": "đang đi",
+            "C": "đã đi",
+            "D": "đi (ngôi thứ 3)"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'go' là thì hiện tại đơn, phù hợp với 'usually', chỉ thói quen. B sai vì là thì hiện tại tiếp diễn, không phù hợp với 'usually'. C sai vì đã sử dụng sai thì. D sai vì ngôi không phù hợp với chủ ngữ 'I'. Nhớ nha, cứ thấy 'usually' là phải dùng V nguyên thể đó! Đừng bị lừa nghen!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) go (đi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"going\" (đang đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"gone\" (đã đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"goes\" (đi (ngôi thứ 3)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "usually + V (nguyên thể): Cụm này được dùng để diễn tả thói quen hoặc hành động thường xuyên xảy ra.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q14",
+      "part": 5,
+      "topic": "Prepositions of Place",
+      "difficulty": "Trung bình",
+      "sentence": "The books are _______ the table.",
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "at",
+        "D": "under"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Prepositions of Place",
+          "signal": "Chủ điểm: Prepositions of Place."
+        },
+        "translation": {
+          "questionVi": "Những quyển sách nằm ___ cái bàn.",
+          "optionsVi": {
+            "A": "trên",
+            "B": "trong",
+            "C": "tại",
+            "D": "dưới"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'on' đúng vì nó diễn tả vị trí của đồ vật nằm trên bề mặt. B sai vì 'in' chỉ không gian bên trong; C sai vì 'at' không xác định vị trí chính xác; D sai khi nói đến vị trí dưới. Nhớ kỹ 'on' cho bàn ghế nghen, chứ đừng để sách trong hộp nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) on (trên) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"in\" (trong) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"at\" (tại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"under\" (dưới) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "'on + surface': Dùng để chỉ thứ gì đó nằm trên bề mặt của vật khác.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q15",
+      "part": 5,
+      "topic": "Business Vocabulary: Travel & Business Trips",
+      "difficulty": "Trung bình",
+      "sentence": "As part of our company's policy, all employees must submit their travel _______ before departure.",
+      "options": {
+        "A": "itinerary",
+        "B": "itineraries",
+        "C": "itineration",
+        "D": "itinerant"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Travel & Business Trips",
+          "signal": "Chủ điểm: Business Vocabulary: Travel & Business Trips."
+        },
+        "translation": {
+          "questionVi": "Theo chính sách của công ty, tất cả nhân viên phải nộp _____ du lịch của họ trước khi khởi hành.",
+          "optionsVi": {
+            "A": "lịch trình",
+            "B": "các lịch trình",
+            "C": "hành trình",
+            "D": "lang thang"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'itinerary' là danh từ, có nghĩa là lịch trình và chính xác là cái mà nhân viên cần nộp trước khi đi. B sai vì 'itineraries' là số nhiều, không phù hợp với 'all employees must submit'; C sai vì 'itineration' là từ không phổ biến và không đồng nghĩa; D sai vì 'itinerant' là tính từ mang nghĩa 'nơi lang thang', không phù hợp trong ngữ cảnh. Coi chừng lừa đấy, nhớ học cái 'itinerary' cho thuộc nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) itinerary (lịch trình) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"itineraries\" (các lịch trình) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"itineration\" (hành trình) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"itinerant\" (lang thang) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "submit + Noun: Cấu trúc này thường được dùng để chỉ hành động nộp cái gì đó (chẳng hạn như báo cáo, đơn từ, lịch trình).",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q16",
+      "part": 5,
+      "topic": "Conditional Sentences Type 3",
+      "difficulty": "Trung bình",
+      "sentence": "If they _______ the instructions, they would have finished the project on time.",
+      "options": {
+        "A": "had followed",
+        "B": "followed",
+        "C": "following",
+        "D": "would follow"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Conditional Sentences Type 3",
+          "signal": "Chủ điểm: Conditional Sentences Type 3."
+        },
+        "translation": {
+          "questionVi": "Nếu họ _____ hướng dẫn, họ đã hoàn thành dự án đúng hạn.",
+          "optionsVi": {
+            "A": "đã theo dõi",
+            "B": "theo dõi",
+            "C": "đang theo dõi",
+            "D": "sẽ theo dõi"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'had followed' đúng vì sử dụng thì quá khứ hoàn thành, thể hiện điều không có thật trong quá khứ. B sai do dùng thì quá khứ đơn, C sai vì không đúng cấu trúc, D sai vì không phù hợp với quá khứ. Đừng quên, cái gì đã qua thì không thể thay đổi được nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) had followed (đã theo dõi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"followed\" (theo dõi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"following\" (đang theo dõi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"would follow\" (sẽ theo dõi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "If + S + had V3, S + would have + V3.: Dùng để nói về điều không có thật trong quá khứ.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q17",
+      "part": 5,
+      "topic": "Business Vocabulary: Office Administration",
+      "difficulty": "Trung bình",
+      "sentence": "The office manager is responsible for _______ all office supplies and ensuring they are in stock.",
+      "options": {
+        "A": "monitoring",
+        "B": "monitored",
+        "C": "monitors",
+        "D": "monitor"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Office Administration",
+          "signal": "Chủ điểm: Business Vocabulary: Office Administration."
+        },
+        "translation": {
+          "questionVi": "Người quản lý văn phòng chịu trách nhiệm _____ tất cả các vật dụng văn phòng và đảm bảo chúng có sẵn.",
+          "optionsVi": {
+            "A": "theo dõi",
+            "B": "được theo dõi",
+            "C": "theo dõi (người)",
+            "D": "theo dõi (nhiều người)"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'monitoring' là dạng V-ing, phù hợp với vai trò chịu trách nhiệm trong câu. B sai vì 'monitored' là quá khứ phân từ không phù hợp với chủ ngữ, C sai vì thiếu giới từ 'for', D sai vì không chia đúng theo ngữ nghĩa. Coi chừng bị lừa bởi các dạng khác nha, nhớ là đừng để thiếu văn phòng phẩm đó, không có thì khổ lắm!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) monitoring (theo dõi) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"monitored\" (được theo dõi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"monitors\" (theo dõi (người)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"monitor\" (theo dõi (nhiều người)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "be responsible for + V-ing: Diễn tả trách nhiệm cho một hành động nào đó.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q18",
+      "part": 5,
+      "topic": "Business Vocabulary: Office Administration",
+      "difficulty": "Trung bình",
+      "sentence": "Our team held a meeting to discuss the new _______ for the project.",
+      "options": {
+        "A": "strategy",
+        "B": "strategize",
+        "C": "strategies",
+        "D": "strategical"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Office Administration",
+          "signal": "Chủ điểm: Business Vocabulary: Office Administration."
+        },
+        "translation": {
+          "questionVi": "Nhóm của chúng tôi đã tổ chức một cuộc họp để thảo luận về ______ mới cho dự án.",
+          "optionsVi": {
+            "A": "chiến lược",
+            "B": "lập chiến lược (sai ngữ pháp)",
+            "C": "các chiến lược (sai ngữ cảnh)",
+            "D": "chiến lược (sai ngữ pháp)"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'strategy' là danh từ số ít đúng, chỉ kế hoạch hành động để đạt được mục tiêu. B sai vì là động từ, không phù hợp về vị trí. C và D sai vì không cần dùng dạng số nhiều hoặc tính từ ở đây. Chiến lược là chìa khóa, nhớ học từ này kĩ vào! Đừng để 'strategize' trở thành 'lập' thay vì 'chiến lược' nha!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) strategy (chiến lược) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"strategize\" (lập chiến lược (sai ngữ pháp)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"strategies\" (các chiến lược (sai ngữ cảnh)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"strategical\" (chiến lược (sai ngữ pháp)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "discuss the new strategy: Cụm này chỉ việc thảo luận về một kế hoạch mới cho dự án.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q19",
+      "part": 5,
+      "topic": "Business Vocabulary: Office Administration",
+      "difficulty": "Trung bình",
+      "sentence": "The manager requested that all employees _______ their timesheets by Friday.",
+      "options": {
+        "A": "submit",
+        "B": "submitting",
+        "C": "submitted",
+        "D": "submits"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Office Administration",
+          "signal": "Chủ điểm: Business Vocabulary: Office Administration."
+        },
+        "translation": {
+          "questionVi": "Người quản lý yêu cầu tất cả nhân viên _____ bảng chấm công của họ vào thứ Sáu.",
+          "optionsVi": {
+            "A": "nộp",
+            "B": "đang nộp",
+            "C": "đã nộp",
+            "D": "nộp"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'submit' là động từ nguyên mẫu, phù hợp với cấu trúc 'requested that'. B sai vì 'submitting' là dạng V-ing, C sai vì 'submitted' không phù hợp thể hiện yêu cầu, D sai vì 'submits' là thì hiện tại đơn không phù hợp với cấu trúc. Coi chừng bị lừa bởi các dạng động từ khác, nhớ chỉ cần nguyên mẫu thôi nha!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) submit (nộp) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"submitting\" (đang nộp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"submitted\" (đã nộp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"submits\" (nộp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "request that + S + V (nguyên mẫu): Cấu trúc này được sử dụng để thể hiện yêu cầu hoặc đề nghị.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q20",
+      "part": 5,
+      "topic": "Modal Verbs",
+      "difficulty": "Trung bình",
+      "sentence": "You _______ complete the registration form accurately to avoid any delays.",
+      "options": {
+        "A": "must",
+        "B": "might",
+        "C": "can",
+        "D": "should"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Modal Verbs",
+          "signal": "Chủ điểm: Modal Verbs."
+        },
+        "translation": {
+          "questionVi": "Bạn _____ điền chính xác mẫu đơn đăng ký để tránh bất kỳ sự chậm trễ nào.",
+          "optionsVi": {
+            "A": "phải",
+            "B": "có thể",
+            "C": "có thể",
+            "D": "nên"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A (must) đúng vì nó thể hiện sự cần thiết, yêu cầu phải hoàn thành đúng đắn để không gặp rắc rối. B sai vì 'might' nghĩa là có thể xảy ra nhưng không chắc chắn, không phù hợp ở đây; C sai vì 'can' chỉ khả năng chứ không phải là yêu cầu; D sai vì 'should' chỉ có tính chất nhẹ nhàng hơn, không đủ mạnh. Chú ý nha, 'must' là phải thực hiện! Cầm chắc cái bút điền cho chính xác nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) must (phải) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"might\" (có thể) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"can\" (có thể) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"should\" (nên) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "must + V: Thể hiện yêu cầu nghiêm ngặt, không thể bỏ qua.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q21",
+      "part": 5,
+      "topic": "Relative Clauses",
+      "difficulty": "Trung bình",
+      "sentence": "The scientist _______ discovered the cure for the disease was awarded the Nobel Prize.",
+      "options": {
+        "A": "who",
+        "B": "which",
+        "C": "that",
+        "D": "whom"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Relative Clauses",
+          "signal": "Chủ điểm: Relative Clauses."
+        },
+        "translation": {
+          "questionVi": "Nhà khoa học _____ đã phát hiện ra phương thuốc cho căn bệnh được trao Giải Nobel.",
+          "optionsVi": {
+            "A": "người",
+            "B": "mà",
+            "C": "đó",
+            "D": "người mà"
+          }
+        },
+        "proof": {
+          "explanation": "'Who' được dùng để chỉ người, đúng với nghĩa của câu này khi nói về 'the scientist'. B sai vì 'which' không được dùng để chỉ người. C sai vì 'that' cũng đúng nhưng không phổ biến trong văn viết trang trọng. D sai vì 'whom' không phù hợp trong vai trò chủ ngữ. Nhớ rằng 'who' là người bạn của mình trong các câu này nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) who (người) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"which\" (mà) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"that\" (đó) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"whom\" (người mà) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "'who' as a subject in relative clauses: 'Who' được sử dụng làm chủ ngữ trong các mệnh đề quan hệ chỉ người.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q22",
+      "part": 5,
+      "topic": "Confusing Words",
+      "difficulty": "Trung bình",
+      "sentence": "Could you please _______ me your report by the end of the day?",
+      "options": {
+        "A": "say",
+        "B": "tell",
+        "C": "talk",
+        "D": "speak"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Confusing Words",
+          "signal": "Chủ điểm: Confusing Words."
+        },
+        "translation": {
+          "questionVi": "Bạn có thể ______ tôi báo cáo của bạn trước cuối ngày không?",
+          "optionsVi": {
+            "A": "nói",
+            "B": "kể",
+            "C": "trò chuyện",
+            "D": "nói chuyện"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án B 'tell' là đúng vì 'tell' thường được dùng khi yêu cầu ai đó cung cấp thông tin cụ thể. A sai vì 'say' không cần có người nghe, chỉ đơn thuần là nói ra. C sai vì 'talk' thường chỉ giao tiếp không chính thức. D sai vì 'speak' mang nghĩa nói nhưng không phù hợp với ngữ cảnh yêu cầu thông tin cụ thể. Nhớ, 'tell' thường đi kèm với đối tượng, còn 'say' thì không nha!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"say\" (nói) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) tell (kể) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"talk\" (trò chuyện) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"speak\" (nói chuyện) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "tell someone something: Cụm này được dùng khi bạn muốn chuyển đạt thông tin cho ai đó.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q23",
+      "part": 5,
+      "topic": "Correlative Conjunctions",
+      "difficulty": "Trung bình",
+      "sentence": "_______ his father _______ his mother attended the ceremony.",
+      "options": {
+        "A": "Both",
+        "B": "Either",
+        "C": "Neither",
+        "D": "Not only"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Correlative Conjunctions",
+          "signal": "Chủ điểm: Correlative Conjunctions."
+        },
+        "translation": {
+          "questionVi": "_______ cha của anh ấy ________ mẹ của anh ấy đã tham gia buổi lễ.",
+          "optionsVi": {
+            "A": "Cả hai",
+            "B": "Hoặc",
+            "C": "Không cái nào",
+            "D": "Không chỉ"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'Both' đúng vì nó chỉ rằng cả cha và mẹ đều tham gia buổi lễ. B sai vì 'Either' chỉ ra lựa chọn giữa hai; C sai vì 'Neither' chỉ ra không ai tham gia; D sai vì 'Not only' cần có 'but also'. Coi chừng không bị nhầm lẫn nha, cả cha và mẹ đều có mặt đấy!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) Both (Cả hai) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"Either\" (Hoặc) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"Neither\" (Không cái nào) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"Not only\" (Không chỉ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "Both...and: Để nhấn mạnh rằng hai người hoặc hai vật đều có một thuộc tính hoặc hành động tương tự.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q24",
+      "part": 5,
+      "topic": "Confusing Words",
+      "difficulty": "Trung bình",
+      "sentence": "They _______ a new strategy during the meeting last week.",
+      "options": {
+        "A": "did",
+        "B": "made",
+        "C": "said",
+        "D": "told"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Confusing Words",
+          "signal": "Chủ điểm: Confusing Words."
+        },
+        "translation": {
+          "questionVi": "Họ ______ một chiến lược mới trong cuộc họp tuần trước.",
+          "optionsVi": {
+            "A": "đã làm",
+            "B": "đã tạo ra",
+            "C": "đã nói",
+            "D": "đã kể"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án B đúng vì 'made a new strategy' là cụm từ sử dụng khi nói về việc phát triển một kế hoạch hay chiến lược. A sai vì 'did a strategy' là sai ngữ pháp. C sai vì 'said a strategy' không nên dùng. D sai vì 'told a strategy' không phù hợp. Nhớ kỹ nhé, 'make' dùng cho sự sáng tạo, chứ 'do' chỉ có dùng cho công việc mà thôi!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"did\" (đã làm) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) made (đã tạo ra) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"said\" (đã nói) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"told\" (đã kể) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "make a strategy: Dùng để chỉ việc phát triển hoặc xây dựng một kế hoạch.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q25",
+      "part": 5,
+      "topic": "Conditional Sentences Type 1",
+      "difficulty": "Trung bình",
+      "sentence": "If it rains tomorrow, we _______ the picnic.",
+      "options": {
+        "A": "will cancel",
+        "B": "would cancel",
+        "C": "cancelled",
+        "D": "cancels"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Conditional Sentences Type 1",
+          "signal": "Chủ điểm: Conditional Sentences Type 1."
+        },
+        "translation": {
+          "questionVi": "Nếu ngày mai trời mưa, chúng ta ___ buổi dã ngoại.",
+          "optionsVi": {
+            "A": "sẽ huỷ bỏ",
+            "B": "sẽ huỷ bỏ (trong trường hợp giả định)",
+            "C": "đã huỷ bỏ",
+            "D": "huỷ bỏ"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A là đúng vì đây là câu điều kiện loại 1, kết hợp giữa 'if' + thì hiện tại và 'will' + động từ nguyên thể. B sai vì là câu điều kiện loại 2, C sai vì là thì quá khứ và không phù hợp với điều kiện tương lai, D sai vì thiếu 'will' để chỉ sự chắc chắn. Này, nhớ nha, điều kiện loại 1 thường chỉ có thể xảy ra trong tương lai thôi, đừng để bị lừa nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) will cancel (sẽ huỷ bỏ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"would cancel\" (sẽ huỷ bỏ (trong trường hợp giả định)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"cancelled\" (đã huỷ bỏ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"cancels\" (huỷ bỏ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "If + present simple, will + base form: Cấu trúc này dùng để diễn tả một sự kiện có thể xảy ra trong tương lai nếu có điều kiện nhất định.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q26",
+      "part": 5,
+      "topic": "Adjectives vs Adverbs",
+      "difficulty": "Trung bình",
+      "sentence": "They performed _______ in the competition and won several awards.",
+      "options": {
+        "A": "exceptionally",
+        "B": "exceptional",
+        "C": "exception",
+        "D": "exceptions"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Adjectives vs Adverbs",
+          "signal": "Chủ điểm: Adjectives vs Adverbs."
+        },
+        "translation": {
+          "questionVi": "Họ đã biểu diễn ___ trong cuộc thi và giành được nhiều giải thưởng.",
+          "optionsVi": {
+            "A": "một cách xuất sắc",
+            "B": "xuất sắc",
+            "C": "sự xuất sắc",
+            "D": "các ngoại lệ"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'exceptionally' là trạng từ và phù hợp với động từ 'performed' để chỉ mức độ họ biểu diễn. B sai vì 'exceptional' là tính từ không thể mô tả hành động, C sai vì 'exception' là danh từ và D cũng sai vì 'exceptions' là danh từ chỉ số nhiều. Ráng học từ vựng cho thật kỹ nha, sẽ kiếm được nhiều điểm hơn trong exam đó!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) exceptionally (một cách xuất sắc) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"exceptional\" (xuất sắc) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"exception\" (sự xuất sắc) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"exceptions\" (các ngoại lệ) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "exceptionally (trạng từ): Dùng để mô tả mức độ xuất sắc của hành động.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q27",
+      "part": 5,
+      "topic": "Subjunctive Mood",
+      "difficulty": "Trung bình",
+      "sentence": "The teacher recommended that the students _______ the material thoroughly before the exam.",
+      "options": {
+        "A": "review",
+        "B": "reviews",
+        "C": "reviewing",
+        "D": "reviewed"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Subjunctive Mood",
+          "signal": "Chủ điểm: Subjunctive Mood."
+        },
+        "translation": {
+          "questionVi": "Giáo viên đã khuyên rằng các sinh viên ____ tài liệu một cách kỹ lưỡng trước kỳ thi.",
+          "optionsVi": {
+            "A": "xem lại",
+            "B": "xem lại (hiện tại đơn)",
+            "C": "đang xem lại",
+            "D": "đã xem lại"
+          }
+        },
+        "proof": {
+          "explanation": "A 'review' đúng vì động từ cần phải ở dạng nguyên thể sau 'recommended that'. B sai vì là hiện tại đơn, C sai vì V-ing không dùng được, và D sai vì thì quá khứ không phù hợp. Coi chừng bị cám dỗ dùng các dạng từ khác, động từ nguyên thể vẫn là vua trong trường hợp này!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) review (xem lại) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"reviews\" (xem lại (hiện tại đơn)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"reviewing\" (đang xem lại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"reviewed\" (đã xem lại) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "recommend that + S + V (nguyên thể): Dùng để diễn tả sự khuyến nghị mà không dùng to.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q28",
+      "part": 5,
+      "topic": "Tenses: Future Forms",
+      "difficulty": "Trung bình",
+      "sentence": "She _______ to finish her project by Friday.",
+      "options": {
+        "A": "is going",
+        "B": "will go",
+        "C": "goes",
+        "D": "going"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Tenses: Future Forms",
+          "signal": "Chủ điểm: Tenses: Future Forms."
+        },
+        "translation": {
+          "questionVi": "Cô ấy __________ hoàn thành dự án của mình trước thứ Sáu.",
+          "optionsVi": {
+            "A": "sẽ",
+            "B": "sẽ đi",
+            "C": "đi",
+            "D": "đi"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A đúng vì 'is going to' thể hiện rõ ràng kế hoạch hoặc dự định cụ thể trong tương lai. B sai vì 'will go' không hợp ngữ cảnh khi nói về kế hoạch làm việc, C sai vì không phù hợp với thì hiện tại đơn, D sai vì thiếu động từ 'to be'. Đừng để bị lừa bởi 'will go' nhé! Phải dùng 'is going to' cho kế hoạch mới chuẩn!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) is going (sẽ) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"will go\" (sẽ đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"goes\" (đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"going\" (đi) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "be going to + V: Cụm này dùng để diễn tả những kế hoạch hoặc ý định sẽ xảy ra trong tương lai sắp tới.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q29",
+      "part": 5,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "Trung bình",
+      "sentence": "Neither of the options _______ suitable for the project.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "be",
+        "D": "was"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Subject-Verb Agreement",
+          "signal": "Chủ điểm: Subject-Verb Agreement."
+        },
+        "translation": {
+          "questionVi": "Không một lựa chọn nào trong số đó _____ phù hợp cho dự án.",
+          "optionsVi": {
+            "A": "thì",
+            "B": "thì",
+            "C": "thì",
+            "D": "đã"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án B 'is' đúng vì 'neither of' yêu cầu động từ ở dạng số ít. A sai vì 'are' là số nhiều; C sai vì 'be' không rõ ràng về thời gian; D sai vì 'was' là động từ quá khứ không thích hợp. Coi chừng 'neither' nha, đừng để bị lừa bởi số nhiều!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Loại (A) \"are\" (thì) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "B": "ĐÁP ÁN ĐÚNG: (B) is (thì) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "C": "Loại (C) \"be\" (thì) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"was\" (đã) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "'neither of': 'neither of' thường được dùng khi nói đến một phần của cái gì đó mà không có cái nào trong số đó.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q30",
+      "part": 5,
+      "topic": "Business Vocabulary: Human Resources & Recruitment",
+      "difficulty": "Trung bình",
+      "sentence": "The job description clearly outlines the _______ required for the position, including both skills and qualifications.",
+      "options": {
+        "A": "criteria",
+        "B": "critical",
+        "C": "critique",
+        "D": "criterion"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Business Vocabulary: Human Resources & Recruitment",
+          "signal": "Chủ điểm: Business Vocabulary: Human Resources & Recruitment."
+        },
+        "translation": {
+          "questionVi": "Mô tả công việc nêu rõ _____ yêu cầu cho vị trí, bao gồm cả kỹ năng và trình độ.",
+          "optionsVi": {
+            "A": "tiêu chí",
+            "B": "quan trọng",
+            "C": "sự phê bình",
+            "D": "tiêu chí (số ít)"
+          }
+        },
+        "proof": {
+          "explanation": "'Criteria' là danh từ số nhiều, phù hợp để nói về các yêu cầu cho vị trí và đúng ngữ pháp trong câu. B sai vì là tính từ không phù hợp trong ngữ cảnh, C sai vì không liên quan đến yêu cầu công việc, D sai vì là dạng số ít không dùng cho nhiều tiêu chí. Hãy nhớ, khi học từ vựng sẽ có nhiều bẫy! Đừng để chúng làm khó bạn nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) criteria (tiêu chí) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"critical\" (quan trọng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"critique\" (sự phê bình) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"criterion\" (tiêu chí (số ít)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "criteria for: Cụm từ này dùng để chỉ các tiêu chí, tiêu chuẩn cần có cho một vấn đề hoặc vị trí cụ thể.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q31",
+      "part": 5,
+      "topic": "Subjunctive Mood",
+      "difficulty": "Trung bình",
+      "sentence": "The doctor insisted that he _______ a follow-up appointment.",
+      "options": {
+        "A": "make",
+        "B": "makes",
+        "C": "made",
+        "D": "making"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Subjunctive Mood",
+          "signal": "Chủ điểm: Subjunctive Mood."
+        },
+        "translation": {
+          "questionVi": "Bác sĩ khăng khăng rằng anh ấy ______ một cuộc hẹn tái khám.",
+          "optionsVi": {
+            "A": "sắp xếp",
+            "B": "sắp xếp (thì hiện tại)",
+            "C": "đã sắp xếp",
+            "D": "đang sắp xếp"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'make' đúng vì nó là động từ nguyên thể, phù hợp với cấu trúc sau 'insisted that'. B sai vì là thì hiện tại không hợp với cấu trúc thể giả định; C sai vì là thì quá khứ; D sai vì không đúng với cấu trúc thể giả định. Khăng khăng thì phải dùng nguyên thể thôi! Nhớ kỹ để không phí công học nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) make (sắp xếp) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"makes\" (sắp xếp (thì hiện tại)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"made\" (đã sắp xếp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"making\" (đang sắp xếp) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "insist that + S + V (nguyên thể): Sử dụng để chỉ ra một yêu cầu hoặc khăng khăng về điều gì đó trong thể giả định.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q32",
+      "part": 5,
+      "topic": "Passive Voice",
+      "difficulty": "Trung bình",
+      "sentence": "The new software _______ by the IT team last week.",
+      "options": {
+        "A": "was developed",
+        "B": "is developing",
+        "C": "develops",
+        "D": "developed"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Passive Voice",
+          "signal": "Chủ điểm: Passive Voice."
+        },
+        "translation": {
+          "questionVi": "Phần mềm mới ______ bởi nhóm IT tuần trước.",
+          "optionsVi": {
+            "A": "đã được phát triển",
+            "B": "đang phát triển",
+            "C": "phát triển",
+            "D": "phát triển"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'was developed' là thì quá khứ bị động, phù hợp với câu và ngữ cảnh đã đề cập đến thời gian 'last week'. B sai vì đây là thì hiện tại tiếp diễn, không phù hợp với thời gian. C sai vì đây là thì hiện tại đơn, không đúng với ngữ cảnh. D sai vì không có động từ 'to be', không tạo ra câu bị động. Coi chừng bị lừa với các thì, chú ý đến thời gian nhé!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) was developed (đã được phát triển) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"is developing\" (đang phát triển) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"develops\" (phát triển) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"developed\" (phát triển) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "was + V-ed: Cấu trúc này dùng để diễn tả hành động đã xảy ra trong quá khứ, đối tượng của hành động không quan trọng.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q33",
+      "part": 5,
+      "topic": "Comparisons",
+      "difficulty": "Trung bình",
+      "sentence": "She is the _______ student in the class.",
+      "options": {
+        "A": "smartest",
+        "B": "more smart",
+        "C": "most smart",
+        "D": "smart"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Comparisons",
+          "signal": "Chủ điểm: Comparisons."
+        },
+        "translation": {
+          "questionVi": "Cô ấy là sinh viên __________ nhất trong lớp.",
+          "optionsVi": {
+            "A": "thông minh nhất",
+            "B": "hơn thông minh",
+            "C": "thông minh nhất",
+            "D": "thông minh"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A đúng vì 'smartest' là hình thức so sánh nhất của tính từ 'smart'. B sai vì 'more smart' không được dùng trong tiếng Anh chuẩn. C sai vì 'most smart' cũng không đúng. D sai vì 'smart' chỉ là dạng cơ bản, không phải dạng so sánh. Nếu bạn thấy 'most smart', chắc bạn đang tự lừa mình đó, nhớ học cụm này cho chắc nha!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) smartest (thông minh nhất) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"more smart\" (hơn thông minh) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"most smart\" (thông minh nhất) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"smart\" (thông minh) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "the + tính từ ngắn nhất + -est: Cách dùng này giúp xác định sự khác biệt nổi bật nhất trong một nhóm người hay vật.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q34",
+      "part": 5,
+      "topic": "Confusing Words",
+      "difficulty": "Trung bình",
+      "sentence": "Can you please _______ me what you think about the project?",
+      "options": {
+        "A": "tell",
+        "B": "say",
+        "C": "speak",
+        "D": "talk"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Confusing Words",
+          "signal": "Chủ điểm: Confusing Words."
+        },
+        "translation": {
+          "questionVi": "Bạn có thể ______ cho tôi biết bạn nghĩ gì về dự án không?",
+          "optionsVi": {
+            "A": "nói",
+            "B": "nói",
+            "C": "nói",
+            "D": "nói chuyện"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A đúng vì 'tell me' là cụm từ phổ biến dùng khi bạn muốn ai đó cho bạn biết thông tin. B sai vì 'say me' không phải là cấu trúc đúng. C sai vì 'speak me' không thể dùng với giới từ như vậy. D sai vì 'talk me' nghe cũng kỳ quặc. Nhớ nha, dùng 'tell' khi hỏi thông tin, chứ 'say' không được đâu!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) tell (nói) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"say\" (nói) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"speak\" (nói) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"talk\" (nói chuyện) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "tell someone: Dùng để yêu cầu ai đó cung cấp thông tin cho bạn.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    },
+    {
+      "id": "drill-p5-crawled-hf-tutor-q35",
+      "part": 5,
+      "topic": "Subjunctive Mood",
+      "difficulty": "Trung bình",
+      "sentence": "The doctor insisted that he _______ a thorough examination before making any decisions.",
+      "options": {
+        "A": "undergo",
+        "B": "undergoes",
+        "C": "underwent",
+        "D": "undergoing"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Subjunctive Mood",
+          "signal": "Chủ điểm: Subjunctive Mood."
+        },
+        "translation": {
+          "questionVi": "Bác sĩ khăng khăng rằng anh ấy _____ một cuộc kiểm tra kỹ lưỡng trước khi đưa ra bất kỳ quyết định nào.",
+          "optionsVi": {
+            "A": "chịu đựng (kiểm tra)",
+            "B": "chịu đựng (số ít)",
+            "C": "đã chịu đựng",
+            "D": "đang chịu đựng"
+          }
+        },
+        "proof": {
+          "explanation": "Đáp án A 'undergo' đúng vì trong cấu trúc 'insist that', động từ phải ở dạng nguyên thể. B sai vì dạng số ít, C sai vì là thì quá khứ, D sai vì là V-ing. Chú ý nhé, những từ này dễ làm mình nhầm lẫn lắm đó! Học đi học lại cho quen nào!"
+        },
+        "wrongOptionsAnalysis": {
+          "A": "ĐÁP ÁN ĐÚNG: (A) undergo (chịu đựng (kiểm tra)) — Phù hợp chính xác về ngữ pháp và ngữ cảnh.",
+          "B": "Loại (B) \"undergoes\" (chịu đựng (số ít)) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "C": "Loại (C) \"underwent\" (đã chịu đựng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn.",
+          "D": "Loại (D) \"undergoing\" (đang chịu đựng) vì không phù hợp cấu trúc hoặc sai ý với ngữ cảnh câu/đoạn văn."
+        },
+        "keyTakeaways": {
+          "formula": "insist that + S + V (nguyên thể): Dùng để nhấn mạnh một yêu cầu hoặc khẳng định cần phải xảy ra.",
+          "commonTrap": "Tránh chọn bẫy lặp từ (word repetition) hoặc dịch từng từ rời rạc mà bỏ qua ngữ cảnh toàn câu.",
+          "paraphrases": []
+        }
+      }
+    }
+  ]
+}

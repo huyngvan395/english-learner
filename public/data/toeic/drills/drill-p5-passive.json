@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-passive",
+  "part": 5,
+  "title": "Chuyên đề 4: Thể bị động (Passive Voice)",
+  "subtitle": "Nhận diện bị động sau Modal, 'had to be V3' và trạng từ kẹp giữa 'are automatically V3'.",
+  "focusTag": "Passive Voice",
+  "part5": [
+    {
+      "id": "dp5-pv-1",
+      "part": 5,
+      "topic": "Thể bị động (Passive Voice)",
+      "difficulty": "Cơ bản",
+      "sentence": "All checked baggage _______ screened automatically before being loaded onto the aircraft.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "be",
+        "D": "has"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "classification": {
+          "category": "Bị động Hiện tại đơn với danh từ không đếm được",
+          "signal": "Chủ ngữ 'checked baggage' (không đếm được -> số ít) + V3 'screened'."
+        },
+        "translation": {
+          "questionVi": "Mọi hành lý ký gửi đều được soi chiếu tự động trước khi chất lên máy bay.",
+          "optionsVi": {
+            "A": "được (be số ít)",
+            "B": "được (be số nhiều)",
+            "C": "nguyên mẫu (thiếu modal)",
+            "D": "chủ động hoàn thành"
+          }
+        },
+        "proof": {
+          "explanation": "Hành lý không tự soi chiếu -> dùng bị động 'is screened' (vì 'baggage' không đếm được)."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Đúng: is + V3 (baggage là không đếm được).",
+          "B": "Sai số nhiều.",
+          "C": "Sai: thiếu trợ động từ.",
+          "D": "Sai thể chủ động."
+        },
+        "keyTakeaways": {
+          "formula": "Uncountable Subject + is + V3/ed",
+          "commonTrap": "Nhầm 'baggage' là số nhiều nên chọn 'are'.",
+          "paraphrases": [
+            {
+              "textInPassage": "checked baggage",
+              "textInAnswer": "luggage stored in the hold",
+              "meaningVi": "hành lý ký gửi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pv-2",
+      "part": 5,
+      "topic": "Thể bị động (Passive Voice)",
+      "difficulty": "Trung bình",
+      "sentence": "The annual charity banquet will _______ at the newly restored Civic Conservatory.",
+      "options": {
+        "A": "hold",
+        "B": "be held",
+        "C": "holding",
+        "D": "have held"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Bị động Tương lai đơn (will be + V3)",
+          "signal": "Sự kiện ('banquet') được tổ chức -> 'will be held'."
+        },
+        "translation": {
+          "questionVi": "Tiệc từ thiện hằng năm sẽ được tổ chức tại Nhà kính Dân sự mới trùng tu.",
+          "optionsVi": {
+            "A": "tổ chức (chủ động)",
+            "B": "được tổ chức (bị động)",
+            "C": "đang tổ chức",
+            "D": "đã tổ chức"
+          }
+        },
+        "proof": {
+          "explanation": "Động từ 'hold' (tổ chức sự kiện) là ngoại động từ; khi chủ ngữ là sự kiện, bắt buộc dùng bị động 'will be held'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thể chủ động.",
+          "B": "Đúng: will + be + V3.",
+          "C": "Sai dạng sau 'will'.",
+          "D": "Sai thể chủ động."
+        },
+        "keyTakeaways": {
+          "formula": "Event + will be held / hosted / conducted + at/in + Place",
+          "commonTrap": "Dịch 'sẽ diễn ra' tưởng dùng chủ động 'hold' (lưu ý: 'take place' mới là nội động từ chủ động!).",
+          "paraphrases": [
+            {
+              "textInPassage": "will be held",
+              "textInAnswer": "will take place",
+              "meaningVi": "sẽ được tổ chức"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pv-3",
+      "part": 5,
+      "topic": "Thể bị động (Passive Voice)",
+      "difficulty": "Trung bình",
+      "sentence": "Several delivery routes had to _______ temporarily because of bridge repairs on Route 9.",
+      "options": {
+        "A": "reroute",
+        "B": "be rerouted",
+        "C": "rerouting",
+        "D": "been rerouted"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Bị động sau 'have to / need to' (to be + V3)",
+          "signal": "Chủ ngữ 'delivery routes' chịu tác động + cấu trúc 'had to + [be + V3]'."
+        },
+        "translation": {
+          "questionVi": "Một số tuyến giao hàng đã phải được điều hướng lại tạm thời do sửa cầu trên Quốc lộ 9.",
+          "optionsVi": {
+            "A": "điều hướng lại (chủ động)",
+            "B": "được điều hướng lại (bị động)",
+            "C": "V-ing",
+            "D": "sai dạng sau 'to'"
+          }
+        },
+        "proof": {
+          "explanation": "Sau 'had to' cần nguyên mẫu bị động 'be rerouted' vì các tuyến đường được điều chỉnh bởi công ty."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thể chủ động.",
+          "B": "Đúng: had to + be + V3.",
+          "C": "Sai sau 'to'.",
+          "D": "Sai: 'to' không đi trực tiếp với 'been'."
+        },
+        "keyTakeaways": {
+          "formula": "have to / need to / expect to + be + V3",
+          "commonTrap": "Chọn nhầm 'reroute' vì quen tay 'to + V0'.",
+          "paraphrases": [
+            {
+              "textInPassage": "be rerouted",
+              "textInAnswer": "follow an alternate path",
+              "meaningVi": "được chuyển hướng tuyến đường"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pv-4",
+      "part": 5,
+      "topic": "Thể bị động (Passive Voice)",
+      "difficulty": "Nâng cao",
+      "sentence": "A comprehensive maintenance report _______ to the plant director every Friday afternoon.",
+      "options": {
+        "A": "submits",
+        "B": "is submitted",
+        "C": "submitting",
+        "D": "was submitting"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Bị động Hiện tại đơn với dấu hiệu tần suất",
+          "signal": "Chủ ngữ vật ('maintenance report') + không có tân ngữ sau chỗ trống + 'every Friday'."
+        },
+        "translation": {
+          "questionVi": "Một báo cáo bảo trì toàn diện được nộp cho giám đốc nhà máy vào chiều thứ Sáu hằng tuần.",
+          "optionsVi": {
+            "A": "nộp (chủ động)",
+            "B": "được nộp (bị động hiện tại)",
+            "C": "V-ing thiếu to be",
+            "D": "đang nộp (quá khứ tiếp diễn)"
+          }
+        },
+        "proof": {
+          "explanation": "Báo cáo được nộp (bị động) định kỳ mỗi thứ Sáu -> 'is submitted'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thể: báo cáo không tự nộp được.",
+          "B": "Đúng: bị động hiện tại đơn.",
+          "C": "Sai: thiếu động từ chia thì.",
+          "D": "Sai cả thì lẫn thể."
+        },
+        "keyTakeaways": {
+          "formula": "Vật (Report/Form/Invoice) + is/are + V3 + to + Recipient",
+          "commonTrap": "Mẹo nhanh: động từ ngoại động (submit, send, review) mà sau chỗ trống là giới từ 'to/by/for' (không có tân ngữ) -> 95% là BỊ ĐỘNG!",
+          "paraphrases": [
+            {
+              "textInPassage": "is submitted to",
+              "textInAnswer": "is handed in to",
+              "meaningVi": "được nộp cho"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-pv-5",
+      "part": 5,
+      "topic": "Thể bị động (Passive Voice)",
+      "difficulty": "Nâng cao",
+      "sentence": "All guest Wi-Fi accounts are automatically _______ after twenty-four hours of inactivity.",
+      "options": {
+        "A": "deactivate",
+        "B": "deactivating",
+        "C": "deactivated",
+        "D": "deactivation"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "classification": {
+          "category": "Bị động có trạng từ xen giữa (be + Adv + V3)",
+          "signal": "Cấu trúc: are + Adv ('automatically') + [V3]."
+        },
+        "translation": {
+          "questionVi": "Tất cả tài khoản Wi-Fi dành cho khách sẽ tự động bị vô hiệu hóa sau hai mươi bốn giờ không hoạt động.",
+          "optionsVi": {
+            "A": "vô hiệu hóa (V0)",
+            "B": "đang vô hiệu hóa (chủ động)",
+            "C": "bị vô hiệu hóa (V3 bị động)",
+            "D": "sự vô hiệu hóa (danh từ)"
+          }
+        },
+        "proof": {
+          "explanation": "Tài khoản chịu tác động vô hiệu hóa từ hệ thống -> 'are automatically deactivated'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai dạng sau 'are'.",
+          "B": "Sai thể chủ động.",
+          "C": "Đúng: are + Adv + V3.",
+          "D": "Sai từ loại: danh từ."
+        },
+        "keyTakeaways": {
+          "formula": "be + Adv + V3/ed",
+          "commonTrap": "Thấy 'automatically' liền nghĩ là tự động làm (chủ động) nên chọn 'deactivating'!",
+          "paraphrases": [
+            {
+              "textInPassage": "deactivated",
+              "textInAnswer": "disabled / turned off",
+              "meaningVi": "bị vô hiệu hóa"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

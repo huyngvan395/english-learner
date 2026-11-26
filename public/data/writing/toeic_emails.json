@@ -1,0 +1,250 @@
+[
+  {
+    "id": "wr-em-01",
+    "mode": "toeic-email",
+    "difficulty": "Cơ bản",
+    "title": "Q6–7: Phản hồi Email Lịch Đào tạo Nhân viên Mới",
+    "category": "Nhân sự & Đào tạo",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Elena Morales, HR Coordinator <e.morales@brightpath.com>",
+      "to": "New Hires — May Cohort",
+      "date": "May 5",
+      "subject": "Mandatory New-Employee Orientation This Friday"
+    },
+    "passage": "Dear New Team Member,\n\nWe are excited to welcome you to BrightPath Consulting! Our mandatory half-day orientation will take place this Friday, May 9, from 9:00 A.M. to 12:30 P.M. in Conference Room 4B.\n\nDuring the session, we will distribute your company laptops, review health-benefit options, and introduce you to your department mentors. A complimentary buffet lunch will be served right afterward. Please reply to this message if you have any questions or special requests before Friday.\n\nBest regards,\nElena Morales",
+    "instructions": "Respond to the e-mail as if you are a newly hired employee. In your e-mail, ask TWO questions about the orientation and make ONE special request.",
+    "checklist": [
+      "Hỏi 2 câu hỏi cụ thể liên quan đến buổi định hướng (VD: tài liệu cần mang theo, chỗ đỗ xe, hoặc phần mềm cần cài sẵn)",
+      "Đưa ra 1 yêu cầu đặc biệt rõ ràng (VD: suất ăn chay/không dị ứng cho bữa trưa buffet hoặc hỗ trợ thiết bị)",
+      "Giữ văn phong email công sở lịch sự, có lời chào mở đầu và kết thư đúng chuẩn"
+    ],
+    "vocabHints": [
+      { "phrase": "thank you for the warm welcome", "pos": "phrase", "meaningVi": "cảm ơn lời chào đón nồng nhiệt" },
+      { "phrase": "I have two quick questions regarding...", "pos": "phrase", "meaningVi": "tôi có hai câu hỏi nhanh liên quan đến..." },
+      { "phrase": "bring any specific identification documents", "pos": "phrase", "meaningVi": "mang theo giấy tờ tùy thân cụ thể nào không" },
+      { "phrase": "visitor parking / transit reimbursement", "pos": "n", "meaningVi": "chỗ đỗ xe cho khách / hỗ trợ đi lại" },
+      { "phrase": "dietary restriction / vegetarian option", "pos": "n", "meaningVi": "chế độ ăn kiêng / lựa chọn món chay" },
+      { "phrase": "would it be possible to arrange...", "pos": "phrase", "meaningVi": "liệu có thể sắp xếp... được không" }
+    ],
+    "recommendedWords": { "min": 80, "max": 140 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-02",
+    "mode": "toeic-email",
+    "difficulty": "Cơ bản",
+    "title": "Q6–7: Phản hồi Xác nhận Đơn hàng Thiếu Thiết bị Văn phòng",
+    "category": "Đơn hàng & Khiếu nại",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Customer Care <orders@nordicdesk.com>",
+      "to": "Office Manager <admin@veridian-studio.com>",
+      "date": "April 14",
+      "subject": "Delivery Completed — Order #ND-7741"
+    },
+    "passage": "Dear Customer,\n\nOur delivery records show that your order #ND-7741 (six ergonomic desk chairs and two oak bookcases) was delivered to your office earlier today.\n\nWe strive to provide flawless commercial service. Please let us know if everything arrived in satisfactory condition or if our support team can assist you with anything further.\n\nSincerely,\nNordicDesk Customer Care",
+    "instructions": "Respond to the e-mail as the Office Manager at Veridian Studio. In your e-mail, describe TWO problems with the delivery and make ONE request to resolve them.",
+    "checklist": [
+      "Mô tả 2 vấn đề cụ thể gặp phải với đơn hàng #ND-7741 (VD: giao thiếu 1 chiếc ghế, tủ sách bị trầy cạnh hoặc thiếu ốc lắp ráp)",
+      "Đưa ra 1 đề nghị giải quyết rõ ràng (VD: giao bù sản phẩm trong 2 ngày hoặc hoàn tiền phần thiếu/lỗi)",
+      "Ghi rõ mã đơn hàng #ND-7741 và giữ giọng điệu lịch sự, dứt khoát"
+    ],
+    "vocabHints": [
+      { "phrase": "upon inspecting the shipment", "pos": "phrase", "meaningVi": "sau khi kiểm tra lô hàng" },
+      { "phrase": "arrive damaged / have a noticeable scratch", "pos": "phrase", "meaningVi": "đến nơi bị hư hỏng / có vết trầy rõ rệt" },
+      { "phrase": "be short by one unit", "pos": "phrase", "meaningVi": "bị giao thiếu một chiếc" },
+      { "phrase": "arrange an expedited replacement", "pos": "phrase", "meaningVi": "sắp xếp giao thay thế hỏa tốc" },
+      { "phrase": "attach photographs for your reference", "pos": "phrase", "meaningVi": "đính kèm hình ảnh để quý vị đối chiếu" },
+      { "phrase": "prompt resolution", "pos": "n", "meaningVi": "hướng giải quyết kịp thời" }
+    ],
+    "recommendedWords": { "min": 85, "max": 145 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-03",
+    "mode": "toeic-email",
+    "difficulty": "Trung bình",
+    "title": "Q6–7: Phản hồi Lịch trình Hội nghị Thương mại Khu vực",
+    "category": "Hội nghị & Sự kiện",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "David Park, Program Chair <dpark@pacifictechforum.org>",
+      "to": "Registered Speakers",
+      "date": "August 18",
+      "subject": "Final Speaker Schedule — Pacific Tech Forum (September 4)"
+    },
+    "passage": "Dear Speakers,\n\nThank you for agreeing to present at the Pacific Tech Forum on September 4. Your 30-minute presentation has been tentatively assigned to the 9:30 A.M. slot in Grand Hall B.\n\nEach room is equipped with a standard projector and a handheld microphone. Please write back by August 22 to confirm your slot, inform us of any scheduling conflicts, or let us know if you need additional audiovisual setup.\n\nWarm regards,\nDavid Park",
+    "instructions": "Respond to Mr. Park as one of the registered speakers. In your e-mail, explain ONE scheduling conflict with the 9:30 A.M. slot, suggest ONE alternative time, and ask ONE question about the audiovisual equipment.",
+    "checklist": [
+      "Giải thích 1 lý do không thể nói vào khung 9:30 sáng (VD: chuyến bay hạ cánh muộn hoặc kẹt cuộc họp khách hàng)",
+      "Đề xuất 1 khung giờ thay thế cụ thể (VD: buổi chiều cùng ngày hoặc khung 11:00 sáng)",
+      "Hỏi 1 câu hỏi liên quan đến thiết bị nghe nhìn (VD: cổng kết nối HDMI/USB-C, micro cài áo hay Wi-Fi để demo trực tiếp)"
+    ],
+    "vocabHints": [
+      { "phrase": "have a scheduling conflict with", "pos": "phrase", "meaningVi": "bị trùng lịch với" },
+      { "phrase": "my morning flight does not land until...", "pos": "phrase", "meaningVi": "chuyến bay sáng của tôi mãi tới... mới hạ cánh" },
+      { "phrase": "would it be possible to swap to an afternoon slot", "pos": "phrase", "meaningVi": "liệu có thể đổi sang khung giờ buổi chiều không" },
+      { "phrase": "lapel / clip-on microphone", "pos": "n", "meaningVi": "micro cài áo" },
+      { "phrase": "high-speed Wi-Fi for a live software demo", "pos": "phrase", "meaningVi": "Wi-Fi tốc độ cao để chạy thử phần mềm trực tiếp" },
+      { "phrase": "apologize for any inconvenience this may cause", "pos": "phrase", "meaningVi": "xin lỗi vì mọi sự bất tiện có thể gây ra" }
+    ],
+    "recommendedWords": { "min": 90, "max": 150 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-04",
+    "mode": "toeic-email",
+    "difficulty": "Trung bình",
+    "title": "Q6–7: Phản hồi Thông báo Bảo trì Bãi đỗ xe Tòa nhà",
+    "category": "Quản lý tòa nhà",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Harborview Property Management <facilities@harborviewtower.com>",
+      "to": "All Commercial Tenants",
+      "date": "June 2",
+      "subject": "Underground Garage Resurfacing — June 10 to June 12"
+    },
+    "passage": "Dear Tenants,\n\nFrom Tuesday, June 10, through Thursday, June 12, Levels B1 and B2 of the underground parking garage will be closed for concrete resurfacing.\n\nNo vehicles may remain in the garage during these three days. We are currently arranging discounted parking vouchers at a nearby public lot for affected employees. Please contact our office with your company's needs and any operational concerns by Friday, June 6.\n\nRegards,\nProperty Management Office",
+    "instructions": "Respond to the e-mail as the Operations Coordinator of a tenant company with 25 staff members. In your e-mail, give ONE piece of information about your company's needs, ask TWO questions about the temporary parking arrangement.",
+    "checklist": [
+      "Cung cấp 1 thông tin cụ thể về nhu cầu của công ty bạn (VD: số lượng thẻ gửi xe cần cho nhân viên hoặc lịch xe tải giao hàng cần bốc dỡ)",
+      "Hỏi 2 câu hỏi rõ ràng về phương án đỗ xe tạm thời (VD: vị trí/khoảng cách bãi công cộng, mức phí sau giảm giá, hoặc có xe trung chuyển không)",
+      "Phản hồi đúng hạn và dùng ngôn ngữ chuyên nghiệp, rõ ràng"
+    ],
+    "vocabHints": [
+      { "phrase": "require roughly fifteen daily parking vouchers", "pos": "phrase", "meaningVi": "cần khoảng 15 phiếu gửi xe mỗi ngày" },
+      { "phrase": "within walking distance of our building", "pos": "phrase", "meaningVi": "trong phạm vi đi bộ tới tòa nhà" },
+      { "phrase": "discounted daily rate", "pos": "n", "meaningVi": "mức phí đỗ xe theo ngày sau giảm giá" },
+      { "phrase": "shuttle service during rush hours", "pos": "n", "meaningVi": "xe đưa đón giờ cao điểm" },
+      { "phrase": "commercial delivery vans / loading dock", "pos": "n", "meaningVi": "xe tải giao hàng / bến bốc dỡ" },
+      { "phrase": "distribute the information to our staff", "pos": "phrase", "meaningVi": "phổ biến thông tin cho nhân viên" }
+    ],
+    "recommendedWords": { "min": 90, "max": 150 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-05",
+    "mode": "toeic-email",
+    "difficulty": "Trung bình",
+    "title": "Q6–7: Phản hồi Thư Mời Phỏng vấn (Xin đổi lịch & Hỏi thông tin)",
+    "category": "Tuyển dụng",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Marcus Reed, Talent Acquisition <m.reed@solarisbank.com>",
+      "to": "Job Applicant",
+      "date": "March 10",
+      "subject": "Interview Invitation — Business Analyst Position"
+    },
+    "passage": "Dear Applicant,\n\nWe were very impressed by your résumé and would like to invite you to an in-person interview for the Business Analyst role at our downtown office on Thursday, March 13, at 10:30 A.M.\n\nThe interview will include a panel discussion with two department managers. Please reply to confirm whether this time works for you and let us know if you need any additional information to prepare.\n\nBest regards,\nMarcus Reed",
+    "instructions": "Respond to Mr. Reed as the job applicant. In your e-mail, explain why you cannot attend on Thursday morning, propose TWO alternative times, and ask ONE question about preparing for the interview.",
+    "checklist": [
+      "Cảm ơn lời mời và giải thích lý do hợp lý không thể dự sáng thứ Năm 13/3 (VD: lịch công tác ngoài thành phố hoặc buổi họp dự án quan trọng)",
+      "Đề xuất 2 khung giờ thay thế cụ thể (VD: chiều thứ Năm 13/3 hoặc sáng thứ Sáu 14/3)",
+      "Hỏi 1 câu hỏi thiết thực để chuẩn bị phỏng vấn (VD: thời lượng buổi phỏng vấn, có bài kiểm tra kỹ thuật không, hay cần mang mẫu dự án nào)"
+    ],
+    "vocabHints": [
+      { "phrase": "sincerely appreciate the interview invitation", "pos": "phrase", "meaningVi": "chân thành cảm ơn lời mời phỏng vấn" },
+      { "phrase": "prior professional commitment", "pos": "n", "meaningVi": "lịch công việc đã cam kết từ trước" },
+      { "phrase": "propose two alternative time slots", "pos": "phrase", "meaningVi": "đề xuất hai khung giờ thay thế" },
+      { "phrase": "technical assessment / portfolio samples", "pos": "n", "meaningVi": "bài kiểm tra chuyên môn / mẫu dự án" },
+      { "phrase": "estimated duration of the panel interview", "pos": "n", "meaningVi": "thời lượng dự kiến của buổi phỏng vấn hội đồng" },
+      { "phrase": "look forward to speaking with the team", "pos": "phrase", "meaningVi": "mong chờ được trò chuyện cùng nhóm" }
+    ],
+    "recommendedWords": { "min": 90, "max": 150 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-06",
+    "mode": "toeic-email",
+    "difficulty": "Trung bình",
+    "title": "Q6–7: Phản hồi Đề xuất Dịch vụ Tiệc Hội thảo Khách hàng",
+    "category": "Nhà cung cấp & Báo giá",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Hannah Lin <events@freshbitecatering.com>",
+      "to": "Corporate Event Planner",
+      "date": "September 15",
+      "subject": "Catering Quote for Your October 8 Client Appreciation Reception"
+    },
+    "passage": "Dear Event Planner,\n\nThank you for contacting FreshBite Catering regarding your upcoming reception on October 8. Based on your initial inquiry for 60 guests, our Executive Buffet Package is priced at $32 per person, including setup, tableware, and two servers.\n\nIf you would like to customize the menu, adjust the guest count, or schedule a tasting session, please let me know how you would like to proceed.\n\nBest,\nHannah Lin",
+    "instructions": "Respond to Ms. Lin as the Corporate Event Planner. In your e-mail, inform her of ONE change to the event details, make ONE request regarding the menu, and ask ONE question about payment or cancellation terms.",
+    "checklist": [
+      "Thông báo 1 thay đổi về chi tiết sự kiện (VD: tăng số khách từ 60 lên 75 người hoặc thay đổi khung giờ phục vụ)",
+      "Đưa ra 1 yêu cầu về thực đơn (VD: thêm món chay/không gluten hoặc đặt lịch thử món trước)",
+      "Hỏi 1 câu hỏi về điều khoản thanh toán hoặc hủy dịch vụ (VD: tỷ lệ đặt cọc, chiết khấu nhóm lớn hay hạn hủy miễn phí)"
+    ],
+    "vocabHints": [
+      { "phrase": "revise our estimated guest count from 60 to 75", "pos": "phrase", "meaningVi": "điều chỉnh số khách dự kiến từ 60 lên 75" },
+      { "phrase": "accommodate gluten-free and vegetarian guests", "pos": "phrase", "meaningVi": "đáp ứng khách ăn không gluten và ăn chay" },
+      { "phrase": "deposit requirement", "pos": "n", "meaningVi": "yêu cầu đặt cọc" },
+      { "phrase": "volume discount for larger groups", "pos": "n", "meaningVi": "chiết khấu số lượng cho đoàn đông" },
+      { "phrase": "cancellation policy / refund deadline", "pos": "n", "meaningVi": "chính sách hủy / hạn hoàn tiền" },
+      { "phrase": "updated itemized quote", "pos": "n", "meaningVi": "báo giá chi tiết cập nhật" }
+    ],
+    "recommendedWords": { "min": 90, "max": 150 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-07",
+    "mode": "toeic-email",
+    "difficulty": "Nâng cao",
+    "title": "Q6–7: Phản hồi Thông báo Gia hạn & Tăng giá Phần mềm Doanh nghiệp",
+    "category": "Đàm phán & Phần mềm",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Account Renewals <renewals@cloudmetrics.io>",
+      "to": "IT Procurement Manager",
+      "date": "November 3",
+      "subject": "Upcoming Annual Renewal Notice — CloudMetrics Enterprise Plan"
+    },
+    "passage": "Dear IT Procurement Manager,\n\nYour company's annual CloudMetrics Enterprise subscription (40 user seats) is set to renew automatically on December 1. Please note that our updated pricing will take effect at renewal, increasing the annual rate from $12,000 to $14,400 due to new AI forecasting features.\n\nIf you wish to modify your seat count, disable auto-renewal, or discuss multi-year pricing options, please contact our renewals desk before November 20.\n\nKind regards,\nCloudMetrics Renewals Team",
+    "instructions": "Respond to CloudMetrics as the IT Procurement Manager. In your e-mail, express ONE concern about the price increase, propose ONE compromise or alternative option, and request ONE specific action before November 20.",
+    "checklist": [
+      "Bày tỏ 1 quan ngại thẳng thắn nhưng lịch sự về mức tăng 20% ($12,000 → $14,400), đặc biệt nếu công ty chưa dùng hết tính năng AI mới",
+      "Đề xuất 1 phương án thỏa hiệp (VD: ký hợp đồng 2 năm để giữ giá cũ hoặc giảm số lượng tài khoản từ 40 xuống 32)",
+      "Yêu cầu 1 hành động cụ thể trước ngày 20/11 (VD: tắt tự động gia hạn tạm thời và gửi báo giá sửa đổi)"
+    ],
+    "vocabHints": [
+      { "phrase": "20% price increase exceeds our IT budget", "pos": "phrase", "meaningVi": "mức tăng giá 20% vượt ngân sách CNTT" },
+      { "phrase": "lock in our current annual rate", "pos": "phrase", "meaningVi": "giữ nguyên mức giá thường niên hiện tại" },
+      { "phrase": "commit to a two-year agreement", "pos": "phrase", "meaningVi": "cam kết hợp đồng hai năm" },
+      { "phrase": "temporarily suspend auto-renewal", "pos": "phrase", "meaningVi": "tạm tắt chế độ tự động gia hạn" },
+      { "phrase": "scale down our active user seats", "pos": "phrase", "meaningVi": "giảm số lượng tài khoản người dùng" },
+      { "phrase": "revised renewal proposal", "pos": "n", "meaningVi": "đề xuất gia hạn đã điều chỉnh" }
+    ],
+    "recommendedWords": { "min": 100, "max": 165 },
+    "recommendedMinutes": 10
+  },
+  {
+    "id": "wr-em-08",
+    "mode": "toeic-email",
+    "difficulty": "Nâng cao",
+    "title": "Q6–7: Phản hồi Đề nghị Tài trợ Hội chợ Nghề nghiệp Đại học",
+    "category": "Truyền thông & Tài trợ",
+    "sourceLanguage": "en",
+    "emailMeta": {
+      "from": "Prof. Rachel Bennett <careers@westcoast-uni.edu>",
+      "to": "Corporate Partnerships Director",
+      "date": "February 12",
+      "subject": "Invitation to Sponsor Our Annual Engineering Career Fair"
+    },
+    "passage": "Dear Partnerships Director,\n\nWest Coast University will host its Annual Engineering & Tech Career Fair on April 11, attracting over 800 graduating seniors and graduate students. We would be honored to feature your company as a Gold Sponsor ($3,500), which includes a prime double booth, logo placement on all event banners, and early access to our digital résumé database.\n\nPlease let us know if your organization would like to participate and whether you have any questions about sponsorship packages.\n\nSincerely,\nProf. Rachel Bennett",
+    "instructions": "Respond to Prof. Bennett as the Corporate Partnerships Director. In your e-mail, express interest in participating, ask TWO specific questions about the Gold Sponsorship benefits, and suggest ONE additional way your company could engage with students during the fair.",
+    "checklist": [
+      "Bày tỏ sự quan tâm tích cực của công ty với Hội chợ Nghề nghiệp ngày 11/4",
+      "Hỏi 2 câu hỏi cụ thể về quyền lợi gói Gold Sponsor (VD: thời điểm mở quyền truy cập kho CV số, số đại diện doanh nghiệp đi kèm hay có phòng phỏng vấn nhanh không)",
+      "Đề xuất 1 hoạt động tương tác bổ sung với sinh viên (VD: tổ chức buổi chia sẻ kỹ năng phỏng vấn kỹ thuật 30 phút hoặc tọa đàm cùng kỹ sư trưởng)"
+    ],
+    "vocabHints": [
+      { "phrase": "express our strong interest in participating", "pos": "phrase", "meaningVi": "bày tỏ sự quan tâm mạnh mẽ tới việc tham gia" },
+      { "phrase": "digital résumé database", "pos": "n", "meaningVi": "cơ sở dữ liệu CV kỹ thuật số" },
+      { "phrase": "on-site screening interviews", "pos": "n", "meaningVi": "các buổi phỏng vấn sàng lọc ngay tại chỗ" },
+      { "phrase": "host a 30-minute technical career workshop", "pos": "phrase", "meaningVi": "tổ chức buổi chia sẻ nghề nghiệp kỹ thuật 30 phút" },
+      { "phrase": "connect directly with graduating talent", "pos": "phrase", "meaningVi": "kết nối trực tiếp với sinh viên sắp tốt nghiệp" },
+      { "phrase": "sponsorship prospectus / invoice", "pos": "n", "meaningVi": "hồ sơ tài trợ / hóa đơn" }
+    ],
+    "recommendedWords": { "min": 100, "max": 165 },
+    "recommendedMinutes": 10
+  }
+]

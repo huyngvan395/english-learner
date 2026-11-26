@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "t1-p6-set1",
+    "title": "Bài 1 (Email): Nâng cấp Hệ thống Hội nghị Truyền hình",
+    "genre": "Email",
+    "headerMeta": {
+      "from": "Daniel Cho <d.cho@veridian-tech.com>",
+      "to": "All Regional Office Staff",
+      "date": "October 14",
+      "subject": "Upgrade to Conference Room Audio-Visual Equipment"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-1-para1",
+        "sentences": [
+          {
+            "id": "p6-1-s1",
+            "en": "As part of our ongoing commitment to seamless hybrid collaboration, the IT department will upgrade the video-conferencing systems in Conference Rooms A, B, and C next week.",
+            "vi": "Là một phần trong cam kết không ngừng hướng tới sự phối hợp làm việc kết hợp liền mạch, phòng CNTT sẽ nâng cấp hệ thống hội nghị truyền hình tại các Phòng họp A, B và C vào tuần tới."
+          },
+          {
+            "id": "p6-1-s2",
+            "en": "Installation work is scheduled to begin at 8:00 A.M. on Tuesday, October 20, and should conclude by 5:00 P.M. on Thursday. [131] _______, these rooms will not be available for booking through the online calendar.",
+            "vi": "Công việc lắp đặt dự kiến bắt đầu lúc 8:00 sáng thứ Ba, ngày 20 tháng 10 và sẽ kết thúc trước 5:00 chiều thứ Năm. [131] _______, các phòng này sẽ không khả dụng để đặt trên lịch trực tuyến."
+          }
+        ]
+      },
+      {
+        "id": "p6-1-para2",
+        "sentences": [
+          {
+            "id": "p6-1-s3",
+            "en": "We recognize that several teams have already reserved these spaces for client briefings. [132] _______.",
+            "vi": "Chúng tôi biết rằng một số nhóm đã đặt trước các không gian này cho những buổi họp với khách hàng. [132] _______."
+          },
+          {
+            "id": "p6-1-s4",
+            "en": "Alternatively, employees may use the fourth-floor training suite, which is equipped with a portable projector and high-speed wireless connectivity.",
+            "vi": "Ngoài ra, nhân viên có thể sử dụng phòng đào tạo tầng bốn, nơi được trang bị máy chiếu di động và kết nối không dây tốc độ cao."
+          }
+        ]
+      },
+      {
+        "id": "p6-1-para3",
+        "sentences": [
+          {
+            "id": "p6-1-s5",
+            "en": "Once the installation is complete, the new system will deliver crystal-clear audio and [133] _______ screen sharing from any laptop or tablet.",
+            "vi": "Sau khi lắp đặt hoàn tất, hệ thống mới sẽ mang lại âm thanh trong trẻo và khả năng chia sẻ màn hình [133] _______ từ bất kỳ laptop hay máy tính bảng nào."
+          },
+          {
+            "id": "p6-1-s6",
+            "en": "Short hands-on demonstration sessions will be offered on Friday morning to help staff become [134] _______ with the updated controls. Please contact the IT Help Desk if you have any urgent questions.",
+            "vi": "Các buổi hướng dẫn thực hành ngắn sẽ được tổ chức vào sáng thứ Sáu để giúp nhân viên trở nên [134] _______ với bộ điều khiển mới. Vui lòng liên hệ Bàn hỗ trợ CNTT nếu có câu hỏi khẩn cấp."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "t1-p6-q131",
+        "blankNumber": 131,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "During that period",
+          "B": "On the other hand",
+          "C": "For example",
+          "D": "Despite this delay"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Cụm từ nối chỉ thời gian",
+            "signal": "Câu trước nêu khoảng thời gian 'Tuesday, October 20 ... Thursday' → 'During that period'."
+          },
+          "translation": {
+            "questionVi": "Chọn cụm từ nối thích hợp vào vị trí [131].",
+            "optionsVi": {
+              "A": "Trong khoảng thời gian đó",
+              "B": "Mặt khác",
+              "C": "Ví dụ như",
+              "D": "Mặc dù sự chậm trễ này"
+            }
+          },
+          "proof": {
+            "explanation": "'During that period' tham chiếu trực tiếp khoảng thời gian lắp đặt 3 ngày vừa nêu ở câu trước.",
+            "evidenceQuote": "Installation work is scheduled to begin at 8:00 A.M. on Tuesday, October 20, and should conclude by 5:00 P.M. on Thursday.",
+            "evidenceSentenceId": "p6-1-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Tham chiếu chuẩn khoảng thời gian 3 ngày.",
+            "B": "Loại vì không tương phản.",
+            "C": "Loại vì không phải ví dụ.",
+            "D": "Loại vì bài không nhắc đến sự chậm trễ."
+          },
+          "keyTakeaways": {
+            "formula": "Mốc thời gian (from X to Y) → During that period",
+            "commonTrap": "Bẫy chữ 'this delay' không tồn tại trong bài.",
+            "paraphrases": [
+              {
+                "textInPassage": "not be available for booking",
+                "textInAnswer": "cannot be reserved",
+                "meaningVi": "không thể đặt trước"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q132",
+        "blankNumber": 132,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Our receptionists will contact those organizers today to reassign their meetings.",
+          "B": "The old projectors were purchased more than seven years ago.",
+          "C": "All invoices from the equipment vendor must be approved by accounting.",
+          "D": "Refreshments will no longer be permitted inside the training suite."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Sentence Insertion)",
+            "signal": "Câu trước nêu vấn đề đã lỡ đặt phòng; câu sau dùng 'Alternatively' (giải pháp 2) → [132] là giải pháp 1."
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất điền vào [132].",
+            "optionsVi": {
+              "A": "Lễ tân sẽ liên hệ những người tổ chức đó hôm nay để bố trí lại phòng họp.",
+              "B": "Máy chiếu cũ được mua hơn bảy năm trước.",
+              "C": "Hóa đơn nhà cung cấp phải được kế toán duyệt.",
+              "D": "Đồ ăn nhẹ sẽ không được mang vào phòng đào tạo."
+            }
+          },
+          "proof": {
+            "explanation": "'those organizers' nối trực tiếp với 'several teams have already reserved these spaces' và mở đường cho từ 'Alternatively' ở câu kế tiếp.",
+            "evidenceQuote": "We recognize that several teams have already reserved these spaces for client briefings.",
+            "evidenceSentenceId": "p6-1-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Giải pháp trực tiếp, liên kết chặt với câu trước & câu sau.",
+            "B": "Loại vì lạc đề.",
+            "C": "Loại vì sai đối tượng thông báo.",
+            "D": "Loại vì nhắc 'training suite' trước khi câu sau giới thiệu."
+          },
+          "keyTakeaways": {
+            "formula": "Vấn đề → Giải pháp 1 → Alternatively + Giải pháp 2",
+            "commonTrap": "Bỏ qua từ chuyển tiếp 'Alternatively' ở câu ngay sau chỗ trống.",
+            "paraphrases": [
+              {
+                "textInPassage": "reassign their meetings",
+                "textInAnswer": "relocate scheduled sessions",
+                "meaningVi": "chuyển cuộc họp sang phòng khác"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q133",
+        "blankNumber": 133,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "effort",
+          "B": "effortless",
+          "C": "effortlessly",
+          "D": "effortlessness"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Cấu trúc song song)",
+            "signal": "crystal-clear (adj) audio (n) and [Adj] screen sharing (n)."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng từ đúng vào [133].",
+            "optionsVi": {
+              "A": "effort (n): nỗ lực",
+              "B": "effortless (adj): dễ dàng, mượt mà",
+              "C": "effortlessly (adv): một cách dễ dàng",
+              "D": "effortlessness (n): sự dễ dàng"
+            }
+          },
+          "proof": {
+            "explanation": "'screen sharing' là cụm danh từ ghép, cần tính từ 'effortless' bổ nghĩa song song với 'crystal-clear audio'.",
+            "evidenceQuote": "deliver crystal-clear audio and [133] _______ screen sharing",
+            "evidenceSentenceId": "p6-1-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì danh từ.",
+            "B": "ĐÚNG — Tính từ bổ nghĩa cụm danh từ.",
+            "C": "Loại vì trạng từ.",
+            "D": "Loại vì danh từ."
+          },
+          "keyTakeaways": {
+            "formula": "Adj1 + Noun1 + and + Adj2 + Noun2",
+            "commonTrap": "Nhầm 'sharing' là động từ V-ing nên chọn trạng từ C.",
+            "paraphrases": [
+              {
+                "textInPassage": "effortless screen sharing",
+                "textInAnswer": "seamless wireless casting",
+                "meaningVi": "chia sẻ màn hình mượt mà"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q134",
+        "blankNumber": 134,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "familiar",
+          "B": "eligible",
+          "C": "identical",
+          "D": "hesitant"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Collocation & Giới từ",
+            "signal": "Cấu trúc cố định: become familiar with + sth."
+          },
+          "translation": {
+            "questionVi": "Chọn tính từ khớp nghĩa và giới từ 'with' tại [134].",
+            "optionsVi": {
+              "A": "familiar: quen thuộc (+ with)",
+              "B": "eligible: đủ điều kiện (+ for)",
+              "C": "identical: giống hệt (+ to)",
+              "D": "hesitant: do dự (+ about)"
+            }
+          },
+          "proof": {
+            "explanation": "Buổi hướng dẫn thực hành giúp nhân viên làm quen với bộ điều khiển mới → 'become familiar with'.",
+            "evidenceQuote": "help staff become [134] _______ with the updated controls.",
+            "evidenceSentenceId": "p6-1-s6"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Chuẩn nghĩa và giới từ 'with'.",
+            "B": "Loại vì đi với 'for'.",
+            "C": "Loại vì đi với 'to'.",
+            "D": "Loại vì ngược nghĩa."
+          },
+          "keyTakeaways": {
+            "formula": "become / get familiar with + sth",
+            "commonTrap": "Bỏ qua giới từ 'with' ngay sau chỗ trống.",
+            "paraphrases": [
+              {
+                "textInPassage": "hands-on demonstration",
+                "textInAnswer": "practical training",
+                "meaningVi": "hướng dẫn thực hành"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "t1-p6-set2",
+    "title": "Bài 2 (Notice): Chính sách Bãi đỗ xe & Xe buýt đưa đón mới",
+    "genre": "Notice",
+    "headerMeta": {
+      "from": "Facilities Management Office",
+      "to": "Harborview Business Park Tenants",
+      "date": "March 3",
+      "subject": "Updated Parking Permit Policy & Shuttle Service"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-2-para1",
+        "sentences": [
+          {
+            "id": "p6-2-s1",
+            "en": "Beginning April 1, Harborview Business Park will introduce an electronic license-plate recognition system at all garage entrances.",
+            "vi": "Bắt đầu từ ngày 1/4, Khu văn phòng Harborview sẽ triển khai hệ thống nhận diện biển số xe điện tử tại tất cả cổng nhà xe."
+          },
+          {
+            "id": "p6-2-s2",
+            "en": "This upgrade is intended to reduce morning traffic [135] _______ and eliminate the need for physical plastic keycards.",
+            "vi": "Đợt nâng cấp này nhằm giảm thiểu [135] _______ giao thông buổi sáng và loại bỏ nhu cầu dùng thẻ nhựa vật lý."
+          }
+        ]
+      },
+      {
+        "id": "p6-2-para2",
+        "sentences": [
+          {
+            "id": "p6-2-s3",
+            "en": "To register your vehicle, please log in to the tenant portal and enter your plate number no later than March 25. [136] _______.",
+            "vi": "Để đăng ký phương tiện, vui lòng đăng nhập cổng cư dân và nhập biển số xe chậm nhất ngày 25/3. [136] _______."
+          },
+          {
+            "id": "p6-2-s4",
+            "en": "Employees who commute by public transit will also benefit from a new complimentary shuttle operating every fifteen minutes between Central Station and Building B.",
+            "vi": "Nhân viên đi làm bằng phương tiện công cộng cũng được hưởng tuyến xe đưa đón miễn phí mới chạy 15 phút/chuyến giữa Ga Trung tâm và Tòa B."
+          }
+        ]
+      },
+      {
+        "id": "p6-2-para3",
+        "sentences": [
+          {
+            "id": "p6-2-s5",
+            "en": "Passengers simply need to show their employee ID badge when [137] _______ the shuttle.",
+            "vi": "Hành khách chỉ cần xuất trình thẻ nhân viên khi [137] _______ xe đưa đón."
+          },
+          {
+            "id": "p6-2-s6",
+            "en": "[138] _______ you plan to drive a rental car temporarily, you may request a short-term visitor pass at the ground-floor security desk.",
+            "vi": "[138] _______ bạn dự định tạm lái xe thuê, bạn có thể xin thẻ khách ngắn hạn tại quầy bảo vệ tầng trệt."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "t1-p6-q135",
+        "blankNumber": 135,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "congestion",
+          "B": "compensation",
+          "C": "consumption",
+          "D": "competition"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Collocation Giao thông",
+            "signal": "Cụm cố định 'traffic congestion' (ùn tắc giao thông)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ sau 'morning traffic' tại [135].",
+            "optionsVi": {
+              "A": "sự ùn tắc",
+              "B": "sự bồi thường",
+              "C": "sự tiêu thụ",
+              "D": "sự cạnh tranh"
+            }
+          },
+          "proof": {
+            "explanation": "Hệ thống nhận diện biển số tự động giúp giảm ùn tắc giao thông buổi sáng ('reduce morning traffic congestion').",
+            "evidenceQuote": "reduce morning traffic [135] _______",
+            "evidenceSentenceId": "p6-2-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — traffic congestion.",
+            "B": "Loại vì sai nghĩa.",
+            "C": "Loại vì sai collocation.",
+            "D": "Loại vì sai nghĩa."
+          },
+          "keyTakeaways": {
+            "formula": "reduce / ease + traffic congestion",
+            "commonTrap": "4 danh từ cùng bắt đầu 'co-' và kết thúc '-tion'.",
+            "paraphrases": [
+              {
+                "textInPassage": "traffic congestion",
+                "textInAnswer": "entrance bottlenecks",
+                "meaningVi": "tắc nghẽn tại cổng vào"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q136",
+        "blankNumber": 136,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Unregistered vehicles will be directed to the paid public lot across the street.",
+          "B": "The cafeteria will extend its breakfast hours starting next month.",
+          "C": "Parking rates in downtown areas have risen sharply this year.",
+          "D": "Bicycle racks were installed near the north courtyard last summer."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Hệ quả)",
+            "signal": "Câu trước yêu cầu 'register your vehicle' → Câu sau nêu hệ quả cho 'Unregistered vehicles'."
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp vào [136].",
+            "optionsVi": {
+              "A": "Xe chưa đăng ký sẽ được hướng dẫn sang bãi đỗ công cộng thu phí bên kia đường.",
+              "B": "Nhà ăn mở rộng giờ ăn sáng tháng tới.",
+              "C": "Giá đỗ xe trung tâm tăng mạnh.",
+              "D": "Giá để xe đạp được lắp mùa hè ngoái."
+            }
+          },
+          "proof": {
+            "explanation": "Từ khóa 'Unregistered vehicles' nối trực tiếp với 'register your vehicle' ngay câu trước.",
+            "evidenceQuote": "To register your vehicle, please log in to the tenant portal and enter your plate number no later than March 25.",
+            "evidenceSentenceId": "p6-2-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Nối mượt mạch đăng ký xe.",
+            "B": "Loại vì lạc đề.",
+            "C": "Loại vì nhận xét chung không liên quan quy trình.",
+            "D": "Loại vì nói chuyện quá khứ về xe đạp."
+          },
+          "keyTakeaways": {
+            "formula": "Hướng dẫn làm X (register) → Hệ quả nếu không làm X (Unregistered...)",
+            "commonTrap": "Bẫy từ khóa 'Parking rates' ở C.",
+            "paraphrases": [
+              {
+                "textInPassage": "paid public lot",
+                "textInAnswer": "fee-based off-site parking",
+                "meaningVi": "bãi đỗ thu phí bên ngoài"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q137",
+        "blankNumber": 137,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "board",
+          "B": "boarding",
+          "C": "boarded",
+          "D": "to board"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Rút gọn mệnh đề trạng ngữ sau 'when'",
+            "signal": "when + V-ing + Tân ngữ ('the shuttle')."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng động từ đúng tại [137].",
+            "optionsVi": {
+              "A": "board (V0)",
+              "B": "boarding (V-ing chủ động)",
+              "C": "boarded (V3 bị động)",
+              "D": "to board (To-V)"
+            }
+          },
+          "proof": {
+            "explanation": "Rút gọn chủ động của 'when they are boarding the shuttle' → 'when boarding'.",
+            "evidenceQuote": "show their employee ID badge when [137] _______ the shuttle.",
+            "evidenceSentenceId": "p6-2-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì sau when không dùng V0.",
+            "B": "ĐÚNG — when + V-ing + Object.",
+            "C": "Loại vì bị động không có tân ngữ sau.",
+            "D": "Loại vì sai chức năng ngữ pháp."
+          },
+          "keyTakeaways": {
+            "formula": "when / while / before / after + V-ing + Object",
+            "commonTrap": "Chọn nhầm V0 sau 'when'.",
+            "paraphrases": [
+              {
+                "textInPassage": "boarding the shuttle",
+                "textInAnswer": "getting on the bus",
+                "meaningVi": "lên xe buýt đưa đón"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q138",
+        "blankNumber": 138,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "If",
+          "B": "Unless",
+          "C": "Because of",
+          "D": "Whereas"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Liên từ điều kiện (If)",
+            "signal": "Tình huống giả định tạm thời lái xe thuê → hướng dẫn xin thẻ khách."
+          },
+          "translation": {
+            "questionVi": "Chọn liên từ đầu câu tại [138].",
+            "optionsVi": {
+              "A": "If: Nếu",
+              "B": "Unless: Trừ khi",
+              "C": "Because of: Bởi vì (+ N)",
+              "D": "Whereas: Trong khi đó"
+            }
+          },
+          "proof": {
+            "explanation": "Mệnh đề 'you plan to drive a rental car temporarily' là điều kiện giả định kéo theo giải pháp ở vế sau → dùng 'If'.",
+            "evidenceQuote": "[138] _______ you plan to drive a rental car temporarily, you may request a short-term visitor pass",
+            "evidenceSentenceId": "p6-2-s6"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Điều kiện giả định hợp logic.",
+            "B": "Loại vì mang nghĩa phủ định.",
+            "C": "Loại vì là giới từ.",
+            "D": "Loại vì mang nghĩa tương phản."
+          },
+          "keyTakeaways": {
+            "formula": "If + S + V(HTĐ), S + may/can + V0",
+            "commonTrap": "Bỏ sót nghĩa phủ định của Unless.",
+            "paraphrases": [
+              {
+                "textInPassage": "short-term visitor pass",
+                "textInAnswer": "temporary permit",
+                "meaningVi": "thẻ đỗ xe tạm thời"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "t1-p6-set3",
+    "title": "Bài 3 (Advertisement): Khai trương Không gian Làm việc Chung Lumina Hub",
+    "genre": "Advertisement",
+    "headerMeta": {
+      "from": "Lumina Coworking Spaces",
+      "to": "Freelancers, Startups & Hybrid Teams",
+      "date": "May 1",
+      "subject": "Grand Opening in Midtown — Flexible Offices Designed to Inspire"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-3-para1",
+        "sentences": [
+          {
+            "id": "p6-3-s1",
+            "en": "Tired of noisy cafés and long-term commercial leases? Lumina Hub is proud to announce the opening of our newest coworking [139] _______ in the heart of Midtown.",
+            "vi": "Mệt mỏi với quán cà phê ồn ào và hợp đồng thuê văn phòng dài hạn? Lumina Hub tự hào công bố khai trương [139] _______ làm việc chung mới nhất ngay trung tâm Midtown."
+          },
+          {
+            "id": "p6-3-s2",
+            "en": "Flooded with natural daylight, our three-story workspace offers ergonomic hot desks, soundproof phone booths, and private suites for teams of up to twenty people.",
+            "vi": "Tràn ngập ánh sáng tự nhiên, không gian ba tầng của chúng tôi cung cấp bàn làm việc linh hoạt công thái học, buồng điện thoại cách âm và phòng riêng cho nhóm tới hai mươi người."
+          }
+        ]
+      },
+      {
+        "id": "p6-3-para2",
+        "sentences": [
+          {
+            "id": "p6-3-s3",
+            "en": "Every monthly membership includes ultra-fast fiber Wi-Fi, unlimited artisanal coffee, and twenty-four-hour keycard access. [140] _______.",
+            "vi": "Mỗi gói thành viên hàng tháng đều bao gồm Wi-Fi cáp quang siêu tốc, cà phê pha máy không giới hạn và quyền ra vào 24/7 bằng thẻ từ. [140] _______."
+          },
+          {
+            "id": "p6-3-s4",
+            "en": "Whether you are hosting an investor pitch or recording a podcast, our on-site staff will ensure every detail runs [141] _______.",
+            "vi": "Dù bạn đang thuyết trình gọi vốn hay thu âm podcast, đội ngũ nhân viên tại chỗ sẽ đảm bảo mọi chi tiết vận hành [141] _______."
+          }
+        ]
+      },
+      {
+        "id": "p6-3-para3",
+        "sentences": [
+          {
+            "id": "p6-3-s5",
+            "en": "Book a complimentary tour before May 20 and enjoy 30 percent off your first three months! [142] _______ spaces are filling quickly, we encourage prospective members to reserve online today.",
+            "vi": "Đặt lịch tham quan miễn phí trước ngày 20/5 để nhận ưu đãi giảm 30% ba tháng đầu! [142] _______ các chỗ đang được lấp đầy rất nhanh, chúng tôi khuyến khích thành viên tiềm năng đặt trước trực tuyến ngay hôm nay."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "t1-p6-q139",
+        "blankNumber": 139,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "facility",
+          "B": "inventory",
+          "C": "itinerary",
+          "D": "receipt"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Bất động sản văn phòng",
+            "signal": "Khai trương một cơ sở làm việc chung mới ('coworking facility')."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ thích hợp tại [139].",
+            "optionsVi": {
+              "A": "cơ sở, tòa nhà tiện nghi",
+              "B": "hàng tồn kho",
+              "C": "lịch trình chuyến đi",
+              "D": "biên lai mua hàng"
+            }
+          },
+          "proof": {
+            "explanation": "Câu tiếp theo mô tả tòa nhà 3 tầng đầy tiện nghi → 'coworking facility' (cơ sở làm việc chung) là từ chính xác nhất.",
+            "evidenceQuote": "opening of our newest coworking [139] _______ in the heart of Midtown.",
+            "evidenceSentenceId": "p6-3-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — coworking facility.",
+            "B": "Loại vì dùng cho kho hàng.",
+            "C": "Loại vì dùng cho du lịch.",
+            "D": "Loại vì dùng cho thanh toán."
+          },
+          "keyTakeaways": {
+            "formula": "coworking / training / research + facility",
+            "commonTrap": "Chưa quen nghĩa 'cơ sở/địa điểm' của facility.",
+            "paraphrases": [
+              {
+                "textInPassage": "in the heart of Midtown",
+                "textInAnswer": "centrally located downtown",
+                "meaningVi": "nằm ngay trung tâm thành phố"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q140",
+        "blankNumber": 140,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Members also receive five complimentary hours of conference room and studio booking each month.",
+          "B": "Commercial leases typically require a three-year security deposit.",
+          "C": "Please remember to lock your bicycle outside the north gate.",
+          "D": "Our former branch on Pine Street closed permanently in 2019."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Bổ sung quyền lợi & kết nối câu sau)",
+            "signal": "Câu trước liệt kê quyền lợi thành viên; câu sau nhắc tới 'investor pitch' & 'recording a podcast' → [140] PHẢI giới thiệu phòng họp & phòng thu studio!"
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất vào [140].",
+            "optionsVi": {
+              "A": "Thành viên còn được tặng 5 giờ đặt phòng họp và phòng thu studio miễn phí mỗi tháng.",
+              "B": "Hợp đồng thuê thương mại thường đòi hỏi cọc ba năm.",
+              "C": "Vui lòng nhớ khóa xe đạp ngoài cổng bắc.",
+              "D": "Chi nhánh cũ trên phố Pine đã đóng cửa vĩnh viễn năm 2019."
+            }
+          },
+          "proof": {
+            "explanation": "Đáp án A dùng 'also receive' nối tiếp danh sách tiện ích câu trước, đồng thời giới thiệu 'conference room and studio' làm tiền đề hoàn hảo cho câu sau ('investor pitch' & 'recording a podcast').",
+            "evidenceQuote": "Whether you are hosting an investor pitch or recording a podcast",
+            "evidenceSentenceId": "p6-3-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Nối hoàn hảo quyền lợi câu trước và podcast/pitch câu sau.",
+            "B": "Loại vì quay ngược ý đoạn 1.",
+            "C": "Loại vì sai văn phong quảng cáo.",
+            "D": "Loại vì thông tin tiêu cực lạc đề."
+          },
+          "keyTakeaways": {
+            "formula": "Đọc câu NGAY SAU chỗ trống để bắt từ khóa ẩn ('recording a podcast' ↔ 'studio').",
+            "commonTrap": "Chỉ đọc câu trước mà quên kiểm tra sự liên kết với câu sau.",
+            "paraphrases": [
+              {
+                "textInPassage": "complimentary hours",
+                "textInAnswer": "free monthly allocation",
+                "meaningVi": "số giờ sử dụng miễn phí"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q141",
+        "blankNumber": 141,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "smooth",
+          "B": "smoothly",
+          "C": "smoothness",
+          "D": "smoothed"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ loại (Trạng từ bổ nghĩa động từ 'runs')",
+            "signal": "Cấu trúc cố định: run smoothly (vận hành trơn tru)."
+          },
+          "translation": {
+            "questionVi": "Chọn dạng từ đúng sau động từ 'runs' tại [141].",
+            "optionsVi": {
+              "A": "smooth (adj): trơn tru",
+              "B": "smoothly (adv): một cách trơn tru",
+              "C": "smoothness (n): độ mượt",
+              "D": "smoothed (v-ed): đã làm phẳng"
+            }
+          },
+          "proof": {
+            "explanation": "'runs' là nội động từ chỉ hoạt động vận hành, cần Trạng từ 'smoothly' bổ nghĩa → 'runs smoothly'.",
+            "evidenceQuote": "ensure every detail runs [141] _______.",
+            "evidenceSentenceId": "p6-3-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì tính từ.",
+            "B": "ĐÚNG — run smoothly là collocation chuẩn.",
+            "C": "Loại vì danh từ.",
+            "D": "Loại vì động từ quá khứ."
+          },
+          "keyTakeaways": {
+            "formula": "run / operate / go + smoothly",
+            "commonTrap": "Nhầm 'run' với động từ nối (linking verb) nên chọn tính từ.",
+            "paraphrases": [
+              {
+                "textInPassage": "runs smoothly",
+                "textInAnswer": "operates without issues",
+                "meaningVi": "vận hành trơn tru không trục trặc"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q142",
+        "blankNumber": 142,
+        "questionType": "Từ nối",
+        "options": {
+          "A": "Since",
+          "B": "Despite",
+          "C": "Unless",
+          "D": "However"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Liên từ nguyên nhân (Since = Because)",
+            "signal": "Vì chỗ đang hết nhanh ('spaces are filling quickly') → khuyến khích đặt sớm ('reserve online today')."
+          },
+          "translation": {
+            "questionVi": "Chọn từ nối phù hợp đầu câu tại [142].",
+            "optionsVi": {
+              "A": "Since: Bởi vì (+ S + V)",
+              "B": "Despite: Mặc dù (+ N)",
+              "C": "Unless: Trừ khi",
+              "D": "However: Tuy nhiên (phải có dấu phẩy ngay sau)"
+            }
+          },
+          "proof": {
+            "explanation": "Hai vế có quan hệ Nguyên nhân – Kết quả và phía sau có mệnh đề S + V ('spaces are filling quickly') → dùng 'Since'.",
+            "evidenceQuote": "[142] _______ spaces are filling quickly, we encourage prospective members to reserve online today.",
+            "evidenceSentenceId": "p6-3-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Since (= Because) + S + V.",
+            "B": "Loại vì Despite là giới từ.",
+            "C": "Loại vì sai logic nghĩa.",
+            "D": "Loại vì However là trạng từ nối, không nối trực tiếp hai mệnh đề bằng 1 dấu phẩy giữa câu."
+          },
+          "keyTakeaways": {
+            "formula": "Since / Because / As + S + V (nguyên nhân), S + V (kết quả)",
+            "commonTrap": "Chỉ nhớ nghĩa 'kể từ khi' của Since mà quên nghĩa 'bởi vì' cực phổ biến trong TOEIC!",
+            "paraphrases": [
+              {
+                "textInPassage": "spaces are filling quickly",
+                "textInAnswer": "availability is limited",
+                "meaningVi": "chỗ trống đang nhanh chóng hết"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "t1-p6-set4",
+    "title": "Bài 4 (Article): Doanh nghiệp Bán lẻ Chuyển sang Bao bì Phân hủy Sinh học",
+    "genre": "Article",
+    "headerMeta": {
+      "from": "Pacific Business Daily",
+      "to": "Retail & Supply Chain Section",
+      "date": "August 19",
+      "subject": "GreenLeaf Grocers Completes Packaging Overhaul"
+    },
+    "paragraphs": [
+      {
+        "id": "p6-4-para1",
+        "sentences": [
+          {
+            "id": "p6-4-s1",
+            "en": "PORTLAND — Regional supermarket chain GreenLeaf Grocers announced yesterday that it has successfully [143] _______ single-use plastic bags across all forty-two of its retail outlets.",
+            "vi": "PORTLAND — Chuỗi siêu thị khu vực GreenLeaf Grocers hôm qua công bố đã [143] _______ thành công túi nhựa dùng một lần trên toàn bộ 42 cửa hàng bán lẻ."
+          },
+          {
+            "id": "p6-4-s2",
+            "en": "Instead, shoppers now receive sturdy plant-based bags made from cornstarch that decompose naturally within ninety days.",
+            "vi": "Thay vào đó, khách mua sắm nay nhận túi gốc thực vật chắc chắn làm từ tinh bột ngô có thể phân hủy tự nhiên trong vòng 90 ngày."
+          }
+        ]
+      },
+      {
+        "id": "p6-4-para2",
+        "sentences": [
+          {
+            "id": "p6-4-s3",
+            "en": "Chief Operating Officer Nadia Rahman noted that the transition took nearly eighteen months of supplier testing. [144] _______.",
+            "vi": "Giám đốc Vận hành Nadia Rahman cho biết quá trình chuyển đổi mất gần mười tám tháng thử nghiệm nhà cung cấp. [144] _______."
+          },
+          {
+            "id": "p6-4-s4",
+            "en": "Ultimately, by partnering directly with a local agricultural cooperative, the chain kept per-unit packaging costs well within its annual [145] _______.",
+            "vi": "Cuối cùng, bằng việc hợp tác trực tiếp với một hợp tác xã nông nghiệp địa phương, chuỗi siêu thị giữ chi phí bao bì trên mỗi đơn vị nằm gọn trong [145] _______ hàng năm."
+          }
+        ]
+      },
+      {
+        "id": "p6-4-para3",
+        "sentences": [
+          {
+            "id": "p6-4-s5",
+            "en": "Industry analysts predict that several competing chains [146] _______ similar eco-friendly standards before the end of next year.",
+            "vi": "Các nhà phân tích ngành dự đoán rằng một số chuỗi đối thủ [146] _______ các tiêu chuẩn thân thiện môi trường tương tự trước cuối năm tới."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "t1-p6-q143",
+        "blankNumber": 143,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "eliminated",
+          "B": "accumulated",
+          "C": "manufactured",
+          "D": "estimated"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Từ vựng ngữ cảnh Môi trường",
+            "signal": "Câu sau nói 'Instead, shoppers now receive plant-based bags' → Đã 'loại bỏ' (eliminated) túi nhựa dùng một lần."
+          },
+          "translation": {
+            "questionVi": "Chọn động từ thích hợp tại [143].",
+            "optionsVi": {
+              "A": "loại bỏ hoàn toàn",
+              "B": "tích lũy",
+              "C": "sản xuất",
+              "D": "ước tính"
+            }
+          },
+          "proof": {
+            "explanation": "Việc thay thế hoàn toàn bằng túi tinh bột ngô chứng tỏ chuỗi siêu thị đã loại bỏ ('eliminated') túi nhựa dùng một lần.",
+            "evidenceQuote": "Instead, shoppers now receive sturdy plant-based bags made from cornstarch",
+            "evidenceSentenceId": "p6-4-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — eliminate single-use plastic bags.",
+            "B": "Loại vì trái nghĩa.",
+            "C": "Loại vì trái mục tiêu xanh.",
+            "D": "Loại vì sai nghĩa."
+          },
+          "keyTakeaways": {
+            "formula": "eliminate / phase out + single-use plastics",
+            "commonTrap": "Không đọc câu sau ('Instead...') để xác nhận hướng nghĩa tích cực/loại bỏ.",
+            "paraphrases": [
+              {
+                "textInPassage": "eliminated single-use plastic",
+                "textInAnswer": "discontinued disposable plastic bags",
+                "meaningVi": "ngừng dùng túi nhựa dùng một lần"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q144",
+        "blankNumber": 144,
+        "questionType": "Điền câu (Sentence Insertion)",
+        "options": {
+          "A": "Early prototypes tore too easily under heavy produce and cost far more than standard bags.",
+          "B": "GreenLeaf Grocers plans to hire thirty part-time cashiers for the holidays.",
+          "C": "Shoppers can also order fresh bakery cakes through the mobile app.",
+          "D": "Portland experienced unusually mild rainfall throughout August."
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Điền câu (Khó khăn ban đầu ↔ 'Ultimately' giải quyết)",
+            "signal": "Câu trước: mất 18 tháng thử nghiệm; Câu sau bắt đầu bằng 'Ultimately... kept costs within budget' → [144] PHẢI nêu khó khăn về độ bền & chi phí ở giai đoạn thử nghiệm!"
+          },
+          "translation": {
+            "questionVi": "Chọn câu phù hợp nhất vào [144].",
+            "optionsVi": {
+              "A": "Các mẫu thử ban đầu quá dễ rách khi đựng nông sản nặng và đắt hơn nhiều so với túi thường.",
+              "B": "Siêu thị dự định tuyển 30 thu ngân bán thời gian dịp lễ.",
+              "C": "Khách có thể đặt bánh ngọt qua ứng dụng.",
+              "D": "Portland có lượng mưa ôn hòa bất thường tháng 8."
+            }
+          },
+          "proof": {
+            "explanation": "'Early prototypes ... cost far more' giải thích lý do mất 18 tháng thử nghiệm (câu trước) và đối ứng hoàn hảo với 'Ultimately ... kept costs within...' (câu sau).",
+            "evidenceQuote": "Ultimately, by partnering directly with a local agricultural cooperative, the chain kept per-unit packaging costs",
+            "evidenceSentenceId": "p6-4-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Nối hoàn hảo lý do thử nghiệm 18 tháng và cách giải quyết chi phí ở câu sau.",
+            "B": "Loại vì lạc đề nhân sự.",
+            "C": "Loại vì lạc đề bánh ngọt.",
+            "D": "Loại vì lạc đề thời tiết."
+          },
+          "keyTakeaways": {
+            "formula": "Quá trình dài (18 months) → Khó khăn ban đầu (Early prototypes...) → Ultimately + Giải pháp",
+            "commonTrap": "Không bám theo mạch đối ứng 'Early prototypes' ↔ 'Ultimately'.",
+            "paraphrases": [
+              {
+                "textInPassage": "early prototypes",
+                "textInAnswer": "initial test versions",
+                "meaningVi": "các phiên bản thử nghiệm ban đầu"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q145",
+        "blankNumber": 145,
+        "questionType": "Từ vựng",
+        "options": {
+          "A": "budget",
+          "B": "agenda",
+          "C": "venue",
+          "D": "warranty"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Collocation Tài chính",
+            "signal": "Cụm cố định 'keep costs within budget' (giữ chi phí trong ngân sách)."
+          },
+          "translation": {
+            "questionVi": "Chọn danh từ sau 'annual' tại [145].",
+            "optionsVi": {
+              "A": "ngân sách",
+              "B": "chương trình nghị sự",
+              "C": "địa điểm tổ chức",
+              "D": "bảo hành"
+            }
+          },
+          "proof": {
+            "explanation": "Đi với 'packaging costs' và giới từ 'within its annual ___', danh từ duy nhất hợp nghĩa là 'budget'.",
+            "evidenceQuote": "kept per-unit packaging costs well within its annual [145] _______.",
+            "evidenceSentenceId": "p6-4-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — within its annual budget.",
+            "B": "Loại vì dùng cho cuộc họp.",
+            "C": "Loại vì dùng cho sự kiện.",
+            "D": "Loại vì dùng cho sản phẩm điện tử/nội thất."
+          },
+          "keyTakeaways": {
+            "formula": "within / under / over + budget",
+            "commonTrap": "Không nhìn thấy cụm 'packaging costs' ngay phía trước.",
+            "paraphrases": [
+              {
+                "textInPassage": "well within its annual budget",
+                "textInAnswer": "without exceeding planned expenses",
+                "meaningVi": "không vượt quá chi phí dự kiến"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "t1-p6-q146",
+        "blankNumber": 146,
+        "questionType": "Ngữ pháp",
+        "options": {
+          "A": "adopted",
+          "B": "will adopt",
+          "C": "were adopting",
+          "D": "have been adopted"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 6 — Thì Tương lai đơn (predict + mốc tương lai)",
+            "signal": "Động từ 'predict' (dự đoán) + mốc thời gian 'before the end of next year' + có tân ngữ 'similar eco-friendly standards' → chủ động tương lai 'will adopt'."
+          },
+          "translation": {
+            "questionVi": "Chọn thì động từ đúng tại [146].",
+            "optionsVi": {
+              "A": "adopted: đã áp dụng (QKĐ)",
+              "B": "will adopt: sẽ áp dụng (TLĐ chủ động)",
+              "C": "were adopting: đang áp dụng (QKTD)",
+              "D": "have been adopted: đã được áp dụng (bị động)"
+            }
+          },
+          "proof": {
+            "explanation": "Dự đoán sự việc xảy ra vào năm tới ('before the end of next year') với tân ngữ theo sau ('standards') → dùng Tương lai đơn chủ động 'will adopt'.",
+            "evidenceQuote": "Industry analysts predict that several competing chains [146] _______ similar eco-friendly standards before the end of next year.",
+            "evidenceSentenceId": "p6-4-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại vì quá khứ đơn.",
+            "B": "ĐÚNG — predict that S + will + V0.",
+            "C": "Loại vì quá khứ tiếp diễn.",
+            "D": "Loại vì bị động không hợp với tân ngữ 'standards' phía sau."
+          },
+          "keyTakeaways": {
+            "formula": "predict / forecast / expect that + S + will + V0",
+            "commonTrap": "Thấy động từ 'predict' ở hiện tại rồi chọn nhầm đáp án không có 'will'.",
+            "paraphrases": [
+              {
+                "textInPassage": "adopt similar standards",
+                "textInAnswer": "follow comparable green practices",
+                "meaningVi": "áp dụng các chuẩn xanh tương tự"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

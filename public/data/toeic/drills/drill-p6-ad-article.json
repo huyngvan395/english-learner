@@ -1,0 +1,437 @@
+{
+  "id": "drill-p6-ad-article",
+  "part": 6,
+  "title": "Quảng cáo & Bài báo kinh tế",
+  "subtitle": "Khóa học phân tích dữ liệu & phà điện xanh — luyện phân từ và từ vựng báo chí.",
+  "focusTag": "Ad / Article",
+  "part6": [
+    {
+      "id": "dp6-aa-1",
+      "title": "Quảng cáo khóa học phân tích dữ liệu cho người đi làm",
+      "genre": "Advertisement",
+      "paragraphs": [
+        {
+          "id": "dp6-aa-1-p1",
+          "sentences": [
+            {
+              "id": "dp6-aa-1-s1",
+              "en": "Looking to turn raw spreadsheets into clear executive dashboards? DataCraft's eight-week evening bootcamp is designed [131] for busy professionals.",
+              "vi": "Bạn muốn biến bảng tính thô thành bảng điều khiển lãnh đạo rõ nét? Khóa học buổi tối tám tuần của DataCraft được thiết kế đặc biệt cho người đi làm bận rộn."
+            },
+            {
+              "id": "dp6-aa-1-s2",
+              "en": "Live classes meet twice a week online, and every session is recorded for convenient review. [132]",
+              "vi": "Lớp học trực tuyến diễn ra hai buổi mỗi tuần, và mọi buổi đều được ghi hình để tiện xem lại. [132]"
+            }
+          ]
+        },
+        {
+          "id": "dp6-aa-1-p2",
+          "sentences": [
+            {
+              "id": "dp6-aa-1-s3",
+              "en": "[133], participants complete a capstone project using real retail and logistics datasets.",
+              "vi": "Ngoài ra, học viên còn hoàn thành một dự án cuối khóa bằng dữ liệu bán lẻ và logistics thực tế."
+            },
+            {
+              "id": "dp6-aa-1-s4",
+              "en": "Register before May 20 to take advantage of our 15-percent early-enrollment [134].",
+              "vi": "Đăng ký trước 20/5 để tận dụng mức giảm giá đăng ký sớm 15% của chúng tôi."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp6-aa-1-q1",
+          "blankNumber": 131,
+          "questionType": "Ngữ pháp",
+          "options": {
+            "A": "specific",
+            "B": "specifically",
+            "C": "specify",
+            "D": "specification"
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "classification": {
+              "category": "Từ loại — Trạng từ bổ nghĩa cho phân từ 'designed'",
+              "signal": "Cấu trúc: is designed + [Adv] + for..."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [131].",
+              "optionsVi": {
+                "A": "cụ thể (Adj)",
+                "B": "đặc biệt, riêng biệt (Adv)",
+                "C": "chỉ rõ (V)",
+                "D": "thông số kỹ thuật (N)"
+              }
+            },
+            "proof": {
+              "explanation": "Bổ nghĩa cho động từ bị động 'is designed' cần trạng từ -> 'specifically'.",
+              "evidenceQuote": "Looking to turn raw spreadsheets into clear executive dashboards? DataCraft's eight-week evening bootcamp is designed [131] for busy professionals.",
+              "evidenceSentenceId": "dp6-aa-1-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (cụ thể (Adj)).",
+              "B": "Đúng: Bổ nghĩa cho động từ bị động 'is designed' cần trạng từ -> 'specifically'.",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (chỉ rõ (V)).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (thông số kỹ thuật (N))."
+            },
+            "keyTakeaways": {
+              "formula": "be designed specifically / specifically designed for",
+              "commonTrap": "Chọn nhầm tính từ 'specific'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-aa-1-q2",
+          "blankNumber": 132,
+          "questionType": "Điền câu (Sentence Insertion)",
+          "options": {
+            "A": "Even if work travel forces you to miss a live class, you can catch up over the weekend.",
+            "B": "Our cafeteria serves vegan sandwiches daily.",
+            "C": "Parking meters accept coins only.",
+            "D": "Hardware returns require original boxes."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu giải thích lợi ích của 'every session is recorded'",
+              "signal": "Câu trước nói mọi buổi học đều ghi hình -> câu (A) giải thích nếu đi công tác lỡ lớp vẫn xem bù cuối tuần được!"
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [132].",
+              "optionsVi": {
+                "A": "Ngay cả khi công tác khiến bạn lỡ buổi học trực tiếp, bạn vẫn có thể học bù cuối tuần.",
+                "B": "Căng tin bán bánh mì thuần chay.",
+                "C": "Đồng hồ đỗ xe chỉ nhận xu.",
+                "D": "Trả phần cứng cần hộp gốc."
+              }
+            },
+            "proof": {
+              "explanation": "Cặp từ liên kết hoàn hảo: 'recorded for convenient review' <-> 'miss a live class, catch up'.",
+              "evidenceQuote": "Live classes meet twice a week online, and every session is recorded for convenient review. [132]",
+              "evidenceSentenceId": "dp6-aa-1-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Cặp từ liên kết hoàn hảo: 'recorded for convenient review' <-> 'miss a live class, catch up'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Căng tin bán bánh mì thuần chay.).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Đồng hồ đỗ xe chỉ nhận xu.).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Trả phần cứng cần hộp gốc.)."
+            },
+            "keyTakeaways": {
+              "formula": "Đọc câu trước tìm lý do -> câu sau nêu tình huống áp dụng",
+              "commonTrap": "Chọn câu lạc ngành giáo dục.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-aa-1-q3",
+          "blankNumber": 133,
+          "questionType": "Từ nối",
+          "options": {
+            "A": "In addition",
+            "B": "Nevertheless",
+            "C": "Otherwise",
+            "D": "Even though"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Cụm từ nối bổ sung điểm mạnh chương trình",
+              "signal": "Thêm nội dung thực hành dự án thực tế -> 'In addition'."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [133].",
+              "optionsVi": {
+                "A": "Thêm vào đó",
+                "B": "Tuy nhiên",
+                "C": "Nếu không thì",
+                "D": "Mặc dù"
+              }
+            },
+            "proof": {
+              "explanation": "Liệt kê thêm quyền lợi khóa học -> 'In addition'.",
+              "evidenceQuote": "[133], participants complete a capstone project using real retail and logistics datasets.",
+              "evidenceSentenceId": "dp6-aa-1-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Liệt kê thêm quyền lợi khóa học -> 'In addition'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Tuy nhiên).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Nếu không thì).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Mặc dù)."
+            },
+            "keyTakeaways": {
+              "formula": "In addition, S + V",
+              "commonTrap": "Dùng liên từ đối lập.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-aa-1-q4",
+          "blankNumber": 134,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "discount",
+            "B": "penalty",
+            "C": "salary",
+            "D": "deposit"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Từ vựng khuyến mãi ('early-enrollment discount')",
+              "signal": "'take advantage of our 15-percent early-enrollment discount' (ưu đãi giảm 15%)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [134].",
+              "optionsVi": {
+                "A": "mức giảm giá",
+                "B": "tiền phạt",
+                "C": "tiền lương",
+                "D": "tiền cọc"
+              }
+            },
+            "proof": {
+              "explanation": "15-percent + early-enrollment -> chỉ 'discount' phù hợp.",
+              "evidenceQuote": "Register before May 20 to take advantage of our 15-percent early-enrollment [134].",
+              "evidenceSentenceId": "dp6-aa-1-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 15-percent + early-enrollment -> chỉ 'discount' phù hợp.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (tiền phạt).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (tiền lương).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (tiền cọc)."
+            },
+            "keyTakeaways": {
+              "formula": "early-enrollment / early-bird discount",
+              "commonTrap": "Nhầm 'deposit' với 'discount'.",
+              "paraphrases": []
+            }
+          }
+        }
+      ],
+      "headerMeta": {
+        "subject": "DataCraft Evening Bootcamp — Advance Your Career"
+      }
+    },
+    {
+      "id": "dp6-aa-2",
+      "title": "Bài báo địa phương về tuyến phà điện không phát thải",
+      "genre": "Article",
+      "paragraphs": [
+        {
+          "id": "dp6-aa-2-p1",
+          "sentences": [
+            {
+              "id": "dp6-aa-2-s1",
+              "en": "Harbor City Transit officially launched its first all-electric passenger ferry on Tuesday, [135] a major step toward cleaner waterfront commuting.",
+              "vi": "Harbor City Transit chính thức khai trương chiếc phà chở khách chạy điện hoàn toàn đầu tiên vào thứ Ba, đánh dấu bước tiến lớn hướng tới giao thông ven sông sạch hơn."
+            },
+            {
+              "id": "dp6-aa-2-s2",
+              "en": "Powered by rapid-charging lithium batteries, the vessel carries 180 riders quietly across the bay in twelve minutes. [136]",
+              "vi": "Chạy bằng pin lithium sạc nhanh, con tàu chở 180 hành khách êm ái qua vịnh chỉ trong mười hai phút. [136]"
+            }
+          ]
+        },
+        {
+          "id": "dp6-aa-2-p2",
+          "sentences": [
+            {
+              "id": "dp6-aa-2-s3",
+              "en": "Transit officials estimate that replacing diesel ferries will cut port fuel expenses by [137] $180,000 per year.",
+              "vi": "Giới chức giao thông ước tính việc thay thế phà dầu diesel sẽ cắt giảm chi phí nhiên liệu cảng khoảng 180.000 đô la mỗi năm."
+            },
+            {
+              "id": "dp6-aa-2-s4",
+              "en": "Two additional electric vessels are currently under [138] and will join the fleet next spring.",
+              "vi": "Hai chiếc tàu điện bổ sung hiện đang được đóng mới và sẽ gia nhập đội tàu vào mùa xuân tới."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp6-aa-2-q1",
+          "blankNumber": 135,
+          "questionType": "Ngữ pháp",
+          "options": {
+            "A": "marking",
+            "B": "marked",
+            "C": "marks",
+            "D": "to be marked"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Mệnh đề phân từ chỉ kết quả (, V-ing)",
+              "signal": "Sau mệnh đề hoàn chỉnh và dấu phẩy -> dùng V-ing 'marking' (= which marks) chỉ ý nghĩa/kết quả của cả sự việc."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [135].",
+              "optionsVi": {
+                "A": "đánh dấu (V-ing chỉ kết quả)",
+                "B": "được đánh dấu (bị động)",
+                "C": "động từ chia thì (lỗi comma splice)",
+                "D": "bị động to V"
+              }
+            },
+            "proof": {
+              "explanation": "Có tân ngữ 'a major step' phía sau nên dùng phân từ chủ động 'marking'.",
+              "evidenceQuote": "Harbor City Transit officially launched its first all-electric passenger ferry on Tuesday, [135] a major step toward cleaner waterfront commuting.",
+              "evidenceSentenceId": "dp6-aa-2-s1"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Có tân ngữ 'a major step' phía sau nên dùng phân từ chủ động 'marking'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (được đánh dấu (bị động)).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (động từ chia thì (lỗi comma splice)).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (bị động to V)."
+            },
+            "keyTakeaways": {
+              "formula": "S + V ..., V-ing + O (chỉ kết quả/ý nghĩa)",
+              "commonTrap": "Chọn 'marks' gây lỗi hai động từ chia thì không có liên từ.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-aa-2-q2",
+          "blankNumber": 136,
+          "questionType": "Điền câu (Sentence Insertion)",
+          "options": {
+            "A": "Charging plugs at both piers recharge the boat in just eight minutes between crossings.",
+            "B": "Local bakeries opened early for the parade.",
+            "C": "Library cards are free for all residents.",
+            "D": "The theater announced its autumn play schedule."
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Điền câu triển khai cụm 'rapid-charging lithium batteries'",
+              "signal": "Câu trước nhắc 'rapid-charging lithium batteries' -> câu (A) giải thích chi tiết sạc đầy chỉ mất 8 phút tại bến tàu!"
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [136].",
+              "optionsVi": {
+                "A": "Trụ sạc tại hai bến tàu nạp lại điện cho phà chỉ trong tám phút giữa các chuyến.",
+                "B": "Tiệm bánh mở sớm cho diễu hành.",
+                "C": "Thẻ thư viện miễn phí.",
+                "D": "Nhà hát công bố lịch kịch mùa thu."
+              }
+            },
+            "proof": {
+              "explanation": "Cặp từ khóa kỹ thuật nối nhau trực tiếp: 'rapid-charging batteries' <-> 'recharge the boat in eight minutes'.",
+              "evidenceQuote": "Powered by rapid-charging lithium batteries, the vessel carries 180 riders quietly across the bay in twelve minutes. [136]",
+              "evidenceSentenceId": "dp6-aa-2-s2"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: Cặp từ khóa kỹ thuật nối nhau trực tiếp: 'rapid-charging batteries' <-> 'recharge the boat in eight minutes'.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Tiệm bánh mở sớm cho diễu hành.).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Thẻ thư viện miễn phí.).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (Nhà hát công bố lịch kịch mùa thu.)."
+            },
+            "keyTakeaways": {
+              "formula": "Nối tiếp chi tiết kỹ thuật vừa giới thiệu",
+              "commonTrap": "Chọn câu lạc đề.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-aa-2-q3",
+          "blankNumber": 137,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "approximately",
+            "B": "strictly",
+            "C": "barely",
+            "D": "accidentally"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Trạng từ ước lượng đi với con số ('approximately')",
+              "signal": "Động từ 'estimate' (ước tính) khớp tự nhiên với 'approximately $180,000' (khoảng 180.000 đô)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [137].",
+              "optionsVi": {
+                "A": "xấp xỉ, khoảng chừng",
+                "B": "nghiêm ngặt",
+                "C": "hầu như không",
+                "D": "vô tình"
+              }
+            },
+            "proof": {
+              "explanation": "'estimate ... approximately' là cặp từ chuẩn xác nhất khi ước tính số liệu tài chính.",
+              "evidenceQuote": "Transit officials estimate that replacing diesel ferries will cut port fuel expenses by [137] $180,000 per year.",
+              "evidenceSentenceId": "dp6-aa-2-s3"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'estimate ... approximately' là cặp từ chuẩn xác nhất khi ước tính số liệu tài chính.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (nghiêm ngặt).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (hầu như không).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (vô tình)."
+            },
+            "keyTakeaways": {
+              "formula": "estimate + approximately / roughly + Number",
+              "commonTrap": "Chọn 'strictly' mâu thuẫn với 'estimate'.",
+              "paraphrases": []
+            }
+          }
+        },
+        {
+          "id": "dp6-aa-2-q4",
+          "blankNumber": 138,
+          "questionType": "Từ vựng",
+          "options": {
+            "A": "construction",
+            "B": "reservation",
+            "C": "permission",
+            "D": "satisfaction"
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "classification": {
+              "category": "Cụm giới từ cố định 'under construction'",
+              "signal": "Hai con tàu mới sẽ gia nhập đội tàu mùa xuân tới -> hiện đang 'under construction' (đang được đóng/xây dựng)."
+            },
+            "translation": {
+              "questionVi": "Chọn đáp án phù hợp nhất điền vào chỗ trống [138].",
+              "optionsVi": {
+                "A": "đang được xây dựng/đóng mới ('under construction')",
+                "B": "đặt chỗ",
+                "C": "sự cho phép",
+                "D": "sự hài lòng"
+              }
+            },
+            "proof": {
+              "explanation": "'under construction' áp dụng cho cả tòa nhà lẫn tàu thủy/phà.",
+              "evidenceQuote": "Two additional electric vessels are currently under [138] and will join the fleet next spring.",
+              "evidenceSentenceId": "dp6-aa-2-s4"
+            },
+            "wrongOptionsAnalysis": {
+              "A": "Đúng: 'under construction' áp dụng cho cả tòa nhà lẫn tàu thủy/phà.",
+              "B": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (đặt chỗ).",
+              "C": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (sự cho phép).",
+              "D": "Sai: Không phù hợp ngữ pháp/ngữ cảnh đoạn văn (sự hài lòng)."
+            },
+            "keyTakeaways": {
+              "formula": "be under construction / renovation / review",
+              "commonTrap": "Nghĩ 'construction' chỉ dùng cho nhà cửa.",
+              "paraphrases": []
+            }
+          }
+        }
+      ],
+      "headerMeta": {
+        "subject": "Harbor City Launches Zero-Emission Commuter Ferry"
+      }
+    }
+  ]
+}

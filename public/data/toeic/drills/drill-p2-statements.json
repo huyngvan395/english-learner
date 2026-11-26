@@ -1,0 +1,384 @@
+{
+  "id": "drill-p2-statements",
+  "part": 2,
+  "title": "Câu trần thuật (Statements)",
+  "subtitle": "Phản xạ đề xuất giải pháp, đồng cảm và tiếp nhận thông báo công sở.",
+  "focusTag": "Statements",
+  "part2": [
+    {
+      "id": "dp2-st-1",
+      "part": 2,
+      "questionType": "Câu trần thuật (Statement)",
+      "title": "Statement — Báo hết giấy in ở máy tầng 2",
+      "questionLine": {
+        "id": "dp2-st-1-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "We're almost out of letterhead paper in the second-floor printer.",
+        "vi": "Chúng ta sắp hết giấy tiêu đề công ty ở máy in tầng hai rồi.",
+        "startMs": 240,
+        "endMs": 4272
+      },
+      "options": {
+        "A": {
+          "en": "I'll bring a new ream up from the supply room.",
+          "vi": "Tôi sẽ mang một ram giấy mới từ phòng vật tư lên.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4872,
+          "endMs": 8352
+        },
+        "B": {
+          "en": "The letter arrived by registered mail.",
+          "vi": "Bức thư đến qua đường thư bảo đảm.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 8952,
+          "endMs": 12168
+        },
+        "C": {
+          "en": "Yes, the second floor is quieter.",
+          "vi": "Vâng, tầng hai yên tĩnh hơn.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12768,
+          "endMs": 16272
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'letter / second floor'",
+        "trapAnalysis": "Câu trần thuật báo thiếu vật tư -> phản hồi đúng là đề nghị bổ sung ngay ('bring a new ream up').",
+        "paraphrases": [
+          {
+            "audioPhrase": "out of paper",
+            "answerPhrase": "bring a new ream from supply room",
+            "meaningVi": "lấy thêm giấy từ phòng vật tư"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Chủ động lấy thêm giấy từ kho vật tư.",
+          "B": "Sai bẫy lặp 'letter'.",
+          "C": "Sai bẫy lặp 'second floor'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-st-1-v1",
+            "word": "supply room",
+            "pos": "phrase",
+            "ipaUK": "/səˈplaɪ ruːm/",
+            "ipaUS": "/səˈplaɪ ruːm/",
+            "meaning": "phòng chứa văn phòng phẩm/vật tư",
+            "exampleEn": "Extra toner cartridges are stored in the supply room.",
+            "exampleVi": "Hộp mực dự phòng được cất trong phòng vật tư."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-st-1.mp3"
+    },
+    {
+      "id": "dp2-st-2",
+      "part": 2,
+      "questionType": "Câu trần thuật (Statement)",
+      "title": "Statement — Kể vừa chuyển sang căn hộ gần văn phòng",
+      "questionLine": {
+        "id": "dp2-st-2-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "I just moved into an apartment ten minutes from the office.",
+        "vi": "Tôi vừa chuyển tới một căn hộ cách văn phòng chỉ mười phút.",
+        "startMs": 240,
+        "endMs": 4080
+      },
+      "options": {
+        "A": {
+          "en": "That must make your morning commute so much easier.",
+          "vi": "Thế thì việc đi làm buổi sáng của bạn chắc nhẹ nhàng hơn nhiều.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4680,
+          "endMs": 8328
+        },
+        "B": {
+          "en": "Please move those chairs aside.",
+          "vi": "Vui lòng dời mấy chiếc ghế sang bên.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 8928,
+          "endMs": 11712
+        },
+        "C": {
+          "en": "At ten o'clock sharp.",
+          "vi": "Đúng mười giờ.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 12312,
+          "endMs": 15096
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'moved / ten'",
+        "trapAnalysis": "Câu trần thuật chia sẻ tin vui cá nhân -> đáp án là lời nhận xét/chúc mừng đồng cảm ('make your morning commute easier').",
+        "paraphrases": [
+          {
+            "audioPhrase": "ten minutes from the office",
+            "answerPhrase": "make your morning commute easier",
+            "meaningVi": "đi làm gần và thuận tiện hơn"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Phản hồi đồng cảm cực kỳ tự nhiên về quãng đường đi làm.",
+          "B": "Sai bẫy lặp 'move'.",
+          "C": "Sai bẫy lặp số 'ten'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-st-2-v1",
+            "word": "commute",
+            "pos": "n",
+            "ipaUK": "/kəˈmjuːt/",
+            "ipaUS": "/kəˈmjuːt/",
+            "meaning": "quãng đường đi làm hàng ngày",
+            "exampleEn": "The new rail line cut her daily commute by half an hour.",
+            "exampleVi": "Tuyến tàu mới giúp rút ngắn 30 phút đi làm mỗi ngày của cô ấy."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-st-2.mp3"
+    },
+    {
+      "id": "dp2-st-3",
+      "part": 2,
+      "questionType": "Câu trần thuật (Statement)",
+      "title": "Statement — Nhắc hạn đăng ký hội thảo sắp hết",
+      "questionLine": {
+        "id": "dp2-st-3-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Early-bird registration for the logistics summit closes tonight.",
+        "vi": "Đăng ký vé ưu đãi sớm cho hội nghị thượng đỉnh logistics đóng vào tối nay.",
+        "startMs": 240,
+        "endMs": 4608
+      },
+      "options": {
+        "A": {
+          "en": "Thanks for the reminder—I'll sign up right now.",
+          "vi": "Cảm ơn đã nhắc—tôi sẽ đăng ký ngay bây giờ.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 5208,
+          "endMs": 9432
+        },
+        "B": {
+          "en": "The birds sing every morning.",
+          "vi": "Chim hót mỗi buổi sáng.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 10032,
+          "endMs": 13152
+        },
+        "C": {
+          "en": "Close the window please.",
+          "vi": "Làm ơn đóng cửa sổ giúp.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 13752,
+          "endMs": 16824
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy nghĩa đen 'early-bird' -> 'birds' & 'closes / close'",
+        "trapAnalysis": "Thành ngữ 'early-bird' (đăng ký sớm) bị bẫy bằng từ 'birds' (chim) ở câu B!",
+        "paraphrases": [
+          {
+            "audioPhrase": "registration closes tonight",
+            "answerPhrase": "thanks for the reminder — I'll sign up",
+            "meaningVi": "cảm ơn lời nhắc và đăng ký ngay"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Cảm ơn lời nhắc và hành động đăng ký ngay.",
+          "B": "Sai bẫy hiểu nghĩa đen 'early-bird' -> 'birds'.",
+          "C": "Sai bẫy lặp 'close'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-st-3-v1",
+            "word": "early-bird",
+            "pos": "adj",
+            "ipaUK": "/ˌɜːli ˈbɜːd/",
+            "ipaUS": "/ˌɝːli ˈbɝːd/",
+            "meaning": "ưu đãi đăng ký sớm",
+            "exampleEn": "Register before May 1 to claim the early-bird conference rate.",
+            "exampleVi": "Đăng ký trước 1/5 để nhận mức vé hội nghị ưu đãi sớm."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-st-3.mp3"
+    },
+    {
+      "id": "dp2-st-4",
+      "part": 2,
+      "questionType": "Câu trần thuật (Statement)",
+      "title": "Statement — Không mở được tệp bảng tính",
+      "questionLine": {
+        "id": "dp2-st-4-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I can't open the quarterly budget spreadsheet you attached.",
+        "vi": "Tôi không thể mở tệp bảng tính ngân sách quý mà bạn đính kèm.",
+        "startMs": 240,
+        "endMs": 4104
+      },
+      "options": {
+        "A": {
+          "en": "Let me convert it to a PDF and resend it.",
+          "vi": "Để tôi chuyển nó sang định dạng PDF rồi gửi lại nhé.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4704,
+          "endMs": 8592
+        },
+        "B": {
+          "en": "The store opens at eight.",
+          "vi": "Cửa hàng mở cửa lúc tám giờ.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 9192,
+          "endMs": 11952
+        },
+        "C": {
+          "en": "Yes, a quarter of the team.",
+          "vi": "Vâng, một phần tư cả đội.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12552,
+          "endMs": 15672
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'open' và 'quarterly / quarter'",
+        "trapAnalysis": "Báo lỗi file -> giải pháp trực tiếp là đổi định dạng và gửi lại ('convert it to a PDF and resend it').",
+        "paraphrases": [
+          {
+            "audioPhrase": "can't open spreadsheet",
+            "answerPhrase": "convert to PDF and resend",
+            "meaningVi": "chuyển PDF gửi lại"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Giải quyết dứt điểm lỗi không mở được file.",
+          "B": "Sai bẫy lặp 'open'.",
+          "C": "Sai bẫy lặp 'quarter'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-st-4-v1",
+            "word": "attach",
+            "pos": "v",
+            "ipaUK": "/əˈtætʃ/",
+            "ipaUS": "/əˈtætʃ/",
+            "meaning": "đính kèm tệp",
+            "exampleEn": "Please attach a copy of the receipt to your expense claim.",
+            "exampleVi": "Vui lòng đính kèm bản sao hóa đơn vào đơn thanh toán chi phí."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-st-4.mp3"
+    },
+    {
+      "id": "dp2-st-5",
+      "part": 2,
+      "questionType": "Câu trần thuật (Statement)",
+      "title": "Statement — Khen dịch vụ giao đồ ăn trưa rất đúng giờ",
+      "questionLine": {
+        "id": "dp2-st-5-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "The new café downstairs delivered our lunch platters right on time.",
+        "vi": "Quán cà phê mới dưới tầng giao các khay đồ ăn trưa rất đúng giờ.",
+        "startMs": 240,
+        "endMs": 4128
+      },
+      "options": {
+        "A": {
+          "en": "Great—let's use them again for next Friday's board meeting.",
+          "vi": "Tuyệt—hãy đặt bên họ tiếp cho cuộc họp hội đồng thứ Sáu tới nhé.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4728,
+          "endMs": 9240
+        },
+        "B": {
+          "en": "Take the stairs to the basement.",
+          "vi": "Đi cầu thang xuống tầng hầm.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 9840,
+          "endMs": 12648
+        },
+        "C": {
+          "en": "No, I don't have time right now.",
+          "vi": "Không, hiện tôi không có thời gian.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 13248,
+          "endMs": 16296
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'downstairs / stairs' và 'on time / have time'",
+        "trapAnalysis": "Nhận xét tích cực về nhà cung cấp -> đồng tình và đề xuất tiếp tục sử dụng cho sự kiện sau.",
+        "paraphrases": [
+          {
+            "audioPhrase": "delivered right on time",
+            "answerPhrase": "use them again for next meeting",
+            "meaningVi": "đề xuất đặt lại cho cuộc họp sau"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Phản hồi tự nhiên, đề xuất đặt lại dịch vụ tốt.",
+          "B": "Sai bẫy gần âm 'downstairs' / 'stairs'.",
+          "C": "Sai bẫy lặp từ 'time'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-st-5-v1",
+            "word": "platter",
+            "pos": "n",
+            "ipaUK": "/ˈplætə/",
+            "ipaUS": "/ˈplætɚ/",
+            "meaning": "khay, đĩa thức ăn lớn đãi tiệc",
+            "exampleEn": "Catering arranged assorted sandwich platters for the guests.",
+            "exampleVi": "Bên tiệc bày sẵn các khay bánh mì kẹp thập cẩm cho khách."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-st-5.mp3"
+    }
+  ]
+}

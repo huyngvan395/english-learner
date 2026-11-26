@@ -1,0 +1,2271 @@
+[
+  {
+    "id": "t1-p7-triple-1",
+    "title": "Triple 1: Chính sách Giao hàng, Hóa đơn & Email Khiếu nại Nội thất",
+    "passageCountType": "triple",
+    "topic": "Đơn hàng, Hóa đơn & CSKH (Notice + Invoice + Email)",
+    "passages": [
+      {
+        "id": "p7-t1-doc1",
+        "tabLabel": "Passage 1: Policy Notice",
+        "genre": "Notice",
+        "title": "Crestline Office Furnishings — Updated Delivery & Return Policy",
+        "headerMeta": [
+          {
+            "label": "Effective Date",
+            "value": "January 1"
+          },
+          {
+            "label": "Applies To",
+            "value": "All Commercial & Corporate Orders"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t1-p1",
+            "sentences": [
+              {
+                "id": "p7-t1-s1",
+                "en": "Orders totaling $1,500 or more qualify for complimentary standard freight delivery and complimentary on-site assembly.",
+                "vi": "Các đơn hàng có tổng giá trị từ 1.500 đô la trở lên đủ điều kiện nhận giao hàng tiêu chuẩn miễn phí và lắp ráp tận nơi miễn phí."
+              },
+              {
+                "id": "p7-t1-s2",
+                "en": "For orders under $1,500, a flat shipping fee of $120 applies, and optional assembly may be added for $75 per order.",
+                "vi": "Với đơn dưới 1.500 đô la, phí vận chuyển cố định là 120 đô la và dịch vụ lắp ráp tùy chọn là 75 đô la mỗi đơn."
+              }
+            ]
+          },
+          {
+            "id": "p7-t1-p2",
+            "sentences": [
+              {
+                "id": "p7-t1-s3",
+                "en": "Defective or transit-damaged furniture must be reported within 7 business days of delivery to receive a priority replacement at no charge.",
+                "vi": "Nội thất bị lỗi hoặc hư hỏng khi vận chuyển phải báo trong vòng 7 ngày làm việc kể từ ngày giao để được đổi mới ưu tiên miễn phí."
+              },
+              {
+                "id": "p7-t1-s4",
+                "en": "Please note that custom-upholstered items are non-refundable unless damaged upon arrival.",
+                "vi": "Lưu ý hàng bọc vải đặt riêng không hoàn tiền trừ khi hư hỏng lúc giao tới."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t1-doc2",
+        "tabLabel": "Passage 2: Invoice",
+        "genre": "Invoice / Form",
+        "title": "Commercial Invoice #CR-8842",
+        "headerMeta": [
+          {
+            "label": "Client",
+            "value": "Brightpath Design Studio (Attn: Kevin Cho)"
+          },
+          {
+            "label": "Order Date",
+            "value": "February 4"
+          },
+          {
+            "label": "Delivery Date",
+            "value": "February 10"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Item Code",
+            "Description",
+            "Qty",
+            "Unit Price",
+            "Subtotal"
+          ],
+          "rows": [
+            {
+              "id": "p7-t1-r1",
+              "cells": [
+                "ER-204",
+                "AeroMesh Ergonomic Chair (Standard Black)",
+                "4",
+                "$260",
+                "$1,040"
+              ],
+              "viNote": "Ghế công thái học AeroMesh (4 x $260 = $1,040)"
+            },
+            {
+              "id": "p7-t1-r2",
+              "cells": [
+                "DK-510",
+                "Adjustable Oak Standing Desk (60-inch)",
+                "2",
+                "$340",
+                "$680"
+              ],
+              "viNote": "Bàn đứng gỗ sồi điều chỉnh độ cao (2 x $340 = $680)"
+            },
+            {
+              "id": "p7-t1-r3",
+              "cells": [
+                "SV-001",
+                "Standard Freight & On-Site Assembly",
+                "1",
+                "$120",
+                "$120"
+              ],
+              "viNote": "Phí giao hàng & lắp ráp ($120 — tính nhầm vì đơn > $1,500)"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-t1-p3",
+            "sentences": [
+              {
+                "id": "p7-t1-s5",
+                "en": "Merchandise Subtotal: $1,720 | Shipping/Service Listed: $120 | Total Charged: $1,840.",
+                "vi": "Tạm tính hàng hóa: 1.720 đô la | Phí dịch vụ ghi hóa đơn: 120 đô la | Tổng đã thu: 1.840 đô la."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t1-doc3",
+        "tabLabel": "Passage 3: Customer Email",
+        "genre": "Email",
+        "title": "Email từ Khách hàng Kevin Cho",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Kevin Cho <kcho@brightpathstudio.com>"
+          },
+          {
+            "label": "To",
+            "value": "support@crestlinefurnishings.com"
+          },
+          {
+            "label": "Date",
+            "value": "February 12"
+          },
+          {
+            "label": "Subject",
+            "value": "Issues with Order #CR-8842"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t1-p4",
+            "sentences": [
+              {
+                "id": "p7-t1-s6",
+                "en": "Hello Support Team, Our furniture shipment arrived two days ago, and the delivery crew assembled all six pieces professionally. However, I noticed two problems after reviewing the paperwork and inspecting the items.",
+                "vi": "Xin chào Đội hỗ trợ, lô nội thất của chúng tôi đã đến cách đây hai ngày và đội giao hàng đã lắp ráp cả sáu món rất chuyên nghiệp. Tuy nhiên, tôi thấy hai vấn đề sau khi kiểm tra giấy tờ và sản phẩm."
+              },
+              {
+                "id": "p7-t1-s7",
+                "en": "First, our invoice includes a shipping charge even though our furniture purchase exceeded your free-delivery threshold. Could you please issue a credit back to our corporate card for that fee?",
+                "vi": "Thứ nhất, hóa đơn tính phí vận chuyển dù giá trị đơn vượt ngưỡng miễn phí giao hàng. Quý công ty vui lòng hoàn khoản phí đó về thẻ công ty của chúng tôi?"
+              }
+            ]
+          },
+          {
+            "id": "p7-t1-p5",
+            "sentences": [
+              {
+                "id": "p7-t1-s8",
+                "en": "Second, one of the standing desks has a deep scratch along the front oak edge and its height-adjustment motor stalls halfway up. Photos are attached for your reference.",
+                "vi": "Thứ hai, một chiếc bàn đứng bị trầy sâu dọc cạnh gỗ sồi phía trước và mô-tơ nâng hạ bị khựng lại giữa chừng. Hình ảnh đã đính kèm."
+              },
+              {
+                "id": "p7-t1-s9",
+                "en": "Please let me know how soon we can arrange a replacement unit, as our new graphic designer starts next Monday.",
+                "vi": "Vui lòng cho biết sớm nhất khi nào có thể sắp xếp chiếc bàn thay thế, vì nhà thiết kế đồ họa mới sẽ đi làm vào thứ Hai tới."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-t1-q1",
+        "questionNumber": 196,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "According to Passage 1, how much does on-site assembly cost for a $1,000 furniture order?",
+        "options": {
+          "A": "$0",
+          "B": "$75",
+          "C": "$120",
+          "D": "$195"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết bảng phí (Passage 1)",
+            "signal": "Đơn $1,000 < $1,500 → kiểm tra phí 'optional assembly'."
+          },
+          "translation": {
+            "questionVi": "Theo Đoạn 1, phí lắp ráp tận nơi cho đơn $1,000 là bao nhiêu?",
+            "optionsVi": {
+              "A": "$0",
+              "B": "$75",
+              "C": "$120",
+              "D": "$195"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 1 ghi: 'optional assembly may be added for $75 per order' cho đơn dưới $1,500.",
+            "evidenceQuote": "optional assembly may be added for $75 per order.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t1-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Chỉ miễn phí khi ≥ $1,500.",
+            "B": "ĐÚNG — $75 riêng phí lắp ráp.",
+            "C": "Loại — $120 là phí ship.",
+            "D": "Loại — $195 là tổng cả ship lẫn lắp ráp."
+          },
+          "keyTakeaways": {
+            "formula": "Đọc kỹ câu hỏi hỏi 1 loại phí hay tổng 2 loại phí.",
+            "commonTrap": "Cộng gộp $120 + $75 = $195.",
+            "paraphrases": [
+              {
+                "textInPassage": "orders under $1,500",
+                "textInAnswer": "a $1,000 furniture order",
+                "meaningVi": "đơn dưới 1.500 đô la"
+              }
+            ]
+          },
+          "crossPassageLogic": {
+            "clue1Label": "Mảnh ghép Passage 1: Policy Notice",
+            "clue1Text": "optional assembly may be added for $75 per order.",
+            "clue2Label": "Đối chiếu Passage 2: Invoice",
+            "clue2Text": "Merchandise Subtotal: $1,720 | Shipping/Service Listed: $120 | Total Charged: $1,840.",
+            "deduction": "Kết hợp thông tin từ các văn bản → Chọn (B): $75 ($75)"
+          }
+        }
+      },
+      {
+        "id": "p7-t1-q2",
+        "questionNumber": 197,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "How much money is Mr. Cho requesting to be credited back to his company’s card?",
+        "options": {
+          "A": "$75",
+          "B": "$120",
+          "C": "$340",
+          "D": "$1,720"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận liên kết cả 3 đoạn",
+            "signal": "P3 đòi hoàn 'shipping charge' → Tra dòng SV-001 trên Hóa đơn P2 → $120!"
+          },
+          "translation": {
+            "questionVi": "Ông Cho yêu cầu hoàn lại bao nhiêu tiền về thẻ công ty?",
+            "optionsVi": {
+              "A": "$75",
+              "B": "$120",
+              "C": "$340",
+              "D": "$1,720"
+            }
+          },
+          "proof": {
+            "explanation": "Đơn hàng $1,720 vượt ngưỡng $1,500 (P1) nhưng vẫn bị tính $120 phí ship trên hóa đơn (P2), và ông Cho yêu cầu hoàn khoản phí này (P3).",
+            "evidenceQuote": "Merchandise Subtotal: $1,720 | Shipping/Service Listed: $120",
+            "evidencePassageIndex": 1,
+            "evidenceSentenceId": "p7-t1-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại.",
+            "B": "ĐÚNG — $120 phí vận chuyển tính nhầm.",
+            "C": "Loại — $340 là giá bàn đứng nhưng ông đòi đổi mới (replacement), không đòi hoàn tiền bàn.",
+            "D": "Loại — Tổng tiền hàng."
+          },
+          "keyTakeaways": {
+            "formula": "Quy định (P1) + Số tiền (P2) + Yêu cầu (P3) = Chuẩn Triple Passage.",
+            "commonTrap": "Chọn nhầm $340 giá chiếc bàn hỏng.",
+            "paraphrases": [
+              {
+                "textInPassage": "issue a credit back",
+                "textInAnswer": "credited back / refunded",
+                "meaningVi": "hoàn tiền lại thẻ"
+              }
+            ]
+          },
+          "crossPassageLogic": {
+            "clue1Label": "Mảnh ghép Passage 2: Invoice",
+            "clue1Text": "Merchandise Subtotal: $1,720 | Shipping/Service Listed: $120",
+            "clue2Label": "Đối chiếu Passage 1: Policy Notice",
+            "clue2Text": "Orders totaling $1,500 or more qualify for complimentary standard freight delivery and complimentary on-site assembly.",
+            "deduction": "Kết hợp thông tin từ các văn bản → Chọn (B): $120 ($120)"
+          }
+        }
+      },
+      {
+        "id": "p7-t1-q3",
+        "questionNumber": 198,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Which item code corresponds to the product that Mr. Cho wants replaced?",
+        "options": {
+          "A": "ER-204",
+          "B": "DK-510",
+          "C": "SV-001",
+          "D": "CR-8842"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tra chéo Mã sản phẩm (P3 → P2)",
+            "signal": "P3 báo hỏng 'standing desk ... oak edge' → Tra cột Item Code trên bảng P2."
+          },
+          "translation": {
+            "questionVi": "Mã sản phẩm nào tương ứng món hàng ông Cho muốn đổi mới?",
+            "optionsVi": {
+              "A": "ER-204 (Ghế)",
+              "B": "DK-510 (Bàn đứng gỗ sồi)",
+              "C": "SV-001 (Phí ship)",
+              "D": "CR-8842 (Số hóa đơn)"
+            }
+          },
+          "proof": {
+            "explanation": "P3 báo hỏng 'standing desks ... front oak edge' khớp với dòng DK-510 (Adjustable Oak Standing Desk) ở P2.",
+            "evidenceQuote": "one of the standing desks has a deep scratch along the front oak edge",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t1-s8"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Ghế không hỏng.",
+            "B": "ĐÚNG — DK-510.",
+            "C": "Loại — Mã dịch vụ.",
+            "D": "Loại — Số hóa đơn."
+          },
+          "keyTakeaways": {
+            "formula": "Mô tả hàng lỗi (Email) → Tra mã Item Code (Invoice).",
+            "commonTrap": "Nhầm số hóa đơn CR-8842 là mã sản phẩm.",
+            "paraphrases": [
+              {
+                "textInPassage": "height-adjustment motor",
+                "textInAnswer": "Adjustable Standing Desk",
+                "meaningVi": "bàn đứng điều chỉnh độ cao"
+              }
+            ]
+          },
+          "crossPassageLogic": {
+            "clue1Label": "Mảnh ghép Passage 3: Customer Email",
+            "clue1Text": "one of the standing desks has a deep scratch along the front oak edge",
+            "clue2Label": "Đối chiếu Passage 1: Policy Notice",
+            "clue2Text": "Orders totaling $1,500 or more qualify for complimentary standard freight delivery and complimentary on-site assembly.",
+            "deduction": "Kết hợp thông tin từ các văn bản → Chọn (B): DK-510 (DK-510 (Bàn đứng gỗ sồi))"
+          }
+        }
+      },
+      {
+        "id": "p7-t1-q4",
+        "questionNumber": 199,
+        "questionType": "Loại trừ (NOT/TRUE)",
+        "prompt": "Based on all three passages, why is Brightpath Design Studio eligible for a free priority replacement?",
+        "options": {
+          "A": "The damaged desk was custom-upholstered.",
+          "B": "The company reported the defect within two days of delivery.",
+          "C": "The delivery crew failed to assemble the furniture on site.",
+          "D": "The studio placed a second bulk order for next Monday."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Kết hợp mốc thời gian 3 đoạn",
+            "signal": "P1: báo trong 7 ngày làm việc; P2: giao Feb 10; P3: báo lỗi Feb 12 (chỉ sau 2 ngày)."
+          },
+          "translation": {
+            "questionVi": "Dựa vào 3 đoạn, tại sao Brightpath Design Studio đủ điều kiện đổi ưu tiên miễn phí?",
+            "optionsVi": {
+              "A": "Bàn bọc vải đặt riêng",
+              "B": "Báo lỗi trong vòng 2 ngày kể từ lúc giao",
+              "C": "Đội giao hàng không lắp ráp",
+              "D": "Đặt thêm đơn thứ hai"
+            }
+          },
+          "proof": {
+            "explanation": "Giao Feb 10, báo lỗi Feb 12 (2 ngày) hoàn toàn nằm trong hạn 7 ngày làm việc quy định ở P1.",
+            "evidenceQuote": "Defective or transit-damaged furniture must be reported within 7 business days of delivery to receive a priority replacement at no charge.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t1-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại.",
+            "B": "ĐÚNG — 2 ngày < 7 ngày làm việc.",
+            "C": "Loại — Đội giao hàng lắp rất chuyên nghiệp.",
+            "D": "Loại."
+          },
+          "keyTakeaways": {
+            "formula": "Đối chiếu ngày giao (P2) ↔ ngày gửi email (P3) ↔ thời hạn (P1).",
+            "commonTrap": "Không trừ ngày từ Feb 10 đến Feb 12.",
+            "paraphrases": [
+              {
+                "textInPassage": "at no charge",
+                "textInAnswer": "free",
+                "meaningVi": "miễn phí"
+              }
+            ]
+          },
+          "crossPassageLogic": {
+            "clue1Label": "Mảnh ghép Passage 1: Policy Notice",
+            "clue1Text": "Defective or transit-damaged furniture must be reported within 7 business days of delivery to receive a priority replacement at no charge.",
+            "clue2Label": "Đối chiếu Passage 2: Invoice",
+            "clue2Text": "Merchandise Subtotal: $1,720 | Shipping/Service Listed: $120 | Total Charged: $1,840.",
+            "deduction": "Kết hợp thông tin từ các văn bản → Chọn (B): The company reported the defect within two days of delivery. (Báo lỗi trong vòng 2 ngày kể từ lúc giao)"
+          }
+        }
+      },
+      {
+        "id": "p7-t1-q5",
+        "questionNumber": 200,
+        "questionType": "Từ đồng nghĩa (Vocab in Context)",
+        "prompt": "In Passage 3, paragraph 2, the word 'stalls' is closest in meaning to",
+        "options": {
+          "A": "accelerates",
+          "B": "stops abruptly",
+          "C": "displays",
+          "D": "rotates"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Từ đa nghĩa trong ngữ cảnh",
+            "signal": "'height-adjustment motor stalls halfway up' (động cơ bị khựng/dừng đột ngột)."
+          },
+          "translation": {
+            "questionVi": "Động từ 'stalls' gần nghĩa nhất với cụm nào?",
+            "optionsVi": {
+              "A": "tăng tốc",
+              "B": "dừng đột ngột",
+              "C": "trưng bày (bẫy danh từ stall = gian hàng)",
+              "D": "xoay vòng"
+            }
+          },
+          "proof": {
+            "explanation": "Khi chủ ngữ là động cơ ('motor'), 'stall' nghĩa là chết máy, dừng khựng đột ngột ('stops abruptly').",
+            "evidenceQuote": "its height-adjustment motor stalls halfway up.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t1-s8"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Trái nghĩa.",
+            "B": "ĐÚNG — motor stalls = stops abruptly.",
+            "C": "Loại — Bẫy nghĩa danh từ 'gian hàng'.",
+            "D": "Loại."
+          },
+          "keyTakeaways": {
+            "formula": "stall (n: gian hàng) ≠ stall (v: động cơ chết máy / khựng lại)",
+            "commonTrap": "Hiểu theo nghĩa danh từ 'quầy hàng' rồi chọn C.",
+            "paraphrases": [
+              {
+                "textInPassage": "motor stalls halfway up",
+                "textInAnswer": "stops abruptly mid-way",
+                "meaningVi": "dừng đột ngột giữa chừng"
+              }
+            ]
+          },
+          "crossPassageLogic": {
+            "clue1Label": "Mảnh ghép Passage 3: Customer Email",
+            "clue1Text": "its height-adjustment motor stalls halfway up.",
+            "clue2Label": "Đối chiếu Passage 1: Policy Notice",
+            "clue2Text": "Orders totaling $1,500 or more qualify for complimentary standard freight delivery and complimentary on-site assembly.",
+            "deduction": "Kết hợp thông tin từ các văn bản → Chọn (B): stops abruptly (dừng đột ngột)"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-triple-02",
+    "title": "Triple 2: Trang web Tiệc Doanh nghiệp, Phiếu Đặt tiệc & Email Điều chỉnh Số khách",
+    "passageCountType": "triple",
+    "topic": "Tiệc Doanh nghiệp & Tính giá (Web Page + Order Form + Email)",
+    "passages": [
+      {
+        "id": "p7-t2-doc1",
+        "tabLabel": "Passage 1: Catering Web Page",
+        "genre": "Web Page",
+        "title": "Olive & Thyme Corporate Catering — Reception Packages",
+        "headerMeta": [
+          {
+            "label": "URL",
+            "value": "www.oliveandthymecatering.com/corporate"
+          },
+          {
+            "label": "Service Area",
+            "value": "Greater Boston Metro"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Package",
+            "Price per Guest",
+            "Minimum Guests",
+            "Menu Highlights"
+          ],
+          "rows": [
+            {
+              "id": "p7-t2-r1",
+              "cells": [
+                "Classic Buffet",
+                "$28",
+                "25",
+                "2 hot entrées, garden salad, artisan rolls"
+              ],
+              "viNote": "Gói Classic Buffet: $28/khách (tối thiểu 25 khách)"
+            },
+            {
+              "id": "p7-t2-r2",
+              "cells": [
+                "Executive Plated",
+                "$40",
+                "30",
+                "3-course seated dinner, linen napkins, plated dessert"
+              ],
+              "viNote": "Gói Executive Plated: $40/khách (tối thiểu 30 khách)"
+            },
+            {
+              "id": "p7-t2-r3",
+              "cells": [
+                "Gala Hors d'Oeuvres",
+                "$35",
+                "40",
+                "8 passed appetizers, cheese board, sparkling cider"
+              ],
+              "viNote": "Gói Gala Hors d'Oeuvres: $35/khách (tối thiểu 40 khách)"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-t2-p1",
+            "sentences": [
+              {
+                "id": "p7-t2-s1",
+                "en": "Volume Savings: Events booking 60 or more guests receive an automatic 10 percent discount on the per-guest package total and complimentary white-glove server staffing (normally $250).",
+                "vi": "Ưu đãi số lượng lớn: Sự kiện đặt từ 60 khách trở lên được giảm tự động 10 phần trăm trên tổng gói theo đầu khách và miễn phí đội nhân viên phục vụ chuyên nghiệp (thông thường 250 đô la)."
+              },
+              {
+                "id": "p7-t2-s2",
+                "en": "Final headcount increases or menu modifications are accepted up to 72 hours prior to the event date at no administrative penalty.",
+                "vi": "Việc tăng số lượng khách chốt cuối cùng hoặc điều chỉnh thực đơn được chấp nhận tối đa trước 72 giờ so với ngày sự kiện mà không mất phí hành chính."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t2-doc2",
+        "tabLabel": "Passage 2: Order Summary",
+        "genre": "Invoice / Form",
+        "title": "Catering Order Confirmation #OT-5519",
+        "headerMeta": [
+          {
+            "label": "Client",
+            "value": "HarborLight Biotech (Attn: Sandra Cho)"
+          },
+          {
+            "label": "Event Date",
+            "value": "Thursday, June 19 (6:00 P.M.)"
+          },
+          {
+            "label": "Venue",
+            "value": "Seaport Innovation Hall, Room 400"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t2-p2",
+            "sentences": [
+              {
+                "id": "p7-t2-s3",
+                "en": "Package Selected: Executive Plated ($40 x 50 guests = $2,000). Staffing Fee: $250 (white-glove server team). Total Estimated Charge: $2,250.",
+                "vi": "Gói đã chọn: Executive Plated (40 đô la x 50 khách = 2.000 đô la). Phí phục vụ: 250 đô la (đội ngũ phục vụ chuyên nghiệp). Tổng chi phí dự kiến: 2.250 đô la."
+              },
+              {
+                "id": "p7-t2-s4",
+                "en": "Notes: A $500 refundable deposit was received on May 28. Remaining balance is due upon completion of the reception. Assigned Catering Coordinator: Marcus Vance.",
+                "vi": "Ghi chú: Khoản đặt cọc 500 đô la có hoàn lại đã được nhận ngày 28/5. Số dư còn lại thanh toán sau khi kết thúc tiệc. Điều phối viên tiệc phụ trách: Marcus Vance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t2-doc3",
+        "tabLabel": "Passage 3: Update Email",
+        "genre": "Email",
+        "title": "Re: Order #OT-5519 — Final Guest Count Increase",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Sandra Cho <scho@harborlightbio.com>"
+          },
+          {
+            "label": "To",
+            "value": "Marcus Vance <m.vance@oliveandthymecatering.com>"
+          },
+          {
+            "label": "Date",
+            "value": "Monday, June 16 (10:00 A.M.)"
+          },
+          {
+            "label": "Subject",
+            "value": "Updated Headcount for Thursday's Reception (#OT-5519)"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t2-p3",
+            "sentences": [
+              {
+                "id": "p7-t2-s5",
+                "en": "Hi Marcus, Good news—ten additional clinical partners confirmed their attendance over the weekend, so we need to increase our Thursday seated dinner from 50 to 60 guests.",
+                "vi": "Chào Marcus, Tin vui đây—mười đối tác lâm sàng bổ sung đã xác nhận tham dự vào cuối tuần, nên chúng tôi cần tăng bữa tối ngồi bàn ngày thứ Năm từ 50 lên 60 khách."
+              },
+              {
+                "id": "p7-t2-s6",
+                "en": "Because we are sending this update more than three days ahead of Thursday evening, I trust no change fee applies. Also, since we have now reached your volume threshold, could you please confirm that both the percentage discount and the waived staffing fee will appear on our revised final bill?",
+                "vi": "Vì chúng tôi gửi cập nhật này sớm hơn ba ngày trước tối thứ Năm, tôi tin rằng sẽ không áp dụng phí thay đổi. Ngoài ra, vì hiện chúng tôi đã đạt ngưỡng số lượng lớn của quý công ty, anh vui lòng xác nhận cả mức chiết khấu phần trăm lẫn việc miễn phí nhân viên phục vụ sẽ thể hiện trên hóa đơn cuối sửa đổi chứ?"
+              },
+              {
+                "id": "p7-t2-s7",
+                "en": "Four of the newly added guests require gluten-free entrées, which I have noted on the attached seating chart.",
+                "vi": "Bốn trong số các khách mới thêm yêu cầu món chính không chứa gluten, tôi đã ghi chú trên sơ đồ chỗ ngồi đính kèm."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-t2-q1",
+        "questionNumber": 186,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "According to Passage 1, which catering package requires the highest minimum number of guests?",
+        "options": {
+          "A": "Classic Buffet",
+          "B": "Executive Plated",
+          "C": "Gala Hors d'Oeuvres",
+          "D": "Volume Savings"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Đọc bảng (Passage 1)",
+            "signal": "Tra cột 'Minimum Guests': 25, 30, 40 → cao nhất là 40 (Gala Hors d'Oeuvres)."
+          },
+          "translation": {
+            "questionVi": "Theo Đoạn 1, gói tiệc nào yêu cầu số lượng khách tối thiểu cao nhất?",
+            "optionsVi": {
+              "A": "Classic Buffet (25 khách)",
+              "B": "Executive Plated (30 khách)",
+              "C": "Gala Hors d'Oeuvres (40 khách)",
+              "D": "Volume Savings (chính sách giảm giá, không phải tên gói tiệc)"
+            }
+          },
+          "proof": {
+            "explanation": "Trong bảng gói tiệc, Gala Hors d'Oeuvres yêu cầu tối thiểu 40 khách — cao nhất trong 3 gói.",
+            "evidenceQuote": "Gala Hors d'Oeuvres | $35 | 40 | 8 passed appetizers",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t2-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Tối thiểu 25 khách (thấp nhất).",
+            "B": "Loại — Tối thiểu 30 khách.",
+            "C": "ĐÚNG — Tối thiểu 40 khách (cao nhất).",
+            "D": "Loại — Volume Savings là chính sách ưu đãi từ 60 khách, không phải tên gói thực đơn."
+          },
+          "keyTakeaways": {
+            "formula": "Phân biệt cột 'Minimum Guests' (40) với chính sách 'Volume Savings' (60).",
+            "commonTrap": "Bẫy (D) nhầm chính sách giảm giá 60 khách thành tên một gói tiệc.",
+            "paraphrases": [
+              {
+                "textInPassage": "Minimum Guests: 40 (Gala Hors d'Oeuvres)",
+                "textInAnswer": "highest minimum number of guests",
+                "meaningVi": "số khách tối thiểu cao nhất"
+              }
+            ]
+          },
+          "applyRule": "Luôn so sánh đúng cột 'Minimum Guests' trong bảng và loại trừ các tên chính sách ưu đãi."
+        }
+      },
+      {
+        "id": "p7-t2-q2",
+        "questionNumber": 187,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What will HarborLight Biotech's revised total catering bill be after the headcount update?",
+        "options": {
+          "A": "$1,660",
+          "B": "$2,160",
+          "C": "$2,250",
+          "D": "$2,400"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tính toán tổng hợp 3 đoạn (Triple-Passage Math)",
+            "signal": "60 khách × $40 (Executive Plated) = $2,400; đạt ngưỡng ≥60 khách → giảm 10% (-$240) = $2,160 + miễn phí phục vụ $250 → Tổng hóa đơn mới = $2,160!"
+          },
+          "translation": {
+            "questionVi": "Tổng hóa đơn tiệc sửa đổi của HarborLight Biotech sau khi cập nhật số khách sẽ là bao nhiêu?",
+            "optionsVi": {
+              "A": "$1,660 (số dư sau khi trừ $500 đặt cọc, không phải tổng hóa đơn)",
+              "B": "$2,160",
+              "C": "$2,250",
+              "D": "$2,400"
+            }
+          },
+          "proof": {
+            "explanation": "Kết hợp 3 đoạn: Gói Executive Plated ($40/khách — P1/P2) × 60 khách mới (P3) = $2,400. Vì đạt ≥60 khách (P1), được giảm 10% ($2,400 × 0.9 = $2,160) và miễn phí nhân viên phục vụ $250 → Tổng hóa đơn mới = $2,160 (chú ý câu hỏi hỏi 'revised total catering bill', không hỏi số dư còn lại sau cọc!).",
+            "evidenceQuote": "Events booking 60 or more guests receive an automatic 10 percent discount on the per-guest package total and complimentary white-glove server staffing (normally $250).",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t2-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Bẫy số dư còn phải trả ($2,160 - $500 cọc = $1,660), trong khi câu hỏi hỏi TỔNG hóa đơn ('total catering bill').",
+            "B": "ĐÚNG — 60 × $40 = $2,400; giảm 10% còn $2,160; miễn phí phục vụ $250 → $2,160.",
+            "C": "Loại — Là tổng hóa đơn CŨ cho 50 khách ($2,000 + $250).",
+            "D": "Loại — Quên trừ chiết khấu 10% ($2,400)."
+          },
+          "keyTakeaways": {
+            "formula": "60 × $40 = $2,400 → giảm 10% = $2,160 + phí phục vụ $0 = $2,160 (còn số dư sau cọc $500 mới là $1,660)",
+            "commonTrap": "Bẫy (A) $1,660 và (D) $2,400 cực kỳ tinh vi — đọc kỹ xem câu hỏi hỏi 'total bill' hay 'remaining balance'!",
+            "paraphrases": [
+              {
+                "textInPassage": "60 guests × $40 (-10%) + $0 staffing",
+                "textInAnswer": "$2,160",
+                "meaningVi": "tổng hóa đơn sửa đổi 2.160 đô la"
+              }
+            ]
+          },
+          "applyRule": "Tính giá Triple Passage: Bước 1 tính gốc (60×$40), Bước 2 áp chiết khấu & miễn phụ phí ($2,160), Bước 3 kiểm tra câu hỏi hỏi 'total bill' ($2,160) hay 'remaining balance' ($1,660)!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Chính sách ≥60 khách)",
+            "clue1Text": "Executive Plated: $40/guest | ≥60 guests: 10% discount + complimentary staffing (waives $250).",
+            "clue2Label": "Passage 2 (Gói đã đặt)",
+            "clue2Text": "Package Selected: Executive Plated (ban đầu 50 khách + $250 staffing = $2,250).",
+            "clue3Label": "Passage 3 (Cập nhật số khách)",
+            "clue3Text": "increase our Thursday seated dinner from 50 to 60 guests.",
+            "deduction": "60 × $40 = $2,400; giảm 10% = $2,160; miễn $250 staffing → Tổng hóa đơn mới là $2,160 → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t2-q3",
+        "questionNumber": 188,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Why will HarborLight Biotech NOT be charged an administrative penalty for changing its guest count?",
+        "options": {
+          "A": "The company already paid a $500 deposit in May.",
+          "B": "Ms. Cho submitted the change more than 72 hours before the event.",
+          "C": "Executive Plated packages allow unlimited day-of guest additions.",
+          "D": "Mr. Vance agreed to waive penalties for first-time clients."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Đối chiếu mốc thời gian 3 đoạn (Triple-Passage)",
+            "signal": "P1: miễn phí đổi trước 72 giờ (3 ngày) | P2: sự kiện tối Thứ Năm 19/6 lúc 6:00 P.M. | P3: gửi email sáng Thứ Hai 16/6 lúc 10:00 A.M. (sớm hơn 80 giờ > 72 giờ)."
+          },
+          "translation": {
+            "questionVi": "Tại sao HarborLight Biotech sẽ KHÔNG bị tính phí hành chính khi thay đổi số khách?",
+            "optionsVi": {
+              "A": "Công ty đã trả tiền cọc 500 đô la vào tháng Năm.",
+              "B": "Cô Cho gửi yêu cầu thay đổi sớm hơn 72 giờ trước sự kiện.",
+              "C": "Gói Executive Plated cho phép thêm khách ngay trong ngày không giới hạn.",
+              "D": "Ông Vance đồng ý miễn phạt cho khách hàng lần đầu."
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 1 quy định thay đổi trước tối thiểu 72 giờ (= 3 ngày) không mất phí; sự kiện diễn ra 6:00 P.M. ngày 19/6 (P2), còn Sandra gửi email lúc 10:00 A.M. ngày 16/6 (P3) — sớm hơn 80 giờ.",
+            "evidenceQuote": "Final headcount increases or menu modifications are accepted up to 72 hours prior to the event date at no administrative penalty.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t2-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Tiền cọc $500 không liên quan miễn phí đổi số khách.",
+            "B": "ĐÚNG — 10:00 A.M. June 16 đến 6:00 P.M. June 19 = 80 giờ > 72 giờ.",
+            "C": "Loại — Không có chính sách thêm khách ngay trong ngày.",
+            "D": "Loại — Không nhắc khách hàng lần đầu hay ngoại lệ cá nhân."
+          },
+          "keyTakeaways": {
+            "formula": "72 hours = 3 days | June 16 (10:00 A.M.) → June 19 (6:00 P.M.) = 80 hours > 72 hours",
+            "commonTrap": "Không quy đổi 'more than three days' (Passage 3) = 'more than 72 hours' (Passage 1).",
+            "paraphrases": [
+              {
+                "textInPassage": "up to 72 hours prior ... more than three days ahead",
+                "textInAnswer": "more than 72 hours before the event",
+                "meaningVi": "sớm hơn 72 giờ trước sự kiện"
+              }
+            ]
+          },
+          "applyRule": "Luôn quy đổi nhanh đơn vị thời gian: 48 hours = 2 days, 72 hours = 3 days!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Quy định miễn phí đổi)",
+            "clue1Text": "modifications accepted up to 72 hours prior to the event date at no administrative penalty.",
+            "clue2Label": "Passage 2 (Giờ sự kiện)",
+            "clue2Text": "Event Date: Thursday, June 19 (6:00 P.M.).",
+            "clue3Label": "Passage 3 (Giờ gửi email cập nhật)",
+            "clue3Text": "Date: Monday, June 16 (10:00 A.M.) — 'more than three days ahead of Thursday evening'.",
+            "deduction": "Gửi trước 80 giờ (> 72 giờ) nên không bị tính phí phạt hành chính → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t2-q4",
+        "questionNumber": 189,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "How much remaining balance will HarborLight Biotech still need to pay after the reception finishes?",
+        "options": {
+          "A": "$1,660",
+          "B": "$1,750",
+          "C": "$2,160",
+          "D": "$2,660"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tính số dư còn lại sau đặt cọc (Triple-Passage Math)",
+            "signal": "Tổng hóa đơn sửa đổi $2,160 (từ P1+P2+P3) trừ đi khoản cọc đã trả $500 (P2) = $1,660!"
+          },
+          "translation": {
+            "questionVi": "HarborLight Biotech vẫn cần thanh toán số dư còn lại bao nhiêu sau khi tiệc kết thúc?",
+            "optionsVi": {
+              "A": "$1,660",
+              "B": "$1,750",
+              "C": "$2,160",
+              "D": "$2,660"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 ghi đã nhận cọc $500 vào ngày 28/5 và số dư còn lại thanh toán sau tiệc ('Remaining balance is due upon completion of the reception'). Lấy tổng mới $2,160 - $500 cọc = $1,660.",
+            "evidenceQuote": "A $500 refundable deposit was received on May 28. Remaining balance is due upon completion of the reception.",
+            "evidencePassageIndex": 1,
+            "evidenceSentenceId": "p7-t2-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — $2,160 (tổng mới) - $500 (đã đặt cọc) = $1,660.",
+            "B": "Loại — Bẫy lấy tổng cũ $2,250 - $500 = $1,750.",
+            "C": "Loại — Quên trừ khoản đặt cọc $500 đã thanh toán ngày 28/5.",
+            "D": "Loại — Bẫy cộng ngược $2,160 + $500."
+          },
+          "keyTakeaways": {
+            "formula": "Remaining balance = Revised total ($2,160) - Deposit already paid ($500) = $1,660",
+            "commonTrap": "Nhầm 'total catering bill' ($2,160) với 'remaining balance' ($1,660).",
+            "paraphrases": [
+              {
+                "textInPassage": "Remaining balance ... $500 deposit received",
+                "textInAnswer": "$1,660",
+                "meaningVi": "số dư còn phải trả 1.660 đô la"
+              }
+            ]
+          },
+          "applyRule": "Thấy chữ 'remaining balance / still need to pay' → LUÔN kiểm tra xem có khoản 'deposit / prepayment' đã trả trước ở Passage 2 không!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 & 3 (Tổng hóa đơn sửa đổi)",
+            "clue1Text": "60 guests × $40 (-10%) + $0 staffing = $2,160.",
+            "clue2Label": "Passage 2 (Khoản cọc đã thanh toán)",
+            "clue2Text": "A $500 refundable deposit was received on May 28. Remaining balance is due upon completion.",
+            "deduction": "Số dư còn phải trả = $2,160 - $500 = $1,660 → Chọn (A)."
+          }
+        }
+      },
+      {
+        "id": "p7-t2-q5",
+        "questionNumber": 190,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What did Ms. Cho attach to her June 16 e-mail?",
+        "options": {
+          "A": "A copy of the May 28 deposit receipt",
+          "B": "A seating plan showing four special meal requests",
+          "C": "A list of sparkling cider brands for the reception",
+          "D": "A map of Seaport Innovation Hall parking entrances"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết tệp đính kèm (Passage 3)",
+            "signal": "Câu cuối Passage 3: 'Four of the newly added guests require gluten-free entrées, which I have noted on the attached seating chart.'"
+          },
+          "translation": {
+            "questionVi": "Cô Cho đã đính kèm tệp gì trong email ngày 16/6?",
+            "optionsVi": {
+              "A": "Bản sao biên lai đặt cọc ngày 28/5",
+              "B": "Sơ đồ chỗ ngồi thể hiện bốn yêu cầu suất ăn đặc biệt",
+              "C": "Danh sách các hãng nước táo có ga cho buổi tiệc",
+              "D": "Bản đồ lối vào bãi đỗ xe tại Seaport Innovation Hall"
+            }
+          },
+          "proof": {
+            "explanation": "Sandra viết 4 khách mới thêm cần món chính không gluten và cô đã ghi chú trên 'attached seating chart'.",
+            "evidenceQuote": "Four of the newly added guests require gluten-free entrées, which I have noted on the attached seating chart.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t2-s7"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không đính kèm biên lai cọc.",
+            "B": "ĐÚNG — 'attached seating chart' + 'four ... gluten-free entrées' = seating plan showing four special meal requests.",
+            "C": "Loại — Sparkling cider thuộc gói Gala Hors d'Oeuvres, không phải gói họ chọn.",
+            "D": "Loại — Không nhắc bản đồ bãi đỗ xe."
+          },
+          "keyTakeaways": {
+            "formula": "seating chart ↔ seating plan | gluten-free entrées ↔ special meal requests",
+            "commonTrap": "Bẫy (C) lấy tên đồ uống của gói khác trong bảng Passage 1.",
+            "paraphrases": [
+              {
+                "textInPassage": "four ... require gluten-free entrées ... attached seating chart",
+                "textInAnswer": "a seating plan showing four special meal requests",
+                "meaningVi": "sơ đồ chỗ ngồi ghi 4 yêu cầu món ăn đặc biệt"
+              }
+            ]
+          },
+          "applyRule": "Luôn kiểm tra câu cuối Email để bắt câu hỏi về tài liệu đính kèm ('attached / enclosed')."
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-triple-03",
+    "title": "Triple 3: Thông báo Nâng cấp Phòng họp, Lịch Đặt phòng & Email Chuyển phòng",
+    "passageCountType": "triple",
+    "topic": "Vận hành Văn phòng & Điều phối (Memo + Schedule + Email)",
+    "passages": [
+      {
+        "id": "p7-t3-doc1",
+        "tabLabel": "Passage 1: Facilities Memo",
+        "genre": "Memo",
+        "title": "MEMORANDUM — Conference Room Projection Upgrade",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Facilities & AV Services"
+          },
+          {
+            "label": "To",
+            "value": "All Sixth-Floor Department Staff"
+          },
+          {
+            "label": "Date",
+            "value": "Monday, October 13"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t3-p1",
+            "sentences": [
+              {
+                "id": "p7-t3-s1",
+                "en": "To replace aging ceiling projectors with ultra-bright laser displays, AV technicians will close Oak Conference Room (Room 604) on Wednesday, October 15, from 8:00 A.M. to 12:30 P.M.",
+                "vi": "Để thay thế máy chiếu trần đã cũ bằng màn hình trình chiếu laser siêu sáng, kỹ thuật viên nghe nhìn sẽ đóng cửa Phòng họp Oak (Phòng 604) vào thứ Tư, ngày 15/10, từ 8:00 sáng đến 12:30 trưa."
+              },
+              {
+                "id": "p7-t3-s2",
+                "en": "Any morning bookings scheduled in Oak Room during that window will be relocated by the sixth-floor coordinator to an available alternate room of comparable capacity. Afternoon reservations in Oak Room starting at 1:00 P.M. or later will proceed normally.",
+                "vi": "Mọi lịch đặt buổi sáng tại Phòng Oak trong khung giờ đó sẽ được điều phối viên tầng sáu chuyển sang một phòng dự phòng còn trống có sức chứa tương đương. Các lịch đặt buổi chiều tại Phòng Oak từ 1:00 chiều trở đi vẫn diễn ra bình thường."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t3-doc2",
+        "tabLabel": "Passage 2: Room Schedule",
+        "genre": "Schedule",
+        "title": "Sixth-Floor Meeting Room Bookings — Wednesday, October 15",
+        "headerMeta": [
+          {
+            "label": "Rooms & Capacity",
+            "value": "Oak 604 (16 seats) | Maple 608 (16 seats) | Birch 610 (8 seats)"
+          },
+          {
+            "label": "Coordinator",
+            "value": "Natalie Brooks (ext. 4210)"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Time Slot",
+            "Oak 604 (16)",
+            "Maple 608 (16)",
+            "Birch 610 (8)"
+          ],
+          "rows": [
+            {
+              "id": "p7-t3-r1",
+              "cells": [
+                "9:00–10:30 A.M.",
+                "Q4 Product Launch Review (D. Park, 14 guests)",
+                "AVAILABLE",
+                "HR Candidate Debrief (L. Gomez, 6 guests)"
+              ],
+              "viNote": "9h00–10h30: Oak có nhóm D. Park (14 người), Maple TRỐNG, Birch có nhóm L. Gomez (6 người)"
+            },
+            {
+              "id": "p7-t3-r2",
+              "cells": [
+                "11:00 A.M.–12:00 P.M.",
+                "AVAILABLE",
+                "Vendor Contract Sync (R. Silva, 12 guests)",
+                "AVAILABLE"
+              ],
+              "viNote": "11h00–12h00: Oak trống, Maple có R. Silva (12 người), Birch trống"
+            },
+            {
+              "id": "p7-t3-r3",
+              "cells": [
+                "1:30–3:00 P.M.",
+                "Regional Sales Forecast (K. Osei, 15 guests)",
+                "Design Critique (M. Sato, 10 guests)",
+                "AVAILABLE"
+              ],
+              "viNote": "13h30–15h00: Oak có K. Osei (15 người), Maple có M. Sato (10 người), Birch trống"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-t3-p2",
+            "sentences": [
+              {
+                "id": "p7-t3-s3",
+                "en": "Note: Oak 604 and Maple 608 both include dual-screen video conferencing; Birch 610 is equipped with a whiteboard only.",
+                "vi": "Lưu ý: Cả Oak 604 và Maple 608 đều trang bị hệ thống hội nghị truyền hình hai màn hình; Birch 610 chỉ trang bị bảng trắng."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t3-doc3",
+        "tabLabel": "Passage 3: Coordinator Email",
+        "genre": "Email",
+        "title": "Room Relocation & AV Confirmation for Wednesday Morning",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Natalie Brooks <n.brooks@apexcorp.com>"
+          },
+          {
+            "label": "To",
+            "value": "Daniel Park <d.park@apexcorp.com>"
+          },
+          {
+            "label": "Date",
+            "value": "Tuesday, October 14"
+          },
+          {
+            "label": "Subject",
+            "value": "Updated Room for Tomorrow's 9:00 A.M. Review"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t3-p3",
+            "sentences": [
+              {
+                "id": "p7-t3-s4",
+                "en": "Hi Daniel, Since Facilities is installing the new laser display in Oak 604 tomorrow morning, I have automatically transferred your 9:00 A.M. review session to our other sixteen-seat conference room on the sixth floor.",
+                "vi": "Chào Daniel, Vì bộ phận Cơ sở vật chất lắp màn hình laser mới tại Oak 604 sáng mai, tôi đã tự động chuyển buổi họp rà soát lúc 9:00 sáng của anh sang phòng họp mười sáu chỗ còn lại trên tầng sáu."
+              },
+              {
+                "id": "p7-t3-s5",
+                "en": "The replacement room has the exact same dual-screen video setup you need for the remote London directors, and I have already redirected your coffee and pastry tray there. Because another team has booked that room at 11:00 A.M., please make sure your group wraps up promptly by 10:30 A.M.",
+                "vi": "Phòng thay thế có đúng bộ hội nghị truyền hình hai màn hình mà anh cần để kết nối với các giám đốc từ xa ở London, và tôi cũng đã chuyển khay cà phê cùng bánh ngọt của anh sang đó. Vì một nhóm khác đã đặt phòng đó lúc 11:00 sáng, vui lòng đảm bảo nhóm anh kết thúc đúng giờ trước 10:30 sáng."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-t3-q1",
+        "questionNumber": 191,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Which room has Mr. Park's meeting been moved to?",
+        "options": {
+          "A": "Oak 604",
+          "B": "Maple 608",
+          "C": "Birch 610",
+          "D": "A room on the fifth floor"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Xác định phòng mới xuyên 3 đoạn (Triple-Passage)",
+            "signal": "P3: chuyển từ Oak 604 sang 'other sixteen-seat conference room on the sixth floor' có 'dual-screen video' → P2: Maple 608 (16 seats, AVAILABLE lúc 9:00–10:30 A.M.)."
+          },
+          "translation": {
+            "questionVi": "Cuộc họp của ông Park đã được chuyển sang phòng nào?",
+            "optionsVi": {
+              "A": "Oak 604",
+              "B": "Maple 608",
+              "C": "Birch 610",
+              "D": "Một phòng ở tầng năm"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 nói Natalie chuyển buổi họp 9:00 A.M. của Daniel Park sang phòng 16 chỗ còn lại ở tầng sáu có hội nghị truyền hình 2 màn hình; tra bảng Đoạn 2, đó chính là Maple 608.",
+            "evidenceQuote": "I have automatically transferred your 9:00 A.M. review session to our other sixteen-seat conference room on the sixth floor.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t3-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Oak 604 là phòng CŨ đang đóng cửa bảo trì sáng thứ Tư.",
+            "B": "ĐÚNG — Maple 608 là phòng 16 chỗ còn lại tầng sáu, trống lúc 9:00–10:30 và có dual-screen video.",
+            "C": "Loại — Birch 610 chỉ có 8 chỗ (nhóm Park có 14 người) và không có màn hình hội nghị.",
+            "D": "Loại — Vẫn nằm trên tầng sáu ('on the sixth floor')."
+          },
+          "keyTakeaways": {
+            "formula": "other sixteen-seat room on the sixth floor + dual-screen video → Maple 608",
+            "commonTrap": "Email cố tình không ghi tên 'Maple 608' mà mô tả đặc điểm để kiểm tra khả năng tra ngược bảng ở Passage 2!",
+            "paraphrases": [
+              {
+                "textInPassage": "other sixteen-seat conference room on the sixth floor",
+                "textInAnswer": "Maple 608",
+                "meaningVi": "Phòng Maple 608 (16 chỗ)"
+              }
+            ]
+          },
+          "applyRule": "Mỗi khi Email dùng cụm mô tả ('our other 16-seat room') thay vì tên phòng, tra ngay bảng sức chứa ở Passage 2 để định danh!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Phòng đóng cửa sáng 15/10)",
+            "clue1Text": "Oak Conference Room (Room 604) closed 8:00 A.M.–12:30 P.M.; relocate to comparable capacity.",
+            "clue2Label": "Passage 2 (Bảng sức chứa & lịch trống 9:00 A.M.)",
+            "clue2Text": "Maple 608 (16 seats, dual-screen video) is AVAILABLE at 9:00–10:30 A.M.",
+            "clue3Label": "Passage 3 (Email điều phối)",
+            "clue3Text": "transferred your 9:00 A.M. review session to our other sixteen-seat conference room on the sixth floor.",
+            "deduction": "Phòng thay thế 16 chỗ tầng 6 là Maple 608 → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t3-q2",
+        "questionNumber": 192,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Whose meeting is scheduled in the replacement room immediately after Mr. Park's session?",
+        "options": {
+          "A": "L. Gomez's",
+          "B": "R. Silva's",
+          "C": "K. Osei's",
+          "D": "M. Sato's"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Nhận diện nhân vật ẩn xuyên 2 đoạn (Cross-Passage)",
+            "signal": "P3: 'another team has booked that room (Maple 608) at 11:00 A.M.' → P2 tra cột Maple 608 hàng 11:00 A.M.–12:00 P.M.: Vendor Contract Sync (R. Silva)."
+          },
+          "translation": {
+            "questionVi": "Cuộc họp của ai được lên lịch tại phòng thay thế ngay sau phiên của ông Park?",
+            "optionsVi": {
+              "A": "Của L. Gomez",
+              "B": "Của R. Silva",
+              "C": "Của K. Osei",
+              "D": "Của M. Sato"
+            }
+          },
+          "proof": {
+            "explanation": "Phòng thay thế là Maple 608 (câu 191), và Đoạn 3 nhắc một nhóm khác đã đặt phòng đó lúc 11:00 A.M. Tra hàng 11:00 A.M.–12:00 P.M. cột Maple 608 ở Đoạn 2, người chủ trì là 'R. Silva'.",
+            "evidenceQuote": "Because another team has booked that room at 11:00 A.M., please make sure your group wraps up promptly by 10:30 A.M.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t3-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — L. Gomez họp lúc 9:00 sáng tại Birch 610.",
+            "B": "ĐÚNG — R. Silva họp Vendor Contract Sync lúc 11:00 A.M. tại Maple 608.",
+            "C": "Loại — K. Osei họp lúc 1:30 chiều tại Oak 604.",
+            "D": "Loại — M. Sato họp lúc 1:30 chiều tại Maple 608 (sau nữa, không phải 11:00 A.M.)."
+          },
+          "keyTakeaways": {
+            "formula": "another team at 11:00 A.M. in Maple 608 → tra bảng = R. Silva (Vendor Contract Sync)",
+            "commonTrap": "Nếu xác định sai phòng thay thế ở câu trước sẽ kéo sai luôn câu này!",
+            "paraphrases": [
+              {
+                "textInPassage": "another team has booked that room at 11:00 A.M. (Maple 608 — R. Silva)",
+                "textInAnswer": "R. Silva's",
+                "meaningVi": "cuộc họp của R. Silva"
+              }
+            ]
+          },
+          "applyRule": "Luôn dùng kết quả câu nối phòng (Maple 608) gióng thẳng xuống hàng 11:00 A.M. trên bảng lịch.",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 3 (Nhóm đặt phòng lúc 11:00 A.M.)",
+            "clue1Text": "another team has booked that room (the replacement room = Maple 608) at 11:00 A.M.",
+            "clue2Label": "Passage 2 (Tra bảng Maple 608 lúc 11:00 A.M.)",
+            "clue2Text": "11:00 A.M.–12:00 P.M. | Maple 608: Vendor Contract Sync (R. Silva, 12 guests).",
+            "deduction": "Nhóm dùng Maple 608 ngay sau Daniel Park là nhóm của R. Silva → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t3-q3",
+        "questionNumber": 193,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Why does Mr. Osei's meeting NOT need to be relocated?",
+        "options": {
+          "A": "It is scheduled in Birch 610 rather than Oak 604.",
+          "B": "It begins after the projector upgrade in Oak 604 finishes.",
+          "C": "It has fewer than eight participants.",
+          "D": "It does not require video-conferencing equipment."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Đối chiếu giờ bảo trì & lịch phòng (Cross-Passage)",
+            "signal": "P1: bảo trì Oak 604 xong lúc 12:30 P.M., các lịch từ 1:00 P.M. diễn ra bình thường + P2: K. Osei đặt Oak 604 lúc 1:30–3:00 P.M."
+          },
+          "translation": {
+            "questionVi": "Tại sao cuộc họp của ông Osei KHÔNG cần chuyển phòng?",
+            "optionsVi": {
+              "A": "Cuộc họp diễn ra ở Birch 610 chứ không phải Oak 604.",
+              "B": "Cuộc họp bắt đầu sau khi việc nâng cấp máy chiếu ở Oak 604 hoàn tất.",
+              "C": "Cuộc họp có ít hơn tám người tham dự.",
+              "D": "Cuộc họp không cần thiết bị hội nghị truyền hình."
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 1 ghi bảo trì Oak 604 kết thúc lúc 12:30 P.M. và mọi lịch từ 1:00 P.M. trở đi diễn ra bình thường; tra bảng Đoạn 2, K. Osei họp lúc 1:30–3:00 P.M. nên không bị ảnh hưởng.",
+            "evidenceQuote": "Afternoon reservations in Oak Room starting at 1:00 P.M. or later will proceed normally.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t3-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — K. Osei vẫn đặt phòng Oak 604.",
+            "B": "ĐÚNG — 1:30 P.M. sau mốc hoàn tất 12:30 P.M. (và sau mốc 1:00 P.M.).",
+            "C": "Loại — Nhóm K. Osei có 15 người.",
+            "D": "Loại — Không phải lý do miễn chuyển phòng."
+          },
+          "keyTakeaways": {
+            "formula": "1:30 P.M. > 12:30 P.M. (end of upgrade) → begins after the upgrade finishes",
+            "commonTrap": "Thấy tên K. Osei nằm trong cột Oak 604 nên tưởng cũng bị đóng cửa mà quên đối chiếu khung giờ chiều!",
+            "paraphrases": [
+              {
+                "textInPassage": "close Oak 8:00 A.M.–12:30 P.M. ... K. Osei 1:30–3:00 P.M.",
+                "textInAnswer": "begins after the projector upgrade in Oak 604 finishes",
+                "meaningVi": "bắt đầu sau khi nâng cấp máy chiếu phòng Oak xong"
+              }
+            ]
+          },
+          "applyRule": "Luôn kiểm tra đồng thời 2 tọa độ: Đúng phòng (Oak 604) VÀ đúng khung giờ bảo trì (sáng vs chiều)!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Giờ đóng cửa Oak 604)",
+            "clue1Text": "Oak 604 closed 8:00 A.M.–12:30 P.M.; afternoon bookings from 1:00 P.M. proceed normally.",
+            "clue2Label": "Passage 2 (Giờ họp của K. Osei)",
+            "clue2Text": "1:30–3:00 P.M. | Oak 604: Regional Sales Forecast (K. Osei, 15 guests).",
+            "deduction": "Cuộc họp 1:30 P.M. diễn ra sau khi bảo trì kết thúc lúc 12:30 P.M. → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t3-q4",
+        "questionNumber": 194,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Why would Birch 610 have been unsuitable for Mr. Park's meeting even if it had been empty?",
+        "options": {
+          "A": "It is scheduled for laser projector installation.",
+          "B": "It is too small and lacks video-conferencing screens.",
+          "C": "Food and beverages are prohibited inside Birch 610.",
+          "D": "It is reserved exclusively for human resources interviews."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — So sánh nhu cầu & tiện ích phòng (Cross-Passage)",
+            "signal": "P2: Birch 610 chỉ 8 chỗ & chỉ có bảng trắng ↔ P2/P3: nhóm Park có 14 khách & cần dual-screen video cho giám đốc London."
+          },
+          "translation": {
+            "questionVi": "Tại sao Birch 610 vẫn không phù hợp cho cuộc họp của ông Park kể cả khi phòng trống?",
+            "optionsVi": {
+              "A": "Phòng này có lịch lắp máy chiếu laser.",
+              "B": "Phòng quá nhỏ và thiếu màn hình hội nghị truyền hình.",
+              "C": "Đồ ăn thức uống bị cấm mang vào Birch 610.",
+              "D": "Phòng chỉ dành riêng cho phỏng vấn nhân sự."
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 2 ghi Birch 610 chỉ chứa 8 chỗ và 'equipped with a whiteboard only', trong khi cuộc họp của Park có 14 khách và cần màn hình họp trực tuyến với London (P3).",
+            "evidenceQuote": "Note: Oak 604 and Maple 608 both include dual-screen video conferencing; Birch 610 is equipped with a whiteboard only.",
+            "evidencePassageIndex": 1,
+            "evidenceSentenceId": "p7-t3-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Chỉ Oak 604 lắp màn hình laser.",
+            "B": "ĐÚNG — 8 chỗ < 14 khách và chỉ có bảng trắng (không có dual-screen video).",
+            "C": "Loại — Không nhắc quy định cấm đồ ăn.",
+            "D": "Loại — Không có quy định chỉ dành riêng cho HR."
+          },
+          "keyTakeaways": {
+            "formula": "8 seats < 14 guests + whiteboard only ↔ too small and lacks video-conferencing screens",
+            "commonTrap": "Thấy hàng 9:00 A.M. có HR Candidate Debrief ở Birch 610 rồi suy diễn sai sang (D).",
+            "paraphrases": [
+              {
+                "textInPassage": "Birch 610 (8 seats) ... whiteboard only",
+                "textInAnswer": "too small and lacks video-conferencing screens",
+                "meaningVi": "quá nhỏ và thiếu màn hình họp trực tuyến"
+              }
+            ]
+          },
+          "applyRule": "Kết hợp số khách (14) + thiết bị cần (London video call) đối chiếu với dòng Note cuối bảng.",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 2 (Thông số Birch 610 & Số khách nhóm Park)",
+            "clue1Text": "Birch 610: 8 seats, whiteboard only | D. Park meeting: 14 guests.",
+            "clue2Label": "Passage 3 (Nhu cầu thiết bị của nhóm Park)",
+            "clue2Text": "dual-screen video setup you need for the remote London directors.",
+            "deduction": "Birch 610 vừa quá nhỏ (8 < 14) vừa thiếu màn hình hội nghị truyền hình → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t3-q5",
+        "questionNumber": 195,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What extra task did Ms. Brooks handle for Mr. Park?",
+        "options": {
+          "A": "She emailed the London directors with a new video link.",
+          "B": "She arranged for his refreshments to be delivered to the new room.",
+          "C": "She extended his meeting slot until 11:00 A.M.",
+          "D": "She installed a laser projector inside Maple 608."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết (Passage 3)",
+            "signal": "Câu 1 đoạn 2 Passage 3: 'redirected your coffee and pastry tray there'."
+          },
+          "translation": {
+            "questionVi": "Cô Brooks đã xử lý thêm công việc nào cho ông Park?",
+            "optionsVi": {
+              "A": "Gửi link họp video mới cho các giám đốc ở London.",
+              "B": "Sắp xếp chuyển đồ ăn thức uống nhẹ của ông sang phòng mới.",
+              "C": "Gia hạn khung giờ họp của ông tới 11:00 sáng.",
+              "D": "Lắp máy chiếu laser bên trong Maple 608."
+            }
+          },
+          "proof": {
+            "explanation": "Natalie nhắn 'I have already redirected your coffee and pastry tray there' — tức đã điều chuyển khay cà phê và bánh ngọt ('refreshments') sang phòng mới.",
+            "evidenceQuote": "and I have already redirected your coffee and pastry tray there.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t3-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc gửi link cho London.",
+            "B": "ĐÚNG — 'coffee and pastry tray' = refreshments; 'redirected there' = arranged to be delivered to the new room.",
+            "C": "Loại — Nói ngược: yêu cầu kết thúc đúng giờ 10:30 sáng.",
+            "D": "Loại — AV lắp ở Oak 604, không phải Maple 608."
+          },
+          "keyTakeaways": {
+            "formula": "coffee and pastry tray ↔ refreshments",
+            "commonTrap": "Quen nghĩa hẹp nên không nối 'coffee and pastry' với từ khái quát 'refreshments' (đồ ăn nhẹ & thức uống).",
+            "paraphrases": [
+              {
+                "textInPassage": "redirected your coffee and pastry tray there",
+                "textInAnswer": "arranged for his refreshments to be delivered to the new room",
+                "meaningVi": "chuyển đồ ăn thức uống nhẹ sang phòng mới"
+              }
+            ]
+          },
+          "applyRule": "Mọi cụm 'coffee, tea, pastries, snacks' trong TOEIC đều thường được paraphrase thành 1 từ duy nhất: 'refreshments'!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-triple-04",
+    "title": "Triple 4: Bảng giá Vé Tàu Cao tốc, Biên lai Đặt vé & Email Khiếu nại Phí Đổi chuyến",
+    "passageCountType": "triple",
+    "topic": "Du lịch Công tác & Vận tải (Web Page + Receipt + Email)",
+    "passages": [
+      {
+        "id": "p7-t4-doc1",
+        "tabLabel": "Passage 1: Rail Fare Guide",
+        "genre": "Web Page",
+        "title": "MetroRail Express — Fare Classes & Change Policy (Boston ↔ New York)",
+        "headerMeta": [
+          {
+            "label": "URL",
+            "value": "www.metrorail-express.com/fares"
+          },
+          {
+            "label": "Route",
+            "value": "Northeast Business Corridor"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Fare Class",
+            "One-Way Price",
+            "Same-Day Change Fee",
+            "Included Amenities"
+          ],
+          "rows": [
+            {
+              "id": "p7-t4-r1",
+              "cells": [
+                "Saver Coach",
+                "$68",
+                "$30 + fare difference",
+                "Standard seat, free Wi-Fi"
+              ],
+              "viNote": "Hạng Saver Coach: $68/lượt, phí đổi cùng ngày $30 + chênh lệch giá"
+            },
+            {
+              "id": "p7-t4-r2",
+              "cells": [
+                "FlexiPass Coach",
+                "$94",
+                "$0 (free up to 30 min prior)",
+                "Reserved window/aisle seat, free Wi-Fi, 2 bags"
+              ],
+              "viNote": "Hạng FlexiPass Coach: $94/lượt, MIỄN PHÍ đổi cùng ngày trước 30 phút"
+            },
+            {
+              "id": "p7-t4-r3",
+              "cells": [
+                "Business Premier",
+                "$138",
+                "$0 (free anytime before departure)",
+                "Quiet car, lounge access, hot breakfast/lunch"
+              ],
+              "viNote": "Hạng Business Premier: $138/lượt, miễn phí đổi bất cứ lúc nào + phòng chờ & bữa nóng"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-t4-p1",
+            "sentences": [
+              {
+                "id": "p7-t4-s1",
+                "en": "Upgrades Between Classes: Passengers switching to a higher fare class pay only the difference between the original ticket price and the upgraded fare class—no additional change fee applies for FlexiPass or Business Premier holders.",
+                "vi": "Nâng hạng vé: Hành khách chuyển sang hạng vé cao hơn chỉ trả phần chênh lệch giữa giá vé ban đầu và giá hạng vé nâng cấp—không áp dụng thêm phí đổi đối với chủ vé FlexiPass hoặc Business Premier."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t4-doc2",
+        "tabLabel": "Passage 2: Ticket Receipt",
+        "genre": "Invoice / Form",
+        "title": "Electronic Ticket Confirmation #MR-9402",
+        "headerMeta": [
+          {
+            "label": "Passenger",
+            "value": "Victor Alvarez"
+          },
+          {
+            "label": "Travel Date",
+            "value": "Wednesday, November 12"
+          },
+          {
+            "label": "Fare Class",
+            "value": "FlexiPass Coach ($94)"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t4-p2",
+            "sentences": [
+              {
+                "id": "p7-t4-s2",
+                "en": "Booked Train: Express #214 — Departing Boston South Station at 7:15 A.M., Arriving New York Penn Station at 10:45 A.M. Seat: Car 4, Seat 12A (Window).",
+                "vi": "Chuyến tàu đã đặt: Express #214 — Khởi hành Ga Boston South lúc 7:15 sáng, Đến Ga New York Penn lúc 10:45 sáng. Ghế: Toa 4, Ghế 12A (Cửa sổ)."
+              },
+              {
+                "id": "p7-t4-s3",
+                "en": "Modification Log (Nov 12, 6:10 A.M.): Rebooked via mobile kiosk to Express #218 departing 9:15 A.M. (Business Premier). Amount Charged at Kiosk: $74 ($44 fare upgrade + $30 change fee).",
+                "vi": "Nhật ký điều chỉnh (12/11, 6:10 sáng): Đổi vé qua ki-ốt di động sang chuyến Express #218 khởi hành 9:15 sáng (Hạng Business Premier). Số tiền đã thu tại ki-ốt: 74 đô la (44 đô la chênh lệch nâng hạng + 30 đô la phí đổi vé)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t4-doc3",
+        "tabLabel": "Passage 3: Passenger Email",
+        "genre": "Email",
+        "title": "Billing Error on Rebooked Ticket #MR-9402",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Victor Alvarez <v.alvarez@kestrel-law.com>"
+          },
+          {
+            "label": "To",
+            "value": "billing@metrorail-express.com"
+          },
+          {
+            "label": "Date",
+            "value": "November 13"
+          },
+          {
+            "label": "Subject",
+            "value": "Overcharge on Kiosk Upgrade — Confirmation #MR-9402"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t4-p3",
+            "sentences": [
+              {
+                "id": "p7-t4-s4",
+                "en": "Dear Billing Support, Yesterday morning my client briefing in Manhattan was pushed back by two hours, so I used your station kiosk over an hour before my original departure to move to the 9:15 A.M. train and upgrade so I could finish reviewing legal briefs inside the quiet car.",
+                "vi": "Kính gửi Hỗ trợ Thanh toán, Sáng hôm qua buổi họp khách hàng của tôi ở Manhattan bị lùi lại hai tiếng, nên tôi đã dùng ki-ốt tại nhà ga hơn một giờ trước giờ khởi hành ban đầu để chuyển sang chuyến 9:15 sáng và nâng hạng để có thể đọc nốt hồ sơ pháp lý trong toa yên tĩnh."
+              },
+              {
+                "id": "p7-t4-s5",
+                "en": "While I happily paid the fare difference between my original coach ticket and the upgraded seat, the kiosk also billed my corporate credit card an extra fee that should only apply to Saver Coach passengers. Please review my original fare class and refund that erroneous charge.",
+                "vi": "Dù tôi vui vẻ thanh toán khoản chênh lệch giữa vé ghế phổ thông ban đầu và hạng ghế nâng cấp, chiếc ki-ốt lại thu thêm vào thẻ tín dụng công ty tôi một khoản phí lẽ ra chỉ áp dụng cho hành khách Saver Coach. Vui lòng kiểm tra hạng vé ban đầu của tôi và hoàn lại khoản thu nhầm đó."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-t4-q1",
+        "questionNumber": 196,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "Why did Mr. Alvarez switch to a later train on November 12?",
+        "options": {
+          "A": "Express #214 was canceled due to signal repairs.",
+          "B": "His meeting in New York was postponed by two hours.",
+          "C": "He arrived at Boston South Station after 7:15 A.M.",
+          "D": "The quiet car on the 7:15 A.M. train was sold out."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết nguyên nhân (Passage 3)",
+            "signal": "Câu 1 Passage 3: 'my client briefing in Manhattan was pushed back by two hours'."
+          },
+          "translation": {
+            "questionVi": "Tại sao ông Alvarez đổi sang chuyến tàu muộn hơn vào ngày 12/11?",
+            "optionsVi": {
+              "A": "Chuyến Express #214 bị hủy do sửa tín hiệu.",
+              "B": "Cuộc họp ở New York của ông bị lùi lại hai tiếng.",
+              "C": "Ông đến Ga Boston South sau 7:15 sáng.",
+              "D": "Toa yên tĩnh trên chuyến 7:15 sáng đã hết vé."
+            }
+          },
+          "proof": {
+            "explanation": "Victor viết buổi họp khách hàng ở Manhattan (New York) bị đẩy lùi 2 tiếng ('pushed back by two hours') nên ông đổi từ chuyến 7:15 sang chuyến 9:15.",
+            "evidenceQuote": "Yesterday morning my client briefing in Manhattan was pushed back by two hours, so I used your station kiosk... to move to the 9:15 A.M. train",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t4-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Không nhắc sự cố hủy tàu.",
+            "B": "ĐÚNG — 'client briefing in Manhattan was pushed back by two hours' = meeting in New York was postponed by two hours.",
+            "C": "Loại — Ông có mặt từ 6:10 sáng (hơn 1 giờ trước 7:15).",
+            "D": "Loại — Không nhắc toa yên tĩnh hết chỗ."
+          },
+          "keyTakeaways": {
+            "formula": "push back = postpone / delay | Manhattan = New York",
+            "commonTrap": "Nhầm cụm 'pushed back' (lùi muộn lại) với 'moved forward' (đẩy sớm lên).",
+            "paraphrases": [
+              {
+                "textInPassage": "client briefing in Manhattan was pushed back by two hours",
+                "textInAnswer": "meeting in New York was postponed by two hours",
+                "meaningVi": "cuộc họp ở New York bị hoãn lùi 2 tiếng"
+              }
+            ]
+          },
+          "applyRule": "Phân biệt chuẩn: push back = postpone (lùi giờ) ↔ bring/move forward (đẩy sớm giờ)."
+        }
+      },
+      {
+        "id": "p7-t4-q2",
+        "questionNumber": 197,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Why did Mr. Alvarez choose to upgrade to Business Premier?",
+        "options": {
+          "A": "To check two free suitcases on board",
+          "B": "To work on legal documents in a quiet seating area",
+          "C": "To qualify for free wireless Internet during the trip",
+          "D": "To reserve a window seat in Car 4"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Liên kết tiện ích hạng vé (Cross-Passage)",
+            "signal": "P1: Business Premier có 'Quiet car' + P3: nâng hạng để 'finish reviewing legal briefs inside the quiet car'."
+          },
+          "translation": {
+            "questionVi": "Tại sao ông Alvarez chọn nâng hạng lên Business Premier?",
+            "optionsVi": {
+              "A": "Để ký gửi miễn phí hai kiện hành lý trên tàu",
+              "B": "Để làm việc với tài liệu pháp lý trong khu vực ghế yên tĩnh",
+              "C": "Để đủ điều kiện dùng Wi-Fi miễn phí suốt chuyến đi",
+              "D": "Để đặt trước ghế cửa sổ ở Toa 4"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 nêu ông nâng hạng để đọc nốt hồ sơ pháp lý trong toa yên tĩnh ('finish reviewing legal briefs inside the quiet car'), tiện ích chỉ có ở hạng Business Premier (P1).",
+            "evidenceQuote": "upgrade so I could finish reviewing legal briefs inside the quiet car.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t4-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — 2 kiện hành lý đã có sẵn ở vé FlexiPass Coach gốc của ông.",
+            "B": "ĐÚNG — 'reviewing legal briefs inside the quiet car' = work on legal documents in a quiet seating area.",
+            "C": "Loại — Wi-Fi miễn phí có ở cả 3 hạng vé.",
+            "D": "Loại — Ghế cửa sổ Car 4, Seat 12A là vé FlexiPass ban đầu."
+          },
+          "keyTakeaways": {
+            "formula": "legal briefs ↔ legal documents | quiet car ↔ quiet seating area",
+            "commonTrap": "Bẫy (A), (C), (D) đều là tiện ích đã có sẵn ở hạng vé FlexiPass ban đầu!",
+            "paraphrases": [
+              {
+                "textInPassage": "finish reviewing legal briefs inside the quiet car",
+                "textInAnswer": "work on legal documents in a quiet seating area",
+                "meaningVi": "làm việc với hồ sơ pháp lý tại toa yên tĩnh"
+              }
+            ]
+          },
+          "applyRule": "Khi khách nâng hạng vé, luôn kiểm tra tiện ích ĐỘC QUYỀN của hạng cao hơn ('quiet car') để phân biệt với tiện ích đã có sẵn ở hạng cũ.",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Tiện ích độc quyền Business Premier)",
+            "clue1Text": "Business Premier: Quiet car, lounge access, hot breakfast/lunch.",
+            "clue2Label": "Passage 3 (Lý do nâng hạng của khách)",
+            "clue2Text": "upgrade so I could finish reviewing legal briefs inside the quiet car.",
+            "deduction": "Ông nâng hạng để làm việc với tài liệu pháp lý trong toa yên tĩnh → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t4-q3",
+        "questionNumber": 198,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "How much money is Mr. Alvarez requesting to be refunded?",
+        "options": {
+          "A": "$30",
+          "B": "$44",
+          "C": "$74",
+          "D": "$94"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Xác định khoản thu sai xuyên 3 đoạn (Triple-Passage)",
+            "signal": "P1: FlexiPass miễn phí đổi vé ($0 nếu đổi trước 30 phút), chỉ Saver Coach bị tính $30 | P2: đổi lúc 6:10 (trước 7:15 tới 65 phút) nhưng ki-ốt thu $44 nâng hạng + $30 change fee | P3: yêu cầu hoàn khoản phí chỉ dành cho Saver Coach = $30!"
+          },
+          "translation": {
+            "questionVi": "Ông Alvarez đang yêu cầu hoàn lại bao nhiêu tiền?",
+            "optionsVi": {
+              "A": "$30",
+              "B": "$44",
+              "C": "$74",
+              "D": "$94"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 ghi ông vui vẻ trả khoản chênh lệch nâng hạng ($44 = $138 - $94) nhưng yêu cầu hoàn lại khoản phí chỉ áp dụng cho Saver Coach — đối chiếu Đoạn 1 & 2, đó chính là '$30 change fee'.",
+            "evidenceQuote": "Amount Charged at Kiosk: $74 ($44 fare upgrade + $30 change fee).",
+            "evidencePassageIndex": 1,
+            "evidenceSentenceId": "p7-t4-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Phí đổi vé $30 chỉ áp dụng cho Saver Coach, không áp dụng cho FlexiPass đổi trước 30 phút.",
+            "B": "Loại — $44 là tiền chênh lệch nâng hạng hợp lệ mà ông đồng ý trả.",
+            "C": "Loại — $74 là tổng cả nâng hạng lẫn phí đổi.",
+            "D": "Loại — $94 là giá vé FlexiPass ban đầu."
+          },
+          "keyTakeaways": {
+            "formula": "FlexiPass ($94) → Business ($138): chênh lệch hợp lệ = $44; phí đổi thu nhầm = $30",
+            "commonTrap": "Bẫy (B) $44 và (C) $74 dễ đánh lừa người không phân tách hai khoản trên biên lai!",
+            "paraphrases": [
+              {
+                "textInPassage": "an extra fee that should only apply to Saver Coach passengers ($30 change fee)",
+                "textInAnswer": "$30",
+                "meaningVi": "khoản phí đổi vé 30 đô la bị thu nhầm"
+              }
+            ]
+          },
+          "applyRule": "Phân tách rõ 2 khoản trong biên lai: khoản hợp lệ ('happily paid' = $44) vs khoản thu sai ('erroneous charge' = $30).",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Quy định phí đổi)",
+            "clue1Text": "Saver Coach: $30 change fee | FlexiPass Coach: $0 (free up to 30 min prior); no change fee on upgrades.",
+            "clue2Label": "Passage 2 (Biên lai ki-ốt)",
+            "clue2Text": "Original: FlexiPass Coach (7:15 A.M.) | Rebooked 6:10 A.M. (65 min prior) | Charged: $44 upgrade + $30 change fee.",
+            "clue3Label": "Passage 3 (Yêu cầu hoàn tiền)",
+            "clue3Text": "happily paid the fare difference, please refund the extra fee that should only apply to Saver Coach.",
+            "deduction": "Khoản thu sai yêu cầu hoàn là $30 → Chọn (A)."
+          }
+        }
+      },
+      {
+        "id": "p7-t4-q4",
+        "questionNumber": 199,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is the TOTAL legitimate amount Mr. Alvarez should have paid for his November 12 trip after the refund is processed?",
+        "options": {
+          "A": "$94",
+          "B": "$124",
+          "C": "$138",
+          "D": "$168"
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tính tổng chi phí thực tế sau hoàn tiền (Triple-Passage Math)",
+            "signal": "Vé gốc FlexiPass ($94) + phần chênh lệch nâng hạng hợp lệ ($44) = $138 (bằng đúng giá vé Business Premier!)."
+          },
+          "translation": {
+            "questionVi": "Tổng số tiền hợp lệ ông Alvarez thực sự phải trả cho chuyến đi ngày 12/11 sau khi được hoàn tiền là bao nhiêu?",
+            "optionsVi": {
+              "A": "$94",
+              "B": "$124",
+              "C": "$138",
+              "D": "$168"
+            }
+          },
+          "proof": {
+            "explanation": "Tổng đã trả = $94 (vé gốc) + $74 (ki-ốt) = $168. Sau khi hoàn $30 thu sai, số tiền thực trả là $94 + $44 = $138 (khớp chính xác giá vé Business Premier ở Passage 1).",
+            "evidenceQuote": "Business Premier | $138 | Passengers switching to a higher fare class pay only the difference between the original ticket price and the upgraded fare class",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t4-s1"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Mới là giá vé FlexiPass cũ chưa nâng hạng.",
+            "B": "Loại — $94 + $30 (tính sai khoản hợp lệ).",
+            "C": "ĐÚNG — $94 + $44 = $138 (đúng bằng giá Business Premier).",
+            "D": "Loại — Là số tiền TRƯỚC khi hoàn $30 ($94 + $74 = $168)."
+          },
+          "keyTakeaways": {
+            "formula": "Original ($94) + Upgrade difference ($44) = Business Premier Price ($138)",
+            "commonTrap": "Bẫy (D) $168 là tổng đã quẹt thẻ TRƯỚC khi trừ $30 hoàn tiền!",
+            "paraphrases": [
+              {
+                "textInPassage": "FlexiPass ($94) + fare upgrade ($44) = Business Premier ($138)",
+                "textInAnswer": "$138",
+                "meaningVi": "tổng chi phí hợp lệ 138 đô la"
+              }
+            ]
+          },
+          "applyRule": "Mẹo tự kiểm tra đáp án: nâng hạng miễn phí đổi vé thì tổng thực trả LUÔN bằng đúng niêm yết hạng mới ($138)!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Giá Business Premier & Chính sách nâng hạng)",
+            "clue1Text": "Business Premier: $138 | Upgrades pay only the fare difference, no change fee.",
+            "clue2Label": "Passage 2 & 3 (Đã trả & Hoàn $30)",
+            "clue2Text": "Paid $94 + $74 = $168; refunding erroneous $30 change fee → $168 - $30 = $138.",
+            "deduction": "Tổng chi phí hợp lệ sau hoàn tiền = $138 → Chọn (C)."
+          }
+        }
+      },
+      {
+        "id": "p7-t4-q5",
+        "questionNumber": 200,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What is most likely Mr. Alvarez's profession?",
+        "options": {
+          "A": "A railroad station engineer",
+          "B": "An attorney",
+          "C": "A hotel concierge",
+          "D": "An airline pilot"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Suy luận nghề nghiệp từ địa chỉ email & từ khóa (Inference)",
+            "signal": "Email 'v.alvarez@kestrel-law.com' + đọc 'legal briefs' cho 'client briefing' → luật sư (attorney)."
+          },
+          "translation": {
+            "questionVi": "Nghề nghiệp của ông Alvarez nhiều khả năng nhất là gì?",
+            "optionsVi": {
+              "A": "Kỹ sư nhà ga đường sắt",
+              "B": "Luật sư",
+              "C": "Nhân viên hỗ trợ khách sạn",
+              "D": "Phi công hàng không"
+            }
+          },
+          "proof": {
+            "explanation": "Tên miền email là 'kestrel-law.com' và trong thư ông cho biết cần hoàn tất đọc 'legal briefs' (hồ sơ tranh tụng/pháp lý) trước buổi họp khách hàng → nghề nghiệp là luật sư ('attorney').",
+            "evidenceQuote": "From: Victor Alvarez <v.alvarez@kestrel-law.com> ... finish reviewing legal briefs inside the quiet car.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t4-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Ông là hành khách mua vé tàu, không phải nhân viên đường sắt.",
+            "B": "ĐÚNG — 'kestrel-law.com' + 'legal briefs' → attorney (luật sư).",
+            "C": "Loại — Không có manh mối nào về khách sạn.",
+            "D": "Loại — Ông đi tàu cao tốc, không liên quan hàng không."
+          },
+          "keyTakeaways": {
+            "formula": "kestrel-law.com + legal briefs ↔ attorney / lawyer",
+            "commonTrap": "Bỏ qua tên miền email (@kestrel-law.com) trong Header — một trong những manh mối suy luận ưa thích nhất của ETS!",
+            "paraphrases": [
+              {
+                "textInPassage": "v.alvarez@kestrel-law.com ... legal briefs",
+                "textInAnswer": "an attorney",
+                "meaningVi": "một luật sư"
+              }
+            ]
+          },
+          "applyRule": "Khi gặp câu hỏi nghề nghiệp/lĩnh vực công ty, LUÔN liếc tên miền email (@...-law.com, @...bio.com, @...arch.com)!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "p7-triple-05",
+    "title": "Triple 5: Bài báo Giải thưởng Thiết kế Xanh, Lịch Lễ Trao giải & Email Chúc mừng của CEO",
+    "passageCountType": "triple",
+    "topic": "Giải thưởng Doanh nghiệp & Sự kiện (Article + Schedule + Email)",
+    "passages": [
+      {
+        "id": "p7-t5-doc1",
+        "tabLabel": "Passage 1: News Article",
+        "genre": "Article",
+        "title": "Four Innovators Shortlisted for the Nordic Sustainable Design Prize",
+        "headerMeta": [
+          {
+            "label": "Publication",
+            "value": "Design & Ecology Monthly"
+          },
+          {
+            "label": "Date",
+            "value": "October 2"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t5-p1",
+            "sentences": [
+              {
+                "id": "p7-t5-s1",
+                "en": "STOCKHOLM — The Nordic Design Council has announced four finalists for its annual Sustainable Design Prize, which recognizes commercial products that drastically cut industrial carbon emissions.",
+                "vi": "STOCKHOLM — Hội đồng Thiết kế Bắc Âu vừa công bố bốn đề cử chung kết cho Giải thưởng Thiết kế Bền vững thường niên, tôn vinh các sản phẩm thương mại cắt giảm mạnh lượng phát thải carbon công nghiệp."
+              },
+              {
+                "id": "p7-t5-s2",
+                "en": "This year's shortlist spans four distinct categories: modular office lighting, biodegradable shipping insulation, recycled-aluminum bicycles, and solar window blinds. The grand prize winner receives a €40,000 innovation grant and a six-month showcase inside Stockholm's National Architecture Gallery.",
+                "vi": "Danh sách rút gọn năm nay trải rộng trên bốn hạng mục riêng biệt: chiếu sáng văn phòng mô-đun, vật liệu cách nhiệt vận chuyển phân hủy sinh học, xe đạp nhôm tái chế và rèm cửa năng lượng mặt trời. Người thắng giải cao nhất nhận khoản tài trợ sáng tạo 40.000 euro và sáu tháng trưng bày tại Phòng trưng bày Kiến trúc Quốc gia Stockholm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t5-doc2",
+        "tabLabel": "Passage 2: Gala Program",
+        "genre": "Schedule",
+        "title": "Nordic Sustainable Design Prize — Finalist Presentations & Gala (October 18)",
+        "headerMeta": [
+          {
+            "label": "Venue",
+            "value": "Stockholm Waterfront Congress Hall"
+          },
+          {
+            "label": "Dress Code",
+            "value": "Business Formal"
+          }
+        ],
+        "tableData": {
+          "headers": [
+            "Time",
+            "Company & Product",
+            "Lead Presenter",
+            "Category"
+          ],
+          "rows": [
+            {
+              "id": "p7-t5-r1",
+              "cells": [
+                "2:00 P.M.",
+                "LumaGrid — SnapLight LED",
+                "Astrid Holm",
+                "Modular Office Lighting"
+              ],
+              "viNote": "14h00: LumaGrid — Đèn LED SnapLight (Astrid Holm — Chiếu sáng văn phòng)"
+            },
+            {
+              "id": "p7-t5-r2",
+              "cells": [
+                "2:45 P.M.",
+                "PackRoot — MycoCool Liner",
+                "Tomasz Nowak",
+                "Biodegradable Shipping Insulation"
+              ],
+              "viNote": "14h45: PackRoot — Tấm lót cách nhiệt MycoCool (Tomasz Nowak — Cách nhiệt sinh học)"
+            },
+            {
+              "id": "p7-t5-r3",
+              "cells": [
+                "3:30 P.M.",
+                "VeloLoop — ReFrame City Bike",
+                "Hanna Lindqvist",
+                "Recycled-Aluminum Bicycles"
+              ],
+              "viNote": "15h30: VeloLoop — Xe đạp ReFrame (Hanna Lindqvist — Xe đạp nhôm tái chế)"
+            },
+            {
+              "id": "p7-t5-r4",
+              "cells": [
+                "4:15 P.M.",
+                "HelioShade — SunWeave Louver",
+                "Mikael Virtanen",
+                "Solar Window Blinds"
+              ],
+              "viNote": "16h15: HelioShade — Rèm SunWeave (Mikael Virtanen — Rèm năng lượng mặt trời)"
+            },
+            {
+              "id": "p7-t5-r5",
+              "cells": [
+                "6:30 P.M.",
+                "Grand Prize Announcement & Banquet",
+                "Council Chair",
+                "Main Ballroom"
+              ],
+              "viNote": "18h30: Công bố giải cao nhất & Tiệc tối (Khán phòng chính)"
+            }
+          ]
+        },
+        "paragraphs": [
+          {
+            "id": "p7-t5-p2",
+            "sentences": [
+              {
+                "id": "p7-t5-s3",
+                "en": "All four finalist companies receive two complimentary banquet passes; additional staff seats may be purchased at €95 per person before October 12.",
+                "vi": "Cả bốn công ty vào chung kết nhận hai vé tiệc tối miễn phí; suất bổ sung cho nhân viên có thể mua với giá 95 euro mỗi người trước ngày 12/10."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p7-t5-doc3",
+        "tabLabel": "Passage 3: CEO Email",
+        "genre": "Email",
+        "title": "We Won the Nordic Sustainable Design Prize!",
+        "headerMeta": [
+          {
+            "label": "From",
+            "value": "Freja Lindholm, CEO <f.lindholm@packroot.eu>"
+          },
+          {
+            "label": "To",
+            "value": "All PackRoot Employees"
+          },
+          {
+            "label": "Date",
+            "value": "Monday, October 20"
+          },
+          {
+            "label": "Subject",
+            "value": "Grand Prize Victory & Celebration Lunch This Friday"
+          }
+        ],
+        "paragraphs": [
+          {
+            "id": "p7-t5-p3",
+            "sentences": [
+              {
+                "id": "p7-t5-s4",
+                "en": "Dear Team, I am overjoyed to share that our mycelium-based thermal shipping liner took home the Grand Prize at Saturday evening's gala in Stockholm! Tomasz delivered an extraordinary afternoon presentation that won over every member of the judging panel.",
+                "vi": "Thân gửi cả đội ngũ, Tôi vô cùng hạnh phúc thông báo tấm lót vận chuyển cách nhiệt gốc sợi nấm của chúng ta đã giành Giải Nhất tại đêm tiệc tối thứ Bảy ở Stockholm! Tomasz đã có bài thuyết trình buổi chiều xuất sắc chinh phục hoàn toàn hội đồng giám khảo."
+              },
+              {
+                "id": "p7-t5-s5",
+                "en": "We plan to invest the full grant award into scaling our cold-chain pilot line in Malmö, and our prototype crate will go on public display in Stockholm starting November 1. As a token of gratitude, all employees are invited to a catered celebration lunch in the courtyard this Friday at 12:30 P.M.",
+                "vi": "Chúng ta dự định đầu tư toàn bộ khoản tiền tài trợ giải thưởng vào việc mở rộng dây chuyền thí điểm chuỗi lạnh tại Malmö, và thùng mẫu thử của chúng ta sẽ được trưng bày công khai tại Stockholm từ ngày 1/11. Như một lời tri ân, toàn bộ nhân viên được mời dự bữa trưa ăn mừng tại sân trong vào 12:30 trưa thứ Sáu này."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-t5-q1",
+        "questionNumber": 196,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Which product won the Nordic Sustainable Design Prize?",
+        "options": {
+          "A": "SnapLight LED",
+          "B": "MycoCool Liner",
+          "C": "ReFrame City Bike",
+          "D": "SunWeave Louver"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Xác định sản phẩm đoạt giải (Cross-Passage)",
+            "signal": "P3: CEO PackRoot (Freja Lindholm) thông báo 'our mycelium-based thermal shipping liner' & Tomasz thắng Giải Nhất → P2 tra PackRoot / Tomasz Nowak = MycoCool Liner!"
+          },
+          "translation": {
+            "questionVi": "Sản phẩm nào đã giành Giải thưởng Thiết kế Bền vững Bắc Âu?",
+            "optionsVi": {
+              "A": "SnapLight LED",
+              "B": "MycoCool Liner",
+              "C": "ReFrame City Bike",
+              "D": "SunWeave Louver"
+            }
+          },
+          "proof": {
+            "explanation": "Email Đoạn 3 từ CEO của PackRoot thông báo chiến thắng của tấm lót cách nhiệt vận chuyển do Tomasz trình bày; đối chiếu bảng Đoạn 2, sản phẩm của PackRoot là 'MycoCool Liner'.",
+            "evidenceQuote": "our mycelium-based thermal shipping liner took home the Grand Prize ... Tomasz delivered an extraordinary afternoon presentation",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t5-s4"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Sản phẩm của LumaGrid (Astrid Holm).",
+            "B": "ĐÚNG — MycoCool Liner của PackRoot (Tomasz Nowak).",
+            "C": "Loại — Sản phẩm của VeloLoop (Hanna Lindqvist).",
+            "D": "Loại — Sản phẩm của HelioShade (Mikael Virtanen)."
+          },
+          "keyTakeaways": {
+            "formula": "PackRoot + Tomasz + thermal shipping liner (P3) → MycoCool Liner (P2)",
+            "commonTrap": "Không nhìn dòng From/To của Email ('All PackRoot Employees') để định vị ngay công ty thắng giải!",
+            "paraphrases": [
+              {
+                "textInPassage": "PackRoot ... mycelium-based thermal shipping liner (Tomasz)",
+                "textInAnswer": "MycoCool Liner",
+                "meaningVi": "Tấm lót cách nhiệt sinh học MycoCool Liner"
+              }
+            ]
+          },
+          "applyRule": "Luôn đối chiếu đồng thời 3 manh mối: Tên công ty (PackRoot) + Tên diễn giả (Tomasz) + Mô tả sản phẩm (shipping liner).",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 3 (Công ty & Diễn giả thắng giải)",
+            "clue1Text": "From: CEO of PackRoot | 'our mycelium-based thermal shipping liner took home the Grand Prize... Tomasz delivered an extraordinary presentation'.",
+            "clue2Label": "Passage 2 (Bảng sản phẩm chung kết)",
+            "clue2Text": "2:45 P.M. | PackRoot — MycoCool Liner | Tomasz Nowak | Biodegradable Shipping Insulation.",
+            "deduction": "Sản phẩm đoạt giải nhất là MycoCool Liner → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t5-q2",
+        "questionNumber": 197,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "What time did Mr. Nowak give his presentation on October 18?",
+        "options": {
+          "A": "2:00 P.M.",
+          "B": "2:45 P.M.",
+          "C": "3:30 P.M.",
+          "D": "6:30 P.M."
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tra cứu lịch diễn giả (Passage 2 + 3)",
+            "signal": "Tomasz Nowak trình bày cho PackRoot lúc 2:45 P.M. trên bảng Passage 2."
+          },
+          "translation": {
+            "questionVi": "Ông Nowak đã thuyết trình lúc mấy giờ vào ngày 18/10?",
+            "optionsVi": {
+              "A": "2:00 chiều",
+              "B": "2:45 chiều",
+              "C": "3:30 chiều",
+              "D": "6:30 tối"
+            }
+          },
+          "proof": {
+            "explanation": "Bảng lịch ngày 18/10 (Đoạn 2) ghi: '2:45 P.M. | PackRoot — MycoCool Liner | Tomasz Nowak'.",
+            "evidenceQuote": "2:45 P.M. | PackRoot — MycoCool Liner | Tomasz Nowak | Biodegradable Shipping Insulation",
+            "evidencePassageIndex": 1,
+            "evidenceSentenceId": "p7-t5-s3"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — 2:00 P.M. là giờ của Astrid Holm (LumaGrid).",
+            "B": "ĐÚNG — 2:45 P.M. là khung giờ của Tomasz Nowak.",
+            "C": "Loại — 3:30 P.M. là giờ của Hanna Lindqvist (VeloLoop).",
+            "D": "Loại — 6:30 P.M. là giờ công bố giải và tiệc tối."
+          },
+          "keyTakeaways": {
+            "formula": "Tomasz (Email) → Tomasz Nowak (Schedule) → 2:45 P.M.",
+            "commonTrap": "Bẫy (D) nhầm giờ trao giải (6:30 P.M.) với giờ thuyết trình buổi chiều.",
+            "paraphrases": [
+              {
+                "textInPassage": "Tomasz delivered an afternoon presentation (2:45 P.M.)",
+                "textInAnswer": "2:45 P.M.",
+                "meaningVi": "lúc 2:45 chiều"
+              }
+            ]
+          },
+          "applyRule": "Nối tên gọi thân mật trong email nội bộ ('Tomasz') với họ tên đầy đủ trên lịch trình ('Tomasz Nowak')."
+        }
+      },
+      {
+        "id": "p7-t5-q3",
+        "questionNumber": 198,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "How much money will PackRoot invest in its Malmö cold-chain pilot line?",
+        "options": {
+          "A": "€95",
+          "B": "€4,000",
+          "C": "€20,000",
+          "D": "€40,000"
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tổng hợp số tiền tài trợ xuyên 3 đoạn (Triple-Passage)",
+            "signal": "P1: Giải Nhất nhận '€40,000 innovation grant' + P3: PackRoot thắng Giải Nhất và đầu tư 'the full grant award' vào dây chuyền tại Malmö → €40,000!"
+          },
+          "translation": {
+            "questionVi": "PackRoot sẽ đầu tư bao nhiêu tiền vào dây chuyền thí điểm chuỗi lạnh tại Malmö?",
+            "optionsVi": {
+              "A": "95 euro",
+              "B": "4.000 euro",
+              "C": "20.000 euro",
+              "D": "40.000 euro"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 1 cho biết người thắng Giải Nhất nhận khoản tài trợ €40,000; Đoạn 3 xác nhận PackRoot thắng giải và sẽ đầu tư toàn bộ khoản tài trợ ('the full grant award') vào dây chuyền tại Malmö.",
+            "evidenceQuote": "The grand prize winner receives a €40,000 innovation grant ... We plan to invest the full grant award into scaling our cold-chain pilot line in Malmö",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t5-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — €95 là giá mua thêm vé tiệc tối.",
+            "B": "Loại — Thiếu một số 0 so với €40,000.",
+            "C": "Loại — Họ đầu tư TOÀN BỘ ('full grant award'), không phải một nửa.",
+            "D": "ĐÚNG — Toàn bộ giải thưởng €40,000."
+          },
+          "keyTakeaways": {
+            "formula": "the full grant award (P3) = €40,000 innovation grant (P1)",
+            "commonTrap": "Đọc lướt không để ý chữ 'full' và không quay ngược về Passage 1 tra giá trị giải thưởng.",
+            "paraphrases": [
+              {
+                "textInPassage": "€40,000 innovation grant ... invest the full grant award",
+                "textInAnswer": "€40,000",
+                "meaningVi": "đầu tư toàn bộ 40.000 euro"
+              }
+            ]
+          },
+          "applyRule": "Mỗi khi Passage 3 nhắc gián tiếp 'the full grant award / the prize money', lập tức quay lại Passage 1 lấy đúng con số!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Giá trị Giải Nhất)",
+            "clue1Text": "The grand prize winner receives a €40,000 innovation grant.",
+            "clue2Label": "Passage 3 (Kế hoạch sử dụng tiền thưởng của PackRoot)",
+            "clue2Text": "We plan to invest the full grant award into scaling our cold-chain pilot line in Malmö.",
+            "deduction": "PackRoot đầu tư toàn bộ €40,000 vào dây chuyền tại Malmö → Chọn (D)."
+          }
+        }
+      },
+      {
+        "id": "p7-t5-q4",
+        "questionNumber": 199,
+        "questionType": "Suy luận (Inference)",
+        "prompt": "Where and for how long will PackRoot's prototype crate be displayed to the public?",
+        "options": {
+          "A": "At Stockholm Waterfront Congress Hall for one weekend",
+          "B": "At Stockholm's National Architecture Gallery for six months",
+          "C": "At PackRoot's Malmö factory for twelve months",
+          "D": "At the Main Ballroom until October 24"
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Tổng hợp địa điểm & thời lượng trưng bày (Triple-Passage)",
+            "signal": "P1: giải thưởng gồm 'a six-month showcase inside Stockholm's National Architecture Gallery' + P3: 'our prototype crate will go on public display in Stockholm starting November 1'."
+          },
+          "translation": {
+            "questionVi": "Thùng mẫu thử của PackRoot sẽ được trưng bày công khai ở đâu và trong bao lâu?",
+            "optionsVi": {
+              "A": "Tại Hội trường Stockholm Waterfront trong một dịp cuối tuần",
+              "B": "Tại Phòng trưng bày Kiến trúc Quốc gia Stockholm trong sáu tháng",
+              "C": "Tại nhà máy Malmö của PackRoot trong mười hai tháng",
+              "D": "Tại Khán phòng chính cho đến ngày 24/10"
+            }
+          },
+          "proof": {
+            "explanation": "Đoạn 3 báo thùng mẫu thử sẽ trưng bày công khai tại Stockholm từ 1/11; đối chiếu quyền lợi giải thưởng ở Đoạn 1, địa điểm chính xác là 'Stockholm's National Architecture Gallery' và thời lượng là 'six months'.",
+            "evidenceQuote": "a six-month showcase inside Stockholm's National Architecture Gallery.",
+            "evidencePassageIndex": 0,
+            "evidenceSentenceId": "p7-t5-s2"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "Loại — Waterfront Congress Hall chỉ là nơi tổ chức lễ trao giải ngày 18/10.",
+            "B": "ĐÚNG — Kết hợp chính xác P1 ('six-month showcase inside Stockholm's National Architecture Gallery') và P3 ('prototype crate... public display in Stockholm').",
+            "C": "Loại — Malmö là nơi đặt dây chuyền thí điểm, không phải nơi trưng bày công khai.",
+            "D": "Loại — Main Ballroom chỉ tổ chức tiệc tối ngày 18/10."
+          },
+          "keyTakeaways": {
+            "formula": "go on public display in Stockholm (P3) + six-month showcase inside National Architecture Gallery (P1)",
+            "commonTrap": "Bẫy (A) lấy nhầm địa điểm lễ trao giải (Waterfront Congress Hall) thay vì địa điểm trưng bày sản phẩm thắng giải!",
+            "paraphrases": [
+              {
+                "textInPassage": "six-month showcase inside Stockholm's National Architecture Gallery",
+                "textInAnswer": "displayed at Stockholm's National Architecture Gallery for six months",
+                "meaningVi": "trưng bày 6 tháng tại Phòng trưng bày Kiến trúc Quốc gia Stockholm"
+              }
+            ]
+          },
+          "applyRule": "Phân biệt rõ 2 địa điểm ở cùng thành phố Stockholm: nơi trao giải (Passage 2) vs nơi trưng bày sản phẩm thắng giải (Passage 1)!",
+          "crossPassageLogic": {
+            "clue1Label": "Passage 1 (Quyền lợi trưng bày Giải Nhất)",
+            "clue1Text": "The grand prize winner receives ... a six-month showcase inside Stockholm's National Architecture Gallery.",
+            "clue2Label": "Passage 3 (Sản phẩm trưng bày của PackRoot)",
+            "clue2Text": "our prototype crate will go on public display in Stockholm starting November 1.",
+            "deduction": "Thùng mẫu thử được trưng bày 6 tháng tại Phòng trưng bày Kiến trúc Quốc gia Stockholm → Chọn (B)."
+          }
+        }
+      },
+      {
+        "id": "p7-t5-q5",
+        "questionNumber": 200,
+        "questionType": "Thông tin chi tiết (Detail)",
+        "prompt": "What is planned for Friday, October 24, at PackRoot?",
+        "options": {
+          "A": "A catered lunch for staff to celebrate the award",
+          "B": "A tour of the National Architecture Gallery",
+          "C": "A second presentation by Tomasz Nowak",
+          "D": "The launch of the Malmö pilot line"
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "classification": {
+            "category": "Part 7 — Chi tiết + Suy luận ngày (Passage 3)",
+            "signal": "Email gửi Thứ Hai ngày 20/10 ('Monday, October 20') → 'this Friday' = Thứ Sáu ngày 24/10 → bữa trưa ăn mừng tại sân trong."
+          },
+          "translation": {
+            "questionVi": "Hoạt động gì được lên kế hoạch vào thứ Sáu, ngày 24/10 tại PackRoot?",
+            "optionsVi": {
+              "A": "Một bữa trưa đặt tiệc cho nhân viên để ăn mừng giải thưởng",
+              "B": "Chuyến tham quan Phòng trưng bày Kiến trúc Quốc gia",
+              "C": "Bài thuyết trình thứ hai của Tomasz Nowak",
+              "D": "Lễ khai trương dây chuyền thí điểm ở Malmö"
+            }
+          },
+          "proof": {
+            "explanation": "Email đề ngày Thứ Hai 20/10, do đó 'this Friday' là ngày 24/10 — CEO mời toàn bộ nhân viên dự 'a catered celebration lunch in the courtyard'.",
+            "evidenceQuote": "As a token of gratitude, all employees are invited to a catered celebration lunch in the courtyard this Friday at 12:30 P.M.",
+            "evidencePassageIndex": 2,
+            "evidenceSentenceId": "p7-t5-s5"
+          },
+          "wrongOptionsAnalysis": {
+            "A": "ĐÚNG — Monday Oct 20 + 4 days = Friday Oct 24 ('catered celebration lunch').",
+            "B": "Loại — Triển lãm bắt đầu từ 1/11, không tổ chức tour ngày 24/10.",
+            "C": "Loại — Không nhắc bài thuyết trình thứ hai.",
+            "D": "Loại — Chỉ mới lên kế hoạch đầu tư mở rộng dây chuyền."
+          },
+          "keyTakeaways": {
+            "formula": "Monday, October 20 + 'this Friday' = Friday, October 24",
+            "commonTrap": "Thấy ngày 'October 24' không xuất hiện trực tiếp trong bài tưởng không có thông tin — thực ra cần cộng 4 ngày từ 'Monday, October 20'!",
+            "paraphrases": [
+              {
+                "textInPassage": "catered celebration lunch ... this Friday (Oct 24)",
+                "textInAnswer": "a catered lunch for staff to celebrate the award",
+                "meaningVi": "bữa trưa đặt tiệc ăn mừng giải thưởng cho nhân viên"
+              }
+            ]
+          },
+          "applyRule": "Mỗi khi câu hỏi nêu một ngày cụ thể không có trong bài (Oct 24), hãy lập tức tính theo thứ trong tuần từ dòng Date của Email (Monday, Oct 20 → this Friday = Oct 24)!"
+        }
+      }
+    ]
+  }
+]

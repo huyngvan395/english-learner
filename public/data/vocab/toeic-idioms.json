@@ -1,0 +1,3635 @@
+{
+  "id": "toeic-idioms",
+  "title": "Thành Ngữ & Collocations TOEIC Phổ Biến",
+  "subtitle": "Cụm động từ, cụm giới từ và thành ngữ công sở ăn điểm tuyệt đối ở Part 2, 3, 5 & 7.",
+  "category": "toeic",
+  "levelLabel": "B2",
+  "tags": [
+    "#b2",
+    "#toeic",
+    "#idioms",
+    "#ets"
+  ],
+  "coverTheme": "toeic-idioms",
+  "accentGradient": "from-cyan-500 via-blue-600 to-indigo-600",
+  "badgeText": "COLLOCATIONS",
+  "topicCount": 7,
+  "wordCount": 136,
+  "topics": [
+    {
+      "id": "tid-schedule",
+      "name": "Tiến độ & Thời hạn công việc",
+      "icon": "schedule",
+      "words": [
+        {
+          "id": "tid-1",
+          "deckId": "toeic-idioms",
+          "word": "ahead of schedule",
+          "pos": "phrase",
+          "ipaUK": "/əˈhed əv ˈʃed.juːl/",
+          "ipaUS": "/əˈhed əv ˈskedʒ.uːl/",
+          "meaning": "sớm hơn tiến độ, trước kế hoạch",
+          "examples": [
+            {
+              "en": "The bridge repairs finished two weeks ahead of schedule.",
+              "vi": "Việc sửa cầu hoàn thành sớm hơn kế hoạch hai tuần."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "early",
+            "before the deadline"
+          ],
+          "antonyms": [
+            "behind schedule",
+            "overdue"
+          ],
+          "collocations": [
+            {
+              "phrase": "finish ahead of schedule",
+              "meaning": "hoàn thành trước tiến độ"
+            }
+          ],
+          "definitionEn": "Completed or arriving earlier than the originally planned time or deadline.",
+          "definitionVi": "Hoàn thành hoặc đến nơi sớm hơn thời điểm hay tiến độ đã vạch ra ban đầu.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-2",
+          "deckId": "toeic-idioms",
+          "word": "behind schedule",
+          "pos": "phrase",
+          "ipaUK": "/bɪˈhaɪnd ˈʃed.juːl/",
+          "ipaUS": "/bɪˈhaɪnd ˈskedʒ.uːl/",
+          "meaning": "chậm tiến độ, trễ kế hoạch",
+          "examples": [
+            {
+              "en": "Heavy rain pushed the stadium construction slightly behind schedule.",
+              "vi": "Mưa lớn khiến việc xây sân vận động bị chậm nhẹ so với tiến độ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "delayed",
+            "late"
+          ],
+          "antonyms": [
+            "ahead of schedule",
+            "on schedule"
+          ],
+          "collocations": [
+            {
+              "phrase": "fall behind schedule",
+              "meaning": "bị trễ tiến độ"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'delayed, late'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa chậm tiến độ, trễ kế hoạch.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-3",
+          "deckId": "toeic-idioms",
+          "word": "in charge of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn tʃɑːdʒ əv/",
+          "ipaUS": "/ɪn tʃɑːrdʒ əv/",
+          "meaning": "phụ trách, chịu trách nhiệm về",
+          "examples": [
+            {
+              "en": "Ms. Morales is in charge of coordinating international shipments.",
+              "vi": "Cô Morales phụ trách điều phối các lô hàng quốc tế."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "responsible for",
+            "overseeing"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "person in charge",
+              "meaning": "người phụ trách"
+            },
+            {
+              "phrase": "take charge of",
+              "meaning": "đảm nhận"
+            }
+          ],
+          "definitionEn": "Having official responsibility for managing a team, project, or specific duty.",
+          "definitionVi": "Nắm trách nhiệm chính thức trong việc điều hành một đội ngũ, dự án hay nhiệm vụ.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-4",
+          "deckId": "toeic-idioms",
+          "word": "out of stock",
+          "pos": "phrase",
+          "ipaUK": "/aʊt əv stɒk/",
+          "ipaUS": "/aʊt̬ əv stɑːk/",
+          "meaning": "hết hàng trong kho (= no longer available)",
+          "examples": [
+            {
+              "en": "The ergonomic desk chair is temporarily out of stock.",
+              "vi": "Mẫu ghế công thái học hiện đang tạm hết hàng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "sold out",
+            "unavailable",
+            "depleted"
+          ],
+          "antonyms": [
+            "in stock",
+            "available"
+          ],
+          "collocations": [
+            {
+              "phrase": "temporarily out of stock",
+              "meaning": "tạm thời hết hàng"
+            }
+          ],
+          "definitionEn": "Temporarily sold out and unavailable for immediate purchase from a store or warehouse.",
+          "definitionVi": "Tạm thời bán hết sạch trong cửa hàng hoặc kho và không có sẵn để mua ngay.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-5",
+          "deckId": "toeic-idioms",
+          "word": "subject to",
+          "pos": "phrase",
+          "ipaUK": "/ˈsʌb.dʒekt tuː/",
+          "ipaUS": "/ˈsʌb.dʒekt tuː/",
+          "meaning": "tùy thuộc vào, có thể thay đổi theo",
+          "examples": [
+            {
+              "en": "Ticket prices are subject to change without prior notice.",
+              "vi": "Giá vé có thể thay đổi mà không cần báo trước."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "dependent on",
+            "contingent upon"
+          ],
+          "antonyms": [
+            "exempt from"
+          ],
+          "collocations": [
+            {
+              "phrase": "subject to approval",
+              "meaning": "chờ phê duyệt"
+            },
+            {
+              "phrase": "subject to availability",
+              "meaning": "tùy tình trạng còn chỗ"
+            }
+          ],
+          "definitionEn": "Affected by or dependent upon a condition, rule, or approval before taking effect.",
+          "definitionVi": "Chịu sự chi phối hoặc tùy thuộc vào một điều kiện, quy định hay phê duyệt.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-6",
+          "deckId": "toeic-idioms",
+          "word": "on behalf of",
+          "pos": "phrase",
+          "ipaUK": "/ɒn bɪˈhɑːf əv/",
+          "ipaUS": "/ɑːn bɪˈhæf əv/",
+          "meaning": "thay mặt cho, đại diện cho",
+          "examples": [
+            {
+              "en": "On behalf of the board, I welcome you to our annual summit.",
+              "vi": "Thay mặt hội đồng quản trị, tôi chào mừng quý vị đến hội nghị thường niên."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "representing",
+            "in the name of"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "act on behalf of",
+              "meaning": "hành động đại diện cho"
+            }
+          ],
+          "definitionEn": "Acting as the official representative of another person, team, or organization.",
+          "definitionVi": "Hành động với tư cách đại diện chính thức thay mặt cho cá nhân, nhóm hay tổ chức khác.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-7",
+          "deckId": "toeic-idioms",
+          "word": "get the ball rolling",
+          "pos": "phrase",
+          "ipaUK": "/ɡet ðə bɔːl ˈrəʊ.lɪŋ/",
+          "ipaUS": "/ɡet ðə bɑːl ˈroʊ.lɪŋ/",
+          "meaning": "khởi động, bắt đầu triển khai dự án",
+          "examples": [
+            {
+              "en": "Let’s sign the brief today so designers can get the ball rolling.",
+              "vi": "Hãy ký bản tóm tắt hôm nay để đội thiết kế bắt đầu triển khai."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "kick off",
+            "initiate",
+            "start"
+          ],
+          "antonyms": [
+            "halt",
+            "call off"
+          ],
+          "collocations": [
+            {
+              "phrase": "get the ball rolling on",
+              "meaning": "khởi động dự án"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'kick off, initiate, start'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa khởi động, bắt đầu triển khai dự án.",
+          "topicId": "tid-schedule"
+        },
+        {
+          "id": "tid-8",
+          "deckId": "toeic-idioms",
+          "word": "touch base",
+          "pos": "phrase",
+          "ipaUK": "/tʌtʃ beɪs/",
+          "ipaUS": "/tʌtʃ beɪs/",
+          "meaning": "liên lạc nhanh, cập nhật tình hình",
+          "examples": [
+            {
+              "en": "I’ll touch base with the caterer tomorrow to confirm the menu.",
+              "vi": "Tôi sẽ liên lạc nhanh với bên tiệc ngày mai để chốt thực đơn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "check in with",
+            "follow up with"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "touch base with sb",
+              "meaning": "trao đổi nhanh với ai"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'check in with, follow up with'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa liên lạc nhanh, cập nhật tình hình.",
+          "topicId": "tid-schedule"
+        }
+      ]
+    },
+    {
+      "id": "tid-office",
+      "name": "Trách nhiệm & Giao tiếp công sở",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "tid-9",
+          "deckId": "toeic-idioms",
+          "word": "meet a deadline",
+          "pos": "phrase",
+          "ipaUK": "/miːt ə ˈded.laɪn/",
+          "ipaUS": "/miːt̬ ə ˈded.laɪn/",
+          "meaning": "hoàn thành đúng hạn chót",
+          "examples": [
+            {
+              "en": "The design team worked overtime to meet a deadline for the client.",
+              "vi": "Đội thiết kế làm thêm giờ để hoàn thành đúng hạn chót cho khách hàng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "finish on time"
+          ],
+          "antonyms": [
+            "miss a deadline"
+          ],
+          "collocations": [
+            {
+              "phrase": "tight deadline",
+              "meaning": "hạn chót gấp rút"
+            },
+            {
+              "phrase": "extend a deadline",
+              "meaning": "gia hạn chót"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'finish on time'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa hoàn thành đúng hạn chót.",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-10",
+          "deckId": "toeic-idioms",
+          "word": "in accordance with",
+          "pos": "phrase",
+          "ipaUK": "/ɪn əˈkɔː.dəns wɪð/",
+          "ipaUS": "/ɪn əˈkɔːr.dəns wɪð/",
+          "meaning": "theo đúng, phù hợp với (quy định, luật)",
+          "examples": [
+            {
+              "en": "Data is stored strictly in accordance with privacy regulations.",
+              "vi": "Dữ liệu được lưu trữ nghiêm ngặt theo đúng quy định bảo mật."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "in compliance with",
+            "pursuant to"
+          ],
+          "antonyms": [
+            "contrary to"
+          ],
+          "collocations": [
+            {
+              "phrase": "in accordance with law",
+              "meaning": "theo đúng pháp luật"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'in compliance with, pursuant to'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa theo đúng, phù hợp với (quy định, luật).",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-11",
+          "deckId": "toeic-idioms",
+          "word": "cut corners",
+          "pos": "phrase",
+          "ipaUK": "/kʌt ˈkɔː.nəz/",
+          "ipaUS": "/kʌt ˈkɔːr.nɚz/",
+          "meaning": "làm ẩu, cắt xén quy trình để tiết kiệm",
+          "examples": [
+            {
+              "en": "We never cut corners on aircraft maintenance.",
+              "vi": "Chúng tôi không bao giờ làm ẩu trong bảo dưỡng máy bay."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "skimp",
+            "compromise quality"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "refuse to cut corners",
+              "meaning": "kiên quyết không giảm chất lượng"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'skimp, compromise quality'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa làm ẩu, cắt xén quy trình để tiết kiệm.",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-12",
+          "deckId": "toeic-idioms",
+          "word": "prior to",
+          "pos": "phrase",
+          "ipaUK": "/ˈpraɪə tuː/",
+          "ipaUS": "/ˈpraɪ.ɚ tuː/",
+          "meaning": "trước khi (+ Danh từ / V-ing)",
+          "examples": [
+            {
+              "en": "Passengers must check in 45 minutes prior to departure.",
+              "vi": "Hành khách phải làm thủ tục 45 phút trước giờ khởi hành."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "priority",
+              "pos": "n",
+              "meaning": "sự ưu tiên"
+            }
+          ],
+          "synonyms": [
+            "before",
+            "ahead of"
+          ],
+          "antonyms": [
+            "subsequent to",
+            "following"
+          ],
+          "collocations": [
+            {
+              "phrase": "prior notice",
+              "meaning": "thông báo trước"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'before, ahead of'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa trước khi (+ Danh từ / V-ing).",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-13",
+          "deckId": "toeic-idioms",
+          "word": "fill in for",
+          "pos": "phrase",
+          "ipaUK": "/fɪl ɪn fɔːr/",
+          "ipaUS": "/fɪl ɪn fɔːr/",
+          "meaning": "làm thay, trực thay cho ai đó",
+          "examples": [
+            {
+              "en": "Could you fill in for Jenna at reception while she is on leave?",
+              "vi": "Bạn có thể trực thay Jenna ở lễ tân lúc cô ấy nghỉ phép không?"
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "substitute for",
+            "cover for",
+            "stand in for"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "fill in for a colleague",
+              "meaning": "làm thay đồng nghiệp"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'substitute for, cover for, stand in for'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa làm thay, trực thay cho ai đó.",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-14",
+          "deckId": "toeic-idioms",
+          "word": "on short notice",
+          "pos": "phrase",
+          "ipaUK": "/ɒn ʃɔːt ˈnəʊ.tɪs/",
+          "ipaUS": "/ɑːn ʃɔːrt ˈnoʊ.t̬ɪs/",
+          "meaning": "gấp gáp, báo trước trong thời gian ngắn",
+          "examples": [
+            {
+              "en": "Thank you for arranging the conference room on short notice.",
+              "vi": "Cảm ơn bạn đã thu xếp phòng họp gấp trong thời gian ngắn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "at the last minute",
+            "with little warning"
+          ],
+          "antonyms": [
+            "well in advance"
+          ],
+          "collocations": [
+            {
+              "phrase": "available on short notice",
+              "meaning": "sẵn sàng nhận việc gấp"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'at the last minute, with little warning'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa gấp gáp, báo trước trong thời gian ngắn.",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-15",
+          "deckId": "toeic-idioms",
+          "word": "put a hold on",
+          "pos": "phrase",
+          "ipaUK": "/pʊt ə həʊld ɒn/",
+          "ipaUS": "/pʊt̬ ə hoʊld ɑːn/",
+          "meaning": "tạm giữ chỗ / tạm hoãn việc gì",
+          "examples": [
+            {
+              "en": "Finance put a hold on non-essential travel until Q3.",
+              "vi": "Phòng tài chính tạm hoãn các chuyến công tác không thiết yếu đến quý 3."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "pause",
+            "reserve temporarily"
+          ],
+          "antonyms": [
+            "resume"
+          ],
+          "collocations": [
+            {
+              "phrase": "put a project on hold",
+              "meaning": "tạm dừng một dự án"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'pause, reserve temporarily'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa tạm giữ chỗ / tạm hoãn việc gì.",
+          "topicId": "tid-office"
+        },
+        {
+          "id": "tid-16",
+          "deckId": "toeic-idioms",
+          "word": "take over",
+          "pos": "phrase",
+          "ipaUK": "/teɪk ˈəʊ.vər/",
+          "ipaUS": "/teɪk ˈoʊ.vɚ/",
+          "meaning": "tiếp quản, đảm nhận thay",
+          "examples": [
+            {
+              "en": "Mr. Alvarez will take over the regional sales territory in June.",
+              "vi": "Ông Alvarez sẽ tiếp quản khu vực kinh doanh vùng vào tháng Sáu."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "takeover",
+              "pos": "n",
+              "meaning": "vụ thâu tóm doanh nghiệp"
+            }
+          ],
+          "synonyms": [
+            "assume control of",
+            "inherit"
+          ],
+          "antonyms": [
+            "hand over"
+          ],
+          "collocations": [
+            {
+              "phrase": "take over a role",
+              "meaning": "tiếp quản vị trí"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'assume control of, inherit'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa tiếp quản, đảm nhận thay.",
+          "topicId": "tid-office"
+        }
+      ]
+    },
+    {
+      "id": "tid-phrasal",
+      "name": "Cụm động từ & Thành ngữ vận hành",
+      "icon": "operations",
+      "words": [
+        {
+          "id": "tid-17",
+          "deckId": "toeic-idioms",
+          "word": "call off",
+          "pos": "phrase",
+          "ipaUK": "/kɔːl ɒf/",
+          "ipaUS": "/kɑːl ɑːf/",
+          "meaning": "hủy bỏ (sự kiện, cuộc họp)",
+          "examples": [
+            {
+              "en": "Organizers had to call off the outdoor concert due to lightning.",
+              "vi": "Ban tổ chức buộc phải hủy buổi hòa nhạc ngoài trời vì sấm sét."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "cancel",
+            "abort"
+          ],
+          "antonyms": [
+            "proceed with"
+          ],
+          "collocations": [
+            {
+              "phrase": "call off a meeting",
+              "meaning": "hủy cuộc họp"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'cancel, abort'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa hủy bỏ (sự kiện, cuộc họp).",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-18",
+          "deckId": "toeic-idioms",
+          "word": "put off",
+          "pos": "phrase",
+          "ipaUK": "/pʊt ɒf/",
+          "ipaUS": "/pʊt ɑːf/",
+          "meaning": "trì hoãn, dời lại sau",
+          "examples": [
+            {
+              "en": "Let’s not put off upgrading the security server any longer.",
+              "vi": "Đừng trì hoãn việc nâng cấp máy chủ bảo mật thêm nữa."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "postpone",
+            "defer",
+            "delay"
+          ],
+          "antonyms": [
+            "bring forward"
+          ],
+          "collocations": [
+            {
+              "phrase": "put off a decision",
+              "meaning": "hoãn ra quyết định"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'postpone, defer, delay'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa trì hoãn, dời lại sau.",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-19",
+          "deckId": "toeic-idioms",
+          "word": "run out of",
+          "pos": "phrase",
+          "ipaUK": "/rʌn aʊt əv/",
+          "ipaUS": "/rʌn aʊt̬ əv/",
+          "meaning": "hết sạch, cạn kiệt",
+          "examples": [
+            {
+              "en": "We must reorder paper before we run out of supplies.",
+              "vi": "Chúng ta phải đặt thêm giấy trước khi hết sạch đồ dùng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "exhaust",
+            "deplete"
+          ],
+          "antonyms": [
+            "restock"
+          ],
+          "collocations": [
+            {
+              "phrase": "run out of supplies",
+              "meaning": "hết đồ dùng văn phòng"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'exhaust, deplete'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa hết sạch, cạn kiệt.",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-20",
+          "deckId": "toeic-idioms",
+          "word": "turn down",
+          "pos": "phrase",
+          "ipaUK": "/tɜːn daʊn/",
+          "ipaUS": "/tɝːn daʊn/",
+          "meaning": "từ chối (lời mời, đề nghị); vặn nhỏ",
+          "examples": [
+            {
+              "en": "She decided to turn down the transfer offer to stay near family.",
+              "vi": "Cô ấy quyết định từ chối lời đề nghị chuyển công tác để ở gần gia đình."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "decline",
+            "reject",
+            "refuse"
+          ],
+          "antonyms": [
+            "accept"
+          ],
+          "collocations": [
+            {
+              "phrase": "turn down an offer",
+              "meaning": "từ chối lời đề nghị"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'decline, reject, refuse'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa từ chối (lời mời, đề nghị); vặn nhỏ.",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-21",
+          "deckId": "toeic-idioms",
+          "word": "follow up",
+          "pos": "phrase",
+          "ipaUK": "/ˈfɒl.əʊ ʌp/",
+          "ipaUS": "/ˈfɑː.loʊ ʌp/",
+          "meaning": "theo sát, liên hệ lại để kiểm tra tiến độ",
+          "examples": [
+            {
+              "en": "I will follow up with the supplier tomorrow morning.",
+              "vi": "Tôi sẽ liên hệ theo sát lại với nhà cung cấp vào sáng mai."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "follow-up",
+              "pos": "n",
+              "meaning": "buổi/email trao đổi tiếp nối"
+            }
+          ],
+          "synonyms": [
+            "check back",
+            "pursue"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "follow-up email",
+              "meaning": "email trao đổi tiếp nối"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'check back, pursue'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa theo sát, liên hệ lại để kiểm tra tiến độ.",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-22",
+          "deckId": "toeic-idioms",
+          "word": "in advance",
+          "pos": "phrase",
+          "ipaUK": "/ɪn ədˈvɑːns/",
+          "ipaUS": "/ɪn ədˈvæns/",
+          "meaning": "trước (đặt trước, trả trước, báo trước)",
+          "examples": [
+            {
+              "en": "Group tours must be booked at least two weeks in advance.",
+              "vi": "Tour theo đoàn phải được đặt trước ít nhất hai tuần."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "ahead of time",
+            "beforehand"
+          ],
+          "antonyms": [
+            "at the last minute"
+          ],
+          "collocations": [
+            {
+              "phrase": "book in advance",
+              "meaning": "đặt trước"
+            },
+            {
+              "phrase": "pay in advance",
+              "meaning": "thanh toán trước"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'ahead of time, beforehand'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa trước (đặt trước, trả trước, báo trước).",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-23",
+          "deckId": "toeic-idioms",
+          "word": "at your earliest convenience",
+          "pos": "phrase",
+          "ipaUK": "/æt jɔːr ˈɜː.li.ɪst kənˈviː.ni.əns/",
+          "ipaUS": "/æt jʊr ˈɝː.li.ɪst kənˈviː.ni.əns/",
+          "meaning": "ngay khi bạn thuận tiện nhất (công thức email)",
+          "examples": [
+            {
+              "en": "Please sign and return the form at your earliest convenience.",
+              "vi": "Vui lòng ký và gửi lại biểu mẫu ngay khi bạn thuận tiện nhất."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "as soon as possible"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "reply at your earliest convenience",
+              "meaning": "phản hồi sớm nhất khi thuận tiện"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'as soon as possible'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa ngay khi bạn thuận tiện nhất (công thức email).",
+          "topicId": "tid-phrasal"
+        },
+        {
+          "id": "tid-24",
+          "deckId": "toeic-idioms",
+          "word": "out of order",
+          "pos": "phrase",
+          "ipaUK": "/aʊt əv ˈɔː.dər/",
+          "ipaUS": "/aʊt̬ əv ˈɔːr.dɚ/",
+          "meaning": "bị hỏng, ngừng hoạt động (máy móc, thang máy)",
+          "examples": [
+            {
+              "en": "The north elevator is temporarily out of order for cable repairs.",
+              "vi": "Thang máy phía bắc tạm ngừng hoạt động để sửa dây cáp."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "broken",
+            "malfunctioning",
+            "not working"
+          ],
+          "antonyms": [
+            "operational",
+            "in service"
+          ],
+          "collocations": [
+            {
+              "phrase": "temporarily out of order",
+              "meaning": "tạm thời bị hỏng"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'broken, malfunctioning, not working'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa bị hỏng, ngừng hoạt động (máy móc, thang máy).",
+          "topicId": "tid-phrasal"
+        }
+      ]
+    },
+    {
+      "id": "toeic-idioms-g4",
+      "name": "Nhóm học 4 (25–54)",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "toeic-idioms-1",
+          "deckId": "toeic-idioms",
+          "word": "as a result",
+          "pos": "phrase",
+          "ipaUK": "/ˈæz ə rɪzˈʌlt/",
+          "ipaUS": "/ˈæz ə rɪzˈʌlt/",
+          "meaning": "kết quả là, do đó",
+          "definitionEn": "Because of a particular event or action that happened earlier.",
+          "definitionVi": "Do kết quả của một sự việc hay hành động xảy ra trước đó.",
+          "examples": [
+            {
+              "en": "Sales rose sharply, and as a result the firm hired ten new staff.",
+              "vi": "Doanh số tăng mạnh và kết quả là công ty đã tuyển thêm mười nhân viên."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "consequently",
+            "therefore"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-2",
+          "deckId": "toeic-idioms",
+          "word": "as well as",
+          "pos": "phrase",
+          "ipaUK": "/ˈæz wˈel ˈæz/",
+          "ipaUS": "/ˈæz wˈel ˈæz/",
+          "meaning": "cũng như là, ngoài ra còn",
+          "definitionEn": "In addition to someone or something else.",
+          "definitionVi": "Ngoài ai đó hoặc điều gì đó ra còn thêm nữa.",
+          "examples": [
+            {
+              "en": "The package includes breakfast as well as airport shuttle transfers.",
+              "vi": "Gói dịch vụ bao gồm bữa sáng cũng như xe đưa đón sân bay."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "in addition to",
+            "along with"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-3",
+          "deckId": "toeic-idioms",
+          "word": "at all times",
+          "pos": "phrase",
+          "ipaUK": "/ˈæt ˈɔːl tˈaɪmz/",
+          "ipaUS": "/ˈæt ˈɔːl tˈaɪmz/",
+          "meaning": "luôn luôn, mọi lúc",
+          "definitionEn": "Continuously; during every moment without exception.",
+          "definitionVi": "Liên tục trong mọi thời điểm không ngoại lệ.",
+          "examples": [
+            {
+              "en": "Visitors must wear their security badges at all times inside the lab.",
+              "vi": "Khách tham quan phải đeo thẻ an ninh mọi lúc bên trong phòng thí nghiệm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "always",
+            "constantly"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-4",
+          "deckId": "toeic-idioms",
+          "word": "at the latest",
+          "pos": "phrase",
+          "ipaUK": "/ˈæt ðə lˈeɪtəst/",
+          "ipaUS": "/ˈæt ðə lˈeɪtəst/",
+          "meaning": "chậm nhất là",
+          "definitionEn": "No later than a specified date or deadline.",
+          "definitionVi": "Không muộn hơn một ngày hoặc mốc hạn chót cụ thể.",
+          "examples": [
+            {
+              "en": "Please submit your expense report by Friday afternoon at the latest.",
+              "vi": "Vui lòng nộp báo cáo chi phí chậm nhất vào chiều thứ Sáu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "by",
+            "no later than"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-5",
+          "deckId": "toeic-idioms",
+          "word": "back up",
+          "pos": "phrase",
+          "ipaUK": "/bˈæk ˈʌp/",
+          "ipaUS": "/bˈæk ˈʌp/",
+          "meaning": "sao lưu (dữ liệu); ủng hộ",
+          "definitionEn": "To make a duplicate copy of digital files, or to support a claim.",
+          "definitionVi": "Tạo bản sao dự phòng dữ liệu số, hoặc hỗ trợ chứng minh lập luận.",
+          "examples": [
+            {
+              "en": "IT recommends that staff back up important project files every evening.",
+              "vi": "Phòng CNTT khuyến nghị nhân viên sao lưu tệp dự án quan trọng mỗi tối."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "copy",
+            "support"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-6",
+          "deckId": "toeic-idioms",
+          "word": "be aware of",
+          "pos": "phrase",
+          "ipaUK": "/bˈiː əwˈe ˈʌv/",
+          "ipaUS": "/bˈiː əwˈer ˈʌv/",
+          "meaning": "nhận thức rõ, biết về",
+          "definitionEn": "To have knowledge or consciousness of a fact, rule, or risk.",
+          "definitionVi": "Nắm rõ hoặc ý thức được một sự việc, quy định hay rủi ro.",
+          "examples": [
+            {
+              "en": "All drivers should be aware of the updated loading-zone hours.",
+              "vi": "Tất cả tài xế cần nắm rõ khung giờ khu vực bốc dỡ mới cập nhật."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "know about",
+            "recognize"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-7",
+          "deckId": "toeic-idioms",
+          "word": "be eligible for",
+          "pos": "phrase",
+          "ipaUK": "/bˈiː ˈelədʒəbəl fˈɔː/",
+          "ipaUS": "/bˈiː ˈelədʒəbəl fˈɔːr/",
+          "meaning": "đủ điều kiện nhận",
+          "definitionEn": "To meet the official requirements to receive a benefit or discount.",
+          "definitionVi": "Đáp ứng đủ tiêu chuẩn chính thức để hưởng quyền lợi hoặc ưu đãi.",
+          "examples": [
+            {
+              "en": "Full-time staff will be eligible for health coverage after sixty days.",
+              "vi": "Nhân viên toàn thời gian sẽ đủ điều kiện bảo hiểm y tế sau sáu mươi ngày."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "qualify for"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-8",
+          "deckId": "toeic-idioms",
+          "word": "be familiar with",
+          "pos": "phrase",
+          "ipaUK": "/bˈiː fəmˈɪljə wˈɪð/",
+          "ipaUS": "/bˈiː fəmˈɪljɚ wˈɪð/",
+          "meaning": "quen thuộc với, am hiểu về",
+          "definitionEn": "To have practical knowledge or experience of a tool, rule, or area.",
+          "definitionVi": "Có kiến thức thực tế hoặc kinh nghiệm sử dụng công cụ/quy trình.",
+          "examples": [
+            {
+              "en": "Applicants should be familiar with cloud accounting platforms.",
+              "vi": "Ứng viên cần quen thuộc với các nền tảng kế toán đám mây."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "know well",
+            "be versed in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-9",
+          "deckId": "toeic-idioms",
+          "word": "be in effect",
+          "pos": "phrase",
+          "ipaUK": "/bˈiː ɪn ɪfˈekt/",
+          "ipaUS": "/bˈiː ɪn ɪfˈekt/",
+          "meaning": "đang có hiệu lực thi hành",
+          "definitionEn": "To be actively operating as an official rule, policy, or law.",
+          "definitionVi": "Đang được áp dụng chính thức dưới dạng quy định, chính sách hay luật.",
+          "examples": [
+            {
+              "en": "The new remote-work guidelines will be in effect starting next Monday.",
+              "vi": "Hướng dẫn làm việc từ xa mới sẽ có hiệu lực từ thứ Hai tới."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "be active",
+            "apply"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-10",
+          "deckId": "toeic-idioms",
+          "word": "be responsible for",
+          "pos": "phrase",
+          "ipaUK": "/bˈiː riːspˈɑːnsəbəl fˈɔː/",
+          "ipaUS": "/bˈiː riːspˈɑːnsəbəl fˈɔːr/",
+          "meaning": "chịu trách nhiệm về",
+          "definitionEn": "To have official duty and authority over a task or department.",
+          "definitionVi": "Nắm nhiệm vụ và quyền hạn chính thức đối với một công việc hay phòng ban.",
+          "examples": [
+            {
+              "en": "Ms. Patel will be responsible for overseeing overseas shipping accounts.",
+              "vi": "Cô Patel sẽ chịu trách nhiệm giám sát các tài khoản vận chuyển nước ngoài."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "be in charge of",
+            "handle"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-11",
+          "deckId": "toeic-idioms",
+          "word": "bear in mind",
+          "pos": "phrase",
+          "ipaUK": "/bˈe ɪn mˈaɪnd/",
+          "ipaUS": "/bˈer ɪn mˈaɪnd/",
+          "meaning": "ghi nhớ, lưu tâm rằng",
+          "definitionEn": "To remember an important fact or condition when making a decision.",
+          "definitionVi": "Luôn ghi nhớ một yếu tố quan trọng khi đưa ra quyết định.",
+          "examples": [
+            {
+              "en": "Please bear in mind that parking validation expires after three hours.",
+              "vi": "Vui lòng lưu tâm rằng phiếu xác nhận đỗ xe hết hạn sau ba tiếng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "keep in mind",
+            "remember"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-12",
+          "deckId": "toeic-idioms",
+          "word": "break down",
+          "pos": "phrase",
+          "ipaUK": "/brˈeɪk dˈaʊn/",
+          "ipaUS": "/brˈeɪk dˈaʊn/",
+          "meaning": "bị hỏng hóc (máy móc); phân tách chi tiết",
+          "definitionEn": "For a machine to stop working, or to divide data into clear parts.",
+          "definitionVi": "Máy móc/xe cộ ngừng chạy do hỏng, hoặc chia nhỏ dữ liệu cho dễ hiểu.",
+          "examples": [
+            {
+              "en": "The delivery van may break down if we skip routine engine servicing.",
+              "vi": "Xe tải giao hàng có thể bị hỏng nếu ta bỏ qua bảo dưỡng động cơ định kỳ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "malfunction",
+            "fail"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-13",
+          "deckId": "toeic-idioms",
+          "word": "bring about",
+          "pos": "phrase",
+          "ipaUK": "/brˈɪŋ əbˈaʊt/",
+          "ipaUS": "/brˈɪŋ əbˈaʊt/",
+          "meaning": "mang lại, gây ra (sự thay đổi)",
+          "definitionEn": "To cause an important change, improvement, or result to happen.",
+          "definitionVi": "Tạo ra một sự thay đổi, cải tiến hoặc kết quả quan trọng.",
+          "examples": [
+            {
+              "en": "Automation will bring about faster order fulfillment across our depots.",
+              "vi": "Tự động hóa sẽ mang lại tốc độ xử lý đơn nhanh hơn khắp các kho."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "cause",
+            "lead to"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-14",
+          "deckId": "toeic-idioms",
+          "word": "bring forward",
+          "pos": "phrase",
+          "ipaUK": "/brˈɪŋ fˈɔːrwəd/",
+          "ipaUS": "/brˈɪŋ fˈɔːrwɚd/",
+          "meaning": "đẩy sớm lên (lịch họp, sự kiện)",
+          "definitionEn": "To move a scheduled event or deadline to an earlier date or time.",
+          "definitionVi": "Chuyển một sự kiện hay hạn chót lên thời điểm sớm hơn dự kiến.",
+          "examples": [
+            {
+              "en": "Let us bring forward the board briefing to Wednesday morning.",
+              "vi": "Hãy đẩy sớm buổi họp hội đồng lên sáng thứ Tư."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "advance",
+            "move up"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-15",
+          "deckId": "toeic-idioms",
+          "word": "build up",
+          "pos": "phrase",
+          "ipaUK": "/bˈɪld ˈʌp/",
+          "ipaUS": "/bˈɪld ˈʌp/",
+          "meaning": "xây dựng, tích lũy dần",
+          "definitionEn": "To gradually increase a reputation, reserve, or customer base over time.",
+          "definitionVi": "Từng bước gia tăng uy tín, nguồn dự trữ hoặc tệp khách hàng theo thời gian.",
+          "examples": [
+            {
+              "en": "Consistent service helped the boutique build up loyal neighborhood buyers.",
+              "vi": "Dịch vụ ổn định giúp cửa hàng xây dựng tệp khách hàng thân thiết."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "accumulate",
+            "develop"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-16",
+          "deckId": "toeic-idioms",
+          "word": "by means of",
+          "pos": "phrase",
+          "ipaUK": "/bˈaɪ mˈiːnz ˈʌv/",
+          "ipaUS": "/bˈaɪ mˈiːnz ˈʌv/",
+          "meaning": "bằng phương tiện, thông qua cách",
+          "definitionEn": "Using a particular method, tool, or channel to accomplish something.",
+          "definitionVi": "Sử dụng một phương pháp, công cụ hoặc kênh cụ thể để thực hiện việc gì.",
+          "examples": [
+            {
+              "en": "Staff can submit leave requests by means of the mobile HR portal.",
+              "vi": "Nhân viên có thể nộp đơn nghỉ phép thông qua cổng nhân sự di động."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "via",
+            "through"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-17",
+          "deckId": "toeic-idioms",
+          "word": "carry out",
+          "pos": "phrase",
+          "ipaUK": "/kˈæriː ˈaʊt/",
+          "ipaUS": "/kˈæriː ˈaʊt/",
+          "meaning": "tiến hành, thực thi (kế hoạch, khảo sát)",
+          "definitionEn": "To perform, execute, or complete an official task, study, or plan.",
+          "definitionVi": "Thực hiện, triển khai hoàn tất một nhiệm vụ, khảo sát hay kế hoạch.",
+          "examples": [
+            {
+              "en": "External auditors will carry out a full safety review next month.",
+              "vi": "Kiểm toán viên độc lập sẽ tiến hành đánh giá an toàn toàn diện tháng tới."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "conduct",
+            "execute"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-18",
+          "deckId": "toeic-idioms",
+          "word": "catch up on",
+          "pos": "phrase",
+          "ipaUK": "/kˈætʃ ˈʌp ˈɑːn/",
+          "ipaUS": "/kˈætʃ ˈʌp ˈɑːn/",
+          "meaning": "làm bù, bắt kịp (công việc tồn đọng)",
+          "definitionEn": "To complete work or learn news that you missed while away.",
+          "definitionVi": "Hoàn thành phần việc tồn đọng hoặc cập nhật tin tức đã bỏ lỡ.",
+          "examples": [
+            {
+              "en": "I spent Monday morning trying to catch up on unread client emails.",
+              "vi": "Tôi dành sáng thứ Hai để xử lý bù các email khách hàng chưa đọc."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "make up for"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-19",
+          "deckId": "toeic-idioms",
+          "word": "check out",
+          "pos": "phrase",
+          "ipaUK": "/tʃˈek ˈaʊt/",
+          "ipaUS": "/tʃˈek ˈaʊt/",
+          "meaning": "làm thủ tục trả phòng; xem thử",
+          "definitionEn": "To settle a hotel bill and leave, or to inspect something interesting.",
+          "definitionVi": "Thanh toán rời khách sạn, hoặc xem xét kiểm tra một thứ gì đó.",
+          "examples": [
+            {
+              "en": "Hotel guests must check out before noon to avoid a late fee.",
+              "vi": "Khách lưu trú phải trả phòng trước trưa để tránh phụ phí trễ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "depart",
+            "inspect"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-20",
+          "deckId": "toeic-idioms",
+          "word": "come across",
+          "pos": "phrase",
+          "ipaUK": "/kˈʌm əkrˈɔːs/",
+          "ipaUS": "/kˈʌm əkrˈɔːs/",
+          "meaning": "tình cờ bắt gặp, tìm thấy",
+          "definitionEn": "To find an item, document, or opportunity unexpectedly.",
+          "definitionVi": "Tình cờ tìm thấy một tài liệu, vật dụng hay cơ hội.",
+          "examples": [
+            {
+              "en": "While auditing files, I happened to come across the original 2019 lease.",
+              "vi": "Khi kiểm tra hồ sơ, tôi tình cờ tìm thấy bản hợp đồng thuê gốc năm 2019."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "encounter",
+            "discover"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-21",
+          "deckId": "toeic-idioms",
+          "word": "come up with",
+          "pos": "phrase",
+          "ipaUK": "/kˈʌm ˈʌp wˈɪð/",
+          "ipaUS": "/kˈʌm ˈʌp wˈɪð/",
+          "meaning": "nghĩ ra, đề xuất (ý tưởng, giải pháp)",
+          "definitionEn": "To invent or produce a creative idea, budget solution, or plan.",
+          "definitionVi": "Nghĩ ra một ý tưởng sáng tạo, phương án tài chính hoặc giải pháp.",
+          "examples": [
+            {
+              "en": "The design group must come up with eco-friendly packaging before July.",
+              "vi": "Nhóm thiết kế phải nghĩ ra bao bì thân thiện môi trường trước tháng Bảy."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "devise",
+            "propose"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-22",
+          "deckId": "toeic-idioms",
+          "word": "comply with",
+          "pos": "phrase",
+          "ipaUK": "/kəmplˈaɪ wˈɪð/",
+          "ipaUS": "/kəmplˈaɪ wˈɪð/",
+          "meaning": "tuân thủ đúng (quy định, tiêu chuẩn)",
+          "definitionEn": "To obey an official law, safety rule, or formal request.",
+          "definitionVi": "Chấp hành đúng pháp luật, quy định an toàn hoặc yêu cầu chính thức.",
+          "examples": [
+            {
+              "en": "Every imported shipment must comply with regional customs regulations.",
+              "vi": "Mọi lô hàng nhập khẩu phải tuân thủ quy định hải quan khu vực."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "abide by",
+            "adhere to"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-23",
+          "deckId": "toeic-idioms",
+          "word": "count on",
+          "pos": "phrase",
+          "ipaUK": "/kˈaʊnt ˈɑːn/",
+          "ipaUS": "/kˈaʊnt ˈɑːn/",
+          "meaning": "trông cậy, tin tưởng dựa vào",
+          "definitionEn": "To rely confidently on someone or something to perform well.",
+          "definitionVi": "Đặt niềm tin chắc chắn vào ai đó hoặc điều gì đó.",
+          "examples": [
+            {
+              "en": "Our retail clients can always count on next-day courier delivery.",
+              "vi": "Khách bán lẻ của chúng tôi luôn có thể trông cậy vào dịch vụ giao ngày hôm sau."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "rely on",
+            "depend on"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-24",
+          "deckId": "toeic-idioms",
+          "word": "cut back on",
+          "pos": "phrase",
+          "ipaUK": "/kˈʌt bˈæk ˈɑːn/",
+          "ipaUS": "/kˈʌt bˈæk ˈɑːn/",
+          "meaning": "cắt giảm bớt (chi tiêu, tiêu thụ)",
+          "definitionEn": "To deliberately reduce the amount of money or resources used.",
+          "definitionVi": "Chủ động giảm bớt mức chi tiêu hoặc lượng tài nguyên sử dụng.",
+          "examples": [
+            {
+              "en": "Offices can cut back on printing costs by sharing digital slides.",
+              "vi": "Văn phòng có thể cắt giảm chi phí in ấn bằng cách chia sẻ slide số."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "reduce",
+            "curtail"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-25",
+          "deckId": "toeic-idioms",
+          "word": "deal with",
+          "pos": "phrase",
+          "ipaUK": "/dˈiːl wˈɪð/",
+          "ipaUS": "/dˈiːl wˈɪð/",
+          "meaning": "xử lý, giải quyết (vấn đề, khách hàng)",
+          "definitionEn": "To handle a situation, complaint, or business partner professionally.",
+          "definitionVi": "Xử lý một tình huống, khiếu nại hoặc làm việc với đối tác.",
+          "examples": [
+            {
+              "en": "Our customer care agents deal with billing questions promptly.",
+              "vi": "Nhân viên CSKH của chúng tôi xử lý các câu hỏi thanh toán nhanh chóng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "handle",
+            "address"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-26",
+          "deckId": "toeic-idioms",
+          "word": "draw up",
+          "pos": "phrase",
+          "ipaUK": "/drˈɔː ˈʌp/",
+          "ipaUS": "/drˈɔː ˈʌp/",
+          "meaning": "soạn thảo (hợp đồng, kế hoạch)",
+          "definitionEn": "To prepare and write an official legal document, contract, or list.",
+          "definitionVi": "Soạn thảo một văn bản pháp lý, hợp đồng hoặc danh sách chính thức.",
+          "examples": [
+            {
+              "en": "Legal counsel will draw up the partnership contract by Thursday.",
+              "vi": "Cố vấn pháp lý sẽ soạn thảo hợp đồng đối tác trước thứ Năm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "draft",
+            "prepare"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-27",
+          "deckId": "toeic-idioms",
+          "word": "drop by",
+          "pos": "phrase",
+          "ipaUK": "/drˈɑːp bˈaɪ/",
+          "ipaUS": "/drˈɑːp bˈaɪ/",
+          "meaning": "ghé qua thăm nhanh",
+          "definitionEn": "To visit an office or person briefly without a formal appointment.",
+          "definitionVi": "Ghé ngang qua văn phòng hoặc gặp ai đó chốc lát không cần hẹn cầu kỳ.",
+          "examples": [
+            {
+              "en": "Feel free to drop by my desk whenever you have questions about payroll.",
+              "vi": "Cứ thoải mái ghé bàn tôi bất cứ khi nào bạn có thắc mắc về lương."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "stop by",
+            "visit briefly"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-28",
+          "deckId": "toeic-idioms",
+          "word": "drop off",
+          "pos": "phrase",
+          "ipaUK": "/drˈɑːp ˈɔːf/",
+          "ipaUS": "/drˈɑːp ˈɔːf/",
+          "meaning": "giao tận nơi, bỏ hàng / thả khách xuống",
+          "definitionEn": "To deliver an item or leave a passenger at a specific destination.",
+          "definitionVi": "Mang đồ giao tới một địa chỉ hoặc đưa hành khách tới điểm dừng.",
+          "examples": [
+            {
+              "en": "Please drop off the signed receipts at reception before leaving.",
+              "vi": "Vui lòng gửi lại các hóa đơn đã ký tại lễ tân trước khi ra về."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "deliver",
+            "leave"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-29",
+          "deckId": "toeic-idioms",
+          "word": "due to",
+          "pos": "phrase",
+          "ipaUK": "/dˈuː tˈuː/",
+          "ipaUS": "/dˈuː tˈuː/",
+          "meaning": "do, bởi vì (+ Danh từ)",
+          "definitionEn": "Caused by or resulting from a specific event or factor.",
+          "definitionVi": "Gây ra bởi hoặc xuất phát từ một nguyên nhân, sự kiện cụ thể.",
+          "examples": [
+            {
+              "en": "Flight 402 was delayed due to heavy fog at the coastal airport.",
+              "vi": "Chuyến bay 402 bị trễ do sương mù dày đặc tại sân bay ven biển."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "because of",
+            "owing to"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        },
+        {
+          "id": "toeic-idioms-30",
+          "deckId": "toeic-idioms",
+          "word": "even though",
+          "pos": "phrase",
+          "ipaUK": "/ˈiːvɪn ðˈəʊ/",
+          "ipaUS": "/ˈiːvɪn ðˈoʊ/",
+          "meaning": "mặc dù (+ Mệnh đề S + V)",
+          "definitionEn": "Despite the fact that something is true; introduces contrast.",
+          "definitionVi": "Dù sự thật là vậy; dùng mở đầu vế câu tương phản.",
+          "examples": [
+            {
+              "en": "We finished under budget even though raw material costs rose.",
+              "vi": "Chúng tôi hoàn thành dưới ngân sách mặc dù giá nguyên liệu thô tăng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "although",
+            "though"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g4"
+        }
+      ]
+    },
+    {
+      "id": "toeic-idioms-g5",
+      "name": "Nhóm học 5 (55–84)",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "toeic-idioms-31",
+          "deckId": "toeic-idioms",
+          "word": "fall through",
+          "pos": "phrase",
+          "ipaUK": "/fˈɔːl θrˈuː/",
+          "ipaUS": "/fˈɔːl θrˈuː/",
+          "meaning": "đổ bể, thất bại (kế hoạch, thương vụ)",
+          "definitionEn": "For a business deal, agreement, or plan to fail before completion.",
+          "definitionVi": "Một thương vụ, thỏa thuận hoặc kế hoạch bị hủy bỏ/đổ bể trước khi chốt.",
+          "examples": [
+            {
+              "en": "If the lease negotiations fall through, we have two backup venues.",
+              "vi": "Nếu đàm phán thuê mặt bằng đổ bể, chúng ta có hai địa điểm dự phòng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "fail",
+            "collapse"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-32",
+          "deckId": "toeic-idioms",
+          "word": "fill out",
+          "pos": "phrase",
+          "ipaUK": "/fˈɪl ˈaʊt/",
+          "ipaUS": "/fˈɪl ˈaʊt/",
+          "meaning": "điền đầy đủ thông tin (vào mẫu đơn)",
+          "definitionEn": "To complete all required sections of a paper or online form.",
+          "definitionVi": "Điền hoàn chỉnh tất cả mục bắt buộc trên biểu mẫu giấy hoặc trực tuyến.",
+          "examples": [
+            {
+              "en": "New members must fill out the medical waiver before using the gym.",
+              "vi": "Hội viên mới phải điền mẫu miễn trừ y tế trước khi dùng phòng gym."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "complete",
+            "fill in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-33",
+          "deckId": "toeic-idioms",
+          "word": "find out",
+          "pos": "phrase",
+          "ipaUK": "/fˈaɪnd ˈaʊt/",
+          "ipaUS": "/fˈaɪnd ˈaʊt/",
+          "meaning": "tìm hiểu, phát hiện ra thông tin",
+          "definitionEn": "To discover a piece of information by asking or investigating.",
+          "definitionVi": "Khám phá hoặc biết được thông tin bằng cách hỏi thăm hay kiểm tra.",
+          "examples": [
+            {
+              "en": "Let me call the warehouse to find out when the chairs will ship.",
+              "vi": "Để tôi gọi nhà kho tìm hiểu xem khi nào ghế sẽ được xuất đi."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "discover",
+            "learn"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-34",
+          "deckId": "toeic-idioms",
+          "word": "focus on",
+          "pos": "phrase",
+          "ipaUK": "/fˈəʊkəs ˈɑːn/",
+          "ipaUS": "/fˈoʊkəs ˈɑːn/",
+          "meaning": "tập trung toàn lực vào",
+          "definitionEn": "To direct primary attention, effort, or funding toward one target.",
+          "definitionVi": "Hướng sự chú ý, nỗ lực hoặc nguồn vốn chính vào một mục tiêu.",
+          "examples": [
+            {
+              "en": "This quarter our team will focus on improving mobile app speed.",
+              "vi": "Quý này đội của chúng ta sẽ tập trung vào cải thiện tốc độ ứng dụng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "concentrate on"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-35",
+          "deckId": "toeic-idioms",
+          "word": "for the sake of",
+          "pos": "phrase",
+          "ipaUK": "/fˈɔː ðə sˈeɪk ˈʌv/",
+          "ipaUS": "/fˈɔːr ðə sˈeɪk ˈʌv/",
+          "meaning": "vì lợi ích của, vì mục đích",
+          "definitionEn": "In order to help, preserve, or achieve a particular value or person.",
+          "definitionVi": "Nhằm bảo vệ, hỗ trợ hoặc đạt được một giá trị hay mục đích cụ thể.",
+          "examples": [
+            {
+              "en": "For the sake of clarity, please label every spreadsheet tab clearly.",
+              "vi": "Vì sự rõ ràng, vui lòng đặt tên rõ cho từng thẻ bảng tính."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "for the benefit of"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-36",
+          "deckId": "toeic-idioms",
+          "word": "free of charge",
+          "pos": "phrase",
+          "ipaUK": "/frˈiː ˈʌv tʃˈɑːrdʒ/",
+          "ipaUS": "/frˈiː ˈʌv tʃˈɑːrdʒ/",
+          "meaning": "hoàn toàn miễn phí",
+          "definitionEn": "Provided at zero cost with no fee required.",
+          "definitionVi": "Được cung cấp không thu phí, không tốn tiền.",
+          "examples": [
+            {
+              "en": "First-time visitors receive a guided audio headset free of charge.",
+              "vi": "Khách tham quan lần đầu được mượn tai nghe hướng dẫn miễn phí."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "complimentary",
+            "at no cost"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-37",
+          "deckId": "toeic-idioms",
+          "word": "get along with",
+          "pos": "phrase",
+          "ipaUK": "/ɡˈet əlˈɔːŋ wˈɪð/",
+          "ipaUS": "/ɡˈet əlˈɔːŋ wˈɪð/",
+          "meaning": "hòa hợp, làm việc ăn ý với",
+          "definitionEn": "To maintain a friendly and cooperative working relationship.",
+          "definitionVi": "Duy trì mối quan hệ thân thiện và phối hợp ăn ý cùng ai.",
+          "examples": [
+            {
+              "en": "It is easy to get along with colleagues who communicate openly.",
+              "vi": "Thật dễ hòa hợp với những đồng nghiệp giao tiếp cởi mở."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "work well with"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-38",
+          "deckId": "toeic-idioms",
+          "word": "get back to",
+          "pos": "phrase",
+          "ipaUK": "/ɡˈet bˈæk tˈuː/",
+          "ipaUS": "/ɡˈet bˈæk tˈuː/",
+          "meaning": "liên hệ trả lời lại sau",
+          "definitionEn": "To reply to someone later with requested details or confirmation.",
+          "definitionVi": "Phản hồi lại cho ai đó sau khi đã kiểm tra thông tin hoặc xác nhận.",
+          "examples": [
+            {
+              "en": "I will check the inventory count and get back to you by 3 P.M.",
+              "vi": "Tôi sẽ kiểm tra số tồn kho và phản hồi lại bạn trước 3 giờ chiều."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "reply to",
+            "respond to"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-39",
+          "deckId": "toeic-idioms",
+          "word": "get rid of",
+          "pos": "phrase",
+          "ipaUK": "/ɡˈet rˈɪd ˈʌv/",
+          "ipaUS": "/ɡˈet rˈɪd ˈʌv/",
+          "meaning": "loại bỏ, thanh lý bỏ đi",
+          "definitionEn": "To dispose of or eliminate outdated, broken, or unwanted items.",
+          "definitionVi": "Bỏ đi hoặc loại bỏ đồ đạc cũ hỏng, lỗi thời không còn cần thiết.",
+          "examples": [
+            {
+              "en": "The office plans to get rid of old filing cabinets after digitizing.",
+              "vi": "Văn phòng dự định bỏ các tủ hồ sơ cũ sau khi số hóa."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "discard",
+            "eliminate"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-40",
+          "deckId": "toeic-idioms",
+          "word": "give up",
+          "pos": "phrase",
+          "ipaUK": "/ɡˈɪv ˈʌp/",
+          "ipaUS": "/ɡˈɪv ˈʌp/",
+          "meaning": "từ bỏ, bỏ cuộc",
+          "definitionEn": "To stop trying to do something or surrender a claim.",
+          "definitionVi": "Ngừng cố gắng thực hiện điều gì đó hoặc từ bỏ một kế hoạch.",
+          "examples": [
+            {
+              "en": "Even after two setbacks, the founders refused to give up on the design.",
+              "vi": "Dù gặp hai trở ngại, các nhà sáng lập vẫn không từ bỏ thiết kế."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "abandon",
+            "quit"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-41",
+          "deckId": "toeic-idioms",
+          "word": "go over",
+          "pos": "phrase",
+          "ipaUK": "/ɡˈəʊ ˈəʊvə/",
+          "ipaUS": "/ɡˈoʊ ˈoʊvɚ/",
+          "meaning": "xem xét rà soát kỹ lưỡng",
+          "definitionEn": "To review figures, slides, or contract clauses carefully step by step.",
+          "definitionVi": "Rà soát cẩn thận từng số liệu, slide hoặc điều khoản hợp đồng.",
+          "examples": [
+            {
+              "en": "Let us go over the quarterly budget together before the board arrives.",
+              "vi": "Hãy cùng rà soát kỹ ngân sách quý trước khi hội đồng đến."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "review",
+            "examine"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-42",
+          "deckId": "toeic-idioms",
+          "word": "go through",
+          "pos": "phrase",
+          "ipaUK": "/ɡˈəʊ θrˈuː/",
+          "ipaUS": "/ɡˈoʊ θrˈuː/",
+          "meaning": "trải qua; kiểm tra xuyên suốt",
+          "definitionEn": "To experience a process or examine documents thoroughly from start to end.",
+          "definitionVi": "Trải qua một quy trình hoặc kiểm tra hồ sơ kỹ lưỡng từ đầu đến cuối.",
+          "examples": [
+            {
+              "en": "All imported food items must go through strict customs screening.",
+              "vi": "Mọi mặt hàng thực phẩm nhập khẩu phải trải qua kiểm định hải quan nghiêm ngặt."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "undergo",
+            "inspect"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-43",
+          "deckId": "toeic-idioms",
+          "word": "hand in",
+          "pos": "phrase",
+          "ipaUK": "/hˈænd ɪn/",
+          "ipaUS": "/hˈænd ɪn/",
+          "meaning": "nộp (báo cáo, đơn từ)",
+          "definitionEn": "To formally submit a finished document or application to a manager.",
+          "definitionVi": "Nộp chính thức một tài liệu hoặc đơn từ đã hoàn thiện cho cấp trên.",
+          "examples": [
+            {
+              "en": "Interns must hand in their final evaluation reports by Friday.",
+              "vi": "Thực tập sinh phải nộp báo cáo đánh giá cuối kỳ trước thứ Sáu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "submit",
+            "turn in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-44",
+          "deckId": "toeic-idioms",
+          "word": "hand out",
+          "pos": "phrase",
+          "ipaUK": "/hˈænd ˈaʊt/",
+          "ipaUS": "/hˈænd ˈaʊt/",
+          "meaning": "phát (tài liệu, tờ rơi, mẫu thử)",
+          "definitionEn": "To distribute printed flyers, handouts, or samples to a group.",
+          "definitionVi": "Phát tài liệu in, tờ rơi hoặc mẫu dùng thử tới nhiều người.",
+          "examples": [
+            {
+              "en": "Volunteers will hand out festival schedules at the north gate.",
+              "vi": "Tình nguyện viên sẽ phát lịch trình lễ hội tại cổng bắc."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "distribute",
+            "pass out"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-45",
+          "deckId": "toeic-idioms",
+          "word": "headquartered in",
+          "pos": "phrase",
+          "ipaUK": "/hˈedkˌɔːrtəd ɪn/",
+          "ipaUS": "/hˈedkˌɔːrtɚd ɪn/",
+          "meaning": "đặt trụ sở chính tại",
+          "definitionEn": "Having a company's main administrative office located in a city.",
+          "definitionVi": "Có văn phòng điều hành chính của doanh nghiệp đặt tại một thành phố.",
+          "examples": [
+            {
+              "en": "The renewable energy startup is headquartered in Copenhagen.",
+              "vi": "Công ty khởi nghiệp năng lượng tái tạo đặt trụ sở chính tại Copenhagen."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "based in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-46",
+          "deckId": "toeic-idioms",
+          "word": "hold on",
+          "pos": "phrase",
+          "ipaUK": "/hˈəʊld ˈɑːn/",
+          "ipaUS": "/hˈoʊld ˈɑːn/",
+          "meaning": "chờ máy một chút; bám chặt",
+          "definitionEn": "To wait briefly—especially during a telephone transfer.",
+          "definitionVi": "Chờ đợi trong chốc lát — đặc biệt khi chuyển máy điện thoại.",
+          "examples": [
+            {
+              "en": "Please hold on while I connect your call to customer billing.",
+              "vi": "Vui lòng chờ máy trong lúc tôi nối cuộc gọi tới bộ phận thanh toán."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "wait a moment"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-47",
+          "deckId": "toeic-idioms",
+          "word": "in addition to",
+          "pos": "phrase",
+          "ipaUK": "/ɪn ədˈɪʃən tˈuː/",
+          "ipaUS": "/ɪn ədˈɪʃən tˈuː/",
+          "meaning": "ngoài ra, bên cạnh (+ Danh từ/V-ing)",
+          "definitionEn": "As well as; adding an extra item or benefit to what was mentioned.",
+          "definitionVi": "Bên cạnh điều đã nêu còn bổ sung thêm hạng mục hoặc quyền lợi.",
+          "examples": [
+            {
+              "en": "In addition to medical coverage, staff receive an annual gym stipend.",
+              "vi": "Ngoài bảo hiểm y tế, nhân viên còn nhận phụ cấp phòng gym hàng năm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "besides",
+            "as well as"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-48",
+          "deckId": "toeic-idioms",
+          "word": "in case of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn kˈeɪs ˈʌv/",
+          "ipaUS": "/ɪn kˈeɪs ˈʌv/",
+          "meaning": "trong trường hợp xảy ra (+ Danh từ)",
+          "definitionEn": "If a particular emergency or situation happens.",
+          "definitionVi": "Nếu một tình huống khẩn cấp hay sự cố cụ thể xảy ra.",
+          "examples": [
+            {
+              "en": "In case of a fire alarm, use the east stairwell rather than the lift.",
+              "vi": "Trong trường hợp có chuông báo cháy, dùng cầu thang bộ phía đông thay vì thang máy."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "in the event of"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-49",
+          "deckId": "toeic-idioms",
+          "word": "in detail",
+          "pos": "phrase",
+          "ipaUK": "/ɪn dɪtˈeɪl/",
+          "ipaUS": "/ɪn dɪtˈeɪl/",
+          "meaning": "một cách chi tiết, cặn kẽ",
+          "definitionEn": "Thoroughly, covering all small facts and specifics.",
+          "definitionVi": "Kỹ lưỡng, trình bày đầy đủ mọi số liệu và chi tiết nhỏ.",
+          "examples": [
+            {
+              "en": "The brochure explains every warranty term in detail.",
+              "vi": "Tờ gấp giải thích mọi điều khoản bảo hành một cách chi tiết."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "thoroughly",
+            "extensively"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-50",
+          "deckId": "toeic-idioms",
+          "word": "in effect",
+          "pos": "phrase",
+          "ipaUK": "/ɪn ɪfˈekt/",
+          "ipaUS": "/ɪn ɪfˈekt/",
+          "meaning": "đang có hiệu lực; trên thực tế",
+          "definitionEn": "Officially active as a rule, or virtually true in practice.",
+          "definitionVi": "Đang áp dụng chính thức như quy định, hoặc thực chất là như vậy.",
+          "examples": [
+            {
+              "en": "The revised airport baggage rules are already in effect.",
+              "vi": "Quy định hành lý sân bay sửa đổi hiện đã có hiệu lực."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "active",
+            "operational"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-51",
+          "deckId": "toeic-idioms",
+          "word": "in favor of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn fˈeɪvə ˈʌv/",
+          "ipaUS": "/ɪn fˈeɪvɚ ˈʌv/",
+          "meaning": "ủng hộ, tán thành",
+          "definitionEn": "Supporting or voting to approve a proposal or policy.",
+          "definitionVi": "Bày tỏ sự đồng tình hoặc bỏ phiếu thông qua một đề xuất.",
+          "examples": [
+            {
+              "en": "Nearly all committee members voted in favor of flexible Fridays.",
+              "vi": "Hầu hết thành viên ủy ban bỏ phiếu ủng hộ ngày thứ Sáu linh hoạt."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "supporting"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-52",
+          "deckId": "toeic-idioms",
+          "word": "in honor of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn ˈɑːnə ˈʌv/",
+          "ipaUS": "/ɪn ˈɑːnɚ ˈʌv/",
+          "meaning": "để vinh danh, kỷ niệm ai",
+          "definitionEn": "Held or created to show deep respect and appreciation for someone.",
+          "definitionVi": "Được tổ chức nhằm thể hiện sự trân trọng và vinh danh ai đó.",
+          "examples": [
+            {
+              "en": "The firm hosted a banquet in honor of its retiring chief engineer.",
+              "vi": "Công ty tổ chức tiệc để vinh danh kỹ sư trưởng sắp nghỉ hưu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "to celebrate"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-53",
+          "deckId": "toeic-idioms",
+          "word": "in person",
+          "pos": "phrase",
+          "ipaUK": "/ɪn pˈɜːsən/",
+          "ipaUS": "/ɪn pˈɝːsən/",
+          "meaning": "trực tiếp (gặp mặt, không qua mạng)",
+          "definitionEn": "Physically present at a place rather than online or by phone.",
+          "definitionVi": "Có mặt trực tiếp tại địa điểm thay vì trực tuyến hay qua điện thoại.",
+          "examples": [
+            {
+              "en": "Finalists are invited to interview in person at our Seattle office.",
+              "vi": "Ứng viên vòng cuối được mời phỏng vấn trực tiếp tại văn phòng Seattle."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "face-to-face"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-54",
+          "deckId": "toeic-idioms",
+          "word": "in progress",
+          "pos": "phrase",
+          "ipaUK": "/ɪn prˈɑːɡrˌes/",
+          "ipaUS": "/ɪn prˈɑːɡrˌes/",
+          "meaning": "đang tiến hành, đang diễn ra",
+          "definitionEn": "Currently underway and not yet finished.",
+          "definitionVi": "Đang trong quá trình thực hiện và chưa hoàn tất.",
+          "examples": [
+            {
+              "en": "Please use the side entrance while lobby renovations are in progress.",
+              "vi": "Vui lòng đi lối phụ trong lúc việc cải tạo sảnh đang tiến hành."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "underway",
+            "ongoing"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-55",
+          "deckId": "toeic-idioms",
+          "word": "in response to",
+          "pos": "phrase",
+          "ipaUK": "/ɪn rɪspˈɑːns tˈuː/",
+          "ipaUS": "/ɪn rɪspˈɑːns tˈuː/",
+          "meaning": "để đáp lại, phản hồi lại",
+          "definitionEn": "Done as a direct reaction or answer to feedback or demand.",
+          "definitionVi": "Được thực hiện để đáp ứng trực tiếp phản hồi hoặc nhu cầu.",
+          "examples": [
+            {
+              "en": "In response to customer requests, we added weekend delivery slots.",
+              "vi": "Đáp lại yêu cầu khách hàng, chúng tôi đã bổ sung khung giao cuối tuần."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "in reply to"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-56",
+          "deckId": "toeic-idioms",
+          "word": "in spite of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn spˈaɪt ˈʌv/",
+          "ipaUS": "/ɪn spˈaɪt ˈʌv/",
+          "meaning": "mặc dù, bất chấp (+ Danh từ/V-ing)",
+          "definitionEn": "Without being prevented by an obstacle or difficulty.",
+          "definitionVi": "Không bị ngăn trở bởi khó khăn hay yếu tố bất lợi nào.",
+          "examples": [
+            {
+              "en": "In spite of heavy rain, over 500 guests attended the outdoor expo.",
+              "vi": "Mặc dù trời mưa lớn, hơn 500 khách vẫn dự hội chợ ngoài trời."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "despite"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-57",
+          "deckId": "toeic-idioms",
+          "word": "in terms of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn tˈɜːmz ˈʌv/",
+          "ipaUS": "/ɪn tˈɝːmz ˈʌv/",
+          "meaning": "xét về mặt, về khía cạnh",
+          "definitionEn": "With regard to a particular aspect, measurement, or criterion.",
+          "definitionVi": "Khi đánh giá dựa trên một tiêu chí hay khía cạnh cụ thể.",
+          "examples": [
+            {
+              "en": "In terms of battery life, this tablet outperforms rival models.",
+              "vi": "Xét về thời lượng pin, máy tính bảng này vượt trội các mẫu đối thủ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "regarding",
+            "with respect to"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-58",
+          "deckId": "toeic-idioms",
+          "word": "in the event of",
+          "pos": "phrase",
+          "ipaUK": "/ɪn ðə ɪvˈent ˈʌv/",
+          "ipaUS": "/ɪn ðə ɪvˈent ˈʌv/",
+          "meaning": "trong trường hợp xảy ra (trang trọng)",
+          "definitionEn": "If a specific formal situation or emergency occurs.",
+          "definitionVi": "Nếu một tình huống hay sự cố khẩn cấp cụ thể xảy ra (văn phong trang trọng).",
+          "examples": [
+            {
+              "en": "In the event of cancellation, ticket holders receive a full refund.",
+              "vi": "Trong trường hợp sự kiện bị hủy, người giữ vé được hoàn tiền 100%."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "in case of"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-59",
+          "deckId": "toeic-idioms",
+          "word": "in time",
+          "pos": "phrase",
+          "ipaUK": "/ɪn tˈaɪm/",
+          "ipaUS": "/ɪn tˈaɪm/",
+          "meaning": "kịp lúc, vừa kịp giờ",
+          "definitionEn": "Early enough to catch an event or avoid missing a deadline.",
+          "definitionVi": "Đủ sớm để kịp tham dự sự kiện hoặc không bị trễ hạn.",
+          "examples": [
+            {
+              "en": "The printed banners arrived just in time for the morning opening.",
+              "vi": "Các tấm banner in ấn đã đến vừa kịp giờ khai mạc buổi sáng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "early enough"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        },
+        {
+          "id": "toeic-idioms-60",
+          "deckId": "toeic-idioms",
+          "word": "in touch with",
+          "pos": "phrase",
+          "ipaUK": "/ɪn tˈʌtʃ wˈɪð/",
+          "ipaUS": "/ɪn tˈʌtʃ wˈɪð/",
+          "meaning": "giữ liên lạc với",
+          "definitionEn": "Communicating regularly with a person or organization.",
+          "definitionVi": "Duy trì sự trao đổi liên lạc thường xuyên với ai đó.",
+          "examples": [
+            {
+              "en": "Our account lead stays in touch with overseas distributors weekly.",
+              "vi": "Quản lý tài khoản giữ liên lạc hàng tuần với các nhà phân phối nước ngoài."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "in contact with"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g5"
+        }
+      ]
+    },
+    {
+      "id": "toeic-idioms-g6",
+      "name": "Nhóm học 6 (85–114)",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "toeic-idioms-61",
+          "deckId": "toeic-idioms",
+          "word": "instead of",
+          "pos": "phrase",
+          "ipaUK": "/ɪnstˈed ˈʌv/",
+          "ipaUS": "/ɪnstˈed ˈʌv/",
+          "meaning": "thay vì (+ Danh từ/V-ing)",
+          "definitionEn": "As an alternative or replacement for someone or something else.",
+          "definitionVi": "Làm phương án thay thế cho một lựa chọn khác.",
+          "examples": [
+            {
+              "en": "Let us hold a video call instead of flying across the country.",
+              "vi": "Hãy họp video thay vì bay xuyên quốc gia."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "rather than"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-62",
+          "deckId": "toeic-idioms",
+          "word": "keep track of",
+          "pos": "phrase",
+          "ipaUK": "/kˈiːp trˈæk ˈʌv/",
+          "ipaUS": "/kˈiːp trˈæk ˈʌv/",
+          "meaning": "theo dõi sát sao, cập nhật liên tục",
+          "definitionEn": "To monitor ongoing status, numbers, or progress accurately.",
+          "definitionVi": "Theo dõi chính xác trạng thái, số liệu hoặc tiến độ công việc.",
+          "examples": [
+            {
+              "en": "Cloud software helps managers keep track of warehouse inventory.",
+              "vi": "Phần mềm đám mây giúp quản lý theo dõi sát hàng tồn kho."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "monitor",
+            "follow"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-63",
+          "deckId": "toeic-idioms",
+          "word": "keep up with",
+          "pos": "phrase",
+          "ipaUK": "/kˈiːp ˈʌp wˈɪð/",
+          "ipaUS": "/kˈiːp ˈʌp wˈɪð/",
+          "meaning": "bắt kịp (tốc độ, xu hướng, nhu cầu)",
+          "definitionEn": "To move or progress at the same pace as rapid changes or demand.",
+          "definitionVi": "Theo kịp tốc độ thay đổi nhanh chóng hoặc đáp ứng kịp nhu cầu tăng cao.",
+          "examples": [
+            {
+              "en": "We expanded the factory to keep up with growing online orders.",
+              "vi": "Chúng tôi mở rộng nhà máy để đáp ứng kịp đơn hàng trực tuyến tăng mạnh."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "stay abreast of"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-64",
+          "deckId": "toeic-idioms",
+          "word": "lay off",
+          "pos": "phrase",
+          "ipaUK": "/lˈeɪ ˈɔːf/",
+          "ipaUS": "/lˈeɪ ˈɔːf/",
+          "meaning": "sa thải cắt giảm biên chế",
+          "definitionEn": "To end employees' jobs because a company lacks work or budget.",
+          "definitionVi": "Chấm dứt hợp đồng lao động do doanh nghiệp thu hẹp quy mô/ngân sách.",
+          "examples": [
+            {
+              "en": "Strong Q4 revenue ensured the firm did not have to lay off staff.",
+              "vi": "Doanh thu quý 4 khả quan đảm bảo công ty không phải cắt giảm nhân sự."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "downsize",
+            "dismiss"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-65",
+          "deckId": "toeic-idioms",
+          "word": "lead to",
+          "pos": "phrase",
+          "ipaUK": "/lˈed tˈuː/",
+          "ipaUS": "/lˈed tˈuː/",
+          "meaning": "dẫn đến, gây ra kết quả",
+          "definitionEn": "To cause a particular outcome, consequence, or improvement.",
+          "definitionVi": "Tạo ra một kết quả, hệ quả hoặc cải thiện cụ thể.",
+          "examples": [
+            {
+              "en": "Clear product photos often lead to higher online conversion rates.",
+              "vi": "Ảnh sản phẩm rõ nét thường dẫn đến tỷ lệ chuyển đổi mua hàng cao hơn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "result in",
+            "cause"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-66",
+          "deckId": "toeic-idioms",
+          "word": "look forward to",
+          "pos": "phrase",
+          "ipaUK": "/lˈʊk fˈɔːrwəd tˈuː/",
+          "ipaUS": "/lˈʊk fˈɔːrwɚd tˈuː/",
+          "meaning": "mong chờ, trông đợi (+ V-ing/N)",
+          "definitionEn": "To feel pleased and eager about an upcoming event or meeting.",
+          "definitionVi": "Háo hức và trân trọng chờ đợi một sự kiện hay cuộc gặp sắp tới.",
+          "examples": [
+            {
+              "en": "We look forward to hosting your delegation in Tokyo next week.",
+              "vi": "Chúng tôi rất mong chờ được đón tiếp phái đoàn quý vị tại Tokyo tuần tới."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "anticipate eagerly"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-67",
+          "deckId": "toeic-idioms",
+          "word": "look into",
+          "pos": "phrase",
+          "ipaUK": "/lˈʊk ɪntˈuː/",
+          "ipaUS": "/lˈʊk ɪntˈuː/",
+          "meaning": "điều tra, xem xét tìm hiểu kỹ",
+          "definitionEn": "To examine the facts or cause of a complaint or technical issue.",
+          "definitionVi": "Kiểm tra, tìm hiểu nguyên nhân của khiếu nại hoặc sự cố kỹ thuật.",
+          "examples": [
+            {
+              "en": "Our billing specialist will look into the duplicate charge immediately.",
+              "vi": "Chuyên viên thanh toán sẽ kiểm tra ngay khoản bị trừ trùng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "investigate",
+            "examine"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-68",
+          "deckId": "toeic-idioms",
+          "word": "look over",
+          "pos": "phrase",
+          "ipaUK": "/lˈʊk ˈəʊvə/",
+          "ipaUS": "/lˈʊk ˈoʊvɚ/",
+          "meaning": "xem lướt nhanh, đọc kiểm tra qua",
+          "definitionEn": "To quickly inspect a draft, contract, or slide deck for errors.",
+          "definitionVi": "Đọc rà soát nhanh bản thảo, hợp đồng hoặc slide để phát hiện lỗi.",
+          "examples": [
+            {
+              "en": "Could you look over my presentation notes before noon?",
+              "vi": "Bạn có thể xem qua ghi chú thuyết trình của tôi trước trưa không?"
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "review quickly",
+            "skim"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-69",
+          "deckId": "toeic-idioms",
+          "word": "make a decision",
+          "pos": "phrase",
+          "ipaUK": "/mˈeɪk ə dɪsˈɪʒən/",
+          "ipaUS": "/mˈeɪk ə dɪsˈɪʒən/",
+          "meaning": "đưa ra quyết định",
+          "definitionEn": "To choose one course of action after weighing the options.",
+          "definitionVi": "Lựa chọn một hướng hành động cụ thể sau khi cân nhắc các phương án.",
+          "examples": [
+            {
+              "en": "The hiring panel will make a decision by the end of the week.",
+              "vi": "Hội đồng tuyển dụng sẽ đưa ra quyết định vào cuối tuần này."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "decide"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-70",
+          "deckId": "toeic-idioms",
+          "word": "make an appointment",
+          "pos": "phrase",
+          "ipaUK": "/mˈeɪk ˈæn əpˈɔɪntmənt/",
+          "ipaUS": "/mˈeɪk ˈæn əpˈɔɪntmənt/",
+          "meaning": "đặt lịch hẹn",
+          "definitionEn": "To schedule an official time to meet a doctor, client, or advisor.",
+          "definitionVi": "Sắp xếp khung giờ chính thức để gặp bác sĩ, khách hàng hoặc cố vấn.",
+          "examples": [
+            {
+              "en": "Please call reception to make an appointment with a tax advisor.",
+              "vi": "Vui lòng gọi lễ tân để đặt lịch hẹn với cố vấn thuế."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "schedule a meeting"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-71",
+          "deckId": "toeic-idioms",
+          "word": "make sense",
+          "pos": "phrase",
+          "ipaUK": "/mˈeɪk sˈens/",
+          "ipaUS": "/mˈeɪk sˈens/",
+          "meaning": "hợp lý, có nghĩa rõ ràng",
+          "definitionEn": "To be logical, practical, and easy to understand.",
+          "definitionVi": "Mang tính logic, thực tế và dễ hiểu.",
+          "examples": [
+            {
+              "en": "Consolidating both shipping hubs will make sense financially.",
+              "vi": "Việc hợp nhất cả hai trung tâm vận chuyển sẽ rất hợp lý về tài chính."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "be logical"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-72",
+          "deckId": "toeic-idioms",
+          "word": "make sure",
+          "pos": "phrase",
+          "ipaUK": "/mˈeɪk ʃˈʊ/",
+          "ipaUS": "/mˈeɪk ʃˈʊr/",
+          "meaning": "đảm bảo chắc chắn rằng",
+          "definitionEn": "To verify carefully that something is done or true.",
+          "definitionVi": "Kiểm tra cẩn thận để chắc chắn một việc đã hoàn tất đúng.",
+          "examples": [
+            {
+              "en": "Please make sure all conference microphones are charged overnight.",
+              "vi": "Vui lòng đảm bảo mọi micro hội nghị đều được sạc qua đêm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "ensure",
+            "verify"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-73",
+          "deckId": "toeic-idioms",
+          "word": "make up for",
+          "pos": "phrase",
+          "ipaUK": "/mˈeɪk ˈʌp fˈɔː/",
+          "ipaUS": "/mˈeɪk ˈʌp fˈɔːr/",
+          "meaning": "bù đắp cho (sự chậm trễ, thiếu hụt)",
+          "definitionEn": "To compensate for lost time, a mistake, or an inconvenience.",
+          "definitionVi": "Đền bù lại khoảng thời gian bị lỡ, sai sót hoặc sự bất tiện.",
+          "examples": [
+            {
+              "en": "We offered a 20% voucher to make up for the delayed shipment.",
+              "vi": "Chúng tôi tặng phiếu giảm 20% để bù đắp cho chuyến hàng bị trễ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "compensate for"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-74",
+          "deckId": "toeic-idioms",
+          "word": "no longer",
+          "pos": "phrase",
+          "ipaUK": "/nˈəʊ lˈɔːŋɡə/",
+          "ipaUS": "/nˈoʊ lˈɔːŋɡɚ/",
+          "meaning": "không còn ... nữa",
+          "definitionEn": "Not anymore; indicating a past state or offer has ended.",
+          "definitionVi": "Không còn tồn tại hay áp dụng như trước đây nữa.",
+          "examples": [
+            {
+              "en": "That seasonal coffee blend is no longer available in stores.",
+              "vi": "Dòng cà phê theo mùa đó không còn bán tại cửa hàng nữa."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "not anymore"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-75",
+          "deckId": "toeic-idioms",
+          "word": "on a regular basis",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn ə rˈeɡjələ bˈeɪsəs/",
+          "ipaUS": "/ˈɑːn ə rˈeɡjəlɚ bˈeɪsəs/",
+          "meaning": "một cách đều đặn, định kỳ",
+          "definitionEn": "Happening consistently at fixed intervals.",
+          "definitionVi": "Diễn ra đều đặn theo chu kỳ cố định.",
+          "examples": [
+            {
+              "en": "Technicians inspect the cooling units on a regular basis.",
+              "vi": "Kỹ thuật viên kiểm tra các cụm làm mát một cách định kỳ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "regularly",
+            "routinely"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-76",
+          "deckId": "toeic-idioms",
+          "word": "on board",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn bˈɔːrd/",
+          "ipaUS": "/ˈɑːn bˈɔːrd/",
+          "meaning": "trên tàu/máy bay; tham gia cùng nhóm",
+          "definitionEn": "Aboard a vehicle, or newly joined and supportive of a team.",
+          "definitionVi": "Đang ở trên phương tiện giao thông, hoặc vừa gia nhập/đồng hành cùng đội.",
+          "examples": [
+            {
+              "en": "We are thrilled to welcome two senior analysts on board this month.",
+              "vi": "Chúng tôi hào hứng chào đón hai chuyên viên phân tích cấp cao gia nhập tháng này."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "aboard",
+            "part of the team"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-77",
+          "deckId": "toeic-idioms",
+          "word": "on display",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn dɪsplˈeɪ/",
+          "ipaUS": "/ˈɑːn dɪsplˈeɪ/",
+          "meaning": "đang được trưng bày",
+          "definitionEn": "Placed openly in a gallery, showroom, or booth for viewing.",
+          "definitionVi": "Được đặt bày công khai tại phòng trưng bày, showroom hay gian hàng.",
+          "examples": [
+            {
+              "en": "Our newest ergonomic chairs are on display in the main showroom.",
+              "vi": "Những mẫu ghế công thái học mới nhất đang được trưng bày ở phòng mẫu chính."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "exhibited",
+            "shown"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-78",
+          "deckId": "toeic-idioms",
+          "word": "on duty",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn dˈuːtiː/",
+          "ipaUS": "/ˈɑːn dˈuːtiː/",
+          "meaning": "đang trong ca trực / làm nhiệm vụ",
+          "definitionEn": "Actively working during a scheduled shift.",
+          "definitionVi": "Đang làm việc trong khung ca trực được phân công.",
+          "examples": [
+            {
+              "en": "At least two security guards remain on duty throughout the night.",
+              "vi": "Ít nhất hai nhân viên bảo vệ luôn túc trực suốt đêm."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "working",
+            "on shift"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-79",
+          "deckId": "toeic-idioms",
+          "word": "on sale",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn sˈeɪl/",
+          "ipaUS": "/ˈɑːn sˈeɪl/",
+          "meaning": "đang được giảm giá khuyến mãi",
+          "definitionEn": "Offered for purchase at a temporarily reduced price.",
+          "definitionVi": "Được chào bán với mức giá ưu đãi giảm tạm thời.",
+          "examples": [
+            {
+              "en": "All winter outdoor jackets are on sale for 30 percent off.",
+              "vi": "Tất cả áo khoác dã ngoại mùa đông đang giảm giá 30%."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "discounted"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-80",
+          "deckId": "toeic-idioms",
+          "word": "on schedule",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn skˈedʒʊl/",
+          "ipaUS": "/ˈɑːn skˈedʒʊl/",
+          "meaning": "đúng lịch trình, đúng tiến độ",
+          "definitionEn": "Happening or progressing exactly at the planned time.",
+          "definitionVi": "Diễn ra hoặc đạt tiến độ chính xác như kế hoạch đã vạch ra.",
+          "examples": [
+            {
+              "en": "The subway extension remains firmly on schedule for October.",
+              "vi": "Tuyến tàu điện ngầm mở rộng vẫn bám sát đúng tiến độ tháng Mười."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "on time"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-81",
+          "deckId": "toeic-idioms",
+          "word": "on site",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn sˈaɪt/",
+          "ipaUS": "/ˈɑːn sˈaɪt/",
+          "meaning": "tại chỗ, trực tiếp tại văn phòng/công trường",
+          "definitionEn": "Located or performed directly at the workplace or venue.",
+          "definitionVi": "Thực hiện ngay tại nơi làm việc, công trường hoặc địa điểm sự kiện.",
+          "examples": [
+            {
+              "en": "Complimentary parking is available on site for all seminar guests.",
+              "vi": "Bãi đỗ xe miễn phí có sẵn ngay tại chỗ cho toàn bộ khách hội thảo."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "at the location"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-82",
+          "deckId": "toeic-idioms",
+          "word": "on time",
+          "pos": "phrase",
+          "ipaUK": "/ˈɑːn tˈaɪm/",
+          "ipaUS": "/ˈɑːn tˈaɪm/",
+          "meaning": "đúng giờ (không muộn)",
+          "definitionEn": "Punctually, at the exact agreed hour without delay.",
+          "definitionVi": "Đúng giờ hẹn, không bị trễ.",
+          "examples": [
+            {
+              "en": "Every express shuttle departed on time despite heavy morning rain.",
+              "vi": "Mọi chuyến xe đưa đón tốc hành đều khởi hành đúng giờ dù sáng mưa lớn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "punctually"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-83",
+          "deckId": "toeic-idioms",
+          "word": "out of date",
+          "pos": "phrase",
+          "ipaUK": "/ˈaʊt ˈʌv dˈeɪt/",
+          "ipaUS": "/ˈaʊt ˈʌv dˈeɪt/",
+          "meaning": "lỗi thời, hết hạn",
+          "definitionEn": "No longer current, accurate, or valid.",
+          "definitionVi": "Không còn mới, chính xác hoặc đã hết giá trị sử dụng.",
+          "examples": [
+            {
+              "en": "Please replace any out of date price lists on the front counter.",
+              "vi": "Vui lòng thay thế mọi bảng giá lỗi thời trên quầy lễ tân."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "outdated",
+            "obsolete"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-84",
+          "deckId": "toeic-idioms",
+          "word": "owing to",
+          "pos": "phrase",
+          "ipaUK": "/ˈəʊɪŋ tˈuː/",
+          "ipaUS": "/ˈoʊɪŋ tˈuː/",
+          "meaning": "do, bởi vì (+ Danh từ)",
+          "definitionEn": "Because of a specific reason or external cause (formal).",
+          "definitionVi": "Do một nguyên nhân hoặc yếu tố khách quan cụ thể (trang trọng).",
+          "examples": [
+            {
+              "en": "Owing to unexpected port delays, delivery moved to Friday.",
+              "vi": "Do chậm trễ bất ngờ tại cảng, việc giao hàng dời sang thứ Sáu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "due to",
+            "because of"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-85",
+          "deckId": "toeic-idioms",
+          "word": "pay off",
+          "pos": "phrase",
+          "ipaUK": "/pˈeɪ ˈɔːf/",
+          "ipaUS": "/pˈeɪ ˈɔːf/",
+          "meaning": "mang lại kết quả xứng đáng; trả hết nợ",
+          "definitionEn": "To produce valuable returns after effort, or finish repaying a loan.",
+          "definitionVi": "Mang lại thành quả xứng đáng sau nỗ lực, hoặc thanh toán xong khoản vay.",
+          "examples": [
+            {
+              "en": "Our investment in staff training began to pay off within six months.",
+              "vi": "Khoản đầu tư đào tạo nhân sự bắt đầu mang lại hiệu quả sau sáu tháng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "yield results",
+            "succeed"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-86",
+          "deckId": "toeic-idioms",
+          "word": "pick up",
+          "pos": "phrase",
+          "ipaUK": "/pˈɪk ˈʌp/",
+          "ipaUS": "/pˈɪk ˈʌp/",
+          "meaning": "đón ai đó; lấy hàng; tăng trưởng trở lại",
+          "definitionEn": "To collect an item/person, or for sales to improve noticeably.",
+          "definitionVi": "Đón người/nhận kiện hàng, hoặc doanh số bắt đầu khởi sắc tăng lên.",
+          "examples": [
+            {
+              "en": "Tourists can pick up their rental bikes beside the ferry dock.",
+              "vi": "Du khách có thể nhận xe đạp thuê ngay cạnh bến phà."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "collect",
+            "improve"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-87",
+          "deckId": "toeic-idioms",
+          "word": "point out",
+          "pos": "phrase",
+          "ipaUK": "/pˈɔɪnt ˈaʊt/",
+          "ipaUS": "/pˈɔɪnt ˈaʊt/",
+          "meaning": "chỉ ra, lưu ý một chi tiết quan trọng",
+          "definitionEn": "To draw someone's attention to a key fact, trend, or mistake.",
+          "definitionVi": "Thu hút sự chú ý của người khác vào một chi tiết hoặc lỗi sai quan trọng.",
+          "examples": [
+            {
+              "en": "The auditor was quick to point out a small rounding error.",
+              "vi": "Kiểm toán viên nhanh chóng chỉ ra một lỗi làm tròn nhỏ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "highlight",
+            "indicate"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-88",
+          "deckId": "toeic-idioms",
+          "word": "provide for",
+          "pos": "phrase",
+          "ipaUK": "/prəvˈaɪd fˈɔː/",
+          "ipaUS": "/prəvˈaɪd fˈɔːr/",
+          "meaning": "chuẩn bị sẵn sàng cho; cung cấp tài chính/quy định cho",
+          "definitionEn": "To make plans, supplies, or legal provisions for a future need.",
+          "definitionVi": "Lên phương án dự phòng, chu cấp hoặc quy định sẵn cho một nhu cầu tương lai.",
+          "examples": [
+            {
+              "en": "The updated warranty will provide for free battery replacements.",
+              "vi": "Chính sách bảo hành mới sẽ quy định cung cấp thay pin miễn phí."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "make provision for",
+            "cover"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-89",
+          "deckId": "toeic-idioms",
+          "word": "pull off",
+          "pos": "phrase",
+          "ipaUK": "/pˈʊl ˈɔːf/",
+          "ipaUS": "/pˈʊl ˈɔːf/",
+          "meaning": "thực hiện thành công việc khó",
+          "definitionEn": "To succeed in accomplishing a challenging plan or tight event.",
+          "definitionVi": "Hoàn thành xuất sắc một kế hoạch khó khăn hoặc sự kiện gấp rút.",
+          "examples": [
+            {
+              "en": "Thanks to great teamwork, we managed to pull off the launch gala.",
+              "vi": "Nhờ phối hợp ăn ý, chúng ta đã tổ chức thành công đêm tiệc ra mắt."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "accomplish",
+            "succeed in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        },
+        {
+          "id": "toeic-idioms-90",
+          "deckId": "toeic-idioms",
+          "word": "put together",
+          "pos": "phrase",
+          "ipaUK": "/pˈʊt təɡˈeðə/",
+          "ipaUS": "/pˈʊt təɡˈeðɚ/",
+          "meaning": "tập hợp, lắp ráp, biên soạn hoàn chỉnh",
+          "definitionEn": "To assemble components, a team, or a formal report.",
+          "definitionVi": "Lắp ghép linh kiện, thành lập đội nhóm hoặc biên soạn báo cáo hoàn chỉnh.",
+          "examples": [
+            {
+              "en": "Can you put together a short summary of Q2 client feedback?",
+              "vi": "Bạn có thể tổng hợp một bản tóm tắt ngắn phản hồi khách hàng quý 2 không?"
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "assemble",
+            "compile"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g6"
+        }
+      ]
+    },
+    {
+      "id": "toeic-idioms-g7",
+      "name": "Nhóm học 7 (115–136)",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "toeic-idioms-91",
+          "deckId": "toeic-idioms",
+          "word": "regardless of",
+          "pos": "phrase",
+          "ipaUK": "/rəɡˈɑːrdləs ˈʌv/",
+          "ipaUS": "/rəɡˈɑːrdləs ˈʌv/",
+          "meaning": "bất kể, không phân biệt",
+          "definitionEn": "Without being affected or limited by a factor or condition.",
+          "definitionVi": "Không bị ảnh hưởng hay phân biệt bởi một yếu tố nào.",
+          "examples": [
+            {
+              "en": "All staff enjoy equal training access regardless of seniority.",
+              "vi": "Mọi nhân viên đều có cơ hội đào tạo như nhau bất kể thâm niên."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "irrespective of"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-92",
+          "deckId": "toeic-idioms",
+          "word": "rely on",
+          "pos": "phrase",
+          "ipaUK": "/rɪlˈaɪ ˈɑːn/",
+          "ipaUS": "/rɪlˈaɪ ˈɑːn/",
+          "meaning": "dựa vào, tin cậy vào",
+          "definitionEn": "To depend on someone or a system for essential support.",
+          "definitionVi": "Phụ thuộc hoặc tin tưởng vào ai đó/hệ thống cho công việc thiết yếu.",
+          "examples": [
+            {
+              "en": "Hospitals rely on backup generators during severe winter storms.",
+              "vi": "Bệnh viện dựa vào máy phát dự phòng trong các cơn bão mùa đông."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "depend on",
+            "count on"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-93",
+          "deckId": "toeic-idioms",
+          "word": "result in",
+          "pos": "phrase",
+          "ipaUK": "/rɪzˈʌlt ɪn/",
+          "ipaUS": "/rɪzˈʌlt ɪn/",
+          "meaning": "dẫn đến, gây ra kết quả",
+          "definitionEn": "To directly cause a particular outcome or effect.",
+          "definitionVi": "Trực tiếp tạo ra một kết quả hoặc tác động cụ thể.",
+          "examples": [
+            {
+              "en": "Upgrading insulation will result in lower winter heating bills.",
+              "vi": "Nâng cấp cách nhiệt sẽ giúp hóa đơn sưởi mùa đông thấp hơn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "lead to",
+            "cause"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-94",
+          "deckId": "toeic-idioms",
+          "word": "set aside",
+          "pos": "phrase",
+          "ipaUK": "/sˈet əsˈaɪd/",
+          "ipaUS": "/sˈet əsˈaɪd/",
+          "meaning": "dành riêng ra (ngân sách, thời gian)",
+          "definitionEn": "To reserve money, time, or space for one dedicated purpose.",
+          "definitionVi": "Để dành riêng một khoản tiền, thời gian hoặc không gian cho mục đích cụ thể.",
+          "examples": [
+            {
+              "en": "Management decided to set aside 15% of profits for green R&D.",
+              "vi": "Ban lãnh đạo quyết định dành riêng 15% lợi nhuận cho nghiên cứu xanh."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "reserve",
+            "earmark"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-95",
+          "deckId": "toeic-idioms",
+          "word": "set up",
+          "pos": "phrase",
+          "ipaUK": "/sˈet ˈʌp/",
+          "ipaUS": "/sˈet ˈʌp/",
+          "meaning": "thiết lập, lắp đặt, thành lập",
+          "definitionEn": "To install equipment, arrange a meeting, or start a business.",
+          "definitionVi": "Lắp đặt thiết bị, sắp xếp cuộc họp hoặc thành lập doanh nghiệp.",
+          "examples": [
+            {
+              "en": "Technicians arrived early to set up microphones in the auditorium.",
+              "vi": "Kỹ thuật viên đến sớm để lắp đặt micro trong khán phòng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "establish",
+            "arrange"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-96",
+          "deckId": "toeic-idioms",
+          "word": "sign up for",
+          "pos": "phrase",
+          "ipaUK": "/sˈaɪn ˈʌp fˈɔː/",
+          "ipaUS": "/sˈaɪn ˈʌp fˈɔːr/",
+          "meaning": "đăng ký tham gia (khóa học, dịch vụ)",
+          "definitionEn": "To officially enroll or register for an activity or newsletter.",
+          "definitionVi": "Chính thức ghi danh tham gia một hoạt động, hội thảo hay bản tin.",
+          "examples": [
+            {
+              "en": "Employees may sign up for free Excel workshops on the intranet.",
+              "vi": "Nhân viên có thể đăng ký lớp Excel miễn phí trên mạng nội bộ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "register for",
+            "enroll in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-97",
+          "deckId": "toeic-idioms",
+          "word": "sort out",
+          "pos": "phrase",
+          "ipaUK": "/sˈɔːrt ˈaʊt/",
+          "ipaUS": "/sˈɔːrt ˈaʊt/",
+          "meaning": "phân loại, giải quyết ổn thỏa",
+          "definitionEn": "To organize messy items or successfully resolve a tricky issue.",
+          "definitionVi": "Sắp xếp gọn gàng hoặc giải quyết êm đẹp một trục trặc phức tạp.",
+          "examples": [
+            {
+              "en": "IT support helped sort out the email sync error in ten minutes.",
+              "vi": "Đội hỗ trợ CNTT đã giúp giải quyết lỗi đồng bộ email trong mười phút."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "resolve",
+            "organize"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-98",
+          "deckId": "toeic-idioms",
+          "word": "stand out",
+          "pos": "phrase",
+          "ipaUK": "/stˈænd ˈaʊt/",
+          "ipaUS": "/stˈænd ˈaʊt/",
+          "meaning": "nổi bật vượt trội hơn hẳn",
+          "definitionEn": "To be noticeably better, clearer, or more memorable than others.",
+          "definitionVi": "Vượt trội và gây ấn tượng rõ rệt hơn các đối thủ hoặc ứng viên khác.",
+          "examples": [
+            {
+              "en": "Candidates with bilingual presentation skills always stand out.",
+              "vi": "Ứng viên có kỹ năng thuyết trình song ngữ luôn nổi bật hơn hẳn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "excel",
+            "be distinctive"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-99",
+          "deckId": "toeic-idioms",
+          "word": "stay on track",
+          "pos": "phrase",
+          "ipaUK": "/stˈeɪ ˈɑːn trˈæk/",
+          "ipaUS": "/stˈeɪ ˈɑːn trˈæk/",
+          "meaning": "giữ đúng tiến độ / đúng hướng",
+          "definitionEn": "To continue progressing steadily toward a target without falling behind.",
+          "definitionVi": "Tiếp tục tiến triển vững vàng theo đúng lộ trình không bị chậm.",
+          "examples": [
+            {
+              "en": "Weekly milestones help large software projects stay on track.",
+              "vi": "Các mốc kiểm tra hàng tuần giúp dự án phần mềm lớn giữ đúng tiến độ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "remain on schedule"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-100",
+          "deckId": "toeic-idioms",
+          "word": "step down",
+          "pos": "phrase",
+          "ipaUK": "/stˈep dˈaʊn/",
+          "ipaUS": "/stˈep dˈaʊn/",
+          "meaning": "từ chức, rút lui khỏi vị trí lãnh đạo",
+          "definitionEn": "To voluntarily resign from an important leadership role.",
+          "definitionVi": "Chủ động rút lui hoặc từ nhiệm khỏi một chức vụ quản lý quan trọng.",
+          "examples": [
+            {
+              "en": "After twenty years, the founder plans to step down in December.",
+              "vi": "Sau hai mươi năm, nhà sáng lập dự định từ nhiệm vào tháng 12."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "resign",
+            "retire"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-101",
+          "deckId": "toeic-idioms",
+          "word": "stock up on",
+          "pos": "phrase",
+          "ipaUK": "/stˈɑːk ˈʌp ˈɑːn/",
+          "ipaUS": "/stˈɑːk ˈʌp ˈɑːn/",
+          "meaning": "nhập trữ sẵn số lượng lớn",
+          "definitionEn": "To buy and store extra supplies before high demand or holidays.",
+          "definitionVi": "Mua dự trữ sẵn nhiều hàng hóa trước mùa cao điểm hay dịp lễ.",
+          "examples": [
+            {
+              "en": "Retailers usually stock up on gift boxes before November.",
+              "vi": "Các nhà bán lẻ thường nhập trữ hộp quà trước tháng 11."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "accumulate",
+            "hoard"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-102",
+          "deckId": "toeic-idioms",
+          "word": "take advantage of",
+          "pos": "phrase",
+          "ipaUK": "/tˈeɪk ædvˈæntɪdʒ ˈʌv/",
+          "ipaUS": "/tˈeɪk ædvˈæntɪdʒ ˈʌv/",
+          "meaning": "tận dụng tối đa (cơ hội, ưu đãi)",
+          "definitionEn": "To make full, smart use of an offer, resource, or opportunity.",
+          "definitionVi": "Khai thác triệt để một ưu đãi, nguồn lực hoặc cơ hội tốt.",
+          "examples": [
+            {
+              "en": "Members should take advantage of the early-bird conference rate.",
+              "vi": "Thành viên nên tận dụng mức vé ưu đãi đăng ký sớm hội nghị."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "capitalize on",
+            "utilize"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-103",
+          "deckId": "toeic-idioms",
+          "word": "take care of",
+          "pos": "phrase",
+          "ipaUK": "/tˈeɪk kˈe ˈʌv/",
+          "ipaUS": "/tˈeɪk kˈer ˈʌv/",
+          "meaning": "chăm lo, đảm nhận xử lý",
+          "definitionEn": "To handle a responsibility, guest, or task reliably.",
+          "definitionVi": "Đảm nhận lo liệu chu đáo một công việc, khách hàng hay nhiệm vụ.",
+          "examples": [
+            {
+              "en": "Do not worry about hotel bookings—our coordinator will take care of them.",
+              "vi": "Đừng lo đặt khách sạn—điều phối viên của ta sẽ lo liệu hết."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "handle",
+            "manage"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-104",
+          "deckId": "toeic-idioms",
+          "word": "take into account",
+          "pos": "phrase",
+          "ipaUK": "/tˈeɪk ɪntˈuː əkˈaʊnt/",
+          "ipaUS": "/tˈeɪk ɪntˈuː əkˈaʊnt/",
+          "meaning": "cân nhắc đến, tính đến yếu tố",
+          "definitionEn": "To consider a relevant factor carefully before deciding.",
+          "definitionVi": "Đưa một yếu tố quan trọng vào cân nhắc trước khi quyết định.",
+          "examples": [
+            {
+              "en": "Shipping estimates must take into account regional customs holidays.",
+              "vi": "Dự toán giao hàng phải tính đến các ngày nghỉ lễ hải quan khu vực."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "consider",
+            "factor in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-105",
+          "deckId": "toeic-idioms",
+          "word": "take part in",
+          "pos": "phrase",
+          "ipaUK": "/tˈeɪk pˈɑːrt ɪn/",
+          "ipaUS": "/tˈeɪk pˈɑːrt ɪn/",
+          "meaning": "tham gia vào (sự kiện, dự án)",
+          "definitionEn": "To join and actively participate in an organized event.",
+          "definitionVi": "Góp mặt và tham gia tích cực vào một hoạt động/sự kiện.",
+          "examples": [
+            {
+              "en": "Over sixty local startups will take part in the green tech expo.",
+              "vi": "Hơn sáu mươi startup địa phương sẽ tham gia triển lãm công nghệ xanh."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "participate in"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-106",
+          "deckId": "toeic-idioms",
+          "word": "take place",
+          "pos": "phrase",
+          "ipaUK": "/tˈeɪk plˈeɪs/",
+          "ipaUS": "/tˈeɪk plˈeɪs/",
+          "meaning": "diễn ra, được tổ chức tại",
+          "definitionEn": "To happen at a scheduled time and venue.",
+          "definitionVi": "Diễn ra hoặc được tổ chức vào khung giờ và địa điểm xác định.",
+          "examples": [
+            {
+              "en": "The awards banquet will take place in the Harbor Ballroom on Friday.",
+              "vi": "Tiệc trao giải sẽ diễn ra tại Sảnh Harbor vào thứ Sáu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "occur",
+            "be held"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-107",
+          "deckId": "toeic-idioms",
+          "word": "take turns",
+          "pos": "phrase",
+          "ipaUK": "/tˈeɪk tˈɜːnz/",
+          "ipaUS": "/tˈeɪk tˈɝːnz/",
+          "meaning": "thay phiên nhau, luân phiên",
+          "definitionEn": "To alternate doing a task one after another fairly.",
+          "definitionVi": "Chia phiên làm việc nối tiếp nhau một cách công bằng.",
+          "examples": [
+            {
+              "en": "Team members take turns leading the Monday morning stand-up.",
+              "vi": "Các thành viên thay phiên nhau chủ trì buổi họp nhanh sáng thứ Hai."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "alternate"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-108",
+          "deckId": "toeic-idioms",
+          "word": "turn out",
+          "pos": "phrase",
+          "ipaUK": "/tˈɜːn ˈaʊt/",
+          "ipaUS": "/tˈɝːn ˈaʊt/",
+          "meaning": "hóa ra, kết quả cho thấy là",
+          "definitionEn": "To prove to have a particular final result—often better than expected.",
+          "definitionVi": "Cho ra một kết quả cuối cùng cụ thể (thường bất ngờ hoặc tốt đẹp).",
+          "examples": [
+            {
+              "en": "Despite morning rain, the charity bazaar managed to turn out great.",
+              "vi": "Bất chấp mưa sáng, hội chợ từ thiện hóa ra lại thành công mỹ mãn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "prove to be",
+            "end up"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-109",
+          "deckId": "toeic-idioms",
+          "word": "up to date",
+          "pos": "phrase",
+          "ipaUK": "/ˈʌp tˈuː dˈeɪt/",
+          "ipaUS": "/ˈʌp tˈuː dˈeɪt/",
+          "meaning": "cập nhật mới nhất",
+          "definitionEn": "Containing the latest information, software patches, or standards.",
+          "definitionVi": "Chứa dữ liệu, bản vá phần mềm hoặc tiêu chuẩn mới nhất hiện hành.",
+          "examples": [
+            {
+              "en": "Please keep your emergency contact profile up to date in the HR app.",
+              "vi": "Vui lòng giữ thông tin liên hệ khẩn cấp luôn cập nhật trong ứng dụng nhân sự."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "current",
+            "latest"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-110",
+          "deckId": "toeic-idioms",
+          "word": "with regard to",
+          "pos": "phrase",
+          "ipaUK": "/wˈɪð rəɡˈɑːrd tˈuː/",
+          "ipaUS": "/wˈɪð rəɡˈɑːrd tˈuː/",
+          "meaning": "về vấn đề, liên quan đến",
+          "definitionEn": "Concerning or about a formal business matter.",
+          "definitionVi": "Liên quan tới hoặc đề cập đến một vấn đề công việc trang trọng.",
+          "examples": [
+            {
+              "en": "I am writing with regard to our upcoming annual software renewal.",
+              "vi": "Tôi viết thư này liên quan đến đợt gia hạn phần mềm hàng năm sắp tới."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "regarding",
+            "concerning"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-111",
+          "deckId": "toeic-idioms",
+          "word": "work out",
+          "pos": "phrase",
+          "ipaUK": "/wˈɜːk ˈaʊt/",
+          "ipaUS": "/wˈɝːk ˈaʊt/",
+          "meaning": "giải quyết ổn thỏa; tính toán ra; tập thể dục",
+          "definitionEn": "To resolve a problem, calculate a total, or succeed as planned.",
+          "definitionVi": "Tìm ra hướng giải quyết, tính ra con số hoặc diễn ra suôn sẻ.",
+          "examples": [
+            {
+              "en": "Both teams met today to work out a fairer delivery schedule.",
+              "vi": "Cả hai đội đã họp hôm nay để thống nhất lịch giao hàng hợp lý hơn."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "resolve",
+            "calculate"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        },
+        {
+          "id": "toeic-idioms-112",
+          "deckId": "toeic-idioms",
+          "word": "wrap up",
+          "pos": "phrase",
+          "ipaUK": "/rˈæp ˈʌp/",
+          "ipaUS": "/rˈæp ˈʌp/",
+          "meaning": "khép lại, hoàn tất phần cuối",
+          "definitionEn": "To finish a meeting, presentation, or project neatly.",
+          "definitionVi": "Kết thúc gọn gàng một buổi họp, bài thuyết trình hoặc dự án.",
+          "examples": [
+            {
+              "en": "Let us wrap up the review so everyone can head to lunch on time.",
+              "vi": "Hãy khép lại buổi rà soát để mọi người đi ăn trưa đúng giờ."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "conclude",
+            "finish"
+          ],
+          "antonyms": [],
+          "collocations": [],
+          "topicId": "toeic-idioms-g7"
+        }
+      ]
+    }
+  ]
+}

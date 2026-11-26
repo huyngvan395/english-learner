@@ -1,0 +1,324 @@
+{
+  "id": "drill-p1-multiple",
+  "part": 1,
+  "title": "Tả nhiều người — Tương tác công sở",
+  "subtitle": "Phân biệt nhóm người họp hành, thảo luận và hành động bẫy.",
+  "focusTag": "Multiple People",
+  "part1": [
+    {
+      "id": "dp1-m-1",
+      "part": 1,
+      "sceneType": "multiple-people",
+      "title": "Nhóm làm việc trao đổi tài liệu quanh bàn",
+      "illustrationKey": "meeting-whiteboard",
+      "imageUrl": "/images/part1/part1_presentation.jpg",
+      "transcript": [
+        {
+          "id": "dp1-m-1-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "A. Several people are having a discussion together.",
+          "vi": "A. Một vài người đang cùng nhau thảo luận.",
+          "evidenceForQuestionIds": [
+            "dp1-m-1"
+          ],
+          "startMs": 240,
+          "endMs": 3936
+        },
+        {
+          "id": "dp1-m-1-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "B. Customers are waiting in line at a bank teller.",
+          "vi": "B. Khách hàng đang xếp hàng tại quầy giao dịch ngân hàng.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4536,
+          "endMs": 8328
+        },
+        {
+          "id": "dp1-m-1-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "C. Musicians are tuning their instruments onstage.",
+          "vi": "C. Các nhạc công đang chỉnh nhạc cụ trên sân khấu.",
+          "evidenceForQuestionIds": [],
+          "startMs": 8928,
+          "endMs": 12960
+        },
+        {
+          "id": "dp1-m-1-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "D. Runners are stretching before a marathon.",
+          "vi": "D. Vận động viên chạy bộ đang giãn cơ trước giải marathon.",
+          "evidenceForQuestionIds": [],
+          "startMs": 13560,
+          "endMs": 16920
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "Several people are having a discussion together.",
+          "vi": "Một vài người đang cùng nhau thảo luận."
+        },
+        "B": {
+          "en": "Customers are waiting in line at a bank teller.",
+          "vi": "Khách hàng đang xếp hàng tại quầy giao dịch ngân hàng."
+        },
+        "C": {
+          "en": "Musicians are tuning their instruments onstage.",
+          "vi": "Các nhạc công đang chỉnh nhạc cụ trên sân khấu."
+        },
+        "D": {
+          "en": "Runners are stretching before a marathon.",
+          "vi": "Vận động viên chạy bộ đang giãn cơ trước giải marathon."
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy mô tả nhóm người tương tác",
+        "trapAnalysis": "Khi thấy nhiều người hướng mặt về nhau trao đổi -> 'having a discussion together' là đáp án chuẩn xác nhất.",
+        "paraphrases": [
+          {
+            "audioPhrase": "having a discussion",
+            "answerPhrase": "talking / collaborating in a group",
+            "meaningVi": "đang thảo luận nhóm"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Nhóm đồng nghiệp đang trao đổi ý kiến cùng nhau.",
+          "B": "Sai: Không phải ngân hàng.",
+          "C": "Sai: Không có nhạc cụ.",
+          "D": "Sai: Không phải giải chạy."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-m-1-v1",
+            "word": "collaborate",
+            "pos": "v",
+            "ipaUK": "/kəˈlæbəreɪt/",
+            "ipaUS": "/kəˈlæbəreɪt/",
+            "meaning": "hợp tác, phối hợp",
+            "exampleEn": "Designers and engineers collaborate closely on prototypes.",
+            "exampleVi": "Nhà thiết kế và kỹ sư phối hợp chặt chẽ trên mẫu thử."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-m-1.mp3"
+    },
+    {
+      "id": "dp1-m-2",
+      "part": 1,
+      "sceneType": "multiple-people",
+      "title": "Hội nghị nội bộ trong phòng họp kính",
+      "illustrationKey": "meeting-whiteboard",
+      "imageUrl": "/images/part1/part1_meeting_room.jpg",
+      "transcript": [
+        {
+          "id": "dp1-m-2-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "A. Attendees are leaving the building through glass doors.",
+          "vi": "A. Người tham dự đang rời tòa nhà qua cửa kính.",
+          "evidenceForQuestionIds": [],
+          "startMs": 240,
+          "endMs": 3960
+        },
+        {
+          "id": "dp1-m-2-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "B. Colleagues are attending a meeting in an office room.",
+          "vi": "B. Các đồng nghiệp đang tham dự cuộc họp trong phòng văn phòng.",
+          "evidenceForQuestionIds": [
+            "dp1-m-2"
+          ],
+          "startMs": 4560,
+          "endMs": 8040
+        },
+        {
+          "id": "dp1-m-2-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "C. Staff are moving heavy desks into an elevator.",
+          "vi": "C. Nhân viên đang chuyển bàn nặng vào thang máy.",
+          "evidenceForQuestionIds": [],
+          "startMs": 8640,
+          "endMs": 12360
+        },
+        {
+          "id": "dp1-m-2-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "D. Tourists are taking photographs of a monument.",
+          "vi": "D. Du khách đang chụp ảnh một tượng đài.",
+          "evidenceForQuestionIds": [],
+          "startMs": 12960,
+          "endMs": 16488
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "Attendees are leaving the building through glass doors.",
+          "vi": "Người tham dự đang rời tòa nhà qua cửa kính."
+        },
+        "B": {
+          "en": "Colleagues are attending a meeting in an office room.",
+          "vi": "Các đồng nghiệp đang tham dự cuộc họp trong phòng văn phòng."
+        },
+        "C": {
+          "en": "Staff are moving heavy desks into an elevator.",
+          "vi": "Nhân viên đang chuyển bàn nặng vào thang máy."
+        },
+        "D": {
+          "en": "Tourists are taking photographs of a monument.",
+          "vi": "Du khách đang chụp ảnh một tượng đài."
+        }
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "trapType": "Bẫy vật thể có thật (glass) ghép hành động sai",
+        "trapAnalysis": "Phòng có vách kính nhưng mọi người KHÔNG rời tòa nhà -> loại bẫy (A).",
+        "paraphrases": [
+          {
+            "audioPhrase": "attending a meeting",
+            "answerPhrase": "participating in a conference",
+            "meaningVi": "tham dự cuộc họp"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Sai: Mọi người vẫn đang ngồi họp, không đi ra cửa.",
+          "B": "Đúng: Tả chuẩn buổi họp nội bộ trong phòng họp.",
+          "C": "Sai: Không khiêng bàn vào thang máy.",
+          "D": "Sai: Không có du khách hay tượng đài."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-m-2-v1",
+            "word": "attendee",
+            "pos": "n",
+            "ipaUK": "/əˌtenˈdiː/",
+            "ipaUS": "/əˌtenˈdiː/",
+            "meaning": "người tham dự",
+            "exampleEn": "Each attendee received a digital copy of the agenda.",
+            "exampleVi": "Mỗi người tham dự nhận được bản mềm chương trình họp."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-m-2.mp3"
+    },
+    {
+      "id": "dp1-m-3",
+      "part": 1,
+      "sceneType": "multiple-people",
+      "title": "Đội ngũ kỹ sư trao đổi ngoài công trường",
+      "illustrationKey": "warehouse-shelves",
+      "imageUrl": "/images/part1/part1_construction.jpg",
+      "transcript": [
+        {
+          "id": "dp1-m-3-opt-A",
+          "speaker": "Statement (A)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "A. People are wearing protective headgear outdoors.",
+          "vi": "A. Mọi người đang đội mũ bảo hộ ở ngoài trời.",
+          "evidenceForQuestionIds": [
+            "dp1-m-3"
+          ],
+          "startMs": 240,
+          "endMs": 3864
+        },
+        {
+          "id": "dp1-m-3-opt-B",
+          "speaker": "Statement (B)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "B. Shoppers are pushing carts through a supermarket.",
+          "vi": "B. Người mua sắm đang đẩy xe đẩy qua siêu thị.",
+          "evidenceForQuestionIds": [],
+          "startMs": 4464,
+          "endMs": 7992
+        },
+        {
+          "id": "dp1-m-3-opt-C",
+          "speaker": "Statement (C)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "C. Students are raising their hands in a lecture hall.",
+          "vi": "C. Sinh viên đang giơ tay trong giảng đường.",
+          "evidenceForQuestionIds": [],
+          "startMs": 8592,
+          "endMs": 12168
+        },
+        {
+          "id": "dp1-m-3-opt-D",
+          "speaker": "Statement (D)",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "en": "D. Gardeners are mowing a public lawn.",
+          "vi": "D. Người làm vườn đang cắt cỏ bãi công viên.",
+          "evidenceForQuestionIds": [],
+          "startMs": 12768,
+          "endMs": 15768
+        }
+      ],
+      "options": {
+        "A": {
+          "en": "People are wearing protective headgear outdoors.",
+          "vi": "Mọi người đang đội mũ bảo hộ ở ngoài trời."
+        },
+        "B": {
+          "en": "Shoppers are pushing carts through a supermarket.",
+          "vi": "Người mua sắm đang đẩy xe đẩy qua siêu thị."
+        },
+        "C": {
+          "en": "Students are raising their hands in a lecture hall.",
+          "vi": "Sinh viên đang giơ tay trong giảng đường."
+        },
+        "D": {
+          "en": "Gardeners are mowing a public lawn.",
+          "vi": "Người làm vườn đang cắt cỏ bãi công viên."
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy Paraphrase 'hard hats' -> 'protective headgear'",
+        "trapAnalysis": "ETS cực thích thay 'hard hats / helmets' bằng cụm 'protective headgear'.",
+        "paraphrases": [
+          {
+            "audioPhrase": "protective headgear",
+            "answerPhrase": "hard hats / safety helmets",
+            "meaningVi": "mũ bảo hộ đầu"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Mũ bảo hộ = protective headgear; công trường ngoài trời = outdoors.",
+          "B": "Sai: Không phải siêu thị.",
+          "C": "Sai: Không phải giảng đường.",
+          "D": "Sai: Không có bãi cỏ hay máy cắt cỏ."
+        },
+        "keyVocab": [
+          {
+            "id": "dp1-m-3-v1",
+            "word": "protective",
+            "pos": "adj",
+            "ipaUK": "/prəˈtektɪv/",
+            "ipaUS": "/prəˈtektɪv/",
+            "meaning": "mang tính bảo vệ, bảo hộ",
+            "exampleEn": "Lab visitors must put on protective eyewear at the door.",
+            "exampleVi": "Khách vào phòng thí nghiệm phải đeo kính bảo hộ ngay cửa."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp1-m-3.mp3"
+    }
+  ]
+}

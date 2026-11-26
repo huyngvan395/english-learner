@@ -1,0 +1,1363 @@
+{
+  "id": "topic-business",
+  "title": "Từ Vựng Theo Chủ Đề (Công sở, Tài chính, Nhân sự, Marketing, Du lịch)",
+  "subtitle": "5 nhóm chủ đề thiết yếu cho môi trường doanh nghiệp quốc tế và bài đọc TOEIC Part 7.",
+  "category": "academic",
+  "levelLabel": "B1 – B2",
+  "tags": [
+    "#b1",
+    "#b2",
+    "#topic",
+    "#toeic"
+  ],
+  "coverTheme": "topic-business",
+  "accentGradient": "from-blue-500 via-cyan-500 to-teal-500",
+  "badgeText": "5 CHỦ ĐỀ",
+  "words": [
+    {
+      "id": "top-1",
+      "deckId": "topic-business",
+      "word": "revenue",
+      "pos": "n",
+      "ipaUK": "/ˈrev.ən.juː/",
+      "ipaUS": "/ˈrev.ə.nuː/",
+      "meaning": "[Tài chính] doanh thu",
+      "examples": [
+        {
+          "en": "Subscription revenue climbed 22% year over year.",
+          "vi": "Doanh thu từ gói đăng ký tăng 22% so với cùng kỳ năm trước."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "income",
+        "earnings",
+        "turnover"
+      ],
+      "antonyms": [
+        "expenditure"
+      ],
+      "collocations": [
+        {
+          "phrase": "generate revenue",
+          "meaning": "tạo doanh thu"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to income, earnings, turnover.",
+      "definitionVi": "Danh từ dùng để chỉ doanh thu.",
+      "topicId": "top-finance"
+    },
+    {
+      "id": "top-2",
+      "deckId": "topic-business",
+      "word": "dividend",
+      "pos": "n",
+      "ipaUK": "/ˈdɪv.ɪ.dend/",
+      "ipaUS": "/ˈdɪv.ə.dend/",
+      "meaning": "[Tài chính] cổ tức chi trả cổ đông",
+      "examples": [
+        {
+          "en": "The board approved a quarterly dividend of $0.85 per share.",
+          "vi": "Hội đồng quản trị duyệt cổ tức quý 0,85 đô la mỗi cổ phiếu."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "payout",
+        "return"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "pay a dividend",
+          "meaning": "chi trả cổ tức"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to payout, return.",
+      "definitionVi": "Danh từ dùng để chỉ cổ tức chi trả cổ đông.",
+      "topicId": "top-finance"
+    },
+    {
+      "id": "top-3",
+      "deckId": "topic-business",
+      "word": "audit",
+      "pos": "n",
+      "ipaUK": "/ˈɔː.dɪt/",
+      "ipaUS": "/ˈɑː.dɪt/",
+      "meaning": "[Tài chính] cuộc kiểm toán tài chính",
+      "examples": [
+        {
+          "en": "An external firm completed our annual financial audit.",
+          "vi": "Một công ty độc lập đã hoàn thành kiểm toán tài chính năm của chúng tôi."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "auditor",
+          "pos": "n",
+          "meaning": "kiểm toán viên"
+        }
+      ],
+      "synonyms": [
+        "inspection",
+        "review"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "conduct an audit",
+          "meaning": "tiến hành kiểm toán"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to inspection, review.",
+      "definitionVi": "Danh từ dùng để chỉ cuộc kiểm toán tài chính.",
+      "topicId": "top-finance"
+    },
+    {
+      "id": "top-4",
+      "deckId": "topic-business",
+      "word": "overhead",
+      "pos": "n",
+      "ipaUK": "/ˌəʊ.vəˈhed/",
+      "ipaUS": "/ˈoʊ.vɚ.hed/",
+      "meaning": "[Tài chính] chi phí vận hành cố định (mặt bằng, điện nước)",
+      "examples": [
+        {
+          "en": "Sharing a studio cut our monthly overhead by 40%.",
+          "vi": "Dùng chung studio giúp giảm 40% chi phí vận hành cố định hàng tháng."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "operating costs",
+        "fixed expenses"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "reduce overhead",
+          "meaning": "giảm chi phí vận hành"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to operating costs, fixed expenses.",
+      "definitionVi": "Danh từ dùng để chỉ chi phí vận hành cố định (mặt bằng, điện nước).",
+      "topicId": "top-finance"
+    },
+    {
+      "id": "top-5",
+      "deckId": "topic-business",
+      "word": "onboarding",
+      "pos": "n",
+      "ipaUK": "/ˈɒn.bɔː.dɪŋ/",
+      "ipaUS": "/ˈɑːn.bɔːr.dɪŋ/",
+      "meaning": "[Nhân sự] quy trình hội nhập nhân viên mới",
+      "examples": [
+        {
+          "en": "Clear onboarding checklists help new hires thrive quickly.",
+          "vi": "Danh mục hội nhập rõ ràng giúp nhân viên mới hòa nhập nhanh."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "orientation",
+        "induction"
+      ],
+      "antonyms": [
+        "offboarding"
+      ],
+      "collocations": [
+        {
+          "phrase": "onboarding session",
+          "meaning": "buổi định hướng nhân viên mới"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to orientation, induction.",
+      "definitionVi": "Danh từ dùng để chỉ quy trình hội nhập nhân viên mới.",
+      "topicId": "top-hr"
+    },
+    {
+      "id": "top-6",
+      "deckId": "topic-business",
+      "word": "appraisal",
+      "pos": "n",
+      "ipaUK": "/əˈpreɪ.zəl/",
+      "ipaUS": "/əˈpɹeɪzəl/",
+      "meaning": "[Nhân sự] sự đánh giá hiệu suất / thẩm định giá",
+      "examples": [
+        {
+          "en": "Bonuses are tied to the annual performance appraisal.",
+          "vi": "Tiền thưởng gắn liền với kỳ đánh giá hiệu suất hàng năm."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "appraise",
+          "pos": "v",
+          "meaning": "đánh giá, thẩm định"
+        }
+      ],
+      "synonyms": [
+        "evaluation",
+        "assessment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "performance appraisal",
+          "meaning": "đánh giá năng lực nhân sự"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/appraisal-us.mp3",
+      "definitionEn": "A concept, item, or formal term closely related to evaluation, assessment.",
+      "definitionVi": "Danh từ dùng để chỉ sự đánh giá hiệu suất / thẩm định giá.",
+      "topicId": "top-hr"
+    },
+    {
+      "id": "top-7",
+      "deckId": "topic-business",
+      "word": "payroll",
+      "pos": "n",
+      "ipaUK": "/ˈpeɪ.rəʊl/",
+      "ipaUS": "/ˈpeɪ.roʊl/",
+      "meaning": "[Nhân sự] bảng lương, bộ phận trả lương",
+      "examples": [
+        {
+          "en": "Please submit updated bank details to payroll by Monday.",
+          "vi": "Vui lòng gửi thông tin ngân hàng cập nhật cho phòng lương trước thứ Hai."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "salary list",
+        "compensation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "payroll department",
+          "meaning": "phòng chi trả lương"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to salary list, compensation.",
+      "definitionVi": "Danh từ dùng để chỉ bảng lương, bộ phận trả lương.",
+      "topicId": "top-hr"
+    },
+    {
+      "id": "top-8",
+      "deckId": "topic-business",
+      "word": "probation",
+      "pos": "n",
+      "ipaUK": "/prəˈbeɪ.ʃən/",
+      "ipaUS": "/proʊˈbeɪ.ʃən/",
+      "meaning": "[Nhân sự] thời gian thử việc",
+      "examples": [
+        {
+          "en": "Health benefits begin right after the 60-day probation period.",
+          "vi": "Phúc lợi y tế bắt đầu ngay sau thời gian thử việc 60 ngày."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "probationary",
+          "pos": "adj",
+          "meaning": "thử việc"
+        }
+      ],
+      "synonyms": [
+        "trial period"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "probation period",
+          "meaning": "thời gian thử việc"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to trial period.",
+      "definitionVi": "Danh từ dùng để chỉ thời gian thử việc.",
+      "topicId": "top-hr"
+    },
+    {
+      "id": "top-9",
+      "deckId": "topic-business",
+      "word": "demographics",
+      "pos": "n",
+      "ipaUK": "/ˌdem.əˈɡræf.ɪks/",
+      "ipaUS": "/ˌdem.əˈɡræf.ɪks/",
+      "meaning": "[Marketing] dữ liệu nhân khẩu học khách hàng",
+      "examples": [
+        {
+          "en": "Ad spend was tailored to regional buyer demographics.",
+          "vi": "Ngân sách quảng cáo được tinh chỉnh theo nhân khẩu học người mua vùng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "demographic",
+          "pos": "adj",
+          "meaning": "thuộc nhân khẩu học"
+        }
+      ],
+      "synonyms": [
+        "audience profile"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "target demographic",
+          "meaning": "nhóm khách hàng mục tiêu"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to audience profile.",
+      "definitionVi": "Danh từ dùng để chỉ dữ liệu nhân khẩu học khách hàng.",
+      "topicId": "top-marketing"
+    },
+    {
+      "id": "top-10",
+      "deckId": "topic-business",
+      "word": "brand loyalty",
+      "pos": "phrase",
+      "ipaUK": "/brænd ˈlɔɪ.əl.ti/",
+      "ipaUS": "/brænd ˈlɔɪ.əl.t̬i/",
+      "meaning": "[Marketing] lòng trung thành thương hiệu",
+      "examples": [
+        {
+          "en": "Fast warranty replacements build strong brand loyalty.",
+          "vi": "Đổi bảo hành nhanh xây dựng lòng trung thành thương hiệu mạnh mẽ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "loyal",
+          "pos": "adj",
+          "meaning": "trung thành"
+        }
+      ],
+      "synonyms": [
+        "customer retention"
+      ],
+      "antonyms": [
+        "brand switching"
+      ],
+      "collocations": [
+        {
+          "phrase": "foster brand loyalty",
+          "meaning": "nuôi dưỡng lòng trung thành thương hiệu"
+        }
+      ],
+      "definitionEn": "A common English expression meaning 'customer retention'.",
+      "definitionVi": "Cụm từ cố định mang nghĩa lòng trung thành thương hiệu.",
+      "topicId": "top-marketing"
+    },
+    {
+      "id": "top-11",
+      "deckId": "topic-business",
+      "word": "campaign",
+      "pos": "n",
+      "ipaUK": "/kæmˈpeɪn/",
+      "ipaUS": "/kæmˈpeɪn/",
+      "meaning": "[Marketing] chiến dịch quảng cáo / truyền thông",
+      "examples": [
+        {
+          "en": "The autumn email campaign tripled webinar registrations.",
+          "vi": "Chiến dịch email mùa thu làm tăng gấp ba lượt đăng ký hội thảo trực tuyến."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "drive",
+        "initiative",
+        "promotion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "advertising campaign",
+          "meaning": "chiến dịch quảng cáo"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to drive, initiative, promotion.",
+      "definitionVi": "Danh từ dùng để chỉ chiến dịch quảng cáo / truyền thông.",
+      "topicId": "top-marketing"
+    },
+    {
+      "id": "top-12",
+      "deckId": "topic-business",
+      "word": "sponsorship",
+      "pos": "n",
+      "ipaUK": "/ˈspɒn.sə.ʃɪp/",
+      "ipaUS": "/ˈspɑːn.sɚ.ʃɪp/",
+      "meaning": "[Marketing] sự tài trợ thương hiệu",
+      "examples": [
+        {
+          "en": "Corporate sponsorship kept festival tickets free for families.",
+          "vi": "Tài trợ doanh nghiệp giúp vé lễ hội miễn phí cho các gia đình."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "sponsor",
+          "pos": "n",
+          "meaning": "nhà tài trợ"
+        }
+      ],
+      "synonyms": [
+        "backing",
+        "patronage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "event sponsorship",
+          "meaning": "tài trợ sự kiện"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to backing, patronage.",
+      "definitionVi": "Danh từ dùng để chỉ sự tài trợ thương hiệu.",
+      "topicId": "top-marketing"
+    },
+    {
+      "id": "top-13",
+      "deckId": "topic-business",
+      "word": "stationery",
+      "pos": "n",
+      "ipaUK": "/ˈsteɪ.ʃən.ər.i/",
+      "ipaUS": "/ˈsteɪ.ʃə.ner.i/",
+      "meaning": "[Công sở] văn phòng phẩm (dễ nhầm với stationary = đứng yên)",
+      "examples": [
+        {
+          "en": "Order more company stationery before the trade conference.",
+          "vi": "Đặt thêm văn phòng phẩm in logo công ty trước hội nghị thương mại."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "office supplies"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "company stationery",
+          "meaning": "văn phòng phẩm công ty"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to office supplies.",
+      "definitionVi": "Danh từ dùng để chỉ văn phòng phẩm (dễ nhầm với stationary = đứng yên).",
+      "topicId": "top-office"
+    },
+    {
+      "id": "top-14",
+      "deckId": "topic-business",
+      "word": "ergonomic",
+      "pos": "adj",
+      "ipaUK": "/ˌɜː.ɡəˈnɒm.ɪk/",
+      "ipaUS": "/ˌɝː.ɡəˈnɑː.mɪk/",
+      "meaning": "[Công sở] công thái học (bảo vệ cột sống, cổ tay)",
+      "examples": [
+        {
+          "en": "Ergonomic chairs significantly reduce back fatigue.",
+          "vi": "Ghế công thái học giúp giảm đáng kể mỏi lưng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "ergonomics",
+          "pos": "n",
+          "meaning": "công thái học"
+        }
+      ],
+      "synonyms": [
+        "posture-friendly"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "ergonomic workstation",
+          "meaning": "bàn làm việc công thái học"
+        }
+      ],
+      "definitionEn": "Having the quality of being posture-friendly.",
+      "definitionVi": "Tính từ mô tả đặc điểm công thái học (bảo vệ cột sống, cổ tay).",
+      "topicId": "top-office"
+    },
+    {
+      "id": "top-15",
+      "deckId": "topic-business",
+      "word": "intranet",
+      "pos": "n",
+      "ipaUK": "/ˈɪn.trə.net/",
+      "ipaUS": "/ˈɪn.trə.net/",
+      "meaning": "[Công sở] mạng nội bộ công ty",
+      "examples": [
+        {
+          "en": "Updated leave forms are posted on the company intranet.",
+          "vi": "Biểu mẫu nghỉ phép mới nhất được đăng trên mạng nội bộ công ty."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "internal network",
+        "staff portal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "company intranet",
+          "meaning": "mạng nội bộ doanh nghiệp"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to internal network, staff portal.",
+      "definitionVi": "Danh từ dùng để chỉ mạng nội bộ công ty.",
+      "topicId": "top-office"
+    },
+    {
+      "id": "top-16",
+      "deckId": "topic-business",
+      "word": "headquarters",
+      "pos": "n",
+      "ipaUK": "/ˌhedˈkwɔː.təz/",
+      "ipaUS": "/ˈhed.kwɔːr.t̬ɚz/",
+      "meaning": "[Công sở] trụ sở chính (luôn có -s)",
+      "examples": [
+        {
+          "en": "Regional managers flew to headquarters for the annual summit.",
+          "vi": "Các giám đốc vùng bay về trụ sở chính dự hội nghị thường niên."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "main office",
+        "head office"
+      ],
+      "antonyms": [
+        "branch"
+      ],
+      "collocations": [
+        {
+          "phrase": "corporate headquarters",
+          "meaning": "trụ sở tập đoàn"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to main office, head office.",
+      "definitionVi": "Danh từ dùng để chỉ trụ sở chính (luôn có -s).",
+      "topicId": "top-office"
+    },
+    {
+      "id": "top-17",
+      "deckId": "topic-business",
+      "word": "layover",
+      "pos": "n",
+      "ipaUK": "/ˈleɪ.əʊ.vər/",
+      "ipaUS": "/ˈleɪ.oʊ.vɚ/",
+      "meaning": "[Du lịch] thời gian quá cảnh giữa hai chuyến bay",
+      "examples": [
+        {
+          "en": "My itinerary to Zurich includes a two-hour layover in Singapore.",
+          "vi": "Lịch trình đi Zurich của tôi có hai tiếng quá cảnh ở Singapore."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "stopover",
+        "transit"
+      ],
+      "antonyms": [
+        "nonstop flight"
+      ],
+      "collocations": [
+        {
+          "phrase": "overnight layover",
+          "meaning": "quá cảnh qua đêm"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to stopover, transit.",
+      "definitionVi": "Danh từ dùng để chỉ thời gian quá cảnh giữa hai chuyến bay.",
+      "topicId": "top-travel"
+    },
+    {
+      "id": "top-18",
+      "deckId": "topic-business",
+      "word": "boarding pass",
+      "pos": "phrase",
+      "ipaUK": "/ˈbɔː.dɪŋ pɑːs/",
+      "ipaUS": "/ˈbɔːr.dɪŋ pæs/",
+      "meaning": "[Du lịch] thẻ lên máy bay",
+      "examples": [
+        {
+          "en": "Scan your mobile boarding pass at Gate 19.",
+          "vi": "Quét thẻ lên máy bay điện tử của bạn tại Cổng 19."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "board",
+          "pos": "v",
+          "meaning": "lên tàu/máy bay"
+        }
+      ],
+      "synonyms": [
+        "boarding card"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "mobile boarding pass",
+          "meaning": "thẻ lên máy bay điện tử"
+        }
+      ],
+      "definitionEn": "A common English expression meaning 'boarding card'.",
+      "definitionVi": "Cụm từ cố định mang nghĩa thẻ lên máy bay.",
+      "topicId": "top-travel"
+    },
+    {
+      "id": "top-19",
+      "deckId": "topic-business",
+      "word": "concierge",
+      "pos": "n",
+      "ipaUK": "/ˌkɒn.siˈeəʒ/",
+      "ipaUS": "/ˌkɑːn.siˈerʒ/",
+      "meaning": "[Du lịch] nhân viên hỗ trợ đặc biệt khách sạn (đặt tour, xe, nhà hàng)",
+      "examples": [
+        {
+          "en": "The hotel concierge booked theater tickets for our clients.",
+          "vi": "Nhân viên concierge khách sạn đã đặt vé nhà hát cho khách hàng của chúng tôi."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "guest services desk"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "concierge service",
+          "meaning": "dịch vụ hỗ trợ khách lưu trú"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to guest services desk.",
+      "definitionVi": "Danh từ dùng để chỉ nhân viên hỗ trợ đặc biệt khách sạn (đặt tour, xe, nhà hàng).",
+      "topicId": "top-travel"
+    },
+    {
+      "id": "top-20",
+      "deckId": "topic-business",
+      "word": "shuttle",
+      "pos": "n",
+      "ipaUK": "/ˈʃʌt.əl/",
+      "ipaUS": "/ˈʃʌt̬.əl/",
+      "meaning": "[Du lịch] xe buýt đưa đón tuyến cố định (sân bay/văn phòng)",
+      "examples": [
+        {
+          "en": "A complimentary shuttle runs every 15 minutes from Terminal 1.",
+          "vi": "Xe đưa đón miễn phí chạy mỗi 15 phút từ Nhà ga 1."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "transfer bus",
+        "commuter van"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "airport shuttle",
+          "meaning": "xe đưa đón sân bay"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to transfer bus, commuter van.",
+      "definitionVi": "Danh từ dùng để chỉ xe buýt đưa đón tuyến cố định (sân bay/văn phòng).",
+      "topicId": "top-travel"
+    }
+  ],
+  "topics": [
+    {
+      "id": "top-finance",
+      "name": "Tài chính & Kế toán",
+      "icon": "finance",
+      "words": [
+        {
+          "id": "top-1",
+          "deckId": "topic-business",
+          "word": "revenue",
+          "pos": "n",
+          "ipaUK": "/ˈrev.ən.juː/",
+          "ipaUS": "/ˈrev.ə.nuː/",
+          "meaning": "[Tài chính] doanh thu",
+          "examples": [
+            {
+              "en": "Subscription revenue climbed 22% year over year.",
+              "vi": "Doanh thu từ gói đăng ký tăng 22% so với cùng kỳ năm trước."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "income",
+            "earnings",
+            "turnover"
+          ],
+          "antonyms": [
+            "expenditure"
+          ],
+          "collocations": [
+            {
+              "phrase": "generate revenue",
+              "meaning": "tạo doanh thu"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to income, earnings, turnover.",
+          "definitionVi": "Danh từ dùng để chỉ doanh thu.",
+          "topicId": "top-finance"
+        },
+        {
+          "id": "top-2",
+          "deckId": "topic-business",
+          "word": "dividend",
+          "pos": "n",
+          "ipaUK": "/ˈdɪv.ɪ.dend/",
+          "ipaUS": "/ˈdɪv.ə.dend/",
+          "meaning": "[Tài chính] cổ tức chi trả cổ đông",
+          "examples": [
+            {
+              "en": "The board approved a quarterly dividend of $0.85 per share.",
+              "vi": "Hội đồng quản trị duyệt cổ tức quý 0,85 đô la mỗi cổ phiếu."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "payout",
+            "return"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "pay a dividend",
+              "meaning": "chi trả cổ tức"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to payout, return.",
+          "definitionVi": "Danh từ dùng để chỉ cổ tức chi trả cổ đông.",
+          "topicId": "top-finance"
+        },
+        {
+          "id": "top-3",
+          "deckId": "topic-business",
+          "word": "audit",
+          "pos": "n",
+          "ipaUK": "/ˈɔː.dɪt/",
+          "ipaUS": "/ˈɑː.dɪt/",
+          "meaning": "[Tài chính] cuộc kiểm toán tài chính",
+          "examples": [
+            {
+              "en": "An external firm completed our annual financial audit.",
+              "vi": "Một công ty độc lập đã hoàn thành kiểm toán tài chính năm của chúng tôi."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "auditor",
+              "pos": "n",
+              "meaning": "kiểm toán viên"
+            }
+          ],
+          "synonyms": [
+            "inspection",
+            "review"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "conduct an audit",
+              "meaning": "tiến hành kiểm toán"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to inspection, review.",
+          "definitionVi": "Danh từ dùng để chỉ cuộc kiểm toán tài chính.",
+          "topicId": "top-finance"
+        },
+        {
+          "id": "top-4",
+          "deckId": "topic-business",
+          "word": "overhead",
+          "pos": "n",
+          "ipaUK": "/ˌəʊ.vəˈhed/",
+          "ipaUS": "/ˈoʊ.vɚ.hed/",
+          "meaning": "[Tài chính] chi phí vận hành cố định (mặt bằng, điện nước)",
+          "examples": [
+            {
+              "en": "Sharing a studio cut our monthly overhead by 40%.",
+              "vi": "Dùng chung studio giúp giảm 40% chi phí vận hành cố định hàng tháng."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "operating costs",
+            "fixed expenses"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "reduce overhead",
+              "meaning": "giảm chi phí vận hành"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to operating costs, fixed expenses.",
+          "definitionVi": "Danh từ dùng để chỉ chi phí vận hành cố định (mặt bằng, điện nước).",
+          "topicId": "top-finance"
+        }
+      ]
+    },
+    {
+      "id": "top-hr",
+      "name": "Nhân sự & Tuyển dụng",
+      "icon": "hr",
+      "words": [
+        {
+          "id": "top-5",
+          "deckId": "topic-business",
+          "word": "onboarding",
+          "pos": "n",
+          "ipaUK": "/ˈɒn.bɔː.dɪŋ/",
+          "ipaUS": "/ˈɑːn.bɔːr.dɪŋ/",
+          "meaning": "[Nhân sự] quy trình hội nhập nhân viên mới",
+          "examples": [
+            {
+              "en": "Clear onboarding checklists help new hires thrive quickly.",
+              "vi": "Danh mục hội nhập rõ ràng giúp nhân viên mới hòa nhập nhanh."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "orientation",
+            "induction"
+          ],
+          "antonyms": [
+            "offboarding"
+          ],
+          "collocations": [
+            {
+              "phrase": "onboarding session",
+              "meaning": "buổi định hướng nhân viên mới"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to orientation, induction.",
+          "definitionVi": "Danh từ dùng để chỉ quy trình hội nhập nhân viên mới.",
+          "topicId": "top-hr"
+        },
+        {
+          "id": "top-6",
+          "deckId": "topic-business",
+          "word": "appraisal",
+          "pos": "n",
+          "ipaUK": "/əˈpreɪ.zəl/",
+          "ipaUS": "/əˈpɹeɪzəl/",
+          "meaning": "[Nhân sự] sự đánh giá hiệu suất / thẩm định giá",
+          "examples": [
+            {
+              "en": "Bonuses are tied to the annual performance appraisal.",
+              "vi": "Tiền thưởng gắn liền với kỳ đánh giá hiệu suất hàng năm."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "appraise",
+              "pos": "v",
+              "meaning": "đánh giá, thẩm định"
+            }
+          ],
+          "synonyms": [
+            "evaluation",
+            "assessment"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "performance appraisal",
+              "meaning": "đánh giá năng lực nhân sự"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/appraisal-us.mp3",
+          "definitionEn": "A concept, item, or formal term closely related to evaluation, assessment.",
+          "definitionVi": "Danh từ dùng để chỉ sự đánh giá hiệu suất / thẩm định giá.",
+          "topicId": "top-hr"
+        },
+        {
+          "id": "top-7",
+          "deckId": "topic-business",
+          "word": "payroll",
+          "pos": "n",
+          "ipaUK": "/ˈpeɪ.rəʊl/",
+          "ipaUS": "/ˈpeɪ.roʊl/",
+          "meaning": "[Nhân sự] bảng lương, bộ phận trả lương",
+          "examples": [
+            {
+              "en": "Please submit updated bank details to payroll by Monday.",
+              "vi": "Vui lòng gửi thông tin ngân hàng cập nhật cho phòng lương trước thứ Hai."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "salary list",
+            "compensation"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "payroll department",
+              "meaning": "phòng chi trả lương"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to salary list, compensation.",
+          "definitionVi": "Danh từ dùng để chỉ bảng lương, bộ phận trả lương.",
+          "topicId": "top-hr"
+        },
+        {
+          "id": "top-8",
+          "deckId": "topic-business",
+          "word": "probation",
+          "pos": "n",
+          "ipaUK": "/prəˈbeɪ.ʃən/",
+          "ipaUS": "/proʊˈbeɪ.ʃən/",
+          "meaning": "[Nhân sự] thời gian thử việc",
+          "examples": [
+            {
+              "en": "Health benefits begin right after the 60-day probation period.",
+              "vi": "Phúc lợi y tế bắt đầu ngay sau thời gian thử việc 60 ngày."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "probationary",
+              "pos": "adj",
+              "meaning": "thử việc"
+            }
+          ],
+          "synonyms": [
+            "trial period"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "probation period",
+              "meaning": "thời gian thử việc"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to trial period.",
+          "definitionVi": "Danh từ dùng để chỉ thời gian thử việc.",
+          "topicId": "top-hr"
+        }
+      ]
+    },
+    {
+      "id": "top-marketing",
+      "name": "Marketing & Thương hiệu",
+      "icon": "marketing",
+      "words": [
+        {
+          "id": "top-9",
+          "deckId": "topic-business",
+          "word": "demographics",
+          "pos": "n",
+          "ipaUK": "/ˌdem.əˈɡræf.ɪks/",
+          "ipaUS": "/ˌdem.əˈɡræf.ɪks/",
+          "meaning": "[Marketing] dữ liệu nhân khẩu học khách hàng",
+          "examples": [
+            {
+              "en": "Ad spend was tailored to regional buyer demographics.",
+              "vi": "Ngân sách quảng cáo được tinh chỉnh theo nhân khẩu học người mua vùng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "demographic",
+              "pos": "adj",
+              "meaning": "thuộc nhân khẩu học"
+            }
+          ],
+          "synonyms": [
+            "audience profile"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "target demographic",
+              "meaning": "nhóm khách hàng mục tiêu"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to audience profile.",
+          "definitionVi": "Danh từ dùng để chỉ dữ liệu nhân khẩu học khách hàng.",
+          "topicId": "top-marketing"
+        },
+        {
+          "id": "top-10",
+          "deckId": "topic-business",
+          "word": "brand loyalty",
+          "pos": "phrase",
+          "ipaUK": "/brænd ˈlɔɪ.əl.ti/",
+          "ipaUS": "/brænd ˈlɔɪ.əl.t̬i/",
+          "meaning": "[Marketing] lòng trung thành thương hiệu",
+          "examples": [
+            {
+              "en": "Fast warranty replacements build strong brand loyalty.",
+              "vi": "Đổi bảo hành nhanh xây dựng lòng trung thành thương hiệu mạnh mẽ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "loyal",
+              "pos": "adj",
+              "meaning": "trung thành"
+            }
+          ],
+          "synonyms": [
+            "customer retention"
+          ],
+          "antonyms": [
+            "brand switching"
+          ],
+          "collocations": [
+            {
+              "phrase": "foster brand loyalty",
+              "meaning": "nuôi dưỡng lòng trung thành thương hiệu"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'customer retention'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa lòng trung thành thương hiệu.",
+          "topicId": "top-marketing"
+        },
+        {
+          "id": "top-11",
+          "deckId": "topic-business",
+          "word": "campaign",
+          "pos": "n",
+          "ipaUK": "/kæmˈpeɪn/",
+          "ipaUS": "/kæmˈpeɪn/",
+          "meaning": "[Marketing] chiến dịch quảng cáo / truyền thông",
+          "examples": [
+            {
+              "en": "The autumn email campaign tripled webinar registrations.",
+              "vi": "Chiến dịch email mùa thu làm tăng gấp ba lượt đăng ký hội thảo trực tuyến."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "drive",
+            "initiative",
+            "promotion"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "advertising campaign",
+              "meaning": "chiến dịch quảng cáo"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to drive, initiative, promotion.",
+          "definitionVi": "Danh từ dùng để chỉ chiến dịch quảng cáo / truyền thông.",
+          "topicId": "top-marketing"
+        },
+        {
+          "id": "top-12",
+          "deckId": "topic-business",
+          "word": "sponsorship",
+          "pos": "n",
+          "ipaUK": "/ˈspɒn.sə.ʃɪp/",
+          "ipaUS": "/ˈspɑːn.sɚ.ʃɪp/",
+          "meaning": "[Marketing] sự tài trợ thương hiệu",
+          "examples": [
+            {
+              "en": "Corporate sponsorship kept festival tickets free for families.",
+              "vi": "Tài trợ doanh nghiệp giúp vé lễ hội miễn phí cho các gia đình."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "sponsor",
+              "pos": "n",
+              "meaning": "nhà tài trợ"
+            }
+          ],
+          "synonyms": [
+            "backing",
+            "patronage"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "event sponsorship",
+              "meaning": "tài trợ sự kiện"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to backing, patronage.",
+          "definitionVi": "Danh từ dùng để chỉ sự tài trợ thương hiệu.",
+          "topicId": "top-marketing"
+        }
+      ]
+    },
+    {
+      "id": "top-office",
+      "name": "Văn phòng & Công sở",
+      "icon": "office",
+      "words": [
+        {
+          "id": "top-13",
+          "deckId": "topic-business",
+          "word": "stationery",
+          "pos": "n",
+          "ipaUK": "/ˈsteɪ.ʃən.ər.i/",
+          "ipaUS": "/ˈsteɪ.ʃə.ner.i/",
+          "meaning": "[Công sở] văn phòng phẩm (dễ nhầm với stationary = đứng yên)",
+          "examples": [
+            {
+              "en": "Order more company stationery before the trade conference.",
+              "vi": "Đặt thêm văn phòng phẩm in logo công ty trước hội nghị thương mại."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "office supplies"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "company stationery",
+              "meaning": "văn phòng phẩm công ty"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to office supplies.",
+          "definitionVi": "Danh từ dùng để chỉ văn phòng phẩm (dễ nhầm với stationary = đứng yên).",
+          "topicId": "top-office"
+        },
+        {
+          "id": "top-14",
+          "deckId": "topic-business",
+          "word": "ergonomic",
+          "pos": "adj",
+          "ipaUK": "/ˌɜː.ɡəˈnɒm.ɪk/",
+          "ipaUS": "/ˌɝː.ɡəˈnɑː.mɪk/",
+          "meaning": "[Công sở] công thái học (bảo vệ cột sống, cổ tay)",
+          "examples": [
+            {
+              "en": "Ergonomic chairs significantly reduce back fatigue.",
+              "vi": "Ghế công thái học giúp giảm đáng kể mỏi lưng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "ergonomics",
+              "pos": "n",
+              "meaning": "công thái học"
+            }
+          ],
+          "synonyms": [
+            "posture-friendly"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "ergonomic workstation",
+              "meaning": "bàn làm việc công thái học"
+            }
+          ],
+          "definitionEn": "Having the quality of being posture-friendly.",
+          "definitionVi": "Tính từ mô tả đặc điểm công thái học (bảo vệ cột sống, cổ tay).",
+          "topicId": "top-office"
+        },
+        {
+          "id": "top-15",
+          "deckId": "topic-business",
+          "word": "intranet",
+          "pos": "n",
+          "ipaUK": "/ˈɪn.trə.net/",
+          "ipaUS": "/ˈɪn.trə.net/",
+          "meaning": "[Công sở] mạng nội bộ công ty",
+          "examples": [
+            {
+              "en": "Updated leave forms are posted on the company intranet.",
+              "vi": "Biểu mẫu nghỉ phép mới nhất được đăng trên mạng nội bộ công ty."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "internal network",
+            "staff portal"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "company intranet",
+              "meaning": "mạng nội bộ doanh nghiệp"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to internal network, staff portal.",
+          "definitionVi": "Danh từ dùng để chỉ mạng nội bộ công ty.",
+          "topicId": "top-office"
+        },
+        {
+          "id": "top-16",
+          "deckId": "topic-business",
+          "word": "headquarters",
+          "pos": "n",
+          "ipaUK": "/ˌhedˈkwɔː.təz/",
+          "ipaUS": "/ˈhed.kwɔːr.t̬ɚz/",
+          "meaning": "[Công sở] trụ sở chính (luôn có -s)",
+          "examples": [
+            {
+              "en": "Regional managers flew to headquarters for the annual summit.",
+              "vi": "Các giám đốc vùng bay về trụ sở chính dự hội nghị thường niên."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "main office",
+            "head office"
+          ],
+          "antonyms": [
+            "branch"
+          ],
+          "collocations": [
+            {
+              "phrase": "corporate headquarters",
+              "meaning": "trụ sở tập đoàn"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to main office, head office.",
+          "definitionVi": "Danh từ dùng để chỉ trụ sở chính (luôn có -s).",
+          "topicId": "top-office"
+        }
+      ]
+    },
+    {
+      "id": "top-travel",
+      "name": "Du lịch & Công tác",
+      "icon": "travel",
+      "words": [
+        {
+          "id": "top-17",
+          "deckId": "topic-business",
+          "word": "layover",
+          "pos": "n",
+          "ipaUK": "/ˈleɪ.əʊ.vər/",
+          "ipaUS": "/ˈleɪ.oʊ.vɚ/",
+          "meaning": "[Du lịch] thời gian quá cảnh giữa hai chuyến bay",
+          "examples": [
+            {
+              "en": "My itinerary to Zurich includes a two-hour layover in Singapore.",
+              "vi": "Lịch trình đi Zurich của tôi có hai tiếng quá cảnh ở Singapore."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "stopover",
+            "transit"
+          ],
+          "antonyms": [
+            "nonstop flight"
+          ],
+          "collocations": [
+            {
+              "phrase": "overnight layover",
+              "meaning": "quá cảnh qua đêm"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to stopover, transit.",
+          "definitionVi": "Danh từ dùng để chỉ thời gian quá cảnh giữa hai chuyến bay.",
+          "topicId": "top-travel"
+        },
+        {
+          "id": "top-18",
+          "deckId": "topic-business",
+          "word": "boarding pass",
+          "pos": "phrase",
+          "ipaUK": "/ˈbɔː.dɪŋ pɑːs/",
+          "ipaUS": "/ˈbɔːr.dɪŋ pæs/",
+          "meaning": "[Du lịch] thẻ lên máy bay",
+          "examples": [
+            {
+              "en": "Scan your mobile boarding pass at Gate 19.",
+              "vi": "Quét thẻ lên máy bay điện tử của bạn tại Cổng 19."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "board",
+              "pos": "v",
+              "meaning": "lên tàu/máy bay"
+            }
+          ],
+          "synonyms": [
+            "boarding card"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "mobile boarding pass",
+              "meaning": "thẻ lên máy bay điện tử"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'boarding card'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa thẻ lên máy bay.",
+          "topicId": "top-travel"
+        },
+        {
+          "id": "top-19",
+          "deckId": "topic-business",
+          "word": "concierge",
+          "pos": "n",
+          "ipaUK": "/ˌkɒn.siˈeəʒ/",
+          "ipaUS": "/ˌkɑːn.siˈerʒ/",
+          "meaning": "[Du lịch] nhân viên hỗ trợ đặc biệt khách sạn (đặt tour, xe, nhà hàng)",
+          "examples": [
+            {
+              "en": "The hotel concierge booked theater tickets for our clients.",
+              "vi": "Nhân viên concierge khách sạn đã đặt vé nhà hát cho khách hàng của chúng tôi."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "guest services desk"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "concierge service",
+              "meaning": "dịch vụ hỗ trợ khách lưu trú"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to guest services desk.",
+          "definitionVi": "Danh từ dùng để chỉ nhân viên hỗ trợ đặc biệt khách sạn (đặt tour, xe, nhà hàng).",
+          "topicId": "top-travel"
+        },
+        {
+          "id": "top-20",
+          "deckId": "topic-business",
+          "word": "shuttle",
+          "pos": "n",
+          "ipaUK": "/ˈʃʌt.əl/",
+          "ipaUS": "/ˈʃʌt̬.əl/",
+          "meaning": "[Du lịch] xe buýt đưa đón tuyến cố định (sân bay/văn phòng)",
+          "examples": [
+            {
+              "en": "A complimentary shuttle runs every 15 minutes from Terminal 1.",
+              "vi": "Xe đưa đón miễn phí chạy mỗi 15 phút từ Nhà ga 1."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "transfer bus",
+            "commuter van"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "airport shuttle",
+              "meaning": "xe đưa đón sân bay"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to transfer bus, commuter van.",
+          "definitionVi": "Danh từ dùng để chỉ xe buýt đưa đón tuyến cố định (sân bay/văn phòng).",
+          "topicId": "top-travel"
+        }
+      ]
+    }
+  ]
+}

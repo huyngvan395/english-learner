@@ -1,0 +1,254 @@
+{
+  "id": "drill-p5-relative",
+  "part": 5,
+  "title": "Chuyên đề 5: Mệnh đề quan hệ & Rút gọn",
+  "subtitle": "Thành thạo rút gọn V-ing/V3, trạng từ 'where' và 'two of which'.",
+  "focusTag": "Relative Clauses",
+  "part5": [
+    {
+      "id": "dp5-rel-1",
+      "part": 5,
+      "topic": "Mệnh đề quan hệ & Rút gọn",
+      "difficulty": "Cơ bản",
+      "sentence": "The courier service _______ we hired last month has cut our transit times in half.",
+      "options": {
+        "A": "who",
+        "B": "that",
+        "C": "where",
+        "D": "whose"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Đại từ quan hệ chỉ vật/tổ chức làm tân ngữ",
+          "signal": "Tiền ngữ 'courier service' (vật/dịch vụ) + sau chỗ trống là 'we hired' (thiếu tân ngữ cho 'hired')."
+        },
+        "translation": {
+          "questionVi": "Dịch vụ chuyển phát mà chúng ta thuê tháng trước đã giảm một nửa thời gian vận chuyển.",
+          "optionsVi": {
+            "A": "chỉ người",
+            "B": "mà (chỉ vật/người làm tân ngữ)",
+            "C": "nơi mà (trạng từ quan hệ)",
+            "D": "sở hữu (+ danh từ)"
+          }
+        },
+        "proof": {
+          "explanation": "'hired' cần tân ngữ chỉ dịch vụ -> dùng 'that' (hoặc 'which')."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: chỉ dùng cho người.",
+          "B": "Đúng: 'that' làm tân ngữ cho 'hired'.",
+          "C": "Sai: 'where' cần mệnh đề đủ tân ngữ phía sau.",
+          "D": "Sai: cần danh từ ngay sau 'whose'."
+        },
+        "keyTakeaways": {
+          "formula": "Thing + that/which + S + V(thiếu O)",
+          "commonTrap": "Nhầm dùng 'where' cho tổ chức/công ty khi phía sau thiếu tân ngữ.",
+          "paraphrases": [
+            {
+              "textInPassage": "cut in half",
+              "textInAnswer": "reduced by 50 percent",
+              "meaningVi": "giảm đi một nửa"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-rel-2",
+      "part": 5,
+      "topic": "Mệnh đề quan hệ & Rút gọn",
+      "difficulty": "Trung bình",
+      "sentence": "Employees _______ to join the weekend volunteer cleanup should sign the list in the lobby.",
+      "options": {
+        "A": "wish",
+        "B": "wishing",
+        "C": "wished",
+        "D": "wishes"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Rút gọn mệnh đề quan hệ dạng chủ động (V-ing)",
+          "signal": "Câu đã có động từ chính 'should sign' -> rút gọn 'who wish' thành 'wishing'."
+        },
+        "translation": {
+          "questionVi": "Những nhân viên muốn tham gia buổi dọn dẹp tình nguyện cuối tuần nên ký tên vào danh sách ở sảnh.",
+          "optionsVi": {
+            "A": "động từ chia thì (dư V)",
+            "B": "mong muốn (V-ing rút gọn chủ động)",
+            "C": "V-ed bị động (sai thể)",
+            "D": "động từ số ít"
+          }
+        },
+        "proof": {
+          "explanation": "Nhân viên chủ động mong muốn tham gia -> rút gọn mệnh đề quan hệ chủ động bằng V-ing 'wishing'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: câu đã có động từ chính 'should sign'.",
+          "B": "Đúng: Rút gọn chủ động 'who wish' -> 'wishing'.",
+          "C": "Sai thể bị động.",
+          "D": "Sai cấu trúc."
+        },
+        "keyTakeaways": {
+          "formula": "Person + V-ing (rút gọn của who + V chủ động) + V(chính)",
+          "commonTrap": "Quên đọc vế sau 'should sign' nên chọn nhầm động từ chia thì 'wish'.",
+          "paraphrases": [
+            {
+              "textInPassage": "sign the list",
+              "textInAnswer": "register their names",
+              "meaningVi": "ký tên đăng ký"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-rel-3",
+      "part": 5,
+      "topic": "Mệnh đề quan hệ & Rút gọn",
+      "difficulty": "Trung bình",
+      "sentence": "The conference center _______ the annual trade summit will be hosted is five minutes from downtown.",
+      "options": {
+        "A": "which",
+        "B": "where",
+        "C": "who",
+        "D": "what"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Trạng từ quan hệ chỉ nơi chốn 'where'",
+          "signal": "Sau chỗ trống là mệnh đề ĐẦY ĐỦ 'the annual trade summit will be hosted' (không thiếu chủ/tân ngữ)."
+        },
+        "translation": {
+          "questionVi": "Trung tâm hội nghị nơi hội nghị thương mại thường niên sẽ được tổ chức cách trung tâm năm phút.",
+          "optionsVi": {
+            "A": "cái mà (thiếu giới từ in/at)",
+            "B": "nơi mà (= at which)",
+            "C": "chỉ người",
+            "D": "cái gì"
+          }
+        },
+        "proof": {
+          "explanation": "Mệnh đề sau đã đầy đủ chủ ngữ + bị động 'will be hosted' (chỉ thiếu trạng ngữ nơi chốn 'at the center') -> chọn 'where'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai: dùng 'which' thì phải có 'at which' hoặc 'hosted at'.",
+          "B": "Đúng: where = at which + mệnh đề đầy đủ.",
+          "C": "Sai đối tượng.",
+          "D": "Sai: không dùng 'what' sau tiền ngữ danh từ."
+        },
+        "keyTakeaways": {
+          "formula": "Place + where (= in/at which) + S + V (mệnh đề đầy đủ)",
+          "commonTrap": "Cứ thấy vật/địa điểm là chọn 'which' mà không kiểm tra mệnh đề sau có đủ thành phần chưa.",
+          "paraphrases": [
+            {
+              "textInPassage": "five minutes from downtown",
+              "textInAnswer": "close to the city center",
+              "meaningVi": "gần khu trung tâm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-rel-4",
+      "part": 5,
+      "topic": "Mệnh đề quan hệ & Rút gọn",
+      "difficulty": "Nâng cao",
+      "sentence": "Mr. Singh presented three marketing proposals, two of _______ focused on short-form video ads.",
+      "options": {
+        "A": "them",
+        "B": "which",
+        "C": "that",
+        "D": "whom"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Mệnh đề quan hệ với cụm chỉ số lượng (two of which)",
+          "signal": "Giữa hai mệnh đề chỉ có dấu phẩy (không có 'and') -> bắt buộc dùng đại từ quan hệ 'which' thay vì 'them'."
+        },
+        "translation": {
+          "questionVi": "Ông Singh trình bày ba đề xuất marketing, hai trong số đó tập trung vào quảng cáo video ngắn.",
+          "optionsVi": {
+            "A": "chúng (lỗi comma splice)",
+            "B": "trong số đó (đại từ quan hệ chỉ vật)",
+            "C": "không dùng 'that' sau giới từ 'of'",
+            "D": "chỉ người"
+          }
+        },
+        "proof": {
+          "explanation": "Không có liên từ nối hai mệnh đề -> phải dùng đại từ quan hệ sau giới từ 'of': chỉ vật ('proposals') nên chọn 'which'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai lỗi nối hai mệnh đề chỉ bằng dấu phẩy (cần 'and two of them').",
+          "B": "Đúng: quantity + of + which (chỉ vật).",
+          "C": "Sai: giới từ không đi với 'that'.",
+          "D": "Sai: 'whom' chỉ người."
+        },
+        "keyTakeaways": {
+          "formula": "..., some / many / two / all + of + which (vật) / whom (người)",
+          "commonTrap": "Rất hay chọn nhầm 'them' vì nghe xuôi tai nhưng sai ngữ pháp thiếu liên từ nối!",
+          "paraphrases": [
+            {
+              "textInPassage": "focused on",
+              "textInAnswer": "centered around",
+              "meaningVi": "tập trung vào"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp5-rel-5",
+      "part": 5,
+      "topic": "Mệnh đề quan hệ & Rút gọn",
+      "difficulty": "Nâng cao",
+      "sentence": "Any merchandise _______ without an original store receipt can only be exchanged for store credit.",
+      "options": {
+        "A": "returning",
+        "B": "returned",
+        "C": "returns",
+        "D": "to return"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "classification": {
+          "category": "Rút gọn mệnh đề quan hệ bị động với vật",
+          "signal": "Động từ chính của câu là 'can only be exchanged' -> hàng hóa bị trả lại (bị động) dùng V3 'returned'."
+        },
+        "translation": {
+          "questionVi": "Bất kỳ hàng hóa nào được trả lại mà không có hóa đơn gốc của cửa hàng chỉ có thể đổi lấy phiếu mua hàng.",
+          "optionsVi": {
+            "A": "đang trả lại (chủ động)",
+            "B": "được trả lại (bị động V3)",
+            "C": "động từ chia thì",
+            "D": "to V"
+          }
+        },
+        "proof": {
+          "explanation": "Rút gọn của 'which is returned without...' -> 'returned'."
+        },
+        "wrongOptionsAnalysis": {
+          "A": "Sai thể: hàng hóa được khách trả lại.",
+          "B": "Đúng: Rút gọn bị động V3.",
+          "C": "Sai cấu trúc: dư động từ chia thì.",
+          "D": "Sai nghĩa."
+        },
+        "keyTakeaways": {
+          "formula": "N(vật) + V3/ed (rút gọn bị động) + V(chính)",
+          "commonTrap": "Bỏ sót động từ chính 'can only be exchanged' nằm khá xa phía sau.",
+          "paraphrases": [
+            {
+              "textInPassage": "store credit",
+              "textInAnswer": "voucher valid at the same retailer",
+              "meaningVi": "tín dụng/phiếu mua hàng tại cửa hàng"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

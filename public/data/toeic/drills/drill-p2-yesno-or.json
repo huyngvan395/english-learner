@@ -1,0 +1,384 @@
+{
+  "id": "drill-p2-yesno-or",
+  "part": 2,
+  "title": "Yes/No & Câu hỏi lựa chọn (Or)",
+  "subtitle": "Thành thạo đáp án không dùng Yes/No và câu trả lời kết hợp cả hai phương án.",
+  "focusTag": "Yes/No & Or",
+  "part2": [
+    {
+      "id": "dp2-yo-1",
+      "part": 2,
+      "questionType": "Yes/No",
+      "title": "Yes/No — Hỏi phòng họp có sẵn màn hình lớn không",
+      "questionLine": {
+        "id": "dp2-yo-1-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Is there a large display monitor in Meeting Room 3?",
+        "vi": "Trong Phòng họp số 3 có màn hình hiển thị lớn không?",
+        "startMs": 240,
+        "endMs": 3720
+      },
+      "options": {
+        "A": {
+          "en": "Yes, one was mounted on the wall last week.",
+          "vi": "Có, một chiếc vừa được gắn lên tường tuần trước.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4320,
+          "endMs": 8088
+        },
+        "B": {
+          "en": "The meeting starts at three.",
+          "vi": "Cuộc họp bắt đầu lúc ba giờ.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 8688,
+          "endMs": 11568
+        },
+        "C": {
+          "en": "Please monitor the inbox closely.",
+          "vi": "Vui lòng theo dõi hộp thư chặt chẽ.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12168,
+          "endMs": 15312
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy từ đa nghĩa 'monitor' (màn hình vs theo dõi) & số '3'",
+        "trapAnalysis": "(C) dùng 'monitor' với nghĩa động từ 'theo dõi' để gài bẫy.",
+        "paraphrases": [
+          {
+            "audioPhrase": "display monitor",
+            "answerPhrase": "mounted on the wall",
+            "meaningVi": "màn hình gắn tường"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Xác nhận có màn hình mới gắn tường.",
+          "B": "Sai bẫy số '3' -> 'at three'.",
+          "C": "Sai bẫy đồng âm 'monitor'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-yo-1-v1",
+            "word": "mount",
+            "pos": "v",
+            "ipaUK": "/maʊnt/",
+            "ipaUS": "/maʊnt/",
+            "meaning": "gắn cố định lên tường/giá",
+            "exampleEn": "Technicians mounted two flat screens above the reception area.",
+            "exampleVi": "Kỹ thuật viên gắn hai màn hình phẳng phía trên khu lễ tân."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-yo-1.mp3"
+    },
+    {
+      "id": "dp2-yo-2",
+      "part": 2,
+      "questionType": "Câu hỏi lựa chọn (Or)",
+      "title": "Or — Chọn gặp trực tiếp hay họp trực tuyến",
+      "questionLine": {
+        "id": "dp2-yo-2-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Shall we meet in person or hold a video call?",
+        "vi": "Chúng ta nên gặp trực tiếp hay họp qua cuộc gọi video?",
+        "startMs": 240,
+        "endMs": 3528
+      },
+      "options": {
+        "A": {
+          "en": "A video call would save travel time.",
+          "vi": "Cuộc gọi video sẽ tiết kiệm thời gian di chuyển.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 4128,
+          "endMs": 7368
+        },
+        "B": {
+          "en": "Yes, I called him earlier.",
+          "vi": "Vâng, tôi đã gọi anh ấy lúc trước.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 7968,
+          "endMs": 11040
+        },
+        "C": {
+          "en": "He is a very reliable person.",
+          "vi": "Anh ấy là một người rất đáng tin cậy.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "startMs": 11640,
+          "endMs": 14832
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy lặp 'person' và 'Yes' cho câu hỏi Or",
+        "trapAnalysis": "Chọn phương án 2 ('A video call') kèm lý do thuyết phục ('save travel time').",
+        "paraphrases": [
+          {
+            "audioPhrase": "video call",
+            "answerPhrase": "save travel time",
+            "meaningVi": "họp trực tuyến để tiết kiệm thời gian đi lại"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Chọn rõ một trong hai phương án.",
+          "B": "Sai: Không dùng Yes cho câu Or.",
+          "C": "Sai bẫy lặp 'person'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-yo-2-v1",
+            "word": "in person",
+            "pos": "phrase",
+            "ipaUK": "/ɪn ˈpɜːsn/",
+            "ipaUS": "/ɪn ˈpɝːsn/",
+            "meaning": "gặp mặt trực tiếp",
+            "exampleEn": "Finalist candidates will be interviewed in person next week.",
+            "exampleVi": "Các ứng viên vòng cuối sẽ phỏng vấn trực tiếp tuần tới."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-yo-2.mp3"
+    },
+    {
+      "id": "dp2-yo-3",
+      "part": 2,
+      "questionType": "Yes/No",
+      "title": "Yes/No — Hỏi ứng viên đã gửi thư giới thiệu chưa",
+      "questionLine": {
+        "id": "dp2-yo-3-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Has the finalist submitted her references yet?",
+        "vi": "Ứng viên vào vòng chung kết đã nộp danh sách người tham chiếu chưa?",
+        "startMs": 240,
+        "endMs": 3696
+      },
+      "options": {
+        "A": {
+          "en": "Two of them arrived by email this morning.",
+          "vi": "Hai thư trong số đó đã tới qua email sáng nay.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 4296,
+          "endMs": 8208
+        },
+        "B": {
+          "en": "I prefer the blue reference book.",
+          "vi": "Tôi thích cuốn sách tham khảo màu xanh hơn.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 8808,
+          "endMs": 12120
+        },
+        "C": {
+          "en": "The final score was close.",
+          "vi": "Tỷ số chung cuộc rất sát nút.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "startMs": 12720,
+          "endMs": 15912
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy trả lời Yes/No gián tiếp bằng cập nhật tiến độ",
+        "trapAnalysis": "Không dùng 'Yes', nhưng 'Two of them arrived by email this morning' xác nhận rõ ràng đã có thư gửi về.",
+        "paraphrases": [
+          {
+            "audioPhrase": "submitted references",
+            "answerPhrase": "two of them arrived by email",
+            "meaningVi": "hai thư giới thiệu đã gửi về"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Cập nhật trực tiếp số thư tham chiếu đã nhận.",
+          "B": "Sai bẫy gần nghĩa 'reference book'.",
+          "C": "Sai bẫy gần âm 'finalist / final'."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-yo-3-v1",
+            "word": "reference",
+            "pos": "n",
+            "ipaUK": "/ˈrefrəns/",
+            "ipaUS": "/ˈrefrəns/",
+            "meaning": "người/thư giới thiệu tham chiếu",
+            "exampleEn": "Applicants should list at least two professional references.",
+            "exampleVi": "Ứng viên cần liệt kê ít nhất hai người tham chiếu công việc."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-yo-3.mp3"
+    },
+    {
+      "id": "dp2-yo-4",
+      "part": 2,
+      "questionType": "Câu hỏi lựa chọn (Or)",
+      "title": "Or — Chọn màu in tờ rơi",
+      "questionLine": {
+        "id": "dp2-yo-4-q",
+        "speaker": "Speaker A",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Do you want these flyers printed in color or black and white?",
+        "vi": "Bạn muốn in mấy tờ rơi này bản màu hay trắng đen?",
+        "startMs": 240,
+        "endMs": 4272
+      },
+      "options": {
+        "A": {
+          "en": "Full color for the cover, black and white inside.",
+          "vi": "In màu toàn phần trang bìa, bên trong trắng đen.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 4872,
+          "endMs": 8760
+        },
+        "B": {
+          "en": "I flew there last autumn.",
+          "vi": "Tôi đã bay tới đó mùa thu năm ngoái.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 9360,
+          "endMs": 12000
+        },
+        "C": {
+          "en": "Yes, print fifty copies.",
+          "vi": "Vâng, in năm mươi bản đi.",
+          "speaker": "Speaker B",
+          "voiceGender": "female",
+          "accent": "en-US",
+          "startMs": 12600,
+          "endMs": 15768
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy đáp án kết hợp cả 2 lựa chọn trong câu Or",
+        "trapAnalysis": "ETS cực kỳ thích kiểu kết hợp cả hai phương án (màu cho bìa + trắng đen bên trong)!",
+        "paraphrases": [
+          {
+            "audioPhrase": "in color or black and white",
+            "answerPhrase": "full color for the cover",
+            "meaningVi": "kết hợp in màu bìa và trắng đen ruột"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Kết hợp cả hai lựa chọn cực kỳ tự nhiên trong in ấn.",
+          "B": "Sai bẫy gần âm 'flyers / flew'.",
+          "C": "Sai: Dùng Yes cho câu hỏi Or."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-yo-4-v1",
+            "word": "flyer",
+            "pos": "n",
+            "ipaUK": "/ˈflaɪə/",
+            "ipaUS": "/ˈflaɪɚ/",
+            "meaning": "tờ rơi quảng cáo",
+            "exampleEn": "Promotional flyers were handed out near the train station.",
+            "exampleVi": "Tờ rơi khuyến mãi được phát gần ga tàu."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-yo-4.mp3"
+    },
+    {
+      "id": "dp2-yo-5",
+      "part": 2,
+      "questionType": "Yes/No",
+      "title": "Yes/No — Hỏi có cần mang laptop đi hội nghị không",
+      "questionLine": {
+        "id": "dp2-yo-5-q",
+        "speaker": "Speaker A",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Will we need our laptops during the client workshop?",
+        "vi": "Chúng ta có cần mang laptop trong buổi hội thảo khách hàng không?",
+        "startMs": 240,
+        "endMs": 3696
+      },
+      "options": {
+        "A": {
+          "en": "No, tablets will be provided at every table.",
+          "vi": "Không, máy tính bảng sẽ được cung cấp sẵn tại mỗi bàn.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 4296,
+          "endMs": 8160
+        },
+        "B": {
+          "en": "She works at the downtown branch.",
+          "vi": "Cô ấy làm ở chi nhánh trung tâm.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 8760,
+          "endMs": 12024
+        },
+        "C": {
+          "en": "The client arrived ten minutes early.",
+          "vi": "Khách hàng đã tới sớm mười phút.",
+          "speaker": "Speaker B",
+          "voiceGender": "male",
+          "accent": "en-GB",
+          "startMs": 12624,
+          "endMs": 15864
+        }
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "trapType": "Bẫy từ thay thế thiết bị (laptops -> tablets provided)",
+        "trapAnalysis": "Trả lời thẳng 'No' kèm lý do hợp lý là thiết bị thay thế đã được chuẩn bị sẵn.",
+        "paraphrases": [
+          {
+            "audioPhrase": "need laptops",
+            "answerPhrase": "tablets will be provided",
+            "meaningVi": "không cần laptop vì có máy tính bảng sẵn"
+          }
+        ],
+        "optionAnalysis": {
+          "A": "Đúng: Phủ định kèm thông tin đã có máy tính bảng phát sẵn.",
+          "B": "Sai bẫy lặp 'work / workshop'.",
+          "C": "Sai: Không trả lời câu hỏi về laptop."
+        },
+        "keyVocab": [
+          {
+            "id": "dp2-yo-5-v1",
+            "word": "provide",
+            "pos": "v",
+            "ipaUK": "/prəˈvaɪd/",
+            "ipaUS": "/prəˈvaɪd/",
+            "meaning": "cung cấp, trang bị",
+            "exampleEn": "Lunch and printed handbooks will be provided to participants.",
+            "exampleVi": "Bữa trưa và sổ tay in sẵn sẽ được cung cấp cho người tham dự."
+          }
+        ]
+      },
+      "audioUrl": "/audio/toeic/dp2-yo-5.mp3"
+    }
+  ]
+}

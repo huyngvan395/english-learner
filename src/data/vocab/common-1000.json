@@ -1,0 +1,2302 @@
+{
+  "id": "common-1000",
+  "title": "1000 Từ Tiếng Anh Thông Dụng",
+  "subtitle": "Nền tảng vững chắc cho người mới bắt đầu, bao quát từ vựng xuất hiện hàng ngày.",
+  "category": "common",
+  "levelLabel": "A1 – A2",
+  "tags": [
+    "#a1",
+    "#a2",
+    "#common"
+  ],
+  "coverTheme": "common-1000",
+  "accentGradient": "from-emerald-500 via-teal-500 to-cyan-600",
+  "badgeText": "NỀN TẢNG",
+  "words": [
+    {
+      "id": "c1000-1",
+      "deckId": "common-1000",
+      "word": "achieve",
+      "pos": "v",
+      "ipaUK": "/əˈtʃiːv/",
+      "ipaUS": "/əˈtʃiːv/",
+      "meaning": "đạt được, hoàn thành (mục tiêu)",
+      "examples": [
+        {
+          "en": "Consistent daily study helps you achieve a 900+ TOEIC score.",
+          "vi": "Học đều mỗi ngày giúp bạn đạt điểm TOEIC trên 900."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "achievement",
+          "pos": "n",
+          "meaning": "thành tựu"
+        }
+      ],
+      "synonyms": [
+        "accomplish",
+        "attain",
+        "reach",
+        "complete",
+        "effect"
+      ],
+      "antonyms": [
+        "fail"
+      ],
+      "collocations": [
+        {
+          "phrase": "achieve a goal",
+          "meaning": "đạt mục tiêu"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/achieve-us.mp3",
+      "definitionEn": "To accomplish (also similar to attain, reach) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đạt được, hoàn thành (mục tiêu).",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-2",
+      "deckId": "common-1000",
+      "word": "available",
+      "pos": "adj",
+      "ipaUK": "/əˈveɪ.lə.bəl/",
+      "ipaUS": "/əˈveɪləb(ə)l/",
+      "meaning": "có sẵn, rảnh rỗi",
+      "examples": [
+        {
+          "en": "Are you available for a quick sync at 3 P.M.?",
+          "vi": "Bạn có rảnh để trao đổi nhanh lúc 3 giờ chiều không?"
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "availability",
+          "pos": "n",
+          "meaning": "tình trạng có sẵn"
+        }
+      ],
+      "synonyms": [
+        "accessible",
+        "free",
+        "effectual",
+        "valid",
+        "advantageous"
+      ],
+      "antonyms": [
+        "unavailable",
+        "busy"
+      ],
+      "collocations": [
+        {
+          "phrase": "readily available",
+          "meaning": "luôn có sẵn"
+        }
+      ],
+      "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/available-us.mp3",
+      "definitionEn": "Having the quality of being accessible, free, effectual.",
+      "definitionVi": "Tính từ mô tả đặc điểm có sẵn, rảnh rỗi.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-3",
+      "deckId": "common-1000",
+      "word": "schedule",
+      "pos": "n",
+      "ipaUK": "/ˈʃed.juːl/",
+      "ipaUS": "/ˈskedʒ.uːl/",
+      "meaning": "lịch trình, thời khóa biểu",
+      "examples": [
+        {
+          "en": "The airport express departed right on schedule.",
+          "vi": "Tàu tốc hành sân bay khởi hành đúng lịch trình."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "reschedule",
+          "pos": "v",
+          "meaning": "đổi lịch"
+        }
+      ],
+      "synonyms": [
+        "timetable",
+        "plan",
+        "agenda"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "on schedule",
+          "meaning": "đúng tiến độ"
+        },
+        {
+          "phrase": "tight schedule",
+          "meaning": "lịch trình dày đặc"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to timetable, plan, agenda.",
+      "definitionVi": "Danh từ dùng để chỉ lịch trình, thời khóa biểu.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-4",
+      "deckId": "common-1000",
+      "word": "convenient",
+      "pos": "adj",
+      "ipaUK": "/kənˈviː.ni.ənt/",
+      "ipaUS": "/kənˈviː.ni.ənt/",
+      "meaning": "thuận tiện, tiện lợi",
+      "examples": [
+        {
+          "en": "The clinic sits in a convenient location near the bus terminal.",
+          "vi": "Phòng khám nằm ở vị trí thuận tiện gần bến xe buýt."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "convenience",
+          "pos": "n",
+          "meaning": "sự tiện lợi"
+        }
+      ],
+      "synonyms": [
+        "handy",
+        "suitable"
+      ],
+      "antonyms": [
+        "inconvenient"
+      ],
+      "collocations": [
+        {
+          "phrase": "conveniently located",
+          "meaning": "vị trí thuận tiện"
+        }
+      ],
+      "definitionEn": "Having the quality of being handy, suitable.",
+      "definitionVi": "Tính từ mô tả đặc điểm thuận tiện, tiện lợi.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-5",
+      "deckId": "common-1000",
+      "word": "deliver",
+      "pos": "v",
+      "ipaUK": "/dɪˈlɪv.ər/",
+      "ipaUS": "/dɪˈlɪv.ɚ/",
+      "meaning": "giao hàng; trình bày (bài nói)",
+      "examples": [
+        {
+          "en": "The courier will deliver the signed contract to reception before noon.",
+          "vi": "Nhân viên chuyển phát sẽ giao hợp đồng đã ký tới quầy lễ tân trước trưa."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "delivery",
+          "pos": "n",
+          "meaning": "việc giao hàng"
+        }
+      ],
+      "synonyms": [
+        "dispatch",
+        "transport",
+        "present"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "deliver a speech",
+          "meaning": "đọc bài phát biểu"
+        }
+      ],
+      "definitionEn": "To dispatch (also similar to transport, present) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động giao hàng; trình bày (bài nói).",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-6",
+      "deckId": "common-1000",
+      "word": "improve",
+      "pos": "v",
+      "ipaUK": "/ɪmˈpruːv/",
+      "ipaUS": "/ɪmˈpruːv/",
+      "meaning": "cải thiện, nâng cao",
+      "examples": [
+        {
+          "en": "Clear checklists improve team accuracy on tight projects.",
+          "vi": "Danh sách kiểm tra rõ ràng nâng cao độ chính xác của nhóm trong các dự án gấp."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "improvement",
+          "pos": "n",
+          "meaning": "sự cải thiện"
+        }
+      ],
+      "synonyms": [
+        "enhance",
+        "upgrade",
+        "boost"
+      ],
+      "antonyms": [
+        "worsen"
+      ],
+      "collocations": [
+        {
+          "phrase": "room for improvement",
+          "meaning": "chỗ còn cải thiện được"
+        }
+      ],
+      "definitionEn": "To enhance (also similar to upgrade, boost) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cải thiện, nâng cao.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-7",
+      "deckId": "common-1000",
+      "word": "prepare",
+      "pos": "v",
+      "ipaUK": "/prɪˈpeər/",
+      "ipaUS": "/prɪˈper/",
+      "meaning": "chuẩn bị",
+      "examples": [
+        {
+          "en": "Please prepare the quarterly summary slides before noon.",
+          "vi": "Vui lòng chuẩn bị slide tóm tắt quý trước buổi trưa."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "preparation",
+          "pos": "n",
+          "meaning": "sự chuẩn bị"
+        }
+      ],
+      "synonyms": [
+        "arrange",
+        "get ready"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "in preparation for",
+          "meaning": "để chuẩn bị cho"
+        }
+      ],
+      "definitionEn": "To arrange (also similar to get ready) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động chuẩn bị.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-8",
+      "deckId": "common-1000",
+      "word": "suggest",
+      "pos": "v",
+      "ipaUK": "/səˈdʒest/",
+      "ipaUS": "/səɡˈdʒest/",
+      "meaning": "đề xuất, gợi ý",
+      "examples": [
+        {
+          "en": "I suggest postponing the picnic until the rain clears.",
+          "vi": "Tôi đề xuất hoãn buổi dã ngoại cho đến khi tạnh mưa."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "suggestion",
+          "pos": "n",
+          "meaning": "gợi ý"
+        }
+      ],
+      "synonyms": [
+        "propose",
+        "recommend"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "make a suggestion",
+          "meaning": "đưa ra gợi ý"
+        }
+      ],
+      "definitionEn": "To propose (also similar to recommend) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đề xuất, gợi ý.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-9",
+      "deckId": "common-1000",
+      "word": "receive",
+      "pos": "v",
+      "ipaUK": "/rɪˈsiːv/",
+      "ipaUS": "/rɪˈsiːv/",
+      "meaning": "nhận được",
+      "examples": [
+        {
+          "en": "Did you receive the revised quote I sent earlier?",
+          "vi": "Bạn đã nhận được báo giá sửa đổi tôi gửi lúc trước chưa?"
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "receipt",
+          "pos": "n",
+          "meaning": "biên lai"
+        },
+        {
+          "word": "recipient",
+          "pos": "n",
+          "meaning": "người nhận"
+        }
+      ],
+      "synonyms": [
+        "obtain",
+        "get"
+      ],
+      "antonyms": [
+        "send"
+      ],
+      "collocations": [
+        {
+          "phrase": "upon receipt of",
+          "meaning": "ngay khi nhận được"
+        }
+      ],
+      "definitionEn": "To obtain (also similar to get) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động nhận được.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-10",
+      "deckId": "common-1000",
+      "word": "provide",
+      "pos": "v",
+      "ipaUK": "/prəˈvaɪd/",
+      "ipaUS": "/prəˈvaɪd/",
+      "meaning": "cung cấp",
+      "examples": [
+        {
+          "en": "Our academy aims to provide learners with practical templates.",
+          "vi": "Học viện của chúng tôi hướng đến việc cung cấp cho học viên các mẫu biểu thực tế."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "provider",
+          "pos": "n",
+          "meaning": "nhà cung cấp"
+        }
+      ],
+      "synonyms": [
+        "supply",
+        "offer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "provide sb with sth",
+          "meaning": "cung cấp cho ai cái gì"
+        }
+      ],
+      "definitionEn": "To supply (also similar to offer) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cung cấp.",
+      "topicId": "c1000-daily"
+    },
+    {
+      "id": "c1000-11",
+      "deckId": "common-1000",
+      "word": "announce",
+      "pos": "v",
+      "ipaUK": "/əˈnaʊns/",
+      "ipaUS": "/əˈnaʊns/",
+      "meaning": "thông báo chính thức",
+      "examples": [
+        {
+          "en": "The mayor will announce a new downtown bike-share network tomorrow.",
+          "vi": "Thị trưởng sẽ công bố mạng lưới xe đạp công cộng mới ở trung tâm vào ngày mai."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "announcement",
+          "pos": "n",
+          "meaning": "thông báo"
+        }
+      ],
+      "synonyms": [
+        "declare",
+        "proclaim",
+        "abjudicate",
+        "judge",
+        "herald"
+      ],
+      "antonyms": [
+        "conceal"
+      ],
+      "collocations": [
+        {
+          "phrase": "make an announcement",
+          "meaning": "đưa ra thông báo"
+        }
+      ],
+      "definitionEn": "To declare (also similar to proclaim, abjudicate) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động thông báo chính thức.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-12",
+      "deckId": "common-1000",
+      "word": "purchase",
+      "pos": "v",
+      "ipaUK": "/ˈpɜː.tʃəs/",
+      "ipaUS": "/ˈpɝː.tʃəs/",
+      "meaning": "mua sắm (trang trọng); n: món hàng mua",
+      "examples": [
+        {
+          "en": "Customers who purchase two books receive a canvas tote.",
+          "vi": "Khách mua hai cuốn sách sẽ được tặng một túi vải canvas."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "buy",
+        "acquire"
+      ],
+      "antonyms": [
+        "sell"
+      ],
+      "collocations": [
+        {
+          "phrase": "proof of purchase",
+          "meaning": "hóa đơn chứng minh mua hàng"
+        }
+      ],
+      "definitionEn": "To buy (also similar to acquire) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động mua sắm (trang trọng); n: món hàng mua.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-13",
+      "deckId": "common-1000",
+      "word": "refund",
+      "pos": "n",
+      "ipaUK": "/ˈriː.fʌnd/",
+      "ipaUS": "/ˈriː.fʌnd/",
+      "meaning": "khoản tiền hoàn lại; v: hoàn tiền",
+      "examples": [
+        {
+          "en": "Unopened electronics qualify for a full refund within 14 days.",
+          "vi": "Đồ điện tử chưa mở hộp đủ điều kiện hoàn tiền 100% trong 14 ngày."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "refundable",
+          "pos": "adj",
+          "meaning": "có thể hoàn tiền"
+        }
+      ],
+      "synonyms": [
+        "reimbursement",
+        "repayment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "full refund",
+          "meaning": "hoàn tiền toàn bộ"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to reimbursement, repayment.",
+      "definitionVi": "Danh từ dùng để chỉ khoản tiền hoàn lại; v: hoàn tiền.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-14",
+      "deckId": "common-1000",
+      "word": "receipt",
+      "pos": "n",
+      "ipaUK": "/rɪˈsiːt/",
+      "ipaUS": "/rɪˈsiːt/",
+      "meaning": "biên lai, hóa đơn mua hàng (chữ p câm)",
+      "examples": [
+        {
+          "en": "Keep your receipt to claim warranty repairs.",
+          "vi": "Giữ lại biên lai để yêu cầu sửa chữa bảo hành."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "receive",
+          "pos": "v",
+          "meaning": "nhận"
+        }
+      ],
+      "synonyms": [
+        "sales slip",
+        "proof of purchase"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "itemized receipt",
+          "meaning": "hóa đơn ghi chi tiết từng món"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to sales slip, proof of purchase.",
+      "definitionVi": "Danh từ dùng để chỉ biên lai, hóa đơn mua hàng (chữ p câm).",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-15",
+      "deckId": "common-1000",
+      "word": "discount",
+      "pos": "n",
+      "ipaUK": "/ˈdɪs.kaʊnt/",
+      "ipaUS": "/ˈdɪs.kaʊnt/",
+      "meaning": "mức giảm giá, chiết khấu",
+      "examples": [
+        {
+          "en": "Students enjoy a 15% discount with a valid ID card.",
+          "vi": "Sinh viên được giảm giá 15% khi xuất trình thẻ hợp lệ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "discounted",
+          "pos": "adj",
+          "meaning": "được giảm giá"
+        }
+      ],
+      "synonyms": [
+        "reduction",
+        "markdown"
+      ],
+      "antonyms": [
+        "surcharge"
+      ],
+      "collocations": [
+        {
+          "phrase": "bulk discount",
+          "meaning": "chiết khấu mua số lượng lớn"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to reduction, markdown.",
+      "definitionVi": "Danh từ dùng để chỉ mức giảm giá, chiết khấu.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-16",
+      "deckId": "common-1000",
+      "word": "exchange",
+      "pos": "v",
+      "ipaUK": "/ɪksˈtʃeɪndʒ/",
+      "ipaUS": "/ɪksˈtʃeɪndʒ/",
+      "meaning": "đổi hàng; trao đổi",
+      "examples": [
+        {
+          "en": "You may exchange unworn shoes for another size free of charge.",
+          "vi": "Bạn có thể đổi giày chưa đi sang cỡ khác hoàn toàn miễn phí."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "swap",
+        "trade",
+        "replace"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "exchange rate",
+          "meaning": "tỷ giá hối đoái"
+        }
+      ],
+      "definitionEn": "To swap (also similar to trade, replace) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đổi hàng; trao đổi.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-17",
+      "deckId": "common-1000",
+      "word": "reserve",
+      "pos": "v",
+      "ipaUK": "/rɪˈzɜːv/",
+      "ipaUS": "/rɪˈzɝːv/",
+      "meaning": "đặt chỗ trước; để dành",
+      "examples": [
+        {
+          "en": "Please reserve Conference Room B through the intranet.",
+          "vi": "Vui lòng đặt Phòng họp B qua mạng nội bộ."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "reservation",
+          "pos": "n",
+          "meaning": "việc đặt chỗ"
+        }
+      ],
+      "synonyms": [
+        "book",
+        "set aside"
+      ],
+      "antonyms": [
+        "cancel"
+      ],
+      "collocations": [
+        {
+          "phrase": "make a reservation",
+          "meaning": "đặt chỗ trước"
+        }
+      ],
+      "definitionEn": "To book (also similar to set aside) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động đặt chỗ trước; để dành.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-18",
+      "deckId": "common-1000",
+      "word": "repair",
+      "pos": "v",
+      "ipaUK": "/rɪˈpeər/",
+      "ipaUS": "/rɪˈper/",
+      "meaning": "sửa chữa, khắc phục",
+      "examples": [
+        {
+          "en": "Technicians will repair the air conditioner before the store opens.",
+          "vi": "Kỹ thuật viên sẽ sửa máy điều hòa trước khi cửa hàng mở cửa."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "fix",
+        "mend",
+        "restore"
+      ],
+      "antonyms": [
+        "damage"
+      ],
+      "collocations": [
+        {
+          "phrase": "under repair",
+          "meaning": "đang được sửa chữa"
+        }
+      ],
+      "definitionEn": "To fix (also similar to mend, restore) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động sửa chữa, khắc phục.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-19",
+      "deckId": "common-1000",
+      "word": "replace",
+      "pos": "v",
+      "ipaUK": "/rɪˈpleɪs/",
+      "ipaUS": "/rɪˈpleɪs/",
+      "meaning": "thay thế",
+      "examples": [
+        {
+          "en": "We plan to replace fluorescent tubes with energy-saving LED bulbs.",
+          "vi": "Chúng tôi dự định thay bóng huỳnh quang bằng bóng LED tiết kiệm điện."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "replacement",
+          "pos": "n",
+          "meaning": "vật/người thay thế"
+        }
+      ],
+      "synonyms": [
+        "substitute",
+        "swap"
+      ],
+      "antonyms": [
+        "retain"
+      ],
+      "collocations": [
+        {
+          "phrase": "replacement part",
+          "meaning": "linh kiện thay thế"
+        }
+      ],
+      "definitionEn": "To substitute (also similar to swap) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động thay thế.",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-20",
+      "deckId": "common-1000",
+      "word": "extend",
+      "pos": "v",
+      "ipaUK": "/ɪkˈstend/",
+      "ipaUS": "/ɪkˈstend/",
+      "meaning": "gia hạn, kéo dài (thời gian, giờ mở cửa)",
+      "examples": [
+        {
+          "en": "The museum decided to extend Friday hours until 9:00 P.M.",
+          "vi": "Bảo tàng quyết định kéo dài giờ mở cửa thứ Sáu đến 9:00 tối."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "extension",
+          "pos": "n",
+          "meaning": "sự gia hạn; số máy lẻ"
+        }
+      ],
+      "synonyms": [
+        "prolong",
+        "lengthen",
+        "expand"
+      ],
+      "antonyms": [
+        "shorten"
+      ],
+      "collocations": [
+        {
+          "phrase": "extend a deadline",
+          "meaning": "gia hạn thời hạn chót"
+        }
+      ],
+      "definitionEn": "To prolong (also similar to lengthen, expand) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động gia hạn, kéo dài (thời gian, giờ mở cửa).",
+      "topicId": "c1000-shopping"
+    },
+    {
+      "id": "c1000-21",
+      "deckId": "common-1000",
+      "word": "collect",
+      "pos": "v",
+      "ipaUK": "/kəˈlekt/",
+      "ipaUS": "/kəˈlekt/",
+      "meaning": "thu thập, lấy (hành lý, bưu kiện)",
+      "examples": [
+        {
+          "en": "Visitors may collect their badges at the main entrance.",
+          "vi": "Khách tham quan có thể nhận thẻ tại cổng chính."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "collection",
+          "pos": "n",
+          "meaning": "bộ sưu tập"
+        }
+      ],
+      "synonyms": [
+        "gather",
+        "pick up"
+      ],
+      "antonyms": [
+        "distribute"
+      ],
+      "collocations": [
+        {
+          "phrase": "collect feedback",
+          "meaning": "thu thập phản hồi"
+        }
+      ],
+      "definitionEn": "To gather (also similar to pick up) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động thu thập, lấy (hành lý, bưu kiện).",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-22",
+      "deckId": "common-1000",
+      "word": "complete",
+      "pos": "v",
+      "ipaUK": "/kəmˈpliːt/",
+      "ipaUS": "/kəmˈpliːt/",
+      "meaning": "hoàn thành, điền đầy đủ (mẫu đơn)",
+      "examples": [
+        {
+          "en": "Please complete this short survey to enter the prize draw.",
+          "vi": "Vui lòng điền xong khảo sát ngắn này để tham gia rút thăm trúng thưởng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "completion",
+          "pos": "n",
+          "meaning": "sự hoàn tất"
+        }
+      ],
+      "synonyms": [
+        "finish",
+        "fill out"
+      ],
+      "antonyms": [
+        "abandon"
+      ],
+      "collocations": [
+        {
+          "phrase": "upon completion",
+          "meaning": "ngay khi hoàn thành"
+        }
+      ],
+      "definitionEn": "To finish (also similar to fill out) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hoàn thành, điền đầy đủ (mẫu đơn).",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-23",
+      "deckId": "common-1000",
+      "word": "invite",
+      "pos": "v",
+      "ipaUK": "/ɪnˈvaɪt/",
+      "ipaUS": "/ɪnˈvaɪt/",
+      "meaning": "mời (tham dự sự kiện)",
+      "examples": [
+        {
+          "en": "We warmly invite local business owners to our grand opening.",
+          "vi": "Chúng tôi nồng nhiệt mời các chủ doanh nghiệp địa phương tới lễ khai trương."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "invitation",
+          "pos": "n",
+          "meaning": "thiệp mời, lời mời"
+        }
+      ],
+      "synonyms": [
+        "ask",
+        "welcome"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "by invitation only",
+          "meaning": "chỉ dành cho khách có thiệp mời"
+        }
+      ],
+      "definitionEn": "To ask (also similar to welcome) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động mời (tham dự sự kiện).",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-24",
+      "deckId": "common-1000",
+      "word": "explain",
+      "pos": "v",
+      "ipaUK": "/ɪkˈspleɪn/",
+      "ipaUS": "/ɪkˈspleɪn/",
+      "meaning": "giải thích",
+      "examples": [
+        {
+          "en": "The guide will explain how the solar water heater operates.",
+          "vi": "Hướng dẫn viên sẽ giải thích cách máy nước nóng năng lượng mặt trời hoạt động."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "explanation",
+          "pos": "n",
+          "meaning": "lời giải thích"
+        }
+      ],
+      "synonyms": [
+        "clarify",
+        "describe"
+      ],
+      "antonyms": [
+        "confuse"
+      ],
+      "collocations": [
+        {
+          "phrase": "detailed explanation",
+          "meaning": "giải thích chi tiết"
+        }
+      ],
+      "definitionEn": "To clarify (also similar to describe) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động giải thích.",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-25",
+      "deckId": "common-1000",
+      "word": "check in",
+      "pos": "phrase",
+      "ipaUK": "/tʃek ɪn/",
+      "ipaUS": "/tʃek ɪn/",
+      "meaning": "làm thủ tục nhận phòng / lên máy bay",
+      "examples": [
+        {
+          "en": "Guests may check in online 24 hours before arrival.",
+          "vi": "Khách có thể làm thủ tục trực tuyến 24 giờ trước khi đến."
+        }
+      ],
+      "wordFamily": [],
+      "synonyms": [
+        "register"
+      ],
+      "antonyms": [
+        "check out"
+      ],
+      "collocations": [
+        {
+          "phrase": "check-in counter",
+          "meaning": "quầy làm thủ tục"
+        }
+      ],
+      "definitionEn": "A common English expression meaning 'register'.",
+      "definitionVi": "Cụm từ cố định mang nghĩa làm thủ tục nhận phòng / lên máy bay.",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-26",
+      "deckId": "common-1000",
+      "word": "cancel",
+      "pos": "v",
+      "ipaUK": "/ˈkæn.səl/",
+      "ipaUS": "/ˈkæn.səl/",
+      "meaning": "hủy bỏ",
+      "examples": [
+        {
+          "en": "Bad weather forced the ferry operator to cancel the 8 A.M. crossing.",
+          "vi": "Thời tiết xấu buộc nhà điều hành phà phải hủy chuyến lúc 8 giờ sáng."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "cancellation",
+          "pos": "n",
+          "meaning": "sự hủy bỏ"
+        }
+      ],
+      "synonyms": [
+        "call off",
+        "revoke"
+      ],
+      "antonyms": [
+        "confirm"
+      ],
+      "collocations": [
+        {
+          "phrase": "cancel an order",
+          "meaning": "hủy đơn hàng"
+        }
+      ],
+      "definitionEn": "To call off (also similar to revoke) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động hủy bỏ.",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-27",
+      "deckId": "common-1000",
+      "word": "reduce",
+      "pos": "v",
+      "ipaUK": "/rɪˈdʒuːs/",
+      "ipaUS": "/rɪˈduːs/",
+      "meaning": "cắt giảm, giảm bớt",
+      "examples": [
+        {
+          "en": "Carpooling helps reduce daily commuting costs.",
+          "vi": "Đi chung xe giúp giảm chi phí đi làm hàng ngày."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "reduction",
+          "pos": "n",
+          "meaning": "sự cắt giảm"
+        }
+      ],
+      "synonyms": [
+        "decrease",
+        "lower",
+        "cut"
+      ],
+      "antonyms": [
+        "increase"
+      ],
+      "collocations": [
+        {
+          "phrase": "reduce waste",
+          "meaning": "giảm rác thải"
+        }
+      ],
+      "definitionEn": "To decrease (also similar to lower, cut) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động cắt giảm, giảm bớt.",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-28",
+      "deckId": "common-1000",
+      "word": "increase",
+      "pos": "v",
+      "ipaUK": "/ɪnˈkriːs/",
+      "ipaUS": "/ɪnˈkriːs/",
+      "meaning": "gia tăng, tăng lên",
+      "examples": [
+        {
+          "en": "Weekend promotions should increase foot traffic by 25%.",
+          "vi": "Khuyến mãi cuối tuần sẽ giúp tăng lượng khách ghé cửa hàng thêm 25%."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "increasingly",
+          "pos": "adv",
+          "meaning": "ngày càng"
+        }
+      ],
+      "synonyms": [
+        "rise",
+        "boost",
+        "grow"
+      ],
+      "antonyms": [
+        "decrease"
+      ],
+      "collocations": [
+        {
+          "phrase": "sharp increase",
+          "meaning": "tăng mạnh"
+        }
+      ],
+      "definitionEn": "To rise (also similar to boost, grow) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động gia tăng, tăng lên.",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-29",
+      "deckId": "common-1000",
+      "word": "manage",
+      "pos": "v",
+      "ipaUK": "/ˈmæn.ɪdʒ/",
+      "ipaUS": "/ˈmæn.ədʒ/",
+      "meaning": "quản lý; xoay xở làm được",
+      "examples": [
+        {
+          "en": "She can easily manage a remote support team of twenty people.",
+          "vi": "Cô ấy có thể dễ dàng quản lý đội hỗ trợ từ xa gồm hai mươi người."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "management",
+          "pos": "n",
+          "meaning": "ban quản lý"
+        },
+        {
+          "word": "manager",
+          "pos": "n",
+          "meaning": "người quản lý"
+        }
+      ],
+      "synonyms": [
+        "oversee",
+        "direct",
+        "run"
+      ],
+      "antonyms": [],
+      "collocations": [
+        {
+          "phrase": "time management",
+          "meaning": "quản lý thời gian"
+        }
+      ],
+      "definitionEn": "To oversee (also similar to direct, run) in professional or everyday situations.",
+      "definitionVi": "Động từ diễn tả hành động quản lý; xoay xở làm được.",
+      "topicId": "c1000-service"
+    },
+    {
+      "id": "c1000-30",
+      "deckId": "common-1000",
+      "word": "support",
+      "pos": "n",
+      "ipaUK": "/səˈpɔːt/",
+      "ipaUS": "/səˈpɔːrt/",
+      "meaning": "sự hỗ trợ; v: ủng hộ, hỗ trợ",
+      "examples": [
+        {
+          "en": "Our technical support line stays open seven days a week.",
+          "vi": "Đường dây hỗ trợ kỹ thuật của chúng tôi mở cửa bảy ngày một tuần."
+        }
+      ],
+      "wordFamily": [
+        {
+          "word": "supportive",
+          "pos": "adj",
+          "meaning": "nhiệt tình ủng hộ"
+        }
+      ],
+      "synonyms": [
+        "assistance",
+        "backing",
+        "help"
+      ],
+      "antonyms": [
+        "oppose"
+      ],
+      "collocations": [
+        {
+          "phrase": "customer support",
+          "meaning": "hỗ trợ khách hàng"
+        }
+      ],
+      "definitionEn": "A concept, item, or formal term closely related to assistance, backing, help.",
+      "definitionVi": "Danh từ dùng để chỉ sự hỗ trợ; v: ủng hộ, hỗ trợ.",
+      "topicId": "c1000-service"
+    }
+  ],
+  "topics": [
+    {
+      "id": "c1000-daily",
+      "name": "Công việc & Lịch trình hàng ngày",
+      "icon": "office",
+      "words": [
+        {
+          "id": "c1000-1",
+          "deckId": "common-1000",
+          "word": "achieve",
+          "pos": "v",
+          "ipaUK": "/əˈtʃiːv/",
+          "ipaUS": "/əˈtʃiːv/",
+          "meaning": "đạt được, hoàn thành (mục tiêu)",
+          "examples": [
+            {
+              "en": "Consistent daily study helps you achieve a 900+ TOEIC score.",
+              "vi": "Học đều mỗi ngày giúp bạn đạt điểm TOEIC trên 900."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "achievement",
+              "pos": "n",
+              "meaning": "thành tựu"
+            }
+          ],
+          "synonyms": [
+            "accomplish",
+            "attain",
+            "reach",
+            "complete",
+            "effect"
+          ],
+          "antonyms": [
+            "fail"
+          ],
+          "collocations": [
+            {
+              "phrase": "achieve a goal",
+              "meaning": "đạt mục tiêu"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/achieve-us.mp3",
+          "definitionEn": "To accomplish (also similar to attain, reach) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đạt được, hoàn thành (mục tiêu).",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-2",
+          "deckId": "common-1000",
+          "word": "available",
+          "pos": "adj",
+          "ipaUK": "/əˈveɪ.lə.bəl/",
+          "ipaUS": "/əˈveɪləb(ə)l/",
+          "meaning": "có sẵn, rảnh rỗi",
+          "examples": [
+            {
+              "en": "Are you available for a quick sync at 3 P.M.?",
+              "vi": "Bạn có rảnh để trao đổi nhanh lúc 3 giờ chiều không?"
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "availability",
+              "pos": "n",
+              "meaning": "tình trạng có sẵn"
+            }
+          ],
+          "synonyms": [
+            "accessible",
+            "free",
+            "effectual",
+            "valid",
+            "advantageous"
+          ],
+          "antonyms": [
+            "unavailable",
+            "busy"
+          ],
+          "collocations": [
+            {
+              "phrase": "readily available",
+              "meaning": "luôn có sẵn"
+            }
+          ],
+          "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/available-us.mp3",
+          "definitionEn": "Having the quality of being accessible, free, effectual.",
+          "definitionVi": "Tính từ mô tả đặc điểm có sẵn, rảnh rỗi.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-3",
+          "deckId": "common-1000",
+          "word": "schedule",
+          "pos": "n",
+          "ipaUK": "/ˈʃed.juːl/",
+          "ipaUS": "/ˈskedʒ.uːl/",
+          "meaning": "lịch trình, thời khóa biểu",
+          "examples": [
+            {
+              "en": "The airport express departed right on schedule.",
+              "vi": "Tàu tốc hành sân bay khởi hành đúng lịch trình."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "reschedule",
+              "pos": "v",
+              "meaning": "đổi lịch"
+            }
+          ],
+          "synonyms": [
+            "timetable",
+            "plan",
+            "agenda"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "on schedule",
+              "meaning": "đúng tiến độ"
+            },
+            {
+              "phrase": "tight schedule",
+              "meaning": "lịch trình dày đặc"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to timetable, plan, agenda.",
+          "definitionVi": "Danh từ dùng để chỉ lịch trình, thời khóa biểu.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-4",
+          "deckId": "common-1000",
+          "word": "convenient",
+          "pos": "adj",
+          "ipaUK": "/kənˈviː.ni.ənt/",
+          "ipaUS": "/kənˈviː.ni.ənt/",
+          "meaning": "thuận tiện, tiện lợi",
+          "examples": [
+            {
+              "en": "The clinic sits in a convenient location near the bus terminal.",
+              "vi": "Phòng khám nằm ở vị trí thuận tiện gần bến xe buýt."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "convenience",
+              "pos": "n",
+              "meaning": "sự tiện lợi"
+            }
+          ],
+          "synonyms": [
+            "handy",
+            "suitable"
+          ],
+          "antonyms": [
+            "inconvenient"
+          ],
+          "collocations": [
+            {
+              "phrase": "conveniently located",
+              "meaning": "vị trí thuận tiện"
+            }
+          ],
+          "definitionEn": "Having the quality of being handy, suitable.",
+          "definitionVi": "Tính từ mô tả đặc điểm thuận tiện, tiện lợi.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-5",
+          "deckId": "common-1000",
+          "word": "deliver",
+          "pos": "v",
+          "ipaUK": "/dɪˈlɪv.ər/",
+          "ipaUS": "/dɪˈlɪv.ɚ/",
+          "meaning": "giao hàng; trình bày (bài nói)",
+          "examples": [
+            {
+              "en": "The courier will deliver the signed contract to reception before noon.",
+              "vi": "Nhân viên chuyển phát sẽ giao hợp đồng đã ký tới quầy lễ tân trước trưa."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "delivery",
+              "pos": "n",
+              "meaning": "việc giao hàng"
+            }
+          ],
+          "synonyms": [
+            "dispatch",
+            "transport",
+            "present"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "deliver a speech",
+              "meaning": "đọc bài phát biểu"
+            }
+          ],
+          "definitionEn": "To dispatch (also similar to transport, present) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động giao hàng; trình bày (bài nói).",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-6",
+          "deckId": "common-1000",
+          "word": "improve",
+          "pos": "v",
+          "ipaUK": "/ɪmˈpruːv/",
+          "ipaUS": "/ɪmˈpruːv/",
+          "meaning": "cải thiện, nâng cao",
+          "examples": [
+            {
+              "en": "Clear checklists improve team accuracy on tight projects.",
+              "vi": "Danh sách kiểm tra rõ ràng nâng cao độ chính xác của nhóm trong các dự án gấp."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "improvement",
+              "pos": "n",
+              "meaning": "sự cải thiện"
+            }
+          ],
+          "synonyms": [
+            "enhance",
+            "upgrade",
+            "boost"
+          ],
+          "antonyms": [
+            "worsen"
+          ],
+          "collocations": [
+            {
+              "phrase": "room for improvement",
+              "meaning": "chỗ còn cải thiện được"
+            }
+          ],
+          "definitionEn": "To enhance (also similar to upgrade, boost) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cải thiện, nâng cao.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-7",
+          "deckId": "common-1000",
+          "word": "prepare",
+          "pos": "v",
+          "ipaUK": "/prɪˈpeər/",
+          "ipaUS": "/prɪˈper/",
+          "meaning": "chuẩn bị",
+          "examples": [
+            {
+              "en": "Please prepare the quarterly summary slides before noon.",
+              "vi": "Vui lòng chuẩn bị slide tóm tắt quý trước buổi trưa."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "preparation",
+              "pos": "n",
+              "meaning": "sự chuẩn bị"
+            }
+          ],
+          "synonyms": [
+            "arrange",
+            "get ready"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "in preparation for",
+              "meaning": "để chuẩn bị cho"
+            }
+          ],
+          "definitionEn": "To arrange (also similar to get ready) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động chuẩn bị.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-8",
+          "deckId": "common-1000",
+          "word": "suggest",
+          "pos": "v",
+          "ipaUK": "/səˈdʒest/",
+          "ipaUS": "/səɡˈdʒest/",
+          "meaning": "đề xuất, gợi ý",
+          "examples": [
+            {
+              "en": "I suggest postponing the picnic until the rain clears.",
+              "vi": "Tôi đề xuất hoãn buổi dã ngoại cho đến khi tạnh mưa."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "suggestion",
+              "pos": "n",
+              "meaning": "gợi ý"
+            }
+          ],
+          "synonyms": [
+            "propose",
+            "recommend"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "make a suggestion",
+              "meaning": "đưa ra gợi ý"
+            }
+          ],
+          "definitionEn": "To propose (also similar to recommend) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đề xuất, gợi ý.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-9",
+          "deckId": "common-1000",
+          "word": "receive",
+          "pos": "v",
+          "ipaUK": "/rɪˈsiːv/",
+          "ipaUS": "/rɪˈsiːv/",
+          "meaning": "nhận được",
+          "examples": [
+            {
+              "en": "Did you receive the revised quote I sent earlier?",
+              "vi": "Bạn đã nhận được báo giá sửa đổi tôi gửi lúc trước chưa?"
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "receipt",
+              "pos": "n",
+              "meaning": "biên lai"
+            },
+            {
+              "word": "recipient",
+              "pos": "n",
+              "meaning": "người nhận"
+            }
+          ],
+          "synonyms": [
+            "obtain",
+            "get"
+          ],
+          "antonyms": [
+            "send"
+          ],
+          "collocations": [
+            {
+              "phrase": "upon receipt of",
+              "meaning": "ngay khi nhận được"
+            }
+          ],
+          "definitionEn": "To obtain (also similar to get) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động nhận được.",
+          "topicId": "c1000-daily"
+        },
+        {
+          "id": "c1000-10",
+          "deckId": "common-1000",
+          "word": "provide",
+          "pos": "v",
+          "ipaUK": "/prəˈvaɪd/",
+          "ipaUS": "/prəˈvaɪd/",
+          "meaning": "cung cấp",
+          "examples": [
+            {
+              "en": "Our academy aims to provide learners with practical templates.",
+              "vi": "Học viện của chúng tôi hướng đến việc cung cấp cho học viên các mẫu biểu thực tế."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "provider",
+              "pos": "n",
+              "meaning": "nhà cung cấp"
+            }
+          ],
+          "synonyms": [
+            "supply",
+            "offer"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "provide sb with sth",
+              "meaning": "cung cấp cho ai cái gì"
+            }
+          ],
+          "definitionEn": "To supply (also similar to offer) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cung cấp.",
+          "topicId": "c1000-daily"
+        }
+      ]
+    },
+    {
+      "id": "c1000-shopping",
+      "name": "Mua sắm, Đặt chỗ & Thanh toán",
+      "icon": "shopping",
+      "words": [
+        {
+          "id": "c1000-11",
+          "deckId": "common-1000",
+          "word": "announce",
+          "pos": "v",
+          "ipaUK": "/əˈnaʊns/",
+          "ipaUS": "/əˈnaʊns/",
+          "meaning": "thông báo chính thức",
+          "examples": [
+            {
+              "en": "The mayor will announce a new downtown bike-share network tomorrow.",
+              "vi": "Thị trưởng sẽ công bố mạng lưới xe đạp công cộng mới ở trung tâm vào ngày mai."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "announcement",
+              "pos": "n",
+              "meaning": "thông báo"
+            }
+          ],
+          "synonyms": [
+            "declare",
+            "proclaim",
+            "abjudicate",
+            "judge",
+            "herald"
+          ],
+          "antonyms": [
+            "conceal"
+          ],
+          "collocations": [
+            {
+              "phrase": "make an announcement",
+              "meaning": "đưa ra thông báo"
+            }
+          ],
+          "definitionEn": "To declare (also similar to proclaim, abjudicate) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động thông báo chính thức.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-12",
+          "deckId": "common-1000",
+          "word": "purchase",
+          "pos": "v",
+          "ipaUK": "/ˈpɜː.tʃəs/",
+          "ipaUS": "/ˈpɝː.tʃəs/",
+          "meaning": "mua sắm (trang trọng); n: món hàng mua",
+          "examples": [
+            {
+              "en": "Customers who purchase two books receive a canvas tote.",
+              "vi": "Khách mua hai cuốn sách sẽ được tặng một túi vải canvas."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "buy",
+            "acquire"
+          ],
+          "antonyms": [
+            "sell"
+          ],
+          "collocations": [
+            {
+              "phrase": "proof of purchase",
+              "meaning": "hóa đơn chứng minh mua hàng"
+            }
+          ],
+          "definitionEn": "To buy (also similar to acquire) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động mua sắm (trang trọng); n: món hàng mua.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-13",
+          "deckId": "common-1000",
+          "word": "refund",
+          "pos": "n",
+          "ipaUK": "/ˈriː.fʌnd/",
+          "ipaUS": "/ˈriː.fʌnd/",
+          "meaning": "khoản tiền hoàn lại; v: hoàn tiền",
+          "examples": [
+            {
+              "en": "Unopened electronics qualify for a full refund within 14 days.",
+              "vi": "Đồ điện tử chưa mở hộp đủ điều kiện hoàn tiền 100% trong 14 ngày."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "refundable",
+              "pos": "adj",
+              "meaning": "có thể hoàn tiền"
+            }
+          ],
+          "synonyms": [
+            "reimbursement",
+            "repayment"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "full refund",
+              "meaning": "hoàn tiền toàn bộ"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to reimbursement, repayment.",
+          "definitionVi": "Danh từ dùng để chỉ khoản tiền hoàn lại; v: hoàn tiền.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-14",
+          "deckId": "common-1000",
+          "word": "receipt",
+          "pos": "n",
+          "ipaUK": "/rɪˈsiːt/",
+          "ipaUS": "/rɪˈsiːt/",
+          "meaning": "biên lai, hóa đơn mua hàng (chữ p câm)",
+          "examples": [
+            {
+              "en": "Keep your receipt to claim warranty repairs.",
+              "vi": "Giữ lại biên lai để yêu cầu sửa chữa bảo hành."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "receive",
+              "pos": "v",
+              "meaning": "nhận"
+            }
+          ],
+          "synonyms": [
+            "sales slip",
+            "proof of purchase"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "itemized receipt",
+              "meaning": "hóa đơn ghi chi tiết từng món"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to sales slip, proof of purchase.",
+          "definitionVi": "Danh từ dùng để chỉ biên lai, hóa đơn mua hàng (chữ p câm).",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-15",
+          "deckId": "common-1000",
+          "word": "discount",
+          "pos": "n",
+          "ipaUK": "/ˈdɪs.kaʊnt/",
+          "ipaUS": "/ˈdɪs.kaʊnt/",
+          "meaning": "mức giảm giá, chiết khấu",
+          "examples": [
+            {
+              "en": "Students enjoy a 15% discount with a valid ID card.",
+              "vi": "Sinh viên được giảm giá 15% khi xuất trình thẻ hợp lệ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "discounted",
+              "pos": "adj",
+              "meaning": "được giảm giá"
+            }
+          ],
+          "synonyms": [
+            "reduction",
+            "markdown"
+          ],
+          "antonyms": [
+            "surcharge"
+          ],
+          "collocations": [
+            {
+              "phrase": "bulk discount",
+              "meaning": "chiết khấu mua số lượng lớn"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to reduction, markdown.",
+          "definitionVi": "Danh từ dùng để chỉ mức giảm giá, chiết khấu.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-16",
+          "deckId": "common-1000",
+          "word": "exchange",
+          "pos": "v",
+          "ipaUK": "/ɪksˈtʃeɪndʒ/",
+          "ipaUS": "/ɪksˈtʃeɪndʒ/",
+          "meaning": "đổi hàng; trao đổi",
+          "examples": [
+            {
+              "en": "You may exchange unworn shoes for another size free of charge.",
+              "vi": "Bạn có thể đổi giày chưa đi sang cỡ khác hoàn toàn miễn phí."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "swap",
+            "trade",
+            "replace"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "exchange rate",
+              "meaning": "tỷ giá hối đoái"
+            }
+          ],
+          "definitionEn": "To swap (also similar to trade, replace) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đổi hàng; trao đổi.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-17",
+          "deckId": "common-1000",
+          "word": "reserve",
+          "pos": "v",
+          "ipaUK": "/rɪˈzɜːv/",
+          "ipaUS": "/rɪˈzɝːv/",
+          "meaning": "đặt chỗ trước; để dành",
+          "examples": [
+            {
+              "en": "Please reserve Conference Room B through the intranet.",
+              "vi": "Vui lòng đặt Phòng họp B qua mạng nội bộ."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "reservation",
+              "pos": "n",
+              "meaning": "việc đặt chỗ"
+            }
+          ],
+          "synonyms": [
+            "book",
+            "set aside"
+          ],
+          "antonyms": [
+            "cancel"
+          ],
+          "collocations": [
+            {
+              "phrase": "make a reservation",
+              "meaning": "đặt chỗ trước"
+            }
+          ],
+          "definitionEn": "To book (also similar to set aside) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động đặt chỗ trước; để dành.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-18",
+          "deckId": "common-1000",
+          "word": "repair",
+          "pos": "v",
+          "ipaUK": "/rɪˈpeər/",
+          "ipaUS": "/rɪˈper/",
+          "meaning": "sửa chữa, khắc phục",
+          "examples": [
+            {
+              "en": "Technicians will repair the air conditioner before the store opens.",
+              "vi": "Kỹ thuật viên sẽ sửa máy điều hòa trước khi cửa hàng mở cửa."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "fix",
+            "mend",
+            "restore"
+          ],
+          "antonyms": [
+            "damage"
+          ],
+          "collocations": [
+            {
+              "phrase": "under repair",
+              "meaning": "đang được sửa chữa"
+            }
+          ],
+          "definitionEn": "To fix (also similar to mend, restore) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động sửa chữa, khắc phục.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-19",
+          "deckId": "common-1000",
+          "word": "replace",
+          "pos": "v",
+          "ipaUK": "/rɪˈpleɪs/",
+          "ipaUS": "/rɪˈpleɪs/",
+          "meaning": "thay thế",
+          "examples": [
+            {
+              "en": "We plan to replace fluorescent tubes with energy-saving LED bulbs.",
+              "vi": "Chúng tôi dự định thay bóng huỳnh quang bằng bóng LED tiết kiệm điện."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "replacement",
+              "pos": "n",
+              "meaning": "vật/người thay thế"
+            }
+          ],
+          "synonyms": [
+            "substitute",
+            "swap"
+          ],
+          "antonyms": [
+            "retain"
+          ],
+          "collocations": [
+            {
+              "phrase": "replacement part",
+              "meaning": "linh kiện thay thế"
+            }
+          ],
+          "definitionEn": "To substitute (also similar to swap) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động thay thế.",
+          "topicId": "c1000-shopping"
+        },
+        {
+          "id": "c1000-20",
+          "deckId": "common-1000",
+          "word": "extend",
+          "pos": "v",
+          "ipaUK": "/ɪkˈstend/",
+          "ipaUS": "/ɪkˈstend/",
+          "meaning": "gia hạn, kéo dài (thời gian, giờ mở cửa)",
+          "examples": [
+            {
+              "en": "The museum decided to extend Friday hours until 9:00 P.M.",
+              "vi": "Bảo tàng quyết định kéo dài giờ mở cửa thứ Sáu đến 9:00 tối."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "extension",
+              "pos": "n",
+              "meaning": "sự gia hạn; số máy lẻ"
+            }
+          ],
+          "synonyms": [
+            "prolong",
+            "lengthen",
+            "expand"
+          ],
+          "antonyms": [
+            "shorten"
+          ],
+          "collocations": [
+            {
+              "phrase": "extend a deadline",
+              "meaning": "gia hạn thời hạn chót"
+            }
+          ],
+          "definitionEn": "To prolong (also similar to lengthen, expand) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động gia hạn, kéo dài (thời gian, giờ mở cửa).",
+          "topicId": "c1000-shopping"
+        }
+      ]
+    },
+    {
+      "id": "c1000-service",
+      "name": "Dịch vụ, Sửa chữa & Hỗ trợ",
+      "icon": "communication",
+      "words": [
+        {
+          "id": "c1000-21",
+          "deckId": "common-1000",
+          "word": "collect",
+          "pos": "v",
+          "ipaUK": "/kəˈlekt/",
+          "ipaUS": "/kəˈlekt/",
+          "meaning": "thu thập, lấy (hành lý, bưu kiện)",
+          "examples": [
+            {
+              "en": "Visitors may collect their badges at the main entrance.",
+              "vi": "Khách tham quan có thể nhận thẻ tại cổng chính."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "collection",
+              "pos": "n",
+              "meaning": "bộ sưu tập"
+            }
+          ],
+          "synonyms": [
+            "gather",
+            "pick up"
+          ],
+          "antonyms": [
+            "distribute"
+          ],
+          "collocations": [
+            {
+              "phrase": "collect feedback",
+              "meaning": "thu thập phản hồi"
+            }
+          ],
+          "definitionEn": "To gather (also similar to pick up) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động thu thập, lấy (hành lý, bưu kiện).",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-22",
+          "deckId": "common-1000",
+          "word": "complete",
+          "pos": "v",
+          "ipaUK": "/kəmˈpliːt/",
+          "ipaUS": "/kəmˈpliːt/",
+          "meaning": "hoàn thành, điền đầy đủ (mẫu đơn)",
+          "examples": [
+            {
+              "en": "Please complete this short survey to enter the prize draw.",
+              "vi": "Vui lòng điền xong khảo sát ngắn này để tham gia rút thăm trúng thưởng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "completion",
+              "pos": "n",
+              "meaning": "sự hoàn tất"
+            }
+          ],
+          "synonyms": [
+            "finish",
+            "fill out"
+          ],
+          "antonyms": [
+            "abandon"
+          ],
+          "collocations": [
+            {
+              "phrase": "upon completion",
+              "meaning": "ngay khi hoàn thành"
+            }
+          ],
+          "definitionEn": "To finish (also similar to fill out) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hoàn thành, điền đầy đủ (mẫu đơn).",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-23",
+          "deckId": "common-1000",
+          "word": "invite",
+          "pos": "v",
+          "ipaUK": "/ɪnˈvaɪt/",
+          "ipaUS": "/ɪnˈvaɪt/",
+          "meaning": "mời (tham dự sự kiện)",
+          "examples": [
+            {
+              "en": "We warmly invite local business owners to our grand opening.",
+              "vi": "Chúng tôi nồng nhiệt mời các chủ doanh nghiệp địa phương tới lễ khai trương."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "invitation",
+              "pos": "n",
+              "meaning": "thiệp mời, lời mời"
+            }
+          ],
+          "synonyms": [
+            "ask",
+            "welcome"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "by invitation only",
+              "meaning": "chỉ dành cho khách có thiệp mời"
+            }
+          ],
+          "definitionEn": "To ask (also similar to welcome) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động mời (tham dự sự kiện).",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-24",
+          "deckId": "common-1000",
+          "word": "explain",
+          "pos": "v",
+          "ipaUK": "/ɪkˈspleɪn/",
+          "ipaUS": "/ɪkˈspleɪn/",
+          "meaning": "giải thích",
+          "examples": [
+            {
+              "en": "The guide will explain how the solar water heater operates.",
+              "vi": "Hướng dẫn viên sẽ giải thích cách máy nước nóng năng lượng mặt trời hoạt động."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "explanation",
+              "pos": "n",
+              "meaning": "lời giải thích"
+            }
+          ],
+          "synonyms": [
+            "clarify",
+            "describe"
+          ],
+          "antonyms": [
+            "confuse"
+          ],
+          "collocations": [
+            {
+              "phrase": "detailed explanation",
+              "meaning": "giải thích chi tiết"
+            }
+          ],
+          "definitionEn": "To clarify (also similar to describe) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động giải thích.",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-25",
+          "deckId": "common-1000",
+          "word": "check in",
+          "pos": "phrase",
+          "ipaUK": "/tʃek ɪn/",
+          "ipaUS": "/tʃek ɪn/",
+          "meaning": "làm thủ tục nhận phòng / lên máy bay",
+          "examples": [
+            {
+              "en": "Guests may check in online 24 hours before arrival.",
+              "vi": "Khách có thể làm thủ tục trực tuyến 24 giờ trước khi đến."
+            }
+          ],
+          "wordFamily": [],
+          "synonyms": [
+            "register"
+          ],
+          "antonyms": [
+            "check out"
+          ],
+          "collocations": [
+            {
+              "phrase": "check-in counter",
+              "meaning": "quầy làm thủ tục"
+            }
+          ],
+          "definitionEn": "A common English expression meaning 'register'.",
+          "definitionVi": "Cụm từ cố định mang nghĩa làm thủ tục nhận phòng / lên máy bay.",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-26",
+          "deckId": "common-1000",
+          "word": "cancel",
+          "pos": "v",
+          "ipaUK": "/ˈkæn.səl/",
+          "ipaUS": "/ˈkæn.səl/",
+          "meaning": "hủy bỏ",
+          "examples": [
+            {
+              "en": "Bad weather forced the ferry operator to cancel the 8 A.M. crossing.",
+              "vi": "Thời tiết xấu buộc nhà điều hành phà phải hủy chuyến lúc 8 giờ sáng."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "cancellation",
+              "pos": "n",
+              "meaning": "sự hủy bỏ"
+            }
+          ],
+          "synonyms": [
+            "call off",
+            "revoke"
+          ],
+          "antonyms": [
+            "confirm"
+          ],
+          "collocations": [
+            {
+              "phrase": "cancel an order",
+              "meaning": "hủy đơn hàng"
+            }
+          ],
+          "definitionEn": "To call off (also similar to revoke) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động hủy bỏ.",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-27",
+          "deckId": "common-1000",
+          "word": "reduce",
+          "pos": "v",
+          "ipaUK": "/rɪˈdʒuːs/",
+          "ipaUS": "/rɪˈduːs/",
+          "meaning": "cắt giảm, giảm bớt",
+          "examples": [
+            {
+              "en": "Carpooling helps reduce daily commuting costs.",
+              "vi": "Đi chung xe giúp giảm chi phí đi làm hàng ngày."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "reduction",
+              "pos": "n",
+              "meaning": "sự cắt giảm"
+            }
+          ],
+          "synonyms": [
+            "decrease",
+            "lower",
+            "cut"
+          ],
+          "antonyms": [
+            "increase"
+          ],
+          "collocations": [
+            {
+              "phrase": "reduce waste",
+              "meaning": "giảm rác thải"
+            }
+          ],
+          "definitionEn": "To decrease (also similar to lower, cut) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động cắt giảm, giảm bớt.",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-28",
+          "deckId": "common-1000",
+          "word": "increase",
+          "pos": "v",
+          "ipaUK": "/ɪnˈkriːs/",
+          "ipaUS": "/ɪnˈkriːs/",
+          "meaning": "gia tăng, tăng lên",
+          "examples": [
+            {
+              "en": "Weekend promotions should increase foot traffic by 25%.",
+              "vi": "Khuyến mãi cuối tuần sẽ giúp tăng lượng khách ghé cửa hàng thêm 25%."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "increasingly",
+              "pos": "adv",
+              "meaning": "ngày càng"
+            }
+          ],
+          "synonyms": [
+            "rise",
+            "boost",
+            "grow"
+          ],
+          "antonyms": [
+            "decrease"
+          ],
+          "collocations": [
+            {
+              "phrase": "sharp increase",
+              "meaning": "tăng mạnh"
+            }
+          ],
+          "definitionEn": "To rise (also similar to boost, grow) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động gia tăng, tăng lên.",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-29",
+          "deckId": "common-1000",
+          "word": "manage",
+          "pos": "v",
+          "ipaUK": "/ˈmæn.ɪdʒ/",
+          "ipaUS": "/ˈmæn.ədʒ/",
+          "meaning": "quản lý; xoay xở làm được",
+          "examples": [
+            {
+              "en": "She can easily manage a remote support team of twenty people.",
+              "vi": "Cô ấy có thể dễ dàng quản lý đội hỗ trợ từ xa gồm hai mươi người."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "management",
+              "pos": "n",
+              "meaning": "ban quản lý"
+            },
+            {
+              "word": "manager",
+              "pos": "n",
+              "meaning": "người quản lý"
+            }
+          ],
+          "synonyms": [
+            "oversee",
+            "direct",
+            "run"
+          ],
+          "antonyms": [],
+          "collocations": [
+            {
+              "phrase": "time management",
+              "meaning": "quản lý thời gian"
+            }
+          ],
+          "definitionEn": "To oversee (also similar to direct, run) in professional or everyday situations.",
+          "definitionVi": "Động từ diễn tả hành động quản lý; xoay xở làm được.",
+          "topicId": "c1000-service"
+        },
+        {
+          "id": "c1000-30",
+          "deckId": "common-1000",
+          "word": "support",
+          "pos": "n",
+          "ipaUK": "/səˈpɔːt/",
+          "ipaUS": "/səˈpɔːrt/",
+          "meaning": "sự hỗ trợ; v: ủng hộ, hỗ trợ",
+          "examples": [
+            {
+              "en": "Our technical support line stays open seven days a week.",
+              "vi": "Đường dây hỗ trợ kỹ thuật của chúng tôi mở cửa bảy ngày một tuần."
+            }
+          ],
+          "wordFamily": [
+            {
+              "word": "supportive",
+              "pos": "adj",
+              "meaning": "nhiệt tình ủng hộ"
+            }
+          ],
+          "synonyms": [
+            "assistance",
+            "backing",
+            "help"
+          ],
+          "antonyms": [
+            "oppose"
+          ],
+          "collocations": [
+            {
+              "phrase": "customer support",
+              "meaning": "hỗ trợ khách hàng"
+            }
+          ],
+          "definitionEn": "A concept, item, or formal term closely related to assistance, backing, help.",
+          "definitionVi": "Danh từ dùng để chỉ sự hỗ trợ; v: ủng hộ, hỗ trợ.",
+          "topicId": "c1000-service"
+        }
+      ]
+    }
+  ]
+}

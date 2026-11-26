@@ -1,0 +1,399 @@
+{
+  "id": "drill-p4-announcement",
+  "part": 4,
+  "title": "Thông báo nội bộ & Giao thông",
+  "subtitle": "Diễn tập PCCC tòa nhà và thông báo trên tàu tốc hành.",
+  "focusTag": "Announcements",
+  "part4": [
+    {
+      "id": "dp4-an-1",
+      "part": 4,
+      "title": "Thông báo nội bộ diễn tập phòng cháy chữa cháy",
+      "talkType": "Thông báo (Announcement)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-an-1-l1",
+          "speaker": "Announcer",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "May I have your attention, staff. Tomorrow at 10:15 A.M., building management will conduct a mandatory twenty-minute fire safety drill.",
+          "vi": "Xin chú ý toàn thể nhân viên. Sáng mai lúc 10:15, ban quản lý tòa nhà sẽ tiến hành buổi diễn tập an toàn cháy nổ bắt buộc kéo dài hai mươi phút.",
+          "evidenceForQuestionIds": [
+            "dp4-an-1-q1"
+          ],
+          "startMs": 240,
+          "endMs": 9696
+        },
+        {
+          "id": "dp4-an-1-l2",
+          "speaker": "Announcer",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "When the alarm sounds, please use the east and west stairwells—elevators will be temporarily locked—and assemble across the street in Oak Park.",
+          "vi": "Khi chuông reo, vui lòng đi cầu thang bộ phía đông và tây—thang máy sẽ tạm khóa—và tập trung bên kia đường tại Công viên Oak.",
+          "evidenceForQuestionIds": [
+            "dp4-an-1-q2"
+          ],
+          "startMs": 10076,
+          "endMs": 18140
+        },
+        {
+          "id": "dp4-an-1-l3",
+          "speaker": "Announcer",
+          "voiceGender": "male",
+          "accent": "en-US",
+          "en": "Department floor wardens should check off every employee's name on the attendance roster before anyone re-enters the lobby.",
+          "vi": "Đội trưởng an toàn từng tầng cần điểm danh từng nhân viên trên danh sách trước khi mọi người quay lại sảnh.",
+          "evidenceForQuestionIds": [
+            "dp4-an-1-q3"
+          ],
+          "startMs": 18520,
+          "endMs": 25384
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-an-1-q1",
+          "questionNumber": 1,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "What is the announcement mainly about?",
+          "promptVi": "Thông báo chủ yếu nói về việc gì?",
+          "options": {
+            "A": {
+              "en": "An upcoming emergency drill",
+              "vi": "Một buổi diễn tập khẩn cấp sắp diễn ra"
+            },
+            "B": {
+              "en": "An elevator renovation project",
+              "vi": "Dự án cải tạo thang máy"
+            },
+            "C": {
+              "en": "A company picnic in Oak Park",
+              "vi": "Buổi dã ngoại tại Công viên Oak"
+            },
+            "D": {
+              "en": "New security badge rules",
+              "vi": "Quy định thẻ an ninh mới"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Paraphrase 'fire safety drill' -> 'emergency drill'",
+            "trapAnalysis": "Thông báo rõ về buổi diễn tập PCCC lúc 10:15 sáng mai.",
+            "paraphrases": [
+              {
+                "audioPhrase": "fire safety drill",
+                "answerPhrase": "emergency drill",
+                "meaningVi": "diễn tập khẩn cấp"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-an-1-q2",
+          "questionNumber": 2,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What will be unavailable during the drill?",
+          "promptVi": "Thứ gì sẽ không sử dụng được trong lúc diễn tập?",
+          "options": {
+            "A": {
+              "en": "The building elevators",
+              "vi": "Thang máy tòa nhà"
+            },
+            "B": {
+              "en": "The west stairwell",
+              "vi": "Cầu thang bộ phía tây"
+            },
+            "C": {
+              "en": "Office Wi-Fi",
+              "vi": "Wi-Fi văn phòng"
+            },
+            "D": {
+              "en": "The front parking lot",
+              "vi": "Bãi đỗ xe phía trước"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Câu 2: 'elevators will be temporarily locked'",
+            "trapAnalysis": "locked = unavailable.",
+            "paraphrases": [
+              {
+                "audioPhrase": "temporarily locked",
+                "answerPhrase": "unavailable",
+                "meaningVi": "tạm ngừng sử dụng"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-an-1-q3",
+          "questionNumber": 3,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What are floor wardens instructed to do?",
+          "promptVi": "Đội trưởng an toàn tầng được hướng dẫn làm gì?",
+          "options": {
+            "A": {
+              "en": "Unlock the fire doors",
+              "vi": "Mở khóa cửa thoát hiểm"
+            },
+            "B": {
+              "en": "Verify employee attendance outside",
+              "vi": "Điểm danh nhân viên bên ngoài"
+            },
+            "C": {
+              "en": "Test the alarm speakers",
+              "vi": "Kiểm tra loa báo động"
+            },
+            "D": {
+              "en": "Distribute bottled water",
+              "vi": "Phát nước đóng chai"
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'check off every employee's name on the roster' -> 'verify employee attendance'",
+            "trapAnalysis": "attendance roster = danh sách điểm danh.",
+            "paraphrases": [
+              {
+                "audioPhrase": "check off on attendance roster",
+                "answerPhrase": "verify employee attendance",
+                "meaningVi": "điểm danh nhân viên"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-an-1-v1",
+          "word": "assemble",
+          "pos": "v",
+          "ipaUK": "/əˈsembl/",
+          "ipaUS": "/əˈsembl/",
+          "meaning": "tập hợp, tập trung lại",
+          "exampleEn": "In an emergency, assemble calmly at the north courtyard.",
+          "exampleVi": "Trong tình huống khẩn cấp, hãy bình tĩnh tập trung tại sân bắc."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-an-1.mp3"
+    },
+    {
+      "id": "dp4-an-2",
+      "part": 4,
+      "title": "Thông báo trên tàu cao tốc về toa ăn uống",
+      "talkType": "Thông báo (Announcement)",
+      "hasGraphic": false,
+      "transcript": [
+        {
+          "id": "dp4-an-2-l1",
+          "speaker": "Conductor",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Good evening, passengers aboard the 6:00 P.M. Coastliner Express to Manchester.",
+          "vi": "Chào buổi tối quý hành khách trên chuyến tàu tốc hành Coastliner lúc 6:00 chiều đi Manchester.",
+          "evidenceForQuestionIds": [
+            "dp4-an-2-q1"
+          ],
+          "startMs": 240,
+          "endMs": 5448
+        },
+        {
+          "id": "dp4-an-2-l2",
+          "speaker": "Conductor",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "Our café car in Coach 4 is now open, serving hot soups, sandwiches, and Fair-Trade coffee; please note that card and mobile payments only are accepted today.",
+          "vi": "Toa cà phê ở Toa số 4 hiện đã mở cửa, phục vụ súp nóng, bánh mì kẹp và cà phê Fair-Trade; xin lưu ý hôm nay chỉ nhận thanh toán thẻ và di động.",
+          "evidenceForQuestionIds": [
+            "dp4-an-2-q2"
+          ],
+          "startMs": 5828,
+          "endMs": 16172
+        },
+        {
+          "id": "dp4-an-2-l3",
+          "speaker": "Conductor",
+          "voiceGender": "female",
+          "accent": "en-GB",
+          "en": "We are currently running right on time and will make our first brief stop at Birmingham New Street in twenty-five minutes.",
+          "vi": "Tàu hiện đang chạy đúng giờ và sẽ dừng ngắn đầu tiên tại ga Birmingham New Street sau hai mươi lăm phút nữa.",
+          "evidenceForQuestionIds": [
+            "dp4-an-2-q3"
+          ],
+          "startMs": 16552,
+          "endMs": 23248
+        }
+      ],
+      "questions": [
+        {
+          "id": "dp4-an-2-q1",
+          "questionNumber": 4,
+          "questionType": "Ý chính / Chủ đề",
+          "prompt": "Where is this announcement being made?",
+          "promptVi": "Thông báo này được phát ở đâu?",
+          "options": {
+            "A": {
+              "en": "On a passenger train",
+              "vi": "Trên một đoàn tàu chở khách"
+            },
+            "B": {
+              "en": "Inside an airport lounge",
+              "vi": "Trong phòng chờ sân bay"
+            },
+            "C": {
+              "en": "At a ferry terminal",
+              "vi": "Tại bến phà"
+            },
+            "D": {
+              "en": "In a hotel restaurant",
+              "vi": "Trong nhà hàng khách sạn"
+            }
+          },
+          "correctAnswer": "A",
+          "explanation": {
+            "trapType": "Từ khóa 'Coastliner Express / Coach 4 / café car'",
+            "trapAnalysis": "Nhận diện ngay khung cảnh tàu hỏa đường sắt.",
+            "paraphrases": [
+              {
+                "audioPhrase": "Coach 4 / café car",
+                "answerPhrase": "passenger train",
+                "meaningVi": "tàu hỏa chở khách"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Đúng.",
+              "B": "Sai.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-an-2-q2",
+          "questionNumber": 5,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What restriction applies in the café car today?",
+          "promptVi": "Hạn chế nào được áp dụng tại toa cà phê hôm nay?",
+          "options": {
+            "A": {
+              "en": "Hot drinks are sold out.",
+              "vi": "Đồ uống nóng đã hết."
+            },
+            "B": {
+              "en": "Cash is not accepted.",
+              "vi": "Không nhận tiền mặt."
+            },
+            "C": {
+              "en": "Seating is limited to twenty minutes.",
+              "vi": "Ngồi tối đa hai mươi phút."
+            },
+            "D": {
+              "en": "Only first-class riders may enter.",
+              "vi": "Chỉ khách hạng nhất được vào."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Paraphrase 'card and mobile payments only' -> 'cash is not accepted'",
+            "trapAnalysis": "Chỉ nhận thẻ/di động = không nhận tiền mặt!",
+            "paraphrases": [
+              {
+                "audioPhrase": "card and mobile payments only",
+                "answerPhrase": "cash is not accepted",
+                "meaningVi": "không nhận tiền mặt"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        },
+        {
+          "id": "dp4-an-2-q3",
+          "questionNumber": 6,
+          "questionType": "Thông tin chi tiết",
+          "prompt": "What will happen in twenty-five minutes?",
+          "promptVi": "Điều gì sẽ diễn ra sau hai mươi lăm phút nữa?",
+          "options": {
+            "A": {
+              "en": "The café car will close.",
+              "vi": "Toa cà phê đóng cửa."
+            },
+            "B": {
+              "en": "The train will arrive at its first stop.",
+              "vi": "Tàu sẽ tới điểm dừng đầu tiên."
+            },
+            "C": {
+              "en": "Ticket inspection will begin.",
+              "vi": "Kiểm soát vé bắt đầu."
+            },
+            "D": {
+              "en": "The train will reach Manchester.",
+              "vi": "Tàu tới điểm cuối Manchester."
+            }
+          },
+          "correctAnswer": "B",
+          "explanation": {
+            "trapType": "Câu cuối: 'make our first brief stop at Birmingham New Street in twenty-five minutes'",
+            "trapAnalysis": "Chú ý đừng nhầm với điểm cuối Manchester!",
+            "paraphrases": [
+              {
+                "audioPhrase": "make our first brief stop",
+                "answerPhrase": "arrive at its first stop",
+                "meaningVi": "tới điểm dừng đầu tiên"
+              }
+            ],
+            "optionAnalysis": {
+              "A": "Sai.",
+              "B": "Đúng.",
+              "C": "Sai.",
+              "D": "Sai."
+            },
+            "keyVocab": []
+          }
+        }
+      ],
+      "keyVocab": [
+        {
+          "id": "dp4-an-2-v1",
+          "word": "aboard",
+          "pos": "adv",
+          "ipaUK": "/əˈbɔːd/",
+          "ipaUS": "/əˈbɔːrd/",
+          "meaning": "ở trên (tàu, máy bay, thuyền)",
+          "exampleEn": "Free Wi-Fi is available to all passengers aboard the express train.",
+          "exampleVi": "Wi-Fi miễn phí có sẵn cho mọi hành khách trên chuyến tàu tốc hành."
+        }
+      ],
+      "audioUrl": "/audio/toeic/dp4-an-2.mp3"
+    }
+  ]
+}
