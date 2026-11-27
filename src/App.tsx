@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { AuthProvider } from './context/AuthContext';
 import { AppProvider } from './context/AppContext';
 import { NavTab } from './types';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
+import { AuthModal } from './components/AuthModal';
 import { VocabHub } from './modules/vocab/VocabHub';
 import { ToeicExamHub } from './modules/toeic/ToeicExamHub';
 import { ReadingHub } from './modules/reading/ReadingHub';
@@ -42,15 +44,18 @@ const AppShell: React.FC = () => {
           {activeTab === 'analytics' && <AnalyticsView />}
         </main>
       </div>
+      <AuthModal />
     </div>
   );
 };
 
 export const App: React.FC = () => {
   return (
-    <AppProvider>
-      <AppShell />
-    </AppProvider>
+    <AuthProvider>
+      <AppProvider>
+        <AppShell />
+      </AppProvider>
+    </AuthProvider>
   );
 };
 

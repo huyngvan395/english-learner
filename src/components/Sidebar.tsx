@@ -3,18 +3,25 @@ import {
   BarChart3,
   BookOpen,
   BookmarkCheck,
+  CheckCircle2,
   ChevronLeft,
   ChevronRight,
+  Cloud,
+  CloudAlert,
   FileText,
   GraduationCap,
   Headphones,
+  LogIn,
+  LogOut,
   NotebookPen,
   PenTool,
+  RefreshCw,
   Trophy,
   X,
 } from 'lucide-react';
 import { NavTab } from '../types';
 import { useApp } from '../context/AppContext';
+import { useAuth } from '../context/AuthContext';
 
 interface SidebarProps {
   activeTab: NavTab;
@@ -33,7 +40,21 @@ export const Sidebar: React.FC<SidebarProps> = ({
   mobileOpen,
   onCloseMobile,
 }) => {
-  const { vocabProgress, notes, wrongQuestions } = useApp();
+  const { vocabProgress, notes, wrongQuestions, syncNow, signOutAndClear } = useApp();
+  const { user, userProfile, syncStatus, syncError, openAuthModal } = useAuth();
+
+  const displayName =
+    userProfile?.full_name ||
+    (user?.user_metadata?.full_name as string | undefined) ||
+    (user?.user_metadata?.name as string | undefined) ||
+    user?.email?.split('@')[0] ||
+    'Học viên TOEIC';
+  const avatarUrl =
+    userProfile?.avatar_url ||
+    (user?.user_metadata?.avatar_url as string | undefined) ||
+    (user?.user_metadata?.picture as string | undefined) ||
+    null;
+  const initials = displayName.trim().slice(0, 1).toUpperCase() || 'U';
 
   const savedCount = Object.values(vocabProgress).filter(
     (p) => p.saved || p.status === 'forgotten' || p.status === 'vague'
@@ -157,17 +178,144 @@ export const Sidebar: React.FC<SidebarProps> = ({
           })}
         </nav>
 
-        {/* Bottom Pro-Tip Card */}
-        {!isCollapsed && (
-          <div className="p-3">
-            <div className="rounded-2xl border border-indigo-500/25 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 p-3.5">
-              <p className="text-xs font-bold text-indigo-300">Lộ trình 990 TOEIC</p>
-              <p className="mt-1 text-[11px] leading-relaxed text-slate-400">
-                Ôn 20 từ SRS mỗi ngày + 1 bài Reading/Listening có phân tích Paraphrase giúp tăng 150+ điểm sau 6 tuần.
-              </p>
+        {/* Bottom Account & Cloud Sync Area (Parroto-inspired) */}
+        <div className="p-3 border-t border-slate-800/80 bg-[#0B1120]/60">
+          {!user ? (
+            isCollapsed ? (
+              <button
+                type="button"
+                onClick={() => openAuthModal('signin')}
+                title="Đăng nhập / Đồng bộ Cloud"
+                className="flex h-11 w-full items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-white shadow-sm hover:brightness-110 transition"
+              >
+                <LogIn className="h-4 w-4" />
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={() => openAuthModal('signin')}
+                className="group w-full rounded-2xl border border-indigo-500/40 bg-gradient-to-br from-blue-600/25 via-indigo-600/20 to-violet-600/25 hover:from-blue-600/35 hover:to-violet-600/35 p-3.5 text-left transition shadow-sm"
+              >
+                <div className="flex items-center gap-2.5">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 via-indigo-600 to-violet-600 text-white shadow-sm">
+                    <Cloud className="h-4 w-4" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-xs font-extrabold text-white">
+                      Đăng nhập / Đồng bộ Cloud
+                    </p>
+                    <p className="truncate text-[11px] text-indigo-200/80">
+                      Lưu tiến độ nhiều thiết bị
+                    </p>
+                  </div>
+                </div>
+              </button>
+            )
+          ) : isCollapsed ? (
+            <div className="flex flex-col items-center gap-2">
+              <button
+                type="button"
+                onClick={() => syncNow()}
+                title={`${displayName} — Bấm để đồng bộ ngay`}
+                className="relative flex h-10 w-10 items-center justify-center rounded-full border border-indigo-400/50 bg-indigo-600/30 text-sm font-extrabold text-white overflow-hidden"
+              >
+                {avatarUrl ? (
+                  <img src={avatarUrl} alt={displayName} className="h-full w-full object-cover" />
+                ) : (
+                  initials
+                )}
+                <span
+                  className={`absolute bottom-0 right-0 h-2.5 w-2.5 rounded-full ring-2 ring-[#0F172A] ${
+                    syncStatus === 'error'
+                      ? 'bg-amber-400'
+                      : syncStatus === 'syncing'
+                      ? 'bg-cyan-400 animate-pulse'
+                      : 'bg-emerald-400'
+                  }`}
+                />
+              </button>
+              <button
+                type="button"
+                onClick={() => signOutAndClear()}
+                title="Đăng xuất"
+                className="flex h-8 w-8 items-center justify-center rounded-lg border border-slate-800 bg-slate-900 text-slate-400 hover:text-rose-300 hover:border-rose-500/40 transition"
+              >
+                <LogOut className="h-3.5 w-3.5" />
+              </button>
             </div>
-          </div>
-        )}
+          ) : (
+            <div className="rounded-2xl border border-slate-800 bg-slate-900/90 p-3 space-y-2.5">
+              <div className="flex items-center gap-2.5">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-indigo-400/40 bg-gradient-to-br from-blue-600 to-violet-600 text-xs font-extrabold text-white overflow-hidden">
+                  {avatarUrl ? (
+                    <img
+                      src={avatarUrl}
+                      alt={displayName}
+                      className="h-full w-full object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                  ) : (
+                    initials
+                  )}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-xs font-extrabold text-white">{displayName}</p>
+                  <p className="truncate text-[10px] text-slate-400">{user.email}</p>
+                </div>
+              </div>
+
+              {/* Sync Status Badge */}
+              <div
+                title={syncError || undefined}
+                className={`flex items-center gap-1.5 rounded-xl border px-2.5 py-1.5 text-[11px] font-bold ${
+                  syncStatus === 'syncing'
+                    ? 'border-cyan-500/35 bg-cyan-500/10 text-cyan-300'
+                    : syncStatus === 'error'
+                    ? 'border-amber-500/40 bg-amber-500/10 text-amber-300'
+                    : 'border-emerald-500/35 bg-emerald-500/10 text-emerald-300'
+                }`}
+              >
+                {syncStatus === 'syncing' ? (
+                  <>
+                    <RefreshCw className="h-3.5 w-3.5 animate-spin shrink-0" />
+                    <span className="truncate">Đang lưu lên Cloud...</span>
+                  </>
+                ) : syncStatus === 'error' ? (
+                  <>
+                    <CloudAlert className="h-3.5 w-3.5 shrink-0" />
+                    <span className="truncate">Lỗi mạng / Chưa đồng bộ</span>
+                  </>
+                ) : (
+                  <>
+                    <CheckCircle2 className="h-3.5 w-3.5 shrink-0" />
+                    <span className="truncate">☁ Đã đồng bộ Cloud</span>
+                  </>
+                )}
+              </div>
+
+              {/* Action Buttons */}
+              <div className="grid grid-cols-2 gap-1.5">
+                <button
+                  type="button"
+                  disabled={syncStatus === 'syncing'}
+                  onClick={() => syncNow()}
+                  className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 disabled:opacity-50 py-1.5 text-[11px] font-bold text-slate-200 transition"
+                >
+                  <RefreshCw className={`h-3 w-3 ${syncStatus === 'syncing' ? 'animate-spin' : ''}`} />
+                  Đồng bộ ngay
+                </button>
+                <button
+                  type="button"
+                  onClick={() => signOutAndClear()}
+                  className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-800 bg-slate-950/70 hover:border-rose-500/40 hover:text-rose-300 py-1.5 text-[11px] font-bold text-slate-400 transition"
+                >
+                  <LogOut className="h-3 w-3" />
+                  Đăng xuất
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     );
   };

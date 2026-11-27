@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import {
   AttemptRecord,
   ListeningVocabItem,
@@ -18,6 +18,19 @@ import {
   WrongQuestionRecord,
 } from '../types';
 import { loadVocabSearchIndex } from '../utils/vocabLoader';
+import { useAuth } from './AuthContext';
+import {
+  clearLocalLearningProgress,
+  createEmptySnapshot,
+  LearningProgressSnapshot,
+  pushCloudProgress,
+  readLocalUpdatedAt,
+  readLocalWritingDrafts,
+  syncProgressOnLogin,
+  updateCloudProfileGoal,
+  writeLocalUpdatedAt,
+  writeLocalWritingDrafts,
+} from '../services/syncService';
 
 const STORAGE_KEYS = {
   PROGRESS: 'tmh_vocab_progress_v1',
@@ -116,11 +129,16 @@ interface AppContextValue {
   toggleReadingHighlight: (passageId: string, sentenceId: string) => void;
   clearReadingHighlights: (passageId: string) => void;
   recordReadingResult: (questionId: string, selectedAnswer: OptionKey, isCorrect: boolean) => void;
+
+  syncNow: () => Promise<void>;
+  signOutAndClear: () => Promise<void>;
 }
 
 const AppContext = createContext<AppContextValue | null>(null);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { user, setSyncState, markSyncedNow, signOut } = useAuth();
+
   const [vocabProgress, setVocabProgress] = useState<Record<string, WordProgress>>(() =>
     safeLoad(STORAGE_KEYS.PROGRESS, {})
   );
@@ -231,6 +249,202 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       // Ignore quota overflow
     }
   }, [writingHistory]);
+
+  // ================= SMART CLOUD SYNC (localStorage <-> Supabase) =================
+  const hydratingRef = useRef<boolean>(false);
+  const hasMountedRef = useRef<boolean>(false);
+  const syncedUserIdRef = useRef<string | null>(null);
+  const debounceTimerRef = useRef<number | null>(null);
+  const [draftSyncNonce, setDraftSyncNonce] = useState(0);
+
+  const buildCurrentSnapshot = useCallback((): LearningProgressSnapshot => {
+    return {
+      vocabProgress,
+      customWords,
+      notes,
+      attempts,
+      profile,
+      readingHighlights,
+      readingProgress,
+      wrongQuestions,
+      examHistory,
+      writingHistory,
+      writingDrafts: readLocalWritingDrafts(),
+      updatedAt: readLocalUpdatedAt() || Date.now(),
+    };
+  }, [
+    vocabProgress,
+    customWords,
+    notes,
+    attempts,
+    profile,
+    readingHighlights,
+    readingProgress,
+    wrongQuestions,
+    examHistory,
+    writingHistory,
+  ]);
+
+  const latestSnapshotRef = useRef<LearningProgressSnapshot>(buildCurrentSnapshot());
+  latestSnapshotRef.current = buildCurrentSnapshot();
+
+  const applySnapshotToState = useCallback((snap: LearningProgressSnapshot) => {
+    hydratingRef.current = true;
+    setVocabProgress(snap.vocabProgress);
+    setCustomWords(snap.customWords);
+    setNotes(snap.notes);
+    setAttempts(snap.attempts);
+    setProfile(snap.profile);
+    setReadingHighlights(snap.readingHighlights);
+    setReadingProgress(snap.readingProgress);
+    setWrongQuestions(snap.wrongQuestions);
+    setExamHistory(snap.examHistory);
+    setWritingHistory(snap.writingHistory);
+    writeLocalWritingDrafts(snap.writingDrafts);
+    writeLocalUpdatedAt(snap.updatedAt || Date.now());
+    window.dispatchEvent(new Event('tmh:progress-hydrated'));
+    window.setTimeout(() => {
+      hydratingRef.current = false;
+    }, 150);
+  }, []);
+
+  // Listen for draft edits from WritingHub so drafts sync cleanly with 2s debounce
+  useEffect(() => {
+    const onDraftUpdated = () => {
+      writeLocalUpdatedAt(Date.now());
+      setDraftSyncNonce((n) => n + 1);
+    };
+    window.addEventListener('tmh:draft-updated', onDraftUpdated);
+    return () => window.removeEventListener('tmh:draft-updated', onDraftUpdated);
+  }, []);
+
+  // Initial smart merge & sync whenever a user logs in (or restores session)
+  useEffect(() => {
+    const uid = user?.id || null;
+    if (!uid) {
+      if (debounceTimerRef.current) {
+        window.clearTimeout(debounceTimerRef.current);
+        debounceTimerRef.current = null;
+      }
+      syncedUserIdRef.current = null;
+      return;
+    }
+
+    if (syncedUserIdRef.current === uid) return;
+
+    let cancelled = false;
+    setSyncState('syncing');
+
+    syncProgressOnLogin(uid, latestSnapshotRef.current)
+      .then(({ finalSnapshot }) => {
+        if (cancelled) return;
+        syncedUserIdRef.current = uid;
+        applySnapshotToState(finalSnapshot);
+        markSyncedNow();
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        syncedUserIdRef.current = uid;
+        setSyncState('error', err instanceof Error ? err.message : 'Lỗi đồng bộ Cloud');
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [user?.id, applySnapshotToState, setSyncState, markSyncedNow]);
+
+  // Debounced auto-push (2 seconds after last change) while logged in
+  useEffect(() => {
+    if (!hasMountedRef.current) {
+      hasMountedRef.current = true;
+      return;
+    }
+    if (hydratingRef.current) return;
+
+    writeLocalUpdatedAt(Date.now());
+
+    const uid = user?.id;
+    if (!uid || syncedUserIdRef.current !== uid) return;
+
+    if (debounceTimerRef.current) {
+      window.clearTimeout(debounceTimerRef.current);
+    }
+
+    setSyncState('syncing');
+    debounceTimerRef.current = window.setTimeout(() => {
+      debounceTimerRef.current = null;
+      const snap = { ...latestSnapshotRef.current, updatedAt: Date.now() };
+      pushCloudProgress(uid, snap)
+        .then(() => {
+          writeLocalUpdatedAt(snap.updatedAt);
+          markSyncedNow();
+        })
+        .catch((err) => {
+          setSyncState('error', err instanceof Error ? err.message : 'Lỗi mạng khi lưu lên Cloud');
+        });
+    }, 2000);
+
+    return () => {
+      if (debounceTimerRef.current) {
+        window.clearTimeout(debounceTimerRef.current);
+      }
+    };
+  }, [
+    vocabProgress,
+    customWords,
+    notes,
+    attempts,
+    profile,
+    readingHighlights,
+    readingProgress,
+    wrongQuestions,
+    examHistory,
+    writingHistory,
+    draftSyncNonce,
+    user?.id,
+    setSyncState,
+    markSyncedNow,
+  ]);
+
+  const syncNow = useCallback(async () => {
+    const uid = user?.id;
+    if (!uid) return;
+    if (debounceTimerRef.current) {
+      window.clearTimeout(debounceTimerRef.current);
+      debounceTimerRef.current = null;
+    }
+    setSyncState('syncing');
+    try {
+      const { finalSnapshot } = await syncProgressOnLogin(uid, {
+        ...latestSnapshotRef.current,
+        updatedAt: Date.now(),
+      });
+      syncedUserIdRef.current = uid;
+      applySnapshotToState(finalSnapshot);
+      markSyncedNow();
+    } catch (err) {
+      setSyncState('error', err instanceof Error ? err.message : 'Lỗi mạng khi đồng bộ');
+    }
+  }, [user?.id, applySnapshotToState, setSyncState, markSyncedNow]);
+
+  const signOutAndClear = useCallback(async () => {
+    const uid = user?.id;
+    // Best-effort flush any pending local changes before signing out
+    if (uid && debounceTimerRef.current) {
+      window.clearTimeout(debounceTimerRef.current);
+      debounceTimerRef.current = null;
+      try {
+        await pushCloudProgress(uid, { ...latestSnapshotRef.current, updatedAt: Date.now() });
+      } catch {
+        // Proceed with sign-out even if offline
+      }
+    }
+
+    await signOut();
+    syncedUserIdRef.current = null;
+    clearLocalLearningProgress();
+    applySnapshotToState(createEmptySnapshot());
+  }, [user?.id, signOut, applySnapshotToState]);
 
   // Combined search index (public search-index.json + saved listening customWords)
   const searchIndex = useMemo(() => {
@@ -618,7 +832,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   };
 
   const setDailyGoal = (goal: number) => {
-    setProfile((prev) => ({ ...prev, dailyGoal: Math.max(5, Math.min(100, goal)) }));
+    const clamped = Math.max(5, Math.min(100, goal));
+    setProfile((prev) => ({ ...prev, dailyGoal: clamped }));
+    if (user?.id) {
+      updateCloudProfileGoal(user.id, clamped).catch(() => {
+        // Silent background goal sync
+      });
+    }
   };
 
   const toggleReadingHighlight = (passageId: string, sentenceId: string) => {
@@ -689,6 +909,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         toggleReadingHighlight,
         clearReadingHighlights,
         recordReadingResult,
+        syncNow,
+        signOutAndClear,
       }}
     >
       {children}

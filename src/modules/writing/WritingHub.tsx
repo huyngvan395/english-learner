@@ -132,7 +132,7 @@ export const WritingHub: React.FC = () => {
   const editorRef = useRef<HTMLTextAreaElement | null>(null);
   const evaluationRef = useRef<HTMLDivElement | null>(null);
 
-  // Persist drafts & custom prompt
+  // Persist drafts & notify Cloud Sync debouncer (Gemini API key is NEVER synced)
   useEffect(() => {
     try {
       localStorage.setItem(DRAFTS_STORAGE_KEY, JSON.stringify(drafts));
@@ -140,6 +140,15 @@ export const WritingHub: React.FC = () => {
       // Ignore storage quota
     }
   }, [drafts]);
+
+  // Reload drafts immediately when Cloud Sync hydrates or signs out
+  useEffect(() => {
+    const onHydrated = () => {
+      setDrafts(loadDraftsMap());
+    };
+    window.addEventListener('tmh:progress-hydrated', onHydrated);
+    return () => window.removeEventListener('tmh:progress-hydrated', onHydrated);
+  }, []);
 
   useEffect(() => {
     try {
@@ -256,6 +265,7 @@ export const WritingHub: React.FC = () => {
   const handleDraftChange = (val: string) => {
     if (!activePromptKey) return;
     setDrafts((prev) => ({ ...prev, [activePromptKey]: val }));
+    window.dispatchEvent(new Event('tmh:draft-updated'));
   };
 
   const handleClearDraft = () => {
@@ -265,6 +275,7 @@ export const WritingHub: React.FC = () => {
       delete next[activePromptKey];
       return next;
     });
+    window.dispatchEvent(new Event('tmh:draft-updated'));
     setGradeError(null);
   };
 

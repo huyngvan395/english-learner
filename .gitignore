@@ -7,6 +7,7 @@ dist-ssr/
 # Environment & Secrets
 .env
 .env.*
+my-private
 
 # Python
 __pycache__/
