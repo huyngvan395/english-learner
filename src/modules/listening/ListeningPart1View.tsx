@@ -4,6 +4,7 @@ import { LISTENING_PART1_QUESTIONS } from '../../data/listeningPart1';
 import { OptionKey } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { Part1Illustration } from '../../components/Part1Illustrations';
+import { ZoomableImage } from '../../components/ImageLightbox';
 import { SmartAudioPlayer } from '../../components/SmartAudioPlayer';
 import { ListeningAnalysisPanel } from './ListeningAnalysisPanel';
 
@@ -49,8 +50,8 @@ export const ListeningPart1View: React.FC = () => {
   return (
     <div className="space-y-5">
       {/* Selector pills */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-[#111827] p-4">
-        <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2 w-full sm:w-auto">
           {LISTENING_PART1_QUESTIONS.map((item, i) => {
             const done = submitted[item.id];
             const ok = done && selected[item.id] === item.correctAnswer;
@@ -62,7 +63,7 @@ export const ListeningPart1View: React.FC = () => {
                   setIdx(i);
                   setActiveLineId(null);
                 }}
-                className={`rounded-xl px-3.5 py-2 text-xs sm:text-sm font-bold transition ${
+                className={`shrink-0 rounded-xl px-3.5 py-2 text-xs sm:text-sm font-bold transition ${
                   idx === i
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white'
                     : done
@@ -113,11 +114,11 @@ export const ListeningPart1View: React.FC = () => {
             </div>
             <div className="aspect-[16/10] w-full overflow-hidden rounded-xl border border-slate-700/70 bg-slate-950 flex items-center justify-center">
               {q.imageUrl ? (
-                <img
+                <ZoomableImage
                   src={q.imageUrl}
                   alt={q.title}
-                  className="h-full w-full object-cover"
-                  loading="lazy"
+                  containerClassName="h-full w-full"
+                  className="h-full w-full max-w-full object-cover"
                 />
               ) : (
                 <Part1Illustration illustrationKey={q.illustrationKey} />
@@ -131,6 +132,7 @@ export const ListeningPart1View: React.FC = () => {
             activeLineId={activeLineId}
             onActiveLineChange={(lineId) => setActiveLineId(lineId)}
             externalPlayLineIndex={externalPlay}
+            sticky
             label={`Audio Part 1 — Tranh ${idx + 1} (Nghe 4 câu mô tả A, B, C, D)`}
           />
         </div>

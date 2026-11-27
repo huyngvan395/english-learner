@@ -72,8 +72,8 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part }
   return (
     <div className="space-y-5">
       {/* Set Selector */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-[#111827] p-4">
-        <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2 w-full sm:w-auto">
           {sets.map((s, i) => (
             <button
               key={s.id}
@@ -82,7 +82,7 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part }
                 setSetIdx(i);
                 setActiveLineId(null);
               }}
-              className={`rounded-xl px-4 py-2 text-xs sm:text-sm font-bold transition ${
+              className={`shrink-0 rounded-xl px-4 py-2 text-xs sm:text-sm font-bold transition ${
                 setIdx === i
                   ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 text-white shadow-sm'
                   : 'bg-slate-800 text-slate-300 hover:text-white'
@@ -113,8 +113,19 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part }
         )}
       </div>
 
-      {/* Audio + Metadata + Graphic Table */}
-      <div className="rounded-2xl border border-slate-700/80 bg-[#1E293B] p-5 shadow-card space-y-4">
+      {/* Sticky Audio Player stays pinned while scrolling Interactive Transcript & Questions */}
+      <SmartAudioPlayer
+        lines={audioLines}
+        audioUrl={currentSet.audioUrl}
+        activeLineId={activeLineId}
+        onActiveLineChange={(lineId) => setActiveLineId(lineId)}
+        externalPlayLineIndex={externalPlay}
+        sticky
+        label={`Audio Part ${part} — ${currentSet.transcript.length} lượt thoại phân vai giọng Nam/Nữ`}
+      />
+
+      {/* Metadata + Graphic Table */}
+      <div className="rounded-2xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-5 shadow-card space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
             <div className="flex items-center gap-2 flex-wrap">
@@ -131,18 +142,9 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part }
                 </span>
               )}
             </div>
-            <h3 className="mt-1.5 text-lg font-extrabold text-white">{currentSet.title}</h3>
+            <h3 className="mt-1.5 text-base sm:text-lg font-extrabold text-white">{currentSet.title}</h3>
           </div>
         </div>
-
-        <SmartAudioPlayer
-          lines={audioLines}
-          audioUrl={currentSet.audioUrl}
-          activeLineId={activeLineId}
-          onActiveLineChange={(lineId) => setActiveLineId(lineId)}
-          externalPlayLineIndex={externalPlay}
-          label={`Audio Part ${part} — ${currentSet.transcript.length} lượt thoại phân vai giọng Nam/Nữ`}
-        />
 
         {/* Graphic Table if present */}
         {currentSet.graphic && (

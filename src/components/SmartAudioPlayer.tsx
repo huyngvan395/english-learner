@@ -9,6 +9,7 @@ interface SmartAudioPlayerProps {
   onActiveLineChange?: (lineId: string | null, index: number) => void;
   externalPlayLineIndex?: { index: number; token: number } | null;
   compact?: boolean;
+  sticky?: boolean;
   label?: string;
 }
 
@@ -27,6 +28,7 @@ export const SmartAudioPlayer: React.FC<SmartAudioPlayerProps> = ({
   onActiveLineChange,
   externalPlayLineIndex,
   compact = false,
+  sticky = false,
   label = 'Trình phát Audio TOEIC thông minh',
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -204,9 +206,11 @@ export const SmartAudioPlayer: React.FC<SmartAudioPlayerProps> = ({
 
   return (
     <div
-      className={`rounded-2xl border border-slate-700/70 bg-slate-900/90 ${
-        compact ? 'p-3.5' : 'p-4 sm:p-5'
-      } shadow-card`}
+      className={`rounded-2xl border border-slate-700/80 ${
+        sticky
+          ? 'sticky top-14 md:top-16 z-20 bg-slate-900/95 backdrop-blur-md shadow-xl'
+          : 'bg-slate-900/90 shadow-card'
+      } ${compact ? 'p-3' : 'p-3.5 sm:p-5'}`}
     >
       {audioUrl && !mp3Failed && (
         <audio

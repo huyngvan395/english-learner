@@ -2,9 +2,11 @@ import React, { useMemo, useState } from 'react';
 import {
   BookmarkCheck,
   BookmarkPlus,
+  BookOpen,
   CheckCircle2,
   Eraser,
   EyeOff,
+  HelpCircle,
   Highlighter,
   Languages,
   MessageSquareText,
@@ -27,6 +29,7 @@ import {
 } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { Part1Illustration } from '../../components/Part1Illustrations';
+import { ZoomableImage } from '../../components/ImageLightbox';
 import { SmartAudioPlayer } from '../../components/SmartAudioPlayer';
 import { ListeningAnalysisPanel } from '../listening/ListeningAnalysisPanel';
 import { ReadingExplanationCard } from '../reading/ReadingExplanationCard';
@@ -84,7 +87,12 @@ export const Part1QuestionBlock: React.FC<{
             </div>
             <div className="aspect-[16/10] w-full overflow-hidden rounded-xl border border-slate-700/70 bg-slate-950 flex items-center justify-center">
               {item.imageUrl ? (
-                <img src={item.imageUrl} alt={item.title} className="h-full w-full object-cover" loading="lazy" />
+                <ZoomableImage
+                  src={item.imageUrl}
+                  alt={item.title}
+                  containerClassName="h-full w-full"
+                  className="h-full w-full max-w-full object-cover"
+                />
               ) : (
                 <Part1Illustration illustrationKey={item.illustrationKey} />
               )}
@@ -435,11 +443,10 @@ export const Part34SetBlock: React.FC<{
             <p className="text-xs font-extrabold uppercase tracking-wider text-amber-300 mb-2">
               Biểu đồ / Bảng biểu đính kèm (Graphic)
             </p>
-            <img
+            <ZoomableImage
               src={set.graphicImageUrl}
               alt={`Graphic for ${set.title}`}
-              className="mx-auto max-h-80 w-auto rounded-lg bg-white p-1 object-contain"
-              loading="lazy"
+              className="mx-auto max-h-80 max-w-full w-auto h-auto rounded-lg bg-white p-1 object-contain"
             />
           </div>
         )}
@@ -742,6 +749,7 @@ export const Part6PassageBlock: React.FC<{
   const [showTranslation, setShowTranslation] = useState(false);
   const [highlightMode, setHighlightMode] = useState(false);
   const [activeEvidenceId, setActiveEvidenceId] = useState<string | null>(null);
+  const [mobilePane, setMobilePane] = useState<'passage' | 'questions'>('passage');
 
   const userMarks = readingHighlights[passage.id] || [];
   const displayedQuestions = useMemo(
@@ -750,18 +758,52 @@ export const Part6PassageBlock: React.FC<{
   );
 
   const handleLocateEvidence = (_pIdx: number, sentenceId: string) => {
+    setMobilePane('passage');
     setActiveEvidenceId(null);
     window.setTimeout(() => {
       setActiveEvidenceId(sentenceId);
       const el = document.getElementById(`ev-${sentenceId}`);
       el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }, 40);
+    }, 60);
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
-      {/* Left: Bilingual Passage */}
-      <div className="lg:col-span-6 lg:sticky lg:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] p-5 shadow-card space-y-4">
+    <div className="space-y-3">
+      {/* Mobile Split-Screen Tab Switcher (< lg) */}
+      <div className="lg:hidden grid grid-cols-2 gap-1.5 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 p-1">
+        <button
+          type="button"
+          onClick={() => setMobilePane('passage')}
+          className={`inline-flex items-center justify-center gap-1.5 rounded-xl py-2.5 text-xs font-extrabold transition ${
+            mobilePane === 'passage'
+              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          <BookOpen className="h-3.5 w-3.5" />
+          Bài đọc Part 6
+        </button>
+        <button
+          type="button"
+          onClick={() => setMobilePane('questions')}
+          className={`inline-flex items-center justify-center gap-1.5 rounded-xl py-2.5 text-xs font-extrabold transition ${
+            mobilePane === 'questions'
+              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          <HelpCircle className="h-3.5 w-3.5" />
+          Câu hỏi ({displayedQuestions.length})
+        </button>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+        {/* Left: Bilingual Passage */}
+        <div
+          className={`${
+            mobilePane === 'passage' ? 'block' : 'hidden lg:block'
+          } lg:col-span-6 lg:sticky lg:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-5 shadow-card space-y-4`}
+        >
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-700/70 pb-3">
           <div>
             <span className="rounded bg-indigo-500/20 px-2 py-0.5 text-[10px] font-extrabold text-indigo-300 uppercase">
@@ -848,7 +890,7 @@ export const Part6PassageBlock: React.FC<{
       </div>
 
       {/* Right: Questions */}
-      <div className="lg:col-span-6 space-y-4">
+      <div className={`${mobilePane === 'questions' ? 'block' : 'hidden lg:block'} lg:col-span-6 space-y-4`}>
         {displayedQuestions.map((q, idx) => {
           const chosen = answers[q.id];
           return (
@@ -918,6 +960,7 @@ export const Part6PassageBlock: React.FC<{
         )}
       </div>
     </div>
+    </div>
   );
 };
 
@@ -938,6 +981,7 @@ export const Part7SetBlock: React.FC<{
   const [showTranslation, setShowTranslation] = useState(false);
   const [highlightMode, setHighlightMode] = useState(false);
   const [activeEvidenceId, setActiveEvidenceId] = useState<string | null>(null);
+  const [mobilePane, setMobilePane] = useState<'passage' | 'questions'>('passage');
 
   const currentDoc = set.passages[activeDocIdx] || set.passages[0];
   const userMarks = readingHighlights[currentDoc.id] || [];
@@ -947,6 +991,7 @@ export const Part7SetBlock: React.FC<{
   );
 
   const handleLocateEvidence = (passageIndex: number, sentenceId: string) => {
+    setMobilePane('passage');
     setActiveDocIdx(passageIndex);
     setActiveEvidenceId(null);
     window.setTimeout(() => {
@@ -957,9 +1002,42 @@ export const Part7SetBlock: React.FC<{
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
-      {/* Left: Multi-Passage Viewer */}
-      <div className="lg:col-span-6 lg:sticky lg:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] p-5 shadow-card space-y-4">
+    <div className="space-y-3">
+      {/* Mobile Split-Screen Tab Switcher (< lg) */}
+      <div className="lg:hidden grid grid-cols-2 gap-1.5 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 p-1">
+        <button
+          type="button"
+          onClick={() => setMobilePane('passage')}
+          className={`inline-flex items-center justify-center gap-1.5 rounded-xl py-2.5 text-xs font-extrabold transition ${
+            mobilePane === 'passage'
+              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          <BookOpen className="h-3.5 w-3.5" />
+          Bài đọc ({set.passages.length} đoạn)
+        </button>
+        <button
+          type="button"
+          onClick={() => setMobilePane('questions')}
+          className={`inline-flex items-center justify-center gap-1.5 rounded-xl py-2.5 text-xs font-extrabold transition ${
+            mobilePane === 'questions'
+              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          <HelpCircle className="h-3.5 w-3.5" />
+          Câu hỏi ({displayedQuestions.length})
+        </button>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+        {/* Left: Multi-Passage Viewer */}
+        <div
+          className={`${
+            mobilePane === 'passage' ? 'block' : 'hidden lg:block'
+          } lg:col-span-6 lg:sticky lg:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-5 shadow-card space-y-4`}
+        >
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-700/70 pb-3">
           <div className="flex flex-wrap gap-1.5">
             {set.passages.map((doc, idx) => (
@@ -1121,7 +1199,7 @@ export const Part7SetBlock: React.FC<{
       </div>
 
       {/* Right: Questions */}
-      <div className="lg:col-span-6 space-y-4">
+      <div className={`${mobilePane === 'questions' ? 'block' : 'hidden lg:block'} lg:col-span-6 space-y-4`}>
         {displayedQuestions.map((q, idx) => {
           const chosen = answers[q.id];
           return (
@@ -1192,6 +1270,7 @@ export const Part7SetBlock: React.FC<{
           </button>
         )}
       </div>
+    </div>
     </div>
   );
 };

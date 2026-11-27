@@ -1,6 +1,7 @@
 import React, { useMemo, useRef, useState } from 'react';
 import {
   Flame,
+  GraduationCap,
   Loader2,
   Menu,
   Search,
@@ -23,10 +24,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
   const { searchIndex, customWords, profile, toggleSaveWord, isWordSaved } = useApp();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [selectedEntry, setSelectedEntry] = useState<SearchIndexEntry | null>(null);
   const [selectedFullWord, setSelectedFullWord] = useState<VocabWord | null>(null);
   const [loadingDetail, setLoadingDetail] = useState(false);
   const inputRef = useRef<HTMLInputElement | null>(null);
+  const mobileInputRef = useRef<HTMLInputElement | null>(null);
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -81,20 +84,31 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
 
   return (
     <>
-      <header className="sticky top-0 z-30 border-b border-slate-800/80 bg-[#0B1120]/90 backdrop-blur-md">
-        <div className="flex h-16 items-center justify-between gap-3 px-4 lg:px-6">
-          {/* Left: Mobile menu + Quick Dictionary */}
-          <div className="flex flex-1 items-center gap-3 max-w-xl">
+      <header className="sticky top-0 z-30 border-b border-slate-800/80 bg-[#0B1120]/95 backdrop-blur-md">
+        <div className="flex h-14 md:h-16 items-center justify-between gap-2 md:gap-3 px-3 sm:px-4 lg:px-6">
+          {/* Left: Mobile menu + Compact Mobile Brand / Desktop Quick Dictionary */}
+          <div className="flex flex-1 items-center gap-2 sm:gap-3 min-w-0 max-w-xl">
             <button
               type="button"
               onClick={onOpenMobileMenu}
-              className="lg:hidden flex h-10 w-10 items-center justify-center rounded-xl border border-slate-800 bg-slate-900 text-slate-300 hover:text-white"
+              className="lg:hidden flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-slate-800 bg-slate-900 text-slate-300 hover:text-white active:scale-95 transition"
               aria-label="Mở menu điều hướng"
             >
               <Menu className="h-5 w-5" />
             </button>
 
-            <div className="relative flex-1">
+            {/* Mobile Compact Logo (< md) */}
+            <div className="flex md:hidden items-center gap-2 min-w-0">
+              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 via-indigo-600 to-violet-600 text-white shadow-sm">
+                <GraduationCap className="h-4 w-4" />
+              </div>
+              <span className="truncate text-sm font-extrabold tracking-tight text-white">
+                TOEIC Hub
+              </span>
+            </div>
+
+            {/* Desktop & Tablet Inline Search (md+) */}
+            <div className="relative hidden md:block flex-1">
               <Search className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
               <input
                 ref={inputRef}
@@ -106,7 +120,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                   setIsOpen(true);
                 }}
                 placeholder={`Tra từ điển nhanh (${searchIndex.length.toLocaleString('vi-VN')} từ Anh / Việt...)`}
-                className="w-full rounded-xl border border-slate-700/70 bg-slate-900/90 pl-10 pr-9 py-2 text-sm text-slate-100 placeholder-slate-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 focus:outline-none transition"
+                className="w-full rounded-xl border border-slate-700/70 bg-slate-900/90 pl-10 pr-9 py-2 text-base md:text-sm text-slate-100 placeholder-slate-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 focus:outline-none transition"
               />
               {query && (
                 <button
@@ -166,24 +180,58 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
           </div>
 
-          {/* Right: Streak, XP, Daily Goal */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          {/* Right: Mobile Search Toggle + Streak, XP, Daily Goal */}
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+            <button
+              type="button"
+              onClick={() => {
+                setMobileSearchOpen((v) => {
+                  const next = !v;
+                  if (next) {
+                    window.setTimeout(() => mobileInputRef.current?.focus(), 60);
+                  } else {
+                    setIsOpen(false);
+                  }
+                  return next;
+                });
+              }}
+              aria-label="Tra từ điển nhanh"
+              className={`md:hidden flex h-9 w-9 items-center justify-center rounded-xl border transition ${
+                mobileSearchOpen
+                  ? 'border-indigo-500 bg-indigo-500/20 text-indigo-200'
+                  : 'border-slate-800 bg-slate-900 text-slate-300 hover:text-white'
+              }`}
+            >
+              {mobileSearchOpen ? <X className="h-4 w-4" /> : <Search className="h-4 w-4" />}
+            </button>
+
             <div
-              className="flex items-center gap-1.5 rounded-xl border border-amber-500/30 bg-amber-500/10 px-2.5 py-1.5 text-amber-300"
+              className="flex items-center gap-1 rounded-xl border border-amber-500/30 bg-amber-500/10 px-2 sm:px-2.5 py-1.5 text-amber-300"
               title="Chuỗi ngày học liên tiếp"
             >
-              <Flame className="h-4 w-4 fill-amber-400 text-amber-400" />
+              <Flame className="h-3.5 w-3.5 sm:h-4 sm:w-4 fill-amber-400 text-amber-400" />
               <span className="text-xs sm:text-sm font-bold">{profile.streak}</span>
               <span className="hidden md:inline text-[11px] text-amber-200/80">ngày</span>
             </div>
 
             <div
-              className="flex items-center gap-1.5 rounded-xl border border-violet-500/30 bg-violet-500/10 px-2.5 py-1.5 text-violet-300"
+              className="flex items-center gap-1 rounded-xl border border-violet-500/30 bg-violet-500/10 px-2 sm:px-2.5 py-1.5 text-violet-300"
               title="Điểm kinh nghiệm tích lũy"
             >
-              <Sparkles className="h-4 w-4 text-violet-400" />
+              <Sparkles className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-violet-400" />
               <span className="text-xs sm:text-sm font-bold">{profile.xp}</span>
               <span className="hidden sm:inline text-[11px] text-violet-200/80">XP</span>
+            </div>
+
+            {/* Compact Daily Goal chip on tiny phones */}
+            <div
+              className="flex sm:hidden items-center gap-1 rounded-xl border border-cyan-500/30 bg-cyan-500/10 px-2 py-1.5 text-cyan-300"
+              title="Mục tiêu ôn từ vựng mỗi ngày"
+            >
+              <Target className="h-3.5 w-3.5 text-cyan-400 shrink-0" />
+              <span className="text-[11px] font-bold">
+                {profile.todayWordsStudied}/{profile.dailyGoal}
+              </span>
             </div>
 
             <div
@@ -208,6 +256,84 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
           </div>
         </div>
+
+        {/* Expandable Full-Width Mobile Quick Dictionary Bar (< md) */}
+        {mobileSearchOpen && (
+          <div className="md:hidden border-t border-slate-800/80 px-3 py-2.5 bg-[#0B1120]">
+            <div className="relative">
+              <Search className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
+              <input
+                ref={mobileInputRef}
+                type="text"
+                value={query}
+                onFocus={() => setIsOpen(true)}
+                onChange={(e) => {
+                  setQuery(e.target.value);
+                  setIsOpen(true);
+                }}
+                placeholder={`Tra từ điển nhanh (${searchIndex.length.toLocaleString('vi-VN')} từ)...`}
+                className="w-full rounded-xl border border-slate-700/80 bg-slate-900 pl-10 pr-9 py-2.5 text-base text-slate-100 placeholder-slate-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 focus:outline-none"
+              />
+              {query && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setQuery('');
+                    setIsOpen(false);
+                  }}
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-white"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              )}
+
+              {isOpen && query.trim().length > 0 && (
+                <div className="absolute left-0 right-0 top-12 z-50 rounded-2xl border border-slate-700/80 bg-[#111827] shadow-2xl overflow-hidden">
+                  {results.length === 0 ? (
+                    <div className="p-4 text-center text-sm text-slate-400">
+                      Không tìm thấy từ phù hợp với &ldquo;{query}&rdquo;.
+                    </div>
+                  ) : (
+                    <div className="divide-y divide-slate-800/80 max-h-[60dvh] overflow-y-auto">
+                      {results.map((item) => (
+                        <button
+                          key={item.id}
+                          type="button"
+                          onClick={() => {
+                            handleOpenEntry(item);
+                            setMobileSearchOpen(false);
+                          }}
+                          className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-slate-800/70 transition"
+                        >
+                          <div className="min-w-0">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span className="font-bold text-slate-100">{item.word}</span>
+                              <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-semibold text-indigo-300">
+                                {item.partOfSpeech}
+                              </span>
+                              <span className="font-mono text-xs text-slate-400">{item.ipaUS}</span>
+                            </div>
+                            <p className="truncate text-xs text-slate-300 mt-0.5">{item.meaningVi}</p>
+                          </div>
+                          <span
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              speakText(item.word, { accent: 'en-US' });
+                            }}
+                            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-slate-800 text-indigo-400 hover:bg-indigo-600 hover:text-white transition"
+                            title="Nghe phát âm US"
+                          >
+                            <Volume2 className="h-4 w-4" />
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </header>
 
       {/* Backdrop to close dropdown */}
@@ -218,11 +344,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
       {/* Quick Dictionary Detail Modal (lazy-loads full card from deck JSON) */}
       {selectedEntry && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/75 backdrop-blur-sm p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/75 backdrop-blur-sm p-3 sm:p-4"
           onClick={closeModal}
         >
           <div
-            className="w-full max-w-xl rounded-2xl border border-slate-700/80 bg-[#1E293B] p-6 shadow-2xl max-h-[88vh] overflow-y-auto"
+            className="w-full max-w-xl rounded-2xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-6 shadow-2xl max-h-[90dvh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-start justify-between gap-3">

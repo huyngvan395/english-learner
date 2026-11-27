@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
+  BookOpen,
   CheckCircle2,
   Clock,
   Eraser,
   Filter,
+  HelpCircle,
   Highlighter,
   Languages,
   Loader2,
@@ -64,6 +66,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
   const [showTranslation, setShowTranslation] = useState(false);
   const [highlightMode, setHighlightMode] = useState(false);
   const [activeEvidenceId, setActiveEvidenceId] = useState<string | null>(null);
+  const [mobileTab, setMobileTab] = useState<'passage' | 'questions'>('passage');
   const [timeLeft, setTimeLeft] = useState(8 * 60);
 
   useEffect(() => {
@@ -122,12 +125,13 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
   }, [mode, examSubmitted, answers, passage]);
 
   const handleLocateEvidence = (_pIdx: number, sentenceId: string) => {
+    setMobileTab('passage');
     setActiveEvidenceId(null);
     window.setTimeout(() => {
       setActiveEvidenceId(sentenceId);
       const el = document.getElementById(`ev-${sentenceId}`);
       el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }, 40);
+    }, 80);
   };
 
   const handleCheckPractice = (qId: string) => {
@@ -195,9 +199,9 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
 
       {/* Genre Filter + Passage Selector with Progress Badges */}
       <div className="rounded-2xl border border-slate-800 bg-[#111827] p-4 space-y-3.5">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-3">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
+            <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
               <Filter className="h-3.5 w-3.5 text-indigo-400" />
               Thể loại:
             </span>
@@ -208,7 +212,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
                   key={gf.key}
                   type="button"
                   onClick={() => setGenreFilter(gf.key)}
-                  className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1 text-xs font-bold transition ${
+                  className={`shrink-0 inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 sm:py-1 text-xs font-bold transition ${
                     genreFilter === gf.key
                       ? 'bg-indigo-600 text-white'
                       : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
@@ -294,7 +298,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
         </div>
 
         {/* Passage Selector Pills with Progress */}
-        <div className="flex flex-wrap gap-2 max-h-36 overflow-y-auto pt-1 border-t border-slate-800/80">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2 sm:max-h-36 sm:overflow-y-auto pt-2 border-t border-slate-800/80">
           {filteredPassages.map((p, idx) => {
             const totalQ = p.questions.length;
             const doneQ = p.questions.filter((q) => Boolean(readingProgress[q.id])).length;
@@ -305,7 +309,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
                 key={p.id}
                 type="button"
                 onClick={() => setSelectedPassageId(p.id)}
-                className={`inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
+                className={`shrink-0 inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
                   isSelected
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                     : 'bg-slate-800/90 text-slate-300 hover:text-white border border-slate-700/60'
@@ -336,10 +340,43 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
           Chưa có đoạn văn nào thuộc thể loại này.
         </div>
       ) : (
-        /* Split-Screen Layout */
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
-          {/* Left: Passage */}
-          <div className="xl:col-span-6 xl:sticky xl:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] p-5 sm:p-6 shadow-card max-h-[82vh] overflow-y-auto space-y-4">
+        <div className="space-y-4">
+          {/* Sticky Mobile Tab Switcher (< xl) */}
+          <div className="xl:hidden sticky top-14 md:top-16 z-20 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 backdrop-blur-md p-1.5 shadow-lg grid grid-cols-2 gap-1.5">
+            <button
+              type="button"
+              onClick={() => setMobileTab('passage')}
+              className={`min-h-[42px] inline-flex items-center justify-center gap-1.5 rounded-xl px-3 py-2 text-xs font-extrabold transition ${
+                mobileTab === 'passage'
+                  ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              <BookOpen className="h-4 w-4" />
+              Bài đọc
+            </button>
+            <button
+              type="button"
+              onClick={() => setMobileTab('questions')}
+              className={`min-h-[42px] inline-flex items-center justify-center gap-1.5 rounded-xl px-3 py-2 text-xs font-extrabold transition ${
+                mobileTab === 'questions'
+                  ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              <HelpCircle className="h-4 w-4" />
+              Câu hỏi ({passage.questions.length})
+            </button>
+          </div>
+
+          {/* Split-Screen Layout */}
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
+            {/* Left: Passage */}
+            <div
+              className={`${
+                mobileTab === 'passage' ? 'block' : 'hidden xl:block'
+              } xl:col-span-6 xl:sticky xl:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-6 shadow-card xl:max-h-[82vh] xl:overflow-y-auto space-y-4`}
+            >
             <div className="flex items-center justify-between gap-2 border-b border-slate-700/70 pb-3">
               <div>
                 <span className="rounded-md bg-indigo-500/20 px-2 py-0.5 text-[11px] font-bold text-indigo-300 uppercase">
@@ -404,7 +441,11 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
           </div>
 
           {/* Right: Questions */}
-          <div className="xl:col-span-6 space-y-4">
+          <div
+            className={`${
+              mobileTab === 'questions' ? 'block' : 'hidden xl:block'
+            } xl:col-span-6 space-y-4`}
+          >
             {passage.questions.map((q) => {
               const userChoice = answers[q.id];
               const isRevealed = mode === 'practice' ? Boolean(revealedIds[q.id]) : examSubmitted;
@@ -490,6 +531,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
               );
             })}
           </div>
+        </div>
         </div>
       )}
     </div>

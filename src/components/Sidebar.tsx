@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   BarChart3,
   BookOpen,
@@ -42,6 +42,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const { vocabProgress, notes, wrongQuestions, syncNow, signOutAndClear } = useApp();
   const { user, userProfile, syncStatus, syncError, openAuthModal } = useAuth();
+
+  // Lock background page scroll while mobile slide-over drawer is open
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [mobileOpen]);
 
   const displayName =
     userProfile?.full_name ||
@@ -120,7 +130,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <button
               type="button"
               onClick={onCloseMobile}
-              className="flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 hover:bg-slate-800 hover:text-white"
+              aria-label="Đóng menu"
+              className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-800 hover:text-white transition"
             >
               <X className="h-4 w-4" />
             </button>
@@ -179,7 +190,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </nav>
 
         {/* Bottom Account & Cloud Sync Area (Parroto-inspired) */}
-        <div className="p-3 border-t border-slate-800/80 bg-[#0B1120]/60">
+        <div className="p-3 pb-safe border-t border-slate-800/80 bg-[#0B1120]/60 shrink-0">
           {!user ? (
             isCollapsed ? (
               <button
@@ -193,7 +204,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
             ) : (
               <button
                 type="button"
-                onClick={() => openAuthModal('signin')}
+                onClick={() => {
+                  onCloseMobile();
+                  openAuthModal('signin');
+                }}
                 className="group w-full rounded-2xl border border-indigo-500/40 bg-gradient-to-br from-blue-600/25 via-indigo-600/20 to-violet-600/25 hover:from-blue-600/35 hover:to-violet-600/35 p-3.5 text-left transition shadow-sm"
               >
                 <div className="flex items-center gap-2.5">
@@ -328,21 +342,28 @@ export const Sidebar: React.FC<SidebarProps> = ({
           collapsed ? 'w-[76px]' : 'w-64'
         }`}
       >
-        <div className="sticky top-0 h-screen">{renderContent(false)}</div>
+        <div className="sticky top-0 h-[100dvh]">{renderContent(false)}</div>
       </aside>
 
-      {/* Mobile Drawer */}
-      {mobileOpen && (
-        <div className="fixed inset-0 z-50 flex lg:hidden">
-          <div
-            className="fixed inset-0 bg-slate-950/75 backdrop-blur-sm"
-            onClick={onCloseMobile}
-          />
-          <div className="relative z-10 w-72 max-w-[82vw] h-full shadow-2xl">
-            {renderContent(true)}
-          </div>
+      {/* Mobile Slide-over Drawer (100dvh prevents address-bar clipping) */}
+      <div
+        className={`fixed inset-0 z-50 flex lg:hidden transition-opacity duration-200 ${
+          mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+        aria-hidden={!mobileOpen}
+      >
+        <div
+          className="fixed inset-0 bg-slate-950/75 backdrop-blur-sm"
+          onClick={onCloseMobile}
+        />
+        <div
+          className={`relative z-10 w-72 max-w-[85vw] h-[100dvh] shadow-2xl transition-transform duration-200 ease-out ${
+            mobileOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
+        >
+          {renderContent(true)}
         </div>
-      )}
+      </div>
     </>
   );
 };

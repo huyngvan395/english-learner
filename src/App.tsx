@@ -20,7 +20,7 @@ const AppShell: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex bg-[#0B1120] text-slate-100">
+    <div className="min-h-[100dvh] flex bg-[#0B1120] text-slate-100 overflow-x-clip">
       <Sidebar
         activeTab={activeTab}
         onSelectTab={setActiveTab}
@@ -33,7 +33,7 @@ const AppShell: React.FC = () => {
       <div className="flex-1 flex flex-col min-w-0">
         <Header onOpenMobileMenu={() => setMobileMenuOpen(true)} />
 
-        <main className="flex-1 px-4 py-6 lg:px-8 max-w-[1440px] w-full mx-auto">
+        <main className="flex-1 px-3 py-4 sm:px-4 sm:py-6 lg:px-8 max-w-[1440px] w-full mx-auto min-w-0">
           {activeTab === 'vocab' && <VocabHub />}
           {activeTab === 'toeic-exam' && <ToeicExamHub />}
           {activeTab === 'reading' && <ReadingHub />}

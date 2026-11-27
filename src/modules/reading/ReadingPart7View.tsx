@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
+  BookOpen,
   CheckCircle2,
   Clock,
   Eraser,
   Filter,
+  HelpCircle,
   Highlighter,
   Languages,
   Layers,
@@ -89,6 +91,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
   const [showTranslation, setShowTranslation] = useState(false);
   const [highlightMode, setHighlightMode] = useState(false);
   const [activeEvidenceId, setActiveEvidenceId] = useState<string | null>(null);
+  const [mobileTab, setMobileTab] = useState<'passage' | 'questions'>('passage');
   const [timeLeft, setTimeLeft] = useState(12 * 60);
 
   // Lazy-load only the requested passageCountType file(s) from public/data/reading/
@@ -152,13 +155,14 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
   }, [mode, examSubmitted, answers, currentSet]);
 
   const handleLocateEvidence = (passageIndex: number, sentenceId: string) => {
+    setMobileTab('passage');
     setActiveDocIdx(passageIndex);
     setActiveEvidenceId(null);
     window.setTimeout(() => {
       setActiveEvidenceId(sentenceId);
       const el = document.getElementById(`ev-${sentenceId}`);
       el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }, 90);
+    }, 100);
   };
 
   const handleCheckPractice = (qId: string) => {
@@ -209,10 +213,10 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
 
       {/* Passage Count + Genre Filters + Set Selector */}
       <div className="rounded-2xl border border-slate-800 bg-[#111827] p-4 space-y-3.5">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-3">
           {/* Passage Count Filter */}
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
+            <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
               <Layers className="h-3.5 w-3.5 text-violet-400" />
               Số đoạn:
             </span>
@@ -221,7 +225,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
                 key={cf.key}
                 type="button"
                 onClick={() => setCountFilter(cf.key)}
-                className={`rounded-lg px-2.5 py-1 text-xs font-bold transition ${
+                className={`shrink-0 rounded-lg px-2.5 py-1.5 sm:py-1 text-xs font-bold transition ${
                   countFilter === cf.key
                     ? 'bg-gradient-to-r from-blue-600 to-violet-600 text-white'
                     : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
@@ -306,8 +310,8 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
         </div>
 
         {/* Genre Filter Row */}
-        <div className="flex flex-wrap items-center gap-1.5 border-t border-slate-800/80 pt-3">
-          <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 border-t border-slate-800/80 pt-3">
+          <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
             <Filter className="h-3.5 w-3.5 text-cyan-400" />
             Thể loại văn bản:
           </span>
@@ -318,7 +322,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
                 key={gf.key}
                 type="button"
                 onClick={() => setGenreFilter(gf.key)}
-                className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-bold transition ${
+                className={`shrink-0 inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 sm:py-1 text-xs font-bold transition ${
                   genreFilter === gf.key
                     ? 'bg-cyan-500/20 border border-cyan-400/50 text-cyan-200'
                     : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
@@ -333,7 +337,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
 
         {/* Set Picker Pills with Progress */}
         {!loading && filteredSets.length > 0 && (
-          <div className="flex flex-wrap gap-2 max-h-40 overflow-y-auto pt-2 border-t border-slate-800/80">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2 sm:max-h-40 sm:overflow-y-auto pt-2 border-t border-slate-800/80">
             {filteredSets.map((s, idx) => {
               const typeBadge =
                 s.passageCountType === 'single'
@@ -350,7 +354,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
                   key={s.id}
                   type="button"
                   onClick={() => setSelectedSetId(s.id)}
-                  className={`inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
+                  className={`shrink-0 inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
                     isSelected
                       ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 text-white shadow-sm'
                       : 'bg-slate-800/90 text-slate-300 hover:text-white border border-slate-700/60'
@@ -402,11 +406,44 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
           </button>
         </div>
       ) : (
-        /* Split-Screen Container */
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
-          {/* LEFT PANE: Multi-tab Passages */}
-          <div className="xl:col-span-6 xl:sticky xl:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] shadow-card overflow-hidden flex flex-col max-h-[82vh]">
-            <div className="flex items-center gap-1.5 overflow-x-auto border-b border-slate-700/80 bg-slate-900/90 px-4 pt-3 pb-2.5">
+        <div className="space-y-4">
+          {/* Sticky Mobile Tab Switcher (< xl) */}
+          <div className="xl:hidden sticky top-14 md:top-16 z-20 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 backdrop-blur-md p-1.5 shadow-lg grid grid-cols-2 gap-1.5">
+            <button
+              type="button"
+              onClick={() => setMobileTab('passage')}
+              className={`min-h-[42px] inline-flex items-center justify-center gap-1.5 rounded-xl px-3 py-2 text-xs font-extrabold transition ${
+                mobileTab === 'passage'
+                  ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              <BookOpen className="h-4 w-4" />
+              Bài đọc ({currentSet.passages.length} đoạn)
+            </button>
+            <button
+              type="button"
+              onClick={() => setMobileTab('questions')}
+              className={`min-h-[42px] inline-flex items-center justify-center gap-1.5 rounded-xl px-3 py-2 text-xs font-extrabold transition ${
+                mobileTab === 'questions'
+                  ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              <HelpCircle className="h-4 w-4" />
+              Câu hỏi ({currentSet.questions.length})
+            </button>
+          </div>
+
+          {/* Split-Screen Container */}
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
+            {/* LEFT PANE: Multi-tab Passages */}
+            <div
+              className={`${
+                mobileTab === 'passage' ? 'flex' : 'hidden xl:flex'
+              } xl:col-span-6 xl:sticky xl:top-20 rounded-2xl border border-slate-700/80 bg-[#1E293B] shadow-card overflow-hidden flex-col xl:max-h-[82vh]`}
+            >
+              <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar border-b border-slate-700/80 bg-slate-900/90 px-3 sm:px-4 pt-3 pb-2.5">
               {currentSet.passages.map((doc, idx) => (
                 <button
                   key={doc.id}
@@ -561,7 +598,11 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
           </div>
 
           {/* RIGHT PANE: Questions */}
-          <div className="xl:col-span-6 space-y-4">
+          <div
+            className={`${
+              mobileTab === 'questions' ? 'block' : 'hidden xl:block'
+            } xl:col-span-6 space-y-4`}
+          >
             {currentSet.questions.map((q) => {
               const userChoice = answers[q.id];
               const isRevealed = mode === 'practice' ? Boolean(revealedIds[q.id]) : examSubmitted;
@@ -645,6 +686,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
               );
             })}
           </div>
+        </div>
         </div>
       )}
     </div>

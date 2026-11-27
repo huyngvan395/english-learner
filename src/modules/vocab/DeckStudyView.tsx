@@ -3,6 +3,8 @@ import {
   ArrowLeft,
   BookOpenCheck,
   Check,
+  ChevronDown,
+  ChevronUp,
   Headphones,
   Keyboard,
   Layers,
@@ -38,6 +40,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
 
   const [selectedTopicId, setSelectedTopicId] = useState<string>(topics[0].id);
   const [activeTab, setActiveTab] = useState<StudyTab>('active-recall');
+  const [mobileTopicsOpen, setMobileTopicsOpen] = useState(false);
 
   const activeTopicIndex = Math.max(
     0,
@@ -64,25 +67,41 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-5 items-start">
-      {/* ================= LEFT COLUMN: DANH SÁCH CHỦ ĐỀ (280-320px, independent scroll) ================= */}
-      <aside className="w-full lg:w-[300px] xl:w-[320px] shrink-0 lg:sticky lg:top-20 rounded-3xl border border-slate-800 bg-[#111827] shadow-card flex flex-col lg:max-h-[calc(100vh-104px)] overflow-hidden">
+    <div className="flex flex-col lg:flex-row gap-4 lg:gap-5 items-start">
+      {/* ================= LEFT COLUMN: DANH SÁCH CHỦ ĐỀ (Collapsible Accordion on Mobile, Sticky Sidebar on Desktop) ================= */}
+      <aside className="w-full lg:w-[300px] xl:w-[320px] shrink-0 lg:sticky lg:top-20 rounded-2xl lg:rounded-3xl border border-slate-800 bg-[#111827] shadow-card flex flex-col lg:max-h-[calc(100dvh-104px)] overflow-hidden">
         {/* Sidebar Top Header */}
-        <div className="p-4 border-b border-slate-800/90 space-y-3 shrink-0">
-          <button
-            type="button"
-            onClick={onBack}
-            className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-400 hover:text-sky-300 transition"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Quay lại kho bộ thẻ
-          </button>
+        <div className="p-3.5 sm:p-4 border-b border-slate-800/90 space-y-2.5 sm:space-y-3 shrink-0">
+          <div className="flex items-center justify-between gap-2">
+            <button
+              type="button"
+              onClick={onBack}
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-400 hover:text-sky-300 transition"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              Quay lại kho bộ thẻ
+            </button>
+
+            {/* Mobile Accordion Toggle Button */}
+            <button
+              type="button"
+              onClick={() => setMobileTopicsOpen((v) => !v)}
+              className="lg:hidden inline-flex items-center gap-1.5 rounded-xl border border-indigo-500/40 bg-indigo-500/15 px-3 py-1.5 text-xs font-bold text-indigo-200 transition active:scale-95"
+            >
+              <span>Chủ đề ({activeTopicIndex + 1}/{topics.length})</span>
+              {mobileTopicsOpen ? (
+                <ChevronUp className="h-4 w-4" />
+              ) : (
+                <ChevronDown className="h-4 w-4" />
+              )}
+            </button>
+          </div>
 
           <div>
-            <p className="text-[11px] font-extrabold uppercase tracking-widest text-slate-400">
+            <p className="hidden lg:block text-[11px] font-extrabold uppercase tracking-widest text-slate-400">
               DANH SÁCH CHỦ ĐỀ
             </p>
-            <h2 className="mt-1 text-sm font-extrabold text-white leading-snug line-clamp-2">
+            <h2 className="mt-0.5 lg:mt-1 text-sm font-extrabold text-white leading-snug line-clamp-2">
               {deck.title}
             </h2>
           </div>
@@ -104,8 +123,12 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
           </div>
         </div>
 
-        {/* Scrollable Vertical Topic Cards */}
-        <div className="p-3 space-y-2 overflow-y-auto flex-1 max-h-[300px] lg:max-h-none">
+        {/* Scrollable Vertical Topic Cards (collapsed by default on < lg) */}
+        <div
+          className={`${
+            mobileTopicsOpen ? 'block' : 'hidden'
+          } lg:block p-3 space-y-2 overflow-y-auto flex-1 max-h-[55dvh] lg:max-h-none`}
+        >
           {topics.map((topic) => {
             const mastered = topic.words.filter(
               (w) => vocabProgress[w.id]?.status === 'mastered'
@@ -131,7 +154,10 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
               <button
                 key={topic.id}
                 type="button"
-                onClick={() => setSelectedTopicId(topic.id)}
+                onClick={() => {
+                  setSelectedTopicId(topic.id);
+                  setMobileTopicsOpen(false);
+                }}
                 className={`w-full rounded-2xl border p-3 text-left transition-all flex items-center gap-3 ${cardCls}`}
               >
                 <TopicIllustration iconKey={topic.icon} size="sm" />
@@ -188,7 +214,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
       {/* ================= RIGHT COLUMN: ACTIVE RECALL CARD + MODE TABS ================= */}
       <div className="flex-1 min-w-0 w-full space-y-4">
         {/* Compact Top Topic Bar + Mode Switcher Pills */}
-        <div className="rounded-2xl border border-slate-800 bg-[#111827]/95 px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+        <div className="rounded-2xl border border-slate-800 bg-[#111827]/95 px-3.5 sm:px-4 py-3 flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5 sm:gap-3">
           <div className="flex items-center gap-2 min-w-0">
             <span className="rounded-lg bg-sky-500/15 border border-sky-500/30 px-2.5 py-1 text-[11px] font-extrabold text-sky-300 shrink-0">
               Chủ đề {activeTopicIndex + 1}/{topics.length}
@@ -198,7 +224,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
             </h3>
           </div>
 
-          <div className="flex flex-wrap items-center gap-1.5">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 -mx-1 px-1 sm:mx-0 sm:px-0">
             {modePills.map((m) => {
               const Icon = m.icon;
               const active = activeTab === m.id;
@@ -207,7 +233,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
                   key={m.id}
                   type="button"
                   onClick={() => setActiveTab(m.id)}
-                  className={`inline-flex items-center gap-1.5 rounded-xl px-2.5 py-1.5 text-xs font-bold transition ${
+                  className={`shrink-0 inline-flex items-center gap-1.5 rounded-xl px-3 py-2 sm:px-2.5 sm:py-1.5 text-xs font-bold transition ${
                     active
                       ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                       : 'bg-slate-800/90 text-slate-400 hover:text-white border border-slate-700/60'

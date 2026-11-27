@@ -299,13 +299,13 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
             )}
           </div>
 
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-1.5 pb-0.5 sm:pb-0">
             {topicStats.map(({ topic, count }) => (
               <button
                 key={topic}
                 type="button"
                 onClick={() => setSelectedTopic(topic)}
-                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-bold transition ${
+                className={`shrink-0 inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-bold transition ${
                   selectedTopic === topic
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                     : 'bg-slate-800/85 text-slate-300 hover:bg-slate-700/80 hover:text-white border border-slate-700/50'
@@ -321,15 +321,15 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
         </div>
 
         {/* Row 2: Difficulty & Status Filters */}
-        <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-800/90 pt-3">
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="text-[11px] font-bold text-slate-400 mr-1">Độ khó:</span>
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5 sm:gap-3 border-t border-slate-800/90 pt-3">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
+            <span className="shrink-0 text-[11px] font-bold text-slate-400 mr-1">Độ khó:</span>
             {(['all', 'Cơ bản', 'Trung bình', 'Nâng cao 800+'] as DifficultyFilter[]).map((df) => (
               <button
                 key={df}
                 type="button"
                 onClick={() => setDifficultyFilter(df)}
-                className={`rounded-lg px-2.5 py-1 text-xs font-bold transition ${
+                className={`shrink-0 rounded-lg px-2.5 py-1.5 sm:py-1 text-xs font-bold transition ${
                   difficultyFilter === df
                     ? 'bg-amber-500/20 border border-amber-400/50 text-amber-200'
                     : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
@@ -340,8 +340,8 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
             ))}
           </div>
 
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="text-[11px] font-bold text-slate-400 mr-1">Trạng thái:</span>
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
+            <span className="shrink-0 text-[11px] font-bold text-slate-400 mr-1">Trạng thái:</span>
             {(
               [
                 { key: 'all', label: `Tất cả (${questions.length})` },
@@ -353,7 +353,7 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
                 key={sf.key}
                 type="button"
                 onClick={() => setStatusFilter(sf.key)}
-                className={`rounded-lg px-2.5 py-1 text-xs font-bold transition ${
+                className={`shrink-0 rounded-lg px-2.5 py-1.5 sm:py-1 text-xs font-bold transition ${
                   statusFilter === sf.key
                     ? sf.key === 'wrong'
                       ? 'bg-rose-500/20 border border-rose-400/50 text-rose-200'
@@ -454,7 +454,7 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
               <div
                 key={q.id}
                 id={`q-${q.id}`}
-                className="rounded-2xl border border-slate-700/75 bg-[#1E293B] p-5 sm:p-6 shadow-card scroll-mt-20"
+                className="rounded-2xl border border-slate-700/75 bg-[#1E293B] p-4 sm:p-6 shadow-card scroll-mt-20"
               >
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                   <div className="flex items-center gap-2 flex-wrap">
@@ -524,7 +524,7 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
                         key={k}
                         type="button"
                         onClick={() => handleChoose(q.id, k)}
-                        className={`flex items-center gap-3 rounded-xl border px-4 py-3 text-left text-sm font-medium transition ${cls}`}
+                        className={`min-h-[46px] flex items-center gap-3 rounded-xl border px-3.5 sm:px-4 py-3 text-left text-sm font-medium transition ${cls}`}
                       >
                         <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-slate-800 text-xs font-bold">
                           {k}

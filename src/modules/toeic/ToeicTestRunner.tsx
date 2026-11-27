@@ -4,12 +4,15 @@ import {
   ArrowLeft,
   Award,
   CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
   Clock,
   Filter,
   ListChecks,
   RotateCcw,
   Send,
   Trophy,
+  X,
 } from 'lucide-react';
 import {
   OptionKey,
@@ -93,6 +96,31 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
   const [submitted, setSubmitted] = useState(false);
   const [reviewFilter, setReviewFilter] = useState<'all' | 'wrong' | 'correct'>('all');
   const [showPalette, setShowPalette] = useState(false);
+  const [mobilePaletteOpen, setMobilePaletteOpen] = useState(false);
+
+  // Lock background scroll while mobile Question Palette Bottom Sheet is open
+  useEffect(() => {
+    if (!mobilePaletteOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [mobilePaletteOpen]);
+
+  const jumpToQuestion = useCallback((part: ToeicPartNumber, qId: string) => {
+    setActivePart(part);
+    setShowPalette(false);
+    setMobilePaletteOpen(false);
+    window.setTimeout(() => {
+      const el = document.getElementById(`exam-q-${qId}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        window.scrollTo({ top: 120, behavior: 'smooth' });
+      }
+    }, 80);
+  }, []);
 
   const initialSeconds = Math.max(60, config.durationMinutes * 60);
   const [timeLeft, setTimeLeft] = useState(initialSeconds);
@@ -338,19 +366,23 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
     });
   };
 
+  const activePartIdx = orderedParts.indexOf(activePart);
+  const canGoPrevPart = activePartIdx > 0;
+  const canGoNextPart = activePartIdx >= 0 && activePartIdx < orderedParts.length - 1;
+
   return (
-    <div className="space-y-5">
+    <div className="space-y-4 sm:space-y-5 pb-24 lg:pb-0">
       {/* Sticky Exam Top Bar */}
-      <div className="sticky top-16 z-20 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 backdrop-blur-md p-4 shadow-card space-y-3">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-3 min-w-0">
+      <div className="sticky top-14 md:top-16 z-20 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 backdrop-blur-md p-3 sm:p-4 shadow-card space-y-2.5 sm:space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <button
               type="button"
               onClick={onExit}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 px-3 py-2 text-xs font-bold text-slate-200 transition shrink-0"
+              className="inline-flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 px-2.5 sm:px-3 py-2 text-xs font-bold text-slate-200 transition shrink-0"
             >
               <ArrowLeft className="h-4 w-4" />
-              Thoát đề
+              <span className="hidden sm:inline">Thoát đề</span>
             </button>
             <div className="min-w-0">
               <div className="flex items-center gap-2 flex-wrap">
@@ -361,14 +393,14 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
                   {answeredCount}/{flatItems.length} câu đã làm
                 </span>
               </div>
-              <h3 className="truncate text-sm sm:text-base font-extrabold text-white">{test.title}</h3>
+              <h3 className="truncate text-xs sm:text-base font-extrabold text-white">{test.title}</h3>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 shrink-0">
             {!submitted && (
               <div
-                className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 font-mono text-xs sm:text-sm font-extrabold ${
+                className={`hidden lg:inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 font-mono text-xs sm:text-sm font-extrabold ${
                   timeLeft < 180
                     ? 'border-rose-500/60 bg-rose-950/50 text-rose-300 animate-pulse'
                     : 'border-slate-700 bg-slate-900 text-sky-300'
@@ -382,7 +414,7 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
             <button
               type="button"
               onClick={() => setShowPalette((v) => !v)}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 px-3 py-2 text-xs font-bold text-slate-200 transition"
+              className="hidden lg:inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 px-3 py-2 text-xs font-bold text-slate-200 transition"
             >
               <ListChecks className="h-4 w-4 text-sky-400" />
               Bảng câu hỏi
@@ -392,26 +424,27 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 px-4 py-2 text-xs sm:text-sm font-extrabold text-white shadow-glow transition"
+                className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 px-3 sm:px-4 py-2 text-xs sm:text-sm font-extrabold text-white shadow-glow transition"
               >
                 <Send className="h-3.5 w-3.5" />
-                Nộp bài &amp; Chấm điểm 990
+                <span className="sm:hidden">Nộp bài</span>
+                <span className="hidden sm:inline">Nộp bài &amp; Chấm điểm 990</span>
               </button>
             ) : (
               <button
                 type="button"
                 onClick={handleRetake}
-                className="inline-flex items-center gap-1.5 rounded-xl border border-indigo-500/40 bg-indigo-500/15 hover:bg-indigo-500/25 px-4 py-2 text-xs font-bold text-indigo-200 transition"
+                className="inline-flex items-center gap-1.5 rounded-xl border border-indigo-500/40 bg-indigo-500/15 hover:bg-indigo-500/25 px-3 sm:px-4 py-2 text-xs font-bold text-indigo-200 transition"
               >
                 <RotateCcw className="h-3.5 w-3.5" />
-                Làm lại đề này
+                Làm lại
               </button>
             )}
           </div>
         </div>
 
-        {/* Part Switcher Pills */}
-        <div className="flex flex-wrap items-center gap-1.5 pt-1 border-t border-slate-800/80">
+        {/* Part Switcher Pills (horizontal swipe on mobile, wrap on sm+) */}
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 pt-1.5 border-t border-slate-800/80">
           {orderedParts.map((part) => {
             const items = flatItems.filter((x) => x.part === part);
             const done = items.filter((x) => Boolean(answers[x.id])).length;
@@ -422,7 +455,7 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
                 key={part}
                 type="button"
                 onClick={() => setActivePart(part)}
-                className={`rounded-xl px-3 py-1.5 text-xs font-bold transition ${
+                className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-bold transition ${
                   active
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                     : 'bg-slate-800/90 text-slate-300 hover:text-white border border-slate-700/60'
@@ -437,9 +470,9 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
           })}
         </div>
 
-        {/* Collapsible Question Navigator Grid */}
+        {/* Desktop Collapsible Question Navigator Grid */}
         {showPalette && (
-          <div className="rounded-xl border border-slate-800 bg-slate-950/80 p-3 flex flex-wrap gap-1.5">
+          <div className="hidden lg:flex rounded-xl border border-slate-800 bg-slate-950/80 p-3 flex-wrap gap-1.5 max-h-56 overflow-y-auto">
             {flatItems.map((item) => {
               const answered = Boolean(answers[item.id]);
               const ok = submitted && answers[item.id] === item.correct;
@@ -455,10 +488,7 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
                 <button
                   key={item.id}
                   type="button"
-                  onClick={() => {
-                    setActivePart(item.part);
-                    setShowPalette(false);
-                  }}
+                  onClick={() => jumpToQuestion(item.part, item.id)}
                   title={`Câu ${item.num} (Part ${item.part})`}
                   className={`h-8 w-8 rounded-lg border text-xs font-extrabold transition ${cls}`}
                 >
@@ -632,116 +662,265 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
           activeData.part1
             .filter((item) => matchesReviewFilter([item.id]))
             .map((item) => (
-              <Part1QuestionBlock
-                key={item.id}
-                item={item}
-                displayNumber={questionNumById.get(item.id) || 1}
-                selected={answers[item.id] as OptionKey | undefined}
-                onSelect={(opt) => setAnswers((p) => ({ ...p, [item.id]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={item.id} id={`exam-q-${item.id}`} className="scroll-mt-36">
+                <Part1QuestionBlock
+                  item={item}
+                  displayNumber={questionNumById.get(item.id) || 1}
+                  selected={answers[item.id] as OptionKey | undefined}
+                  onSelect={(opt) => setAnswers((p) => ({ ...p, [item.id]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
 
         {activePart === 2 &&
           activeData.part2
             .filter((item) => matchesReviewFilter([item.id]))
             .map((item) => (
-              <Part2QuestionBlock
-                key={item.id}
-                item={item}
-                displayNumber={questionNumById.get(item.id) || 1}
-                selected={answers[item.id] as Part2OptionKey | undefined}
-                onSelect={(opt) => setAnswers((p) => ({ ...p, [item.id]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={item.id} id={`exam-q-${item.id}`} className="scroll-mt-36">
+                <Part2QuestionBlock
+                  item={item}
+                  displayNumber={questionNumById.get(item.id) || 1}
+                  selected={answers[item.id] as Part2OptionKey | undefined}
+                  onSelect={(opt) => setAnswers((p) => ({ ...p, [item.id]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
 
         {activePart === 3 &&
           activeData.part3
             .filter((s) => matchesReviewFilter(s.questions.map((q) => q.id)))
             .map((set) => (
-              <Part34SetBlock
-                key={set.id}
-                set={set}
-                startQuestionNumber={questionNumById.get(set.questions[0]?.id) || 1}
-                answers={answers as Record<string, OptionKey>}
-                onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={set.id} id={`exam-q-${set.questions[0]?.id || set.id}`} className="scroll-mt-36">
+                <Part34SetBlock
+                  set={set}
+                  startQuestionNumber={questionNumById.get(set.questions[0]?.id) || 1}
+                  answers={answers as Record<string, OptionKey>}
+                  onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
 
         {activePart === 4 &&
           activeData.part4
             .filter((s) => matchesReviewFilter(s.questions.map((q) => q.id)))
             .map((set) => (
-              <Part34SetBlock
-                key={set.id}
-                set={set}
-                startQuestionNumber={questionNumById.get(set.questions[0]?.id) || 1}
-                answers={answers as Record<string, OptionKey>}
-                onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={set.id} id={`exam-q-${set.questions[0]?.id || set.id}`} className="scroll-mt-36">
+                <Part34SetBlock
+                  set={set}
+                  startQuestionNumber={questionNumById.get(set.questions[0]?.id) || 1}
+                  answers={answers as Record<string, OptionKey>}
+                  onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
 
         {activePart === 5 &&
           activeData.part5
             .filter((item) => matchesReviewFilter([item.id]))
             .map((item) => (
-              <Part5QuestionBlock
-                key={item.id}
-                item={item}
-                displayNumber={questionNumById.get(item.id) || 1}
-                selected={answers[item.id] as OptionKey | undefined}
-                onSelect={(opt) => setAnswers((p) => ({ ...p, [item.id]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={item.id} id={`exam-q-${item.id}`} className="scroll-mt-36">
+                <Part5QuestionBlock
+                  item={item}
+                  displayNumber={questionNumById.get(item.id) || 1}
+                  selected={answers[item.id] as OptionKey | undefined}
+                  onSelect={(opt) => setAnswers((p) => ({ ...p, [item.id]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
 
         {activePart === 6 &&
           activeData.part6
             .filter((p) => matchesReviewFilter(p.questions.map((q) => q.id)))
             .map((passage) => (
-              <Part6PassageBlock
-                key={passage.id}
-                passage={passage}
-                startQuestionNumber={questionNumById.get(passage.questions[0]?.id) || 1}
-                answers={answers as Record<string, OptionKey>}
-                onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={passage.id} id={`exam-q-${passage.questions[0]?.id || passage.id}`} className="scroll-mt-36">
+                <Part6PassageBlock
+                  passage={passage}
+                  startQuestionNumber={questionNumById.get(passage.questions[0]?.id) || 1}
+                  answers={answers as Record<string, OptionKey>}
+                  onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
 
         {activePart === 7 &&
           activeData.part7
             .filter((s) => matchesReviewFilter(s.questions.map((q) => q.id)))
             .map((set) => (
-              <Part7SetBlock
-                key={set.id}
-                set={set}
-                startQuestionNumber={questionNumById.get(set.questions[0]?.id) || 1}
-                answers={answers as Record<string, OptionKey>}
-                onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
-                showExplanation={submitted}
-              />
+              <div key={set.id} id={`exam-q-${set.questions[0]?.id || set.id}`} className="scroll-mt-36">
+                <Part7SetBlock
+                  set={set}
+                  startQuestionNumber={questionNumById.get(set.questions[0]?.id) || 1}
+                  answers={answers as Record<string, OptionKey>}
+                  onSelect={(qId, opt) => setAnswers((p) => ({ ...p, [qId]: opt }))}
+                  showExplanation={submitted}
+                />
+              </div>
             ))}
       </div>
 
       {/* Bottom Submit CTA */}
       {!submitted && (
-        <div className="rounded-2xl border border-slate-800 bg-[#111827] p-5 flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-2 text-sm text-slate-300">
-            <Award className="h-5 w-5 text-indigo-400" />
-            Đã hoàn thành <b className="text-white">{answeredCount}/{flatItems.length}</b> câu hỏi.
+        <div className="rounded-2xl border border-slate-800 bg-[#111827] p-4 sm:p-5 flex flex-wrap items-center justify-between gap-3 sm:gap-4">
+          <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-300">
+            <Award className="h-5 w-5 text-indigo-400 shrink-0" />
+            <span>
+              Đã hoàn thành <b className="text-white">{answeredCount}/{flatItems.length}</b> câu hỏi.
+            </span>
           </div>
           <button
             type="button"
             onClick={handleSubmit}
-            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 px-6 py-3 text-sm font-extrabold text-white shadow-glow transition"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 px-6 py-3 text-sm font-extrabold text-white shadow-glow transition"
           >
             <CheckCircle2 className="h-4 w-4" />
             Nộp bài &amp; Quy đổi điểm TOEIC 990
           </button>
+        </div>
+      )}
+
+      {/* ================= STICKY MOBILE BOTTOM BAR (< lg) ================= */}
+      <div className="lg:hidden fixed bottom-0 inset-x-0 z-30 border-t border-slate-700/90 bg-[#0F172A]/95 backdrop-blur-md px-3 pt-2.5 pb-safe shadow-2xl">
+        <div className="flex items-center justify-between gap-2 max-w-xl mx-auto">
+          {/* Progress + Countdown */}
+          <div className="flex items-center gap-2 min-w-0">
+            {!submitted ? (
+              <span
+                className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-2 font-mono text-xs font-extrabold shrink-0 ${
+                  timeLeft < 180
+                    ? 'border-rose-500/60 bg-rose-950/60 text-rose-300 animate-pulse'
+                    : 'border-slate-700 bg-slate-900 text-sky-300'
+                }`}
+              >
+                <Clock className="h-3.5 w-3.5" />
+                {formatTime(timeLeft)}
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1 rounded-xl border border-emerald-500/40 bg-emerald-500/15 px-2.5 py-2 text-xs font-extrabold text-emerald-300 shrink-0">
+                <Trophy className="h-3.5 w-3.5" />
+                {summary.totalScore ?? `${summary.listeningCorrect + summary.readingCorrect}/${flatItems.length}`}
+              </span>
+            )}
+            <span className="text-[11px] font-bold text-slate-300 truncate">
+              {answeredCount}/{flatItems.length}
+            </span>
+          </div>
+
+          {/* Prev / Next Part + Palette Bottom Sheet Trigger */}
+          <div className="flex items-center gap-1.5 shrink-0">
+            <button
+              type="button"
+              disabled={!canGoPrevPart}
+              onClick={() => {
+                if (canGoPrevPart) {
+                  setActivePart(orderedParts[activePartIdx - 1]);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
+              aria-label="Part trước"
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-700 bg-slate-800 text-slate-200 disabled:opacity-35 active:scale-95 transition"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setMobilePaletteOpen(true)}
+              className="inline-flex h-10 items-center gap-1.5 rounded-xl border border-indigo-500/50 bg-indigo-600/25 px-3 text-xs font-extrabold text-indigo-100 active:scale-95 transition"
+            >
+              <ListChecks className="h-4 w-4 text-sky-300" />
+              <span>Bảng câu</span>
+            </button>
+
+            <button
+              type="button"
+              disabled={!canGoNextPart}
+              onClick={() => {
+                if (canGoNextPart) {
+                  setActivePart(orderedParts[activePartIdx + 1]);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
+              aria-label="Part tiếp theo"
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-700 bg-slate-800 text-slate-200 disabled:opacity-35 active:scale-95 transition"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* ================= MOBILE QUESTION PALETTE BOTTOM SHEET (< lg) ================= */}
+      {mobilePaletteOpen && (
+        <div
+          className="lg:hidden fixed inset-0 z-50 flex flex-col justify-end bg-slate-950/80 backdrop-blur-sm"
+          onClick={() => setMobilePaletteOpen(false)}
+        >
+          <div
+            className="w-full max-h-[78dvh] flex flex-col rounded-t-3xl border-t border-slate-700/80 bg-[#0F172A] shadow-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-slate-800 px-4 py-3.5 shrink-0">
+              <div>
+                <h4 className="text-sm font-extrabold text-white">
+                  Bảng câu hỏi ({answeredCount}/{flatItems.length} đã làm)
+                </h4>
+                <p className="text-[11px] text-slate-400">
+                  Bấm số câu để nhảy nhanh đến đúng Part và câu hỏi
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setMobilePaletteOpen(false)}
+                aria-label="Đóng bảng câu hỏi"
+                className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-700 bg-slate-800 text-slate-300"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+
+            <div className="p-4 pb-safe overflow-y-auto flex-1 space-y-4">
+              {orderedParts.map((part) => {
+                const pItems = flatItems.filter((x) => x.part === part);
+                return (
+                  <div key={part} className="space-y-2">
+                    <p className="text-xs font-extrabold uppercase tracking-wider text-indigo-300">
+                      Part {part} ({pItems.filter((x) => Boolean(answers[x.id])).length}/{pItems.length})
+                    </p>
+                    <div className="grid grid-cols-6 sm:grid-cols-8 gap-2">
+                      {pItems.map((item) => {
+                        const answered = Boolean(answers[item.id]);
+                        const ok = submitted && answers[item.id] === item.correct;
+                        let cls = 'bg-slate-800 text-slate-300 border-slate-700';
+                        if (submitted) {
+                          cls = ok
+                            ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/50'
+                            : 'bg-rose-500/20 text-rose-300 border-rose-500/50';
+                        } else if (answered) {
+                          cls = 'bg-sky-500/25 text-sky-200 border-sky-400/50';
+                        }
+                        return (
+                          <button
+                            key={item.id}
+                            type="button"
+                            onClick={() => jumpToQuestion(item.part, item.id)}
+                            className={`h-10 rounded-xl border text-xs font-extrabold transition active:scale-95 ${cls}`}
+                          >
+                            {item.num}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       )}
     </div>

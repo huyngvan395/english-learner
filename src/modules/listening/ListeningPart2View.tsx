@@ -88,7 +88,7 @@ export const ListeningPart2View: React.FC = () => {
           )}
         </div>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2">
           {LISTENING_PART2_QUESTIONS.map((item, i) => {
             const done = submitted[item.id];
             const ok = done && selected[item.id] === item.correctAnswer;
@@ -100,7 +100,7 @@ export const ListeningPart2View: React.FC = () => {
                   setIdx(i);
                   setActiveLineId(null);
                 }}
-                className={`rounded-xl px-3 py-1.5 text-xs font-bold transition ${
+                className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-bold transition ${
                   idx === i
                     ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white'
                     : done
@@ -140,6 +140,7 @@ export const ListeningPart2View: React.FC = () => {
           activeLineId={activeLineId}
           onActiveLineChange={(lineId) => setActiveLineId(lineId)}
           externalPlayLineIndex={externalPlay}
+          sticky
           label={`Audio Part 2 — Câu ${idx + 7} (1 Câu hỏi + 3 Hồi đáp A, B, C)`}
         />
 

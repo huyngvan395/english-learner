@@ -152,15 +152,15 @@ export const AuthModal: React.FC = () => {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-sm"
       onClick={closeAuthModal}
     >
       <div
-        className="relative w-full max-w-md rounded-3xl border border-slate-700/80 bg-[#0F172A] shadow-2xl overflow-hidden"
+        className="relative w-full max-w-md max-h-[90dvh] flex flex-col rounded-3xl border border-slate-700/80 bg-[#0F172A] shadow-2xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Top Header */}
-        <div className="relative border-b border-slate-800 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 px-6 py-5">
+        <div className="relative shrink-0 border-b border-slate-800 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 px-5 sm:px-6 py-4 sm:py-5">
           <button
             type="button"
             onClick={closeAuthModal}
@@ -207,7 +207,7 @@ export const AuthModal: React.FC = () => {
           </div>
         </div>
 
-        <div className="p-6 space-y-4 max-h-[78vh] overflow-y-auto">
+        <div className="p-5 sm:p-6 space-y-4 flex-1 overflow-y-auto">
           {!isConfigured && (
             <div className="rounded-2xl border border-amber-500/40 bg-amber-950/30 p-3.5 text-xs text-amber-200 flex items-start gap-2">
               <AlertCircle className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
@@ -256,7 +256,7 @@ export const AuthModal: React.FC = () => {
                     value={fullName}
                     onChange={(e) => setFullName(e.target.value)}
                     placeholder="Nguyễn Văn Huy"
-                    className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
+                    className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-3.5 py-2.5 text-base sm:text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
                   />
                 </div>
               </div>
@@ -273,7 +273,7 @@ export const AuthModal: React.FC = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@example.com"
                   autoComplete="email"
-                  className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
+                  className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-3.5 py-2.5 text-base sm:text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
                 />
               </div>
             </div>
@@ -291,7 +291,7 @@ export const AuthModal: React.FC = () => {
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Tối thiểu 6 ký tự"
                     autoComplete={tab === 'signin' ? 'current-password' : 'new-password'}
-                    className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-10 py-2.5 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
+                    className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-10 py-2.5 text-base sm:text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
                   />
                   <button
                     type="button"
@@ -318,7 +318,7 @@ export const AuthModal: React.FC = () => {
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     placeholder="Nhập lại mật khẩu"
                     autoComplete="new-password"
-                    className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
+                    className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-10 pr-3.5 py-2.5 text-base sm:text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25"
                   />
                 </div>
               </div>

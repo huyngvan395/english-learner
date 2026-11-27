@@ -740,7 +740,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
                   key={btn.rating}
                   type="button"
                   onClick={() => handleRateSrs(btn.rating)}
-                  className={`group relative flex flex-col items-center justify-center rounded-2xl border px-3 py-3 transition active:scale-[0.97] ${btn.cls}`}
+                  className={`group relative flex flex-col items-center justify-center min-h-[54px] rounded-2xl border px-3 py-3 transition active:scale-[0.97] ${btn.cls}`}
                 >
                   <span
                     className={`absolute top-1.5 right-2 rounded border px-1.5 py-0.2 text-[10px] font-mono font-bold opacity-80 ${btn.badgeCls}`}
@@ -871,7 +871,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
       )}
 
       {/* Main Centered Study Body */}
-      <div className="px-5 sm:px-10 pt-5 pb-7 flex flex-col items-center text-center space-y-5">
+      <div className="px-4 sm:px-10 pt-4 sm:pt-5 pb-6 sm:pb-7 flex flex-col items-center text-center space-y-4 sm:space-y-5">
         {/* Square Rounded Topic Illustration */}
         <TopicIllustration iconKey={topic.icon} size="lg" />
 
@@ -1010,7 +1010,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
                 if (wrongFeedback) setWrongFeedback(null);
               }}
               placeholder="Nhập từ tiếng Anh..."
-              className={`w-full rounded-2xl border-2 px-5 py-3.5 text-center text-lg sm:text-xl font-bold tracking-wide transition focus:outline-none ${
+              className={`w-full rounded-2xl border-2 px-4 sm:px-5 py-3.5 text-center text-base sm:text-xl font-bold tracking-wide transition focus:outline-none ${
                 wrongFeedback
                   ? 'border-rose-500 bg-rose-500/10 text-white focus:border-rose-400'
                   : 'border-slate-700 bg-[#0B1120] text-white placeholder-slate-500 focus:border-sky-400 focus:ring-4 focus:ring-sky-500/20'
@@ -1022,21 +1022,21 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
             <p className="text-xs sm:text-sm font-semibold text-rose-300">{wrongFeedback}</p>
           )}
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-2.5 sm:gap-3">
             <button
               type="button"
               onClick={handleDontKnow}
-              className="inline-flex items-center justify-center gap-2 rounded-2xl bg-rose-600/90 hover:bg-rose-500 px-4 py-3.5 text-xs sm:text-sm font-extrabold uppercase tracking-wide text-white shadow-sm transition active:scale-[0.98]"
+              className="min-h-[48px] inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-2xl bg-rose-600/90 hover:bg-rose-500 px-3 sm:px-4 py-3 text-xs sm:text-sm font-extrabold uppercase tracking-wide text-white shadow-sm transition active:scale-[0.98]"
             >
-              <Ban className="h-4 w-4" />
+              <Ban className="h-4 w-4 shrink-0" />
               KHÔNG BIẾT
             </button>
 
             <button
               type="submit"
-              className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 hover:bg-emerald-500 px-4 py-3.5 text-xs sm:text-sm font-extrabold uppercase tracking-wide text-white shadow-sm transition active:scale-[0.98]"
+              className="min-h-[48px] inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-2xl bg-emerald-600 hover:bg-emerald-500 px-3 sm:px-4 py-3 text-xs sm:text-sm font-extrabold uppercase tracking-wide text-white shadow-sm transition active:scale-[0.98]"
             >
-              <Check className="h-4 w-4 stroke-[3]" />
+              <Check className="h-4 w-4 shrink-0 stroke-[3]" />
               KIỂM TRA ĐÁP ÁN
             </button>
           </div>

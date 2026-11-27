@@ -128,6 +128,7 @@ export const WritingHub: React.FC = () => {
   const [gradeError, setGradeError] = useState<string | null>(null);
   const [activeSubmission, setActiveSubmission] = useState<WritingSubmissionRecord | null>(null);
   const [showGlobalHistory, setShowGlobalHistory] = useState(false);
+  const [mobileWorkspaceTab, setMobileWorkspaceTab] = useState<'prompt' | 'editor'>('prompt');
 
   const editorRef = useRef<HTMLTextAreaElement | null>(null);
   const evaluationRef = useRef<HTMLDivElement | null>(null);
@@ -352,6 +353,7 @@ export const WritingHub: React.FC = () => {
       });
 
       setActiveSubmission(saved);
+      setMobileWorkspaceTab('editor');
       window.setTimeout(() => {
         evaluationRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 120);
@@ -363,8 +365,11 @@ export const WritingHub: React.FC = () => {
   };
 
   const handleRewrite = () => {
-    editorRef.current?.focus();
-    editorRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setMobileWorkspaceTab('editor');
+    window.setTimeout(() => {
+      editorRef.current?.focus();
+      editorRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 60);
   };
 
   const modeTabs: {
@@ -531,6 +536,7 @@ export const WritingHub: React.FC = () => {
                     if (h.mode !== 'custom') setSelectedPromptId(h.promptId);
                     setActiveSubmission(h);
                     setShowGlobalHistory(false);
+                    setMobileWorkspaceTab('editor');
                   }}
                   className="rounded-2xl border border-slate-800 bg-slate-900/80 hover:border-indigo-500/50 p-3 text-left transition space-y-1"
                 >
@@ -561,7 +567,7 @@ export const WritingHub: React.FC = () => {
             </div>
 
             {mode === 'translation' && (
-              <div className="flex flex-wrap items-center gap-1.5">
+              <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 w-full sm:w-auto">
                 {(['Tất cả', 'Cơ bản', 'Trung bình', 'Nâng cao'] as const).map((diff) => {
                   const cnt =
                     diff === 'Tất cả'
@@ -572,7 +578,7 @@ export const WritingHub: React.FC = () => {
                       key={diff}
                       type="button"
                       onClick={() => setDifficultyFilter(diff)}
-                      className={`rounded-lg px-2.5 py-1 text-xs font-bold transition ${
+                      className={`shrink-0 rounded-lg px-2.5 py-1.5 sm:py-1 text-xs font-bold transition ${
                         difficultyFilter === diff
                           ? 'bg-indigo-600 text-white'
                           : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
@@ -596,7 +602,7 @@ export const WritingHub: React.FC = () => {
               {loadError}
             </div>
           ) : (
-            <div className="flex flex-wrap gap-2 max-h-36 overflow-y-auto pt-1 border-t border-slate-800/80">
+            <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2 sm:max-h-36 sm:overflow-y-auto pt-2 border-t border-slate-800/80">
               {filteredPrompts.map((p, idx) => {
                 const isSelected = currentPrompt?.id === p.id;
                 const best = bestScoreByPrompt.get(p.id);
@@ -611,7 +617,7 @@ export const WritingHub: React.FC = () => {
                     key={p.id}
                     type="button"
                     onClick={() => setSelectedPromptId(p.id)}
-                    className={`inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
+                    className={`shrink-0 inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
                       isSelected
                         ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                         : 'bg-slate-800/90 text-slate-300 hover:text-white border border-slate-700/60'
@@ -640,10 +646,47 @@ export const WritingHub: React.FC = () => {
         </div>
       )}
 
+      {/* MOBILE STICKY 2-TAB SWITCHER (< xl) */}
+      <div className="xl:hidden sticky top-14 md:top-16 z-20 rounded-2xl border border-slate-700/80 bg-[#0F172A]/95 backdrop-blur-md p-1.5 shadow-lg grid grid-cols-2 gap-1.5">
+        <button
+          type="button"
+          onClick={() => setMobileWorkspaceTab('prompt')}
+          className={`min-h-[42px] inline-flex items-center justify-center gap-1.5 rounded-xl px-2.5 py-2 text-xs font-extrabold transition ${
+            mobileWorkspaceTab === 'prompt'
+              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          <BookOpen className="h-4 w-4 shrink-0" />
+          <span className="truncate">Đề bài &amp; Gợi ý</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setMobileWorkspaceTab('editor')}
+          className={`min-h-[42px] inline-flex items-center justify-center gap-1.5 rounded-xl px-2.5 py-2 text-xs font-extrabold transition ${
+            mobileWorkspaceTab === 'editor'
+              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          <PenTool className="h-4 w-4 shrink-0" />
+          <span className="truncate">Viết bài &amp; Kết quả AI</span>
+          {activeSubmission && (
+            <span className="shrink-0 rounded-full bg-emerald-500/25 px-1.5 py-0.5 text-[10px] font-black text-emerald-200">
+              {activeSubmission.evaluation.overallScore.toFixed(1)}
+            </span>
+          )}
+        </button>
+      </div>
+
       {/* SPLIT-SCREEN WORKSPACE */}
       <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
         {/* LEFT COLUMN: Source Passage, Checklist & Vocab Hints (or Custom Form) */}
-        <div className="xl:col-span-6 rounded-3xl border border-slate-700/80 bg-[#1E293B] p-5 sm:p-6 shadow-card space-y-4">
+        <div
+          className={`${
+            mobileWorkspaceTab === 'prompt' ? 'block' : 'hidden xl:block'
+          } xl:col-span-6 rounded-3xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-6 shadow-card space-y-4`}
+        >
           {mode === 'custom' ? (
             <div className="space-y-4">
               <div>
@@ -663,7 +706,7 @@ export const WritingHub: React.FC = () => {
                     value={customPrompt.title}
                     onChange={(e) => setCustomPrompt((p) => ({ ...p, title: e.target.value }))}
                     placeholder="VD: Email xin gia hạn hợp đồng"
-                    className="w-full rounded-xl border border-slate-700 bg-slate-900/90 px-3 py-2 text-xs text-white focus:border-indigo-500 focus:outline-none"
+                    className="w-full rounded-xl border border-slate-700 bg-slate-900/90 px-3 py-2.5 text-base sm:text-sm text-white focus:border-indigo-500 focus:outline-none"
                   />
                 </div>
                 <div className="space-y-1">
@@ -696,7 +739,7 @@ export const WritingHub: React.FC = () => {
                   value={customPrompt.passage}
                   onChange={(e) => setCustomPrompt((p) => ({ ...p, passage: e.target.value }))}
                   placeholder="Dán bất kỳ đoạn văn tiếng Việt, email tiếng Anh, bài báo ngắn hoặc tình huống công sở nào bạn muốn luyện viết tại đây..."
-                  className="w-full rounded-2xl border border-slate-700 bg-slate-900/90 p-3.5 text-sm text-slate-100 placeholder-slate-500 leading-relaxed focus:border-indigo-500 focus:outline-none"
+                  className="w-full rounded-2xl border border-slate-700 bg-slate-900/90 p-3.5 text-base sm:text-sm text-slate-100 placeholder-slate-500 leading-relaxed focus:border-indigo-500 focus:outline-none"
                 />
               </div>
 
@@ -709,7 +752,7 @@ export const WritingHub: React.FC = () => {
                   value={customPrompt.instructions}
                   onChange={(e) => setCustomPrompt((p) => ({ ...p, instructions: e.target.value }))}
                   placeholder="VD: Dịch sát nghĩa sang văn phong email công sở lịch sự, hoặc phản hồi hỏi 2 câu hỏi & đề xuất lịch họp..."
-                  className="w-full rounded-2xl border border-slate-700 bg-slate-900/90 p-3.5 text-xs sm:text-sm text-slate-100 placeholder-slate-500 leading-relaxed focus:border-indigo-500 focus:outline-none"
+                  className="w-full rounded-2xl border border-slate-700 bg-slate-900/90 p-3.5 text-base sm:text-sm text-slate-100 placeholder-slate-500 leading-relaxed focus:border-indigo-500 focus:outline-none"
                 />
               </div>
             </div>
@@ -843,7 +886,11 @@ export const WritingHub: React.FC = () => {
         </div>
 
         {/* RIGHT COLUMN: Editor, Word/Sentence Counter, Optional Timer & Submit */}
-        <div className="xl:col-span-6 rounded-3xl border border-slate-700/80 bg-[#1E293B] p-5 sm:p-6 shadow-card space-y-4">
+        <div
+          className={`${
+            mobileWorkspaceTab === 'editor' ? 'block' : 'hidden xl:block'
+          } xl:col-span-6 rounded-3xl border border-slate-700/80 bg-[#1E293B] p-4 sm:p-6 shadow-card space-y-4`}
+        >
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-700/70 pb-3">
             <div className="flex items-center gap-2">
               <PenTool className="h-4 w-4 text-indigo-400" />
@@ -917,7 +964,7 @@ export const WritingHub: React.FC = () => {
                 ? 'Dear ...,\n\nViết email phản hồi hoàn chỉnh đáp ứng đầy đủ các yêu cầu bên trái...'
                 : 'Viết đoạn văn tiếng Anh của bạn tại đây...'
             }
-            className="w-full rounded-2xl border border-slate-700 bg-slate-950/90 p-4 text-sm sm:text-[15px] text-slate-100 placeholder-slate-500 leading-relaxed focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25 resize-y"
+            className="w-full rounded-2xl border border-slate-700 bg-slate-950/90 p-3.5 sm:p-4 text-base sm:text-[15px] text-slate-100 placeholder-slate-500 leading-relaxed focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/25 resize-y"
           />
 
           {/* Live Stats Bar */}
@@ -1009,7 +1056,10 @@ export const WritingHub: React.FC = () => {
 
       {/* EVALUATION RESULT PANEL */}
       {activeSubmission && (
-        <div ref={evaluationRef} className="pt-2">
+        <div
+          ref={evaluationRef}
+          className={`${mobileWorkspaceTab === 'editor' ? 'block' : 'hidden xl:block'} pt-2`}
+        >
           <WritingEvaluationPanel
             submission={activeSubmission}
             promptHistory={promptHistory}

@@ -71,10 +71,16 @@ export const GeminiSettingsModal: React.FC<GeminiSettingsModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm">
-      <div className="relative w-full max-w-xl rounded-3xl border border-slate-700/80 bg-[#0F172A] shadow-2xl overflow-hidden">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <div
+        className="relative w-full max-w-xl max-h-[90dvh] flex flex-col rounded-3xl border border-slate-700/80 bg-[#0F172A] shadow-2xl overflow-hidden"
+        onClick={(e) => e.stopPropagation()}
+      >
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-slate-800 px-6 py-4 bg-gradient-to-r from-indigo-950/70 via-slate-900 to-slate-900">
+        <div className="shrink-0 flex items-center justify-between border-b border-slate-800 px-5 sm:px-6 py-4 bg-gradient-to-r from-indigo-950/70 via-slate-900 to-slate-900">
           <div className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-500/20 border border-indigo-400/40 text-indigo-300">
               <KeyRound className="h-4 w-4" />
@@ -95,7 +101,7 @@ export const GeminiSettingsModal: React.FC<GeminiSettingsModalProps> = ({
           </button>
         </div>
 
-        <div className="p-6 space-y-5 max-h-[80vh] overflow-y-auto">
+        <div className="p-5 sm:p-6 space-y-5 flex-1 overflow-y-auto">
           {/* Quick link to AI Studio */}
           <div className="rounded-2xl border border-cyan-500/30 bg-cyan-950/20 p-3.5 flex flex-wrap items-center justify-between gap-3">
             <div className="text-xs text-cyan-100 leading-relaxed">
@@ -130,7 +136,7 @@ export const GeminiSettingsModal: React.FC<GeminiSettingsModalProps> = ({
                 }}
                 placeholder="AIzaSy..."
                 autoComplete="off"
-                className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-4 pr-20 py-3 text-sm font-mono text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"
+                className="w-full rounded-xl border border-slate-700 bg-slate-950/90 pl-4 pr-20 py-3 text-base sm:text-sm font-mono text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"
               />
               <div className="absolute right-2 flex items-center gap-1">
                 <button
@@ -220,7 +226,7 @@ export const GeminiSettingsModal: React.FC<GeminiSettingsModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="flex flex-wrap items-center justify-between gap-2 border-t border-slate-800 bg-slate-950/60 px-6 py-4">
+        <div className="shrink-0 flex flex-wrap items-center justify-between gap-2 border-t border-slate-800 bg-slate-950/60 px-5 sm:px-6 py-3.5 sm:py-4">
           <button
             type="button"
             disabled={testing || (!apiKeyInput.trim() && !hasEnvFallback)}

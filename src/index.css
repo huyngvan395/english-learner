@@ -6,13 +6,28 @@
   html {
     scroll-behavior: smooth;
     color-scheme: dark;
+    overflow-x: clip;
   }
 
   body {
     font-family: 'Be Vietnam Pro', Inter, system-ui, -apple-system, sans-serif;
     background-color: #0B1120;
     color: #F1F5F9;
+    overflow-x: clip;
   }
+}
+
+/* Hide scrollbars cleanly for mobile horizontal chip strips */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.pb-safe {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom, 0px));
 }
 
 /* Custom sleek scrollbars */

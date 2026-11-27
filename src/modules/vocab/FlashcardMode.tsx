@@ -196,7 +196,7 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
           }`}
         >
           {/* FRONT SIDE */}
-          <div className="absolute inset-0 backface-hidden rounded-3xl border border-slate-700/80 bg-gradient-to-br from-[#1E293B] via-[#172135] to-[#0F172A] p-6 sm:p-10 shadow-card flex flex-col justify-between">
+          <div className="absolute inset-0 backface-hidden rounded-3xl border border-slate-700/80 bg-gradient-to-br from-[#1E293B] via-[#172135] to-[#0F172A] p-4 sm:p-10 shadow-card flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <span className="rounded-full border border-indigo-500/30 bg-indigo-500/15 px-3 py-1 text-xs font-bold text-indigo-300 uppercase tracking-wider">
                 {current.pos}
@@ -219,19 +219,19 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
               </button>
             </div>
 
-            <div className="my-auto py-8 text-center">
-              <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
+            <div className="my-auto py-6 sm:py-8 text-center">
+              <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white break-words">
                 {current.word}
               </h2>
 
-              <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
+              <div className="mt-4 sm:mt-5 flex flex-wrap items-center justify-center gap-2.5 sm:gap-3">
                 <button
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
                     handlePlay(current.word, 'en-US');
                   }}
-                  className="inline-flex items-center gap-2 rounded-xl border border-cyan-500/30 bg-cyan-500/10 hover:bg-cyan-500/25 px-4 py-2 text-sm text-cyan-200 transition"
+                  className="inline-flex items-center gap-1.5 sm:gap-2 rounded-xl border border-cyan-500/30 bg-cyan-500/10 hover:bg-cyan-500/25 px-3.5 sm:px-4 py-2 text-xs sm:text-sm text-cyan-200 transition"
                 >
                   <Volume2 className="h-4 w-4 text-cyan-400" />
                   <span className="font-bold">US</span>
@@ -244,7 +244,7 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
                     e.stopPropagation();
                     handlePlay(current.word, 'en-GB');
                   }}
-                  className="inline-flex items-center gap-2 rounded-xl border border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/25 px-4 py-2 text-sm text-amber-200 transition"
+                  className="inline-flex items-center gap-1.5 sm:gap-2 rounded-xl border border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/25 px-3.5 sm:px-4 py-2 text-xs sm:text-sm text-amber-200 transition"
                 >
                   <Volume2 className="h-4 w-4 text-amber-400" />
                   <span className="font-bold">UK</span>
@@ -259,7 +259,7 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
           </div>
 
           {/* BACK SIDE */}
-          <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-3xl border border-indigo-500/40 bg-gradient-to-br from-[#1E293B] via-[#131C31] to-[#0B1120] p-5 sm:p-7 shadow-card overflow-y-auto">
+          <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-3xl border border-indigo-500/40 bg-gradient-to-br from-[#1E293B] via-[#131C31] to-[#0B1120] p-4 sm:p-7 shadow-card overflow-y-auto">
             <div className="flex items-start justify-between gap-3 border-b border-slate-700/70 pb-3.5">
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
@@ -389,45 +389,71 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
       </div>
 
       {/* SRS Evaluation & Prev/Next Bar */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-2.5 sm:gap-3">
         <button
           type="button"
           onClick={() => {
             setFlipped(false);
             setIndex((i) => (i > 0 ? i - 1 : queue.length - 1));
           }}
-          className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition"
+          className="hidden sm:inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition"
         >
           <ChevronLeft className="h-4 w-4" />
           Thẻ trước
         </button>
 
-        <div className="grid grid-cols-3 gap-2.5 w-full sm:w-auto">
+        <div className="grid grid-cols-3 gap-2 sm:gap-2.5 w-full sm:w-auto">
           <button
             type="button"
             onClick={() => handleRate('forgotten')}
-            className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-rose-500/40 bg-rose-500/15 hover:bg-rose-500/25 px-4 py-2.5 text-xs sm:text-sm font-bold text-rose-300 transition active:scale-95"
+            className="min-h-[46px] inline-flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 rounded-xl border border-rose-500/40 bg-rose-500/15 hover:bg-rose-500/25 px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-rose-300 transition active:scale-95"
           >
-            <XCircle className="h-4 w-4" />
-            Chưa nhớ
+            <XCircle className="h-4 w-4 shrink-0" />
+            <span>Chưa nhớ</span>
           </button>
 
           <button
             type="button"
             onClick={() => handleRate('vague')}
-            className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-amber-500/40 bg-amber-500/15 hover:bg-amber-500/25 px-4 py-2.5 text-xs sm:text-sm font-bold text-amber-300 transition active:scale-95"
+            className="min-h-[46px] inline-flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 rounded-xl border border-amber-500/40 bg-amber-500/15 hover:bg-amber-500/25 px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-amber-300 transition active:scale-95"
           >
-            <HelpCircle className="h-4 w-4" />
-            Mơ hồ
+            <HelpCircle className="h-4 w-4 shrink-0" />
+            <span>Mơ hồ</span>
           </button>
 
           <button
             type="button"
             onClick={() => handleRate('mastered')}
-            className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 hover:bg-emerald-500/25 px-4 py-2.5 text-xs sm:text-sm font-bold text-emerald-300 transition active:scale-95"
+            className="min-h-[46px] inline-flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 hover:bg-emerald-500/25 px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-emerald-300 transition active:scale-95"
           >
-            <CheckCircle2 className="h-4 w-4" />
-            Đã thuộc
+            <CheckCircle2 className="h-4 w-4 shrink-0" />
+            <span>Đã thuộc</span>
+          </button>
+        </div>
+
+        {/* Mobile Prev/Next Row */}
+        <div className="grid grid-cols-2 gap-2.5 w-full sm:hidden">
+          <button
+            type="button"
+            onClick={() => {
+              setFlipped(false);
+              setIndex((i) => (i > 0 ? i - 1 : queue.length - 1));
+            }}
+            className="min-h-[44px] inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2 text-xs font-bold text-slate-200 active:scale-95 transition"
+          >
+            <ChevronLeft className="h-4 w-4" />
+            Thẻ trước
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setFlipped(false);
+              setIndex((i) => (i + 1) % queue.length);
+            }}
+            className="min-h-[44px] inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2 text-xs font-bold text-slate-200 active:scale-95 transition"
+          >
+            Thẻ sau
+            <ChevronRight className="h-4 w-4" />
           </button>
         </div>
 
@@ -437,7 +463,7 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
             setFlipped(false);
             setIndex((i) => (i + 1) % queue.length);
           }}
-          className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition"
+          className="hidden sm:inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition"
         >
           Thẻ sau
           <ChevronRight className="h-4 w-4" />
