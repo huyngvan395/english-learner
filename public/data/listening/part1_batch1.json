@@ -1,0 +1,3177 @@
+[
+  {
+    "id": "p1-b1-q01",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Người phụ nữ ăn trưa tại khu dã ngoại ngoài trời",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2024-full-test-1/q1.jpg",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q01-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. She's eating in a picnic area.",
+        "vi": "A. Cô ấy đang ăn ở khu vực dã ngoại.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q01"
+        ],
+        "startMs": 400,
+        "endMs": 6559
+      },
+      {
+        "id": "p1-b1-q01-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. She's waiting in line at a food truck.",
+        "vi": "B. Cô ấy đang xếp hàng tại một xe bán đồ ăn lưu động.",
+        "startMs": 6599,
+        "endMs": 14208
+      },
+      {
+        "id": "p1-b1-q01-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. She's wiping off a bench.",
+        "vi": "C. Cô ấy đang lau sạch một chiếc ghế dài.",
+        "startMs": 14248,
+        "endMs": 19501
+      },
+      {
+        "id": "p1-b1-q01-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. She's throwing away a plate.",
+        "vi": "D. Cô ấy đang vứt bỏ một chiếc đĩa.",
+        "startMs": 19541,
+        "endMs": 25320
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "She's eating in a picnic area.",
+        "vi": "Cô ấy đang ăn ở khu vực dã ngoại."
+      },
+      "B": {
+        "en": "She's waiting in line at a food truck.",
+        "vi": "Cô ấy đang xếp hàng tại một xe bán đồ ăn lưu động."
+      },
+      "C": {
+        "en": "She's wiping off a bench.",
+        "vi": "Cô ấy đang lau sạch một chiếc ghế dài."
+      },
+      "D": {
+        "en": "She's throwing away a plate.",
+        "vi": "Cô ấy đang vứt bỏ một chiếc đĩa."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy sai hành động & bối cảnh không tồn tại (food truck / wiping / throwing)",
+      "soundTrap": {
+        "pair": "eating / waiting",
+        "noteVi": "Đều mang vần /-tɪŋ/ ở đầu câu khiến người nghe dễ nhầm nếu lơ là từ khóa phía sau."
+      },
+      "listeningKey": "Chốt cụm \"eating in a picnic area\" — nhận diện bàn gỗ ngoài trời và hành động đang dùng bữa.",
+      "trapAnalysis": "Ảnh chỉ có 1 người phụ nữ đang ngồi ăn ngoài trời tại bàn dã ngoại. Đáp án B thêm đối tượng giả \"food truck\" và hành động xếp hàng; C và D mô tả sai hoàn toàn động tác tay (không lau ghế, không vứt đĩa).",
+      "paraphrases": [
+        {
+          "audioPhrase": "eating in a picnic area",
+          "answerPhrase": "having a meal outdoors at a picnic table",
+          "meaningVi": "đang dùng bữa tại khu dã ngoại ngoài trời"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Mô tả chuẩn xác hành động đang ăn tại bàn gỗ ở khu dã ngoại ngoài trời.",
+        "B": "SAI (Bối cảnh & Động từ) — Không có xe bán đồ ăn lưu động (food truck) và không có hàng người xếp hàng.",
+        "C": "SAI (Động từ hành động) — Cô ấy không cầm khăn lau mặt ghế dài (wiping off a bench).",
+        "D": "SAI (Động từ hành động) — Cô ấy đang ăn chứ không vứt đĩa vào thùng rác (throwing away a plate)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-01",
+          "word": "picnic area",
+          "pos": "phrase",
+          "ipaUK": "/ˈpɪk.nɪk ˈeə.ri.ə/",
+          "ipaUS": "/ˈpɪk.nɪk ˈer.i.ə/",
+          "meaning": "khu vực dã ngoại ngoài trời",
+          "exampleEn": "Families gathered in the shaded picnic area.",
+          "exampleVi": "Các gia đình tụ tập tại khu dã ngoại có bóng râm."
+        },
+        {
+          "id": "lv-p1b1-02",
+          "word": "wait in line",
+          "pos": "phrase",
+          "ipaUK": "/weɪt ɪn laɪn/",
+          "ipaUS": "/weɪt ɪn laɪn/",
+          "meaning": "xếp hàng chờ đợi",
+          "exampleEn": "Customers are waiting in line outside the bakery.",
+          "exampleVi": "Khách hàng đang xếp hàng bên ngoài tiệm bánh."
+        },
+        {
+          "id": "lv-p1b1-03",
+          "word": "wipe off",
+          "pos": "phrase",
+          "ipaUK": "/waɪp ɒf/",
+          "ipaUS": "/waɪp ɔːf/",
+          "meaning": "lau sạch bề mặt",
+          "exampleEn": "He wiped off the wet bench with a cloth.",
+          "exampleVi": "Anh ấy lau sạch chiếc ghế dài bị ướt bằng khăn."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q02",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Người đàn ông đứng trên tuyết bên cạnh ô tô",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2024-full-test-1/q2.jpg",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-02.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q02-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. The man is brushing snow off the roof of a car.",
+        "vi": "A. Người đàn ông đang phủi tuyết khỏi nóc ô tô.",
+        "startMs": 400,
+        "endMs": 7515
+      },
+      {
+        "id": "p1-b1-q02-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. The man is standing in the snow beside a car.",
+        "vi": "B. Người đàn ông đang đứng trên tuyết bên cạnh một chiếc ô tô.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q02"
+        ],
+        "startMs": 7555,
+        "endMs": 14391
+      },
+      {
+        "id": "p1-b1-q02-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. The man is shoveling snow from a walkway.",
+        "vi": "C. Người đàn ông đang xúc tuyết khỏi lối đi.",
+        "startMs": 14431,
+        "endMs": 20709
+      },
+      {
+        "id": "p1-b1-q02-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. The man is running through the snow.",
+        "vi": "D. Người đàn ông đang chạy xuyên qua lớp tuyết.",
+        "startMs": 20749,
+        "endMs": 26310
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "The man is brushing snow off the roof of a car.",
+        "vi": "Người đàn ông đang phủi tuyết khỏi nóc ô tô."
+      },
+      "B": {
+        "en": "The man is standing in the snow beside a car.",
+        "vi": "Người đàn ông đang đứng trên tuyết bên cạnh một chiếc ô tô."
+      },
+      "C": {
+        "en": "The man is shoveling snow from a walkway.",
+        "vi": "Người đàn ông đang xúc tuyết khỏi lối đi."
+      },
+      "D": {
+        "en": "The man is running through the snow.",
+        "vi": "Người đàn ông đang chạy xuyên qua lớp tuyết."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy đúng danh từ \"snow / car\" nhưng sai động từ hành động",
+      "soundTrap": {
+        "pair": "brushing / shoveling / running",
+        "noteVi": "Cả 4 câu đều lặp từ \"snow\" để đánh lạc hướng, buộc phải nghe chuẩn động từ chính ngay sau \"The man is\"."
+      },
+      "listeningKey": "Khóa ngay \"standing in the snow beside a car\" — tư thế đứng yên + giới từ vị trí \"beside\".",
+      "trapAnalysis": "ETS lặp lại từ khóa \"snow\" ở cả 4 đáp án để bẫy người chỉ nghe danh từ. Thực tế người đàn ông chỉ đang đứng cạnh xe chứ không cầm chổi phủi tuyết (A), không cầm xẻng xúc tuyết (C) và không chạy (D).",
+      "paraphrases": [
+        {
+          "audioPhrase": "standing in the snow beside a car",
+          "answerPhrase": "positioned next to a parked vehicle in winter",
+          "meaningVi": "đứng trên tuyết ngay cạnh chiếc ô tô"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Động từ hành động) — Anh ấy không dùng bàn chải gạt tuyết trên nóc xe (brushing snow off).",
+        "B": "ĐÚNG — Mô tả trung lập, chính xác tư thế đứng trên nền tuyết và vị trí ngay cạnh xe (beside a car).",
+        "C": "SAI (Động từ & Dụng cụ) — Không có xẻng (shovel) hay động tác xúc tuyết trên lối đi.",
+        "D": "SAI (Động từ hành động) — Anh ấy đứng yên tại chỗ, hoàn toàn không chạy (running)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-04",
+          "word": "brush off",
+          "pos": "phrase",
+          "ipaUK": "/brʌʃ ɒf/",
+          "ipaUS": "/brʌʃ ɔːf/",
+          "meaning": "phủi sạch / gạt bỏ (tuyết, bụi)",
+          "exampleEn": "Drivers brushed snow off their windshields.",
+          "exampleVi": "Các tài xế phủi tuyết khỏi kính chắn gió."
+        },
+        {
+          "id": "lv-p1b1-05",
+          "word": "shovel snow",
+          "pos": "phrase",
+          "ipaUK": "/ˈʃʌv.əl snəʊ/",
+          "ipaUS": "/ˈʃʌv.əl snoʊ/",
+          "meaning": "xúc tuyết bằng xẻng",
+          "exampleEn": "Workers shoveled snow from the front walkway.",
+          "exampleVi": "Công nhân xúc tuyết khỏi lối đi phía trước."
+        },
+        {
+          "id": "lv-p1b1-06",
+          "word": "beside",
+          "pos": "phrase",
+          "ipaUK": "/bɪˈsaɪd/",
+          "ipaUS": "/bɪˈsaɪd/",
+          "meaning": "ở ngay bên cạnh",
+          "exampleEn": "A delivery van is parked beside the entrance.",
+          "exampleVi": "Một xe tải giao hàng đỗ ngay cạnh lối vào."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q03",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Người đàn ông đi bộ dọc con đường lát đá",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2026-full-test-2/q1.jpg",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q03-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. A man is closing a metal gate.",
+        "vi": "A. Một người đàn ông đang đóng cổng kim loại.",
+        "startMs": 400,
+        "endMs": 5966
+      },
+      {
+        "id": "p1-b1-q03-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. A man is walking down a stone path.",
+        "vi": "B. Một người đàn ông đang đi bộ xuống con đường lát đá.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q03"
+        ],
+        "startMs": 6006,
+        "endMs": 12391
+      },
+      {
+        "id": "p1-b1-q03-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. Some potted plants line a walkway.",
+        "vi": "C. Một vài chậu cây xếp dọc theo lối đi.",
+        "startMs": 12431,
+        "endMs": 18652
+      },
+      {
+        "id": "p1-b1-q03-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some flags are hanging from balconies.",
+        "vi": "D. Một vài lá cờ đang treo từ các ban công.",
+        "startMs": 18692,
+        "endMs": 25550
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "A man is closing a metal gate.",
+        "vi": "Một người đàn ông đang đóng cổng kim loại."
+      },
+      "B": {
+        "en": "A man is walking down a stone path.",
+        "vi": "Một người đàn ông đang đi bộ xuống con đường lát đá."
+      },
+      "C": {
+        "en": "Some potted plants line a walkway.",
+        "vi": "Một vài chậu cây xếp dọc theo lối đi."
+      },
+      "D": {
+        "en": "Some flags are hanging from balconies.",
+        "vi": "Một vài lá cờ đang treo từ các ban công."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy đối tượng nền & hành động giả (closing gate / flags)",
+      "soundTrap": {
+        "pair": "walking / working",
+        "noteVi": "Động từ \"walking\" (/ˈwɔː.kɪŋ/) rất dễ nghe nhầm thành \"working\" (/ˈwɜːr.kɪŋ/) trong phòng thi."
+      },
+      "listeningKey": "Nghe gọn cụm \"walking down a stone path\" — khớp đúng bước chân đi bộ và mặt đường đá.",
+      "trapAnalysis": "Tranh tả 1 người đàn ông đang sải bước trên lối đi lát đá ngoài trời. Đáp án A sai động tác tay (không đóng cổng kim loại), còn C và D mô tả chi tiết nền không xuất hiện trong khung hình.",
+      "paraphrases": [
+        {
+          "audioPhrase": "walking down a stone path",
+          "answerPhrase": "strolling along a paved stone walkway",
+          "meaningVi": "đang đi bộ dọc lối đi lát đá"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Động từ & Vật thể) — Người đàn ông không chạm tay đóng cổng kim loại nào.",
+        "B": "ĐÚNG — Mô tả chính xác hành động đi bộ dọc con đường lát đá (stone path).",
+        "C": "SAI (Chi tiết nền) — Không có hàng chậu cây xếp dọc lối đi.",
+        "D": "SAI (Vật thể không tồn tại) — Không có cờ treo trên ban công."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-07",
+          "word": "stone path",
+          "pos": "phrase",
+          "ipaUK": "/stəʊn pɑːθ/",
+          "ipaUS": "/stoʊn pæθ/",
+          "meaning": "lối đi lát đá",
+          "exampleEn": "Visitors followed the narrow stone path to the garden.",
+          "exampleVi": "Du khách đi theo lối lát đá hẹp dẫn ra vườn."
+        },
+        {
+          "id": "lv-p1b1-08",
+          "word": "metal gate",
+          "pos": "phrase",
+          "ipaUK": "/ˈmet.əl ɡeɪt/",
+          "ipaUS": "/ˈmet̬.əl ɡeɪt/",
+          "meaning": "cổng kim loại",
+          "exampleEn": "The security guard locked the metal gate at dusk.",
+          "exampleVi": "Nhân viên bảo vệ khóa cổng kim loại lúc chạng vạng."
+        },
+        {
+          "id": "lv-p1b1-09",
+          "word": "balcony",
+          "pos": "n",
+          "ipaUK": "/ˈbæl.kə.ni/",
+          "ipaUS": "/ˈbæl.kə.ni/",
+          "meaning": "ban công",
+          "exampleEn": "Flower boxes decorated every apartment balcony.",
+          "exampleVi": "Các bồn hoa trang trí trên mỗi ban công căn hộ."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q04",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Người đàn ông giơ cao điện thoại trong không gian làm việc",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2026-full-test-2/q4.jpg",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-04.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q04-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. A man is holding up his phone.",
+        "vi": "A. Một người đàn ông đang giơ điện thoại lên.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q04"
+        ],
+        "startMs": 400,
+        "endMs": 5915
+      },
+      {
+        "id": "p1-b1-q04-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. A man is pinning a note to a bulletin board.",
+        "vi": "B. Một người đàn ông đang ghim tờ ghi chú lên bảng thông báo.",
+        "startMs": 5955,
+        "endMs": 13742
+      },
+      {
+        "id": "p1-b1-q04-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. A man is dropping an item into a bin.",
+        "vi": "C. Một người đàn ông đang thả một món đồ vào thùng.",
+        "startMs": 13782,
+        "endMs": 20433
+      },
+      {
+        "id": "p1-b1-q04-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. A man is washing some windows.",
+        "vi": "D. Một người đàn ông đang lau vài ô cửa sổ.",
+        "startMs": 20473,
+        "endMs": 25970
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "A man is holding up his phone.",
+        "vi": "Một người đàn ông đang giơ điện thoại lên."
+      },
+      "B": {
+        "en": "A man is pinning a note to a bulletin board.",
+        "vi": "Một người đàn ông đang ghim tờ ghi chú lên bảng thông báo."
+      },
+      "C": {
+        "en": "A man is dropping an item into a bin.",
+        "vi": "Một người đàn ông đang thả một món đồ vào thùng."
+      },
+      "D": {
+        "en": "A man is washing some windows.",
+        "vi": "Một người đàn ông đang lau vài ô cửa sổ."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy sai động từ hành động tay (pinning / dropping / washing)",
+      "soundTrap": {
+        "pair": "pinning / bin",
+        "noteVi": "Cặp phụ âm /p/ – /b/ trong \"pinning\" (B) và \"bin\" (C) tạo nhiễu âm nhẹ."
+      },
+      "listeningKey": "Bắt đúng động từ \"holding up his phone\" ở ngay phương án A.",
+      "trapAnalysis": "Trọng tâm ảnh là cử chỉ tay của người đàn ông đang cầm giơ chiếc điện thoại lên. Các phương án B, C, D đều bịa ra dụng cụ và hành động khác hẳn (ghim giấy lên bảng, bỏ đồ vào thùng, lau kính).",
+      "paraphrases": [
+        {
+          "audioPhrase": "holding up his phone",
+          "answerPhrase": "raising a mobile device in his hand",
+          "meaningVi": "giơ chiếc điện thoại lên bằng tay"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Khớp hoàn toàn với tư thế tay cầm giơ điện thoại của người đàn ông.",
+        "B": "SAI (Động từ & Vật thể) — Không có thao tác ghim ghi chú (pinning a note) lên bảng tin.",
+        "C": "SAI (Động từ & Vật thể) — Không có thùng chứa hay hành động thả vật xuống.",
+        "D": "SAI (Động từ hành động) — Anh ấy không cầm khăn hay dụng cụ lau cửa sổ."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-10",
+          "word": "hold up",
+          "pos": "phrase",
+          "ipaUK": "/həʊld ʌp/",
+          "ipaUS": "/hoʊld ʌp/",
+          "meaning": "giơ cao lên / cầm lên",
+          "exampleEn": "He held up his phone to scan the ticket code.",
+          "exampleVi": "Anh ấy giơ điện thoại lên để quét mã vé."
+        },
+        {
+          "id": "lv-p1b1-11",
+          "word": "bulletin board",
+          "pos": "phrase",
+          "ipaUK": "/ˈbʊl.ə.tɪn bɔːd/",
+          "ipaUS": "/ˈbʊl.ə.t̬ɪn bɔːrd/",
+          "meaning": "bảng thông báo",
+          "exampleEn": "Event schedules are pinned to the office bulletin board.",
+          "exampleVi": "Lịch sự kiện được ghim lên bảng thông báo văn phòng."
+        },
+        {
+          "id": "lv-p1b1-12",
+          "word": "drop into a bin",
+          "pos": "phrase",
+          "ipaUK": "/drɒp ˈɪn.tuː ə bɪn/",
+          "ipaUS": "/drɑːp ˈɪn.tuː ə bɪn/",
+          "meaning": "thả / bỏ vào thùng",
+          "exampleEn": "Please drop empty bottles into the recycling bin.",
+          "exampleVi": "Vui lòng bỏ chai rỗng vào thùng tái chế."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q05",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Nhân viên nữ làm việc tại quầy chế biến",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2026-full-test-2/q5.jpg",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-05.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q05-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. She's tying the back of her apron.",
+        "vi": "A. Cô ấy đang buộc dây phía sau tạp dề.",
+        "startMs": 400,
+        "endMs": 6784
+      },
+      {
+        "id": "p1-b1-q05-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. She's reaching for food on a shelf.",
+        "vi": "B. Cô ấy đang với lấy đồ ăn trên kệ.",
+        "startMs": 6824,
+        "endMs": 13376
+      },
+      {
+        "id": "p1-b1-q05-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. She's working at a counter.",
+        "vi": "C. Cô ấy đang làm việc tại một chiếc quầy.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q05"
+        ],
+        "startMs": 13416,
+        "endMs": 18624
+      },
+      {
+        "id": "p1-b1-q05-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. She's putting food into a refrigerator.",
+        "vi": "D. Cô ấy đang cất thực phẩm vào tủ lạnh.",
+        "startMs": 18664,
+        "endMs": 25870
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "She's tying the back of her apron.",
+        "vi": "Cô ấy đang buộc dây phía sau tạp dề."
+      },
+      "B": {
+        "en": "She's reaching for food on a shelf.",
+        "vi": "Cô ấy đang với lấy đồ ăn trên kệ."
+      },
+      "C": {
+        "en": "She's working at a counter.",
+        "vi": "Cô ấy đang làm việc tại một chiếc quầy."
+      },
+      "D": {
+        "en": "She's putting food into a refrigerator.",
+        "vi": "Cô ấy đang cất thực phẩm vào tủ lạnh."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy hành động chi tiết sai (tying apron / reaching / refrigerator)",
+      "soundTrap": {
+        "pair": "working / walking",
+        "noteVi": "Động từ trung lập \"working at a counter\" thường là đáp án an toàn đúng 100% trong Part 1."
+      },
+      "listeningKey": "Nghe chắc cụm bao quát \"working at a counter\" — mô tả chính xác vị trí và trạng thái.",
+      "trapAnalysis": "Đáp án A bẫy bằng từ \"apron\" (tạp dề cô ấy đang mặc sẵn chứ không phải đang buộc dây phía sau). B và D sai hướng tay và không có hành động mở tủ lạnh hay với kệ cao.",
+      "paraphrases": [
+        {
+          "audioPhrase": "working at a counter",
+          "answerPhrase": "performing tasks behind a kitchen counter",
+          "meaningVi": "đang làm việc tại quầy bếp"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Hành động vs Trạng thái) — Cô ấy đã mặc sẵn tạp dề, tay không vòng ra sau buộc dây (tying).",
+        "B": "SAI (Hướng tay) — Cô ấy thao tác trên mặt quầy chứ không với lên kệ cao (reaching for food on a shelf).",
+        "C": "ĐÚNG — Câu mô tả khái quát chuẩn xác hành động làm việc tại quầy (working at a counter).",
+        "D": "SAI (Vật thể & Động từ) — Không có hành động mở cửa đặt đồ vào tủ lạnh."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-13",
+          "word": "tie an apron",
+          "pos": "phrase",
+          "ipaUK": "/taɪ ən ˈeɪ.prən/",
+          "ipaUS": "/taɪ ən ˈeɪ.prən/",
+          "meaning": "buộc dây tạp dề",
+          "exampleEn": "The baker tied her apron before opening the shop.",
+          "exampleVi": "Người làm bánh buộc tạp dề trước khi mở cửa hàng."
+        },
+        {
+          "id": "lv-p1b1-14",
+          "word": "reach for",
+          "pos": "phrase",
+          "ipaUK": "/riːtʃ fɔːr/",
+          "ipaUS": "/riːtʃ fɔːr/",
+          "meaning": "với tay lấy",
+          "exampleEn": "She reached for a spice jar on the top shelf.",
+          "exampleVi": "Cô ấy với lấy lọ gia vị trên kệ trên cùng."
+        },
+        {
+          "id": "lv-p1b1-15",
+          "word": "work at a counter",
+          "pos": "phrase",
+          "ipaUK": "/wɜːk æt ə ˈkaʊn.tər/",
+          "ipaUS": "/wɜːrk æt ə ˈkaʊn.t̬ɚ/",
+          "meaning": "làm việc tại quầy",
+          "exampleEn": "Two chefs are working at the stainless-steel counter.",
+          "exampleVi": "Hai đầu bếp đang làm việc tại quầy inox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q06",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Nhân viên nhà hàng chuẩn bị bàn tiệc buffet",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2026-full-test-2/q6.jpg",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-06.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q06-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. He's setting up a buffet.",
+        "vi": "A. Anh ấy đang bày biện một quầy tiệc buffet.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q06"
+        ],
+        "startMs": 400,
+        "endMs": 5458
+      },
+      {
+        "id": "p1-b1-q06-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. He's putting plates on dining tables.",
+        "vi": "B. Anh ấy đang đặt đĩa lên các bàn ăn.",
+        "startMs": 5498,
+        "endMs": 12649
+      },
+      {
+        "id": "p1-b1-q06-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. He's watering some plants in a garden.",
+        "vi": "C. Anh ấy đang tưới vài chậu cây trong vườn.",
+        "startMs": 12689,
+        "endMs": 20015
+      },
+      {
+        "id": "p1-b1-q06-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. He's carrying food up a stairway.",
+        "vi": "D. Anh ấy đang mang đồ ăn lên cầu thang.",
+        "startMs": 20055,
+        "endMs": 26490
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "He's setting up a buffet.",
+        "vi": "Anh ấy đang bày biện một quầy tiệc buffet."
+      },
+      "B": {
+        "en": "He's putting plates on dining tables.",
+        "vi": "Anh ấy đang đặt đĩa lên các bàn ăn."
+      },
+      "C": {
+        "en": "He's watering some plants in a garden.",
+        "vi": "Anh ấy đang tưới vài chậu cây trong vườn."
+      },
+      "D": {
+        "en": "He's carrying food up a stairway.",
+        "vi": "Anh ấy đang mang đồ ăn lên cầu thang."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy sai vị trí đặt đồ (dining tables ≠ buffet) & ngoại cảnh giả",
+      "soundTrap": {
+        "pair": "buffet / bouquet",
+        "noteVi": "\"buffet\" đọc là /bəˈfeɪ/ (âm t câm), rất dễ bị bỏ lỡ nếu quen đọc sai trọng âm."
+      },
+      "listeningKey": "Bắt ngay động từ cụm \"setting up a buffet\" ở câu A.",
+      "trapAnalysis": "Nhân viên đang sắp xếp khay đồ ăn tại khu vực bàn tiệc đứng (buffet) chứ không đi bày đĩa ra từng bàn ăn lẻ (B). Phương án C và D sai hoàn toàn không gian (không có vườn cây hay cầu thang).",
+      "paraphrases": [
+        {
+          "audioPhrase": "setting up a buffet",
+          "answerPhrase": "arranging food trays on a serving table",
+          "meaningVi": "bày biện quầy tiệc buffet"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Mô tả chính xác công việc chuẩn bị, bày biện bàn tiệc buffet.",
+        "B": "SAI (Vị trí đích) — Anh ấy thao tác tại quầy buffet, không đặt đĩa lẻ lên các bàn ăn khách ngồi.",
+        "C": "SAI (Bối cảnh & Hành động) — Không có vườn cây hay bình tưới nước.",
+        "D": "SAI (Động từ & Vị trí) — Không có cầu thang hay hành động bưng bê đi lên tầng."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-16",
+          "word": "set up a buffet",
+          "pos": "phrase",
+          "ipaUK": "/set ʌp ə ˈbʊf.eɪ/",
+          "ipaUS": "/set ʌp ə bəˈfeɪ/",
+          "meaning": "bày biện bàn tiệc buffet",
+          "exampleEn": "Hotel staff set up a breakfast buffet at 6 a.m.",
+          "exampleVi": "Nhân viên khách sạn bày tiệc buffet sáng lúc 6 giờ."
+        },
+        {
+          "id": "lv-p1b1-17",
+          "word": "dining table",
+          "pos": "phrase",
+          "ipaUK": "/ˈdaɪ.nɪŋ ˈteɪ.bəl/",
+          "ipaUS": "/ˈdaɪ.nɪŋ ˈteɪ.bəl/",
+          "meaning": "bàn ăn",
+          "exampleEn": "Fresh napkins were folded on every dining table.",
+          "exampleVi": "Khăn ăn sạch được gấp trên mỗi bàn ăn."
+        },
+        {
+          "id": "lv-p1b1-18",
+          "word": "stairway",
+          "pos": "n",
+          "ipaUK": "/ˈsteə.weɪ/",
+          "ipaUS": "/ˈster.weɪ/",
+          "meaning": "cầu thang bộ",
+          "exampleEn": "Please use the side stairway during maintenance.",
+          "exampleVi": "Vui lòng dùng cầu thang phụ trong lúc bảo trì."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q07",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Người đàn ông thái rau củ trong bếp",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6852-toeic-lr-collection-1-test-1/p1_q4.jpg",
+    "audioUrl": "/audio/toeic/study4-6852-toeic-lr-collection-1-test-1/p1_q04.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q07-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. He's cutting up some vegetables.",
+        "vi": "A. Anh ấy đang thái nhỏ một ít rau củ.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q07"
+        ],
+        "startMs": 220,
+        "endMs": 3340
+      },
+      {
+        "id": "p1-b1-q07-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. He's wiping down the counter.",
+        "vi": "B. Anh ấy đang lau sạch mặt quầy.",
+        "startMs": 3680,
+        "endMs": 6680
+      },
+      {
+        "id": "p1-b1-q07-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. He's wearing a hat.",
+        "vi": "C. Anh ấy đang đội một chiếc mũ.",
+        "startMs": 7020,
+        "endMs": 9708
+      },
+      {
+        "id": "p1-b1-q07-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. He's holding a mug.",
+        "vi": "D. Anh ấy đang cầm một chiếc cốc.",
+        "startMs": 10048,
+        "endMs": 12640
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "He's cutting up some vegetables.",
+        "vi": "Anh ấy đang thái nhỏ một ít rau củ."
+      },
+      "B": {
+        "en": "He's wiping down the counter.",
+        "vi": "Anh ấy đang lau sạch mặt quầy."
+      },
+      "C": {
+        "en": "He's wearing a hat.",
+        "vi": "Anh ấy đang đội một chiếc mũ."
+      },
+      "D": {
+        "en": "He's holding a mug.",
+        "vi": "Anh ấy đang cầm một chiếc cốc."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy sai hành động bếp & phụ kiện không đeo (hat / mug)",
+      "soundTrap": {
+        "pair": "cutting / counter",
+        "noteVi": "Đều xuất hiện âm /k/ mở đầu dễ gây rối nếu không chú ý động từ chính."
+      },
+      "listeningKey": "Khóa cụm động từ \"cutting up some vegetables\" ngay câu A.",
+      "trapAnalysis": "Ảnh tập trung vào người đàn ông đang dùng dao thái rau củ trên thớt. B gài từ \"counter\" có mặt trong bếp nhưng hành động lau chùi sai; C và D thêm vật thể không có (không đội mũ, không cầm cốc).",
+      "paraphrases": [
+        {
+          "audioPhrase": "cutting up some vegetables",
+          "answerPhrase": "chopping fresh produce on a cutting board",
+          "meaningVi": "thái nhỏ rau củ"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Mô tả trực tiếp hành động thái rau củ trên mặt bếp.",
+        "B": "SAI (Động từ hành động) — Anh ấy cầm dao sơ chế chứ không lau quầy (wiping down).",
+        "C": "SAI (Trang phục) — Đầu trần, không đội mũ (wearing a hat).",
+        "D": "SAI (Vật đang cầm) — Tay không cầm cốc sứ (mug)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-19",
+          "word": "cut up",
+          "pos": "phrase",
+          "ipaUK": "/kʌt ʌp/",
+          "ipaUS": "/kʌt ʌp/",
+          "meaning": "thái nhỏ / cắt thành miếng",
+          "exampleEn": "The chef cut up carrots for the soup.",
+          "exampleVi": "Đầu bếp thái nhỏ cà rốt để nấu súp."
+        },
+        {
+          "id": "lv-p1b1-20",
+          "word": "wipe down",
+          "pos": "phrase",
+          "ipaUK": "/waɪp daʊn/",
+          "ipaUS": "/waɪp daʊn/",
+          "meaning": "lau chùi toàn bộ bề mặt",
+          "exampleEn": "Be sure to wipe down the kitchen counter after cooking.",
+          "exampleVi": "Nhớ lau sạch quầy bếp sau khi nấu ăn."
+        },
+        {
+          "id": "lv-p1b1-21",
+          "word": "mug",
+          "pos": "n",
+          "ipaUK": "/mʌɡ/",
+          "ipaUS": "/mʌɡ/",
+          "meaning": "cốc có quai (uống cà phê/trà)",
+          "exampleEn": "He placed a ceramic mug beside his laptop.",
+          "exampleVi": "Anh ấy đặt chiếc cốc sứ cạnh laptop."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q08",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Công nhân kho đang bọc màng pallet hàng hóa",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6852-toeic-lr-collection-1-test-1/p1_q6.jpg",
+    "audioUrl": "/audio/toeic/study4-6852-toeic-lr-collection-1-test-1/p1_q06.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q08-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. A worker is wrapping a pallet.",
+        "vi": "A. Một công nhân đang bọc màng một kiện pallet.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q08"
+        ],
+        "startMs": 220,
+        "endMs": 3460
+      },
+      {
+        "id": "p1-b1-q08-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. Some crates are being stacked outdoors.",
+        "vi": "B. Một vài thùng gỗ đang được xếp chồng ngoài trời.",
+        "startMs": 3800,
+        "endMs": 7496
+      },
+      {
+        "id": "p1-b1-q08-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. A man is sweeping the warehouse floor.",
+        "vi": "C. Một người đàn ông đang quét sàn nhà kho.",
+        "startMs": 7836,
+        "endMs": 11604
+      },
+      {
+        "id": "p1-b1-q08-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. A worker is driving a forklift.",
+        "vi": "D. Một công nhân đang lái xe nâng.",
+        "startMs": 11944,
+        "endMs": 15376
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "A worker is wrapping a pallet.",
+        "vi": "Một công nhân đang bọc màng một kiện pallet."
+      },
+      "B": {
+        "en": "Some crates are being stacked outdoors.",
+        "vi": "Một vài thùng gỗ đang được xếp chồng ngoài trời."
+      },
+      "C": {
+        "en": "A man is sweeping the warehouse floor.",
+        "vi": "Một người đàn ông đang quét sàn nhà kho."
+      },
+      "D": {
+        "en": "A worker is driving a forklift.",
+        "vi": "Một công nhân đang lái xe nâng."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy bị động tiếp diễn ngoài trời (being stacked outdoors) & hành động kho giả",
+      "soundTrap": {
+        "pair": "wrapping / sweeping",
+        "noteVi": "Đều chỉ thao tác tay trong kho, cần bắt chuẩn động từ \"wrapping\" (quấn/bọc)."
+      },
+      "listeningKey": "Nghe chuẩn \"A worker is wrapping a pallet\" — động từ \"wrapping\" chốt đáp án trong 2 giây.",
+      "trapAnalysis": "Trong kho hàng trong nhà, công nhân đang quấn màng bảo vệ quanh kiện hàng trên pallet. B sai cả địa điểm (\"outdoors\") lẫn hành động; C và D sai động tác (không cầm chổi quét sàn, không ngồi lái xe nâng).",
+      "paraphrases": [
+        {
+          "audioPhrase": "wrapping a pallet",
+          "answerPhrase": "securing stacked boxes with plastic film",
+          "meaningVi": "quấn màng bọc kiện hàng pallet"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Mô tả chính xác công nhân đang quấn màng bọc cố định pallet hàng.",
+        "B": "SAI (Địa điểm & Bị động) — Bối cảnh trong nhà kho chứ không phải ngoài trời (outdoors).",
+        "C": "SAI (Động từ hành động) — Công nhân không cầm chổi quét sàn kho.",
+        "D": "SAI (Động từ & Phương tiện) — Công nhân đang đứng thao tác bằng tay, không lái xe nâng (forklift)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-22",
+          "word": "wrap a pallet",
+          "pos": "phrase",
+          "ipaUK": "/ræp ə ˈpæl.ət/",
+          "ipaUS": "/ræp ə ˈpæl.ət/",
+          "meaning": "bọc màng kiện hàng pallet",
+          "exampleEn": "Warehouse staff wrap each pallet before shipping.",
+          "exampleVi": "Nhân viên kho bọc từng pallet hàng trước khi vận chuyển."
+        },
+        {
+          "id": "lv-p1b1-23",
+          "word": "crate",
+          "pos": "n",
+          "ipaUK": "/kreɪt/",
+          "ipaUS": "/kreɪt/",
+          "meaning": "thùng gỗ / sọt đựng hàng",
+          "exampleEn": "Heavy wooden crates are stored near the loading dock.",
+          "exampleVi": "Các thùng gỗ nặng được cất gần bến bốc hàng."
+        },
+        {
+          "id": "lv-p1b1-24",
+          "word": "forklift",
+          "pos": "n",
+          "ipaUK": "/ˈfɔːk.lɪft/",
+          "ipaUS": "/ˈfɔːrk.lɪft/",
+          "meaning": "xe nâng hàng trong kho",
+          "exampleEn": "Only certified operators may drive the forklift.",
+          "exampleVi": "Chỉ nhân viên có chứng chỉ mới được lái xe nâng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q09",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Nhân viên nam hút bụi thảm trong tòa nhà",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q4.jpg",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q04.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q09-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. He's watering a plant.",
+        "vi": "A. Anh ấy đang tưới một chậu cây.",
+        "startMs": 220,
+        "endMs": 2932
+      },
+      {
+        "id": "p1-b1-q09-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. He's opening a door.",
+        "vi": "B. Anh ấy đang mở một cánh cửa.",
+        "startMs": 3292,
+        "endMs": 6028
+      },
+      {
+        "id": "p1-b1-q09-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. He's pushing a chair.",
+        "vi": "C. Anh ấy đang đẩy một chiếc ghế.",
+        "startMs": 6388,
+        "endMs": 9124
+      },
+      {
+        "id": "p1-b1-q09-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. He's vacuuming a carpet.",
+        "vi": "D. Anh ấy đang hút bụi một tấm thảm.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q09"
+        ],
+        "startMs": 9484,
+        "endMs": 12460
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "He's watering a plant.",
+        "vi": "Anh ấy đang tưới một chậu cây."
+      },
+      "B": {
+        "en": "He's opening a door.",
+        "vi": "Anh ấy đang mở một cánh cửa."
+      },
+      "C": {
+        "en": "He's pushing a chair.",
+        "vi": "Anh ấy đang đẩy một chiếc ghế."
+      },
+      "D": {
+        "en": "He's vacuuming a carpet.",
+        "vi": "Anh ấy đang hút bụi một tấm thảm."
+      }
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "trapType": "Bẫy liệt kê 4 động từ hành động đơn ngắn tốc độ nhanh",
+      "soundTrap": {
+        "pair": "vacuuming / watering",
+        "noteVi": "4 câu cực ngắn đọc rất nhanh — phải khóa ngay động từ V-ing thứ 2 trong câu."
+      },
+      "listeningKey": "Đợi nghe đúng động từ \"vacuuming a carpet\" ở câu D — đừng vội chọn sớm khi thấy cây hay ghế ở nền.",
+      "trapAnalysis": "Kiểu câu 4 đáp án ngắn chuẩn ETS: các danh từ nền như cây (plant), cửa (door), ghế (chair) có thể thoáng thấy trong phòng nhưng hành động thực sự người đàn ông đang làm là đẩy máy hút bụi trên thảm.",
+      "paraphrases": [
+        {
+          "audioPhrase": "vacuuming a carpet",
+          "answerPhrase": "cleaning the carpeted floor with a vacuum",
+          "meaningVi": "hút bụi sàn trải thảm"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Động từ hành động) — Anh ấy không cầm bình tưới cây.",
+        "B": "SAI (Động từ hành động) — Tay không nắm tay nắm mở cửa.",
+        "C": "SAI (Động từ hành động) — Anh ấy đẩy máy hút bụi, không đẩy ghế.",
+        "D": "ĐÚNG — Mô tả chính xác hành động hút bụi mặt thảm."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-25",
+          "word": "vacuum a carpet",
+          "pos": "phrase",
+          "ipaUK": "/ˈvæk.juːm ə ˈkɑː.pɪt/",
+          "ipaUS": "/ˈvæk.juːm ə ˈkɑːr.pət/",
+          "meaning": "hút bụi thảm",
+          "exampleEn": "The custodian vacuums the hallway carpet every evening.",
+          "exampleVi": "Nhân viên vệ sinh hút bụi thảm hành lang mỗi tối."
+        },
+        {
+          "id": "lv-p1b1-26",
+          "word": "water a plant",
+          "pos": "phrase",
+          "ipaUK": "/ˈwɔː.tər ə plɑːnt/",
+          "ipaUS": "/ˈwɑː.t̬ɚ ə plænt/",
+          "meaning": "tưới cây",
+          "exampleEn": "Please water the office plants twice a week.",
+          "exampleVi": "Vui lòng tưới cây văn phòng hai lần mỗi tuần."
+        },
+        {
+          "id": "lv-p1b1-27",
+          "word": "push a chair",
+          "pos": "phrase",
+          "ipaUK": "/pʊʃ ə tʃeər/",
+          "ipaUS": "/pʊʃ ə tʃer/",
+          "meaning": "đẩy ghế",
+          "exampleEn": "She pushed her chair back under the desk.",
+          "exampleVi": "Cô ấy đẩy ghế gọn vào dưới gầm bàn."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q10",
+    "part": 1,
+    "sceneType": "single-person",
+    "title": "Khách hàng tự đóng gói thực phẩm tại cửa hàng",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q6.jpg",
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q06.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q10-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. A cashier is scanning an item.",
+        "vi": "A. Một nhân viên thu ngân đang quét mã một món hàng.",
+        "startMs": 220,
+        "endMs": 3532
+      },
+      {
+        "id": "p1-b1-q10-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. A cashier is counting some money.",
+        "vi": "B. Một nhân viên thu ngân đang đếm tiền.",
+        "startMs": 3892,
+        "endMs": 7228
+      },
+      {
+        "id": "p1-b1-q10-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. A customer is pushing a cart.",
+        "vi": "C. Một khách hàng đang đẩy xe đẩy hàng.",
+        "startMs": 7588,
+        "endMs": 11020
+      },
+      {
+        "id": "p1-b1-q10-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. A customer is filling a bag with groceries.",
+        "vi": "D. Một khách hàng đang bỏ hàng tạp hóa vào túi.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q10"
+        ],
+        "startMs": 11380,
+        "endMs": 15316
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "A cashier is scanning an item.",
+        "vi": "Một nhân viên thu ngân đang quét mã một món hàng."
+      },
+      "B": {
+        "en": "A cashier is counting some money.",
+        "vi": "Một nhân viên thu ngân đang đếm tiền."
+      },
+      "C": {
+        "en": "A customer is pushing a cart.",
+        "vi": "Một khách hàng đang đẩy xe đẩy hàng."
+      },
+      "D": {
+        "en": "A customer is filling a bag with groceries.",
+        "vi": "Một khách hàng đang bỏ hàng tạp hóa vào túi."
+      }
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "trapType": "Bẫy sai vai trò chủ ngữ (cashier ≠ customer) & hành động mua sắm",
+      "soundTrap": {
+        "pair": "cashier / customer",
+        "noteVi": "Hai danh từ chỉ người ở siêu thị đều bắt đầu bằng âm /k/ — cần xác định rõ ai đang thao tác."
+      },
+      "listeningKey": "Khóa \"A customer is filling a bag with groceries\" — đúng chủ ngữ khách hàng + động tác bỏ đồ vào túi.",
+      "trapAnalysis": "Ảnh chụp khách hàng đang tự cho thực phẩm/đồ tạp hóa vào túi tại siêu thị. Phương án A và B đánh tráo chủ ngữ sang thu ngân (cashier) với hành động quét mã/đếm tiền không có; C sai động tác đẩy xe.",
+      "paraphrases": [
+        {
+          "audioPhrase": "filling a bag with groceries",
+          "answerPhrase": "placing purchased food items into a shopping bag",
+          "meaningVi": "cho đồ tạp hóa vào túi"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Chủ ngữ & Hành động) — Không có thu ngân đang quét mã vạch sản phẩm.",
+        "B": "SAI (Chủ ngữ & Hành động) — Không có cảnh đếm tiền mặt.",
+        "C": "SAI (Động từ hành động) — Khách hàng đang đứng bỏ đồ vào túi chứ không đẩy xe hàng đi.",
+        "D": "ĐÚNG — Khớp chính xác chủ ngữ khách hàng và động tác cho thực phẩm vào túi."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-28",
+          "word": "fill a bag with",
+          "pos": "phrase",
+          "ipaUK": "/fɪl ə bæɡ wɪð/",
+          "ipaUS": "/fɪl ə bæɡ wɪð/",
+          "meaning": "cho đầy đồ vào túi",
+          "exampleEn": "Shoppers filled reusable bags with fresh produce.",
+          "exampleVi": "Người mua sắm cho nông sản tươi vào túi tái sử dụng."
+        },
+        {
+          "id": "lv-p1b1-29",
+          "word": "scan an item",
+          "pos": "phrase",
+          "ipaUK": "/skæn ən ˈaɪ.təm/",
+          "ipaUS": "/skæn ən ˈaɪ.t̬əm/",
+          "meaning": "quét mã sản phẩm",
+          "exampleEn": "The cashier scanned each item at the checkout.",
+          "exampleVi": "Thu ngân quét mã từng món hàng tại quầy thanh toán."
+        },
+        {
+          "id": "lv-p1b1-30",
+          "word": "groceries",
+          "pos": "n",
+          "ipaUK": "/ˈɡrəʊ.sər.iz/",
+          "ipaUS": "/ˈɡroʊ.sɚ.iz/",
+          "meaning": "hàng tạp hóa / thực phẩm mua ở siêu thị",
+          "exampleEn": "She carried two bags of groceries home.",
+          "exampleVi": "Cô ấy xách hai túi đồ tạp hóa về nhà."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q11",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Hai người trò chuyện trong không gian trưng bày",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2024-full-test-1/q3.jpg",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-03.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q11-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "A. Some workers are hanging art in a gallery.",
+        "vi": "A. Một vài công nhân đang treo tranh trong phòng trưng bày.",
+        "startMs": 400,
+        "endMs": 7016
+      },
+      {
+        "id": "p1-b1-q11-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "B. Two of the people are having a conversation.",
+        "vi": "B. Hai trong số những người này đang trò chuyện với nhau.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q11"
+        ],
+        "startMs": 7056,
+        "endMs": 13959
+      },
+      {
+        "id": "p1-b1-q11-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "C. One of the men is rearranging cushions on a sofa.",
+        "vi": "C. Một trong những người đàn ông đang sắp xếp lại gối tựa trên ghế sofa.",
+        "startMs": 13999,
+        "endMs": 21621
+      },
+      {
+        "id": "p1-b1-q11-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "D. One of the men is painting a picture.",
+        "vi": "D. Một trong những người đàn ông đang vẽ một bức tranh.",
+        "startMs": 21661,
+        "endMs": 27540
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some workers are hanging art in a gallery.",
+        "vi": "Một vài công nhân đang treo tranh trong phòng trưng bày."
+      },
+      "B": {
+        "en": "Two of the people are having a conversation.",
+        "vi": "Hai trong số những người này đang trò chuyện với nhau."
+      },
+      "C": {
+        "en": "One of the men is rearranging cushions on a sofa.",
+        "vi": "Một trong những người đàn ông đang sắp xếp lại gối tựa trên ghế sofa."
+      },
+      "D": {
+        "en": "One of the men is painting a picture.",
+        "vi": "Một trong những người đàn ông đang vẽ một bức tranh."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy suy diễn hành động từ bối cảnh (gallery → hanging art / painting)",
+      "soundTrap": {
+        "pair": "painting / hanging",
+        "noteVi": "Tranh treo sẵn trên tường dễ khiến thí sinh mắc bẫy \"hanging art\" (A) hoặc \"painting\" (D)."
+      },
+      "listeningKey": "Chốt \"Two of the people are having a conversation\" — mô tả an toàn, đúng tương tác thực tế.",
+      "trapAnalysis": "Trong không gian có tranh nghệ thuật và ghế sofa, các bức tranh đã treo sẵn cố định (không ai đang treo ở câu A, không ai đang vẽ ở câu D), và không ai chỉnh gối sofa (C). Hành động duy nhất diễn ra là hai người đang nói chuyện.",
+      "paraphrases": [
+        {
+          "audioPhrase": "having a conversation",
+          "answerPhrase": "talking with one another",
+          "meaningVi": "đang trò chuyện với nhau"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Hành động vs Trạng thái) — Tranh đã treo sẵn trên tường, không có công nhân nào đang treo.",
+        "B": "ĐÚNG — Hai người đứng hướng mặt về nhau trò chuyện rõ ràng.",
+        "C": "SAI (Động từ hành động) — Không có ai chạm tay sắp xếp gối tựa trên ghế sofa.",
+        "D": "SAI (Động từ hành động) — Không có cọ vẽ hay ai đang vẽ tranh."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-31",
+          "word": "have a conversation",
+          "pos": "phrase",
+          "ipaUK": "/hæv ə ˌkɒn.vəˈseɪ.ʃən/",
+          "ipaUS": "/hæv ə ˌkɑːn.vɚˈseɪ.ʃən/",
+          "meaning": "trò chuyện / nói chuyện",
+          "exampleEn": "Two colleagues are having a conversation in the lobby.",
+          "exampleVi": "Hai đồng nghiệp đang trò chuyện tại sảnh."
+        },
+        {
+          "id": "lv-p1b1-32",
+          "word": "hang art",
+          "pos": "phrase",
+          "ipaUK": "/hæŋ ɑːt/",
+          "ipaUS": "/hæŋ ɑːrt/",
+          "meaning": "treo tác phẩm nghệ thuật",
+          "exampleEn": "Curators hung new artwork before the exhibition.",
+          "exampleVi": "Các giám tuyển đã treo tranh mới trước buổi triển lãm."
+        },
+        {
+          "id": "lv-p1b1-33",
+          "word": "rearrange cushions",
+          "pos": "phrase",
+          "ipaUK": "/ˌriː.əˈreɪndʒ ˈkʊʃ.ənz/",
+          "ipaUS": "/ˌriː.əˈreɪndʒ ˈkʊʃ.ənz/",
+          "meaning": "sắp xếp lại gối tựa",
+          "exampleEn": "Staff rearranged cushions in the guest lounge.",
+          "exampleVi": "Nhân viên xếp lại gối tựa ở phòng chờ khách."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q12",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Nhóm người cùng xem một cuốn sách",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2026-full-test-1/q2.jpg",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-02.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q12-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. Some people are standing next to a filing cabinet.",
+        "vi": "A. Một vài người đang đứng cạnh tủ hồ sơ.",
+        "startMs": 400,
+        "endMs": 8568
+      },
+      {
+        "id": "p1-b1-q12-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. Some people are searching through a desk.",
+        "vi": "B. Một vài người đang tìm kiếm đồ trong bàn làm việc.",
+        "startMs": 8608,
+        "endMs": 15415
+      },
+      {
+        "id": "p1-b1-q12-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. Some people are watching a presentation.",
+        "vi": "C. Một vài người đang xem một buổi thuyết trình.",
+        "startMs": 15455,
+        "endMs": 22110
+      },
+      {
+        "id": "p1-b1-q12-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. Some people are looking at a book.",
+        "vi": "D. Một vài người đang nhìn vào một cuốn sách.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q12"
+        ],
+        "startMs": 22150,
+        "endMs": 27880
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some people are standing next to a filing cabinet.",
+        "vi": "Một vài người đang đứng cạnh tủ hồ sơ."
+      },
+      "B": {
+        "en": "Some people are searching through a desk.",
+        "vi": "Một vài người đang tìm kiếm đồ trong bàn làm việc."
+      },
+      "C": {
+        "en": "Some people are watching a presentation.",
+        "vi": "Một vài người đang xem một buổi thuyết trình."
+      },
+      "D": {
+        "en": "Some people are looking at a book.",
+        "vi": "Một vài người đang nhìn vào một cuốn sách."
+      }
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "trapType": "Bẫy chủ ngữ giống hệt nhau (\"Some people are...\") — phải bắt chuẩn tân ngữ cuối câu",
+      "soundTrap": {
+        "pair": "filing cabinet / presentation / book",
+        "noteVi": "Cả 4 câu mở đầu y hệt \"Some people are...\" nên phải nghe hết động từ + danh từ phía sau."
+      },
+      "listeningKey": "Giữ tập trung tới cuối câu D: \"looking at a book\" khớp đúng ánh mắt và vật trên tay.",
+      "trapAnalysis": "ETS dùng chung chủ ngữ \"Some people are...\" cho cả 4 phương án để thử khả năng nghe động từ + tân ngữ. Họ không đứng cạnh tủ hồ sơ (A), không lục ngăn bàn (B) và không xem màn hình thuyết trình (C) mà đang cùng nhìn vào một cuốn sách.",
+      "paraphrases": [
+        {
+          "audioPhrase": "looking at a book",
+          "answerPhrase": "examining pages together",
+          "meaningVi": "đang cùng nhìn vào một cuốn sách"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Vị trí & Vật thể) — Không có tủ hồ sơ (filing cabinet) cạnh chỗ họ đứng.",
+        "B": "SAI (Động từ hành động) — Họ không lục tìm giấy tờ trong ngăn kéo bàn.",
+        "C": "SAI (Bối cảnh) — Không có màn chiếu hay diễn giả thuyết trình.",
+        "D": "ĐÚNG — Mọi ánh mắt đều hướng về cuốn sách đang mở."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-34",
+          "word": "filing cabinet",
+          "pos": "phrase",
+          "ipaUK": "/ˈfaɪ.lɪŋ ˈkæb.ɪ.nət/",
+          "ipaUS": "/ˈfaɪ.lɪŋ ˈkæb.ə.nət/",
+          "meaning": "tủ đựng hồ sơ",
+          "exampleEn": "Archived invoices are stored in the metal filing cabinet.",
+          "exampleVi": "Hóa đơn lưu trữ được cất trong tủ hồ sơ kim loại."
+        },
+        {
+          "id": "lv-p1b1-35",
+          "word": "search through",
+          "pos": "phrase",
+          "ipaUK": "/sɜːtʃ θruː/",
+          "ipaUS": "/sɜːrtʃ θruː/",
+          "meaning": "lục tìm kỹ trong",
+          "exampleEn": "He searched through his desk for the receipt.",
+          "exampleVi": "Anh ấy lục tìm biên lai trong bàn làm việc."
+        },
+        {
+          "id": "lv-p1b1-36",
+          "word": "watch a presentation",
+          "pos": "phrase",
+          "ipaUK": "/wɒtʃ ə ˌprez.ənˈteɪ.ʃən/",
+          "ipaUS": "/wɑːtʃ ə ˌprez.ənˈteɪ.ʃən/",
+          "meaning": "xem buổi thuyết trình",
+          "exampleEn": "Employees watched a presentation on quarterly sales.",
+          "exampleVi": "Nhân viên xem bài thuyết trình về doanh số quý."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q13",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Nhiều người đang xếp hàng chờ bên trong khu dịch vụ",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6852-toeic-lr-collection-1-test-1/p1_q1.jpg",
+    "audioUrl": "/audio/toeic/study4-6852-toeic-lr-collection-1-test-1/p1_q01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q13-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Some people are waiting in line.",
+        "vi": "A. Một vài người đang xếp hàng chờ.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q13"
+        ],
+        "startMs": 220,
+        "endMs": 3340
+      },
+      {
+        "id": "p1-b1-q13-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. Some people are sitting on chairs.",
+        "vi": "B. Một vài người đang ngồi trên ghế.",
+        "startMs": 3680,
+        "endMs": 6920
+      },
+      {
+        "id": "p1-b1-q13-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. Some people are pulling their suitcases.",
+        "vi": "C. Một vài người đang kéo vali của họ.",
+        "startMs": 7260,
+        "endMs": 10956
+      },
+      {
+        "id": "p1-b1-q13-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some people are standing outside.",
+        "vi": "D. Một vài người đang đứng ở ngoài trời.",
+        "startMs": 11296,
+        "endMs": 14560
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some people are waiting in line.",
+        "vi": "Một vài người đang xếp hàng chờ."
+      },
+      "B": {
+        "en": "Some people are sitting on chairs.",
+        "vi": "Một vài người đang ngồi trên ghế."
+      },
+      "C": {
+        "en": "Some people are pulling their suitcases.",
+        "vi": "Một vài người đang kéo vali của họ."
+      },
+      "D": {
+        "en": "Some people are standing outside.",
+        "vi": "Một vài người đang đứng ở ngoài trời."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy tư thế (waiting in line ≠ sitting) & trong nhà vs ngoài trời",
+      "soundTrap": {
+        "pair": "waiting / sitting / standing",
+        "noteVi": "Nghe phân biệt hành động \"waiting in line\" vs địa điểm sai \"standing outside\"."
+      },
+      "listeningKey": "Khóa ngay câu A: \"waiting in line\" — nhận diện hàng người đứng nối đuôi nhau.",
+      "trapAnalysis": "Tranh chụp nhiều người đứng xếp thành hàng chờ tới lượt bên trong tòa nhà. Câu B sai tư thế (không ngồi ghế), C thêm vật thể không có (không kéo vali), D đúng động từ đứng nhưng sai vị trí (\"outside\" ≠ trong nhà).",
+      "paraphrases": [
+        {
+          "audioPhrase": "waiting in line",
+          "answerPhrase": "standing in a queue",
+          "meaningVi": "đang xếp hàng chờ đợi"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Mô tả chính xác hàng người đang đứng chờ theo thứ tự.",
+        "B": "SAI (Tư thế) — Mọi người đang đứng chứ không ngồi trên ghế.",
+        "C": "SAI (Vật thể) — Không có ai kéo vali (pulling suitcases).",
+        "D": "SAI (Địa điểm) — Bối cảnh bên trong nhà, không phải ngoài trời (outside)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-37",
+          "word": "pull a suitcase",
+          "pos": "phrase",
+          "ipaUK": "/pʊl ə ˈsuːt.keɪs/",
+          "ipaUS": "/pʊl ə ˈsuːt.keɪs/",
+          "meaning": "kéo va-li hành lý",
+          "exampleEn": "Travelers pulled their suitcases toward gate four.",
+          "exampleVi": "Hành khách kéo va-li về phía cổng số 4."
+        },
+        {
+          "id": "lv-p1b1-38",
+          "word": "stand outside",
+          "pos": "phrase",
+          "ipaUK": "/stænd ˌaʊtˈsaɪd/",
+          "ipaUS": "/stænd ˌaʊtˈsaɪd/",
+          "meaning": "đứng bên ngoài",
+          "exampleEn": "Guests stood outside the entrance waiting for a taxi.",
+          "exampleVi": "Khách đứng ngoài lối vào chờ taxi."
+        },
+        {
+          "id": "lv-p1b1-39",
+          "word": "line up",
+          "pos": "phrase",
+          "ipaUK": "/laɪn ʌp/",
+          "ipaUS": "/laɪn ʌp/",
+          "meaning": "xếp thành hàng",
+          "exampleEn": "Attendees lined up at the registration desk.",
+          "exampleVi": "Người tham dự xếp hàng tại bàn đăng ký."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q14",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Hai công nhân cùng khiêng tấm ván gỗ",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q3.jpg",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q03.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q14-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "A. One of the men is holding a broom.",
+        "vi": "A. Một trong những người đàn ông đang cầm chổi.",
+        "startMs": 220,
+        "endMs": 3292
+      },
+      {
+        "id": "p1-b1-q14-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "B. One of the men is climbing a ladder.",
+        "vi": "B. Một trong những người đàn ông đang leo thang.",
+        "startMs": 3652,
+        "endMs": 6748
+      },
+      {
+        "id": "p1-b1-q14-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "C. The men are carrying a board.",
+        "vi": "C. Những người đàn ông đang khiêng một tấm ván.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q14"
+        ],
+        "startMs": 7108,
+        "endMs": 9892
+      },
+      {
+        "id": "p1-b1-q14-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "D. The men are painting a wall.",
+        "vi": "D. Những người đàn ông đang sơn một bức tường.",
+        "startMs": 10252,
+        "endMs": 12892
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "One of the men is holding a broom.",
+        "vi": "Một trong những người đàn ông đang cầm chổi."
+      },
+      "B": {
+        "en": "One of the men is climbing a ladder.",
+        "vi": "Một trong những người đàn ông đang leo thang."
+      },
+      "C": {
+        "en": "The men are carrying a board.",
+        "vi": "Những người đàn ông đang khiêng một tấm ván."
+      },
+      "D": {
+        "en": "The men are painting a wall.",
+        "vi": "Những người đàn ông đang sơn một bức tường."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy từ gần âm kinh điển & dụng cụ công trường giả (broom / ladder / painting)",
+      "soundTrap": {
+        "pair": "board / broom & climbing / carrying",
+        "noteVi": "Đều liên quan đến sửa chữa/công trình nhưng chỉ \"carrying a board\" khớp động tác hai người cùng nâng tấm ván."
+      },
+      "listeningKey": "Bắt đúng động từ \"The men are carrying a board\" — hành động phối hợp của cả hai người.",
+      "trapAnalysis": "Hai người đàn ông cùng hợp sức khiêng một tấm ván dài. Các phương án A, B, D gài những động từ quen thuộc của bối cảnh công trình (cầm chổi, trèo thang, sơn tường) nhưng hoàn toàn không xảy ra.",
+      "paraphrases": [
+        {
+          "audioPhrase": "carrying a board",
+          "answerPhrase": "transporting a wooden plank together",
+          "meaningVi": "cùng khiêng một tấm ván"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Vật đang cầm) — Không ai cầm chổi (broom).",
+        "B": "SAI (Động từ hành động) — Cả hai đều đứng dưới mặt đất, không ai trèo thang (climbing a ladder).",
+        "C": "ĐÚNG — Mô tả chính xác hai người đàn ông đang khiêng tấm ván.",
+        "D": "SAI (Động từ hành động) — Không có chổi sơn hay hành động sơn tường."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-40",
+          "word": "carry a board",
+          "pos": "phrase",
+          "ipaUK": "/ˈkær.i ə bɔːd/",
+          "ipaUS": "/ˈker.i ə bɔːrd/",
+          "meaning": "khiêng một tấm ván / bảng",
+          "exampleEn": "Two carpenters carried a long wooden board indoors.",
+          "exampleVi": "Hai thợ mộc khiêng một tấm ván gỗ dài vào trong."
+        },
+        {
+          "id": "lv-p1b1-41",
+          "word": "climb a ladder",
+          "pos": "phrase",
+          "ipaUK": "/klaɪm ə ˈlæd.ər/",
+          "ipaUS": "/klaɪm ə ˈlæd.ɚ/",
+          "meaning": "leo thang",
+          "exampleEn": "The technician climbed a ladder to inspect the light.",
+          "exampleVi": "Kỹ thuật viên leo thang để kiểm tra đèn."
+        },
+        {
+          "id": "lv-p1b1-42",
+          "word": "hold a broom",
+          "pos": "phrase",
+          "ipaUK": "/həʊld ə bruːm/",
+          "ipaUS": "/hoʊld ə bruːm/",
+          "meaning": "cầm cây chổi",
+          "exampleEn": "A worker stood holding a broom near the doorway.",
+          "exampleVi": "Một công nhân đứng cầm chổi gần ô cửa."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q15",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Nhóm người đang đọc tờ rơi giới thiệu",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q2.jpg",
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q02.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q15-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. They're viewing some paintings.",
+        "vi": "A. Họ đang ngắm vài bức tranh.",
+        "startMs": 220,
+        "endMs": 3052
+      },
+      {
+        "id": "p1-b1-q15-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. They're reading some brochures.",
+        "vi": "B. Họ đang đọc vài tờ rơi quảng cáo.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q15"
+        ],
+        "startMs": 3412,
+        "endMs": 6532
+      },
+      {
+        "id": "p1-b1-q15-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. They're hanging some signs.",
+        "vi": "C. Họ đang treo vài tấm biển hiệu.",
+        "startMs": 6892,
+        "endMs": 9820
+      },
+      {
+        "id": "p1-b1-q15-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. They're sorting some papers.",
+        "vi": "D. Họ đang phân loại vài tờ giấy.",
+        "startMs": 10180,
+        "endMs": 13108
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "They're viewing some paintings.",
+        "vi": "Họ đang ngắm vài bức tranh."
+      },
+      "B": {
+        "en": "They're reading some brochures.",
+        "vi": "Họ đang đọc vài tờ rơi quảng cáo."
+      },
+      "C": {
+        "en": "They're hanging some signs.",
+        "vi": "Họ đang treo vài tấm biển hiệu."
+      },
+      "D": {
+        "en": "They're sorting some papers.",
+        "vi": "Họ đang phân loại vài tờ giấy."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy hành động gần nghĩa với giấy tờ (reading brochures ≠ sorting papers)",
+      "soundTrap": {
+        "pair": "brochures / papers",
+        "noteVi": "Đều chỉ ấn phẩm giấy nhưng hành động trên ảnh là cầm đọc (\"reading brochures\") chứ không phân loại xếp chồng (\"sorting\")."
+      },
+      "listeningKey": "Khóa chuẩn \"They're reading some brochures\" — ánh mắt tập trung vào tờ gấp trên tay.",
+      "trapAnalysis": "Cả 4 đáp án dùng chung \"They're + V-ing\". Họ đang cầm tờ rơi gấp đọc thông tin chứ không ngắm tranh trên tường (A), không treo biển (C) và không phân loại giấy tờ lên bàn (D).",
+      "paraphrases": [
+        {
+          "audioPhrase": "reading some brochures",
+          "answerPhrase": "looking over printed pamphlets",
+          "meaningVi": "đang đọc các tờ rơi / tập gấp"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Tân ngữ) — Họ nhìn vào tài liệu trên tay chứ không ngắm tranh treo tường.",
+        "B": "ĐÚNG — Mô tả chuẩn hành động đang cầm đọc tờ rơi giới thiệu (brochures).",
+        "C": "SAI (Động từ hành động) — Không ai giơ tay treo biển hiệu.",
+        "D": "SAI (Động từ hành động) — Không có động tác chia nhóm/phân loại giấy tờ."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-43",
+          "word": "brochure",
+          "pos": "n",
+          "ipaUK": "/ˈbrəʊ.ʃər/",
+          "ipaUS": "/broʊˈʃʊr/",
+          "meaning": "tờ rơi / tập tài liệu giới thiệu",
+          "exampleEn": "Visitors picked up free brochures at the info desk.",
+          "exampleVi": "Du khách lấy tờ rơi miễn phí tại quầy thông tin."
+        },
+        {
+          "id": "lv-p1b1-44",
+          "word": "sort papers",
+          "pos": "phrase",
+          "ipaUK": "/sɔːt ˈpeɪ.pəz/",
+          "ipaUS": "/sɔːrt ˈpeɪ.pɚz/",
+          "meaning": "phân loại giấy tờ",
+          "exampleEn": "The assistant spent the morning sorting papers.",
+          "exampleVi": "Trợ lý dành cả buổi sáng phân loại giấy tờ."
+        },
+        {
+          "id": "lv-p1b1-45",
+          "word": "hang a sign",
+          "pos": "phrase",
+          "ipaUK": "/hæŋ ə saɪn/",
+          "ipaUS": "/hæŋ ə saɪn/",
+          "meaning": "treo biển hiệu",
+          "exampleEn": "Store owners hung a welcome sign in the window.",
+          "exampleVi": "Chủ cửa hàng treo biển chào mừng ở cửa kính."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q16",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Nhóm nhân viên họp và nhìn lên bảng trắng",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q4.jpg",
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q04.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q16-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. They're stacking some folders on a table.",
+        "vi": "A. Họ đang xếp chồng vài tập hồ sơ lên bàn.",
+        "startMs": 220,
+        "endMs": 3748
+      },
+      {
+        "id": "p1-b1-q16-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. They're looking at a whiteboard.",
+        "vi": "B. Họ đang nhìn lên một chiếc bảng trắng.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q16"
+        ],
+        "startMs": 4108,
+        "endMs": 7012
+      },
+      {
+        "id": "p1-b1-q16-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. One of the men is typing on a laptop.",
+        "vi": "C. Một trong những người đàn ông đang gõ máy tính xách tay.",
+        "startMs": 7372,
+        "endMs": 10996
+      },
+      {
+        "id": "p1-b1-q16-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. One of the men is lifting a mug.",
+        "vi": "D. Một trong những người đàn ông đang nhấc một chiếc cốc.",
+        "startMs": 11356,
+        "endMs": 14572
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "They're stacking some folders on a table.",
+        "vi": "Họ đang xếp chồng vài tập hồ sơ lên bàn."
+      },
+      "B": {
+        "en": "They're looking at a whiteboard.",
+        "vi": "Họ đang nhìn lên một chiếc bảng trắng."
+      },
+      "C": {
+        "en": "One of the men is typing on a laptop.",
+        "vi": "Một trong những người đàn ông đang gõ máy tính xách tay."
+      },
+      "D": {
+        "en": "One of the men is lifting a mug.",
+        "vi": "Một trong những người đàn ông đang nhấc một chiếc cốc."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy hành động giả với vật dụng văn phòng (folders / laptop / mug)",
+      "soundTrap": {
+        "pair": "whiteboard / folders",
+        "noteVi": "Đồ vật văn phòng quen thuộc dễ gây nhiễu nếu không đối chiếu hướng nhìn của cả nhóm."
+      },
+      "listeningKey": "Nghe cụm \"They're looking at a whiteboard\" — hướng nhìn đồng nhất của nhóm họp.",
+      "trapAnalysis": "Trong cuộc họp văn phòng, cả nhóm đang hướng mắt quan sát bảng trắng (whiteboard). Không ai đang xếp hồ sơ (A), không có người đàn ông nào đang gõ laptop (C) hay cầm cốc nhấc lên (D).",
+      "paraphrases": [
+        {
+          "audioPhrase": "looking at a whiteboard",
+          "answerPhrase": "viewing notes written on a board",
+          "meaningVi": "đang nhìn vào bảng trắng"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Động từ hành động) — Không ai đang xếp chồng kẹp hồ sơ.",
+        "B": "ĐÚNG — Hướng nhìn của nhóm tập trung vào chiếc bảng trắng trong phòng họp.",
+        "C": "SAI (Động từ hành động) — Không có người đàn ông nào đang gõ phím laptop.",
+        "D": "SAI (Động từ hành động) — Không ai đang nhấc cốc lên uống."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-46",
+          "word": "whiteboard",
+          "pos": "n",
+          "ipaUK": "/ˈwaɪt.bɔːd/",
+          "ipaUS": "/ˈwaɪt.bɔːrd/",
+          "meaning": "bảng trắng viết bút lông",
+          "exampleEn": "The manager sketched the timeline on the whiteboard.",
+          "exampleVi": "Quản lý phác thảo mốc thời gian lên bảng trắng."
+        },
+        {
+          "id": "lv-p1b1-47",
+          "word": "stack folders",
+          "pos": "phrase",
+          "ipaUK": "/stæk ˈfəʊl.dəz/",
+          "ipaUS": "/stæk ˈfoʊl.dɚz/",
+          "meaning": "xếp chồng tập hồ sơ",
+          "exampleEn": "Color-coded folders were stacked neatly on the shelf.",
+          "exampleVi": "Các tập hồ sơ phân màu được xếp gọn trên kệ."
+        },
+        {
+          "id": "lv-p1b1-48",
+          "word": "lift a mug",
+          "pos": "phrase",
+          "ipaUK": "/lɪft ə mʌɡ/",
+          "ipaUS": "/lɪft ə mʌɡ/",
+          "meaning": "nhấc cốc lên",
+          "exampleEn": "He lifted a coffee mug during the break.",
+          "exampleVi": "Anh ấy nhấc cốc cà phê lên trong giờ giải lao."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q17",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Những người đàn ông mặc áo khoác trong quán",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6855-toeic-lr-collection-1-test-4/p1_q1.jpg",
+    "audioUrl": "/audio/toeic/study4-6855-toeic-lr-collection-1-test-4/p1_q01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q17-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. The men are shaking hands.",
+        "vi": "A. Những người đàn ông đang bắt tay nhau.",
+        "startMs": 220,
+        "endMs": 3268
+      },
+      {
+        "id": "p1-b1-q17-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. The men are wearing jackets.",
+        "vi": "B. Những người đàn ông đang mặc áo khoác.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q17"
+        ],
+        "startMs": 3608,
+        "endMs": 6704
+      },
+      {
+        "id": "p1-b1-q17-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. Some cups are being stacked on the table.",
+        "vi": "C. Một vài chiếc cốc đang được xếp chồng trên bàn.",
+        "startMs": 7044,
+        "endMs": 10620
+      },
+      {
+        "id": "p1-b1-q17-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some pastries are being placed in a display case.",
+        "vi": "D. Một vài chiếc bánh ngọt đang được đặt vào tủ trưng bày.",
+        "startMs": 10960,
+        "endMs": 15208
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "The men are shaking hands.",
+        "vi": "Những người đàn ông đang bắt tay nhau."
+      },
+      "B": {
+        "en": "The men are wearing jackets.",
+        "vi": "Những người đàn ông đang mặc áo khoác."
+      },
+      "C": {
+        "en": "Some cups are being stacked on the table.",
+        "vi": "Một vài chiếc cốc đang được xếp chồng trên bàn."
+      },
+      "D": {
+        "en": "Some pastries are being placed in a display case.",
+        "vi": "Một vài chiếc bánh ngọt đang được đặt vào tủ trưng bày."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy bị động tiếp diễn (are being stacked / are being placed) vs trạng thái trang phục (wearing)",
+      "soundTrap": {
+        "pair": "shaking hands / wearing jackets",
+        "noteVi": "Phân biệt trạng thái trang phục tĩnh (\"wearing\") với hành động không có thật (\"shaking hands\", \"being stacked\")."
+      },
+      "listeningKey": "Loại ngay C, D (bẫy \"being + V3\" không ai thao tác) và chốt B: \"The men are wearing jackets\".",
+      "trapAnalysis": "Hai câu C và D dùng bẫy kinh điển \"are being + V3\" mô tả hành động đang xếp cốc / bày bánh nhưng không có ai đang làm việc đó. Câu A sai động tác tay (không bắt tay). Chỉ B mô tả chính xác trang phục áo khoác của các người đàn ông.",
+      "paraphrases": [
+        {
+          "audioPhrase": "wearing jackets",
+          "answerPhrase": "dressed in coats",
+          "meaningVi": "đang mặc áo khoác"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Động từ hành động) — Hai tay họ không nắm bắt tay nhau.",
+        "B": "ĐÚNG — Mô tả chính xác trạng thái trang phục áo khoác họ đang mặc.",
+        "C": "SAI (Bẫy being + V3) — Không có ai đang xếp chồng cốc trên bàn.",
+        "D": "SAI (Bẫy being + V3) — Bánh nằm sẵn trong tủ kính, không có ai đang đặt vào."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-49",
+          "word": "shake hands",
+          "pos": "phrase",
+          "ipaUK": "/ʃeɪk hændz/",
+          "ipaUS": "/ʃeɪk hændz/",
+          "meaning": "bắt tay nhau",
+          "exampleEn": "The two directors shook hands after signing the deal.",
+          "exampleVi": "Hai giám đốc bắt tay nhau sau khi ký thỏa thuận."
+        },
+        {
+          "id": "lv-p1b1-50",
+          "word": "display case",
+          "pos": "phrase",
+          "ipaUK": "/dɪˈspleɪ keɪs/",
+          "ipaUS": "/dɪˈspleɪ keɪs/",
+          "meaning": "tủ kính trưng bày",
+          "exampleEn": "Fresh pastries are arranged inside the glass display case.",
+          "exampleVi": "Bánh ngọt tươi được bày trong tủ kính trưng bày."
+        },
+        {
+          "id": "lv-p1b1-51",
+          "word": "pastry",
+          "pos": "n",
+          "ipaUK": "/ˈpeɪ.stri/",
+          "ipaUS": "/ˈpeɪ.stri/",
+          "meaning": "bánh ngọt nướng",
+          "exampleEn": "The café serves coffee and handmade pastries.",
+          "exampleVi": "Quán cà phê phục vụ cà phê và bánh ngọt thủ công."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q18",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Thực khách xem thực đơn trong nhà hàng",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6856-toeic-lr-collection-1-test-5/p1_q5.jpg",
+    "audioUrl": "/audio/toeic/study4-6856-toeic-lr-collection-1-test-5/p1_q05.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q18-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Some people are being served coffee.",
+        "vi": "A. Một vài người đang được phục vụ cà phê.",
+        "startMs": 220,
+        "endMs": 3532
+      },
+      {
+        "id": "p1-b1-q18-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. Some people are reading menus.",
+        "vi": "B. Một vài người đang đọc thực đơn.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q18"
+        ],
+        "startMs": 3872,
+        "endMs": 7040
+      },
+      {
+        "id": "p1-b1-q18-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. Some people are stacking chairs.",
+        "vi": "C. Một vài người đang xếp chồng ghế.",
+        "startMs": 7380,
+        "endMs": 10716
+      },
+      {
+        "id": "p1-b1-q18-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some people are standing at an entrance.",
+        "vi": "D. Một vài người đang đứng ở lối vào.",
+        "startMs": 11056,
+        "endMs": 14608
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some people are being served coffee.",
+        "vi": "Một vài người đang được phục vụ cà phê."
+      },
+      "B": {
+        "en": "Some people are reading menus.",
+        "vi": "Một vài người đang đọc thực đơn."
+      },
+      "C": {
+        "en": "Some people are stacking chairs.",
+        "vi": "Một vài người đang xếp chồng ghế."
+      },
+      "D": {
+        "en": "Some people are standing at an entrance.",
+        "vi": "Một vài người đang đứng ở lối vào."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy bị động tiếp diễn (being served coffee) & tư thế sai",
+      "soundTrap": {
+        "pair": "served / reading / stacking",
+        "noteVi": "Nghe kỹ câu A có \"being served\" — chỉ đúng nếu có nhân viên đang rót/bưng cà phê tới bàn."
+      },
+      "listeningKey": "Chốt gọn \"Some people are reading menus\" — khớp hành động cầm thực đơn xem món.",
+      "trapAnalysis": "Các thực khách đang ngồi tại bàn cầm thực đơn (menus) xem món. Câu A dùng \"are being served coffee\" nhưng không có phục vụ đang bưng cà phê; C và D sai hoàn toàn tư thế và vị trí.",
+      "paraphrases": [
+        {
+          "audioPhrase": "reading menus",
+          "answerPhrase": "looking over food lists at a restaurant table",
+          "meaningVi": "đang xem thực đơn"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Bẫy being + V3) — Không có nhân viên phục vụ đang rót hoặc bưng cà phê.",
+        "B": "ĐÚNG — Mô tả chính xác các vị khách đang cầm xem thực đơn.",
+        "C": "SAI (Động từ hành động) — Họ đang ngồi ăn uống, không xếp chồng ghế.",
+        "D": "SAI (Tư thế & Vị trí) — Họ đang ngồi trong khu bàn ăn, không đứng ở cửa ra vào."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-52",
+          "word": "read a menu",
+          "pos": "phrase",
+          "ipaUK": "/riːd ə ˈmen.juː/",
+          "ipaUS": "/riːd ə ˈmen.juː/",
+          "meaning": "đọc / xem thực đơn",
+          "exampleEn": "Diners are reading menus before ordering lunch.",
+          "exampleVi": "Thực khách đang xem thực đơn trước khi gọi bữa trưa."
+        },
+        {
+          "id": "lv-p1b1-53",
+          "word": "be served",
+          "pos": "phrase",
+          "ipaUK": "/biː sɜːvd/",
+          "ipaUS": "/biː sɜːrvd/",
+          "meaning": "được phục vụ (đồ ăn/thức uống)",
+          "exampleEn": "Refreshments will be served after the workshop.",
+          "exampleVi": "Đồ uống nhẹ sẽ được phục vụ sau hội thảo."
+        },
+        {
+          "id": "lv-p1b1-54",
+          "word": "entrance",
+          "pos": "n",
+          "ipaUK": "/ˈen.trəns/",
+          "ipaUS": "/ˈen.trəns/",
+          "meaning": "lối vào / cửa vào",
+          "exampleEn": "Please meet our tour guide at the main entrance.",
+          "exampleVi": "Vui lòng gặp hướng dẫn viên tại lối vào chính."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q19",
+    "part": 1,
+    "sceneType": "multiple-people",
+    "title": "Nhóm người cùng đẩy xe chở đồ",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-7000-toeic-lr-collection-2-test-1/p1_q1.jpg",
+    "audioUrl": "/audio/toeic/study4-7000-toeic-lr-collection-2-test-1/p1_q01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q19-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Some people are pushing a cart.",
+        "vi": "A. Một vài người đang đẩy một chiếc xe đẩy.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q19"
+        ],
+        "startMs": 220,
+        "endMs": 3388
+      },
+      {
+        "id": "p1-b1-q19-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. Some people are carrying some bags.",
+        "vi": "B. Một vài người đang mang vài chiếc túi.",
+        "startMs": 3748,
+        "endMs": 7228
+      },
+      {
+        "id": "p1-b1-q19-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. Some people are resting on a bench.",
+        "vi": "C. Một vài người đang nghỉ ngơi trên ghế dài.",
+        "startMs": 7588,
+        "endMs": 10996
+      },
+      {
+        "id": "p1-b1-q19-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some people are watering some plants.",
+        "vi": "D. Một vài người đang tưới vài chậu cây.",
+        "startMs": 11356,
+        "endMs": 14812
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some people are pushing a cart.",
+        "vi": "Một vài người đang đẩy một chiếc xe đẩy."
+      },
+      "B": {
+        "en": "Some people are carrying some bags.",
+        "vi": "Một vài người đang mang vài chiếc túi."
+      },
+      "C": {
+        "en": "Some people are resting on a bench.",
+        "vi": "Một vài người đang nghỉ ngơi trên ghế dài."
+      },
+      "D": {
+        "en": "Some people are watering some plants.",
+        "vi": "Một vài người đang tưới vài chậu cây."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy chủ ngữ giống hệt (\"Some people are...\") — phân biệt động từ hành động",
+      "soundTrap": {
+        "pair": "pushing a cart / carrying bags",
+        "noteVi": "Cần nghe chuẩn động từ \"pushing\" (đẩy) khác với \"carrying\" (xách/mang bằng tay)."
+      },
+      "listeningKey": "Khóa ngay câu A: \"pushing a cart\" — tay nắm tay đẩy xe rất rõ.",
+      "trapAnalysis": "Cả 4 phương án đều bắt đầu bằng \"Some people are...\". Hành động nổi bật nhất trong ảnh là họ đang cùng đẩy chiếc xe đẩy (cart), không phải xách túi (B), không ngồi nghỉ trên ghế dài (C) và không tưới cây (D).",
+      "paraphrases": [
+        {
+          "audioPhrase": "pushing a cart",
+          "answerPhrase": "wheeling a trolley forward",
+          "meaningVi": "đang đẩy một chiếc xe đẩy"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Mô tả chính xác hành động đẩy chiếc xe chở hàng/đồ.",
+        "B": "SAI (Động từ & Vật thể) — Họ đặt tay lên xe đẩy chứ không xách túi trên tay.",
+        "C": "SAI (Tư thế) — Họ đang di chuyển chứ không ngồi nghỉ trên ghế băng.",
+        "D": "SAI (Động từ hành động) — Không có bình tưới hay động tác chăm sóc cây."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-55",
+          "word": "push a cart",
+          "pos": "phrase",
+          "ipaUK": "/pʊʃ ə kɑːt/",
+          "ipaUS": "/pʊʃ ə kɑːrt/",
+          "meaning": "đẩy xe chở đồ / xe đẩy",
+          "exampleEn": "Staff pushed a supply cart down the corridor.",
+          "exampleVi": "Nhân viên đẩy xe chở vật tư dọc hành lang."
+        },
+        {
+          "id": "lv-p1b1-56",
+          "word": "rest on a bench",
+          "pos": "phrase",
+          "ipaUK": "/rest ɒn ə bentʃ/",
+          "ipaUS": "/rest ɑːn ə bentʃ/",
+          "meaning": "nghỉ ngơi trên ghế dài",
+          "exampleEn": "Runners rested on a wooden bench near the fountain.",
+          "exampleVi": "Người chạy bộ nghỉ trên chiếc ghế gỗ gần đài phun nước."
+        },
+        {
+          "id": "lv-p1b1-57",
+          "word": "carry bags",
+          "pos": "phrase",
+          "ipaUK": "/ˈkær.i bæɡz/",
+          "ipaUS": "/ˈker.i bæɡz/",
+          "meaning": "xách / mang túi",
+          "exampleEn": "Shoppers carried paper bags out of the mall.",
+          "exampleVi": "Khách mua sắm xách túi giấy ra khỏi trung tâm thương mại."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q20",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Góc bàn làm việc máy tính gọn gàng (Tả vật — không người)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/ets-2024-full-test-1/q5.jpg",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-05.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q20-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Potted plants have been suspended from a ceiling.",
+        "vi": "A. Những chậu cây đã được treo từ trần nhà.",
+        "startMs": 400,
+        "endMs": 7606
+      },
+      {
+        "id": "p1-b1-q20-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. Chairs have been stacked in front of an entryway.",
+        "vi": "B. Ghế đã được xếp chồng trước lối ra vào.",
+        "startMs": 7646,
+        "endMs": 14852
+      },
+      {
+        "id": "p1-b1-q20-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. A computer station has been set up on a desk.",
+        "vi": "C. Một trạm máy tính đã được lắp đặt trên bàn làm việc.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q20"
+        ],
+        "startMs": 14892,
+        "endMs": 21555
+      },
+      {
+        "id": "p1-b1-q20-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. A rug has been rolled up against a wall.",
+        "vi": "D. Một tấm thảm đã được cuộn lại dựa vào tường.",
+        "startMs": 21595,
+        "endMs": 27560
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Potted plants have been suspended from a ceiling.",
+        "vi": "Những chậu cây đã được treo từ trần nhà."
+      },
+      "B": {
+        "en": "Chairs have been stacked in front of an entryway.",
+        "vi": "Ghế đã được xếp chồng trước lối ra vào."
+      },
+      "C": {
+        "en": "A computer station has been set up on a desk.",
+        "vi": "Một trạm máy tính đã được lắp đặt trên bàn làm việc."
+      },
+      "D": {
+        "en": "A rug has been rolled up against a wall.",
+        "vi": "Một tấm thảm đã được cuộn lại dựa vào tường."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy trạng thái bị động hoàn thành sai vị trí (has/have been + V3)",
+      "soundTrap": {
+        "pair": "station / stacked / suspended",
+        "noteVi": "Cả 4 câu đều dùng cấu trúc đúng cho ảnh không người (\"has/have been + V3\"), nên phải đối chiếu đúng vật thể & vị trí."
+      },
+      "listeningKey": "Nghe chuẩn \"A computer station has been set up on a desk\" — khớp bộ máy tính trên mặt bàn.",
+      "trapAnalysis": "Bài nâng cao Part 1 vì cả 4 câu đều dùng bị động trạng thái hoàn thành hợp lệ cho ảnh không người. Phải loại A (cây không treo trần), B (ghế không xếp chồng chắn cửa), D (không có thảm cuộn dựa tường), chốt C.",
+      "paraphrases": [
+        {
+          "audioPhrase": "has been set up on a desk",
+          "answerPhrase": "is arranged and ready for use on a workstation",
+          "meaningVi": "đã được lắp đặt sẵn trên bàn làm việc"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Vị trí) — Không có chậu cây nào treo lơ lửng trên trần nhà (suspended from a ceiling).",
+        "B": "SAI (Trạng thái & Vị trí) — Ghế không bị xếp chồng chặn lối đi (entryway).",
+        "C": "ĐÚNG — Mô tả chính xác bộ máy tính đã được bố trí sẵn sàng trên bàn làm việc.",
+        "D": "SAI (Vật thể & Trạng thái) — Không có tấm thảm nào bị cuộn tròn dựa tường (rolled up)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-58",
+          "word": "computer station",
+          "pos": "phrase",
+          "ipaUK": "/kəmˈpjuː.tər ˈsteɪ.ʃən/",
+          "ipaUS": "/kəmˈpjuː.t̬ɚ ˈsteɪ.ʃən/",
+          "meaning": "bàn / trạm máy tính làm việc",
+          "exampleEn": "Each computer station includes dual monitors.",
+          "exampleVi": "Mỗi trạm máy tính gồm hai màn hình."
+        },
+        {
+          "id": "lv-p1b1-59",
+          "word": "be suspended from",
+          "pos": "phrase",
+          "ipaUK": "/biː səˈspen.dɪd frɒm/",
+          "ipaUS": "/biː səˈspen.dɪd frʌm/",
+          "meaning": "được treo lơ lửng từ",
+          "exampleEn": "Modern lights are suspended from the high ceiling.",
+          "exampleVi": "Đèn hiện đại được treo từ trần nhà cao."
+        },
+        {
+          "id": "lv-p1b1-60",
+          "word": "roll up a rug",
+          "pos": "phrase",
+          "ipaUK": "/rəʊl ʌp ə rʌɡ/",
+          "ipaUS": "/roʊl ʌp ə rʌɡ/",
+          "meaning": "cuộn tấm thảm lại",
+          "exampleEn": "Movers rolled up the living room rug before painting.",
+          "exampleVi": "Nhân viên chuyển nhà cuộn tấm thảm phòng khách trước khi sơn."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q21",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Chồng sổ tay trên bàn làm việc (Bẫy being + V3)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q1.jpg",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q21-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Some notebooks are stacked on a desk.",
+        "vi": "A. Một vài cuốn sổ tay được xếp chồng trên bàn làm việc.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q21"
+        ],
+        "startMs": 220,
+        "endMs": 3748
+      },
+      {
+        "id": "p1-b1-q21-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. A drawer is being opened.",
+        "vi": "B. Một ngăn kéo đang được mở ra.",
+        "startMs": 4108,
+        "endMs": 6916
+      },
+      {
+        "id": "p1-b1-q21-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. A lamp is covered with folders.",
+        "vi": "C. Một chiếc đèn bị phủ kín bởi các tập hồ sơ.",
+        "startMs": 7276,
+        "endMs": 10516
+      },
+      {
+        "id": "p1-b1-q21-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some pens are scattered across a desk.",
+        "vi": "D. Một vài chiếc bút nằm vương vãi khắp mặt bàn.",
+        "startMs": 10876,
+        "endMs": 14596
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some notebooks are stacked on a desk.",
+        "vi": "Một vài cuốn sổ tay được xếp chồng trên bàn làm việc."
+      },
+      "B": {
+        "en": "A drawer is being opened.",
+        "vi": "Một ngăn kéo đang được mở ra."
+      },
+      "C": {
+        "en": "A lamp is covered with folders.",
+        "vi": "Một chiếc đèn bị phủ kín bởi các tập hồ sơ."
+      },
+      "D": {
+        "en": "Some pens are scattered across a desk.",
+        "vi": "Một vài chiếc bút nằm vương vãi khắp mặt bàn."
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy being + V3 (is being opened) & trạng thái sai (stacked ≠ scattered)",
+      "soundTrap": {
+        "pair": "stacked / scattered",
+        "noteVi": "Phân biệt \"stacked\" (xếp chồng gọn gàng) vs \"scattered\" (nằm rải rác lộn xộn)."
+      },
+      "listeningKey": "Loại ngay B (\"is being opened\" — tranh không người) và chốt A: \"notebooks are stacked on a desk\".",
+      "trapAnalysis": "Ảnh không có người nên loại ngay B (\"A drawer is being opened\" — bị động tiếp diễn). Chiếc đèn để thoáng không bị hồ sơ che phủ (loại C) và bút không nằm vương vãi khắp bàn (loại D).",
+      "paraphrases": [
+        {
+          "audioPhrase": "notebooks are stacked on a desk",
+          "answerPhrase": "pads of paper are piled neatly on a worktable",
+          "meaningVi": "sổ tay được xếp chồng trên bàn"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Bị động trạng thái \"are stacked\" khớp chính xác chồng sổ tay đặt ngay ngắn trên bàn.",
+        "B": "SAI (Bẫy being + V3) — Không có người đang kéo mở ngăn kéo.",
+        "C": "SAI (Vị trí) — Đèn bàn không bị hồ sơ phủ lên trên (covered with).",
+        "D": "SAI (Trạng thái) — Mặt bàn gọn gàng, không có bút vương vãi khắp nơi (scattered)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-61",
+          "word": "scattered across",
+          "pos": "phrase",
+          "ipaUK": "/ˈskæt.əd əˈkrɒs/",
+          "ipaUS": "/ˈskæt̬.ɚd əˈkrɑːs/",
+          "meaning": "nằm rải rác khắp bề mặt",
+          "exampleEn": "Papers were scattered across the conference table.",
+          "exampleVi": "Giấy tờ nằm rải rác khắp bàn họp."
+        },
+        {
+          "id": "lv-p1b1-62",
+          "word": "drawer",
+          "pos": "n",
+          "ipaUK": "/drɔːr/",
+          "ipaUS": "/drɔːr/",
+          "meaning": "ngăn kéo bàn / tủ",
+          "exampleEn": "Keep spare keys in the top desk drawer.",
+          "exampleVi": "Hãy cất chìa khóa dự phòng trong ngăn kéo trên cùng."
+        },
+        {
+          "id": "lv-p1b1-63",
+          "word": "covered with",
+          "pos": "phrase",
+          "ipaUK": "/ˈkʌv.əd wɪð/",
+          "ipaUS": "/ˈkʌv.ɚd wɪð/",
+          "meaning": "bị phủ / che kín bởi",
+          "exampleEn": "The patio floor was covered with autumn leaves.",
+          "exampleVi": "Sàn sân hiên phủ đầy lá mùa thu."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q22",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Hàng xe đẩy siêu thị xếp ngay ngắn gần lối vào (Bẫy being + V3)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q2.jpg",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q02.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q22-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "A. Shopping carts are being pushed through a store.",
+        "vi": "A. Những chiếc xe đẩy hàng đang được đẩy đi trong cửa hàng.",
+        "startMs": 220,
+        "endMs": 3868
+      },
+      {
+        "id": "p1-b1-q22-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "B. Boxes are being stacked near an entrance.",
+        "vi": "B. Những chiếc thùng đang được xếp chồng gần lối vào.",
+        "startMs": 4228,
+        "endMs": 7996
+      },
+      {
+        "id": "p1-b1-q22-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "C. Groceries have been placed in a cart.",
+        "vi": "C. Hàng tạp hóa đã được đặt vào trong một chiếc xe đẩy.",
+        "startMs": 8356,
+        "endMs": 11788
+      },
+      {
+        "id": "p1-b1-q22-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "D. Some shopping carts are lined up near an entrance.",
+        "vi": "D. Một vài chiếc xe đẩy hàng được xếp thành hàng gần lối vào.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q22"
+        ],
+        "startMs": 12148,
+        "endMs": 16156
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Shopping carts are being pushed through a store.",
+        "vi": "Những chiếc xe đẩy hàng đang được đẩy đi trong cửa hàng."
+      },
+      "B": {
+        "en": "Boxes are being stacked near an entrance.",
+        "vi": "Những chiếc thùng đang được xếp chồng gần lối vào."
+      },
+      "C": {
+        "en": "Groceries have been placed in a cart.",
+        "vi": "Hàng tạp hóa đã được đặt vào trong một chiếc xe đẩy."
+      },
+      "D": {
+        "en": "Some shopping carts are lined up near an entrance.",
+        "vi": "Một vài chiếc xe đẩy hàng được xếp thành hàng gần lối vào."
+      }
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "trapType": "Bẫy kép being + V3 (are being pushed / are being stacked) ở tranh không người",
+      "soundTrap": {
+        "pair": "lined up / stacked",
+        "noteVi": "Xe đẩy xếp nối đuôi nhau gọi là \"lined up\", không dùng \"being pushed\" khi không có người."
+      },
+      "listeningKey": "Loại lập tức A & B vì dính \"being + V3\", chốt D: \"shopping carts are lined up near an entrance\".",
+      "trapAnalysis": "Ví dụ sách giáo khoa về quy tắc Part 1 không người: A (\"are being pushed\") và B (\"are being stacked\") đều dùng bị động tiếp diễn sai hoàn toàn. Các xe đẩy đang trống rỗng (loại C) và xếp thẳng hàng gần cửa (chọn D).",
+      "paraphrases": [
+        {
+          "audioPhrase": "lined up near an entrance",
+          "answerPhrase": "arranged in a row beside the storefront doors",
+          "meaningVi": "xếp thành hàng gần lối vào"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Bẫy being + V3) — Không có ai đang đẩy xe hàng di chuyển.",
+        "B": "SAI (Bẫy being + V3) — Không có ai đang xếp chồng thùng hàng.",
+        "C": "SAI (Trạng thái đồ vật) — Các xe đẩy hoàn toàn trống, không chứa hàng tạp hóa.",
+        "D": "ĐÚNG — Mô tả trạng thái tĩnh chính xác các xe đẩy xếp nối hàng gần cửa ra vào."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-64",
+          "word": "shopping cart",
+          "pos": "phrase",
+          "ipaUK": "/ˈʃɒp.ɪŋ kɑːt/",
+          "ipaUS": "/ˈʃɑː.pɪŋ kɑːrt/",
+          "meaning": "xe đẩy mua sắm",
+          "exampleEn": "Please return your shopping cart to the designated bay.",
+          "exampleVi": "Vui lòng trả xe đẩy về khu vực quy định."
+        },
+        {
+          "id": "lv-p1b1-65",
+          "word": "be lined up",
+          "pos": "phrase",
+          "ipaUK": "/biː laɪnd ʌp/",
+          "ipaUS": "/biː laɪnd ʌp/",
+          "meaning": "được xếp thẳng thành hàng",
+          "exampleEn": "Rental bicycles are lined up outside the station.",
+          "exampleVi": "Xe đạp cho thuê được xếp thành hàng bên ngoài nhà ga."
+        },
+        {
+          "id": "lv-p1b1-66",
+          "word": "near an entrance",
+          "pos": "phrase",
+          "ipaUK": "/nɪər ən ˈen.trəns/",
+          "ipaUS": "/nɪr ən ˈen.trəns/",
+          "meaning": "gần một lối vào",
+          "exampleEn": "An umbrella stand sits near the main entrance.",
+          "exampleVi": "Giá để ô đặt gần lối vào chính."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q23",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Quầy pha cà phê với cốc sứ đặt sẵn (Bẫy being + V3)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q6.jpg",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p1_q06.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q23-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. A cabinet has been left open.",
+        "vi": "A. Một cánh tủ đã bị để mở.",
+        "startMs": 220,
+        "endMs": 3292
+      },
+      {
+        "id": "p1-b1-q23-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. Mugs have been placed on a counter.",
+        "vi": "B. Những chiếc cốc sứ đã được đặt trên quầy.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q23"
+        ],
+        "startMs": 3652,
+        "endMs": 6844
+      },
+      {
+        "id": "p1-b1-q23-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. A coffee machine is being cleaned.",
+        "vi": "C. Một máy pha cà phê đang được vệ sinh.",
+        "startMs": 7204,
+        "endMs": 10660
+      },
+      {
+        "id": "p1-b1-q23-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. Napkins have been stacked on a chair.",
+        "vi": "D. Khăn giấy đã được xếp chồng lên trên một chiếc ghế.",
+        "startMs": 11020,
+        "endMs": 14236
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "A cabinet has been left open.",
+        "vi": "Một cánh tủ đã bị để mở."
+      },
+      "B": {
+        "en": "Mugs have been placed on a counter.",
+        "vi": "Những chiếc cốc sứ đã được đặt trên quầy."
+      },
+      "C": {
+        "en": "A coffee machine is being cleaned.",
+        "vi": "Một máy pha cà phê đang được vệ sinh."
+      },
+      "D": {
+        "en": "Napkins have been stacked on a chair.",
+        "vi": "Khăn giấy đã được xếp chồng lên trên một chiếc ghế."
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy being + V3 (is being cleaned) & sai trạng thái tủ (left open)",
+      "soundTrap": {
+        "pair": "mugs / napkins / cabinet",
+        "noteVi": "Đều là đồ vật quen thuộc trong pantry/quầy cà phê — cần soát đúng trạng thái từng món."
+      },
+      "listeningKey": "Loại C (\"is being cleaned\") và chốt B: \"Mugs have been placed on a counter\".",
+      "trapAnalysis": "Tranh không có người nên loại ngay C (\"is being cleaned\"). Tủ bếp đều đóng kín (loại A) và không có khăn ăn xếp trên ghế (loại D). Chỉ B dùng bị động hoàn thành \"have been placed\" khớp đúng các chiếc cốc trên mặt quầy.",
+      "paraphrases": [
+        {
+          "audioPhrase": "have been placed on a counter",
+          "answerPhrase": "are resting on the beverage counter",
+          "meaningVi": "đã được đặt sẵn trên mặt quầy"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Trạng thái) — Các cánh tủ đều đóng kín, không bị bỏ ngỏ (left open).",
+        "B": "ĐÚNG — Mô tả chính xác những chiếc cốc sứ đặt ngay ngắn trên mặt quầy.",
+        "C": "SAI (Bẫy being + V3) — Không có nhân viên nào đang lau rửa máy cà phê.",
+        "D": "SAI (Vị trí) — Không có khăn ăn xếp chồng trên ghế."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-67",
+          "word": "be left open",
+          "pos": "phrase",
+          "ipaUK": "/biː left ˈəʊ.pən/",
+          "ipaUS": "/biː left ˈoʊ.pən/",
+          "meaning": "bị để mở / bỏ ngỏ",
+          "exampleEn": "Several filing drawers were left open overnight.",
+          "exampleVi": "Vài ngăn kéo hồ sơ bị để mở qua đêm."
+        },
+        {
+          "id": "lv-p1b1-68",
+          "word": "coffee machine",
+          "pos": "phrase",
+          "ipaUK": "/ˈkɒf.i məˈʃiːn/",
+          "ipaUS": "/ˈkɑː.fi məˈʃiːn/",
+          "meaning": "máy pha cà phê",
+          "exampleEn": "A new espresso coffee machine was installed in the break room.",
+          "exampleVi": "Một máy pha cà phê mới được lắp trong phòng nghỉ."
+        },
+        {
+          "id": "lv-p1b1-69",
+          "word": "napkin",
+          "pos": "n",
+          "ipaUK": "/ˈnæp.kɪn/",
+          "ipaUS": "/ˈnæp.kɪn/",
+          "meaning": "khăn ăn / khăn giấy",
+          "exampleEn": "Cloth napkins were folded beside each plate.",
+          "exampleVi": "Khăn ăn vải được gấp cạnh mỗi chiếc đĩa."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q24",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Khu vực ghế chờ được chiếu sáng bằng đèn (Bẫy being drawn)",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q1.jpg",
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p1_q01.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q24-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A. Some armchairs are facing a window.",
+        "vi": "A. Một vài chiếc ghế bành đang quay mặt về phía cửa sổ.",
+        "startMs": 220,
+        "endMs": 3532
+      },
+      {
+        "id": "p1-b1-q24-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "B. A curtain is being drawn across a window.",
+        "vi": "B. Một tấm rèm đang được kéo ngang cửa sổ.",
+        "startMs": 3892,
+        "endMs": 7444
+      },
+      {
+        "id": "p1-b1-q24-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "C. A seating area is illuminated by lamps.",
+        "vi": "C. Một khu vực chỗ ngồi được chiếu sáng bởi các chiếc đèn.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q24"
+        ],
+        "startMs": 7804,
+        "endMs": 11812
+      },
+      {
+        "id": "p1-b1-q24-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "D. Some magazines have been left on a table.",
+        "vi": "D. Một vài cuốn tạp chí đã bị bỏ lại trên bàn.",
+        "startMs": 12172,
+        "endMs": 15868
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Some armchairs are facing a window.",
+        "vi": "Một vài chiếc ghế bành đang quay mặt về phía cửa sổ."
+      },
+      "B": {
+        "en": "A curtain is being drawn across a window.",
+        "vi": "Một tấm rèm đang được kéo ngang cửa sổ."
+      },
+      "C": {
+        "en": "A seating area is illuminated by lamps.",
+        "vi": "Một khu vực chỗ ngồi được chiếu sáng bởi các chiếc đèn."
+      },
+      "D": {
+        "en": "Some magazines have been left on a table.",
+        "vi": "Một vài cuốn tạp chí đã bị bỏ lại trên bàn."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy being + V3 (is being drawn) & sai hướng ghế (facing a window)",
+      "soundTrap": {
+        "pair": "drawn / illuminated",
+        "noteVi": "Động từ nâng cao \"illuminated\" (được chiếu sáng) rất hay ra ở mức điểm 750+ Part 1."
+      },
+      "listeningKey": "Loại B (\"is being drawn\" — không có người kéo rèm), chốt C: \"seating area is illuminated by lamps\".",
+      "trapAnalysis": "Tranh phòng chờ không người có các đèn đang bật sáng tỏa ánh sáng xuống khu ghế ngồi. B dính bẫy bị động tiếp diễn \"is being drawn\"; A sai hướng quay của ghế bành; D thêm tạp chí không có trên bàn.",
+      "paraphrases": [
+        {
+          "audioPhrase": "is illuminated by lamps",
+          "answerPhrase": "is lit up by indoor lighting fixtures",
+          "meaningVi": "được chiếu sáng bởi các chiếc đèn"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Hướng vị trí) — Ghế bành không quay mặt trực diện ra cửa sổ.",
+        "B": "SAI (Bẫy being + V3) — Không có ai đang kéo rèm cửa.",
+        "C": "ĐÚNG — Mô tả chuẩn xác khu vực ghế ngồi có đèn chiếu sáng (illuminated by lamps).",
+        "D": "SAI (Vật thể) — Trên mặt bàn không có các cuốn tạp chí."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-70",
+          "word": "be illuminated by",
+          "pos": "phrase",
+          "ipaUK": "/biː ɪˈluː.mɪ.neɪ.tɪd baɪ/",
+          "ipaUS": "/biː ɪˈluː.mə.neɪ.t̬ɪd baɪ/",
+          "meaning": "được chiếu sáng bởi",
+          "exampleEn": "The lobby seating area is illuminated by warm floor lamps.",
+          "exampleVi": "Khu ghế chờ ở sảnh được chiếu sáng bởi đèn sàn ấm áp."
+        },
+        {
+          "id": "lv-p1b1-71",
+          "word": "draw a curtain",
+          "pos": "phrase",
+          "ipaUK": "/drɔː ə ˈkɜː.tən/",
+          "ipaUS": "/drɑː ə ˈkɝː.tən/",
+          "meaning": "kéo rèm cửa",
+          "exampleEn": "She drew the curtains to reduce glare on the screen.",
+          "exampleVi": "Cô ấy kéo rèm để giảm chói trên màn hình."
+        },
+        {
+          "id": "lv-p1b1-72",
+          "word": "seating area",
+          "pos": "phrase",
+          "ipaUK": "/ˈsiː.tɪŋ ˈeə.ri.ə/",
+          "ipaUS": "/ˈsiː.t̬ɪŋ ˈer.i.ə/",
+          "meaning": "khu vực chỗ ngồi",
+          "exampleEn": "An outdoor seating area was added behind the café.",
+          "exampleVi": "Một khu vực chỗ ngồi ngoài trời được mở thêm sau quán cà phê."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1-b1-q25",
+    "part": 1,
+    "sceneType": "scene-objects",
+    "title": "Khoảng sân ngoài trời giăng dây đèn phía trên",
+    "illustrationKey": "office-laptop",
+    "imageUrl": "/images/toeic/study4-7000-toeic-lr-collection-2-test-1/p1_q6.jpg",
+    "audioUrl": "/audio/toeic/study4-7000-toeic-lr-collection-2-test-1/p1_q06.mp3",
+    "transcript": [
+      {
+        "id": "p1-b1-q25-a",
+        "speaker": "Statement (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A. Chairs have been stacked in a corner.",
+        "vi": "A. Ghế đã được xếp chồng vào một góc.",
+        "startMs": 220,
+        "endMs": 3532
+      },
+      {
+        "id": "p1-b1-q25-b",
+        "speaker": "Statement (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "B. Leaves have fallen across a walkway.",
+        "vi": "B. Lá cây đã rụng phủ khắp lối đi.",
+        "startMs": 3892,
+        "endMs": 7420
+      },
+      {
+        "id": "p1-b1-q25-c",
+        "speaker": "Statement (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "C. Lights have been strung across a courtyard.",
+        "vi": "C. Những dây đèn đã được giăng ngang qua khoảng sân.",
+        "evidenceForQuestionIds": [
+          "p1-b1-q25"
+        ],
+        "startMs": 7780,
+        "endMs": 11548
+      },
+      {
+        "id": "p1-b1-q25-d",
+        "speaker": "Statement (D)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "D. Plants have been hung along a wall.",
+        "vi": "D. Cây xanh đã được treo dọc theo một bức tường.",
+        "startMs": 11908,
+        "endMs": 15172
+      }
+    ],
+    "options": {
+      "A": {
+        "en": "Chairs have been stacked in a corner.",
+        "vi": "Ghế đã được xếp chồng vào một góc."
+      },
+      "B": {
+        "en": "Leaves have fallen across a walkway.",
+        "vi": "Lá cây đã rụng phủ khắp lối đi."
+      },
+      "C": {
+        "en": "Lights have been strung across a courtyard.",
+        "vi": "Những dây đèn đã được giăng ngang qua khoảng sân."
+      },
+      "D": {
+        "en": "Plants have been hung along a wall.",
+        "vi": "Cây xanh đã được treo dọc theo một bức tường."
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy từ vựng bị động hoàn thành nâng cao (strung across ≠ stacked / hung)",
+      "soundTrap": {
+        "pair": "strung / hung",
+        "noteVi": "Đều chỉ vật treo trên cao, nhưng \"strung across a courtyard\" (giăng dây ngang qua sân) mới khớp hệ dây đèn."
+      },
+      "listeningKey": "Bắt ngay động từ phân từ 2 \"Lights have been strung across a courtyard\" (strung = V3 của string).",
+      "trapAnalysis": "Cả 4 phương án đều dùng thì hiện tại hoàn thành bị động/chủ động hợp lệ cho tranh không người. Cần chú ý động từ \"strung across\" (giăng dây vắt ngang từ bên này sang bên kia khoảng sân), loại A (ghế không xếp góc), B (không có lá rụng đầy lối) và D (không có cây treo dọc tường).",
+      "paraphrases": [
+        {
+          "audioPhrase": "have been strung across a courtyard",
+          "answerPhrase": "hang overhead in lines above an open patio",
+          "meaningVi": "được giăng thành dây ngang qua khoảng sân"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Trạng thái & Vị trí) — Ghế không bị chất đống vào một góc.",
+        "B": "SAI (Trạng thái nền) — Mặt sân/lối đi sạch sẽ, không có lá rụng phủ kín.",
+        "C": "ĐÚNG — Các dây bóng đèn được giăng ngang phía trên khoảng sân (courtyard).",
+        "D": "SAI (Vật thể & Vị trí) — Không có hàng chậu cây treo dọc bức tường."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p1b1-73",
+          "word": "be strung across",
+          "pos": "phrase",
+          "ipaUK": "/biː strʌŋ əˈkrɒs/",
+          "ipaUS": "/biː strʌŋ əˈkrɑːs/",
+          "meaning": "được giăng / căng ngang qua",
+          "exampleEn": "String lights were strung across the hotel courtyard.",
+          "exampleVi": "Dây đèn được giăng ngang qua sân trong khách sạn."
+        },
+        {
+          "id": "lv-p1b1-74",
+          "word": "courtyard",
+          "pos": "n",
+          "ipaUK": "/ˈkɔːt.jɑːd/",
+          "ipaUS": "/ˈkɔːrt.jɑːrd/",
+          "meaning": "sân trong / khoảng sân có tường bao",
+          "exampleEn": "Guests enjoyed dinner in the quiet courtyard.",
+          "exampleVi": "Khách dùng bữa tối tại khoảng sân yên tĩnh."
+        },
+        {
+          "id": "lv-p1b1-75",
+          "word": "fall across",
+          "pos": "phrase",
+          "ipaUK": "/fɔːl əˈkrɒs/",
+          "ipaUS": "/fɑːl əˈkrɑːs/",
+          "meaning": "rơi / đổ chắn ngang qua",
+          "exampleEn": "Dry leaves had fallen across the garden path.",
+          "exampleVi": "Lá khô đã rơi khắp lối đi trong vườn."
+        }
+      ]
+    }
+  }
+]

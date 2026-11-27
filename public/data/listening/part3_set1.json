@@ -1,0 +1,750 @@
+[
+  {
+    "id": "t1-l3-set1",
+    "part": 3,
+    "title": "Hội thoại 1 (2 người + Bảng biểu): Đặt phòng hội thảo & suất ăn trưa",
+    "scenario": "Two event coordinators discuss conference room capacity and catering for a client summit.",
+    "speakerCount": 2,
+    "hasGraphic": true,
+    "graphic": {
+      "title": "Grand Harbor Hotel — Conference Room Rates & Capacity",
+      "subtitle": "Half-Day Package (Includes Wi-Fi & Audio System)",
+      "headers": [
+        "Room Name",
+        "Max Capacity",
+        "Room Fee",
+        "Available Window View"
+      ],
+      "rows": [
+        [
+          "Cedar Room",
+          "35 guests",
+          "$450",
+          "No"
+        ],
+        [
+          "Maple Suite",
+          "60 guests",
+          "$680",
+          "Yes (City View)"
+        ],
+        [
+          "Pacific Hall",
+          "110 guests",
+          "$950",
+          "Yes (Harbor View)"
+        ],
+        [
+          "Summit Ballroom",
+          "200 guests",
+          "$1,600",
+          "Yes (Panoramic)"
+        ]
+      ],
+      "footnote": "* Catering is billed separately at $28 per attendee."
+    },
+    "transcript": [
+      {
+        "id": "l3-s1-t1",
+        "speaker": "Woman (US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Hi Ben, have we finalized the venue reservation for next Thursday’s regional client summit?",
+        "vi": "Chào Ben, chúng ta đã chốt đặt địa điểm cho hội nghị khách hàng khu vực vào thứ Năm tuần sau chưa?",
+        "startMs": 250,
+        "endMs": 6274
+      },
+      {
+        "id": "l3-s1-t2",
+        "speaker": "Man (US)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Almost. Originally we expected around 50 attendees, so I put a hold on the Maple Suite. However, fifteen more clients registered this morning.",
+        "vi": "Gần xong rồi. Ban đầu chúng ta dự kiến khoảng 50 khách nên tôi giữ phòng Maple Suite. Tuy nhiên, sáng nay có thêm 15 khách nữa đăng ký.",
+        "evidenceForQuestionIds": [
+          "l3-s1-q1",
+          "l3-s1-q2"
+        ],
+        "startMs": 6674,
+        "endMs": 17570
+      },
+      {
+        "id": "l3-s1-t3",
+        "speaker": "Woman (US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Oh, 65 people total! That means we’ll definitely have to upgrade to the next largest room at Grand Harbor Hotel.",
+        "vi": "Ồ, tổng cộng 65 người cơ à! Thế nghĩa là chúng ta chắc chắn phải nâng cấp lên căn phòng lớn hơn kế tiếp tại Khách sạn Grand Harbor rồi.",
+        "evidenceForQuestionIds": [
+          "l3-s1-q2"
+        ],
+        "startMs": 17970,
+        "endMs": 26466
+      },
+      {
+        "id": "l3-s1-t4",
+        "speaker": "Man (US)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Right. Actually, I’m a bit concerned about our catering vendor, FreshBite. They still haven’t confirmed the vegetarian menu options.",
+        "vi": "Đúng vậy. Thực ra tôi hơi lo về đơn vị tiệc FreshBite. Họ vẫn chưa xác nhận các món ăn chay.",
+        "startMs": 26866,
+        "endMs": 36802
+      },
+      {
+        "id": "l3-s1-t5",
+        "speaker": "Woman (US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Don’t worry—my sister runs a catering company right down the street from the hotel, and they’re always super dependable.",
+        "vi": "Đừng lo—chị gái tôi điều hành một công ty tiệc ngay dưới phố gần khách sạn, và họ luôn cực kỳ đáng tin cậy.",
+        "evidenceForQuestionIds": [
+          "l3-s1-q3"
+        ],
+        "startMs": 37202,
+        "endMs": 44306
+      },
+      {
+        "id": "l3-s1-t6",
+        "speaker": "Man (US)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Great! Could you call her right after lunch to see if they can take our order on short notice?",
+        "vi": "Tuyệt quá! Bạn gọi chị ấy ngay sau bữa trưa xem họ nhận đơn gấp được không nhé?",
+        "evidenceForQuestionIds": [
+          "l3-s1-q3"
+        ],
+        "startMs": 44706,
+        "endMs": 51138
+      }
+    ],
+    "questions": [
+      {
+        "id": "l3-s1-q1",
+        "questionNumber": 32,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "Why do the speakers need to change their room reservation?",
+        "promptVi": "Tại sao hai người nói cần đổi việc đặt phòng?",
+        "options": {
+          "A": {
+            "en": "The hotel’s audio system is undergoing repairs.",
+            "vi": "Hệ thống âm thanh khách sạn đang sửa."
+          },
+          "B": {
+            "en": "More guests registered than initially anticipated.",
+            "vi": "Số khách đăng ký nhiều hơn dự kiến ban đầu."
+          },
+          "C": {
+            "en": "The client requested a lower rental price.",
+            "vi": "Khách yêu cầu giá thuê rẻ hơn."
+          },
+          "D": {
+            "en": "The event date was moved to Friday.",
+            "vi": "Ngày sự kiện dời sang thứ Sáu."
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Chuyển ý sau từ 'However'",
+          "trapAnalysis": "Ban đầu dự kiến 50 người nhưng ngay sau 'However', có thêm 15 khách đăng ký thành 65 người.",
+          "paraphrases": [
+            {
+              "audioPhrase": "fifteen more clients registered",
+              "answerPhrase": "More guests registered than initially anticipated",
+              "meaningVi": "nhiều khách đăng ký hơn dự kiến"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "ĐÚNG — 50 + 15 = 65 người vượt phòng cũ.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l3-s1-q2",
+        "questionNumber": 33,
+        "questionType": "Câu hỏi bảng biểu (Graphic)",
+        "prompt": "Look at the graphic. How much will the speakers most likely pay for the conference room fee?",
+        "promptVi": "Nhìn bảng biểu. Hai người nhiều khả năng trả bao nhiêu cho phí phòng?",
+        "options": {
+          "A": {
+            "en": "$450",
+            "vi": "$450 (Cedar)"
+          },
+          "B": {
+            "en": "$680",
+            "vi": "$680 (Maple Suite)"
+          },
+          "C": {
+            "en": "$950",
+            "vi": "$950 (Pacific Hall)"
+          },
+          "D": {
+            "en": "$1,600",
+            "vi": "$1,600 (Summit Ballroom)"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "trapType": "Bẫy Bảng biểu nhắc tên phòng cũ ('Maple Suite' → $680)",
+          "trapAnalysis": "Audio đọc 'Maple Suite' nhưng vì có 65 người nên phải 'upgrade to the next largest room' → Tra bảng: Pacific Hall (110 chỗ) giá $950.",
+          "paraphrases": [
+            {
+              "audioPhrase": "upgrade to the next largest room",
+              "answerPhrase": "Pacific Hall ($950)",
+              "meaningVi": "nâng cấp lên phòng lớn hơn kế tiếp"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Chỉ 35 chỗ.",
+            "B": "SAI — Bẫy tên phòng cũ (60 chỗ, thiếu 5 chỗ).",
+            "C": "ĐÚNG — Pacific Hall 110 chỗ, phí $950.",
+            "D": "SAI — Quá lớn (200 chỗ)."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l3-s1-q3",
+        "questionNumber": 34,
+        "questionType": "Hàm ý người nói (Implied Meaning)",
+        "prompt": "What does the woman imply when she says, 'my sister runs a catering company right down the street'?",
+        "promptVi": "Người phụ nữ ngụ ý gì khi nhắc công ty tiệc của chị gái mình?",
+        "options": {
+          "A": {
+            "en": "She wants to leave work early to visit her sister.",
+            "vi": "Cô muốn về sớm thăm chị."
+          },
+          "B": {
+            "en": "They can switch to a reliable backup caterer.",
+            "vi": "Họ có thể chuyển sang đơn vị tiệc dự phòng đáng tin cậy."
+          },
+          "C": {
+            "en": "Her sister is already attending the summit.",
+            "vi": "Chị cô đã có tên dự hội nghị."
+          },
+          "D": {
+            "en": "FreshBite opened a branch nearby.",
+            "vi": "FreshBite mở chi nhánh gần đó."
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Câu hỏi Hàm ý người nói (Implied Meaning)",
+          "trapAnalysis": "Ben đang lo FreshBite chưa chốt menu chay → người phụ nữ giới thiệu công ty chị gái 'super dependable' để gợi ý đổi sang bên dự phòng uy tín.",
+          "paraphrases": [
+            {
+              "audioPhrase": "super dependable",
+              "answerPhrase": "reliable backup caterer",
+              "meaningVi": "nhà cung cấp tiệc dự phòng đáng tin"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "ĐÚNG — Gợi ý đổi bên tiệc dự phòng.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-t1-p3-1",
+        "word": "put a hold on",
+        "pos": "phrase",
+        "ipaUK": "/pʊt ə həʊld ɒn/",
+        "ipaUS": "/pʊt̬ ə hoʊld ɑːn/",
+        "meaning": "giữ chỗ tạm thời / tạm hoãn",
+        "exampleEn": "I put a hold on two meeting rooms.",
+        "exampleVi": "Tôi đã giữ chỗ tạm hai phòng họp."
+      },
+      {
+        "id": "lv-t1-p3-2",
+        "word": "on short notice",
+        "pos": "phrase",
+        "ipaUK": "/ɒn ʃɔːt ˈnəʊ.tɪs/",
+        "ipaUS": "/ɑːn ʃɔːrt ˈnoʊ.t̬ɪs/",
+        "meaning": "gấp gáp, báo trước ngắn",
+        "exampleEn": "Thanks for helping on such short notice.",
+        "exampleVi": "Cảm ơn đã hỗ trợ gấp như vậy."
+      }
+    ],
+    "audioUrl": "/audio/listening/p3_set1.mp3"
+  },
+  {
+    "id": "t1-l3-set2",
+    "part": 3,
+    "title": "Hội thoại 2 (3 người nói — Mỹ/Anh/Úc): Rà soát brochure ra mắt ứng dụng",
+    "scenario": "Three colleagues review a marketing brochure before sending it to the print shop.",
+    "speakerCount": 3,
+    "hasGraphic": false,
+    "transcript": [
+      {
+        "id": "l3-s2-t1",
+        "speaker": "Woman 1 (Claire - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Thanks for meeting, everyone. We need to send the promotional brochure for our new budgeting app to the printer by five o’clock.",
+        "vi": "Cảm ơn mọi người đã họp. Chúng ta cần gửi tờ rơi quảng bá cho ứng dụng quản lý ngân sách mới tới nhà in trước năm giờ.",
+        "evidenceForQuestionIds": [
+          "l3-s2-q1"
+        ],
+        "startMs": 250,
+        "endMs": 8290
+      },
+      {
+        "id": "l3-s2-t2",
+        "speaker": "Man (Liam - UK)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "I finished proofreading the text, Claire. Everything looks accurate, except the screenshot on page three still shows our old blue interface.",
+        "vi": "Tôi đã hiệu đính xong phần chữ rồi, Claire. Mọi thứ đều chuẩn, trừ ảnh chụp màn hình trang ba vẫn là giao diện xanh cũ.",
+        "evidenceForQuestionIds": [
+          "l3-s2-q2"
+        ],
+        "startMs": 8690,
+        "endMs": 17954
+      },
+      {
+        "id": "l3-s2-t3",
+        "speaker": "Woman 2 (Mei - AU)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Good thing you spotted that! The engineering team switched to the dark-mode dashboard just yesterday. I can capture the updated images in about twenty minutes.",
+        "vi": "May mà bạn phát hiện ra! Đội kỹ thuật mới chuyển sang giao diện nền tối hôm qua. Tôi có thể chụp ảnh cập nhật trong hai mươi phút.",
+        "evidenceForQuestionIds": [
+          "l3-s2-q2"
+        ],
+        "startMs": 18354,
+        "endMs": 29778
+      },
+      {
+        "id": "l3-s2-t4",
+        "speaker": "Woman 1 (Claire - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Wonderful, Mei. Liam, once Mei drops the new images into the shared folder, could you swap them into the layout and email the final PDF to the print shop?",
+        "vi": "Tuyệt lắm Mei. Liam ơi, khi Mei thả ảnh mới vào thư mục chung, bạn thay vào bố cục và gửi email PDF cuối cho nhà in nhé?",
+        "startMs": 30178,
+        "endMs": 40282
+      },
+      {
+        "id": "l3-s2-t5",
+        "speaker": "Man (Liam - UK)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Actually, I have to leave at 3:30 for a dentist appointment, so I won’t have time to finish the export.",
+        "vi": "Thực ra tôi phải đi lúc 3:30 để khám nha sĩ, nên sẽ không kịp xuất file hoàn chỉnh đâu.",
+        "evidenceForQuestionIds": [
+          "l3-s2-q3"
+        ],
+        "startMs": 40682,
+        "endMs": 47306
+      },
+      {
+        "id": "l3-s2-t6",
+        "speaker": "Woman 2 (Mei - AU)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "No problem at all—I know the layout software well, so I’ll insert the screenshots and transmit the final file myself.",
+        "vi": "Không sao đâu—tôi rành phần mềm dàn trang mà, tôi sẽ tự chèn ảnh và gửi file cuối cùng luôn.",
+        "evidenceForQuestionIds": [
+          "l3-s2-q3"
+        ],
+        "startMs": 47706,
+        "endMs": 56058
+      }
+    ],
+    "questions": [
+      {
+        "id": "l3-s2-q1",
+        "questionNumber": 35,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "What are the speakers mainly preparing for?",
+        "promptVi": "Những người nói chủ yếu đang chuẩn bị việc gì?",
+        "options": {
+          "A": {
+            "en": "Printing marketing materials for a new software product",
+            "vi": "In ấn tài liệu tiếp thị cho sản phẩm phần mềm mới"
+          },
+          "B": {
+            "en": "Hiring new user-interface designers",
+            "vi": "Tuyển thiết kế giao diện mới"
+          },
+          "C": {
+            "en": "Conducting a financial audit",
+            "vi": "Kiểm toán tài chính"
+          },
+          "D": {
+            "en": "Updating an employee handbook",
+            "vi": "Cập nhật sổ tay nhân viên"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Paraphrase mở đầu (promotional brochure for budgeting app)",
+          "trapAnalysis": "Câu đầu của Claire nêu rõ gửi brochure quảng bá ứng dụng ngân sách tới nhà in.",
+          "paraphrases": [
+            {
+              "audioPhrase": "promotional brochure for our new budgeting app",
+              "answerPhrase": "marketing materials for a new software product",
+              "meaningVi": "tài liệu tiếp thị phần mềm mới"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG.",
+            "B": "SAI.",
+            "C": "SAI — Bẫy từ 'budgeting'.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l3-s2-q2",
+        "questionNumber": 36,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What problem did Liam discover in the brochure?",
+        "promptVi": "Liam đã phát hiện vấn đề gì trong tờ rơi?",
+        "options": {
+          "A": {
+            "en": "Several paragraphs contained spelling mistakes.",
+            "vi": "Nhiều đoạn có lỗi chính tả."
+          },
+          "B": {
+            "en": "An illustration displayed an outdated app design.",
+            "vi": "Một hình minh họa hiển thị giao diện ứng dụng lỗi thời."
+          },
+          "C": {
+            "en": "The pricing table was missing from page three.",
+            "vi": "Thiếu bảng giá trang ba."
+          },
+          "D": {
+            "en": "The print shop quoted the wrong date.",
+            "vi": "Nhà in báo nhầm ngày."
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy ngoại trừ ('Everything looks accurate, EXCEPT...')",
+          "trapAnalysis": "Phần chữ đã chính xác, chỉ ảnh chụp màn hình trang ba vẫn hiện giao diện cũ ('old blue interface').",
+          "paraphrases": [
+            {
+              "audioPhrase": "old blue interface",
+              "answerPhrase": "outdated app design",
+              "meaningVi": "thiết kế ứng dụng lỗi thời"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Bẫy từ 'proofreading'.",
+            "B": "ĐÚNG.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l3-s2-q3",
+        "questionNumber": 37,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "Who will send the finalized PDF to the print shop?",
+        "promptVi": "Ai sẽ gửi tệp PDF hoàn chỉnh cho nhà in?",
+        "options": {
+          "A": {
+            "en": "Claire",
+            "vi": "Claire"
+          },
+          "B": {
+            "en": "Liam",
+            "vi": "Liam"
+          },
+          "C": {
+            "en": "Mei",
+            "vi": "Mei"
+          },
+          "D": {
+            "en": "An engineering manager",
+            "vi": "Quản lý kỹ thuật"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "trapType": "Bẫy đổi người sau từ 'Actually' trong hội thoại 3 người",
+          "trapAnalysis": "Claire giao cho Liam, nhưng Liam phải đi nha sĩ lúc 3:30 → Mei nhận làm thay ở câu cuối.",
+          "paraphrases": [
+            {
+              "audioPhrase": "transmit the final file myself",
+              "answerPhrase": "send the finalized PDF",
+              "meaningVi": "tự gửi tệp cuối cùng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "SAI — Bẫy người được giao lúc đầu.",
+            "C": "ĐÚNG — Mei xung phong gửi file.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-t1-p3-3",
+        "word": "proofread",
+        "pos": "v",
+        "ipaUK": "/ˈpruːf.riːd/",
+        "ipaUS": "/ˈpruːf.riːd/",
+        "meaning": "hiệu đính, soát lỗi chính tả",
+        "exampleEn": "Proofread the brochure before printing.",
+        "exampleVi": "Hãy hiệu đính tờ rơi trước khi in."
+      },
+      {
+        "id": "lv-t1-p3-4",
+        "word": "transmit",
+        "pos": "v",
+        "ipaUK": "/trænzˈmɪt/",
+        "ipaUS": "/trænzˈmɪt/",
+        "meaning": "truyền tải, gửi dữ liệu đi",
+        "exampleEn": "Transmit the final PDF by 5 P.M.",
+        "exampleVi": "Gửi tệp PDF cuối trước 5 giờ chiều."
+      }
+    ],
+    "audioUrl": "/audio/listening/p3_set2.mp3"
+  },
+  {
+    "id": "t1-l3-set3",
+    "part": 3,
+    "title": "Hội thoại 3 (2 người — Anh/Úc): Khiếu nại thiết bị phòng gym & bảo trì",
+    "scenario": "A fitness center manager and a maintenance technician discuss broken treadmills and a member discount.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "transcript": [
+      {
+        "id": "l3-s3-t1",
+        "speaker": "Woman (UK)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Owen, three members complained this morning that the treadmills near the front window keep shutting off mid-workout.",
+        "vi": "Owen ơi, sáng nay có ba hội viên phàn nàn rằng các máy chạy bộ gần cửa sổ trước cứ tự tắt giữa buổi tập.",
+        "evidenceForQuestionIds": [
+          "l3-s3-q1"
+        ],
+        "startMs": 250,
+        "endMs": 6778
+      },
+      {
+        "id": "l3-s3-t2",
+        "speaker": "Man (AU)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "I just ran a diagnostic on those two units. It’s not the motors—the power strip behind them is overloaded and trips the breaker.",
+        "vi": "Tôi vừa chạy kiểm tra chẩn đoán hai máy đó xong. Không phải do mô-tơ đâu—ổ cắm nối dài phía sau bị quá tải nên làm nhảy cầu dao.",
+        "evidenceForQuestionIds": [
+          "l3-s3-q2"
+        ],
+        "startMs": 7178,
+        "endMs": 15026
+      },
+      {
+        "id": "l3-s3-t3",
+        "speaker": "Woman (UK)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Can we move them to a separate wall circuit today? Peak evening traffic starts at five-thirty.",
+        "vi": "Chúng ta có thể chuyển chúng sang mạch điện tường riêng hôm nay không? Giờ cao điểm buổi tối bắt đầu lúc 5:30 đấy.",
+        "startMs": 15426,
+        "endMs": 21738
+      },
+      {
+        "id": "l3-s3-t4",
+        "speaker": "Man (AU)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "A licensed electrician has to install a dedicated outlet first. I already called SparkLine Electric, and they’ll be here first thing tomorrow at eight.",
+        "vi": "Thợ điện có chứng chỉ phải lắp một ổ cắm riêng trước đã. Tôi đã gọi SparkLine Electric rồi, họ sẽ tới ngay đầu giờ sáng mai lúc 8 giờ.",
+        "evidenceForQuestionIds": [
+          "l3-s3-q3"
+        ],
+        "startMs": 22138,
+        "endMs": 31162
+      },
+      {
+        "id": "l3-s3-t5",
+        "speaker": "Woman (UK)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "All right. In the meantime, I’ll place out-of-order signs on both machines and email our members a complimentary smoothie voucher.",
+        "vi": "Được rồi. Trong lúc chờ đợi, tôi sẽ dán biển tạm hỏng lên cả hai máy và gửi email tặng hội viên phiếu sinh tố miễn phí.",
+        "evidenceForQuestionIds": [
+          "l3-s3-q3"
+        ],
+        "startMs": 31562,
+        "endMs": 39770
+      }
+    ],
+    "questions": [
+      {
+        "id": "l3-s3-q1",
+        "questionNumber": 38,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Where do the speakers most likely work?",
+        "promptVi": "Hai người nói nhiều khả năng làm việc ở đâu?",
+        "options": {
+          "A": {
+            "en": "At an electronics factory",
+            "vi": "Tại một nhà máy điện tử"
+          },
+          "B": {
+            "en": "At a fitness center",
+            "vi": "Tại một trung tâm thể hình"
+          },
+          "C": {
+            "en": "At a juice bar",
+            "vi": "Tại một quầy nước ép"
+          },
+          "D": {
+            "en": "At an electrical supply shop",
+            "vi": "Tại một cửa hàng vật tư điện"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Suy luận bối cảnh nghề nghiệp từ cụm từ khóa ('members', 'treadmills', 'workout')",
+          "trapAnalysis": "Các từ khóa 'members' (hội viên), 'treadmills' (máy chạy bộ), 'mid-workout' (giữa buổi tập) chỉ thẳng đến trung tâm thể hình (fitness center).",
+          "paraphrases": [
+            {
+              "audioPhrase": "treadmills ... mid-workout",
+              "answerPhrase": "fitness center",
+              "meaningVi": "phòng gym / trung tâm thể hình"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "ĐÚNG — Máy chạy bộ + hội viên tập luyện.",
+            "C": "SAI — Bẫy từ 'smoothie voucher' ở cuối bài.",
+            "D": "SAI — SparkLine là nhà thầu bên ngoài."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l3-s3-q2",
+        "questionNumber": 39,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What caused the machines to shut off?",
+        "promptVi": "Nguyên nhân nào khiến máy tự tắt?",
+        "options": {
+          "A": {
+            "en": "Overheated motors",
+            "vi": "Mô-tơ quá nhiệt"
+          },
+          "B": {
+            "en": "An overloaded power strip",
+            "vi": "Một ổ cắm nối dài bị quá tải"
+          },
+          "C": {
+            "en": "A neighborhood power outage",
+            "vi": "Mất điện toàn khu phố"
+          },
+          "D": {
+            "en": "Incorrect software settings",
+            "vi": "Cài đặt phần mềm sai"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy phủ định ('It’s not the motors—the power strip is overloaded')",
+          "trapAnalysis": "Owen bác bỏ nguyên nhân mô-tơ ('not the motors') rồi nêu nguyên nhân thật: ổ cắm quá tải làm nhảy cầu dao.",
+          "paraphrases": [
+            {
+              "audioPhrase": "power strip ... is overloaded",
+              "answerPhrase": "An overloaded power strip",
+              "meaningVi": "ổ cắm bị quá tải"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Owen khẳng định KHÔNG phải do mô-tơ.",
+            "B": "ĐÚNG.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l3-s3-q3",
+        "questionNumber": 40,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What will the woman do next?",
+        "promptVi": "Người phụ nữ sẽ làm gì tiếp theo?",
+        "options": {
+          "A": {
+            "en": "Call SparkLine Electric to confirm an appointment",
+            "vi": "Gọi cho SparkLine Electric"
+          },
+          "B": {
+            "en": "Install a new wall outlet herself",
+            "vi": "Tự lắp ổ cắm mới"
+          },
+          "C": {
+            "en": "Put warning signs on the machines and send vouchers",
+            "vi": "Dán biển báo tạm hỏng lên máy và gửi phiếu ưu đãi"
+          },
+          "D": {
+            "en": "Close the facility at 5:30 P.M.",
+            "vi": "Đóng cửa cơ sở lúc 5:30 chiều"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "trapType": "Phân biệt hành động của Man vs. Woman",
+          "trapAnalysis": "Owen đã gọi thợ điện rồi (loại A). Ở câu cuối, người phụ nữ nói sẽ dán biển 'out-of-order' và email tặng voucher sinh tố miễn phí.",
+          "paraphrases": [
+            {
+              "audioPhrase": "place out-of-order signs",
+              "answerPhrase": "put warning signs on the machines",
+              "meaningVi": "dán biển báo hỏng lên máy"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Owen đã gọi rồi.",
+            "B": "SAI — Thợ điện có bằng mới được lắp.",
+            "C": "ĐÚNG.",
+            "D": "SAI — 5:30 là giờ cao điểm."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-t1-p3-5",
+        "word": "overloaded",
+        "pos": "adj",
+        "ipaUK": "/ˌəʊ.vəˈləʊ.dɪd/",
+        "ipaUS": "/ˌoʊ.vɚˈloʊ.dɪd/",
+        "meaning": "bị quá tải",
+        "exampleEn": "Do not plug two heaters into an overloaded power strip.",
+        "exampleVi": "Đừng cắm hai máy sưởi vào ổ cắm bị quá tải."
+      },
+      {
+        "id": "lv-t1-p3-6",
+        "word": "first thing tomorrow",
+        "pos": "phrase",
+        "ipaUK": "/fɜːst θɪŋ təˈmɒr.əʊ/",
+        "ipaUS": "/fɝːst θɪŋ təˈmɔːr.oʊ/",
+        "meaning": "ngay đầu giờ sáng mai",
+        "exampleEn": "I will review the contract first thing tomorrow.",
+        "exampleVi": "Tôi sẽ xem hợp đồng ngay đầu giờ sáng mai."
+      }
+    ],
+    "audioUrl": "/audio/listening/p3_set3.mp3"
+  }
+]

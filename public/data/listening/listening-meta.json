@@ -1,0 +1,83 @@
+{
+  "updatedAt": "2026-11-28",
+  "part1": {
+    "totalQuestions": 56,
+    "batches": [
+      {
+        "id": "part1_core",
+        "label": "Bộ nền tảng (6 ảnh gốc)",
+        "file": "part1_core.json",
+        "count": 6
+      },
+      {
+        "id": "part1_batch1",
+        "label": "Lô mở rộng 1 — ETS Photographs (25 tranh)",
+        "file": "part1_batch1.json",
+        "count": 25
+      },
+      {
+        "id": "part1_batch2",
+        "label": "Lô mở rộng 2 — ETS Photographs (25 tranh)",
+        "file": "part1_batch2.json",
+        "count": 25
+      }
+    ]
+  },
+  "part2": {
+    "totalQuestions": 40,
+    "batches": [
+      {
+        "id": "part2_core",
+        "label": "Bộ nền tảng (10 câu gốc)",
+        "file": "part2_core.json",
+        "count": 10
+      },
+      {
+        "id": "part2_batch1",
+        "label": "Lô mở rộng 1 — ETS Question–Response (30 câu)",
+        "file": "part2_batch1.json",
+        "count": 30
+      }
+    ]
+  },
+  "part3": {
+    "totalSets": 3,
+    "totalQuestions": 9,
+    "batches": [
+      {
+        "id": "part3_set1",
+        "label": "Bộ hội thoại nền tảng",
+        "file": "part3_set1.json",
+        "setCount": 3,
+        "questionCount": 9
+      },
+      {
+        "id": "part3_set2",
+        "label": "Bộ hội thoại mở rộng",
+        "file": "part3_set2.json",
+        "setCount": 0,
+        "questionCount": 0
+      }
+    ]
+  },
+  "part4": {
+    "totalSets": 3,
+    "totalQuestions": 9,
+    "batches": [
+      {
+        "id": "part4_set1",
+        "label": "Bộ bài nói nền tảng",
+        "file": "part4_set1.json",
+        "setCount": 3,
+        "questionCount": 9
+      },
+      {
+        "id": "part4_set2",
+        "label": "Bộ bài nói mở rộng",
+        "file": "part4_set2.json",
+        "setCount": 0,
+        "questionCount": 0
+      }
+    ]
+  }
+}

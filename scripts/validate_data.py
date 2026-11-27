@@ -169,6 +169,59 @@ def validate_listening():
 
     print(f"[Listening Audit] Checked {len(p1)} P1, {len(p2)} P2, {len(p3)} P3 sets, {len(p4)} P4 sets — all MP3 & photo paths verified.")
 
+    # Also validate lazy-loaded public/data/listening/ batches & listening-meta.json
+    pub_ldir = PUBLIC / "data" / "listening"
+    lmeta_p = pub_ldir / "listening-meta.json"
+    check(lmeta_p.exists(), f"Missing lazy-loaded listening-meta.json at {lmeta_p}")
+    if lmeta_p.exists():
+        lmeta = json.loads(lmeta_p.read_text(encoding="utf-8"))
+        pub_p1, pub_p2, pub_p3, pub_p4 = [], [], [], []
+        for b in lmeta.get("part1", {}).get("batches", []):
+            bp = pub_ldir / b["file"]
+            check(bp.exists(), f"Missing public listening P1 batch: {bp}")
+            if bp.exists():
+                rows = json.loads(bp.read_text(encoding="utf-8"))
+                check(len(rows) == b["count"], f"Public P1 batch {b['file']} count mismatch ({len(rows)} != {b['count']})")
+                pub_p1.extend(rows)
+        for b in lmeta.get("part2", {}).get("batches", []):
+            bp = pub_ldir / b["file"]
+            check(bp.exists(), f"Missing public listening P2 batch: {bp}")
+            if bp.exists():
+                rows = json.loads(bp.read_text(encoding="utf-8"))
+                check(len(rows) == b["count"], f"Public P2 batch {b['file']} count mismatch ({len(rows)} != {b['count']})")
+                pub_p2.extend(rows)
+        for b in lmeta.get("part3", {}).get("batches", []):
+            bp = pub_ldir / b["file"]
+            check(bp.exists(), f"Missing public listening P3 batch: {bp}")
+            if bp.exists():
+                rows = json.loads(bp.read_text(encoding="utf-8"))
+                check(len(rows) == b["setCount"], f"Public P3 batch {b['file']} setCount mismatch")
+                pub_p3.extend(rows)
+        for b in lmeta.get("part4", {}).get("batches", []):
+            bp = pub_ldir / b["file"]
+            check(bp.exists(), f"Missing public listening P4 batch: {bp}")
+            if bp.exists():
+                rows = json.loads(bp.read_text(encoding="utf-8"))
+                check(len(rows) == b["setCount"], f"Public P4 batch {b['file']} setCount mismatch")
+                pub_p4.extend(rows)
+
+        _validate_toeic_listening_items("public/listening", pub_p1, pub_p2, pub_p3, pub_p4)
+
+        # Ensure unique IDs & unique images across all Part 1 items
+        p1_ids = [x["id"] for x in pub_p1]
+        p1_imgs = [x["imageUrl"] for x in pub_p1]
+        check(len(p1_ids) == len(set(p1_ids)), "Duplicate Part 1 IDs in public/data/listening/")
+        check(len(p1_imgs) == len(set(p1_imgs)), "Duplicate Part 1 imageUrl in public/data/listening/")
+        check(len(pub_p1) == lmeta["part1"]["totalQuestions"], "listening-meta part1 totalQuestions mismatch")
+        check(len(pub_p2) == lmeta["part2"]["totalQuestions"], "listening-meta part2 totalQuestions mismatch")
+        check(len(pub_p3) == lmeta["part3"]["totalSets"], "listening-meta part3 totalSets mismatch")
+        check(len(pub_p4) == lmeta["part4"]["totalSets"], "listening-meta part4 totalSets mismatch")
+        print(
+            f"[Public Listening Lazy Audit] Checked {len(pub_p1)} P1, {len(pub_p2)} P2, "
+            f"{len(pub_p3)} P3 sets ({sum(len(x['questions']) for x in pub_p3)} Qs), "
+            f"{len(pub_p4)} P4 sets ({sum(len(x['questions']) for x in pub_p4)} Qs) — 100% photos, MP3s & timestamps verified!"
+        )
+
 
 def _validate_toeic_reading_items(prefix: str, p5: list, p6: list, p7: list):
     for q in p5:

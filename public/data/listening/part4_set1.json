@@ -1,0 +1,696 @@
+[
+  {
+    "id": "t1-l4-set1",
+    "part": 4,
+    "title": "Bài nói 1 (Tin nhắn thoại + Bảng biểu): Chậm giao hàng thiết bị bếp",
+    "talkType": "Tin nhắn thoại (Phone Message)",
+    "hasGraphic": true,
+    "graphic": {
+      "title": "Oakridge Kitchen Supply — Purchase Order #PO-419",
+      "subtitle": "Recipient: Marina Bistro (Attn: Chef Lucas)",
+      "headers": [
+        "Item",
+        "Quantity",
+        "Scheduled Delivery",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Commercial Espresso Machine",
+          "1 unit",
+          "May 12",
+          "In Transit"
+        ],
+        [
+          "Stainless Steel Prep Tables",
+          "3 units",
+          "May 12",
+          "In Transit"
+        ],
+        [
+          "Ceramic Dinner Plates (Set of 24)",
+          "5 sets",
+          "May 12",
+          "Backordered"
+        ],
+        [
+          "Induction Cooktops",
+          "2 units",
+          "May 12",
+          "Ready at Warehouse"
+        ]
+      ]
+    },
+    "transcript": [
+      {
+        "id": "l4-s1-t1",
+        "speaker": "Speaker (Woman - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Hello Chef Lucas, this is Rachel calling from Oakridge Kitchen Supply regarding your upcoming shipment for Marina Bistro, Purchase Order 419.",
+        "vi": "Xin chào Bếp trưởng Lucas, tôi là Rachel gọi từ Oakridge Kitchen Supply về lô hàng sắp tới cho nhà hàng Marina Bistro, Đơn 419.",
+        "evidenceForQuestionIds": [
+          "l4-s1-q1"
+        ],
+        "startMs": 250,
+        "endMs": 9442
+      },
+      {
+        "id": "l4-s1-t2",
+        "speaker": "Speaker (Woman - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Good news first: most of your order is packed and remains on track to reach your restaurant this Tuesday, May 12.",
+        "vi": "Tin vui trước nhé: phần lớn đơn hàng đã đóng gói và vẫn đúng tiến độ giao tới nhà hàng thứ Ba ngày 12 tháng 5.",
+        "startMs": 9842,
+        "endMs": 16682
+      },
+      {
+        "id": "l4-s1-t3",
+        "speaker": "Speaker (Woman - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Unfortunately, the one item currently listed as backordered on your order summary is out of stock at our regional depot because of a kiln malfunction at the manufacturer.",
+        "vi": "Rất tiếc, món hàng duy nhất ghi là đặt chờ trên bảng tóm tắt đơn của anh đã hết hàng tại kho khu vực do sự cố lò nung ở nhà sản xuất.",
+        "evidenceForQuestionIds": [
+          "l4-s1-q2"
+        ],
+        "startMs": 17082,
+        "endMs": 26946
+      },
+      {
+        "id": "l4-s1-t4",
+        "speaker": "Speaker (Woman - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "We expect a fresh batch next Friday, May 15, and we’ll waive the second delivery fee since this delay is on our end.",
+        "vi": "Chúng tôi dự kiến có lô hàng mới vào thứ Sáu ngày 15/5 và sẽ miễn phí giao hàng đợt hai vì lỗi chậm trễ từ phía chúng tôi.",
+        "startMs": 27346,
+        "endMs": 34810
+      },
+      {
+        "id": "l4-s1-t5",
+        "speaker": "Speaker (Woman - US)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Please call me back at 555-0194 before four o’clock today if you’d prefer to substitute a similar porcelain style instead of waiting.",
+        "vi": "Vui lòng gọi lại 555-0194 trước 4 giờ chiều nay nếu anh muốn đổi sang mẫu sứ tương tự thay vì chờ.",
+        "evidenceForQuestionIds": [
+          "l4-s1-q3"
+        ],
+        "startMs": 35210,
+        "endMs": 44834
+      }
+    ],
+    "questions": [
+      {
+        "id": "l4-s1-q1",
+        "questionNumber": 71,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Who most likely is the intended listener?",
+        "promptVi": "Người nghe dự kiến của tin nhắn thoại này là ai?",
+        "options": {
+          "A": {
+            "en": "A restaurant chef",
+            "vi": "Bếp trưởng nhà hàng"
+          },
+          "B": {
+            "en": "A ceramic factory technician",
+            "vi": "Kỹ thuật viên nhà máy gốm"
+          },
+          "C": {
+            "en": "A freight truck driver",
+            "vi": "Tài xế xe tải"
+          },
+          "D": {
+            "en": "A hotel front-desk clerk",
+            "vi": "Lễ tân khách sạn"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Phân biệt Người gọi (Rachel) vs. Người nghe (Chef Lucas)",
+          "trapAnalysis": "Câu mở đầu gọi thẳng tên 'Hello Chef Lucas ... your restaurant'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "Chef Lucas ... Marina Bistro",
+              "answerPhrase": "A restaurant chef",
+              "meaningVi": "bếp trưởng nhà hàng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG.",
+            "B": "SAI.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l4-s1-q2",
+        "questionNumber": 72,
+        "questionType": "Câu hỏi bảng biểu (Graphic)",
+        "prompt": "Look at the graphic. Which item will NOT be delivered on May 12?",
+        "promptVi": "Nhìn bảng biểu. Món hàng nào KHÔNG được giao ngày 12/5?",
+        "options": {
+          "A": {
+            "en": "Commercial Espresso Machine",
+            "vi": "Máy pha Espresso"
+          },
+          "B": {
+            "en": "Stainless Steel Prep Tables",
+            "vi": "Bàn sơ chế thép không gỉ"
+          },
+          "C": {
+            "en": "Ceramic Dinner Plates",
+            "vi": "Bộ đĩa ăn bằng gốm"
+          },
+          "D": {
+            "en": "Induction Cooktops",
+            "vi": "Bếp từ công nghiệp"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "trapType": "Bẫy Bảng biểu: Audio chỉ đọc cột Status ('Backordered') chứ KHÔNG đọc tên sản phẩm!",
+          "trapAnalysis": "Tra nhanh cột Status trên bảng: dòng duy nhất có trạng thái 'Backordered' là Ceramic Dinner Plates.",
+          "paraphrases": [
+            {
+              "audioPhrase": "listed as backordered ... out of stock",
+              "answerPhrase": "Ceramic Dinner Plates",
+              "meaningVi": "Bộ đĩa ăn gốm (đang đặt chờ)"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — In Transit.",
+            "B": "SAI — In Transit.",
+            "C": "ĐÚNG — Backordered.",
+            "D": "SAI — Ready at Warehouse."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l4-s1-q3",
+        "questionNumber": 73,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "Why should the listener call Rachel before 4:00 P.M.?",
+        "promptVi": "Tại sao người nghe nên gọi lại Rachel trước 4:00 chiều?",
+        "options": {
+          "A": {
+            "en": "To pay an additional shipping fee",
+            "vi": "Trả thêm phí vận chuyển"
+          },
+          "B": {
+            "en": "To choose a replacement product instead of waiting",
+            "vi": "Chọn sản phẩm thay thế thay vì chờ"
+          },
+          "C": {
+            "en": "To cancel the entire order",
+            "vi": "Hủy toàn bộ đơn hàng"
+          },
+          "D": {
+            "en": "To update the delivery address",
+            "vi": "Cập nhật địa chỉ giao"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy thông tin ngược ('waive fee' ≠ trả thêm phí) + Paraphrase ('substitute')",
+          "trapAnalysis": "'substitute a similar porcelain style' = choose a replacement product.",
+          "paraphrases": [
+            {
+              "audioPhrase": "substitute a similar porcelain style",
+              "answerPhrase": "choose a replacement product",
+              "meaningVi": "chọn sản phẩm thay thế"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Miễn phí ship đợt 2.",
+            "B": "ĐÚNG.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-t1-p4-1",
+        "word": "backordered",
+        "pos": "adj",
+        "ipaUK": "/ˈbækˌɔː.dəd/",
+        "ipaUS": "/ˈbækˌɔːr.dɚd/",
+        "meaning": "tạm hết hàng, đang chờ nhập giao sau",
+        "exampleEn": "Two items are currently backordered.",
+        "exampleVi": "Hai món hiện đang tạm hết hàng chờ nhập."
+      },
+      {
+        "id": "lv-t1-p4-2",
+        "word": "waive",
+        "pos": "v",
+        "ipaUK": "/weɪv/",
+        "ipaUS": "/weɪv/",
+        "meaning": "miễn trừ (khoản phí)",
+        "exampleEn": "We will waive the second delivery fee.",
+        "exampleVi": "Chúng tôi sẽ miễn phí giao hàng lần hai."
+      }
+    ],
+    "audioUrl": "/audio/listening/p4_set1.mp3"
+  },
+  {
+    "id": "t1-l4-set2",
+    "part": 4,
+    "title": "Bài nói 2 (Hướng dẫn tham quan — Giọng Anh): Bảo tàng Thiết kế Hiện đại",
+    "talkType": "Hướng dẫn tham quan (Tour)",
+    "hasGraphic": false,
+    "transcript": [
+      {
+        "id": "l4-s2-t1",
+        "speaker": "Tour Guide (Man - UK)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Welcome everyone to the Riverton Museum of Modern Design. My name is Arthur, and I’ll be leading today’s architecture tour.",
+        "vi": "Chào mừng mọi người đến với Bảo tàng Thiết kế Hiện đại Riverton. Tôi tên là Arthur và sẽ dẫn đoàn tham quan kiến trúc hôm nay.",
+        "evidenceForQuestionIds": [
+          "l4-s2-q1"
+        ],
+        "startMs": 250,
+        "endMs": 8674
+      },
+      {
+        "id": "l4-s2-t2",
+        "speaker": "Tour Guide (Man - UK)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Before we enter the Glass Atrium, please note that flash photography is prohibited inside the sculpture galleries to protect delicate pigments.",
+        "vi": "Trước khi vào Sảnh Kính, xin lưu ý chụp ảnh đèn flash bị cấm bên trong phòng điêu khắc để bảo vệ lớp sắc tố nhạy cảm.",
+        "evidenceForQuestionIds": [
+          "l4-s2-q2"
+        ],
+        "startMs": 9074,
+        "endMs": 17186
+      },
+      {
+        "id": "l4-s2-t3",
+        "speaker": "Tour Guide (Man - UK)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Also, our rooftop terrace is closed for skylight maintenance today, so we’ll spend extra time in the newly opened Scandinavian Furniture Wing instead.",
+        "vi": "Ngoài ra sân thượng hôm nay đóng cửa bảo trì giếng trời, nên chúng ta sẽ dành thêm thời gian ở Khu Nội thất Bắc Âu mới mở.",
+        "startMs": 17586,
+        "endMs": 26898
+      },
+      {
+        "id": "l4-s2-t4",
+        "speaker": "Tour Guide (Man - UK)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "I know several of you asked about buying prints of the featured blueprints—our gift shop actually stays open an hour past gallery closing time, and your tour wristband gets you fifteen percent off.",
+        "vi": "Tôi biết vài vị hỏi mua bản in bản vẽ thiết kế—cửa hàng quà tặng thực ra mở muộn hơn một tiếng sau giờ đóng cửa phòng trưng bày, và vòng tay tham quan được giảm 15%.",
+        "evidenceForQuestionIds": [
+          "l4-s2-q3"
+        ],
+        "startMs": 27298,
+        "endMs": 38362
+      }
+    ],
+    "questions": [
+      {
+        "id": "l4-s2-q1",
+        "questionNumber": 74,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Where is the announcement most likely being made?",
+        "promptVi": "Thông báo này nhiều khả năng diễn ra ở đâu?",
+        "options": {
+          "A": {
+            "en": "At a furniture manufacturing plant",
+            "vi": "Nhà máy nội thất"
+          },
+          "B": {
+            "en": "At a design museum",
+            "vi": "Bảo tàng thiết kế"
+          },
+          "C": {
+            "en": "At an airport terminal",
+            "vi": "Nhà ga sân bay"
+          },
+          "D": {
+            "en": "At a university bookstore",
+            "vi": "Hiệu sách đại học"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Bẫy chi tiết giữa bài ('Furniture Wing' → bẫy A)",
+          "trapAnalysis": "Câu mở đầu giới thiệu trực tiếp 'Riverton Museum of Modern Design'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "Riverton Museum of Modern Design",
+              "answerPhrase": "At a design museum",
+              "meaningVi": "tại bảo tàng thiết kế"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Bẫy từ 'Furniture'.",
+            "B": "ĐÚNG.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l4-s2-q2",
+        "questionNumber": 75,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What are visitors asked NOT to do inside the sculpture galleries?",
+        "promptVi": "Du khách được yêu cầu KHÔNG làm gì trong phòng điêu khắc?",
+        "options": {
+          "A": {
+            "en": "Wear wristbands",
+            "vi": "Đeo vòng tay"
+          },
+          "B": {
+            "en": "Use camera flashes",
+            "vi": "Dùng đèn flash máy ảnh"
+          },
+          "C": {
+            "en": "Bring bottled water",
+            "vi": "Mang nước đóng chai"
+          },
+          "D": {
+            "en": "Speak with other guests",
+            "vi": "Nói chuyện với khách khác"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Paraphrase quy định cấm (prohibited = asked NOT to do)",
+          "trapAnalysis": "'flash photography is prohibited' = asked NOT to use camera flashes.",
+          "paraphrases": [
+            {
+              "audioPhrase": "flash photography is prohibited",
+              "answerPhrase": "asked NOT to use camera flashes",
+              "meaningVi": "cấm bật đèn flash chụp ảnh"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "ĐÚNG.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l4-s2-q3",
+        "questionNumber": 76,
+        "questionType": "Hàm ý người nói (Implied Meaning)",
+        "prompt": "What does the speaker imply when he says, 'our gift shop actually stays open an hour past gallery closing time'?",
+        "promptVi": "Hướng dẫn viên ngụ ý gì khi nói cửa hàng quà tặng mở muộn hơn một tiếng?",
+        "options": {
+          "A": {
+            "en": "The tour will end earlier than planned.",
+            "vi": "Tour kết thúc sớm hơn dự định."
+          },
+          "B": {
+            "en": "Visitors do not need to rush to buy souvenirs during the tour.",
+            "vi": "Du khách không cần vội mua đồ lưu niệm ngay trong lúc tham quan."
+          },
+          "C": {
+            "en": "The gift shop is closed for skylight repairs.",
+            "vi": "Cửa hàng quà tặng đóng cửa sửa giếng trời."
+          },
+          "D": {
+            "en": "Discount wristbands expire before closing.",
+            "vi": "Vòng tay giảm giá hết hạn trước giờ đóng cửa."
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Hàm ý trấn an du khách (Implied Meaning)",
+          "trapAnalysis": "Nhấn mạnh gift shop mở muộn hơn phòng trưng bày 1 tiếng ngụ ý du khách cứ thoải mái đi hết tour rồi ghé mua sau, không cần vội.",
+          "paraphrases": [
+            {
+              "audioPhrase": "stays open an hour past gallery closing time",
+              "answerPhrase": "do not need to rush to buy souvenirs",
+              "meaningVi": "không cần vội mua ngay trong tour"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "ĐÚNG.",
+            "C": "SAI — Sân thượng mới sửa giếng trời.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-t1-p4-3",
+        "word": "prohibited",
+        "pos": "adj",
+        "ipaUK": "/prəˈhɪb.ɪ.tɪd/",
+        "ipaUS": "/proʊˈhɪb.ə.t̬ɪd/",
+        "meaning": "bị nghiêm cấm",
+        "exampleEn": "Flash photography is prohibited inside.",
+        "exampleVi": "Chụp ảnh bật đèn flash bị cấm bên trong."
+      },
+      {
+        "id": "lv-t1-p4-4",
+        "word": "delicate",
+        "pos": "adj",
+        "ipaUK": "/ˈdel.ɪ.kət/",
+        "ipaUS": "/ˈdel.ə.kət/",
+        "meaning": "mong manh, dễ hư hại",
+        "exampleEn": "Protect delicate pigments from bright light.",
+        "exampleVi": "Bảo vệ các sắc tố nhạy cảm khỏi ánh sáng mạnh."
+      }
+    ],
+    "audioUrl": "/audio/listening/p4_set2.mp3"
+  },
+  {
+    "id": "t1-l4-set3",
+    "part": 4,
+    "title": "Bài nói 3 (Phát biểu cuộc họp — Giọng Úc): Triển khai chính sách Làm việc Linh hoạt",
+    "talkType": "Phát biểu cuộc họp (Meeting)",
+    "hasGraphic": false,
+    "transcript": [
+      {
+        "id": "l4-s3-t1",
+        "speaker": "Director (Woman - AU)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Good morning team. Before we wrap up today’s quarterly staff meeting, I have an exciting update about our workplace schedule.",
+        "vi": "Chào buổi sáng cả nhóm. Trước khi khép lại cuộc họp nhân sự hàng quý hôm nay, tôi có một tin cập nhật hào hứng về lịch làm việc.",
+        "evidenceForQuestionIds": [
+          "l4-s3-q1"
+        ],
+        "startMs": 250,
+        "endMs": 9514
+      },
+      {
+        "id": "l4-s3-t2",
+        "speaker": "Director (Woman - AU)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Based on last month’s employee survey, starting May 1, all full-time departments may work remotely on Mondays and Fridays while collaborating on site from Tuesday through Thursday.",
+        "vi": "Dựa trên khảo sát nhân viên tháng trước, từ ngày 1/5, mọi phòng ban toàn thời gian có thể làm việc từ xa thứ Hai và thứ Sáu, đồng thời phối hợp tại văn phòng từ thứ Ba đến thứ Năm.",
+        "evidenceForQuestionIds": [
+          "l4-s3-q2"
+        ],
+        "startMs": 9914,
+        "endMs": 21746
+      },
+      {
+        "id": "l4-s3-t3",
+        "speaker": "Director (Woman - AU)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "To make home setups comfortable, the company is offering a one-time four-hundred-dollar equipment reimbursement for ergonomic chairs, monitors, or headsets.",
+        "vi": "Để không gian làm việc tại nhà thoải mái, công ty tài trợ một lần khoản hoàn chi phí thiết bị 400 đô la cho ghế công thái học, màn hình hoặc tai nghe.",
+        "evidenceForQuestionIds": [
+          "l4-s3-q2"
+        ],
+        "startMs": 22146,
+        "endMs": 32274
+      },
+      {
+        "id": "l4-s3-t4",
+        "speaker": "Director (Woman - AU)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Just remember to upload your itemized receipts to the HR portal before June 30 so payroll can process them promptly.",
+        "vi": "Chỉ cần nhớ tải biên lai chi tiết lên cổng nhân sự trước ngày 30/6 để phòng lương xử lý kịp thời nhé.",
+        "evidenceForQuestionIds": [
+          "l4-s3-q3"
+        ],
+        "startMs": 32674,
+        "endMs": 41098
+      }
+    ],
+    "questions": [
+      {
+        "id": "l4-s3-q1",
+        "questionNumber": 77,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "What is the main topic of the announcement?",
+        "promptVi": "Chủ đề chính của bài phát biểu là gì?",
+        "options": {
+          "A": {
+            "en": "A relocation to a larger office building",
+            "vi": "Chuyển sang tòa nhà văn phòng lớn hơn"
+          },
+          "B": {
+            "en": "A new hybrid remote-work policy",
+            "vi": "Chính sách làm việc kết hợp từ xa mới"
+          },
+          "C": {
+            "en": "A merger with an Australian partner",
+            "vi": "Sáp nhập với đối tác Úc"
+          },
+          "D": {
+            "en": "A mandatory overtime schedule in May",
+            "vi": "Lịch tăng ca bắt buộc tháng Năm"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "trapType": "Tổng hợp nội dung chính (remote Mon/Fri + on-site Tue–Thu = hybrid policy)",
+          "trapAnalysis": "Làm từ xa thứ Hai & Sáu + làm tại văn phòng thứ Ba–Năm chính là mô hình hybrid remote-work policy.",
+          "paraphrases": [
+            {
+              "audioPhrase": "work remotely on Mondays and Fridays while collaborating on site",
+              "answerPhrase": "hybrid remote-work policy",
+              "meaningVi": "chính sách làm việc kết hợp (hybrid)"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI.",
+            "B": "ĐÚNG.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l4-s3-q2",
+        "questionNumber": 78,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What benefit is the company providing for home offices?",
+        "promptVi": "Công ty cung cấp phúc lợi gì cho văn phòng tại nhà?",
+        "options": {
+          "A": {
+            "en": "A $400 reimbursement for office equipment",
+            "vi": "Khoản hoàn trả 400 đô la mua thiết bị làm việc"
+          },
+          "B": {
+            "en": "Free high-speed internet installation",
+            "vi": "Miễn phí lắp mạng tốc độ cao"
+          },
+          "C": {
+            "en": "Paid shuttle rides on Mondays",
+            "vi": "Xe đưa đón miễn phí thứ Hai"
+          },
+          "D": {
+            "en": "Two extra weeks of paid vacation",
+            "vi": "Thêm hai tuần nghỉ phép có lương"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "trapType": "Bắt chính xác con số tài chính ($400 equipment reimbursement)",
+          "trapAnalysis": "Audio nêu trực tiếp: 'one-time four-hundred-dollar equipment reimbursement for ergonomic chairs, monitors, or headsets'.",
+          "paraphrases": [
+            {
+              "audioPhrase": "four-hundred-dollar equipment reimbursement",
+              "answerPhrase": "$400 reimbursement for office equipment",
+              "meaningVi": "hoàn 400 đô mua thiết bị văn phòng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG.",
+            "B": "SAI.",
+            "C": "SAI.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "l4-s3-q3",
+        "questionNumber": 79,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What must employees do before June 30?",
+        "promptVi": "Nhân viên phải làm gì trước ngày 30 tháng 6?",
+        "options": {
+          "A": {
+            "en": "Complete an employee satisfaction survey",
+            "vi": "Hoàn thành khảo sát mức độ hài lòng"
+          },
+          "B": {
+            "en": "Return old headsets to the IT desk",
+            "vi": "Trả tai nghe cũ cho phòng CNTT"
+          },
+          "C": {
+            "en": "Submit detailed purchase receipts online",
+            "vi": "Nộp hóa đơn mua hàng chi tiết trực tuyến"
+          },
+          "D": {
+            "en": "Register their Monday office seats",
+            "vi": "Đăng ký chỗ ngồi văn phòng thứ Hai"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "trapType": "Paraphrase cụm 'upload itemized receipts to the HR portal'",
+          "trapAnalysis": "'upload your itemized receipts to the HR portal' = submit detailed purchase receipts online.",
+          "paraphrases": [
+            {
+              "audioPhrase": "upload itemized receipts to the HR portal",
+              "answerPhrase": "submit detailed purchase receipts online",
+              "meaningVi": "nộp biên lai chi tiết trực tuyến"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Khảo sát làm tháng trước rồi.",
+            "B": "SAI.",
+            "C": "ĐÚNG.",
+            "D": "SAI."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-t1-p4-5",
+        "word": "wrap up",
+        "pos": "phrase",
+        "ipaUK": "/ræp ʌp/",
+        "ipaUS": "/ræp ʌp/",
+        "meaning": "kết thúc, khép lại (buổi họp)",
+        "exampleEn": "Let’s wrap up the meeting before noon.",
+        "exampleVi": "Hãy khép lại cuộc họp trước buổi trưa."
+      },
+      {
+        "id": "lv-t1-p4-6",
+        "word": "itemized receipt",
+        "pos": "phrase",
+        "ipaUK": "/ˈaɪ.tə.maɪzd rɪˈsiːt/",
+        "ipaUS": "/ˈaɪ.t̬ə.maɪzd rɪˈsiːt/",
+        "meaning": "hóa đơn kê khai chi tiết từng món",
+        "exampleEn": "Upload an itemized receipt to claim expenses.",
+        "exampleVi": "Tải lên hóa đơn chi tiết để thanh toán công tác phí."
+      }
+    ],
+    "audioUrl": "/audio/listening/p4_set3.mp3"
+  }
+]

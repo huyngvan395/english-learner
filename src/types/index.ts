@@ -376,12 +376,63 @@ export interface ListeningParaphrase {
   meaningVi: string;
 }
 
+export interface ListeningSoundTrap {
+  pair: string;
+  noteVi?: string;
+}
+
 export interface ListeningExplanation {
   trapType: string;
   trapAnalysis: string;
   paraphrases: ListeningParaphrase[];
   optionAnalysis: Record<string, string>;
   keyVocab: ListeningVocabItem[];
+  // Deep-learning optional fields (100% backward-compatible with existing data)
+  soundTrap?: string | ListeningSoundTrap;
+  listeningKey?: string;
+}
+
+export interface ListeningQuestionProgress {
+  status: 'correct' | 'wrong';
+  selectedAnswer: string;
+  updatedAt: number;
+}
+
+export interface ListeningSimpleBatchMeta {
+  id: string;
+  label: string;
+  file: string;
+  count: number;
+}
+
+export interface ListeningSetBatchMeta {
+  id: string;
+  label: string;
+  file: string;
+  setCount: number;
+  questionCount: number;
+}
+
+export interface ListeningMeta {
+  updatedAt: string;
+  part1: {
+    totalQuestions: number;
+    batches: ListeningSimpleBatchMeta[];
+  };
+  part2: {
+    totalQuestions: number;
+    batches: ListeningSimpleBatchMeta[];
+  };
+  part3: {
+    totalSets: number;
+    totalQuestions: number;
+    batches: ListeningSetBatchMeta[];
+  };
+  part4: {
+    totalSets: number;
+    totalQuestions: number;
+    batches: ListeningSetBatchMeta[];
+  };
 }
 
 export interface ListeningPart1Question {

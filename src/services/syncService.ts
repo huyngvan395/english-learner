@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabase';
 import {
   AttemptRecord,
+  ListeningQuestionProgress,
   ReadingQuestionProgress,
   ToeicExamHistoryItem,
   UserNote,
@@ -25,6 +26,7 @@ export const PROGRESS_STORAGE_KEYS = {
   PROFILE: 'tmh_user_profile_v1',
   HIGHLIGHTS: 'tmh_reading_highlights_v1',
   READING_PROGRESS: 'tmh_reading_progress_v1',
+  LISTENING_PROGRESS: 'tmh_listening_progress_v1',
   WRONG_QUESTIONS: 'tmh_wrong_questions_v1',
   EXAM_HISTORY: 'tmh_toeic_exam_history_v1',
   WRITING_HISTORY: 'tmh_writing_history_v1',
@@ -50,6 +52,7 @@ export interface LearningProgressSnapshot {
   profile: UserProfileStats;
   readingHighlights: Record<string, string[]>;
   readingProgress: Record<string, ReadingQuestionProgress>;
+  listeningProgress: Record<string, ListeningQuestionProgress>;
   wrongQuestions: WrongQuestionRecord[];
   examHistory: ToeicExamHistoryItem[];
   writingHistory: WritingSubmissionRecord[];
@@ -73,6 +76,7 @@ interface UserProgressRow {
   } | null;
   listening_progress: {
     attempts?: AttemptRecord[];
+    progress?: Record<string, ListeningQuestionProgress>;
   } | null;
   writing_history: {
     submissions?: WritingSubmissionRecord[];
@@ -104,6 +108,7 @@ export function createEmptySnapshot(): LearningProgressSnapshot {
     },
     readingHighlights: {},
     readingProgress: {},
+    listeningProgress: {},
     wrongQuestions: [],
     examHistory: [],
     writingHistory: [],
@@ -120,6 +125,7 @@ export function hasMeaningfulProgress(snap: LearningProgressSnapshot): boolean {
     snap.attempts.length > 0 ||
     Object.keys(snap.readingHighlights).length > 0 ||
     Object.keys(snap.readingProgress).length > 0 ||
+    Object.keys(snap.listeningProgress).length > 0 ||
     snap.wrongQuestions.length > 0 ||
     snap.examHistory.length > 0 ||
     snap.writingHistory.length > 0 ||
@@ -217,6 +223,10 @@ function rowToSnapshot(row: UserProgressRow): LearningProgressSnapshot {
       row.reading_progress?.progress && typeof row.reading_progress.progress === 'object'
         ? row.reading_progress.progress
         : {},
+    listeningProgress:
+      row.listening_progress?.progress && typeof row.listening_progress.progress === 'object'
+        ? row.listening_progress.progress
+        : {},
     wrongQuestions: Array.isArray(row.toeic_history?.wrongQuestions)
       ? row.toeic_history!.wrongQuestions!
       : [],
@@ -252,6 +262,7 @@ function snapshotToRow(userId: string, snap: LearningProgressSnapshot): UserProg
     },
     listening_progress: {
       attempts: listeningAttempts.slice(0, 80),
+      progress: snap.listeningProgress,
     },
     writing_history: {
       submissions: snap.writingHistory.slice(0, 100),
@@ -338,6 +349,15 @@ export function mergeProgressSnapshots(
     }
   }
 
+  // 6b. Listening progress — newest updatedAt per question
+  const listeningProgress: Record<string, ListeningQuestionProgress> = { ...cloud.listeningProgress };
+  for (const [qid, lp] of Object.entries(local.listeningProgress)) {
+    const prev = listeningProgress[qid];
+    if (!prev || (lp.updatedAt || 0) >= (prev.updatedAt || 0)) {
+      listeningProgress[qid] = lp;
+    }
+  }
+
   // 7. Wrong questions — deduplicated by id, keep newest & max wrongCount
   const wrongMap = new Map<string, WrongQuestionRecord>();
   for (const w of cloud.wrongQuestions) {
@@ -418,6 +438,7 @@ export function mergeProgressSnapshots(
     profile,
     readingHighlights,
     readingProgress,
+    listeningProgress,
     wrongQuestions,
     examHistory,
     writingHistory,

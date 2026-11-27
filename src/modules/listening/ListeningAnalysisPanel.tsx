@@ -5,11 +5,13 @@ import {
   BookmarkCheck,
   BookmarkPlus,
   CheckCircle2,
+  Ear,
   ListChecks,
   MessageSquareText,
   Sparkles,
   Volume2,
   XCircle,
+  Zap,
 } from 'lucide-react';
 import { ListeningExplanation, ListeningVocabItem, TranscriptLine } from '../../types';
 import { useApp } from '../../context/AppContext';
@@ -145,14 +147,50 @@ export const ListeningAnalysisPanel: React.FC<ListeningAnalysisPanelProps> = ({
         </div>
       )}
 
-      {/* 3. Trap Analysis */}
-      <div className="rounded-xl border border-amber-500/30 bg-amber-950/20 p-3.5">
-        <div className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-amber-300">
-          <AlertTriangle className="h-4 w-4" />
-          Bóc tách Bẫy Listening (Trap Analysis)
+      {/* 3. Listening Key (2-second audio clincher) + Trap & Sound Trap Analysis */}
+      {explanation.listeningKey && (
+        <div className="rounded-xl border border-emerald-500/35 bg-emerald-950/20 p-3.5">
+          <div className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-emerald-300">
+            <Zap className="h-4 w-4" />
+            Mẹo bắt từ khóa trong 2 giây (Listening Key)
+          </div>
+          <p className="mt-1.5 text-xs sm:text-sm font-semibold text-emerald-100 leading-relaxed">
+            {explanation.listeningKey}
+          </p>
         </div>
-        <p className="mt-1.5 text-sm font-bold text-amber-200">{explanation.trapType}</p>
-        <p className="mt-1 text-xs sm:text-sm text-slate-300 leading-relaxed">{explanation.trapAnalysis}</p>
+      )}
+
+      <div className="rounded-xl border border-amber-500/30 bg-amber-950/20 p-3.5 space-y-2">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-amber-300">
+            <AlertTriangle className="h-4 w-4" />
+            Bóc tách Bẫy Listening (Trap Analysis)
+          </div>
+          {explanation.trapType && (
+            <span className="rounded-lg border border-amber-400/45 bg-amber-500/20 px-2.5 py-0.5 text-[11px] font-extrabold text-amber-200">
+              {explanation.trapType}
+            </span>
+          )}
+        </div>
+
+        {explanation.soundTrap && (
+          <div className="rounded-lg border border-rose-500/35 bg-rose-950/30 px-3 py-2 flex flex-wrap items-center gap-2 text-xs">
+            <span className="inline-flex items-center gap-1 font-extrabold text-rose-300 uppercase text-[10px] tracking-wider">
+              <Ear className="h-3.5 w-3.5" />
+              Cặp từ gần âm / gây nhiễu:
+            </span>
+            <span className="rounded-md bg-rose-500/20 border border-rose-400/35 px-2 py-0.5 font-mono font-bold text-rose-100">
+              {typeof explanation.soundTrap === 'string'
+                ? explanation.soundTrap
+                : explanation.soundTrap.pair}
+            </span>
+            {typeof explanation.soundTrap !== 'string' && explanation.soundTrap.noteVi && (
+              <span className="text-slate-300">{explanation.soundTrap.noteVi}</span>
+            )}
+          </div>
+        )}
+
+        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{explanation.trapAnalysis}</p>
       </div>
 
       {/* 4. Option-by-option Analysis */}

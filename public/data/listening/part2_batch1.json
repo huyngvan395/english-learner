@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "p2-b1-q01",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Who — Bẫy chức danh (\"The plant manager\") thay tên riêng",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p2_q30.mp3",
+    "questionLine": {
+      "id": "p2-b1-q01-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-GB",
+      "en": "Who approved the change to the new bottle supplier?",
+      "vi": "Ai đã phê duyệt việc chuyển sang nhà cung cấp chai lọ mới?",
+      "startMs": 220,
+      "endMs": 3700
+    },
+    "options": {
+      "A": {
+        "en": "The plant manager did, I believe.",
+        "vi": "Tôi tin là quản lý nhà máy đã phê duyệt.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 4060,
+        "endMs": 7372
+      },
+      "B": {
+        "en": "Sometime late last month, I think.",
+        "vi": "Tôi nghĩ khoảng cuối tháng trước.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 7732,
+        "endMs": 11332
+      },
+      "C": {
+        "en": "No, the new bottles are a little taller.",
+        "vi": "Không, những chiếc chai mới hơi cao hơn một chút.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 11692,
+        "endMs": 15316
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy tên chức danh thay tên riêng & Yes/No + lặp từ \"bottles\"",
+      "soundTrap": {
+        "pair": "bottle supplier / new bottles",
+        "noteVi": "Câu C lặp từ \"new bottles\" và mở đầu bằng \"No\" (sai hoàn toàn với câu hỏi Who)."
+      },
+      "listeningKey": "Bắt ngay 2 từ đầu \"Who approved\" → cần chỉ người hoặc CHỨC DANH (plant manager) + trợ động từ quá khứ \"did\".",
+      "trapAnalysis": "Nhiều thí sinh chờ nghe tên riêng (Mr./Ms. ...) nên bỏ sót chức danh \"The plant manager did\". Câu B trả lời mốc thời gian (When), còn câu C dính cả hai lỗi: dùng \"No\" cho câu Wh- và lặp từ \"bottles\".",
+      "paraphrases": [
+        {
+          "audioPhrase": "The plant manager did",
+          "answerPhrase": "The factory supervisor gave the approval",
+          "meaningVi": "quản lý nhà máy đã phê duyệt"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Dùng chức danh \"The plant manager\" + trợ động từ thay thế \"did\" chuẩn xác cho \"Who approved\".",
+        "B": "SAI (Sai loại câu hỏi) — Trả lời thời gian (When), không trả lời Who.",
+        "C": "SAI (Yes/No + Lặp từ) — Câu Wh- không bắt đầu bằng \"No\" và C chỉ lặp \"new bottles\" đánh lạc hướng."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-01",
+          "word": "plant manager",
+          "pos": "phrase",
+          "ipaUK": "/plɑːnt ˈmæn.ɪ.dʒər/",
+          "ipaUS": "/plænt ˈmæn.ə.dʒɚ/",
+          "meaning": "quản lý nhà máy / phân xưởng",
+          "exampleEn": "The plant manager approved the equipment upgrade.",
+          "exampleVi": "Quản lý nhà máy đã phê duyệt việc nâng cấp thiết bị."
+        },
+        {
+          "id": "lv-p2b1-02",
+          "word": "approve a change",
+          "pos": "phrase",
+          "ipaUK": "/əˈpruːv ə tʃeɪndʒ/",
+          "ipaUS": "/əˈpruːv ə tʃeɪndʒ/",
+          "meaning": "phê duyệt sự thay đổi",
+          "exampleEn": "Management must approve any change in suppliers.",
+          "exampleVi": "Ban giám đốc phải duyệt mọi thay đổi về nhà cung cấp."
+        },
+        {
+          "id": "lv-p2b1-03",
+          "word": "supplier",
+          "pos": "n",
+          "ipaUK": "/səˈplaɪ.ər/",
+          "ipaUS": "/səˈplaɪ.ɚ/",
+          "meaning": "nhà cung cấp",
+          "exampleEn": "We switched to a more reliable packaging supplier.",
+          "exampleVi": "Chúng tôi đã chuyển sang nhà cung cấp bao bì uy tín hơn."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q02",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Who — Bẫy chức danh phụ trách (\"The building manager handles...\")",
+    "audioUrl": "/audio/toeic/study4-7063-toeic-lr-collection-4-test-4/p2_q08.mp3",
+    "questionLine": {
+      "id": "p2-b1-q02-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "Who takes care of assigning the parking spaces here?",
+      "vi": "Ai phụ trách việc phân bổ chỗ đỗ xe ở đây vậy?",
+      "startMs": 250,
+      "endMs": 4707
+    },
+    "options": {
+      "A": {
+        "en": "Yes, I parked in the visitor space.",
+        "vi": "Vâng, tôi đã đỗ ở chỗ dành cho khách.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 4747,
+        "endMs": 8004
+      },
+      "B": {
+        "en": "Because the parking lot was completely full.",
+        "vi": "Bởi vì bãi đỗ xe đã kín hết chỗ rồi.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 8044,
+        "endMs": 12072
+      },
+      "C": {
+        "en": "The building manager handles all of those.",
+        "vi": "Quản lý tòa nhà phụ trách toàn bộ việc đó.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 12112,
+        "endMs": 15950
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy lặp từ gốc (\"parking / parked / space\") & Yes/Because cho câu Who",
+      "soundTrap": {
+        "pair": "parking spaces / parked / parking lot",
+        "noteVi": "Cả A và B đều lặp đậm từ gốc \"park/parking\" để kéo thí sinh khỏi đáp án C dùng đại từ \"all of those\"."
+      },
+      "listeningKey": "Khóa cụm \"Who takes care of\" → khớp ngay động từ đồng nghĩa \"handles\" + chức danh \"building manager\".",
+      "trapAnalysis": "A mở đầu bằng \"Yes\" và lặp \"parked / space\"; B mở đầu bằng \"Because\" (trả lời Why) và lặp \"parking lot\". Đáp án C paraphrase \"takes care of\" thành \"handles\" và thay \"parking spaces\" bằng \"all of those\".",
+      "paraphrases": [
+        {
+          "audioPhrase": "takes care of assigning",
+          "answerPhrase": "handles all of those",
+          "meaningVi": "phụ trách xử lý toàn bộ việc đó"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Yes/No + Lặp từ) — Câu hỏi Who không trả lời \"Yes\", lặp từ \"parked / space\".",
+        "B": "SAI (Sai loại câu hỏi) — Bắt đầu bằng \"Because\" (trả lời Why) và lặp \"parking lot\".",
+        "C": "ĐÚNG — Nêu rõ chức danh phụ trách (\"The building manager\") và paraphrase chuẩn \"takes care of = handles\"."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-04",
+          "word": "take care of",
+          "pos": "phrase",
+          "ipaUK": "/teɪk keər ɒv/",
+          "ipaUS": "/teɪk ker ʌv/",
+          "meaning": "phụ trách / xử lý",
+          "exampleEn": "Ms. Lin takes care of client onboarding.",
+          "exampleVi": "Cô Lin phụ trách việc tiếp nhận khách hàng mới."
+        },
+        {
+          "id": "lv-p2b1-05",
+          "word": "assign parking spaces",
+          "pos": "phrase",
+          "ipaUK": "/əˈsaɪn ˈpɑː.kɪŋ ˈspeɪ.sɪz/",
+          "ipaUS": "/əˈsaɪn ˈpɑːr.kɪŋ ˈspeɪ.səz/",
+          "meaning": "phân bổ chỗ đỗ xe",
+          "exampleEn": "Security assigns parking spaces to new staff.",
+          "exampleVi": "Bộ phận an ninh phân bổ chỗ đỗ xe cho nhân viên mới."
+        },
+        {
+          "id": "lv-p2b1-06",
+          "word": "handle",
+          "pos": "v",
+          "ipaUK": "/ˈhæn.dəl/",
+          "ipaUS": "/ˈhæn.dəl/",
+          "meaning": "đảm nhận / xử lý",
+          "exampleEn": "Our regional office handles all warranty claims.",
+          "exampleVi": "Văn phòng khu vực xử lý mọi yêu cầu bảo hành."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q03",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "Who (Gián tiếp) — Bẫy đồng âm kinh điển \"oversee / overseas\"",
+    "audioUrl": "/audio/toeic/study4-7003-toeic-lr-collection-2-test-4/p2_q23.mp3",
+    "questionLine": {
+      "id": "p2-b1-q03-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "Who's going to oversee the department this weekend?",
+      "vi": "Ai sẽ giám sát bộ phận vào cuối tuần này?",
+      "startMs": 220,
+      "endMs": 3892
+    },
+    "options": {
+      "A": {
+        "en": "Starting Saturday morning.",
+        "vi": "Bắt đầu từ sáng thứ Bảy.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 4232,
+        "endMs": 6968
+      },
+      "B": {
+        "en": "That hasn't been settled yet.",
+        "vi": "Chuyện đó vẫn chưa được chốt xong.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 7308,
+        "endMs": 10116
+      },
+      "C": {
+        "en": "She just got back from overseas.",
+        "vi": "Cô ấy vừa mới từ nước ngoài trở về.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 10456,
+        "endMs": 13744
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp & Bẫy từ gần âm (oversee ↔ overseas)",
+      "soundTrap": {
+        "pair": "oversee / overseas",
+        "noteVi": "\"oversee\" (giám sát) và \"overseas\" (nước ngoài) chỉ khác đúng âm cuối /z/ — bẫy cực mạnh của ETS!"
+      },
+      "listeningKey": "Nghe \"Who's going to oversee\" → cảnh giác bẫy âm \"overseas\" (C) và chốt câu gián tiếp \"hasn't been settled yet\".",
+      "trapAnalysis": "A trả lời mốc thời gian (When: \"Starting Saturday morning\"). C gài bẫy âm gần như y hệt \"oversee / overseas\" nhưng nghĩa lạc đề. Chỉ B trả lời gián tiếp chuẩn xác rằng chưa quyết định ai phụ trách.",
+      "paraphrases": [
+        {
+          "audioPhrase": "That hasn't been settled yet",
+          "answerPhrase": "No one has been decided on yet",
+          "meaningVi": "vẫn chưa quyết định/chốt ai cả"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — Trả lời When (\"Starting Saturday morning\"), liên tưởng từ \"this weekend\".",
+        "B": "ĐÚNG — Trả lời gián tiếp cực tự nhiên (\"chưa chốt xong\") cho câu hỏi Who về kế hoạch tương lai.",
+        "C": "SAI (Bẫy từ gần âm) — Gài \"overseas\" (nước ngoài) nhái âm \"oversee\" (giám sát)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-07",
+          "word": "oversee",
+          "pos": "v",
+          "ipaUK": "/ˌəʊ.vəˈsiː/",
+          "ipaUS": "/ˌoʊ.vɚˈsiː/",
+          "meaning": "giám sát / quản lý",
+          "exampleEn": "She will oversee the warehouse renovation.",
+          "exampleVi": "Cô ấy sẽ giám sát việc cải tạo nhà kho."
+        },
+        {
+          "id": "lv-p2b1-08",
+          "word": "be settled",
+          "pos": "phrase",
+          "ipaUK": "/biː ˈset.əld/",
+          "ipaUS": "/biː ˈset̬.əld/",
+          "meaning": "được quyết định / chốt xong",
+          "exampleEn": "The final speaker lineup has not been settled yet.",
+          "exampleVi": "Danh sách diễn giả cuối cùng vẫn chưa được chốt."
+        },
+        {
+          "id": "lv-p2b1-09",
+          "word": "overseas",
+          "pos": "adv",
+          "ipaUK": "/ˌəʊ.vəˈsiːz/",
+          "ipaUS": "/ˌoʊ.vɚˈsiːz/",
+          "meaning": "ở nước ngoài",
+          "exampleEn": "Our director just returned from an overseas trip.",
+          "exampleVi": "Giám đốc vừa trở về sau chuyến công tác nước ngoài."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q04",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "Who (Gián tiếp) — Trả lời bằng nhóm/bộ phận (\"Someone from the seasonal crew\")",
+    "audioUrl": "/audio/toeic/study4-7051-toeic-lr-collection-3-test-2/p2_q30.mp3",
+    "questionLine": {
+      "id": "p2-b1-q04-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-GB",
+      "en": "Who moved those boxes to the storage room?",
+      "vi": "Ai đã chuyển mấy chiếc thùng kia vào phòng kho vậy?",
+      "startMs": 220,
+      "endMs": 3269
+    },
+    "options": {
+      "A": {
+        "en": "To make room by the dock.",
+        "vi": "Để tạo thêm khoảng trống cạnh bến bốc hàng.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 3609,
+        "endMs": 5928
+      },
+      "B": {
+        "en": "Someone from the seasonal crew, I believe.",
+        "vi": "Tôi tin là ai đó trong đội nhân sự thời vụ.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 6268,
+        "endMs": 9972
+      },
+      "C": {
+        "en": "They should all be moved by Friday.",
+        "vi": "Tất cả chúng nên được chuyển đi trước thứ Sáu.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 10312,
+        "endMs": 13181
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Bẫy từ đa nghĩa (\"room\" = phòng ≠ khoảng trống) & sai thì (moved ≠ by Friday)",
+      "soundTrap": {
+        "pair": "storage room / make room",
+        "noteVi": "Câu A lặp chữ \"room\" nhưng đổi nghĩa thành \"make room\" (tạo chỗ trống) và trả lời mục đích (Why)."
+      },
+      "listeningKey": "Chốt \"Who moved\" (quá khứ) → đáp án chỉ nhóm người \"Someone from the seasonal crew\".",
+      "trapAnalysis": "A trả lời Why (\"To make room...\") và lặp chữ \"room\"; C lặp động từ \"moved\" nhưng dùng thì tương lai (\"by Friday\") mâu thuẫn với câu hỏi quá khứ \"Who moved\". B trả lời đúng người thực hiện ở dạng nhóm/đội.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Someone from the seasonal crew",
+          "answerPhrase": "A temporary staff member",
+          "meaningVi": "một nhân viên thuộc đội thời vụ"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Từ đa nghĩa + Sai loại) — Trả lời Why (\"To make room\") và lặp từ \"room\".",
+        "B": "ĐÚNG — Chỉ nhóm người thực hiện (\"Someone from the seasonal crew\") kèm \"I believe\" rất chuẩn ETS.",
+        "C": "SAI (Lặp từ & Sai thì) — Lặp \"moved\" nhưng nói mốc tương lai \"by Friday\" (sai so với hành động đã xong)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-10",
+          "word": "seasonal crew",
+          "pos": "phrase",
+          "ipaUK": "/ˈsiː.zən.əl kruː/",
+          "ipaUS": "/ˈsiː.zən.əl kruː/",
+          "meaning": "đội nhân viên thời vụ",
+          "exampleEn": "We hired a seasonal crew to handle holiday orders.",
+          "exampleVi": "Chúng tôi thuê đội thời vụ để xử lý đơn hàng dịp lễ."
+        },
+        {
+          "id": "lv-p2b1-11",
+          "word": "make room",
+          "pos": "phrase",
+          "ipaUK": "/meɪk ruːm/",
+          "ipaUS": "/meɪk ruːm/",
+          "meaning": "dọn chỗ / tạo khoảng trống",
+          "exampleEn": "Clear the counter to make room for the new scanner.",
+          "exampleVi": "Dọn quầy để tạo chỗ trống cho máy quét mới."
+        },
+        {
+          "id": "lv-p2b1-12",
+          "word": "storage room",
+          "pos": "phrase",
+          "ipaUK": "/ˈstɔː.rɪdʒ ruːm/",
+          "ipaUS": "/ˈstɔːr.ɪdʒ ruːm/",
+          "meaning": "phòng kho chứa đồ",
+          "exampleEn": "Extra chairs are kept in the basement storage room.",
+          "exampleVi": "Ghế dự phòng được cất trong phòng kho tầng hầm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q05",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "When — Mốc thời gian tương lai dạng \"Not until...\"",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-08.mp3",
+    "questionLine": {
+      "id": "p2-b1-q05-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "When does the warehouse manager arrive?",
+      "vi": "Khi nào quản lý kho hàng sẽ đến?",
+      "startMs": 350,
+      "endMs": 6540
+    },
+    "options": {
+      "A": {
+        "en": "Sure, no problem.",
+        "vi": "Chắc chắn rồi, không vấn đề gì.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 6580,
+        "endMs": 9754
+      },
+      "B": {
+        "en": "About twelve shipping boxes.",
+        "vi": "Khoảng mười hai thùng vận chuyển.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 9794,
+        "endMs": 14714
+      },
+      "C": {
+        "en": "Not until this afternoon.",
+        "vi": "Phải đến chiều nay cơ.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 14754,
+        "endMs": 19180
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy liên tưởng chủ đề (\"warehouse\" → \"shipping boxes\") & phản xạ lịch sự giả",
+      "soundTrap": {
+        "pair": "warehouse / shipping boxes",
+        "noteVi": "Câu B gài từ vựng cùng trường nghĩa kho bãi (\"shipping boxes\") nhưng lại trả lời How many."
+      },
+      "listeningKey": "Nghe \"When does ... arrive\" → chốt ngay cấu trúc thời gian tủ của ETS: \"Not until + mốc thời gian\".",
+      "trapAnalysis": "Cấu trúc \"Not until this afternoon\" (= sớm nhất là chiều nay mới đến) là đáp án kinh điển cho câu hỏi When. Câu A là mẫu trả lời cho lời nhờ vả (Could you...?), còn B trả lời số lượng (How many).",
+      "paraphrases": [
+        {
+          "audioPhrase": "Not until this afternoon",
+          "answerPhrase": "Later today in the afternoon",
+          "meaningVi": "phải tới chiều nay mới đến"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — \"Sure, no problem\" dùng để nhận lời đề nghị/nhờ vả, không trả lời When.",
+        "B": "SAI (Liên tưởng chủ đề) — Nhắc \"shipping boxes\" ăn theo \"warehouse\" nhưng trả lời số lượng.",
+        "C": "ĐÚNG — Cung cấp chính xác mốc thời gian đến bằng cụm \"Not until this afternoon\"."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-13",
+          "word": "not until",
+          "pos": "phrase",
+          "ipaUK": "/nɒt ʌnˈtɪl/",
+          "ipaUS": "/nɑːt ʌnˈtɪl/",
+          "meaning": "mãi cho đến khi / phải đến tận",
+          "exampleEn": "The revised catalog won't be ready not until Friday.",
+          "exampleVi": "Danh mục sửa đổi phải đến thứ Sáu mới xong."
+        },
+        {
+          "id": "lv-p2b1-14",
+          "word": "warehouse manager",
+          "pos": "phrase",
+          "ipaUK": "/ˈweə.haʊs ˈmæn.ɪ.dʒər/",
+          "ipaUS": "/ˈwer.haʊs ˈmæn.ə.dʒɚ/",
+          "meaning": "quản lý kho hàng",
+          "exampleEn": "The warehouse manager reviews inventory every Monday.",
+          "exampleVi": "Quản lý kho kiểm tra hàng tồn mỗi thứ Hai."
+        },
+        {
+          "id": "lv-p2b1-15",
+          "word": "shipping box",
+          "pos": "phrase",
+          "ipaUK": "/ˈʃɪp.ɪŋ bɒks/",
+          "ipaUS": "/ˈʃɪp.ɪŋ bɑːks/",
+          "meaning": "thùng đóng hàng vận chuyển",
+          "exampleEn": "Seal every shipping box with reinforced tape.",
+          "exampleVi": "Dán kín mỗi thùng vận chuyển bằng băng keo chịu lực."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q06",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "When (Gián tiếp) — Chưa ra mắt vì nguyên mẫu đang thử nghiệm",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-23.mp3",
+    "questionLine": {
+      "id": "p2-b1-q06-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "When is the new blender going to be released?",
+      "vi": "Khi nào mẫu máy xay sinh tố mới sẽ được ra mắt?",
+      "startMs": 350,
+      "endMs": 6665
+    },
+    "options": {
+      "A": {
+        "en": "Only with fruits and vegetables.",
+        "vi": "Chỉ dùng với trái cây và rau củ thôi.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 6705,
+        "endMs": 11617
+      },
+      "B": {
+        "en": "In the kitchen cabinet.",
+        "vi": "Ở trong tủ bếp.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 11657,
+        "endMs": 15305
+      },
+      "C": {
+        "en": "The prototype is still being tested.",
+        "vi": "Mẫu thử nghiệm hiện vẫn đang được kiểm tra.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 15345,
+        "endMs": 20800
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (báo tiến độ thay ngày) & liên tưởng chủ đề (\"blender\" → kitchen)",
+      "soundTrap": {
+        "pair": "blender / fruits / kitchen cabinet",
+        "noteVi": "Cả A và B đều bám sát từ khóa \"blender\" (máy xay) để dụ thí sinh chọn theo liên tưởng bếp núc."
+      },
+      "listeningKey": "Nghe \"When ... released\" → không có ngày cụ thể, chọn ngay lý do gián tiếp giải thích tiến độ (\"still being tested\").",
+      "trapAnalysis": "A và B cố tình nhắc tới trái cây/rau củ và tủ bếp để liên kết với \"blender\", nhưng A sai câu hỏi còn B trả lời Where. Chỉ C giải thích gián tiếp rằng sản phẩm chưa có ngày ra mắt vì nguyên mẫu vẫn đang thử nghiệm.",
+      "paraphrases": [
+        {
+          "audioPhrase": "The prototype is still being tested",
+          "answerPhrase": "A release date has not been set because testing continues",
+          "meaningVi": "nguyên mẫu vẫn đang thử nghiệm nên chưa ra mắt"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Liên tưởng chủ đề) — Nhắc công dụng xay trái cây/rau củ, không trả lời thời gian.",
+        "B": "SAI (Sai loại câu hỏi) — Trả lời địa điểm (Where: trong tủ bếp).",
+        "C": "ĐÚNG — Trả lời gián tiếp chuẩn 850+: báo tiến độ thử nghiệm để ngụ ý chưa chốt ngày ra mắt."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-16",
+          "word": "be released",
+          "pos": "phrase",
+          "ipaUK": "/biː rɪˈliːst/",
+          "ipaUS": "/biː rɪˈliːst/",
+          "meaning": "được ra mắt / phát hành",
+          "exampleEn": "The updated mobile app will be released next quarter.",
+          "exampleVi": "Ứng dụng di động mới sẽ ra mắt vào quý sau."
+        },
+        {
+          "id": "lv-p2b1-17",
+          "word": "prototype",
+          "pos": "n",
+          "ipaUK": "/ˈprəʊ.tə.taɪp/",
+          "ipaUS": "/ˈproʊ.t̬ə.taɪp/",
+          "meaning": "nguyên mẫu / bản thử nghiệm đầu tiên",
+          "exampleEn": "Engineers are evaluating the latest battery prototype.",
+          "exampleVi": "Các kỹ sư đang đánh giá nguyên mẫu pin mới nhất."
+        },
+        {
+          "id": "lv-p2b1-18",
+          "word": "still being tested",
+          "pos": "phrase",
+          "ipaUK": "/stɪl ˈbiː.ɪŋ ˈtes.tɪd/",
+          "ipaUS": "/stɪl ˈbiː.ɪŋ ˈtes.tɪd/",
+          "meaning": "vẫn đang trong quá trình thử nghiệm",
+          "exampleEn": "The payment feature is still being tested internally.",
+          "exampleVi": "Tính năng thanh toán vẫn đang được thử nghiệm nội bộ."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q07",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "When (Gián tiếp) — Bẫy đồng âm hoàn toàn \"band / banned\"",
+    "audioUrl": "/audio/toeic/study4-7001-toeic-lr-collection-2-test-2/p2_q16.mp3",
+    "questionLine": {
+      "id": "p2-b1-q07-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "When is the band due to arrive for the interview?",
+      "vi": "Khi nào ban nhạc dự kiến đến để phỏng vấn?",
+      "startMs": 220,
+      "endMs": 3436
+    },
+    "options": {
+      "A": {
+        "en": "It's on the front-desk schedule.",
+        "vi": "Lịch nằm trên bảng lịch ở quầy lễ tân đấy.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 3776,
+        "endMs": 6752
+      },
+      "B": {
+        "en": "On the album that's banned.",
+        "vi": "Trong chiếc album bị cấm phát hành đó.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 7092,
+        "endMs": 9996
+      },
+      "C": {
+        "en": "Right outside the main entrance.",
+        "vi": "Ngay bên ngoài lối vào chính.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 10336,
+        "endMs": 13432
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (chỉ nguồn xem lịch) & Bẫy đồng âm 100% (band ↔ banned)",
+      "soundTrap": {
+        "pair": "band / banned",
+        "noteVi": "\"band\" (ban nhạc) và \"banned\" (bị cấm) phát âm GIỐNG HỆT NHAU /bænd/ — bẫy đồng âm kinh điển!"
+      },
+      "listeningKey": "Khóa \"When is the band due\" → loại ngay đồng âm \"banned\" (B) và địa điểm (C), chọn A (chỉ nguồn tra lịch).",
+      "trapAnalysis": "Câu B gài từ đồng âm tuyệt đối \"banned\" (/bænd/) nhái \"band\" kèm từ liên tưởng âm nhạc \"album\". Câu C trả lời địa điểm (Where). Câu A tuy có từ \"front-desk\" nhưng trọng tâm là \"on the schedule\" — chỉ chỗ xem giờ đến.",
+      "paraphrases": [
+        {
+          "audioPhrase": "It's on the front-desk schedule",
+          "answerPhrase": "You can check the arrival time at reception",
+          "meaningVi": "giờ đến có ghi trên lịch ở quầy lễ tân"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Trả lời gián tiếp rất hay gặp: chỉ người hỏi xem thời gian trên bảng lịch (schedule).",
+        "B": "SAI (Bẫy đồng âm tuyệt đối) — Dùng \"banned\" (/bænd/) đánh lừa chữ \"band\" (/bænd/).",
+        "C": "SAI (Sai loại câu hỏi) — Trả lời vị trí địa điểm (Where)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-19",
+          "word": "be due to arrive",
+          "pos": "phrase",
+          "ipaUK": "/biː djuː tuː əˈraɪv/",
+          "ipaUS": "/biː duː tuː əˈraɪv/",
+          "meaning": "dự kiến sẽ đến vào lúc",
+          "exampleEn": "The keynote speaker is due to arrive at two.",
+          "exampleVi": "Diễn giả chính dự kiến sẽ đến lúc hai giờ."
+        },
+        {
+          "id": "lv-p2b1-20",
+          "word": "front-desk schedule",
+          "pos": "phrase",
+          "ipaUK": "/frʌnt desk ˈʃedʒ.uːl/",
+          "ipaUS": "/frʌnt desk ˈskedʒ.uːl/",
+          "meaning": "lịch trình tại quầy lễ tân",
+          "exampleEn": "All visitor appointments are listed on the front-desk schedule.",
+          "exampleVi": "Mọi lịch hẹn khách đều ghi trên lịch quầy lễ tân."
+        },
+        {
+          "id": "lv-p2b1-21",
+          "word": "main entrance",
+          "pos": "phrase",
+          "ipaUK": "/meɪn ˈen.trəns/",
+          "ipaUS": "/meɪn ˈen.trəns/",
+          "meaning": "lối vào chính",
+          "exampleEn": "Shuttle buses depart right outside the main entrance.",
+          "exampleVi": "Xe trung chuyển khởi hành ngay trước lối vào chính."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q08",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "How long (Gián tiếp) — Khuôn mẫu \"That depends on...\" & Bẫy lặp \"take\"",
+    "audioUrl": "/audio/toeic/study4-7004-toeic-lr-collection-2-test-5/p2_q10.mp3",
+    "questionLine": {
+      "id": "p2-b1-q08-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "How long will the watch repair take?",
+      "vi": "Việc sửa chiếc đồng hồ sẽ mất bao lâu?",
+      "startMs": 220,
+      "endMs": 3028
+    },
+    "options": {
+      "A": {
+        "en": "A new spring inside the case.",
+        "vi": "Một chiếc lò xo mới bên trong vỏ máy.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 3368,
+        "endMs": 6248
+      },
+      "B": {
+        "en": "You can take a seat over there.",
+        "vi": "Bạn có thể ngồi ở đằng kia.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 6588,
+        "endMs": 9660
+      },
+      "C": {
+        "en": "That depends on which parts we have to order.",
+        "vi": "Điều đó còn tùy vào việc chúng tôi phải đặt linh kiện nào.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 10000,
+        "endMs": 13648
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (\"That depends on\") & Bẫy từ đa nghĩa (\"take\" = mất thời gian ≠ ngồi xuống)",
+      "soundTrap": {
+        "pair": "will ... take / take a seat",
+        "noteVi": "Câu B lặp động từ \"take\" trong cụm \"take a seat\" (mời ngồi) khác hoàn toàn \"take (time)\" (mất bao lâu)."
+      },
+      "listeningKey": "Nghe \"How long will ... take\" → tránh bẫy lặp \"take a seat\" (B), chọn khuôn mẫu gián tiếp \"That depends on...\".",
+      "trapAnalysis": "Câu hỏi How long hỏi khoảng thời gian, nhưng thợ sửa chưa chốt được thời gian cụ thể vì phụ thuộc linh kiện cần đặt (\"That depends on...\"). A mô tả linh kiện liên quan đồng hồ (sai loại câu hỏi), B lặp chữ \"take\" sai nghĩa.",
+      "paraphrases": [
+        {
+          "audioPhrase": "That depends on which parts we have to order",
+          "answerPhrase": "The repair duration varies based on part availability",
+          "meaningVi": "thời gian sửa tùy thuộc vào linh kiện cần đặt"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Liên tưởng chủ đề) — Nhắc \"spring / case\" ăn theo đồng hồ nhưng trả lời What, không trả lời How long.",
+        "B": "SAI (Lặp từ đa nghĩa) — Dùng \"take a seat\" lặp từ \"take\" trong câu hỏi.",
+        "C": "ĐÚNG — Khuôn mẫu trả lời gián tiếp kinh điển \"That depends on...\" cho câu hỏi thời lượng/chi phí."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-22",
+          "word": "depend on",
+          "pos": "phrase",
+          "ipaUK": "/dɪˈpend ɒn/",
+          "ipaUS": "/dɪˈpend ɑːn/",
+          "meaning": "phụ thuộc vào / tùy vào",
+          "exampleEn": "Shipping time depends on the destination address.",
+          "exampleVi": "Thời gian giao hàng tùy thuộc vào địa chỉ nhận."
+        },
+        {
+          "id": "lv-p2b1-23",
+          "word": "order parts",
+          "pos": "phrase",
+          "ipaUK": "/ˈɔː.dər pɑːts/",
+          "ipaUS": "/ˈɔːr.dɚ pɑːrts/",
+          "meaning": "đặt mua linh kiện / phụ tùng",
+          "exampleEn": "We had to order replacement parts from the manufacturer.",
+          "exampleVi": "Chúng tôi phải đặt linh kiện thay thế từ nhà sản xuất."
+        },
+        {
+          "id": "lv-p2b1-24",
+          "word": "take a seat",
+          "pos": "phrase",
+          "ipaUK": "/teɪk ə siːt/",
+          "ipaUS": "/teɪk ə siːt/",
+          "meaning": "mời ngồi xuống",
+          "exampleEn": "Please take a seat in the waiting lounge.",
+          "exampleVi": "Vui lòng ngồi chờ tại phòng tiếp khách."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q09",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Where — Bẫy từ đa nghĩa kinh điển \"store\" (động từ cất giữ ↔ cửa hàng)",
+    "audioUrl": "/audio/toeic/e24t1-p2-2.mp3",
+    "questionLine": {
+      "id": "p2-b1-q09-q",
+      "speaker": "Speaker A",
+      "voiceGender": "male",
+      "accent": "en-GB",
+      "en": "Where did you store the spare keys to the supply closet?",
+      "vi": "Bạn đã cất bộ chìa khóa dự phòng của tủ văn phòng phẩm ở đâu?",
+      "startMs": 240,
+      "endMs": 3840
+    },
+    "options": {
+      "A": {
+        "en": "Inside the top drawer at reception.",
+        "vi": "Ở trong ngăn kéo trên cùng tại quầy lễ tân.",
+        "speaker": "Speaker B",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 4440,
+        "endMs": 7728
+      },
+      "B": {
+        "en": "We ordered extra printer ink.",
+        "vi": "Chúng tôi đã đặt thêm mực máy in.",
+        "speaker": "Speaker B",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 8328,
+        "endMs": 11256
+      },
+      "C": {
+        "en": "The store closes at eight.",
+        "vi": "Cửa hàng đóng cửa lúc tám giờ.",
+        "speaker": "Speaker B",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 11856,
+        "endMs": 14544
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Bẫy từ đa nghĩa (store [v] cất giữ ↔ store [n] cửa hàng) & liên tưởng chủ đề",
+      "soundTrap": {
+        "pair": "store (v) / The store (n)",
+        "noteVi": "Động từ \"store\" (cất giữ) trong câu hỏi bị biến thành danh từ \"The store\" (cửa hàng) ở câu C!"
+      },
+      "listeningKey": "Khóa \"Where did you store\" → chọn vị trí cụ thể \"Inside the top drawer at reception\", loại ngay bẫy \"The store closes\".",
+      "trapAnalysis": "C là bẫy kinh điển nhất của ETS với từ \"store\": câu hỏi dùng động từ cất giữ, đáp án C dùng danh từ cửa hàng và trả lời giờ đóng cửa. B liên tưởng văn phòng phẩm (\"printer ink\") nhưng không nêu địa điểm.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Inside the top drawer at reception",
+          "answerPhrase": "Kept in the front-desk desk drawer",
+          "meaningVi": "ở ngăn kéo trên cùng quầy lễ tân"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Trả lời trực tiếp vị trí cất chìa khóa bằng giới từ \"Inside ... at reception\".",
+        "B": "SAI (Liên tưởng chủ đề) — Ăn theo cụm \"supply closet\" nhưng không trả lời Where.",
+        "C": "SAI (Bẫy từ đa nghĩa) — Đánh tráo động từ \"store\" (cất) thành danh từ \"store\" (cửa hàng)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-25",
+          "word": "spare keys",
+          "pos": "phrase",
+          "ipaUK": "/speər kiːz/",
+          "ipaUS": "/sper kiːz/",
+          "meaning": "chìa khóa dự phòng",
+          "exampleEn": "Spare keys are kept inside the reception desk.",
+          "exampleVi": "Chìa khóa dự phòng được cất trong bàn lễ tân."
+        },
+        {
+          "id": "lv-p2b1-26",
+          "word": "supply closet",
+          "pos": "phrase",
+          "ipaUK": "/səˈplaɪ ˈklɒz.ɪt/",
+          "ipaUS": "/səˈplaɪ ˈklɑː.zət/",
+          "meaning": "tủ / phòng chứa văn phòng phẩm",
+          "exampleEn": "Grab extra folders from the supply closet.",
+          "exampleVi": "Lấy thêm tập hồ sơ từ tủ văn phòng phẩm nhé."
+        },
+        {
+          "id": "lv-p2b1-27",
+          "word": "top drawer",
+          "pos": "phrase",
+          "ipaUK": "/tɒp drɔːr/",
+          "ipaUS": "/tɑːp drɔːr/",
+          "meaning": "ngăn kéo trên cùng",
+          "exampleEn": "The receipt book is in the top drawer.",
+          "exampleVi": "Cuốn sổ biên lai nằm trong ngăn kéo trên cùng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q10",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "Where (Gián tiếp) — Chỉ nguồn thông tin qua email (\"We just sent an e-mail\")",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-28.mp3",
+    "questionLine": {
+      "id": "p2-b1-q10-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "Where will I teach my workshop this month?",
+      "vi": "Tháng này tôi sẽ dạy buổi hội thảo của mình ở đâu?",
+      "startMs": 350,
+      "endMs": 6287
+    },
+    "options": {
+      "A": {
+        "en": "We just sent an e-mail to all instructors.",
+        "vi": "Chúng tôi vừa gửi một email cho tất cả các giảng viên rồi.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 6327,
+        "endMs": 12689
+      },
+      "B": {
+        "en": "Five to seven months.",
+        "vi": "Từ năm đến bảy tháng.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 12729,
+        "endMs": 16122
+      },
+      "C": {
+        "en": "Yes, it's a beautiful building.",
+        "vi": "Vâng, đó là một tòa nhà rất đẹp.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 16162,
+        "endMs": 20950
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (kiểm tra email) + Lặp từ \"month\" + Yes/No cho câu Wh-",
+      "soundTrap": {
+        "pair": "this month / five to seven months",
+        "noteVi": "Câu B lặp chữ \"months\" để đánh lạc hướng sang khoảng thời gian (How long)."
+      },
+      "listeningKey": "Nghe \"Where will I teach\" → loại B (lặp \"month\") & C (\"Yes\" cho Wh-), chọn A (thông tin phòng đã gửi qua email).",
+      "trapAnalysis": "Đáp án A không đọc tên phòng nhưng báo cho giảng viên biết thông tin địa điểm đã được gửi qua email (\"instructors\" khớp với \"teach my workshop\"). B lặp từ \"month\" và trả lời How long; C mở đầu \"Yes\" sai quy tắc câu Wh-.",
+      "paraphrases": [
+        {
+          "audioPhrase": "We just sent an e-mail to all instructors",
+          "answerPhrase": "The room assignment is in your inbox",
+          "meaningVi": "địa điểm đã được gửi qua email cho các giảng viên"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Trả lời gián tiếp tự nhiên trong công sở: bảo người hỏi kiểm tra email vừa gửi.",
+        "B": "SAI (Lặp từ & Sai loại) — Lặp \"months\", trả lời How long thay vì Where.",
+        "C": "SAI (Yes/No cho Wh-) — Câu hỏi Where không mở đầu bằng \"Yes\"."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-28",
+          "word": "instructor",
+          "pos": "n",
+          "ipaUK": "/ɪnˈstrʌk.tər/",
+          "ipaUS": "/ɪnˈstrʌk.tɚ/",
+          "meaning": "giảng viên / người hướng dẫn",
+          "exampleEn": "All workshop instructors received the updated room list.",
+          "exampleVi": "Mọi giảng viên hội thảo đã nhận danh sách phòng mới."
+        },
+        {
+          "id": "lv-p2b1-29",
+          "word": "workshop",
+          "pos": "n",
+          "ipaUK": "/ˈwɜːk.ʃɒp/",
+          "ipaUS": "/ˈwɝːk.ʃɑːp/",
+          "meaning": "buổi hội thảo thực hành / chuyên đề",
+          "exampleEn": "She is leading a leadership workshop this month.",
+          "exampleVi": "Cô ấy đang dẫn dắt buổi hội thảo kỹ năng lãnh đạo tháng này."
+        },
+        {
+          "id": "lv-p2b1-30",
+          "word": "send an e-mail",
+          "pos": "phrase",
+          "ipaUK": "/send ən ˈiː.meɪl/",
+          "ipaUS": "/send ən ˈiː.meɪl/",
+          "meaning": "gửi một thư điện tử",
+          "exampleEn": "HR sent an e-mail announcing the venue change.",
+          "exampleVi": "Phòng nhân sự đã gửi email thông báo đổi địa điểm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q11",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "Where (Gián tiếp) — Đẩy sang người nắm thông tin (\"You'd have to ask Bernard\")",
+    "audioUrl": "/audio/toeic/study4-6856-toeic-lr-collection-1-test-5/p2_q28.mp3",
+    "questionLine": {
+      "id": "p2-b1-q11-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "Where's the new touch tank going to be installed?",
+      "vi": "Bể tương tác mới sẽ được lắp đặt ở đâu?",
+      "startMs": 220,
+      "endMs": 3532
+    },
+    "options": {
+      "A": {
+        "en": "Probably next week.",
+        "vi": "Có lẽ là vào tuần tới.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 3872,
+        "endMs": 6416
+      },
+      "B": {
+        "en": "You'd have to ask Bernard.",
+        "vi": "Bạn sẽ phải hỏi Bernard đấy.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 6756,
+        "endMs": 9708
+      },
+      "C": {
+        "en": "The installation looks great.",
+        "vi": "Công trình lắp đặt trông rất tuyệt.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 10048,
+        "endMs": 13000
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (hỏi người khác) & Bẫy cùng họ từ (installed ↔ installation)",
+      "soundTrap": {
+        "pair": "installed / installation",
+        "noteVi": "Câu C biến đổi động từ \"installed\" thành danh từ \"installation\" để đánh lừa thí sinh chỉ bắt từ giống âm."
+      },
+      "listeningKey": "Khóa \"Where's ... going to be installed\" → loại Bẫy họ từ \"installation\" (C) và When (A), chọn B (\"ask Bernard\").",
+      "trapAnalysis": "A trả lời mốc thời gian (When: tuần sau). C dính bẫy họ từ \"installation\" và dùng thì hiện tại (\"looks great\") mâu thuẫn với việc chưa lắp (\"going to be installed\"). B dùng mẫu gián tiếp kinh điển \"You'd have to ask + tên người\".",
+      "paraphrases": [
+        {
+          "audioPhrase": "You'd have to ask Bernard",
+          "answerPhrase": "I do not know the location; check with Bernard",
+          "meaningVi": "tôi không rõ, hãy hỏi Bernard"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — Trả lời When (\"next week\") thay vì Where.",
+        "B": "ĐÚNG — Trả lời gián tiếp chuẩn ETS: chuyển câu hỏi sang người phụ trách biết rõ vị trí.",
+        "C": "SAI (Cùng họ từ & Sai thì) — Lặp gốc từ \"installed / installation\" và nói như thể đã lắp xong."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-31",
+          "word": "be installed",
+          "pos": "phrase",
+          "ipaUK": "/biː ɪnˈstɔːld/",
+          "ipaUS": "/biː ɪnˈstɑːld/",
+          "meaning": "được lắp đặt",
+          "exampleEn": "New charging stations will be installed in Garage B.",
+          "exampleVi": "Các trạm sạc mới sẽ được lắp tại nhà xe B."
+        },
+        {
+          "id": "lv-p2b1-32",
+          "word": "have to ask",
+          "pos": "phrase",
+          "ipaUK": "/hæv tuː ɑːsk/",
+          "ipaUS": "/hæv tuː æsk/",
+          "meaning": "phải hỏi (ai đó) mới biết",
+          "exampleEn": "You'd have to ask the site supervisor about that.",
+          "exampleVi": "Bạn sẽ phải hỏi giám sát công trường về chuyện đó."
+        },
+        {
+          "id": "lv-p2b1-33",
+          "word": "installation",
+          "pos": "n",
+          "ipaUK": "/ˌɪn.stəˈleɪ.ʃən/",
+          "ipaUS": "/ˌɪn.stəˈleɪ.ʃən/",
+          "meaning": "việc lắp đặt / hệ thống lắp đặt",
+          "exampleEn": "The software installation took less than ten minutes.",
+          "exampleVi": "Việc cài đặt phần mềm mất chưa tới mười phút."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q12",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Where — Trả lời bằng tên người/bộ phận kèm vị trí (\"Ask the guard at the gate\")",
+    "audioUrl": "/audio/toeic/study4-7053-toeic-lr-collection-3-test-4/p2_q31.mp3",
+    "questionLine": {
+      "id": "p2-b1-q12-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "Where do the delivery trucks unload?",
+      "vi": "Các xe tải giao hàng dỡ hàng ở đâu vậy?",
+      "startMs": 250,
+      "endMs": 3817
+    },
+    "options": {
+      "A": {
+        "en": "Ask the guard at the gate.",
+        "vi": "Hãy hỏi nhân viên bảo vệ ở cổng ấy.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 3857,
+        "endMs": 6730
+      },
+      "B": {
+        "en": "No, the load wasn't heavy.",
+        "vi": "Không, khối lượng hàng không nặng đâu.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 6770,
+        "endMs": 9643
+      },
+      "C": {
+        "en": "Roughly three times every afternoon.",
+        "vi": "Khoảng ba lần vào mỗi buổi chiều.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 9683,
+        "endMs": 13530
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (hỏi người phụ trách) & Bẫy lặp gốc từ (unload ↔ load)",
+      "soundTrap": {
+        "pair": "unload / load",
+        "noteVi": "Câu B lặp âm \"load\" từ động từ \"unload\" (dỡ hàng) và mở đầu bằng \"No\" — bẫy kép rất hay ra."
+      },
+      "listeningKey": "Nghe \"Where do ... unload\" → loại ngay B (\"No\" + lặp gốc từ \"load\") & C (How often), chốt A.",
+      "trapAnalysis": "Câu hỏi hỏi địa điểm dỡ hàng nhưng người trả lời không trực tiếp điều phối nên hướng dẫn \"Ask the guard at the gate\" (A). B sai vì mở đầu \"No\" và lặp âm \"load\"; C trả lời tần suất (How often).",
+      "paraphrases": [
+        {
+          "audioPhrase": "Ask the guard at the gate",
+          "answerPhrase": "Check with gate security for the unloading bay",
+          "meaningVi": "hỏi bảo vệ cổng để biết khu dỡ hàng"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Hướng dẫn rõ người/bộ phận nắm vị trí bốc dỡ (\"guard at the gate\").",
+        "B": "SAI (Yes/No + Lặp gốc từ) — Mở đầu bằng \"No\" và lặp âm \"load\" từ \"unload\".",
+        "C": "SAI (Sai loại câu hỏi) — Trả lời tần suất How often (\"three times every afternoon\")."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-34",
+          "word": "unload",
+          "pos": "v",
+          "ipaUK": "/ʌnˈləʊd/",
+          "ipaUS": "/ʌnˈloʊd/",
+          "meaning": "dỡ hàng xuống xe",
+          "exampleEn": "Delivery trucks unload at the rear service bay.",
+          "exampleVi": "Xe tải giao hàng dỡ hàng tại khu dịch vụ phía sau."
+        },
+        {
+          "id": "lv-p2b1-35",
+          "word": "delivery truck",
+          "pos": "phrase",
+          "ipaUK": "/dɪˈlɪv.ər.i trʌk/",
+          "ipaUS": "/dɪˈlɪv.ɚ.i trʌk/",
+          "meaning": "xe tải giao hàng",
+          "exampleEn": "A delivery truck arrived ahead of schedule.",
+          "exampleVi": "Một xe tải giao hàng đã đến sớm hơn dự kiến."
+        },
+        {
+          "id": "lv-p2b1-36",
+          "word": "roughly",
+          "pos": "adv",
+          "ipaUK": "/ˈrʌf.li/",
+          "ipaUS": "/ˈrʌf.li/",
+          "meaning": "khoảng chừng / xấp xỉ",
+          "exampleEn": "The inspection takes roughly forty minutes.",
+          "exampleVi": "Cuộc kiểm tra mất khoảng chừng bốn mươi phút."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q13",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Why — Trả lời lý do KHÔNG dùng \"Because\" & Bẫy lặp \"travel\"",
+    "audioUrl": "/audio/toeic/study4-1214-sample-toeic-test-4/p2_q19.mp3",
+    "questionLine": {
+      "id": "p2-b1-q13-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "Why hasn't the travel itinerary been sent out yet?",
+      "vi": "Tại sao lịch trình công tác vẫn chưa được gửi đi vậy?",
+      "startMs": 220,
+      "endMs": 4108
+    },
+    "options": {
+      "A": {
+        "en": "At Terminal 6.",
+        "vi": "Tại nhà ga số 6.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 4448,
+        "endMs": 7112
+      },
+      "B": {
+        "en": "He was a travel agent.",
+        "vi": "Anh ấy từng là nhân viên đại lý du lịch.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 7452,
+        "endMs": 10164
+      },
+      "C": {
+        "en": "We haven't decided on the dates.",
+        "vi": "Chúng tôi vẫn chưa chốt được ngày đi.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 10504,
+        "endMs": 13576
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy câu trả lời Why không có \"Because\" & lặp từ \"travel\"",
+      "soundTrap": {
+        "pair": "travel itinerary / travel agent",
+        "noteVi": "Câu B lặp nguyên từ \"travel\" trong \"travel agent\" để bẫy thí sinh không nghe hết nghĩa câu."
+      },
+      "listeningKey": "Khóa \"Why hasn't ... sent out yet\" → tìm nguyên nhân trực tiếp dù không có chữ \"Because\" (chốt C).",
+      "trapAnalysis": "Trong TOEIC thực chiến, hơn 70% đáp án đúng cho câu hỏi Why KHÔNG bắt đầu bằng \"Because\". Câu C nêu thẳng lý do (\"chưa quyết định ngày đi\"). Câu A trả lời Where (\"Terminal 6\"), câu B lặp từ \"travel\".",
+      "paraphrases": [
+        {
+          "audioPhrase": "We haven't decided on the dates",
+          "answerPhrase": "Because the travel dates are not finalized yet",
+          "meaningVi": "vì chúng tôi vẫn chưa chốt ngày đi"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — Trả lời địa điểm (Where: Terminal 6), liên tưởng chuyện đi máy bay.",
+        "B": "SAI (Lặp từ) — Lặp nguyên từ \"travel\" nhưng nói nghề nghiệp cũ của ai đó.",
+        "C": "ĐÚNG — Nêu lý do logic hoàn hảo giải thích tại sao lịch trình chưa thể gửi đi (không cần \"Because\")."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-37",
+          "word": "travel itinerary",
+          "pos": "phrase",
+          "ipaUK": "/ˈtræv.əl aɪˈtɪn.ər.ər.i/",
+          "ipaUS": "/ˈtræv.əl aɪˈtɪn.ə.rer.i/",
+          "meaning": "lịch trình chuyến công tác / du lịch",
+          "exampleEn": "Please review your travel itinerary before departure.",
+          "exampleVi": "Vui lòng kiểm tra lịch trình công tác trước khi khởi hành."
+        },
+        {
+          "id": "lv-p2b1-38",
+          "word": "send out",
+          "pos": "phrase",
+          "ipaUK": "/send aʊt/",
+          "ipaUS": "/send aʊt/",
+          "meaning": "gửi đi (hàng loạt / thông báo)",
+          "exampleEn": "Invitations will be sent out by email tomorrow.",
+          "exampleVi": "Thư mời sẽ được gửi qua email vào ngày mai."
+        },
+        {
+          "id": "lv-p2b1-39",
+          "word": "decide on",
+          "pos": "phrase",
+          "ipaUK": "/dɪˈsaɪd ɒn/",
+          "ipaUS": "/dɪˈsaɪd ɑːn/",
+          "meaning": "chốt / quyết định chọn",
+          "exampleEn": "The committee hasn't decided on a venue yet.",
+          "exampleVi": "Ủy ban vẫn chưa chốt được địa điểm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q14",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "Why (Gián tiếp 850+) — Hỏi ngược lại để đưa lý do (\"Aren't most people...?\")",
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p2_q28.mp3",
+    "questionLine": {
+      "id": "p2-b1-q14-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "Why are there so few cars in the parking lot this morning?",
+      "vi": "Tại sao sáng nay lại có ít ô tô trong bãi đỗ xe thế nhỉ?",
+      "startMs": 220,
+      "endMs": 4156
+    },
+    "options": {
+      "A": {
+        "en": "Aren't most people at the training session today?",
+        "vi": "Chẳng phải hầu hết mọi người hôm nay đều đi tập huấn sao?",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 4516,
+        "endMs": 8116
+      },
+      "B": {
+        "en": "Sure, whenever you're ready.",
+        "vi": "Chắc chắn rồi, bất cứ khi nào bạn sẵn sàng.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 8476,
+        "endMs": 11332
+      },
+      "C": {
+        "en": "He's driving the new van today.",
+        "vi": "Hôm nay anh ấy đang lái chiếc xe tải mới.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 11692,
+        "endMs": 14788
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp bằng câu hỏi ngược (Why → Aren't...?) & liên tưởng \"cars → van\"",
+      "soundTrap": {
+        "pair": "cars / driving the new van",
+        "noteVi": "Câu C gài từ cùng chủ đề xe cộ (\"driving / van\") nhưng chỉ nói về 1 cá nhân, không giải thích cả bãi xe vắng."
+      },
+      "listeningKey": "Nghe \"Why are there so few cars\" → chấp nhận câu hỏi ngược nêu lý do \"Aren't most people at the training session?\"",
+      "trapAnalysis": "Kiểu câu 850+ đặc trưng: câu hỏi Why được đáp bằng một câu hỏi phủ định xác nhận lý do (\"Chẳng phải hôm nay đa số nhân viên đều ở buổi tập huấn sao?\"). B trả lời cho lời mời/nhờ vả, C lạc chủ ngữ số ít (\"He\").",
+      "paraphrases": [
+        {
+          "audioPhrase": "Aren't most people at the training session today?",
+          "answerPhrase": "Because most staff are attending an off-site training",
+          "meaningVi": "vì hầu hết nhân viên đang tham gia buổi tập huấn"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Câu hỏi ngược đưa ra lời giải thích tự nhiên lý do bãi xe ít ô tô.",
+        "B": "SAI (Sai ngữ cảnh) — Dùng để đồng ý với lời nhờ vả, không trả lời Why.",
+        "C": "SAI (Liên tưởng & Lạc chủ ngữ) — Nhắc \"driving / van\" ăn theo \"cars\" nhưng sai phạm vi câu hỏi."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-40",
+          "word": "training session",
+          "pos": "phrase",
+          "ipaUK": "/ˈtreɪ.nɪŋ ˈseʃ.ən/",
+          "ipaUS": "/ˈtreɪ.nɪŋ ˈseʃ.ən/",
+          "meaning": "buổi đào tạo / tập huấn",
+          "exampleEn": "All sales representatives must attend Friday's training session.",
+          "exampleVi": "Mọi nhân viên kinh doanh phải dự buổi tập huấn thứ Sáu."
+        },
+        {
+          "id": "lv-p2b1-41",
+          "word": "parking lot",
+          "pos": "phrase",
+          "ipaUK": "/ˈpɑː.kɪŋ lɒt/",
+          "ipaUS": "/ˈpɑːr.kɪŋ lɑːt/",
+          "meaning": "bãi đỗ xe ngoài trời",
+          "exampleEn": "The north parking lot will be repaved this weekend.",
+          "exampleVi": "Bãi đỗ xe phía Bắc sẽ được trải nhựa lại cuối tuần này."
+        },
+        {
+          "id": "lv-p2b1-42",
+          "word": "so few",
+          "pos": "phrase",
+          "ipaUK": "/səʊ fjuː/",
+          "ipaUS": "/soʊ fjuː/",
+          "meaning": "quá ít (dùng với danh từ đếm được số nhiều)",
+          "exampleEn": "Why are there so few attendees at the morning seminar?",
+          "exampleVi": "Sao lại có ít người tham dự hội thảo sáng thế?"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q15",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "How (Gián tiếp) — Chuyển trách nhiệm sang người phụ trách (\"Natalie's in charge\")",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-26.mp3",
+    "questionLine": {
+      "id": "p2-b1-q15-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "How are we going to fit the extra supplies in that closet?",
+      "vi": "Làm thế nào chúng ta xếp vừa chỗ đồ dùng thừa vào cái tủ đó đây?",
+      "startMs": 350,
+      "endMs": 7983
+    },
+    "options": {
+      "A": {
+        "en": "I've already read them.",
+        "vi": "Tôi đã đọc hết chúng rồi.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 8023,
+        "endMs": 11444
+      },
+      "B": {
+        "en": "Natalie's in charge of supplies.",
+        "vi": "Natalie là người phụ trách mảng vật tư/đồ dùng.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 11484,
+        "endMs": 16090
+      },
+      "C": {
+        "en": "It's the door at the end of the hallway.",
+        "vi": "Đó là cánh cửa ở cuối hành lang.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 16130,
+        "endMs": 21770
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (đẩy sang người phụ trách) & bẫy trả lời Where (\"door at the end\")",
+      "soundTrap": {
+        "pair": "closet / door at the end of the hallway",
+        "noteVi": "Câu C liên tưởng từ \"closet\" (tủ/phòng kho) để chỉ vị trí cánh cửa cuối hành lang (trả lời Where thay vì How)."
+      },
+      "listeningKey": "Nghe \"How are we going to fit\" → loại A (sai động từ \"read\") & C (trả lời Where), chọn B (đẩy sang người phụ trách).",
+      "trapAnalysis": "Dù câu B lặp từ \"supplies\" — ngoại lệ quan trọng cần nhớ: lặp từ KHÔNG tự động sai nếu toàn câu trả lời logic gián tiếp (\"Để Natalie lo vì cô ấy phụ trách vật tư\"). A vô nghĩa (\"read them\"), C trả lời Where.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Natalie's in charge of supplies",
+          "answerPhrase": "Ask Natalie to figure out the storage plan",
+          "meaningVi": "Natalie phụ trách vật tư nên hãy để cô ấy xử lý"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Lạc nghĩa) — Không thể \"đọc\" các vật tư thừa (\"extra supplies\").",
+        "B": "ĐÚNG — Trả lời gián tiếp thực tế: báo ai là người phụ trách để họ giải quyết.",
+        "C": "SAI (Sai loại câu hỏi) — Trả lời vị trí Where (\"cuối hành lang\") thay vì cách giải quyết How."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-43",
+          "word": "be in charge of",
+          "pos": "phrase",
+          "ipaUK": "/biː ɪn tʃɑːdʒ ɒv/",
+          "ipaUS": "/biː ɪn tʃɑːrdʒ ʌv/",
+          "meaning": "chịu trách nhiệm / phụ trách",
+          "exampleEn": "Who is in charge of ordering event supplies?",
+          "exampleVi": "Ai chịu trách nhiệm đặt vật tư sự kiện?"
+        },
+        {
+          "id": "lv-p2b1-44",
+          "word": "extra supplies",
+          "pos": "phrase",
+          "ipaUK": "/ˈek.strə səˈplaɪz/",
+          "ipaUS": "/ˈek.strə səˈplaɪz/",
+          "meaning": "vật tư / đồ dùng dự phòng thêm",
+          "exampleEn": "Store the extra supplies on the bottom shelf.",
+          "exampleVi": "Cất vật tư thừa ở kệ dưới cùng."
+        },
+        {
+          "id": "lv-p2b1-45",
+          "word": "fit in",
+          "pos": "phrase",
+          "ipaUK": "/fɪt ɪn/",
+          "ipaUS": "/fɪt ɪn/",
+          "meaning": "xếp vừa vào trong",
+          "exampleEn": "All twenty chairs will easily fit in the storage room.",
+          "exampleVi": "Cả hai mươi chiếc ghế sẽ xếp vừa vào phòng kho."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q16",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "How (Gián tiếp) — Hỏi ngược điều kiện (\"Do you have our app?\") & Bẫy âm \"rewards / award\"",
+    "audioUrl": "/audio/toeic/study4-6853-toeic-lr-collection-1-test-2/p2_q12.mp3",
+    "questionLine": {
+      "id": "p2-b1-q16-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-GB",
+      "en": "How do I sign up for the rewards card?",
+      "vi": "Làm thế nào để tôi đăng ký thẻ tích điểm thưởng?",
+      "startMs": 220,
+      "endMs": 3052
+    },
+    "options": {
+      "A": {
+        "en": "He's collecting his award.",
+        "vi": "Anh ấy đang lên nhận giải thưởng của mình.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 3412,
+        "endMs": 6268
+      },
+      "B": {
+        "en": "They're next to the registers.",
+        "vi": "Chúng nằm ngay cạnh các quầy thu ngân.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 6628,
+        "endMs": 9364
+      },
+      "C": {
+        "en": "Do you have our app?",
+        "vi": "Bạn đã có ứng dụng của chúng tôi chưa?",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 9724,
+        "endMs": 12100
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (hỏi ngược lại) & Bẫy từ gần âm (rewards ↔ award)",
+      "soundTrap": {
+        "pair": "rewards / award",
+        "noteVi": "\"rewards\" (điểm thưởng) và \"award\" (giải thưởng) có vần /-wɔːrd/ giống hệt nhau — bẫy âm cực tinh vi!"
+      },
+      "listeningKey": "Khóa \"How do I sign up\" → né ngay bẫy âm \"rewards / award\" (A) và Where (B), chọn C (hướng dẫn qua app).",
+      "trapAnalysis": "A gài bẫy từ gần âm \"award\" nhái \"rewards\". B trả lời vị trí địa điểm (Where: cạnh quầy thu ngân) nhưng chủ ngữ \"They\" không khớp \"sign up\". C hỏi ngược rất tự nhiên để hướng dẫn khách đăng ký ngay trên app.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Do you have our app?",
+          "answerPhrase": "You can sign up directly through our mobile application",
+          "meaningVi": "bạn có thể đăng ký trực tiếp qua ứng dụng"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Bẫy từ gần âm) — Dùng \"award\" (giải thưởng) nhái âm \"rewards\" (thẻ tích điểm).",
+        "B": "SAI (Sai loại câu hỏi) — Trả lời Where (\"next to the registers\"), không trả lời cách đăng ký How.",
+        "C": "ĐÚNG — Câu hỏi ngược mở đầu hướng dẫn quy trình đăng ký qua ứng dụng di động."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-46",
+          "word": "sign up for",
+          "pos": "phrase",
+          "ipaUK": "/saɪn ʌp fɔːr/",
+          "ipaUS": "/saɪn ʌp fɔːr/",
+          "meaning": "đăng ký tham gia / mở thẻ",
+          "exampleEn": "Customers can sign up for the loyalty program online.",
+          "exampleVi": "Khách hàng có thể đăng ký chương trình thành viên trực tuyến."
+        },
+        {
+          "id": "lv-p2b1-47",
+          "word": "rewards card",
+          "pos": "phrase",
+          "ipaUK": "/rɪˈwɔːdz kɑːd/",
+          "ipaUS": "/rɪˈwɔːrdz kɑːrd/",
+          "meaning": "thẻ tích điểm thưởng khách hàng",
+          "exampleEn": "Scan your rewards card to earn points on every purchase.",
+          "exampleVi": "Quét thẻ tích điểm để nhận điểm thưởng cho mỗi lần mua."
+        },
+        {
+          "id": "lv-p2b1-48",
+          "word": "cash register",
+          "pos": "phrase",
+          "ipaUK": "/kæʃ ˈredʒ.ɪ.stər/",
+          "ipaUS": "/kæʃ ˈredʒ.ə.stɚ/",
+          "meaning": "máy tính tiền / quầy thu ngân",
+          "exampleEn": "Gift cards are displayed right next to the registers.",
+          "exampleVi": "Thẻ quà tặng được trưng bày ngay cạnh quầy thu ngân."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q17",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "How — Hỏi quy trình nộp báo cáo chi phí (\"You'll need to email...\")",
+    "audioUrl": "/audio/toeic/study4-6855-toeic-lr-collection-1-test-4/p2_q30.mp3",
+    "questionLine": {
+      "id": "p2-b1-q17-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-GB",
+      "en": "How do I submit my monthly expense report?",
+      "vi": "Làm thế nào để tôi nộp báo cáo chi phí hàng tháng?",
+      "startMs": 220,
+      "endMs": 3532
+    },
+    "options": {
+      "A": {
+        "en": "Anything over fifty dollars counts.",
+        "vi": "Bất cứ khoản nào trên năm mươi đô la đều được tính.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 3872,
+        "endMs": 7280
+      },
+      "B": {
+        "en": "Before the fifth of each month.",
+        "vi": "Trước ngày mùng năm hàng tháng.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 7620,
+        "endMs": 10644
+      },
+      "C": {
+        "en": "You'll need to email the receipts to accounting.",
+        "vi": "Bạn sẽ cần gửi email hóa đơn tới phòng kế toán.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 10984,
+        "endMs": 14752
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy lặp từ \"month\" (trả lời When) & liên tưởng tiền bạc (expense → fifty dollars)",
+      "soundTrap": {
+        "pair": "monthly / each month",
+        "noteVi": "Câu B lặp chữ \"month\" nhưng trả lời hạn chót (When), không trả lời quy trình (How)."
+      },
+      "listeningKey": "Khóa 2 từ đầu \"How do I submit\" → cần câu nêu CÁCH THỨC thực hiện (\"email the receipts to accounting\").",
+      "trapAnalysis": "A bám theo từ \"expense\" để nói về mức tiền $50 (liên tưởng chủ đề), B bám theo từ \"monthly\" để nêu hạn nộp ngày mùng 5 (trả lời When). Chỉ C hướng dẫn rõ từng bước thực hiện quy trình nộp báo cáo.",
+      "paraphrases": [
+        {
+          "audioPhrase": "You'll need to email the receipts to accounting",
+          "answerPhrase": "Submit expense documentation electronically to the finance team",
+          "meaningVi": "gửi email hóa đơn cho bộ phận kế toán"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Liên tưởng chủ đề) — Nói quy định mức chi phí $50, không trả lời cách nộp How.",
+        "B": "SAI (Lặp từ & Sai loại) — Lặp \"month\" và trả lời thời hạn When.",
+        "C": "ĐÚNG — Hướng dẫn chính xác cách thức nộp báo cáo chi phí (gửi email hóa đơn cho kế toán)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-49",
+          "word": "expense report",
+          "pos": "phrase",
+          "ipaUK": "/ɪkˈspens rɪˈpɔːt/",
+          "ipaUS": "/ɪkˈspens rɪˈpɔːrt/",
+          "meaning": "báo cáo chi phí công tác",
+          "exampleEn": "Submit your monthly expense report with all receipts.",
+          "exampleVi": "Nộp báo cáo chi phí hàng tháng kèm toàn bộ hóa đơn."
+        },
+        {
+          "id": "lv-p2b1-50",
+          "word": "receipt",
+          "pos": "n",
+          "ipaUK": "/rɪˈsiːt/",
+          "ipaUS": "/rɪˈsiːt/",
+          "meaning": "hóa đơn / biên lai (âm p câm)",
+          "exampleEn": "Keep every hotel receipt for reimbursement.",
+          "exampleVi": "Giữ lại mọi hóa đơn khách sạn để hoàn ứng."
+        },
+        {
+          "id": "lv-p2b1-51",
+          "word": "accounting",
+          "pos": "n",
+          "ipaUK": "/əˈkaʊn.tɪŋ/",
+          "ipaUS": "/əˈkaʊn.t̬ɪŋ/",
+          "meaning": "bộ phận kế toán",
+          "exampleEn": "Forward approved invoices directly to accounting.",
+          "exampleVi": "Chuyển tiếp hóa đơn đã duyệt thẳng sang phòng kế toán."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q18",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "What (Gián tiếp) — Hỏi ý kiến nhưng chưa kịp đọc (\"I haven't had a chance...\")",
+    "audioUrl": "/audio/toeic/study4-7050-toeic-lr-collection-3-test-1/p2_q14.mp3",
+    "questionLine": {
+      "id": "p2-b1-q18-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "What did you think of the consultant's report?",
+      "vi": "Bạn nghĩ sao về bản báo cáo của chuyên gia tư vấn?",
+      "startMs": 220,
+      "endMs": 3388
+    },
+    "options": {
+      "A": {
+        "en": "It's about thirty pages long, with several charts.",
+        "vi": "Nó dài khoảng ba mươi trang, kèm vài biểu đồ.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 3728,
+        "endMs": 7808
+      },
+      "B": {
+        "en": "The consultant submitted it late last Tuesday.",
+        "vi": "Chuyên gia tư vấn đã nộp nó vào tối muộn thứ Ba tuần trước.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 8148,
+        "endMs": 11916
+      },
+      "C": {
+        "en": "I haven't had a chance to read it yet.",
+        "vi": "Tôi vẫn chưa có dịp đọc nó nữa.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 12256,
+        "endMs": 15760
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (chưa xem/đọc) & Bẫy lặp từ \"consultant\"",
+      "soundTrap": {
+        "pair": "consultant's report / The consultant submitted",
+        "noteVi": "Câu B lặp nguyên danh từ \"consultant\" nhưng trả lời When thay vì nêu cảm nghĩ."
+      },
+      "listeningKey": "Khóa \"What did you think of\" → câu hỏi xin nhận xét rất hay trả lời gián tiếp \"I haven't had a chance to read/see it yet\".",
+      "trapAnalysis": "Câu hỏi \"What did you think of X?\" hỏi quan điểm/đánh giá. A mô tả độ dài (How long), B lặp từ \"consultant\" và nói ngày nộp (When). C là khuôn mẫu trả lời gián tiếp kinh điển của ETS khi chưa kịp xem tài liệu.",
+      "paraphrases": [
+        {
+          "audioPhrase": "I haven't had a chance to read it yet",
+          "answerPhrase": "I cannot comment yet because I have not reviewed it",
+          "meaningVi": "chưa kịp đọc nên chưa có nhận xét"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai trọng tâm) — Nêu độ dài 30 trang chứ không phải cảm nhận hay đánh giá.",
+        "B": "SAI (Lặp từ & Sai loại) — Lặp \"consultant\" và trả lời thời điểm nộp (When).",
+        "C": "ĐÚNG — Trả lời gián tiếp cực tự nhiên (\"chưa có dịp đọc\") cho câu hỏi xin ý kiến."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-52",
+          "word": "have a chance to",
+          "pos": "phrase",
+          "ipaUK": "/hæv ə tʃɑːns tuː/",
+          "ipaUS": "/hæv ə tʃæns tuː/",
+          "meaning": "có dịp / có thời gian làm gì",
+          "exampleEn": "Have you had a chance to review the draft?",
+          "exampleVi": "Bạn đã có thời gian xem bản nháp chưa?"
+        },
+        {
+          "id": "lv-p2b1-53",
+          "word": "consultant",
+          "pos": "n",
+          "ipaUK": "/kənˈsʌl.tənt/",
+          "ipaUS": "/kənˈsʌl.t̬ənt/",
+          "meaning": "chuyên gia tư vấn",
+          "exampleEn": "We hired an external consultant to audit our workflow.",
+          "exampleVi": "Chúng tôi thuê chuyên gia tư vấn ngoài để rà soát quy trình."
+        },
+        {
+          "id": "lv-p2b1-54",
+          "word": "submit a report",
+          "pos": "phrase",
+          "ipaUK": "/səbˈmɪt ə rɪˈpɔːt/",
+          "ipaUS": "/səbˈmɪt ə rɪˈpɔːrt/",
+          "meaning": "nộp báo cáo",
+          "exampleEn": "Team leads must submit their quarterly reports by Friday.",
+          "exampleVi": "Trưởng nhóm phải nộp báo cáo quý trước thứ Sáu."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q19",
+    "part": 2,
+    "questionType": "Trả lời gián tiếp (Indirect)",
+    "title": "What (Gián tiếp) — Hỏi ngược chỉ danh sách (\"Isn't there a list...?\") & Bẫy lặp \"painting\"",
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p2_q15.mp3",
+    "questionLine": {
+      "id": "p2-b1-q19-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-GB",
+      "en": "What do we need to bring to the first painting class?",
+      "vi": "Chúng ta cần mang gì tới buổi học vẽ đầu tiên?",
+      "startMs": 220,
+      "endMs": 3724
+    },
+    "options": {
+      "A": {
+        "en": "Isn't there a list on the sign-up page?",
+        "vi": "Chẳng phải có một danh sách trên trang đăng ký sao?",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 4084,
+        "endMs": 7276
+      },
+      "B": {
+        "en": "They're painting the hallway tomorrow.",
+        "vi": "Ngày mai họ sẽ sơn lại hành lang.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 7636,
+        "endMs": 10396
+      },
+      "C": {
+        "en": "Yes, she's a wonderful teacher.",
+        "vi": "Vâng, cô ấy là một giáo viên tuyệt vời.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 10756,
+        "endMs": 13756
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp + Bẫy từ đa nghĩa (\"painting class\" vẽ tranh ≠ \"painting the hallway\" sơn tường)",
+      "soundTrap": {
+        "pair": "painting class / painting the hallway",
+        "noteVi": "Cùng chữ \"painting\" nhưng câu hỏi là lớp học vẽ nghệ thuật, câu B lại là thợ sơn tường hành lang!"
+      },
+      "listeningKey": "Nghe \"What do we need to bring\" → loại B (từ đa nghĩa \"painting\") & C (\"Yes\" cho Wh-), chọn A.",
+      "trapAnalysis": "B lặp nguyên từ \"painting\" theo nghĩa sơn sửa tòa nhà; C mở đầu \"Yes\" vi phạm quy tắc câu hỏi What và lạc sang khen giáo viên. Chỉ A hướng người hỏi tới danh sách đồ cần mang trên trang đăng ký.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Isn't there a list on the sign-up page?",
+          "answerPhrase": "Required materials are listed online where you registered",
+          "meaningVi": "danh sách đồ cần mang có trên trang đăng ký"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Trả lời gián tiếp bằng câu hỏi ngược chỉ nguồn tra danh sách đồ dùng.",
+        "B": "SAI (Từ đa nghĩa) — Lặp \"painting\" nhưng đổi sang nghĩa sơn tường hành lang.",
+        "C": "SAI (Yes/No cho Wh-) — Câu hỏi What không trả lời bắt đầu bằng \"Yes\"."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-55",
+          "word": "sign-up page",
+          "pos": "phrase",
+          "ipaUK": "/saɪn ʌp peɪdʒ/",
+          "ipaUS": "/saɪn ʌp peɪdʒ/",
+          "meaning": "trang web đăng ký",
+          "exampleEn": "Check the sign-up page for required course materials.",
+          "exampleVi": "Xem trang đăng ký để biết tài liệu khóa học cần chuẩn bị."
+        },
+        {
+          "id": "lv-p2b1-56",
+          "word": "paint the hallway",
+          "pos": "phrase",
+          "ipaUK": "/peɪnt ðə ˈhɔːl.weɪ/",
+          "ipaUS": "/peɪnt ðə ˈhɑːl.weɪ/",
+          "meaning": "sơn lại hành lang",
+          "exampleEn": "Maintenance crews are painting the third-floor hallway.",
+          "exampleVi": "Đội bảo trì đang sơn lại hành lang tầng ba."
+        },
+        {
+          "id": "lv-p2b1-57",
+          "word": "bring to class",
+          "pos": "phrase",
+          "ipaUK": "/brɪŋ tuː klɑːs/",
+          "ipaUS": "/brɪŋ tuː klæs/",
+          "meaning": "mang theo tới buổi học",
+          "exampleEn": "Participants only need to bring a notebook to class.",
+          "exampleVi": "Học viên chỉ cần mang sổ tay tới lớp."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q20",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Which — Bẫy âm kinh điển \"printer / painter\" & trả lời mở (\"Just use any of them\")",
+    "audioUrl": "/audio/toeic/study4-7061-toeic-lr-collection-4-test-2/p2_q21.mp3",
+    "questionLine": {
+      "id": "p2-b1-q20-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-GB",
+      "en": "Which printer should I use?",
+      "vi": "Tôi nên sử dụng chiếc máy in nào?",
+      "startMs": 220,
+      "endMs": 2788
+    },
+    "options": {
+      "A": {
+        "en": "Ask the painter for advice.",
+        "vi": "Hãy hỏi người thợ sơn để xin lời khuyên.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 3128,
+        "endMs": 5792
+      },
+      "B": {
+        "en": "It prints very sharp copies.",
+        "vi": "Nó in ra các bản sao rất sắc nét.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 6132,
+        "endMs": 9084
+      },
+      "C": {
+        "en": "Just use any of them.",
+        "vi": "Cứ dùng bất kỳ chiếc nào trong số đó đi.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 9424,
+        "endMs": 11680
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy từ gần âm (printer ↔ painter) & lặp gốc từ (printer ↔ prints)",
+      "soundTrap": {
+        "pair": "printer / painter",
+        "noteVi": "\"printer\" (/ˈprɪn.tɚ/) và \"painter\" (/ˈpeɪn.tɚ/) cực dễ nhầm nếu tốc độ đọc nhanh!"
+      },
+      "listeningKey": "Khóa \"Which printer should I use\" → tránh bẫy gần âm \"painter\" (A) và lặp \"prints\" (B), chọn C.",
+      "trapAnalysis": "Câu hỏi Which thường có đáp án chọn 1 thứ cụ thể HOẶC cho phép chọn tự do (\"Just use any of them / Whichever you like\"). A gài từ gần âm \"painter\", B lặp gốc \"prints\" và mô tả chất lượng thay vì chọn máy nào.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Just use any of them",
+          "answerPhrase": "All of the available printers work fine",
+          "meaningVi": "dùng chiếc máy in nào cũng được"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Bẫy từ gần âm) — Đánh tráo \"printer\" (máy in) thành \"painter\" (thợ sơn/họa sĩ).",
+        "B": "SAI (Lặp gốc từ) — Lặp \"prints\" nhưng mô tả độ nét của 1 máy không rõ là máy nào.",
+        "C": "ĐÚNG — Trả lời rõ ràng rằng có thể chọn bất kỳ máy in nào (\"any of them\")."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-58",
+          "word": "any of them",
+          "pos": "phrase",
+          "ipaUK": "/ˈen.i ɒv ðem/",
+          "ipaUS": "/ˈen.i ʌv ðəm/",
+          "meaning": "bất kỳ cái nào trong số chúng",
+          "exampleEn": "All meeting rooms are free—feel free to book any of them.",
+          "exampleVi": "Tất cả phòng họp đều trống — cứ đặt bất kỳ phòng nào."
+        },
+        {
+          "id": "lv-p2b1-59",
+          "word": "sharp copies",
+          "pos": "phrase",
+          "ipaUK": "/ʃɑːp ˈkɒp.iz/",
+          "ipaUS": "/ʃɑːrp ˈkɑː.piz/",
+          "meaning": "các bản in / bản sao sắc nét",
+          "exampleEn": "The new laser printer produces sharp color copies.",
+          "exampleVi": "Máy in laser mới tạo ra các bản in màu sắc nét."
+        },
+        {
+          "id": "lv-p2b1-60",
+          "word": "ask for advice",
+          "pos": "phrase",
+          "ipaUK": "/ɑːsk fɔːr ədˈvaɪs/",
+          "ipaUS": "/æsk fɔːr ədˈvaɪs/",
+          "meaning": "xin lời khuyên",
+          "exampleEn": "Ask the IT lead for advice before buying new laptops.",
+          "exampleVi": "Hỏi trưởng nhóm IT để xin tư vấn trước khi mua laptop mới."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q21",
+    "part": 2,
+    "questionType": "Wh-question",
+    "title": "Which — Bẫy lặp kép (\"work\" & \"submit\") trong yêu cầu sửa chữa căn hộ",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-09.mp3",
+    "questionLine": {
+      "id": "p2-b1-q21-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-GB",
+      "en": "Which apartment submitted a work order?",
+      "vi": "Căn hộ nào đã gửi phiếu yêu cầu sửa chữa vậy?",
+      "startMs": 350,
+      "endMs": 6177
+    },
+    "options": {
+      "A": {
+        "en": "It's what you did for a living.",
+        "vi": "Đó là công việc bạn từng làm để kiếm sống.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 6217,
+        "endMs": 11297
+      },
+      "B": {
+        "en": "Submit your assignment here.",
+        "vi": "Hãy nộp bài tập của bạn tại đây.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 11337,
+        "endMs": 15969
+      },
+      "C": {
+        "en": "It came from the tenants in B23.",
+        "vi": "Nó được gửi từ các khách thuê ở căn B23.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 16009,
+        "endMs": 21220
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Bẫy lặp từ kép (work ↔ work order; submit ↔ submitted)",
+      "soundTrap": {
+        "pair": "work order / for a living & submitted / Submit",
+        "noteVi": "A đánh vào chữ \"work\" (nghề nghiệp), B lặp thẳng động từ \"Submit\" (nộp bài) — cả hai đều lệch nghĩa hoàn toàn."
+      },
+      "listeningKey": "Khóa 2 từ đầu \"Which apartment\" → tìm ngay mã căn hộ (\"tenants in B23\"), loại ngay A (lặp \"work\") & B (lặp \"submit\").",
+      "trapAnalysis": "\"Work order\" là phiếu yêu cầu sửa chữa/bảo trì kỹ thuật, không liên quan nghề nghiệp (A) hay bài tập (B). Chỉ C chỉ rõ số căn hộ cụ thể (\"the tenants in B23\").",
+      "paraphrases": [
+        {
+          "audioPhrase": "It came from the tenants in B23",
+          "answerPhrase": "Residents of apartment B23 filed the maintenance request",
+          "meaningVi": "khách thuê tại căn hộ B23 đã gửi yêu cầu"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Liên tưởng từ \"work\") — Hiểu lệch \"work order\" sang công việc kiếm sống.",
+        "B": "SAI (Lặp từ) — Lặp từ \"submit\" trong ngữ cảnh nộp bài tập (assignment).",
+        "C": "ĐÚNG — Chỉ chính xác số phòng/căn hộ (\"B23\") đáp ứng câu hỏi Which apartment."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-61",
+          "word": "work order",
+          "pos": "phrase",
+          "ipaUK": "/wɜːk ˈɔː.dər/",
+          "ipaUS": "/wɝːk ˈɔːr.dɚ/",
+          "meaning": "phiếu yêu cầu sửa chữa / bảo trì",
+          "exampleEn": "Maintenance completed the plumbing work order today.",
+          "exampleVi": "Đội bảo trì đã hoàn tất phiếu sửa ống nước hôm nay."
+        },
+        {
+          "id": "lv-p2b1-62",
+          "word": "tenant",
+          "pos": "n",
+          "ipaUK": "/ˈten.ənt/",
+          "ipaUS": "/ˈten.ənt/",
+          "meaning": "người thuê nhà / thuê văn phòng",
+          "exampleEn": "Building tenants were notified of the elevator check.",
+          "exampleVi": "Khách thuê tòa nhà đã được báo về lịch kiểm tra thang máy."
+        },
+        {
+          "id": "lv-p2b1-63",
+          "word": "submit a request",
+          "pos": "phrase",
+          "ipaUK": "/səbˈmɪt ə rɪˈkwest/",
+          "ipaUS": "/səbˈmɪt ə rɪˈkwest/",
+          "meaning": "gửi một yêu cầu",
+          "exampleEn": "Please submit your maintenance request through the portal.",
+          "exampleVi": "Vui lòng gửi yêu cầu bảo trì qua cổng thông tin."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q22",
+    "part": 2,
+    "questionType": "Yes/No",
+    "title": "Câu hỏi phủ định (Haven't you...) — Trả lời KHÔNG dùng \"Yes/No\"",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-22.mp3",
+    "questionLine": {
+      "id": "p2-b1-q22-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "Haven't you used this software before?",
+      "vi": "Bạn chưa từng sử dụng phần mềm này trước đây sao?",
+      "startMs": 350,
+      "endMs": 6690
+    },
+    "options": {
+      "A": {
+        "en": "Can I take your order?",
+        "vi": "Tôi có thể ghi nhận đơn đặt món của bạn không?",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 6730,
+        "endMs": 10901
+      },
+      "B": {
+        "en": "I haven't had the chance.",
+        "vi": "Tôi vẫn chưa có cơ hội dùng thử.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 10941,
+        "endMs": 15612
+      },
+      "C": {
+        "en": "About 40 dollars.",
+        "vi": "Khoảng bốn mươi đô la.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 15652,
+        "endMs": 18970
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Câu hỏi phủ định trả lời không dùng \"Yes/No\"",
+      "soundTrap": {
+        "pair": "before / forty",
+        "noteVi": "Âm /fɔːr/ trong \"before\" (cuối câu hỏi) rất dễ kéo tai sang \"forty\" (40 đô la) ở câu C!"
+      },
+      "listeningKey": "Nghe \"Haven't you used\" → không cần chờ chữ \"Yes/No\", chốt ngay B (\"I haven't had the chance\" = chưa dùng).",
+      "trapAnalysis": "Câu hỏi phủ định \"Haven't you...?\" chỉ đơn giản hỏi xác nhận xem bạn đã dùng hay chưa. Câu B trả lời trực diện ý phủ định mà không cần nói \"No\". Câu C gài bẫy âm \"before / forty\", còn A là câu chào của bồi bàn.",
+      "paraphrases": [
+        {
+          "audioPhrase": "I haven't had the chance",
+          "answerPhrase": "No, I have not tried using it yet",
+          "meaningVi": "chưa, tôi chưa có dịp dùng thử"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Lạc bối cảnh) — Câu hỏi gọi món nhà hàng, không liên quan phần mềm.",
+        "B": "ĐÚNG — Xác nhận chưa từng sử dụng phần mềm mà không cần từ \"No\".",
+        "C": "SAI (Bẫy gần âm & Sai loại) — Gài âm \"forty\" ăn theo \"before\" và trả lời giá tiền (How much)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-64",
+          "word": "not have the chance",
+          "pos": "phrase",
+          "ipaUK": "/nɒt hæv ðə tʃɑːns/",
+          "ipaUS": "/nɑːt hæv ðə tʃæns/",
+          "meaning": "chưa có cơ hội / chưa kịp",
+          "exampleEn": "I haven't had the chance to test the new software.",
+          "exampleVi": "Tôi vẫn chưa có dịp dùng thử phần mềm mới."
+        },
+        {
+          "id": "lv-p2b1-65",
+          "word": "take an order",
+          "pos": "phrase",
+          "ipaUK": "/teɪk ən ˈɔː.dər/",
+          "ipaUS": "/teɪk ən ˈɔːr.dɚ/",
+          "meaning": "nhận đơn đặt hàng / gọi món",
+          "exampleEn": "The server came over to take our lunch order.",
+          "exampleVi": "Nhân viên phục vụ bước tới ghi món ăn trưa."
+        },
+        {
+          "id": "lv-p2b1-66",
+          "word": "tracking software",
+          "pos": "phrase",
+          "ipaUK": "/ˈtræk.ɪŋ ˈsɒft.weər/",
+          "ipaUS": "/ˈtræk.ɪŋ ˈsɑːft.wer/",
+          "meaning": "phần mềm theo dõi quản lý",
+          "exampleEn": "Our team uses tracking software for every shipment.",
+          "exampleVi": "Nhóm chúng tôi dùng phần mềm theo dõi mọi lô hàng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q23",
+    "part": 2,
+    "questionType": "Câu hỏi đuôi (Tag)",
+    "title": "Câu hỏi đuôi (Tag) — Trả lời gián tiếp không dùng \"Yes/No\"",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-14.mp3",
+    "questionLine": {
+      "id": "p2-b1-q23-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "The sales team knows how to use the tracking software, don't they?",
+      "vi": "Đội kinh doanh biết cách sử dụng phần mềm theo dõi rồi, phải không?",
+      "startMs": 350,
+      "endMs": 8992
+    },
+    "options": {
+      "A": {
+        "en": "It's on the lower shelf.",
+        "vi": "Nó nằm ở ngăn kệ phía dưới.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 9032,
+        "endMs": 12567
+      },
+      "B": {
+        "en": "A twelve-thirty departure.",
+        "vi": "Một chuyến khởi hành lúc mười hai giờ rưỡi.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 12607,
+        "endMs": 16404
+      },
+      "C": {
+        "en": "I haven't seen them using it yet.",
+        "vi": "Tôi vẫn chưa thấy họ dùng nó lần nào cả.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 16444,
+        "endMs": 21140
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Câu hỏi đuôi + Trả lời gián tiếp (bằng quan sát cá nhân, không Yes/No)",
+      "soundTrap": {
+        "pair": "tracking / departure",
+        "noteVi": "Đừng dịch máy móc đuôi \", don't they?\" — chỉ cần nghe câu khẳng định phía trước rồi phản hồi đúng chủ ngữ \"they / them\"."
+      },
+      "listeningKey": "Khóa vế chính \"sales team knows how to use ... software\" → chọn ngay C phản hồi thực tế không dùng Yes/No.",
+      "trapAnalysis": "Với câu hỏi đuôi (Tag Question), bỏ qua phần đuôi và tập trung vào ý chính: đội sales đã biết dùng phần mềm chưa. C trả lời cực thực tế (\"Tôi chưa thấy họ dùng bao giờ\") để ngụ ý nghi ngờ/chưa chắc. A trả lời Where, B trả lời giờ tàu/xe.",
+      "paraphrases": [
+        {
+          "audioPhrase": "I haven't seen them using it yet",
+          "answerPhrase": "I doubt they have started using the software",
+          "meaningVi": "tôi chưa thấy họ dùng nên không chắc họ đã biết"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — Trả lời vị trí đồ vật (Where: ngăn kệ dưới).",
+        "B": "SAI (Lạc chủ đề) — Nói giờ khởi hành (When), không liên quan phần mềm.",
+        "C": "ĐÚNG — Dùng đại từ khớp hoàn toàn (\"them = sales team\", \"it = software\") và trả lời gián tiếp tự nhiên."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-67",
+          "word": "sales team",
+          "pos": "phrase",
+          "ipaUK": "/seɪlz tiːm/",
+          "ipaUS": "/seɪlz tiːm/",
+          "meaning": "đội ngũ kinh doanh / bán hàng",
+          "exampleEn": "The sales team exceeded its third-quarter target.",
+          "exampleVi": "Đội kinh doanh đã vượt mục tiêu quý ba."
+        },
+        {
+          "id": "lv-p2b1-68",
+          "word": "lower shelf",
+          "pos": "phrase",
+          "ipaUK": "/ˈləʊ.ər ʃelf/",
+          "ipaUS": "/ˈloʊ.ɚ ʃelf/",
+          "meaning": "ngăn kệ phía dưới",
+          "exampleEn": "Heavy binders belong on the lower shelf.",
+          "exampleVi": "Các tập tài liệu nặng nên để ở kệ dưới."
+        },
+        {
+          "id": "lv-p2b1-69",
+          "word": "departure",
+          "pos": "n",
+          "ipaUK": "/dɪˈpɑː.tʃər/",
+          "ipaUS": "/dɪˈpɑːr.tʃɚ/",
+          "meaning": "chuyến khởi hành / giờ xuất phát",
+          "exampleEn": "Please arrive thirty minutes before departure.",
+          "exampleVi": "Vui lòng có mặt trước giờ khởi hành ba mươi phút."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q24",
+    "part": 2,
+    "questionType": "Câu hỏi đuôi (Tag)",
+    "title": "Câu hỏi đuôi (Tag) — Trả lời gián tiếp \"It depends\" & Bẫy lặp \"take\"",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-29.mp3",
+    "questionLine": {
+      "id": "p2-b1-q24-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "You're taking the training in the afternoon, aren't you?",
+      "vi": "Bạn sẽ tham gia buổi đào tạo vào buổi chiều, đúng không?",
+      "startMs": 350,
+      "endMs": 7646
+    },
+    "options": {
+      "A": {
+        "en": "The new head of the accounting department.",
+        "vi": "Trưởng bộ phận kế toán mới.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 7686,
+        "endMs": 13549
+      },
+      "B": {
+        "en": "No, I take my coffee black.",
+        "vi": "Không, tôi uống cà phê đen không đường sữa.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 13589,
+        "endMs": 17498
+      },
+      "C": {
+        "en": "Well, it depends on my schedule.",
+        "vi": "À, điều đó còn tùy vào lịch làm việc của tôi nữa.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 17538,
+        "endMs": 22080
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (\"it depends\") & Bẫy từ đa nghĩa (\"take training\" ↔ \"take coffee\")",
+      "soundTrap": {
+        "pair": "taking the training / take my coffee",
+        "noteVi": "Câu B cố tình có chữ \"No\" và lặp từ \"take\" nhưng đổi sang nghĩa uống cà phê đen!"
+      },
+      "listeningKey": "Nghe \"taking the training ... aren't you?\" → né bẫy lặp \"take my coffee\" (B), chốt C (\"depends on my schedule\").",
+      "trapAnalysis": "Đáp án B là cái bẫy cực tinh ranh vì vừa mở đầu bằng \"No\" (khớp hình thức câu hỏi đuôi) vừa lặp động từ \"take\". Tuy nhiên nghĩa \"uống cà phê đen\" hoàn toàn vô lý. Chỉ C trả lời chuẩn không cần Yes/No.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Well, it depends on my schedule",
+          "answerPhrase": "I am not sure yet; it depends on my availability",
+          "meaningVi": "còn tùy xem lịch trình của tôi thế nào"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — Trả lời Who (trưởng phòng kế toán mới).",
+        "B": "SAI (Bẫy lặp từ đa nghĩa) — Lặp từ \"take\" theo nghĩa uống cà phê đen dù có chữ \"No\".",
+        "C": "ĐÚNG — Phản hồi gián tiếp cực tự nhiên (\"tùy lịch trình\") mà không dùng Yes/No."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-70",
+          "word": "take the training",
+          "pos": "phrase",
+          "ipaUK": "/teɪk ðə ˈtreɪ.nɪŋ/",
+          "ipaUS": "/teɪk ðə ˈtreɪ.nɪŋ/",
+          "meaning": "tham gia khóa đào tạo",
+          "exampleEn": "All new hires must take the safety training.",
+          "exampleVi": "Mọi nhân viên mới đều phải học khóa an toàn."
+        },
+        {
+          "id": "lv-p2b1-71",
+          "word": "head of the department",
+          "pos": "phrase",
+          "ipaUK": "/hed ɒv ðə dɪˈpɑːt.mənt/",
+          "ipaUS": "/hed ʌv ðə dɪˈpɑːrt.mənt/",
+          "meaning": "trưởng phòng / trưởng bộ phận",
+          "exampleEn": "She was promoted to head of the accounting department.",
+          "exampleVi": "Cô ấy được thăng chức làm trưởng phòng kế toán."
+        },
+        {
+          "id": "lv-p2b1-72",
+          "word": "depend on my schedule",
+          "pos": "phrase",
+          "ipaUK": "/dɪˈpend ɒn maɪ ˈʃedʒ.uːl/",
+          "ipaUS": "/dɪˈpend ɑːn maɪ ˈskedʒ.uːl/",
+          "meaning": "tùy thuộc vào lịch trình của tôi",
+          "exampleEn": "Whether I attend depends on my afternoon schedule.",
+          "exampleVi": "Tôi có dự hay không còn tùy lịch buổi chiều."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q25",
+    "part": 2,
+    "questionType": "Câu hỏi đuôi (Tag)",
+    "title": "Câu hỏi đuôi (Tag) — Phủ định lịch sự bằng \"Actually, not everyone...\"",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-22.mp3",
+    "questionLine": {
+      "id": "p2-b1-q25-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-US",
+      "en": "Our team training session was well attended, wasn't it?",
+      "vi": "Buổi tập huấn nhóm của chúng ta có đông người tham dự lắm, phải không?",
+      "startMs": 350,
+      "endMs": 7763
+    },
+    "options": {
+      "A": {
+        "en": "They were delivered yesterday.",
+        "vi": "Chúng đã được giao tới vào hôm qua.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 7803,
+        "endMs": 12251
+      },
+      "B": {
+        "en": "No, just down the hall.",
+        "vi": "Không, chỉ ở ngay cuối hành lang thôi.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 12291,
+        "endMs": 15795
+      },
+      "C": {
+        "en": "Actually, not everyone was there.",
+        "vi": "Thực ra thì không phải ai cũng có mặt đâu.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "startMs": 15835,
+        "endMs": 20670
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp bằng \"Actually...\" (không dùng Yes/No) & bẫy \"No\" kèm địa điểm",
+      "soundTrap": {
+        "pair": "well attended / delivered / down the hall",
+        "noteVi": "Câu B gài từ \"No\" để hợp câu hỏi đuôi nhưng phần sau lại chỉ đường (\"down the hall\") vô lý."
+      },
+      "listeningKey": "Khóa \"training session was well attended\" → chọn câu đính chính nhẹ bằng \"Actually, not everyone was there\".",
+      "trapAnalysis": "Từ \"Actually\" ở đầu câu là dấu hiệu vàng của đáp án đính chính trong Part 2. Câu C phủ nhận nhẹ nhận định \"well attended\" bằng \"not everyone was there\". Câu A sai đại từ (\"They\" ≠ session số ít), câu B lạc sang chỉ đường.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Actually, not everyone was there",
+          "answerPhrase": "No, attendance was lower than expected",
+          "meaningVi": "thực ra không phải ai cũng có mặt"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai chủ ngữ & Lạc nghĩa) — \"They were delivered\" nói về bưu kiện giao hàng, không khớp buổi tập huấn.",
+        "B": "SAI (Bẫy \"No\" giả) — Có chữ \"No\" nhưng lại trả lời địa điểm (\"ngay cuối hành lang\").",
+        "C": "ĐÚNG — Dùng \"Actually\" phản hồi chính xác mức độ tham dự mà không cần Yes/No."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-73",
+          "word": "well attended",
+          "pos": "phrase",
+          "ipaUK": "/wel əˈten.dɪd/",
+          "ipaUS": "/wel əˈten.dɪd/",
+          "meaning": "có đông người tham dự",
+          "exampleEn": "The annual product launch was very well attended.",
+          "exampleVi": "Buổi ra mắt sản phẩm thường niên có rất đông người dự."
+        },
+        {
+          "id": "lv-p2b1-74",
+          "word": "down the hall",
+          "pos": "phrase",
+          "ipaUK": "/daʊn ðə hɔːl/",
+          "ipaUS": "/daʊn ðə hɑːl/",
+          "meaning": "ở phía cuối / dọc hành lang",
+          "exampleEn": "The copy room is just down the hall on the right.",
+          "exampleVi": "Phòng in ở ngay dọc hành lang bên tay phải."
+        },
+        {
+          "id": "lv-p2b1-75",
+          "word": "actually",
+          "pos": "adv",
+          "ipaUK": "/ˈæk.tʃu.ə.li/",
+          "ipaUS": "/ˈæk.tʃu.ə.li/",
+          "meaning": "thực ra là (dùng để đính chính nhẹ)",
+          "exampleEn": "Actually, the deadline was extended until Monday.",
+          "exampleVi": "Thực ra hạn chót đã được gia hạn tới thứ Hai."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q26",
+    "part": 2,
+    "questionType": "Yes/No",
+    "title": "Câu hỏi phủ định (Haven't you...) — Bẫy lặp \"back\" & Trả lời \"Actually...\"",
+    "audioUrl": "/audio/toeic/study4-1211-sample-toeic-test-5/p2_q11.mp3",
+    "questionLine": {
+      "id": "p2-b1-q26-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "Haven't you backed up your files yet?",
+      "vi": "Bạn vẫn chưa sao lưu các tệp tài liệu của mình sao?",
+      "startMs": 220,
+      "endMs": 3148
+    },
+    "options": {
+      "A": {
+        "en": "She installed the hardware.",
+        "vi": "Cô ấy đã lắp đặt phần cứng rồi.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 3488,
+        "endMs": 6224
+      },
+      "B": {
+        "en": "Actually, it does so automatically.",
+        "vi": "Thực ra hệ thống tự động làm việc đó luôn.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 6564,
+        "endMs": 10068
+      },
+      "C": {
+        "en": "She'll be back soon.",
+        "vi": "Cô ấy sẽ quay trở lại ngay thôi.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 10408,
+        "endMs": 12904
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Trả lời gián tiếp (\"Actually...\") & Bẫy từ đa nghĩa (\"back up\" sao lưu ↔ \"be back\" quay lại)",
+      "soundTrap": {
+        "pair": "backed up / back soon",
+        "noteVi": "Câu C lặp từ \"back\" trong \"be back soon\" (sớm quay lại) hoàn toàn khác cụm động từ \"back up\" (sao lưu dữ liệu)!"
+      },
+      "listeningKey": "Khóa \"Haven't you backed up your files\" → loại bẫy lặp \"back\" (C) & liên tưởng IT (A), chọn B (\"does so automatically\").",
+      "trapAnalysis": "A gài từ cùng trường IT (\"hardware\") nhưng lạc chủ ngữ (\"She\"). C lặp từ \"back\" theo nghĩa quay về. Chỉ B giải thích khéo không cần sao lưu thủ công vì máy làm tự động (\"does so\" = backs up the files).",
+      "paraphrases": [
+        {
+          "audioPhrase": "Actually, it does so automatically",
+          "answerPhrase": "The system backs up my files on its own",
+          "meaningVi": "hệ thống tự động sao lưu nên không cần làm tay"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Liên tưởng chủ đề & Chủ ngữ) — Nhắc \"hardware\" ăn theo files/IT nhưng sai chủ ngữ (\"She\").",
+        "B": "ĐÚNG — Trả lời không cần Yes/No, dùng \"does so\" thay cho \"backs up the files\" cực chuẩn ngữ pháp.",
+        "C": "SAI (Bẫy từ đa nghĩa) — Lặp chữ \"back\" (quay về) đánh lừa cụm \"back up\" (sao lưu)."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-76",
+          "word": "back up files",
+          "pos": "phrase",
+          "ipaUK": "/bæk ʌp faɪlz/",
+          "ipaUS": "/bæk ʌp faɪlz/",
+          "meaning": "sao lưu tệp dữ liệu",
+          "exampleEn": "Remember to back up your project files to the cloud.",
+          "exampleVi": "Nhớ sao lưu tệp dự án lên đám mây nhé."
+        },
+        {
+          "id": "lv-p2b1-77",
+          "word": "automatically",
+          "pos": "adv",
+          "ipaUK": "/ˌɔː.təˈmæt.ɪ.kəl.i/",
+          "ipaUS": "/ˌɑː.t̬əˈmæt̬.ɪ.kəl.i/",
+          "meaning": "một cách tự động",
+          "exampleEn": "Drafts are saved automatically every few seconds.",
+          "exampleVi": "Bản nháp được tự động lưu sau mỗi vài giây."
+        },
+        {
+          "id": "lv-p2b1-78",
+          "word": "install hardware",
+          "pos": "phrase",
+          "ipaUK": "/ɪnˈstɔːl ˈhɑːd.weər/",
+          "ipaUS": "/ɪnˈstɑːl ˈhɑːrd.wer/",
+          "meaning": "lắp đặt phần cứng máy tính",
+          "exampleEn": "IT technicians installed new server hardware overnight.",
+          "exampleVi": "Kỹ thuật viên IT đã lắp phần cứng máy chủ mới qua đêm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q27",
+    "part": 2,
+    "questionType": "Câu hỏi lựa chọn (Or)",
+    "title": "Câu hỏi lựa chọn (A or B) — Trả lời trung lập \"Either way is fine\"",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-09.mp3",
+    "questionLine": {
+      "id": "p2-b1-q27-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-GB",
+      "en": "Would you like the report to be e-mailed or printed out?",
+      "vi": "Bạn muốn bản báo cáo được gửi qua email hay in ra giấy?",
+      "startMs": 350,
+      "endMs": 9562
+    },
+    "options": {
+      "A": {
+        "en": "An electric heater.",
+        "vi": "Một chiếc máy sưởi điện.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 9602,
+        "endMs": 13221
+      },
+      "B": {
+        "en": "Page 25.",
+        "vi": "Trang 25.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 13261,
+        "endMs": 15070
+      },
+      "C": {
+        "en": "Either way is fine.",
+        "vi": "Cách nào cũng được cả.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 15110,
+        "endMs": 18710
+      }
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "trapType": "Câu hỏi lựa chọn trả lời bằng \"Either\" & Bẫy âm \"e-mailed / electric\"",
+      "soundTrap": {
+        "pair": "e-mailed / electric & report / Page 25",
+        "noteVi": "Câu B liên tưởng từ \"report\" sang số trang (\"Page 25\"), còn A gài âm đầu /ɪ/ giống \"e-mailed\"."
+      },
+      "listeningKey": "Nghe cấu trúc lựa chọn \"e-mailed or printed out\" → chốt ngay khuôn mẫu tủ \"Either way is fine\".",
+      "trapAnalysis": "Với câu hỏi lựa chọn A or B, ngoài việc chọn 1 trong 2 vế, 3 đáp án gián tiếp hay ra nhất là \"Either...\", \"Neither...\", hoặc phương án thứ 3. Ở đây C (\"Either way is fine\") là đáp án chuẩn xác tuyệt đối.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Either way is fine",
+          "answerPhrase": "Both emailing and printing work for me",
+          "meaningVi": "gửi email hay in ra giấy cách nào cũng ổn"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Lạc chủ đề) — \"An electric heater\" không liên quan tới bản báo cáo.",
+        "B": "SAI (Liên tưởng chủ đề) — Nhắc \"Page 25\" ăn theo \"report\" nhưng không trả lời chọn cách gửi nào.",
+        "C": "ĐÚNG — Mẫu câu chuẩn cho câu hỏi lựa chọn A or B: cách nào cũng được."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-79",
+          "word": "either way",
+          "pos": "phrase",
+          "ipaUK": "/ˈaɪ.ðər weɪ/",
+          "ipaUS": "/ˈiː.ðɚ weɪ/",
+          "meaning": "cách nào cũng được (trong 2 lựa chọn)",
+          "exampleEn": "We can meet today or tomorrow—either way is fine.",
+          "exampleVi": "Ta có thể gặp hôm nay hoặc ngày mai — cách nào cũng ổn."
+        },
+        {
+          "id": "lv-p2b1-80",
+          "word": "print out",
+          "pos": "phrase",
+          "ipaUK": "/prɪnt aʊt/",
+          "ipaUS": "/prɪnt aʊt/",
+          "meaning": "in ra bản giấy",
+          "exampleEn": "Could you print out ten copies of the agenda?",
+          "exampleVi": "Bạn in giúp mình mười bản chương trình họp được không?"
+        },
+        {
+          "id": "lv-p2b1-81",
+          "word": "electric heater",
+          "pos": "phrase",
+          "ipaUK": "/ɪˈlek.trɪk ˈhiː.tər/",
+          "ipaUS": "/ɪˈlek.trɪk ˈhiː.t̬ɚ/",
+          "meaning": "máy sưởi điện",
+          "exampleEn": "Portable electric heaters are not allowed in cubicles.",
+          "exampleVi": "Không được dùng máy sưởi điện di động trong ô làm việc."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q28",
+    "part": 2,
+    "questionType": "Câu hỏi lựa chọn (Or)",
+    "title": "Câu hỏi lựa chọn (Or) — Phủ định cả 2 lựa chọn (\"They're already sold out\")",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-27.mp3",
+    "questionLine": {
+      "id": "p2-b1-q28-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-GB",
+      "en": "Do the tickets go on sale this week or next?",
+      "vi": "Vé sẽ mở bán vào tuần này hay tuần sau vậy?",
+      "startMs": 350,
+      "endMs": 7716
+    },
+    "options": {
+      "A": {
+        "en": "The cafeteria downstairs.",
+        "vi": "Nhà ăn tự phục vụ ở tầng dưới.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 7756,
+        "endMs": 12443
+      },
+      "B": {
+        "en": "They're already sold out.",
+        "vi": "Chúng đã bán hết sạch mất rồi.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 12483,
+        "endMs": 17170
+      },
+      "C": {
+        "en": "Sure, no problem.",
+        "vi": "Chắc chắn rồi, không vấn đề gì.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "startMs": 17210,
+        "endMs": 20540
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Câu hỏi lựa chọn + Trả lời gián tiếp phủ định cả 2 vế (\"sold out\")",
+      "soundTrap": {
+        "pair": "on sale / sold out",
+        "noteVi": "Đừng nhầm lẫn — ở đây \"sold out\" (bán hết) là câu cập nhật thực tế hợp lý nhất, còn C là bẫy nhận lời đề nghị."
+      },
+      "listeningKey": "Khóa \"tickets go on sale this week or next\" → cả 2 vế đều không còn hiệu lực vì \"already sold out\" (B).",
+      "trapAnalysis": "Kiểu câu phân loại 850+: người hỏi tưởng vé chưa bán (\"tuần này hay tuần sau?\"), người đáp báo tin thực tế rằng vé đã bán hết sạch rồi (phủ định ngầm cả 2 lựa chọn). A trả lời Where, C dùng cho lời nhờ vả.",
+      "paraphrases": [
+        {
+          "audioPhrase": "They're already sold out",
+          "answerPhrase": "Neither week—no tickets remain available",
+          "meaningVi": "không phải tuần này hay tuần sau vì vé đã bán hết rồi"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Sai loại câu hỏi) — Trả lời địa điểm nhà ăn (Where).",
+        "B": "ĐÚNG — Phủ định gián tiếp cả hai mốc thời gian vì vé đã hết sạch.",
+        "C": "SAI (Sai chức năng) — \"Sure, no problem\" dùng để nhận lời nhờ vả, không trả lời câu hỏi lựa chọn."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-82",
+          "word": "go on sale",
+          "pos": "phrase",
+          "ipaUK": "/ɡəʊ ɒn seɪl/",
+          "ipaUS": "/ɡoʊ ɑːn seɪl/",
+          "meaning": "bắt đầu mở bán / giảm giá",
+          "exampleEn": "Conference passes go on sale Monday morning.",
+          "exampleVi": "Vé hội nghị bắt đầu mở bán vào sáng thứ Hai."
+        },
+        {
+          "id": "lv-p2b1-83",
+          "word": "be sold out",
+          "pos": "phrase",
+          "ipaUK": "/biː səʊld aʊt/",
+          "ipaUS": "/biː soʊld aʊt/",
+          "meaning": "đã bán hết sạch",
+          "exampleEn": "Front-row seats for the concert are already sold out.",
+          "exampleVi": "Ghế hàng đầu của buổi hòa nhạc đã bán hết sạch."
+        },
+        {
+          "id": "lv-p2b1-84",
+          "word": "cafeteria",
+          "pos": "n",
+          "ipaUK": "/ˌkæf.əˈtɪə.ri.ə/",
+          "ipaUS": "/ˌkæf.əˈtɪr.i.ə/",
+          "meaning": "nhà ăn tự phục vụ (công ty/trường học)",
+          "exampleEn": "Employees can buy lunch in the downstairs cafeteria.",
+          "exampleVi": "Nhân viên có thể mua bữa trưa ở nhà ăn tầng dưới."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q29",
+    "part": 2,
+    "questionType": "Câu trần thuật (Statement)",
+    "title": "Câu trần thuật (Statement) — Đính chính thông tin giá vé (\"Actually, they're fifteen\")",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-24.mp3",
+    "questionLine": {
+      "id": "p2-b1-q29-q",
+      "speaker": "Question",
+      "voiceGender": "female",
+      "accent": "en-GB",
+      "en": "The tickets to Friday night's concert cost ten dollars each.",
+      "vi": "Vé cho buổi hòa nhạc tối thứ Sáu có giá mười đô la mỗi chiếc.",
+      "startMs": 350,
+      "endMs": 9202
+    },
+    "options": {
+      "A": {
+        "en": "Actually, they're fifteen.",
+        "vi": "Thực ra chúng có giá mười lăm đô la đấy.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 9242,
+        "endMs": 13520
+      },
+      "B": {
+        "en": "No, I can't play the guitar.",
+        "vi": "Không, tôi không biết chơi đàn ghi-ta.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 13560,
+        "endMs": 18133
+      },
+      "C": {
+        "en": "It's in aisle five.",
+        "vi": "Nó nằm ở lối đi số năm.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "startMs": 18173,
+        "endMs": 21400
+      }
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "trapType": "Câu trần thuật phản hồi bằng \"Actually...\" & liên tưởng âm nhạc (\"concert\" → guitar / aisle)",
+      "soundTrap": {
+        "pair": "concert / guitar / aisle five",
+        "noteVi": "B và C đều bám từ vựng bối cảnh buổi hòa nhạc (guitar, lối đi số 5) nhưng lệch hoàn toàn chủ đề giá vé."
+      },
+      "listeningKey": "Nghe câu trần thuật nêu con số \"cost ten dollars each\" → chọn ngay câu đính chính giá \"Actually, they're fifteen\".",
+      "trapAnalysis": "Câu trần thuật không có từ để hỏi — người nghe phải hiểu ngữ cảnh để chọn phản hồi hợp mạch hội thoại nhất: đính chính giá vé từ $10 thành $15 (\"Actually, they're fifteen\"). B và C đều lạc đề dù cùng chủ đề concert.",
+      "paraphrases": [
+        {
+          "audioPhrase": "Actually, they're fifteen",
+          "answerPhrase": "The real ticket price is fifteen dollars, not ten",
+          "meaningVi": "giá vé thực tế là 15 đô chứ không phải 10 đô"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "ĐÚNG — Phản hồi trực tiếp vào giá vé bằng \"Actually\" để sửa thông tin chưa chính xác.",
+        "B": "SAI (Liên tưởng chủ đề) — Nhắc \"play the guitar\" ăn theo từ \"concert\" nhưng vô nghĩa.",
+        "C": "SAI (Liên tưởng chủ đề) — Chỉ vị trí lối đi/ghế ngồi, không ăn nhập lời nói về giá vé."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-85",
+          "word": "cost ... each",
+          "pos": "phrase",
+          "ipaUK": "/kɒst ... iːtʃ/",
+          "ipaUS": "/kɑːst ... iːtʃ/",
+          "meaning": "có giá ... mỗi chiếc / vé",
+          "exampleEn": "Standard workshop tickets cost fifteen dollars each.",
+          "exampleVi": "Vé hội thảo tiêu chuẩn có giá 15 đô mỗi vé."
+        },
+        {
+          "id": "lv-p2b1-86",
+          "word": "concert",
+          "pos": "n",
+          "ipaUK": "/ˈkɒn.sət/",
+          "ipaUS": "/ˈkɑːn.sɚt/",
+          "meaning": "buổi hòa nhạc",
+          "exampleEn": "The charity concert takes place Friday evening.",
+          "exampleVi": "Buổi hòa nhạc từ thiện diễn ra vào tối thứ Sáu."
+        },
+        {
+          "id": "lv-p2b1-87",
+          "word": "in aisle five",
+          "pos": "phrase",
+          "ipaUK": "/ɪn aɪl faɪv/",
+          "ipaUS": "/ɪn aɪl faɪv/",
+          "meaning": "ở lối đi / dãy số năm",
+          "exampleEn": "Paper towels are located in aisle five.",
+          "exampleVi": "Khăn giấy nằm ở dãy số năm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2-b1-q30",
+    "part": 2,
+    "questionType": "Câu trần thuật (Statement)",
+    "title": "Câu trần thuật đề xuất (We should...) — Từ chối gián tiếp bằng lý do thực tế",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-19.mp3",
+    "questionLine": {
+      "id": "p2-b1-q30-q",
+      "speaker": "Question",
+      "voiceGender": "male",
+      "accent": "en-US",
+      "en": "We should hike the Wildflower Trail today.",
+      "vi": "Hôm nay chúng ta nên đi bộ đường dài ở tuyến đường mòn Wildflower.",
+      "startMs": 350,
+      "endMs": 7024
+    },
+    "options": {
+      "A": {
+        "en": "This seat is available.",
+        "vi": "Chiếc ghế này còn trống.",
+        "speaker": "Speaker (A)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 7064,
+        "endMs": 11195
+      },
+      "B": {
+        "en": "I didn't bring boots.",
+        "vi": "Tôi lại không mang giày bốt leo núi theo rồi.",
+        "speaker": "Speaker (B)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 11235,
+        "endMs": 15048
+      },
+      "C": {
+        "en": "At the visitors' center.",
+        "vi": "Tại trung tâm du khách.",
+        "speaker": "Speaker (C)",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "startMs": 15088,
+        "endMs": 19360
+      }
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "trapType": "Câu trần thuật rủ rê + Từ chối gián tiếp không dùng \"No\" & bẫy liên tưởng (\"visitors' center\")",
+      "soundTrap": {
+        "pair": "Wildflower Trail / visitors' center",
+        "noteVi": "Câu C gài địa điểm quen thuộc trong công viên quốc gia (\"visitors' center\") nhưng câu gốc không hỏi Where."
+      },
+      "listeningKey": "Khóa lời rủ rê \"We should hike ... today\" → chốt ngay lời từ chối khéo nêu trở ngại \"I didn't bring boots\".",
+      "trapAnalysis": "\"We should + V\" là câu trần thuật mang ý đề xuất/rủ rê. Thay vì nói \"No, I can't\", người đáp nêu lý do thực tế không thể đi leo núi (\"Tôi không mang giày bốt\"). Câu C trả lời Where ăn theo chủ đề du lịch, câu A lạc bối cảnh.",
+      "paraphrases": [
+        {
+          "audioPhrase": "I didn't bring boots",
+          "answerPhrase": "I am not properly equipped to go hiking today",
+          "meaningVi": "tôi không mang giày leo núi nên khó đi được"
+        }
+      ],
+      "optionAnalysis": {
+        "A": "SAI (Lạc bối cảnh) — Câu nói về chỗ ngồi trống, không ăn nhập lời rủ đi leo núi.",
+        "B": "ĐÚNG — Từ chối khéo lời rủ rê bằng một trở ngại thực tế cực tự nhiên trong giao tiếp.",
+        "C": "SAI (Liên tưởng & Sai loại) — Nêu địa điểm trung tâm du khách nhưng câu gốc không hỏi Where."
+      },
+      "keyVocab": [
+        {
+          "id": "lv-p2b1-88",
+          "word": "hike a trail",
+          "pos": "phrase",
+          "ipaUK": "/haɪk ə treɪl/",
+          "ipaUS": "/haɪk ə treɪl/",
+          "meaning": "đi bộ đường dài / leo đường mòn",
+          "exampleEn": "We plan to hike the lakeside trail this weekend.",
+          "exampleVi": "Chúng tôi dự định đi bộ dọc đường mòn ven hồ cuối tuần này."
+        },
+        {
+          "id": "lv-p2b1-89",
+          "word": "hiking boots",
+          "pos": "phrase",
+          "ipaUK": "/ˈhaɪ.kɪŋ buːts/",
+          "ipaUS": "/ˈhaɪ.kɪŋ buːts/",
+          "meaning": "giày bốt đi bộ đường dài / leo núi",
+          "exampleEn": "Sturdy boots are recommended for rocky trails.",
+          "exampleVi": "Nên mang giày bốt chắc chắn khi đi đường mòn nhiều đá."
+        },
+        {
+          "id": "lv-p2b1-90",
+          "word": "visitors' center",
+          "pos": "phrase",
+          "ipaUK": "/ˈvɪz.ɪ.təz ˈsen.tər/",
+          "ipaUS": "/ˈvɪz.ɪ.t̬ɚz ˈsen.t̬ɚ/",
+          "meaning": "trung tâm đón tiếp du khách",
+          "exampleEn": "Free trail maps are available at the visitors' center.",
+          "exampleVi": "Bản đồ đường mòn miễn phí có sẵn tại trung tâm du khách."
+        }
+      ]
+    }
+  }
+]

@@ -1,6 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import {
   AttemptRecord,
+  ListeningQuestionProgress,
   ListeningVocabItem,
   MasteryStatus,
   NoteTargetType,
@@ -40,6 +41,7 @@ const STORAGE_KEYS = {
   PROFILE: 'tmh_user_profile_v1',
   HIGHLIGHTS: 'tmh_reading_highlights_v1',
   READING_PROGRESS: 'tmh_reading_progress_v1',
+  LISTENING_PROGRESS: 'tmh_listening_progress_v1',
   WRONG_QUESTIONS: 'tmh_wrong_questions_v1',
   EXAM_HISTORY: 'tmh_toeic_exam_history_v1',
   WRITING_HISTORY: 'tmh_writing_history_v1',
@@ -91,6 +93,7 @@ interface AppContextValue {
   profile: UserProfileStats;
   readingHighlights: Record<string, string[]>;
   readingProgress: Record<string, ReadingQuestionProgress>;
+  listeningProgress: Record<string, ListeningQuestionProgress>;
   wrongQuestions: WrongQuestionRecord[];
   examHistory: ToeicExamHistoryItem[];
   writingHistory: WritingSubmissionRecord[];
@@ -129,6 +132,7 @@ interface AppContextValue {
   toggleReadingHighlight: (passageId: string, sentenceId: string) => void;
   clearReadingHighlights: (passageId: string) => void;
   recordReadingResult: (questionId: string, selectedAnswer: OptionKey, isCorrect: boolean) => void;
+  recordListeningResult: (questionId: string, selectedAnswer: string, isCorrect: boolean) => void;
 
   syncNow: () => Promise<void>;
   signOutAndClear: () => Promise<void>;
@@ -159,6 +163,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   );
   const [readingProgress, setReadingProgress] = useState<Record<string, ReadingQuestionProgress>>(() =>
     safeLoad(STORAGE_KEYS.READING_PROGRESS, {})
+  );
+  const [listeningProgress, setListeningProgress] = useState<Record<string, ListeningQuestionProgress>>(() =>
+    safeLoad(STORAGE_KEYS.LISTENING_PROGRESS, {})
   );
   const [wrongQuestions, setWrongQuestions] = useState<WrongQuestionRecord[]>(() =>
     safeLoad(STORAGE_KEYS.WRONG_QUESTIONS, [])
@@ -231,6 +238,10 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   }, [readingProgress]);
 
   useEffect(() => {
+    localStorage.setItem(STORAGE_KEYS.LISTENING_PROGRESS, JSON.stringify(listeningProgress));
+  }, [listeningProgress]);
+
+  useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEYS.WRONG_QUESTIONS, JSON.stringify(wrongQuestions));
     } catch {
@@ -266,6 +277,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       profile,
       readingHighlights,
       readingProgress,
+      listeningProgress,
       wrongQuestions,
       examHistory,
       writingHistory,
@@ -280,6 +292,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     profile,
     readingHighlights,
     readingProgress,
+    listeningProgress,
     wrongQuestions,
     examHistory,
     writingHistory,
@@ -297,6 +310,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     setProfile(snap.profile);
     setReadingHighlights(snap.readingHighlights);
     setReadingProgress(snap.readingProgress);
+    setListeningProgress(snap.listeningProgress || {});
     setWrongQuestions(snap.wrongQuestions);
     setExamHistory(snap.examHistory);
     setWritingHistory(snap.writingHistory);
@@ -397,6 +411,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     profile,
     readingHighlights,
     readingProgress,
+    listeningProgress,
     wrongQuestions,
     examHistory,
     writingHistory,
@@ -871,6 +886,17 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     }));
   };
 
+  const recordListeningResult = (questionId: string, selectedAnswer: string, isCorrect: boolean) => {
+    setListeningProgress((prev) => ({
+      ...prev,
+      [questionId]: {
+        status: isCorrect ? 'correct' : 'wrong',
+        selectedAnswer,
+        updatedAt: Date.now(),
+      },
+    }));
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -883,6 +909,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         profile,
         readingHighlights,
         readingProgress,
+        listeningProgress,
         wrongQuestions,
         examHistory,
         writingHistory,
@@ -909,6 +936,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         toggleReadingHighlight,
         clearReadingHighlights,
         recordReadingResult,
+        recordListeningResult,
         syncNow,
         signOutAndClear,
       }}
