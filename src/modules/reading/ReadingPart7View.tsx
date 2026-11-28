@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   BookOpen,
   CheckCircle2,
@@ -77,13 +78,29 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
     recordReadingResult,
   } = useApp();
 
+  const [searchParams, setSearchParams] = useSearchParams();
   const [countFilter, setCountFilter] = useState<PassageCountFilter>('all');
   const [genreFilter, setGenreFilter] = useState<Part7GenreFilter>('all');
   const [sets, setSets] = useState<ReadingPart7Set[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
-  const [selectedSetId, setSelectedSetId] = useState<string>('');
+  const [selectedSetId, setSelectedSetIdState] = useState<string>(
+    () => searchParams.get('item') || ''
+  );
+
+  const setSelectedSetId = (id: string) => {
+    setSelectedSetIdState(id);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (id) next.set('item', id);
+        else next.delete('item');
+        return next;
+      },
+      { replace: true }
+    );
+  };
   const [activeDocIdx, setActiveDocIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<string, OptionKey>>({});
   const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({});
@@ -104,7 +121,12 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
         if (mounted) {
           setSets(data);
           if (data.length > 0) {
-            setSelectedSetId((prev) => (data.some((s) => s.id === prev) ? prev : data[0].id));
+            const fromUrl = searchParams.get('item');
+            setSelectedSetIdState((prev) => {
+              if (prev && data.some((s) => s.id === prev)) return prev;
+              if (fromUrl && data.some((s) => s.id === fromUrl)) return fromUrl;
+              return data[0].id;
+            });
           }
         }
       })

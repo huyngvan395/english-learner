@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import {
   ArrowLeft,
   BookOpenCheck,
@@ -24,13 +25,17 @@ import { QuizModeType, VocabQuizModes } from './VocabQuizModes';
 
 interface DeckStudyViewProps {
   deck: VocabDeck;
+  initialTopicId?: string;
   onBack: () => void;
 }
 
 type StudyTab = 'active-recall' | 'flashcard' | QuizModeType | 'list';
+const VALID_TABS: StudyTab[] = ['active-recall', 'flashcard', 'meaning', 'listening', 'cloze', 'matching', 'list'];
 
-export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) => {
+export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopicId, onBack }) => {
   const { vocabProgress, toggleSaveWord, isWordSaved } = useApp();
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   // Ensure topics array always exists cleanly
   const topics = useMemo(() => {
@@ -38,15 +43,55 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
     return [{ id: `${deck.id}-all`, name: deck.title, icon: 'education', words: deck.words }];
   }, [deck]);
 
-  const [selectedTopicId, setSelectedTopicId] = useState<string>(topics[0].id);
-  const [activeTab, setActiveTab] = useState<StudyTab>('active-recall');
+  const resolvedTopicId = useMemo(() => {
+    if (initialTopicId && topics.some((t) => t.id === initialTopicId)) {
+      return initialTopicId;
+    }
+    return topics[0].id;
+  }, [initialTopicId, topics]);
+
+  const rawTab = searchParams.get('tab') as StudyTab | null;
+  const activeTab: StudyTab = rawTab && VALID_TABS.includes(rawTab) ? rawTab : 'active-recall';
   const [mobileTopicsOpen, setMobileTopicsOpen] = useState(false);
+
+  // Normalize /vocabulary/:deckId -> /vocabulary/:deckId/:topicId on mount
+  useEffect(() => {
+    if (!initialTopicId || !topics.some((t) => t.id === initialTopicId)) {
+      const qs = searchParams.toString();
+      navigate(
+        `/vocabulary/${encodeURIComponent(deck.id)}/${encodeURIComponent(topics[0].id)}${qs ? `?${qs}` : ''}`,
+        { replace: true }
+      );
+    }
+  }, [deck.id, initialTopicId, topics, navigate, searchParams]);
 
   const activeTopicIndex = Math.max(
     0,
-    topics.findIndex((t) => t.id === selectedTopicId)
+    topics.findIndex((t) => t.id === resolvedTopicId)
   );
   const activeTopic = topics[activeTopicIndex] || topics[0];
+
+  const handleSelectTopic = (nextTopicId: string) => {
+    const nextParams = new URLSearchParams(searchParams);
+    nextParams.delete('card');
+    const qs = nextParams.toString();
+    navigate(
+      `/vocabulary/${encodeURIComponent(deck.id)}/${encodeURIComponent(nextTopicId)}${qs ? `?${qs}` : ''}`
+    );
+  };
+
+  const handleSelectTab = (tab: StudyTab) => {
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (tab === 'active-recall') next.delete('tab');
+        else next.set('tab', tab);
+        next.delete('card');
+        return next;
+      },
+      { replace: true }
+    );
+  };
 
   const deckMastered = deck.words.filter((w) => vocabProgress[w.id]?.status === 'mastered').length;
   const deckPct = Math.round((deckMastered / Math.max(1, deck.words.length)) * 100);
@@ -62,7 +107,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
 
   const handleGoNextTopic = () => {
     if (activeTopicIndex + 1 < topics.length) {
-      setSelectedTopicId(topics[activeTopicIndex + 1].id);
+      handleSelectTopic(topics[activeTopicIndex + 1].id);
     }
   };
 
@@ -155,7 +200,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
                 key={topic.id}
                 type="button"
                 onClick={() => {
-                  setSelectedTopicId(topic.id);
+                  handleSelectTopic(topic.id);
                   setMobileTopicsOpen(false);
                 }}
                 className={`w-full rounded-2xl border p-3 text-left transition-all flex items-center gap-3 ${cardCls}`}
@@ -232,7 +277,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, onBack }) =>
                 <button
                   key={m.id}
                   type="button"
-                  onClick={() => setActiveTab(m.id)}
+                  onClick={() => handleSelectTab(m.id)}
                   className={`shrink-0 inline-flex items-center gap-1.5 rounded-xl px-3 py-2 sm:px-2.5 sm:py-1.5 text-xs font-bold transition ${
                     active
                       ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'

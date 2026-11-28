@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import { Headphones, Image, MessageCircle, Mic, Users } from 'lucide-react';
 import { ListeningMeta } from '../../types';
 import { loadListeningMeta } from '../../utils/listeningLoader';
@@ -6,8 +7,18 @@ import { ListeningPart1View } from './ListeningPart1View';
 import { ListeningPart2View } from './ListeningPart2View';
 import { ListeningPart34View } from './ListeningPart34View';
 
+function parseListeningPart(raw?: string): 1 | 2 | 3 | 4 | null {
+  if (raw === 'part-1' || raw === '1') return 1;
+  if (raw === 'part-2' || raw === '2') return 2;
+  if (raw === 'part-3' || raw === '3') return 3;
+  if (raw === 'part-4' || raw === '4') return 4;
+  return null;
+}
+
 export const ListeningHub: React.FC = () => {
-  const [part, setPart] = useState<1 | 2 | 3 | 4>(1);
+  const { part: partParam } = useParams<{ part?: string }>();
+  const navigate = useNavigate();
+  const parsedPart = parseListeningPart(partParam);
   const [meta, setMeta] = useState<ListeningMeta | null>(null);
 
   useEffect(() => {
@@ -23,6 +34,12 @@ export const ListeningHub: React.FC = () => {
       mounted = false;
     };
   }, []);
+
+  if (!parsedPart) {
+    return <Navigate to="/listening/part-1" replace />;
+  }
+
+  const part = parsedPart;
 
   const parts = [
     {
@@ -82,7 +99,7 @@ export const ListeningHub: React.FC = () => {
               <button
                 key={p.id}
                 type="button"
-                onClick={() => setPart(p.id)}
+                onClick={() => navigate(`/listening/part-${p.id}`)}
                 className={`rounded-2xl border p-3.5 sm:p-4 text-left transition ${
                   active
                     ? 'border-indigo-400 bg-indigo-50 shadow-sm dark:border-cyan-400/50 dark:bg-indigo-500/15 dark:shadow-glow'

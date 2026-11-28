@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import {
   AlertCircle,
   BookOpen,
@@ -97,16 +98,52 @@ function formatTimer(seconds: number): string {
   return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
 }
 
+function parseWritingModeParam(raw?: string): WritingMode | null {
+  if (raw === 'translation') return 'translation';
+  if (raw === 'email' || raw === 'toeic-email') return 'toeic-email';
+  if (raw === 'opinion') return 'opinion';
+  if (raw === 'custom') return 'custom';
+  return null;
+}
+
+function serializeWritingModeSlug(mode: WritingMode): string {
+  return mode === 'toeic-email' ? 'email' : mode;
+}
+
 export const WritingHub: React.FC = () => {
   const { writingHistory, saveWritingSubmission } = useApp();
+  const { mode: modeParam } = useParams<{ mode?: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
 
-  const [mode, setMode] = useState<WritingMode>('translation');
+  const validMode = parseWritingModeParam(modeParam);
+  const mode: WritingMode = validMode || 'translation';
+
+  const setMode = (nextMode: WritingMode) => {
+    navigate(`/writing/${serializeWritingModeSlug(nextMode)}`);
+  };
+
   const [difficultyFilter, setDifficultyFilter] = useState<'Tất cả' | WritingDifficulty>('Tất cả');
   const [meta, setMeta] = useState<WritingMeta | null>(null);
   const [prompts, setPrompts] = useState<WritingPromptItem[]>([]);
   const [loadingPrompts, setLoadingPrompts] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
-  const [selectedPromptId, setSelectedPromptId] = useState<string>('');
+  const [selectedPromptId, setSelectedPromptIdState] = useState<string>(
+    () => searchParams.get('prompt') || ''
+  );
+
+  const setSelectedPromptId = (id: string) => {
+    setSelectedPromptIdState(id);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (id) next.set('prompt', id);
+        else next.delete('prompt');
+        return next;
+      },
+      { replace: true }
+    );
+  };
 
   // Custom prompt state
   const [customPrompt, setCustomPrompt] = useState<CustomPromptState>(() => loadCustomPrompt());
@@ -189,7 +226,12 @@ export const WritingHub: React.FC = () => {
         if (mounted) {
           setPrompts(list);
           if (list.length > 0) {
-            setSelectedPromptId((prev) => (list.some((p) => p.id === prev) ? prev : list[0].id));
+            const fromUrl = searchParams.get('prompt');
+            setSelectedPromptIdState((prev) => {
+              if (fromUrl && list.some((p) => p.id === fromUrl)) return fromUrl;
+              if (prev && list.some((p) => p.id === prev)) return prev;
+              return list[0].id;
+            });
           }
         }
       })
@@ -251,6 +293,21 @@ export const WritingHub: React.FC = () => {
     () => writingHistory.filter((h) => h.promptId === activePromptKey),
     [writingHistory, activePromptKey]
   );
+
+  // Sync active prompt ID into ?prompt=<id> so F5 stays on the exact writing prompt
+  useEffect(() => {
+    if (mode === 'custom' || !currentPrompt) return;
+    if (searchParams.get('prompt') !== currentPrompt.id) {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          next.set('prompt', currentPrompt.id);
+          return next;
+        },
+        { replace: true }
+      );
+    }
+  }, [mode, currentPrompt?.id]);
 
   const bestScoreByPrompt = useMemo(() => {
     const map = new Map<string, number>();
@@ -408,6 +465,10 @@ export const WritingHub: React.FC = () => {
       badge: 'Tự do',
     },
   ];
+
+  if (!validMode) {
+    return <Navigate to="/writing/translation" replace />;
+  }
 
   return (
     <div className="space-y-6">

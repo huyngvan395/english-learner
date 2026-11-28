@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import {
   BarChart3,
   BookOpen,
@@ -19,13 +20,10 @@ import {
   Trophy,
   X,
 } from 'lucide-react';
-import { NavTab } from '../types';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
 
 interface SidebarProps {
-  activeTab: NavTab;
-  onSelectTab: (tab: NavTab) => void;
   collapsed: boolean;
   onToggleCollapse: () => void;
   mobileOpen: boolean;
@@ -33,8 +31,6 @@ interface SidebarProps {
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
-  activeTab,
-  onSelectTab,
   collapsed,
   onToggleCollapse,
   mobileOpen,
@@ -71,38 +67,33 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ).length;
 
   const navItems: {
-    id: NavTab;
+    to: string;
     label: string;
     sublabel: string;
     icon: React.FC<{ className?: string }>;
     badge?: number | string;
   }[] = [
-    { id: 'vocab', label: 'Từ vựng', sublabel: '16 Bộ thẻ • 10.996 từ', icon: BookOpen },
+    { to: '/vocabulary', label: 'Từ vựng', sublabel: '16 Bộ thẻ • 10.996 từ', icon: BookOpen },
     {
-      id: 'toeic-exam',
+      to: '/tests',
       label: 'Luyện thi TOEIC',
       sublabel: 'Đề ETS 24–26, 7 Part & Câu sai',
       icon: Trophy,
       badge: wrongQuestions.length > 0 ? wrongQuestions.length : 'ETS',
     },
-    { id: 'reading', label: 'TOEIC Reading', sublabel: 'Part 5, 6, 7 chuyên sâu', icon: FileText },
-    { id: 'listening', label: 'TOEIC Listening', sublabel: 'Part 1, 2, 3, 4 chuẩn ETS', icon: Headphones },
+    { to: '/reading', label: 'TOEIC Reading', sublabel: 'Part 5, 6, 7 chuyên sâu', icon: FileText },
+    { to: '/listening', label: 'TOEIC Listening', sublabel: 'Part 1, 2, 3, 4 chuẩn ETS', icon: Headphones },
     {
-      id: 'writing',
+      to: '/writing',
       label: 'Writing & AI Chấm bài',
       sublabel: 'Dịch Việt–Anh & TOEIC Email',
       icon: PenTool,
       badge: 'AI',
     },
-    { id: 'my-vocab', label: 'Từ vựng của tôi', sublabel: 'SRS & Từ đã lưu', icon: BookmarkCheck, badge: savedCount || undefined },
-    { id: 'notes', label: 'Ghi chú của tôi', sublabel: 'Từ vựng & Câu hỏi', icon: NotebookPen, badge: notes.length || undefined },
-    { id: 'analytics', label: 'Thống kê học tập', sublabel: 'Phân tích điểm yếu', icon: BarChart3 },
+    { to: '/my-vocabulary', label: 'Từ vựng của tôi', sublabel: 'SRS & Từ đã lưu', icon: BookmarkCheck, badge: savedCount || undefined },
+    { to: '/notes', label: 'Ghi chú của tôi', sublabel: 'Từ vựng & Câu hỏi', icon: NotebookPen, badge: notes.length || undefined },
+    { to: '/stats', label: 'Thống kê học tập', sublabel: 'Phân tích điểm yếu', icon: BarChart3 },
   ];
-
-  const handleClick = (id: NavTab) => {
-    onSelectTab(id);
-    onCloseMobile();
-  };
 
   const renderContent = (isMobile: boolean) => {
     const isCollapsed = !isMobile && collapsed;
@@ -151,60 +142,65 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <nav className="flex-1 space-y-1.5 overflow-y-auto p-3">
           {navItems.map((item) => {
             const Icon = item.icon;
-            const active = activeTab === item.id;
             return (
-              <button
-                key={item.id}
-                type="button"
-                onClick={() => handleClick(item.id)}
+              <NavLink
+                key={item.to}
+                to={item.to}
+                onClick={onCloseMobile}
                 title={isCollapsed ? item.label : undefined}
-                className={`group relative flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-all ${
-                  active
-                    ? 'bg-indigo-50 border border-indigo-200 text-indigo-700 font-semibold dark:bg-indigo-500/20 dark:border-indigo-400/40 dark:text-indigo-100 shadow-sm'
-                    : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800/70 dark:hover:text-white border border-transparent'
-                }`}
+                className={({ isActive }) =>
+                  `group relative flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-all ${
+                    isActive
+                      ? 'bg-indigo-50 border border-indigo-200 text-indigo-700 font-semibold dark:bg-indigo-500/20 dark:border-indigo-400/40 dark:text-indigo-100 shadow-sm'
+                      : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800/70 dark:hover:text-white border border-transparent'
+                  }`
+                }
               >
-                <Icon
-                  className={`h-5 w-5 shrink-0 transition ${
-                    active
-                      ? 'text-indigo-600 dark:text-indigo-300'
-                      : 'text-slate-500 group-hover:text-slate-800 dark:text-slate-400 dark:group-hover:text-slate-200'
-                  }`}
-                />
-                {!isCollapsed && (
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center justify-between gap-2">
-                      <span
-                        className={`truncate text-sm font-semibold ${
-                          active ? 'text-indigo-700 dark:text-indigo-100' : ''
-                        }`}
-                      >
-                        {item.label}
-                      </span>
-                      {item.badge !== undefined && (
-                        <span
-                          className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
-                            active
-                              ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-400/25 dark:text-indigo-200'
-                              : 'bg-indigo-50 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300'
+                {({ isActive }) => (
+                  <>
+                    <Icon
+                      className={`h-5 w-5 shrink-0 transition ${
+                        isActive
+                          ? 'text-indigo-600 dark:text-indigo-300'
+                          : 'text-slate-500 group-hover:text-slate-800 dark:text-slate-400 dark:group-hover:text-slate-200'
+                      }`}
+                    />
+                    {!isCollapsed && (
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center justify-between gap-2">
+                          <span
+                            className={`truncate text-sm font-semibold ${
+                              isActive ? 'text-indigo-700 dark:text-indigo-100' : ''
+                            }`}
+                          >
+                            {item.label}
+                          </span>
+                          {item.badge !== undefined && (
+                            <span
+                              className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
+                                isActive
+                                  ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-400/25 dark:text-indigo-200'
+                                  : 'bg-indigo-50 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300'
+                              }`}
+                            >
+                              {item.badge}
+                            </span>
+                          )}
+                        </div>
+                        <p
+                          className={`truncate text-[11px] ${
+                            isActive
+                              ? 'text-indigo-600/80 dark:text-slate-300'
+                              : 'text-slate-500 group-hover:text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-300'
                           }`}
                         >
-                          {item.badge}
-                        </span>
-                      )}
-                    </div>
-                    <p
-                      className={`truncate text-[11px] ${
-                        active
-                          ? 'text-indigo-600/80 dark:text-slate-300'
-                          : 'text-slate-500 group-hover:text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-300'
-                      }`}
-                    >
-                      {item.sublabel}
-                    </p>
-                  </div>
+                          {item.sublabel}
+                        </p>
+                      </div>
+                    )}
+                  </>
                 )}
-              </button>
+              </NavLink>
             );
           })}
         </nav>

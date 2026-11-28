@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   BookOpen,
   CheckCircle2,
@@ -54,12 +55,28 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
     recordReadingResult,
   } = useApp();
 
+  const [searchParams, setSearchParams] = useSearchParams();
   const [passages, setPassages] = useState<ReadingPart6Passage[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
   const [genreFilter, setGenreFilter] = useState<Part6GenreFilter>('all');
-  const [selectedPassageId, setSelectedPassageId] = useState<string>('');
+  const [selectedPassageId, setSelectedPassageIdState] = useState<string>(
+    () => searchParams.get('item') || ''
+  );
+
+  const setSelectedPassageId = (id: string) => {
+    setSelectedPassageIdState(id);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (id) next.set('item', id);
+        else next.delete('item');
+        return next;
+      },
+      { replace: true }
+    );
+  };
   const [answers, setAnswers] = useState<Record<string, OptionKey>>({});
   const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({});
   const [examSubmitted, setExamSubmitted] = useState(false);
@@ -77,7 +94,11 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
       .then((data) => {
         if (mounted) {
           setPassages(data);
-          if (data.length > 0) setSelectedPassageId((prev) => prev || data[0].id);
+          if (data.length > 0) {
+            const fromUrl = searchParams.get('item');
+            const initial = fromUrl && data.some((p) => p.id === fromUrl) ? fromUrl : data[0].id;
+            setSelectedPassageIdState((prev) => (prev && data.some((p) => p.id === prev) ? prev : initial));
+          }
         }
       })
       .catch((err) => {

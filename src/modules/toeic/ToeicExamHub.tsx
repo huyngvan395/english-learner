@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import {
   AlertTriangle,
+  ArrowLeft,
   BookOpenCheck,
   Check,
   Clock,
@@ -57,15 +59,49 @@ function getTestYearBucket(t: ToeicTestMeta): Exclude<YearFilterKey, 'all'> {
 
 export const ToeicExamHub: React.FC = () => {
   const { wrongQuestions, examHistory } = useApp();
-  const [activeTab, setActiveTab] = useState<HubTab>('tests');
+  const { testId: routeTestId } = useParams<{ testId?: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+
+  const rawTab = searchParams.get('tab') as HubTab | null;
+  const activeTab: HubTab =
+    rawTab === 'drills' || rawTab === 'history' || rawTab === 'tests' ? rawTab : 'tests';
+  const setActiveTab = (nextTab: HubTab) => {
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (nextTab === 'tests') next.delete('tab');
+        else next.set('tab', nextTab);
+        next.delete('drill');
+        return next;
+      },
+      { replace: true }
+    );
+  };
+
   const [selectedYear, setSelectedYear] = useState<YearFilterKey>('all');
   const [testsMeta, setTestsMeta] = useState<ToeicTestMeta[]>([]);
   const [drillsMeta, setDrillsMeta] = useState<ToeicDrillMeta[]>([]);
   const [loadingMeta, setLoadingMeta] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
-  // Drill Part selector (Part 1..7)
-  const [selectedDrillPart, setSelectedDrillPart] = useState<ToeicPartNumber>(1);
+  // Drill Part selector (Part 1..7) synced with ?part=
+  const rawPartParam = Number(searchParams.get('part') || '1');
+  const selectedDrillPart: ToeicPartNumber =
+    rawPartParam >= 1 && rawPartParam <= 7 ? (rawPartParam as ToeicPartNumber) : 1;
+  const setSelectedDrillPart = (part: ToeicPartNumber) => {
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        next.set('tab', 'drills');
+        next.set('part', String(part));
+        return next;
+      },
+      { replace: true }
+    );
+  };
+
+  const routeDrillId = searchParams.get('drill');
 
   // Active exam or drill session
   const [activeTest, setActiveTest] = useState<{ data: ToeicTestData; config: ToeicExamLaunchConfig } | null>(null);
@@ -77,6 +113,97 @@ export const ToeicExamHub: React.FC = () => {
   const [launchMode, setLaunchMode] = useState<'full' | 'mini' | 'custom'>('full');
   const [customParts, setCustomParts] = useState<ToeicPartNumber[]>([1, 2, 3, 4, 5, 6, 7]);
   const [customMinutes, setCustomMinutes] = useState<number>(30);
+
+  // Deep-link / F5 auto-loader for /tests/:testId(?mode=...&parts=...&duration=...)
+  useEffect(() => {
+    if (!routeTestId) {
+      setActiveTest(null);
+      return;
+    }
+    if (activeTest?.data.id === routeTestId) return;
+
+    let cancelled = false;
+    setLoadError(null);
+    setLoadingPayload(routeTestId);
+
+    const modeParam = searchParams.get('mode');
+    const resolvedMode: 'full' | 'mini' | 'custom' =
+      modeParam === 'mini' || modeParam === 'custom' ? modeParam : 'full';
+    const partsParam = searchParams.get('parts') || searchParams.get('part');
+    let parsedParts: ToeicPartNumber[] = ALL_PARTS;
+    if (partsParam) {
+      const nums = partsParam
+        .split(',')
+        .map((s) => Number(s.trim()))
+        .filter((n): n is ToeicPartNumber => n >= 1 && n <= 7);
+      if (nums.length > 0) {
+        parsedParts = Array.from(new Set(nums)).sort((a, b) => a - b);
+      }
+    }
+    const durParam = Number(searchParams.get('duration') || '0');
+
+    loadToeicTest(routeTestId)
+      .then((data) => {
+        if (cancelled) return;
+        const durationMinutes =
+          durParam > 0
+            ? durParam
+            : resolvedMode === 'mini'
+            ? Math.max(15, Math.round((data.durationMinutes || 120) / 2))
+            : data.durationMinutes || 120;
+        setActiveTest({
+          data,
+          config: {
+            mode: parsedParts.length < 7 && resolvedMode === 'full' ? 'custom' : resolvedMode,
+            selectedParts: parsedParts,
+            durationMinutes,
+          },
+        });
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setActiveTest(null);
+          setLoadError(err instanceof Error ? err.message : 'Không thể tải đề thi ETS này');
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingPayload(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [routeTestId, activeTest?.data.id, searchParams]);
+
+  // Deep-link / F5 auto-loader for /tests?tab=drills&drill=<drillId>
+  useEffect(() => {
+    if (!routeDrillId || routeTestId) {
+      setActiveDrill(null);
+      return;
+    }
+    if (activeDrill?.id === routeDrillId) return;
+
+    let cancelled = false;
+    setLoadError(null);
+    setLoadingPayload(routeDrillId);
+    loadToeicDrill(routeDrillId)
+      .then((data) => {
+        if (!cancelled) setActiveDrill(data);
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setActiveDrill(null);
+          setLoadError(err instanceof Error ? err.message : 'Không thể tải chuyên đề luyện tập');
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingPayload(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [routeDrillId, routeTestId, activeDrill?.id]);
 
   useEffect(() => {
     let mounted = true;
@@ -172,7 +299,7 @@ export const ToeicExamHub: React.FC = () => {
 
   const handleStartTest = async () => {
     if (!configModalTest) return;
-    const chosenParts = launchMode === 'custom' ? customParts : ALL_PARTS;
+    const chosenParts = [...(launchMode === 'custom' ? customParts : ALL_PARTS)].sort((a, b) => a - b);
     if (chosenParts.length === 0) return;
 
     const duration =
@@ -182,35 +309,24 @@ export const ToeicExamHub: React.FC = () => {
         ? configModalTest.miniDurationMinutes
         : customMinutes;
 
-    setLoadingPayload(configModalTest.id);
-    try {
-      const data = await loadToeicTest(configModalTest.id);
-      setActiveTest({
-        data,
-        config: {
-          mode: launchMode,
-          selectedParts: [...chosenParts].sort((a, b) => a - b),
-          durationMinutes: duration,
-        },
-      });
-      setConfigModalTest(null);
-    } catch (err) {
-      setLoadError(err instanceof Error ? err.message : 'Không thể tải đề thi');
-    } finally {
-      setLoadingPayload(null);
-    }
+    const targetId = configModalTest.id;
+    setConfigModalTest(null);
+    const qs = new URLSearchParams();
+    if (launchMode !== 'full') qs.set('mode', launchMode);
+    if (chosenParts.length < 7) qs.set('parts', chosenParts.join(','));
+    if (duration !== configModalTest.durationMinutes) qs.set('duration', String(duration));
+    const qstr = qs.toString();
+    navigate(`/tests/${encodeURIComponent(targetId)}${qstr ? `?${qstr}` : ''}`);
   };
 
-  const handleStartDrill = async (meta: ToeicDrillMeta) => {
-    setLoadingPayload(meta.id);
-    try {
-      const data = await loadToeicDrill(meta.id);
-      setActiveDrill(data);
-    } catch (err) {
-      setLoadError(err instanceof Error ? err.message : 'Không thể tải chuyên đề');
-    } finally {
-      setLoadingPayload(null);
-    }
+  const handleStartDrill = (meta: ToeicDrillMeta) => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      next.set('tab', 'drills');
+      next.set('part', String(meta.part));
+      next.set('drill', meta.id);
+      return next;
+    });
   };
 
   const handleRetakeFromHistory = (testId: string) => {
@@ -221,20 +337,63 @@ export const ToeicExamHub: React.FC = () => {
     }
   };
 
+  // Loading state on deep link / F5 of /tests/:testId or /tests?drill=...
+  if ((routeTestId && (!activeTest || activeTest.data.id !== routeTestId)) || (routeDrillId && !routeTestId && (!activeDrill || activeDrill.id !== routeDrillId))) {
+    if (loadError) {
+      return (
+        <div className="rounded-3xl border border-rose-500/40 bg-[#1E293B] p-8 text-center space-y-4">
+          <AlertTriangle className="mx-auto h-10 w-10 text-rose-400" />
+          <p className="text-base font-bold text-white">{loadError}</p>
+          <button
+            type="button"
+            onClick={() => navigate('/tests', { replace: true })}
+            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 px-5 py-2.5 text-xs font-bold text-white transition"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Quay lại kho đề thi TOEIC
+          </button>
+        </div>
+      );
+    }
+    return (
+      <div className="rounded-3xl border border-slate-800 bg-[#1E293B] p-12 flex flex-col items-center justify-center gap-3 text-slate-300 shadow-card">
+        <Loader2 className="h-6 w-6 animate-spin text-indigo-400" />
+        <p className="text-sm font-semibold">
+          {routeTestId ? 'Đang tải đề thi TOEIC ETS...' : 'Đang tải chuyên đề luyện tập...'}
+        </p>
+      </div>
+    );
+  }
+
   // Active Exam Runner View
   if (activeTest) {
     return (
       <ToeicTestRunner
         test={activeTest.data}
         config={activeTest.config}
-        onExit={() => setActiveTest(null)}
+        onExit={() => {
+          setActiveTest(null);
+          navigate('/tests');
+        }}
       />
     );
   }
 
   // Active Drill Runner View
   if (activeDrill) {
-    return <ToeicDrillRunner drill={activeDrill} onBack={() => setActiveDrill(null)} />;
+    return (
+      <ToeicDrillRunner
+        drill={activeDrill}
+        onBack={() => {
+          setActiveDrill(null);
+          setSearchParams((prev) => {
+            const next = new URLSearchParams(prev);
+            next.delete('drill');
+            return next;
+          });
+        }}
+      />
+    );
   }
 
   const readyTestsCount = testsMeta.filter((t) => t.status === 'ready').length;

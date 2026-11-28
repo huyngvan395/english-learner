@@ -1,4 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   BookmarkCheck,
   BookmarkPlus,
@@ -48,6 +49,8 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
     listeningProgress,
     recordListeningResult,
   } = useApp();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const hydratedItemRef = useRef(false);
 
   const [sets, setSets] = useState<(ListeningPart3Set | ListeningPart4Set)[]>([]);
   const [loading, setLoading] = useState(true);
@@ -158,6 +161,17 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
   }, [categoryMatched, statusFilter, submittedSets, answers, listeningProgress]);
 
   useEffect(() => {
+    if (hydratedItemRef.current || sets.length === 0) return;
+    hydratedItemRef.current = true;
+    const targetId = searchParams.get('item');
+    if (targetId) {
+      const found = sets.findIndex((s) => s.id === targetId);
+      if (found >= 0) setSetIdx(found);
+    }
+  }, [sets, searchParams]);
+
+  useEffect(() => {
+    if (!hydratedItemRef.current) return;
     setSetIdx(0);
     setActiveLineId(null);
     setHighlightedLineId(null);
@@ -188,6 +202,21 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
 
   const safeIdx = filteredSets.length > 0 ? Math.min(setIdx, filteredSets.length - 1) : 0;
   const currentSet = filteredSets[safeIdx] || null;
+
+  // Keep ?item=<id> synced in URL so F5 restores exact Part 3/4 conversation/talk
+  useEffect(() => {
+    if (!hydratedItemRef.current || !currentSet) return;
+    if (searchParams.get('item') !== currentSet.id) {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          next.set('item', currentSet.id);
+          return next;
+        },
+        { replace: true }
+      );
+    }
+  }, [currentSet?.id]);
   const globalSetNum = currentSet ? sets.findIndex((s) => s.id === currentSet.id) + 1 : 1;
 
   const unitLabel = part === 3 ? 'Hội thoại' : 'Bài nói';

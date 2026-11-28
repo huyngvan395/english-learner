@@ -1,4 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { CheckCircle2, EyeOff, Loader2, RotateCcw } from 'lucide-react';
 import { ListeningMeta, ListeningPart1Question, OptionKey } from '../../types';
 import { useApp } from '../../context/AppContext';
@@ -31,6 +32,8 @@ interface ListeningPart1ViewProps {
 
 export const ListeningPart1View: React.FC<ListeningPart1ViewProps> = ({ meta }) => {
   const { recordAttempt, listeningProgress, recordListeningResult } = useApp();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const hydratedItemRef = useRef(false);
 
   const [questions, setQuestions] = useState<ListeningPart1Question[]>([]);
   const [loading, setLoading] = useState(true);
@@ -111,12 +114,38 @@ export const ListeningPart1View: React.FC<ListeningPart1ViewProps> = ({ meta }) 
   }, [categoryMatched, statusFilter, submitted, selected, listeningProgress]);
 
   useEffect(() => {
+    if (hydratedItemRef.current || questions.length === 0) return;
+    hydratedItemRef.current = true;
+    const targetId = searchParams.get('item');
+    if (targetId) {
+      const found = questions.findIndex((item) => item.id === targetId);
+      if (found >= 0) setIdx(found);
+    }
+  }, [questions, searchParams]);
+
+  useEffect(() => {
+    if (!hydratedItemRef.current) return;
     setIdx(0);
     setActiveLineId(null);
   }, [sceneFilter, statusFilter]);
 
   const safeIdx = filteredQuestions.length > 0 ? Math.min(idx, filteredQuestions.length - 1) : 0;
   const q = filteredQuestions[safeIdx] || null;
+
+  // Keep ?item=<id> synced in URL so F5 restores exact Part 1 photo
+  useEffect(() => {
+    if (!hydratedItemRef.current || !q) return;
+    if (searchParams.get('item') !== q.id) {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          next.set('item', q.id);
+          return next;
+        },
+        { replace: true }
+      );
+    }
+  }, [q?.id]);
   const globalNumber = q ? questions.findIndex((item) => item.id === q.id) + 1 : 0;
 
   const navEntries: ListeningNavEntry[] = useMemo(

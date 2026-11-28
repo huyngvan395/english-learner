@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   ArrowLeft,
   ArrowRight,
@@ -212,13 +213,35 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
   onExitSession,
 }) => {
   const { vocabProgress, rateWordSrs, toggleSaveWord, isWordSaved, getNoteByTarget } = useApp();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  const buildQueue = (includeMastered: boolean): VocabWord[] => {
-    if (includeMastered || sessionMode) return [...topic.words];
-    return topic.words.filter((w) => vocabProgress[w.id]?.status !== 'mastered');
+  const buildQueue = (includeMastered: boolean, preferredCardOneBased?: number): VocabWord[] => {
+    const base =
+      includeMastered || sessionMode
+        ? [...topic.words]
+        : topic.words.filter((w) => vocabProgress[w.id]?.status !== 'mastered');
+    if (
+      preferredCardOneBased &&
+      preferredCardOneBased >= 1 &&
+      preferredCardOneBased <= topic.words.length
+    ) {
+      const targetWord = topic.words[preferredCardOneBased - 1];
+      if (targetWord) {
+        const idxInBase = base.findIndex((w) => w.id === targetWord.id);
+        if (idxInBase > 0) {
+          return [...base.slice(idxInBase), ...base.slice(0, idxInBase)];
+        }
+        if (idxInBase === -1 && base.length > 0) {
+          // If the reloaded card was already mastered, still put it up front cleanly
+          return [targetWord, ...base];
+        }
+      }
+    }
+    return base;
   };
 
-  const [queue, setQueue] = useState<VocabWord[]>(() => buildQueue(false));
+  const initialCardParam = Number(searchParams.get('card') || '0') || undefined;
+  const [queue, setQueue] = useState<VocabWord[]>(() => buildQueue(false, initialCardParam));
   const [cardTurnKey, setCardTurnKey] = useState(0);
   const [inputVal, setInputVal] = useState('');
   const [cardState, setCardState] = useState<'typing' | 'correct' | 'revealed'>('typing');
@@ -238,7 +261,8 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
 
   // Reset queue & hint state cleanly when switching topics
   useEffect(() => {
-    setQueue(buildQueue(false));
+    const cardFromUrl = Number(searchParams.get('card') || '0') || undefined;
+    setQueue(buildQueue(false, cardFromUrl));
     setCardTurnKey((k) => k + 1);
     setInputVal('');
     setCardState('typing');
@@ -256,6 +280,24 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
   }, [topic.id, sessionMode]);
 
   const current = queue[0] || null;
+
+  // Keep ?card=<1-based index> synced in URL so F5 restores the exact card
+  useEffect(() => {
+    if (!current) return;
+    const posInTopic = topic.words.findIndex((w) => w.id === current.id);
+    if (posInTopic < 0) return;
+    const desired = String(posInTopic + 1);
+    if (searchParams.get('card') !== desired) {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          next.set('card', desired);
+          return next;
+        },
+        { replace: true }
+      );
+    }
+  }, [current?.id, topic.words]);
 
   // Fresh Fisher-Yates random reveal order per card turn (guaranteed reset on every new card!)
   const shuffledIndices = useMemo(() => {

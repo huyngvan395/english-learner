@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   CheckCircle2,
   ChevronLeft,
@@ -38,6 +39,7 @@ function highlightKeyword(sentence: string, keyword: string): React.ReactNode {
 
 export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }) => {
   const { vocabProgress, markWordStatus, toggleSaveWord, isWordSaved } = useApp();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   // Prioritize unmastered/forgotten words first using SRS state
   const initialQueue = useMemo(() => {
@@ -55,11 +57,33 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
   }, [words]);
 
   const [queue, setQueue] = useState<VocabWord[]>(initialQueue);
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(() => {
+    const raw = Number(searchParams.get('card') || '1');
+    if (Number.isFinite(raw) && raw >= 1 && raw <= initialQueue.length) {
+      return raw - 1;
+    }
+    return 0;
+  });
   const [flipped, setFlipped] = useState(false);
   const [accent, setAccent] = useState<AccentType>('en-US');
   const [speed, setSpeed] = useState<number>(1.0);
   const [requeueToast, setRequeueToast] = useState<string | null>(null);
+
+  // Sync ?card=<1-based> in URL so F5 keeps the exact flashcard
+  useEffect(() => {
+    if (queue.length === 0) return;
+    const desired = String(Math.min(index, queue.length - 1) + 1);
+    if (searchParams.get('card') !== desired) {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          next.set('card', desired);
+          return next;
+        },
+        { replace: true }
+      );
+    }
+  }, [index, queue.length]);
 
   const current = queue[index] || queue[0];
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   CheckCircle2,
   ChevronLeft,
@@ -36,14 +37,51 @@ function matchesDifficulty(qDiff: string, filter: DifficultyFilter): boolean {
 
 export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }) => {
   const { recordAttempt, readingProgress, recordReadingResult } = useApp();
+  const [searchParams, setSearchParams] = useSearchParams();
+
   const [questions, setQuestions] = useState<ReadingPart5Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
-  const [selectedTopic, setSelectedTopic] = useState<string>('Tất cả');
+  const [selectedTopic, setSelectedTopicState] = useState<string>(
+    () => searchParams.get('topic') || 'Tất cả'
+  );
   const [difficultyFilter, setDifficultyFilter] = useState<DifficultyFilter>('all');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('all');
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState<number>(() => {
+    const p = Number(searchParams.get('page') || '1');
+    return Number.isFinite(p) && p >= 1 ? Math.floor(p) : 1;
+  });
+
+  const setSelectedTopic = (nextTopic: string) => {
+    setSelectedTopicState(nextTopic);
+    setCurrentPage(1);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (nextTopic === 'Tất cả') next.delete('topic');
+        else next.set('topic', nextTopic);
+        next.delete('page');
+        return next;
+      },
+      { replace: true }
+    );
+  };
+
+  useEffect(() => {
+    const desired = currentPage <= 1 ? null : String(currentPage);
+    if (searchParams.get('page') !== desired) {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          if (!desired) next.delete('page');
+          else next.set('page', desired);
+          return next;
+        },
+        { replace: true }
+      );
+    }
+  }, [currentPage]);
 
   const [answers, setAnswers] = useState<Record<string, OptionKey>>({});
   const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({});
@@ -106,7 +144,7 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
 
   useEffect(() => {
     setCurrentPage(1);
-  }, [selectedTopic, difficultyFilter, statusFilter]);
+  }, [difficultyFilter, statusFilter]);
 
   useEffect(() => {
     setAnswers({});

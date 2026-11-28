@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   ArrowLeft,
   BookmarkCheck,
@@ -29,13 +30,49 @@ const FILTER_LABELS: Record<FilterKey, string> = {
   mastered: 'Từ đã thuộc',
 };
 
+function parseFilterParam(raw: string | null): FilterKey {
+  if (raw === 'srs' || raw === 'srs-due') return 'srs-due';
+  if (raw === 'starred') return 'starred';
+  if (raw === 'mastered') return 'mastered';
+  return 'all';
+}
+
+function serializeFilterParam(key: FilterKey): string {
+  return key === 'srs-due' ? 'srs' : key;
+}
+
+function parseModeParam(raw: string | null): StudySessionMode | null {
+  if (raw === 'typing' || raw === 'active-recall') return 'active-recall';
+  if (raw === 'flashcard') return 'flashcard';
+  return null;
+}
+
 export const MyVocabView: React.FC = () => {
-  const { searchIndex, customWords, vocabProgress, toggleSaveWord, markWordStatus } = useApp();
-  const [filter, setFilter] = useState<FilterKey>('all');
+  const { searchIndex, searchIndexLoading, customWords, vocabProgress, toggleSaveWord, markWordStatus } = useApp();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const filter = parseFilterParam(searchParams.get('tab'));
+  const urlMode = parseModeParam(searchParams.get('mode'));
+
   const [studyWords, setStudyWords] = useState<VocabWord[] | null>(null);
-  const [studyMode, setStudyMode] = useState<StudySessionMode>('flashcard');
+  const [studyMode, setStudyMode] = useState<StudySessionMode>(urlMode || 'flashcard');
   const [sessionTitle, setSessionTitle] = useState<string>('Từ vựng của tôi');
   const [loadingMode, setLoadingMode] = useState<StudySessionMode | null>(null);
+  const autoRestoredKeyRef = useRef<string | null>(null);
+
+  const setFilter = (nextFilter: FilterKey) => {
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (nextFilter === 'all') next.delete('tab');
+        else next.set('tab', serializeFilterParam(nextFilter));
+        next.delete('mode');
+        next.delete('card');
+        return next;
+      },
+      { replace: true }
+    );
+  };
 
   const trackedEntries = useMemo(() => {
     return searchIndex.filter((w) => {
@@ -83,7 +120,7 @@ export const MyVocabView: React.FC = () => {
    * matching entries in the main searchIndex decks to enrich IPA, definitions, examples,
    * wordFamily, synonyms, antonyms & collocations while preserving the user's tracked word ID.
    */
-  const resolveStudyWords = async (entries: SearchIndexEntry[]): Promise<VocabWord[]> => {
+  const resolveStudyWords = useCallback(async (entries: SearchIndexEntry[]): Promise<VocabWord[]> => {
     const standardWordByText = new Map<string, SearchIndexEntry>();
     for (const row of searchIndex) {
       if (row.deckId && !CUSTOM_DECK_IDS.has(row.deckId)) {
@@ -137,7 +174,6 @@ export const MyVocabView: React.FC = () => {
       const textEnrich = fullWordByText.get(e.word.trim().toLowerCase());
 
       if (customWord && textEnrich) {
-        // Merge rich dictionary data while preserving the user's tracked wordId & deckId for SRS + Cloud sync!
         resolved.push({
           ...textEnrich,
           id: customWord.id,
@@ -155,7 +191,6 @@ export const MyVocabView: React.FC = () => {
       }
 
       if (customWord) {
-        // Clean synthetic boilerplate definitions on sparse custom words so card stays crisp
         const isBoilerplateEn =
           customWord.definitionEn?.startsWith('A high-frequency TOEIC listening expression') ||
           customWord.definitionEn?.startsWith('High-value expression extracted from AI Writing');
@@ -179,7 +214,6 @@ export const MyVocabView: React.FC = () => {
         continue;
       }
 
-      // Final graceful fallback from lightweight SearchIndexEntry
       resolved.push({
         id: e.id,
         deckId: e.deckId,
@@ -199,21 +233,78 @@ export const MyVocabView: React.FC = () => {
     }
 
     return resolved;
+  }, [searchIndex, customWords]);
+
+  const handleStartReview = useCallback(
+    async (entries: SearchIndexEntry[], mode: StudySessionMode, pushHistory = true) => {
+      if (entries.length === 0) return;
+      setLoadingMode(mode);
+      try {
+        const resolved = await resolveStudyWords(entries);
+        if (resolved.length > 0) {
+          setStudyMode(mode);
+          setSessionTitle(`Từ vựng của tôi — ${FILTER_LABELS[filter]}`);
+          setStudyWords(resolved);
+          autoRestoredKeyRef.current = `${filter}:${mode}`;
+          setSearchParams(
+            (prev) => {
+              const next = new URLSearchParams(prev);
+              if (filter === 'all') next.delete('tab');
+              else next.set('tab', serializeFilterParam(filter));
+              next.set('mode', mode === 'active-recall' ? 'typing' : 'flashcard');
+              return next;
+            },
+            { replace: !pushHistory }
+          );
+        }
+      } finally {
+        setLoadingMode(null);
+      }
+    },
+    [filter, resolveStudyWords, setSearchParams]
+  );
+
+  // Restore ?mode=typing|flashcard automatically on F5 reload after searchIndex finishes loading
+  useEffect(() => {
+    if (!urlMode) {
+      setStudyWords(null);
+      autoRestoredKeyRef.current = null;
+      return;
+    }
+    if (searchIndexLoading) return;
+    if (studyWords && studyWords.length > 0) {
+      if (studyMode !== urlMode) setStudyMode(urlMode);
+      return;
+    }
+    const restoreKey = `${filter}:${urlMode}`;
+    if (autoRestoredKeyRef.current === restoreKey) return;
+    if (filteredEntries.length === 0) return;
+    autoRestoredKeyRef.current = restoreKey;
+    handleStartReview(filteredEntries, urlMode, false);
+  }, [urlMode, searchIndexLoading, filteredEntries, filter, studyWords, studyMode, handleStartReview]);
+
+  const handleSwitchSessionMode = (nextMode: StudySessionMode) => {
+    setStudyMode(nextMode);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        next.set('mode', nextMode === 'active-recall' ? 'typing' : 'flashcard');
+        next.delete('card');
+        return next;
+      },
+      { replace: true }
+    );
   };
 
-  const handleStartReview = async (entries: SearchIndexEntry[], mode: StudySessionMode) => {
-    if (entries.length === 0) return;
-    setLoadingMode(mode);
-    try {
-      const resolved = await resolveStudyWords(entries);
-      if (resolved.length > 0) {
-        setStudyMode(mode);
-        setSessionTitle(`Từ vựng của tôi — ${FILTER_LABELS[filter]}`);
-        setStudyWords(resolved);
-      }
-    } finally {
-      setLoadingMode(null);
-    }
+  const handleExitSession = () => {
+    setStudyWords(null);
+    autoRestoredKeyRef.current = null;
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      next.delete('mode');
+      next.delete('card');
+      return next;
+    });
   };
 
   const activeRecallTopic: VocabTopic | null = useMemo(() => {
@@ -225,6 +316,18 @@ export const MyVocabView: React.FC = () => {
       words: studyWords,
     };
   }, [studyWords, filter, sessionTitle]);
+
+  // Smooth restoring spinner when F5 on /my-vocabulary?mode=typing|flashcard
+  if (urlMode && (!studyWords || studyWords.length === 0) && (searchIndexLoading || loadingMode !== null)) {
+    return (
+      <div className="rounded-3xl border border-slate-800 bg-[#1E293B] p-12 flex flex-col items-center justify-center gap-3 text-slate-300 shadow-card">
+        <Loader2 className="h-6 w-6 animate-spin text-indigo-400" />
+        <p className="text-sm font-semibold">
+          Đang khôi phục phiên ôn {urlMode === 'active-recall' ? 'Gõ từ chủ động' : 'Flashcard'}...
+        </p>
+      </div>
+    );
+  }
 
   if (studyWords && studyWords.length > 0) {
     if (studyMode === 'active-recall' && activeRecallTopic) {
@@ -240,8 +343,8 @@ export const MyVocabView: React.FC = () => {
             onGoNextTopic={() => {}}
             sessionMode
             sessionLabel={sessionTitle}
-            onSwitchToFlashcard={() => setStudyMode('flashcard')}
-            onExitSession={() => setStudyWords(null)}
+            onSwitchToFlashcard={() => handleSwitchSessionMode('flashcard')}
+            onExitSession={handleExitSession}
           />
         </div>
       );
@@ -256,7 +359,7 @@ export const MyVocabView: React.FC = () => {
           <div className="flex items-center gap-2 flex-wrap">
             <button
               type="button"
-              onClick={() => setStudyMode('active-recall')}
+              onClick={() => handleSwitchSessionMode('active-recall')}
               className="inline-flex items-center gap-1.5 rounded-xl border border-emerald-500/45 bg-emerald-500/15 hover:bg-emerald-500/25 px-3.5 py-2 text-xs font-bold text-emerald-300 transition"
             >
               <Keyboard className="h-3.5 w-3.5" />
@@ -264,7 +367,7 @@ export const MyVocabView: React.FC = () => {
             </button>
             <button
               type="button"
-              onClick={() => setStudyWords(null)}
+              onClick={handleExitSession}
               className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 px-3.5 py-2 text-xs font-bold text-slate-200 hover:text-white transition"
             >
               <ArrowLeft className="h-3.5 w-3.5" />

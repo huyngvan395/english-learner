@@ -1,6 +1,8 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import {
   AlertTriangle,
+  ArrowLeft,
   ArrowRight,
   BookOpen,
   CheckCircle2,
@@ -25,11 +27,47 @@ import { DeckStudyView } from './DeckStudyView';
 
 export const VocabHub: React.FC = () => {
   const { vocabProgress, getDeckStats } = useApp();
+  const { deckId, topicId } = useParams<{ deckId?: string; topicId?: string }>();
+  const navigate = useNavigate();
+
   const [selectedTag, setSelectedTag] = useState<'all' | VocabTag>('all');
   const [searchTerm, setSearchTerm] = useState('');
   const [activeDeck, setActiveDeck] = useState<VocabDeck | null>(null);
   const [loadingDeckId, setLoadingDeckId] = useState<string | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
+
+  // Sync deep URL (/vocabulary/:deckId or /vocabulary/:deckId/:topicId) with lazy-loaded deck JSON
+  useEffect(() => {
+    if (!deckId) {
+      setActiveDeck(null);
+      setLoadingDeckId(null);
+      setLoadError(null);
+      return;
+    }
+
+    if (activeDeck?.id === deckId) return;
+
+    let cancelled = false;
+    setLoadError(null);
+    setLoadingDeckId(deckId);
+    loadVocabDeck(deckId)
+      .then((fullDeck) => {
+        if (!cancelled) setActiveDeck(fullDeck);
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setActiveDeck(null);
+          setLoadError(err instanceof Error ? err.message : 'Không tìm thấy bộ thẻ từ vựng này.');
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingDeckId(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [deckId, activeDeck?.id]);
 
   const filteredDecks = useMemo(() => {
     const q = searchTerm.trim().toLowerCase();
@@ -45,21 +83,46 @@ export const VocabHub: React.FC = () => {
     });
   }, [selectedTag, searchTerm]);
 
-  const handleOpenDeck = async (meta: VocabDeckMeta) => {
+  const handleOpenDeck = (meta: VocabDeckMeta) => {
     setLoadError(null);
-    setLoadingDeckId(meta.id);
-    try {
-      const fullDeck = await loadVocabDeck(meta.id);
-      setActiveDeck(fullDeck);
-    } catch (err) {
-      setLoadError(err instanceof Error ? err.message : 'Lỗi tải bộ thẻ từ vựng.');
-    } finally {
-      setLoadingDeckId(null);
-    }
+    navigate(`/vocabulary/${encodeURIComponent(meta.id)}`);
   };
 
+  // Smooth loading state on direct deep link or F5 reload of /vocabulary/:deckId/:topicId
+  if (deckId && (!activeDeck || activeDeck.id !== deckId)) {
+    if (loadError) {
+      return (
+        <div className="rounded-3xl border border-rose-500/40 bg-[#1E293B] p-8 text-center space-y-4">
+          <AlertTriangle className="mx-auto h-10 w-10 text-rose-400" />
+          <p className="text-base font-bold text-white">{loadError}</p>
+          <button
+            type="button"
+            onClick={() => navigate('/vocabulary', { replace: true })}
+            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 px-5 py-2.5 text-xs font-bold text-white transition"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Quay lại kho bộ thẻ từ vựng
+          </button>
+        </div>
+      );
+    }
+
+    return (
+      <div className="rounded-3xl border border-slate-800 bg-[#1E293B] p-12 flex flex-col items-center justify-center gap-3 text-slate-300 shadow-card">
+        <Loader2 className="h-6 w-6 animate-spin text-indigo-400" />
+        <p className="text-sm font-semibold">Đang tải bộ thẻ từ vựng...</p>
+      </div>
+    );
+  }
+
   if (activeDeck) {
-    return <DeckStudyView deck={activeDeck} onBack={() => setActiveDeck(null)} />;
+    return (
+      <DeckStudyView
+        deck={activeDeck}
+        initialTopicId={topicId}
+        onBack={() => navigate('/vocabulary')}
+      />
+    );
   }
 
   const totalMastered = Object.values(vocabProgress).filter((p) => p.status === 'mastered').length;

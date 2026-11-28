@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { BookOpen, FileText, GraduationCap, Layers, Timer } from 'lucide-react';
 import { ReadingMeta } from '../../types';
 import { loadReadingMeta } from '../../utils/readingLoader';
@@ -6,10 +7,33 @@ import { ReadingPart5View } from './ReadingPart5View';
 import { ReadingPart6View } from './ReadingPart6View';
 import { ReadingPart7View } from './ReadingPart7View';
 
+function parseReadingPart(raw?: string): 5 | 6 | 7 | null {
+  if (raw === 'part-5' || raw === '5') return 5;
+  if (raw === 'part-6' || raw === '6') return 6;
+  if (raw === 'part-7' || raw === '7') return 7;
+  return null;
+}
+
 export const ReadingHub: React.FC = () => {
-  const [part, setPart] = useState<5 | 6 | 7>(5);
-  const [mode, setMode] = useState<'practice' | 'exam'>('practice');
+  const { part: partParam } = useParams<{ part?: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+
+  const parsedPart = parseReadingPart(partParam);
+  const mode: 'practice' | 'exam' = searchParams.get('mode') === 'exam' ? 'exam' : 'practice';
   const [meta, setMeta] = useState<ReadingMeta | null>(null);
+
+  const setMode = (nextMode: 'practice' | 'exam') => {
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (nextMode === 'practice') next.delete('mode');
+        else next.set('mode', nextMode);
+        return next;
+      },
+      { replace: true }
+    );
+  };
 
   useEffect(() => {
     let mounted = true;
@@ -24,6 +48,12 @@ export const ReadingHub: React.FC = () => {
       mounted = false;
     };
   }, []);
+
+  if (!parsedPart) {
+    return <Navigate to="/reading/part-5" replace />;
+  }
+
+  const part = parsedPart;
 
   const partMeta = [
     {
@@ -104,7 +134,7 @@ export const ReadingHub: React.FC = () => {
               <button
                 key={p.id}
                 type="button"
-                onClick={() => setPart(p.id)}
+                onClick={() => navigate(`/reading/part-${p.id}${mode === 'exam' ? '?mode=exam' : ''}`)}
                 className={`rounded-2xl border p-4 text-left transition ${
                   active
                     ? 'border-indigo-400 bg-indigo-50 shadow-sm dark:border-indigo-400/50 dark:bg-indigo-500/15 dark:shadow-glow'
