@@ -779,6 +779,11 @@ export interface VideoCatalogItem {
 export interface VideoChannelMeta {
   slug: string;
   name: string;
+  tier?: 'famous' | 'standard';
+  accent?: string;
+  accentCode?: string;
+  levelRange?: string;
+  targetCount?: number;
   videoCount: number;
   avgDurationSec: number;
   avgWpm?: number;

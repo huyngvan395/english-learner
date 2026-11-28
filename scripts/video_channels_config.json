@@ -1,0 +1,435 @@
+[
+  {
+    "slug": "bbc-learning-english",
+    "name": "BBC Learning English",
+    "tier": "famous",
+    "targetCount": 110,
+    "accent": "Anh (UK)",
+    "accentCode": "UK",
+    "levelRange": "A2–B2",
+    "priorLevel": "B1",
+    "priorScore": 2.75,
+    "defaultTopic": "Tin tức & Văn hóa",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@bbclearningenglish/videos"
+    ],
+    "matchChannels": ["bbc learning english"]
+  },
+  {
+    "slug": "ted-ed",
+    "name": "TED-Ed",
+    "tier": "famous",
+    "targetCount": 110,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "priorLevel": "B2",
+    "priorScore": 3.9,
+    "defaultTopic": "Khoa học & Công nghệ",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@TEDEd/videos"
+    ],
+    "matchChannels": ["ted-ed"]
+  },
+  {
+    "slug": "ted",
+    "name": "TED",
+    "tier": "famous",
+    "targetCount": 110,
+    "accent": "Quốc tế (US/UK)",
+    "accentCode": "INTL",
+    "levelRange": "B2–C1",
+    "priorLevel": "C1",
+    "priorScore": 4.45,
+    "defaultTopic": "Kỹ năng & Phát triển",
+    "minSec": 180,
+    "maxSec": 720,
+    "urls": [
+      "https://www.youtube.com/@TED/videos"
+    ],
+    "matchChannels": ["ted"],
+    "exactChannelMatch": true
+  },
+  {
+    "slug": "voa-learning-english",
+    "name": "VOA Learning English",
+    "tier": "famous",
+    "targetCount": 110,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A1–B1",
+    "priorLevel": "A2",
+    "priorScore": 2.05,
+    "defaultTopic": "Tin tức & Văn hóa",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@VOALearningEnglish/videos"
+    ],
+    "matchChannels": ["voa learning english"]
+  },
+  {
+    "slug": "english-with-lucy",
+    "name": "English with Lucy",
+    "tier": "famous",
+    "targetCount": 110,
+    "accent": "Anh (UK)",
+    "accentCode": "UK",
+    "levelRange": "A2–B2",
+    "priorLevel": "B1",
+    "priorScore": 2.85,
+    "defaultTopic": "Kỹ năng & Phát triển",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@EnglishwithLucy/videos"
+    ],
+    "matchChannels": ["english with lucy"]
+  },
+  {
+    "slug": "kurzgesagt",
+    "name": "Kurzgesagt – In a Nutshell",
+    "tier": "standard",
+    "targetCount": 50,
+    "accent": "Anh/Quốc tế",
+    "accentCode": "UK",
+    "levelRange": "B2–C1",
+    "priorLevel": "B2",
+    "priorScore": 4.0,
+    "defaultTopic": "Khoa học & Công nghệ",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@kurzgesagt/videos"
+    ],
+    "matchChannels": ["kurzgesagt"]
+  },
+  {
+    "slug": "speak-english-with-vanessa",
+    "name": "Speak English With Vanessa",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A2–B1",
+    "priorLevel": "A2",
+    "priorScore": 2.2,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@SpeakEnglishWithVanessa/videos"
+    ],
+    "matchChannels": ["speak english with vanessa"]
+  },
+  {
+    "slug": "mmmenglish",
+    "name": "mmmEnglish",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Úc (AU)",
+    "accentCode": "AU",
+    "levelRange": "A2–B1",
+    "priorLevel": "A2",
+    "priorScore": 2.4,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@mmmEnglish_Emma/videos"
+    ],
+    "matchChannels": ["mmmenglish"]
+  },
+  {
+    "slug": "bob-the-canadian",
+    "name": "Bob the Canadian",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Canada (CA)",
+    "accentCode": "CA",
+    "levelRange": "A2–B1",
+    "priorLevel": "A2",
+    "priorScore": 2.35,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@LearnEnglishwithBobtheCanadian/videos"
+    ],
+    "matchChannels": ["bob the canadian"]
+  },
+  {
+    "slug": "rachels-english",
+    "name": "Rachel's English",
+    "tier": "standard",
+    "targetCount": 35,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "priorLevel": "B1",
+    "priorScore": 3.2,
+    "defaultTopic": "Kỹ năng & Phát triển",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@rachelsenglish/videos"
+    ],
+    "matchChannels": ["rachel's english", "rachels english"]
+  },
+  {
+    "slug": "business-english-pod",
+    "name": "Business English Pod",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Mỹ/Quốc tế",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "priorLevel": "B1",
+    "priorScore": 3.35,
+    "defaultTopic": "Công sở & Kinh doanh",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@BusinessEnglishPod/videos"
+    ],
+    "matchChannels": ["business english pod", "business english"]
+  },
+  {
+    "slug": "englishclass101",
+    "name": "EnglishClass101",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A1–B1",
+    "priorLevel": "A2",
+    "priorScore": 2.05,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@EnglishClass101/videos"
+    ],
+    "matchChannels": ["englishclass101"]
+  },
+  {
+    "slug": "easy-english",
+    "name": "Easy English",
+    "tier": "standard",
+    "targetCount": 35,
+    "accent": "Mỹ/Anh",
+    "accentCode": "US",
+    "levelRange": "A1–A2",
+    "priorLevel": "A1",
+    "priorScore": 1.65,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@EasyEnglish551/videos"
+    ],
+    "matchChannels": ["easy english"]
+  },
+  {
+    "slug": "english-speaking-course",
+    "name": "English Speaking Course",
+    "tier": "standard",
+    "targetCount": 30,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A1–A2",
+    "priorLevel": "A1",
+    "priorScore": 1.55,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@EnglishSpeakingCourses/videos"
+    ],
+    "matchChannels": ["english speaking course"]
+  },
+  {
+    "slug": "linguamarina",
+    "name": "Linguamarina",
+    "tier": "standard",
+    "targetCount": 30,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "priorLevel": "B1",
+    "priorScore": 3.25,
+    "defaultTopic": "Kỹ năng & Phát triển",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@linguamarina/videos"
+    ],
+    "matchChannels": ["linguamarina"]
+  },
+  {
+    "slug": "reallife-english",
+    "name": "RealLife English",
+    "tier": "standard",
+    "targetCount": 30,
+    "accent": "Mỹ/Quốc tế",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "priorLevel": "B1",
+    "priorScore": 3.2,
+    "defaultTopic": "Giao tiếp hàng ngày",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@RealLifeEnglish1/videos"
+    ],
+    "matchChannels": ["reallife english"]
+  },
+  {
+    "slug": "the-school-of-life",
+    "name": "The School of Life",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Anh (UK)",
+    "accentCode": "UK",
+    "levelRange": "B2–C1",
+    "priorLevel": "B2",
+    "priorScore": 4.2,
+    "defaultTopic": "Kỹ năng & Phát triển",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@theschooloflifetv/videos"
+    ],
+    "matchChannels": ["the school of life"]
+  },
+  {
+    "slug": "asapscience",
+    "name": "AsapSCIENCE",
+    "tier": "standard",
+    "targetCount": 35,
+    "accent": "Canada (CA)",
+    "accentCode": "CA",
+    "levelRange": "B1–B2",
+    "priorLevel": "B2",
+    "priorScore": 3.45,
+    "defaultTopic": "Khoa học & Công nghệ",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@AsapSCIENCE/videos"
+    ],
+    "matchChannels": ["asapscience"]
+  },
+  {
+    "slug": "vox",
+    "name": "Vox",
+    "tier": "standard",
+    "targetCount": 40,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "priorLevel": "B2",
+    "priorScore": 4.05,
+    "defaultTopic": "Tin tức & Văn hóa",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@Vox/videos"
+    ],
+    "matchChannels": ["vox"]
+  },
+  {
+    "slug": "business-insider",
+    "name": "Business Insider",
+    "tier": "standard",
+    "targetCount": 35,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2",
+    "priorLevel": "B2",
+    "priorScore": 3.75,
+    "defaultTopic": "Công sở & Kinh doanh",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@BusinessInsider/videos"
+    ],
+    "matchChannels": ["business insider"]
+  },
+  {
+    "slug": "harvard-business-review",
+    "name": "Harvard Business Review",
+    "tier": "standard",
+    "targetCount": 35,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "priorLevel": "C1",
+    "priorScore": 4.35,
+    "defaultTopic": "Công sở & Kinh doanh",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@HarvardBusinessReview/videos"
+    ],
+    "matchChannels": ["harvard business review"]
+  },
+  {
+    "slug": "inside-edition",
+    "name": "Inside Edition",
+    "tier": "standard",
+    "targetCount": 35,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1",
+    "priorLevel": "B1",
+    "priorScore": 3.1,
+    "defaultTopic": "Tin tức & Văn hóa",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@InsideEdition/videos"
+    ],
+    "matchChannels": ["inside edition"]
+  },
+  {
+    "slug": "national-geographic",
+    "name": "National Geographic",
+    "tier": "standard",
+    "targetCount": 30,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "priorLevel": "B2",
+    "priorScore": 3.55,
+    "defaultTopic": "Khoa học & Công nghệ",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@NatGeo/videos"
+    ],
+    "matchChannels": ["national geographic"]
+  },
+  {
+    "slug": "crashcourse",
+    "name": "CrashCourse",
+    "tier": "standard",
+    "targetCount": 30,
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "priorLevel": "C1",
+    "priorScore": 4.15,
+    "defaultTopic": "Khoa học & Công nghệ",
+    "minSec": 60,
+    "maxSec": 900,
+    "urls": [
+      "https://www.youtube.com/@crashcourse/videos"
+    ],
+    "matchChannels": ["crashcourse", "crash course"]
+  }
+]

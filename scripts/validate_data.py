@@ -367,12 +367,12 @@ def validate_videos():
     channels = json.loads(channels_p.read_text(encoding="utf-8"))
 
     check(isinstance(catalog, list) and len(catalog) >= 20, f"Expected >= 20 videos in catalog.json, found {len(catalog) if isinstance(catalog, list) else 0}")
-    if isinstance(catalog, list) and len(catalog) < 35:
+    if isinstance(catalog, list) and len(catalog) < 50:
         warnings.append(
-            f"Video catalog currently has {len(catalog)} videos (target 35-50). "
-            "Re-run `python -u scripts/collect_youtube_videos.py` once YouTube timedtext IP rate-limit clears (or set YT_PROXY_URL) to top up."
+            f"Video catalog currently has {len(catalog)} videos across {len(channels)} configured channels. "
+            "Run `python -u scripts/collect_youtube_videos.py --max-per-channel 5` (or set YT_PROXY_URL if YouTube IP-throttled) to resume collecting."
         )
-    check(isinstance(channels, list) and len(channels) >= 6, f"Expected >= 6 channels in channels.json, found {len(channels) if isinstance(channels, list) else 0}")
+    check(isinstance(channels, list) and len(channels) >= 24, f"Expected >= 24 channels in channels.json, found {len(channels) if isinstance(channels, list) else 0}")
 
     valid_levels = {"A1", "A2", "B1", "B2", "C1"}
     valid_topics = {
@@ -401,7 +401,7 @@ def validate_videos():
             check(bool(row.get(fk)), f"Video {vid} missing required field '{fk}'")
         check(row.get("level") in valid_levels, f"Video {vid} invalid CEFR level '{row.get('level')}'")
         check(row.get("topic") in valid_topics, f"Video {vid} invalid topic '{row.get('topic')}'")
-        check(60 <= int(row.get("durationSec", 0)) <= 720, f"Video {vid} durationSec out of range [60..720]: {row.get('durationSec')}")
+        check(60 <= int(row.get("durationSec", 0)) <= 900, f"Video {vid} durationSec out of range [60..900]: {row.get('durationSec')}")
         check(int(row.get("wpm", 0)) > 0, f"Video {vid} invalid wpm: {row.get('wpm')}")
         check("featured" in row and isinstance(row["featured"], bool), f"Video {vid} missing boolean 'featured'")
 

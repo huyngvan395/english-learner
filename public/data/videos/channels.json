@@ -2,6 +2,11 @@
   {
     "slug": "ted-ed",
     "name": "TED-Ed",
+    "tier": "famous",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "targetCount": 110,
     "videoCount": 6,
     "avgDurationSec": 328,
     "avgWpm": 132,
@@ -18,6 +23,11 @@
   {
     "slug": "bbc-learning-english",
     "name": "BBC Learning English",
+    "tier": "famous",
+    "accent": "Anh (UK)",
+    "accentCode": "UK",
+    "levelRange": "A2–B2",
+    "targetCount": 110,
     "videoCount": 4,
     "avgDurationSec": 376,
     "avgWpm": 156,
@@ -35,6 +45,11 @@
   {
     "slug": "english-with-lucy",
     "name": "English with Lucy",
+    "tier": "famous",
+    "accent": "Anh (UK)",
+    "accentCode": "UK",
+    "levelRange": "A2–B2",
+    "targetCount": 110,
     "videoCount": 4,
     "avgDurationSec": 454,
     "avgWpm": 109,
@@ -46,11 +61,16 @@
     "topics": [
       "Kỹ năng & Phát triển"
     ],
-    "sampleThumbnail": "https://i.ytimg.com/vi/vMvkY1iGcl8/hqdefault.jpg"
+    "sampleThumbnail": "https://i.ytimg.com/vi/R5NC9yyTeZ8/hqdefault.jpg"
   },
   {
     "slug": "kurzgesagt",
     "name": "Kurzgesagt – In a Nutshell",
+    "tier": "standard",
+    "accent": "Anh/Quốc tế",
+    "accentCode": "UK",
+    "levelRange": "B2–C1",
+    "targetCount": 50,
     "videoCount": 4,
     "avgDurationSec": 651,
     "avgWpm": 160,
@@ -62,11 +82,16 @@
     "topics": [
       "Khoa học & Công nghệ"
     ],
-    "sampleThumbnail": "https://i.ytimg.com/vi/yDAAlojz8NU/hqdefault.jpg"
+    "sampleThumbnail": "https://i.ytimg.com/vi/ZSch_NgZpQs/hqdefault.jpg"
   },
   {
     "slug": "speak-english-with-vanessa",
     "name": "Speak English With Vanessa",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A2–B1",
+    "targetCount": 40,
     "videoCount": 2,
     "avgDurationSec": 492,
     "avgWpm": 139,
@@ -78,11 +103,16 @@
       "Giao tiếp hàng ngày",
       "Kỹ năng & Phát triển"
     ],
-    "sampleThumbnail": "https://i.ytimg.com/vi/XfAMirWVpjQ/hqdefault.jpg"
+    "sampleThumbnail": "https://i.ytimg.com/vi/EJQMxdPNHDk/hqdefault.jpg"
   },
   {
     "slug": "english-speaking-course",
     "name": "English Speaking Course",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A1–A2",
+    "targetCount": 30,
     "videoCount": 1,
     "avgDurationSec": 535,
     "avgWpm": 105,
@@ -94,5 +124,365 @@
       "Giao tiếp hàng ngày"
     ],
     "sampleThumbnail": "https://i.ytimg.com/vi/s2EYIDY8wSM/hqdefault.jpg"
+  },
+  {
+    "slug": "ted",
+    "name": "TED",
+    "tier": "famous",
+    "accent": "Quốc tế (US/UK)",
+    "accentCode": "INTL",
+    "levelRange": "B2–C1",
+    "targetCount": 110,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "C1",
+    "levels": [
+      "C1"
+    ],
+    "topics": [
+      "Kỹ năng & Phát triển"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/Zsc9B3-1kTI/hqdefault.jpg"
+  },
+  {
+    "slug": "voa-learning-english",
+    "name": "VOA Learning English",
+    "tier": "famous",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A1–B1",
+    "targetCount": 110,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "A2",
+    "levels": [
+      "A2"
+    ],
+    "topics": [
+      "Tin tức & Văn hóa"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/q4PkX8_xUYk/hqdefault.jpg"
+  },
+  {
+    "slug": "asapscience",
+    "name": "AsapSCIENCE",
+    "tier": "standard",
+    "accent": "Canada (CA)",
+    "accentCode": "CA",
+    "levelRange": "B1–B2",
+    "targetCount": 35,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2"
+    ],
+    "topics": [
+      "Khoa học & Công nghệ"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/gMur01WsXZU/hqdefault.jpg"
+  },
+  {
+    "slug": "bob-the-canadian",
+    "name": "Bob the Canadian",
+    "tier": "standard",
+    "accent": "Canada (CA)",
+    "accentCode": "CA",
+    "levelRange": "A2–B1",
+    "targetCount": 40,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "A2",
+    "levels": [
+      "A2"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/a2jG1tYUnvk/hqdefault.jpg"
+  },
+  {
+    "slug": "business-english-pod",
+    "name": "Business English Pod",
+    "tier": "standard",
+    "accent": "Mỹ/Quốc tế",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "targetCount": 40,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B1",
+    "levels": [
+      "B1"
+    ],
+    "topics": [
+      "Công sở & Kinh doanh"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/fhR7fPQjRdA/hqdefault.jpg"
+  },
+  {
+    "slug": "business-insider",
+    "name": "Business Insider",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2",
+    "targetCount": 35,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2"
+    ],
+    "topics": [
+      "Công sở & Kinh doanh"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/3tzsuxfHeAU/hqdefault.jpg"
+  },
+  {
+    "slug": "crashcourse",
+    "name": "CrashCourse",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "targetCount": 30,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "C1",
+    "levels": [
+      "C1"
+    ],
+    "topics": [
+      "Khoa học & Công nghệ"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/TMTLNFv5MQE/hqdefault.jpg"
+  },
+  {
+    "slug": "easy-english",
+    "name": "Easy English",
+    "tier": "standard",
+    "accent": "Mỹ/Anh",
+    "accentCode": "US",
+    "levelRange": "A1–A2",
+    "targetCount": 35,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "A1",
+    "levels": [
+      "A1"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/RHVm7muq_4c/hqdefault.jpg"
+  },
+  {
+    "slug": "englishclass101",
+    "name": "EnglishClass101",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "A1–B1",
+    "targetCount": 40,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "A2",
+    "levels": [
+      "A2"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/ialTcRTsB2o/hqdefault.jpg"
+  },
+  {
+    "slug": "harvard-business-review",
+    "name": "Harvard Business Review",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "targetCount": 35,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "C1",
+    "levels": [
+      "C1"
+    ],
+    "topics": [
+      "Công sở & Kinh doanh"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/KCCA22ngoPU/hqdefault.jpg"
+  },
+  {
+    "slug": "inside-edition",
+    "name": "Inside Edition",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1",
+    "targetCount": 35,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B1",
+    "levels": [
+      "B1"
+    ],
+    "topics": [
+      "Tin tức & Văn hóa"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/Ou4VHpkvYJ8/hqdefault.jpg"
+  },
+  {
+    "slug": "linguamarina",
+    "name": "Linguamarina",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "targetCount": 30,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B1",
+    "levels": [
+      "B1"
+    ],
+    "topics": [
+      "Kỹ năng & Phát triển"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/qMUJBlTjTXg/hqdefault.jpg"
+  },
+  {
+    "slug": "national-geographic",
+    "name": "National Geographic",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "targetCount": 30,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2"
+    ],
+    "topics": [
+      "Khoa học & Công nghệ"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/pXhcmmWMFf4/hqdefault.jpg"
+  },
+  {
+    "slug": "rachels-english",
+    "name": "Rachel's English",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "targetCount": 35,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B1",
+    "levels": [
+      "B1"
+    ],
+    "topics": [
+      "Kỹ năng & Phát triển"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/tMMkScMKtsQ/hqdefault.jpg"
+  },
+  {
+    "slug": "reallife-english",
+    "name": "RealLife English",
+    "tier": "standard",
+    "accent": "Mỹ/Quốc tế",
+    "accentCode": "US",
+    "levelRange": "B1–B2",
+    "targetCount": 30,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B1",
+    "levels": [
+      "B1"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/kqEWuxDyvQQ/hqdefault.jpg"
+  },
+  {
+    "slug": "the-school-of-life",
+    "name": "The School of Life",
+    "tier": "standard",
+    "accent": "Anh (UK)",
+    "accentCode": "UK",
+    "levelRange": "B2–C1",
+    "targetCount": 40,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2"
+    ],
+    "topics": [
+      "Kỹ năng & Phát triển"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/G0FJbB-tCSU/hqdefault.jpg"
+  },
+  {
+    "slug": "vox",
+    "name": "Vox",
+    "tier": "standard",
+    "accent": "Mỹ (US)",
+    "accentCode": "US",
+    "levelRange": "B2–C1",
+    "targetCount": 40,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2"
+    ],
+    "topics": [
+      "Tin tức & Văn hóa"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/X9hUgEy__ZE/hqdefault.jpg"
+  },
+  {
+    "slug": "mmmenglish",
+    "name": "mmmEnglish",
+    "tier": "standard",
+    "accent": "Úc (AU)",
+    "accentCode": "AU",
+    "levelRange": "A2–B1",
+    "targetCount": 40,
+    "videoCount": 0,
+    "avgDurationSec": 0,
+    "avgWpm": 0,
+    "dominantLevel": "A2",
+    "levels": [
+      "A2"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/m5hP4f_Kpzg/hqdefault.jpg"
   }
 ]
