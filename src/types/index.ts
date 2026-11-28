@@ -482,6 +482,7 @@ export interface ListeningSubQuestion {
   id: string;
   questionNumber: number;
   questionType: 'Thông tin chi tiết' | 'Ý chính / Chủ đề' | 'Hành động tiếp theo' | 'Câu hỏi bảng biểu (Graphic)' | 'Hàm ý người nói (Implied Meaning)';
+  evidenceLineIndex?: number;
   prompt: string;
   promptVi: string;
   options: Record<OptionKey, { en: string; vi: string }>;

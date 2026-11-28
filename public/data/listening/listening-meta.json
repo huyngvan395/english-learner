@@ -41,42 +41,42 @@
     ]
   },
   "part3": {
-    "totalSets": 3,
-    "totalQuestions": 9,
+    "totalSets": 13,
+    "totalQuestions": 39,
     "batches": [
       {
         "id": "part3_set1",
-        "label": "Bộ hội thoại nền tảng",
+        "label": "Bộ hội thoại nền tảng & mở rộng 1 (6 bài)",
         "file": "part3_set1.json",
-        "setCount": 3,
-        "questionCount": 9
+        "setCount": 6,
+        "questionCount": 18
       },
       {
         "id": "part3_set2",
-        "label": "Bộ hội thoại mở rộng",
+        "label": "Bộ hội thoại chuyên sâu ETS — 3 người & Graphic (7 bài)",
         "file": "part3_set2.json",
-        "setCount": 0,
-        "questionCount": 0
+        "setCount": 7,
+        "questionCount": 21
       }
     ]
   },
   "part4": {
-    "totalSets": 3,
-    "totalQuestions": 9,
+    "totalSets": 13,
+    "totalQuestions": 39,
     "batches": [
       {
         "id": "part4_set1",
-        "label": "Bộ bài nói nền tảng",
+        "label": "Bộ bài nói nền tảng & mở rộng 1 (6 bài)",
         "file": "part4_set1.json",
-        "setCount": 3,
-        "questionCount": 9
+        "setCount": 6,
+        "questionCount": 18
       },
       {
         "id": "part4_set2",
-        "label": "Bộ bài nói mở rộng",
+        "label": "Bộ bài nói chuyên sâu ETS — Đa thể loại & Graphic (7 bài)",
         "file": "part4_set2.json",
-        "setCount": 0,
-        "questionCount": 0
+        "setCount": 7,
+        "questionCount": 21
       }
     ]
   }

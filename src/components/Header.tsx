@@ -4,17 +4,21 @@ import {
   GraduationCap,
   Loader2,
   Menu,
+  Moon,
   Search,
   Sparkles,
   Star,
+  Sun,
   Target,
   Volume2,
   X,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
+import { useTheme } from '../context/ThemeContext';
 import { SearchIndexEntry, VocabWord } from '../types';
 import { loadFullWord } from '../utils/vocabLoader';
 import { playWordAudio, speakText } from '../utils/speech';
+import { VocabExtensionBlock } from './VocabExtensionBlock';
 
 interface HeaderProps {
   onOpenMobileMenu: () => void;
@@ -22,6 +26,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
   const { searchIndex, customWords, profile, toggleSaveWord, isWordSaved } = useApp();
+  const { isDark, toggleTheme } = useTheme();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
@@ -180,8 +185,28 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
           </div>
 
-          {/* Right: Mobile Search Toggle + Streak, XP, Daily Goal */}
+          {/* Right: Mobile Search Toggle + Theme Toggle + Streak, XP, Daily Goal */}
           <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+            <button
+              type="button"
+              onClick={toggleTheme}
+              aria-label={isDark ? 'Chuyển sang giao diện Sáng' : 'Chuyển sang giao diện Tối'}
+              title={isDark ? 'Chuyển sang giao diện Sáng (Light Mode)' : 'Chuyển sang giao diện Tối (Dark Mode)'}
+              className="inline-flex h-9 items-center justify-center gap-1.5 rounded-xl border border-slate-700/80 bg-slate-900/90 hover:border-indigo-500/60 px-2 sm:px-2.5 text-xs font-bold text-slate-200 hover:text-white active:scale-95 transition"
+            >
+              {isDark ? (
+                <>
+                  <Sun className="h-4 w-4 text-amber-400 shrink-0" />
+                  <span className="hidden md:inline">Sáng</span>
+                </>
+              ) : (
+                <>
+                  <Moon className="h-4 w-4 text-indigo-400 shrink-0" />
+                  <span className="hidden md:inline">Tối</span>
+                </>
+              )}
+            </button>
+
             <button
               type="button"
               onClick={() => {
@@ -459,32 +484,15 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                     </div>
                   )}
 
-                  <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {selectedFullWord.synonyms.length > 0 && (
-                      <div className="rounded-xl bg-slate-900/60 border border-slate-800 p-3">
-                        <p className="text-[11px] font-bold uppercase text-cyan-400">Đồng nghĩa (Paraphrase)</p>
-                        <div className="mt-1.5 flex flex-wrap gap-1.5">
-                          {selectedFullWord.synonyms.map((s) => (
-                            <span key={s} className="rounded-md bg-cyan-500/15 px-2 py-0.5 text-xs text-cyan-200">
-                              {s}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {selectedFullWord.collocations.length > 0 && (
-                      <div className="rounded-xl bg-slate-900/60 border border-slate-800 p-3">
-                        <p className="text-[11px] font-bold uppercase text-violet-400">Collocations</p>
-                        <ul className="mt-1.5 space-y-1 text-xs text-slate-300">
-                          {selectedFullWord.collocations.map((c, idx) => (
-                            <li key={idx}>
-                              <span className="font-semibold text-white">{c.phrase}</span>: {c.meaning}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                  <div className="mt-4">
+                    <VocabExtensionBlock
+                      synonyms={selectedFullWord.synonyms}
+                      antonyms={selectedFullWord.antonyms}
+                      wordFamily={selectedFullWord.wordFamily}
+                      collocations={selectedFullWord.collocations}
+                      defaultOpen
+                      onQuickLookup={handleOpenEntry}
+                    />
                   </div>
                 </>
               )

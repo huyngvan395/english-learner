@@ -746,5 +746,857 @@
       }
     ],
     "audioUrl": "/audio/listening/p3_set3.mp3"
+  },
+  {
+    "id": "p3-n01",
+    "part": 3,
+    "title": "Hội thoại (2 người — Sự kiện công ty): Khen ngợi buổi dã ngoại & xin công thức bánh đào",
+    "scenario": "Two coworkers discuss the annual company picnic and a homemade peach pie recipe.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-32-34.mp3",
+    "transcript": [
+      {
+        "id": "p3-n01-t1",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Thank you so much for organizing the annual company picnic, Jingdao. Everybody seemed to enjoy it.",
+        "vi": "Cảm ơn Jingdao rất nhiều vì đã tổ chức buổi dã ngoại thường niên của công ty. Mọi người có vẻ rất thích.",
+        "evidenceForQuestionIds": [
+          "p3-n01-q1"
+        ],
+        "startMs": 400,
+        "endMs": 16315
+      },
+      {
+        "id": "p3-n01-t2",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Well, we deserved it after working so hard this year.",
+        "vi": "Chà, chúng ta xứng đáng được thư giãn sau một năm làm việc chăm chỉ.",
+        "startMs": 16355,
+        "endMs": 24962
+      },
+      {
+        "id": "p3-n01-t3",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I agree. The food was great, by the way. Especially the peach pie you made. Would you mind sharing the recipe? It was delicious.",
+        "vi": "Tôi đồng ý. Nhân tiện thì đồ ăn tuyệt lắm. Đặc biệt là món bánh đào bạn làm. Bạn có phiền chia sẻ công thức không? Nó ngon tuyệt.",
+        "evidenceForQuestionIds": [
+          "p3-n01-q2"
+        ],
+        "startMs": 25002,
+        "endMs": 45789
+      },
+      {
+        "id": "p3-n01-t4",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I found the recipe online. I'll send you a link to the Web page. There's a really helpful video that walks you through all the steps. I recommend you watch it first.",
+        "vi": "Tôi tìm công thức trên mạng đấy. Tôi sẽ gửi cho bạn đường dẫn tới trang web đó. Có một video rất hữu ích hướng dẫn từng bước một. Tôi khuyên bạn nên xem nó trước.",
+        "evidenceForQuestionIds": [
+          "p3-n01-q3"
+        ],
+        "startMs": 45829,
+        "endMs": 72625
+      },
+      {
+        "id": "p3-n01-t5",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "All right, thanks.",
+        "vi": "Được rồi, cảm ơn bạn nhé.",
+        "startMs": 72665,
+        "endMs": 75530
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n01-q1",
+        "questionNumber": 32,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What event does the woman mention?",
+        "promptVi": "Người phụ nữ nhắc tới sự kiện nào?",
+        "options": {
+          "A": {
+            "en": "A job fair",
+            "vi": "Một hội chợ việc làm"
+          },
+          "B": {
+            "en": "A cooking class",
+            "vi": "Một lớp học nấu ăn"
+          },
+          "C": {
+            "en": "A fund-raiser",
+            "vi": "Một buổi gây quỹ"
+          },
+          "D": {
+            "en": "A company picnic",
+            "vi": "Một buổi dã ngoại công ty"
+          }
+        },
+        "correctAnswer": "D",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy liên tưởng chủ đề nấu ăn (\"peach pie / recipe\" → cooking class)",
+          "soundTrap": {
+            "pair": "recipe / cooking class",
+            "noteVi": "Đoạn giữa nói nhiều về công thức làm bánh dễ kéo thí sinh chọn nhầm B (lớp học nấu ăn)."
+          },
+          "listeningKey": "Khóa ngay lượt thoại đầu T0: \"organizing the annual company picnic\".",
+          "trapAnalysis": "Câu hỏi số 1 luôn nằm ở 1–2 lượt thoại mở đầu theo quy luật trên–dưới. Người phụ nữ cảm ơn đồng nghiệp đã tổ chức \"annual company picnic\" ngay câu đầu tiên.",
+          "paraphrases": [
+            {
+              "audioPhrase": "annual company picnic",
+              "answerPhrase": "A company picnic",
+              "meaningVi": "buổi dã ngoại thường niên của công ty"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không nhắc tới hội chợ việc làm.",
+            "B": "SAI (Liên tưởng chủ đề) — Nhắc công thức bánh ở T2 nhưng không phải lớp học nấu ăn.",
+            "C": "SAI — Không có hoạt động gây quỹ.",
+            "D": "ĐÚNG — Khớp trực tiếp \"annual company picnic\" ở lượt thoại T0."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n01-q2",
+        "questionNumber": 33,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What does the woman ask for?",
+        "promptVi": "Người phụ nữ xin điều gì?",
+        "options": {
+          "A": {
+            "en": "A guest list",
+            "vi": "Danh sách khách mời"
+          },
+          "B": {
+            "en": "A dessert recipe",
+            "vi": "Công thức làm món tráng miệng"
+          },
+          "C": {
+            "en": "A business card",
+            "vi": "Danh thiếp"
+          },
+          "D": {
+            "en": "A promotional code",
+            "vi": "Mã khuyến mãi"
+          }
+        },
+        "correctAnswer": "B",
+        "evidenceLineIndex": 2,
+        "explanation": {
+          "trapType": "Bẫy Paraphrase từ cụ thể lên danh từ nhóm (peach pie → dessert)",
+          "soundTrap": {
+            "pair": "peach pie / dessert",
+            "noteVi": "Audio không đọc chữ \"dessert\" mà gọi tên món cụ thể \"peach pie\" (bánh đào tráng miệng)."
+          },
+          "listeningKey": "Bắt cặp Paraphrase ở T2: \"peach pie ... sharing the recipe\" ↔ \"A dessert recipe\".",
+          "trapAnalysis": "ETS thay tên món cụ thể \"peach pie\" bằng danh từ bao quát \"dessert\". Nghe kỹ câu hỏi lịch sự \"Would you mind sharing the recipe?\" ở T2.",
+          "paraphrases": [
+            {
+              "audioPhrase": "peach pie ... sharing the recipe",
+              "answerPhrase": "A dessert recipe",
+              "meaningVi": "công thức làm món bánh tráng miệng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không xin danh sách khách mời.",
+            "B": "ĐÚNG — Paraphrase chuẩn từ \"peach pie recipe\" thành \"A dessert recipe\".",
+            "C": "SAI — Không nhắc tới danh thiếp.",
+            "D": "SAI — Không nhắc mã giảm giá."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n01-q3",
+        "questionNumber": 34,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What does the man recommend doing?",
+        "promptVi": "Người đàn ông khuyên nên làm gì?",
+        "options": {
+          "A": {
+            "en": "Returning some merchandise",
+            "vi": "Trả lại một số hàng hóa"
+          },
+          "B": {
+            "en": "Watching a video",
+            "vi": "Xem một đoạn video"
+          },
+          "C": {
+            "en": "Creating an account",
+            "vi": "Tạo một tài khoản"
+          },
+          "D": {
+            "en": "Reading a review",
+            "vi": "Đọc một bài đánh giá"
+          }
+        },
+        "correctAnswer": "B",
+        "evidenceLineIndex": 3,
+        "explanation": {
+          "trapType": "Bẫy chi tiết đi kèm (\"send you a link to the Web page\" vs lời khuyên \"watch it first\")",
+          "soundTrap": {
+            "pair": "video / review",
+            "noteVi": "Đừng nhầm giữa \"send a link\" (hành động của người Nam) và \"watch the video\" (lời khuyên cho người Nữ)."
+          },
+          "listeningKey": "Khóa cụm gợi ý cuối lượt T3: \"video that walks you through all the steps. I recommend you watch it first\".",
+          "trapAnalysis": "Ở câu cuối T3, người Nam nói rõ \"I recommend you watch it first\" — đại từ \"it\" thay cho \"a really helpful video\" ngay câu trước đó.",
+          "paraphrases": [
+            {
+              "audioPhrase": "helpful video ... recommend you watch it first",
+              "answerPhrase": "Watching a video",
+              "meaningVi": "khuyên xem video hướng dẫn trước"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không có việc đổi trả hàng.",
+            "B": "ĐÚNG — Trùng khớp 100% lời khuyên \"recommend you watch it (video) first\" ở T3.",
+            "C": "SAI — Trang web công thức không yêu cầu tạo tài khoản.",
+            "D": "SAI — Không khuyên đọc đánh giá."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n01-1",
+        "word": "annual company picnic",
+        "pos": "phrase",
+        "ipaUK": "/ˈæn.ju.əl ˈkʌm.pə.ni ˈpɪk.nɪk/",
+        "ipaUS": "/ˈæn.ju.əl ˈkʌm.pə.ni ˈpɪk.nɪk/",
+        "meaning": "buổi dã ngoại thường niên của công ty",
+        "exampleEn": "Everyone enjoyed the annual company picnic by the lake.",
+        "exampleVi": "Mọi người đều thích buổi dã ngoại công ty ven hồ."
+      },
+      {
+        "id": "lv-p3n01-2",
+        "word": "deserve",
+        "pos": "v",
+        "ipaUK": "/dɪˈzɜːv/",
+        "ipaUS": "/dɪˈzɝːv/",
+        "meaning": "xứng đáng được hưởng",
+        "exampleEn": "The team deserved a break after completing the launch.",
+        "exampleVi": "Cả nhóm xứng đáng nghỉ ngơi sau khi hoàn tất ra mắt."
+      },
+      {
+        "id": "lv-p3n01-3",
+        "word": "share a recipe",
+        "pos": "phrase",
+        "ipaUK": "/ʃeər ə ˈres.ɪ.pi/",
+        "ipaUS": "/ʃer ə ˈres.ə.pi/",
+        "meaning": "chia sẻ công thức nấu ăn",
+        "exampleEn": "Would you mind sharing your pasta recipe?",
+        "exampleVi": "Bạn có phiền chia sẻ công thức mì Ý không?"
+      },
+      {
+        "id": "lv-p3n01-4",
+        "word": "walk someone through",
+        "pos": "phrase",
+        "ipaUK": "/wɔːk ˈsʌm.wʌn θruː/",
+        "ipaUS": "/wɑːk ˈsʌm.wʌn θruː/",
+        "meaning": "hướng dẫn ai đó từng bước một",
+        "exampleEn": "The tutorial video walks you through every step.",
+        "exampleVi": "Video hướng dẫn dẫn dắt bạn từng bước một."
+      },
+      {
+        "id": "lv-p3n01-5",
+        "word": "recommend doing",
+        "pos": "phrase",
+        "ipaUK": "/ˌrek.əˈmend ˈduː.ɪŋ/",
+        "ipaUS": "/ˌrek.əˈmend ˈduː.ɪŋ/",
+        "meaning": "khuyên / đề xuất nên làm gì",
+        "exampleEn": "I recommend watching the demo before installing.",
+        "exampleVi": "Tôi khuyên bạn nên xem bản demo trước khi cài đặt."
+      }
+    ]
+  },
+  {
+    "id": "p3-n02",
+    "part": 3,
+    "title": "Hội thoại (2 người — Văn phòng/Kế toán): Xử lý hóa đơn khách sạn ngoài danh sách duyệt",
+    "scenario": "Two accounting staff review monthly expense reports and an exception for a hotel reimbursement.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-35-37.mp3",
+    "transcript": [
+      {
+        "id": "p3-n02-t1",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "I'd like to finish calculating the company's expense reports for the month. Have you finished reviewing the travel reimbursement forms from all the departments?",
+        "vi": "Tôi muốn tính toán xong các báo cáo chi phí tháng của công ty. Bạn đã rà soát xong các đơn hoàn ứng công tác từ các phòng ban chưa?",
+        "evidenceForQuestionIds": [
+          "p3-n02-q1"
+        ],
+        "startMs": 400,
+        "endMs": 22512
+      },
+      {
+        "id": "p3-n02-t2",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I'm almost done, but I have a question about a hotel receipt from one of our employees.",
+        "vi": "Tôi gần xong rồi, nhưng tôi có một thắc mắc về hóa đơn khách sạn của một nhân viên.",
+        "startMs": 22552,
+        "endMs": 34575
+      },
+      {
+        "id": "p3-n02-t3",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "What's the problem?",
+        "vi": "Có vấn đề gì vậy?",
+        "startMs": 34615,
+        "endMs": 37240
+      },
+      {
+        "id": "p3-n02-t4",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Well, our policy is for employees to stay at a hotel that's on our list of approved accommodations. This one isn't on the list.",
+        "vi": "À, chính sách của chúng ta là nhân viên phải ở khách sạn nằm trong danh sách chỗ ở được phê duyệt. Khách sạn này không có trong danh sách.",
+        "evidenceForQuestionIds": [
+          "p3-n02-q2"
+        ],
+        "startMs": 37280,
+        "endMs": 54832
+      },
+      {
+        "id": "p3-n02-t5",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Who submitted the receipt?",
+        "vi": "Ai là người nộp hóa đơn đó?",
+        "startMs": 54872,
+        "endMs": 58465
+      },
+      {
+        "id": "p3-n02-t6",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Moritz Ziegler, one of our sales representatives.",
+        "vi": "Moritz Ziegler, một trong các nhân viên kinh doanh của chúng ta.",
+        "startMs": 58505,
+        "endMs": 65277
+      },
+      {
+        "id": "p3-n02-t7",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Hmm. He's a new employee and may have forgotten the policy. As a supervisor, I can approve the expense this one time.",
+        "vi": "Ừm. Cậu ấy là nhân viên mới nên có thể đã quên chính sách. Với tư cách quản lý, lần này tôi có thể duyệt chi phí đó một ngoại lệ.",
+        "evidenceForQuestionIds": [
+          "p3-n02-q3"
+        ],
+        "startMs": 65317,
+        "endMs": 81350
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n02-q1",
+        "questionNumber": 35,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "What department do the speakers most likely work in?",
+        "promptVi": "Hai người nói có khả năng cao nhất làm việc ở phòng ban nào?",
+        "options": {
+          "A": {
+            "en": "Accounting",
+            "vi": "Phòng Kế toán"
+          },
+          "B": {
+            "en": "Research and development",
+            "vi": "Phòng Nghiên cứu & Phát triển"
+          },
+          "C": {
+            "en": "Maintenance",
+            "vi": "Bộ phận Bảo trì"
+          },
+          "D": {
+            "en": "Marketing",
+            "vi": "Phòng Tiếp thị"
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy phòng ban được nhắc tên trong lời thoại (\"sales representatives\" ở T5 ≠ phòng ban của 2 người nói)",
+          "soundTrap": {
+            "pair": "expense reports / reimbursement → Accounting",
+            "noteVi": "Không hề nói chữ \"Accounting\" nhưng toàn bộ tác vụ tính chi phí & hoàn ứng thuộc về Kế toán."
+          },
+          "listeningKey": "Bắt ngay 2 cụm từ chuyên ngành ở T0: \"calculating expense reports\" + \"travel reimbursement forms\" → Accounting.",
+          "trapAnalysis": "Câu hỏi suy luận nghề nghiệp/phòng ban dựa vào đầu việc ở câu mở đầu T0 (tính báo cáo chi phí, rà soát đơn hoàn ứng). Chú ý tách bạch Moritz là nhân viên Sales, còn 2 người nói đang duyệt chi phí thuộc phòng Kế toán.",
+          "paraphrases": [
+            {
+              "audioPhrase": "calculating expense reports / travel reimbursement forms",
+              "answerPhrase": "Accounting",
+              "meaningVi": "tính báo cáo chi phí & hoàn ứng → phòng Kế toán"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Công việc tính toán báo cáo chi phí và duyệt hoàn ứng thuộc phòng Kế toán (Accounting).",
+            "B": "SAI — Không liên quan nghiên cứu phát triển sản phẩm.",
+            "C": "SAI — Không liên quan sửa chữa bảo trì.",
+            "D": "SAI — Không liên quan tiếp thị."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n02-q2",
+        "questionNumber": 36,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What problem does the woman mention?",
+        "promptVi": "Người phụ nữ đề cập tới vấn đề gì?",
+        "options": {
+          "A": {
+            "en": "A report has not been submitted.",
+            "vi": "Một báo cáo chưa được nộp."
+          },
+          "B": {
+            "en": "An invoice is not accurate.",
+            "vi": "Một hóa đơn không chính xác."
+          },
+          "C": {
+            "en": "A policy has not been followed.",
+            "vi": "Một chính sách đã không được tuân thủ."
+          },
+          "D": {
+            "en": "An order has not been delivered.",
+            "vi": "Một đơn hàng chưa được giao."
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 3,
+        "explanation": {
+          "trapType": "Bẫy từ gần ngữ cảnh (\"receipt\" → invoice not accurate ở B)",
+          "soundTrap": {
+            "pair": "hotel receipt / invoice is not accurate",
+            "noteVi": "Hóa đơn không bị tính sai số tiền (B), mà là vi phạm quy định chọn khách sạn ngoài danh sách (C)."
+          },
+          "listeningKey": "Khóa câu T3: \"our policy is ... approved accommodations. This one isn't on the list\" → C.",
+          "trapAnalysis": "Người Nữ nêu rõ vấn đề nằm ở quy định (\"policy\"): nhân viên ở khách sạn ngoài danh sách phê duyệt → paraphrase thành \"A policy has not been followed\".",
+          "paraphrases": [
+            {
+              "audioPhrase": "our policy is ... This one isn't on the list",
+              "answerPhrase": "A policy has not been followed",
+              "meaningVi": "chính sách công ty chưa được tuân thủ"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Hóa đơn/đơn hoàn ứng đã được nộp đầy đủ.",
+            "B": "SAI (Bẫy chi tiết gần đúng) — Hóa đơn không sai số liệu, mà sai danh sách khách sạn.",
+            "C": "ĐÚNG — Paraphrase trực tiếp việc không tuân theo chính sách khách sạn được duyệt.",
+            "D": "SAI — Không nhắc đơn giao hàng."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n02-q3",
+        "questionNumber": 37,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What does the man say he will do?",
+        "promptVi": "Người đàn ông nói anh ấy sẽ làm gì?",
+        "options": {
+          "A": {
+            "en": "Delete an electronic file",
+            "vi": "Xóa một tệp điện tử"
+          },
+          "B": {
+            "en": "Authorize a reimbursement",
+            "vi": "Phê duyệt khoản hoàn ứng"
+          },
+          "C": {
+            "en": "Set up a sales meeting",
+            "vi": "Thiết lập cuộc họp kinh doanh"
+          },
+          "D": {
+            "en": "Review a spreadsheet",
+            "vi": "Xem xét bảng tính"
+          }
+        },
+        "correctAnswer": "B",
+        "evidenceLineIndex": 6,
+        "explanation": {
+          "trapType": "Bẫy Paraphrase động từ cấp cao (\"approve the expense\" ↔ \"authorize a reimbursement\") & bẫy chữ \"sales\"",
+          "soundTrap": {
+            "pair": "sales representatives / sales meeting",
+            "noteVi": "Đáp án C lặp từ \"sales\" từ T5 để bẫy người nghe không bắt được động từ \"approve\" = \"authorize\" ở T6."
+          },
+          "listeningKey": "Bắt ngay câu chốt T6: \"As a supervisor, I can approve the expense this one time\" ↔ \"Authorize a reimbursement\".",
+          "trapAnalysis": "Cặp paraphrase kinh điển của ETS Business: \"approve\" = \"authorize\" (phê duyệt/cấp phép) và \"expense\" = \"reimbursement\" (khoản hoàn ứng chi phí).",
+          "paraphrases": [
+            {
+              "audioPhrase": "approve the expense this one time",
+              "answerPhrase": "Authorize a reimbursement",
+              "meaningVi": "phê duyệt khoản hoàn ứng chi phí"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không xóa dữ liệu nào.",
+            "B": "ĐÚNG — Paraphrase chuẩn xác \"approve the expense\" thành \"Authorize a reimbursement\".",
+            "C": "SAI (Lặp từ) — Lặp chữ \"sales\" từ chức danh của Moritz nhưng không hề hẹn họp.",
+            "D": "SAI — Không nhắc bảng tính spreadsheet."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n02-1",
+        "word": "travel reimbursement",
+        "pos": "phrase",
+        "ipaUK": "/ˈtræv.əl ˌriː.ɪmˈbɜːs.mənt/",
+        "ipaUS": "/ˈtræv.əl ˌriː.ɪmˈbɝːs.mənt/",
+        "meaning": "khoản hoàn ứng chi phí công tác",
+        "exampleEn": "Attach hotel receipts to your travel reimbursement form.",
+        "exampleVi": "Đính kèm hóa đơn khách sạn vào đơn hoàn ứng công tác."
+      },
+      {
+        "id": "lv-p3n02-2",
+        "word": "approved accommodations",
+        "pos": "phrase",
+        "ipaUK": "/əˈpruːvd əˌkɒm.əˈdeɪ.ʃənz/",
+        "ipaUS": "/əˈpruːvd əˌkɑː.məˈdeɪ.ʃənz/",
+        "meaning": "danh sách nơi lưu trú được phê duyệt",
+        "exampleEn": "Staff should book hotels from our approved accommodations list.",
+        "exampleVi": "Nhân viên nên đặt khách sạn trong danh sách được duyệt."
+      },
+      {
+        "id": "lv-p3n02-3",
+        "word": "authorize",
+        "pos": "v",
+        "ipaUK": "/ˈɔː.θə.raɪz/",
+        "ipaUS": "/ˈɑː.θə.raɪz/",
+        "meaning": "phê duyệt / ủy quyền chính thức",
+        "exampleEn": "Only a supervisor can authorize an exception.",
+        "exampleVi": "Chỉ quản lý mới có thể phê duyệt trường hợp ngoại lệ."
+      },
+      {
+        "id": "lv-p3n02-4",
+        "word": "sales representative",
+        "pos": "phrase",
+        "ipaUK": "/seɪlz ˌrep.rɪˈzen.tə.tɪv/",
+        "ipaUS": "/seɪlz ˌrep.rɪˈzen.t̬ə.t̬ɪv/",
+        "meaning": "nhân viên đại diện kinh doanh",
+        "exampleEn": "Our sales representative visited three clients in Munich.",
+        "exampleVi": "Nhân viên kinh doanh đã thăm ba khách hàng ở Munich."
+      },
+      {
+        "id": "lv-p3n02-5",
+        "word": "follow a policy",
+        "pos": "phrase",
+        "ipaUK": "/ˈfɒl.əʊ ə ˈpɒl.ə.si/",
+        "ipaUS": "/ˈfɑː.loʊ ə ˈpɑː.lə.si/",
+        "meaning": "tuân thủ chính sách / quy định",
+        "exampleEn": "New hires receive training on how to follow company policies.",
+        "exampleVi": "Nhân viên mới được đào tạo cách tuân thủ chính sách công ty."
+      }
+    ]
+  },
+  {
+    "id": "p3-n03",
+    "part": 3,
+    "title": "Hội thoại (2 người — Sự cố phương tiện & Dịch vụ tiệc): Xe tải thủng lốp trước lễ hội âm nhạc",
+    "scenario": "Catering staff deal with a flat tire on a delivery van and transfer food coolers to a backup van.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-53-55.mp3",
+    "transcript": [
+      {
+        "id": "p3-n03-t1",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Hey, Koji? We were about to pack van number five for the music festival when we noticed it's got a flat tire.",
+        "vi": "Này Koji? Chúng tôi vừa định chất đồ lên xe tải số năm cho lễ hội âm nhạc thì phát hiện nó bị thủng lốp.",
+        "evidenceForQuestionIds": [
+          "p3-n03-q1"
+        ],
+        "startMs": 400,
+        "endMs": 15935
+      },
+      {
+        "id": "p3-n03-t2",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Oh. That's not good.",
+        "vi": "Ồ. Không ổn chút nào.",
+        "startMs": 15975,
+        "endMs": 18825
+      },
+      {
+        "id": "p3-n03-t3",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "We're supposed to get there by eleven to set up lunch for the performers. Is there another van we can take?",
+        "vi": "Chúng tôi phải có mặt ở đó trước 11 giờ để bày bữa trưa cho các nghệ sĩ biểu diễn. Còn chiếc xe tải nào khác dùng được không?",
+        "startMs": 18865,
+        "endMs": 34115
+      },
+      {
+        "id": "p3-n03-t4",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Let me see what's available. We've got a lot of catering jobs today. Ah, yes—we can use van number three. Do you need help loading?",
+        "vi": "Để tôi xem còn xe nào trống. Hôm nay chúng ta có rất nhiều đơn tiệc. À, có đây — ta dùng xe tải số ba được. Bạn có cần giúp chất hàng lên xe không?",
+        "evidenceForQuestionIds": [
+          "p3-n03-q2"
+        ],
+        "startMs": 34155,
+        "endMs": 52826
+      },
+      {
+        "id": "p3-n03-t5",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Yes, thanks. The food's already in coolers, but everything's in the kitchen with the serving utensils and napkins. It all needs to be brought to the parking area.",
+        "vi": "Có, cảm ơn nhé. Đồ ăn đã cho sẵn vào thùng giữ lạnh rồi, nhưng mọi thứ vẫn đang ở trong bếp cùng dụng cụ gắp và khăn ăn. Tất cả cần mang ra khu đỗ xe.",
+        "startMs": 52866,
+        "endMs": 75956
+      },
+      {
+        "id": "p3-n03-t6",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "All right; I can help with that.",
+        "vi": "Được rồi; tôi giúp việc đó cho.",
+        "evidenceForQuestionIds": [
+          "p3-n03-q3"
+        ],
+        "startMs": 75996,
+        "endMs": 80460
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n03-q1",
+        "questionNumber": 53,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What problem does the woman mention?",
+        "promptVi": "Người phụ nữ đề cập tới sự cố gì?",
+        "options": {
+          "A": {
+            "en": "A vehicle is out of service.",
+            "vi": "Một phương tiện bị hỏng / không hoạt động được."
+          },
+          "B": {
+            "en": "An employee is late.",
+            "vi": "Một nhân viên đến muộn."
+          },
+          "C": {
+            "en": "A shipment was damaged.",
+            "vi": "Một lô hàng bị hư hỏng."
+          },
+          "D": {
+            "en": "Traffic is heavy.",
+            "vi": "Giao thông đông đúc."
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy Paraphrase từ sự cố cụ thể (\"van has a flat tire\") → khái quát (\"vehicle is out of service\")",
+          "soundTrap": {
+            "pair": "van / flat tire → vehicle out of service",
+            "noteVi": "Đừng tìm chữ \"tire\" trên đáp án — ETS quy đổi sang \"out of service\" (ngừng hoạt động)."
+          },
+          "listeningKey": "Khóa câu mở đầu T0: \"van number five ... got a flat tire\" ↔ \"A vehicle is out of service\".",
+          "trapAnalysis": "Xe tải số 5 bị xịt lốp không thể chạy nên phải đổi sang xe số 3 → chính là \"A vehicle is out of service\". Các phương án B, C, D không được đề cập.",
+          "paraphrases": [
+            {
+              "audioPhrase": "van number five ... it's got a flat tire",
+              "answerPhrase": "A vehicle is out of service",
+              "meaningVi": "xe tải bị thủng lốp không thể dùng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Paraphrase chuẩn xác xe tải thủng lốp thành \"A vehicle is out of service\".",
+            "B": "SAI — Nhắc mốc 11 giờ là hạn tới nơi, không có nhân viên đi trễ.",
+            "C": "SAI — Đồ ăn đã để gọn trong thùng lạnh, không bị hỏng.",
+            "D": "SAI — Không nhắc kẹt xe."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n03-q2",
+        "questionNumber": 54,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Where do the speakers most likely work?",
+        "promptVi": "Hai người nói có khả năng cao nhất làm việc ở đâu?",
+        "options": {
+          "A": {
+            "en": "At a recording studio",
+            "vi": "Tại phòng thu âm"
+          },
+          "B": {
+            "en": "At a catering company",
+            "vi": "Tại công ty cung cấp dịch vụ tiệc"
+          },
+          "C": {
+            "en": "At a radio station",
+            "vi": "Tại đài phát thanh"
+          },
+          "D": {
+            "en": "At a car dealership",
+            "vi": "Tại đại lý ô tô"
+          }
+        },
+        "correctAnswer": "B",
+        "evidenceLineIndex": 3,
+        "explanation": {
+          "trapType": "Bẫy bối cảnh khách hàng (\"music festival / performers\" → recording studio / radio station)",
+          "soundTrap": {
+            "pair": "music festival / performers vs catering jobs",
+            "noteVi": "Lễ hội âm nhạc là địa điểm KHÁCH HÀNG thuê họ phục vụ đồ ăn, còn nơi làm việc của họ là công ty tiệc (catering)!"
+          },
+          "listeningKey": "Khóa từ khóa ở T2–T3: \"set up lunch for the performers\" + \"a lot of catering jobs today\" → catering company.",
+          "trapAnalysis": "Bẫy cực quen thuộc của ETS: nhắc \"music festival\" và \"performers\" ở T0–T2 để dụ thí sinh chọn phòng thu/đài phát thanh (A/C), hoặc nhắc \"van / flat tire\" để dụ chọn đại lý xe (D). Manh mối thật là \"catering jobs\" ở T3 + \"coolers, kitchen, serving utensils\" ở T4.",
+          "paraphrases": [
+            {
+              "audioPhrase": "set up lunch ... a lot of catering jobs",
+              "answerPhrase": "At a catering company",
+              "meaningVi": "công ty chuyên cung cấp dịch vụ ăn uống/tiệc"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI (Bẫy bối cảnh khách hàng) — Lễ hội âm nhạc chỉ là nơi họ đến giao tiệc.",
+            "B": "ĐÚNG — Khớp trực tiếp \"catering jobs\", \"kitchen\", \"serving utensils\".",
+            "C": "SAI — Không liên quan đài phát thanh.",
+            "D": "SAI (Bẫy từ vựng xe) — Họ chỉ dùng xe tải để chở tiệc, không bán xe."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n03-q3",
+        "questionNumber": 55,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What does the man say he will do next?",
+        "promptVi": "Người đàn ông nói anh ấy sẽ làm gì tiếp theo?",
+        "options": {
+          "A": {
+            "en": "Arrange for a car repair",
+            "vi": "Thu xếp sửa chữa ô tô"
+          },
+          "B": {
+            "en": "Order some kitchen supplies",
+            "vi": "Đặt mua đồ dùng nhà bếp"
+          },
+          "C": {
+            "en": "Carry some items",
+            "vi": "Mang vác một số đồ đạc"
+          },
+          "D": {
+            "en": "Offer a refund",
+            "vi": "Đề nghị hoàn tiền"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 5,
+        "explanation": {
+          "trapType": "Bẫy giải pháp tự suy diễn (thấy thủng lốp → nghĩ sẽ đi sửa xe ở A)",
+          "soundTrap": {
+            "pair": "brought to the parking area ↔ carry some items",
+            "noteVi": "Người Nam KHÔNG nói đi gọi thợ sửa lốp xe số 5 mà nhận giúp chuyển thùng đồ từ bếp ra bãi xe!"
+          },
+          "listeningKey": "Ghép T4 (\"everything ... needs to be brought to the parking area\") + T5 (\"I can help with that\") → Carry some items.",
+          "trapAnalysis": "Đáp án A bẫy bằng suy luận đời thường (xe thủng lốp chắc đi sửa), nhưng thực tế ở T3–T5 người Nam hỏi \"Do you need help loading?\" và nhận lời mang đồ ăn, dụng cụ từ bếp ra khu đỗ xe.",
+          "paraphrases": [
+            {
+              "audioPhrase": "needs to be brought to the parking area ... I can help with that",
+              "answerPhrase": "Carry some items",
+              "meaningVi": "giúp mang đồ từ bếp ra bãi đỗ xe"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI (Suy diễn sai) — Họ đổi sang xe số 3, không hẹn gọi sửa xe ngay lúc này.",
+            "B": "SAI — Đồ bếp đã có sẵn, không đặt mua thêm.",
+            "C": "ĐÚNG — Nhận giúp khuân thùng lạnh, dụng cụ ăn uống ra khu đỗ xe.",
+            "D": "SAI — Không nhắc tới việc hoàn tiền."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n03-1",
+        "word": "flat tire",
+        "pos": "phrase",
+        "ipaUK": "/flæt ˈtaɪər/",
+        "ipaUS": "/flæt taɪr/",
+        "meaning": "lốp xe bị xịt / thủng",
+        "exampleEn": "Delivery was delayed because the van got a flat tire.",
+        "exampleVi": "Việc giao hàng bị trễ vì xe tải bị thủng lốp."
+      },
+      {
+        "id": "lv-p3n03-2",
+        "word": "out of service",
+        "pos": "phrase",
+        "ipaUK": "/aʊt ɒv ˈsɜː.vɪs/",
+        "ipaUS": "/aʊt̬ ʌv ˈsɝː.vɪs/",
+        "meaning": "ngừng hoạt động / đang hỏng",
+        "exampleEn": "The freight elevator is temporarily out of service.",
+        "exampleVi": "Thang máy chở hàng tạm thời ngừng hoạt động."
+      },
+      {
+        "id": "lv-p3n03-3",
+        "word": "catering job",
+        "pos": "phrase",
+        "ipaUK": "/ˈkeɪ.tər.ɪŋ dʒɒb/",
+        "ipaUS": "/ˈkeɪ.t̬ɚ.ɪŋ dʒɑːb/",
+        "meaning": "đơn đặt tiệc / hợp đồng phục vụ ăn uống",
+        "exampleEn": "Our kitchen has three major catering jobs this weekend.",
+        "exampleVi": "Bếp chúng tôi có ba đơn tiệc lớn cuối tuần này."
+      },
+      {
+        "id": "lv-p3n03-4",
+        "word": "serving utensils",
+        "pos": "phrase",
+        "ipaUK": "/ˈsɜː.vɪŋ juːˈten.səlz/",
+        "ipaUS": "/ˈsɝː.vɪŋ juːˈten.səlz/",
+        "meaning": "dụng cụ gắp/múc phục vụ bàn tiệc",
+        "exampleEn": "Pack enough serving utensils and cloth napkins.",
+        "exampleVi": "Đóng gói đủ dụng cụ phục vụ và khăn ăn vải."
+      },
+      {
+        "id": "lv-p3n03-5",
+        "word": "cooler",
+        "pos": "n",
+        "ipaUK": "/ˈkuː.lər/",
+        "ipaUS": "/ˈkuː.lɚ/",
+        "meaning": "thùng giữ lạnh thực phẩm",
+        "exampleEn": "Cold beverages are already packed inside the coolers.",
+        "exampleVi": "Đồ uống lạnh đã được xếp sẵn trong thùng giữ lạnh."
+      }
+    ]
   }
 ]

@@ -60,6 +60,7 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
   const [answers, setAnswers] = useState<Record<string, OptionKey>>({});
   const [submittedSets, setSubmittedSets] = useState<Record<string, boolean>>({});
   const [activeLineId, setActiveLineId] = useState<string | null>(null);
+  const [highlightedLineId, setHighlightedLineId] = useState<string | null>(null);
   const [externalPlay, setExternalPlay] = useState<{ index: number; token: number } | null>(null);
 
   useEffect(() => {
@@ -159,7 +160,31 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
   useEffect(() => {
     setSetIdx(0);
     setActiveLineId(null);
+    setHighlightedLineId(null);
   }, [categoryFilter, statusFilter]);
+
+  const handleLocateEvidence = (questionId: string, evidenceLineIndex?: number) => {
+    if (!currentSet) return;
+    let targetIdx =
+      typeof evidenceLineIndex === 'number' &&
+      evidenceLineIndex >= 0 &&
+      evidenceLineIndex < currentSet.transcript.length
+        ? evidenceLineIndex
+        : currentSet.transcript.findIndex((t) =>
+            t.evidenceForQuestionIds?.includes(questionId)
+          );
+    if (targetIdx < 0) return;
+    const targetLine = currentSet.transcript[targetIdx];
+    setHighlightedLineId(targetLine.id);
+    setExternalPlay({ index: targetIdx, token: Date.now() });
+    const el = document.getElementById(`transcript-line-${targetLine.id}`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    window.setTimeout(() => {
+      setHighlightedLineId((curr) => (curr === targetLine.id ? null : curr));
+    }, 3200);
+  };
 
   const safeIdx = filteredSets.length > 0 ? Math.min(setIdx, filteredSets.length - 1) : 0;
   const currentSet = filteredSets[safeIdx] || null;
@@ -412,14 +437,25 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
                 <div className="space-y-2.5">
                   {currentSet.transcript.map((line, lIdx) => {
                     const isActive = activeLineId === line.id;
-                    const hasEv = (line.evidenceForQuestionIds?.length ?? 0) > 0;
+                    const isHighlighted = highlightedLineId === line.id;
+                    const evQuestionNums = currentSet.questions
+                      .filter(
+                        (q) =>
+                          q.evidenceLineIndex === lIdx ||
+                          line.evidenceForQuestionIds?.includes(q.id)
+                      )
+                      .map((q) => `Câu ${q.questionNumber}`);
+                    const hasEv = evQuestionNums.length > 0;
                     return (
                       <button
                         key={line.id}
+                        id={`transcript-line-${line.id}`}
                         type="button"
                         onClick={() => setExternalPlay({ index: lIdx, token: Date.now() })}
                         className={`w-full rounded-xl border p-3.5 text-left transition flex items-start justify-between gap-3 ${
-                          isActive
+                          isHighlighted
+                            ? 'border-amber-400 bg-amber-500/20 ring-2 ring-amber-400/50 shadow-lg'
+                            : isActive
                             ? 'border-cyan-400 bg-cyan-500/15'
                             : hasEv
                             ? 'transcript-evidence border-indigo-400/50'
@@ -437,11 +473,17 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
                             </span>
                             {hasEv && (
                               <span className="rounded bg-amber-500/20 px-1.5 py-0.5 text-[10px] font-bold text-amber-300">
-                                Dẫn chứng đáp án
+                                Dẫn chứng {evQuestionNums.join(', ')}
                               </span>
                             )}
                           </div>
-                          <p className="text-sm text-white leading-relaxed">{line.en}</p>
+                          <p
+                            className={`text-sm leading-relaxed ${
+                              isHighlighted ? 'evidence-highlight-active font-semibold' : 'text-white'
+                            }`}
+                          >
+                            {line.en}
+                          </p>
                           <p className="text-xs text-slate-400 leading-relaxed">{line.vi}</p>
                         </div>
                         <Volume2 className="h-4 w-4 shrink-0 text-cyan-400 mt-1" />
@@ -580,6 +622,14 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
                       userAnswer={userChoice}
                       optionKeys={OPTION_KEYS}
                       explanation={q.explanation}
+                      onLocateTranscriptEvidence={
+                        typeof q.evidenceLineIndex === 'number' ||
+                        currentSet.transcript.some((t) =>
+                          t.evidenceForQuestionIds?.includes(q.id)
+                        )
+                          ? () => handleLocateEvidence(q.id, q.evidenceLineIndex)
+                          : undefined
+                      }
                     />
                   )}
                 </div>

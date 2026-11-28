@@ -692,5 +692,789 @@
       }
     ],
     "audioUrl": "/audio/listening/p4_set3.mp3"
+  },
+  {
+    "id": "p4-n01",
+    "part": 4,
+    "title": "Tin nhắn tự động xưởng sửa chữa ô tô Select Repair Service",
+    "talkType": "Tin nhắn thoại (Phone Message)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-71-73.mp3",
+    "transcript": [
+      {
+        "id": "p4-n01-t0",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "You've reached Select Repair Service.",
+        "vi": "Bạn đã gọi đến Dịch vụ Sửa chữa Select.",
+        "startMs": 400,
+        "endMs": 8231
+      },
+      {
+        "id": "p4-n01-t1",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We specialize in all makes and models of automobiles.",
+        "vi": "Chúng tôi chuyên sửa chữa mọi hãng và dòng xe ô tô.",
+        "startMs": 8271,
+        "endMs": 19489,
+        "evidenceForQuestionIds": [
+          "p4-n01-q1"
+        ]
+      },
+      {
+        "id": "p4-n01-t2",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Our factory-trained specialists will keep your vehicle running in top condition.",
+        "vi": "Các chuyên viên được đào tạo bài bản của chúng tôi sẽ giữ cho xe của bạn vận hành trong tình trạng tốt nhất.",
+        "startMs": 19529,
+        "endMs": 36462,
+        "evidenceForQuestionIds": [
+          "p4-n01-q1"
+        ]
+      },
+      {
+        "id": "p4-n01-t3",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "As an added benefit, we offer extended warranties on all vehicles we service.",
+        "vi": "Như một quyền lợi bổ sung, chúng tôi cung cấp gói bảo hành mở rộng cho mọi phương tiện mà chúng tôi bảo dưỡng.",
+        "startMs": 36502,
+        "endMs": 52800,
+        "evidenceForQuestionIds": [
+          "p4-n01-q2"
+        ]
+      },
+      {
+        "id": "p4-n01-t4",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Please note that Select Repair Service will be closing on Friday, June 30, so we can complete our quarterly inventory of supplies.",
+        "vi": "Xin lưu ý rằng Select Repair Service sẽ đóng cửa vào Thứ Sáu, ngày 30 tháng 6 để hoàn tất đợt kiểm kê vật tư hàng quý.",
+        "startMs": 52840,
+        "endMs": 80300,
+        "evidenceForQuestionIds": [
+          "p4-n01-q3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n01-q1",
+        "questionNumber": 71,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 1,
+        "prompt": "What type of products does the business repair?",
+        "promptVi": "Doanh nghiệp này sửa chữa loại sản phẩm nào?",
+        "options": {
+          "A": {
+            "en": "Computers",
+            "vi": "Máy tính"
+          },
+          "B": {
+            "en": "Vehicles",
+            "vi": "Phương tiện giao thông / Xe cộ"
+          },
+          "C": {
+            "en": "Light fixtures",
+            "vi": "Thiết bị chiếu sáng"
+          },
+          "D": {
+            "en": "Kitchen appliances",
+            "vi": "Thiết bị nhà bếp"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "all makes and models of automobiles / keep your vehicle running",
+              "answerPhrase": "Vehicles",
+              "meaningVi": "mọi hãng và dòng xe ô tô / phương tiện giao thông"
+            }
+          ],
+          "trapType": "Paraphrase đồng nghĩa (Automobiles → Vehicles)",
+          "listeningKey": "Nghe \"specialize in all makes and models of automobiles\" + \"keep your vehicle running\" → chốt ngay (B) Vehicles.",
+          "trapAnalysis": "Câu đầu chỉ nói tên chung chung \"Select Repair Service\" nên phải chờ câu 2 nhắc \"automobiles\" và câu 3 lặp lại \"vehicle\". Các đáp án A, C, D là các loại đồ điện máy dễ gây nhiễu với từ \"repair\".",
+          "optionAnalysis": {
+            "A": "Sai — không đề cập đến máy tính.",
+            "B": "Đúng — \"automobiles\" (ô tô) và \"vehicle\" (xe) đồng nghĩa với \"Vehicles\".",
+            "C": "Sai — không nhắc tới đèn hay thiết bị chiếu sáng.",
+            "D": "Sai — không phải tiệm sửa đồ gia dụng nhà bếp."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n01-q2",
+        "questionNumber": 72,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 3,
+        "prompt": "What special benefit does the speaker mention?",
+        "promptVi": "Người nói nhắc đến quyền lợi đặc biệt nào?",
+        "options": {
+          "A": {
+            "en": "Free pickup",
+            "vi": "Đưa đón / lấy xe miễn phí"
+          },
+          "B": {
+            "en": "Online scheduling",
+            "vi": "Đặt lịch trực tuyến"
+          },
+          "C": {
+            "en": "Extended warranties",
+            "vi": "Gói bảo hành mở rộng"
+          },
+          "D": {
+            "en": "A membership loyalty program",
+            "vi": "Chương trình khách hàng thân thiết"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "As an added benefit, we offer extended warranties",
+              "answerPhrase": "Extended warranties (special benefit)",
+              "meaningVi": "quyền lợi bổ sung: bảo hành mở rộng"
+            }
+          ],
+          "trapType": "Từ báo hiệu trực tiếp (As an added benefit)",
+          "listeningKey": "Bắt cụm báo hiệu \"As an added benefit...\" và nghe đúng danh từ theo sau: \"extended warranties\" → (C).",
+          "trapAnalysis": "ETS dùng cụm \"As an added benefit\" để paraphrase trực tiếp cụm \"special benefit\" trong câu hỏi. Các lựa chọn A, B, D đều là dịch vụ phổ biến của garage ô tô để đánh lừa người đoán theo thói quen.",
+          "optionAnalysis": {
+            "A": "Sai — bài nói không đề cập dịch vụ đón/lấy xe miễn phí.",
+            "B": "Sai — không nhắc tới đặt lịch online.",
+            "C": "Đúng — khớp chính xác cụm \"offer extended warranties\".",
+            "D": "Sai — không có chương trình tích điểm thành viên."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n01-q3",
+        "questionNumber": 73,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 4,
+        "prompt": "Why will a business close on Friday?",
+        "promptVi": "Tại sao doanh nghiệp này lại đóng cửa vào Thứ Sáu?",
+        "options": {
+          "A": {
+            "en": "For an inventory count",
+            "vi": "Để kiểm kê hàng tồn kho"
+          },
+          "B": {
+            "en": "For employee training",
+            "vi": "Để đào tạo nhân viên"
+          },
+          "C": {
+            "en": "For a company celebration",
+            "vi": "Để tổ chức tiệc công ty"
+          },
+          "D": {
+            "en": "For equipment installation",
+            "vi": "Để lắp đặt thiết bị"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "complete our quarterly inventory of supplies",
+              "answerPhrase": "For an inventory count",
+              "meaningVi": "hoàn tất đợt kiểm kê vật tư hàng quý"
+            }
+          ],
+          "trapType": "Bẫy liên tưởng từ câu trước (factory-trained → employee training)",
+          "soundTrap": {
+            "pair": "factory-trained ↔ employee training",
+            "noteVi": "Câu 3 có từ \"factory-trained\" khiến người nghe vội chọn nhầm (B) employee training."
+          },
+          "listeningKey": "Nghe \"closing on Friday... so we can complete our quarterly inventory of supplies\" → chốt (A) For an inventory count.",
+          "trapAnalysis": "Đáp án (B) cài bẫy từ cụm \"factory-trained specialists\" ở giữa bài. Phải bám mệnh đề chỉ mục đích \"so we can...\" ngay sau thông tin \"closing on Friday\".",
+          "optionAnalysis": {
+            "A": "Đúng — \"complete our quarterly inventory of supplies\" tương đương \"for an inventory count\".",
+            "B": "Sai — \"factory-trained\" là trình độ sẵn có của kỹ thuật viên, không phải lý do đóng cửa Thứ Sáu.",
+            "C": "Sai — không có buổi lễ kỷ niệm nào.",
+            "D": "Sai — không nhắc tới việc lắp đặt thiết bị mới."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n01-1",
+        "word": "specialize in",
+        "pos": "v.phr",
+        "ipaUK": "/ˈspeʃ.əl.aɪz ɪn/",
+        "ipaUS": "/ˈspeʃ.əl.aɪz ɪn/",
+        "meaning": "chuyên về (lĩnh vực / sản phẩm nào)",
+        "exampleEn": "We specialize in all makes and models of automobiles.",
+        "exampleVi": "Chúng tôi chuyên sửa chữa mọi hãng và dòng ô tô."
+      },
+      {
+        "id": "lv-p4n01-2",
+        "word": "makes and models",
+        "pos": "n.phr",
+        "ipaUK": "/meɪks ənd ˈmɒd.əlz/",
+        "ipaUS": "/meɪks ənd ˈmɑː.dəlz/",
+        "meaning": "các hãng và dòng xe (nhãn hiệu & mẫu mã)",
+        "exampleEn": "The garage services all makes and models of domestic cars.",
+        "exampleVi": "Xưởng sửa chữa bảo dưỡng tất cả các hãng và dòng xe nội địa."
+      },
+      {
+        "id": "lv-p4n01-3",
+        "word": "extended warranty",
+        "pos": "n.phr",
+        "ipaUK": "/ɪkˈsten.dɪd ˈwɒr.ən.ti/",
+        "ipaUS": "/ɪkˈsten.dɪd ˈwɔːr.ən.ti/",
+        "meaning": "bảo hành mở rộng / kéo dài thời hạn bảo hành",
+        "exampleEn": "We offer extended warranties on all vehicles we service.",
+        "exampleVi": "Chúng tôi cung cấp gói bảo hành mở rộng cho mọi xe được bảo dưỡng."
+      },
+      {
+        "id": "lv-p4n01-4",
+        "word": "quarterly inventory",
+        "pos": "n.phr",
+        "ipaUK": "/ˈkwɔː.tə.li ˈɪn.vən.tər.i/",
+        "ipaUS": "/ˈkwɔːr.t̬ɚ.li ˈɪn.vən.tɔːr.i/",
+        "meaning": "đợt kiểm kê hàng tồn kho hàng quý",
+        "exampleEn": "The shop will close early to complete its quarterly inventory.",
+        "exampleVi": "Cửa hàng sẽ đóng cửa sớm để hoàn tất việc kiểm kê hàng quý."
+      },
+      {
+        "id": "lv-p4n01-5",
+        "word": "in top condition",
+        "pos": "phr",
+        "ipaUK": "/ɪn tɒp kənˈdɪʃ.ən/",
+        "ipaUS": "/ɪn tɑːp kənˈdɪʃ.ən/",
+        "meaning": "trong tình trạng tốt nhất / hoàn hảo",
+        "exampleEn": "Regular maintenance keeps your vehicle running in top condition.",
+        "exampleVi": "Bảo dưỡng định kỳ giúp xe bạn luôn vận hành trong tình trạng tốt nhất."
+      }
+    ]
+  },
+  {
+    "id": "p4-n02",
+    "part": 4,
+    "title": "Tin nhắn thoại nhóm thiết kế gửi 2 mẫu logo công ty",
+    "talkType": "Tin nhắn thoại (Phone Message)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-86-88.mp3",
+    "transcript": [
+      {
+        "id": "p4-n02-t0",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I'm calling about the work my design team's doing to update your company logo.",
+        "vi": "Tôi gọi về công việc nhóm thiết kế của tôi đang thực hiện để cập nhật logo công ty bạn.",
+        "startMs": 400,
+        "endMs": 19966,
+        "evidenceForQuestionIds": [
+          "p4-n02-q1"
+        ]
+      },
+      {
+        "id": "p4-n02-t1",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I've just e-mailed two versions for you to review.",
+        "vi": "Tôi vừa gửi qua email hai phiên bản để bạn xem xét.",
+        "startMs": 20006,
+        "endMs": 32548,
+        "evidenceForQuestionIds": [
+          "p4-n02-q2"
+        ]
+      },
+      {
+        "id": "p4-n02-t2",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Take your time to think about which one you'd like to choose.",
+        "vi": "Bạn cứ từ từ suy nghĩ xem mình muốn chọn phiên bản nào nhé.",
+        "startMs": 32588,
+        "endMs": 47889
+      },
+      {
+        "id": "p4-n02-t3",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I'll be on vacation all next week, but if you call the office, my assistant will set up a meeting for when I get back.",
+        "vi": "Tôi sẽ đi nghỉ phép suốt tuần tới, nhưng nếu bạn gọi tới văn phòng, trợ lý của tôi sẽ sắp xếp một cuộc họp khi tôi trở lại.",
+        "startMs": 47929,
+        "endMs": 77510,
+        "evidenceForQuestionIds": [
+          "p4-n02-q3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n02-q1",
+        "questionNumber": 86,
+        "questionType": "Ý chính / Chủ đề",
+        "evidenceLineIndex": 0,
+        "prompt": "Where does the speaker most likely work?",
+        "promptVi": "Người nói nhiều khả năng làm việc ở đâu?",
+        "options": {
+          "A": {
+            "en": "At a graphic design company",
+            "vi": "Tại một công ty thiết kế đồ họa"
+          },
+          "B": {
+            "en": "At a law firm",
+            "vi": "Tại một công ty luật"
+          },
+          "C": {
+            "en": "At a photography studio",
+            "vi": "Tại một studio chụp ảnh"
+          },
+          "D": {
+            "en": "At a museum",
+            "vi": "Tại một viện bảo tàng"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "my design team's doing to update your company logo",
+              "answerPhrase": "At a graphic design company",
+              "meaningVi": "nhóm thiết kế cập nhật logo công ty → công ty thiết kế đồ họa"
+            }
+          ],
+          "trapType": "Suy luận nơi làm việc từ sản phẩm cốt lõi (logo → graphic design)",
+          "listeningKey": "Nghe ngay câu mở đầu \"my design team... update your company logo\" → chọn (A) At a graphic design company.",
+          "trapAnalysis": "Bài nói không đọc nguyên cụm \"graphic design\", mà chỉ nói \"design team\" + \"company logo\". Đây là kiểu suy luận nghề nghiệp kinh điển ở câu hỏi đầu tiên của Part 4.",
+          "optionAnalysis": {
+            "A": "Đúng — thiết kế logo công ty là nghiệp vụ đặc trưng của công ty thiết kế đồ họa.",
+            "B": "Sai — không có yếu tố pháp lý nào.",
+            "C": "Sai — nhiếp ảnh (photography) khác với thiết kế logo đồ họa.",
+            "D": "Sai — không nhắc tới triển lãm hay bảo tàng."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n02-q2",
+        "questionNumber": 87,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 1,
+        "prompt": "What did the listener receive by e-mail?",
+        "promptVi": "Người nghe đã nhận được gì qua email?",
+        "options": {
+          "A": {
+            "en": "A newsletter",
+            "vi": "Một bản tin"
+          },
+          "B": {
+            "en": "Some images",
+            "vi": "Một vài hình ảnh"
+          },
+          "C": {
+            "en": "An invoice",
+            "vi": "Một hóa đơn"
+          },
+          "D": {
+            "en": "Some contracts",
+            "vi": "Một vài bản hợp đồng"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "e-mailed two versions (of your company logo)",
+              "answerPhrase": "Some images",
+              "meaningVi": "hai phiên bản mẫu logo → một vài hình ảnh"
+            }
+          ],
+          "trapType": "Paraphrase khái quát hóa (two logo versions → some images)",
+          "listeningKey": "Liên kết câu 1 (\"company logo\") với câu 2 (\"e-mailed two versions\") → hai bản logo chính là (B) Some images.",
+          "trapAnalysis": "ETS không lặp lại chữ \"logo\" ở đáp án mà đổi sang danh từ bao quát hơn là \"some images\". Nhiều thí sinh nghe thấy \"versions\" nhưng bỏ lỡ mạch ngữ cảnh từ câu trước nên bị phân vân với \"contracts\".",
+          "optionAnalysis": {
+            "A": "Sai — không đề cập bản tin công ty.",
+            "B": "Đúng — 2 phiên bản logo được gửi qua email tương ứng với \"some images\".",
+            "C": "Sai — chưa nhắc tới việc thanh toán hay hóa đơn.",
+            "D": "Sai — không nhắc tới hợp đồng ký kết."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n02-q3",
+        "questionNumber": 88,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 3,
+        "prompt": "Why is the speaker unavailable next week?",
+        "promptVi": "Tại sao người nói không có mặt vào tuần tới?",
+        "options": {
+          "A": {
+            "en": "She will be working at another branch.",
+            "vi": "Cô ấy sẽ làm việc ở chi nhánh khác."
+          },
+          "B": {
+            "en": "She will be with other clients.",
+            "vi": "Cô ấy sẽ gặp các khách hàng khác."
+          },
+          "C": {
+            "en": "She will be on vacation.",
+            "vi": "Cô ấy sẽ đi nghỉ phép."
+          },
+          "D": {
+            "en": "She will be at an industry conference.",
+            "vi": "Cô ấy sẽ tham dự hội nghị ngành."
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "I'll be on vacation all next week",
+              "answerPhrase": "She will be on vacation",
+              "meaningVi": "nghỉ phép cả tuần tới"
+            }
+          ],
+          "trapType": "Thông tin trực tiếp cuối tin nhắn thoại",
+          "listeningKey": "Nghe cụm \"on vacation all next week\" ở câu cuối → chọn ngay (C) She will be on vacation.",
+          "trapAnalysis": "Các đáp án A, B, D là những lý do vắng mặt quen thuộc trong môi trường công sở TOEIC nhằm đánh nhiễu nếu thí sinh lơ là ở câu kết.",
+          "optionAnalysis": {
+            "A": "Sai — không đi công tác ở chi nhánh khác.",
+            "B": "Sai — không nhắc tới việc gặp khách hàng khác.",
+            "C": "Đúng — khớp nguyên văn \"I'll be on vacation all next week\".",
+            "D": "Sai — không tham dự hội nghị chuyên ngành."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n02-1",
+        "word": "update a logo",
+        "pos": "v.phr",
+        "ipaUK": "/ʌpˈdeɪt ə ˈləʊ.ɡəʊ/",
+        "ipaUS": "/ʌpˈdeɪt ə ˈloʊ.ɡoʊ/",
+        "meaning": "cập nhật / làm mới logo thương hiệu",
+        "exampleEn": "Our design team is working to update your company logo.",
+        "exampleVi": "Nhóm thiết kế của chúng tôi đang làm việc để cập nhật logo công ty bạn."
+      },
+      {
+        "id": "lv-p4n02-2",
+        "word": "version",
+        "pos": "n",
+        "ipaUK": "/ˈvɜː.ʃən/",
+        "ipaUS": "/ˈvɝː.ʒən/",
+        "meaning": "phiên bản, bản thiết kế",
+        "exampleEn": "I've just e-mailed two versions for you to review.",
+        "exampleVi": "Tôi vừa gửi email hai phiên bản để bạn xem xét."
+      },
+      {
+        "id": "lv-p4n02-3",
+        "word": "take your time",
+        "pos": "idiom",
+        "ipaUK": "/teɪk jɔː taɪm/",
+        "ipaUS": "/teɪk jʊr taɪm/",
+        "meaning": "cứ từ từ, không cần vội",
+        "exampleEn": "Take your time to think about which one you'd like to choose.",
+        "exampleVi": "Bạn cứ từ từ suy nghĩ xem mình muốn chọn mẫu nào."
+      },
+      {
+        "id": "lv-p4n02-4",
+        "word": "be on vacation",
+        "pos": "phr",
+        "ipaUK": "/bi ɒn vəˈkeɪ.ʃən/",
+        "ipaUS": "/bi ɑːn veɪˈkeɪ.ʃən/",
+        "meaning": "đang trong kỳ nghỉ phép",
+        "exampleEn": "I'll be on vacation all next week.",
+        "exampleVi": "Tôi sẽ đi nghỉ phép suốt tuần tới."
+      },
+      {
+        "id": "lv-p4n02-5",
+        "word": "set up a meeting",
+        "pos": "v.phr",
+        "ipaUK": "/set ʌp ə ˈmiː.tɪŋ/",
+        "ipaUS": "/set ʌp ə ˈmiː.t̬ɪŋ/",
+        "meaning": "sắp xếp / đặt lịch một cuộc họp",
+        "exampleEn": "My assistant will set up a meeting for when I get back.",
+        "exampleVi": "Trợ lý của tôi sẽ sắp xếp một cuộc họp khi tôi quay về."
+      }
+    ]
+  },
+  {
+    "id": "p4-n03",
+    "part": 4,
+    "title": "Thông báo ga tàu Midway hoãn chuyến & xe buýt thay thế (Hàm ý)",
+    "talkType": "Thông báo (Announcement)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-83-85.mp3",
+    "transcript": [
+      {
+        "id": "p4-n03-t0",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Attention, passengers.",
+        "vi": "Xin quý hành khách chú ý.",
+        "startMs": 400,
+        "endMs": 6385
+      },
+      {
+        "id": "p4-n03-t1",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "All trains to Midway Station are delayed for track repairs.",
+        "vi": "Tất cả các chuyến tàu đến Ga Midway đều bị hoãn để sửa chữa đường ray.",
+        "startMs": 6425,
+        "endMs": 22477,
+        "evidenceForQuestionIds": [
+          "p4-n03-q1"
+        ]
+      },
+      {
+        "id": "p4-n03-t2",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "They expect to complete the repair within the hour.",
+        "vi": "Họ dự kiến sẽ hoàn tất việc sửa chữa trong vòng một giờ nữa.",
+        "startMs": 22517,
+        "endMs": 36393
+      },
+      {
+        "id": "p4-n03-t3",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "A bus will be departing for that destination in fifteen minutes.",
+        "vi": "Một chuyến xe buýt sẽ khởi hành tới điểm đến đó trong vòng mười lăm phút nữa.",
+        "startMs": 36433,
+        "endMs": 53846,
+        "evidenceForQuestionIds": [
+          "p4-n03-q2"
+        ]
+      },
+      {
+        "id": "p4-n03-t4",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Also, a reminder that the station café opens at eight A.M., and there are food kiosks on platform one.",
+        "vi": "Ngoài ra, xin nhắc lại rằng quán cà phê trong ga mở cửa lúc 8 giờ sáng, và có các quầy bán đồ ăn ở sân ga số một.",
+        "startMs": 53886,
+        "endMs": 81580,
+        "evidenceForQuestionIds": [
+          "p4-n03-q3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n03-q1",
+        "questionNumber": 83,
+        "questionType": "Ý chính / Chủ đề",
+        "evidenceLineIndex": 1,
+        "prompt": "What is the announcement mainly about?",
+        "promptVi": "Thông báo này chủ yếu nói về điều gì?",
+        "options": {
+          "A": {
+            "en": "A promotional event",
+            "vi": "Một sự kiện khuyến mãi"
+          },
+          "B": {
+            "en": "A vacation package",
+            "vi": "Một gói du lịch nghỉ dưỡng"
+          },
+          "C": {
+            "en": "A building renovation",
+            "vi": "Việc cải tạo tòa nhà"
+          },
+          "D": {
+            "en": "A travel delay",
+            "vi": "Sự chậm trễ trong hành trình di chuyển"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "All trains to Midway Station are delayed for track repairs",
+              "answerPhrase": "A travel delay",
+              "meaningVi": "tất cả chuyến tàu bị hoãn → sự chậm trễ di chuyển"
+            }
+          ],
+          "trapType": "Bẫy hiểu nhầm \"repairs\" sang \"building renovation\"",
+          "soundTrap": {
+            "pair": "track repairs ↔ building renovation",
+            "noteVi": "Từ \"repairs\" dễ khiến thí sinh chọn nhầm (C) building renovation, nhưng đây là sửa đường ray tàu chứ không phải cải tạo tòa nhà."
+          },
+          "listeningKey": "Nghe \"Attention, passengers. All trains... are delayed\" → chốt ngay (D) A travel delay.",
+          "trapAnalysis": "Câu thông báo tại nhà ga luôn nêu lý do chính ngay câu thứ hai. Mục đích chính là báo hoãn tàu (travel delay), còn việc sửa đường ray chỉ là nguyên nhân.",
+          "optionAnalysis": {
+            "A": "Sai — không có chương trình khuyến mãi.",
+            "B": "Sai — không bán gói du lịch.",
+            "C": "Sai — sửa đường ray (track repairs), không phải cải tạo tòa nhà.",
+            "D": "Đúng — \"trains... are delayed\" tương ứng trực tiếp với \"A travel delay\"."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n03-q2",
+        "questionNumber": 84,
+        "questionType": "Hàm ý người nói (Implied Meaning)",
+        "evidenceLineIndex": 3,
+        "prompt": "Why does the speaker say, \"A bus will be departing for that destination in fifteen minutes\"?",
+        "promptVi": "Tại sao người nói lại nói: \"Một chuyến xe buýt sẽ khởi hành đến điểm đến đó sau mười lăm phút nữa\"?",
+        "options": {
+          "A": {
+            "en": "To suggest an alternative arrangement",
+            "vi": "Để gợi ý một phương án di chuyển thay thế"
+          },
+          "B": {
+            "en": "To explain an extended wait time",
+            "vi": "Để giải thích thời gian chờ đợi kéo dài"
+          },
+          "C": {
+            "en": "To recommend changing the travel date",
+            "vi": "Để khuyên đổi ngày đi"
+          },
+          "D": {
+            "en": "To inform customers about a new destination",
+            "vi": "Để báo cho khách về một điểm đến mới"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "A bus will be departing for that destination in fifteen minutes",
+              "answerPhrase": "suggest an alternative arrangement",
+              "meaningVi": "có xe buýt khởi hành đi cùng điểm đến → gợi ý phương án thay thế khi tàu bị hoãn"
+            }
+          ],
+          "trapType": "Câu hỏi hàm ý (Implied Meaning) — Ngữ cảnh xử lý sự cố",
+          "listeningKey": "Tàu đến Midway bị hoãn 1 tiếng → nhắc có xe buýt đi tới \"that destination\" sau 15 phút → hàm ý đưa phương án thay thế (A).",
+          "trapAnalysis": "Đáp án (D) lặp lại nguyên chữ \"destination\" làm bẫy từ vựng (word repetition trap), nhưng \"that destination\" chính là Midway Station chứ không phải điểm đến mới.",
+          "optionAnalysis": {
+            "A": "Đúng — hành khách có thể đi xe buýt thay vì chờ tàu sửa đường ray.",
+            "B": "Sai — thời gian chờ tàu đã được giải thích ở câu trước (within the hour).",
+            "C": "Sai — không khuyên hành khách dời sang ngày khác.",
+            "D": "Sai — bẫy lặp từ \"destination\"; đó là cùng ga Midway, không phải tuyến mới."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n03-q3",
+        "questionNumber": 85,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 4,
+        "prompt": "What does the speaker remind the listeners about?",
+        "promptVi": "Người nói nhắc nhở hành khách về điều gì?",
+        "options": {
+          "A": {
+            "en": "How to download a mobile application",
+            "vi": "Cách tải ứng dụng di động"
+          },
+          "B": {
+            "en": "Where a waiting area is located",
+            "vi": "Vị trí của khu vực phòng chờ"
+          },
+          "C": {
+            "en": "How to reserve tickets",
+            "vi": "Cách đặt vé"
+          },
+          "D": {
+            "en": "Where to buy food",
+            "vi": "Nơi mua đồ ăn"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "the station café opens at eight A.M., and there are food kiosks on platform one",
+              "answerPhrase": "Where to buy food",
+              "meaningVi": "quán cà phê nhà ga & quầy đồ ăn ở sân ga số 1 → nơi mua thức ăn"
+            }
+          ],
+          "trapType": "Từ báo hiệu \"a reminder that...\" + Paraphrase chi tiết",
+          "listeningKey": "Bắt tín hiệu \"a reminder that...\" → nghe \"station café\" + \"food kiosks on platform one\" → chọn (D) Where to buy food.",
+          "trapAnalysis": "Từ \"platform one\" có thể làm người nghe liên tưởng đến phòng chờ (B), nhưng thông tin cốt lõi đi kèm là \"station café\" và \"food kiosks\" (nơi mua đồ ăn thức uống).",
+          "optionAnalysis": {
+            "A": "Sai — không đề cập ứng dụng di động.",
+            "B": "Sai — không nhắc vị trí phòng chờ (waiting area).",
+            "C": "Sai — không hướng dẫn đặt vé.",
+            "D": "Đúng — quán cà phê và các quầy thức ăn (food kiosks) là nơi mua đồ ăn."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n03-1",
+        "word": "track repairs",
+        "pos": "n.phr",
+        "ipaUK": "/træk rɪˈpeəz/",
+        "ipaUS": "/træk rɪˈperz/",
+        "meaning": "việc sửa chữa đường ray tàu hỏa",
+        "exampleEn": "All trains to Midway Station are delayed for track repairs.",
+        "exampleVi": "Tất cả chuyến tàu đi ga Midway đều bị hoãn do sửa chữa đường ray."
+      },
+      {
+        "id": "lv-p4n03-2",
+        "word": "depart for",
+        "pos": "v.phr",
+        "ipaUK": "/dɪˈpɑːt fɔː/",
+        "ipaUS": "/dɪˈpɑːrt fɔːr/",
+        "meaning": "khởi hành đi đến (địa điểm nào)",
+        "exampleEn": "A bus will be departing for that destination in fifteen minutes.",
+        "exampleVi": "Một chuyến xe buýt sẽ khởi hành đến điểm đến đó trong 15 phút nữa."
+      },
+      {
+        "id": "lv-p4n03-3",
+        "word": "alternative arrangement",
+        "pos": "n.phr",
+        "ipaUK": "/ɔːlˈtɜː.nə.tɪv əˈreɪndʒ.mənt/",
+        "ipaUS": "/ɑːlˈtɝː.nə.t̬ɪv əˈreɪndʒ.mənt/",
+        "meaning": "phương án / sự sắp xếp thay thế",
+        "exampleEn": "The rail operator offered buses as an alternative arrangement.",
+        "exampleVi": "Nhà điều hành đường sắt cung cấp xe buýt như một phương án thay thế."
+      },
+      {
+        "id": "lv-p4n03-4",
+        "word": "food kiosk",
+        "pos": "n.phr",
+        "ipaUK": "/fuːd ˈkiː.ɒsk/",
+        "ipaUS": "/fuːd ˈkiː.ɑːsk/",
+        "meaning": "ki-ốt / quầy bán đồ ăn nhanh",
+        "exampleEn": "There are food kiosks located on platform one.",
+        "exampleVi": "Có các quầy bán đồ ăn nằm trên sân ga số một."
+      },
+      {
+        "id": "lv-p4n03-5",
+        "word": "within the hour",
+        "pos": "phr",
+        "ipaUK": "/wɪˈðɪn ði aʊə/",
+        "ipaUS": "/wɪˈðɪn ði aʊr/",
+        "meaning": "trong vòng một giờ tới",
+        "exampleEn": "Technicians expect to complete the repair within the hour.",
+        "exampleVi": "Các kỹ thuật viên dự kiến hoàn tất việc sửa chữa trong vòng một giờ."
+      }
+    ]
   }
 ]

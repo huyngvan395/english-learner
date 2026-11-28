@@ -13,15 +13,18 @@ import {
   Headphones,
   LogIn,
   LogOut,
+  Moon,
   NotebookPen,
   PenTool,
   RefreshCw,
+  Sun,
   Trophy,
   X,
 } from 'lucide-react';
 import { NavTab } from '../types';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
 
 interface SidebarProps {
   activeTab: NavTab;
@@ -42,6 +45,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const { vocabProgress, notes, wrongQuestions, syncNow, signOutAndClear } = useApp();
   const { user, userProfile, syncStatus, syncError, openAuthModal } = useAuth();
+  const { isDark, toggleTheme } = useTheme();
 
   // Lock background page scroll while mobile slide-over drawer is open
   useEffect(() => {
@@ -189,8 +193,32 @@ export const Sidebar: React.FC<SidebarProps> = ({
           })}
         </nav>
 
-        {/* Bottom Account & Cloud Sync Area (Parroto-inspired) */}
-        <div className="p-3 pb-safe border-t border-slate-800/80 bg-[#0B1120]/60 shrink-0">
+        {/* Bottom Theme Switcher + Account & Cloud Sync Area (Parroto-inspired) */}
+        <div className="p-3 pb-safe border-t border-slate-800/80 bg-[#0B1120]/60 shrink-0 space-y-2.5">
+          {/* Quick Dark / Light Mode Toggle */}
+          <button
+            type="button"
+            onClick={toggleTheme}
+            title={isDark ? 'Chuyển sang giao diện Sáng' : 'Chuyển sang giao diện Tối'}
+            className={`flex w-full items-center ${
+              isCollapsed ? 'justify-center px-0' : 'justify-between px-3'
+            } h-9 rounded-xl border border-slate-800 bg-slate-900/80 hover:border-indigo-500/50 text-xs font-bold text-slate-300 hover:text-white transition`}
+          >
+            <span className="inline-flex items-center gap-2">
+              {isDark ? (
+                <Moon className="h-3.5 w-3.5 text-indigo-400 shrink-0" />
+              ) : (
+                <Sun className="h-3.5 w-3.5 text-amber-400 shrink-0" />
+              )}
+              {!isCollapsed && <span>{isDark ? 'Giao diện Tối' : 'Giao diện Sáng'}</span>}
+            </span>
+            {!isCollapsed && (
+              <span className="rounded-md bg-slate-800 px-1.5 py-0.5 text-[10px] font-bold text-slate-400">
+                {isDark ? '☀️ Sáng' : '🌙 Tối'}
+              </span>
+            )}
+          </button>
+
           {!user ? (
             isCollapsed ? (
               <button

@@ -70,7 +70,10 @@ export const DeckCoverArt: React.FC<DeckCoverArtProps> = ({
   };
 
   return (
-    <div className={`relative h-36 w-full overflow-hidden rounded-t-2xl bg-gradient-to-br ${gradient} p-4 flex flex-col justify-between`}>
+    <div
+      data-preserve-dark="true"
+      className={`relative h-36 w-full overflow-hidden rounded-t-2xl bg-gradient-to-br ${gradient} p-4 flex flex-col justify-between`}
+    >
       {/* Decorative translucent mesh circles */}
       <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full bg-white/15 blur-xl" />
       <div className="pointer-events-none absolute -bottom-10 -left-6 h-28 w-28 rounded-full bg-slate-950/25 blur-lg" />

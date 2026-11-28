@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 import { AppProvider } from './context/AppContext';
 import { NavTab } from './types';
@@ -51,11 +52,13 @@ const AppShell: React.FC = () => {
 
 export const App: React.FC = () => {
   return (
-    <AuthProvider>
-      <AppProvider>
-        <AppShell />
-      </AppProvider>
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <AppProvider>
+          <AppShell />
+        </AppProvider>
+      </AuthProvider>
+    </ThemeProvider>
   );
 };
 

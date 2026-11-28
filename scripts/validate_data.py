@@ -273,6 +273,9 @@ def _validate_toeic_listening_items(prefix: str, p1: list, p2: list, p3: list, p
         for s in group:
             aud = PUBLIC / s["audioUrl"].lstrip("/")
             check(aud.exists() and aud.stat().st_size > 10_000, f"{prefix} {gname} {s['id']} missing/small audio: {aud}")
+            if s.get("graphicImageUrl"):
+                gimg = PUBLIC / s["graphicImageUrl"].lstrip("/")
+                check(gimg.exists() and gimg.stat().st_size > 2_000, f"{prefix} {gname} {s['id']} missing/small graphic image: {gimg}")
             for line in s["transcript"]:
                 check(line["endMs"] > line["startMs"], f"{prefix} {gname} {line['id']} invalid timestamps")
 

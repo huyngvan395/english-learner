@@ -1,26 +1,41 @@
 import React, { useMemo, useState } from 'react';
 import {
+  ArrowLeft,
   BookmarkCheck,
   CheckCircle2,
   Clock,
+  Keyboard,
   Layers,
   Loader2,
   Star,
   Volume2,
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
-import { SearchIndexEntry, VocabWord } from '../../types';
+import { SearchIndexEntry, VocabTopic, VocabWord } from '../../types';
 import { loadVocabDeck } from '../../utils/vocabLoader';
 import { speakText } from '../../utils/speech';
 import { FlashcardMode } from '../vocab/FlashcardMode';
+import { ActiveRecallMode } from '../vocab/ActiveRecallMode';
 
 type FilterKey = 'all' | 'srs-due' | 'starred' | 'mastered';
+type StudySessionMode = 'flashcard' | 'active-recall';
+
+const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved']);
+
+const FILTER_LABELS: Record<FilterKey, string> = {
+  all: 'Tất cả từ đã học',
+  'srs-due': 'Cần ôn SRS',
+  starred: 'Từ đã gắn sao',
+  mastered: 'Từ đã thuộc',
+};
 
 export const MyVocabView: React.FC = () => {
   const { searchIndex, customWords, vocabProgress, toggleSaveWord, markWordStatus } = useApp();
   const [filter, setFilter] = useState<FilterKey>('all');
   const [studyWords, setStudyWords] = useState<VocabWord[] | null>(null);
-  const [loadingFlashcards, setLoadingFlashcards] = useState(false);
+  const [studyMode, setStudyMode] = useState<StudySessionMode>('flashcard');
+  const [sessionTitle, setSessionTitle] = useState<string>('Từ vựng của tôi');
+  const [loadingMode, setLoadingMode] = useState<StudySessionMode | null>(null);
 
   const trackedEntries = useMemo(() => {
     return searchIndex.filter((w) => {
@@ -54,57 +69,210 @@ export const MyVocabView: React.FC = () => {
     return trackedEntries.filter((w) => {
       const p = vocabProgress[w.id];
       if (!p || p.permanentlyMastered) return false;
-      return p.status === 'forgotten' || p.status === 'vague' || (p.nextReviewAt > 0 && p.nextReviewAt <= now);
+      return (
+        p.status === 'forgotten' ||
+        p.status === 'vague' ||
+        (p.nextReviewAt > 0 && p.nextReviewAt <= now)
+      );
     }).length;
   }, [trackedEntries, vocabProgress]);
 
-  const handleStartSrsFlashcards = async (entries: SearchIndexEntry[]) => {
-    if (entries.length === 0) return;
-    setLoadingFlashcards(true);
-    try {
-      const uniqueDeckIds = Array.from(
-        new Set(
-          entries
-            .map((e) => e.deckId)
-            .filter((id) => id && id !== 'listening-saved' && id !== 'writing-saved')
-        )
-      );
-      const loadedDecks = await Promise.all(
-        uniqueDeckIds.map((id) => loadVocabDeck(id).catch(() => null))
-      );
+  /**
+   * Resolve full VocabWord objects for any filtered subset.
+   * For sparse custom words saved from Listening/Reading/Writing, automatically look up
+   * matching entries in the main searchIndex decks to enrich IPA, definitions, examples,
+   * wordFamily, synonyms, antonyms & collocations while preserving the user's tracked word ID.
+   */
+  const resolveStudyWords = async (entries: SearchIndexEntry[]): Promise<VocabWord[]> => {
+    const standardWordByText = new Map<string, SearchIndexEntry>();
+    for (const row of searchIndex) {
+      if (row.deckId && !CUSTOM_DECK_IDS.has(row.deckId)) {
+        const key = row.word.trim().toLowerCase();
+        if (!standardWordByText.has(key)) {
+          standardWordByText.set(key, row);
+        }
+      }
+    }
 
-      const fullWordMap = new Map<string, VocabWord>();
-      for (const cw of customWords) fullWordMap.set(cw.id, cw);
-      for (const deck of loadedDecks) {
-        if (!deck) continue;
-        for (const w of deck.words) fullWordMap.set(w.id, w);
+    const deckIdsToLoad = new Set<string>();
+    for (const e of entries) {
+      if (e.deckId && !CUSTOM_DECK_IDS.has(e.deckId)) {
+        deckIdsToLoad.add(e.deckId);
+      } else {
+        const enrichedMatch = standardWordByText.get(e.word.trim().toLowerCase());
+        if (enrichedMatch?.deckId) {
+          deckIdsToLoad.add(enrichedMatch.deckId);
+        }
+      }
+    }
+
+    const loadedDecks = await Promise.all(
+      Array.from(deckIdsToLoad).map((id) => loadVocabDeck(id).catch(() => null))
+    );
+
+    const fullWordById = new Map<string, VocabWord>();
+    const fullWordByText = new Map<string, VocabWord>();
+
+    for (const deck of loadedDecks) {
+      if (!deck) continue;
+      for (const w of deck.words) {
+        fullWordById.set(w.id, w);
+        const key = w.word.trim().toLowerCase();
+        if (!fullWordByText.has(key)) fullWordByText.set(key, w);
+      }
+    }
+
+    const customWordById = new Map<string, VocabWord>();
+    for (const cw of customWords) customWordById.set(cw.id, cw);
+
+    const resolved: VocabWord[] = [];
+    for (const e of entries) {
+      const directDeckWord = fullWordById.get(e.id);
+      if (directDeckWord) {
+        resolved.push(directDeckWord);
+        continue;
       }
 
-      const resolved: VocabWord[] = entries
-        .map((e) => fullWordMap.get(e.id))
-        .filter((w): w is VocabWord => Boolean(w));
-      setStudyWords(resolved);
+      const customWord = customWordById.get(e.id);
+      const textEnrich = fullWordByText.get(e.word.trim().toLowerCase());
+
+      if (customWord && textEnrich) {
+        // Merge rich dictionary data while preserving the user's tracked wordId & deckId for SRS + Cloud sync!
+        resolved.push({
+          ...textEnrich,
+          id: customWord.id,
+          deckId: customWord.deckId,
+          word: customWord.word,
+          meaning: customWord.meaning || textEnrich.meaning,
+          ipaUS: customWord.ipaUS && customWord.ipaUS !== '/.../' ? customWord.ipaUS : textEnrich.ipaUS,
+          ipaUK: customWord.ipaUK && customWord.ipaUK !== '/.../' ? customWord.ipaUK : textEnrich.ipaUK,
+          examples:
+            customWord.examples && customWord.examples.length > 0 && customWord.examples[0]?.en
+              ? customWord.examples
+              : textEnrich.examples,
+        });
+        continue;
+      }
+
+      if (customWord) {
+        // Clean synthetic boilerplate definitions on sparse custom words so card stays crisp
+        const isBoilerplateEn =
+          customWord.definitionEn?.startsWith('A high-frequency TOEIC listening expression') ||
+          customWord.definitionEn?.startsWith('High-value expression extracted from AI Writing');
+        const isBoilerplateVi =
+          customWord.definitionVi?.startsWith('Từ/cụm từ nghe trọng tâm TOEIC') ||
+          customWord.definitionVi?.startsWith('Từ/cụm từ ăn điểm trích từ bài chấm Writing');
+        resolved.push({
+          ...customWord,
+          definitionEn: isBoilerplateEn ? '' : customWord.definitionEn,
+          definitionVi: isBoilerplateVi ? '' : customWord.definitionVi,
+        });
+        continue;
+      }
+
+      if (textEnrich) {
+        resolved.push({
+          ...textEnrich,
+          id: e.id,
+          deckId: e.deckId,
+        });
+        continue;
+      }
+
+      // Final graceful fallback from lightweight SearchIndexEntry
+      resolved.push({
+        id: e.id,
+        deckId: e.deckId,
+        word: e.word,
+        pos: e.partOfSpeech || 'n',
+        ipaUS: e.ipaUS || '',
+        ipaUK: e.ipaUS || '',
+        meaning: e.meaningVi,
+        definitionEn: '',
+        definitionVi: '',
+        examples: [],
+        wordFamily: [],
+        synonyms: [],
+        antonyms: [],
+        collocations: [],
+      });
+    }
+
+    return resolved;
+  };
+
+  const handleStartReview = async (entries: SearchIndexEntry[], mode: StudySessionMode) => {
+    if (entries.length === 0) return;
+    setLoadingMode(mode);
+    try {
+      const resolved = await resolveStudyWords(entries);
+      if (resolved.length > 0) {
+        setStudyMode(mode);
+        setSessionTitle(`Từ vựng của tôi — ${FILTER_LABELS[filter]}`);
+        setStudyWords(resolved);
+      }
     } finally {
-      setLoadingFlashcards(false);
+      setLoadingMode(null);
     }
   };
 
+  const activeRecallTopic: VocabTopic | null = useMemo(() => {
+    if (!studyWords || studyWords.length === 0) return null;
+    return {
+      id: `my-vocab-${filter}-${studyWords.length}`,
+      name: sessionTitle,
+      icon: 'education',
+      words: studyWords,
+    };
+  }, [studyWords, filter, sessionTitle]);
+
   if (studyWords && studyWords.length > 0) {
+    if (studyMode === 'active-recall' && activeRecallTopic) {
+      return (
+        <div className="space-y-4">
+          <ActiveRecallMode
+            topic={activeRecallTopic}
+            topicIndex={0}
+            totalTopics={1}
+            totalDeckWords={studyWords.length}
+            deckTitle="Từ vựng của tôi (SRS)"
+            hasNextTopic={false}
+            onGoNextTopic={() => {}}
+            sessionMode
+            sessionLabel={sessionTitle}
+            onSwitchToFlashcard={() => setStudyMode('flashcard')}
+            onExitSession={() => setStudyWords(null)}
+          />
+        </div>
+      );
+    }
+
     return (
       <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-extrabold text-white">
+        <div className="flex flex-wrap items-center justify-between gap-2.5">
+          <h2 className="text-lg sm:text-xl font-extrabold text-white">
             Ôn tập Flashcard SRS ({studyWords.length} từ)
           </h2>
-          <button
-            type="button"
-            onClick={() => setStudyWords(null)}
-            className="rounded-xl border border-slate-700 bg-slate-800 px-4 py-2 text-xs font-bold text-slate-200 hover:text-white"
-          >
-            Quay lại danh sách
-          </button>
+          <div className="flex items-center gap-2 flex-wrap">
+            <button
+              type="button"
+              onClick={() => setStudyMode('active-recall')}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-emerald-500/45 bg-emerald-500/15 hover:bg-emerald-500/25 px-3.5 py-2 text-xs font-bold text-emerald-300 transition"
+            >
+              <Keyboard className="h-3.5 w-3.5" />
+              Chuyển sang Gõ từ chủ động
+            </button>
+            <button
+              type="button"
+              onClick={() => setStudyWords(null)}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 px-3.5 py-2 text-xs font-bold text-slate-200 hover:text-white transition"
+            >
+              <ArrowLeft className="h-3.5 w-3.5" />
+              Quay lại danh sách
+            </button>
+          </div>
         </div>
-        <FlashcardMode words={studyWords} deckTitle="Từ vựng của tôi (SRS)" />
+        <FlashcardMode words={studyWords} deckTitle={sessionTitle} />
       </div>
     );
   }
@@ -112,7 +280,7 @@ export const MyVocabView: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Banner */}
-      <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-[#16203A] via-[#111827] to-[#0F172A] p-6 shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-[#16203A] via-[#111827] to-[#0F172A] p-5 sm:p-6 shadow-card flex flex-col xl:flex-row xl:items-center justify-between gap-4">
         <div>
           <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/15 border border-amber-500/30 px-3 py-1 text-xs font-bold text-amber-300">
             <BookmarkCheck className="h-3.5 w-3.5" />
@@ -120,28 +288,49 @@ export const MyVocabView: React.FC = () => {
           </div>
           <h2 className="mt-2 text-2xl font-extrabold text-white">Từ Vựng Của Tôi</h2>
           <p className="mt-1 text-xs sm:text-sm text-slate-400">
-            Quản lý từ đã đánh dấu sao, từ lưu từ bài nghe Listening và danh sách từ cần ôn lại theo SRS.
+            Quản lý từ đã đánh dấu sao, từ lưu từ bài nghe Listening / Writing và ôn tập chủ động theo SRS.
           </p>
         </div>
 
-        <button
-          type="button"
-          disabled={filteredEntries.length === 0 || loadingFlashcards}
-          onClick={() => handleStartSrsFlashcards(filteredEntries)}
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 disabled:opacity-40 px-5 py-3 text-sm font-bold text-white shadow-glow hover:from-blue-500 hover:to-violet-500 transition shrink-0"
-        >
-          {loadingFlashcards ? (
-            <>
-              <Loader2 className="h-4 w-4 animate-spin" />
-              Đang tải thẻ ôn tập...
-            </>
-          ) : (
-            <>
-              <Layers className="h-4 w-4" />
-              Ôn Flashcard ngay ({filteredEntries.length} từ)
-            </>
-          )}
-        </button>
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 shrink-0">
+          <button
+            type="button"
+            disabled={filteredEntries.length === 0 || loadingMode !== null}
+            onClick={() => handleStartReview(filteredEntries, 'active-recall')}
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 disabled:opacity-40 px-4 sm:px-5 py-3 text-sm font-extrabold text-white shadow-glow hover:brightness-110 transition active:scale-[0.99]"
+          >
+            {loadingMode === 'active-recall' ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" />
+                Đang nạp dữ liệu gõ từ...
+              </>
+            ) : (
+              <>
+                <Keyboard className="h-4 w-4" />
+                Ôn gõ từ chủ động ({filteredEntries.length} từ)
+              </>
+            )}
+          </button>
+
+          <button
+            type="button"
+            disabled={filteredEntries.length === 0 || loadingMode !== null}
+            onClick={() => handleStartReview(filteredEntries, 'flashcard')}
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 disabled:opacity-40 px-4 sm:px-5 py-3 text-sm font-bold text-white shadow-glow hover:from-blue-500 hover:to-violet-500 transition active:scale-[0.99]"
+          >
+            {loadingMode === 'flashcard' ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" />
+                Đang tải thẻ ôn tập...
+              </>
+            ) : (
+              <>
+                <Layers className="h-4 w-4" />
+                Ôn Flashcard ngay ({filteredEntries.length} từ)
+              </>
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Filter Tabs */}
@@ -179,7 +368,8 @@ export const MyVocabView: React.FC = () => {
           <BookmarkCheck className="mx-auto h-10 w-10 text-slate-500" />
           <p className="text-base font-bold text-slate-200">Chưa có từ vựng nào trong mục này</p>
           <p className="text-sm text-slate-400 max-w-md mx-auto">
-            Hãy học các bộ thẻ ở mục <b>Từ vựng</b>, gắn sao từ khó hoặc bấm <b>&ldquo;Lưu vào Từ vựng của tôi&rdquo;</b> trong phần giải thích <b>TOEIC Listening</b>!
+            Hãy học các bộ thẻ ở mục <b>Từ vựng</b>, gắn sao từ khó hoặc bấm{' '}
+            <b>&ldquo;Lưu vào Từ vựng của tôi&rdquo;</b> trong phần giải thích <b>TOEIC Listening / Writing</b>!
           </p>
         </div>
       ) : (

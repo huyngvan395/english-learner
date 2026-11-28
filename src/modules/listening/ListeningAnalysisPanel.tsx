@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   Ear,
   ListChecks,
+  LocateFixed,
   MessageSquareText,
   Sparkles,
   Volume2,
@@ -28,6 +29,7 @@ interface ListeningAnalysisPanelProps {
   transcript?: TranscriptLine[];
   activeLineId?: string | null;
   onPlayLine?: (lineIndex: number) => void;
+  onLocateTranscriptEvidence?: () => void;
   extraKeyVocab?: ListeningVocabItem[];
 }
 
@@ -41,6 +43,7 @@ export const ListeningAnalysisPanel: React.FC<ListeningAnalysisPanelProps> = ({
   transcript,
   activeLineId,
   onPlayLine,
+  onLocateTranscriptEvidence,
   extraKeyVocab,
 }) => {
   const { saveListeningVocab, isWordSaved } = useApp();
@@ -63,6 +66,16 @@ export const ListeningAnalysisPanel: React.FC<ListeningAnalysisPanelProps> = ({
               : `Chưa chính xác! Bạn chọn (${userAnswer || '—'}) • Đáp án đúng: (${correctAnswer})`}
           </span>
         </div>
+        {onLocateTranscriptEvidence && (
+          <button
+            type="button"
+            onClick={onLocateTranscriptEvidence}
+            className="inline-flex items-center gap-1.5 rounded-xl border border-amber-400/45 bg-amber-500/15 hover:bg-amber-500/25 px-3 py-1.5 text-xs font-bold text-amber-200 transition"
+          >
+            <LocateFixed className="h-3.5 w-3.5 text-amber-300" />
+            Xem &amp; Nghe câu dẫn chứng trên Transcript
+          </button>
+        )}
       </div>
 
       {/* 1. Interactive Bilingual Transcript (if provided per-question like Part 1/2) */}

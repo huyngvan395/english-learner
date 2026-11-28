@@ -152,6 +152,7 @@ export const TopicIllustration: React.FC<TopicIllustrationProps> = ({ iconKey, s
 
   return (
     <div
+      data-preserve-dark="true"
       className={`shrink-0 overflow-hidden bg-gradient-to-br ${pal.bg} shadow-md flex items-center justify-center ${
         isLg
           ? 'h-24 w-24 sm:h-28 sm:w-28 rounded-2xl p-3 border-2 border-white/20 shadow-glow'

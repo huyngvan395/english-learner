@@ -1,1 +1,1947 @@
-[]
+[
+  {
+    "id": "p4-n04",
+    "part": 4,
+    "title": "Phát biểu cuộc họp nội bộ giải đáp chính sách tuyển dụng mới",
+    "talkType": "Phát biểu cuộc họp (Meeting)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-2/E26-T02-83-85.mp3",
+    "transcript": [
+      {
+        "id": "p4-n04-t0",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I called this meeting today because I wanted to talk about changes to how our company hires new employees.",
+        "vi": "Tôi triệu tập cuộc họp hôm nay vì muốn trao đổi về những thay đổi trong cách công ty chúng ta tuyển dụng nhân viên mới.",
+        "startMs": 400,
+        "endMs": 16196,
+        "evidenceForQuestionIds": [
+          "p4-n04-q1"
+        ]
+      },
+      {
+        "id": "p4-n04-t1",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "It came to my attention that some people were confused when reading about these new hiring policies in the latest company newsletter.",
+        "vi": "Tôi được biết rằng một số người đã cảm thấy bối rối khi đọc về các chính sách tuyển dụng mới này trong bản tin công ty mới nhất.",
+        "startMs": 16236,
+        "endMs": 36056,
+        "evidenceForQuestionIds": [
+          "p4-n04-q1"
+        ]
+      },
+      {
+        "id": "p4-n04-t2",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I posted a link in the meeting invitation to this information, and I asked you to bring your laptops so that you can follow along on your own screen.",
+        "vi": "Tôi đã đính kèm một đường dẫn tới thông tin này trong thư mời họp, và tôi đã yêu cầu mọi người mang theo máy tính xách tay để có thể theo dõi trên màn hình của mình.",
+        "startMs": 36096,
+        "endMs": 58300,
+        "evidenceForQuestionIds": [
+          "p4-n04-q2"
+        ]
+      },
+      {
+        "id": "p4-n04-t3",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "After we review the policies, you can see Sumit in the back of the room if you'd like a printed copy.",
+        "vi": "Sau khi chúng ta xem xét xong các chính sách, các bạn có thể gặp Sumit ở cuối phòng nếu muốn lấy một bản in.",
+        "startMs": 58340,
+        "endMs": 73391,
+        "evidenceForQuestionIds": [
+          "p4-n04-q3"
+        ]
+      },
+      {
+        "id": "p4-n04-t4",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "He has several of them.",
+        "vi": "Anh ấy có sẵn vài bản đấy.",
+        "startMs": 73431,
+        "endMs": 76800
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n04-q1",
+        "questionNumber": 83,
+        "questionType": "Ý chính / Chủ đề",
+        "evidenceLineIndex": 0,
+        "prompt": "What is the purpose of the meeting?",
+        "promptVi": "Mục đích của cuộc họp là gì?",
+        "options": {
+          "A": {
+            "en": "To evaluate vendor contracts",
+            "vi": "Để đánh giá hợp đồng nhà cung cấp"
+          },
+          "B": {
+            "en": "To review hiring policies",
+            "vi": "Để xem xét lại các chính sách tuyển dụng"
+          },
+          "C": {
+            "en": "To revise budget proposals",
+            "vi": "Để chỉnh sửa đề xuất ngân sách"
+          },
+          "D": {
+            "en": "To assess editing software",
+            "vi": "Để đánh giá phần mềm chỉnh sửa"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "talk about changes to how our company hires new employees / new hiring policies",
+              "answerPhrase": "To review hiring policies",
+              "meaningVi": "thảo luận các thay đổi trong cách tuyển nhân viên mới / chính sách tuyển dụng mới"
+            }
+          ],
+          "trapType": "Thông tin mục đích cuộc họp xuất hiện ở 2 câu đầu",
+          "listeningKey": "Nghe \"I called this meeting today because... hires new employees\" + \"new hiring policies\" → chọn (B).",
+          "trapAnalysis": "Câu mở đầu dùng cụm báo hiệu mục đích kinh điển \"I called this meeting today because...\". Các đáp án A, C, D là các chủ đề họp doanh nghiệp thường gặp nhưng hoàn toàn không được nhắc đến.",
+          "optionAnalysis": {
+            "A": "Sai — không đề cập hợp đồng nhà cung cấp.",
+            "B": "Đúng — khớp chính xác nội dung xem xét \"new hiring policies\".",
+            "C": "Sai — không liên quan đến ngân sách.",
+            "D": "Sai — không đánh giá phần mềm chỉnh sửa."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n04-q2",
+        "questionNumber": 84,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 2,
+        "prompt": "What did the speaker ask the listeners to bring to the meeting?",
+        "promptVi": "Người nói đã yêu cầu người nghe mang gì đến cuộc họp?",
+        "options": {
+          "A": {
+            "en": "A list of concerns",
+            "vi": "Một danh sách các mối lo ngại"
+          },
+          "B": {
+            "en": "A completed survey",
+            "vi": "Một bản khảo sát đã điền xong"
+          },
+          "C": {
+            "en": "A project timeline",
+            "vi": "Một tiến độ dự án"
+          },
+          "D": {
+            "en": "A laptop computer",
+            "vi": "Một chiếc máy tính xách tay"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "I asked you to bring your laptops",
+              "answerPhrase": "A laptop computer",
+              "meaningVi": "mang theo máy tính xách tay"
+            }
+          ],
+          "trapType": "Bẫy từ cảm xúc câu trước (\"confused\" → \"list of concerns\")",
+          "listeningKey": "Nghe rõ động từ \"asked you to bring your laptops\" → chọn ngay (D) A laptop computer.",
+          "trapAnalysis": "Câu trước nhắc \"some people were confused\" nên thí sinh dễ bị dẫn dụ chọn (A) \"list of concerns\". Phải bám đúng động từ \"bring\" ở câu 3.",
+          "optionAnalysis": {
+            "A": "Sai — người nói không yêu cầu mang danh sách thắc mắc.",
+            "B": "Sai — không đề cập bài khảo sát.",
+            "C": "Sai — không nhắc tới tiến độ dự án.",
+            "D": "Đúng — khớp trực tiếp với \"bring your laptops\"."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n04-q3",
+        "questionNumber": 85,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 3,
+        "prompt": "Why might some of the listeners look for Sumit?",
+        "promptVi": "Tại sao một số người nghe có thể sẽ tìm gặp Sumit?",
+        "options": {
+          "A": {
+            "en": "To get a document",
+            "vi": "Để lấy một bản tài liệu"
+          },
+          "B": {
+            "en": "To ask additional questions",
+            "vi": "Để hỏi thêm câu hỏi"
+          },
+          "C": {
+            "en": "To volunteer for an event",
+            "vi": "Để tình nguyện tham gia sự kiện"
+          },
+          "D": {
+            "en": "To check the status of a request",
+            "vi": "Để kiểm tra tình trạng một yêu cầu"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "see Sumit in the back of the room if you'd like a printed copy",
+              "answerPhrase": "To get a document",
+              "meaningVi": "lấy một bản in (tài liệu chính sách) → lấy một tài liệu"
+            }
+          ],
+          "trapType": "Paraphrase danh từ cụ thể thành danh từ tổng quát (printed copy → document)",
+          "listeningKey": "Bắt tên riêng \"Sumit\" và cụm ngay sau đó \"if you'd like a printed copy\" → (A) To get a document.",
+          "trapAnalysis": "ETS luôn paraphrase tên gọi tài liệu cụ thể (\"printed copy\", \"brochure\", \"handout\") thành \"document\" trong đáp án.",
+          "optionAnalysis": {
+            "A": "Đúng — \"a printed copy\" của bộ chính sách chính là \"a document\".",
+            "B": "Sai — Sumit không phải người giải đáp thêm câu hỏi mà là người cầm bản in.",
+            "C": "Sai — không kêu gọi tình nguyện viên.",
+            "D": "Sai — không liên quan tới việc kiểm tra trạng thái yêu cầu."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n04-1",
+        "word": "call a meeting",
+        "pos": "v.phr",
+        "ipaUK": "/kɔːl ə ˈmiː.tɪŋ/",
+        "ipaUS": "/kɑːl ə ˈmiː.t̬ɪŋ/",
+        "meaning": "triệu tập một cuộc họp",
+        "exampleEn": "I called this meeting today to discuss our new hiring policies.",
+        "exampleVi": "Tôi triệu tập cuộc họp hôm nay để thảo luận chính sách tuyển dụng mới."
+      },
+      {
+        "id": "lv-p4n04-2",
+        "word": "come to someone’s attention",
+        "pos": "idiom",
+        "ipaUK": "/kʌm tə ˈsʌm.wʌnz əˈten.ʃən/",
+        "ipaUS": "/kʌm tə ˈsʌm.wʌnz əˈten.ʃən/",
+        "meaning": "được ai đó biết đến / lọt vào sự chú ý của ai",
+        "exampleEn": "It came to my attention that some staff were confused by the memo.",
+        "exampleVi": "Tôi được biết rằng một số nhân viên đã bối rối trước bản thông báo."
+      },
+      {
+        "id": "lv-p4n04-3",
+        "word": "hiring policy",
+        "pos": "n.phr",
+        "ipaUK": "/ˈhaɪə.rɪŋ ˈpɒl.ə.si/",
+        "ipaUS": "/ˈhaɪr.ɪŋ ˈpɑː.lə.si/",
+        "meaning": "chính sách tuyển dụng",
+        "exampleEn": "HR published the revised hiring policies in the newsletter.",
+        "exampleVi": "Phòng nhân sự đã đăng tải chính sách tuyển dụng sửa đổi trên bản tin."
+      },
+      {
+        "id": "lv-p4n04-4",
+        "word": "follow along",
+        "pos": "phr.v",
+        "ipaUK": "/ˈfɒl.əʊ əˈlɒŋ/",
+        "ipaUS": "/ˈfɑː.loʊ əˈlɑːŋ/",
+        "meaning": "theo dõi song song theo tiến trình",
+        "exampleEn": "Please bring your laptops so you can follow along on your own screen.",
+        "exampleVi": "Vui lòng mang laptop để bạn có thể theo dõi trên màn hình của mình."
+      },
+      {
+        "id": "lv-p4n04-5",
+        "word": "printed copy",
+        "pos": "n.phr",
+        "ipaUK": "/ˈprɪn.tɪd ˈkɒp.i/",
+        "ipaUS": "/ˈprɪn.t̬ɪd ˈkɑː.pi/",
+        "meaning": "bản in cứng (tài liệu giấy)",
+        "exampleEn": "See Sumit in the back of the room if you need a printed copy.",
+        "exampleVi": "Hãy gặp Sumit ở cuối phòng nếu bạn cần một bản in cứng."
+      }
+    ]
+  },
+  {
+    "id": "p4-n05",
+    "part": 4,
+    "title": "Quảng cáo đài phát thanh: Sale kỷ niệm 25 năm Havenbrook Appliances (Hàm ý)",
+    "talkType": "Quảng cáo (Advertisement)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/study4-6856-toeic-lr-collection-1-test-5/p4_s07.mp3",
+    "transcript": [
+      {
+        "id": "p4-n05-t0",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Good afternoon, listeners, and thank you for tuning in!",
+        "vi": "Chào buổi chiều quý thính giả, và cảm ơn quý vị đã đón nghe!",
+        "startMs": 220,
+        "endMs": 4828
+      },
+      {
+        "id": "p4-n05-t1",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Here's some exciting news for every homeowner in town: Havenbrook Appliances is celebrating twenty-five years in business.",
+        "vi": "Đây là một tin tức thú vị dành cho mọi chủ nhà trong thị trấn: Điện máy Havenbrook đang kỷ niệm hai mươi lăm năm hoạt động.",
+        "startMs": 5168,
+        "endMs": 12920,
+        "evidenceForQuestionIds": [
+          "p4-n05-q1"
+        ]
+      },
+      {
+        "id": "p4-n05-t2",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "To mark the occasion, we're holding our big Anniversary Weekend Sale on Saturday, June twenty-first.",
+        "vi": "Để đánh dấu dịp này, chúng tôi tổ chức đợt Giảm giá Cuối tuần Kỷ niệm lớn vào Thứ Bảy, ngày 21 tháng 6.",
+        "startMs": 13260,
+        "endMs": 19932,
+        "evidenceForQuestionIds": [
+          "p4-n05-q1"
+        ]
+      },
+      {
+        "id": "p4-n05-t3",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "You'll find up to forty percent off refrigerators, washing machines, ovens, and much more.",
+        "vi": "Quý vị sẽ tìm thấy mức giảm lên đến 40% cho tủ lạnh, máy giặt, lò nướng và nhiều sản phẩm khác.",
+        "startMs": 20272,
+        "endMs": 26560
+      },
+      {
+        "id": "p4-n05-t4",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "And here's the best part—every purchase you make that day automatically enters you to win our grand prize, a state-of-the-art home espresso machine.",
+        "vi": "Và đây là phần tuyệt vời nhất — mọi hóa đơn mua hàng trong ngày hôm đó sẽ tự động đưa bạn vào danh sách rút thăm giải đặc biệt: một chiếc máy pha cà phê espresso gia đình hiện đại bậc nhất.",
+        "startMs": 26900,
+        "endMs": 35876,
+        "evidenceForQuestionIds": [
+          "p4-n05-q2"
+        ]
+      },
+      {
+        "id": "p4-n05-t5",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Now remember, last year the best deals were gone by lunchtime.",
+        "vi": "Hãy nhớ rằng, năm ngoái những ưu đãi tốt nhất đã hết sạch trước giờ ăn trưa.",
+        "startMs": 36216,
+        "endMs": 40824,
+        "evidenceForQuestionIds": [
+          "p4-n05-q3"
+        ]
+      },
+      {
+        "id": "p4-n05-t6",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "So visit us bright and early at our showroom on Larkmoor Avenue.",
+        "vi": "Vì vậy hãy ghé thăm chúng tôi thật sớm tại phòng trưng bày trên đại lộ Larkmoor.",
+        "startMs": 41164,
+        "endMs": 45436,
+        "evidenceForQuestionIds": [
+          "p4-n05-q3"
+        ]
+      },
+      {
+        "id": "p4-n05-t7",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We can't wait to see you there!",
+        "vi": "Chúng tôi rất mong được đón tiếp quý vị tại đó!",
+        "startMs": 45776,
+        "endMs": 48296
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n05-q1",
+        "questionNumber": 89,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 2,
+        "prompt": "What event is the business promoting in June?",
+        "promptVi": "Doanh nghiệp đang quảng bá sự kiện gì trong tháng 6?",
+        "options": {
+          "A": {
+            "en": "A store relocation",
+            "vi": "Việc chuyển địa điểm cửa hàng"
+          },
+          "B": {
+            "en": "A grand opening",
+            "vi": "Lễ khai trương"
+          },
+          "C": {
+            "en": "A hiring event",
+            "vi": "Một sự kiện tuyển dụng"
+          },
+          "D": {
+            "en": "An anniversary sale",
+            "vi": "Một đợt giảm giá kỷ niệm thành lập"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "celebrating twenty-five years... holding our big Anniversary Weekend Sale on Saturday, June twenty-first",
+              "answerPhrase": "An anniversary sale",
+              "meaningVi": "đợt giảm giá kỷ niệm 25 năm vào tháng 6"
+            }
+          ],
+          "trapType": "Bẫy từ gần ngữ cảnh (\"grand prize\" ↔ \"grand opening\")",
+          "soundTrap": {
+            "pair": "grand prize ↔ grand opening",
+            "noteVi": "Từ \"grand prize\" xuất hiện ở giữa bài dễ đánh lừa người nghe chọn nhầm (B) grand opening."
+          },
+          "listeningKey": "Nghe \"celebrating twenty-five years... Anniversary Weekend Sale on Saturday, June 21st\" → chọn ngay (D).",
+          "trapAnalysis": "Cửa hàng đã hoạt động 25 năm nên không thể là khai trương (B). Khớp chính xác tên sự kiện ở câu 3.",
+          "optionAnalysis": {
+            "A": "Sai — không đề cập việc dời cửa hàng.",
+            "B": "Sai — bẫy từ \"grand\" (grand prize), đây là kỷ niệm 25 năm không phải khai trương.",
+            "C": "Sai — không phải ngày hội tuyển dụng.",
+            "D": "Đúng — \"Anniversary Weekend Sale\" chính là \"An anniversary sale\"."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n05-q2",
+        "questionNumber": 90,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 4,
+        "prompt": "What can listeners win by taking part?",
+        "promptVi": "Thính giả có thể trúng thưởng gì khi tham gia?",
+        "options": {
+          "A": {
+            "en": "A washing machine",
+            "vi": "Một chiếc máy giặt"
+          },
+          "B": {
+            "en": "A kitchen appliance",
+            "vi": "Một thiết bị nhà bếp"
+          },
+          "C": {
+            "en": "A shopping voucher",
+            "vi": "Một phiếu mua hàng"
+          },
+          "D": {
+            "en": "A cash prize",
+            "vi": "Một giải thưởng tiền mặt"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "win our grand prize, a state-of-the-art home espresso machine",
+              "answerPhrase": "A kitchen appliance",
+              "meaningVi": "máy pha cà phê espresso gia đình → một thiết bị nhà bếp"
+            }
+          ],
+          "trapType": "Bẫy đồ vật giảm giá vs đồ vật trúng thưởng (washing machine)",
+          "soundTrap": {
+            "pair": "washing machines (40% off) ↔ espresso machine (grand prize)",
+            "noteVi": "\"washing machines\" có xuất hiện trong bài nhưng là mặt hàng giảm giá 40%, không phải giải thưởng."
+          },
+          "listeningKey": "Chờ cụm \"win our grand prize\" → \"home espresso machine\" → quy về nhóm (B) A kitchen appliance.",
+          "trapAnalysis": "ETS cố tình đưa (A) \"washing machine\" (nghe y chang trong câu 4) làm bẫy siêu sát, trong khi biến đổi đáp án đúng \"espresso machine\" thành từ bao quát hơn là \"kitchen appliance\".",
+          "optionAnalysis": {
+            "A": "Sai — máy giặt là hàng được giảm giá 40%, không phải giải thưởng rút thăm.",
+            "B": "Đúng — máy pha cà phê espresso gia đình thuộc nhóm thiết bị nhà bếp (kitchen appliance).",
+            "C": "Sai — không tặng phiếu mua hàng.",
+            "D": "Sai — không có giải thưởng tiền mặt."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n05-q3",
+        "questionNumber": 91,
+        "questionType": "Hàm ý người nói (Implied Meaning)",
+        "evidenceLineIndex": 5,
+        "prompt": "What does the speaker imply when he says, \"last year the best deals were gone by lunchtime\"?",
+        "promptVi": "Người nói hàm ý điều gì khi nói: \"năm ngoái các ưu đãi tốt nhất đã hết sạch trước giờ trưa\"?",
+        "options": {
+          "A": {
+            "en": "The store will close at lunchtime.",
+            "vi": "Cửa hàng sẽ đóng cửa vào giờ ăn trưa."
+          },
+          "B": {
+            "en": "The sale lasts only one day.",
+            "vi": "Đợt giảm giá chỉ kéo dài một ngày."
+          },
+          "C": {
+            "en": "Customers should shop as early as possible.",
+            "vi": "Khách hàng nên đến mua sắm càng sớm càng tốt."
+          },
+          "D": {
+            "en": "The prices will rise later in the day.",
+            "vi": "Giá bán sẽ tăng vào cuối ngày."
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "the best deals were gone by lunchtime. So visit us bright and early",
+              "answerPhrase": "Customers should shop as early as possible",
+              "meaningVi": "hàng giảm sâu hết sạch trước trưa, hãy đến thật sớm → nên đi mua càng sớm càng tốt"
+            }
+          ],
+          "trapType": "Hàm ý được giải thích ngay ở câu liền sau (\"So visit us bright and early\")",
+          "listeningKey": "Nghe câu trích dẫn + câu kết nối \"So visit us bright and early\" → chốt ngay (C).",
+          "trapAnalysis": "Bẫy (A) lặp lại từ \"lunchtime\" nhưng bóp méo thành giờ đóng cửa. Trong Part 4, câu ngay sau câu trích dẫn (bắt đầu bằng \"So...\") thường phơi bày thẳng ý định của người nói.",
+          "optionAnalysis": {
+            "A": "Sai — bẫy lặp từ \"lunchtime\"; hàng hết chứ cửa hàng không đóng cửa giờ trưa.",
+            "B": "Sai — tên sự kiện là \"Weekend Sale\" và câu trích không nhằm nhấn mạnh thời lượng 1 ngày.",
+            "C": "Đúng — nhắc hàng tốt hết nhanh để thôi thúc khách đến thật sớm (\"bright and early\").",
+            "D": "Sai — không nói giá sẽ tăng vào buổi chiều."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n05-1",
+        "word": "tune in",
+        "pos": "phr.v",
+        "ipaUK": "/tjuːn ɪn/",
+        "ipaUS": "/tuːn ɪn/",
+        "meaning": "đón nghe / bật đài (radio, chương trình phát sóng)",
+        "exampleEn": "Good afternoon, listeners, and thank you for tuning in!",
+        "exampleVi": "Chào buổi chiều quý thính giả, cảm ơn đã đón nghe chương trình!"
+      },
+      {
+        "id": "lv-p4n05-2",
+        "word": "mark the occasion",
+        "pos": "v.phr",
+        "ipaUK": "/mɑːk ði əˈkeɪ.ʒən/",
+        "ipaUS": "/mɑːrk ði əˈkeɪ.ʒən/",
+        "meaning": "đánh dấu / kỷ niệm dịp đặc biệt",
+        "exampleEn": "To mark the occasion, we're holding our big Anniversary Sale.",
+        "exampleVi": "Để đánh dấu dịp này, chúng tôi tổ chức đợt giảm giá kỷ niệm lớn."
+      },
+      {
+        "id": "lv-p4n05-3",
+        "word": "state-of-the-art",
+        "pos": "adj",
+        "ipaUK": "/ˌsteɪt.əv.ðiˈɑːt/",
+        "ipaUS": "/ˌsteɪt̬.əv.ðiˈɑːrt/",
+        "meaning": "hiện đại bậc nhất, tối tân nhất",
+        "exampleEn": "The grand prize is a state-of-the-art home espresso machine.",
+        "exampleVi": "Giải đặc biệt là một chiếc máy pha espresso gia đình hiện đại bậc nhất."
+      },
+      {
+        "id": "lv-p4n05-4",
+        "word": "bright and early",
+        "pos": "idiom",
+        "ipaUK": "/braɪt ənd ˈɜː.li/",
+        "ipaUS": "/braɪt ənd ˈɝː.li/",
+        "meaning": "từ sáng sớm tinh mơ / thật sớm",
+        "exampleEn": "Visit us bright and early at our showroom on Larkmoor Avenue.",
+        "exampleVi": "Hãy ghé thăm chúng tôi thật sớm tại phòng trưng bày trên đại lộ Larkmoor."
+      },
+      {
+        "id": "lv-p4n05-5",
+        "word": "grand prize",
+        "pos": "n.phr",
+        "ipaUK": "/ɡrænd praɪz/",
+        "ipaUS": "/ɡrænd praɪz/",
+        "meaning": "giải đặc biệt (trong cuộc thi / rút thăm)",
+        "exampleEn": "Every purchase automatically enters you to win our grand prize.",
+        "exampleVi": "Mọi hóa đơn mua hàng tự động giúp bạn tham gia rút thăm giải đặc biệt."
+      }
+    ]
+  },
+  {
+    "id": "p4-n06",
+    "part": 4,
+    "title": "Chương trình phát thanh Sunrise Radio: Tặng vé Lễ hội âm nhạc Brookmere",
+    "talkType": "Quảng cáo (Advertisement)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/study4-6854-toeic-lr-collection-1-test-3/p4_s03.mp3",
+    "transcript": [
+      {
+        "id": "p4-n06-t0",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "It's time now for everyone's favorite part of the morning here on Sunrise Radio, our weekly listener giveaway.",
+        "vi": "Đã đến lúc cho chuyên mục buổi sáng được mọi người yêu thích nhất trên đài Sunrise Radio: chương trình tặng quà hàng tuần dành cho thính giả.",
+        "startMs": 220,
+        "endMs": 7852,
+        "evidenceForQuestionIds": [
+          "p4-n06-q1"
+        ]
+      },
+      {
+        "id": "p4-n06-t1",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "This week, one lucky listener will win a pair of tickets to the Brookmere Summer Music Festival, along with a backstage tour on opening night.",
+        "vi": "Tuần này, một thính giả may mắn sẽ trúng một cặp vé tham dự Lễ hội Âm nhạc Mùa hè Brookmere, kèm theo một chuyến tham quan hậu trường vào đêm khai mạc.",
+        "startMs": 8212,
+        "endMs": 16900,
+        "evidenceForQuestionIds": [
+          "p4-n06-q1"
+        ]
+      },
+      {
+        "id": "p4-n06-t2",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "To enter, all you have to do is call our studio line and tell us the name of your all-time favorite song, and honestly, it's as easy as that.",
+        "vi": "Để tham gia, tất cả những gì bạn cần làm là gọi đến đường dây phòng thu của chúng tôi và cho biết tên bài hát yêu thích nhất mọi thời đại của bạn — thật sự đơn giản vậy thôi.",
+        "startMs": 17260,
+        "endMs": 25708,
+        "evidenceForQuestionIds": [
+          "p4-n06-q2"
+        ]
+      },
+      {
+        "id": "p4-n06-t3",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "We'll draw the winning name live on the air this Friday, so be sure you're tuned in.",
+        "vi": "Chúng tôi sẽ bốc thăm tên người chiến thắng trực tiếp trên sóng vào Thứ Sáu tuần này, vì vậy nhớ đón nghe nhé.",
+        "startMs": 26068,
+        "endMs": 31132,
+        "evidenceForQuestionIds": [
+          "p4-n06-q3"
+        ]
+      },
+      {
+        "id": "p4-n06-t4",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Coming up right after the break, we'll be chatting with local chef Adele Hoffman about her brand-new cookbook.",
+        "vi": "Ngay sau phần quảng cáo, chúng tôi sẽ trò chuyện với đầu bếp địa phương Adele Hoffman về cuốn sách nấu ăn mới toanh của cô ấy.",
+        "startMs": 31492,
+        "endMs": 38068
+      },
+      {
+        "id": "p4-n06-t5",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Stay with us, and the best of luck to everyone!",
+        "vi": "Hãy tiếp tục đồng hành cùng chúng tôi, và chúc tất cả mọi người thật nhiều may mắn!",
+        "startMs": 38428,
+        "endMs": 41716
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n06-q1",
+        "questionNumber": 77,
+        "questionType": "Ý chính / Chủ đề",
+        "evidenceLineIndex": 0,
+        "prompt": "What is the broadcast mainly about?",
+        "promptVi": "Đoạn phát sóng này chủ yếu nói về điều gì?",
+        "options": {
+          "A": {
+            "en": "A summer concert review",
+            "vi": "Bài đánh giá một buổi hòa nhạc mùa hè"
+          },
+          "B": {
+            "en": "A new cooking show",
+            "vi": "Một chương trình nấu ăn mới"
+          },
+          "C": {
+            "en": "A local chef interview",
+            "vi": "Buổi phỏng vấn một đầu bếp địa phương"
+          },
+          "D": {
+            "en": "A listener ticket giveaway",
+            "vi": "Chương trình tặng vé cho thính giả"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "our weekly listener giveaway... win a pair of tickets",
+              "answerPhrase": "A listener ticket giveaway",
+              "meaningVi": "chương trình tặng quà hàng tuần — trúng cặp vé cho thính giả"
+            }
+          ],
+          "trapType": "Bẫy nội dung phụ ở câu kết (local chef interview)",
+          "listeningKey": "Nghe ngay 2 câu đầu \"weekly listener giveaway\" + \"win a pair of tickets\" → chọn (D).",
+          "trapAnalysis": "Đáp án (C) nhắc tới \"local chef\" chỉ là phần giới thiệu tiết mục sắp phát sau giờ nghỉ (coming up right after the break), không phải chủ đề chính của đoạn tin.",
+          "optionAnalysis": {
+            "A": "Sai — không phải bài bình luận/đánh giá buổi hòa nhạc.",
+            "B": "Sai — đây là đài radio, không phải show nấu ăn mới.",
+            "C": "Sai — bẫy chi tiết cuối bài (tiết mục sau giờ nghỉ).",
+            "D": "Đúng — toàn bộ 4 câu đầu đều xoay quanh chương trình tặng vé cho thính giả."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n06-q2",
+        "questionNumber": 78,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 2,
+        "prompt": "According to the speaker, what should listeners do to take part?",
+        "promptVi": "Theo người nói, thính giả nên làm gì để tham gia?",
+        "options": {
+          "A": {
+            "en": "Call in with a favorite song",
+            "vi": "Gọi điện đến và nêu tên một bài hát yêu thích"
+          },
+          "B": {
+            "en": "Visit the station website",
+            "vi": "Truy cập trang web của đài"
+          },
+          "C": {
+            "en": "Purchase festival tickets",
+            "vi": "Mua vé lễ hội"
+          },
+          "D": {
+            "en": "Send in a text message",
+            "vi": "Gửi một tin nhắn văn bản"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "To enter, all you have to do is call our studio line and tell us the name of your all-time favorite song",
+              "answerPhrase": "Call in with a favorite song",
+              "meaningVi": "gọi đến đường dây phòng thu và kể tên bài hát yêu thích nhất"
+            }
+          ],
+          "trapType": "Từ báo hiệu điều kiện tham gia (\"To enter, all you have to do is...\")",
+          "listeningKey": "Nghe \"To enter... call our studio line... favorite song\" → chọn ngay (A) Call in with a favorite song.",
+          "trapAnalysis": "Các đáp án B, D là hình thức tương tác đài radio phổ biến nhưng không được nêu; (C) ngược hẳn bản chất \"giveaway\" (tặng miễn phí).",
+          "optionAnalysis": {
+            "A": "Đúng — khớp hoàn toàn \"call our studio line\" + \"all-time favorite song\".",
+            "B": "Sai — không nhắc đến website của đài.",
+            "C": "Sai — vé được tặng miễn phí, không cần mua.",
+            "D": "Sai — yêu cầu gọi điện trực tiếp, không phải nhắn tin."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n06-q3",
+        "questionNumber": 79,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 3,
+        "prompt": "What will happen on Friday?",
+        "promptVi": "Điều gì sẽ diễn ra vào Thứ Sáu?",
+        "options": {
+          "A": {
+            "en": "A guest chef will arrive.",
+            "vi": "Một đầu bếp khách mời sẽ đến."
+          },
+          "B": {
+            "en": "New tickets will go on sale.",
+            "vi": "Vé mới sẽ được mở bán."
+          },
+          "C": {
+            "en": "A music festival will begin.",
+            "vi": "Một lễ hội âm nhạc sẽ bắt đầu."
+          },
+          "D": {
+            "en": "A contest winner will be chosen.",
+            "vi": "Người chiến thắng cuộc thi sẽ được chọn ra."
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "We'll draw the winning name live on the air this Friday",
+              "answerPhrase": "A contest winner will be chosen",
+              "meaningVi": "bốc thăm tên người thắng trực tiếp trên sóng vào Thứ Sáu → chọn người chiến thắng"
+            }
+          ],
+          "trapType": "Paraphrase động từ (\"draw the winning name\" → \"winner will be chosen\")",
+          "listeningKey": "Bắt mốc thời gian \"this Friday\" đi cùng \"draw the winning name\" → chốt (D) A contest winner will be chosen.",
+          "trapAnalysis": "Nhiều người nghe không quen nghĩa \"bốc thăm\" của động từ \"draw\" (thường nhớ nghĩa vẽ). Cụm \"draw the winning name\" là cụm cố định rất hay xuất hiện trong các chương trình rút thăm TOEIC.",
+          "optionAnalysis": {
+            "A": "Sai — buổi trò chuyện với đầu bếp diễn ra ngay sau giờ nghỉ hôm nay, không phải Thứ Sáu.",
+            "B": "Sai — không đề cập việc mở bán vé mới.",
+            "C": "Sai — không nói lễ hội âm nhạc khai mạc vào Thứ Sáu.",
+            "D": "Đúng — \"draw the winning name\" tương đương \"choose a contest winner\"."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n06-1",
+        "word": "giveaway",
+        "pos": "n",
+        "ipaUK": "/ˈɡɪv.ə.weɪ/",
+        "ipaUS": "/ˈɡɪv.ə.weɪ/",
+        "meaning": "chương trình tặng quà miễn phí (quảng bá / tri ân)",
+        "exampleEn": "It's time for our weekly listener giveaway on Sunrise Radio.",
+        "exampleVi": "Đã đến lúc cho chương trình tặng quà hàng tuần trên đài Sunrise Radio."
+      },
+      {
+        "id": "lv-p4n06-2",
+        "word": "backstage tour",
+        "pos": "n.phr",
+        "ipaUK": "/ˌbækˈsteɪdʒ tʊə/",
+        "ipaUS": "/ˌbækˈsteɪdʒ tʊr/",
+        "meaning": "chuyến tham quan khu vực hậu trường",
+        "exampleEn": "The winner gets two concert tickets along with a backstage tour.",
+        "exampleVi": "Người thắng nhận hai vé hòa nhạc kèm chuyến tham quan hậu trường."
+      },
+      {
+        "id": "lv-p4n06-3",
+        "word": "draw the winning name",
+        "pos": "v.phr",
+        "ipaUK": "/drɔː ðə ˈwɪn.ɪŋ neɪm/",
+        "ipaUS": "/drɑː ðə ˈwɪn.ɪŋ neɪm/",
+        "meaning": "bốc thăm chọn ra tên người chiến thắng",
+        "exampleEn": "We'll draw the winning name live on the air this Friday.",
+        "exampleVi": "Chúng tôi sẽ bốc thăm tên người thắng trực tiếp trên sóng vào Thứ Sáu."
+      },
+      {
+        "id": "lv-p4n06-4",
+        "word": "live on the air",
+        "pos": "phr",
+        "ipaUK": "/laɪv ɒn ði eə/",
+        "ipaUS": "/laɪv ɑːn ði er/",
+        "meaning": "trực tiếp trên sóng phát thanh / truyền hình",
+        "exampleEn": "The host announced the contest results live on the air.",
+        "exampleVi": "Người dẫn chương trình công bố kết quả cuộc thi trực tiếp trên sóng."
+      },
+      {
+        "id": "lv-p4n06-5",
+        "word": "coming up right after the break",
+        "pos": "phr",
+        "ipaUK": "/ˈkʌm.ɪŋ ʌp raɪt ˈɑːf.tə ðə breɪk/",
+        "ipaUS": "/ˈkʌm.ɪŋ ʌp raɪt ˈæf.tɚ ðə breɪk/",
+        "meaning": "sắp phát sóng ngay sau giờ nghỉ quảng cáo",
+        "exampleEn": "Coming up right after the break, we'll interview a local chef.",
+        "exampleVi": "Ngay sau phần quảng cáo, chúng tôi sẽ phỏng vấn một đầu bếp địa phương."
+      }
+    ]
+  },
+  {
+    "id": "p4-n07",
+    "part": 4,
+    "title": "Hướng dẫn tham quan Vườn bách thảo Wallingford Conservatory",
+    "talkType": "Hướng dẫn tham quan (Tour)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-77-79.mp3",
+    "transcript": [
+      {
+        "id": "p4-n07-t0",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Thanks again for joining me on today's tour of the beautiful Wallingford Conservatory.",
+        "vi": "Một lần nữa cảm ơn quý vị đã đồng hành cùng tôi trong chuyến tham quan Vườn bách thảo Wallingford xinh đẹp hôm nay.",
+        "startMs": 400,
+        "endMs": 10778,
+        "evidenceForQuestionIds": [
+          "p4-n07-q1"
+        ]
+      },
+      {
+        "id": "p4-n07-t1",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I hope you enjoyed seeing and learning about the many species of plants and flowers we care for here.",
+        "vi": "Tôi hy vọng quý vị đã có khoảng thời gian thú vị khi ngắm nhìn và tìm hiểu về rất nhiều loài cây và hoa mà chúng tôi chăm sóc tại đây.",
+        "startMs": 10818,
+        "endMs": 23006
+      },
+      {
+        "id": "p4-n07-t2",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "As I mentioned at the beginning of the tour, world-renowned botanist Samantha Hughes will be giving a lecture on the care of flowering orchid plants at two o'clock in the community room.",
+        "vi": "Như tôi đã đề cập ở đầu chuyến tham quan, nhà thực vật học nổi tiếng thế giới Samantha Hughes sẽ có bài thuyết trình về cách chăm sóc hoa lan nở rộ vào lúc hai giờ tại phòng sinh hoạt cộng đồng.",
+        "startMs": 23046,
+        "endMs": 45492,
+        "evidenceForQuestionIds": [
+          "p4-n07-q2"
+        ]
+      },
+      {
+        "id": "p4-n07-t3",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I recommend attending.",
+        "vi": "Tôi rất khuyên quý vị nên tham dự.",
+        "startMs": 45532,
+        "endMs": 48186
+      },
+      {
+        "id": "p4-n07-t4",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Samantha's work has also been featured in a documentary film called Orchid Caretakers, which you can purchase through the conservatory's online gift shop.",
+        "vi": "Công trình của Samantha cũng đã được giới thiệu trong một bộ phim tài liệu mang tên \"Orchid Caretakers\", mà quý vị có thể mua qua cửa hàng quà tặng trực tuyến của vườn bách thảo.",
+        "startMs": 48226,
+        "endMs": 66810,
+        "evidenceForQuestionIds": [
+          "p4-n07-q3"
+        ]
+      },
+      {
+        "id": "p4-n07-t5",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I watched it recently and learned many new things about the orchid species we have right here at the conservatory.",
+        "vi": "Tôi mới xem bộ phim này gần đây và đã học thêm được rất nhiều điều mới về các loài hoa lan hiện có ngay tại vườn bách thảo này.",
+        "startMs": 66850,
+        "endMs": 80510,
+        "evidenceForQuestionIds": [
+          "p4-n07-q3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n07-q1",
+        "questionNumber": 77,
+        "questionType": "Ý chính / Chủ đề",
+        "evidenceLineIndex": 0,
+        "prompt": "Who most likely is the speaker?",
+        "promptVi": "Người nói nhiều khả năng là ai?",
+        "options": {
+          "A": {
+            "en": "A radio show host",
+            "vi": "Người dẫn chương trình phát thanh"
+          },
+          "B": {
+            "en": "A tour guide",
+            "vi": "Hướng dẫn viên du lịch / tham quan"
+          },
+          "C": {
+            "en": "A sales associate",
+            "vi": "Nhân viên bán hàng"
+          },
+          "D": {
+            "en": "A professor",
+            "vi": "Giáo sư đại học"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "Thanks again for joining me on today's tour",
+              "answerPhrase": "A tour guide",
+              "meaningVi": "cảm ơn đã đồng hành cùng tôi trong chuyến tham quan hôm nay → hướng dẫn viên"
+            }
+          ],
+          "trapType": "Bẫy nghề nghiệp của nhân vật khác trong bài (botanist/lecture → professor; gift shop → sales associate)",
+          "listeningKey": "Nghe ngay câu mở đầu \"joining me on today's tour\" → xác nhận vai trò người nói là (B) A tour guide.",
+          "trapAnalysis": "Trong bài có nhắc tới \"giving a lecture\" (dễ nhầm D — professor) và \"gift shop\" (dễ nhầm C — sales associate), nhưng người nói là người dẫn đoàn kết thúc tour.",
+          "optionAnalysis": {
+            "A": "Sai — đang nói chuyện trực tiếp với đoàn khách tại vườn bách thảo.",
+            "B": "Đúng — \"joining me on today's tour\" khẳng định người nói là hướng dẫn viên.",
+            "C": "Sai — chỉ giới thiệu mua phim ở cửa hàng quà tặng online, không phải nhân viên bán hàng.",
+            "D": "Sai — Samantha Hughes mới là nhà thực vật học thuyết trình, không phải người nói."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n07-q2",
+        "questionNumber": 78,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 2,
+        "prompt": "What will happen at two o'clock?",
+        "promptVi": "Điều gì sẽ diễn ra vào lúc hai giờ?",
+        "options": {
+          "A": {
+            "en": "A lecture will begin.",
+            "vi": "Một bài thuyết trình sẽ bắt đầu."
+          },
+          "B": {
+            "en": "A demonstration will be given.",
+            "vi": "Một buổi trình diễn sẽ được tổ chức."
+          },
+          "C": {
+            "en": "An interview will be conducted.",
+            "vi": "Một cuộc phỏng vấn sẽ được thực hiện."
+          },
+          "D": {
+            "en": "A park will close.",
+            "vi": "Một công viên sẽ đóng cửa."
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "Samantha Hughes will be giving a lecture... at two o'clock",
+              "answerPhrase": "A lecture will begin",
+              "meaningVi": "có bài thuyết trình lúc 2 giờ"
+            }
+          ],
+          "trapType": "Thông tin mốc giờ trực tiếp",
+          "listeningKey": "Canh mốc giờ \"at two o'clock\" gắn với hành động \"giving a lecture\" → chọn (A).",
+          "trapAnalysis": "Câu chứa nhiều cụm bổ nghĩa dài (\"world-renowned botanist Samantha Hughes\", \"care of flowering orchid plants\") nằm xen giữa chủ ngữ và mốc giờ, dễ làm thí sinh quên danh từ chính \"lecture\".",
+          "optionAnalysis": {
+            "A": "Đúng — khớp trực tiếp với \"will be giving a lecture... at two o'clock\".",
+            "B": "Sai — không đề cập buổi thao diễn thực hành (demonstration).",
+            "C": "Sai — không có cuộc phỏng vấn nào.",
+            "D": "Sai — không nhắc tới giờ đóng cửa công viên."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n07-q3",
+        "questionNumber": 79,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 4,
+        "prompt": "What is Orchid Caretakers?",
+        "promptVi": "\"Orchid Caretakers\" là gì?",
+        "options": {
+          "A": {
+            "en": "A book",
+            "vi": "Một cuốn sách"
+          },
+          "B": {
+            "en": "An album",
+            "vi": "Một album nhạc"
+          },
+          "C": {
+            "en": "A film",
+            "vi": "Một bộ phim"
+          },
+          "D": {
+            "en": "A magazine",
+            "vi": "Một tờ tạp chí"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "a documentary film called Orchid Caretakers / I watched it recently",
+              "answerPhrase": "A film",
+              "meaningVi": "một bộ phim tài liệu mang tên Orchid Caretakers"
+            }
+          ],
+          "trapType": "Định danh tên riêng qua cụm \"called...\" + câu khẳng định \"I watched it\"",
+          "listeningKey": "Nghe \"documentary film called Orchid Caretakers\" và câu sau \"I watched it\" → chắc chắn (C) A film.",
+          "trapAnalysis": "Nếu lỡ mất từ \"documentary film\" trước \"called\", thí sinh vẫn có cơ hội thứ hai nhờ động từ \"watched\" ở câu cuối cùng.",
+          "optionAnalysis": {
+            "A": "Sai — không phải sách.",
+            "B": "Sai — không phải album nhạc.",
+            "C": "Đúng — khớp chính xác \"documentary film called Orchid Caretakers\".",
+            "D": "Sai — không phải tạp chí."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n07-1",
+        "word": "conservatory",
+        "pos": "n",
+        "ipaUK": "/kənˈsɜː.və.tər.i/",
+        "ipaUS": "/kənˈsɝː.və.tɔːr.i/",
+        "meaning": "nhà kính bảo tồn thực vật / vườn bách thảo nhà kính",
+        "exampleEn": "Thanks for joining me on today's tour of Wallingford Conservatory.",
+        "exampleVi": "Cảm ơn đã tham gia chuyến tham quan Vườn bách thảo Wallingford hôm nay."
+      },
+      {
+        "id": "lv-p4n07-2",
+        "word": "world-renowned",
+        "pos": "adj",
+        "ipaUK": "/ˌwɜːld.rɪˈnaʊnd/",
+        "ipaUS": "/ˌwɝːld.rɪˈnaʊnd/",
+        "meaning": "nổi tiếng khắp thế giới, lừng danh quốc tế",
+        "exampleEn": "World-renowned botanist Samantha Hughes will give a lecture today.",
+        "exampleVi": "Nhà thực vật học lừng danh thế giới Samantha Hughes sẽ thuyết trình hôm nay."
+      },
+      {
+        "id": "lv-p4n07-3",
+        "word": "botanist",
+        "pos": "n",
+        "ipaUK": "/ˈbɒt.ən.ɪst/",
+        "ipaUS": "/ˈbɑː.t̬ən.ɪst/",
+        "meaning": "nhà thực vật học",
+        "exampleEn": "The botanist specializes in rare flowering orchid species.",
+        "exampleVi": "Nhà thực vật học này chuyên nghiên cứu các loài hoa lan quý hiếm."
+      },
+      {
+        "id": "lv-p4n07-4",
+        "word": "give a lecture",
+        "pos": "v.phr",
+        "ipaUK": "/ɡɪv ə ˈlek.tʃə/",
+        "ipaUS": "/ɡɪv ə ˈlek.tʃɚ/",
+        "meaning": "thuyết trình / giảng bài chuyên đề",
+        "exampleEn": "She will be giving a lecture on plant care at two o'clock.",
+        "exampleVi": "Cô ấy sẽ thuyết trình về cách chăm sóc cây vào lúc hai giờ."
+      },
+      {
+        "id": "lv-p4n07-5",
+        "word": "documentary film",
+        "pos": "n.phr",
+        "ipaUK": "/ˌdɒk.jəˈmen.tər.i fɪlm/",
+        "ipaUS": "/ˌdɑː.kjəˈmen.t̬ɚ.i fɪlm/",
+        "meaning": "phim tài liệu",
+        "exampleEn": "Her research was featured in a documentary film about orchids.",
+        "exampleVi": "Nghiên cứu của cô được giới thiệu trong một bộ phim tài liệu về hoa lan."
+      }
+    ]
+  },
+  {
+    "id": "p4-n08",
+    "part": 4,
+    "title": "Giới thiệu Chương trình Cố vấn (Mentorship) tại Danforth Manufacturing",
+    "talkType": "Giới thiệu (Introduction)",
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/study4-6856-toeic-lr-collection-1-test-5/p4_s05.mp3",
+    "transcript": [
+      {
+        "id": "p4-n08-t0",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Good morning, everyone, and thank you all for coming to this month's all-staff assembly here at Danforth Manufacturing.",
+        "vi": "Chào buổi sáng mọi người, và cảm ơn tất cả đã đến dự buổi họp toàn thể nhân viên tháng này tại Danforth Manufacturing.",
+        "startMs": 220,
+        "endMs": 8428
+      },
+      {
+        "id": "p4-n08-t1",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I'm very pleased to announce that we're launching a brand-new mentorship program, starting this month.",
+        "vi": "Tôi rất vui mừng thông báo rằng chúng ta sẽ ra mắt một chương trình cố vấn hoàn toàn mới, bắt đầu ngay từ tháng này.",
+        "startMs": 8768,
+        "endMs": 14600,
+        "evidenceForQuestionIds": [
+          "p4-n08-q1"
+        ]
+      },
+      {
+        "id": "p4-n08-t2",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Here's how it will work: each of our newer employees will be paired with a more experienced member of staff.",
+        "vi": "Cách thức hoạt động như sau: mỗi nhân viên mới sẽ được ghép cặp với một thành viên giàu kinh nghiệm hơn trong công ty.",
+        "startMs": 14940,
+        "endMs": 21348
+      },
+      {
+        "id": "p4-n08-t3",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "The main benefit is that you'll receive personal guidance from a seasoned colleague throughout your first months on the job.",
+        "vi": "Lợi ích chính là bạn sẽ nhận được sự hướng dẫn cá nhân trực tiếp từ một đồng nghiệp dày dạn kinh nghiệm trong suốt những tháng đầu làm việc.",
+        "startMs": 21688,
+        "endMs": 28360,
+        "evidenceForQuestionIds": [
+          "p4-n08-q2"
+        ]
+      },
+      {
+        "id": "p4-n08-t4",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "If you'd simply like to hear more first, we'll hold a brief information session next Wednesday.",
+        "vi": "Nếu bạn chỉ muốn tìm hiểu thêm trước, chúng tôi sẽ tổ chức một buổi giới thiệu thông tin ngắn vào Thứ Tư tuần tới.",
+        "startMs": 28700,
+        "endMs": 34676
+      },
+      {
+        "id": "p4-n08-t5",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "But if you'd like to take part, whether as a mentor or as a mentee, please sign up on the company website by this Friday.",
+        "vi": "Nhưng nếu bạn muốn tham gia, dù với vai trò người cố vấn hay người được cố vấn, vui lòng đăng ký trên trang web công ty trước Thứ Sáu tuần này.",
+        "startMs": 35016,
+        "endMs": 42624,
+        "evidenceForQuestionIds": [
+          "p4-n08-q3"
+        ]
+      },
+      {
+        "id": "p4-n08-t6",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "We really look forward to seeing you all get involved.",
+        "vi": "Chúng tôi rất mong được thấy tất cả các bạn cùng tham gia.",
+        "startMs": 42964,
+        "endMs": 46684
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n08-q1",
+        "questionNumber": 83,
+        "questionType": "Ý chính / Chủ đề",
+        "evidenceLineIndex": 1,
+        "prompt": "What is the main purpose of the speech?",
+        "promptVi": "Mục đích chính của bài phát biểu là gì?",
+        "options": {
+          "A": {
+            "en": "To welcome recently hired staff",
+            "vi": "Để chào đón nhân viên mới tuyển"
+          },
+          "B": {
+            "en": "To review the company's production figures",
+            "vi": "Để xem xét số liệu sản xuất của công ty"
+          },
+          "C": {
+            "en": "To introduce a new staff program",
+            "vi": "Để giới thiệu một chương trình nhân sự mới"
+          },
+          "D": {
+            "en": "To announce a change in management",
+            "vi": "Để thông báo sự thay đổi ban lãnh đạo"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "launching a brand-new mentorship program",
+              "answerPhrase": "To introduce a new staff program",
+              "meaningVi": "ra mắt chương trình cố vấn hoàn toàn mới → giới thiệu chương trình nhân sự mới"
+            }
+          ],
+          "trapType": "Bẫy đối tượng hưởng lợi (newer employees → welcome recently hired staff)",
+          "listeningKey": "Nghe \"pleased to announce that we're launching a brand-new mentorship program\" → chọn (C).",
+          "trapAnalysis": "Buổi họp là \"all-staff assembly\" (họp toàn thể nhân viên), không phải buổi lễ chào đón riêng nhân viên mới (A). \"Manufacturing\" cũng là mồi bẫy cho (B) production figures.",
+          "optionAnalysis": {
+            "A": "Sai — cuộc họp dành cho toàn thể nhân viên để giới thiệu chương trình mentorship, không phải tiệc chào đón nhân viên mới.",
+            "B": "Sai — không nhắc tới bất kỳ con số sản xuất nào.",
+            "C": "Đúng — \"launching a brand-new mentorship program\" = \"introduce a new staff program\".",
+            "D": "Sai — không có sự thay đổi nhân sự quản lý."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n08-q2",
+        "questionNumber": 84,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 3,
+        "prompt": "What does the speaker say is the main advantage of the program?",
+        "promptVi": "Người nói cho biết ưu điểm chính của chương trình là gì?",
+        "options": {
+          "A": {
+            "en": "A raise in employees' salaries",
+            "vi": "Tăng lương cho nhân viên"
+          },
+          "B": {
+            "en": "Additional paid vacation days",
+            "vi": "Thêm ngày nghỉ phép có lương"
+          },
+          "C": {
+            "en": "One-on-one advice from a senior coworker",
+            "vi": "Sự hướng dẫn 1 kèm 1 từ đồng nghiệp lâu năm"
+          },
+          "D": {
+            "en": "Formal training in new software",
+            "vi": "Đào tạo chính quy về phần mềm mới"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "The main benefit is... personal guidance from a seasoned colleague",
+              "answerPhrase": "One-on-one advice from a senior coworker (main advantage)",
+              "meaningVi": "sự hướng dẫn cá nhân từ đồng nghiệp dày dạn kinh nghiệm"
+            }
+          ],
+          "trapType": "Chuỗi 3 tầng Paraphrase đồng nghĩa cao cấp (benefit→advantage, personal guidance→one-on-one advice, seasoned colleague→senior coworker)",
+          "listeningKey": "Bắt tín hiệu \"The main benefit is...\" → \"personal guidance from a seasoned colleague\" → chọn (C).",
+          "trapAnalysis": "Câu này là bài tập Paraphrase kinh điển của ETS: cả 3 cụm danh từ chính đều được đổi sang từ đồng nghĩa học thuật hơn (\"seasoned\" = dày dạn kinh nghiệm = \"senior\").",
+          "optionAnalysis": {
+            "A": "Sai — không nhắc tới tăng lương.",
+            "B": "Sai — không đề cập ngày nghỉ phép có lương.",
+            "C": "Đúng — khớp hoàn hảo từng cặp từ đồng nghĩa với \"personal guidance from a seasoned colleague\".",
+            "D": "Sai — không phải khóa đào tạo phần mềm mới."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n08-q3",
+        "questionNumber": 85,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 5,
+        "prompt": "According to the speaker, what should employees do to enroll in the program?",
+        "promptVi": "Theo người nói, nhân viên cần làm gì để ghi danh vào chương trình?",
+        "options": {
+          "A": {
+            "en": "Attend the upcoming information session",
+            "vi": "Tham dự buổi giới thiệu thông tin sắp tới"
+          },
+          "B": {
+            "en": "Register on the company website",
+            "vi": "Đăng ký trên trang web của công ty"
+          },
+          "C": {
+            "en": "Contact their department manager",
+            "vi": "Liên hệ quản lý bộ phận"
+          },
+          "D": {
+            "en": "Submit a form to human resources",
+            "vi": "Nộp biểu mẫu cho phòng nhân sự"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "if you'd like to take part... please sign up on the company website",
+              "answerPhrase": "Register on the company website (to enroll)",
+              "meaningVi": "muốn tham gia hãy đăng ký trên website công ty"
+            }
+          ],
+          "trapType": "Bẫy tách biệt 2 nhánh điều kiện (\"hear more\" vs \"take part\")",
+          "listeningKey": "Phân biệt 2 vế: muốn \"hear more\" → dự info session; muốn \"take part (enroll)\" → \"sign up on the company website\" → (B).",
+          "trapAnalysis": "Đáp án (A) cực kỳ dễ sập bẫy vì \"information session\" được nhắc ngay trước đó, nhưng đó chỉ dành cho người muốn \"nghe thêm thông tin trước\", còn để ghi danh (enroll / take part) phải đăng ký trên website công ty.",
+          "optionAnalysis": {
+            "A": "Sai — buổi info session Thứ Tư chỉ để tìm hiểu thêm, không phải bước đăng ký tham gia.",
+            "B": "Đúng — \"sign up on the company website\" đồng nghĩa \"register on the company website\".",
+            "C": "Sai — không yêu cầu liên hệ trưởng bộ phận.",
+            "D": "Sai — không cần nộp đơn giấy cho phòng nhân sự."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n08-1",
+        "word": "all-staff assembly",
+        "pos": "n.phr",
+        "ipaUK": "/ɔːl stɑːf əˈsem.bli/",
+        "ipaUS": "/ɑːl stæf əˈsem.bli/",
+        "meaning": "buổi họp / hội nghị toàn thể nhân viên",
+        "exampleEn": "Thank you all for coming to this month's all-staff assembly.",
+        "exampleVi": "Cảm ơn tất cả đã đến dự buổi họp toàn thể nhân viên tháng này."
+      },
+      {
+        "id": "lv-p4n08-2",
+        "word": "mentorship program",
+        "pos": "n.phr",
+        "ipaUK": "/ˈmen.tɔː.ʃɪp ˈprəʊ.ɡræm/",
+        "ipaUS": "/ˈmen.tɔːr.ʃɪp ˈproʊ.ɡræm/",
+        "meaning": "chương trình cố vấn nghề nghiệp",
+        "exampleEn": "We're launching a brand-new mentorship program this month.",
+        "exampleVi": "Chúng ta sẽ ra mắt một chương trình cố vấn hoàn toàn mới trong tháng này."
+      },
+      {
+        "id": "lv-p4n08-3",
+        "word": "seasoned colleague",
+        "pos": "n.phr",
+        "ipaUK": "/ˈsiː.zənd ˈkɒl.iːɡ/",
+        "ipaUS": "/ˈsiː.zənd ˈkɑː.liːɡ/",
+        "meaning": "đồng nghiệp dày dạn kinh nghiệm / lâu năm",
+        "exampleEn": "You'll receive personal guidance from a seasoned colleague.",
+        "exampleVi": "Bạn sẽ nhận được sự hướng dẫn cá nhân từ một đồng nghiệp dày dạn kinh nghiệm."
+      },
+      {
+        "id": "lv-p4n08-4",
+        "word": "be paired with",
+        "pos": "v.phr",
+        "ipaUK": "/bi peəd wɪð/",
+        "ipaUS": "/bi perd wɪð/",
+        "meaning": "được ghép cặp / phân nhóm cùng với",
+        "exampleEn": "Each newer employee will be paired with a more experienced staff member.",
+        "exampleVi": "Mỗi nhân viên mới sẽ được ghép cặp với một nhân sự giàu kinh nghiệm hơn."
+      },
+      {
+        "id": "lv-p4n08-5",
+        "word": "sign up / enroll",
+        "pos": "v",
+        "ipaUK": "/saɪn ʌp / ɪnˈrəʊl/",
+        "ipaUS": "/saɪn ʌp / ɪnˈroʊl/",
+        "meaning": "đăng ký / ghi danh tham gia",
+        "exampleEn": "Please sign up on the company website by this Friday.",
+        "exampleVi": "Vui lòng đăng ký trên trang web công ty trước Thứ Sáu này."
+      }
+    ]
+  },
+  {
+    "id": "p4-n09",
+    "part": 4,
+    "title": "Bài phát biểu khai trương công viên Lakeville Park & Bản đồ lộ trình (Graphic)",
+    "talkType": "Hướng dẫn tham quan (Tour)",
+    "hasGraphic": true,
+    "graphicImageUrl": "/images/toeic/ets-2024-full-test-1/g95.png",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-95-97.mp3",
+    "transcript": [
+      {
+        "id": "p4-n09-t0",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "As mayor of Lakeville, I'm pleased to welcome you to the celebration for our town's newly renovated Lakeville Park.",
+        "vi": "Với tư cách là thị trưởng của Lakeville, tôi rất hân hạnh chào đón quý vị đến với lễ khánh thành Công viên Lakeville vừa mới được cải tạo của thị trấn chúng ta.",
+        "startMs": 400,
+        "endMs": 19719,
+        "evidenceForQuestionIds": [
+          "p4-n09-q1"
+        ]
+      },
+      {
+        "id": "p4-n09-t1",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "There are a lot of new areas to explore, so we've planned a short hike.",
+        "vi": "Có rất nhiều khu vực mới để khám phá, vì vậy chúng tôi đã lên kế hoạch cho một chuyến đi bộ ngắn.",
+        "startMs": 19759,
+        "endMs": 31686
+      },
+      {
+        "id": "p4-n09-t2",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We'll be walking around the pond and along the renovated walking trail.",
+        "vi": "Chúng ta sẽ đi bộ quanh ao và dọc theo con đường đi bộ vừa được nâng cấp.",
+        "startMs": 31726,
+        "endMs": 43653
+      },
+      {
+        "id": "p4-n09-t3",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We'll end our walk on the hill on the north side of the park.",
+        "vi": "Chúng ta sẽ kết thúc chuyến đi bộ trên ngọn đồi ở phía bắc của công viên.",
+        "startMs": 43693,
+        "endMs": 53940,
+        "evidenceForQuestionIds": [
+          "p4-n09-q2"
+        ]
+      },
+      {
+        "id": "p4-n09-t4",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "There we'll be having some free snacks and ice cream.",
+        "vi": "Tại đó chúng ta sẽ cùng thưởng thức đồ ăn nhẹ và kem miễn phí.",
+        "startMs": 53980,
+        "endMs": 62883,
+        "evidenceForQuestionIds": [
+          "p4-n09-q2"
+        ]
+      },
+      {
+        "id": "p4-n09-t5",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "For those of you taking photos, don't forget to post them on the city's Web site.",
+        "vi": "Với những ai có chụp ảnh, đừng quên đăng tải chúng lên trang web của thành phố nhé.",
+        "startMs": 62923,
+        "endMs": 76530,
+        "evidenceForQuestionIds": [
+          "p4-n09-q3"
+        ]
+      },
+      {
+        "id": "p4-n09-t6",
+        "speaker": "Speaker",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We'd like to commemorate this special day.",
+        "vi": "Chúng tôi muốn lưu giữ kỷ niệm về ngày đặc biệt này.",
+        "startMs": 76570,
+        "endMs": 83490
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n09-q1",
+        "questionNumber": 95,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 0,
+        "prompt": "According to the speaker, what was recently completed?",
+        "promptVi": "Theo người nói, điều gì vừa mới được hoàn thành gần đây?",
+        "options": {
+          "A": {
+            "en": "A company reorganization",
+            "vi": "Một cuộc tái cơ cấu công ty"
+          },
+          "B": {
+            "en": "A park renovation",
+            "vi": "Việc cải tạo công viên"
+          },
+          "C": {
+            "en": "A volunteer training",
+            "vi": "Một buổi đào tạo tình nguyện viên"
+          },
+          "D": {
+            "en": "A conservation project",
+            "vi": "Một dự án bảo tồn thiên nhiên"
+          }
+        },
+        "correctAnswer": "B",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "newly renovated Lakeville Park",
+              "answerPhrase": "A park renovation (recently completed)",
+              "meaningVi": "công viên Lakeville mới được cải tạo → việc cải tạo công viên vừa hoàn tất"
+            }
+          ],
+          "trapType": "Paraphrase tính từ phân từ sang danh từ (\"newly renovated\" → \"renovation\")",
+          "listeningKey": "Nghe câu đầu \"newly renovated Lakeville Park\" → chọn ngay (B) A park renovation.",
+          "trapAnalysis": "Các đáp án A, C, D không xuất hiện; đáp án (D) \"conservation project\" đánh vào liên tưởng thiên nhiên/công viên để nhiễu thí sinh không bắt được chữ \"renovated\".",
+          "optionAnalysis": {
+            "A": "Sai — đây là sự kiện của thị trấn, không phải công ty.",
+            "B": "Đúng — \"newly renovated Lakeville Park\" khớp hoàn toàn với \"a park renovation\".",
+            "C": "Sai — không đề cập đào tạo tình nguyện viên.",
+            "D": "Sai — không phải dự án bảo tồn động thực vật."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n09-q2",
+        "questionNumber": 96,
+        "questionType": "Câu hỏi bảng biểu (Graphic)",
+        "evidenceLineIndex": 3,
+        "prompt": "Look at the graphic. Where does the speaker say refreshments will be served?",
+        "promptVi": "Nhìn vào bản đồ. Người nói cho biết đồ ăn nhẹ sẽ được phục vụ ở đâu?",
+        "options": {
+          "A": {
+            "en": "Location 1",
+            "vi": "Vị trí 1"
+          },
+          "B": {
+            "en": "Location 2",
+            "vi": "Vị trí 2"
+          },
+          "C": {
+            "en": "Location 3",
+            "vi": "Vị trí 3"
+          },
+          "D": {
+            "en": "Location 4",
+            "vi": "Vị trí 4"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "end our walk on the hill on the north side of the park. There we'll be having some free snacks and ice cream",
+              "answerPhrase": "Location 1 (refreshments = snacks & ice cream)",
+              "meaningVi": "ngọn đồi phía Bắc công viên (Location 1 trên bản đồ) là nơi có đồ ăn nhẹ và kem"
+            }
+          ],
+          "trapType": "Đối chiếu bản đồ (Graphic) + Paraphrase (\"free snacks and ice cream\" → \"refreshments\")",
+          "listeningKey": "Xác định hướng Bắc (N — mũi tên la bàn trên bản đồ) + vị trí \"hill on the north side\" → đối chiếu thấy ngay Location 1 → chọn (A).",
+          "trapAnalysis": "Với dạng bản đồ Part 4, luôn xem trước ký hiệu la bàn (N/S/E/W) và ghi chú địa hình (pond, hill, trail) trước khi audio chạy. Nghe thấy \"north side\" + \"hill\" rồi xác nhận \"There we'll be having some free snacks and ice cream\" là ra đáp án ngay lập tức.",
+          "optionAnalysis": {
+            "A": "Đúng — Location 1 nằm trên ngọn đồi ở phía Bắc (North side) của công viên, nơi phục vụ đồ ăn nhẹ và kem.",
+            "B": "Sai — không nằm trên ngọn đồi phía Bắc.",
+            "C": "Sai — sai vị trí trên bản đồ.",
+            "D": "Sai — sai vị trí trên bản đồ."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n09-q3",
+        "questionNumber": 97,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 5,
+        "prompt": "What are the listeners reminded to do?",
+        "promptVi": "Người nghe được nhắc nhở làm điều gì?",
+        "options": {
+          "A": {
+            "en": "Complete a survey",
+            "vi": "Hoàn thành một bản khảo sát"
+          },
+          "B": {
+            "en": "Donate some money",
+            "vi": "Quyên góp tiền"
+          },
+          "C": {
+            "en": "Join an organization",
+            "vi": "Tham gia một tổ chức"
+          },
+          "D": {
+            "en": "Post some photographs",
+            "vi": "Đăng tải một vài bức ảnh"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "don't forget to post them (photos) on the city's Web site",
+              "answerPhrase": "Post some photographs (reminded to)",
+              "meaningVi": "đừng quên đăng ảnh lên trang web thành phố"
+            }
+          ],
+          "trapType": "Cụm nhắc nhở kinh điển (\"don't forget to...\" = \"reminded to\")",
+          "listeningKey": "Bắt \"taking photos, don't forget to post them\" → chọn ngay (D) Post some photographs.",
+          "trapAnalysis": "Cụm \"don't forget to...\" luôn là dấu hiệu tương ứng 1-1 với câu hỏi \"What are the listeners reminded to do?\" trong TOEIC.",
+          "optionAnalysis": {
+            "A": "Sai — không nhắc điền khảo sát.",
+            "B": "Sai — không kêu gọi quyên góp tiền.",
+            "C": "Sai — không mời gia nhập tổ chức nào.",
+            "D": "Đúng — \"post them (photos) on the city's Web site\" khớp hoàn toàn (D)."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n09-1",
+        "word": "newly renovated",
+        "pos": "adj.phr",
+        "ipaUK": "/ˈnjuː.li ˈren.ə.veɪ.tɪd/",
+        "ipaUS": "/ˈnuː.li ˈren.ə.veɪ.t̬ɪd/",
+        "meaning": "vừa mới được cải tạo / nâng cấp",
+        "exampleEn": "Welcome to the celebration for our town's newly renovated park.",
+        "exampleVi": "Chào mừng đến lễ khánh thành công viên vừa được cải tạo của thị trấn."
+      },
+      {
+        "id": "lv-p4n09-2",
+        "word": "walking trail",
+        "pos": "n.phr",
+        "ipaUK": "/ˈwɔː.kɪŋ treɪl/",
+        "ipaUS": "/ˈwɑː.kɪŋ treɪl/",
+        "meaning": "đường mòn đi bộ (trong công viên / khu sinh thái)",
+        "exampleEn": "We'll walk around the pond and along the renovated walking trail.",
+        "exampleVi": "Chúng ta sẽ đi quanh ao và dọc theo con đường đi bộ mới cải tạo."
+      },
+      {
+        "id": "lv-p4n09-3",
+        "word": "refreshments",
+        "pos": "n (pl)",
+        "ipaUK": "/rɪˈfreʃ.mənts/",
+        "ipaUS": "/rɪˈfreʃ.mənts/",
+        "meaning": "đồ ăn nhẹ và thức uống giải khát",
+        "exampleEn": "Free refreshments including snacks and ice cream will be served.",
+        "exampleVi": "Đồ ăn nhẹ và kem miễn phí sẽ được phục vụ."
+      },
+      {
+        "id": "lv-p4n09-4",
+        "word": "commemorate",
+        "pos": "v",
+        "ipaUK": "/kəˈmem.ə.reɪt/",
+        "ipaUS": "/kəˈmem.ə.reɪt/",
+        "meaning": "tưởng niệm, lưu giữ kỷ niệm dịp đặc biệt",
+        "exampleEn": "We'd like to commemorate this special day with your photos.",
+        "exampleVi": "Chúng tôi muốn lưu giữ kỷ niệm ngày đặc biệt này qua những bức ảnh của bạn."
+      },
+      {
+        "id": "lv-p4n09-5",
+        "word": "mayor",
+        "pos": "n",
+        "ipaUK": "/meə/",
+        "ipaUS": "/ˈmeɪ.ɚ/",
+        "meaning": "thị trưởng (người đứng đầu chính quyền thành phố/thị trấn)",
+        "exampleEn": "As mayor of Lakeville, I am pleased to welcome everyone.",
+        "exampleVi": "Với tư cách là thị trưởng Lakeville, tôi hân hạnh chào đón tất cả mọi người."
+      }
+    ]
+  },
+  {
+    "id": "p4-n10",
+    "part": 4,
+    "title": "Đài KVRT: Lễ hội Xe bán đồ ăn Waterside & Lịch sự kiện theo ngày (Graphic)",
+    "talkType": "Quảng cáo (Advertisement)",
+    "hasGraphic": true,
+    "graphicImageUrl": "/images/toeic/study4-6855-toeic-lr-collection-1-test-4/part4_g10.jpg",
+    "audioUrl": "/audio/toeic/study4-6855-toeic-lr-collection-1-test-4/p4_s10.mp3",
+    "transcript": [
+      {
+        "id": "p4-n10-t0",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "You're listening to KVRT Community Radio, your home for local events and neighborhood news.",
+        "vi": "Quý vị đang nghe Đài Phát thanh Cộng đồng KVRT, ngôi nhà của các sự kiện địa phương và tin tức khu phố.",
+        "startMs": 220,
+        "endMs": 6988
+      },
+      {
+        "id": "p4-n10-t1",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "This week we're excited about the Waterside Food Truck Festival, and here's a little tip for planning your visit: the official opening ceremony will be held on the day of the week that brings in the most food trucks, so check the schedule and mark your calendar.",
+        "vi": "Tuần này chúng tôi rất hào hứng với Lễ hội Xe bán đồ ăn Waterside, và đây là một mẹo nhỏ để bạn lên kế hoạch ghé thăm: lễ khai mạc chính thức sẽ diễn ra vào ngày trong tuần có nhiều xe bán đồ ăn nhất, vì vậy hãy xem lịch trình và đánh dấu lịch nhé.",
+        "startMs": 7328,
+        "endMs": 20600,
+        "evidenceForQuestionIds": [
+          "p4-n10-q1"
+        ]
+      },
+      {
+        "id": "p4-n10-t2",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "The festival is taking place down at the old Delmore Docks, a former shipping site that has just been reopened for public gatherings.",
+        "vi": "Lễ hội diễn ra tại khu Bến tàu Delmore cũ — một cảng vận chuyển hàng hóa trước đây vừa mới được mở cửa lại cho các buổi tụ họp công cộng.",
+        "startMs": 20940,
+        "endMs": 28668,
+        "evidenceForQuestionIds": [
+          "p4-n10-q2"
+        ]
+      },
+      {
+        "id": "p4-n10-t3",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Each day features a different cuisine theme, and the trucks are open from late morning right through the evening all week long.",
+        "vi": "Mỗi ngày có một chủ đề ẩm thực khác nhau, và các xe đồ ăn mở cửa từ cuối buổi sáng xuyên suốt đến tối cả tuần.",
+        "startMs": 29008,
+        "endMs": 35968
+      },
+      {
+        "id": "p4-n10-t4",
+        "speaker": "Speaker",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "And don't forget, you can vote for your favorite vendor online, so head over to our Web site at www.kvrtradio.org and cast your vote today.",
+        "vi": "Và đừng quên, bạn có thể bình chọn trực tuyến cho gian hàng yêu thích của mình, vì vậy hãy truy cập trang web www.kvrtradio.org và bỏ phiếu ngay hôm nay.",
+        "startMs": 36308,
+        "endMs": 46028,
+        "evidenceForQuestionIds": [
+          "p4-n10-q3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "p4-n10-q1",
+        "questionNumber": 98,
+        "questionType": "Câu hỏi bảng biểu (Graphic)",
+        "evidenceLineIndex": 1,
+        "prompt": "Look at the graphic. When will the opening ceremony take place?",
+        "promptVi": "Nhìn vào bảng biểu. Lễ khai mạc sẽ diễn ra vào ngày nào?",
+        "options": {
+          "A": {
+            "en": "On Monday",
+            "vi": "Vào Thứ Hai"
+          },
+          "B": {
+            "en": "On Tuesday",
+            "vi": "Vào Thứ Ba"
+          },
+          "C": {
+            "en": "On Wednesday",
+            "vi": "Vào Thứ Tư"
+          },
+          "D": {
+            "en": "On Thursday",
+            "vi": "Vào Thứ Năm"
+          }
+        },
+        "correctAnswer": "C",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "the official opening ceremony will be held on the day of the week that brings in the most food trucks",
+              "answerPhrase": "On Wednesday (ngày có số lượng food truck cao nhất trong bảng)",
+              "meaningVi": "ngày có nhiều xe bán đồ ăn nhất trong biểu đồ lịch trình là Thứ Tư"
+            }
+          ],
+          "trapType": "Graphic so sánh định lượng (\"the most food trucks\") — Không đọc tên thứ trong Audio",
+          "listeningKey": "Nghe tiêu chí \"the day... that brings in the most food trucks\" → nhìn bảng biểu chọn ngày có con số cao nhất → (C) On Wednesday.",
+          "trapAnalysis": "Đặc trưng tối thượng của câu Graphic Part 4: Audio KHÔNG BAO GIỜ đọc thẳng chữ \"Wednesday\", mà chỉ đưa điều kiện so sánh (\"the most food trucks\") để buộc người thi đọc số liệu trên hình.",
+          "optionAnalysis": {
+            "A": "Sai — Thứ Hai không phải ngày có số lượng xe đồ ăn nhiều nhất trên bảng.",
+            "B": "Sai — Thứ Ba có số lượng xe đồ ăn ít hơn Thứ Tư.",
+            "C": "Đúng — đối chiếu bảng lịch trình cho thấy Thứ Tư (Wednesday) quy tụ nhiều xe đồ ăn nhất.",
+            "D": "Sai — Thứ Năm không phải ngày cao nhất."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n10-q2",
+        "questionNumber": 99,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 2,
+        "prompt": "Where is the festival being held?",
+        "promptVi": "Lễ hội đang được tổ chức ở đâu?",
+        "options": {
+          "A": {
+            "en": "At a downtown convention center",
+            "vi": "Tại một trung tâm hội nghị ở trung tâm thành phố"
+          },
+          "B": {
+            "en": "At a lakeside campground",
+            "vi": "Tại một khu cắm trại ven hồ"
+          },
+          "C": {
+            "en": "At a renovated train depot",
+            "vi": "Tại một nhà ga tàu hỏa được cải tạo"
+          },
+          "D": {
+            "en": "At a repurposed waterfront site",
+            "vi": "Tại một khu vực ven sông/bến cảng được chuyển đổi công năng"
+          }
+        },
+        "correctAnswer": "D",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "old Delmore Docks, a former shipping site that has just been reopened for public gatherings",
+              "answerPhrase": "At a repurposed waterfront site",
+              "meaningVi": "bến tàu cũ từng dùng vận chuyển hàng nay mở lại cho sự kiện công cộng → khu ven nước chuyển đổi công năng"
+            }
+          ],
+          "trapType": "Paraphrase học thuật mức C1 (\"former shipping site... reopened for public gatherings\" → \"repurposed waterfront site\")",
+          "listeningKey": "Nghe \"old Delmore Docks, a former shipping site... reopened for public gatherings\" → chọn (D) repurposed waterfront site.",
+          "trapAnalysis": "Từ \"Waterside\" và \"Docks\" (bến tàu) tương ứng với \"waterfront\", còn \"former shipping site... reopened for public gatherings\" chính là định nghĩa của \"repurposed\" (chuyển đổi mục đích sử dụng).",
+          "optionAnalysis": {
+            "A": "Sai — không tổ chức ở trung tâm hội nghị.",
+            "B": "Sai — không phải khu cắm trại ven hồ.",
+            "C": "Sai — là bến tàu (docks), không phải nhà ga xe lửa (train depot).",
+            "D": "Đúng — mô tả chính xác bến tàu cũ được cải tạo thành không gian tổ chức sự kiện công cộng."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p4-n10-q3",
+        "questionNumber": 100,
+        "questionType": "Thông tin chi tiết",
+        "evidenceLineIndex": 4,
+        "prompt": "What does the speaker encourage the listeners to do?",
+        "promptVi": "Người nói khuyến khích thính giả làm điều gì?",
+        "options": {
+          "A": {
+            "en": "Vote for a preferred vendor",
+            "vi": "Bình chọn cho gian hàng yêu thích"
+          },
+          "B": {
+            "en": "Arrive early each morning",
+            "vi": "Đến sớm vào mỗi buổi sáng"
+          },
+          "C": {
+            "en": "Bring cash for purchases",
+            "vi": "Mang tiền mặt để mua sắm"
+          },
+          "D": {
+            "en": "Apply to sell food",
+            "vi": "Đăng ký bán đồ ăn"
+          }
+        },
+        "correctAnswer": "A",
+        "explanation": {
+          "paraphrases": [
+            {
+              "audioPhrase": "vote for your favorite vendor online... cast your vote today",
+              "answerPhrase": "Vote for a preferred vendor",
+              "meaningVi": "bình chọn cho nhà cung cấp / gian hàng yêu thích"
+            }
+          ],
+          "trapType": "Paraphrase tính từ (\"favorite\" → \"preferred\") + Bẫy mốc giờ (\"late morning\" ↔ \"arrive early\")",
+          "listeningKey": "Nghe câu cuối \"vote for your favorite vendor online... cast your vote today\" → chọn ngay (A).",
+          "trapAnalysis": "Đáp án (B) ăn theo chữ \"morning\" (từ câu \"open from late morning\"), nhưng lời kêu gọi hành động ở cuối bài là truy cập website để bình chọn gian hàng yêu thích.",
+          "optionAnalysis": {
+            "A": "Đúng — \"vote for your favorite vendor\" đồng nghĩa \"vote for a preferred vendor\".",
+            "B": "Sai — chỉ thông báo giờ mở cửa từ cuối buổi sáng, không kêu gọi đến sớm.",
+            "C": "Sai — không đề cập phương thức thanh toán tiền mặt.",
+            "D": "Sai — không tuyển thêm đơn vị bán đồ ăn."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p4n10-1",
+        "word": "opening ceremony",
+        "pos": "n.phr",
+        "ipaUK": "/ˈəʊ.pən.ɪŋ ˈser.ɪ.mə.ni/",
+        "ipaUS": "/ˈoʊ.pən.ɪŋ ˈser.ə.moʊ.ni/",
+        "meaning": "lễ khai mạc",
+        "exampleEn": "The official opening ceremony will be held on Wednesday.",
+        "exampleVi": "Lễ khai mạc chính thức sẽ được tổ chức vào Thứ Tư."
+      },
+      {
+        "id": "lv-p4n10-2",
+        "word": "repurposed",
+        "pos": "adj",
+        "ipaUK": "/ˌriːˈpɜː.pəst/",
+        "ipaUS": "/ˌriːˈpɝː.pəst/",
+        "meaning": "được chuyển đổi mục đích sử dụng / tái sử dụng cho công năng mới",
+        "exampleEn": "The festival takes place at a repurposed waterfront shipping site.",
+        "exampleVi": "Lễ hội diễn ra tại một bến cảng vận chuyển ven nước được chuyển đổi công năng."
+      },
+      {
+        "id": "lv-p4n10-3",
+        "word": "public gathering",
+        "pos": "n.phr",
+        "ipaUK": "/ˈpʌb.lɪk ˈɡæð.ər.ɪŋ/",
+        "ipaUS": "/ˈpʌb.lɪk ˈɡæð.ɚ.ɪŋ/",
+        "meaning": "sự kiện tụ họp công cộng / cộng đồng",
+        "exampleEn": "The old docks have just been reopened for public gatherings.",
+        "exampleVi": "Khu bến tàu cũ vừa mới được mở lại cho các sự kiện cộng đồng."
+      },
+      {
+        "id": "lv-p4n10-4",
+        "word": "cast a vote",
+        "pos": "v.phr",
+        "ipaUK": "/kɑːst ə vəʊt/",
+        "ipaUS": "/kæst ə voʊt/",
+        "meaning": "bỏ phiếu / bình chọn",
+        "exampleEn": "Head over to our Web site and cast your vote today.",
+        "exampleVi": "Hãy truy cập trang web của chúng tôi và bình chọn ngay hôm nay."
+      },
+      {
+        "id": "lv-p4n10-5",
+        "word": "vendor",
+        "pos": "n",
+        "ipaUK": "/ˈven.də/",
+        "ipaUS": "/ˈven.dɚ/",
+        "meaning": "nhà cung cấp / gian hàng bán hàng (tại lễ hội, hội chợ)",
+        "exampleEn": "Listeners can vote online for their favorite food vendor.",
+        "exampleVi": "Thính giả có thể bình chọn trực tuyến cho gian hàng đồ ăn yêu thích."
+      }
+    ]
+  }
+]

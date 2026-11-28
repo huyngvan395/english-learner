@@ -1,1 +1,1952 @@
-[]
+[
+  {
+    "id": "p3-n04",
+    "part": 3,
+    "title": "Hội thoại (2 người — Đặt vé sự kiện): Đặt 3 vé trận quần vợt & yêu cầu thanh toán trước",
+    "scenario": "A customer calls a box office to reserve three tickets for an upcoming tennis match.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-35-37.mp3",
+    "transcript": [
+      {
+        "id": "p3-n04-t1",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Hi. I'm calling to book three tickets for this Thursday's tennis match. Are there any seats left?",
+        "vi": "Xin chào. Tôi gọi để đặt ba vé cho trận đấu quần vợt vào thứ Năm tuần này. Có còn ghế trống nào không?",
+        "evidenceForQuestionIds": [
+          "p3-n04-q1"
+        ],
+        "startMs": 400,
+        "endMs": 17718
+      },
+      {
+        "id": "p3-n04-t2",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Just a few! Tickets for Thursday's match have been selling quickly.",
+        "vi": "Chỉ còn vài ghế thôi ạ! Vé cho trận đấu thứ Năm đang bán rất nhanh.",
+        "startMs": 17758,
+        "endMs": 29719
+      },
+      {
+        "id": "p3-n04-t3",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I'm not surprised! After all, Ife Rotimi won the regional championship tournament last month. Everyone wants to see her play after her incredible performance.",
+        "vi": "Tôi không bất ngờ chút nào! Xét cho cùng, Ife Rotimi vừa vô địch giải đấu khu vực tháng trước. Ai cũng muốn xem cô ấy thi đấu sau màn trình diễn tuyệt vời đó.",
+        "evidenceForQuestionIds": [
+          "p3-n04-q2"
+        ],
+        "startMs": 29759,
+        "endMs": 57967
+      },
+      {
+        "id": "p3-n04-t4",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Well, there's only one group of three seats together. Advance payment is required to hold them.",
+        "vi": "Vâng, hiện chỉ còn đúng một cụm ba ghế ngồi cạnh nhau. Yêu cầu thanh toán trước để giữ chỗ ạ.",
+        "evidenceForQuestionIds": [
+          "p3-n04-q3"
+        ],
+        "startMs": 58007,
+        "endMs": 74950
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n04-q1",
+        "questionNumber": 35,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Why is the man calling?",
+        "promptVi": "Tại sao người đàn ông gọi điện?",
+        "options": {
+          "A": {
+            "en": "To sign up for lessons",
+            "vi": "Để đăng ký lớp học"
+          },
+          "B": {
+            "en": "To enter a competition",
+            "vi": "Để tham gia một cuộc thi"
+          },
+          "C": {
+            "en": "To buy tickets to an event",
+            "vi": "Để mua vé dự một sự kiện"
+          },
+          "D": {
+            "en": "To ask about branded merchandise",
+            "vi": "Để hỏi về hàng lưu niệm thương hiệu"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy hiểu sai vai trò (khán giả mua vé ≠ thí sinh thi đấu ở B)",
+          "soundTrap": {
+            "pair": "book three tickets ↔ buy tickets",
+            "noteVi": "Động từ \"book\" (đặt vé) được paraphrase thành \"buy\" và \"tennis match\" thành \"an event\"."
+          },
+          "listeningKey": "Khóa ngay câu mở đầu T0: \"calling to book three tickets for this Thursday's tennis match\" ↔ \"buy tickets to an event\".",
+          "trapAnalysis": "Người đàn ông gọi để đặt 3 vé xem trận quần vợt (khán giả), không phải đăng ký thi đấu (B) hay học tennis (A).",
+          "paraphrases": [
+            {
+              "audioPhrase": "book three tickets for ... tennis match",
+              "answerPhrase": "To buy tickets to an event",
+              "meaningVi": "đặt mua vé xem một sự kiện thể thao"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không đăng ký học quần vợt.",
+            "B": "SAI (Nhầm vai trò) — Ông ấy đi xem cổ vũ, không đăng ký thi đấu.",
+            "C": "ĐÚNG — Paraphrase chuẩn từ \"book three tickets for ... tennis match\".",
+            "D": "SAI — Không hỏi mua đồ lưu niệm."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n04-q2",
+        "questionNumber": 36,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What did Ife Rotimi do last month?",
+        "promptVi": "Ife Rotimi đã làm gì vào tháng trước?",
+        "options": {
+          "A": {
+            "en": "She won a regional tournament.",
+            "vi": "Cô ấy đã vô địch một giải đấu khu vực."
+          },
+          "B": {
+            "en": "She gave a television interview.",
+            "vi": "Cô ấy trả lời phỏng vấn truyền hình."
+          },
+          "C": {
+            "en": "She started an institute.",
+            "vi": "Cô ấy mở một học viện."
+          },
+          "D": {
+            "en": "She hired a new coach.",
+            "vi": "Cô ấy thuê huấn luyện viên mới."
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 2,
+        "explanation": {
+          "trapType": "Bẫy nghe tên riêng & mốc thời gian \"last month\"",
+          "soundTrap": {
+            "pair": "regional championship tournament ↔ regional tournament",
+            "noteVi": "Cần nghe kịp ngay sau tên riêng Ife Rotimi ở lượt thoại T2."
+          },
+          "listeningKey": "Nghe chuẩn tên riêng \"Ife Rotimi\" ở T2: \"won the regional championship tournament last month\".",
+          "trapAnalysis": "Câu hỏi kiểm tra chi tiết trực tiếp ngay sau tên nhân vật Ife Rotimi: cô ấy vừa vô địch giải khu vực tháng trước nên vé bán cực chạy.",
+          "paraphrases": [
+            {
+              "audioPhrase": "won the regional championship tournament",
+              "answerPhrase": "She won a regional tournament",
+              "meaningVi": "vô địch giải đấu cấp khu vực"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Khớp chính xác lượt thoại T2.",
+            "B": "SAI — Không nhắc phỏng vấn TV.",
+            "C": "SAI — Không mở học viện.",
+            "D": "SAI — Không nhắc tới huấn luyện viên."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n04-q3",
+        "questionNumber": 37,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What does the woman say is required?",
+        "promptVi": "Người phụ nữ nói điều gì là bắt buộc?",
+        "options": {
+          "A": {
+            "en": "A parking permit",
+            "vi": "Giấy phép đỗ xe"
+          },
+          "B": {
+            "en": "A photo ID",
+            "vi": "Giấy tờ tùy thân có ảnh"
+          },
+          "C": {
+            "en": "Contact information",
+            "vi": "Thông tin liên hệ"
+          },
+          "D": {
+            "en": "Advance payment",
+            "vi": "Thanh toán trước"
+          }
+        },
+        "correctAnswer": "D",
+        "evidenceLineIndex": 3,
+        "explanation": {
+          "trapType": "Bẫy tách biệt người nói (nghe điều kiện của người NỮ ở câu cuối)",
+          "soundTrap": {
+            "pair": "Advance payment is required",
+            "noteVi": "Cụm \"is required\" xuất hiện trực tiếp ở câu kết T3 — chú ý giữ tập trung tới giây cuối."
+          },
+          "listeningKey": "Khóa câu cuối T3: \"Advance payment is required to hold them\".",
+          "trapAnalysis": "Người Nữ nhấn mạnh chỉ còn 1 cụm 3 ghế liền nhau và yêu cầu bắt buộc \"Advance payment\" để giữ vé.",
+          "paraphrases": [
+            {
+              "audioPhrase": "Advance payment is required to hold them",
+              "answerPhrase": "Advance payment",
+              "meaningVi": "yêu cầu thanh toán trước để giữ chỗ"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không nhắc giấy phép đỗ xe.",
+            "B": "SAI — Không yêu cầu CMND/ID có ảnh.",
+            "C": "SAI — Không yêu cầu thông tin liên hệ ở lượt này.",
+            "D": "ĐÚNG — Khớp nguyên văn \"Advance payment is required\" ở T3."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n04-1",
+        "word": "book tickets",
+        "pos": "phrase",
+        "ipaUK": "/bʊk ˈtɪk.ɪts/",
+        "ipaUS": "/bʊk ˈtɪk.əts/",
+        "meaning": "đặt trước vé",
+        "exampleEn": "We booked four front-row tickets for Saturday's game.",
+        "exampleVi": "Chúng tôi đã đặt bốn vé hàng đầu cho trận thứ Bảy."
+      },
+      {
+        "id": "lv-p3n04-2",
+        "word": "sell quickly",
+        "pos": "phrase",
+        "ipaUK": "/sel ˈkwɪk.li/",
+        "ipaUS": "/sel ˈkwɪk.li/",
+        "meaning": "bán chạy / hết hàng nhanh",
+        "exampleEn": "Early-bird passes have been selling quickly all week.",
+        "exampleVi": "Vé ưu đãi sớm bán rất chạy suốt cả tuần."
+      },
+      {
+        "id": "lv-p3n04-3",
+        "word": "regional championship",
+        "pos": "phrase",
+        "ipaUK": "/ˈriː.dʒən.əl ˈtʃæm.pi.ən.ʃɪp/",
+        "ipaUS": "/ˈriː.dʒən.əl ˈtʃæm.pi.ən.ʃɪp/",
+        "meaning": "giải vô địch khu vực",
+        "exampleEn": "She won the regional championship last month.",
+        "exampleVi": "Cô ấy vô địch giải khu vực tháng trước."
+      },
+      {
+        "id": "lv-p3n04-4",
+        "word": "advance payment",
+        "pos": "phrase",
+        "ipaUK": "/ədˈvɑːns ˈpeɪ.mənt/",
+        "ipaUS": "/ədˈvæns ˈpeɪ.mənt/",
+        "meaning": "thanh toán trước / đặt cọc trước",
+        "exampleEn": "Advance payment is required to confirm group bookings.",
+        "exampleVi": "Cần thanh toán trước để xác nhận đặt chỗ theo nhóm."
+      },
+      {
+        "id": "lv-p3n04-5",
+        "word": "hold seats",
+        "pos": "phrase",
+        "ipaUK": "/həʊld siːts/",
+        "ipaUS": "/hoʊld siːts/",
+        "meaning": "giữ chỗ ngồi",
+        "exampleEn": "We can only hold seats for twenty-four hours without payment.",
+        "exampleVi": "Chúng tôi chỉ giữ chỗ trong 24 giờ nếu chưa thanh toán."
+      }
+    ]
+  },
+  {
+    "id": "p3-n05",
+    "part": 3,
+    "title": "Hội thoại (2 người — Dịch vụ khách hàng): Hỏi thủ tục tái chế thiết bị điện tử trước khi chuyển nhà",
+    "scenario": "A homeowner calls a recycling facility to ask about disposing of old electronics before moving.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-44-46.mp3",
+    "transcript": [
+      {
+        "id": "p3-n05-t1",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Jamestown Recycling Facility. How can I help you?",
+        "vi": "Trung tâm Tái chế Jamestown xin nghe. Tôi có thể giúp gì cho anh?",
+        "evidenceForQuestionIds": [
+          "p3-n05-q1"
+        ],
+        "startMs": 400,
+        "endMs": 8569
+      },
+      {
+        "id": "p3-n05-t2",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Hi. I'm preparing to move soon, and I have some electronics, such as televisions and computers, that I'd like to get rid of before I put my house on the market.",
+        "vi": "Xin chào. Tôi sắp chuẩn bị chuyển nhà và tôi có một số đồ điện tử, chẳng hạn như tivi và máy tính, mà tôi muốn thanh lý bỏ đi trước khi rao bán nhà.",
+        "evidenceForQuestionIds": [
+          "p3-n05-q2"
+        ],
+        "startMs": 8609,
+        "endMs": 35285
+      },
+      {
+        "id": "p3-n05-t3",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Yes, that's right. We'll take all electronics.",
+        "vi": "Vâng, đúng vậy ạ. Chúng tôi nhận tất cả các thiết bị điện tử.",
+        "startMs": 35325,
+        "endMs": 42994
+      },
+      {
+        "id": "p3-n05-t4",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Great. I just have one question. Do you provide a pickup service?",
+        "vi": "Tuyệt quá. Tôi chỉ có một câu hỏi thôi. Bên mình có cung cấp dịch vụ đến tận nơi thu gom không?",
+        "startMs": 43034,
+        "endMs": 53871
+      },
+      {
+        "id": "p3-n05-t5",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "No, unfortunately you'll have to bring everything here yourself. However, on our Web site we list a number of companies that can remove and dispose of the items for you.",
+        "vi": "Không, rất tiếc là anh sẽ phải tự mang mọi thứ tới đây. Tuy nhiên, trên trang web của chúng tôi có liệt kê một số công ty có thể đến tháo dỡ và xử lý đồ giúp anh.",
+        "evidenceForQuestionIds": [
+          "p3-n05-q3"
+        ],
+        "startMs": 53911,
+        "endMs": 82030
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n05-q1",
+        "questionNumber": 44,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Where does the woman work?",
+        "promptVi": "Người phụ nữ làm việc ở đâu?",
+        "options": {
+          "A": {
+            "en": "At a delivery service",
+            "vi": "Tại công ty giao hàng"
+          },
+          "B": {
+            "en": "At an electronics store",
+            "vi": "Tại cửa hàng điện máy"
+          },
+          "C": {
+            "en": "At a recycling facility",
+            "vi": "Tại cơ sở tái chế"
+          },
+          "D": {
+            "en": "At a real estate agency",
+            "vi": "Tại công ty bất động sản"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy liên tưởng lời thoại của KHÁCH (\"electronics\" → B; \"put my house on the market\" → D)",
+          "soundTrap": {
+            "pair": "electronics / put my house on the market",
+            "noteVi": "Khách nhắc tivi/máy tính và bán nhà dễ khiến thí sinh quên mất nơi làm việc của người NỮ đã xưng tên ngay câu đầu."
+          },
+          "listeningKey": "Khóa ngay lời chào T0: \"Jamestown Recycling Facility\" → C.",
+          "trapAnalysis": "Đáp án nằm ngay giây đầu tiên khi nhân viên nghe máy xưng tên đơn vị \"Jamestown Recycling Facility\". B và D là bẫy từ lời khách hàng.",
+          "paraphrases": [
+            {
+              "audioPhrase": "Jamestown Recycling Facility",
+              "answerPhrase": "At a recycling facility",
+              "meaningVi": "tại cơ sở tái chế"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Họ thậm chí không có dịch vụ đến lấy hàng tận nhà.",
+            "B": "SAI (Bẫy từ khóa khách) — Họ nhận tái chế đồ điện tử cũ, không bán đồ điện máy.",
+            "C": "ĐÚNG — Xưng danh trực tiếp ngay T0.",
+            "D": "SAI (Bẫy từ khóa khách) — Khách hàng sắp bán nhà, không phải người Nữ làm môi giới."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n05-q2",
+        "questionNumber": 45,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What does the man want to dispose of?",
+        "promptVi": "Người đàn ông muốn vứt bỏ / xử lý thứ gì?",
+        "options": {
+          "A": {
+            "en": "Yard waste",
+            "vi": "Rác thải sân vườn"
+          },
+          "B": {
+            "en": "Used furniture",
+            "vi": "Đồ nội thất cũ"
+          },
+          "C": {
+            "en": "Electronics",
+            "vi": "Thiết bị điện tử"
+          },
+          "D": {
+            "en": "Books",
+            "vi": "Sách cũ"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 1,
+        "explanation": {
+          "trapType": "Bẫy Paraphrase cụm động từ (\"get rid of\" ↔ \"dispose of\")",
+          "soundTrap": {
+            "pair": "get rid of ↔ dispose of",
+            "noteVi": "Đề dùng \"dispose of\" (vứt bỏ/xử lý) để paraphrase cụm khẩu ngữ \"get rid of\" ở T1."
+          },
+          "listeningKey": "Khóa T1: \"some electronics, such as televisions and computers, that I'd like to get rid of\" ↔ \"dispose of\".",
+          "trapAnalysis": "Ông ấy nêu rõ có đồ điện tử (tivi, máy tính) muốn bỏ đi trước khi chuyển nhà → chọn C.",
+          "paraphrases": [
+            {
+              "audioPhrase": "get rid of ... some electronics",
+              "answerPhrase": "dispose of ... Electronics",
+              "meaningVi": "vứt bỏ / xử lý các thiết bị điện tử"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không nhắc rác sân vườn.",
+            "B": "SAI — Không nhắc đồ nội thất.",
+            "C": "ĐÚNG — Khớp trực tiếp \"electronics, such as televisions and computers\" ở T1.",
+            "D": "SAI — Không nhắc sách."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n05-q3",
+        "questionNumber": 46,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What does the woman say can be found on a Web site?",
+        "promptVi": "Người phụ nữ nói có thể tìm thấy gì trên trang web?",
+        "options": {
+          "A": {
+            "en": "A list of companies",
+            "vi": "Danh sách các công ty"
+          },
+          "B": {
+            "en": "Hours of operation",
+            "vi": "Giờ hoạt động"
+          },
+          "C": {
+            "en": "A permit application",
+            "vi": "Đơn xin giấy phép"
+          },
+          "D": {
+            "en": "Directions to a site",
+            "vi": "Chỉ đường tới địa điểm"
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 4,
+        "explanation": {
+          "trapType": "Bẫy thông tin phủ định trước từ nối \"However\"",
+          "soundTrap": {
+            "pair": "a number of companies ↔ A list of companies",
+            "noteVi": "Đừng dừng nghe sau chữ \"No, unfortunately...\" — đáp án Câu 3 luôn nằm ngay sau từ nối \"However\"."
+          },
+          "listeningKey": "Nghe sau từ chuyển hướng \"However\" ở T4: \"on our Web site we list a number of companies\".",
+          "trapAnalysis": "Sau khi từ chối dịch vụ thu gom tận nơi, người Nữ dùng \"However\" để giới thiệu danh sách các công ty thu gom đối tác có trên website.",
+          "paraphrases": [
+            {
+              "audioPhrase": "list a number of companies",
+              "answerPhrase": "A list of companies",
+              "meaningVi": "danh sách một số công ty cung cấp dịch vụ"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Khớp trực tiếp \"we list a number of companies\" ở T4.",
+            "B": "SAI — Không nhắc giờ mở cửa trên website.",
+            "C": "SAI — Không cần đơn xin giấy phép.",
+            "D": "SAI — Không nhắc bản đồ chỉ đường trên web."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n05-1",
+        "word": "recycling facility",
+        "pos": "phrase",
+        "ipaUK": "/ˌriːˈsaɪ.klɪŋ fəˈsɪl.ə.ti/",
+        "ipaUS": "/ˌriːˈsaɪ.klɪŋ fəˈsɪl.ə.t̬i/",
+        "meaning": "cơ sở / trung tâm tái chế",
+        "exampleEn": "Old monitors can be dropped off at the city recycling facility.",
+        "exampleVi": "Màn hình cũ có thể mang tới trung tâm tái chế thành phố."
+      },
+      {
+        "id": "lv-p3n05-2",
+        "word": "get rid of",
+        "pos": "phrase",
+        "ipaUK": "/ɡet rɪd ɒv/",
+        "ipaUS": "/ɡet rɪd ʌv/",
+        "meaning": "vứt bỏ / thanh lý bớt",
+        "exampleEn": "We need to get rid of broken printers before renovating.",
+        "exampleVi": "Ta cần bỏ các máy in hỏng trước khi cải tạo."
+      },
+      {
+        "id": "lv-p3n05-3",
+        "word": "put on the market",
+        "pos": "phrase",
+        "ipaUK": "/pʊt ɒn ðə ˈmɑː.kɪt/",
+        "ipaUS": "/pʊt ɑːn ðə ˈmɑːr.kət/",
+        "meaning": "rao bán (nhà / sản phẩm ra thị trường)",
+        "exampleEn": "They painted the house before putting it on the market.",
+        "exampleVi": "Họ sơn lại căn nhà trước khi rao bán."
+      },
+      {
+        "id": "lv-p3n05-4",
+        "word": "pickup service",
+        "pos": "phrase",
+        "ipaUK": "/ˈpɪk.ʌp ˈsɜː.vɪs/",
+        "ipaUS": "/ˈpɪk.ʌp ˈsɝː.vɪs/",
+        "meaning": "dịch vụ đến tận nơi thu gom / lấy hàng",
+        "exampleEn": "The courier offers a free weekday pickup service.",
+        "exampleVi": "Hãng chuyển phát cung cấp dịch vụ lấy hàng tận nơi miễn phí ngày thường."
+      },
+      {
+        "id": "lv-p3n05-5",
+        "word": "dispose of",
+        "pos": "phrase",
+        "ipaUK": "/dɪˈspəʊz ɒv/",
+        "ipaUS": "/dɪˈspoʊz ʌv/",
+        "meaning": "xử lý / vứt bỏ đúng quy định",
+        "exampleEn": "Batteries must be disposed of safely.",
+        "exampleVi": "Pin phải được xử lý thải bỏ an toàn."
+      }
+    ]
+  },
+  {
+    "id": "p3-n06",
+    "part": 3,
+    "title": "Hội thoại 3 người (3 Speakers): Giới thiệu máy in nhỏ gọn tại cửa hàng điện máy",
+    "scenario": "A store manager welcomes two product demonstrators (including Murat) setting up a compact printer station.",
+    "speakerCount": 3,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-44-46.mp3",
+    "transcript": [
+      {
+        "id": "p3-n06-t1",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Thank you both for coming here today to demonstrate your company's new compact printer. I know the store will be busy because we're having a big sale on laptop computers and tablets.",
+        "vi": "Cảm ơn cả hai anh hôm nay đã đến đây trình diễn mẫu máy in nhỏ gọn mới của công ty mình. Tôi biết cửa hàng sẽ rất đông vì chúng tôi đang có đợt giảm giá lớn cho máy tính xách tay và máy tính bảng.",
+        "evidenceForQuestionIds": [
+          "p3-n06-q1"
+        ],
+        "startMs": 400,
+        "endMs": 27418
+      },
+      {
+        "id": "p3-n06-t2",
+        "speaker": "Man 1",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We're happy to be here. Our printers are perfect for students or people with home offices who may have limited space. My partner, Murat, will be setting up the printer station.",
+        "vi": "Chúng tôi rất vui khi có mặt ở đây. Máy in của chúng tôi rất lý tưởng cho sinh viên hoặc người làm việc tại nhà có không gian hạn chế. Đồng nghiệp của tôi, Murat, sẽ phụ trách lắp đặt quầy máy in.",
+        "startMs": 27458,
+        "endMs": 53585
+      },
+      {
+        "id": "p3-n06-t3",
+        "speaker": "Man 2",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Yes—where can I put our demonstration table?",
+        "vi": "Vâng — tôi có thể đặt bàn trình diễn của chúng tôi ở đâu ạ?",
+        "evidenceForQuestionIds": [
+          "p3-n06-q2"
+        ],
+        "startMs": 53625,
+        "endMs": 60156
+      },
+      {
+        "id": "p3-n06-t4",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "I'll show you the area. Also, if you brought any brochures with you, it'll be helpful to put those out for people to take.",
+        "vi": "Tôi sẽ dẫn anh ra khu vực đó. Ngoài ra, nếu các anh có mang theo tờ rơi giới thiệu thì bày sẵn ra cho khách lấy sẽ rất hữu ích đấy.",
+        "evidenceForQuestionIds": [
+          "p3-n06-q3"
+        ],
+        "startMs": 60196,
+        "endMs": 78290
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n06-q1",
+        "questionNumber": 44,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Where does the woman most likely work?",
+        "promptVi": "Người phụ nữ có khả năng cao nhất làm việc ở đâu?",
+        "options": {
+          "A": {
+            "en": "At a university",
+            "vi": "Tại trường đại học"
+          },
+          "B": {
+            "en": "At a publishing company",
+            "vi": "Tại công ty xuất bản"
+          },
+          "C": {
+            "en": "At an electronics store",
+            "vi": "Tại cửa hàng điện máy / đồ điện tử"
+          },
+          "D": {
+            "en": "At a grocery store",
+            "vi": "Tại cửa hàng tạp hóa"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy khách hàng mục tiêu (\"students\" ở T1 → dụ chọn University ở A)",
+          "soundTrap": {
+            "pair": "students / university vs laptop computers & tablets / electronics store",
+            "noteVi": "Đừng nhầm nhóm khách hàng mục tiêu \"students\" ở T1 với nơi làm việc của người Nữ!"
+          },
+          "listeningKey": "Khóa T0: \"the store will be busy ... big sale on laptop computers and tablets\" → electronics store.",
+          "trapAnalysis": "Người Nữ nói cửa hàng mình đang khuyến mãi lớn cho laptop và máy tính bảng → chắc chắn là cửa hàng đồ điện tử (C). Đáp án A bẫy bằng chữ \"students\" ở T1.",
+          "paraphrases": [
+            {
+              "audioPhrase": "store ... big sale on laptop computers and tablets",
+              "answerPhrase": "At an electronics store",
+              "meaningVi": "cửa hàng bán đồ điện tử (laptop, tablet)"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI (Bẫy đối tượng khách) — \"Students\" chỉ là nhóm khách phù hợp dùng máy in mini.",
+            "B": "SAI — Không liên quan nhà xuất bản.",
+            "C": "ĐÚNG — Cửa hàng bán laptop và máy tính bảng chính là cửa hàng điện tử.",
+            "D": "SAI — Không bán thực phẩm tạp hóa."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n06-q2",
+        "questionNumber": 45,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What does Murat ask about?",
+        "promptVi": "Murat hỏi về điều gì?",
+        "options": {
+          "A": {
+            "en": "How much an item costs",
+            "vi": "Một món hàng giá bao nhiêu"
+          },
+          "B": {
+            "en": "When an event will begin",
+            "vi": "Khi nào sự kiện bắt đầu"
+          },
+          "C": {
+            "en": "How many people will participate",
+            "vi": "Bao nhiêu người sẽ tham gia"
+          },
+          "D": {
+            "en": "Where to set up some equipment",
+            "vi": "Đặt một số thiết bị ở đâu"
+          }
+        },
+        "correctAnswer": "D",
+        "evidenceLineIndex": 2,
+        "explanation": {
+          "trapType": "Bẫy phân vai hội thoại 3 người (nhận diện đúng lượt thoại của Murat — Man 2)",
+          "soundTrap": {
+            "pair": "where can I put our demonstration table ↔ Where to set up some equipment",
+            "noteVi": "Trong hội thoại 3 người, người thứ nhất thường giới thiệu tên người thứ hai ngay trước khi người đó cất tiếng."
+          },
+          "listeningKey": "Kỹ thuật hội thoại 3 người: Nghe tên \"My partner, Murat\" ở cuối T1 → lượt T2 ngay sau đó là giọng của Murat hỏi \"where can I put our demonstration table?\"!",
+          "trapAnalysis": "Man 1 giới thiệu \"My partner, Murat, will be setting up the printer station\", và ngay lượt T2 Murat (Man 2) hỏi vị trí đặt bàn trình diễn → paraphrase thành \"Where to set up some equipment\".",
+          "paraphrases": [
+            {
+              "audioPhrase": "where can I put our demonstration table?",
+              "answerPhrase": "Where to set up some equipment",
+              "meaningVi": "hỏi vị trí đặt bàn/thiết bị trình diễn"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không hỏi giá bán.",
+            "B": "SAI — Không hỏi giờ bắt đầu.",
+            "C": "SAI — Không hỏi số lượng người dự.",
+            "D": "ĐÚNG — Khớp chuẩn xác câu hỏi của Murat ở T2."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n06-q3",
+        "questionNumber": 46,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What does the woman suggest doing?",
+        "promptVi": "Người phụ nữ gợi ý làm gì?",
+        "options": {
+          "A": {
+            "en": "Offering a discount",
+            "vi": "Đưa ra mức giảm giá"
+          },
+          "B": {
+            "en": "Displaying informational materials",
+            "vi": "Trưng bày tài liệu thông tin"
+          },
+          "C": {
+            "en": "Holding a contest",
+            "vi": "Tổ chức một cuộc thi"
+          },
+          "D": {
+            "en": "Visiting a registration table",
+            "vi": "Ghé thăm bàn đăng ký"
+          }
+        },
+        "correctAnswer": "B",
+        "evidenceLineIndex": 3,
+        "explanation": {
+          "trapType": "Bẫy Paraphrase từ cụ thể lên trừu tượng (brochures → informational materials) & bẫy nhắc lại \"sale\" ở T0",
+          "soundTrap": {
+            "pair": "big sale (T0) vs brochures → informational materials (T3)",
+            "noteVi": "Đáp án A lợi dụng chữ \"big sale\" ở T0 để dụ chọn \"Offering a discount\", nhưng gợi ý của người Nữ nằm ở cuối T3."
+          },
+          "listeningKey": "Bắt cặp Paraphrase ở T3: \"put those (brochures) out for people to take\" ↔ \"Displaying informational materials\".",
+          "trapAnalysis": "Cụm \"put out brochures\" (bày tờ rơi ra) được ETS nâng tầm thành \"Displaying informational materials\". Đây là cặp Paraphrase tủ xuất hiện rất nhiều trong Part 3 & 4.",
+          "paraphrases": [
+            {
+              "audioPhrase": "brought any brochures ... put those out for people to take",
+              "answerPhrase": "Displaying informational materials",
+              "meaningVi": "bày sẵn tài liệu thông tin/tờ rơi cho khách"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI (Bẫy thông tin cũ) — Cửa hàng đã đang giảm giá sẵn từ T0, không phải gợi ý cho đội máy in.",
+            "B": "ĐÚNG — Paraphrase chuẩn từ \"put brochures out\" thành \"Displaying informational materials\".",
+            "C": "SAI — Không tổ chức cuộc thi.",
+            "D": "SAI — Không có bàn đăng ký."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n06-1",
+        "word": "compact printer",
+        "pos": "phrase",
+        "ipaUK": "/kəmˈpækt ˈprɪn.tər/",
+        "ipaUS": "/kɑːmˈpækt ˈprɪn.t̬ɚ/",
+        "meaning": "máy in nhỏ gọn",
+        "exampleEn": "The compact printer fits easily on a small desk.",
+        "exampleVi": "Chiếc máy in nhỏ gọn đặt vừa vặn trên bàn nhỏ."
+      },
+      {
+        "id": "lv-p3n06-2",
+        "word": "demonstrate a product",
+        "pos": "phrase",
+        "ipaUK": "/ˈdem.ən.streɪt ə ˈprɒd.ʌkt/",
+        "ipaUS": "/ˈdem.ən.streɪt ə ˈprɑː.dʌkt/",
+        "meaning": "trình diễn / giới thiệu thực tế sản phẩm",
+        "exampleEn": "Two specialists came to demonstrate the new kitchen mixer.",
+        "exampleVi": "Hai chuyên viên đến trình diễn máy trộn bếp mới."
+      },
+      {
+        "id": "lv-p3n06-3",
+        "word": "limited space",
+        "pos": "phrase",
+        "ipaUK": "/ˈlɪm.ɪ.tɪd speɪs/",
+        "ipaUS": "/ˈlɪm.ə.t̬ɪd speɪs/",
+        "meaning": "không gian hạn chế",
+        "exampleEn": "Foldable desks are ideal for home offices with limited space.",
+        "exampleVi": "Bàn gấp rất lý tưởng cho phòng làm việc tại nhà diện tích nhỏ."
+      },
+      {
+        "id": "lv-p3n06-4",
+        "word": "put out brochures",
+        "pos": "phrase",
+        "ipaUK": "/pʊt aʊt ˈbrəʊ.ʃəz/",
+        "ipaUS": "/pʊt aʊt broʊˈʃʊrz/",
+        "meaning": "bày tờ rơi ra cho khách lấy",
+        "exampleEn": "Put out product brochures on the front counter.",
+        "exampleVi": "Hãy bày tờ rơi sản phẩm trên quầy phía trước."
+      },
+      {
+        "id": "lv-p3n06-5",
+        "word": "informational materials",
+        "pos": "phrase",
+        "ipaUK": "/ˌɪn.fəˈmeɪ.ʃən.əl məˈtɪə.ri.əlz/",
+        "ipaUS": "/ˌɪn.fɚˈmeɪ.ʃən.əl məˈtɪr.i.əlz/",
+        "meaning": "tài liệu cung cấp thông tin (tờ rơi, sổ tay)",
+        "exampleEn": "Booth staff distributed informational materials to visitors.",
+        "exampleVi": "Nhân viên gian hàng phát tài liệu thông tin cho khách tham quan."
+      }
+    ]
+  },
+  {
+    "id": "p3-n07",
+    "part": 3,
+    "title": "Hội thoại 3 người (3 Speakers): Đặt bút giấy phân hủy sinh học quảng bá tại lễ hội cộng đồng",
+    "scenario": "Three staff members at a cleaning service discuss ordering eco-friendly promotional pens for a community festival.",
+    "speakerCount": 3,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-41-43.mp3",
+    "transcript": [
+      {
+        "id": "p3-n07-t1",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Hey, Brian and Matteo. I found some great pens to give away at the community festival to promote our business.",
+        "vi": "Này Brian và Matteo. Tôi tìm thấy mấy loại bút rất hay để phát tặng tại lễ hội cộng đồng nhằm quảng bá doanh nghiệp của mình.",
+        "evidenceForQuestionIds": [
+          "p3-n07-q1"
+        ],
+        "startMs": 400,
+        "endMs": 20041
+      },
+      {
+        "id": "p3-n07-t2",
+        "speaker": "Man 1",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Great. Can we put our cleaning service logo on them?",
+        "vi": "Tuyệt quá. Chúng ta có thể in logo dịch vụ vệ sinh của mình lên đó không?",
+        "startMs": 20081,
+        "endMs": 29366
+      },
+      {
+        "id": "p3-n07-t3",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Yes, for no extra charge. And they're biodegradable. They're made from paper.",
+        "vi": "Có, hoàn toàn không mất thêm phí. Và chúng còn phân hủy sinh học được nữa. Chúng được làm từ giấy đấy.",
+        "evidenceForQuestionIds": [
+          "p3-n07-q2"
+        ],
+        "startMs": 29406,
+        "endMs": 43155
+      },
+      {
+        "id": "p3-n07-t4",
+        "speaker": "Man 2",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "So when we hand them out, we can mention that.",
+        "vi": "Vậy khi phát tặng bút, chúng ta có thể nhắc đến ưu điểm đó.",
+        "startMs": 43195,
+        "endMs": 51408
+      },
+      {
+        "id": "p3-n07-t5",
+        "speaker": "Man 1",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "As well as talk about the organic cleaning supplies our company uses.",
+        "vi": "Cũng như giới thiệu thêm về các dung dịch tẩy rửa hữu cơ mà công ty mình sử dụng.",
+        "startMs": 51448,
+        "endMs": 63768
+      },
+      {
+        "id": "p3-n07-t6",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "OK. I'll go ahead and order several cases.",
+        "vi": "Được rồi. Tôi sẽ tiến hành đặt mua vài thùng luôn nhé.",
+        "evidenceForQuestionIds": [
+          "p3-n07-q3"
+        ],
+        "startMs": 63808,
+        "endMs": 71210
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n07-q1",
+        "questionNumber": 41,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What event are the speakers preparing for?",
+        "promptVi": "Những người nói đang chuẩn bị cho sự kiện nào?",
+        "options": {
+          "A": {
+            "en": "A new-employee orientation",
+            "vi": "Buổi định hướng nhân viên mới"
+          },
+          "B": {
+            "en": "A grand opening",
+            "vi": "Lễ khai trương"
+          },
+          "C": {
+            "en": "A community festival",
+            "vi": "Một lễ hội cộng đồng"
+          },
+          "D": {
+            "en": "A trade show",
+            "vi": "Một hội chợ thương mại"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy sự kiện kinh doanh tương tự (grand opening / trade show ≠ community festival)",
+          "soundTrap": {
+            "pair": "community festival",
+            "noteVi": "Đáp án xuất hiện ngay lượt thoại đầu tiên khi người Nữ gọi tên 2 đồng nghiệp Brian và Matteo."
+          },
+          "listeningKey": "Khóa ngay T0: \"give away at the community festival to promote our business\".",
+          "trapAnalysis": "Hội thoại 3 người mở đầu bằng cách người Nữ gọi tên hai đồng nghiệp nam và nêu ngay mục đích chuẩn bị quà tặng cho \"community festival\".",
+          "paraphrases": [
+            {
+              "audioPhrase": "at the community festival",
+              "answerPhrase": "A community festival",
+              "meaningVi": "tại lễ hội cộng đồng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không phải đào tạo nhân viên mới.",
+            "B": "SAI — Công ty đã hoạt động sẵn, không phải khai trương.",
+            "C": "ĐÚNG — Nêu rõ ngay câu đầu T0.",
+            "D": "SAI — Là lễ hội cộng đồng, không phải hội chợ thương mại."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n07-q2",
+        "questionNumber": 42,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What is mentioned about some pens?",
+        "promptVi": "Điều gì được đề cập về những chiếc bút?",
+        "options": {
+          "A": {
+            "en": "They are available in multiple colors.",
+            "vi": "Chúng có nhiều màu sắc."
+          },
+          "B": {
+            "en": "They use permanent ink.",
+            "vi": "Chúng dùng mực không phai."
+          },
+          "C": {
+            "en": "They are preferred by book authors.",
+            "vi": "Chúng được các tác giả sách ưa chuộng."
+          },
+          "D": {
+            "en": "They are made from paper.",
+            "vi": "Chúng được làm từ giấy."
+          }
+        },
+        "correctAnswer": "D",
+        "evidenceLineIndex": 2,
+        "explanation": {
+          "trapType": "Bẫy chi tiết hợp lý về bút nhưng không nói trong bài (multiple colors / permanent ink)",
+          "soundTrap": {
+            "pair": "biodegradable / made from paper",
+            "noteVi": "Chú ý hai đặc điểm liền nhau ở T2: in logo miễn phí (\"no extra charge\") và làm từ giấy phân hủy sinh học (\"made from paper\")."
+          },
+          "listeningKey": "Khóa lượt T2: \"they're biodegradable. They're made from paper\".",
+          "trapAnalysis": "A và B nghe rất hợp lý với sản phẩm bút viết nhưng hoàn toàn không có trong audio. Đáp án D khớp nguyên văn cuối lượt T2.",
+          "paraphrases": [
+            {
+              "audioPhrase": "They're biodegradable. They're made from paper",
+              "answerPhrase": "They are made from paper",
+              "meaningVi": "bút được làm từ chất liệu giấy"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không nhắc tới bảng màu.",
+            "B": "SAI — Không đề cập loại mực.",
+            "C": "SAI — Không nhắc tác giả sách.",
+            "D": "ĐÚNG — Trùng khớp nguyên văn câu cuối T2."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n07-q3",
+        "questionNumber": 43,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What does the woman offer to do?",
+        "promptVi": "Người phụ nữ đề nghị làm gì?",
+        "options": {
+          "A": {
+            "en": "Reserve a booth",
+            "vi": "Đặt trước gian hàng"
+          },
+          "B": {
+            "en": "Place an order",
+            "vi": "Tiến hành đặt hàng"
+          },
+          "C": {
+            "en": "Organize a focus group",
+            "vi": "Tổ chức nhóm khảo sát"
+          },
+          "D": {
+            "en": "Revise a budget",
+            "vi": "Điều chỉnh ngân sách"
+          }
+        },
+        "correctAnswer": "B",
+        "evidenceLineIndex": 5,
+        "explanation": {
+          "trapType": "Bẫy tách vai người nói trong hội thoại 3 người (người Nữ đặt hàng ở T5 vs 2 người Nam bàn cách quảng bá ở T3–T4)",
+          "soundTrap": {
+            "pair": "order several cases ↔ Place an order",
+            "noteVi": "Cụm \"go ahead and order\" được paraphrase gọn thành \"Place an order\"."
+          },
+          "listeningKey": "Bắt ngay câu kết T5 của người Nữ: \"I'll go ahead and order several cases\" ↔ \"Place an order\".",
+          "trapAnalysis": "Trong hội thoại 3 người, cần theo sát ai là người chốt hành động cuối cùng: ở T5 chính người Nữ nhận việc đặt mua vài thùng bút (\"order several cases\").",
+          "paraphrases": [
+            {
+              "audioPhrase": "I'll go ahead and order several cases",
+              "answerPhrase": "Place an order",
+              "meaningVi": "tiến hành đặt mua hàng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không nhắc việc thuê gian hàng.",
+            "B": "ĐÚNG — Paraphrase trực tiếp từ \"order several cases\".",
+            "C": "SAI — Không tổ chức nhóm khảo sát.",
+            "D": "SAI — Không điều chỉnh ngân sách."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n07-1",
+        "word": "give away",
+        "pos": "phrase",
+        "ipaUK": "/ɡɪv əˈweɪ/",
+        "ipaUS": "/ɡɪv əˈweɪ/",
+        "meaning": "phát tặng miễn phí (quảng bá)",
+        "exampleEn": "We gave away reusable tote bags at the community fair.",
+        "exampleVi": "Chúng tôi tặng miễn phí túi vải tại hội chợ cộng đồng."
+      },
+      {
+        "id": "lv-p3n07-2",
+        "word": "for no extra charge",
+        "pos": "phrase",
+        "ipaUK": "/fɔː nəʊ ˈek.strə tʃɑːdʒ/",
+        "ipaUS": "/fɔːr noʊ ˈek.strə tʃɑːrdʒ/",
+        "meaning": "hoàn toàn miễn phí thêm / không phụ thu",
+        "exampleEn": "Logo printing is included for no extra charge.",
+        "exampleVi": "In logo được bao gồm mà không tính thêm phí."
+      },
+      {
+        "id": "lv-p3n07-3",
+        "word": "biodegradable",
+        "pos": "adj",
+        "ipaUK": "/ˌbaɪ.əʊ.dɪˈɡreɪ.də.bəl/",
+        "ipaUS": "/ˌbaɪ.oʊ.dɪˈɡreɪ.də.bəl/",
+        "meaning": "có thể phân hủy sinh học",
+        "exampleEn": "The café switched to biodegradable cups and straws.",
+        "exampleVi": "Quán cà phê đã chuyển sang ly và ống hút phân hủy sinh học."
+      },
+      {
+        "id": "lv-p3n07-4",
+        "word": "hand out",
+        "pos": "phrase",
+        "ipaUK": "/hænd aʊt/",
+        "ipaUS": "/hænd aʊt/",
+        "meaning": "phát tận tay cho mọi người",
+        "exampleEn": "Volunteers handed out promotional flyers at the gate.",
+        "exampleVi": "Tình nguyện viên phát tờ rơi quảng bá tại cổng."
+      },
+      {
+        "id": "lv-p3n07-5",
+        "word": "place an order",
+        "pos": "phrase",
+        "ipaUK": "/pleɪs ən ˈɔː.dər/",
+        "ipaUS": "/pleɪs ən ˈɔːr.dɚ/",
+        "meaning": "đặt hàng",
+        "exampleEn": "Let's place an order for five cases before Friday.",
+        "exampleVi": "Hãy đặt mua năm thùng trước thứ Sáu nhé."
+      }
+    ]
+  },
+  {
+    "id": "p3-n08",
+    "part": 3,
+    "title": "Hội thoại nâng cao (Hàm ý — Implied Meaning): Đổi bàn trong nhà hàng & gửi xe miễn phí",
+    "scenario": "A customer arrives at a restaurant for a client lunch, indirectly asks to move indoors, and asks about parking.",
+    "speakerCount": 2,
+    "hasGraphic": false,
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-41-43.mp3",
+    "transcript": [
+      {
+        "id": "p3-n08-t1",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Hi. I've made a reservation to meet with some clients for lunch today. It's under Cohen.",
+        "vi": "Xin chào. Tôi đã đặt bàn để gặp vài khách hàng ăn trưa hôm nay. Đặt dưới tên Cohen.",
+        "evidenceForQuestionIds": [
+          "p3-n08-q1"
+        ],
+        "startMs": 400,
+        "endMs": 13758
+      },
+      {
+        "id": "p3-n08-t2",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Oh, yes. I see your reservation. Welcome, Ms. Cohen.",
+        "vi": "Ồ, vâng. Tôi thấy lịch đặt của chị rồi. Chào mừng chị Cohen.",
+        "startMs": 13798,
+        "endMs": 21691
+      },
+      {
+        "id": "p3-n08-t3",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I know I asked to be seated on your beautiful terrace, but it's very hot today.",
+        "vi": "Tôi biết mình đã yêu cầu ngồi ngoài sân hiên xinh đẹp của nhà hàng, nhưng hôm nay trời nóng quá.",
+        "evidenceForQuestionIds": [
+          "p3-n08-q2"
+        ],
+        "startMs": 21731,
+        "endMs": 33723
+      },
+      {
+        "id": "p3-n08-t4",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Hmm. I can seat you at table four inside. Do you mind waiting a few minutes?",
+        "vi": "Ừm. Tôi có thể xếp chị ngồi bàn số bốn bên trong nhà. Chị có phiền đợi vài phút không?",
+        "startMs": 33763,
+        "endMs": 45299
+      },
+      {
+        "id": "p3-n08-t5",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Not at all. By the way, your parking area's nearly full. Where can I tell my clients to park?",
+        "vi": "Không sao đâu. Nhân tiện, bãi đỗ xe của nhà hàng gần kín rồi. Tôi có thể bảo khách của mình đỗ xe ở đâu?",
+        "startMs": 45339,
+        "endMs": 59456
+      },
+      {
+        "id": "p3-n08-t6",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Our customers can park for free in the garage across the street. Our cashier will stamp their parking tickets.",
+        "vi": "Khách của chúng tôi có thể đỗ xe miễn phí tại nhà xe đối diện bên kia đường. Thu ngân sẽ đóng dấu vé gửi xe cho họ.",
+        "evidenceForQuestionIds": [
+          "p3-n08-q3"
+        ],
+        "startMs": 59496,
+        "endMs": 76194
+      },
+      {
+        "id": "p3-n08-t7",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "Oh, great. Thanks. I'll call them and let them know.",
+        "vi": "Ồ, tuyệt quá. Cảm ơn anh. Tôi sẽ gọi báo cho họ biết.",
+        "startMs": 76234,
+        "endMs": 83990
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n08-q1",
+        "questionNumber": 41,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "Why is the woman at the restaurant?",
+        "promptVi": "Tại sao người phụ nữ lại có mặt ở nhà hàng?",
+        "options": {
+          "A": {
+            "en": "To celebrate a retirement",
+            "vi": "Để ăn mừng nghỉ hưu"
+          },
+          "B": {
+            "en": "To perform an inspection",
+            "vi": "Để thực hiện kiểm tra"
+          },
+          "C": {
+            "en": "To meet with some clients",
+            "vi": "Để gặp một vài khách hàng"
+          },
+          "D": {
+            "en": "To write an article",
+            "vi": "Để viết một bài báo"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy nghề nghiệp/mục đích ăn trưa không được nhắc tới",
+          "soundTrap": {
+            "pair": "meet with some clients",
+            "noteVi": "Đáp án câu 1 xuất hiện rõ ràng ngay lượt thoại T0."
+          },
+          "listeningKey": "Khóa ngay câu mở đầu T0: \"made a reservation to meet with some clients for lunch\".",
+          "trapAnalysis": "Người Nữ nói thẳng lý do đặt bàn trưa nay là để gặp gỡ khách hàng (\"meet with some clients\").",
+          "paraphrases": [
+            {
+              "audioPhrase": "made a reservation to meet with some clients",
+              "answerPhrase": "To meet with some clients",
+              "meaningVi": "đến nhà hàng để gặp khách hàng"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không nhắc tiệc nghỉ hưu.",
+            "B": "SAI — Không phải thanh tra.",
+            "C": "ĐÚNG — Trùng khớp nguyên văn lượt thoại T0.",
+            "D": "SAI — Không phải nhà báo viết bài."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n08-q2",
+        "questionNumber": 42,
+        "questionType": "Hàm ý người nói (Implied Meaning)",
+        "prompt": "What does the woman mean when she says, \"it's very hot today\"?",
+        "promptVi": "Người phụ nữ có ý gì khi nói \"hôm nay trời rất nóng\"?",
+        "options": {
+          "A": {
+            "en": "She is unable to accept an invitation.",
+            "vi": "Cô ấy không thể nhận lời mời."
+          },
+          "B": {
+            "en": "A cooling system is not working.",
+            "vi": "Hệ thống làm mát không hoạt động."
+          },
+          "C": {
+            "en": "A meeting will end soon.",
+            "vi": "Cuộc họp sẽ sớm kết thúc."
+          },
+          "D": {
+            "en": "She wants to change a seating request.",
+            "vi": "Cô ấy muốn thay đổi yêu cầu chỗ ngồi."
+          }
+        },
+        "correctAnswer": "D",
+        "evidenceLineIndex": 2,
+        "explanation": {
+          "trapType": "Bẫy hiểu nghĩa đen (\"hot\" → hệ thống làm mát hỏng ở B) thay vì hiểu ý định đổi bàn",
+          "soundTrap": {
+            "pair": "hot today → cooling system not working (Bẫy nghĩa đen!)",
+            "noteVi": "Câu B suy diễn máy lạnh hỏng là bẫy nghĩa đen cực điển hình của dạng Implied Meaning!"
+          },
+          "listeningKey": "Quy tắc Hàm ý: Nghe câu TRƯỚC (\"asked to be seated on your terrace, but...\") + câu SAU của nhân viên (\"seat you at table four inside\") → muốn đổi bàn vào trong nhà!",
+          "trapAnalysis": "Người Nữ nhắc trước đó đã đặt ngồi ngoài trời (\"terrace\"), nối bằng chữ \"but\" (nhưng trời rất nóng), và nhân viên lập tức hiểu ý chuyển sang \"table four inside\". Vì vậy hàm ý là muốn đổi yêu cầu chỗ ngồi (D).",
+          "paraphrases": [
+            {
+              "audioPhrase": "asked to be seated on your terrace, but it's very hot today",
+              "answerPhrase": "She wants to change a seating request",
+              "meaningVi": "muốn đổi từ bàn ngoài trời sang bàn trong nhà"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Cô ấy đã chủ động đặt bàn gặp khách.",
+            "B": "SAI (Bẫy nghĩa đen) — Nóng là thời tiết ngoài trời ở sân hiên, không phải điều hòa hỏng.",
+            "C": "SAI — Cuộc gặp thậm chí chưa bắt đầu.",
+            "D": "ĐÚNG — Khớp hoàn toàn ngữ cảnh câu trước (đặt ngoài hiên) và câu sau (xếp bàn số 4 bên trong)."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n08-q3",
+        "questionNumber": 43,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "What does the man say about a parking garage?",
+        "promptVi": "Người đàn ông nói gì về nhà xe đối diện?",
+        "options": {
+          "A": {
+            "en": "It is free for customers.",
+            "vi": "Nó miễn phí cho khách hàng."
+          },
+          "B": {
+            "en": "It is under construction.",
+            "vi": "Nó đang được sửa chữa."
+          },
+          "C": {
+            "en": "It closes soon.",
+            "vi": "Nó sắp đóng cửa."
+          },
+          "D": {
+            "en": "It offers monthly contracts.",
+            "vi": "Nó cung cấp hợp đồng theo tháng."
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 5,
+        "explanation": {
+          "trapType": "Bẫy từ khóa \"parking\" — phân biệt bãi xe nhà hàng gần kín (T4) vs nhà xe đối diện miễn phí (T5)",
+          "soundTrap": {
+            "pair": "parking area nearly full (T4) vs garage across the street free (T5)",
+            "noteVi": "Đề hỏi về \"parking garage\" (nhà xe đối diện) do người Nam giới thiệu ở T5, không phải bãi xe của nhà hàng."
+          },
+          "listeningKey": "Khóa T5: \"Our customers can park for free in the garage across the street\".",
+          "trapAnalysis": "Ở T5, nhân viên giải thích khách hàng được gửi xe miễn phí tại nhà xe bên kia đường và thu ngân sẽ đóng dấu xác nhận vé.",
+          "paraphrases": [
+            {
+              "audioPhrase": "customers can park for free in the garage",
+              "answerPhrase": "It is free for customers",
+              "meaningVi": "khách của nhà hàng được gửi xe miễn phí"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Trùng khớp 100% thông tin ở T5.",
+            "B": "SAI — Không nhắc việc thi công sửa chữa.",
+            "C": "SAI — Không nhắc giờ đóng cửa.",
+            "D": "SAI — Không nói tới vé tháng."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n08-1",
+        "word": "make a reservation",
+        "pos": "phrase",
+        "ipaUK": "/meɪk ə ˌrez.əˈveɪ.ʃən/",
+        "ipaUS": "/meɪk ə ˌrez.ɚˈveɪ.ʃən/",
+        "meaning": "đặt bàn / đặt chỗ trước",
+        "exampleEn": "I made a lunch reservation under the name Cohen.",
+        "exampleVi": "Tôi đã đặt bàn ăn trưa dưới tên Cohen."
+      },
+      {
+        "id": "lv-p3n08-2",
+        "word": "terrace",
+        "pos": "n",
+        "ipaUK": "/ˈter.əs/",
+        "ipaUS": "/ˈter.əs/",
+        "meaning": "sân hiên ngoài trời",
+        "exampleEn": "Guests love dining on the rooftop terrace in autumn.",
+        "exampleVi": "Khách rất thích ăn tối trên sân hiên tầng thượng vào mùa thu."
+      },
+      {
+        "id": "lv-p3n08-3",
+        "word": "seating request",
+        "pos": "phrase",
+        "ipaUK": "/ˈsiː.tɪŋ rɪˈkwest/",
+        "ipaUS": "/ˈsiː.t̬ɪŋ rɪˈkwest/",
+        "meaning": "yêu cầu về vị trí chỗ ngồi",
+        "exampleEn": "Please let us know if you have a special seating request.",
+        "exampleVi": "Vui lòng báo nếu quý khách có yêu cầu đặc biệt về chỗ ngồi."
+      },
+      {
+        "id": "lv-p3n08-4",
+        "word": "parking garage",
+        "pos": "phrase",
+        "ipaUK": "/ˈpɑː.kɪŋ ˈɡær.ɑːʒ/",
+        "ipaUS": "/ˈpɑːr.kɪŋ ɡəˈrɑːʒ/",
+        "meaning": "nhà để xe nhiều tầng / gara gửi xe",
+        "exampleEn": "Validated parking is available in the garage across the street.",
+        "exampleVi": "Có hỗ trợ đóng dấu gửi xe ở nhà xe đối diện."
+      },
+      {
+        "id": "lv-p3n08-5",
+        "word": "stamp a parking ticket",
+        "pos": "phrase",
+        "ipaUK": "/stæmp ə ˈpɑː.kɪŋ ˈtɪk.ɪt/",
+        "ipaUS": "/stæmp ə ˈpɑːr.kɪŋ ˈtɪk.ɪt/",
+        "meaning": "đóng dấu xác nhận vé gửi xe (để được miễn phí)",
+        "exampleEn": "Ask the cashier to stamp your parking ticket before leaving.",
+        "exampleVi": "Nhờ thu ngân đóng dấu vé gửi xe trước khi ra về."
+      }
+    ]
+  },
+  {
+    "id": "p3-n09",
+    "part": 3,
+    "title": "Hội thoại nâng cao (Có Bảng biểu — Graphic): Chọn bình nước làm quà tặng nhân viên",
+    "scenario": "A client calls a promotional goods supplier and uses a product catalog graphic to pick a company-branded water bottle.",
+    "speakerCount": 2,
+    "hasGraphic": true,
+    "graphicImageUrl": "/images/toeic/ets-2024-full-test-1/g62.png",
+    "audioUrl": "/audio/toeic/ets-2024-full-test-1/E24-T01-62-64.mp3",
+    "transcript": [
+      {
+        "id": "p3-n09-t1",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Thanks for calling Customized Concepts. How can I help you?",
+        "vi": "Cảm ơn quý khách đã gọi tới Customized Concepts. Tôi có thể giúp gì?",
+        "startMs": 400,
+        "endMs": 9475
+      },
+      {
+        "id": "p3-n09-t2",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "My company wants to give every employee a gift, something useful but not too big. Since we're about to host our annual staff basketball tournament, I thought a water bottle might be good.",
+        "vi": "Công ty tôi muốn tặng mỗi nhân viên một món quà, thứ gì đó hữu ích nhưng đừng quá to. Vì chúng tôi sắp tổ chức giải bóng rổ nhân viên thường niên nên tôi nghĩ bình đựng nước sẽ rất hợp.",
+        "evidenceForQuestionIds": [
+          "p3-n09-q1"
+        ],
+        "startMs": 9515,
+        "endMs": 38279
+      },
+      {
+        "id": "p3-n09-t3",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "We carry a few drink containers. If you're at our Web site, you'll see them under the Lifestyle tab.",
+        "vi": "Chúng tôi có bán vài mẫu bình đựng nước uống. Nếu chị đang mở trang web của chúng tôi, chị sẽ thấy chúng nằm dưới mục Lifestyle.",
+        "startMs": 38319,
+        "endMs": 53700
+      },
+      {
+        "id": "p3-n09-t4",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-GB",
+        "en": "Let me pull it up now... All right.",
+        "vi": "Để tôi mở lên ngay... Rồi đây.",
+        "startMs": 53740,
+        "endMs": 59123
+      },
+      {
+        "id": "p3-n09-t5",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "I recommend the metal bottle with the wide-mouthed lid. It's easier to clean than the one with the straw.",
+        "vi": "Tôi đề xuất mẫu bình kim loại có nắp miệng rộng. Nó dễ vệ sinh hơn mẫu có ống hút.",
+        "evidenceForQuestionIds": [
+          "p3-n09-q2"
+        ],
+        "startMs": 59163,
+        "endMs": 75314
+      },
+      {
+        "id": "p3-n09-t6",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "OK, thanks. And you could put our company logo on it, right?",
+        "vi": "Vâng, cảm ơn anh. Và bên anh có thể in logo công ty chúng tôi lên bình đúng không?",
+        "startMs": 75354,
+        "endMs": 84583
+      },
+      {
+        "id": "p3-n09-t7",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Yes. You'll just need to send me the graphic file.",
+        "vi": "Đúng vậy. Chị chỉ cần gửi cho tôi tệp đồ họa là được.",
+        "evidenceForQuestionIds": [
+          "p3-n09-q3"
+        ],
+        "startMs": 84623,
+        "endMs": 92313
+      },
+      {
+        "id": "p3-n09-t8",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I can do that.",
+        "vi": "Tôi gửi được ngay.",
+        "startMs": 92353,
+        "endMs": 94330
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n09-q1",
+        "questionNumber": 62,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "Who is a gift for?",
+        "promptVi": "Món quà dành cho ai?",
+        "options": {
+          "A": {
+            "en": "Donors",
+            "vi": "Các nhà tài trợ"
+          },
+          "B": {
+            "en": "Volunteers",
+            "vi": "Tình nguyện viên"
+          },
+          "C": {
+            "en": "Employees",
+            "vi": "Nhân viên công ty"
+          },
+          "D": {
+            "en": "Clients",
+            "vi": "Khách hàng"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 1,
+        "explanation": {
+          "trapType": "Bẫy nhóm đối tượng hay nhận quà sự kiện (donors / volunteers / clients ≠ employees)",
+          "soundTrap": {
+            "pair": "every employee / annual staff basketball tournament",
+            "noteVi": "Hai từ đồng nghĩa \"employee\" và \"staff\" cùng khẳng định đối tượng nhận quà là nhân viên."
+          },
+          "listeningKey": "Khóa câu T1: \"My company wants to give every employee a gift\" → Employees.",
+          "trapAnalysis": "Ngay lượt thoại T1, người Nữ nêu rõ công ty muốn tặng mỗi nhân viên một món quà nhân dịp giải bóng rổ nội bộ.",
+          "paraphrases": [
+            {
+              "audioPhrase": "give every employee a gift",
+              "answerPhrase": "Employees",
+              "meaningVi": "tặng quà cho toàn bộ nhân viên"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không phải quà tri ân nhà tài trợ.",
+            "B": "SAI — Không nhắc tình nguyện viên.",
+            "C": "ĐÚNG — Khớp trực tiếp \"every employee\" ở T1.",
+            "D": "SAI — Quà cho nhân viên nội bộ, không phải khách hàng."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n09-q2",
+        "questionNumber": 63,
+        "questionType": "Câu hỏi bảng biểu (Graphic)",
+        "prompt": "Look at the graphic. What is the price of the item the man recommends?",
+        "promptVi": "Nhìn vào bảng biểu. Mức giá của sản phẩm người đàn ông đề xuất là bao nhiêu?",
+        "options": {
+          "A": {
+            "en": "$21",
+            "vi": "$21"
+          },
+          "B": {
+            "en": "$18",
+            "vi": "$18"
+          },
+          "C": {
+            "en": "$24",
+            "vi": "$24"
+          },
+          "D": {
+            "en": "$15",
+            "vi": "$15"
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 4,
+        "explanation": {
+          "trapType": "Bẫy Graphic: Nhắc tới 2 sản phẩm trên hình (loại bình có ống hút, chốt bình kim loại miệng rộng)",
+          "soundTrap": {
+            "pair": "metal bottle with wide-mouthed lid ≠ one with the straw",
+            "noteVi": "Audio không bao giờ đọc thẳng con số $24 — bắt buộc ghép mô tả sản phẩm với bảng giá trong hình!"
+          },
+          "listeningKey": "Chiến thuật Graphic: Bắt đặc điểm trong audio T4 (\"metal bottle with the wide-mouthed lid\", loại \"one with the straw\") → tra sang giá tương ứng trên hình ($24)!",
+          "trapAnalysis": "Ở T4, nhân viên so sánh 2 mẫu bình kim loại trên ảnh: khuyên chọn \"metal bottle with the wide-mouthed lid\" (dễ rửa hơn mẫu có ống hút \"with the straw\"). Đối chiếu trên hình catalogue sản phẩm, mẫu bình kim loại nắp miệng rộng có giá $24 (C).",
+          "paraphrases": [
+            {
+              "audioPhrase": "metal bottle with the wide-mouthed lid (not the one with the straw)",
+              "answerPhrase": "$24 (giá trên hình Graphic)",
+              "meaningVi": "mẫu bình kim loại miệng rộng trên ảnh có giá 24 đô"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI (Bẫy Graphic) — $21 là giá của mẫu khác trên ảnh (không phải bình kim loại nắp rộng).",
+            "B": "SAI (Bẫy Graphic) — $18 là giá của mẫu bình khác.",
+            "C": "ĐÚNG — Tra đúng mẫu bình kim loại nắp miệng rộng trên ảnh có giá $24.",
+            "D": "SAI (Bẫy Graphic) — $15 là giá của mẫu cơ bản hơn."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n09-q3",
+        "questionNumber": 64,
+        "questionType": "Hành động tiếp theo",
+        "prompt": "What is the woman going to send to the man?",
+        "promptVi": "Người phụ nữ sẽ gửi gì cho người đàn ông?",
+        "options": {
+          "A": {
+            "en": "A graphic file",
+            "vi": "Một tệp đồ họa"
+          },
+          "B": {
+            "en": "A list of names",
+            "vi": "Danh sách tên"
+          },
+          "C": {
+            "en": "A delivery address",
+            "vi": "Địa chỉ giao hàng"
+          },
+          "D": {
+            "en": "An account number",
+            "vi": "Số tài khoản"
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 6,
+        "explanation": {
+          "trapType": "Bẫy nhầm vai trò người nói (người Nam yêu cầu ở T6, người Nữ đồng ý thực hiện ở T7)",
+          "soundTrap": {
+            "pair": "company logo → send me the graphic file",
+            "noteVi": "Người Nữ muốn in logo công ty, nên cần gửi file đồ họa logo cho nhà cung cấp."
+          },
+          "listeningKey": "Khóa cặp T6–T7: \"You'll just need to send me the graphic file.\" → \"I can do that.\"",
+          "trapAnalysis": "Ở T6 nhân viên yêu cầu chị gửi \"the graphic file\" để in logo lên bình, và chị xác nhận \"I can do that\" ở T7.",
+          "paraphrases": [
+            {
+              "audioPhrase": "send me the graphic file ... I can do that",
+              "answerPhrase": "A graphic file",
+              "meaningVi": "gửi tệp hình ảnh/đồ họa logo"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Khớp nguyên văn \"the graphic file\" ở T6–T7.",
+            "B": "SAI — Không gửi danh sách tên nhân viên.",
+            "C": "SAI — Chưa nhắc địa chỉ giao hàng.",
+            "D": "SAI — Không nhắc số tài khoản."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n09-1",
+        "word": "drink container",
+        "pos": "phrase",
+        "ipaUK": "/drɪŋk kənˈteɪ.nər/",
+        "ipaUS": "/drɪŋk kənˈteɪ.nɚ/",
+        "meaning": "bình / hộp đựng đồ uống",
+        "exampleEn": "We carry insulated drink containers in four sizes.",
+        "exampleVi": "Chúng tôi bán bình giữ nhiệt với bốn kích cỡ."
+      },
+      {
+        "id": "lv-p3n09-2",
+        "word": "pull up a page",
+        "pos": "phrase",
+        "ipaUK": "/pʊl ʌp ə peɪdʒ/",
+        "ipaUS": "/pʊl ʌp ə peɪdʒ/",
+        "meaning": "mở một trang web / tài liệu lên màn hình",
+        "exampleEn": "Let me pull up your order history right now.",
+        "exampleVi": "Để tôi mở lịch sử đơn hàng của bạn lên ngay."
+      },
+      {
+        "id": "lv-p3n09-3",
+        "word": "wide-mouthed lid",
+        "pos": "phrase",
+        "ipaUK": "/waɪd maʊðd lɪd/",
+        "ipaUS": "/waɪd maʊðd lɪd/",
+        "meaning": "nắp miệng rộng (dễ vệ sinh)",
+        "exampleEn": "Bottles with a wide-mouthed lid are much easier to clean.",
+        "exampleVi": "Bình có nắp miệng rộng dễ rửa sạch hơn nhiều."
+      },
+      {
+        "id": "lv-p3n09-4",
+        "word": "graphic file",
+        "pos": "phrase",
+        "ipaUK": "/ˈɡræf.ɪk faɪl/",
+        "ipaUS": "/ˈɡræf.ɪk faɪl/",
+        "meaning": "tệp đồ họa / file thiết kế logo",
+        "exampleEn": "Email us a high-resolution graphic file of your company logo.",
+        "exampleVi": "Gửi email cho chúng tôi file đồ họa độ phân giải cao của logo công ty."
+      },
+      {
+        "id": "lv-p3n09-5",
+        "word": "host a tournament",
+        "pos": "phrase",
+        "ipaUK": "/həʊst ə ˈtʊə.nə.mənt/",
+        "ipaUS": "/hoʊst ə ˈtʊr.nə.mənt/",
+        "meaning": "đăng cai / tổ chức một giải đấu",
+        "exampleEn": "Our company hosts an annual charity basketball tournament.",
+        "exampleVi": "Công ty chúng tôi tổ chức giải bóng rổ từ thiện thường niên."
+      }
+    ]
+  },
+  {
+    "id": "p3-n10",
+    "part": 3,
+    "title": "Hội thoại nâng cao (Bảng biểu Website + Nguyên nhân chậm trễ): Cập nhật trang chỉ đường vườn bách thảo",
+    "scenario": "Two botanical garden staff look at a website sitemap graphic to reorganize parking information.",
+    "speakerCount": 2,
+    "hasGraphic": true,
+    "graphicImageUrl": "/images/toeic/ets-2026-full-test-1/g65.png",
+    "audioUrl": "/audio/toeic/ets-2026-full-test-1/E26-T01-65-67.mp3",
+    "transcript": [
+      {
+        "id": "p3-n10-t1",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-US",
+        "en": "Marion, we keep getting calls from people who want to visit the botanical garden but can't find parking information. Isn't it on our Web site?",
+        "vi": "Marion, chúng ta cứ liên tục nhận được điện thoại từ những người muốn tới thăm vườn bách thảo nhưng không tìm thấy thông tin đỗ xe. Chẳng lẽ nó không có trên trang web của mình sao?",
+        "evidenceForQuestionIds": [
+          "p3-n10-q1"
+        ],
+        "startMs": 400,
+        "endMs": 25473
+      },
+      {
+        "id": "p3-n10-t2",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "It is, but you have to click on the \"About Us\" page and scroll to the bottom of that page. Maybe people don't see it.",
+        "vi": "Có đấy, nhưng bạn phải bấm vào trang \"About Us\" (Về chúng tôi) rồi cuộn xuống tận cuối trang đó. Có lẽ mọi người không nhìn thấy.",
+        "startMs": 25513,
+        "endMs": 46172
+      },
+      {
+        "id": "p3-n10-t3",
+        "speaker": "Man",
+        "voiceGender": "male",
+        "accent": "en-GB",
+        "en": "Oh, I think we should move that information from the \"About Us\" page and make a separate page for directions and parking information.",
+        "vi": "Ồ, tôi nghĩ chúng ta nên chuyển thông tin đó khỏi trang \"About Us\" và tạo một trang riêng cho phần chỉ đường và thông tin đỗ xe.",
+        "evidenceForQuestionIds": [
+          "p3-n10-q2"
+        ],
+        "startMs": 46212,
+        "endMs": 69696
+      },
+      {
+        "id": "p3-n10-t4",
+        "speaker": "Woman",
+        "voiceGender": "female",
+        "accent": "en-US",
+        "en": "I'd be happy to make that change. But we're in the middle of updating our software, so it'll have to wait until Monday.",
+        "vi": "Tôi rất sẵn lòng thực hiện thay đổi đó. Nhưng chúng ta đang ở giữa quá trình cập nhật phần mềm, nên việc đó sẽ phải đợi tới thứ Hai.",
+        "evidenceForQuestionIds": [
+          "p3-n10-q3"
+        ],
+        "startMs": 69736,
+        "endMs": 90730
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-n10-q1",
+        "questionNumber": 65,
+        "questionType": "Ý chính / Chủ đề",
+        "prompt": "Where do the speakers work?",
+        "promptVi": "Hai người nói làm việc ở đâu?",
+        "options": {
+          "A": {
+            "en": "At an amusement park",
+            "vi": "Tại công viên giải trí"
+          },
+          "B": {
+            "en": "At an art museum",
+            "vi": "Tại bảo tàng nghệ thuật"
+          },
+          "C": {
+            "en": "At a concert hall",
+            "vi": "Tại phòng hòa nhạc"
+          },
+          "D": {
+            "en": "At a botanical garden",
+            "vi": "Tại một vườn bách thảo"
+          }
+        },
+        "correctAnswer": "D",
+        "evidenceLineIndex": 0,
+        "explanation": {
+          "trapType": "Bẫy địa điểm công cộng tương tự (amusement park / art museum ≠ botanical garden)",
+          "soundTrap": {
+            "pair": "botanical garden",
+            "noteVi": "Đáp án xuất hiện ngay lượt đầu T0 kèm cụm sở hữu \"our Web site\"."
+          },
+          "listeningKey": "Khóa ngay T0: \"people who want to visit the botanical garden ... on our Web site\" → D.",
+          "trapAnalysis": "Người Nam hỏi thông tin đỗ xe cho khách tới thăm vườn bách thảo có trên \"trang web của chúng ta\" không → cả hai làm việc tại vườn bách thảo.",
+          "paraphrases": [
+            {
+              "audioPhrase": "visit the botanical garden ... our Web site",
+              "answerPhrase": "At a botanical garden",
+              "meaningVi": "làm việc tại vườn bách thảo"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không phải công viên trò chơi giải trí.",
+            "B": "SAI — Không phải bảo tàng mỹ thuật.",
+            "C": "SAI — Không phải nhà hát hòa nhạc.",
+            "D": "ĐÚNG — Nêu trực tiếp \"botanical garden\" ở T0."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n10-q2",
+        "questionNumber": 66,
+        "questionType": "Câu hỏi bảng biểu (Graphic)",
+        "prompt": "Look at the graphic. Which page on the Web site does the man want to change?",
+        "promptVi": "Nhìn vào bảng biểu. Người đàn ông muốn thay đổi trang nào trên trang web?",
+        "options": {
+          "A": {
+            "en": "Page 1",
+            "vi": "Page 1"
+          },
+          "B": {
+            "en": "Page 2",
+            "vi": "Page 2"
+          },
+          "C": {
+            "en": "Page 3",
+            "vi": "Page 3"
+          },
+          "D": {
+            "en": "Page 4",
+            "vi": "Page 4"
+          }
+        },
+        "correctAnswer": "A",
+        "evidenceLineIndex": 2,
+        "explanation": {
+          "trapType": "Bẫy Graphic: Audio gọi TÊN trang (\"About Us\"), đáp án chỉ ghi SỐ thứ tự (Page 1/2/3/4)",
+          "soundTrap": {
+            "pair": "About Us → Page 1",
+            "noteVi": "Bắt buộc đối chiếu nhãn \"About Us\" từ T1–T2 với số thứ tự trang trong sơ đồ hình ảnh."
+          },
+          "listeningKey": "Ghép Graphic + Audio (T1–T2): Người Nam muốn chuyển thông tin đỗ xe khỏi trang \"About Us\" → tra trên sơ đồ web xem \"About Us\" là Page mấy → Page 1!",
+          "trapAnalysis": "Ở T1 & T2, cả hai nhắc rõ mục thông tin đỗ xe hiện đang nằm ở cuối trang \"About Us\" và người Nam muốn dời nó khỏi trang \"About Us\". Tra trên hình sơ đồ website, \"About Us\" nằm ở vị trí Page 1 (A).",
+          "paraphrases": [
+            {
+              "audioPhrase": "move that information from the \"About Us\" page",
+              "answerPhrase": "Page 1 (vị trí mục About Us trên sơ đồ Graphic)",
+              "meaningVi": "chỉnh sửa trang số 1 (\"About Us\") trên sơ đồ web"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "ĐÚNG — Trên sơ đồ website, \"About Us\" tương ứng với Page 1.",
+            "B": "SAI (Bẫy Graphic) — Page 2 là mục khác trên sơ đồ web.",
+            "C": "SAI (Bẫy Graphic) — Page 3 là mục khác trên sơ đồ web.",
+            "D": "SAI (Bẫy Graphic) — Page 4 là mục khác trên sơ đồ web."
+          },
+          "keyVocab": []
+        }
+      },
+      {
+        "id": "p3-n10-q3",
+        "questionNumber": 67,
+        "questionType": "Thông tin chi tiết",
+        "prompt": "Why does the woman say she cannot complete a task until Monday?",
+        "promptVi": "Tại sao người phụ nữ nói cô ấy chưa thể hoàn thành công việc cho tới thứ Hai?",
+        "options": {
+          "A": {
+            "en": "She requires approval from a manager.",
+            "vi": "Cô ấy cần sự phê duyệt của quản lý."
+          },
+          "B": {
+            "en": "She is attending a workshop.",
+            "vi": "Cô ấy đang tham dự hội thảo."
+          },
+          "C": {
+            "en": "Some software is being updated.",
+            "vi": "Một phần mềm đang được cập nhật."
+          },
+          "D": {
+            "en": "Some clients will be arriving soon.",
+            "vi": "Một vài khách hàng sắp tới."
+          }
+        },
+        "correctAnswer": "C",
+        "evidenceLineIndex": 3,
+        "explanation": {
+          "trapType": "Bẫy đổi hướng sau từ \"But\" & Paraphrase sang bị động (\"updating our software\" ↔ \"software is being updated\")",
+          "soundTrap": {
+            "pair": "in the middle of updating ↔ is being updated",
+            "noteVi": "Cụm \"in the middle of V-ing\" (đang làm dở) được chuyển sang bị động tiếp diễn \"is being updated\"."
+          },
+          "listeningKey": "Khóa sau từ chuyển hướng \"But\" ở T3: \"in the middle of updating our software, so it'll have to wait until Monday\".",
+          "trapAnalysis": "Ở T3, người Nữ đồng ý sửa web nhưng đưa ra rào cản sau chữ \"But\": hệ thống phần mềm đang trong quá trình cập nhật nên phải sang thứ Hai mới chỉnh được.",
+          "paraphrases": [
+            {
+              "audioPhrase": "in the middle of updating our software",
+              "answerPhrase": "Some software is being updated",
+              "meaningVi": "phần mềm đang trong quá trình cập nhật"
+            }
+          ],
+          "optionAnalysis": {
+            "A": "SAI — Không cần chờ quản lý duyệt.",
+            "B": "SAI — Không đi dự hội thảo.",
+            "C": "ĐÚNG — Paraphrase chuẩn từ \"in the middle of updating our software\".",
+            "D": "SAI — Không nhắc việc đón khách."
+          },
+          "keyVocab": []
+        }
+      }
+    ],
+    "keyVocab": [
+      {
+        "id": "lv-p3n10-1",
+        "word": "botanical garden",
+        "pos": "phrase",
+        "ipaUK": "/bəˈtæn.ɪ.kəl ˈɡɑː.dən/",
+        "ipaUS": "/bəˈtæn.ɪ.kəl ˈɡɑːr.dən/",
+        "meaning": "vườn bách thảo",
+        "exampleEn": "Visitors can view rare orchids at the city botanical garden.",
+        "exampleVi": "Du khách có thể ngắm hoa lan quý tại vườn bách thảo thành phố."
+      },
+      {
+        "id": "lv-p3n10-2",
+        "word": "scroll to the bottom",
+        "pos": "phrase",
+        "ipaUK": "/skrəʊl tuː ðə ˈbɒt.əm/",
+        "ipaUS": "/skroʊl tuː ðə ˈbɑː.t̬əm/",
+        "meaning": "cuộn xuống tận cuối trang",
+        "exampleEn": "Scroll to the bottom of the page to find our contact number.",
+        "exampleVi": "Cuộn xuống cuối trang để tìm số liên hệ của chúng tôi."
+      },
+      {
+        "id": "lv-p3n10-3",
+        "word": "separate page",
+        "pos": "phrase",
+        "ipaUK": "/ˈsep.ər.ət peɪdʒ/",
+        "ipaUS": "/ˈsep.ɚ.ət peɪdʒ/",
+        "meaning": "một trang tách riêng biệt",
+        "exampleEn": "We created a separate page for shipping and return policies.",
+        "exampleVi": "Chúng tôi tạo một trang riêng cho chính sách giao và trả hàng."
+      },
+      {
+        "id": "lv-p3n10-4",
+        "word": "in the middle of",
+        "pos": "phrase",
+        "ipaUK": "/ɪn ðə ˈmɪd.əl ɒv/",
+        "ipaUS": "/ɪn ðə ˈmɪd.əl ʌv/",
+        "meaning": "đang ở giữa chừng (quá trình làm gì)",
+        "exampleEn": "IT is in the middle of updating the billing software.",
+        "exampleVi": "Bộ phận IT đang cập nhật dở phần mềm thanh toán."
+      },
+      {
+        "id": "lv-p3n10-5",
+        "word": "wait until",
+        "pos": "phrase",
+        "ipaUK": "/weɪt ʌnˈtɪl/",
+        "ipaUS": "/weɪt ʌnˈtɪl/",
+        "meaning": "chờ đến khi",
+        "exampleEn": "Major website edits will have to wait until Monday morning.",
+        "exampleVi": "Các chỉnh sửa web lớn sẽ phải chờ đến sáng thứ Hai."
+      }
+    ]
+  }
+]

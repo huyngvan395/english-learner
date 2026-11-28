@@ -13,6 +13,7 @@ import { MasteryStatus, VocabWord } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { AccentType, playWordAudio, speakText } from '../../utils/speech';
 import { QuickNoteBox } from '../../components/QuickNoteBox';
+import { VocabExtensionBlock } from '../../components/VocabExtensionBlock';
 
 interface FlashcardModeProps {
   words: VocabWord[];
@@ -318,71 +319,16 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
               ))}
             </div>
 
-            {/* Word Family / Synonyms / Collocations */}
-            <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs">
-              <div className="rounded-xl bg-slate-900/70 border border-slate-800 p-3">
-                <p className="font-bold uppercase text-[10px] tracking-wider text-indigo-400 mb-1.5">
-                  Word Family
-                </p>
-                {current.wordFamily.length > 0 ? (
-                  <ul className="space-y-1 text-slate-300">
-                    {current.wordFamily.map((wf, i) => (
-                      <li key={i}>
-                        <span className="font-semibold text-white">{wf.word}</span>{' '}
-                        <span className="text-indigo-300">({wf.pos})</span>: {wf.meaning}
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="text-slate-500">Cụm từ / danh từ cố định</p>
-                )}
-              </div>
-
-              <div className="rounded-xl bg-slate-900/70 border border-slate-800 p-3">
-                <p className="font-bold uppercase text-[10px] tracking-wider text-cyan-400 mb-1.5">
-                  Đồng nghĩa / Trái nghĩa
-                </p>
-                <div className="space-y-1.5">
-                  {current.synonyms.length > 0 && (
-                    <div className="flex flex-wrap gap-1">
-                      <span className="text-[10px] text-emerald-400 font-bold mr-1">SYN:</span>
-                      {current.synonyms.map((s) => (
-                        <span key={s} className="rounded bg-emerald-500/15 px-1.5 py-0.5 text-emerald-200">
-                          {s}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  {current.antonyms.length > 0 && (
-                    <div className="flex flex-wrap gap-1">
-                      <span className="text-[10px] text-rose-400 font-bold mr-1">ANT:</span>
-                      {current.antonyms.map((a) => (
-                        <span key={a} className="rounded bg-rose-500/15 px-1.5 py-0.5 text-rose-200">
-                          {a}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              <div className="rounded-xl bg-slate-900/70 border border-slate-800 p-3">
-                <p className="font-bold uppercase text-[10px] tracking-wider text-violet-400 mb-1.5">
-                  Collocations TOEIC
-                </p>
-                {current.collocations.length > 0 ? (
-                  <ul className="space-y-1 text-slate-300">
-                    {current.collocations.map((c, i) => (
-                      <li key={i}>
-                        <span className="font-semibold text-violet-200">{c.phrase}</span>
-                        <span className="text-slate-400"> — {c.meaning}</span>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="text-slate-500">Ghi nhớ trực tiếp theo ngữ cảnh câu.</p>
-                )}
-              </div>
+            {/* Word Family / Synonyms / Antonyms / Collocations */}
+            <div className="mt-4">
+              <VocabExtensionBlock
+                synonyms={current.synonyms}
+                antonyms={current.antonyms}
+                wordFamily={current.wordFamily}
+                collocations={current.collocations}
+                defaultOpen
+                compact
+              />
             </div>
           </div>
         </div>
