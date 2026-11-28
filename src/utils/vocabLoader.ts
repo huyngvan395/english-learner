@@ -1,10 +1,24 @@
-import { SearchIndexEntry, VocabDeck, VocabWord } from '../types';
+import { SearchIndexEntry, VocabDeck, VocabWord, WordPOS } from '../types';
+
+export interface RelationDetailEntry {
+  pos: WordPOS;
+  ipaUs: string;
+  ipaUk: string;
+  meaningVi: string;
+  definitionEn: string;
+  definitionVi: string;
+  exampleEn: string;
+  exampleVi: string;
+}
 
 const deckCache = new Map<string, VocabDeck>();
 const inFlightDecks = new Map<string, Promise<VocabDeck>>();
 
 let searchIndexCache: SearchIndexEntry[] | null = null;
 let searchIndexPromise: Promise<SearchIndexEntry[]> | null = null;
+
+let relationDetailsCache: Record<string, RelationDetailEntry> | null = null;
+let relationDetailsPromise: Promise<Record<string, RelationDetailEntry>> | null = null;
 
 /**
  * Lazy-load a single deck's full JSON from /data/vocab/<deckId>.json
@@ -83,4 +97,40 @@ export async function loadVocabSearchIndex(): Promise<SearchIndexEntry[]> {
 export async function loadFullWord(deckId: string, wordId: string): Promise<VocabWord | null> {
   const deck = await loadVocabDeck(deckId);
   return deck.words.find((w) => w.id === wordId) || null;
+}
+
+/**
+ * Lazy-load /data/vocab/relation-details.json once and cache it in RAM.
+ * Powers 0ms full details (IPA US/UK, EN/VI definition, bilingual example) for
+ * 100% of SYN / ANT / Word Family terms outside the 16 main decks.
+ */
+export async function loadRelationDetails(): Promise<Record<string, RelationDetailEntry>> {
+  if (relationDetailsCache) return relationDetailsCache;
+  if (relationDetailsPromise) return relationDetailsPromise;
+
+  relationDetailsPromise = fetch('/data/vocab/relation-details.json')
+    .then(async (res) => {
+      if (!res.ok) return {};
+      const data = (await res.json()) as Record<string, RelationDetailEntry>;
+      relationDetailsCache = data || {};
+      return relationDetailsCache;
+    })
+    .catch(() => {
+      relationDetailsPromise = null;
+      return {};
+    });
+
+  return relationDetailsPromise;
+}
+
+export function getCachedRelationDetail(word: string): RelationDetailEntry | null {
+  if (!relationDetailsCache) return null;
+  return relationDetailsCache[word.trim().toLowerCase()] || null;
+}
+
+export async function lookupRelationDetail(word: string): Promise<RelationDetailEntry | null> {
+  const key = word.trim().toLowerCase();
+  if (!key) return null;
+  const map = await loadRelationDetails();
+  return map[key] || null;
 }

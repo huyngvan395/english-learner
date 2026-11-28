@@ -5,20 +5,28 @@ import {
   BookOpen,
   Check,
   Loader2,
+  Sparkles,
   Star,
   Volume2,
   X,
 } from 'lucide-react';
 import { SearchIndexEntry, VocabExample, VocabWord } from '../types';
 import { useApp } from '../context/AppContext';
-import { loadFullWord } from '../utils/vocabLoader';
+import {
+  getCachedRelationDetail,
+  loadFullWord,
+  lookupRelationDetail,
+  RelationDetailEntry,
+} from '../utils/vocabLoader';
 import { playWordAudio, speakText } from '../utils/speech';
 import {
   fetchOnlineDictDetails,
+  generateAiBilingualExample,
   getCachedOnlineDictDetails,
   normalizeWordPos,
   OnlineDictDetails,
 } from '../utils/onlineDictLookup';
+import { getEffectiveGeminiKey } from '../utils/geminiWritingService';
 
 const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved', 'vocab-saved']);
 
@@ -68,10 +76,14 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
 }) => {
   const { searchIndex, customWords, saveRelatedVocab, isVocabTextSaved } = useApp();
   const [fullWord, setFullWord] = useState<VocabWord | null>(null);
+  const [relationDetail, setRelationDetail] = useState<RelationDetailEntry | null>(null);
   const [onlineDetails, setOnlineDetails] = useState<OnlineDictDetails | null>(null);
+  const [aiExample, setAiExample] = useState<{ en: string; vi: string } | null>(null);
+  const [aiGenerating, setAiGenerating] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // Best-matching entry in our 16 standard decks (prefer exact (word, pos) match first, skip sparse custom entries)
+  // Layer 1: Best-matching entry in our 16 standard decks (prefer exact (word, pos) match, skip sparse custom entries)
   const matchedEntry: SearchIndexEntry | null = useMemo(() => {
     if (!target) return null;
     const key = target.word.trim().toLowerCase();
@@ -101,33 +113,65 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
     return () => window.removeEventListener('keydown', onKeyDown, true);
   }, [target, onClose]);
 
-  // Lazy-load full VocabWord from parent deck JSON, and auto-hydrate any missing IPA/definition/example online
+  // 3-Layer Hydration:
+  // Layer 1: Full card from 16 main decks -> Layer 2: /data/vocab/relation-details.json -> Layer 3: dictionaryapi.dev + VI
   useEffect(() => {
     if (!target) {
       setFullWord(null);
+      setRelationDetail(null);
       setOnlineDetails(null);
+      setAiExample(null);
+      setAiError(null);
       setLoading(false);
       return;
     }
 
     const key = target.word.trim().toLowerCase();
     const customMatch = customWords.find((w) => w.word.toLowerCase() === key) || null;
+    const cachedRel = getCachedRelationDetail(target.word);
     const cachedOnline = getCachedOnlineDictDetails(target.word, target.pos);
     let cancelled = false;
 
-    const needsOnlineHydration = (w: VocabWord | null): boolean => {
-      if (!w) return true;
-      const hasIpa = Boolean(w.ipaUS && w.ipaUS.trim() && w.ipaUS.trim() !== '/.../');
-      const hasDef = Boolean(w.definitionEn && w.definitionEn.trim());
-      const hasEx = Boolean(w.examples && w.examples.length > 0 && w.examples[0]?.en?.trim());
-      return !hasIpa || !hasDef || !hasEx;
+    setAiExample(null);
+    setAiError(null);
+    setRelationDetail(cachedRel);
+    setOnlineDetails(cachedOnline);
+
+    const hasCompleteCore = (
+      fw: VocabWord | null,
+      rel: RelationDetailEntry | null
+    ): boolean => {
+      const hasIpa = Boolean(
+        (fw?.ipaUS && fw.ipaUS.trim() && fw.ipaUS.trim() !== '/.../') ||
+          (rel?.ipaUs && rel.ipaUs.trim())
+      );
+      const hasDef = Boolean(fw?.definitionEn?.trim() || rel?.definitionEn?.trim());
+      const hasEx = Boolean(fw?.examples?.[0]?.en?.trim() || rel?.exampleEn?.trim());
+      return hasIpa && hasDef && hasEx;
     };
 
-    const hydrateOnlineIfNeeded = async (baseWord: VocabWord | null) => {
-      if (!needsOnlineHydration(baseWord)) {
+    const hydrateLayers2And3 = async (baseWord: VocabWord | null) => {
+      if (hasCompleteCore(baseWord, cachedRel)) {
         if (!cancelled) setLoading(false);
         return;
       }
+
+      // Layer 2: Lazy-load /data/vocab/relation-details.json (RAM-cached after 1st load -> 0ms!)
+      let resolvedRel = cachedRel;
+      if (!resolvedRel) {
+        resolvedRel = await lookupRelationDetail(target.word);
+        if (cancelled) return;
+        if (resolvedRel) {
+          setRelationDetail(resolvedRel);
+        }
+      }
+
+      if (hasCompleteCore(baseWord, resolvedRel)) {
+        if (!cancelled) setLoading(false);
+        return;
+      }
+
+      // Layer 3: Online fallback (dictionaryapi.dev + fast Vietnamese gloss)
       if (cachedOnline) {
         if (!cancelled) {
           setOnlineDetails(cachedOnline);
@@ -135,8 +179,12 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
         }
         return;
       }
+
       try {
-        const fetched = await fetchOnlineDictDetails(target.word, target.pos || baseWord?.pos);
+        const fetched = await fetchOnlineDictDetails(
+          target.word,
+          target.pos || resolvedRel?.pos || baseWord?.pos
+        );
         if (!cancelled) setOnlineDetails(fetched);
       } catch {
         // Graceful fallback
@@ -145,12 +193,11 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
       }
     };
 
-    setOnlineDetails(cachedOnline);
-
     if (!matchedEntry) {
       setFullWord(customMatch);
-      setLoading(!cachedOnline && needsOnlineHydration(customMatch));
-      void hydrateOnlineIfNeeded(customMatch);
+      const alreadyReady = hasCompleteCore(customMatch, cachedRel);
+      setLoading(!alreadyReady);
+      void hydrateLayers2And3(customMatch);
       return () => {
         cancelled = true;
       };
@@ -163,12 +210,12 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
         if (cancelled) return;
         const resolved = word || customMatch;
         setFullWord(resolved);
-        return hydrateOnlineIfNeeded(resolved);
+        return hydrateLayers2And3(resolved);
       })
       .catch(() => {
         if (cancelled) return;
         setFullWord(customMatch);
-        return hydrateOnlineIfNeeded(customMatch);
+        return hydrateLayers2And3(customMatch);
       });
 
     return () => {
@@ -182,39 +229,79 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
   const displayPos =
     fullWord?.pos ||
     matchedEntry?.partOfSpeech ||
+    relationDetail?.pos ||
     (target.pos ? normalizeWordPos(target.pos) : undefined) ||
     onlineDetails?.pos ||
     'n';
   const displayIpaUS =
     (fullWord?.ipaUS && fullWord.ipaUS !== '/.../' ? fullWord.ipaUS : '') ||
     (matchedEntry?.ipaUS && matchedEntry.ipaUS !== '/.../' ? matchedEntry.ipaUS : '') ||
+    relationDetail?.ipaUs ||
     onlineDetails?.ipaUS ||
     '';
   const displayIpaUK =
     (fullWord?.ipaUK && fullWord.ipaUK !== '/.../' ? fullWord.ipaUK : '') ||
+    relationDetail?.ipaUk ||
     onlineDetails?.ipaUK ||
     '';
 
   const rawMeaning =
     fullWord?.meaning ||
     matchedEntry?.meaningVi ||
+    relationDetail?.meaningVi ||
     target.fallbackMeaning ||
     onlineDetails?.meaningVi ||
     'Từ vựng mở rộng TOEIC';
   const displayMeaning = rawMeaning.replace(/^\[[^\]]+\]\s*/, '').trim();
 
-  const mergedDefEn = fullWord?.definitionEn?.trim() || onlineDetails?.definitionEn || '';
-  const mergedDefVi = fullWord?.definitionVi?.trim() || onlineDetails?.definitionVi || '';
+  const mergedDefEn =
+    fullWord?.definitionEn?.trim() ||
+    relationDetail?.definitionEn?.trim() ||
+    onlineDetails?.definitionEn ||
+    '';
+  const mergedDefVi =
+    fullWord?.definitionVi?.trim() ||
+    relationDetail?.definitionVi?.trim() ||
+    onlineDetails?.definitionVi ||
+    '';
 
   const mergedExamples: VocabExample[] =
     fullWord && fullWord.examples.length > 0 && fullWord.examples[0]?.en?.trim()
       ? fullWord.examples
+      : relationDetail?.exampleEn?.trim()
+      ? [{ en: relationDetail.exampleEn, vi: relationDetail.exampleVi || '' }]
       : onlineDetails?.exampleEn
       ? [{ en: onlineDetails.exampleEn, vi: onlineDetails.exampleVi || '' }]
+      : aiExample
+      ? [aiExample]
       : [];
 
   const audioUrlUS = fullWord?.audioUrlUS || onlineDetails?.audioUrlUS;
   const audioUrlUK = fullWord?.audioUrlUK || onlineDetails?.audioUrlUK || audioUrlUS;
+  const hasGeminiKey = Boolean(getEffectiveGeminiKey().key);
+
+  const handleGenerateAiExample = async () => {
+    if (aiGenerating) return;
+    setAiGenerating(true);
+    setAiError(null);
+    try {
+      const res = await generateAiBilingualExample({
+        word: displayWord,
+        pos: displayPos,
+        meaningVi: displayMeaning,
+        definitionEn: mergedDefEn,
+      });
+      if (res) {
+        setAiExample(res);
+      } else {
+        setAiError('Không tạo được ví dụ lúc này. Hãy thử lại sau.');
+      }
+    } catch (err) {
+      setAiError(err instanceof Error ? err.message : 'Lỗi kết nối Gemini AI.');
+    } finally {
+      setAiGenerating(false);
+    }
+  };
 
   // Safety net: never render duplicate English line if definitionVi === definitionEn or ex.vi === ex.en
   const normCmp = (s?: string) => (s || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase();
@@ -267,12 +354,17 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
               <span className="rounded-md border border-slate-200 dark:border-indigo-400/30 bg-white dark:bg-indigo-500/15 px-2 py-0.5 text-[10px] font-bold text-slate-700 dark:text-indigo-200">
                 {POS_VI_LABEL[displayPos] || displayPos}
               </span>
-              {matchedEntry && (
+              {matchedEntry ? (
                 <span className="inline-flex items-center gap-1 rounded-md border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold text-emerald-700 dark:text-emerald-300">
                   <BookOpen className="h-3 w-3" />
-                  Trong kho 10.996 từ
+                  Trong kho từ vựng chính
                 </span>
-              )}
+              ) : relationDetail ? (
+                <span className="inline-flex items-center gap-1 rounded-md border border-sky-200 dark:border-sky-500/30 bg-sky-50 dark:bg-sky-500/15 px-2 py-0.5 text-[10px] font-bold text-sky-700 dark:text-sky-300">
+                  <BookOpen className="h-3 w-3" />
+                  Kho từ mở rộng
+                </span>
+              ) : null}
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white break-words">
@@ -364,7 +456,7 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
           ) : (
             <>
               {/* Bilingual Examples */}
-              {mergedExamples.length > 0 && (
+              {mergedExamples.length > 0 ? (
                 <div className="space-y-2">
                   <p className="text-[11px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                     Ví dụ song ngữ
@@ -395,7 +487,32 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
                     </div>
                   ))}
                 </div>
-              )}
+              ) : hasGeminiKey ? (
+                <div className="rounded-xl border border-dashed border-indigo-300 dark:border-indigo-500/35 bg-indigo-50/40 dark:bg-indigo-950/20 p-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+                  <p className="text-xs text-slate-600 dark:text-slate-300">
+                    Từ này chưa có câu ví dụ từ từ điển trực tuyến.
+                  </p>
+                  <button
+                    type="button"
+                    disabled={aiGenerating}
+                    onClick={handleGenerateAiExample}
+                    className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:brightness-110 disabled:opacity-50 px-3 py-1.5 text-xs font-bold text-white shadow-sm shrink-0 transition"
+                  >
+                    {aiGenerating ? (
+                      <>
+                        <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                        Đang tạo...
+                      </>
+                    ) : (
+                      <>
+                        <Sparkles className="h-3.5 w-3.5" />
+                        Tạo ví dụ nhanh bằng AI
+                      </>
+                    )}
+                  </button>
+                  {aiError && <p className="text-[11px] text-rose-600 dark:text-rose-300">{aiError}</p>}
+                </div>
+              ) : null}
 
               {/* Related Terms (compact clickable chips inside modal) */}
               {fullWord &&

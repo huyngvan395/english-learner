@@ -6,20 +6,28 @@ import {
   ExternalLink,
   Globe,
   Loader2,
+  Sparkles,
   Star,
   Volume2,
   X,
 } from 'lucide-react';
 import { SearchIndexEntry, VocabWord, WordPOS } from '../types';
 import { useApp } from '../context/AppContext';
-import { loadFullWord } from '../utils/vocabLoader';
+import {
+  getCachedRelationDetail,
+  loadFullWord,
+  lookupRelationDetail,
+  RelationDetailEntry,
+} from '../utils/vocabLoader';
 import { buildLemmaCandidates } from '../utils/lemmatizer';
 import { playWordAudio, speakText } from '../utils/speech';
 import {
   fetchOnlineDictDetails,
+  generateAiBilingualExample,
   getCachedOnlineDictDetails,
   OnlineDictDetails,
 } from '../utils/onlineDictLookup';
+import { getEffectiveGeminiKey } from '../utils/geminiWritingService';
 import { QuickWordTarget, VocabQuickDetailModal } from './VocabQuickDetailModal';
 
 const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved', 'vocab-saved']);
@@ -33,11 +41,13 @@ interface LookupState {
     right: number;
     width: number;
   };
-  source: 'internal' | 'online';
+  source: 'internal' | 'relation' | 'online';
   loading: boolean;
   matchedEntry: SearchIndexEntry | null;
   fullWord: VocabWord | null;
+  relationDetail: RelationDetailEntry | null;
   onlineData: OnlineDictDetails | null;
+  aiExample: { en: string; vi: string } | null;
 }
 
 const VI_CHAR_RE =
@@ -91,6 +101,7 @@ function isEditableOrIgnoredTarget(node: Node | null): boolean {
 export const TextSelectionLookup: React.FC = () => {
   const { searchIndex, customWords, saveRelatedVocab, isVocabTextSaved } = useApp();
   const [lookup, setLookup] = useState<LookupState | null>(null);
+  const [aiGenerating, setAiGenerating] = useState(false);
   const [fullModalTarget, setFullModalTarget] = useState<QuickWordTarget | null>(null);
   const [isMobileViewport, setIsMobileViewport] = useState(
     () => typeof window !== 'undefined' && window.innerWidth < 640
@@ -201,7 +212,9 @@ export const TextSelectionLookup: React.FC = () => {
             loading: true,
             matchedEntry,
             fullWord: null,
+            relationDetail: null,
             onlineData: cachedOnline,
+            aiExample: null,
           });
 
           loadFullWord(matchedEntry.deckId, matchedEntry.id)
@@ -226,28 +239,73 @@ export const TextSelectionLookup: React.FC = () => {
           return;
         }
 
-        // TIER 2: Online fallback (dictionaryapi.dev + fast Vietnamese gloss, cached in RAM)
+        // TIER 2: Lazy-loaded relation-details.json (0ms once cached) -> TIER 3: Online fallback
         const customMatch =
           customWords.find((w) => candidates.includes(w.word.toLowerCase())) || null;
+
+        let cachedRel: RelationDetailEntry | null = null;
+        for (const cand of candidates) {
+          const hit = getCachedRelationDetail(cand);
+          if (hit) {
+            cachedRel = hit;
+            break;
+          }
+        }
+
+        if (cachedRel) {
+          setLookup({
+            selectedRaw: cleaned,
+            anchorRect,
+            source: 'relation',
+            loading: false,
+            matchedEntry: null,
+            fullWord: customMatch,
+            relationDetail: cachedRel,
+            onlineData: null,
+            aiExample: null,
+          });
+          return;
+        }
+
         const cachedOnline = getCachedOnlineDictDetails(cleaned);
         setLookup({
           selectedRaw: cleaned,
           anchorRect,
           source: 'online',
-          loading: !cachedOnline,
+          loading: true,
           matchedEntry: null,
           fullWord: customMatch,
+          relationDetail: null,
           onlineData: cachedOnline,
+          aiExample: null,
         });
 
-        if (!cachedOnline) {
-          fetchOnlineDictDetails(cleaned, customMatch?.pos).then((data) => {
+        (async () => {
+          // Try Layer 2 relation-details.json first
+          for (const cand of candidates) {
+            const relHit = await lookupRelationDetail(cand);
             if (requestIdRef.current !== reqId) return;
-            setLookup((prev) =>
-              prev ? { ...prev, onlineData: data, loading: false } : prev
-            );
-          });
-        }
+            if (relHit) {
+              setLookup((prev) =>
+                prev
+                  ? { ...prev, source: 'relation', relationDetail: relHit, loading: false }
+                  : prev
+              );
+              return;
+            }
+          }
+
+          // Layer 3: Online dictionaryapi.dev + Vietnamese translation
+          if (cachedOnline) {
+            setLookup((prev) => (prev ? { ...prev, onlineData: cachedOnline, loading: false } : prev));
+            return;
+          }
+          const data = await fetchOnlineDictDetails(cleaned, customMatch?.pos);
+          if (requestIdRef.current !== reqId) return;
+          setLookup((prev) =>
+            prev ? { ...prev, onlineData: data, loading: false } : prev
+          );
+        })();
       }, 110);
     };
 
@@ -277,6 +335,7 @@ export const TextSelectionLookup: React.FC = () => {
   const displayPos: WordPOS =
     lookup?.fullWord?.pos ||
     lookup?.matchedEntry?.partOfSpeech ||
+    lookup?.relationDetail?.pos ||
     lookup?.onlineData?.pos ||
     (displayWord.includes(' ') ? 'phrase' : 'n');
 
@@ -285,32 +344,73 @@ export const TextSelectionLookup: React.FC = () => {
     (lookup?.matchedEntry?.ipaUS && lookup.matchedEntry.ipaUS !== '/.../'
       ? lookup.matchedEntry.ipaUS
       : '') ||
+    lookup?.relationDetail?.ipaUs ||
     lookup?.onlineData?.ipaUS ||
     '';
 
   const displayIpaUK =
     (lookup?.fullWord?.ipaUK && lookup.fullWord.ipaUK !== '/.../' ? lookup.fullWord.ipaUK : '') ||
+    lookup?.relationDetail?.ipaUk ||
     lookup?.onlineData?.ipaUK ||
     '';
 
   const rawMeaning =
     lookup?.fullWord?.meaning ||
     lookup?.matchedEntry?.meaningVi ||
+    lookup?.relationDetail?.meaningVi ||
     lookup?.onlineData?.meaningVi ||
     '';
   const displayMeaning = rawMeaning.replace(/^\[[^\]]+\]\s*/, '').trim();
 
   const normCmp = (s?: string) => (s || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase();
-  const displayDefEn = lookup?.fullWord?.definitionEn?.trim() || lookup?.onlineData?.definitionEn || '';
-  const rawDefVi = lookup?.fullWord?.definitionVi?.trim() || lookup?.onlineData?.definitionVi || '';
+  const displayDefEn =
+    lookup?.fullWord?.definitionEn?.trim() ||
+    lookup?.relationDetail?.definitionEn?.trim() ||
+    lookup?.onlineData?.definitionEn ||
+    '';
+  const rawDefVi =
+    lookup?.fullWord?.definitionVi?.trim() ||
+    lookup?.relationDetail?.definitionVi?.trim() ||
+    lookup?.onlineData?.definitionVi ||
+    '';
   const displayDefVi = rawDefVi && normCmp(rawDefVi) !== normCmp(displayDefEn) ? rawDefVi : '';
 
   const displayExampleEn =
-    lookup?.fullWord?.examples?.[0]?.en?.trim() || lookup?.onlineData?.exampleEn || '';
+    lookup?.fullWord?.examples?.[0]?.en?.trim() ||
+    lookup?.relationDetail?.exampleEn?.trim() ||
+    lookup?.onlineData?.exampleEn ||
+    lookup?.aiExample?.en ||
+    '';
   const rawExampleVi =
-    lookup?.fullWord?.examples?.[0]?.vi?.trim() || lookup?.onlineData?.exampleVi || '';
+    lookup?.fullWord?.examples?.[0]?.vi?.trim() ||
+    lookup?.relationDetail?.exampleVi?.trim() ||
+    lookup?.onlineData?.exampleVi ||
+    lookup?.aiExample?.vi ||
+    '';
   const displayExampleVi =
     rawExampleVi && normCmp(rawExampleVi) !== normCmp(displayExampleEn) ? rawExampleVi : '';
+
+  const hasGeminiKey = Boolean(getEffectiveGeminiKey().key);
+
+  const handleGenerateAiExample = async () => {
+    if (!lookup || aiGenerating) return;
+    setAiGenerating(true);
+    try {
+      const res = await generateAiBilingualExample({
+        word: displayWord,
+        pos: displayPos,
+        meaningVi: displayMeaning,
+        definitionEn: displayDefEn,
+      });
+      if (res) {
+        setLookup((prev) => (prev ? { ...prev, aiExample: res } : prev));
+      }
+    } catch {
+      // Ignore error gracefully
+    } finally {
+      setAiGenerating(false);
+    }
+  };
 
   const audioUrlUS = lookup?.fullWord?.audioUrlUS || lookup?.onlineData?.audioUrlUS;
   const audioUrlUK =
@@ -428,7 +528,12 @@ export const TextSelectionLookup: React.FC = () => {
             {lookup.source === 'internal' ? (
               <span className="inline-flex items-center gap-1 rounded-md border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/15 px-1.5 py-0.5 text-[10px] font-bold text-emerald-700 dark:text-emerald-300">
                 <BookOpen className="h-2.5 w-2.5" />
-                Kho 10.996 từ
+                Kho từ chính
+              </span>
+            ) : lookup.source === 'relation' ? (
+              <span className="inline-flex items-center gap-1 rounded-md border border-sky-200 dark:border-sky-500/30 bg-sky-50 dark:bg-sky-500/15 px-1.5 py-0.5 text-[10px] font-bold text-sky-700 dark:text-sky-300">
+                <BookOpen className="h-2.5 w-2.5" />
+                Kho từ mở rộng
               </span>
             ) : (
               <span className="inline-flex items-center gap-1 rounded-md border border-cyan-200 dark:border-cyan-500/30 bg-cyan-50 dark:bg-cyan-500/15 px-1.5 py-0.5 text-[10px] font-bold text-cyan-700 dark:text-cyan-300">
@@ -523,7 +628,7 @@ export const TextSelectionLookup: React.FC = () => {
               )}
             </div>
 
-            {displayExampleEn && (
+            {displayExampleEn ? (
               <div className="rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/70 px-3 py-2 space-y-0.5">
                 <div className="flex items-start justify-between gap-2">
                   <p className="text-xs font-medium text-slate-800 dark:text-slate-100 leading-relaxed">
@@ -544,7 +649,26 @@ export const TextSelectionLookup: React.FC = () => {
                   </p>
                 )}
               </div>
-            )}
+            ) : !lookup.loading && hasGeminiKey ? (
+              <button
+                type="button"
+                disabled={aiGenerating}
+                onClick={handleGenerateAiExample}
+                className="inline-flex w-full items-center justify-center gap-1.5 rounded-xl border border-indigo-200 dark:border-indigo-500/35 bg-indigo-50 dark:bg-indigo-500/15 hover:bg-indigo-100 dark:hover:bg-indigo-500/25 px-3 py-1.5 text-[11px] font-bold text-indigo-700 dark:text-indigo-200 transition disabled:opacity-50"
+              >
+                {aiGenerating ? (
+                  <>
+                    <Loader2 className="h-3 w-3 animate-spin" />
+                    Đang tạo ví dụ AI...
+                  </>
+                ) : (
+                  <>
+                    <Sparkles className="h-3 w-3" />
+                    Tạo ví dụ nhanh bằng AI
+                  </>
+                )}
+              </button>
+            ) : null}
           </>
         )}
       </div>

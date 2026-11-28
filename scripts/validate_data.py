@@ -34,7 +34,10 @@ def validate_vocab():
     check(search_idx_path.exists(), f"Missing search-index.json at {search_idx_path}")
     search_rows = json.loads(search_idx_path.read_text(encoding="utf-8"))
 
-    deck_files = sorted(f for f in vdir.glob("*.json") if f.name not in ("index.json", "search-index.json"))
+    deck_files = sorted(
+        f for f in vdir.glob("*.json")
+        if f.name not in ("index.json", "search-index.json", "relation-details.json")
+    )
     check(len(deck_files) == 16, f"Expected 16 deck JSON files (incl. 6 Oxford CEFR), found {len(deck_files)}")
 
     total = 0
@@ -58,6 +61,16 @@ def validate_vocab():
             check(bool(re.search(pattern, w["examples"][0]["en"])), f"Word {w['id']} ('{w['word']}') not matched verbatim in exampleEn: {w['examples'][0]['en']}")
 
     check(len(search_rows) == total, f"search-index.json count ({len(search_rows)}) != total vocab words ({total})")
+
+    rel_path = vdir / "relation-details.json"
+    if rel_path.exists():
+        rel_map = json.loads(rel_path.read_text(encoding="utf-8"))
+        check(isinstance(rel_map, dict) and len(rel_map) > 0, "relation-details.json is empty or invalid")
+        for rkey, rval in rel_map.items():
+            for fk in ["pos", "ipaUs", "ipaUk", "meaningVi", "definitionEn", "definitionVi", "exampleEn", "exampleVi"]:
+                check(bool(rval.get(fk)), f"relation-details '{rkey}' missing {fk}")
+        print(f"[Relation Details Audit] Verified {len(rel_map)} external SYN/ANT/WordFamily entries (100% 7-field coverage).")
+
     print(f"[Vocab Audit] Checked {len(deck_files)} lazy-loaded decks in public/data/vocab/, {total} words, and search-index.json.")
 
 

@@ -1,4 +1,5 @@
 import { WordPOS } from '../types';
+import { getEffectiveGeminiKey, getSavedGeminiModel } from './geminiWritingService';
 
 export interface OnlineDictDetails {
   word: string;
@@ -230,4 +231,63 @@ export async function fetchOnlineDictDetails(
   } finally {
     inFlightRequests.delete(cacheKey);
   }
+}
+
+/**
+ * Optional Layer-3 helper: when an arbitrary highlighted word outside both local banks
+ * has no example from dictionaryapi.dev and the user has configured a Gemini API key,
+ * generate a crisp, natural TOEIC/everyday bilingual example on demand.
+ */
+export async function generateAiBilingualExample(params: {
+  word: string;
+  pos?: string;
+  meaningVi?: string;
+  definitionEn?: string;
+}): Promise<{ en: string; vi: string } | null> {
+  const { key } = getEffectiveGeminiKey();
+  if (!key) return null;
+
+  const model = getSavedGeminiModel();
+  const prompt = [
+    `Create ONE concise, natural, practical English sentence (10-18 words, workplace or everyday TOEIC style) using the exact word/phrase "${params.word}" (${params.pos || 'n'}).`,
+    params.meaningVi ? `Vietnamese meaning context: ${params.meaningVi}.` : '',
+    params.definitionEn ? `English definition: ${params.definitionEn}.` : '',
+    'Return ONLY valid JSON with exact keys: {"en": "...", "vi": "..."} where "vi" is a natural Vietnamese translation.',
+  ]
+    .filter(Boolean)
+    .join('\n');
+
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(
+    model
+  )}:generateContent?key=${encodeURIComponent(key)}`;
+
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: 0.4,
+        responseMimeType: 'application/json',
+      },
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`Gemini API lỗi HTTP ${res.status}`);
+  }
+
+  const data = await res.json();
+  const rawText: string =
+    data?.candidates?.[0]?.content?.parts
+      ?.map((p: { text?: string }) => p.text || '')
+      .join('')
+      .trim() || '';
+
+  const cleaned = rawText.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim();
+  const parsed = JSON.parse(cleaned) as { en?: string; vi?: string };
+  if (parsed?.en?.trim() && parsed?.vi?.trim()) {
+    return { en: parsed.en.trim(), vi: parsed.vi.trim() };
+  }
+  return null;
 }
