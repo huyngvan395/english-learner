@@ -6,6 +6,8 @@ import {
   RotateCcw,
   SkipBack,
   SkipForward,
+  Volume2,
+  VolumeX,
 } from 'lucide-react';
 import { formatVideoDuration } from '../../utils/videoLoader';
 
@@ -46,6 +48,9 @@ interface YTPlayerInstance {
   getCurrentTime: () => number;
   getDuration: () => number;
   getPlayerState: () => number;
+  setVolume: (volume: number) => void;
+  mute: () => void;
+  unMute: () => void;
   loadVideoById: (videoId: string, startSeconds?: number) => void;
   destroy: () => void;
 }
@@ -132,6 +137,8 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
     const [currentTime, setCurrentTime] = useState(0);
     const [totalDuration, setTotalDuration] = useState(durationSec);
     const [rate, setRate] = useState(1);
+    const [volume, setVolume] = useState(100);
+    const [muted, setMuted] = useState(false);
 
     // Keep latest props accessible inside polling loop without re-creating player
     const configRef = useRef({
@@ -182,11 +189,14 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
           width: '100%',
           height: '100%',
           playerVars: {
-            playsinline: 1,
-            rel: 0,
-            modestbranding: 1,
-            cc_load_policy: 0,
+            controls: 0,
+            disablekb: 1,
+            fs: 0,
             iv_load_policy: 3,
+            modestbranding: 1,
+            rel: 0,
+            cc_load_policy: 0,
+            playsinline: 1,
             origin: window.location.origin,
           },
           events: {
@@ -232,6 +242,21 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
         }
       }
     }, [rate, playerReady]);
+
+    // Apply volume / mute smoothly
+    useEffect(() => {
+      if (!playerReady || !playerRef.current) return;
+      try {
+        if (muted || volume === 0) {
+          playerRef.current.mute?.();
+        } else {
+          playerRef.current.unMute?.();
+          playerRef.current.setVolume?.(volume);
+        }
+      } catch {
+        // Ignore
+      }
+    }, [volume, muted, playerReady]);
 
     // High-resolution playback polling (~90ms) for accurate sentence end-stop & loop
     useEffect(() => {
@@ -418,11 +443,38 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
 
     return (
       <div className="rounded-2xl sm:rounded-3xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-[#111827] shadow-card overflow-hidden">
-        {/* 16:9 Responsive YouTube IFrame Embed */}
-        <div className="relative w-full aspect-video bg-slate-950 overflow-hidden">
-          <div ref={mountRef} className="absolute inset-0 w-full h-full [&>iframe]:w-full [&>iframe]:h-full" />
-          {!playerReady && (
-            <div className="absolute inset-0 flex items-center justify-center bg-slate-950/80 text-xs font-semibold text-slate-300">
+        {/* 16:9 Responsive YouTube IFrame Embed (Pointer-locked + Custom Play/Pause Overlay) */}
+        <div className="relative w-full aspect-video bg-slate-950 overflow-hidden select-none">
+          <div
+            ref={mountRef}
+            className="absolute inset-0 w-full h-full pointer-events-none [&>iframe]:w-full [&>iframe]:h-full [&>iframe]:pointer-events-none"
+          />
+
+          {/* Transparent interaction shield: blocks accidental clicks on CC, settings, title, "More videos", or YouTube logo */}
+          {playerReady ? (
+            <button
+              type="button"
+              onClick={handleTogglePlayClick}
+              aria-label={isPlaying ? 'Tạm dừng video' : 'Phát video'}
+              className={`absolute inset-0 z-10 w-full h-full cursor-pointer flex flex-col items-center justify-center transition-all duration-200 focus:outline-none ${
+                isPlaying
+                  ? 'bg-transparent'
+                  : 'bg-gradient-to-b from-slate-950/85 via-slate-950/25 to-slate-950/90 backdrop-blur-[1px]'
+              }`}
+            >
+              {!isPlaying && (
+                <div className="flex flex-col items-center gap-2">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-white shadow-glow ring-4 ring-white/20 hover:scale-105 active:scale-95 transition">
+                    <Play className="h-6 w-6 ml-0.5 fill-white" />
+                  </span>
+                  <span className="rounded-full bg-slate-950/75 border border-white/15 px-3 py-1 text-[11px] font-bold text-slate-100 backdrop-blur-sm">
+                    Bấm để phát câu hiện tại
+                  </span>
+                </div>
+              )}
+            </button>
+          ) : (
+            <div className="absolute inset-0 z-10 flex items-center justify-center bg-slate-950/85 text-xs font-semibold text-slate-300">
               Đang kết nối trình phát YouTube...
             </div>
           )}
@@ -508,22 +560,53 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
               </button>
             </div>
 
-            {/* Playback Rate Switcher */}
-            <div className="flex items-center rounded-xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-900 p-0.5">
-              {PLAYBACK_RATES.map((r) => (
+            {/* Volume + Playback Rate Switcher */}
+            <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-900 px-2 py-1">
                 <button
-                  key={r}
                   type="button"
-                  onClick={() => setRate(r)}
-                  className={`px-2 py-1.5 rounded-lg text-[11px] font-bold transition ${
-                    rate === r
-                      ? 'bg-indigo-600 text-white shadow-sm'
-                      : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
-                  }`}
+                  onClick={() => setMuted((m) => !m)}
+                  title={muted ? 'Bật âm thanh video' : 'Tắt tiếng video'}
+                  className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-cyan-300 transition"
                 >
-                  {r}x
+                  {muted || volume === 0 ? (
+                    <VolumeX className="h-3.5 w-3.5 text-rose-500" />
+                  ) : (
+                    <Volume2 className="h-3.5 w-3.5" />
+                  )}
                 </button>
-              ))}
+                <input
+                  type="range"
+                  min={0}
+                  max={100}
+                  step={5}
+                  value={muted ? 0 : volume}
+                  onChange={(e) => {
+                    const next = Number(e.target.value);
+                    setVolume(next);
+                    if (next > 0 && muted) setMuted(false);
+                  }}
+                  aria-label="Âm lượng video"
+                  className="hidden sm:block w-14 h-1 accent-indigo-600 dark:accent-indigo-400 cursor-pointer"
+                />
+              </div>
+
+              <div className="flex items-center rounded-xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-900 p-0.5">
+                {PLAYBACK_RATES.map((r) => (
+                  <button
+                    key={r}
+                    type="button"
+                    onClick={() => setRate(r)}
+                    className={`px-2 py-1.5 rounded-lg text-[11px] font-bold transition ${
+                      rate === r
+                        ? 'bg-indigo-600 text-white shadow-sm'
+                        : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                    }`}
+                  >
+                    {r}x
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 

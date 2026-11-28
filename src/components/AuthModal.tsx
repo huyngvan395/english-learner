@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import {
   AlertCircle,
   CheckCircle2,
-  Cloud,
   Eye,
   EyeOff,
   Loader2,
@@ -13,6 +12,7 @@ import {
   X,
 } from 'lucide-react';
 import { AuthModalTab, useAuth } from '../context/AuthContext';
+import { BrandLogo } from './BrandLogo';
 
 const GoogleIcon: React.FC<{ className?: string }> = ({ className = 'h-4 w-4' }) => (
   <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
@@ -171,13 +171,11 @@ export const AuthModal: React.FC = () => {
           </button>
 
           <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 via-indigo-600 to-violet-600 text-white shadow-glow">
-              <Cloud className="h-5 w-5" />
-            </div>
+            <BrandLogo className="h-11 w-11 shadow-glow rounded-[13px]" />
             <div>
-              <h3 className="text-lg font-extrabold text-white">Đồng bộ Cloud TOEIC</h3>
+              <h3 className="text-lg font-extrabold text-white">TOEIC Mastery Hub</h3>
               <p className="text-xs text-slate-400">
-                Lưu tiến độ SRS, điểm thi ETS &amp; lịch sử viết trên mọi thiết bị
+                Đồng bộ tiến độ SRS, Video, điểm thi ETS &amp; lịch sử viết trên mọi thiết bị
               </p>
             </div>
           </div>

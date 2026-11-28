@@ -11,6 +11,7 @@ import {
   HelpCircle,
   Keyboard,
   Languages,
+  Lightbulb,
   Loader2,
   Mic,
   MicOff,
@@ -24,7 +25,8 @@ import {
 import { VideoDetailItem, VideoPracticeMode, VideoSentence, WordPOS } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { formatVideoDuration, loadVideoDetail } from '../../utils/videoLoader';
-import { playCorrect, playKeyTick, playSuccess, playWrong } from '../../lib/soundEffects';
+import { playCorrect, playFlip, playKeyTick, playSuccess, playWrong } from '../../lib/soundEffects';
+import { QuickWordTarget, VocabQuickDetailModal } from '../../components/VocabQuickDetailModal';
 import { CEFR_BADGE_STYLES } from './VideoHub';
 import { YouTubePlayerBox, YouTubePlayerHandle } from './YouTubePlayerBox';
 
@@ -108,6 +110,12 @@ function evaluateShadowingSpeech(targetText: string, spokenText: string) {
   return { results, pct };
 }
 
+function cleanLookupWord(raw: string): string {
+  return raw
+    .replace(/^[“”"'(\[{]+|[“”"')\]}.,!?;:—–-]+$/g, '')
+    .trim();
+}
+
 function mapPos(raw?: string): WordPOS {
   if (raw === 'v' || raw === 'adj' || raw === 'adv' || raw === 'phrase') return raw;
   return 'n';
@@ -158,8 +166,10 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
   const [dictationInput, setDictationInput] = useState('');
   const [dictationRevealed, setDictationRevealed] = useState(false);
   const [dictationSubmitted, setDictationSubmitted] = useState(false);
+  const [revealedWordIndices, setRevealedWordIndices] = useState<number[]>([]);
   const [showDictationVi, setShowDictationVi] = useState(true);
   const [autoAdvance, setAutoAdvance] = useState(true);
+  const [quickWordTarget, setQuickWordTarget] = useState<QuickWordTarget | null>(null);
 
   // Shadowing state
   const [shadowPauseMs, setShadowPauseMs] = useState(1500);
@@ -260,6 +270,7 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
       setDictationInput('');
       setDictationRevealed(false);
       setDictationSubmitted(false);
+      setRevealedWordIndices([]);
       setSpokenTranscript('');
       setSpeechError(null);
 
@@ -337,12 +348,24 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
     return evaluateWords(currentSentence.textEn, dictationInput);
   }, [currentSentence, dictationInput]);
 
-  // Auto-complete dictation as soon as all words match accurately while typing!
+  const revealedWordSet = useMemo(() => new Set(revealedWordIndices), [revealedWordIndices]);
+
+  const isAllSlotsSolved = useCallback(
+    (evalStates: ReturnType<typeof evaluateWords>['states'], revealedSet: Set<number>) => {
+      return (
+        evalStates.length > 0 &&
+        evalStates.every((st, idx) => st.status === 'correct' || revealedSet.has(idx))
+      );
+    },
+    []
+  );
+
+  // Auto-complete dictation as soon as all words match accurately (or combined with revealed words)
   const handleDictationInputChange = (val: string) => {
     setDictationInput(val);
     if (!video || !currentSentence || dictationRevealed) return;
     const ev = evaluateWords(currentSentence.textEn, val);
-    if (ev.allMatched) {
+    if (ev.allMatched || isAllSlotsSolved(ev.states, revealedWordSet)) {
       playCorrect();
       setDictationRevealed(true);
       setDictationSubmitted(true);
@@ -367,7 +390,7 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
     }
 
     setDictationSubmitted(true);
-    if (dictationEval.allMatched) {
+    if (dictationEval.allMatched || isAllSlotsSolved(dictationEval.states, revealedWordSet)) {
       playCorrect();
       setDictationRevealed(true);
       markVideoSentenceCompleted(video.id, currentSentence.index, video.sentences.length, 'dictation');
@@ -380,12 +403,73 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
     }
   };
 
+  const handleRevealSingleSlot = (targetIdx: number, syncInputPrefix = false) => {
+    if (!video || !currentSentence || dictationRevealed) return;
+    const targetState = dictationEval.states[targetIdx];
+    if (!targetState) return;
+
+    const nextRevealedList = revealedWordSet.has(targetIdx)
+      ? revealedWordIndices
+      : [...revealedWordIndices, targetIdx];
+    const nextRevealedSet = new Set(nextRevealedList);
+
+    playFlip();
+    setRevealedWordIndices(nextRevealedList);
+
+    let nextInput = dictationInput;
+    if (syncInputPrefix) {
+      // Fill/correct up to targetIdx smoothly so user can continue typing from targetIdx + 1
+      const currentWords = tokenizeSentence(dictationInput);
+      const rebuilt: string[] = [];
+      for (let i = 0; i <= targetIdx; i += 1) {
+        const st = dictationEval.states[i];
+        if (!st) break;
+        if (i === targetIdx || st.status === 'correct' || nextRevealedSet.has(i)) {
+          rebuilt.push(cleanLookupWord(st.token) || st.token);
+        } else {
+          rebuilt.push(currentWords[i] || cleanLookupWord(st.token) || st.token);
+        }
+      }
+      for (let j = targetIdx + 1; j < currentWords.length; j += 1) {
+        rebuilt.push(currentWords[j]);
+      }
+      nextInput = rebuilt.join(' ') + (targetIdx >= currentWords.length - 1 ? ' ' : '');
+      setDictationInput(nextInput);
+    }
+
+    const reEval = evaluateWords(currentSentence.textEn, nextInput);
+    if (reEval.allMatched || isAllSlotsSolved(reEval.states, nextRevealedSet)) {
+      setDictationRevealed(true);
+      setDictationSubmitted(true);
+      markVideoSentenceCompleted(video.id, currentSentence.index, video.sentences.length, 'dictation');
+    } else {
+      dictationInputRef.current?.focus();
+    }
+  };
+
+  const handleRevealNextWord = () => {
+    if (!currentSentence || dictationRevealed) return;
+    const nextIdx = dictationEval.states.findIndex(
+      (st, idx) => st.status !== 'correct' && !revealedWordSet.has(idx)
+    );
+    if (nextIdx === -1) return;
+    handleRevealSingleSlot(nextIdx, true);
+  };
+
   const handleRevealSentence = () => {
     if (!video || !currentSentence) return;
+    playFlip();
     setDictationInput(currentSentence.textEn);
+    setRevealedWordIndices(dictationEval.states.map((_, idx) => idx));
     setDictationRevealed(true);
     setDictationSubmitted(true);
     markVideoSentenceCompleted(video.id, currentSentence.index, video.sentences.length, 'dictation');
+  };
+
+  const handleLookupDictationWord = (rawToken: string) => {
+    const cleaned = cleanLookupWord(rawToken);
+    if (!cleaned) return;
+    setQuickWordTarget({ word: cleaned });
   };
 
   // ================= SHADOWING WEB SPEECH API =================
@@ -687,57 +771,74 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
                   </div>
                 </div>
 
-                {/* Word-by-Word Live Grading Slots */}
-                <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-[#0B1120]/80 p-3.5 sm:p-4">
+                {/* Word-by-Word Live Grading & Interactive Reveal Slots */}
+                <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-[#0B1120]/80 p-3.5 sm:p-4 space-y-2.5">
                   <div className="flex flex-wrap gap-1.5 leading-relaxed">
                     {dictationEval.states.map((st, idx) => {
-                      if (dictationRevealed) {
+                      const isIndividuallyRevealed = revealedWordSet.has(idx);
+                      if (dictationRevealed || st.status === 'correct') {
                         return (
-                          <span
+                          <button
                             key={idx}
-                            className="rounded-lg border border-emerald-300 dark:border-emerald-500/40 bg-emerald-50 dark:bg-emerald-500/15 px-2 py-1 text-sm font-bold text-emerald-800 dark:text-emerald-200"
+                            type="button"
+                            onClick={() => handleLookupDictationWord(st.token)}
+                            title="Bấm để tra nghĩa chi tiết & lưu vào Từ vựng của tôi"
+                            className="rounded-lg border border-emerald-300 dark:border-emerald-500/45 bg-emerald-100/80 dark:bg-emerald-500/20 hover:border-emerald-500 hover:brightness-105 px-2.5 py-1 text-sm font-extrabold text-emerald-800 dark:text-emerald-200 transition active:scale-95 cursor-pointer"
                           >
                             {st.token}
-                          </span>
+                          </button>
                         );
                       }
-                      if (st.status === 'correct') {
+                      if (isIndividuallyRevealed) {
                         return (
-                          <span
+                          <button
                             key={idx}
-                            className="rounded-lg border border-emerald-300 dark:border-emerald-500/45 bg-emerald-100/80 dark:bg-emerald-500/20 px-2 py-1 text-sm font-extrabold text-emerald-800 dark:text-emerald-200"
+                            type="button"
+                            onClick={() => handleLookupDictationWord(st.token)}
+                            title="Từ đã hé lộ — bấm để tra nghĩa & lưu vào Từ vựng của tôi"
+                            className="animate-hint-pop rounded-lg border border-sky-400 dark:border-sky-400/60 bg-sky-100 dark:bg-sky-500/20 hover:border-indigo-500 px-2.5 py-1 text-sm font-extrabold text-sky-900 dark:text-sky-200 transition active:scale-95 cursor-pointer"
                           >
                             {st.token}
-                          </span>
+                          </button>
                         );
                       }
                       if (st.status === 'wrong') {
                         return (
-                          <span
+                          <button
                             key={idx}
-                            className="rounded-lg border border-rose-300 dark:border-rose-500/50 bg-rose-100/80 dark:bg-rose-500/20 px-2 py-1 text-sm font-bold text-rose-700 dark:text-rose-200"
+                            type="button"
+                            onClick={() => handleRevealSingleSlot(idx, false)}
+                            title="Đang gõ chưa khớp — bấm để hé lộ riêng từ này"
+                            className="rounded-lg border border-rose-300 dark:border-rose-500/50 bg-rose-100/80 dark:bg-rose-500/20 hover:border-amber-400 px-2.5 py-1 text-sm font-bold text-rose-700 dark:text-rose-200 transition active:scale-95 cursor-pointer"
                           >
                             {st.typed || '___'}
-                          </span>
+                          </button>
                         );
                       }
                       return (
-                        <span
+                        <button
                           key={idx}
-                          className={`rounded-lg border px-2.5 py-1 text-xs font-mono font-bold select-none ${
+                          type="button"
+                          onClick={() => handleRevealSingleSlot(idx, false)}
+                          title="Bấm để mở riêng từ này"
+                          className={`rounded-lg border px-2.5 py-1 text-xs font-mono font-bold select-none transition active:scale-95 cursor-pointer ${
                             dictationSubmitted
-                              ? 'border-amber-300 dark:border-amber-500/45 bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-300'
-                              : 'border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800/80 text-slate-400 dark:text-slate-500'
+                              ? 'border-amber-300 dark:border-amber-500/45 bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-300 hover:border-amber-500'
+                              : 'border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800/80 text-slate-400 dark:text-slate-500 hover:border-indigo-400 hover:text-indigo-500 dark:hover:text-sky-300'
                           }`}
                         >
                           {'_'.repeat(Math.min(8, Math.max(3, normalizeToken(st.token).length)))}
-                        </span>
+                        </button>
                       );
                     })}
                   </div>
 
+                  <p className="text-[11px] text-slate-500 dark:text-slate-400">
+                    Mẹo: Bấm trực tiếp vào ô gạch <span className="font-mono font-bold">_____</span> để mở riêng từ đó · Bấm vào từ đã mở để tra nghĩa &amp; lưu SRS.
+                  </p>
+
                   {showDictationVi && (
-                    <p className="mt-3 pt-2.5 border-t border-slate-200 dark:border-slate-800 text-xs sm:text-sm italic text-slate-600 dark:text-slate-400">
+                    <p className="pt-2.5 border-t border-slate-200 dark:border-slate-800 text-xs sm:text-sm italic text-slate-600 dark:text-slate-400">
                       <Languages className="inline h-3.5 w-3.5 mr-1 text-cyan-500" />
                       {currentSentence.textVi}
                     </p>
@@ -770,11 +871,11 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
                   />
 
                   <div className="flex flex-wrap items-center justify-between gap-2">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
                       <button
                         type="button"
                         onClick={handleReplayCurrent}
-                        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 px-3.5 py-2 text-xs font-bold text-slate-700 dark:text-slate-200 hover:border-indigo-400 transition"
+                        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 px-3 py-2 text-xs font-bold text-slate-700 dark:text-slate-200 hover:border-indigo-400 transition active:scale-95"
                       >
                         <Volume2 className="h-4 w-4 text-cyan-500" />
                         Nghe lại
@@ -782,8 +883,18 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
 
                       <button
                         type="button"
+                        disabled={dictationRevealed}
+                        onClick={handleRevealNextWord}
+                        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl border border-sky-300 dark:border-sky-500/45 bg-sky-50 dark:bg-sky-500/15 disabled:opacity-40 px-3 py-2 text-xs font-bold text-sky-800 dark:text-sky-200 hover:brightness-105 transition active:scale-95"
+                      >
+                        <Lightbulb className="h-4 w-4 text-amber-500 dark:text-amber-400" />
+                        Hiện 1 từ
+                      </button>
+
+                      <button
+                        type="button"
                         onClick={handleRevealSentence}
-                        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl border border-amber-300 dark:border-amber-500/45 bg-amber-50 dark:bg-amber-500/15 px-3.5 py-2 text-xs font-bold text-amber-800 dark:text-amber-200 hover:brightness-105 transition"
+                        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl border border-amber-300 dark:border-amber-500/45 bg-amber-50 dark:bg-amber-500/15 px-3 py-2 text-xs font-bold text-amber-800 dark:text-amber-200 hover:brightness-105 transition active:scale-95"
                       >
                         <Eye className="h-4 w-4" />
                         Hiện cả câu
@@ -802,7 +913,7 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
                       ) : (
                         <>
                           <Check className="h-4 w-4 stroke-[3]" />
-                          Kiểm tra ({dictationEval.matchedCount}/{dictationEval.total})
+                          Kiểm tra ({dictationEval.states.filter((s, idx) => s.status === 'correct' || revealedWordSet.has(idx)).length}/{dictationEval.total})
                         </>
                       )}
                     </button>
@@ -1341,6 +1452,11 @@ export const VideoPracticeView: React.FC<VideoPracticeViewProps> = ({ videoId })
           )}
         </div>
       </div>
+      <VocabQuickDetailModal
+        target={quickWordTarget}
+        onClose={() => setQuickWordTarget(null)}
+        onSelectAnotherWord={(next) => setQuickWordTarget(next)}
+      />
     </div>
   );
 };

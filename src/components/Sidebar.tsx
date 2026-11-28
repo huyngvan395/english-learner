@@ -12,7 +12,6 @@ import {
   FileText,
   Film,
   Flame,
-  GraduationCap,
   Headphones,
   LogIn,
   LogOut,
@@ -26,6 +25,7 @@ import {
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
+import { BrandLogo } from './BrandLogo';
 
 interface SidebarProps {
   collapsed: boolean;
@@ -121,15 +121,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
         {/* Brand */}
         <div className="flex h-16 items-center justify-between px-4 border-b border-slate-800/80">
           <div className="flex items-center gap-2.5 overflow-hidden">
-            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 via-indigo-600 to-violet-600 text-white shadow-glow">
-              <GraduationCap className="h-5 w-5" />
-            </div>
+            <BrandLogo className="h-9 w-9 shadow-glow rounded-[11px]" />
             {!isCollapsed && (
               <div className="min-w-0">
-                <h1 className="truncate text-sm font-extrabold tracking-tight text-white">
+                <h1 className="truncate text-sm font-extrabold tracking-tight text-slate-900 dark:text-white">
                   TOEIC Mastery Hub
                 </h1>
-                <p className="text-[10px] font-semibold uppercase tracking-wider text-indigo-400">
+                <p className="text-[10px] font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
                   Target 990 • Free All
                 </p>
               </div>

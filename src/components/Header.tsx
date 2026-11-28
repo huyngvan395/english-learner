@@ -3,7 +3,6 @@ import {
   CheckCircle2,
   ChevronDown,
   Flame,
-  GraduationCap,
   Loader2,
   Menu,
   Moon,
@@ -44,6 +43,7 @@ import {
   toggleSoundEnabled,
 } from '../lib/soundEffects';
 import { VocabExtensionBlock } from './VocabExtensionBlock';
+import { BrandLogo } from './BrandLogo';
 
 interface HeaderProps {
   onOpenMobileMenu: () => void;
@@ -187,10 +187,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
 
             {/* Mobile Compact Logo (< md) */}
             <div className="flex md:hidden items-center gap-2 min-w-0">
-              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 via-indigo-600 to-violet-600 text-white shadow-sm">
-                <GraduationCap className="h-4 w-4" />
-              </div>
-              <span className="truncate text-sm font-extrabold tracking-tight text-white">
+              <BrandLogo className="h-8 w-8 shadow-sm rounded-[9px]" />
+              <span className="truncate text-sm font-extrabold tracking-tight text-slate-900 dark:text-white">
                 TOEIC Hub
               </span>
             </div>
