@@ -109,8 +109,8 @@
               "meaning": "loài có nguy cơ tuyệt chủng"
             }
           ],
-          "definitionEn": "Having the quality of being threatened, at risk.",
-          "definitionVi": "Tính từ mô tả đặc điểm có nguy cơ tuyệt chủng.",
+          "definitionEn": "(of flora or fauna) in imminent danger of extinction.",
+          "definitionVi": "(của thực vật hoặc động vật) đang trong nguy cơ tuyệt chủng cấp bách.",
           "topicId": "thpt-nature",
           "relationMeanings": {
             "threatened": "bị đe dọa",
@@ -211,8 +211,8 @@
               "meaning": "thích nghi với thay đổi"
             }
           ],
-          "definitionEn": "Having the quality of being flexible, versatile, adaptive.",
-          "definitionVi": "Tính từ mô tả đặc điểm có khả năng thích nghi tốt.",
+          "definitionEn": "Capable of adapting (of becoming or being made suitable) to a particular situation or use.",
+          "definitionVi": "Có khả năng thích nghi (trở thành hoặc trở nên phù hợp) với một tình huống hoặc ứng dụng cụ thể.",
           "topicId": "thpt-nature",
           "relationMeanings": {
             "flexible": "linh hoạt, dễ điều chỉnh",
@@ -293,8 +293,8 @@
               "meaning": "nâng cao nhận thức về"
             }
           ],
-          "definitionEn": "Having the quality of being conscious, informed.",
-          "definitionVi": "Tính từ mô tả đặc điểm nhận thức được, có ý thức về (đi với of).",
+          "definitionEn": "(sometimes followed by `of') having or showing knowledge or understanding or realization or perception.",
+          "definitionVi": "(đôi khi theo sau bằng 'của') có hoặc thể hiện kiến thức, sự hiểu biết, nhận thức hoặc nhận thức.",
           "topicId": "thpt-nature",
           "relationMeanings": {
             "conscious": "có ý thức",
@@ -391,8 +391,8 @@
               "meaning": "phản hồi hào hứng"
             }
           ],
-          "definitionEn": "Having the quality of being eager, passionate.",
-          "definitionVi": "Tính từ mô tả đặc điểm nhiệt tình, hào hứng.",
+          "definitionEn": "Having or showing great excitement and interest.",
+          "definitionVi": "Có hoặc thể hiện sự hào hứng và quan tâm lớn.",
           "topicId": "thpt-self",
           "relationMeanings": {
             "eager": "háo hức",
@@ -439,8 +439,8 @@
               "meaning": "độc lập tài chính"
             }
           ],
-          "definitionEn": "Having the quality of being self-reliant, autonomous.",
-          "definitionVi": "Tính từ mô tả đặc điểm độc lập, tự chủ.",
+          "definitionEn": "Free from external control and constraint.",
+          "definitionVi": "Tự do khỏi sự kiểm soát và ràng buộc bên ngoài.",
           "topicId": "thpt-self",
           "relationMeanings": {
             "self-reliant": "tự lực",
@@ -474,8 +474,8 @@
               "meaning": "môi trường sống động vật hoang dã"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to natural environment, ecosystem.",
-          "definitionVi": "Danh từ dùng để chỉ môi trường sống tự nhiên.",
+          "definitionEn": "The type of environment in which an organism or group normally lives or occurs.",
+          "definitionVi": "Loại môi trường mà một sinh vật hoặc nhóm thường sống hoặc xuất hiện.",
           "topicId": "thpt-self",
           "relationMeanings": {
             "natural environment": "môi trường tự nhiên",
@@ -564,8 +564,8 @@
               "meaning": "từ góc nhìn toàn cầu"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to viewpoint, outlook, angle.",
-          "definitionVi": "Danh từ dùng để chỉ góc nhìn, quan điểm.",
+          "definitionEn": "A way of regarding situations or topics etc.",
+          "definitionVi": "Một cách để nhìn nhận các tình huống hoặc chủ đề, v.v.",
           "topicId": "thpt-self",
           "relationMeanings": {
             "viewpoint": "quan điểm",
@@ -598,7 +598,7 @@
             {
               "word": "accessible",
               "pos": "adj",
-              "meaning": "có thể truy cập"
+              "meaning": "dễ tiếp cận, có thể truy cập"
             },
             {
               "word": "accessibility",
@@ -1002,8 +1002,8 @@
           "definitionVi": "Một cuốn sách trong đó bạn lưu giữ những bức ảnh, con tem, v.v.",
           "examples": [
             {
-              "en": "The group discussed the album in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về album trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that album should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng album nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [],
@@ -1353,7 +1353,7 @@
             {
               "word": "applicable",
               "pos": "adj",
-              "meaning": "áp dụng"
+              "meaning": "có thể áp dụng"
             },
             {
               "word": "applier",
@@ -2013,8 +2013,8 @@
               "meaning": "lợi ích đôi bên"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to advantage, perk, gain.",
-          "definitionVi": "Danh từ dùng để chỉ lợi ích; phúc lợi nhân viên.",
+          "definitionEn": "Financial assistance in time of need.",
+          "definitionVi": "Hỗ trợ tài chính khi cần thiết.",
           "topicId": "thpt-qg-g3",
           "relationMeanings": {
             "advantage": "lợi thế",
@@ -2165,8 +2165,8 @@
               "meaning": "chiến dịch quảng cáo"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to drive, initiative, promotion.",
-          "definitionVi": "Danh từ dùng để chỉ chiến dịch quảng cáo / truyền thông.",
+          "definitionEn": "A race between candidates for elective office.",
+          "definitionVi": "Một cuộc đua giữa các ứng viên cho chức vụ bầu cử.",
           "topicId": "thpt-qg-g4",
           "relationMeanings": {
             "drive": "lái xe",
@@ -2186,8 +2186,8 @@
           "definitionVi": "Các tòa nhà của một trường đại học hoặc cao đẳng và đất xung quanh chúng.",
           "examples": [
             {
-              "en": "The group discussed the campus in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khuôn viên trường trong buổi học hôm nay."
+              "en": "Please check the details regarding campus in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về khuôn viên trường trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -2237,8 +2237,8 @@
           "definitionVi": "Người phụ trách tàu thủy hoặc máy bay thương mại.",
           "examples": [
             {
-              "en": "The group discussed the captain in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đội trưởng trong buổi học ngày hôm nay."
+              "en": "A captain of industry.",
+              "vi": "Một ông trùm của ngành công nghiệp."
             }
           ],
           "wordFamily": [
@@ -2705,8 +2705,8 @@
           "definitionVi": "Người sử dụng dịch vụ hoặc lời khuyên của một cá nhân hoặc tổ chức chuyên nghiệp.",
           "examples": [
             {
-              "en": "The group discussed the client in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khách hàng trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding client in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về khách hàng trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -2815,8 +2815,8 @@
           "definitionVi": "Một đồ vật, một bằng chứng hoặc một số thông tin giúp cảnh sát giải quyết tội phạm.",
           "examples": [
             {
-              "en": "The group discussed the clue in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về manh mối trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that clue should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng manh mối nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -3175,8 +3175,8 @@
               "meaning": "khu phức hợp dân cư"
             }
           ],
-          "definitionEn": "Having the quality of being intricate, complicated.",
-          "definitionVi": "Tính từ mô tả đặc điểm phức tạp; n: khu phức hợp.",
+          "definitionEn": "Complicated in structure; consisting of interconnected parts.",
+          "definitionVi": "Cấu trúc phức tạp; bao gồm các bộ phận liên kết với nhau.",
           "topicId": "thpt-qg-g4",
           "relationMeanings": {
             "intricate": "phức tạp",
@@ -3671,8 +3671,8 @@
               "meaning": "vị trí thuận tiện"
             }
           ],
-          "definitionEn": "Having the quality of being handy, suitable.",
-          "definitionVi": "Tính từ mô tả đặc điểm thuận tiện, tiện lợi.",
+          "definitionEn": "Suited to your comfort or purpose or needs.",
+          "definitionVi": "Phù hợp với sự thoải mái, mục đích hoặc nhu cầu của bạn.",
           "topicId": "thpt-qg-g5",
           "relationMeanings": {
             "handy": "tiện dụng",
@@ -4244,8 +4244,8 @@
           "definitionVi": "Khoảng thời gian mười năm, đặc biệt là giai đoạn liên tục, chẳng hạn như 1910–1919 hay 2000–2009.",
           "examples": [
             {
-              "en": "The group discussed the decade in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thập kỷ này trong phiên họp hôm nay."
+              "en": "Everyone at the meeting agreed that decade should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng thập kỷ nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -4788,8 +4788,8 @@
               "meaning": "chiết khấu mua số lượng lớn"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to reduction, markdown.",
-          "definitionVi": "Danh từ dùng để chỉ mức giảm giá, chiết khấu.",
+          "definitionEn": "The act of reducing the selling price of merchandise.",
+          "definitionVi": "Hành động giảm giá bán hàng hóa.",
           "topicId": "thpt-qg-g5",
           "relationMeanings": {
             "reduction": "giảm",
@@ -5546,8 +5546,8 @@
               "meaning": "thành phần thiết yếu"
             }
           ],
-          "definitionEn": "Having the quality of being vital, crucial, indispensable.",
-          "definitionVi": "Tính từ mô tả đặc điểm thiết yếu, cốt lõi.",
+          "definitionEn": "Absolutely necessary; vitally necessary.",
+          "definitionVi": "Hoàn toàn cần thiết; cực kỳ cần thiết.",
           "topicId": "thpt-qg-g6",
           "relationMeanings": {
             "vital": "quan trọng",
@@ -6049,8 +6049,8 @@
               "meaning": "tính năng cốt lõi"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to highlight, characteristic, include.",
-          "definitionVi": "Danh từ dùng để chỉ tính năng nổi bật; v: có sự góp mặt của.",
+          "definitionEn": "A prominent attribute or aspect of something.",
+          "definitionVi": "Một thuộc tính nổi bật hoặc khía cạnh của một điều gì đó.",
           "topicId": "thpt-qg-g6",
           "relationMeanings": {
             "highlight": "nổi bật",
@@ -6070,8 +6070,8 @@
           "definitionVi": "Một chiếc hộp hoặc một tấm thẻ gấp để giữ các giấy tờ rời rạc lại với nhau và có trật tự.",
           "examples": [
             {
-              "en": "The group discussed the file in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về file này trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how file affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách tệp ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -6656,8 +6656,8 @@
           "definitionVi": "Một bộ quần áo dùng cho bàn tay, làm bằng len, da, v.v... với các bộ phận riêng biệt cho mỗi ngón tay và ngón cái.",
           "examples": [
             {
-              "en": "The group discussed the glove in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chiếc găng tay trong buổi học hôm nay."
+              "en": "The manager highlighted the importance of a reliable glove in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một chiếc găng tay đáng tin cậy trong hoạt động hàng ngày."
             }
           ],
           "wordFamily": [],
@@ -6845,8 +6845,8 @@
           "definitionVi": "Giao cho ai đó một công việc.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to hire clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần tuyển dụng một cách rõ ràng."
+              "en": "Please hire carefully so that we can avoid any unnecessary delays.",
+              "vi": "Vui lòng tuyển dụng cẩn thận để tránh những trì hoãn không cần thiết."
             }
           ],
           "wordFamily": [
@@ -6978,8 +6978,8 @@
               "meaning": "tác động môi trường"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to effect, influence, consequence.",
-          "definitionVi": "Danh từ dùng để chỉ tác động, ảnh hưởng mạnh.",
+          "definitionEn": "The striking of one body against another.",
+          "definitionVi": "Sự va chạm của một cơ thể với cơ thể khác.",
           "topicId": "thpt-qg-g7",
           "relationMeanings": {
             "effect": "hiệu ứng",
@@ -8280,8 +8280,8 @@
           "definitionVi": "Lớp cứng mỏng bao phủ đầu ngoài của ngón tay hoặc ngón chân.",
           "examples": [
             {
-              "en": "The group discussed the nail in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chiếc đinh trong buổi học ngày hôm nay."
+              "en": "We received positive feedback from clients about our updated nail.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về mẫu móng được cập nhật."
             }
           ],
           "wordFamily": [
@@ -9115,8 +9115,8 @@
           "definitionVi": "Thị trấn hoặc thành phố có bến cảng, đặc biệt là nơi tàu bè bốc dỡ hàng hóa.",
           "examples": [
             {
-              "en": "The group discussed the port in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cảng trong phiên hôm nay."
+              "en": "The manager highlighted the importance of a reliable port in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một cảng đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -10078,8 +10078,8 @@
           "definitionVi": "Một vật bằng kim loại rỗng, thường có hình dạng giống cốc, tạo ra âm thanh vang khi bị một mẩu kim loại nhỏ bên trong va vào; âm thanh mà nó tạo ra.",
           "examples": [
             {
-              "en": "The group discussed the bell in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cái chuông trong phiên họp hôm nay."
+              "en": "We received positive feedback from clients about our updated bell.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về chiếc chuông được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -10908,8 +10908,8 @@
           "definitionVi": "Phần trên của phía trước cơ thể, giữa cổ và bụng.",
           "examples": [
             {
-              "en": "The group discussed the chest in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về ngực trong buổi hôm nay."
+              "en": "Please check the details regarding chest in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về ngực trong tệp đính kèm gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -11073,8 +11073,8 @@
           "definitionVi": "Một miếng kim loại nhỏ và phẳng được sử dụng làm tiền.",
           "examples": [
             {
-              "en": "The group discussed the coin in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đồng xu trong phiên họp hôm nay."
+              "en": "Please check the details regarding coin in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về đồng xu trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -11232,8 +11232,8 @@
           "definitionVi": "Một người tham gia vào một cuộc thi.",
           "examples": [
             {
-              "en": "The group discussed the competitor in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đối thủ trong buổi họp hôm nay."
+              "en": "Please check the details regarding competitor in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về đối thủ trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -12765,8 +12765,8 @@
           "definitionVi": "Một cảm giác mạnh mẽ như tình yêu, sợ hãi hoặc tức giận; phần của tính cách con người bao gồm cảm xúc.",
           "examples": [
             {
-              "en": "The group discussed the emotion in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cảm xúc trong buổi họp hôm nay."
+              "en": "Please check the details regarding emotion in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về cảm xúc trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -13340,8 +13340,8 @@
           "definitionVi": "Nổ tung (= vỡ ra) hoặc làm cho cái gì đó nổ lớn và dữ dội, gây hư hại.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to explode clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần nổ rõ ràng."
+              "en": "Please explode carefully so that we can avoid any unnecessary delays.",
+              "vi": "Vui lòng nổ tung cẩn thận để tránh những trì hoãn không cần thiết."
             }
           ],
           "wordFamily": [
@@ -14473,8 +14473,8 @@
           "definitionVi": "Một người có bằng đại học.",
           "examples": [
             {
-              "en": "The group discussed the graduate in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sinh viên tốt nghiệp trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated graduate.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về chương trình mới ra trường."
             }
           ],
           "wordFamily": [
@@ -15803,8 +15803,8 @@
           "definitionVi": "Làm tổn hại cho bản thân hoặc người khác về mặt thể chất, đặc biệt là trong một tai nạn.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to injure clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần làm bị thương rõ ràng."
+              "en": "The coordinator asked everyone to injure ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người bị thương trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -16380,8 +16380,8 @@
           "definitionVi": "Một phần bằng phẳng màu xanh của cây, mọc từ thân hoặc cành hoặc từ rễ.",
           "examples": [
             {
-              "en": "The group discussed the leaf in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chiếc lá trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how leaf affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực tiễn giải thích cách lá ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -16791,8 +16791,8 @@
           "definitionVi": "Một hành động chính thức được thực hiện nhằm đạt được một mục tiêu cụ thể.",
           "examples": [
             {
-              "en": "The group discussed the measure in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về biện pháp trong phiên họp hôm nay."
+              "en": "They set the measure for all subsequent work.",
+              "vi": "Họ đặt ra tiêu chuẩn cho tất cả các công việc tiếp theo."
             }
           ],
           "wordFamily": [
@@ -18261,8 +18261,8 @@
           "definitionVi": "Một ống mà chất lỏng và khí có thể chảy qua.",
           "examples": [
             {
-              "en": "The group discussed the pipe in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về ống trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable pipe in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một ống dẫn đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -18477,8 +18477,8 @@
           "definitionVi": "Một tác phẩm viết mà từ ngữ được chọn dựa trên âm thanh và hình ảnh mà chúng gợi ra, không chỉ dựa trên ý nghĩa rõ ràng. Các từ được sắp xếp thành các dòng riêng biệt, thường có nhịp điệu lặp lại, và thường các dòng vần ở cuối.",
           "examples": [
             {
-              "en": "The group discussed the poem in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bài thơ trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated poem.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về bài thơ được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -18675,8 +18675,8 @@
           "definitionVi": "Một người có công việc liên quan đến chính trị, đặc biệt là thành viên được bầu của quốc hội, v.v.",
           "examples": [
             {
-              "en": "The group discussed the politician in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chính trị gia trong phiên họp hôm nay."
+              "en": "Everyone at the meeting agreed that politician should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng chính trị gia nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [

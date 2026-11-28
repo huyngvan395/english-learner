@@ -9,10 +9,18 @@ import {
   Volume2,
   X,
 } from 'lucide-react';
-import { SearchIndexEntry, VocabWord, WordPOS } from '../types';
+import { SearchIndexEntry, VocabExample, VocabWord } from '../types';
 import { useApp } from '../context/AppContext';
 import { loadFullWord } from '../utils/vocabLoader';
 import { playWordAudio, speakText } from '../utils/speech';
+import {
+  fetchOnlineDictDetails,
+  getCachedOnlineDictDetails,
+  normalizeWordPos,
+  OnlineDictDetails,
+} from '../utils/onlineDictLookup';
+
+const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved', 'vocab-saved']);
 
 export interface QuickWordTarget {
   word: string;
@@ -26,8 +34,6 @@ interface VocabQuickDetailModalProps {
   onClose: () => void;
   onSelectAnotherWord?: (next: QuickWordTarget) => void;
 }
-
-const VALID_POS: Set<string> = new Set(['n', 'v', 'adj', 'adv', 'phrase']);
 
 const POS_VI_LABEL: Record<string, string> = {
   n: 'Danh từ (n)',
@@ -55,16 +61,6 @@ const RELATION_BADGE: Record<
   },
 };
 
-function normalizePos(raw?: string): WordPOS {
-  const clean = (raw || 'n').toLowerCase().trim();
-  if (VALID_POS.has(clean)) return clean as WordPOS;
-  if (clean.includes('adj')) return 'adj';
-  if (clean.includes('adv')) return 'adv';
-  if (clean.includes('v')) return 'v';
-  if (clean.includes('phr')) return 'phrase';
-  return 'n';
-}
-
 export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
   target,
   onClose,
@@ -72,21 +68,23 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
 }) => {
   const { searchIndex, customWords, saveRelatedVocab, isVocabTextSaved } = useApp();
   const [fullWord, setFullWord] = useState<VocabWord | null>(null);
+  const [onlineDetails, setOnlineDetails] = useState<OnlineDictDetails | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // Best-matching entry in our 10,996-word bank (prefer exact (word, pos) match first!)
+  // Best-matching entry in our 16 standard decks (prefer exact (word, pos) match first, skip sparse custom entries)
   const matchedEntry: SearchIndexEntry | null = useMemo(() => {
     if (!target) return null;
     const key = target.word.trim().toLowerCase();
     if (!key) return null;
-    const targetPos = target.pos ? normalizePos(target.pos) : null;
+    const targetPos = target.pos ? normalizeWordPos(target.pos) : null;
+    const standardRows = searchIndex.filter((r) => !CUSTOM_DECK_IDS.has(r.deckId));
     if (targetPos) {
-      const exactPosMatch = searchIndex.find(
+      const exactPosMatch = standardRows.find(
         (r) => r.word.toLowerCase() === key && r.partOfSpeech === targetPos
       );
       if (exactPosMatch) return exactPosMatch;
     }
-    return searchIndex.find((r) => r.word.toLowerCase() === key) || null;
+    return standardRows.find((r) => r.word.toLowerCase() === key) || null;
   }, [target, searchIndex]);
 
   // Close cleanly on Escape key without disrupting underlying study card
@@ -103,45 +101,74 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
     return () => window.removeEventListener('keydown', onKeyDown, true);
   }, [target, onClose]);
 
-  // Lazy-load full VocabWord details if the clicked term exists in our 10,996-word bank
+  // Lazy-load full VocabWord from parent deck JSON, and auto-hydrate any missing IPA/definition/example online
   useEffect(() => {
     if (!target) {
       setFullWord(null);
+      setOnlineDetails(null);
       setLoading(false);
       return;
     }
 
     const key = target.word.trim().toLowerCase();
     const customMatch = customWords.find((w) => w.word.toLowerCase() === key) || null;
+    const cachedOnline = getCachedOnlineDictDetails(target.word, target.pos);
+    let cancelled = false;
+
+    const needsOnlineHydration = (w: VocabWord | null): boolean => {
+      if (!w) return true;
+      const hasIpa = Boolean(w.ipaUS && w.ipaUS.trim() && w.ipaUS.trim() !== '/.../');
+      const hasDef = Boolean(w.definitionEn && w.definitionEn.trim());
+      const hasEx = Boolean(w.examples && w.examples.length > 0 && w.examples[0]?.en?.trim());
+      return !hasIpa || !hasDef || !hasEx;
+    };
+
+    const hydrateOnlineIfNeeded = async (baseWord: VocabWord | null) => {
+      if (!needsOnlineHydration(baseWord)) {
+        if (!cancelled) setLoading(false);
+        return;
+      }
+      if (cachedOnline) {
+        if (!cancelled) {
+          setOnlineDetails(cachedOnline);
+          setLoading(false);
+        }
+        return;
+      }
+      try {
+        const fetched = await fetchOnlineDictDetails(target.word, target.pos || baseWord?.pos);
+        if (!cancelled) setOnlineDetails(fetched);
+      } catch {
+        // Graceful fallback
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+
+    setOnlineDetails(cachedOnline);
 
     if (!matchedEntry) {
       setFullWord(customMatch);
-      setLoading(false);
-      return;
+      setLoading(!cachedOnline && needsOnlineHydration(customMatch));
+      void hydrateOnlineIfNeeded(customMatch);
+      return () => {
+        cancelled = true;
+      };
     }
 
-    if (
-      matchedEntry.deckId === 'listening-saved' ||
-      matchedEntry.deckId === 'writing-saved' ||
-      matchedEntry.deckId === 'vocab-saved'
-    ) {
-      setFullWord(customMatch);
-      setLoading(false);
-      return;
-    }
-
-    let cancelled = false;
     setLoading(true);
     setFullWord(null);
     loadFullWord(matchedEntry.deckId, matchedEntry.id)
       .then((word) => {
-        if (!cancelled) setFullWord(word || customMatch);
+        if (cancelled) return;
+        const resolved = word || customMatch;
+        setFullWord(resolved);
+        return hydrateOnlineIfNeeded(resolved);
       })
       .catch(() => {
-        if (!cancelled) setFullWord(customMatch);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
+        if (cancelled) return;
+        setFullWord(customMatch);
+        return hydrateOnlineIfNeeded(customMatch);
       });
 
     return () => {
@@ -152,25 +179,47 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
   if (!target) return null;
 
   const displayWord = fullWord?.word || matchedEntry?.word || target.word;
-  const displayPos = fullWord?.pos || matchedEntry?.partOfSpeech || normalizePos(target.pos);
+  const displayPos =
+    fullWord?.pos ||
+    matchedEntry?.partOfSpeech ||
+    (target.pos ? normalizeWordPos(target.pos) : undefined) ||
+    onlineDetails?.pos ||
+    'n';
   const displayIpaUS =
     (fullWord?.ipaUS && fullWord.ipaUS !== '/.../' ? fullWord.ipaUS : '') ||
-    (matchedEntry?.ipaUS && matchedEntry.ipaUS !== '/.../' ? matchedEntry.ipaUS : '');
-  const displayIpaUK = fullWord?.ipaUK && fullWord.ipaUK !== '/.../' ? fullWord.ipaUK : '';
+    (matchedEntry?.ipaUS && matchedEntry.ipaUS !== '/.../' ? matchedEntry.ipaUS : '') ||
+    onlineDetails?.ipaUS ||
+    '';
+  const displayIpaUK =
+    (fullWord?.ipaUK && fullWord.ipaUK !== '/.../' ? fullWord.ipaUK : '') ||
+    onlineDetails?.ipaUK ||
+    '';
 
   const rawMeaning =
     fullWord?.meaning ||
     matchedEntry?.meaningVi ||
     target.fallbackMeaning ||
+    onlineDetails?.meaningVi ||
     'Từ vựng mở rộng TOEIC';
   const displayMeaning = rawMeaning.replace(/^\[[^\]]+\]\s*/, '').trim();
+
+  const mergedDefEn = fullWord?.definitionEn?.trim() || onlineDetails?.definitionEn || '';
+  const mergedDefVi = fullWord?.definitionVi?.trim() || onlineDetails?.definitionVi || '';
+
+  const mergedExamples: VocabExample[] =
+    fullWord && fullWord.examples.length > 0 && fullWord.examples[0]?.en?.trim()
+      ? fullWord.examples
+      : onlineDetails?.exampleEn
+      ? [{ en: onlineDetails.exampleEn, vi: onlineDetails.exampleVi || '' }]
+      : [];
+
+  const audioUrlUS = fullWord?.audioUrlUS || onlineDetails?.audioUrlUS;
+  const audioUrlUK = fullWord?.audioUrlUK || onlineDetails?.audioUrlUK || audioUrlUS;
 
   // Safety net: never render duplicate English line if definitionVi === definitionEn or ex.vi === ex.en
   const normCmp = (s?: string) => (s || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase();
   const hasDistinctDefVi = Boolean(
-    fullWord?.definitionVi &&
-      fullWord.definitionVi.trim() &&
-      normCmp(fullWord.definitionVi) !== normCmp(fullWord.definitionEn)
+    mergedDefVi && normCmp(mergedDefVi) !== normCmp(mergedDefEn)
   );
 
   const saved = isVocabTextSaved(displayWord);
@@ -181,13 +230,13 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
       id: fullWord?.id || matchedEntry?.id,
       deckId: fullWord?.deckId || matchedEntry?.deckId,
       word: displayWord,
-      pos: normalizePos(displayPos),
+      pos: normalizeWordPos(displayPos),
       ipaUS: displayIpaUS,
       ipaUK: displayIpaUK || displayIpaUS,
       meaning: displayMeaning,
-      definitionEn: fullWord?.definitionEn,
-      definitionVi: fullWord?.definitionVi,
-      examples: fullWord?.examples,
+      definitionEn: mergedDefEn,
+      definitionVi: hasDistinctDefVi ? mergedDefVi : '',
+      examples: mergedExamples,
     });
   };
 
@@ -237,7 +286,7 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
                 onClick={() =>
                   playWordAudio(displayWord, {
                     accent: 'en-US',
-                    audioUrl: fullWord?.audioUrlUS,
+                    audioUrl: audioUrlUS,
                   })
                 }
                 className="inline-flex items-center gap-1.5 rounded-xl border border-cyan-200 dark:border-cyan-500/35 bg-cyan-50 dark:bg-slate-800/90 hover:bg-cyan-100 dark:hover:bg-cyan-500/20 px-3 py-1.5 text-xs font-bold text-cyan-800 dark:text-cyan-200 transition active:scale-95"
@@ -257,7 +306,7 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
                 onClick={() =>
                   playWordAudio(displayWord, {
                     accent: 'en-GB',
-                    audioUrl: fullWord?.audioUrlUK || fullWord?.audioUrlUS,
+                    audioUrl: audioUrlUK,
                   })
                 }
                 className="inline-flex items-center gap-1.5 rounded-xl border border-amber-200 dark:border-amber-500/35 bg-amber-50 dark:bg-slate-800/90 hover:bg-amber-100 dark:hover:bg-amber-500/20 px-3 py-1.5 text-xs font-bold text-amber-800 dark:text-amber-200 transition active:scale-95"
@@ -294,15 +343,15 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
             <p className="text-base sm:text-lg font-extrabold text-slate-900 dark:text-sky-200 leading-snug">
               {displayMeaning}
             </p>
-            {fullWord?.definitionEn && (
+            {mergedDefEn && (
               <p className="pt-1 text-xs sm:text-sm text-slate-700 dark:text-slate-200 leading-relaxed">
                 <span className="font-bold text-slate-500 dark:text-slate-400 mr-1">EN:</span>
-                {fullWord.definitionEn}
+                {mergedDefEn}
               </p>
             )}
-            {hasDistinctDefVi && fullWord?.definitionVi && (
+            {hasDistinctDefVi && mergedDefVi && (
               <p className="text-xs text-slate-600 dark:text-slate-400 italic leading-relaxed">
-                {fullWord.definitionVi}
+                {mergedDefVi}
               </p>
             )}
           </div>
@@ -310,17 +359,17 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
           {loading ? (
             <div className="flex items-center justify-center gap-2 py-5 text-xs font-medium text-slate-500 dark:text-slate-400">
               <Loader2 className="h-4 w-4 animate-spin text-indigo-500 dark:text-indigo-400" />
-              Đang tải ví dụ song ngữ &amp; chi tiết từ kho từ vựng...
+              Đang tải phiên âm, định nghĩa &amp; ví dụ song ngữ...
             </div>
           ) : (
             <>
               {/* Bilingual Examples */}
-              {fullWord && fullWord.examples.length > 0 && (
+              {mergedExamples.length > 0 && (
                 <div className="space-y-2">
                   <p className="text-[11px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                     Ví dụ song ngữ
                   </p>
-                  {fullWord.examples.slice(0, 2).map((ex, idx) => (
+                  {mergedExamples.slice(0, 2).map((ex, idx) => (
                     <div
                       key={idx}
                       className="rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/70 p-3.5 space-y-1"

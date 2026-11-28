@@ -50,8 +50,8 @@
               "meaning": "tạo doanh thu"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to income, earnings, turnover.",
-          "definitionVi": "Danh từ dùng để chỉ doanh thu.",
+          "definitionEn": "The entire amount of income before any deductions are made.",
+          "definitionVi": "Toàn bộ số tiền thu nhập trước khi có bất kỳ khoản khấu trừ nào.",
           "topicId": "top-finance",
           "relationMeanings": {
             "income": "thu nhập",
@@ -86,8 +86,8 @@
               "meaning": "chi trả cổ tức"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to payout, return.",
-          "definitionVi": "Danh từ dùng để chỉ cổ tức chi trả cổ đông.",
+          "definitionEn": "That part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly.",
+          "definitionVi": "Phần lợi nhuận của công ty được phân phối cho cổ đông; thường được trả hàng quý.",
           "topicId": "top-finance",
           "relationMeanings": {
             "payout": "thanh toán",
@@ -126,8 +126,8 @@
               "meaning": "tiến hành kiểm toán"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to inspection, review.",
-          "definitionVi": "Danh từ dùng để chỉ cuộc kiểm toán tài chính.",
+          "definitionEn": "An inspection of the accounting procedures and records by a trained accountant or CPA.",
+          "definitionVi": "Kiểm tra các thủ tục và hồ sơ kế toán bởi một kế toán viên hoặc CPA được đào tạo.",
           "topicId": "top-finance",
           "relationMeanings": {
             "inspection": "kiểm tra",
@@ -160,8 +160,8 @@
               "meaning": "giảm chi phí vận hành"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to operating costs, fixed expenses.",
-          "definitionVi": "Danh từ dùng để chỉ chi phí vận hành cố định (mặt bằng, điện nước).",
+          "definitionEn": "The expense of maintaining property (e.g., paying property taxes and utilities and insurance); it does not include depreciation or the cost of financing or income taxes.",
+          "definitionVi": "Chi phí duy trì tài sản (ví dụ: trả thuế tài sản, tiện ích và bảo hiểm); không bao gồm khấu hao hoặc chi phí tài chính hoặc thuế thu nhập.",
           "topicId": "top-finance",
           "relationMeanings": {
             "operating costs": "chi phí hoạt động",
@@ -203,8 +203,8 @@
               "meaning": "buổi định hướng nhân viên mới"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to orientation, induction.",
-          "definitionVi": "Danh từ dùng để chỉ quy trình hội nhập nhân viên mới.",
+          "definitionEn": "A term or item referred to as 'onboarding' in everyday or professional English.",
+          "definitionVi": "Một thuật ngữ hoặc mục được gọi là 'onboarding' trong tiếng Anh hàng ngày hoặc chuyên nghiệp.",
           "topicId": "top-hr",
           "relationMeanings": {
             "orientation": "định hướng",
@@ -250,8 +250,8 @@
             }
           ],
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/appraisal-us.mp3",
-          "definitionEn": "A concept, item, or formal term closely related to evaluation, assessment.",
-          "definitionVi": "Danh từ dùng để chỉ sự đánh giá hiệu suất / thẩm định giá.",
+          "definitionEn": "The classification of someone or something with respect to its worth.",
+          "definitionVi": "Việc phân loại ai đó hoặc một vật gì đó dựa trên giá trị của nó.",
           "topicId": "top-hr",
           "relationMeanings": {
             "evaluation": "đánh giá",
@@ -284,8 +284,8 @@
               "meaning": "phòng chi trả lương"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to salary list, compensation.",
-          "definitionVi": "Danh từ dùng để chỉ bảng lương, bộ phận trả lương.",
+          "definitionEn": "A list of employees and their salaries.",
+          "definitionVi": "Danh sách nhân viên và mức lương của họ.",
           "topicId": "top-hr",
           "relationMeanings": {
             "salary list": "bảng lương",
@@ -333,8 +333,8 @@
               "meaning": "thời gian thử việc"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to trial period.",
-          "definitionVi": "Danh từ dùng để chỉ thời gian thử việc.",
+          "definitionEn": "A trial period during which your character and abilities are tested to see whether you are suitable for work or for membership.",
+          "definitionVi": "Một giai đoạn thử nghiệm, trong đó tính cách và năng lực của bạn được kiểm tra để xem bạn có phù hợp với công việc hay thành viên hay không.",
           "topicId": "top-hr",
           "relationMeanings": {
             "trial period": "thời gian dùng thử"
@@ -378,8 +378,8 @@
               "meaning": "nhóm khách hàng mục tiêu"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to audience profile.",
-          "definitionVi": "Danh từ dùng để chỉ dữ liệu nhân khẩu học khách hàng.",
+          "definitionEn": "A statistic characterizing human populations (or segments of human populations broken down by age or sex or income etc.).",
+          "definitionVi": "Một thống kê đặc trưng cho dân số con người (hoặc các phân đoạn dân số được phân loại theo độ tuổi, giới tính, thu nhập, v.v.).",
           "topicId": "top-marketing",
           "relationMeanings": {
             "audience profile": "hồ sơ khán giả"
@@ -412,8 +412,8 @@
               "meaning": "nuôi dưỡng lòng trung thành thương hiệu"
             }
           ],
-          "definitionEn": "A common English expression meaning 'customer retention'.",
-          "definitionVi": "Cụm từ cố định mang nghĩa lòng trung thành thương hiệu.",
+          "definitionEn": "A term or item referred to as 'brand loyalty' in everyday or professional English.",
+          "definitionVi": "Một thuật ngữ hoặc món đồ được gọi là 'thương hiệu trung thành' trong tiếng Anh hàng ngày hoặc chuyên nghiệp.",
           "topicId": "top-marketing",
           "relationMeanings": {
             "customer retention": "giữ chân khách hàng",
@@ -453,8 +453,8 @@
               "meaning": "chiến dịch quảng cáo"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to drive, initiative, promotion.",
-          "definitionVi": "Danh từ dùng để chỉ chiến dịch quảng cáo / truyền thông.",
+          "definitionEn": "A race between candidates for elective office.",
+          "definitionVi": "Một cuộc đua giữa các ứng viên cho chức vụ bầu cử.",
           "topicId": "top-marketing",
           "relationMeanings": {
             "drive": "lái xe",
@@ -494,8 +494,8 @@
               "meaning": "tài trợ sự kiện"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to backing, patronage.",
-          "definitionVi": "Danh từ dùng để chỉ sự tài trợ thương hiệu.",
+          "definitionEn": "The act of sponsoring (either officially or financially).",
+          "definitionVi": "Hành động bảo trợ (dù chính thức hay tài chính).",
           "topicId": "top-marketing",
           "relationMeanings": {
             "backing": "sự ủng hộ",
@@ -534,8 +534,8 @@
               "meaning": "văn phòng phẩm công ty"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to office supplies.",
-          "definitionVi": "Danh từ dùng để chỉ văn phòng phẩm (dễ nhầm với stationary = đứng yên).",
+          "definitionEn": "Paper cut to an appropriate size for writing letters; usually with matching envelopes.",
+          "definitionVi": "Giấy được cắt theo kích thước phù hợp để viết thư; thường kèm theo phong bì phù hợp.",
           "topicId": "top-office",
           "relationMeanings": {
             "office supplies": "đồ dùng văn phòng"
@@ -572,8 +572,8 @@
               "meaning": "bàn làm việc công thái học"
             }
           ],
-          "definitionEn": "Having the quality of being posture-friendly.",
-          "definitionVi": "Tính từ mô tả đặc điểm công thái học (bảo vệ cột sống, cổ tay).",
+          "definitionEn": "Of or relating to ergonomics.",
+          "definitionVi": "Liên quan đến hoặc liên quan đến công thái học.",
           "topicId": "top-office",
           "relationMeanings": {
             "posture-friendly": "tư thế thân thiện"
@@ -605,8 +605,8 @@
               "meaning": "mạng nội bộ doanh nghiệp"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to internal network, staff portal.",
-          "definitionVi": "Danh từ dùng để chỉ mạng nội bộ công ty.",
+          "definitionEn": "A restricted computer network; a private network created using World Wide Web software.",
+          "definitionVi": "Một mạng máy tính bị hạn chế; một mạng riêng được tạo bằng phần mềm World Wide Web.",
           "topicId": "top-office",
           "relationMeanings": {
             "internal network": "mạng nội bộ",
@@ -641,8 +641,8 @@
               "meaning": "trụ sở tập đoàn"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to main office, head office.",
-          "definitionVi": "Danh từ dùng để chỉ trụ sở chính (luôn có -s).",
+          "definitionEn": "(usually plural) the office that serves as the administrative center of an enterprise.",
+          "definitionVi": "(thường là số nhiều) văn phòng đóng vai trò là trung tâm hành chính của một doanh nghiệp.",
           "topicId": "top-office",
           "relationMeanings": {
             "main office": "trụ sở chính",
@@ -685,8 +685,8 @@
               "meaning": "quá cảnh qua đêm"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to stopover, transit.",
-          "definitionVi": "Danh từ dùng để chỉ thời gian quá cảnh giữa hai chuyến bay.",
+          "definitionEn": "A brief stay in the course of a journey.",
+          "definitionVi": "Một chuyến lưu trú ngắn trong suốt hành trình.",
           "topicId": "top-travel",
           "relationMeanings": {
             "stopover": "điểm dừng chân",
@@ -725,8 +725,8 @@
               "meaning": "thẻ lên máy bay điện tử"
             }
           ],
-          "definitionEn": "A common English expression meaning 'boarding card'.",
-          "definitionVi": "Cụm từ cố định mang nghĩa thẻ lên máy bay.",
+          "definitionEn": "A pass that allows you to board a ship or plane.",
+          "definitionVi": "Một thẻ cho phép bạn lên tàu hoặc máy bay.",
           "topicId": "top-travel",
           "relationMeanings": {
             "boarding card": "thẻ lên máy bay"
@@ -757,8 +757,8 @@
               "meaning": "dịch vụ hỗ trợ khách lưu trú"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to guest services desk.",
-          "definitionVi": "Danh từ dùng để chỉ nhân viên hỗ trợ đặc biệt khách sạn (đặt tour, xe, nhà hàng).",
+          "definitionEn": "A French caretaker of apartments or a hotel; lives on the premises and oversees people entering and leaving and handles mail and acts as janitor or porter.",
+          "definitionVi": "Người trông coi căn hộ hoặc khách sạn người Pháp; sống trong khuôn viên, giám sát người ra vào, xử lý thư từ và làm nhân viên dọn dẹp hoặc khuân vác.",
           "topicId": "top-travel",
           "relationMeanings": {
             "guest services desk": "bàn phục vụ khách"
@@ -790,8 +790,8 @@
               "meaning": "xe đưa đón sân bay"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to transfer bus, commuter van.",
-          "definitionVi": "Danh từ dùng để chỉ xe buýt đưa đón tuyến cố định (sân bay/văn phòng).",
+          "definitionEn": "Badminton equipment consisting of a ball of cork or rubber with a crown of feathers.",
+          "definitionVi": "Thiết bị cầu lông gồm một quả bóng bằng nút bần hoặc cao su với vương miện lông vũ.",
           "topicId": "top-travel",
           "relationMeanings": {
             "transfer bus": "xe buýt trung chuyển",
@@ -913,8 +913,8 @@
           "definitionVi": "Thức ăn hoặc đồ uống kích thích sự thèm ăn (thường được phục vụ trước bữa ăn hoặc như món đầu tiên).",
           "examples": [
             {
-              "en": "The group discussed the appetizer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về món khai vị trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding appetizer in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về món khai vị trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -942,8 +942,8 @@
           "definitionVi": "Sự dẫn điện qua chất khí trong điện trường ứng dụng.",
           "examples": [
             {
-              "en": "The group discussed the arc in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vòng cung trong buổi học hôm nay."
+              "en": "Everyone at the meeting agreed that arc should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng Arc nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -981,8 +981,8 @@
           "definitionVi": "Khả năng nghe; khoa thính giác.",
           "examples": [
             {
-              "en": "The group discussed the audition in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về buổi thử giọng trong buổi thử giọng hôm nay."
+              "en": "We received positive feedback from clients about our updated audition.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về buổi thử giọng được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -1014,8 +1014,8 @@
           "definitionVi": "Túi có dây đeo trên lưng hoặc vai.",
           "examples": [
             {
-              "en": "The group discussed the backpack in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chiếc ba lô trong buổi học hôm nay."
+              "en": "Everyone at the meeting agreed that backpack should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng ba lô nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -1053,8 +1053,8 @@
           "definitionVi": "Căn phòng rộng chủ yếu dùng để khiêu vũ.",
           "examples": [
             {
-              "en": "The group discussed the ballroom in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phòng khiêu vũ trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how ballroom affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách ballroom ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -1200,8 +1200,8 @@
           "definitionVi": "Dụng cụ quét dọn; bó ống hút hoặc cành cây gắn vào một tay cầm dài.",
           "examples": [
             {
-              "en": "The group discussed the broom in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cây chổi trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how broom affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực tiễn giải thích cách chổi ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -1222,8 +1222,8 @@
           "definitionVi": "Một chiếc bánh hamburger với phô mai tan chảy bên trên.",
           "examples": [
             {
-              "en": "The group discussed the cheeseburger in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về món bánh mì kẹp phô mai trong buổi học ngày hôm nay."
+              "en": "We received positive feedback from clients about our updated cheeseburger.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về chiếc cheeseburger được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -1304,8 +1304,8 @@
           "definitionVi": "Một nhận xét (hoặc hành động) thể hiện sự khen ngợi và ngưỡng mộ.",
           "examples": [
             {
-              "en": "The group discussed the compliment in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về lời khen trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that compliment should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng khen ngợi nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -1332,8 +1332,8 @@
           "definitionVi": "Hàng hóa được vận chuyển bằng xe lớn.",
           "examples": [
             {
-              "en": "The group discussed the consignment in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về lô hàng trong buổi làm việc hôm nay."
+              "en": "We received positive feedback from clients about our updated consignment.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về lô hàng được cập nhật."
             }
           ],
           "wordFamily": [
@@ -1584,8 +1584,8 @@
           "definitionVi": "Phá hủy hoàn toàn một địa điểm hoặc một khu vực.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to devastate clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, con người thường cần phải suy sụp một cách rõ ràng."
+              "en": "Please devastate carefully so that we can avoid any unnecessary delays.",
+              "vi": "Vui lòng phá hủy cẩn thận để chúng tôi tránh những trì hoãn không cần thiết."
             }
           ],
           "wordFamily": [
@@ -1754,8 +1754,8 @@
           "definitionVi": "Cảm giác không thích mạnh mẽ.",
           "examples": [
             {
-              "en": "The group discussed the disgust in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sự ghê tởm trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of a reliable disgust in our daily operations.",
+              "vi": "Người quản lý nhấn mạnh tầm quan trọng của sự ghê tởm đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -1776,8 +1776,8 @@
           "definitionVi": "Một chiếc bánh rán hình chiếc nhẫn nhỏ.",
           "examples": [
             {
-              "en": "The group discussed the donut in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chiếc bánh rán trong buổi học hôm nay."
+              "en": "Everyone at the meeting agreed that donut should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng donut nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -1805,8 +1805,8 @@
           "definitionVi": "Người canh giữ lối vào.",
           "examples": [
             {
-              "en": "The group discussed the doorman in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người gác cửa trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding doorman in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về người gác cửa trong tệp đính kèm gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -1944,8 +1944,8 @@
           "definitionVi": "Hành vi ghi danh.",
           "examples": [
             {
-              "en": "The group discussed the enrollment in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc tuyển sinh trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that enrollment should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng việc tuyển sinh nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -1991,8 +1991,8 @@
           "definitionVi": "Đơn vị tiền của một số nước thuộc Liên minh Châu Âu.",
           "examples": [
             {
-              "en": "The group discussed the euro in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đồng euro trong phiên hôm nay."
+              "en": "Our handbook includes a practical section explaining how euro affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách euro ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -2212,8 +2212,8 @@
           "definitionVi": "Người chơi gôn kém.",
           "examples": [
             {
-              "en": "The group discussed the hacker in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về hacker trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of a reliable hacker in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một hacker đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -2234,8 +2234,8 @@
           "definitionVi": "Đặc trưng bởi sự chăm chỉ và kiên trì.",
           "examples": [
             {
-              "en": "This updated guide offers a very hardworking option for learners.",
-              "vi": "Hướng dẫn cập nhật này cung cấp một lựa chọn rất chăm chỉ cho người học."
+              "en": "Having a hardworking backup plan helped the team handle unexpected changes.",
+              "vi": "Việc có một kế hoạch dự phòng chăm chỉ giúp đội xử lý những thay đổi bất ngờ."
             }
           ],
           "wordFamily": [],
@@ -2501,8 +2501,8 @@
           "definitionVi": "Một tờ văn phòng phẩm có in tên và địa chỉ của tổ chức ở phía trên.",
           "examples": [
             {
-              "en": "The group discussed the letterhead in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tiêu đề thư trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how letterhead affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực tiễn giải thích cách tiêu đề thư ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -2523,8 +2523,8 @@
           "definitionVi": "Một người phục vụ làm việc tại bãi biển hoặc hồ bơi để bảo vệ người bơi khỏi tai nạn.",
           "examples": [
             {
-              "en": "The group discussed the lifeguard in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về nhân viên cứu hộ trong buổi học hôm nay."
+              "en": "The manager highlighted the importance of a reliable lifeguard in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một nhân viên cứu hộ đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -2550,8 +2550,8 @@
           "definitionVi": "(từ sự kết hợp giữa MOdulate và DEModulate) thiết bị điện tử bao gồm một thiết bị được sử dụng để kết nối các máy tính bằng đường dây điện thoại.",
           "examples": [
             {
-              "en": "The group discussed the modem in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về modem trong buổi học hôm nay."
+              "en": "Everyone at the meeting agreed that modem should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng modem nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [],
@@ -2605,8 +2605,8 @@
           "definitionVi": "Côn trùng hai cánh, con cái có vòi dài để đâm qua da và hút máu người và động vật.",
           "examples": [
             {
-              "en": "The group discussed the mosquito in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về con muỗi trong buổi học hôm nay."
+              "en": "Please check the details regarding mosquito in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về muỗi trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -2820,8 +2820,8 @@
           "definitionVi": "Nguyên nhân tụ tập đông người quá nhiều.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to overcrowd clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải tập trung đông đúc một cách rõ ràng."
+              "en": "We need to overcrowd promptly to keep the schedule on track.",
+              "vi": "Chúng ta cần nhanh chóng quá tải để giữ lịch trình đi đúng hướng."
             }
           ],
           "wordFamily": [],
@@ -2842,8 +2842,8 @@
           "definitionVi": "Người được đào tạo chuyên môn giúp đỡ luật sư.",
           "examples": [
             {
-              "en": "The group discussed the paralegal in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vấn đề trợ lý pháp lý trong buổi họp ngày hôm nay."
+              "en": "We received positive feedback from clients about our updated paralegal.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về trợ lý pháp lý được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -2970,8 +2970,8 @@
           "definitionVi": "Một dụng cụ làm nông có một hoặc nhiều lưỡi dao nặng để phá đất và cắt rãnh trước khi gieo hạt.",
           "examples": [
             {
-              "en": "The group discussed the plow in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc cày xới trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how plow affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực tiễn giải thích cách máy cày ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -3008,8 +3008,8 @@
           "definitionVi": "Một câu hỏi, đặc biệt là câu hỏi để hỏi thông tin hoặc thể hiện sự nghi ngờ về điều gì đó.",
           "examples": [
             {
-              "en": "The group discussed the query in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thắc mắc này trong buổi học ngày hôm nay."
+              "en": "We received positive feedback from clients about our updated query.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về truy vấn cập nhật."
             }
           ],
           "wordFamily": [
@@ -3089,8 +3089,8 @@
           "definitionVi": "Áo khoác chống nước.",
           "examples": [
             {
-              "en": "The group discussed the raincoat in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về áo mưa trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding raincoat in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về áo mưa trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -3151,8 +3151,8 @@
           "definitionVi": "Thiết kế lại, tạo ra một thiết kế mới cho.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to redesign clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải thiết kế lại một cách rõ ràng."
+              "en": "Our team will redesign the details before submitting the final report.",
+              "vi": "Đội ngũ của chúng tôi sẽ thiết kế lại chi tiết trước khi nộp báo cáo cuối cùng."
             }
           ],
           "wordFamily": [],
@@ -3244,8 +3244,8 @@
           "definitionVi": "Một sự kiện lặp đi lặp lại.",
           "examples": [
             {
-              "en": "The group discussed the repetition in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc lặp lại trong buổi học hôm nay."
+              "en": "Please check the details regarding repetition in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về việc lặp lại trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -3309,8 +3309,8 @@
           "definitionVi": "Phòng trưng bày nơi các tác phẩm nghệ thuật có thể được trưng bày.",
           "examples": [
             {
-              "en": "The group discussed the salon in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về salon trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding salon in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về salon trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -3466,8 +3466,8 @@
           "definitionVi": "Một bức tranh đơn giản được vẽ nhanh và không có nhiều chi tiết.",
           "examples": [
             {
-              "en": "The group discussed the sketch in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bản phác thảo trong buổi học hôm nay."
+              "en": "Our handbook includes a practical section explaining how sketch affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực tiễn giải thích cách phác thảo ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -3526,8 +3526,8 @@
           "definitionVi": "Nếu giá trị, số lượng hoặc cấp độ của một thứ gì đó tăng vọt thì nó sẽ tăng rất nhanh.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to soar clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần phải bay bổng rõ ràng."
+              "en": "The coordinator asked everyone to soar ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người nhanh chóng chuẩn bị cho buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -3602,8 +3602,8 @@
           "definitionVi": "Một đại lý mua bán cổ phiếu và trái phiếu.",
           "examples": [
             {
-              "en": "The group discussed the stockbroker in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người môi giới chứng khoán trong buổi hôm nay."
+              "en": "We received positive feedback from clients about our updated stockbroker.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về nhà môi giới chứng khoán được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -3624,8 +3624,8 @@
           "definitionVi": "Một tấm phủ trải trên bàn ăn.",
           "examples": [
             {
-              "en": "The group discussed the tablecloth in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khăn trải bàn trong buổi học hôm nay."
+              "en": "Please check the details regarding tablecloth in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về khăn trải bàn trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -3751,8 +3751,8 @@
           "definitionVi": "Đồ tạo tác dùng để làm nhà vệ sinh (tắm rửa và chăm sóc cơ thể).",
           "examples": [
             {
-              "en": "The group discussed the toiletry in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vấn đề vệ sinh trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how toiletry affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách đồ dùng vệ sinh cá nhân ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -3847,8 +3847,8 @@
           "definitionVi": "Lê gai châu Mỹ nhiệt đới của Jamaica.",
           "examples": [
             {
-              "en": "The group discussed the tuna in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cá ngừ trong buổi học hôm nay."
+              "en": "Our handbook includes a practical section explaining how tuna affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách cá ngừ ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -3901,8 +3901,8 @@
           "definitionVi": "Tuyên bố hoặc làm cho có giá trị pháp lý.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to validate clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần xác nhận rõ ràng."
+              "en": "The coordinator asked everyone to validate ahead of Monday's briefing.",
+              "vi": "Điều phối viên đã yêu cầu mọi người xác nhận trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -4004,8 +4004,8 @@
           "definitionVi": "Một chiếc đồng hồ được đeo ở cổ tay.",
           "examples": [
             {
-              "en": "The group discussed the wristwatch in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đồng hồ đeo tay trong buổi học hôm nay."
+              "en": "We received positive feedback from clients about our updated wristwatch.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về chiếc đồng hồ đeo tay được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -4031,8 +4031,8 @@
           "definitionVi": "Ở lại.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to abide clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, mọi người thường cần phải tuân thủ rõ ràng."
+              "en": "Our team will abide the details before submitting the final report.",
+              "vi": "Đội ngũ của chúng tôi sẽ tuân thủ các chi tiết trước khi nộp báo cáo cuối cùng."
             }
           ],
           "wordFamily": [
@@ -4093,8 +4093,8 @@
           "definitionVi": "Phản ứng quá mẫn với một chất gây dị ứng cụ thể; các triệu chứng có thể khác nhau rất nhiều về cường độ.",
           "examples": [
             {
-              "en": "The group discussed the allergy in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vấn đề dị ứng trong buổi học hôm nay."
+              "en": "Our handbook includes a practical section explaining how allergy affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực hành giải thích cách dị ứng ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -4468,8 +4468,8 @@
           "definitionVi": "Một thứ làm cho thứ gì đó trông hấp dẫn hơn trong những dịp đặc biệt.",
           "examples": [
             {
-              "en": "The group discussed the decoration in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc trang trí trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that decoration should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng trang trí nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -4551,8 +4551,8 @@
           "definitionVi": "Một cách quyết liệt.",
           "examples": [
             {
-              "en": "The staff completed the assignment drastically and accurately.",
-              "vi": "Các nhân viên đã hoàn thành nhiệm vụ một cách quyết liệt và chính xác."
+              "en": "Please review the contract terms drastically before signing the agreement.",
+              "vi": "Vui lòng xem xét kỹ các điều khoản hợp đồng trước khi ký hợp đồng."
             }
           ],
           "wordFamily": [],
@@ -4617,8 +4617,8 @@
           "definitionVi": "Một người đi du lịch đến những vùng ít được biết đến (đặc biệt là vì mục đích khoa học).",
           "examples": [
             {
-              "en": "The group discussed the explorer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về nhà thám hiểm trong buổi học hôm nay."
+              "en": "Please check the details regarding explorer in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về explorer trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -4731,8 +4731,8 @@
           "definitionVi": "Quần áo mặc ở chân.",
           "examples": [
             {
-              "en": "The group discussed the footwear in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về giày dép trong buổi học hôm nay."
+              "en": "We received positive feedback from clients about our updated footwear.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về các sản phẩm giày dép được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -4753,8 +4753,8 @@
           "definitionVi": "Một thể loại hoặc phong cách văn học, nghệ thuật, phim ảnh hoặc âm nhạc cụ thể mà bạn có thể nhận ra nhờ những nét đặc biệt của nó.",
           "examples": [
             {
-              "en": "The group discussed the genre in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thể loại này trong buổi học hôm nay."
+              "en": "Our handbook includes a practical section explaining how genre affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách thể loại ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -4775,8 +4775,8 @@
           "definitionVi": "Trường dành cho học sinh trung cấp giữa tiểu học và đại học; thường là lớp 9 đến lớp 12.",
           "examples": [
             {
-              "en": "The group discussed the gymnasium in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phòng tập thể dục trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that gymnasium should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng phòng tập thể dục nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -4887,8 +4887,8 @@
           "definitionVi": "Tự làm hoặc sản xuất tại nhà hoặc do chính bạn làm.",
           "examples": [
             {
-              "en": "This updated guide offers a very homemade option for learners.",
-              "vi": "Hướng dẫn cập nhật này cung cấp một lựa chọn rất tự chế cho người học."
+              "en": "Management is looking for a more homemade approach to quarterly planning.",
+              "vi": "Ban quản lý đang tìm kiếm một cách tiếp cận tự chủ hơn trong việc lập kế hoạch hàng quý."
             }
           ],
           "wordFamily": [],
@@ -4998,8 +4998,8 @@
             }
           ],
           "audioUrlUK": "https://api.dictionaryapi.dev/media/pronunciations/en/acclaim-uk.mp3",
-          "definitionEn": "A concept, item, or formal term closely related to praise, applause, recognition.",
-          "definitionVi": "Danh từ dùng để chỉ sự khen ngợi nhiệt liệt, tán dương.",
+          "definitionEn": "Enthusiastic approval.",
+          "definitionVi": "Sự tán thành nhiệt tình.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "praise": "khen ngợi",
@@ -5092,8 +5092,8 @@
               "meaning": "đạt trạng thái cân bằng"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to balance, stability.",
-          "definitionVi": "Danh từ dùng để chỉ trạng thái cân bằng.",
+          "definitionEn": "A stable situation in which forces cancel one another.",
+          "definitionVi": "Một tình huống ổn định nơi các lực lượng triệt tiêu lẫn nhau.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "balance": "số dư tài khoản; sự cân bằng",
@@ -5131,8 +5131,8 @@
               "meaning": "thặng dư ngân sách"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to excess, overflow, extra.",
-          "definitionVi": "Danh từ dùng để chỉ lượng dư thừa, thặng dư.",
+          "definitionEn": "A quantity much larger than is needed.",
+          "definitionVi": "Một số lượng lớn hơn nhiều so với nhu cầu.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "excess": "thừa",
@@ -5225,8 +5225,8 @@
               "meaning": "trợ cấp chính phủ"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to grant, allowance, stipend.",
-          "definitionVi": "Danh từ dùng để chỉ khoản trợ cấp (từ chính phủ/công ty).",
+          "definitionEn": "A grant paid by a government to an enterprise that benefits the public.",
+          "definitionVi": "Một khoản trợ cấp do chính phủ chi trả cho một doanh nghiệp mang lại lợi ích cho công chúng.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "grant": "khoản trợ cấp, tài trợ",
@@ -5288,8 +5288,8 @@
               "meaning": "chuẩn mực ngành"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to standard, yardstick, criterion.",
-          "definitionVi": "Danh từ dùng để chỉ chuẩn mực đối chiếu, cột mốc chuẩn.",
+          "definitionEn": "A standard by which something can be measured or judged.",
+          "definitionVi": "Một tiêu chuẩn để đo lường hoặc đánh giá một điều gì đó.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "standard": "tiêu chuẩn",
@@ -5323,8 +5323,8 @@
               "meaning": "khí thải carbon"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to discharge, release.",
-          "definitionVi": "Danh từ dùng để chỉ khí thải, sự phát thải.",
+          "definitionEn": "The act of emitting; causing to flow forth.",
+          "definitionVi": "Hành động phát ra; khiến dòng chảy chảy ra.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "discharge": "giải ngũ",
@@ -5411,8 +5411,8 @@
               "meaning": "biểu thuế hải quan"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to duty, import tax, levy.",
-          "definitionVi": "Danh từ dùng để chỉ thuế quan xuất nhập khẩu.",
+          "definitionEn": "A government tax on imports or exports.",
+          "definitionVi": "Một loại thuế chính phủ đối với nhập khẩu hoặc xuất khẩu.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "duty": "nhiệm vụ",
@@ -5507,8 +5507,8 @@
               "meaning": "đạt được sự đồng thuận"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to agreement, unanimity, accord.",
-          "definitionVi": "Danh từ dùng để chỉ sự đồng thuận chung.",
+          "definitionEn": "Agreement in the judgment or opinion reached by a group as a whole.",
+          "definitionVi": "Sự đồng thuận trong phán quyết hoặc ý kiến của toàn nhóm.",
           "topicId": "topic-business-g9",
           "relationMeanings": {
             "agreement": "hợp đồng, thỏa thuận",
@@ -5597,8 +5597,8 @@
           "definitionVi": "Sự tử tế trong việc tiếp đón khách hoặc người lạ.",
           "examples": [
             {
-              "en": "The group discussed the hospitality in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sự hiếu khách trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable hospitality in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của dịch vụ khách hàng đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -5744,8 +5744,8 @@
           "definitionVi": "Dụng cụ làm vườn để cắt cỏ trên bãi cỏ.",
           "examples": [
             {
-              "en": "The group discussed the mower in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về máy cắt cỏ trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how mower affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách máy cắt cỏ ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -5777,8 +5777,8 @@
           "definitionVi": "(sinh lý học) quá trình hữu cơ nuôi dưỡng hoặc được nuôi dưỡng; các quá trình mà sinh vật hấp thụ thức ăn và sử dụng nó cho sự phát triển và duy trì.",
           "examples": [
             {
-              "en": "The group discussed the nutrition in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về dinh dưỡng trong buổi họp hôm nay."
+              "en": "Advice on diet and nutrition.",
+              "vi": "Lời khuyên về chế độ ăn uống và dinh dưỡng."
             }
           ],
           "wordFamily": [
@@ -5820,8 +5820,8 @@
           "definitionVi": "Một tuyên bố đã được sửa đổi.",
           "examples": [
             {
-              "en": "The group discussed the restatement in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc tuyên bố lại trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how restatement affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách việc tái ghi chép ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -5843,13 +5843,13 @@
           "pos": "n",
           "ipaUK": "/sədˈæn/",
           "ipaUS": "/sədˈæn/",
-          "meaning": "sedan",
+          "meaning": "xe ô tô 4 chỗ gầm thấp",
           "definitionEn": "A car that is closed and that has front and rear seats and two or four doors.",
           "definitionVi": "Một loại xe hơi kín, có ghế trước và ghế sau, và hai hoặc bốn cửa.",
           "examples": [
             {
-              "en": "The group discussed the sedan in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chiếc sedan trong buổi họp hôm nay."
+              "en": "Please check the details regarding sedan in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về sedan trong tệp đính kèm gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -5875,8 +5875,8 @@
           "definitionVi": "Một loại kem bôi trên da; chứa một hóa chất (như PABA) để lọc tia cực tím và bảo vệ khỏi cháy nắng.",
           "examples": [
             {
-              "en": "The group discussed the sunscreen in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về kem chống nắng trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated sunscreen.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về kem chống nắng được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -5904,8 +5904,8 @@
           "definitionVi": "Tình trạng khỏe mạnh, không bệnh tật.",
           "examples": [
             {
-              "en": "The group discussed the wellness in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sức khỏe trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable wellness in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của việc chăm sóc sức khỏe đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -5942,8 +5942,8 @@
           "definitionVi": "Một cuốn sách hoặc tập sách của học sinh chứa các bài tập với khoảng trống để giải.",
           "examples": [
             {
-              "en": "The group discussed the workbook in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sách bài tập trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how workbook affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách sổ làm việc ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -5964,8 +5964,8 @@
           "definitionVi": "Một món đồ nội thất có các kệ để cất giữ sách.",
           "examples": [
             {
-              "en": "The group discussed the bookcase in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tủ sách trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable bookcase in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một giá sách đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -5986,8 +5986,8 @@
           "definitionVi": "Thói quen duy trì không bị những khuyết điểm bề ngoài.",
           "examples": [
             {
-              "en": "The group discussed the cleanliness in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sự sạch sẽ trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how cleanliness affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách sự sạch sẽ ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -6014,8 +6014,8 @@
           "definitionVi": "Một người tham gia các cuộc thi.",
           "examples": [
             {
-              "en": "The group discussed the contestant in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thí sinh trong buổi họp hôm nay."
+              "en": "Please check the details regarding contestant in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về thí sinh trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -6036,8 +6036,8 @@
           "definitionVi": "Động lực dựa trên ý tưởng về đúng và sai.",
           "examples": [
             {
-              "en": "The group discussed the ethics in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đạo đức trong buổi họp hôm nay."
+              "en": "Clear documentation of these ethics will save time during the audit.",
+              "vi": "Việc ghi chép rõ ràng các quy tắc đạo đức này sẽ giúp tiết kiệm thời gian trong quá trình kiểm toán."
             }
           ],
           "wordFamily": [
@@ -6149,8 +6149,8 @@
           "definitionVi": "Một đơn vị đo dung tích theo hệ mét, trước đây được định nghĩa là thể tích của một kilôgam nước tinh khiết dưới điều kiện tiêu chuẩn; hiện tại bằng 1.000 cm khối (hoặc xấp xỉ 1,75 pint).",
           "examples": [
             {
-              "en": "The group discussed the liter in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về lít trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated liter.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về lứa mới của mình."
             }
           ],
           "wordFamily": [],
@@ -6182,8 +6182,8 @@
           "definitionVi": "Tình trạng nền kinh tế suy giảm; sự suy giảm rộng rãi trong GDP, việc làm và thương mại kéo dài từ sáu tháng đến một năm.",
           "examples": [
             {
-              "en": "The group discussed the recession in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về suy thoái trong buổi họp hôm nay."
+              "en": "How do you assess the impact of the current recession on manufacturing?",
+              "vi": "Ông đánh giá tác động của cuộc suy thoái hiện tại đối với ngành sản xuất như thế nào?"
             }
           ],
           "wordFamily": [
@@ -6215,8 +6215,8 @@
           "definitionVi": "Một chuỗi các sự kiện có liên quan được sắp xếp theo thứ tự thời gian và hiển thị dọc theo một dòng (thường vẽ từ trái sang phải hoặc từ trên xuống dưới).",
           "examples": [
             {
-              "en": "The group discussed the timeline in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về dòng thời gian trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that timeline should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng tiến độ nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -6307,8 +6307,8 @@
           "definitionVi": "Trông giống như; tương tự hoặc có sự giống nhau với.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to resemble clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải xuất hiện rõ ràng."
+              "en": "The coordinator asked everyone to resemble ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người chuẩn bị trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -6422,8 +6422,8 @@
           "definitionVi": "Sự khác biệt giữa giá thị trường của một bất động sản và các khoản nợ đối với nó.",
           "examples": [
             {
-              "en": "The group discussed the equity in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vốn chủ sở hữu trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of an reliable equity in our daily operations.",
+              "vi": "Nhà quản lý nhấn mạnh tầm quan trọng của vốn chủ sở hữu đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -6444,8 +6444,8 @@
           "definitionVi": "Phủ định một từ hoặc nhóm từ.",
           "examples": [
             {
-              "en": "The staff completed the assignment non and accurately.",
-              "vi": "Nhân viên đã hoàn thành nhiệm vụ một cách không và chính xác."
+              "en": "Please review the contract terms non before signing the agreement.",
+              "vi": "Vui lòng xem lại các điều khoản hợp đồng trước khi ký hợp đồng."
             }
           ],
           "wordFamily": [],
@@ -6471,8 +6471,8 @@
           "definitionVi": "Một hàng rào được tạo thành từ một hàng cây bụi hoặc cây thấp được trồng sát nhau.",
           "examples": [
             {
-              "en": "The group discussed the hedge in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về biện pháp phòng ngừa rủi ro trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that hedge should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng hàng rào nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -6509,8 +6509,8 @@
           "definitionVi": "Khoảng thời gian trong cuộc đời bạn sau khi sự phát triển về thể chất đã dừng lại và bạn đã phát triển hoàn toàn.",
           "examples": [
             {
-              "en": "The group discussed the maturity in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sự trưởng thành trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how maturity affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách sự trưởng thành ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -6595,8 +6595,8 @@
           "definitionVi": "Một sự kiện đi ngược lại những kỳ vọng.",
           "examples": [
             {
-              "en": "The group discussed the variance in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phương sai trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable variance in our daily operations.",
+              "vi": "Người quản lý nhấn mạnh tầm quan trọng của sự biến động đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -6693,8 +6693,8 @@
           "definitionVi": "Một người phản đối (một hành động hoặc chính sách hay thực hành nào đó, v.v.).",
           "examples": [
             {
-              "en": "The group discussed the anti in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chống trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that anti should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng chống lại nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -6715,8 +6715,8 @@
           "definitionVi": "Thứ được nhận thức hoặc biết hoặc suy luận là có sự tồn tại riêng biệt (sống hoặc không sống).",
           "examples": [
             {
-              "en": "The group discussed the entity in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thực thể trong buổi họp hôm nay."
+              "en": "The unit has become part of a larger department and no longer exists as a separate entity.",
+              "vi": "Đơn vị này đã trở thành một phần của một phòng ban lớn hơn và không còn tồn tại như một thực thể riêng biệt."
             }
           ],
           "wordFamily": [],
@@ -6737,8 +6737,8 @@
           "definitionVi": "Các mặt hàng thương mại.",
           "examples": [
             {
-              "en": "The group discussed the commodity in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về hàng hóa trong phiên họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how commodity affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách hàng hóa ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -6766,8 +6766,8 @@
           "definitionVi": "Liên quan đến hoặc bao gồm tiền bạc.",
           "examples": [
             {
-              "en": "This updated guide offers a very monetary option for learners.",
-              "vi": "Hướng dẫn cập nhật này cung cấp một lựa chọn rất về tiền tệ cho người học."
+              "en": "Management is looking for a more monetary approach to quarterly planning.",
+              "vi": "Ban lãnh đạo đang tìm kiếm một cách tiếp cận tài chính hơn cho việc lập kế hoạch hàng quý."
             }
           ],
           "wordFamily": [
@@ -6811,8 +6811,8 @@
           "definitionVi": "Toàn bộ số lượng.",
           "examples": [
             {
-              "en": "The group discussed the aggregate in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tổng hợp trong buổi hôm nay."
+              "en": "We received positive feedback from clients about our updated aggregate.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về tổng hợp cập nhật."
             }
           ],
           "wordFamily": [
@@ -6926,8 +6926,8 @@
           "definitionVi": "Một trợ lý chịu quyền hạn hoặc kiểm soát của người khác.",
           "examples": [
             {
-              "en": "The group discussed the subsidiary in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về công ty con trong buổi hôm nay."
+              "en": "Everyone at the meeting agreed that subsidiary should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng công ty con nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -6985,8 +6985,8 @@
           "definitionVi": "Một phần cổ phần được dành riêng cho một mục đích cụ thể.",
           "examples": [
             {
-              "en": "The group discussed the allocation in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phân bổ trong buổi hôm nay."
+              "en": "We have spent our entire allocation for the year.",
+              "vi": "Chúng tôi đã tiêu hết toàn bộ khoản phân bổ của mình cho năm nay."
             }
           ],
           "wordFamily": [
@@ -7140,8 +7140,8 @@
           "definitionVi": "Một người mà con nợ nợ tiền; ai đó mà có một nghĩa vụ tồn tại.",
           "examples": [
             {
-              "en": "The group discussed the creditor in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chủ nợ trong phiên họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable creditor in our daily operations.",
+              "vi": "Người quản lý nhấn mạnh tầm quan trọng của một chủ nợ đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -7211,8 +7211,8 @@
           "definitionVi": "Một chiếc bánh mì dài giòn được cắt dọc và nhồi thịt và phô mai (và cà chua, hành tây, xà lách cùng gia vị); các tên gọi khác nhau được sử dụng ở các vùng khác nhau của Hoa Kỳ.",
           "examples": [
             {
-              "en": "The group discussed the sub in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bánh mì dài trong phiên họp hôm nay."
+              "en": "Please check the details regarding sub in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về sub trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -7277,8 +7277,8 @@
           "definitionVi": "Hành động ngôn từ làm cho điều gì đó trở nên rõ ràng.",
           "examples": [
             {
-              "en": "The group discussed the disclosure in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc công bố trong phiên họp hôm nay."
+              "en": "The newspaper’s disclosure of defence secrets.",
+              "vi": "Việc báo chí tiết lộ bí mật quốc phòng."
             }
           ],
           "wordFamily": [
@@ -7312,8 +7312,8 @@
           "definitionVi": "Tổ chức là cơ quan quản lý của một đơn vị chính trị.",
           "examples": [
             {
-              "en": "The group discussed the regime in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chế độ trong phiên họp hôm nay."
+              "en": "A fascist/totalitarian/military, etc. regime.",
+              "vi": "Một chế độ phát xít/toàn trị/quân sự, v.v."
             }
           ],
           "wordFamily": [],
@@ -7381,8 +7381,8 @@
           "definitionVi": "Một cơ quan lập pháp ở một số quốc gia.",
           "examples": [
             {
-              "en": "The group discussed the parliament in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về quốc hội trong phiên họp hôm nay."
+              "en": "The German parliament is called the ‘Bundestag’.",
+              "vi": "Quốc hội Đức được gọi là ‘Bundestag’."
             }
           ],
           "wordFamily": [
@@ -7409,8 +7409,8 @@
           "definitionVi": "Một tổ chức của những người (hoặc quốc gia) tham gia vào một hiệp ước hoặc thỏa thuận.",
           "examples": [
             {
-              "en": "The group discussed the coalition in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về liên minh trong phiên họp hôm nay."
+              "en": "The two parties have formed a coalition.",
+              "vi": "Hai đảng đã thành lập một liên minh."
             }
           ],
           "wordFamily": [],
@@ -7465,8 +7465,8 @@
           "definitionVi": "Người cho vay tiền hoặc cấp tín dụng trong các vấn đề kinh doanh.",
           "examples": [
             {
-              "en": "The group discussed the lender in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người cho vay trong phiên họp hôm nay."
+              "en": "We received positive feedback from clients about our updated lender.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về nhà cho vay mới của mình."
             }
           ],
           "wordFamily": [
@@ -7506,8 +7506,8 @@
           "definitionVi": "Mười hai tá.",
           "examples": [
             {
-              "en": "The group discussed the gross in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tổng số trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that gross should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng tổng thu nhập nên là ưu tiên hàng đầu của chúng tôi trong quý này."
             }
           ],
           "wordFamily": [
@@ -7534,8 +7534,8 @@
           "definitionVi": "Trạng thái mà trong đó một chất thể hiện tính sẵn sàng chảy với ít hoặc không có xu hướng phân tán và độ nén tương đối cao.",
           "examples": [
             {
-              "en": "The group discussed the liquidity in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tính thanh khoản trong buổi họp hôm nay."
+              "en": "Please check the details regarding liquidity in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về thanh khoản trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -7581,8 +7581,8 @@
           "definitionVi": "Sự lừa dối có chủ ý dẫn đến tổn hại cho người khác.",
           "examples": [
             {
-              "en": "The group discussed the fraud in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về gian lận trong buổi họp hôm nay."
+              "en": "She was charged with credit card fraud.",
+              "vi": "Cô ấy bị buộc tội gian lận thẻ tín dụng."
             }
           ],
           "wordFamily": [],
@@ -7603,8 +7603,8 @@
           "definitionVi": "Bất kỳ thiết bị hoặc bộ điều khiển nào dùng để điều tiết hoặc kiểm soát dòng chảy, áp suất, nhiệt độ, v.v.",
           "examples": [
             {
-              "en": "The group discussed the regulator in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bộ điều chỉnh trong buổi họp hôm nay."
+              "en": "Ofgas, the gas industry regulator.",
+              "vi": "Ofgas, cơ quan quản lý ngành công nghiệp khí đốt."
             }
           ],
           "wordFamily": [
@@ -7668,8 +7668,8 @@
           "definitionVi": "Sự trao đổi có giá trị tương đương.",
           "examples": [
             {
-              "en": "The group discussed the swap in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về trao đổi trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how swap affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách hoán đổi ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -7699,8 +7699,8 @@
           "definitionVi": "Tình trạng bất thường khi sự phát triển dừng lại sớm.",
           "examples": [
             {
-              "en": "The group discussed the regression in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thoái triển trong buổi họp hôm nay."
+              "en": "Please check the details regarding regression in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về hồi quy trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -7790,8 +7790,8 @@
           "definitionVi": "Người mua và duy trì hàng tồn kho để bán.",
           "examples": [
             {
-              "en": "The group discussed the trader in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người thương nhân trong phiên hôm nay."
+              "en": "Everyone at the meeting agreed that trader should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng thương nhân nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -7920,8 +7920,8 @@
           "definitionVi": "Một sự thất bại trong việc thực hiện một hành động hoặc nghĩa vụ đã hứa.",
           "examples": [
             {
-              "en": "The group discussed the breach in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vi phạm trong phiên họp hôm nay."
+              "en": "A breach of contract/copyright/warranty.",
+              "vi": "Vi phạm hợp đồng/bản quyền/bảo hành."
             }
           ],
           "wordFamily": [],
@@ -7996,8 +7996,8 @@
           "definitionVi": "Một tổ chức phát hành một thứ gì đó (chứng khoán hoặc ấn phẩm hoặc tiền tệ, v.v.).",
           "examples": [
             {
-              "en": "The group discussed the issuer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người phát hành trong phiên họp hôm nay."
+              "en": "We received positive feedback from clients about our updated issuer.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về nhà phát hành mới của mình."
             }
           ],
           "wordFamily": [
@@ -8029,8 +8029,8 @@
           "definitionVi": "Người nhận một thứ gì đó với lời hứa sẽ trả lại nó hoặc tương đương của nó.",
           "examples": [
             {
-              "en": "The group discussed the borrower in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người mượn trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable borrower in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một người vay đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -8069,8 +8069,8 @@
           "definitionVi": "Một tổ chức tài chính bán bảo hiểm.",
           "examples": [
             {
-              "en": "The group discussed the insurer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về công ty bảo hiểm trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of an reliable insurer in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một công ty bảo hiểm đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -8113,15 +8113,15 @@
           "definitionVi": "Chất lượng của việc có thể tạo ra một lợi ích hoặc lợi nhuận.",
           "examples": [
             {
-              "en": "The group discussed the profitability in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khả năng sinh lợi trong buổi họp hôm nay."
+              "en": "Please check the details regarding profitability in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về lợi nhuận trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
             {
               "word": "profitable",
               "pos": "adj",
-              "meaning": "có lãi"
+              "meaning": "có lợi nhuận, sinh lời"
             },
             {
               "word": "profitableness",
@@ -8188,8 +8188,8 @@
           "definitionVi": "Việc sử dụng bạo lực có tính toán (hoặc mối đe dọa bạo lực) đối với dân thường nhằm đạt được các mục tiêu chính trị, tôn giáo hoặc ý thức hệ; điều này được thực hiện thông qua hăm dọa, cưỡng chế hoặc tạo ra nỗi sợ.",
           "examples": [
             {
-              "en": "The group discussed the terrorism in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khủng bố trong buổi họp hôm nay."
+              "en": "An act of terrorism.",
+              "vi": "Một hành động khủng bố."
             }
           ],
           "wordFamily": [
@@ -8228,8 +8228,8 @@
           "definitionVi": "Hạn chế theo quy tắc hoặc nguyên tắc.",
           "examples": [
             {
-              "en": "This updated guide offers a very regulatory option for learners.",
-              "vi": "Hướng dẫn cập nhật này cung cấp một lựa chọn rất điều chỉnh cho người học."
+              "en": "Regulatory bodies/authorities/agencies.",
+              "vi": "Các cơ quan/chính quyền/tổ chức quản lý."
             }
           ],
           "wordFamily": [
@@ -8276,8 +8276,8 @@
           "definitionVi": "Một con số hằng số dùng làm thước đo cho một số tính chất hoặc đặc điểm.",
           "examples": [
             {
-              "en": "The group discussed the coefficient in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về hệ số trong buổi họp hôm nay."
+              "en": "Please check the details regarding coefficient in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về hệ số trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -8363,8 +8363,8 @@
           "definitionVi": "Cấu trúc hoặc các đặc điểm cơ bản của một hệ thống hoặc tổ chức.",
           "examples": [
             {
-              "en": "The group discussed the infrastructure in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cơ sở hạ tầng trong phiên họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how infrastructure affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách hạ tầng ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -8472,8 +8472,8 @@
           "definitionVi": "Người được ủy thác giữ cược cho hai hoặc nhiều người cá cược với nhau; phải giao cược cho người thắng.",
           "examples": [
             {
-              "en": "The group discussed the stakeholder in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bên liên quan trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated stakeholder.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về các bên liên quan đã được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -8494,8 +8494,8 @@
           "definitionVi": "Người đóng thuế.",
           "examples": [
             {
-              "en": "The group discussed the taxpayer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người nộp thuế trong buổi họp hôm nay."
+              "en": "Please check the details regarding taxpayer in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về người nộp thuế trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -8516,8 +8516,8 @@
           "definitionVi": "Trạng thái liên minh hoặc liên kết.",
           "examples": [
             {
-              "en": "The group discussed the alliance in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về liên minh trong buổi họp hôm nay."
+              "en": "To form/make an alliance.",
+              "vi": "Hình thành/lập một liên minh."
             }
           ],
           "wordFamily": [
@@ -8549,8 +8549,8 @@
           "definitionVi": "Một người nợ tiền chủ nợ; người có nghĩa vụ trả nợ.",
           "examples": [
             {
-              "en": "The group discussed the debtor in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về con nợ trong phiên họp hôm nay."
+              "en": "Please check the details regarding debtor in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về con nợ trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -8612,8 +8612,8 @@
           "definitionVi": "Một hằng số trong phương trình của một đường cong có thể thay đổi để tạo ra một gia đình các đường cong tương tự.",
           "examples": [
             {
-              "en": "The group discussed the parameter in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tham số trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how parameter affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách tham số ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -8645,8 +8645,8 @@
           "definitionVi": "Hành động kết hợp một nhóm sắc tộc hoặc tôn giáo vào cộng đồng.",
           "examples": [
             {
-              "en": "The group discussed the integration in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc hòa nhập trong phiên họp hôm nay."
+              "en": "The aim is to promote closer economic integration.",
+              "vi": "Mục tiêu là thúc đẩy hội nhập kinh tế chặt chẽ hơn."
             }
           ],
           "wordFamily": [
@@ -8698,8 +8698,8 @@
           "definitionVi": "Tin đồn xấu về đời sống riêng tư của người khác.",
           "examples": [
             {
-              "en": "The group discussed the scandal in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vụ bê bối trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how scandal affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách scandal ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -8743,8 +8743,8 @@
           "definitionVi": "Một độ dài thời gian xác định được đánh dấu bởi hai thời điểm.",
           "examples": [
             {
-              "en": "The group discussed the interval in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khoảng thời gian trong buổi họp hôm nay."
+              "en": "The interval between major earthquakes might be 200 years.",
+              "vi": "Khoảng cách giữa các trận động đất lớn có thể là 200 năm."
             }
           ],
           "wordFamily": [],
@@ -8770,8 +8770,8 @@
           "definitionVi": "Giữ lại cho thời gian sau.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to defer clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải hoãn rõ ràng."
+              "en": "The coordinator asked everyone to defer ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người hoãn lại trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -8824,8 +8824,8 @@
           "definitionVi": "Khoản thanh toán cuối cùng của một món nợ.",
           "examples": [
             {
-              "en": "The group discussed the payoff in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khoản thanh toán cuối cùng trong buổi họp hôm nay."
+              "en": "Please check the details regarding payoff in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về khoản thanh toán trong tệp đính kèm gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -8980,8 +8980,8 @@
           "definitionVi": "Người quảng bá hoặc trao đổi hàng hóa hoặc dịch vụ để lấy tiền.",
           "examples": [
             {
-              "en": "The group discussed the marketer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về nhà tiếp thị trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that marketer should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng marketer nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -9029,8 +9029,8 @@
           "definitionVi": "`Johnny' được các binh sĩ Liên bang đặt làm biệt danh cho binh sĩ Liên minh trong Nội chiến Mỹ; `greyback' bắt nguồn từ đồng phục màu xám của Liên minh.",
           "examples": [
             {
-              "en": "The group discussed the rebel in detail during today's session.",
-              "vi": "Nhóm đã bàn luận chi tiết về kẻ nổi loạn trong phiên họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how rebel affects workflow.",
+              "vi": "Sổ tay của chúng tôi có phần thực tiễn giải thích cách Rebel ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -9064,8 +9064,8 @@
           "definitionVi": "Một đạo luật được thông qua bởi cơ quan lập pháp.",
           "examples": [
             {
-              "en": "The group discussed the statute in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về luật trong buổi họp hôm nay."
+              "en": "Please check the details regarding statute in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về luật trong tài liệu đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -9118,8 +9118,8 @@
           "definitionVi": "Một thứ còn lại sau khi các phần khác đã bị lấy đi.",
           "examples": [
             {
-              "en": "The group discussed the residual in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phần còn lại trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated residual.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về số dư cập nhật."
             }
           ],
           "wordFamily": [
@@ -9205,8 +9205,8 @@
           "definitionVi": "Một dạng đầu tư có tính phòng ngừa rủi ro nhằm nắm bắt sự khác biệt nhỏ về giá; khi có sự khác biệt về giá của một thứ gì đó trên hai thị trường khác nhau, nhà kinh doanh chênh lệch giá sẽ đồng thời mua ở giá thấp hơn và bán ở giá cao hơn.",
           "examples": [
             {
-              "en": "The group discussed the arbitrage in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc chênh lệch giá trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of an reliable arbitrage in our daily operations.",
+              "vi": "Nhà quản lý nhấn mạnh tầm quan trọng của một hoạt động chênh lệch giá đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -9287,8 +9287,8 @@
           "definitionVi": "Ghi nhớ hoặc truyền đạt như một niềm tin hoặc quan điểm.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to deem clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải đánh giá một cách rõ ràng."
+              "en": "Deem somebody/something + noun, The evening was deemed a great success.",
+              "vi": "Coi ai đó/cái gì đó + danh từ, Buổi tối được coi là một thành công lớn."
             }
           ],
           "wordFamily": [],
@@ -9318,8 +9318,8 @@
           "definitionVi": "Một người hoặc tổ chức mà một hành động pháp lý được đưa ra trước toà; người đang bị kiện hoặc bị buộc tội.",
           "examples": [
             {
-              "en": "The group discussed the defendant in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bị cáo trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how defendant affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách bị đơn ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -9409,8 +9409,8 @@
           "definitionVi": "(toán học) một mảng hình chữ nhật của các lượng hoặc biểu thức được sắp xếp theo hàng và cột; được coi như một phần tử đơn và thao tác theo các quy tắc.",
           "examples": [
             {
-              "en": "The group discussed the matrix in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về ma trận trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how matrix affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách ma trận ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -9464,8 +9464,8 @@
           "definitionVi": "Đảm bảo tuân thủ luật pháp và các quy tắc.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to enforce clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải thực thi một cách rõ ràng."
+              "en": "Enforce something, It's the job of the police to enforce the law.",
+              "vi": "Thực thi điều gì đó, nhiệm vụ của cảnh sát là thực thi pháp luật."
             }
           ],
           "wordFamily": [
@@ -9507,8 +9507,8 @@
           "definitionVi": "Một trát từ tòa án yêu cầu cảnh sát thực hiện các hành động cụ thể.",
           "examples": [
             {
-              "en": "The group discussed the warrant in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về lệnh trong phiên họp hôm nay."
+              "en": "An arrest warrant.",
+              "vi": "Lệnh bắt giữ."
             }
           ],
           "wordFamily": [
@@ -9545,8 +9545,8 @@
           "definitionVi": "(thường là số nhiều) các hệ thống được sử dụng để truyền tải thông điệp qua khoảng cách điện tử.",
           "examples": [
             {
-              "en": "The group discussed the telecom in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về viễn thông trong phiên họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how telecom affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách viễn thông ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -9626,8 +9626,8 @@
           "definitionVi": "Một đạo luật được chuyển cho việc phê chuẩn cuối cùng bởi cuộc bỏ phiếu phổ thông của cử tri.",
           "examples": [
             {
-              "en": "The group discussed the referendum in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cuộc trưng cầu dân ý trong phiên họp hôm nay."
+              "en": "Referendum on something, Switzerland decided to hold a referendum on joining the EU.",
+              "vi": "Trưng cầu dân ý về điều gì, Thụy Sĩ quyết định tổ chức một cuộc trưng cầu dân ý về việc gia nhập EU."
             }
           ],
           "wordFamily": [],
@@ -9648,8 +9648,8 @@
           "definitionVi": "Một thỏa thuận bằng văn bản giữa hai quốc gia hoặc hai chủ quyền.",
           "examples": [
             {
-              "en": "The group discussed the treaty in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về hiệp ước trong phiên họp hôm nay."
+              "en": "The Treaty of Rome.",
+              "vi": "Hiệp ước Rome."
             }
           ],
           "wordFamily": [],
@@ -9712,8 +9712,8 @@
           "definitionVi": "Trích thu từ cá nhân, tài sản hoặc hoạt động của công dân để hỗ trợ chính quyền.",
           "examples": [
             {
-              "en": "The group discussed the taxation in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thuế trong phiên họp hôm nay."
+              "en": "Please check the details regarding taxation in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về thuế trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [
@@ -9812,8 +9812,8 @@
           "definitionVi": "Một người khởi kiện tại tòa án.",
           "examples": [
             {
-              "en": "The group discussed the plaintiff in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về nguyên đơn trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable plaintiff in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một nguyên đơn đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -9880,8 +9880,8 @@
           "definitionVi": "Một người đến từ một quốc gia khác; ai đó không có nghĩa vụ trung thành với đất nước của bạn.",
           "examples": [
             {
-              "en": "The group discussed the foreigner in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người nước ngoài trong buổi họp hôm nay."
+              "en": "The fact that I was a foreigner was a big disadvantage.",
+              "vi": "Việc tôi là người nước ngoài là một bất lợi lớn."
             }
           ],
           "wordFamily": [],
@@ -9914,8 +9914,8 @@
           "definitionVi": "(về hàng hóa hoặc quỹ) phải chịu thuế.",
           "examples": [
             {
-              "en": "This updated guide offers a very taxable option for learners.",
-              "vi": "Hướng dẫn cập nhật này cung cấp một lựa chọn rất chịu thuế cho người học."
+              "en": "The presentation was concise, well-structured, and remarkably taxable.",
+              "vi": "Phần trình bày ngắn gọn, có cấu trúc tốt và đáng ngạc nhiên là phải chịu thuế."
             }
           ],
           "wordFamily": [
@@ -9960,8 +9960,8 @@
           "definitionVi": "Chất lượng có vị trí kém hơn hoặc ít thuận lợi hơn.",
           "examples": [
             {
-              "en": "The group discussed the disadvantage in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bất lợi trong buổi họp hôm nay."
+              "en": "A serious/severe/significant disadvantage.",
+              "vi": "Một bất lợi nghiêm trọng/nghiêm khắc/đáng kể."
             }
           ],
           "wordFamily": [
@@ -9993,8 +9993,8 @@
           "definitionVi": "Một trợ lý chịu quyền hạn hoặc kiểm soát của người khác.",
           "examples": [
             {
-              "en": "The group discussed the subordinate in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về cấp dưới trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable subordinate in our daily operations.",
+              "vi": "Người quản lý nhấn mạnh tầm quan trọng của một cấp dưới đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -10035,8 +10035,8 @@
           "definitionVi": "Quá trình chảy vào.",
           "examples": [
             {
-              "en": "The group discussed the inflow in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về dòng chảy vào trong buổi họp hôm nay."
+              "en": "The manager highlighted the importance of an reliable inflow in our daily operations.",
+              "vi": "Nhà quản lý nhấn mạnh tầm quan trọng của việc có nguồn vốn đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -10231,8 +10231,8 @@
           "definitionVi": "Một bản ghi trong đó các tài khoản thương mại được ghi lại.",
           "examples": [
             {
-              "en": "The group discussed the ledger in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sổ cái trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that ledger should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng sổ cái nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -10333,8 +10333,8 @@
           "definitionVi": "Trả nợ.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to repay clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần trả lại một cách rõ ràng."
+              "en": "Our team will repay the details before submitting the final report.",
+              "vi": "Đội ngũ của chúng tôi sẽ hoàn trả chi tiết trước khi nộp báo cáo cuối cùng."
             }
           ],
           "wordFamily": [
@@ -10521,8 +10521,8 @@
           "definitionVi": "Một lập luận phản đối một đề xuất.",
           "examples": [
             {
-              "en": "The group discussed the con in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về mặt tiêu cực trong phiên họp hôm nay."
+              "en": "The manager highlighted the importance of a reliable con in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một con lừa đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [],
@@ -10625,8 +10625,8 @@
           "definitionVi": "Người đi trước bạn về thời gian (như trong việc nắm giữ một vị trí hoặc chức vụ).",
           "examples": [
             {
-              "en": "The group discussed the predecessor in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người tiền nhiệm trong buổi họp hôm nay."
+              "en": "The new president reversed many of the policies of his predecessor.",
+              "vi": "Tân chủ tịch đã đảo ngược nhiều chính sách của người tiền nhiệm."
             }
           ],
           "wordFamily": [],
@@ -10647,8 +10647,8 @@
           "definitionVi": "Ai đó được ủy quyền thực hiện quyền hạn của cảnh sát trưởng trong trường hợp khẩn cấp.",
           "examples": [
             {
-              "en": "The group discussed the deputy in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phó cảnh sát trưởng trong buổi họp hôm nay."
+              "en": "I'm acting as deputy till the manager returns.",
+              "vi": "Tôi đang đảm nhiệm chức phó cho đến khi quản lý trở lại."
             }
           ],
           "wordFamily": [
@@ -10685,8 +10685,8 @@
           "definitionVi": "Mặt đế của giày dép hoặc gậy đánh golf.",
           "examples": [
             {
-              "en": "The group discussed the sole in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về đế giày trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated sole.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về đế giày được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -10729,8 +10729,8 @@
           "definitionVi": "Bộ trưởng nội các Anh chịu trách nhiệm về tài chính.",
           "examples": [
             {
-              "en": "The group discussed the chancellor in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thủ tướng trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that chancellor should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng thủ tướng nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -10762,8 +10762,8 @@
           "definitionVi": "Một thuật ngữ toàn diện cho bất kỳ thủ tục nào tại tòa án mà cá nhân tìm kiếm giải pháp pháp lý.",
           "examples": [
             {
-              "en": "The group discussed the lawsuit in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về vụ kiện trong buổi họp hôm nay."
+              "en": "He filed a lawsuit against his record label.",
+              "vi": "Anh ấy đã khởi kiện công ty thu âm của mình."
             }
           ],
           "wordFamily": [],
@@ -10817,8 +10817,8 @@
           "definitionVi": "Chuyển động sóng.",
           "examples": [
             {
-              "en": "The group discussed the fluctuation in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sự biến động trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how fluctuation affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách dao động ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -10845,8 +10845,8 @@
           "definitionVi": "Sự đối xử không công bằng với một cá nhân hoặc nhóm dựa trên thành kiến.",
           "examples": [
             {
-              "en": "The group discussed the discrimination in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về sự phân biệt đối xử trong buổi họp hôm nay."
+              "en": "Age/racial/gender/sex discrimination (= because of somebody’s age, race or sex).",
+              "vi": "Phân biệt đối xử về tuổi tác/chủng tộc/giới tính (= vì tuổi tác, chủng tộc hoặc giới tính của ai đó)."
             }
           ],
           "wordFamily": [
@@ -10917,8 +10917,8 @@
           "definitionVi": "(kế toán) một tài sản vô hình được định giá theo lợi thế hoặc danh tiếng mà doanh nghiệp đã đạt được (trên cả các tài sản hữu hình của nó).",
           "examples": [
             {
-              "en": "The group discussed the goodwill in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thiện chí trong buổi họp hôm nay."
+              "en": "Please check the details regarding goodwill in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về thiện chí trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -10982,8 +10982,8 @@
           "definitionVi": "Xác suất của một kết quả cụ thể.",
           "examples": [
             {
-              "en": "The group discussed the likelihood in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về xác suất trong buổi họp hôm nay."
+              "en": "There is very little likelihood of that happening.",
+              "vi": "Khả năng điều đó xảy ra là rất thấp."
             }
           ],
           "wordFamily": [
@@ -11083,8 +11083,8 @@
           "definitionVi": "Một nhân viên của công ty hoặc người khác có quyền truy cập thông tin riêng về hoạt động của công ty.",
           "examples": [
             {
-              "en": "The group discussed the insider in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người trong cuộc trong buổi họp hôm nay."
+              "en": "The situation was described by one insider as ‘absolute chaos’.",
+              "vi": "Tình huống được một người trong cuộc mô tả là 'hỗn loạn tuyệt đối'."
             }
           ],
           "wordFamily": [],
@@ -11160,8 +11160,8 @@
           "definitionVi": "Chuyển đổi điều gì đó từ quyền sở hữu hoặc kiểm soát nhà nước sang tư nhân.",
           "examples": [
             {
-              "en": "The group discussed the privatization in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc tư nhân hóa trong buổi họp hôm nay."
+              "en": "There were fears that privatization would lead to job losses.",
+              "vi": "Có những lo ngại rằng tư nhân hóa sẽ dẫn đến mất việc làm."
             }
           ],
           "wordFamily": [
@@ -11200,8 +11200,8 @@
           "definitionVi": "Một tên lửa mang đầu đạn nổ thông thường hoặc hạt nhân; có thể là tên lửa đạn đạo hoặc điều khiển từ xa.",
           "examples": [
             {
-              "en": "The group discussed the missile in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tên lửa trong buổi họp hôm nay."
+              "en": "Our handbook includes a practical section explaining how missile affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách tên lửa ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [],
@@ -11375,8 +11375,8 @@
           "definitionVi": "Một nhà cải cách dữ dội.",
           "examples": [
             {
-              "en": "The group discussed the activist in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về nhà hoạt động trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated activist.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về nhà hoạt động mới của mình."
             }
           ],
           "wordFamily": [
@@ -11413,8 +11413,8 @@
           "definitionVi": "Một điểm nối nơi nhiều đường hội tụ.",
           "examples": [
             {
-              "en": "The group discussed the node in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về nút trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated node.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về node được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -11468,8 +11468,8 @@
           "definitionVi": "Hành động phân phối các vật một cách vào các lớp hoặc loại cùng loại.",
           "examples": [
             {
-              "en": "The group discussed the classification in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phân loại trong buổi họp hôm nay."
+              "en": "A style of music that defies classification (= is like no other).",
+              "vi": "Một phong cách âm nhạc không thể phân loại (= giống không ai khác)."
             }
           ],
           "wordFamily": [
@@ -11576,8 +11576,8 @@
           "definitionVi": "Ngành triết học phân tích các nguyên tắc và quy trình tìm hiểu trong một khoa học cụ thể.",
           "examples": [
             {
-              "en": "The group discussed the methodology in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về phương pháp luận trong buổi họp hôm nay."
+              "en": "Recent changes in the methodology of language teaching.",
+              "vi": "Những thay đổi gần đây trong phương pháp luận giảng dạy ngôn ngữ."
             }
           ],
           "wordFamily": [
@@ -11631,8 +11631,8 @@
           "definitionVi": "Một văn kiện thành lập một tổ chức và xác định quyền của nó; bao gồm các điều khoản thành lập và giấy chứng nhận thành lập.",
           "examples": [
             {
-              "en": "The group discussed the charter in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về điều lệ trong buổi họp hôm nay."
+              "en": "The European Social Charter of workers’ rights.",
+              "vi": "Hiến chương Xã hội châu Âu về quyền lợi của người lao động."
             }
           ],
           "wordFamily": [],
@@ -11741,8 +11741,8 @@
           "definitionVi": "Một giải thưởng chính thức (như cho lòng dũng cảm hoặc phục vụ) thường được trao dưới dạng tuyên bố công khai chính thức.",
           "examples": [
             {
-              "en": "The group discussed the citation in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về trích dẫn trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that citation should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng việc trích dẫn nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -11768,8 +11768,8 @@
           "definitionVi": "Một người thuê giữ hợp đồng thuê.",
           "examples": [
             {
-              "en": "The group discussed the lessee in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về người thuê trong buổi họp hôm nay."
+              "en": "We received positive feedback from clients about our updated lessee.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về người thuê mới của mình."
             }
           ],
           "wordFamily": [],
@@ -11880,8 +11880,8 @@
           "definitionVi": "Đưa một người bị kết án đến cái chết.",
           "examples": [
             {
-              "en": "The group discussed the execution in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc hành quyết trong buổi họp hôm nay."
+              "en": "He faced execution by hanging for murder.",
+              "vi": "Ông đối mặt với án tử hình bằng cách treo cổ vì tội giết người."
             }
           ],
           "wordFamily": [
@@ -12172,8 +12172,8 @@
           "definitionVi": "Xu hướng của một vật trở về hình dạng ban đầu sau khi bị kéo giãn hoặc nén.",
           "examples": [
             {
-              "en": "The group discussed the elasticity in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tính đàn hồi trong buổi họp hôm nay."
+              "en": "Everyone at the meeting agreed that elasticity should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng độ co giãn nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -12208,8 +12208,8 @@
           "definitionVi": "Giảm sức mạnh của.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to weaken clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, người ta thường cần làm yếu một cách rõ ràng."
+              "en": "We need to weaken promptly to keep the schedule on track.",
+              "vi": "Chúng ta cần nhanh chóng suy yếu để giữ cho lịch trình đi đúng hướng."
             }
           ],
           "wordFamily": [
@@ -12246,8 +12246,8 @@
           "definitionVi": "Tăng trưởng bằng cách thêm vào.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to accrue clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần tích lũy một cách rõ ràng."
+              "en": "The coordinator asked everyone to accrue ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người tích lũy trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [

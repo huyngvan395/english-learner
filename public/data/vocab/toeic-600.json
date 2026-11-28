@@ -3367,7 +3367,7 @@
             {
               "word": "accessible",
               "pos": "adj",
-              "meaning": "có thể truy cập"
+              "meaning": "dễ tiếp cận, có thể truy cập"
             },
             {
               "word": "accessibility",
@@ -4697,8 +4697,8 @@
               "meaning": "lợi ích đôi bên"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to advantage, perk, gain.",
-          "definitionVi": "Danh từ dùng để chỉ lợi ích; phúc lợi nhân viên.",
+          "definitionEn": "Financial assistance in time of need.",
+          "definitionVi": "Hỗ trợ tài chính khi cần thiết.",
           "topicId": "toeic-600-g7",
           "relationMeanings": {
             "advantage": "lợi thế",
@@ -4780,8 +4780,8 @@
               "meaning": "đủ điều kiện nhận"
             }
           ],
-          "definitionEn": "Having the quality of being qualified, entitled.",
-          "definitionVi": "Tính từ mô tả đặc điểm đủ điều kiện (đi với for / to V).",
+          "definitionEn": "Qualified for or allowed or worthy of being chosen.",
+          "definitionVi": "Đủ điều kiện, được phép hoặc xứng đáng được chọn.",
           "topicId": "toeic-600-g7",
           "relationMeanings": {
             "qualified": "đủ tiêu chuẩn, có trình độ chuyên môn",
@@ -4856,8 +4856,8 @@
           "definitionVi": "Rời bỏ công việc của bạn và ngừng làm việc, đặc biệt là vì bạn đã đến một độ tuổi cụ thể hoặc vì bạn bị ốm; để nói với ai đó rằng họ phải ngừng làm công việc của họ",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to retire clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần phải nghỉ hưu một cách rõ ràng."
+              "en": "Employees are encouraged to retire whenever new project requirements arise.",
+              "vi": "Nhân viên được khuyến khích nghỉ hưu mỗi khi có yêu cầu dự án mới."
             }
           ],
           "wordFamily": [
@@ -5066,8 +5066,8 @@
           "definitionVi": "Một dấu hiệu cho bạn biết điều gì đó đang diễn ra như thế nào hoặc tình hình đang thay đổi như thế nào.",
           "examples": [
             {
-              "en": "The group discussed the indicator in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chỉ số này trong phiên hôm nay."
+              "en": "Our handbook includes a practical section explaining how indicator affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách chỉ báo ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -6080,8 +6080,8 @@
           "definitionVi": "Giao cho ai đó một công việc.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to hire clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần tuyển dụng một cách rõ ràng."
+              "en": "Please hire carefully so that we can avoid any unnecessary delays.",
+              "vi": "Vui lòng tuyển dụng cẩn thận để tránh những trì hoãn không cần thiết."
             }
           ],
           "wordFamily": [
@@ -6255,8 +6255,8 @@
           "definitionVi": "Một bản tin hoặc chương trình phát sóng cung cấp thông tin mới nhất về điều gì đó; một phiên bản mới của một cái gì đó có chứa thông tin mới nhất",
           "examples": [
             {
-              "en": "The group discussed the update in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về bản cập nhật trong phiên hôm nay."
+              "en": "Our handbook includes a practical section explaining how update affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm một phần thực tiễn giải thích cách cập nhật ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -6712,8 +6712,8 @@
               "meaning": "văn phòng phẩm công ty"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to office supplies.",
-          "definitionVi": "Danh từ dùng để chỉ văn phòng phẩm (dễ nhầm với stationary = đứng yên).",
+          "definitionEn": "Paper cut to an appropriate size for writing letters; usually with matching envelopes.",
+          "definitionVi": "Giấy được cắt theo kích thước phù hợp để viết thư; thường kèm theo phong bì phù hợp.",
           "topicId": "toeic-600-g8",
           "relationMeanings": {
             "office supplies": "đồ dùng văn phòng"
@@ -6891,8 +6891,8 @@
           "definitionVi": "Một chiếc hộp hoặc một tấm thẻ gấp để giữ các giấy tờ rời rạc lại với nhau và có trật tự.",
           "examples": [
             {
-              "en": "The group discussed the file in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về file này trong buổi học ngày hôm nay."
+              "en": "Our handbook includes a practical section explaining how file affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách tệp ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -7082,7 +7082,7 @@
             {
               "word": "refundable",
               "pos": "adj",
-              "meaning": "hoàn lại"
+              "meaning": "có thể hoàn lại, được hoàn tiền"
             }
           ],
           "synonyms": [
@@ -7096,8 +7096,8 @@
               "meaning": "hoàn tiền toàn bộ"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to reimbursement, repayment.",
-          "definitionVi": "Danh từ dùng để chỉ khoản tiền hoàn lại; v: hoàn tiền.",
+          "definitionEn": "Money returned to a payer.",
+          "definitionVi": "Tiền được trả lại cho người trả tiền.",
           "topicId": "toeic-600-g9",
           "relationMeanings": {
             "reimbursement": "hoàn trả",
@@ -7177,8 +7177,8 @@
           "definitionVi": "Đạt được điều gì đó bằng nỗ lực, khả năng hoặc hành vi của chính mình.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to acquire clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần tiếp thu một cách rõ ràng."
+              "en": "Children acquire language at an amazing rate.",
+              "vi": "Trẻ em tiếp thu ngôn ngữ với tốc độ đáng kinh ngạc."
             }
           ],
           "wordFamily": [
@@ -7566,8 +7566,8 @@
               "meaning": "lịch trình dày đặc"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to timetable, plan, agenda.",
-          "definitionVi": "Danh từ dùng để chỉ lịch trình, thời khóa biểu.",
+          "definitionEn": "A temporally organized plan for matters to be attended to.",
+          "definitionVi": "Một kế hoạch được tổ chức theo thời gian cho các vấn đề cần giải quyết.",
           "topicId": "toeic-600-g9",
           "relationMeanings": {
             "timetable": "thời gian biểu",
@@ -7626,8 +7626,8 @@
               "meaning": "tác động đáng kể"
             }
           ],
-          "definitionEn": "Having the quality of being notable, substantial, major.",
-          "definitionVi": "Tính từ mô tả đặc điểm đáng kể, quan trọng.",
+          "definitionEn": "Important in effect or meaning.",
+          "definitionVi": "Quan trọng về hiệu quả hoặc ý nghĩa.",
           "topicId": "toeic-600-g9",
           "relationMeanings": {
             "notable": "đáng chú ý",
@@ -8213,8 +8213,8 @@
               "meaning": "cảm ơn sự ủng hộ của quý khách"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to customer, client, visitor.",
-          "definitionVi": "Danh từ dùng để chỉ khách hàng quen (nhà hàng, thư viện, bảo tàng).",
+          "definitionEn": "A regular customer.",
+          "definitionVi": "Một khách hàng quen.",
           "topicId": "toeic-600-g10",
           "relationMeanings": {
             "customer": "khách hàng",
@@ -8369,7 +8369,7 @@
             {
               "word": "applicable",
               "pos": "adj",
-              "meaning": "áp dụng"
+              "meaning": "có thể áp dụng"
             },
             {
               "word": "application",
@@ -8579,8 +8579,8 @@
               "meaning": "email trao đổi tiếp nối"
             }
           ],
-          "definitionEn": "A common English expression meaning 'check back, pursue'.",
-          "definitionVi": "Cụm từ cố định mang nghĩa theo sát, liên hệ lại để kiểm tra tiến độ.",
+          "definitionEn": "Pursue to a conclusion or bring to a successful issue.",
+          "definitionVi": "Theo đuổi đến kết luận hoặc đưa ra một vấn đề thành công.",
           "topicId": "toeic-600-g10",
           "relationMeanings": {
             "check back": "kiểm tra lại",
@@ -8824,8 +8824,8 @@
           "definitionVi": "Một khu vực rộng lớn bên trong lối vào của một tòa nhà công cộng nơi mọi người có thể gặp nhau và chờ đợi.",
           "examples": [
             {
-              "en": "The group discussed the lobby in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về tiền sảnh trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of a reliable lobby in our daily operations.",
+              "vi": "Người quản lý nhấn mạnh tầm quan trọng của một phòng chờ đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -9834,8 +9834,8 @@
           "definitionVi": "Một cuộc họp chính thức lớn, thường kéo dài vài ngày, tại đó những người có cùng công việc hoặc sở thích cùng nhau thảo luận quan điểm của mình.",
           "examples": [
             {
-              "en": "The group discussed the conference in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về hội nghị trong phiên hôm nay."
+              "en": "Our handbook includes a practical section explaining how conference affects workflow.",
+              "vi": "Sổ tay của chúng tôi bao gồm phần thực tiễn giải thích cách hội nghị ảnh hưởng đến quy trình làm việc."
             }
           ],
           "wordFamily": [
@@ -10006,8 +10006,8 @@
           "definitionVi": "Khoảng thời gian mười năm, đặc biệt là giai đoạn liên tục, chẳng hạn như 1910–1919 hay 2000–2009.",
           "examples": [
             {
-              "en": "The group discussed the decade in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thập kỷ này trong phiên họp hôm nay."
+              "en": "Everyone at the meeting agreed that decade should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng thập kỷ nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [],
@@ -10298,8 +10298,8 @@
               "meaning": "nâng cao nhận thức về"
             }
           ],
-          "definitionEn": "Having the quality of being conscious, informed.",
-          "definitionVi": "Tính từ mô tả đặc điểm nhận thức được, có ý thức về (đi với of).",
+          "definitionEn": "(sometimes followed by `of') having or showing knowledge or understanding or realization or perception.",
+          "definitionVi": "(đôi khi theo sau bằng 'của') có hoặc thể hiện kiến thức, sự hiểu biết, nhận thức hoặc nhận thức.",
           "topicId": "toeic-600-g11",
           "relationMeanings": {
             "conscious": "có ý thức",
@@ -11060,8 +11060,8 @@
               "meaning": "tác động môi trường"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to effect, influence, consequence.",
-          "definitionVi": "Danh từ dùng để chỉ tác động, ảnh hưởng mạnh.",
+          "definitionEn": "The striking of one body against another.",
+          "definitionVi": "Sự va chạm của một cơ thể với cơ thể khác.",
           "topicId": "toeic-600-g12",
           "relationMeanings": {
             "effect": "hiệu ứng",
@@ -11331,8 +11331,8 @@
           "definitionVi": "Nói một cách chính thức rằng ai đó/cái gì đó có một nhân vật hoặc tên cụ thể; để mô tả ai đó/cái gì đó theo một cách cụ thể.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to designate clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, mọi người thường cần phải phân định rõ ràng."
+              "en": "Our team will designate the details before submitting the final report.",
+              "vi": "Đội ngũ của chúng tôi sẽ chỉ định chi tiết trước khi nộp báo cáo cuối cùng."
             }
           ],
           "wordFamily": [
@@ -11712,8 +11712,8 @@
           "definitionVi": "Dần dần có được ngày càng nhiều thứ gì đó trong một khoảng thời gian.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to accumulate clearly.",
-              "vi": "Trong cuộc sống hàng ngày và nơi làm việc, con người thường có nhu cầu tích lũy rõ ràng."
+              "en": "The coordinator asked everyone to accumulate ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người tập trung trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -11806,8 +11806,8 @@
               "meaning": "tiến hành kiểm toán"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to inspection, review.",
-          "definitionVi": "Danh từ dùng để chỉ cuộc kiểm toán tài chính.",
+          "definitionEn": "An inspection of the accounting procedures and records by a trained accountant or CPA.",
+          "definitionVi": "Kiểm tra các thủ tục và hồ sơ kế toán bởi một kế toán viên hoặc CPA được đào tạo.",
           "topicId": "toeic-600-g13",
           "relationMeanings": {
             "inspection": "kiểm tra",
@@ -11826,8 +11826,8 @@
           "definitionVi": "Người sử dụng dịch vụ hoặc lời khuyên của một cá nhân hoặc tổ chức chuyên nghiệp.",
           "examples": [
             {
-              "en": "The group discussed the client in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khách hàng trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding client in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về khách hàng trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -11955,8 +11955,8 @@
               "meaning": "tỷ lệ biến động nhân sự"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to attrition, revenue.",
-          "definitionVi": "Danh từ dùng để chỉ tỷ lệ nghỉ việc nhân sự; doanh thu bán hàng.",
+          "definitionEn": "The ratio of the number of workers that had to be replaced in a given time period to the average number of workers.",
+          "definitionVi": "Tỷ lệ giữa số lượng người lao động phải thay thế trong một khoảng thời gian nhất định so với số người lao động trung bình.",
           "topicId": "toeic-600-g13",
           "relationMeanings": {
             "attrition": "hao mòn",
@@ -13166,8 +13166,8 @@
           "definitionVi": "Một chiếc thuyền lớn chở người hoặc hàng hóa bằng đường biển.",
           "examples": [
             {
-              "en": "The group discussed the ship in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về con tàu trong buổi học ngày hôm nay."
+              "en": "Everyone at the meeting agreed that ship should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng tàu nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -13590,8 +13590,8 @@
           "definitionVi": "Bản tin trên báo hoặc tạp chí, hoặc trên internet, truyền hình hoặc đài phát thanh, trong đó ai đó đưa ra ý kiến của mình về một cuốn sách, vở kịch, bộ phim, sản phẩm, v.v.; hành vi viết loại báo cáo này.",
           "examples": [
             {
-              "en": "The group discussed the review in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc rà soát trong phiên hôm nay."
+              "en": "The platoon stood ready for review.",
+              "vi": "Trung đội đã sẵn sàng để duyệt binh."
             }
           ],
           "wordFamily": [
@@ -14263,8 +14263,8 @@
           "definitionVi": "Một phép đo trong không gian, chẳng hạn như độ cao, chiều rộng hoặc chiều dài của một vật nào đó.",
           "examples": [
             {
-              "en": "The group discussed the dimension in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về kích thước trong buổi học ngày hôm nay."
+              "en": "Please check the details regarding dimension in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về kích thước trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -14551,8 +14551,8 @@
             }
           ],
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/abundant-us.mp3",
-          "definitionEn": "Having the quality of being plentiful, ample, bountiful.",
-          "definitionVi": "Tính từ mô tả đặc điểm dồi dào, phong phú.",
+          "definitionEn": "Present in great quantity.",
+          "definitionVi": "Có mặt với số lượng lớn.",
           "topicId": "toeic-600-g15",
           "relationMeanings": {
             "plentiful": "dồi dào",
@@ -14576,8 +14576,8 @@
           "definitionVi": "Một điều ấn tượng được thực hiện hoặc đạt được sau rất nhiều công sức.",
           "examples": [
             {
-              "en": "The group discussed the accomplishment in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về thành quả đạt được trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of an reliable accomplishment in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của việc đạt được thành tựu đáng tin cậy trong hoạt động hàng ngày."
             }
           ],
           "wordFamily": [
@@ -14885,8 +14885,8 @@
               "meaning": "ẩm thực và đồ uống (F&B)"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to drink, refreshment.",
-          "definitionVi": "Danh từ dùng để chỉ đồ uống, thức uống (trang trọng).",
+          "definitionEn": "Any liquid suitable for drinking.",
+          "definitionVi": "Bất kỳ loại chất lỏng nào phù hợp để uống.",
           "topicId": "toeic-600-g15",
           "relationMeanings": {
             "drink": "uống",
@@ -15243,8 +15243,8 @@
           "definitionVi": "Một loài động vật hoang dã nặng nề với bộ lông dày và móng vuốt sắc nhọn (= phần nhọn ở đầu bàn chân của nó). Có rất nhiều loại gấu.",
           "examples": [
             {
-              "en": "The group discussed the bear in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về con gấu trong phiên hôm nay."
+              "en": "We received positive feedback from clients about our updated bear.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về con gấu được cập nhật."
             }
           ],
           "wordFamily": [
@@ -15636,8 +15636,8 @@
           "definitionVi": "Một người hoặc một tổ chức mua hàng hóa hoặc dịch vụ từ một cửa hàng hoặc doanh nghiệp.",
           "examples": [
             {
-              "en": "The group discussed the customer in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về khách hàng trong buổi học ngày hôm nay."
+              "en": "We received positive feedback from clients about our updated customer.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về khách hàng được cập nhật."
             }
           ],
           "wordFamily": [],
@@ -15690,8 +15690,8 @@
               "meaning": "chiết khấu mua số lượng lớn"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to reduction, markdown.",
-          "definitionVi": "Danh từ dùng để chỉ mức giảm giá, chiết khấu.",
+          "definitionEn": "The act of reducing the selling price of merchandise.",
+          "definitionVi": "Hành động giảm giá bán hàng hóa.",
           "topicId": "toeic-600-g16",
           "relationMeanings": {
             "reduction": "giảm",
@@ -16060,8 +16060,8 @@
             }
           ],
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/available-us.mp3",
-          "definitionEn": "Having the quality of being accessible, free, effectual.",
-          "definitionVi": "Tính từ mô tả đặc điểm có sẵn, rảnh rỗi.",
+          "definitionEn": "Obtainable or accessible and ready for use or service.",
+          "definitionVi": "Có thể tiếp cận hoặc dễ tiếp cận và sẵn sàng sử dụng hoặc bảo trì.",
           "topicId": "toeic-600-g16",
           "relationMeanings": {
             "accessible": "có thể truy cập",
@@ -16588,8 +16588,8 @@
           "definitionVi": "Trao cho ai đó quyền có hoặc làm điều gì đó.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to entitle clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần phân biệt rõ ràng quyền lợi."
+              "en": "Please entitle carefully so that we can avoid any unnecessary delays.",
+              "vi": "Vui lòng đăng cai một cách cẩn thận để chúng tôi có thể tránh những trì hoãn không cần thiết."
             }
           ],
           "wordFamily": [
@@ -16616,8 +16616,8 @@
           "definitionVi": "Số tiền bạn phải trả để đi lại bằng xe buýt, máy bay, taxi, v.v.",
           "examples": [
             {
-              "en": "The group discussed the fare in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về giá vé trong buổi hôm nay."
+              "en": "Please check the details regarding fare in the attachment sent this morning.",
+              "vi": "Vui lòng kiểm tra chi tiết về giá vé trong tệp đính kèm được gửi sáng nay."
             }
           ],
           "wordFamily": [],
@@ -17445,8 +17445,8 @@
           "definitionVi": "Một nhóm từ hoặc một đoạn văn ngắn được lấy từ một cuốn sách, vở kịch, bài phát biểu, v.v. và được lặp lại vì nó thú vị hoặc hữu ích.",
           "examples": [
             {
-              "en": "The group discussed the quote in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về trích dẫn trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of a reliable quote in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của báo giá đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -17714,8 +17714,8 @@
               "meaning": "chi trả cổ tức"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to payout, return.",
-          "definitionVi": "Danh từ dùng để chỉ cổ tức chi trả cổ đông.",
+          "definitionEn": "That part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly.",
+          "definitionVi": "Phần lợi nhuận của công ty được phân phối cho cổ đông; thường được trả hàng quý.",
           "topicId": "toeic-600-g18",
           "relationMeanings": {
             "payout": "thanh toán",
@@ -17815,8 +17815,8 @@
           "definitionVi": "Một công việc kinh doanh được thực hiện giữa mọi người, đặc biệt là hành vi mua hoặc bán.",
           "examples": [
             {
-              "en": "The group discussed the transaction in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về giao dịch trong phiên hôm nay."
+              "en": "We received positive feedback from clients about our updated transaction.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về giao dịch cập nhật của mình."
             }
           ],
           "wordFamily": [
@@ -18306,8 +18306,8 @@
           "definitionVi": "Một mong muốn mạnh mẽ để có hoặc làm điều gì đó.",
           "examples": [
             {
-              "en": "The group discussed the desire in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết mong muốn này trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of a reliable desire in our daily operations.",
+              "vi": "Người quản lý nhấn mạnh tầm quan trọng của mong muốn đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -18369,8 +18369,8 @@
           "definitionVi": "Tuyên bố về những gì sẽ xảy ra trong tương lai, dựa trên thông tin hiện có.",
           "examples": [
             {
-              "en": "The group discussed the forecast in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về dự báo trong phiên hôm nay."
+              "en": "Everyone at the meeting agreed that forecast should be our top priority this quarter.",
+              "vi": "Mọi người trong cuộc họp đều đồng ý rằng dự báo nên là ưu tiên hàng đầu của chúng ta trong quý này."
             }
           ],
           "wordFamily": [
@@ -18484,8 +18484,8 @@
               "meaning": "từ góc nhìn toàn cầu"
             }
           ],
-          "definitionEn": "A concept, item, or formal term closely related to viewpoint, outlook, angle.",
-          "definitionVi": "Danh từ dùng để chỉ góc nhìn, quan điểm.",
+          "definitionEn": "A way of regarding situations or topics etc.",
+          "definitionVi": "Một cách để nhìn nhận các tình huống hoặc chủ đề, v.v.",
           "topicId": "toeic-600-g18",
           "relationMeanings": {
             "viewpoint": "quan điểm",
@@ -19124,8 +19124,8 @@
           "definitionVi": "Một thay đổi nhỏ được thực hiện đối với một điều gì đó nhằm sửa chữa hoặc cải thiện nó.",
           "examples": [
             {
-              "en": "The group discussed the adjustment in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về việc điều chỉnh trong phiên hôm nay."
+              "en": "We received positive feedback from clients about our updated adjustment.",
+              "vi": "Chúng tôi nhận được phản hồi tích cực từ khách hàng về việc điều chỉnh cập nhật."
             }
           ],
           "wordFamily": [
@@ -19225,8 +19225,8 @@
               "meaning": "đóng vai trò then chốt"
             }
           ],
-          "definitionEn": "Having the quality of being vital, essential, critical.",
-          "definitionVi": "Tính từ mô tả đặc điểm then chốt, vô cùng quan trọng.",
+          "definitionEn": "Of extreme importance; vital to the resolution of a crisis.",
+          "definitionVi": "Rất quan trọng; rất quan trọng để giải quyết một cuộc khủng hoảng.",
           "topicId": "toeic-600-g19",
           "relationMeanings": {
             "vital": "quan trọng",
@@ -19596,8 +19596,8 @@
               "meaning": "vị trí thuận tiện"
             }
           ],
-          "definitionEn": "Having the quality of being handy, suitable.",
-          "definitionVi": "Tính từ mô tả đặc điểm thuận tiện, tiện lợi.",
+          "definitionEn": "Suited to your comfort or purpose or needs.",
+          "definitionVi": "Phù hợp với sự thoải mái, mục đích hoặc nhu cầu của bạn.",
           "topicId": "toeic-600-g19",
           "relationMeanings": {
             "handy": "tiện dụng",
@@ -19919,8 +19919,8 @@
           "definitionVi": "Để ý thức được.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to be aware of clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, con người thường cần phải nhận thức rõ ràng."
+              "en": "Employees are encouraged to be aware of whenever new project requirements arise.",
+              "vi": "Nhân viên được khuyến khích cảnh giác khi có yêu cầu dự án mới phát sinh."
             }
           ],
           "wordFamily": [],
@@ -20062,8 +20062,8 @@
           "definitionVi": "Cam kết, không thể thay đổi.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to lock into clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần phải nắm bắt rõ ràng."
+              "en": "Our team will lock into the details before submitting the final report.",
+              "vi": "Đội ngũ của chúng tôi sẽ khóa chặt các chi tiết trước khi nộp báo cáo cuối cùng."
             }
           ],
           "wordFamily": [],
@@ -20239,8 +20239,8 @@
           "definitionVi": "Để trả lại một cái gì đó.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to take back clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, mọi người thường cần rút lại lời nói một cách rõ ràng."
+              "en": "Our team will take back the details before submitting the final report.",
+              "vi": "Đội ngũ của chúng tôi sẽ thu hồi lại các chi tiết trước khi nộp báo cáo cuối cùng."
             }
           ],
           "wordFamily": [],
@@ -20573,8 +20573,8 @@
           "definitionVi": "Một điều gì đó phải tồn tại hoặc xảy ra trước khi một điều gì khác có thể xảy ra hoặc được thực hiện.",
           "examples": [
             {
-              "en": "This updated guide offers a very prerequisite option for learners.",
-              "vi": "Hướng dẫn cập nhật này cung cấp một lựa chọn rất tiên quyết cho người học."
+              "en": "The newly updated policy provides a prerequisite solution for all branch offices.",
+              "vi": "Chính sách mới được cập nhật cung cấp giải pháp tiên quyết cho tất cả các chi nhánh."
             }
           ],
           "wordFamily": [],
@@ -20964,8 +20964,8 @@
           "definitionVi": "Xin đến, vẫy gọi.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to call in clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần gọi điện rõ ràng."
+              "en": "Call in to a radio station.",
+              "vi": "Gọi vào một đài phát thanh."
             }
           ],
           "wordFamily": [],
@@ -21100,8 +21100,8 @@
           "definitionVi": "Ngăn cản ai đó dễ dàng thực hiện hoặc đạt được điều gì đó.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to hamper clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, con người thường cần phải cản trở một cách rõ ràng."
+              "en": "Employees are encouraged to hamper whenever new project requirements arise.",
+              "vi": "Nhân viên được khuyến khích cản trở mỗi khi phát sinh yêu cầu dự án mới."
             }
           ],
           "wordFamily": [],
@@ -21180,8 +21180,8 @@
           "definitionVi": "Được sản xuất.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to be made of clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần được hiểu rõ ràng."
+              "en": "The coordinator asked everyone to be made of ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người chuẩn bị trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [],
@@ -21202,8 +21202,8 @@
           "definitionVi": "Thuê hoặc tuyển dụng.",
           "examples": [
             {
-              "en": "Speakers frequently use the word bring in in natural English sentences.",
-              "vi": "Người nói thường xuyên sử dụng từ mang vào trong các câu tiếng Anh tự nhiên."
+              "en": "In busy office environments, staff often need to bring in without delay.",
+              "vi": "Trong môi trường văn phòng đông đúc, nhân viên thường phải đến làm việc ngay lập tức."
             }
           ],
           "wordFamily": [],
@@ -21430,8 +21430,8 @@
           "definitionVi": "Để làm quen với.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to accustom to clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, con người thường cần phải làm quen cho rõ ràng."
+              "en": "We need to accustom to promptly to keep the schedule on track.",
+              "vi": "Chúng ta cần làm quen với việc giữ lịch trình đúng tiến độ."
             }
           ],
           "wordFamily": [],
@@ -21952,8 +21952,8 @@
           "definitionVi": "Truyền bá thông tin, kiến ​​thức, v.v. để đến được với nhiều người.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to disseminate clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, mọi người thường cần phải phổ biến một cách rõ ràng."
+              "en": "The coordinator asked everyone to disseminate ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người phát sóng trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -22328,8 +22328,8 @@
           "definitionVi": "Để chở hành khách hoặc hàng hóa.",
           "examples": [
             {
-              "en": "Speakers frequently use the word pick up in natural English sentences.",
-              "vi": "Người nói thường xuyên sử dụng từ pick up trong các câu tiếng Anh tự nhiên."
+              "en": "Tourists can pick up their rental bikes beside the ferry dock.",
+              "vi": "Du khách có thể nhận xe đạp thuê ngay cạnh bến phà."
             }
           ],
           "wordFamily": [],
@@ -22427,8 +22427,8 @@
           "definitionVi": "Một chuyến đi ngắn mang lại niềm vui.",
           "examples": [
             {
-              "en": "The group discussed the excursion in detail during today's session.",
-              "vi": "Nhóm đã thảo luận chi tiết về chuyến tham quan trong buổi học ngày hôm nay."
+              "en": "The manager highlighted the importance of an reliable excursion in our daily operations.",
+              "vi": "Quản lý nhấn mạnh tầm quan trọng của một chuyến đi đáng tin cậy trong hoạt động hàng ngày của chúng tôi."
             }
           ],
           "wordFamily": [
@@ -22504,8 +22504,8 @@
           "definitionVi": "Làm hoặc đạt được những gì được hy vọng hoặc mong đợi.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to fulfill clearly.",
-              "vi": "Trong các tình huống hàng ngày và nơi làm việc, mọi người thường cần phải thực hiện một cách rõ ràng."
+              "en": "The coordinator asked everyone to fulfill ahead of Monday's briefing.",
+              "vi": "Điều phối viên yêu cầu mọi người hoàn thành trước buổi họp báo vào thứ Hai."
             }
           ],
           "wordFamily": [
@@ -22550,8 +22550,8 @@
           "definitionVi": "Lập danh mục, biên soạn danh mục.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to catalog clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần lập danh mục rõ ràng."
+              "en": "Employees are encouraged to catalog whenever new project requirements arise.",
+              "vi": "Nhân viên được khuyến khích lập danh mục mỗi khi có yêu cầu dự án mới."
             }
           ],
           "wordFamily": [
@@ -22650,8 +22650,8 @@
           "definitionVi": "Bán hết vé.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to sell out clearly.",
-              "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường có nhu cầu bán hết hàng một cách rõ ràng."
+              "en": "Employees are encouraged to sell out whenever new project requirements arise.",
+              "vi": "Nhân viên được khuyến khích bán hàng mỗi khi có yêu cầu dự án mới."
             }
           ],
           "wordFamily": [],
@@ -23246,8 +23246,8 @@
           "definitionVi": "Ngăn cản việc gì đó xảy ra hoặc ai đó làm việc gì đó; để biến điều gì đó thành không thể",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to preclude clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, người ta thường cần phải ngăn chặn một cách rõ ràng."
+              "en": "Please preclude carefully so that we can avoid any unnecessary delays.",
+              "vi": "Vui lòng cẩn thận ngăn chặn để chúng tôi có thể tránh những trì hoãn không cần thiết."
             }
           ],
           "wordFamily": [
@@ -23322,8 +23322,8 @@
           "definitionVi": "Lấy đi tiền, điểm, v.v. từ tổng số tiền.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to deduct clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, mọi người thường cần phải suy luận rõ ràng."
+              "en": "Employees are encouraged to deduct whenever new project requirements arise.",
+              "vi": "Nhân viên được khuyến khích khấu trừ mỗi khi phát sinh yêu cầu dự án mới."
             }
           ],
           "wordFamily": [
@@ -23414,8 +23414,8 @@
           "definitionVi": "Một tiếng Anh v được sử dụng trong bối cảnh hàng ngày và học thuật.",
           "examples": [
             {
-              "en": "In everyday and workplace situations, people often need to take out clearly.",
-              "vi": "Trong các tình huống đời thường và nơi làm việc, mọi người thường cần đưa ra quan điểm rõ ràng."
+              "en": "We'll take out pizza, since I am too tired to cook.",
+              "vi": "Chúng ta sẽ mang pizza đi, vì tôi quá mệt để nấu ăn."
             }
           ],
           "wordFamily": [],

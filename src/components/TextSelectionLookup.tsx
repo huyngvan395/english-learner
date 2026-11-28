@@ -15,19 +15,14 @@ import { useApp } from '../context/AppContext';
 import { loadFullWord } from '../utils/vocabLoader';
 import { buildLemmaCandidates } from '../utils/lemmatizer';
 import { playWordAudio, speakText } from '../utils/speech';
+import {
+  fetchOnlineDictDetails,
+  getCachedOnlineDictDetails,
+  OnlineDictDetails,
+} from '../utils/onlineDictLookup';
 import { QuickWordTarget, VocabQuickDetailModal } from './VocabQuickDetailModal';
 
-interface OnlineLookupResult {
-  word: string;
-  pos: WordPOS;
-  ipaUS: string;
-  ipaUK: string;
-  meaningVi: string;
-  definitionEn: string;
-  exampleEn?: string;
-  audioUrlUS?: string;
-  audioUrlUK?: string;
-}
+const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved', 'vocab-saved']);
 
 interface LookupState {
   selectedRaw: string;
@@ -42,11 +37,8 @@ interface LookupState {
   loading: boolean;
   matchedEntry: SearchIndexEntry | null;
   fullWord: VocabWord | null;
-  onlineData: OnlineLookupResult | null;
+  onlineData: OnlineDictDetails | null;
 }
-
-// Session-level in-memory cache so repeated lookups never re-hit online APIs
-const onlineLookupCache = new Map<string, OnlineLookupResult>();
 
 const VI_CHAR_RE =
   /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i;
@@ -58,15 +50,6 @@ const POS_VI_BADGE: Record<string, string> = {
   adv: 'adv · Trạng từ',
   phrase: 'Cụm từ',
 };
-
-function mapRawPos(raw?: string): WordPOS {
-  const s = (raw || '').toLowerCase();
-  if (s.includes('verb') && !s.includes('adverb')) return 'v';
-  if (s.includes('adverb') || s === 'adv') return 'adv';
-  if (s.includes('adj')) return 'adj';
-  if (s.includes('phrase') || s.includes('idiom')) return 'phrase';
-  return 'n';
-}
 
 function cleanSelectedEnglish(raw: string): string | null {
   const collapsed = raw.replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim();
@@ -103,117 +86,6 @@ function isEditableOrIgnoredTarget(node: Node | null): boolean {
     return true;
   }
   return false;
-}
-
-async function fetchVietnameseGloss(text: string): Promise<string> {
-  // Primary: fast free Google Translate gtx endpoint
-  try {
-    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q=${encodeURIComponent(
-      text
-    )}`;
-    const res = await fetch(url);
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data?.[0])) {
-        const joined = data[0]
-          .map((seg: unknown[]) => (typeof seg?.[0] === 'string' ? seg[0] : ''))
-          .join('')
-          .trim();
-        if (joined) return joined;
-      }
-    }
-  } catch {
-    // Fall through to MyMemory
-  }
-
-  // Fallback: MyMemory free translation API
-  try {
-    const res = await fetch(
-      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|vi`
-    );
-    if (res.ok) {
-      const data = await res.json();
-      const tr = data?.responseData?.translatedText;
-      if (typeof tr === 'string' && tr.trim()) return tr.trim();
-    }
-  } catch {
-    // Graceful offline fallback
-  }
-
-  return '';
-}
-
-async function fetchOnlineWordLookup(term: string): Promise<OnlineLookupResult> {
-  const cacheKey = term.toLowerCase();
-  const cached = onlineLookupCache.get(cacheKey);
-  if (cached) return cached;
-
-  const isSingleWord = !term.includes(' ');
-  const dictPromise = isSingleWord
-    ? fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(cacheKey)}`)
-        .then((r) => (r.ok ? r.json() : null))
-        .catch(() => null)
-    : Promise.resolve(null);
-
-  const viPromise = fetchVietnameseGloss(term);
-
-  const [dictJson, meaningVi] = await Promise.all([dictPromise, viPromise]);
-
-  let ipaUS = '';
-  let ipaUK = '';
-  let audioUrlUS: string | undefined;
-  let audioUrlUK: string | undefined;
-  let pos: WordPOS = isSingleWord ? 'n' : 'phrase';
-  let definitionEn = '';
-  let exampleEn: string | undefined;
-
-  if (Array.isArray(dictJson) && dictJson[0]) {
-    const entry = dictJson[0];
-    if (Array.isArray(entry.phonetics)) {
-      for (const ph of entry.phonetics) {
-        const audio = typeof ph?.audio === 'string' ? ph.audio.trim() : '';
-        const text = typeof ph?.text === 'string' ? ph.text.trim() : '';
-        if (audio.includes('-us.') || audio.includes('/us/')) {
-          if (!audioUrlUS) audioUrlUS = audio;
-          if (text && !ipaUS) ipaUS = text;
-        } else if (audio.includes('-uk.') || audio.includes('/uk/')) {
-          if (!audioUrlUK) audioUrlUK = audio;
-          if (text && !ipaUK) ipaUK = text;
-        } else {
-          if (audio && !audioUrlUS) audioUrlUS = audio;
-          if (text && !ipaUS) ipaUS = text;
-        }
-      }
-    }
-    if (!ipaUS && typeof entry.phonetic === 'string') {
-      ipaUS = entry.phonetic.trim();
-    }
-    if (!ipaUK) ipaUK = ipaUS;
-
-    if (Array.isArray(entry.meanings) && entry.meanings[0]) {
-      const m0 = entry.meanings[0];
-      pos = mapRawPos(m0.partOfSpeech);
-      if (Array.isArray(m0.definitions) && m0.definitions[0]) {
-        definitionEn = m0.definitions[0].definition || '';
-        exampleEn = m0.definitions[0].example || undefined;
-      }
-    }
-  }
-
-  const result: OnlineLookupResult = {
-    word: term,
-    pos,
-    ipaUS,
-    ipaUK,
-    meaningVi: meaningVi || 'Chưa tải được nghĩa trực tuyến (vẫn có thể nghe & lưu từ)',
-    definitionEn,
-    exampleEn,
-    audioUrlUS,
-    audioUrlUK,
-  };
-
-  onlineLookupCache.set(cacheKey, result);
-  return result;
 }
 
 export const TextSelectionLookup: React.FC = () => {
@@ -300,59 +172,76 @@ export const TextSelectionLookup: React.FC = () => {
           width: rect.width,
         };
 
-        // TIER 1: Instant internal ~11,000-word bank lookup + basic lemmatization
+        // TIER 1: Instant internal 16-deck bank lookup + basic lemmatization (prefer standard decks over sparse custom entries)
         const candidates = buildLemmaCandidates(cleaned);
+        const standardRows = searchIndex.filter((r) => !CUSTOM_DECK_IDS.has(r.deckId));
         let matchedEntry: SearchIndexEntry | null = null;
         for (const cand of candidates) {
-          const hit = searchIndex.find((r) => r.word.toLowerCase() === cand);
+          const hit = standardRows.find((r) => r.word.toLowerCase() === cand);
           if (hit) {
             matchedEntry = hit;
             break;
           }
         }
 
+        const needsHydration = (fw: VocabWord | null): boolean => {
+          if (!fw) return true;
+          const hasIpa = Boolean(fw.ipaUS && fw.ipaUS.trim() && fw.ipaUS.trim() !== '/.../');
+          const hasDef = Boolean(fw.definitionEn && fw.definitionEn.trim());
+          const hasEx = Boolean(fw.examples?.[0]?.en?.trim());
+          return !hasIpa || !hasDef || !hasEx;
+        };
+
         if (matchedEntry) {
-          const customMatch = customWords.find((w) => w.id === matchedEntry!.id) || null;
+          const cachedOnline = getCachedOnlineDictDetails(matchedEntry.word, matchedEntry.partOfSpeech);
           setLookup({
             selectedRaw: cleaned,
             anchorRect,
             source: 'internal',
-            loading: !customMatch,
+            loading: true,
             matchedEntry,
-            fullWord: customMatch,
-            onlineData: null,
+            fullWord: null,
+            onlineData: cachedOnline,
           });
 
-          if (!customMatch) {
-            loadFullWord(matchedEntry.deckId, matchedEntry.id)
-              .then((fw) => {
+          loadFullWord(matchedEntry.deckId, matchedEntry.id)
+            .then(async (fw) => {
+              if (requestIdRef.current !== reqId) return;
+              if (needsHydration(fw)) {
+                const online = await fetchOnlineDictDetails(matchedEntry!.word, matchedEntry!.partOfSpeech);
                 if (requestIdRef.current !== reqId) return;
+                setLookup((prev) =>
+                  prev ? { ...prev, fullWord: fw, onlineData: online, loading: false } : prev
+                );
+              } else {
                 setLookup((prev) =>
                   prev ? { ...prev, fullWord: fw, loading: false } : prev
                 );
-              })
-              .catch(() => {
-                if (requestIdRef.current !== reqId) return;
-                setLookup((prev) => (prev ? { ...prev, loading: false } : prev));
-              });
-          }
+              }
+            })
+            .catch(() => {
+              if (requestIdRef.current !== reqId) return;
+              setLookup((prev) => (prev ? { ...prev, loading: false } : prev));
+            });
           return;
         }
 
         // TIER 2: Online fallback (dictionaryapi.dev + fast Vietnamese gloss, cached in RAM)
-        const cachedOnline = onlineLookupCache.get(cleaned.toLowerCase()) || null;
+        const customMatch =
+          customWords.find((w) => candidates.includes(w.word.toLowerCase())) || null;
+        const cachedOnline = getCachedOnlineDictDetails(cleaned);
         setLookup({
           selectedRaw: cleaned,
           anchorRect,
           source: 'online',
           loading: !cachedOnline,
           matchedEntry: null,
-          fullWord: null,
+          fullWord: customMatch,
           onlineData: cachedOnline,
         });
 
         if (!cachedOnline) {
-          fetchOnlineWordLookup(cleaned).then((data) => {
+          fetchOnlineDictDetails(cleaned, customMatch?.pos).then((data) => {
             if (requestIdRef.current !== reqId) return;
             setLookup((prev) =>
               prev ? { ...prev, onlineData: data, loading: false } : prev
@@ -411,16 +300,17 @@ export const TextSelectionLookup: React.FC = () => {
     '';
   const displayMeaning = rawMeaning.replace(/^\[[^\]]+\]\s*/, '').trim();
 
-  const displayDefEn = lookup?.fullWord?.definitionEn || lookup?.onlineData?.definitionEn || '';
+  const normCmp = (s?: string) => (s || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase();
+  const displayDefEn = lookup?.fullWord?.definitionEn?.trim() || lookup?.onlineData?.definitionEn || '';
+  const rawDefVi = lookup?.fullWord?.definitionVi?.trim() || lookup?.onlineData?.definitionVi || '';
+  const displayDefVi = rawDefVi && normCmp(rawDefVi) !== normCmp(displayDefEn) ? rawDefVi : '';
+
   const displayExampleEn =
-    lookup?.fullWord?.examples?.[0]?.en || lookup?.onlineData?.exampleEn || '';
-  const rawExampleVi = lookup?.fullWord?.examples?.[0]?.vi || '';
+    lookup?.fullWord?.examples?.[0]?.en?.trim() || lookup?.onlineData?.exampleEn || '';
+  const rawExampleVi =
+    lookup?.fullWord?.examples?.[0]?.vi?.trim() || lookup?.onlineData?.exampleVi || '';
   const displayExampleVi =
-    rawExampleVi.trim() &&
-    rawExampleVi.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() !==
-      displayExampleEn.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase()
-      ? rawExampleVi
-      : '';
+    rawExampleVi && normCmp(rawExampleVi) !== normCmp(displayExampleEn) ? rawExampleVi : '';
 
   const audioUrlUS = lookup?.fullWord?.audioUrlUS || lookup?.onlineData?.audioUrlUS;
   const audioUrlUK =
@@ -448,7 +338,7 @@ export const TextSelectionLookup: React.FC = () => {
       ipaUK: displayIpaUK || displayIpaUS,
       meaning: displayMeaning || displayWord,
       definitionEn: displayDefEn,
-      definitionVi: lookup.fullWord?.definitionVi,
+      definitionVi: displayDefVi,
       examples: displayExampleEn
         ? [{ en: displayExampleEn, vi: displayExampleVi || displayMeaning }]
         : [],
@@ -624,6 +514,11 @@ export const TextSelectionLookup: React.FC = () => {
               {displayDefEn && (
                 <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed pt-0.5">
                   {displayDefEn}
+                </p>
+              )}
+              {displayDefVi && (
+                <p className="text-[11px] italic text-slate-600 dark:text-slate-400 leading-relaxed">
+                  {displayDefVi}
                 </p>
               )}
             </div>

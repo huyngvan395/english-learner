@@ -86,7 +86,7 @@ export const VOCAB_DECKS_META: VocabDeckMeta[] = [
     "accentGradient": "from-violet-600 via-purple-600 to-fuchsia-600",
     "badgeText": "ETS REAL TEST",
     "topicCount": 39,
-    "wordCount": 1250
+    "wordCount": 1251
   },
   {
     "id": "toeic-idioms",

@@ -781,24 +781,46 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     if (!cleanWord) return;
     const normalized = cleanWord.toLowerCase();
     const slug = normalized.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const CUSTOM_DECKS = new Set(['listening-saved', 'writing-saved', 'reading-saved', 'vocab-saved']);
     const existingMain =
-      (item.id ? searchIndex.find((w) => w.id === item.id) : undefined) ||
-      searchIndex.find((w) => w.word.toLowerCase() === normalized);
+      (item.id ? searchIndex.find((w) => w.id === item.id && !CUSTOM_DECKS.has(w.deckId)) : undefined) ||
+      searchIndex.find((w) => w.word.toLowerCase() === normalized && !CUSTOM_DECKS.has(w.deckId));
 
     const targetId = existingMain ? existingMain.id : `rel-${slug || Date.now()}`;
     const targetDeckId = existingMain ? existingMain.deckId : 'vocab-saved';
 
     if (!existingMain) {
       setCustomWords((prev) => {
-        if (prev.some((w) => w.id === targetId || w.word.toLowerCase() === normalized)) {
-          return prev;
+        const existingIdx = prev.findIndex(
+          (w) => w.id === targetId || w.word.toLowerCase() === normalized
+        );
+        if (existingIdx >= 0) {
+          // Enrich an existing sparse customWord if richer hydrated IPA/definition/examples arrived
+          const cur = prev[existingIdx];
+          const enriched: VocabWord = {
+            ...cur,
+            ipaUS: cur.ipaUS && cur.ipaUS !== '/.../' ? cur.ipaUS : item.ipaUS || cur.ipaUS,
+            ipaUK: cur.ipaUK && cur.ipaUK !== '/.../' ? cur.ipaUK : item.ipaUK || item.ipaUS || cur.ipaUK,
+            meaning: cur.meaning && cur.meaning !== cur.word ? cur.meaning : item.meaning.trim() || cur.meaning,
+            definitionEn: cur.definitionEn || item.definitionEn || '',
+            definitionVi: cur.definitionVi || item.definitionVi || '',
+            examples:
+              cur.examples && cur.examples.length > 0 && cur.examples[0]?.en
+                ? cur.examples
+                : item.examples && item.examples.length > 0
+                ? item.examples
+                : [],
+          };
+          const next = [...prev];
+          next[existingIdx] = enriched;
+          return next;
         }
         const newWord: VocabWord = {
           id: targetId,
           deckId: 'vocab-saved',
           word: cleanWord,
           pos: item.pos || 'n',
-          ipaUK: item.ipaUK || '',
+          ipaUK: item.ipaUK || item.ipaUS || '',
           ipaUS: item.ipaUS || '',
           meaning: item.meaning.trim() || cleanWord,
           definitionEn: item.definitionEn || '',
