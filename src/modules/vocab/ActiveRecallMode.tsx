@@ -170,32 +170,32 @@ const SRS_BUTTONS: {
     shortcut: '1',
     label: 'HỌC LẠI',
     intervalLabel: '10 phút',
-    cls: 'border-rose-500/60 bg-rose-950/45 hover:bg-rose-900/60 text-rose-200 hover:border-rose-400',
-    badgeCls: 'bg-rose-500/25 text-rose-300 border-rose-500/40',
+    cls: 'border-rose-300 bg-rose-50 hover:bg-rose-100 text-rose-800 dark:border-rose-500/60 dark:bg-rose-950/45 dark:hover:bg-rose-900/60 dark:text-rose-200 dark:hover:border-rose-400',
+    badgeCls: 'bg-rose-100 text-rose-800 border-rose-300 dark:bg-rose-500/25 dark:text-rose-200 dark:border-rose-400/50',
   },
   {
     rating: 'hard',
     shortcut: '2',
     label: 'KHÓ',
     intervalLabel: '1-3 ngày',
-    cls: 'border-amber-600/60 bg-amber-950/45 hover:bg-amber-900/55 text-amber-200 hover:border-amber-400',
-    badgeCls: 'bg-amber-500/20 text-amber-300 border-amber-500/40',
+    cls: 'border-amber-300 bg-amber-50 hover:bg-amber-100 text-amber-900 dark:border-amber-600/60 dark:bg-amber-950/45 dark:hover:bg-amber-900/55 dark:text-amber-200 dark:hover:border-amber-400',
+    badgeCls: 'bg-amber-100 text-amber-900 border-amber-300 dark:bg-amber-500/25 dark:text-amber-200 dark:border-amber-400/50',
   },
   {
     rating: 'good',
     shortcut: '3',
     label: 'TỐT',
     intervalLabel: '1-4 ngày',
-    cls: 'border-emerald-500/60 bg-emerald-950/45 hover:bg-emerald-900/55 text-emerald-200 hover:border-emerald-400',
-    badgeCls: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40',
+    cls: 'border-emerald-300 bg-emerald-50 hover:bg-emerald-100 text-emerald-900 dark:border-emerald-500/60 dark:bg-emerald-950/45 dark:hover:bg-emerald-900/55 dark:text-emerald-200 dark:hover:border-emerald-400',
+    badgeCls: 'bg-emerald-100 text-emerald-900 border-emerald-300 dark:bg-emerald-500/25 dark:text-emerald-200 dark:border-emerald-400/50',
   },
   {
     rating: 'easy',
     shortcut: '4',
     label: 'DỄ',
     intervalLabel: '1-7 ngày',
-    cls: 'border-sky-500/60 bg-sky-950/45 hover:bg-sky-900/55 text-sky-200 hover:border-sky-400',
-    badgeCls: 'bg-sky-500/20 text-sky-300 border-sky-500/40',
+    cls: 'border-sky-300 bg-sky-50 hover:bg-sky-100 text-sky-900 dark:border-sky-500/60 dark:bg-sky-950/45 dark:hover:bg-sky-900/55 dark:text-sky-200 dark:hover:border-sky-400',
+    badgeCls: 'bg-sky-100 text-sky-900 border-sky-300 dark:bg-sky-500/25 dark:text-sky-200 dark:border-sky-400/50',
   },
 ];
 
@@ -835,7 +835,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
                   className={`group relative flex flex-col items-center justify-center min-h-[54px] rounded-2xl border px-3 py-3 transition active:scale-[0.97] ${btn.cls}`}
                 >
                   <span
-                    className={`absolute top-1.5 right-2 rounded border px-1.5 py-0.2 text-[10px] font-mono font-bold opacity-80 ${btn.badgeCls}`}
+                    className={`absolute top-1.5 right-2 rounded border px-1.5 py-0.5 text-[10px] font-mono font-extrabold ${btn.badgeCls}`}
                   >
                     {btn.shortcut}
                   </span>
@@ -883,7 +883,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
             Nhóm học <b className="text-slate-200">{topicIndex + 1}/{totalTopics}</b> • Còn lại{' '}
             <b className="text-sky-400">{queue.length} thẻ</b>
           </span>
-          <span className="hidden sm:inline text-[11px] text-slate-500">
+          <span className="hidden sm:inline text-[11px] font-medium text-slate-600 dark:text-slate-400">
             Phím tắt:{' '}
             <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-rose-300 font-mono">1</kbd> Học lại ·{' '}
             <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-amber-300 font-mono">2</kbd> Khó ·{' '}
@@ -1168,8 +1168,8 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
           Nhóm học <b className="text-slate-200">{topicIndex + 1}/{totalTopics}</b> • Tổng cộng{' '}
           <b className="text-slate-200">{totalDeckWords} thẻ</b> trong bộ thẻ
         </span>
-        <span className="hidden sm:inline text-[11px] text-slate-500">
-          Mẹo: Nhấn <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-slate-300 font-mono">Enter</kbd> để kiểm tra • Bấm <b className="text-amber-300">Gợi ý</b> đến bước cuối sẽ mở IPA &amp; phát âm
+        <span className="hidden sm:inline text-[11px] font-medium text-slate-600 dark:text-slate-400">
+          Mẹo: Nhấn <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-slate-300 font-mono">Enter</kbd> để kiểm tra • Bấm <b className="text-amber-700 dark:text-amber-300">Gợi ý</b> đến bước cuối sẽ mở IPA &amp; phát âm
         </span>
       </div>
       </div>

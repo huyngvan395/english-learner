@@ -7,6 +7,7 @@ import { AppProvider } from './context/AppContext';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
 import { AuthModal } from './components/AuthModal';
+import { TextSelectionLookup } from './components/TextSelectionLookup';
 import { VocabHub } from './modules/vocab/VocabHub';
 import { ToeicExamHub } from './modules/toeic/ToeicExamHub';
 import { ReadingHub } from './modules/reading/ReadingHub';
@@ -111,6 +112,7 @@ const AppShell: React.FC = () => {
         </main>
       </div>
       <AuthModal />
+      <TextSelectionLookup />
     </div>
   );
 };

@@ -190,8 +190,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         <p
                           className={`truncate text-[11px] ${
                             isActive
-                              ? 'text-indigo-600/80 dark:text-slate-300'
-                              : 'text-slate-500 group-hover:text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-300'
+                              ? 'text-slate-600 dark:text-slate-300'
+                              : 'text-slate-500 group-hover:text-slate-700 dark:text-slate-400 dark:group-hover:text-slate-300'
                           }`}
                         >
                           {item.sublabel}
