@@ -673,7 +673,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
           className="animate-card-flip rounded-3xl border border-slate-700/80 bg-gradient-to-b from-[#1A263D] via-[#131E32] to-[#0E1627] shadow-card overflow-hidden flex flex-col"
         >
         {/* Top Header: Status + Note on Left, Flip Back button on Right */}
-        <div className="flex flex-wrap items-center justify-between gap-2 px-5 pt-5">
+        <div className="flex flex-wrap items-center justify-between gap-2 px-4 sm:px-5 pt-4 sm:pt-5">
           <div className="flex items-center gap-2 flex-wrap">
             {cardState === 'correct' ? (
               <span className="inline-flex items-center gap-1.5 rounded-xl border border-emerald-400/40 bg-emerald-500/15 px-3 py-1.5 text-xs font-extrabold text-emerald-300">
@@ -866,7 +866,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
                   className={`group relative flex flex-col items-center justify-center min-h-[54px] rounded-2xl border px-3 py-3 transition active:scale-[0.97] ${btn.cls}`}
                 >
                   <span
-                    className={`absolute top-1.5 right-2 rounded border px-1.5 py-0.5 text-[10px] font-mono font-extrabold ${btn.badgeCls}`}
+                    className={`hidden md:inline-block absolute top-1.5 right-2 rounded border px-1.5 py-0.5 text-[10px] font-mono font-extrabold ${btn.badgeCls}`}
                   >
                     {btn.shortcut}
                   </span>
@@ -909,12 +909,12 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
         </div>
 
         {/* Footer with SRS keyboard shortcuts */}
-        <div className="border-t border-slate-800/90 bg-slate-950/50 px-5 py-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
+        <div className="border-t border-slate-800/90 bg-slate-950/50 px-4 sm:px-5 py-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
           <span>
             Nhóm học <b className="text-slate-200">{topicIndex + 1}/{totalTopics}</b> • Còn lại{' '}
             <b className="text-sky-400">{queue.length} thẻ</b>
           </span>
-          <span className="hidden sm:inline text-[11px] font-medium text-slate-600 dark:text-slate-400">
+          <span className="hidden md:inline text-[11px] font-medium text-slate-600 dark:text-slate-400">
             Phím tắt:{' '}
             <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-rose-300 font-mono">1</kbd> Học lại ·{' '}
             <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-amber-300 font-mono">2</kbd> Khó ·{' '}
@@ -942,7 +942,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
         className="rounded-3xl border border-slate-700/80 bg-gradient-to-b from-[#1A2438] via-[#141E30] to-[#0F172A] shadow-card overflow-hidden flex flex-col"
       >
       {/* 1. Card Top Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 px-5 pt-5">
+      <div className="flex flex-wrap items-center justify-between gap-2 px-4 sm:px-5 pt-4 sm:pt-5">
         <div className="flex items-center gap-2">
           <button
             type="button"
@@ -1103,7 +1103,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
             <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
               Gợi ý độ dài từ ({totalLetters} chữ cái)
             </p>
-            <p className="font-mono text-base sm:text-lg font-extrabold tracking-[0.28em] text-sky-300">
+            <p className="font-mono text-base sm:text-lg font-extrabold tracking-[0.16em] sm:tracking-[0.28em] break-all max-w-full text-sky-300">
               {current.word
                 .split('')
                 .map((ch) => (isMaskSeparator(ch) ? ch : '_'))
@@ -1113,10 +1113,10 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
         )}
 
         {/* 4. Random Progressive Hint Row -> Transforms into Pronounce Button at Final Threshold */}
-        <div className="flex flex-wrap items-center justify-center gap-3">
+        <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 max-w-full">
           <div
             key={hintPopKey}
-            className={`rounded-xl border border-slate-700/80 bg-[#0B1120] px-5 py-2.5 font-mono text-base sm:text-lg font-extrabold tracking-[0.22em] text-amber-300 select-none ${
+            className={`max-w-full break-all rounded-xl border border-slate-700/80 bg-[#0B1120] px-4 sm:px-5 py-2.5 font-mono text-base sm:text-lg font-extrabold tracking-[0.14em] sm:tracking-[0.22em] text-amber-300 select-none ${
               hintPopKey > 0 ? 'animate-hint-pop' : ''
             }`}
           >
@@ -1199,12 +1199,12 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
       </div>
 
       {/* 6. Card Footer */}
-      <div className="border-t border-slate-800/90 bg-slate-950/50 px-5 py-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
+      <div className="border-t border-slate-800/90 bg-slate-950/50 px-4 sm:px-5 py-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
         <span>
           Nhóm học <b className="text-slate-200">{topicIndex + 1}/{totalTopics}</b> • Tổng cộng{' '}
           <b className="text-slate-200">{totalDeckWords} thẻ</b> trong bộ thẻ
         </span>
-        <span className="hidden sm:inline text-[11px] font-medium text-slate-600 dark:text-slate-400">
+        <span className="hidden md:inline text-[11px] font-medium text-slate-600 dark:text-slate-400">
           Mẹo: Nhấn <kbd className="rounded bg-slate-800 px-1.5 py-0.5 text-slate-300 font-mono">Enter</kbd> để kiểm tra • Bấm <b className="text-amber-700 dark:text-amber-300">Gợi ý</b> đến bước cuối sẽ mở IPA &amp; phát âm
         </span>
       </div>

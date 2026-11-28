@@ -383,34 +383,34 @@ export const MyVocabView: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Banner */}
-      <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-[#16203A] via-[#111827] to-[#0F172A] p-5 sm:p-6 shadow-card flex flex-col xl:flex-row xl:items-center justify-between gap-4">
+      <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-[#16203A] via-[#111827] to-[#0F172A] p-4 sm:p-6 shadow-card flex flex-col xl:flex-row xl:items-center justify-between gap-4">
         <div>
           <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/15 border border-amber-500/30 px-3 py-1 text-xs font-bold text-amber-300">
             <BookmarkCheck className="h-3.5 w-3.5" />
             Hệ thống lặp lại ngắt quãng SRS
           </div>
-          <h2 className="mt-2 text-2xl font-extrabold text-white">Từ Vựng Của Tôi</h2>
+          <h2 className="mt-2 text-xl sm:text-2xl font-extrabold text-white">Từ Vựng Của Tôi</h2>
           <p className="mt-1 text-xs sm:text-sm text-slate-400">
             Quản lý từ đã đánh dấu sao, từ lưu từ bài nghe Listening / Writing và ôn tập chủ động theo SRS.
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 shrink-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:flex xl:items-center gap-2.5 shrink-0 w-full xl:w-auto">
           <button
             type="button"
             disabled={filteredEntries.length === 0 || loadingMode !== null}
             onClick={() => handleStartReview(filteredEntries, 'active-recall')}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 disabled:opacity-40 px-4 sm:px-5 py-3 text-sm font-extrabold text-white shadow-glow hover:brightness-110 transition active:scale-[0.99]"
+            className="min-h-[46px] inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 disabled:opacity-40 px-4 sm:px-5 py-3 text-sm font-extrabold text-white shadow-glow hover:brightness-110 transition active:scale-[0.99]"
           >
             {loadingMode === 'active-recall' ? (
               <>
-                <Loader2 className="h-4 w-4 animate-spin" />
+                <Loader2 className="h-4 w-4 animate-spin shrink-0" />
                 Đang nạp dữ liệu gõ từ...
               </>
             ) : (
               <>
-                <Keyboard className="h-4 w-4" />
-                Ôn gõ từ chủ động ({filteredEntries.length} từ)
+                <Keyboard className="h-4 w-4 shrink-0" />
+                <span>Ôn gõ từ chủ động ({filteredEntries.length} từ)</span>
               </>
             )}
           </button>
@@ -419,17 +419,17 @@ export const MyVocabView: React.FC = () => {
             type="button"
             disabled={filteredEntries.length === 0 || loadingMode !== null}
             onClick={() => handleStartReview(filteredEntries, 'flashcard')}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 disabled:opacity-40 px-4 sm:px-5 py-3 text-sm font-bold text-white shadow-glow hover:from-blue-500 hover:to-violet-500 transition active:scale-[0.99]"
+            className="min-h-[46px] inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 disabled:opacity-40 px-4 sm:px-5 py-3 text-sm font-bold text-white shadow-glow hover:from-blue-500 hover:to-violet-500 transition active:scale-[0.99]"
           >
             {loadingMode === 'flashcard' ? (
               <>
-                <Loader2 className="h-4 w-4 animate-spin" />
+                <Loader2 className="h-4 w-4 animate-spin shrink-0" />
                 Đang tải thẻ ôn tập...
               </>
             ) : (
               <>
-                <Layers className="h-4 w-4" />
-                Ôn Flashcard ngay ({filteredEntries.length} từ)
+                <Layers className="h-4 w-4 shrink-0" />
+                <span>Ôn Flashcard ngay ({filteredEntries.length} từ)</span>
               </>
             )}
           </button>
@@ -437,7 +437,7 @@ export const MyVocabView: React.FC = () => {
       </div>
 
       {/* Filter Tabs */}
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap gap-2 pb-0.5">
         {[
           { id: 'all' as const, label: `Tất cả (${trackedEntries.length})` },
           { id: 'srs-due' as const, label: `Cần ôn SRS (${dueCount})` },
@@ -454,7 +454,7 @@ export const MyVocabView: React.FC = () => {
             key={t.id}
             type="button"
             onClick={() => setFilter(t.id)}
-            className={`rounded-xl px-4 py-2 text-xs sm:text-sm font-bold transition ${
+            className={`shrink-0 whitespace-nowrap rounded-xl px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-bold transition ${
               filter === t.id
                 ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                 : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white'

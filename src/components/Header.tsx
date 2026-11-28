@@ -268,8 +268,31 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
           </div>
 
-          {/* Right: Sound Control + Theme Toggle + Mobile Search + Streak, XP, Daily Goal */}
-          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+          {/* Right: Mobile Search (< md) + Sound Control + Theme Toggle + Desktop Stats (md+) */}
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            <button
+              type="button"
+              onClick={() => {
+                setMobileSearchOpen((v) => {
+                  const next = !v;
+                  if (next) {
+                    window.setTimeout(() => mobileInputRef.current?.focus(), 60);
+                  } else {
+                    setIsOpen(false);
+                  }
+                  return next;
+                });
+              }}
+              aria-label="Tra từ điển nhanh"
+              className={`md:hidden flex h-9 w-9 items-center justify-center rounded-xl border transition active:scale-95 ${
+                mobileSearchOpen
+                  ? 'border-indigo-400 bg-indigo-50 text-indigo-700 dark:border-indigo-500 dark:bg-indigo-500/20 dark:text-indigo-200'
+                  : 'border-slate-300 bg-white text-slate-700 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300 dark:hover:text-white'
+              }`}
+            >
+              {mobileSearchOpen ? <X className="h-4 w-4" /> : <Search className="h-4 w-4" />}
+            </button>
+
             {/* Sound Mute Toggle + Volume & Quick Test Popover */}
             <div ref={soundMenuRef} className="relative flex items-center">
               <div
@@ -305,7 +328,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                   aria-label="Mở bảng chỉnh âm lượng và nghe thử"
                   aria-expanded={soundPopoverOpen}
                   title="Chỉnh âm lượng & Nghe thử hiệu ứng"
-                  className="flex h-full w-5 sm:w-6 items-center justify-center border-l border-indigo-200/80 dark:border-slate-700/80 hover:bg-indigo-100/80 dark:hover:bg-indigo-500/25 transition"
+                  className="flex h-full w-6 items-center justify-center border-l border-indigo-200/80 dark:border-slate-700/80 hover:bg-indigo-100/80 dark:hover:bg-indigo-500/25 transition"
                 >
                   <ChevronDown
                     className={`h-3 w-3 transition-transform duration-200 ${
@@ -316,7 +339,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
               </div>
 
               {soundPopoverOpen && (
-                <div className="fixed right-3 top-16 sm:absolute sm:right-0 sm:top-11 z-50 w-64 max-w-[calc(100vw-24px)] rounded-2xl border border-slate-200 dark:border-slate-700/90 bg-white dark:bg-[#131C31] p-3.5 shadow-2xl animate-fade-up space-y-3">
+                <div className="fixed right-3 top-[60px] md:absolute md:right-0 md:top-11 z-50 w-64 max-w-[calc(100vw-24px)] rounded-2xl border border-slate-200 dark:border-slate-700/90 bg-white dark:bg-[#131C31] p-3.5 shadow-2xl animate-fade-up space-y-3">
                   <div className="flex items-center justify-between gap-2">
                     <span className="text-xs font-extrabold text-slate-900 dark:text-white">
                       Âm thanh hiệu ứng
@@ -436,7 +459,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
               onClick={toggleTheme}
               aria-label={isDark ? 'Chuyển sang giao diện Sáng' : 'Chuyển sang giao diện Tối'}
               title={isDark ? 'Chuyển sang giao diện Sáng (Light Mode)' : 'Chuyển sang giao diện Tối (Dark Mode)'}
-              className="inline-flex h-9 items-center justify-center gap-1.5 rounded-xl border border-slate-700/80 bg-slate-900/90 hover:border-indigo-500/60 px-2 sm:px-2.5 text-xs font-bold text-slate-200 hover:text-white active:scale-95 transition"
+              className="inline-flex h-9 w-9 md:w-auto items-center justify-center gap-1.5 rounded-xl border border-slate-300 dark:border-slate-700/80 bg-white dark:bg-slate-900/90 hover:border-indigo-500/60 md:px-2.5 text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white active:scale-95 transition"
             >
               {isDark ? (
                 <>
@@ -445,47 +468,24 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                 </>
               ) : (
                 <>
-                  <Moon className="h-4 w-4 text-indigo-400 shrink-0" />
+                  <Moon className="h-4 w-4 text-indigo-600 dark:text-indigo-400 shrink-0" />
                   <span className="hidden md:inline">Tối</span>
                 </>
               )}
             </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                setMobileSearchOpen((v) => {
-                  const next = !v;
-                  if (next) {
-                    window.setTimeout(() => mobileInputRef.current?.focus(), 60);
-                  } else {
-                    setIsOpen(false);
-                  }
-                  return next;
-                });
-              }}
-              aria-label="Tra từ điển nhanh"
-              className={`md:hidden flex h-9 w-9 items-center justify-center rounded-xl border transition ${
-                mobileSearchOpen
-                  ? 'border-indigo-500 bg-indigo-500/20 text-indigo-200'
-                  : 'border-slate-800 bg-slate-900 text-slate-300 hover:text-white'
-              }`}
-            >
-              {mobileSearchOpen ? <X className="h-4 w-4" /> : <Search className="h-4 w-4" />}
-            </button>
-
             <div
-              className="flex items-center gap-1 rounded-xl border border-amber-500/30 bg-amber-500/10 px-2 sm:px-2.5 py-1.5 text-amber-300"
+              className="hidden md:flex items-center gap-1 rounded-xl border border-amber-500/30 bg-amber-500/10 px-2.5 py-1.5 text-amber-300"
               title="Chuỗi ngày học liên tiếp"
             >
-              <Flame className="h-3.5 w-3.5 sm:h-4 sm:w-4 fill-amber-400 text-amber-400" />
-              <span className="text-xs sm:text-sm font-bold">{profile.streak}</span>
-              <span className="hidden md:inline text-[11px] text-amber-200/80">ngày</span>
+              <Flame className="h-4 w-4 fill-amber-400 text-amber-400" />
+              <span className="text-sm font-bold">{profile.streak}</span>
+              <span className="text-[11px] text-amber-200/80">ngày</span>
             </div>
 
             <div
               key={xpBounceKey}
-              className={`relative flex items-center gap-1 rounded-xl border border-violet-500/30 bg-violet-500/10 px-2 sm:px-2.5 py-1.5 text-violet-300 ${
+              className={`hidden md:flex relative items-center gap-1 rounded-xl border border-violet-500/30 bg-violet-500/10 px-2.5 py-1.5 text-violet-300 ${
                 xpBounceKey > 0 ? 'animate-xp-bounce' : ''
               }`}
               title={
@@ -494,9 +494,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                   : 'Điểm kinh nghiệm tích lũy'
               }
             >
-              <Sparkles className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-violet-400" />
-              <span className="text-xs sm:text-sm font-bold">{profile.xp}</span>
-              <span className="hidden sm:inline text-[11px] text-violet-200/80">XP</span>
+              <Sparkles className="h-4 w-4 text-violet-400" />
+              <span className="text-sm font-bold">{profile.xp}</span>
+              <span className="text-[11px] text-violet-200/80">XP</span>
               {milestoneToast !== null && (
                 <span className="pointer-events-none absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-amber-300 dark:border-amber-400/60 bg-amber-100 dark:bg-amber-500/90 px-2 py-0.5 text-[10px] font-black text-amber-900 dark:text-slate-950 shadow-md animate-fade-up">
                   🔥 x{milestoneToast}!
@@ -504,19 +504,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
               )}
             </div>
 
-            {/* Compact Daily Goal chip on tiny phones */}
             <div
-              className="flex sm:hidden items-center gap-1 rounded-xl border border-cyan-500/30 bg-cyan-500/10 px-2 py-1.5 text-cyan-300"
-              title="Mục tiêu ôn từ vựng mỗi ngày"
-            >
-              <Target className="h-3.5 w-3.5 text-cyan-400 shrink-0" />
-              <span className="text-[11px] font-bold">
-                {profile.todayWordsStudied}/{profile.dailyGoal}
-              </span>
-            </div>
-
-            <div
-              className="hidden sm:flex items-center gap-2.5 rounded-xl border border-slate-700/70 bg-slate-900/90 px-3 py-1.5"
+              className="hidden md:flex items-center gap-2.5 rounded-xl border border-slate-700/70 bg-slate-900/90 px-3 py-1.5"
               title="Mục tiêu ôn từ vựng mỗi ngày"
             >
               <Target className="h-4 w-4 text-cyan-400 shrink-0" />

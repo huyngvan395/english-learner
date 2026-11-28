@@ -223,7 +223,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
       <ReadingCheatSheetBox sheet={PART6_STRATEGY_CHEAT_SHEET} defaultOpen={false} />
 
       {/* Genre Filter + Passage Selector with Progress Badges */}
-      <div className="rounded-2xl border border-slate-800 bg-[#111827] p-4 space-y-3.5">
+      <div className="rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4 space-y-3.5 overflow-hidden">
         <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-3">
           <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
             <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
@@ -478,7 +478,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
               return (
                 <div
                   key={q.id}
-                  className="rounded-2xl border border-slate-700/75 bg-[#1E293B] p-5 shadow-card"
+                  className="rounded-2xl border border-slate-700/75 bg-[#1E293B] p-4 sm:p-5 shadow-card"
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                     <span className="rounded-lg bg-indigo-500/20 border border-indigo-500/30 px-2.5 py-1 text-xs font-extrabold text-indigo-300">

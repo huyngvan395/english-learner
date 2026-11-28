@@ -475,14 +475,14 @@ export const WritingHub: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Top Banner + Gemini API Settings Button */}
-      <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-[#16203A] via-[#111827] to-[#0F172A] p-5 sm:p-6 shadow-card">
+      <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-[#16203A] via-[#111827] to-[#0F172A] p-4 sm:p-6 shadow-card">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-          <div>
+          <div className="min-w-0">
             <div className="inline-flex items-center gap-1.5 rounded-full bg-violet-500/15 border border-violet-500/35 px-3 py-1 text-xs font-bold text-violet-300">
-              <Sparkles className="h-3.5 w-3.5" />
-              AI Writing Studio • Powered by Google Gemini (BYOK)
+              <Sparkles className="h-3.5 w-3.5 shrink-0" />
+              <span className="truncate">AI Writing Studio • Google Gemini (BYOK)</span>
             </div>
-            <h2 className="mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
+            <h2 className="mt-2 text-xl sm:text-3xl font-extrabold tracking-tight text-white">
               Luyện Viết &amp; Chấm Bài Chuyên Sâu
             </h2>
             <p className="mt-1 text-xs sm:text-sm text-slate-400 max-w-2xl">
@@ -638,7 +638,7 @@ export const WritingHub: React.FC = () => {
 
       {/* Prompt Picker Strip (for non-custom modes) */}
       {mode !== 'custom' && (
-        <div className="rounded-2xl border border-slate-800 bg-[#111827] p-4 space-y-3">
+        <div className="rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4 space-y-3 overflow-hidden">
           <div className="flex flex-wrap items-center justify-between gap-2">
             <div className="flex items-center gap-2 text-xs font-bold text-slate-300">
               <BookOpen className="h-4 w-4 text-indigo-400" />
@@ -696,13 +696,13 @@ export const WritingHub: React.FC = () => {
                     key={p.id}
                     type="button"
                     onClick={() => setSelectedPromptId(p.id)}
-                    className={`shrink-0 inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
+                    className={`shrink-0 max-w-[85vw] sm:max-w-none inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
                       isSelected
                         ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm'
                         : 'bg-slate-800/90 text-slate-300 hover:text-white border border-slate-700/60'
                     }`}
                   >
-                    <span>
+                    <span className="truncate">
                       #{idx + 1}: {p.title}
                     </span>
                     <span

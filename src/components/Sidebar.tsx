@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import {
   BarChart3,
   BookOpen,
@@ -10,6 +10,7 @@ import {
   Cloud,
   CloudAlert,
   FileText,
+  Flame,
   GraduationCap,
   Headphones,
   LogIn,
@@ -17,6 +18,8 @@ import {
   NotebookPen,
   PenTool,
   RefreshCw,
+  Sparkles,
+  Target,
   Trophy,
   X,
 } from 'lucide-react';
@@ -36,8 +39,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
   mobileOpen,
   onCloseMobile,
 }) => {
-  const { vocabProgress, notes, wrongQuestions, syncNow, signOutAndClear } = useApp();
+  const { vocabProgress, notes, wrongQuestions, profile, syncNow, signOutAndClear } = useApp();
   const { user, userProfile, syncStatus, syncError, openAuthModal } = useAuth();
+  const { pathname } = useLocation();
+
+  // Auto-close mobile drawer whenever route changes (including browser Back/Forward)
+  useEffect(() => {
+    if (mobileOpen) {
+      onCloseMobile();
+    }
+  }, [pathname]);
 
   // Lock background page scroll while mobile slide-over drawer is open
   useEffect(() => {
@@ -122,7 +133,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               type="button"
               onClick={onCloseMobile}
               aria-label="Đóng menu"
-              className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-800 hover:text-white transition"
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white transition"
             >
               <X className="h-4 w-4" />
             </button>
@@ -138,8 +149,30 @@ export const Sidebar: React.FC<SidebarProps> = ({
           )}
         </div>
 
+        {/* Compact Mobile Stats Strip (Streak / XP / Daily Goal — keeps Mobile Top Header uncluttered) */}
+        {isMobile && (
+          <div className="shrink-0 grid grid-cols-3 gap-1.5 px-3 py-2.5 border-b border-slate-200 dark:border-slate-800/80 bg-slate-50/80 dark:bg-[#0B1120]/50">
+            <div className="flex items-center justify-center gap-1 rounded-xl border border-amber-300/70 dark:border-amber-500/30 bg-amber-50 dark:bg-amber-500/10 px-2 py-1.5 text-amber-800 dark:text-amber-300">
+              <Flame className="h-3.5 w-3.5 fill-amber-500 text-amber-500 dark:fill-amber-400 dark:text-amber-400 shrink-0" />
+              <span className="text-xs font-extrabold">{profile.streak}</span>
+              <span className="text-[10px] opacity-80">ngày</span>
+            </div>
+            <div className="flex items-center justify-center gap-1 rounded-xl border border-violet-300/70 dark:border-violet-500/30 bg-violet-50 dark:bg-violet-500/10 px-2 py-1.5 text-violet-800 dark:text-violet-300">
+              <Sparkles className="h-3.5 w-3.5 text-violet-600 dark:text-violet-400 shrink-0" />
+              <span className="text-xs font-extrabold">{profile.xp}</span>
+              <span className="text-[10px] opacity-80">XP</span>
+            </div>
+            <div className="flex items-center justify-center gap-1 rounded-xl border border-cyan-300/70 dark:border-cyan-500/30 bg-cyan-50 dark:bg-cyan-500/10 px-2 py-1.5 text-cyan-800 dark:text-cyan-300">
+              <Target className="h-3.5 w-3.5 text-cyan-600 dark:text-cyan-400 shrink-0" />
+              <span className="text-xs font-extrabold">
+                {profile.todayWordsStudied}/{profile.dailyGoal}
+              </span>
+            </div>
+          </div>
+        )}
+
         {/* Navigation Links */}
-        <nav className="flex-1 space-y-1.5 overflow-y-auto p-3">
+        <nav className="flex-1 min-h-0 space-y-1.5 overflow-y-auto p-3">
           {navItems.map((item) => {
             const Icon = item.icon;
             return (

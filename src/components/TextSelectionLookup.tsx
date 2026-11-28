@@ -104,15 +104,15 @@ export const TextSelectionLookup: React.FC = () => {
   const [aiGenerating, setAiGenerating] = useState(false);
   const [fullModalTarget, setFullModalTarget] = useState<QuickWordTarget | null>(null);
   const [isMobileViewport, setIsMobileViewport] = useState(
-    () => typeof window !== 'undefined' && window.innerWidth < 640
+    () => typeof window !== 'undefined' && window.innerWidth < 768
   );
 
   const popoverRef = useRef<HTMLDivElement | null>(null);
   const requestIdRef = useRef(0);
 
-  // Track responsive mobile viewport for bottom-sheet vs floating popover
+  // Track responsive mobile viewport (< md = 768px) for fixed Bottom Sheet vs floating Desktop popover
   useEffect(() => {
-    const onResize = () => setIsMobileViewport(window.innerWidth < 640);
+    const onResize = () => setIsMobileViewport(window.innerWidth < 768);
     window.addEventListener('resize', onResize);
     return () => window.removeEventListener('resize', onResize);
   }, []);
@@ -514,10 +514,17 @@ export const TextSelectionLookup: React.FC = () => {
       style={isMobileViewport ? undefined : computeDesktopStyle()}
       className={
         isMobileViewport
-          ? 'fixed inset-x-2.5 bottom-3 z-[65] max-h-[min(380px,calc(100dvh-32px))] flex flex-col rounded-3xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up pb-safe'
+          ? 'fixed inset-x-2 bottom-2 z-[65] max-h-[75dvh] flex flex-col rounded-3xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up pb-safe'
           : 'z-[65] max-h-[min(380px,calc(100dvh-32px))] flex flex-col rounded-2xl border border-slate-200 dark:border-slate-700/90 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up'
       }
     >
+      {/* Mobile Bottom Sheet Drag Handle */}
+      {isMobileViewport && (
+        <div className="shrink-0 flex justify-center pt-2 pb-1 bg-slate-50/90 dark:bg-[#0F172A]/90">
+          <div className="h-1 w-10 rounded-full bg-slate-300 dark:bg-slate-600" />
+        </div>
+      )}
+
       {/* Header */}
       <div className="shrink-0 flex items-start justify-between gap-2.5 border-b border-slate-200 dark:border-slate-800 bg-slate-50/90 dark:bg-[#0F172A]/90 px-4 py-3">
         <div className="min-w-0 space-y-1">
@@ -594,9 +601,9 @@ export const TextSelectionLookup: React.FC = () => {
           type="button"
           onClick={closeLookup}
           aria-label="Đóng tra từ nhanh"
-          className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 hover:text-slate-900 dark:hover:text-white transition"
+          className="flex h-9 w-9 md:h-7 md:w-7 shrink-0 items-center justify-center rounded-xl md:rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 hover:text-slate-900 dark:hover:text-white transition"
         >
-          <X className="h-3.5 w-3.5" />
+          <X className="h-4 w-4 md:h-3.5 md:w-3.5" />
         </button>
       </div>
 

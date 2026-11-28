@@ -236,22 +236,22 @@ export const SmartAudioPlayer: React.FC<SmartAudioPlayerProps> = ({
       )}
 
       <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-        <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-500/15 text-indigo-400">
+        <div className="flex items-center gap-2 min-w-0 flex-1">
+          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-indigo-500/15 text-indigo-400">
             <Volume2 className="h-4 w-4" />
           </div>
-          <div>
-            <p className="text-xs sm:text-sm font-semibold text-slate-100">{label}</p>
-            <p className="text-[11px] text-slate-400">
+          <div className="min-w-0">
+            <p className="text-xs sm:text-sm font-semibold text-slate-100 truncate">{label}</p>
+            <p className="text-[11px] text-slate-400 truncate">
               {useRealMp3
-                ? `Audio MP3 chuẩn phòng thi ETS (Mỹ / Anh / Úc) • Câu ${Math.min(currentIndex + 1, lines.length)}/${lines.length}`
+                ? `Audio MP3 ETS • Câu ${Math.min(currentIndex + 1, lines.length)}/${lines.length}`
                 : `Đoạn ${Math.min(currentIndex + 1, lines.length)} / ${lines.length} • Giọng AI dự phòng`}
             </p>
           </div>
         </div>
 
         {/* Speed & Loop controls */}
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 shrink-0">
           <div className="flex items-center rounded-lg bg-slate-800/90 p-0.5 border border-slate-700/60">
             {SPEEDS.map((s) => (
               <button
@@ -286,7 +286,7 @@ export const SmartAudioPlayer: React.FC<SmartAudioPlayerProps> = ({
       </div>
 
       {/* Main controls + Scrubber */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2 sm:gap-3">
         <button
           type="button"
           onClick={() => handleStep(-1)}
@@ -313,7 +313,7 @@ export const SmartAudioPlayer: React.FC<SmartAudioPlayerProps> = ({
           <RotateCw className="h-4 w-4" />
         </button>
 
-        <div className="flex-1 flex flex-col gap-1">
+        <div className="flex-1 min-w-0 flex flex-col gap-1">
           <input
             type="range"
             min={0}

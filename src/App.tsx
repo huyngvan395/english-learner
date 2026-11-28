@@ -89,7 +89,7 @@ const AppShell: React.FC = () => {
       <div className="flex-1 flex flex-col min-w-0">
         <Header onOpenMobileMenu={() => setMobileMenuOpen(true)} />
 
-        <main className="flex-1 w-full max-w-[1680px] min-w-0 px-3 pt-5 pb-6 sm:px-5 sm:pt-6 lg:px-6 lg:pt-6">
+        <main className="flex-1 w-full max-w-[1680px] min-w-0 px-3 pt-3.5 pb-6 sm:px-5 sm:pt-6 lg:px-6 lg:pt-6">
           <Routes>
             <Route path="/" element={<RootRedirect />} />
 

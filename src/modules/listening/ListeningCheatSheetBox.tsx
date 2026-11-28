@@ -26,7 +26,7 @@ export const ListeningCheatSheetBox: React.FC<ListeningCheatSheetBoxProps> = ({
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="w-full flex items-center justify-between gap-3 px-4 sm:px-5 py-3.5 text-left hover:bg-white/[0.03] transition"
+        className="w-full flex items-center justify-between gap-2.5 sm:gap-3 px-3.5 sm:px-5 py-3 sm:py-3.5 text-left hover:bg-white/[0.03] transition"
       >
         <div className="flex items-center gap-2.5 min-w-0">
           <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-cyan-500/20 border border-cyan-400/35 text-cyan-300">
@@ -60,7 +60,7 @@ export const ListeningCheatSheetBox: React.FC<ListeningCheatSheetBoxProps> = ({
       </button>
 
       {open && (
-        <div className="border-t border-slate-800/80 px-4 sm:px-5 py-4 space-y-4">
+        <div className="border-t border-slate-800/80 px-3.5 sm:px-5 py-3.5 sm:py-4 space-y-3.5 sm:space-y-4">
           {/* 1. Bản chất cốt lõi */}
           <div className="rounded-xl border border-sky-500/25 bg-sky-950/20 p-3.5">
             <div className="flex items-center gap-1.5 text-[11px] font-extrabold uppercase tracking-wider text-sky-300">

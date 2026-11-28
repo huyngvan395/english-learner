@@ -238,7 +238,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
       <ReadingCheatSheetBox sheet={PART7_STRATEGY_CHEAT_SHEET} defaultOpen={false} />
 
       {/* Passage Count + Genre Filters + Set Selector */}
-      <div className="rounded-2xl border border-slate-800 bg-[#111827] p-4 space-y-3.5">
+      <div className="rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4 space-y-3.5 overflow-hidden">
         <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-3">
           {/* Passage Count Filter */}
           <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
@@ -380,13 +380,13 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
                   key={s.id}
                   type="button"
                   onClick={() => setSelectedSetId(s.id)}
-                  className={`shrink-0 inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
+                  className={`shrink-0 max-w-[85vw] sm:max-w-none inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-bold transition ${
                     isSelected
                       ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 text-white shadow-sm'
                       : 'bg-slate-800/90 text-slate-300 hover:text-white border border-slate-700/60'
                   }`}
                 >
-                  <span>
+                  <span className="truncate">
                     Bài {idx + 1} ({typeBadge}) • {s.passages.map((d) => d.genre).join(' + ')}
                   </span>
                   <span
@@ -636,7 +636,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
               return (
                 <div
                   key={q.id}
-                  className="rounded-2xl border border-slate-700/75 bg-[#1E293B] p-5 shadow-card"
+                  className="rounded-2xl border border-slate-700/75 bg-[#1E293B] p-4 sm:p-5 shadow-card"
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-2.5">
                     <span className="rounded-lg bg-indigo-500/20 border border-indigo-500/30 px-2.5 py-1 text-xs font-extrabold text-indigo-300">

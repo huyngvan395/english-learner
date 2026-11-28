@@ -90,10 +90,10 @@ export const ListeningItemNavigator: React.FC<ListeningItemNavigatorProps> = ({
   };
 
   return (
-    <div className="rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4 space-y-3">
+    <div className="rounded-2xl border border-slate-800 bg-[#111827] p-3.5 sm:p-4 space-y-3 overflow-hidden">
       {/* Row 1: Category / Scene / Question Type Filter */}
-      <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5">
-        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5 min-w-0">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 min-w-0 max-w-full">
           <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-bold text-slate-400 mr-1">
             <Filter className="h-3.5 w-3.5 text-cyan-400" />
             {filterHeading}:
@@ -116,7 +116,7 @@ export const ListeningItemNavigator: React.FC<ListeningItemNavigatorProps> = ({
         </div>
 
         {/* Row 1b: Status Filter */}
-        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5">
+        <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 min-w-0 max-w-full">
           {(
             [
               { key: 'all', label: `Tất cả (${statusCounts.all})` },
@@ -164,11 +164,11 @@ export const ListeningItemNavigator: React.FC<ListeningItemNavigatorProps> = ({
             onClick={() => setGridOpen((v) => !v)}
             className="min-h-[40px] flex-1 min-w-0 flex items-center justify-between gap-2 rounded-xl border border-indigo-500/40 bg-slate-900/95 hover:border-indigo-400/70 px-3 py-2 text-left transition"
           >
-            <div className="flex items-center gap-2 min-w-0">
+            <div className="flex items-center gap-1.5 sm:gap-2 min-w-0 overflow-hidden">
               <LayoutGrid className="h-4 w-4 text-indigo-400 shrink-0" />
               {activeItem ? (
-                <div className="min-w-0 flex items-center gap-2">
-                  <span className="text-xs sm:text-sm font-extrabold text-white shrink-0">
+                <div className="min-w-0 flex items-center gap-1.5 sm:gap-2 overflow-hidden">
+                  <span className="text-xs sm:text-sm font-extrabold text-white truncate">
                     {activeItem.shortLabel}{' '}
                     <span className="text-slate-400 font-semibold">
                       ({safeIdx + 1}/{items.length})
@@ -307,7 +307,7 @@ export const ListeningBottomNavBar: React.FC<ListeningBottomNavBarProps> = ({
   const canNext = currentIndex < totalCount - 1;
 
   return (
-    <div className="rounded-2xl border border-slate-800 bg-[#111827] px-3.5 sm:px-4 py-3 flex items-center justify-between gap-3">
+    <div className="rounded-2xl border border-slate-800 bg-[#111827] px-3 sm:px-4 py-3 flex items-center justify-between gap-2 sm:gap-3">
       <button
         type="button"
         disabled={!canPrev}
@@ -315,14 +315,16 @@ export const ListeningBottomNavBar: React.FC<ListeningBottomNavBarProps> = ({
           onPrev();
           window.scrollTo({ top: 140, behavior: 'smooth' });
         }}
-        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 disabled:opacity-35 px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-slate-200 transition active:scale-95"
+        className="min-h-[42px] shrink-0 whitespace-nowrap inline-flex items-center gap-1 sm:gap-1.5 rounded-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 disabled:opacity-35 px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-slate-200 transition active:scale-95"
       >
-        <ChevronLeft className="h-4 w-4" />
-        {unitLabel} trước
+        <ChevronLeft className="h-4 w-4 shrink-0" />
+        <span className="hidden sm:inline">{unitLabel} trước</span>
+        <span className="sm:hidden">Trước</span>
       </button>
 
-      <span className="text-xs sm:text-sm font-extrabold text-slate-300">
-        {unitLabel} <span className="text-sky-300">{currentIndex + 1}</span> / {totalCount}
+      <span className="text-xs sm:text-sm font-extrabold text-slate-300 text-center whitespace-nowrap">
+        <span className="hidden sm:inline">{unitLabel} </span>
+        <span className="text-sky-300">{currentIndex + 1}</span> / {totalCount}
       </span>
 
       <button
@@ -332,10 +334,11 @@ export const ListeningBottomNavBar: React.FC<ListeningBottomNavBarProps> = ({
           onNext();
           window.scrollTo({ top: 140, behavior: 'smooth' });
         }}
-        className="min-h-[42px] inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 disabled:opacity-35 px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-white shadow-sm transition active:scale-95"
+        className="min-h-[42px] shrink-0 whitespace-nowrap inline-flex items-center gap-1 sm:gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 disabled:opacity-35 px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-bold text-white shadow-sm transition active:scale-95"
       >
-        {unitLabel} sau
-        <ChevronRight className="h-4 w-4" />
+        <span className="hidden sm:inline">{unitLabel} sau</span>
+        <span className="sm:hidden">Sau</span>
+        <ChevronRight className="h-4 w-4 shrink-0" />
       </button>
     </div>
   );

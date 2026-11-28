@@ -95,6 +95,10 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopic
 
   const deckMastered = deck.words.filter((w) => vocabProgress[w.id]?.status === 'mastered').length;
   const deckPct = Math.round((deckMastered / Math.max(1, deck.words.length)) * 100);
+  const activeTopicMastered = activeTopic.words.filter(
+    (w) => vocabProgress[w.id]?.status === 'mastered'
+  ).length;
+  const activeTopicTotal = activeTopic.words.length;
 
   const modePills: { id: StudyTab; label: string; icon: React.FC<{ className?: string }> }[] = [
     { id: 'active-recall', label: 'Gõ từ chủ động', icon: Keyboard },
@@ -116,54 +120,63 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopic
       {/* ================= LEFT COLUMN: DANH SÁCH CHỦ ĐỀ (Collapsible Accordion on Mobile, Sticky Sidebar on Desktop) ================= */}
       <aside className="w-full lg:w-[290px] xl:w-[310px] shrink-0 lg:sticky lg:top-[84px] rounded-2xl lg:rounded-3xl border border-slate-800 bg-[#111827] shadow-card flex flex-col lg:max-h-[calc(100dvh-104px)] overflow-hidden">
         {/* Sidebar Top Header */}
-        <div className="p-3.5 sm:p-4 border-b border-slate-800/90 space-y-2.5 sm:space-y-3 shrink-0">
+        <div className="p-3 sm:p-4 border-b border-slate-800/90 space-y-2.5 lg:space-y-3 shrink-0">
           <div className="flex items-center justify-between gap-2">
             <button
               type="button"
               onClick={onBack}
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-400 hover:text-sky-300 transition"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-400 hover:text-sky-300 transition shrink-0"
             >
               <ArrowLeft className="h-4 w-4" />
-              Quay lại kho bộ thẻ
+              <span className="sm:hidden">Kho thẻ</span>
+              <span className="hidden sm:inline">Quay lại kho bộ thẻ</span>
             </button>
 
             {/* Mobile Accordion Toggle Button */}
             <button
               type="button"
               onClick={() => setMobileTopicsOpen((v) => !v)}
-              className="lg:hidden inline-flex items-center gap-1.5 rounded-xl border border-indigo-500/40 bg-indigo-500/15 px-3 py-1.5 text-xs font-bold text-indigo-200 transition active:scale-95"
+              className="lg:hidden min-h-[38px] inline-flex items-center gap-1.5 rounded-xl border border-indigo-500/40 bg-indigo-500/15 px-3 py-1.5 text-xs font-bold text-indigo-200 transition active:scale-95 truncate max-w-[68%]"
             >
-              <span>Chủ đề ({activeTopicIndex + 1}/{topics.length})</span>
+              <span className="truncate">
+                Nhóm học {activeTopicIndex + 1}/{topics.length} ({activeTopicMastered}/{activeTopicTotal})
+              </span>
               {mobileTopicsOpen ? (
-                <ChevronUp className="h-4 w-4" />
+                <ChevronUp className="h-4 w-4 shrink-0" />
               ) : (
-                <ChevronDown className="h-4 w-4" />
+                <ChevronDown className="h-4 w-4 shrink-0" />
               )}
             </button>
           </div>
 
-          <div>
-            <p className="hidden lg:block text-[11px] font-extrabold uppercase tracking-widest text-slate-400">
-              DANH SÁCH CHỦ ĐỀ
-            </p>
-            <h2 className="mt-0.5 lg:mt-1 text-sm font-extrabold text-white leading-snug line-clamp-2">
-              {deck.title}
-            </h2>
-          </div>
-
-          {/* Overall Deck Progress */}
-          <div className="space-y-1">
-            <div className="flex items-center justify-between text-[11px] font-semibold">
-              <span className="text-slate-400">
-                Tổng tiến độ ({deckMastered}/{deck.words.length} thẻ)
-              </span>
-              <span className="text-emerald-400 font-bold">{deckPct}%</span>
+          <div
+            className={`${
+              mobileTopicsOpen ? 'block space-y-2.5 pt-2 border-t border-slate-800/80' : 'hidden'
+            } lg:block lg:space-y-3 lg:pt-0 lg:border-t-0`}
+          >
+            <div>
+              <p className="hidden lg:block text-[11px] font-extrabold uppercase tracking-widest text-slate-400">
+                DANH SÁCH CHỦ ĐỀ
+              </p>
+              <h2 className="mt-0.5 lg:mt-1 text-sm font-extrabold text-white leading-snug line-clamp-2">
+                {deck.title}
+              </h2>
             </div>
-            <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-800">
-              <div
-                className="h-full rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-400 transition-all duration-300"
-                style={{ width: `${deckPct}%` }}
-              />
+
+            {/* Overall Deck Progress */}
+            <div className="space-y-1">
+              <div className="flex items-center justify-between text-[11px] font-semibold">
+                <span className="text-slate-400">
+                  Tổng tiến độ ({deckMastered}/{deck.words.length} thẻ)
+                </span>
+                <span className="text-emerald-400 font-bold">{deckPct}%</span>
+              </div>
+              <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-800">
+                <div
+                  className="h-full rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-400 transition-all duration-300"
+                  style={{ width: `${deckPct}%` }}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -259,7 +272,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopic
       {/* ================= RIGHT COLUMN: ACTIVE RECALL CARD + MODE TABS ================= */}
       <div className="flex-1 min-w-0 w-full space-y-4">
         {/* Compact Top Topic Bar + Mode Switcher Pills */}
-        <div className="scroll-mt-24 rounded-2xl border border-slate-800 bg-[#111827]/95 px-3.5 sm:px-4 py-3 flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5 sm:gap-3">
+        <div className="scroll-mt-24 rounded-2xl border border-slate-800 bg-[#111827]/95 px-3.5 sm:px-4 py-3 flex flex-col lg:flex-row lg:flex-wrap lg:items-center justify-between gap-2.5 sm:gap-3 overflow-hidden">
           <div className="flex items-center gap-2 min-w-0">
             <span className="rounded-lg bg-sky-500/15 border border-sky-500/30 px-2.5 py-1 text-[11px] font-extrabold text-sky-300 shrink-0">
               Chủ đề {activeTopicIndex + 1}/{topics.length}
@@ -269,7 +282,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopic
             </h3>
           </div>
 
-          <div className="flex flex-nowrap overflow-x-auto no-scrollbar sm:flex-wrap items-center gap-1.5 -mx-1 px-1 sm:mx-0 sm:px-0">
+          <div className="flex flex-nowrap overflow-x-auto no-scrollbar lg:flex-wrap items-center gap-1.5 -mx-1 px-1 lg:mx-0 lg:px-0 max-w-full">
             {modePills.map((m) => {
               const Icon = m.icon;
               const active = activeTab === m.id;
