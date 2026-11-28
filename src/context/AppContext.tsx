@@ -1,6 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import {
   AttemptRecord,
+  GrammarTopicProgress,
   ListeningQuestionProgress,
   ListeningVocabItem,
   MasteryStatus,
@@ -47,6 +48,7 @@ const STORAGE_KEYS = {
   PROFILE: 'tmh_user_profile_v1',
   HIGHLIGHTS: 'tmh_reading_highlights_v1',
   READING_PROGRESS: 'tmh_reading_progress_v1',
+  GRAMMAR_PROGRESS: 'tmh_grammar_progress_v1',
   LISTENING_PROGRESS: 'tmh_listening_progress_v1',
   VIDEO_PROGRESS: 'tmh_video_progress_v1',
   CUSTOM_VIDEOS: 'tmh_custom_videos_v1',
@@ -101,6 +103,7 @@ interface AppContextValue {
   profile: UserProfileStats;
   readingHighlights: Record<string, string[]>;
   readingProgress: Record<string, ReadingQuestionProgress>;
+  grammarProgress: Record<string, GrammarTopicProgress>;
   listeningProgress: Record<string, ListeningQuestionProgress>;
   videoProgress: Record<string, VideoProgressRecord>;
   customVideos: VideoDetailItem[];
@@ -156,6 +159,8 @@ interface AppContextValue {
   clearReadingHighlights: (passageId: string) => void;
   recordReadingResult: (questionId: string, selectedAnswer: OptionKey, isCorrect: boolean) => void;
   recordListeningResult: (questionId: string, selectedAnswer: string, isCorrect: boolean) => void;
+  markGrammarTheoryRead: (topicId: string, totalQuestions?: number) => void;
+  recordGrammarQuizResult: (topicId: string, score: number, totalQuestions: number) => void;
 
   markVideoSentenceCompleted: (
     videoId: string,
@@ -198,6 +203,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   );
   const [readingProgress, setReadingProgress] = useState<Record<string, ReadingQuestionProgress>>(() =>
     safeLoad(STORAGE_KEYS.READING_PROGRESS, {})
+  );
+  const [grammarProgress, setGrammarProgress] = useState<Record<string, GrammarTopicProgress>>(() =>
+    safeLoad(STORAGE_KEYS.GRAMMAR_PROGRESS, {})
   );
   const [listeningProgress, setListeningProgress] = useState<Record<string, ListeningQuestionProgress>>(() =>
     safeLoad(STORAGE_KEYS.LISTENING_PROGRESS, {})
@@ -279,6 +287,14 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   }, [readingProgress]);
 
   useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.GRAMMAR_PROGRESS, JSON.stringify(grammarProgress));
+    } catch {
+      // Ignore quota overflow
+    }
+  }, [grammarProgress]);
+
+  useEffect(() => {
     localStorage.setItem(STORAGE_KEYS.LISTENING_PROGRESS, JSON.stringify(listeningProgress));
   }, [listeningProgress]);
 
@@ -346,6 +362,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       profile,
       readingHighlights,
       readingProgress,
+      grammarProgress,
       listeningProgress,
       videoProgress,
       customVideos,
@@ -363,6 +380,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     profile,
     readingHighlights,
     readingProgress,
+    grammarProgress,
     listeningProgress,
     videoProgress,
     customVideos,
@@ -383,6 +401,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     setProfile(snap.profile);
     setReadingHighlights(snap.readingHighlights);
     setReadingProgress(snap.readingProgress);
+    setGrammarProgress(snap.grammarProgress || {});
     setListeningProgress(snap.listeningProgress || {});
     setVideoProgress(snap.videoProgress || {});
     setCustomVideos(snap.customVideos || []);
@@ -486,6 +505,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     profile,
     readingHighlights,
     readingProgress,
+    grammarProgress,
     listeningProgress,
     videoProgress,
     customVideos,
@@ -1080,6 +1100,60 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     }));
   };
 
+  const markGrammarTheoryRead = useCallback((topicId: string, totalQuestions = 12) => {
+    setGrammarProgress((prev) => {
+      const curr = prev[topicId];
+      if (curr?.theoryRead) return prev;
+      return {
+        ...prev,
+        [topicId]: {
+          topicId,
+          theoryRead: true,
+          attemptsCount: curr?.attemptsCount || 0,
+          bestScore: curr?.bestScore || 0,
+          lastScore: curr?.lastScore || 0,
+          totalQuestions: curr?.totalQuestions || totalQuestions,
+          bestAccuracy: curr?.bestAccuracy || 0,
+          lastAccuracy: curr?.lastAccuracy || 0,
+          status: curr?.status === 'completed' ? 'completed' : 'in-progress',
+          completedAt: curr?.completedAt,
+          updatedAt: Date.now(),
+        },
+      };
+    });
+    touchActivity(5, 0);
+  }, []);
+
+  const recordGrammarQuizResult = useCallback(
+    (topicId: string, score: number, totalQuestions: number) => {
+      const accuracy = Math.round((score / Math.max(1, totalQuestions)) * 100);
+      setGrammarProgress((prev) => {
+        const curr = prev[topicId];
+        const bestScore = Math.max(curr?.bestScore || 0, score);
+        const bestAccuracy = Math.max(curr?.bestAccuracy || 0, accuracy);
+        const isCompleted = curr?.status === 'completed' || bestAccuracy >= 75;
+        return {
+          ...prev,
+          [topicId]: {
+            topicId,
+            theoryRead: true,
+            attemptsCount: (curr?.attemptsCount || 0) + 1,
+            bestScore,
+            lastScore: score,
+            totalQuestions,
+            bestAccuracy,
+            lastAccuracy: accuracy,
+            status: isCompleted ? 'completed' : 'in-progress',
+            completedAt: isCompleted ? curr?.completedAt || Date.now() : curr?.completedAt,
+            updatedAt: Date.now(),
+          },
+        };
+      });
+      touchActivity(Math.max(10, score * 3), Math.min(4, Math.ceil(score / 3)));
+    },
+    []
+  );
+
   const markVideoSentenceCompleted = useCallback(
     (videoId: string, sentenceIndex: number, totalSentences: number, mode: VideoPracticeMode) => {
       let newlyCompleted = false;
@@ -1240,6 +1314,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         profile,
         readingHighlights,
         readingProgress,
+        grammarProgress,
         listeningProgress,
         videoProgress,
         customVideos,
@@ -1272,6 +1347,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         clearReadingHighlights,
         recordReadingResult,
         recordListeningResult,
+        markGrammarTheoryRead,
+        recordGrammarQuizResult,
         markVideoSentenceCompleted,
         setVideoLastSentence,
         recordVideoQuizScore,

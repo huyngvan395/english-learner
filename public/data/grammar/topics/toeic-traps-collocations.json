@@ -1,0 +1,325 @@
+{
+  "id": "toeic-traps-collocations",
+  "order": 16,
+  "title": "Tổng hợp Bẫy ngữ pháp kinh điển Part 5–6 & Từ dễ nhầm",
+  "subtitle": "make/do, spend/take, hard/hardly, late/lately, high/highly, almost/most, used to/be used to và Cấu trúc song song (Parallelism)",
+  "level": "advanced",
+  "levelLabel": "Nâng cao (800–990)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 20,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Part 6", "Bẫy ETS", "Parallelism"],
+  "summaryVi": "Chuyên đề chốt chặng 900+ tổng hợp toàn bộ những cặp từ gây nhiễu kinh điển nhất của ETS TOEIC (hard vs. hardly, late vs. lately, high vs. highly, almost vs. most, make vs. do, spend vs. take, used to vs. be used to) cùng quy tắc Cấu trúc song song (Parallelism) giúp bạn tránh sạch những cú lừa tinh vi trong Part 5 & Part 6.",
+  "keyTakeaways": [
+    "Cặp Trạng từ KHÔNG -ly vs. CÓ -ly khác nghĩa hoàn toàn: `hard` (chăm chỉ/mạnh) ≠ `hardly` (hầu như không); `late` (muộn) ≠ `lately` (gần đây); `high` (cao vật lý) ≠ `highly` (rất/cực kỳ); `near` (gần) ≠ `nearly` (gần như).",
+    "`ALMOST` là Trạng từ (đứng trước all / every / no / số đếm: *almost all employees*, KHÔNG đứng 1 mình trước danh từ!) ≠ `MOST` là Lượng từ (*most employees* hoặc *most of the employees*).",
+    "`used to + V0` (đã từng làm trong quá khứ) ≠ `be / get used to + V-ing / N` (quen với việc gì).",
+    "Cấu trúc song song (Parallelism): Các thành phần nối bằng `and / or / but / as well as / rather than` PHẢI đồng dạng từ loại hoặc cấu trúc (`to V, V, and V` | `V-ing, V-ing, and V-ing` | `N, N, and N`)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 8 cặp từ dễ nhầm lẫn bị ETS khai thác nhiều nhất",
+      "headers": ["Cặp từ dễ nhầm", "Phân biệt chuẩn nghĩa & ngữ pháp", "Ví dụ chuẩn Part 5"],
+      "rows": [
+        ["hard vs. hardly", "**hard** (adj/adv): chăm chỉ, khó, mạnh\n**hardly** (adv): hầu như KHÔNG (nghĩa phủ định)", "She worked **hard** all quarter.\nThere is **hardly** any space left."],
+        ["late vs. lately", "**late** (adj/adv): trễ, muộn\n**lately** (adv): gần đây (= recently → hay đi với HTHT)", "The courier arrived **late**.\nSales have surged **lately**."],
+        ["high vs. highly", "**high** (adj/adv): cao (vị trí, mức độ)\n**highly** (adv): rất, cực kỳ (+ Adj/V3: highly recommended)", "Production costs remain **high**.\nMs. Park is **highly** qualified."],
+        ["almost vs. most", "**almost** (adv): gần như (+ all / every / 90% / Adj)\n**most** (det): hầu hết (+ N hoặc + of the N)", "**Almost all** staff attended.\n**Most** staff attended. (KHÔNG: *Almost staff*)"],
+        ["make vs. do", "**make**: tạo ra / quyết định (make a decision, make progress, make an appointment, make arrangements)\n**do**: thực hiện công việc (do research, do business, do a favor, do repairs)", "We **do business** globally and **make** fast **decisions**."],
+        ["spend vs. take", "S(người) + **spend** + [time/money] + V-ing / on N\n**It takes** + (sb) + [time] + **to-V**", "We **spent** two hours **reviewing**.\n**It took** us two hours **to review**."],
+        ["used to vs. be used to", "**used to + V0**: đã từng làm trong quá khứ\n**be/get used to + V-ing/N**: quen với việc gì", "The firm **used to rent** small offices.\nStaff **are used to working** remotely."],
+        ["rise vs. raise", "**rise** (nội V: rose–risen): TỰ tăng (KHÔNG có O)\n**raise** (ngoại V: raised–raised): nâng lên / gây quỹ (+ O)", "Fuel prices **rose** sharply.\nThe charity **raised** $50,000."]
+      ]
+    },
+    {
+      "title": "Quy tắc Cấu trúc song song (Parallelism) trong TOEIC",
+      "headers": ["Liên từ báo hiệu song song", "Yêu cầu đồng dạng", "Ví dụ chuẩn ETS"],
+      "rows": [
+        ["A, B, and C / A or B", "Cùng N, cùng Adj, cùng V-ing, hoặc cùng V chia thì", "The role involves **planning** budgets, **hiring** staff, and **auditing** expenses."],
+        ["not only A but also B / both A and B", "Vế A và vế B phải cùng cấu trúc ngữ pháp", "The device is both **compact** and **affordable**."],
+        ["rather than / instead of / as well as", "So sánh / nối hai cụm đồng cấp", "We aim to **expand** online sales rather than **open** physical branches."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "____ + qualified / recommended / skilled / competitive / valued",
+      "rule": "Collocation tủ ETS: chọn ngay trạng từ mức độ **highly** (rất/cực kỳ), loại 'high'!",
+      "example": "Dr. Lee is a highly respected financial analyst."
+    },
+    {
+      "signal": "____ + [Danh từ số nhiều trực tiếp] vs. ____ + all / every + [Danh từ]",
+      "rule": "Trước danh từ trực tiếp chọn **Most**; trước 'all / every / 100%' chọn **Almost**!",
+      "example": "**Most** attendees liked it. / **Almost** all attendees liked it."
+    },
+    {
+      "signal": "have/has + V3 + ____ (hoặc ____ + have/has + V3)",
+      "rule": "Trạng từ dấu hiệu Hiện tại hoàn thành ('gần đây') → chọn **lately** (không chọn 'late').",
+      "example": "Customer inquiries have risen sharply **lately**."
+    },
+    {
+      "signal": "A, B, and ____ (chuỗi liệt kê 3 thành phần)",
+      "rule": "Soi ngay dạng của A và B (V-ing / V0 / Adj / N) và chọn đáp án CÙNG DẠNG 100%!",
+      "example": "clear, concise, and **persuasive** (3 Tính từ song song)."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Dùng 'Almost' đứng trực tiếp trước danh từ",
+      "wrongExample": "Almost employees attended the quarterly town hall meeting.",
+      "correctExample": "Most employees (hoặc Almost all employees) attended the quarterly town hall meeting.",
+      "explanationVi": "'Almost' là Trạng từ nên KHÔNG đứng trực tiếp trước danh từ — phải viết 'Almost all employees' hoặc dùng lượng từ 'Most employees'."
+    },
+    {
+      "title": "Bẫy #2: Nhầm 'rise' (nội động từ) với 'raise' (ngoại động từ)",
+      "wrongExample": "The board decided to rise the minimum starting salary next quarter.",
+      "correctExample": "The board decided to raise the minimum starting salary next quarter.",
+      "explanationVi": "Phía sau có tân ngữ trực tiếp 'the minimum starting salary' (nâng lương lên) → bắt buộc dùng ngoại động từ 'raise' (không dùng 'rise')."
+    },
+    {
+      "title": "Bẫy #3: Phá vỡ cấu trúc song song trong chuỗi liệt kê 3 mục",
+      "wrongExample": "The workshop covers negotiating contracts, managing timelines, and how to resolve disputes.",
+      "correctExample": "The workshop covers negotiating contracts, managing timelines, and resolving disputes.",
+      "explanationVi": "Hai mục đầu đều là V-ing ('negotiating', 'managing') → mục thứ 3 phải đồng dạng V-ing ('resolving') để bảo toàn Parallelism."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "Ms. Ortiz is **highly** **recommended** by former clients for her meticulous project management.",
+      "vi": "Bà Ortiz được các khách hàng cũ đánh giá rất cao nhờ khả năng quản lý dự án tỉ mỉ.",
+      "noteVi": "Collocation kinh điển: 'highly recommended' (được khuyến nghị/đánh giá rất cao)."
+    },
+    {
+      "en": "**Almost all** regional offices have transitioned to paperless invoicing **lately**.",
+      "vi": "Gần như tất cả các văn phòng khu vực gần đây đã chuyển sang hóa đơn điện tử không giấy.",
+      "noteVi": "'Almost all + N' + 'lately' (gần đây) đi với Hiện tại hoàn thành."
+    },
+    {
+      "en": "It **took** the engineering team only four days **to resolve** the network latency issue.",
+      "vi": "Đội ngũ kỹ sư chỉ mất bốn ngày để giải quyết sự cố độ trễ mạng.",
+      "noteVi": "Cấu trúc 'It takes/took + sb + time + to-V' (khác với 'spend + time + V-ing')."
+    },
+    {
+      "en": "Our logistics specialists are **used to handling** urgent customs inspections efficiently.",
+      "vi": "Các chuyên viên hậu cần của chúng tôi đã quen với việc xử lý hiệu quả các đợt kiểm tra hải quan khẩn cấp.",
+      "noteVi": "'be used to + V-ing' (quen với việc gì), phân biệt với 'used to + V0' (đã từng)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tc-01",
+      "type": "mcq",
+      "prompt": "Dr. Henderson is a ____ respected cybersecurity architect with twenty years of industry experience.",
+      "options": [
+        { "key": "A", "text": "high" },
+        { "key": "B", "text": "highly" },
+        { "key": "C", "text": "height" },
+        { "key": "D", "text": "higher" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Trước phân từ tính từ 'respected' (được kính trọng).",
+        "formulaAndEliminationVi": "Collocation chuẩn ETS: 'highly respected / recommended / qualified' (= rất, cực kỳ) → chọn 'highly' (B). Loại (A) 'high' chỉ độ cao/mức cao, (C) danh từ, (D) so sánh hơn.",
+        "translationVi": "Tiến sĩ Henderson là một kiến trúc sư an ninh mạng được kính trọng rộng rãi với hai mươi năm kinh nghiệm trong ngành."
+      }
+    },
+    {
+      "id": "tc-02",
+      "type": "mcq",
+      "prompt": "____ employees in the customer care division have completed the updated privacy training.",
+      "options": [
+        { "key": "A", "text": "Almost" },
+        { "key": "B", "text": "Most" },
+        { "key": "C", "text": "Mostly" },
+        { "key": "D", "text": "Nearly" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chỗ trống đứng ngay trước danh từ số nhiều 'employees' (không có từ 'all' hay 'every' ở giữa).",
+        "formulaAndEliminationVi": "Cần Lượng từ đứng trực tiếp trước danh từ → chọn 'Most' (B). Loại (A) 'Almost', (C) 'Mostly', (D) 'Nearly' vì đều là trạng từ (phải có 'all' mới dùng Almost/Nearly).",
+        "translationVi": "Hầu hết nhân viên trong bộ phận chăm sóc khách hàng đã hoàn thành khóa đào tạo quyền riêng tư cập nhật."
+      }
+    },
+    {
+      "id": "tc-03",
+      "type": "mcq",
+      "prompt": "Due to rising steel prices, the board voted to ____ retail prices by five percent starting in July.",
+      "options": [
+        { "key": "A", "text": "rise" },
+        { "key": "B", "text": "raise" },
+        { "key": "C", "text": "arise" },
+        { "key": "D", "text": "risen" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Ngay sau chỗ trống có tân ngữ trực tiếp 'retail prices' (tăng giá bán lẻ lên).",
+        "formulaAndEliminationVi": "Cần Ngoại động từ mang nghĩa 'nâng/tăng cái gì lên' → chọn 'raise' (B). Loại (A) 'rise' và (C) 'arise' là nội động từ không có tân ngữ.",
+        "translationVi": "Do giá thép tăng, hội đồng quản trị đã biểu quyết tăng giá bán lẻ thêm 5% bắt đầu từ tháng Bảy."
+      }
+    },
+    {
+      "id": "tc-04",
+      "type": "mcq",
+      "prompt": "Because the new airport terminal is so spacious, passengers ____ have to wait in long security lines.",
+      "options": [
+        { "key": "A", "text": "hard" },
+        { "key": "B", "text": "hardly" },
+        { "key": "C", "text": "hardest" },
+        { "key": "D", "text": "hardness" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Ngữ cảnh nhà ga rất rộng → hành khách 'hầu như không' phải xếp hàng chờ an ninh lâu.",
+        "formulaAndEliminationVi": "'hardly' (= hầu như không, trạng từ tần suất đứng trước động từ 'have') → chọn (B). Loại (A) 'hard' (chăm chỉ/mạnh), (C) so sánh nhất, (D) danh từ.",
+        "translationVi": "Vì nhà ga sân bay mới rất rộng rãi, hành khách hầu như không phải xếp hàng dài chờ kiểm tra an ninh."
+      }
+    },
+    {
+      "id": "tc-05",
+      "type": "mcq",
+      "prompt": "The executive assistant will ____ all travel and accommodation arrangements for the visiting board members.",
+      "options": [
+        { "key": "A", "text": "do" },
+        { "key": "B", "text": "make" },
+        { "key": "C", "text": "take" },
+        { "key": "D", "text": "spend" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm danh từ 'travel and accommodation arrangements' (sắp xếp đi lại và lưu trú).",
+        "formulaAndEliminationVi": "Collocation cố định TOEIC: 'make arrangements / make a reservation / make an appointment' → chọn 'make' (B).",
+        "translationVi": "Trợ lý điều hành sẽ thu xếp toàn bộ việc đi lại và chỗ ở cho các thành viên hội đồng quản trị đến thăm."
+      }
+    },
+    {
+      "id": "tc-06",
+      "type": "mcq",
+      "prompt": "Our operations team is accustomed to ____ tight deadlines during peak manufacturing quarters.",
+      "options": [
+        { "key": "A", "text": "meet" },
+        { "key": "B", "text": "meeting" },
+        { "key": "C", "text": "met" },
+        { "key": "D", "text": "meets" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm 'be accustomed to' (= 'be used to': quen với việc gì).",
+        "formulaAndEliminationVi": "'to' là giới từ → theo sau là V-ing 'meeting' (B). Phân biệt với 'used to + V0' (đã từng).",
+        "translationVi": "Đội ngũ vận hành của chúng tôi đã quen với việc đáp ứng các thời hạn gấp trong những quý sản xuất cao điểm."
+      }
+    },
+    {
+      "id": "tc-07",
+      "type": "mcq",
+      "prompt": "The new regional manager is responsible for auditing branch budgets, mentoring team leads, and ____ vendor contracts.",
+      "options": [
+        { "key": "A", "text": "negotiate" },
+        { "key": "B", "text": "to negotiate" },
+        { "key": "C", "text": "negotiating" },
+        { "key": "D", "text": "negotiation" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Chuỗi song song 3 hành động: 'auditing..., mentoring..., and ____ vendor contracts'.",
+        "formulaAndEliminationVi": "Quy tắc Parallelism: 2 thành phần trước là V-ing + O ('auditing...', 'mentoring...') → thành phần thứ 3 bắt buộc là V-ing 'negotiating' (C).",
+        "translationVi": "Giám đốc khu vực mới chịu trách nhiệm kiểm toán ngân sách chi nhánh, cố vấn các trưởng nhóm và đàm phán hợp đồng nhà cung cấp."
+      }
+    },
+    {
+      "id": "tc-08",
+      "type": "mcq",
+      "prompt": "Have you noticed any recurring voltage drops in the east assembly wing ____?",
+      "options": [
+        { "key": "A", "text": "late" },
+        { "key": "B", "text": "lately" },
+        { "key": "C", "text": "later" },
+        { "key": "D", "text": "latest" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Câu hỏi chia Hiện tại hoàn thành ('Have you noticed...?') + vị trí cuối câu cần trạng từ 'gần đây'.",
+        "formulaAndEliminationVi": "'lately' (= recently: gần đây) đi chuẩn với Hiện tại hoàn thành → chọn (B). Loại (A) 'late' = muộn, (C) sau đó, (D) mới nhất.",
+        "translationVi": "Gần đây bạn có nhận thấy hiện tượng sụt áp lặp lại nào ở khu lắp ráp phía đông không?"
+      }
+    },
+    {
+      "id": "tc-09",
+      "type": "mcq",
+      "prompt": "Before entering the European market, our analysts will ____ comprehensive research on local consumer habits.",
+      "options": [
+        { "key": "A", "text": "make" },
+        { "key": "B", "text": "do" },
+        { "key": "C", "text": "create" },
+        { "key": "D", "text": "spend" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Danh từ 'comprehensive research' (nghiên cứu toàn diện).",
+        "formulaAndEliminationVi": "Collocation chuẩn TOEIC: 'do / conduct research' (tiến hành nghiên cứu) → chọn 'do' (B), không dùng 'make research'.",
+        "translationVi": "Trước khi gia nhập thị trường châu Âu, các chuyên viên phân tích của chúng tôi sẽ thực hiện nghiên cứu toàn diện về thói quen tiêu dùng địa phương."
+      }
+    },
+    {
+      "id": "tc-10",
+      "type": "fill-blank",
+      "prompt": "It usually ____ our warehouse staff less than two hours to process an expedited international order.",
+      "baseWord": "take / spend",
+      "correctAnswer": "takes",
+      "acceptedAnswers": ["takes"],
+      "explanation": {
+        "signalVi": "Cấu trúc chủ ngữ giả 'It usually ____ + sb + [time] + to process (to-V)'.",
+        "formulaAndEliminationVi": "Công thức chuẩn: 'It takes + sb + time + to-V' → chủ ngữ 'It' + 'usually' chia Hiện tại đơn số ít 'takes'. (Không dùng 'spend' với chủ ngữ 'It').",
+        "translationVi": "Nhân viên kho của chúng tôi thường chỉ mất chưa đầy hai giờ để xử lý một đơn hàng quốc tế hỏa tốc."
+      }
+    },
+    {
+      "id": "tc-11",
+      "type": "fill-blank",
+      "prompt": "Before adopting cloud automation, our accounting team ____ to reconcile every vendor receipt manually.",
+      "baseWord": "use",
+      "correctAnswer": "used",
+      "acceptedAnswers": ["used"],
+      "explanation": {
+        "signalVi": "'Before adopting cloud automation' (thói quen cũ trong quá khứ) + '____ to reconcile (to-V)'.",
+        "formulaAndEliminationVi": "Diễn tả thói quen trong quá khứ nay không còn nữa: 'used to + V0' → điền 'used'.",
+        "translationVi": "Trước khi áp dụng tự động hóa đám mây, đội ngũ kế toán của chúng tôi đã từng phải đối chiếu từng hóa đơn nhà cung cấp bằng tay."
+      }
+    },
+    {
+      "id": "tc-12",
+      "type": "error-correction",
+      "prompt": "[A] Almost participants at the [B] leadership forum praised the [C] clarity and practical depth [D] of the case studies.",
+      "options": [
+        { "key": "A", "text": "Almost participants" },
+        { "key": "B", "text": "leadership forum" },
+        { "key": "C", "text": "clarity and practical depth" },
+        { "key": "D", "text": "of the case studies" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "Most participants (hoặc Almost all participants)",
+      "explanation": {
+        "signalVi": "'Almost' đứng trực tiếp trước danh từ 'participants' ở [A].",
+        "formulaAndEliminationVi": "'Almost' là trạng từ không đứng trực tiếp trước danh từ → sửa thành 'Most participants' hoặc 'Almost all participants'.",
+        "translationVi": "Hầu hết người tham gia diễn đàn lãnh đạo đều khen ngợi sự rõ ràng và chiều sâu thực tiễn của các tình huống nghiên cứu."
+      }
+    },
+    {
+      "id": "tc-13",
+      "type": "error-correction",
+      "prompt": "The redesigned portal [A] allows clients [B] to track shipments, [C] download invoices, and [D] modifying delivery addresses.",
+      "options": [
+        { "key": "A", "text": "allows clients" },
+        { "key": "B", "text": "to track shipments" },
+        { "key": "C", "text": "download invoices" },
+        { "key": "D", "text": "modifying delivery addresses" }
+      ],
+      "correctAnswer": "D",
+      "correctionText": "modify delivery addresses",
+      "explanation": {
+        "signalVi": "Chuỗi song song sau 'allows clients to': 'track..., download..., and [D] modifying...'.",
+        "formulaAndEliminationVi": "Quy tắc Parallelism: các động từ cùng chia chung 'to' phải ở dạng V0 ('track', 'download', 'modify') → sửa 'modifying' thành 'modify'.",
+        "translationVi": "Cổng thông tin thiết kế lại cho phép khách hàng theo dõi lô hàng, tải xuống hóa đơn và chỉnh sửa địa chỉ giao hàng."
+      }
+    }
+  ]
+}

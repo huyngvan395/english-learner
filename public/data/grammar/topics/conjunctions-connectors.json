@@ -1,0 +1,323 @@
+{
+  "id": "conjunctions-connectors",
+  "order": 9,
+  "title": "Liên từ & Trạng từ liên kết (Bẫy 100% Part 5–6)",
+  "subtitle": "Phân biệt Liên từ + S+V vs. Giới từ + N (although/despite, because/due to), liên từ tương quan và however/therefore",
+  "level": "intermediate",
+  "levelLabel": "Trung cấp (650–750)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 18,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Part 6", "Liên từ", "Trạng từ liên kết"],
+  "summaryVi": "Liên từ và Trạng từ liên kết xuất hiện 100% trong mọi đề thi TOEIC (trung bình 4–6 câu Part 5 & Part 6). Để chọn đáp án trong 5 giây mà không mắc bẫy, hãy làm đúng 2 bước: (1) Kiểm tra CẤU TRÚC sau chỗ trống là Mệnh đề (S + V) hay Cụm danh từ (NP), (2) Kiểm tra DẤU CÂU (dấu chấm / chấm phẩy + dấu phẩy đi với Trạng từ liên kết như However, Therefore) rồi mới xét nghĩa.",
+  "keyTakeaways": [
+    "LIÊN TỪ (although, because, while, since, unless, even though) nối 2 mệnh đề → theo sau BẮT BUỘC có S + V.",
+    "GIỚI TỪ (despite, in spite of, because of, due to, during, regardless of) → theo sau là Cụm danh từ hoặc V-ing (KHÔNG có động từ chia thì).",
+    "TRẠNG TỪ LIÊN KẾT (however, therefore, nevertheless, moreover, consequently, otherwise) KHÔNG thể tự nối 2 mệnh đề bằng dấu phẩy; nó đứng đầu câu mới (sau dấu chấm `.` hoặc dấu chấm phẩy `;`) và thường theo sau bởi dấu phẩy `,`.",
+    "Thuộc lòng 4 cặp Liên từ tương quan (Correlative Conjunctions): both A and B | either A or B | neither A nor B | not only A but also B."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng đối chiếu 3 tầng: Liên từ vs. Giới từ vs. Trạng từ liên kết",
+      "headers": ["Mối quan hệ nghĩa", "Liên từ (+ S + V)", "Giới từ (+ N / V-ing)", "Trạng từ liên kết (. / ; ____ ,)"],
+      "rows": [
+        ["Nhượng bộ / Tương phản", "although, though, even though, whereas, while", "despite, in spite of, regardless of, notwithstanding", "however, nevertheless, nonetheless, still, yet"],
+        ["Nguyên nhân – Kết quả", "because, since, as, now that, so that (+ S+V)", "because of, due to, owing to, on account of, thanks to", "therefore, consequently, thus, hence, accordingly"],
+        ["Thời gian", "when, while, before, after, until, once, as soon as", "during, prior to, following, until, by, upon", "meanwhile, subsequently, afterward, then"],
+        ["Bổ sung / Điều kiện", "if, unless, provided that, as long as, in case", "in addition to, besides, apart from, without, in case of", "moreover, furthermore, additionally, otherwise"]
+      ]
+    },
+    {
+      "title": "4 cặp Liên từ tương quan & Quy tắc cấu trúc song song",
+      "headers": ["Cặp liên từ", "Nghĩa tiếng Việt", "Ví dụ chuẩn Part 5"],
+      "rows": [
+        ["both A and B", "cả A lẫn B (động từ luôn SỐ NHIỀU)", "The seminar is open to **both** full-time staff **and** contractors."],
+        ["either A or B", "hoặc A hoặc B (chia V theo B)", "Please contact **either** Ms. Park **or** the billing desk."],
+        ["neither A nor B", "không A cũng không B (chia V theo B)", "**Neither** the invoice **nor** the receipt was attached."],
+        ["not only A but (also) B", "không những A mà còn B (chia V theo B)", "The tool **not only** saves time **but also** lowers costs."],
+        ["whether A or B", "liệu A hay B / dù A hay B", "The shipment will depart on time **whether** it rains **or** not."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "[Chấm . / Chấm phẩy ;] + ____ + [Dấu phẩy ,] + S + V",
+      "rule": "95% chọn Trạng từ liên kết (However / Therefore / Nevertheless / Moreover) — loại ngay although, despite, because!",
+      "example": "Sales dipped in May; however, Q3 revenue exceeded targets."
+    },
+    {
+      "signal": "____ + [Cụm danh từ KHÔNG có V chia thì], S + V",
+      "rule": "Chỉ chọn GIỚI TỪ (Despite / Due to / During / In addition to) — loại sạch although, because, while.",
+      "example": "Despite the budget cuts, the lab delivered on time."
+    },
+    {
+      "signal": "____ + S + V, S + V (nối 2 mệnh đề cùng 1 câu)",
+      "rule": "Chỉ chọn LIÊN TỪ (Although / Because / While / Once / Unless) — loại sạch despite, due to, however, therefore.",
+      "example": "Although production costs rose, retail prices remained flat."
+    },
+    {
+      "signal": "both... ____ / neither... ____ / either... ____ / not only... ____",
+      "rule": "Khớp đúng cặp tương quan: both–and, neither–nor, either–or, not only–but also.",
+      "example": "Neither the projector nor the microphone worked."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Dùng 'However' hoặc 'Therefore' để nối 2 mệnh đề chỉ bằng dấu phẩy (Comma Splice)",
+      "wrongExample": "The flight was delayed, however, Mr. Kim still arrived before the meeting.",
+      "correctExample": "Although the flight was delayed, Mr. Kim still arrived before the meeting. (hoặc: ...delayed; however, Mr. Kim...)",
+      "explanationVi": "'However' và 'Therefore' là Trạng từ liên kết, KHÔNG phải Liên từ. Muốn dùng chúng giữa 2 mệnh đề bắt buộc phải có dấu chấm phẩy (;) hoặc chấm câu (.) phía trước."
+    },
+    {
+      "title": "Bẫy #2: Nhầm 'in case' (+ S+V) với 'in case of' (+ Danh từ)",
+      "wrongExample": "Please retain your receipt in case of you need a warranty exchange.",
+      "correctExample": "Please retain your receipt in case you need a warranty exchange.",
+      "explanationVi": "'in case' là liên từ (+ S+V: phòng khi bạn cần...), còn 'in case of' là cụm giới từ (+ N: in case of emergency)."
+    },
+    {
+      "title": "Bẫy #3: Dùng 'both... or...' hoặc 'neither... or...'",
+      "wrongExample": "The software supports both Windows or macOS platforms.",
+      "correctExample": "The software supports both Windows and macOS platforms.",
+      "explanationVi": "Cặp chuẩn bắt buộc là 'both... and...', 'either... or...', 'neither... nor...' — tuyệt đối không trộn chéo."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "**Although** the supplier promised next-day shipping, the shipment arrived three days late.",
+      "vi": "Mặc dù nhà cung cấp đã hứa giao hàng ngày hôm sau, lô hàng vẫn đến trễ ba ngày.",
+      "noteVi": "Sau chỗ trống có S+V ('the supplier promised') → dùng liên từ 'Although'."
+    },
+    {
+      "en": "**Despite** the fierce competition in Southeast Asia, our market share grew by 12 percent.",
+      "vi": "Mặc dù cạnh tranh khốc liệt tại Đông Nam Á, thị phần của chúng tôi vẫn tăng 12%.",
+      "noteVi": "'the fierce competition in Southeast Asia' là cụm danh từ → dùng giới từ 'Despite'."
+    },
+    {
+      "en": "The downtown branch exceeded every sales quota; **consequently**, all staff received a bonus.",
+      "vi": "Chi nhánh trung tâm đã vượt mọi chỉ tiêu doanh số; do đó, toàn bộ nhân viên đều nhận được tiền thưởng.",
+      "noteVi": "Đứng giữa dấu chấm phẩy (;) và dấu phẩy (,) → dùng trạng từ liên kết 'consequently'."
+    },
+    {
+      "en": "The revamped app **not only** loads twice as fast **but also** consumes less battery.",
+      "vi": "Ứng dụng được cải tiến không những tải nhanh gấp đôi mà còn tiêu thụ ít pin hơn.",
+      "noteVi": "Cặp tương quan 'not only... but also...' nối 2 động từ song song (loads / consumes)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cc-01",
+      "type": "mcq",
+      "prompt": "____ the sudden resignation of the lead architect, the stadium project remained strictly on schedule.",
+      "options": [
+        { "key": "A", "text": "Although" },
+        { "key": "B", "text": "Despite" },
+        { "key": "C", "text": "Even though" },
+        { "key": "D", "text": "However" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là cụm danh từ 'the sudden resignation of the lead architect' (không có động từ chia thì) + nghĩa tương phản.",
+        "formulaAndEliminationVi": "Trước cụm danh từ mang nghĩa nhượng bộ chọn Giới từ 'Despite' (B). Loại (A), (C) là liên từ cần S+V; loại (D) là trạng từ liên kết.",
+        "translationVi": "Mặc dù kiến trúc sư trưởng đột ngột từ chức, dự án sân vận động vẫn bám sát đúng tiến độ."
+      }
+    },
+    {
+      "id": "cc-02",
+      "type": "mcq",
+      "prompt": "The regional warehouse was temporarily closed ____ a scheduled electrical system upgrade.",
+      "options": [
+        { "key": "A", "text": "because" },
+        { "key": "B", "text": "since" },
+        { "key": "C", "text": "due to" },
+        { "key": "D", "text": "therefore" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là cụm danh từ 'a scheduled electrical system upgrade' chỉ nguyên nhân.",
+        "formulaAndEliminationVi": "Chỉ nguyên nhân trước Cụm danh từ → dùng Giới từ 'due to' (C). Loại (A), (B) cần S+V; loại (D) là trạng từ liên kết chỉ kết quả.",
+        "translationVi": "Nhà kho khu vực tạm thời đóng cửa do đợt nâng cấp hệ thống điện theo lịch trình."
+      }
+    },
+    {
+      "id": "cc-03",
+      "type": "mcq",
+      "prompt": "Raw material prices surged by nearly 18 percent this quarter; ____, our retail pricing will remain unchanged.",
+      "options": [
+        { "key": "A", "text": "although" },
+        { "key": "B", "text": "despite" },
+        { "key": "C", "text": "nevertheless" },
+        { "key": "D", "text": "because" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Vị trí kẹp giữa dấu chấm phẩy `;` và dấu phẩy `,`, hai vế mang nghĩa tương phản (giá nguyên liệu tăng vs. giá bán lẻ giữ nguyên).",
+        "formulaAndEliminationVi": "Giữa `;` và `,` bắt buộc là Trạng từ liên kết → chọn 'nevertheless' (= tuy nhiên) (C). Loại (A), (D) liên từ và (B) giới từ.",
+        "translationVi": "Giá nguyên liệu thô tăng gần 18% trong quý này; tuy nhiên, giá bán lẻ của chúng tôi sẽ vẫn giữ nguyên."
+      }
+    },
+    {
+      "id": "cc-04",
+      "type": "mcq",
+      "prompt": "The new accounting platform integrates seamlessly with ____ desktop workstations and mobile devices.",
+      "options": [
+        { "key": "A", "text": "either" },
+        { "key": "B", "text": "neither" },
+        { "key": "C", "text": "both" },
+        { "key": "D", "text": "not only" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Phía sau có liên từ 'and' nối hai cụm danh từ ('desktop workstations AND mobile devices').",
+        "formulaAndEliminationVi": "Khớp đúng cặp liên từ tương quan: 'both A and B' → chọn (C). Loại (A) đi với 'or', (B) đi với 'nor', (D) đi với 'but also'.",
+        "translationVi": "Nền tảng kế toán mới tích hợp mượt mà với cả máy tính để bàn lẫn thiết bị di động."
+      }
+    },
+    {
+      "id": "cc-05",
+      "type": "mcq",
+      "prompt": "____ the catering team prepared extra vegetarian meals, every single tray was finished before noon.",
+      "options": [
+        { "key": "A", "text": "In spite of" },
+        { "key": "B", "text": "Even though" },
+        { "key": "C", "text": "Nevertheless" },
+        { "key": "D", "text": "During" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là mệnh đề đầy đủ S+V ('the catering team prepared...') + nghĩa tương phản.",
+        "formulaAndEliminationVi": "Trước mệnh đề S+V chỉ sự nhượng bộ → chọn Liên từ 'Even though' (B). Loại (A), (D) là giới từ; loại (C) trạng từ liên kết.",
+        "translationVi": "Mặc dù đội phục vụ ăn uống đã chuẩn bị thêm các suất ăn chay, toàn bộ các khay đều hết sạch trước buổi trưa."
+      }
+    },
+    {
+      "id": "cc-06",
+      "type": "mcq",
+      "prompt": "Please back up all active project folders tonight; ____, unsaved edits may be lost during the server reboot.",
+      "options": [
+        { "key": "A", "text": "otherwise" },
+        { "key": "B", "text": "moreover" },
+        { "key": "C", "text": "unless" },
+        { "key": "D", "text": "because of" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Giữa dấu `;` và `,`, vế sau nêu hậu quả nếu không làm vế trước ('sao lưu ngay; nếu không thì dữ liệu có thể mất').",
+        "formulaAndEliminationVi": "Trạng từ liên kết mang nghĩa 'nếu không thì' → chọn 'otherwise' (A). Loại (B) hơn nữa, (C) liên từ không đứng giữa `; ... ,`, (D) giới từ.",
+        "translationVi": "Vui lòng sao lưu toàn bộ thư mục dự án đang chạy tối nay; nếu không, các chỉnh sửa chưa lưu có thể bị mất khi khởi động lại máy chủ."
+      }
+    },
+    {
+      "id": "cc-07",
+      "type": "mcq",
+      "prompt": "Employees should bring a valid photo ID ____ the building security scanners require manual verification.",
+      "options": [
+        { "key": "A", "text": "in case of" },
+        { "key": "B", "text": "in case" },
+        { "key": "C", "text": "due to" },
+        { "key": "D", "text": "regardless of" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống có mệnh đề S+V ('the building security scanners require...') mang nghĩa 'phòng trường hợp'.",
+        "formulaAndEliminationVi": "Trước S+V dùng liên từ 'in case' (B). Loại (A) 'in case of', (C) 'due to', (D) 'regardless of' vì đều là giới từ chỉ đi với cụm danh từ.",
+        "translationVi": "Nhân viên nên mang theo giấy tờ tùy thân có ảnh phòng trường hợp máy quét an ninh tòa nhà yêu cầu xác minh thủ công."
+      }
+    },
+    {
+      "id": "cc-08",
+      "type": "mcq",
+      "prompt": "The revised handbook covers not only workplace safety protocols ____ remote-work reimbursement guidelines.",
+      "options": [
+        { "key": "A", "text": "or" },
+        { "key": "B", "text": "nor" },
+        { "key": "C", "text": "but also" },
+        { "key": "D", "text": "as well" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Phía trước đã có 'not only'.",
+        "formulaAndEliminationVi": "Cặp liên từ tương quan chuẩn: 'not only A but also B' → chọn (C). Loại (A), (B), (D).",
+        "translationVi": "Cuốn sổ tay sửa đổi không chỉ bao gồm các quy định an toàn nơi làm việc mà còn cả hướng dẫn hoàn trả chi phí làm việc từ xa."
+      }
+    },
+    {
+      "id": "cc-09",
+      "type": "mcq",
+      "prompt": "____ the downtown store focuses on luxury accessories, the suburban outlet specializes in budget homeware.",
+      "options": [
+        { "key": "A", "text": "Whereas" },
+        { "key": "B", "text": "Despite" },
+        { "key": "C", "text": "Therefore" },
+        { "key": "D", "text": "Because of" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Hai mệnh đề S+V đặt đối lập song song (cửa hàng trung tâm bán đồ xa xỉ vs. cửa hàng ngoại ô bán đồ gia dụng giá rẻ).",
+        "formulaAndEliminationVi": "Liên từ đối chiếu trực tiếp hai mệnh đề → chọn 'Whereas' (= trong khi đó) (A). Loại (B), (D) giới từ; loại (C) trạng từ liên kết.",
+        "translationVi": "Trong khi cửa hàng trung tâm tập trung vào phụ kiện cao cấp, chi nhánh ngoại ô lại chuyên về đồ gia dụng giá bình dân."
+      }
+    },
+    {
+      "id": "cc-10",
+      "type": "fill-blank",
+      "prompt": "The keynote presentation was delayed by thirty minutes; ____, the closing Q&A session had to be shortened.",
+      "baseWord": "therefore / consequently",
+      "correctAnswer": "therefore",
+      "acceptedAnswers": ["therefore", "consequently", "thus", "hence", "accordingly"],
+      "explanation": {
+        "signalVi": "Giữa dấu `;` và `,`, vế sau là kết quả trực tiếp của vế trước (trễ 30 phút → phải rút ngắn phần hỏi đáp).",
+        "formulaAndEliminationVi": "Cần Trạng từ liên kết chỉ kết quả: 'therefore' hoặc 'consequently' / 'thus' / 'accordingly'.",
+        "translationVi": "Bài phát biểu chính bị trễ ba mươi phút; do đó, phiên hỏi đáp bế mạc buộc phải rút ngắn."
+      }
+    },
+    {
+      "id": "cc-11",
+      "type": "fill-blank",
+      "prompt": "The conference will proceed as planned ____ or not the guest speaker from London can attend in person.",
+      "baseWord": "whether / if",
+      "correctAnswer": "whether",
+      "acceptedAnswers": ["whether"],
+      "explanation": {
+        "signalVi": "Ngay sau chỗ trống có cụm 'or not' ('____ or not').",
+        "formulaAndEliminationVi": "Chỉ dùng 'whether' ngay trước 'or not' (tuyệt đối không viết 'if or not').",
+        "translationVi": "Hội nghị sẽ diễn ra đúng kế hoạch bất kể diễn giả khách mời từ London có thể tham dự trực tiếp hay không."
+      }
+    },
+    {
+      "id": "cc-12",
+      "type": "error-correction",
+      "prompt": "[A] Because the heavy rainfall [B] across the coastal highway, [C] several morning deliveries [D] arrived behind schedule.",
+      "options": [
+        { "key": "A", "text": "Because" },
+        { "key": "B", "text": "across the coastal highway" },
+        { "key": "C", "text": "several morning deliveries" },
+        { "key": "D", "text": "arrived behind schedule" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "Because of (hoặc Due to)",
+      "explanation": {
+        "signalVi": "Sau 'Because' là cụm danh từ 'the heavy rainfall across the coastal highway' (không có động từ chia thì).",
+        "formulaAndEliminationVi": "Trước cụm danh từ phải dùng giới từ 'Because of' hoặc 'Due to', không dùng liên từ 'Because'.",
+        "translationVi": "Do mưa lớn dọc theo đường cao tốc ven biển, một số chuyến giao hàng buổi sáng đã đến trễ lịch trình."
+      }
+    },
+    {
+      "id": "cc-13",
+      "type": "error-correction",
+      "prompt": "The revised proposal [A] met all technical requirements, [B] however, the board [C] asked for a lower [D] licensing fee.",
+      "options": [
+        { "key": "A", "text": "met all technical requirements" },
+        { "key": "B", "text": ", however," },
+        { "key": "C", "text": "asked for a lower" },
+        { "key": "D", "text": "licensing fee" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "; however, (hoặc , but)",
+      "explanation": {
+        "signalVi": "Chỗ [B] dùng dấu phẩy trước 'however' để nối 2 mệnh đề độc lập (lỗi Comma Splice kinh điển).",
+        "formulaAndEliminationVi": "Phải đổi dấu phẩy trước 'however' thành dấu chấm phẩy `; however,` hoặc đổi thành liên từ `, but`.",
+        "translationVi": "Bản đề xuất sửa đổi đáp ứng mọi yêu cầu kỹ thuật; tuy nhiên, hội đồng quản trị vẫn yêu cầu mức phí bản quyền thấp hơn."
+      }
+    }
+  ]
+}

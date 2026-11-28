@@ -1,0 +1,308 @@
+{
+  "id": "pronouns",
+  "order": 4,
+  "title": "Đại từ (Nhân xưng – Sở hữu – Phản thân – Bất định)",
+  "subtitle": "Bảng 5 cột đại từ, bẫy by + oneself và phân biệt another / other / the other / others",
+  "level": "basic",
+  "levelLabel": "Cơ bản (450+)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 14,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "Đại từ", "Another / Other"],
+  "summaryVi": "Câu hỏi Đại từ (Pronouns) là dạng 'ăn điểm chắc chắn' trong TOEIC Part 5 nếu bạn thuộc lòng bảng 5 cột đại từ và quy tắc phân biệt nhóm another / other / others. Chỉ cần xác định vị trí cần điền (chủ ngữ, tân ngữ, trước danh từ hay phản thân) và đối chiếu số ít/số nhiều với danh từ được thay thế.",
+  "keyTakeaways": [
+    "Trước Danh từ → chọn Tính từ sở hữu (my, your, his, her, its, our, their).",
+    "Không có Danh từ đi sau (thay cho cả cụm 'tính từ sở hữu + N') → chọn Đại từ sở hữu (mine, yours, hers, ours, theirs).",
+    "Chủ ngữ và Tân ngữ là CÙNG MỘT ĐỐI TƯỢNG, hoặc cụm 'by + ____' (tự mình) → chọn Đại từ phản thân (-self / -selves).",
+    "another + N(số ít) | other + N(số nhiều / không đếm được) | others = other + N(số nhiều) (đứng một mình)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 5 cột Đại từ cốt lõi trong TOEIC",
+      "headers": ["Chủ ngữ (S)", "Tân ngữ (O)", "Tính từ sở hữu (+ N)", "Đại từ sở hữu (độc lập)", "Đại từ phản thân"],
+      "rows": [
+        ["I", "me", "my", "mine", "myself"],
+        ["you", "you", "your", "yours", "yourself / yourselves"],
+        ["he", "him", "his", "his", "himself"],
+        ["she", "her", "her", "hers", "herself"],
+        ["it", "it", "its (KHÔNG dấu ')", "—", "itself"],
+        ["we", "us", "our", "ours", "ourselves"],
+        ["they", "them", "their", "theirs", "themselves"]
+      ]
+    },
+    {
+      "title": "Phân biệt chuẩn 4 từ dễ nhầm: another / other / the other / others",
+      "headers": ["Từ vựng", "Cấu trúc đi kèm", "Ý nghĩa & Cách dùng ETS"],
+      "rows": [
+        ["another", "+ N đếm được SỐ ÍT (hoặc đứng 1 mình)", "Một cái/người KHÁC nữa (trong nhiều cái, chưa xác định)"],
+        ["other", "+ N SỐ NHIỀU hoặc N KHÔNG ĐẾM ĐƯỢC", "Những cái/người khác (luôn cần Danh từ phía sau)"],
+        ["others", "ĐỨNG MỘT MÌNH (KHÔNG có N theo sau)", "= other + N(nhiều): những người/cái khác nói chung"],
+        ["the other(s)", "the other (+ N ít/nhiều) | the others (độc lập)", "Cái/những cái CÒN LẠI CUỐI CÙNG trong tập hợp xác định"]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "by + ____ (ở cuối câu hoặc sau động từ)",
+      "rule": "Cụm 'by + Đại từ phản thân' = một mình, tự lực (alone / without help).",
+      "example": "She designed the entire booth by herself."
+    },
+    {
+      "signal": "S + V + ____ (khi cần nhấn mạnh chủ ngữ, câu đã đủ nghĩa)",
+      "rule": "Dùng Đại từ phản thân để nhấn mạnh (chính ai đó làm).",
+      "example": "The director himself inspected the factory."
+    },
+    {
+      "signal": "____ + N(số ít) vs. ____ + N(số nhiều)",
+      "rule": "Danh từ số ít → another / each; Danh từ số nhiều → other / these / those.",
+      "example": "another candidate / other candidates"
+    },
+    {
+      "signal": "those who + V(số nhiều)",
+      "rule": "ETS cực chuộng 'those who...' = những người mà... (không dùng 'them who' hay 'they who').",
+      "example": "Those who wish to attend must register early."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Nhầm 'its' (tính từ sở hữu của it) với 'it's' (= it is / it has)",
+      "wrongExample": "The airline recently expanded it's international route network.",
+      "correctExample": "The airline recently expanded its international route network.",
+      "explanationVi": "Tính từ sở hữu của 'it' là 'its' (KHÔNG có dấu nháy đơn). 'it's' luôn là viết tắt của 'it is' hoặc 'it has'."
+    },
+    {
+      "title": "Bẫy #2: Chọn Đại từ phản thân sai đối tượng hoặc quên dùng khi S = O",
+      "wrongExample": "Please familiarize you with the updated fire evacuation map.",
+      "correctExample": "Please familiarize yourself with the updated fire evacuation map.",
+      "explanationVi": "Câu mệnh lệnh có chủ ngữ ngầm là 'you' → 'familiarize yourself with' (làm quen với), 'help yourself to', 'prepare yourself for'."
+    },
+    {
+      "title": "Bẫy #3: Dùng 'others' trước một danh từ",
+      "wrongExample": "We should consider others suppliers before signing the contract.",
+      "correctExample": "We should consider other suppliers before signing the contract.",
+      "explanationVi": "'others' đã bao hàm danh từ rồi nên KHÔNG BAO GIỜ đứng trước danh từ. Trước 'suppliers' bắt buộc dùng 'other'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "Ms. Kim coordinated the entire product launch **by herself** while her deputy was away.",
+      "vi": "Bà Kim đã tự mình điều phối toàn bộ lễ ra mắt sản phẩm khi phó giám đốc vắng mặt.",
+      "noteVi": "Cụm 'by herself' = tự mình, không cần trợ giúp."
+    },
+    {
+      "en": "Your quarterly forecast is more optimistic than **ours**.",
+      "vi": "Dự báo hàng quý của bạn lạc quan hơn dự báo của chúng tôi.",
+      "noteVi": "Đại từ sở hữu 'ours' thay thế cho 'our quarterly forecast'."
+    },
+    {
+      "en": "**Those** who submit their applications before Friday will receive priority review.",
+      "vi": "Những người nộp hồ sơ trước thứ Sáu sẽ được ưu tiên xét duyệt.",
+      "noteVi": "Cấu trúc kinh điển TOEIC: Those who + V(số nhiều)."
+    },
+    {
+      "en": "One conference hall is reserved for workshops, while **the other** hosts keynote speeches.",
+      "vi": "Một hội trường được dành cho các buổi thực hành, trong khi hội trường còn lại tổ chức các bài phát biểu chính.",
+      "noteVi": "Có 2 hội trường xác định: 'One... the other...'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pr-01",
+      "type": "mcq",
+      "prompt": "The software firm plans to relocate ____ regional headquarters to Austin next spring.",
+      "options": [
+        { "key": "A", "text": "it" },
+        { "key": "B", "text": "its" },
+        { "key": "C", "text": "itself" },
+        { "key": "D", "text": "it's" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là cụm danh từ 'regional headquarters'; chủ ngữ là 'The software firm' (vật, số ít).",
+        "formulaAndEliminationVi": "Trước cụm danh từ cần Tính từ sở hữu của vật số ít → chọn 'its' (B). Loại (A) đại từ, (C) phản thân, (D) viết tắt của 'it is'.",
+        "translationVi": "Công ty phần mềm dự định chuyển trụ sở khu vực của mình đến Austin vào mùa xuân tới."
+      }
+    },
+    {
+      "id": "pr-02",
+      "type": "mcq",
+      "prompt": "Because the senior technician was on leave, Mr. Chen calibrated the machinery by ____.",
+      "options": [
+        { "key": "A", "text": "he" },
+        { "key": "B", "text": "him" },
+        { "key": "C", "text": "his" },
+        { "key": "D", "text": "himself" }
+      ],
+      "correctAnswer": "D",
+      "explanation": {
+        "signalVi": "Giới từ 'by' ở cuối câu đi với chủ ngữ 'Mr. Chen' (nam giới, số ít).",
+        "formulaAndEliminationVi": "Công thức: by + Đại từ phản thân (= một mình/tự mình) → 'by himself' (D). Loại (A), (B), (C).",
+        "translationVi": "Vì kỹ thuật viên cấp cao đang nghỉ phép, ông Chen đã tự mình hiệu chỉnh máy móc."
+      }
+    },
+    {
+      "id": "pr-03",
+      "type": "mcq",
+      "prompt": "____ who wish to join the leadership mentoring program should submit an online form.",
+      "options": [
+        { "key": "A", "text": "They" },
+        { "key": "B", "text": "Them" },
+        { "key": "C", "text": "Those" },
+        { "key": "D", "text": "Their" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Chỗ trống đứng ngay trước đại từ quan hệ 'who' + động từ số nhiều 'wish'.",
+        "formulaAndEliminationVi": "Cấu trúc cố định chuẩn ETS: 'Those who + V(nhiều)' = những người mà... → chọn (C). Không dùng 'They who' hay 'Them who'.",
+        "translationVi": "Những người muốn tham gia chương trình cố vấn lãnh đạo nên nộp biểu mẫu trực tuyến."
+      }
+    },
+    {
+      "id": "pr-04",
+      "type": "mcq",
+      "prompt": "Although our marketing proposal was concise, ____ included far more detailed market projections.",
+      "options": [
+        { "key": "A", "text": "they" },
+        { "key": "B", "text": "their" },
+        { "key": "C", "text": "theirs" },
+        { "key": "D", "text": "themselves" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Chỗ trống đứng làm chủ ngữ trước động từ 'included', đối chiếu với 'our marketing proposal'.",
+        "formulaAndEliminationVi": "Cần Đại từ sở hữu đứng độc lập thay thế cho 'their marketing proposal' → chọn 'theirs' (C). Loại (B) vì 'their' phải có danh từ đi sau; (A) sai đối tượng so sánh (so sánh proposal với proposal).",
+        "translationVi": "Mặc dù bản đề xuất marketing của chúng tôi ngắn gọn, bản đề xuất của họ bao gồm các dự báo thị trường chi tiết hơn nhiều."
+      }
+    },
+    {
+      "id": "pr-05",
+      "type": "mcq",
+      "prompt": "If this delivery slot is inconvenient, we can easily arrange ____ date next week.",
+      "options": [
+        { "key": "A", "text": "another" },
+        { "key": "B", "text": "other" },
+        { "key": "C", "text": "others" },
+        { "key": "D", "text": "the others" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là danh từ đếm được số ít 'date' (chưa xác định cụ thể ngày nào).",
+        "formulaAndEliminationVi": "Công thức: another + N(đếm được số ít) → 'another date' (A). Loại (B) vì 'other' đi với N số nhiều/không đếm được; loại (C), (D) vì không đứng trước danh từ.",
+        "translationVi": "Nếu khung giờ giao hàng này bất tiện, chúng tôi có thể dễ dàng sắp xếp một ngày khác vào tuần tới."
+      }
+    },
+    {
+      "id": "pr-06",
+      "type": "mcq",
+      "prompt": "The regional manager ____ personally welcomed every guest at the grand opening ceremony.",
+      "options": [
+        { "key": "A", "text": "her" },
+        { "key": "B", "text": "hers" },
+        { "key": "C", "text": "herself" },
+        { "key": "D", "text": "she" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Chỗ trống đứng ngay sau chủ ngữ 'The regional manager' và trước trạng từ + động từ 'personally welcomed'.",
+        "formulaAndEliminationVi": "Câu đã đầy đủ chủ ngữ và động từ → vị trí này dùng Đại từ phản thân để NHẤN MẠNH chủ ngữ ('chính vị giám đốc') → chọn 'herself' (C).",
+        "translationVi": "Chính nữ giám đốc khu vực đã đích thân chào đón từng vị khách tại buổi lễ khai trương."
+      }
+    },
+    {
+      "id": "pr-07",
+      "type": "mcq",
+      "prompt": "Some attendees preferred the morning workshop, whereas ____ chose to attend the afternoon panel.",
+      "options": [
+        { "key": "A", "text": "other" },
+        { "key": "B", "text": "another" },
+        { "key": "C", "text": "others" },
+        { "key": "D", "text": "each other" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cặp đối chiếu 'Some attendees..., whereas ____ + chose (động từ, không có danh từ sau chỗ trống)'.",
+        "formulaAndEliminationVi": "Cấu trúc 'Some... others...' (một số người..., những người khác...). Vì đứng độc lập làm chủ ngữ không có danh từ theo sau → chọn 'others' (C). Loại (A) thiếu N, (B) số ít, (D) lẫn nhau.",
+        "translationVi": "Một số người tham dự thích hội thảo buổi sáng, trong khi những người khác chọn tham gia tọa đàm buổi chiều."
+      }
+    },
+    {
+      "id": "pr-08",
+      "type": "mcq",
+      "prompt": "Our customer service team will contact ____ directly once the replacement parts arrive.",
+      "options": [
+        { "key": "A", "text": "you" },
+        { "key": "B", "text": "your" },
+        { "key": "C", "text": "yours" },
+        { "key": "D", "text": "yourself" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Sau ngoại động từ 'contact' (liên hệ với ai); chủ ngữ là 'Our customer service team' (khác đối tượng với người nghe).",
+        "formulaAndEliminationVi": "Khi chủ ngữ và tân ngữ là 2 đối tượng khác nhau, dùng Đại từ tân ngữ 'you' (A) — KHÔNG dùng 'yourself' (D). Loại (B) tính từ sở hữu, (C) đại từ sở hữu.",
+        "translationVi": "Đội ngũ chăm sóc khách hàng của chúng tôi sẽ liên hệ trực tiếp với bạn ngay khi phụ tùng thay thế về tới."
+      }
+    },
+    {
+      "id": "pr-09",
+      "type": "fill-blank",
+      "prompt": "New staff members are encouraged to familiarize ____ with the company's expense guidelines.",
+      "baseWord": "they",
+      "correctAnswer": "themselves",
+      "acceptedAnswers": ["themselves"],
+      "explanation": {
+        "signalVi": "Chủ ngữ 'New staff members' (số nhiều) + cụm động từ 'familiarize ____ with'.",
+        "formulaAndEliminationVi": "Cấu trúc cố định 'familiarize oneself with sth' (tự làm quen với điều gì) với chủ ngữ số nhiều → dùng đại từ phản thân 'themselves'.",
+        "translationVi": "Các nhân viên mới được khuyến khích tự làm quen với hướng dẫn chi phí của công ty."
+      }
+    },
+    {
+      "id": "pr-10",
+      "type": "fill-blank",
+      "prompt": "We have two delivery trucks available: one is already loaded, and ____ is undergoing routine maintenance.",
+      "baseWord": "other",
+      "correctAnswer": "the other",
+      "acceptedAnswers": ["the other"],
+      "explanation": {
+        "signalVi": "Có đúng 2 đối tượng xác định ('two delivery trucks: one..., and ____ is...').",
+        "formulaAndEliminationVi": "Khi chỉ cái còn lại duy nhất trong 2 đối tượng xác định, dùng 'the other' (theo sau bởi động từ số ít 'is').",
+        "translationVi": "Chúng tôi có hai xe tải giao hàng sẵn có: một chiếc đã chất đầy hàng, và chiếc còn lại đang được bảo dưỡng định kỳ."
+      }
+    },
+    {
+      "id": "pr-11",
+      "type": "error-correction",
+      "prompt": "Before finalizing the [A] merger, executives consulted [B] others legal [C] advisors to minimize [D] potential risks.",
+      "options": [
+        { "key": "A", "text": "merger" },
+        { "key": "B", "text": "others legal" },
+        { "key": "C", "text": "advisors" },
+        { "key": "D", "text": "potential risks" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "other legal",
+      "explanation": {
+        "signalVi": "'others' đang đứng trước cụm danh từ 'legal advisors'.",
+        "formulaAndEliminationVi": "'others' không bao giờ đứng trước danh từ → phải sửa thành 'other' ('other legal advisors').",
+        "translationVi": "Trước khi hoàn tất vụ sáp nhập, các giám đốc đã tham vấn những cố vấn pháp lý khác nhằm giảm thiểu rủi ro tiềm ẩn."
+      }
+    },
+    {
+      "id": "pr-12",
+      "type": "error-correction",
+      "prompt": "The hotel [A] upgraded [B] it's conference facilities [C] to attract more [D] international business travelers.",
+      "options": [
+        { "key": "A", "text": "upgraded" },
+        { "key": "B", "text": "it's conference facilities" },
+        { "key": "C", "text": "to attract" },
+        { "key": "D", "text": "international business travelers" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "its conference facilities",
+      "explanation": {
+        "signalVi": "Chỗ [B] dùng 'it's' trước cụm danh từ 'conference facilities'.",
+        "formulaAndEliminationVi": "'it's' là viết tắt của 'it is / it has'. Trước danh từ cần Tính từ sở hữu 'its' (không có dấu nháy đơn).",
+        "translationVi": "Khách sạn đã nâng cấp cơ sở vật chất hội nghị của mình để thu hút thêm khách công tác quốc tế."
+      }
+    }
+  ]
+}

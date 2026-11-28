@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabase';
 import {
   AttemptRecord,
+  GrammarTopicProgress,
   ListeningQuestionProgress,
   ReadingQuestionProgress,
   ToeicExamHistoryItem,
@@ -28,6 +29,7 @@ export const PROGRESS_STORAGE_KEYS = {
   PROFILE: 'tmh_user_profile_v1',
   HIGHLIGHTS: 'tmh_reading_highlights_v1',
   READING_PROGRESS: 'tmh_reading_progress_v1',
+  GRAMMAR_PROGRESS: 'tmh_grammar_progress_v1',
   LISTENING_PROGRESS: 'tmh_listening_progress_v1',
   VIDEO_PROGRESS: 'tmh_video_progress_v1',
   CUSTOM_VIDEOS: 'tmh_custom_videos_v1',
@@ -56,6 +58,7 @@ export interface LearningProgressSnapshot {
   profile: UserProfileStats;
   readingHighlights: Record<string, string[]>;
   readingProgress: Record<string, ReadingQuestionProgress>;
+  grammarProgress: Record<string, GrammarTopicProgress>;
   listeningProgress: Record<string, ListeningQuestionProgress>;
   videoProgress: Record<string, VideoProgressRecord>;
   customVideos: VideoDetailItem[];
@@ -79,6 +82,7 @@ interface UserProgressRow {
   reading_progress: {
     progress?: Record<string, ReadingQuestionProgress>;
     highlights?: Record<string, string[]>;
+    grammarProgress?: Record<string, GrammarTopicProgress>;
   } | null;
   listening_progress: {
     attempts?: AttemptRecord[];
@@ -116,6 +120,7 @@ export function createEmptySnapshot(): LearningProgressSnapshot {
     },
     readingHighlights: {},
     readingProgress: {},
+    grammarProgress: {},
     listeningProgress: {},
     videoProgress: {},
     customVideos: [],
@@ -135,6 +140,7 @@ export function hasMeaningfulProgress(snap: LearningProgressSnapshot): boolean {
     snap.attempts.length > 0 ||
     Object.keys(snap.readingHighlights).length > 0 ||
     Object.keys(snap.readingProgress).length > 0 ||
+    Object.keys(snap.grammarProgress).length > 0 ||
     Object.keys(snap.listeningProgress).length > 0 ||
     Object.keys(snap.videoProgress).length > 0 ||
     snap.customVideos.length > 0 ||
@@ -235,6 +241,10 @@ function rowToSnapshot(row: UserProgressRow): LearningProgressSnapshot {
       row.reading_progress?.progress && typeof row.reading_progress.progress === 'object'
         ? row.reading_progress.progress
         : {},
+    grammarProgress:
+      row.reading_progress?.grammarProgress && typeof row.reading_progress.grammarProgress === 'object'
+        ? row.reading_progress.grammarProgress
+        : {},
     listeningProgress:
       row.listening_progress?.progress && typeof row.listening_progress.progress === 'object'
         ? row.listening_progress.progress
@@ -278,6 +288,7 @@ function snapshotToRow(userId: string, snap: LearningProgressSnapshot): UserProg
     reading_progress: {
       progress: snap.readingProgress,
       highlights: snap.readingHighlights,
+      grammarProgress: snap.grammarProgress,
     },
     listening_progress: {
       attempts: listeningAttempts.slice(0, 80),
@@ -367,6 +378,36 @@ export function mergeProgressSnapshots(
     const prev = readingProgress[qid];
     if (!prev || (rp.updatedAt || 0) >= (prev.updatedAt || 0)) {
       readingProgress[qid] = rp;
+    }
+  }
+
+  // 6a. Grammar topic progress — keep best accuracy/score, OR theoryRead, newest status/timestamp
+  const grammarProgress: Record<string, GrammarTopicProgress> = { ...(cloud.grammarProgress || {}) };
+  for (const [tid, lg] of Object.entries(local.grammarProgress || {})) {
+    const cg = grammarProgress[tid];
+    if (!cg) {
+      grammarProgress[tid] = lg;
+    } else {
+      const winner = (lg.updatedAt || 0) >= (cg.updatedAt || 0) ? lg : cg;
+      const bestAccuracy = Math.max(cg.bestAccuracy || 0, lg.bestAccuracy || 0);
+      const bestScore = Math.max(cg.bestScore || 0, lg.bestScore || 0);
+      const theoryRead = Boolean(cg.theoryRead || lg.theoryRead);
+      const status: GrammarTopicProgress['status'] =
+        cg.status === 'completed' || lg.status === 'completed' || bestAccuracy >= 75
+          ? 'completed'
+          : theoryRead || (lg.attemptsCount || 0) > 0 || (cg.attemptsCount || 0) > 0
+          ? 'in-progress'
+          : 'not-started';
+      grammarProgress[tid] = {
+        ...winner,
+        theoryRead,
+        attemptsCount: Math.max(cg.attemptsCount || 0, lg.attemptsCount || 0),
+        bestScore,
+        bestAccuracy,
+        status,
+        completedAt: cg.completedAt || lg.completedAt,
+        updatedAt: Math.max(cg.updatedAt || 0, lg.updatedAt || 0),
+      };
     }
   }
 
@@ -490,6 +531,7 @@ export function mergeProgressSnapshots(
     profile,
     readingHighlights,
     readingProgress,
+    grammarProgress,
     listeningProgress,
     videoProgress,
     customVideos,

@@ -1,0 +1,312 @@
+{
+  "id": "prepositions",
+  "order": 5,
+  "title": "Giới từ thời gian, nơi chốn & Cụm giới từ TOEIC",
+  "subtitle": "in / on / at, by vs. until, for / during / within và các cụm giới từ công sở hay thi nhất",
+  "level": "intermediate",
+  "levelLabel": "Trung cấp (650–750)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 18,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "Part 6", "Giới từ", "Collocations"],
+  "summaryVi": "Giới từ là điểm phân hóa mạnh giữa mức 550 và 750+ trong TOEIC. Đề thi ETS đặc biệt thích kiểm tra cặp đối lập thời gian (by vs. until, for vs. during vs. within) và các cụm giới từ công sở cố định (prior to, regardless of, in charge of, in accordance with). Nhớ nguyên tắc vàng: sau Giới từ LUÔN là Cụm danh từ hoặc V-ing (không phải mệnh đề S+V).",
+  "keyTakeaways": [
+    "BY + mốc thời gian = hạn chót (xong trước/chậm nhất lúc đó: submit, complete, return). UNTIL + mốc thời gian = hành động kéo dài liên tục tới lúc đó (stay, remain, last, wait).",
+    "FOR + khoảng thời gian đếm được (for 3 days) | DURING + danh từ sự kiện (during the conference) | WITHIN + trong vòng (within 5 business days).",
+    "AT (giờ cụ thể, địa chỉ có số nhà) — ON (ngày, thứ, tầng lầu, tên đường) — IN (tháng, năm, quý, thành phố, không gian khép kín).",
+    "Phân biệt Giới từ (+ N/V-ing) với Liên từ (+ S+V): despite / in spite of ≠ although; because of / due to ≠ because; during ≠ while."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng phân biệt Giới từ thời gian & nơi chốn hay thi nhất",
+      "headers": ["Nhóm giới từ", "Cách dùng chuẩn ETS", "Ví dụ công sở"],
+      "rows": [
+        ["at / on / in (Thời gian)", "at (giờ: at 9 a.m.) | on (thứ/ngày: on May 12) | in (tháng/quý/năm: in Q3, in 2026)", "The briefing starts at 10 a.m. on Tuesday in June."],
+        ["at / on / in (Nơi chốn)", "at (địa điểm cụ thể/số nhà) | on (tầng, đường, bề mặt) | in (thành phố, quốc gia, phòng)", "Our office is on the 5th floor at 240 Main Street in Seattle."],
+        ["by vs. until", "by = chậm nhất trước mốc (deadline) | until = kéo dài liên tục cho đến mốc", "Submit the invoice **by** Friday. / The discount lasts **until** Friday."],
+        ["for / during / within / throughout", "for + số lượng TG | during + sự kiện | within + trong vòng | throughout + xuyên suốt", "for two weeks / during the seminar / within 48 hours / throughout the year"],
+        ["between vs. among", "between = giữa 2 đối tượng (hoặc các bên rõ rệt) | among = trong số >= 3 đối tượng", "between the two branches / among all 40 applicants"]
+      ]
+    },
+    {
+      "title": "Top 10 Cụm giới từ công sở 'tủ' của đề ETS",
+      "headers": ["Cụm giới từ (+ N / V-ing)", "Nghĩa tiếng Việt", "Ví dụ chuẩn Part 5"],
+      "rows": [
+        ["prior to", "trước khi (= before)", "prior to the scheduled departure"],
+        ["in charge of / responsible for", "phụ trách, chịu trách nhiệm về", "in charge of vendor negotiations"],
+        ["regardless of", "bất kể, không phân biệt", "regardless of prior work experience"],
+        ["in accordance with / in compliance with", "tuân thủ theo, phù hợp với", "in accordance with safety regulations"],
+        ["due to / owing to / on account of", "do, bởi vì (+ N)", "delayed due to severe weather conditions"],
+        ["despite / in spite of", "mặc dù (+ N)", "despite the tight construction budget"],
+        ["in addition to / aside from", "ngoài... ra", "in addition to the base salary"],
+        ["on behalf of", "thay mặt cho", "accepting the award on behalf of the team"],
+        ["in response to", "để phản hồi lại", "in response to customer feedback"],
+        ["subject to", "tùy thuộc vào, phải chịu", "Prices are subject to change without notice."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "submit / finish / return / reply + ____ + [ngày/giờ]",
+      "rule": "Động từ mang tính hoàn tất trước hạn chót → chọn BY (không chọn until).",
+      "example": "Please return the signed form by 5:00 p.m."
+    },
+    {
+      "signal": "remain open / last / stay / continue + ____ + [ngày/giờ]",
+      "rule": "Động từ mang tính duy trì liên tục → chọn UNTIL.",
+      "example": "The exhibition will remain open until Sunday."
+    },
+    {
+      "signal": "____ + the meeting / the inspection / the summer (danh từ sự kiện)",
+      "rule": "Sau chỗ trống là Danh từ chỉ sự kiện/giai đoạn → chọn DURING (loại while & for).",
+      "example": "Phones must be silenced during the presentation."
+    },
+    {
+      "signal": "____ + 5 business days / 24 hours / a week (khoảng thời gian giới hạn)",
+      "rule": "Hành động xử lý trong khung thời gian cho phép → chọn WITHIN.",
+      "example": "Refunds are processed within seven business days."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Nhầm 'by' (hạn chót) với 'until' (kéo dài liên tục)",
+      "wrongExample": "All expense claims must be submitted until the end of the month.",
+      "correctExample": "All expense claims must be submitted by the end of the month.",
+      "explanationVi": "'submit' là hành động nộp xong tại một thời điểm (không thể nộp kéo dài liên tục suốt tháng), nên phải dùng 'by' (chậm nhất trước cuối tháng)."
+    },
+    {
+      "title": "Bẫy #2: Nhầm 'during' (giới từ + N) với 'while' (liên từ + S+V)",
+      "wrongExample": "Several power outages occurred while the renovation.",
+      "correctExample": "Several power outages occurred during the renovation.",
+      "explanationVi": "'the renovation' là Cụm danh từ (không có động từ chia thì) → bắt buộc dùng giới từ 'during', không dùng liên từ 'while'."
+    },
+    {
+      "title": "Bẫy #3: Thiếu 'to' sau 'prior' hoặc dùng 'despite of'",
+      "wrongExample": "Despite of the shipping delay, the client renewed the contract.",
+      "correctExample": "Despite the shipping delay, the client renewed the contract.",
+      "explanationVi": "Chỉ có 'in spite of' có 'of'; tuyệt đối KHÔNG bao giờ viết 'despite of'. Tương tự, 'prior' luôn đi với 'to' ('prior to + N/V-ing')."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "All expense receipts must be uploaded to the portal **by** Friday at 5:00 p.m.",
+      "vi": "Tất cả hóa đơn chi phí phải được tải lên cổng thông tin chậm nhất trước 5 giờ chiều thứ Sáu.",
+      "noteVi": "Hạn chót nộp bài ('uploaded') dùng 'by' + ngày + 'at' + giờ cụ thể."
+    },
+    {
+      "en": "All manufacturing plants operate **in compliance with** international environmental standards.",
+      "vi": "Tất cả nhà máy sản xuất đều vận hành tuân thủ theo các tiêu chuẩn môi trường quốc tế.",
+      "noteVi": "Cụm giới từ chuẩn ETS: in compliance with = in accordance with."
+    },
+    {
+      "en": "Customers will receive a full refund **within** ten business days of returning the item.",
+      "vi": "Khách hàng sẽ nhận được khoản hoàn tiền đầy đủ trong vòng mười ngày làm việc kể từ khi trả hàng.",
+      "noteVi": "'within + khoảng thời gian' diễn tả khung thời gian xử lý tối đa."
+    },
+    {
+      "en": "The annual health fair is open to every employee, **regardless of** tenure or department.",
+      "vi": "Hội chợ sức khỏe thường niên mở cửa cho mọi nhân viên, bất kể thâm niên hay phòng ban.",
+      "noteVi": "'regardless of + N' (bất kể, không phân biệt)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pp-01",
+      "type": "mcq",
+      "prompt": "Candidates wishing to be considered for the summer internship must submit their portfolios ____ April 15.",
+      "options": [
+        { "key": "A", "text": "until" },
+        { "key": "B", "text": "by" },
+        { "key": "C", "text": "during" },
+        { "key": "D", "text": "for" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ 'submit' (nộp) + mốc hạn chót 'April 15'.",
+        "formulaAndEliminationVi": "'submit... by + deadline' = nộp chậm nhất trước ngày 15/4 → chọn (B). Loại (A) 'until' dùng cho hành động kéo dài liên tục, (C) đi với sự kiện, (D) đi với khoảng thời gian.",
+        "translationVi": "Các ứng viên muốn được xét tuyển cho kỳ thực tập mùa hè phải nộp hồ sơ năng lực chậm nhất trước ngày 15 tháng 4."
+      }
+    },
+    {
+      "id": "pp-02",
+      "type": "mcq",
+      "prompt": "The promotional 20-percent discount on annual software licenses will remain valid ____ the end of this week.",
+      "options": [
+        { "key": "A", "text": "by" },
+        { "key": "B", "text": "within" },
+        { "key": "C", "text": "until" },
+        { "key": "D", "text": "at" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Động từ 'remain valid' (duy trì hiệu lực liên tục) + mốc thời gian 'the end of this week'.",
+        "formulaAndEliminationVi": "Hành động/trạng thái kéo dài liên tục cho tới một mốc thời gian → chọn 'until' (C). Loại (A) chỉ hạn chót hoàn thành, (B) đi với khoảng thời gian, (D) đi với giờ/thời điểm ngắn.",
+        "translationVi": "Chương trình giảm giá 20% cho giấy phép phần mềm hàng năm sẽ duy trì hiệu lực cho đến hết tuần này."
+      }
+    },
+    {
+      "id": "pp-03",
+      "type": "mcq",
+      "prompt": "Visitors are kindly requested to keep their mobile phones on silent mode ____ the keynote address.",
+      "options": [
+        { "key": "A", "text": "while" },
+        { "key": "B", "text": "for" },
+        { "key": "C", "text": "during" },
+        { "key": "D", "text": "since" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là cụm danh từ chỉ sự kiện 'the keynote address' (bài phát biểu chính).",
+        "formulaAndEliminationVi": "Trước danh từ sự kiện chọn giới từ 'during' (C). Loại (A) 'while' là liên từ cần S+V, (B) 'for' đi với khoảng thời gian có số đếm, (D) 'since' nghĩa là kể từ khi.",
+        "translationVi": "Khách tham dự vui lòng để điện thoại di động ở chế độ im lặng trong suốt bài phát biểu chính."
+      }
+    },
+    {
+      "id": "pp-04",
+      "type": "mcq",
+      "prompt": "Ms. Ortiz is currently in ____ of overseeing all supplier contracts across Latin America.",
+      "options": [
+        { "key": "A", "text": "charge" },
+        { "key": "B", "text": "response" },
+        { "key": "C", "text": "accordance" },
+        { "key": "D", "text": "behalf" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Cấu trúc 'be in ____ of + V-ing (overseeing...)'.",
+        "formulaAndEliminationVi": "Cụm cố định 'be in charge of + N/V-ing' (phụ trách việc gì) → chọn (A). Loại (B) 'in response to', (C) 'in accordance with', (D) 'on behalf of'.",
+        "translationVi": "Bà Ortiz hiện đang phụ trách giám sát tất cả hợp đồng nhà cung cấp trên khắp khu vực Mỹ Latinh."
+      }
+    },
+    {
+      "id": "pp-05",
+      "type": "mcq",
+      "prompt": "All construction work was carried out strictly in ____ with municipal building codes.",
+      "options": [
+        { "key": "A", "text": "addition" },
+        { "key": "B", "text": "accordance" },
+        { "key": "C", "text": "spite" },
+        { "key": "D", "text": "favor" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm 'in ____ with + municipal building codes (quy chuẩn xây dựng)'.",
+        "formulaAndEliminationVi": "Cụm giới từ chuẩn ETS: 'in accordance with' (= tuân thủ theo) → chọn (B). Loại (A) 'in addition to', (C) 'in spite of', (D) 'in favor of'.",
+        "translationVi": "Toàn bộ công trình xây dựng đã được thực hiện nghiêm ngặt tuân thủ theo quy chuẩn xây dựng thành phố."
+      }
+    },
+    {
+      "id": "pp-06",
+      "type": "mcq",
+      "prompt": "Customers who return defective merchandise will receive a replacement ____ five business days.",
+      "options": [
+        { "key": "A", "text": "within" },
+        { "key": "B", "text": "among" },
+        { "key": "C", "text": "across" },
+        { "key": "D", "text": "toward" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Khoảng thời gian giới hạn 'five business days' sau động từ 'will receive'.",
+        "formulaAndEliminationVi": "'within + khoảng thời gian' = trong vòng không quá 5 ngày làm việc → chọn (A). Loại (B), (C), (D) đều là giới từ chỉ không gian/hướng.",
+        "translationVi": "Khách hàng trả lại hàng lỗi sẽ nhận được sản phẩm thay thế trong vòng năm ngày làm việc."
+      }
+    },
+    {
+      "id": "pp-07",
+      "type": "mcq",
+      "prompt": "____ to launching the mobile banking app, the security team conducted three rounds of stress testing.",
+      "options": [
+        { "key": "A", "text": "Before" },
+        { "key": "B", "text": "Prior" },
+        { "key": "C", "text": "Ahead" },
+        { "key": "D", "text": "Previous" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Đứng ngay sau chỗ trống là giới từ 'to' + V-ing ('to launching...').",
+        "formulaAndEliminationVi": "Cụm giới từ cố định 'Prior to + N/V-ing' (= trước khi) → chọn (B). Loại (A) không đi với 'to', (C) đi với 'of' ('ahead of'), (D) phải dùng trạng từ 'previously' và không đi thành cụm 'previous to' ở vị trí này.",
+        "translationVi": "Trước khi ra mắt ứng dụng ngân hàng di động, nhóm bảo mật đã tiến hành ba vòng kiểm thử chịu tải."
+      }
+    },
+    {
+      "id": "pp-08",
+      "type": "mcq",
+      "prompt": "The executive seminar will be held ____ the fourth floor of the Harbourview Convention Center.",
+      "options": [
+        { "key": "A", "text": "at" },
+        { "key": "B", "text": "in" },
+        { "key": "C", "text": "on" },
+        { "key": "D", "text": "into" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Danh từ chỉ tầng lầu 'the fourth floor'.",
+        "formulaAndEliminationVi": "Quy tắc giới từ nơi chốn: luôn dùng 'on' trước số tầng ('on the fourth floor', 'on the ground floor') → chọn (C).",
+        "translationVi": "Hội thảo điều hành sẽ được tổ chức tại tầng bốn của Trung tâm Hội nghị Harbourview."
+      }
+    },
+    {
+      "id": "pp-09",
+      "type": "fill-blank",
+      "prompt": "The training stipend is available to every full-time staff member, ____ of their job title.",
+      "baseWord": "regard",
+      "correctAnswer": "regardless",
+      "acceptedAnswers": ["regardless"],
+      "explanation": {
+        "signalVi": "Cụm '____ of + their job title' (bất kể chức danh).",
+        "formulaAndEliminationVi": "Cụm giới từ chuẩn TOEIC: 'regardless of + N' = bất kể, không phân biệt.",
+        "translationVi": "Khoản trợ cấp đào tạo áp dụng cho mọi nhân viên toàn thời gian, bất kể chức danh công việc của họ."
+      }
+    },
+    {
+      "id": "pp-10",
+      "type": "fill-blank",
+      "prompt": "Please note that hotel room rates during the peak festival season are subject ____ change without prior notice.",
+      "baseWord": "preposition",
+      "correctAnswer": "to",
+      "acceptedAnswers": ["to"],
+      "explanation": {
+        "signalVi": "Cụm cố định 'be subject ____ + change / approval / availability'.",
+        "formulaAndEliminationVi": "Cấu trúc kinh điển TOEIC: 'be subject to + N' (tùy thuộc vào / có thể thay đổi theo).",
+        "translationVi": "Xin lưu ý rằng giá phòng khách sạn trong mùa lễ hội cao điểm có thể thay đổi mà không cần thông báo trước."
+      }
+    },
+    {
+      "id": "pp-11",
+      "type": "error-correction",
+      "prompt": "[A] Despite of the sudden [B] increase in fuel prices, the airline [C] maintained its affordable [D] domestic fares.",
+      "options": [
+        { "key": "A", "text": "Despite of" },
+        { "key": "B", "text": "increase in" },
+        { "key": "C", "text": "maintained" },
+        { "key": "D", "text": "domestic fares" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "Despite (hoặc In spite of)",
+      "explanation": {
+        "signalVi": "Cụm [A] viết 'Despite of'.",
+        "formulaAndEliminationVi": "'Despite' không bao giờ đi cùng 'of'. Sửa thành 'Despite' hoặc 'In spite of'.",
+        "translationVi": "Mặc dù giá nhiên liệu tăng đột ngột, hãng hàng không vẫn duy trì mức giá vé nội địa phải chăng."
+      }
+    },
+    {
+      "id": "pp-12",
+      "type": "error-correction",
+      "prompt": "The regional manager [A] spoke on [B] behalf for the entire [C] logistics team at the [D] awards banquet.",
+      "options": [
+        { "key": "A", "text": "spoke on" },
+        { "key": "B", "text": "behalf for" },
+        { "key": "C", "text": "logistics team" },
+        { "key": "D", "text": "awards banquet" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "behalf of",
+      "explanation": {
+        "signalVi": "Cụm [B] viết 'on behalf for'.",
+        "formulaAndEliminationVi": "Cụm giới từ đúng phải là 'on behalf of + N' (thay mặt cho ai) → sửa 'behalf for' thành 'behalf of'.",
+        "translationVi": "Giám đốc khu vực đã phát biểu thay mặt cho toàn thể đội ngũ hậu cần tại tiệc trao giải."
+      }
+    }
+  ]
+}

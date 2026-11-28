@@ -1,0 +1,299 @@
+{
+  "id": "subject-verb-agreement",
+  "order": 3,
+  "title": "Sự hòa hợp Chủ ngữ – Động từ",
+  "subtitle": "Cụm giới từ chen giữa, A number of vs. The number of, Each / Every / Neither và danh từ tập hợp",
+  "level": "basic",
+  "levelLabel": "Cơ bản (450+)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 15,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "Hòa hợp S–V", "Số ít / Số nhiều"],
+  "summaryVi": "Trong TOEIC, ETS hiếm khi đặt Chủ ngữ và Động từ đứng sát nhau mà thường chèn thêm cụm giới từ (of / in / with / along with) hoặc mệnh đề quan hệ ở giữa để đánh lạc hướng. Chìa khóa là gạt bỏ phần bổ nghĩa chen giữa để tìm đúng DANH TỪ CHÍNH của chủ ngữ.",
+  "keyTakeaways": [
+    "Gạch bỏ tạm mọi cụm giới từ (of..., in..., for..., with...) đứng sau chủ ngữ để nhìn rõ chủ ngữ thật sự.",
+    "A number of + N(số nhiều) + V(số nhiều)  ≠  The number of + N(số nhiều) + V(số ít).",
+    "Each / Every / Either / Neither / One of + N(số nhiều) → LUÔN chia động từ SỐ ÍT.",
+    "Danh động từ (V-ing) hoặc Mệnh đề danh ngữ (That / What...) làm chủ ngữ → LUÔN chia động từ SỐ ÍT."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng quy tắc Hòa hợp Chủ ngữ – Động từ chuẩn ETS TOEIC",
+      "headers": ["Cấu trúc Chủ ngữ", "Động từ chia", "Ví dụ thực chiến"],
+      "rows": [
+        ["N1 + prep (of/in/on/with) + N2", "Chia theo N1", "The **list** of registered attendees **is** ready."],
+        ["S1 + as well as / along with / together with + S2", "Chia theo S1", "The **manager**, along with her assistants, **attends** the summit."],
+        ["Either S1 or S2 / Neither S1 nor S2 / Not only S1 but also S2", "Chia theo S2 (gần động từ hơn)", "Neither the director nor the **analysts** **were** informed."],
+        ["A number of + N(nhiều)  (nhiều...)", "Động từ SỐ NHIỀU", "A number of **clients** **have** requested a refund."],
+        ["The number of + N(nhiều)  (số lượng...)", "Động từ SỐ ÍT", "**The number** of applicants **has** doubled."],
+        ["Each / Every / One of + N(nhiều)", "Động từ SỐ ÍT", "**Each** of the offices **receives** a monthly budget."],
+        ["V-ing / To-V / That-clause làm chủ ngữ", "Động từ SỐ ÍT", "**Reviewing** quarterly reports **takes** several hours."],
+        ["Some / Most / All / Half / % + of + N", "Chia theo N sau 'of'", "Half of the **budget** **is** spent / Half of the **seats** **are** full."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "The number of + N(số nhiều)",
+      "rule": "Chủ ngữ chính là 'The number' (số lượng) → chia V SỐ ÍT (is / has / was / V-s).",
+      "example": "The number of online orders has surged."
+    },
+    {
+      "signal": "Each / Every / Everyone / Anyone / Nothing",
+      "rule": "Luôn chia động từ SỐ ÍT dù phía sau có 'of the + N(nhiều)'.",
+      "example": "Every employee and contractor must wear a badge."
+    },
+    {
+      "signal": "S1, together with / along with / as well as + S2",
+      "rule": "Bỏ qua cụm nằm giữa 2 dấu phẩy, chia động từ theo S1.",
+      "example": "The CEO, together with two vice presidents, is visiting."
+    },
+    {
+      "signal": "Danh từ không đếm được kinh điển TOEIC",
+      "rule": "information, equipment, furniture, luggage, advice, merchandise, news → luôn chia SỐ ÍT.",
+      "example": "All outdated equipment has been replaced."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Chia động từ theo danh từ số nhiều đứng ngay trước chỗ trống trong cụm giới từ",
+      "wrongExample": "The results of the annual survey on employee benefits shows steady progress.",
+      "correctExample": "The results of the annual survey on employee benefits show steady progress.",
+      "explanationVi": "Danh từ chính là 'The results' (số nhiều), không phải 'benefits' hay 'survey'. Gạt bỏ 'of the annual survey on employee benefits' sẽ thấy ngay: The results → show."
+    },
+    {
+      "title": "Bẫy #2: Nhầm 'A number of' với 'The number of'",
+      "wrongExample": "A number of experienced engineers has applied for the position.",
+      "correctExample": "A number of experienced engineers have applied for the position.",
+      "explanationVi": "'A number of' = 'many' (nhiều kỹ sư) nên chia số nhiều (have); chỉ 'The number of' (số lượng kỹ sư) mới chia số ít (has)."
+    },
+    {
+      "title": "Bẫy #3: Nhầm lẫn với 'Neither... nor...' khi S1 và S2 khác số",
+      "wrongExample": "Neither the interns nor the project lead were present at the briefing.",
+      "correctExample": "Neither the interns nor the project lead was present at the briefing.",
+      "explanationVi": "Với 'Either... or...' và 'Neither... nor...', động từ luôn chia theo chủ ngữ ĐỨNG GẦN NÓ NHẤT ('the project lead' – số ít → was)."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "**The number** of international visitors to the exhibition **has reached** a record high.",
+      "vi": "Số lượng khách tham quan quốc tế tới triển lãm đã đạt mức cao kỷ lục.",
+      "noteVi": "'The number of + N(nhiều)' luôn đi với động từ số ít (has reached)."
+    },
+    {
+      "en": "**Each** of the newly renovated conference rooms **is equipped** with a smart projector.",
+      "vi": "Mỗi phòng hội nghị mới được cải tạo đều được trang bị máy chiếu thông minh.",
+      "noteVi": "'Each of + N(nhiều)' luôn chia động từ số ít (is equipped)."
+    },
+    {
+      "en": "The chief architect, **along with** three senior engineers, **is reviewing** the blueprints.",
+      "vi": "Kiến trúc sư trưởng, cùng với ba kỹ sư cấp cao, đang xem xét bản thiết kế.",
+      "noteVi": "Chia theo chủ ngữ đứng trước 'along with' (The chief architect → is reviewing)."
+    },
+    {
+      "en": "**Implementing** automated billing systems **reduces** manual errors substantially.",
+      "vi": "Việc triển khai các hệ thống thanh toán tự động giúp giảm đáng kể sai sót thủ công.",
+      "noteVi": "Cụm V-ing ('Implementing... systems') làm chủ ngữ luôn chia số ít (reduces)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sva-01",
+      "type": "mcq",
+      "prompt": "The number of subscribers to our digital newsletter ____ increased by 25 percent this quarter.",
+      "options": [
+        { "key": "A", "text": "have" },
+        { "key": "B", "text": "has" },
+        { "key": "C", "text": "are" },
+        { "key": "D", "text": "were" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chủ ngữ bắt đầu bằng 'The number of + N(số nhiều)' + phân từ 'increased'.",
+        "formulaAndEliminationVi": "'The number of' (số lượng) luôn đi với động từ SỐ ÍT; 'increased' ở thể chủ động (tăng lên) nên dùng 'has' (B). Loại (A) số nhiều, (C) và (D) sai thể bị động.",
+        "translationVi": "Số lượng người đăng ký bản tin điện tử của chúng tôi đã tăng 25% trong quý này."
+      }
+    },
+    {
+      "id": "sva-02",
+      "type": "mcq",
+      "prompt": "A number of regional distributors ____ expressed interest in carrying our organic beverage line.",
+      "options": [
+        { "key": "A", "text": "has" },
+        { "key": "B", "text": "have" },
+        { "key": "C", "text": "is" },
+        { "key": "D", "text": "was" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chủ ngữ 'A number of regional distributors' + 'expressed'.",
+        "formulaAndEliminationVi": "'A number of + N(số nhiều)' mang nghĩa 'nhiều...' → chia động từ SỐ NHIỀU 'have' (B). Loại (A), (C), (D) đều số ít.",
+        "translationVi": "Nhiều nhà phân phối khu vực đã bày tỏ sự quan tâm đến việc phân phối dòng đồ uống hữu cơ của chúng tôi."
+      }
+    },
+    {
+      "id": "sva-03",
+      "type": "mcq",
+      "prompt": "Ms. Alvarez, along with two senior auditors from the headquarters, ____ scheduled to inspect the warehouse.",
+      "options": [
+        { "key": "A", "text": "are" },
+        { "key": "B", "text": "were" },
+        { "key": "C", "text": "is" },
+        { "key": "D", "text": "have been" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc 'S1, along with S2, ____'.",
+        "formulaAndEliminationVi": "Khi hai chủ ngữ nối bằng 'along with / together with / as well as', chia động từ theo S1 ('Ms. Alvarez' – số ít) → chọn 'is' (C). Loại (A), (B), (D) số nhiều.",
+        "translationVi": "Bà Alvarez, cùng với hai kiểm toán viên cấp cao từ trụ sở chính, dự kiến sẽ kiểm tra nhà kho."
+      }
+    },
+    {
+      "id": "sva-04",
+      "type": "mcq",
+      "prompt": "Each of the newly hired sales representatives ____ required to attend a two-day orientation.",
+      "options": [
+        { "key": "A", "text": "is" },
+        { "key": "B", "text": "are" },
+        { "key": "C", "text": "were" },
+        { "key": "D", "text": "have" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Chủ ngữ bắt đầu bằng 'Each of the + N(số nhiều)'.",
+        "formulaAndEliminationVi": "'Each of + N(số nhiều)' luôn chia động từ SỐ ÍT → chọn 'is' (A). Loại (B), (C) số nhiều và (D) thiếu 'been'.",
+        "translationVi": "Mỗi đại diện bán hàng mới được tuyển dụng đều bắt buộc tham dự khóa định hướng kéo dài hai ngày."
+      }
+    },
+    {
+      "id": "sva-05",
+      "type": "mcq",
+      "prompt": "Neither the keynote speaker nor the panelists ____ received the updated itinerary yet.",
+      "options": [
+        { "key": "A", "text": "has" },
+        { "key": "B", "text": "have" },
+        { "key": "C", "text": "is" },
+        { "key": "D", "text": "was" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc 'Neither S1 nor S2' + 'received... yet'.",
+        "formulaAndEliminationVi": "Động từ chia theo chủ ngữ gần nhất là S2 ('the panelists' – số nhiều) + 'yet' (Hiện tại hoàn thành) → chọn 'have' (B). Loại (A) số ít, (C) và (D) sai thì.",
+        "translationVi": "Cả diễn giả chính lẫn các thành viên tọa đàm đều chưa nhận được lịch trình cập nhật."
+      }
+    },
+    {
+      "id": "sva-06",
+      "type": "mcq",
+      "prompt": "Maintaining accurate inventory records across all warehouses ____ essential for minimizing shipping delays.",
+      "options": [
+        { "key": "A", "text": "are" },
+        { "key": "B", "text": "were" },
+        { "key": "C", "text": "is" },
+        { "key": "D", "text": "be" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Chủ ngữ là cụm Danh động từ 'Maintaining accurate inventory records across all warehouses'.",
+        "formulaAndEliminationVi": "Đừng bị đánh lừa bởi 'records' hay 'warehouses' — chủ ngữ chính là hành động 'Maintaining...' (V-ing) → luôn chia SỐ ÍT 'is' (C).",
+        "translationVi": "Việc duy trì hồ sơ tồn kho chính xác trên tất cả nhà kho là thiết yếu để giảm thiểu sự chậm trễ giao hàng."
+      }
+    },
+    {
+      "id": "sva-07",
+      "type": "mcq",
+      "prompt": "All office furniture and electronic equipment purchased for the new annex ____ covered under a three-year warranty.",
+      "options": [
+        { "key": "A", "text": "is" },
+        { "key": "B", "text": "are" },
+        { "key": "C", "text": "have" },
+        { "key": "D", "text": "being" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Hai danh từ không đếm được khác nhau nối bằng 'and' ('office furniture AND electronic equipment').",
+        "formulaAndEliminationVi": "Mỗi từ đứng riêng chia số ít, nhưng hai thực thể độc lập nối bởi 'and' tạo thành chủ ngữ ghép SỐ NHIỀU → chia 'are' (B). Loại (A) số ít, (C) sai bị động, (D) thiếu động từ chính.",
+        "translationVi": "Toàn bộ nội thất văn phòng và thiết bị điện tử mua cho khu nhà mới đều được bảo hành ba năm."
+      }
+    },
+    {
+      "id": "sva-08",
+      "type": "mcq",
+      "prompt": "Nearly sixty percent of the annual research budget ____ allocated to clean energy initiatives.",
+      "options": [
+        { "key": "A", "text": "are" },
+        { "key": "B", "text": "were" },
+        { "key": "C", "text": "is" },
+        { "key": "D", "text": "have been" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc phần trăm 'sixty percent of + the annual research budget'.",
+        "formulaAndEliminationVi": "Với phần trăm/phân số + of + N, động từ chia theo danh từ sau 'of'. 'budget' (ngân sách) là danh từ số ít → chọn 'is' (C).",
+        "translationVi": "Gần 60% ngân sách nghiên cứu hàng năm được phân bổ cho các sáng kiến năng lượng sạch."
+      }
+    },
+    {
+      "id": "sva-09",
+      "type": "fill-blank",
+      "prompt": "The detailed specifications in the user manual ____ all troubleshooting procedures clearly.",
+      "baseWord": "outline",
+      "correctAnswer": "outline",
+      "acceptedAnswers": ["outline"],
+      "explanation": {
+        "signalVi": "Chủ ngữ chính là 'The detailed specifications' (số nhiều); 'in the user manual' chỉ là cụm giới từ bổ nghĩa.",
+        "formulaAndEliminationVi": "Gạt bỏ 'in the user manual' → chủ ngữ số nhiều 'specifications' chia động từ Hiện tại đơn nguyên mẫu 'outline' (không thêm -s).",
+        "translationVi": "Các thông số chi tiết trong sách hướng dẫn sử dụng trình bày rõ ràng mọi quy trình khắc phục sự cố."
+      }
+    },
+    {
+      "id": "sva-10",
+      "type": "fill-blank",
+      "prompt": "Every department head and branch manager ____ asked to review the revised safety protocol.",
+      "baseWord": "be",
+      "correctAnswer": "was",
+      "acceptedAnswers": ["was", "is"],
+      "explanation": {
+        "signalVi": "Cấu trúc 'Every + N1 and N2' (có 'Every' đứng đầu).",
+        "formulaAndEliminationVi": "Dù có 'and', khi đứng sau 'Every' hoặc 'Each' thì chủ ngữ luôn được xem là SỐ ÍT → chia 'is' hoặc 'was' (không dùng are/were).",
+        "translationVi": "Mọi trưởng phòng và giám đốc chi nhánh đều được yêu cầu xem xét quy trình an toàn mới sửa đổi."
+      }
+    },
+    {
+      "id": "sva-11",
+      "type": "error-correction",
+      "prompt": "The list of [A] approved vendors for [B] corporate catering [C] have been posted on [D] the intranet.",
+      "options": [
+        { "key": "A", "text": "approved vendors" },
+        { "key": "B", "text": "corporate catering" },
+        { "key": "C", "text": "have been posted" },
+        { "key": "D", "text": "the intranet" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "has been posted",
+      "explanation": {
+        "signalVi": "Chủ ngữ chính ở đầu câu là 'The list' (số ít), còn 'of approved vendors...' là cụm giới từ.",
+        "formulaAndEliminationVi": "Động từ phải chia số ít theo 'The list' → sửa 'have been posted' thành 'has been posted'.",
+        "translationVi": "Danh sách các nhà cung cấp dịch vụ ăn uống doanh nghiệp được phê duyệt đã được đăng lên mạng nội bộ."
+      }
+    },
+    {
+      "id": "sva-12",
+      "type": "error-correction",
+      "prompt": "Either the regional [A] managers or the chief [B] executive [C] are going to address [D] the shareholders.",
+      "options": [
+        { "key": "A", "text": "managers" },
+        { "key": "B", "text": "executive" },
+        { "key": "C", "text": "are going to" },
+        { "key": "D", "text": "the shareholders" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "is going to",
+      "explanation": {
+        "signalVi": "Cấu trúc 'Either S1 or S2' với S2 là 'the chief executive' (số ít).",
+        "formulaAndEliminationVi": "Động từ chia theo chủ ngữ gần nhất (S2 = 'the chief executive' – số ít) → sửa 'are going to' thành 'is going to'.",
+        "translationVi": "Hoặc các giám đốc khu vực hoặc giám đốc điều hành sẽ phát biểu trước các cổ đông."
+      }
+    }
+  ]
+}

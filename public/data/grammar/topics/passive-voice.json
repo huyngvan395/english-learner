@@ -1,0 +1,306 @@
+{
+  "id": "passive-voice",
+  "order": 6,
+  "title": "Câu bị động & Phân biệt Chủ động / Bị động",
+  "subtitle": "Mẹo nhìn tân ngữ phía sau chọn đáp án trong 3 giây và nhóm nội động từ không chia bị động",
+  "level": "intermediate",
+  "levelLabel": "Trung cấp (650–750)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 16,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "Bị động", "Nội động từ"],
+  "summaryVi": "Phân biệt Chủ động và Bị động xuất hiện dày đặc trong TOEIC Part 5 & 6 (cả ở dạng động từ chính lẫn rút gọn phân từ). Thay vì dịch dài dòng, quy tắc 3 giây của dân thi 900+ là kiểm tra ngay PHÍA SAU chỗ trống: nếu có Tân ngữ trực tiếp → ưu tiên Chủ động; nếu theo sau bởi Giới từ / Trạng từ / Hết câu → ưu tiên Bị động (trừ Nội động từ!).",
+  "keyTakeaways": [
+    "Công thức Bị động bắt buộc có đủ 2 yếu tố: BE (chia theo thì & chủ ngữ) + V3/ed.",
+    "Quy tắc 3 giây cho Ngoại động từ: Có Tân ngữ (N) ngay sau chỗ trống → CHỦ ĐỘNG; sau chỗ trống là Giới từ (by/in/at/to/for), Trạng từ hoặc Dấu chấm → BỊ ĐỘNG.",
+    "Ngoại lệ cực kỳ quan trọng: Nhóm NỘI ĐỘNG TỪ (occur, happen, exist, arrive, remain, consist of, expire, rise, emerge, take place) KHÔNG BAO GIỜ chia Bị động.",
+    "Cụm bị động 4 yếu tố với động từ 2 tân ngữ (give, offer, award, provide, send, notify): vẫn có thể còn 1 tân ngữ ở phía sau (VD: Employees were given a bonus)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng chuyển đổi nhanh Chủ động ↔ Bị động theo 6 thì hay thi nhất",
+      "headers": ["Thì động từ", "Chủ động (Active)", "Bị động (Passive)", "Ví dụ Bị động chuẩn ETS"],
+      "rows": [
+        ["Hiện tại đơn", "V(s/es)", "am / is / are + V3", "Invoices **are issued** automatically."],
+        ["Quá khứ đơn", "V2 / V-ed", "was / were + V3", "The contract **was signed** yesterday."],
+        ["Hiện tại tiếp diễn", "am/is/are + V-ing", "am/is/are + being + V3", "The lobby **is being renovated** now."],
+        ["Hiện tại hoàn thành", "have / has + V3", "have / has + been + V3", "The deadline **has been extended**."],
+        ["Tương lai đơn / Modal", "will / must / can + V", "will / must / can + be + V3", "All items **must be inspected** carefully."],
+        ["Tương lai hoàn thành", "will have + V3", "will have + been + V3", "The bridge **will have been completed** by May."]
+      ]
+    },
+    {
+      "title": "Nhóm Nội động từ & Cụm Bị động đặc biệt bắt buộc thuộc lòng",
+      "headers": ["Nhóm từ", "Danh sách cốt lõi trong TOEIC", "Lưu ý phòng thi"],
+      "rows": [
+        ["Nội động từ (KHÔNG chia bị động)", "occur, happen, take place, arrive, depart, rise, increase, fall, expire, exist, remain, consist of, result in", "Sai: was occurred / was expired → Đúng: occurred / expired"],
+        ["Bị động + Giới từ đặc biệt (không dùng 'by')", "be equipped with, be filled with, be covered with, be satisfied with, be interested in, be composed of, be dedicated to", "Nhìn giới từ phía sau (with/in/of/to) chốt ngay bị động"],
+        ["Động từ 2 tân ngữ / Bổ ngữ (vẫn có N sau bị động)", "be offered/given/awarded + N, be named/appointed/elected + chức danh, be asked/required + to-V", "Ms. Lee **was appointed** vice president. (Vẫn chia bị động dù có N phía sau!)"]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "Chỗ trống + by / to / in / at / for / on / with / dấu chấm",
+      "rule": "Không có tân ngữ đứng sau ngoại động từ → 90% chia BỊ ĐỘNG (be + V3).",
+      "example": "The seminar will be postponed until next week."
+    },
+    {
+      "signal": "Chỗ trống + cụm danh từ tân ngữ (the report / a new branch)",
+      "rule": "Có tân ngữ trực tiếp đứng sau → chia CHỦ ĐỘNG (trừ động từ 2 tân ngữ).",
+      "example": "The committee approved the revised budget."
+    },
+    {
+      "signal": "occur / happen / arrive / expire / rise / consist of",
+      "rule": "Nội động từ — loại ngay mọi đáp án có cấu trúc 'be + V3'!",
+      "example": "Your membership card expired last Friday."
+    },
+    {
+      "signal": "be + ____ + to-V (be required / expected / asked / scheduled to-V)",
+      "rule": "Cấu trúc bị động yêu cầu/dự kiến làm gì → chia BỊ ĐỘNG.",
+      "example": "Guests are advised to arrive fifteen minutes early."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Chia Bị động cho Nội động từ (occur, expire, happen, consist of)",
+      "wrongExample": "A minor delay was occurred during the morning shipment.",
+      "correctExample": "A minor delay occurred during the morning shipment.",
+      "explanationVi": "'occur' (xảy ra) là nội động từ nên KHÔNG có dạng bị động. Tương tự với happen, take place, expire (hết hạn), arrive, remain."
+    },
+    {
+      "title": "Bẫy #2: Thấy Danh từ ngay sau chỗ trống liền chọn Chủ động ở động từ 2 tân ngữ / bổ nhiệm",
+      "wrongExample": "Dr. Morales appointed chief medical advisor last Tuesday.",
+      "correctExample": "Dr. Morales was appointed chief medical advisor last Tuesday.",
+      "explanationVi": "Các động từ appoint/name/elect/promote (bổ nhiệm) và give/offer/award (trao tặng) khi chia bị động vẫn giữ lại chức danh hoặc vật được trao ở phía sau."
+    },
+    {
+      "title": "Bẫy #3: Nhầm 'have/has + V3' (Chủ động HTHT) với 'have/has + been + V3' (Bị động HTHT)",
+      "wrongExample": "The quarterly financial statements have already verified by external auditors.",
+      "correctExample": "The quarterly financial statements have already been verified by external auditors.",
+      "explanationVi": "Bị động của Hiện tại hoàn thành BẮT BUỘC phải có 'been' ở giữa ('have/has + been + V3'). Thiếu 'been' là thể Chủ động."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "All safety helmets **must be worn** at all times inside the assembly facility.",
+      "vi": "Tất cả mũ bảo hộ phải được đội mọi lúc bên trong khu vực lắp ráp.",
+      "noteVi": "Động từ khuyết thiếu bị động: must + be + V3 (worn); phía sau là cụm giới từ 'at all times'."
+    },
+    {
+      "en": "The main elevator **is currently being serviced**, so please use the east stairwell.",
+      "vi": "Thang máy chính hiện đang được bảo trì, vì vậy vui lòng sử dụng cầu thang bộ phía đông.",
+      "noteVi": "Hiện tại tiếp diễn bị động: is + being + V3 (serviced) đi với 'currently'."
+    },
+    {
+      "en": "Ms. Henderson **was recently promoted** to senior vice president of global sales.",
+      "vi": "Bà Henderson gần đây đã được thăng chức lên phó chủ tịch cấp cao phụ trách kinh doanh toàn cầu.",
+      "noteVi": "Chủ ngữ người được thăng chức → bị động 'was promoted to...'."
+    },
+    {
+      "en": "An unexpected power outage **occurred** shortly before the evening broadcast.",
+      "vi": "Một sự cố mất điện bất ngờ đã xảy ra ngay trước buổi phát sóng tối.",
+      "noteVi": "'occur' là nội động từ — tuyệt đối không viết 'was occurred'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pv-01",
+      "type": "mcq",
+      "prompt": "All confidential client files must ____ in the locked cabinet before staff leave for the day.",
+      "options": [
+        { "key": "A", "text": "store" },
+        { "key": "B", "text": "be stored" },
+        { "key": "C", "text": "storing" },
+        { "key": "D", "text": "have stored" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chủ ngữ vật 'All confidential client files' + 'must' + giới từ 'in' (không có tân ngữ sau chỗ trống).",
+        "formulaAndEliminationVi": "Hồ sơ phải ĐƯỢC lưu trữ → Bị động sau modal verb: must + be + V3 → chọn 'be stored' (B). Loại (A), (C), (D) đều ở thể chủ động.",
+        "translationVi": "Tất cả hồ sơ mật của khách hàng phải được cất giữ trong tủ có khóa trước khi nhân viên ra về cuối ngày."
+      }
+    },
+    {
+      "id": "pv-02",
+      "type": "mcq",
+      "prompt": "The revised employee handbook ____ to all department heads via email yesterday morning.",
+      "options": [
+        { "key": "A", "text": "distributed" },
+        { "key": "B", "text": "was distributed" },
+        { "key": "C", "text": "has distributed" },
+        { "key": "D", "text": "is distributing" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chủ ngữ vật 'The revised employee handbook' + giới từ 'to' sau chỗ trống + mốc quá khứ 'yesterday morning'.",
+        "formulaAndEliminationVi": "Sổ tay ĐƯỢC phân phát (không có tân ngữ phía sau) + Quá khứ đơn → 'was distributed' (B). Loại (A), (C), (D) đều chủ động.",
+        "translationVi": "Cuốn sổ tay nhân viên sửa đổi đã được gửi tới tất cả trưởng phòng qua email sáng hôm qua."
+      }
+    },
+    {
+      "id": "pv-03",
+      "type": "mcq",
+      "prompt": "Because the server migration is not finished, several internal databases ____ at the moment.",
+      "options": [
+        { "key": "A", "text": "are updating" },
+        { "key": "B", "text": "are being updated" },
+        { "key": "C", "text": "have updated" },
+        { "key": "D", "text": "updated" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chủ ngữ vật 'several internal databases' + không có tân ngữ + dấu hiệu 'at the moment'.",
+        "formulaAndEliminationVi": "Hiện tại tiếp diễn bị động: are + being + V3 → 'are being updated' (B). Loại (A), (C), (D) là thể chủ động.",
+        "translationVi": "Vì quá trình di chuyển máy chủ chưa hoàn tất, một số cơ sở dữ liệu nội bộ hiện đang được cập nhật."
+      }
+    },
+    {
+      "id": "pv-04",
+      "type": "mcq",
+      "prompt": "A technical malfunction ____ during the final test run of the automated packaging machine.",
+      "options": [
+        { "key": "A", "text": "was occurred" },
+        { "key": "B", "text": "has been occurred" },
+        { "key": "C", "text": "occurred" },
+        { "key": "D", "text": "is occurring by" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Động từ 'occur' (xảy ra) — nội động từ kinh điển trong bẫy ETS.",
+        "formulaAndEliminationVi": "Nội động từ KHÔNG BAO GIỜ chia bị động → loại ngay (A) và (B); (D) sai giới từ 'by' → chọn Quá khứ đơn chủ động 'occurred' (C).",
+        "translationVi": "Một sự cố kỹ thuật đã xảy ra trong lần chạy thử cuối cùng của máy đóng gói tự động."
+      }
+    },
+    {
+      "id": "pv-05",
+      "type": "mcq",
+      "prompt": "The architecture firm ____ an innovative solar-powered office complex for the city council.",
+      "options": [
+        { "key": "A", "text": "was designed" },
+        { "key": "B", "text": "designed" },
+        { "key": "C", "text": "is being designed" },
+        { "key": "D", "text": "has been designed" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Ngay sau chỗ trống có Tân ngữ trực tiếp 'an innovative solar-powered office complex'.",
+        "formulaAndEliminationVi": "Công ty kiến trúc CHỦ ĐỘNG thiết kế tổ hợp văn phòng (có tân ngữ trực tiếp phía sau) → chọn Chủ động 'designed' (B). Loại (A), (C), (D) đều ở thể bị động.",
+        "translationVi": "Công ty kiến trúc đã thiết kế một khu phức hợp văn phòng chạy bằng năng lượng mặt trời sáng tạo cho hội đồng thành phố."
+      }
+    },
+    {
+      "id": "pv-06",
+      "type": "mcq",
+      "prompt": "Mr. Ramirez ____ director of international operations following his successful launch of the Madrid branch.",
+      "options": [
+        { "key": "A", "text": "named" },
+        { "key": "B", "text": "was named" },
+        { "key": "C", "text": "naming" },
+        { "key": "D", "text": "has named" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ 'name' (bổ nhiệm) + chức danh 'director of international operations'.",
+        "formulaAndEliminationVi": "Cấu trúc bị động đặc biệt: 'be named / appointed / elected + chức danh' (được bổ nhiệm làm...) → chọn 'was named' (B). Đừng bị chức danh phía sau đánh lừa chọn chủ động!",
+        "translationVi": "Ông Ramirez đã được bổ nhiệm làm giám đốc điều hành quốc tế sau khi khai trương thành công chi nhánh Madrid."
+      }
+    },
+    {
+      "id": "pv-07",
+      "type": "mcq",
+      "prompt": "All conference attendees are strongly ____ to download the mobile schedule prior to arrival.",
+      "options": [
+        { "key": "A", "text": "advise" },
+        { "key": "B", "text": "advising" },
+        { "key": "C", "text": "advised" },
+        { "key": "D", "text": "advice" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc 'are strongly ____ to download' (be + Adv + ____ + to-V).",
+        "formulaAndEliminationVi": "Bị động của cấu trúc 'advise sb to-V' → 'be advised to-V' (được khuyên nên làm gì) → chọn V3 'advised' (C). Loại (A) động từ gốc, (B) V-ing thiếu tân ngữ, (D) danh từ.",
+        "translationVi": "Tất cả người tham dự hội nghị được khuyến nghị tải lịch trình trên di động trước khi đến."
+      }
+    },
+    {
+      "id": "pv-08",
+      "type": "mcq",
+      "prompt": "The new regional logistics hub ____ of three automated sorting halls and a cold-storage wing.",
+      "options": [
+        { "key": "A", "text": "is consisted" },
+        { "key": "B", "text": "consists" },
+        { "key": "C", "text": "was consisted" },
+        { "key": "D", "text": "has been consisted" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ 'consist' đi với giới từ 'of' (bao gồm).",
+        "formulaAndEliminationVi": "'consist of' là nội động từ luôn dùng ở thể CHỦ ĐỘNG (khác với 'be composed of / be made up of') → chọn 'consists' (B). Loại sạch (A), (C), (D).",
+        "translationVi": "Trung tâm hậu cần khu vực mới bao gồm ba sảnh phân loại tự động và một khu kho lạnh."
+      }
+    },
+    {
+      "id": "pv-09",
+      "type": "fill-blank",
+      "prompt": "Since January, more than three hundred solar panels have been ____ on the warehouse roof.",
+      "baseWord": "install",
+      "correctAnswer": "installed",
+      "acceptedAnswers": ["installed"],
+      "explanation": {
+        "signalVi": "Trước chỗ trống đã có 'have been' + sau chỗ trống là giới từ 'on'.",
+        "formulaAndEliminationVi": "Công thức Hiện tại hoàn thành bị động: have/has + been + V3/ed → 'installed'.",
+        "translationVi": "Kể từ tháng Giêng, hơn ba trăm tấm pin mặt trời đã được lắp đặt trên mái nhà kho."
+      }
+    },
+    {
+      "id": "pv-10",
+      "type": "fill-blank",
+      "prompt": "Please renew your parking permit immediately, as your current pass ____ on March 31.",
+      "baseWord": "expire",
+      "correctAnswer": "expires",
+      "acceptedAnswers": ["expires", "expired", "will expire"],
+      "explanation": {
+        "signalVi": "Động từ 'expire' (hết hạn) là nội động từ, chủ ngữ 'your current pass' số ít.",
+        "formulaAndEliminationVi": "'expire' KHÔNG chia bị động (không viết 'is expired') → chia chủ động 'expires' (hoặc 'will expire' / 'expired').",
+        "translationVi": "Vui lòng gia hạn thẻ đỗ xe ngay lập tức vì thẻ hiện tại của bạn hết hạn vào ngày 31 tháng 3."
+      }
+    },
+    {
+      "id": "pv-11",
+      "type": "error-correction",
+      "prompt": "The updated travel [A] reimbursement policy [B] has already approved [C] by the executive [D] board.",
+      "options": [
+        { "key": "A", "text": "reimbursement policy" },
+        { "key": "B", "text": "has already approved" },
+        { "key": "C", "text": "by the executive" },
+        { "key": "D", "text": "board" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "has already been approved",
+      "explanation": {
+        "signalVi": "Chủ ngữ vật 'policy' + tác nhân 'by the executive board' ở phía sau.",
+        "formulaAndEliminationVi": "Bị động Hiện tại hoàn thành bắt buộc có 'been' → sửa 'has already approved' thành 'has already been approved'.",
+        "translationVi": "Chính sách hoàn trả công tác phí cập nhật đã được ban giám đốc phê duyệt."
+      }
+    },
+    {
+      "id": "pv-12",
+      "type": "error-correction",
+      "prompt": "The annual shareholder [A] meeting [B] will be taken place [C] in the grand ballroom [D] next Friday.",
+      "options": [
+        { "key": "A", "text": "meeting" },
+        { "key": "B", "text": "will be taken place" },
+        { "key": "C", "text": "in the grand ballroom" },
+        { "key": "D", "text": "next Friday" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "will take place",
+      "explanation": {
+        "signalVi": "Cụm động từ 'take place' (= occur/happen: diễn ra).",
+        "formulaAndEliminationVi": "'take place' là cụm nội động từ KHÔNG BAO GIỜ chia bị động → sửa 'will be taken place' thành 'will take place'.",
+        "translationVi": "Cuộc họp cổ đông thường niên sẽ diễn ra tại phòng khiêu vũ lớn vào thứ Sáu tới."
+      }
+    }
+  ]
+}

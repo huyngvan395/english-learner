@@ -1,0 +1,324 @@
+{
+  "id": "conditionals",
+  "order": 12,
+  "title": "Câu điều kiện (0, 1, 2, 3, Hỗn hợp) & Đảo ngữ điều kiện",
+  "subtitle": "Should + S + V0, Were + S + to V, Had + S + V3 và các liên từ thay thế If (unless, provided that, as long as, in case)",
+  "level": "advanced",
+  "levelLabel": "Nâng cao (800–990)",
+  "etsFrequency": "Cao",
+  "estimatedMinutes": 18,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Điều kiện", "Đảo ngữ If", "Unless"],
+  "summaryVi": "Trong TOEIC điểm cao (750–990), câu điều kiện xuất hiện cực kỳ nhiều ở 2 dạng: (1) Đảo ngữ lược bỏ 'If' trong văn phong email công sở trang trọng (`Should you need...`, `Were the company to...`, `Had we known...`), và (2) Các liên từ điều kiện thay thế cho 'If' (`unless`, `provided that`, `as long as`, `in case`). Chỉ cần nhìn vế còn lại của câu là bạn khớp thì chính xác trong 3 giây.",
+  "keyTakeaways": [
+    "Khớp cặp thì chuẩn: Loại 1 (HTĐ ↔ will/can/may + V0 hoặc mệnh lệnh) | Loại 2 (QKĐ/were ↔ would/could + V0) | Loại 3 (had + V3 ↔ would/could have + V3).",
+    "Đảo ngữ lược 'If' 3 loại kinh điển ETS: Loại 1 → **Should + S + V0** | Loại 2 → **Were + S + (to-V / N / Adj)** | Loại 3 → **Had + S + V3**.",
+    "Loại Hỗn hợp (Mixed Conditional): Điều kiện trái quá khứ (`Had + S + V3`) → kết quả ở HIỆN TẠI (`would + V0 + now/today`).",
+    "`Unless = If... not` (mệnh đề sau 'unless' KHÔNG dùng phủ định lần nữa!). `Provided (that) / Providing (that) / As long as` = miễn là, với điều kiện là."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng tổng hợp 5 loại Câu điều kiện & Dạng Đảo ngữ bỏ 'If'",
+      "headers": ["Loại điều kiện", "Mệnh đề If chuẩn", "Dạng Đảo ngữ (bỏ If)", "Mệnh đề chính (Main Clause)"],
+      "rows": [
+        ["Loại 0 (Chân lý / Quy định)", "If + S + V(HTĐ)", "—", "S + V(HTĐ)"],
+        ["Loại 1 (Có thể xảy ra ở HT/TL)", "If + S + V(HTĐ)", "**Should** + S + V0", "S + will/can/should + V0 (hoặc Mệnh lệnh)"],
+        ["Loại 2 (Trái sự thật hiện tại)", "If + S + V2/ed (be → were)", "**Were** + S + to-V / Adj / N", "S + would/could/might + V0"],
+        ["Loại 3 (Trái sự thật quá khứ)", "If + S + had + V3", "**Had** + S + V3", "S + would/could/might + have + V3"],
+        ["Hỗn hợp (Quá khứ → Hiện tại)", "If + S + had + V3", "**Had** + S + V3", "S + would/could + V0 (+ now / today)"]
+      ]
+    },
+    {
+      "title": "Các liên từ điều kiện thay thế 'If' hay thi nhất trong TOEIC",
+      "headers": ["Liên từ điều kiện", "Nghĩa tiếng Việt", "Ví dụ công sở chuẩn ETS"],
+      "rows": [
+        ["Unless (= If... not)", "trừ khi, nếu không", "**Unless** payment is received by Friday, the order will be canceled."],
+        ["Provided (that) / Providing (that)", "miễn là, với điều kiện là", "We will waive the fee **provided that** you book before June."],
+        ["As long as / So long as", "miễn là, chừng nào mà", "Returns are accepted **as long as** the original tag remains intact."],
+        ["In case / In the event (that)", "phòng trường hợp, trong trường hợp", "**In the event that** flights are canceled, notify travel support."],
+        ["Without / But for + N", "nếu không có (+ Cụm danh từ)", "**Without** your timely support, we would have missed the deadline."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "____ + S + V0 (nguyên mẫu), please contact / S + will...",
+      "rule": "Đảo ngữ điều kiện Loại 1 chuẩn email công sở → chọn ngay SHOULD!",
+      "example": "Should you have any questions, please call our helpdesk."
+    },
+    {
+      "signal": "____ + S + V3/ed, S + would have + V3",
+      "rule": "Đảo ngữ điều kiện Loại 3 → chọn ngay HAD!",
+      "example": "Had the team tested the patch earlier, the outage would not have happened."
+    },
+    {
+      "signal": "____ + S + to-V, S + would + V0",
+      "rule": "Đảo ngữ điều kiện Loại 2 → chọn ngay WERE!",
+      "example": "Were the merger to fail, both companies would seek new partners."
+    },
+    {
+      "signal": "Without / But for + [Danh từ], S + ____",
+      "rule": "Ngầm hiểu câu điều kiện Loại 2 (would + V0) hoặc Loại 3 (would have + V3).",
+      "example": "Without the grant, the clinic could not have expanded."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Dùng 'Should' + động từ chia -s (quên V0 nguyên mẫu)",
+      "wrongExample": "Should the shipment arrives damaged, please photograph the box immediately.",
+      "correctExample": "Should the shipment arrive damaged, please photograph the box immediately.",
+      "explanationVi": "Sau 'Should' trong đảo ngữ Loại 1, động từ bắt buộc giữ NGUYÊN MẪU KHÔNG 's' ('arrive'), bất kể chủ ngữ số ít."
+    },
+    {
+      "title": "Bẫy #2: Phủ định kép sau 'Unless'",
+      "wrongExample": "Unless the vendor does not lower the quote, we will switch suppliers.",
+      "correctExample": "Unless the vendor lowers the quote, we will switch suppliers.",
+      "explanationVi": "'Unless' bản thân đã mang nghĩa phủ định ('Nếu không'). Không bao giờ lặp thêm 'not' ngay trong mệnh đề chứa 'unless'."
+    },
+    {
+      "title": "Bẫy #3: Nhầm vế đảo ngữ Loại 3 (`Had S V3`) với Loại 2 (`Were S to-V`)",
+      "wrongExample": "Were we ordered the supplies last week, they would have arrived by now.",
+      "correctExample": "Had we ordered the supplies last week, they would have arrived by now.",
+      "explanationVi": "Mệnh đề chính là 'would have arrived' (Loại 3) và có mốc 'last week' → đảo ngữ bắt buộc dùng 'Had + S + V3' ('Had we ordered')."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "**Should** you **require** additional copies of the prospectus, please email our investor relations team.",
+      "vi": "Nếu quý vị cần thêm bản sao của bản cáo bạch, vui lòng gửi email cho nhóm quan hệ nhà đầu tư.",
+      "noteVi": "Đảo ngữ Loại 1 cực kỳ phổ biến trong email kinh doanh: Should + S + V0."
+    },
+    {
+      "en": "**Had** the contractor **submitted** the permit on time, construction **would have begun** last month.",
+      "vi": "Giá như nhà thầu đã nộp giấy phép đúng hạn, việc thi công hẳn đã bắt đầu từ tháng trước.",
+      "noteVi": "Đảo ngữ Loại 3: Had + S + V3, S + would have + V3."
+    },
+    {
+      "en": "**Were** the company **to relocate** its plant overseas, domestic logistics costs **would rise** sharply.",
+      "vi": "Nếu công ty chuyển nhà máy ra nước ngoài, chi phí hậu cần trong nước sẽ tăng mạnh.",
+      "noteVi": "Đảo ngữ Loại 2 giả định: Were + S + to-V, S + would + V0."
+    },
+    {
+      "en": "Refunds are granted in full **provided that** the merchandise is returned unopened within 14 days.",
+      "vi": "Tiền sẽ được hoàn trả toàn bộ miễn là hàng hóa được gửi trả còn nguyên niêm phong trong vòng 14 ngày.",
+      "noteVi": "'provided that' = với điều kiện là, theo sau bởi mệnh đề Hiện tại đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cd-01",
+      "type": "mcq",
+      "prompt": "____ you experience any difficulty logging into the payroll portal, please contact IT support.",
+      "options": [
+        { "key": "A", "text": "Should" },
+        { "key": "B", "text": "Were" },
+        { "key": "C", "text": "Had" },
+        { "key": "D", "text": "Unless" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Cấu trúc đầu câu '____ + you + experience (V0)' + mệnh đề chính mệnh lệnh ('please contact').",
+        "formulaAndEliminationVi": "Đảo ngữ câu điều kiện Loại 1: 'Should + S + V0' (= If you experience...) → chọn (A). Loại (B) đi với to-V, (C) đi với V3, (D) sai nghĩa.",
+        "translationVi": "Nếu bạn gặp bất kỳ khó khăn nào khi đăng nhập vào cổng bảng lương, vui lòng liên hệ hỗ trợ CNTT."
+      }
+    },
+    {
+      "id": "cd-02",
+      "type": "mcq",
+      "prompt": "____ the marketing team conducted focus groups earlier, the packaging redesign would have succeeded.",
+      "options": [
+        { "key": "A", "text": "Should" },
+        { "key": "B", "text": "Were" },
+        { "key": "C", "text": "Had" },
+        { "key": "D", "text": "Did" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Mệnh đề chính dùng 'would have succeeded' (Loại 3) + động từ 'conducted' (V3).",
+        "formulaAndEliminationVi": "Đảo ngữ điều kiện Loại 3: 'Had + S + V3, S + would have + V3' → chọn 'Had' (C). Loại (A), (B), (D).",
+        "translationVi": "Giá như đội ngũ marketing đã tiến hành khảo sát nhóm tập trung sớm hơn, việc thiết kế lại bao bì hẳn đã thành công."
+      }
+    },
+    {
+      "id": "cd-03",
+      "type": "mcq",
+      "prompt": "____ our primary supplier to halt shipments unexpectedly, we would activate our backup vendor in Busan.",
+      "options": [
+        { "key": "A", "text": "Had" },
+        { "key": "B", "text": "Should" },
+        { "key": "C", "text": "Were" },
+        { "key": "D", "text": "Would" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc '____ + S + to halt (to-V), S + would activate (Loại 2)'.",
+        "formulaAndEliminationVi": "Đảo ngữ điều kiện Loại 2: 'Were + S + to-V, S + would + V0' → chọn 'Were' (C). Loại (A) + V3, (B) + V0, (D) không đảo ngữ điều kiện.",
+        "translationVi": "Nếu nhà cung cấp chính của chúng ta đột ngột ngừng giao hàng, chúng ta sẽ kích hoạt nhà cung cấp dự phòng tại Busan."
+      }
+    },
+    {
+      "id": "cd-04",
+      "type": "mcq",
+      "prompt": "All workshop fees will be refunded in full ____ cancellation requests are submitted at least 48 hours ahead.",
+      "options": [
+        { "key": "A", "text": "unless" },
+        { "key": "B", "text": "provided that" },
+        { "key": "C", "text": "without" },
+        { "key": "D", "text": "otherwise" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là mệnh đề S+V ('cancellation requests are submitted...') nêu điều kiện để được hoàn tiền.",
+        "formulaAndEliminationVi": "'provided that' (= với điều kiện là) khớp cả cấu trúc S+V lẫn nghĩa → chọn (B). Loại (A) ngược nghĩa, (C) giới từ, (D) trạng từ liên kết.",
+        "translationVi": "Mọi chi phí hội thảo sẽ được hoàn trả đầy đủ với điều kiện yêu cầu hủy được gửi trước ít nhất 48 giờ."
+      }
+    },
+    {
+      "id": "cd-05",
+      "type": "mcq",
+      "prompt": "The construction permit will not be issued ____ the environmental impact report passes final inspection.",
+      "options": [
+        { "key": "A", "text": "unless" },
+        { "key": "B", "text": "as long as" },
+        { "key": "C", "text": "in case of" },
+        { "key": "D", "text": "despite" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Mệnh đề chính phủ định ('will not be issued') + mệnh đề sau khẳng định ('passes final inspection') mang nghĩa 'trừ khi'.",
+        "formulaAndEliminationVi": "'will not... unless...' (sẽ không được cấp trừ khi báo cáo đạt kiểm định) → chọn 'unless' (A). Loại (B) ngược nghĩa, (C) và (D) là giới từ.",
+        "translationVi": "Giấy phép xây dựng sẽ không được cấp trừ khi báo cáo tác động môi trường vượt qua khâu kiểm định cuối cùng."
+      }
+    },
+    {
+      "id": "cd-06",
+      "type": "mcq",
+      "prompt": "If the software update had been thoroughly tested last Friday, our client portal ____ offline right now.",
+      "options": [
+        { "key": "A", "text": "will not be" },
+        { "key": "B", "text": "would not be" },
+        { "key": "C", "text": "would not have been" },
+        { "key": "D", "text": "is not" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Mệnh đề If chia Quá khứ hoàn thành ('had been tested last Friday'), nhưng mệnh đề chính có trạng từ hiện tại 'right now'!",
+        "formulaAndEliminationVi": "Câu điều kiện Hỗn hợp (Quá khứ → Hiện tại): If + had + V3, S + would (not) + V0 + now → chọn 'would not be' (B). Loại (C) chỉ dùng cho kết quả ở quá khứ.",
+        "translationVi": "Nếu bản cập nhật phần mềm đã được kiểm thử kỹ vào thứ Sáu trước, cổng khách hàng của chúng tôi hẳn bây giờ không bị ngoại tuyến."
+      }
+    },
+    {
+      "id": "cd-07",
+      "type": "mcq",
+      "prompt": "Without the generous sponsorship from Apex Bank, the regional startup summit ____ possible last autumn.",
+      "options": [
+        { "key": "A", "text": "will not be" },
+        { "key": "B", "text": "would not be" },
+        { "key": "C", "text": "would not have been" },
+        { "key": "D", "text": "had not been" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "'Without + N' (câu điều kiện ẩn) + mốc quá khứ 'last autumn'.",
+        "formulaAndEliminationVi": "Giả định trái sự thật quá khứ (Loại 3) → chọn 'would not have been' (C).",
+        "translationVi": "Nếu không có khoản tài trợ hào phóng từ Apex Bank, hội nghị khởi nghiệp khu vực mùa thu năm ngoái hẳn đã không thể diễn ra."
+      }
+    },
+    {
+      "id": "cd-08",
+      "type": "mcq",
+      "prompt": "Employees may work from home two days a week ____ their core project deliverables remain on track.",
+      "options": [
+        { "key": "A", "text": "as long as" },
+        { "key": "B", "text": "unless" },
+        { "key": "C", "text": "even if" },
+        { "key": "D", "text": "despite" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là S+V nêu điều kiện cho phép ('miễn là đầu việc chính vẫn đúng tiến độ').",
+        "formulaAndEliminationVi": "'as long as' (= miễn là, chừng nào mà) phù hợp cả ngữ pháp lẫn ngữ nghĩa → chọn (A).",
+        "translationVi": "Nhân viên có thể làm việc tại nhà hai ngày mỗi tuần miễn là các đầu việc dự án cốt lõi vẫn đúng tiến độ."
+      }
+    },
+    {
+      "id": "cd-09",
+      "type": "mcq",
+      "prompt": "If the executive committee ____ our proposal tomorrow, we will begin recruiting immediately.",
+      "options": [
+        { "key": "A", "text": "will approve" },
+        { "key": "B", "text": "approves" },
+        { "key": "C", "text": "approved" },
+        { "key": "D", "text": "had approved" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Mệnh đề chính dùng 'will begin' (Loại 1) + chủ ngữ 'the executive committee' số ít.",
+        "formulaAndEliminationVi": "Điều kiện Loại 1: If + S + V(Hiện tại đơn), S + will + V0 → chọn 'approves' (B). Tuyệt đối không dùng 'will approve' trong mệnh đề If.",
+        "translationVi": "Nếu ban điều hành phê duyệt đề xuất của chúng ta vào ngày mai, chúng ta sẽ bắt đầu tuyển dụng ngay lập tức."
+      }
+    },
+    {
+      "id": "cd-10",
+      "type": "fill-blank",
+      "prompt": "Should the courier ____ after 6:00 p.m., please leave the parcel with the evening security officer.",
+      "baseWord": "arrive",
+      "correctAnswer": "arrive",
+      "acceptedAnswers": ["arrive"],
+      "explanation": {
+        "signalVi": "Đảo ngữ Loại 1 bắt đầu bằng 'Should + the courier + ____'.",
+        "formulaAndEliminationVi": "Sau 'Should' luôn dùng động từ nguyên mẫu không 's' → 'arrive'.",
+        "translationVi": "Nếu nhân viên giao hàng đến sau 6 giờ tối, vui lòng gửi lại bưu kiện cho nhân viên bảo vệ ca tối."
+      }
+    },
+    {
+      "id": "cd-11",
+      "type": "fill-blank",
+      "prompt": "Had the accounting firm ____ the discrepancy sooner, the company would have saved thousands in penalties.",
+      "baseWord": "detect",
+      "correctAnswer": "detected",
+      "acceptedAnswers": ["detected"],
+      "explanation": {
+        "signalVi": "Đảo ngữ Loại 3: 'Had + S + ____, S + would have saved'.",
+        "formulaAndEliminationVi": "Cấu trúc 'Had + S + V3/ed' → điền 'detected'.",
+        "translationVi": "Giá như công ty kế toán phát hiện ra sự chênh lệch sớm hơn, doanh nghiệp hẳn đã tiết kiệm được hàng nghìn đô la tiền phạt."
+      }
+    },
+    {
+      "id": "cd-12",
+      "type": "error-correction",
+      "prompt": "[A] Should the quarterly report [B] contains any inaccurate figures, [C] please alert the audit [D] team immediately.",
+      "options": [
+        { "key": "A", "text": "Should the quarterly report" },
+        { "key": "B", "text": "contains" },
+        { "key": "C", "text": "please alert" },
+        { "key": "D", "text": "team immediately" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "contain",
+      "explanation": {
+        "signalVi": "Đảo ngữ Loại 1 'Should + S + V0', nhưng [B] lại chia 'contains'.",
+        "formulaAndEliminationVi": "Sau trợ động từ 'Should', động từ chính phải để nguyên mẫu không -s → sửa 'contains' thành 'contain'.",
+        "translationVi": "Nếu báo cáo hàng quý có chứa bất kỳ số liệu không chính xác nào, vui lòng báo ngay cho nhóm kiểm toán."
+      }
+    },
+    {
+      "id": "cd-13",
+      "type": "error-correction",
+      "prompt": "Unless the supplier [A] does not guarantee [B] on-time delivery, [C] we will have to seek [D] an alternative partner.",
+      "options": [
+        { "key": "A", "text": "does not guarantee" },
+        { "key": "B", "text": "on-time delivery" },
+        { "key": "C", "text": "we will have to seek" },
+        { "key": "D", "text": "an alternative partner" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "guarantees",
+      "explanation": {
+        "signalVi": "Mệnh đề sau 'Unless' ở [A] đang dùng phủ định 'does not guarantee' (lỗi phủ định kép).",
+        "formulaAndEliminationVi": "'Unless' đã có nghĩa 'Nếu không' → sửa 'does not guarantee' thành dạng khẳng định 'guarantees'.",
+        "translationVi": "Trừ khi nhà cung cấp đảm bảo giao hàng đúng hạn, chúng tôi sẽ phải tìm một đối tác thay thế."
+      }
+    }
+  ]
+}

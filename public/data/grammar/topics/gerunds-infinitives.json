@@ -1,0 +1,306 @@
+{
+  "id": "gerunds-infinitives",
+  "order": 7,
+  "title": "Danh động từ (V-ing) & Động từ nguyên mẫu (to-V)",
+  "subtitle": "Bảng nhóm động từ bắt buộc theo sau bởi V-ing / to-V và bẫy to là giới từ (look forward to + V-ing)",
+  "level": "intermediate",
+  "levelLabel": "Trung cấp (650–750)",
+  "etsFrequency": "Cao",
+  "estimatedMinutes": 16,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "V-ing", "to-V"],
+  "summaryVi": "Danh động từ (V-ing) và Động từ nguyên mẫu (to-V) thường xuất hiện trong TOEIC Part 5 ở 3 dạng: (1) Động từ đi sau một động từ chính khác (consider + V-ing vs. decide + to-V), (2) Sau giới từ luôn dùng V-ing (kể cả khi 'to' là giới từ như look forward to / be dedicated to), và (3) Chỉ mục đích ở đầu/giữa câu dùng to-V (in order to-V).",
+  "keyTakeaways": [
+    "Sau MỌI giới từ (by, for, without, in, of, before, after, despite) → bắt buộc dùng V-ing (nếu có tân ngữ phía sau) hoặc Danh từ.",
+    "Cạm bẫy số 1 của ETS: 'to' là GIỚI TỪ trong các cụm look forward to, be dedicated/committed to, be accustomed/used to, object to, contribute to → theo sau là V-ING, KHÔNG phải V nguyên mẫu!",
+    "Động từ mang tính kế hoạch/mong muốn/hứa hẹn hướng tới tương lai (plan, decide, agree, expect, hope, offer, promise, refuse, fail, afford, manage) → đi với TO-V.",
+    "Động từ mang tính cân nhắc/tránh né/trì hoãn/gợi ý/hoàn tất (consider, avoid, postpone, suggest, recommend, finish, enjoy, mind, discontinue) → đi với V-ING."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng phân nhóm Động từ + V-ing vs. Động từ + to-V cốt lõi trong TOEIC",
+      "headers": ["Cấu trúc", "Các động từ / cụm từ ETS hay ra thi nhất", "Ví dụ công sở"],
+      "rows": [
+        ["V + V-ing", "consider, suggest, recommend, avoid, postpone, delay, finish, discontinue, appreciate, mind, keep, involve, include", "We are **considering opening** a branch in Osaka."],
+        ["V + to-V", "decide, plan, agree, promise, refuse, fail, hope, expect, offer, afford, manage, aim, strive, intend, wish", "The supplier **agreed to lower** the unit cost."],
+        ["V + O + to-V", "ask, advise, allow, encourage, enable, expect, invite, persuade, remind, require, urge, permit", "Management **encouraged staff to join** the training."],
+        ["Cụm có 'to' là GIỚI TỪ + V-ing", "look forward to, be dedicated to, be committed to, be devoted to, be accustomed/used to, object to, contribute to, in addition to, prior to", "We **look forward to receiving** your feedback."],
+        ["Cụm cố định + V-ing", "have difficulty/trouble (in) + V-ing, spend time/money + V-ing, be worth + V-ing, be busy + V-ing, cannot help + V-ing", "The team **spent** two weeks **testing** the software."]
+      ]
+    },
+    {
+      "title": "Phân biệt 4 động từ thay đổi nghĩa giữa V-ing và to-V",
+      "headers": ["Động từ", "+ V-ing (đã xảy ra / thử)", "+ to-V (cần làm / mục đích)"],
+      "rows": [
+        ["remember / forget", "nhớ/quên việc ĐÃ làm trong quá khứ", "nhớ/quên PHẢI làm việc sắp tới (Please remember to attach...)"],
+        ["regret", "hối tiếc vì ĐÃ làm gì", "rất tiếc phải thông báo (We regret to inform you that...)"],
+        ["stop", "dừng hẳn hành động đang làm", "dừng lại ĐỂ làm một việc khác"],
+        ["try", "thử nghiệm một giải pháp (try restarting)", "cố gắng nỗ lực làm gì (try to meet the deadline)"]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "look forward to / be committed to / be dedicated to + ____",
+      "rule": "'to' là giới từ → chốt ngay V-ING (hoặc Danh từ), loại thẳng V nguyên mẫu!",
+      "example": "Our clinic is committed to providing affordable care."
+    },
+    {
+      "signal": "consider / suggest / recommend / postpone / avoid + ____",
+      "rule": "Nhóm động từ bắt buộc theo sau bởi V-ING.",
+      "example": "The board postponed launching the new line."
+    },
+    {
+      "signal": "____ + tân ngữ, S + V (đầu câu chỉ mục đích)",
+      "rule": "Chỉ mục đích ('Để làm gì...') → chọn TO-V (hoặc In order to-V).",
+      "example": "To reduce energy waste, turn off monitors nightly."
+    },
+    {
+      "signal": "have difficulty / spend [time/money] + ____",
+      "rule": "Luôn theo sau bởi V-ING (không dùng to-V).",
+      "example": "New users had difficulty navigating the dashboard."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Thấy chữ 'to' liền phản xạ chọn V nguyên mẫu ở cụm 'be dedicated/committed/accustomed to'",
+      "wrongExample": "Apex Corp is dedicated to deliver sustainable packaging solutions.",
+      "correctExample": "Apex Corp is dedicated to delivering sustainable packaging solutions.",
+      "explanationVi": "Trong 'be dedicated to', 'be committed to', 'look forward to', 'object to', chữ 'to' là GIỚI TỪ chứ không phải 'to-infinitive' → bắt buộc chọn 'delivering' (V-ing)."
+    },
+    {
+      "title": "Bẫy #2: Nhầm Danh từ thuần (N) với Danh động từ (V-ing) khi có Tân ngữ phía sau",
+      "wrongExample": "Thank you for your cooperation in reduction office paper consumption.",
+      "correctExample": "Thank you for your cooperation in reducing office paper consumption.",
+      "explanationVi": "Sau giới từ 'in' đã có tân ngữ 'office paper consumption' (không có 'of' ở giữa) → phải chọn Danh động từ 'reducing' để nối trực tiếp với tân ngữ (nếu dùng danh từ 'reduction' thì phải viết 'the reduction OF...')."
+    },
+    {
+      "title": "Bẫy #3: Dùng 'to-V' sau 'suggest / recommend / consider'",
+      "wrongExample": "The consultant recommended to upgrade the firewall immediately.",
+      "correctExample": "The consultant recommended upgrading the firewall immediately.",
+      "explanationVi": "'recommend / suggest / consider' khi không có tân ngữ người ở giữa luôn đi trực tiếp với V-ING ('upgrading'), không dùng 'to upgrade'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "We **look forward to** **welcoming** all international delegates to our Singapore summit.",
+      "vi": "Chúng tôi mong chờ được đón tiếp tất cả các đại biểu quốc tế tới hội nghị thượng đỉnh Singapore.",
+      "noteVi": "Cụm tủ ETS: look forward to + V-ing (welcoming)."
+    },
+    {
+      "en": "**To streamline** customer onboarding, the IT team redesigned the registration portal.",
+      "vi": "Để tinh gọn quy trình tiếp nhận khách hàng, nhóm CNTT đã thiết kế lại cổng đăng ký.",
+      "noteVi": "To-V đầu câu diễn tả mục đích ('Để...')."
+    },
+    {
+      "en": "The finance committee is **considering** **outsourcing** payroll administration next year.",
+      "vi": "Ủy ban tài chính đang cân nhắc thuê ngoài việc quản lý bảng lương vào năm tới.",
+      "noteVi": "'consider + V-ing' (outsourcing), tuyệt đối không dùng 'consider to outsource'."
+    },
+    {
+      "en": "We **regret to inform** you that the requested conference room is already booked.",
+      "vi": "Chúng tôi rất tiếc phải thông báo với bạn rằng phòng hội nghị được yêu cầu đã được đặt trước.",
+      "noteVi": "Cụm thông báo lịch sự chuẩn email TOEIC: regret to inform/announce."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gi-01",
+      "type": "mcq",
+      "prompt": "GreenGrid Energy is deeply committed to ____ carbon emissions across its manufacturing network.",
+      "options": [
+        { "key": "A", "text": "reduce" },
+        { "key": "B", "text": "reducing" },
+        { "key": "C", "text": "reduced" },
+        { "key": "D", "text": "reduction" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm 'be committed to ____ + tân ngữ (carbon emissions)'.",
+        "formulaAndEliminationVi": "'to' trong 'be committed to' là GIỚI TỪ + phía sau có tân ngữ trực tiếp 'carbon emissions' → bắt buộc chọn V-ing 'reducing' (B). Loại (A) bẫy V nguyên mẫu; loại (D) vì danh từ không nối trực tiếp với tân ngữ khi thiếu 'of'.",
+        "translationVi": "GreenGrid Energy cam kết sâu sắc trong việc cắt giảm lượng khí thải carbon trên toàn mạng lưới sản xuất."
+      }
+    },
+    {
+      "id": "gi-02",
+      "type": "mcq",
+      "prompt": "Management is seriously considering ____ the downtown flagship store before the holiday season.",
+      "options": [
+        { "key": "A", "text": "renovate" },
+        { "key": "B", "text": "to renovate" },
+        { "key": "C", "text": "renovating" },
+        { "key": "D", "text": "renovated" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Động từ chính 'considering' + chỗ trống + tân ngữ 'the downtown flagship store'.",
+        "formulaAndEliminationVi": "Công thức cố định: consider + V-ing → chọn 'renovating' (C). Loại (A), (B) to-V, (D) V-ed.",
+        "translationVi": "Ban lãnh đạo đang cân nhắc nghiêm túc việc cải tạo cửa hàng chủ lực ở khu trung tâm trước mùa lễ hội."
+      }
+    },
+    {
+      "id": "gi-03",
+      "type": "mcq",
+      "prompt": "____ a smooth transition to the new billing software, all accountants will attend a hands-on workshop.",
+      "options": [
+        { "key": "A", "text": "Ensure" },
+        { "key": "B", "text": "Ensured" },
+        { "key": "C", "text": "To ensure" },
+        { "key": "D", "text": "Ensuring that" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Đầu câu cần cụm chỉ mục đích ('Để đảm bảo quá trình chuyển đổi suôn sẻ...') + tân ngữ 'a smooth transition'.",
+        "formulaAndEliminationVi": "Dùng To-V ('To ensure') ở đầu câu để chỉ mục đích → chọn (C). Loại (A) mệnh lệnh sai cấu trúc, (B) bị động sai nghĩa, (D) thừa 'that' trước cụm danh từ.",
+        "translationVi": "Để đảm bảo quá trình chuyển đổi suôn sẻ sang phần mềm thanh toán mới, tất cả kế toán viên sẽ tham gia buổi thực hành."
+      }
+    },
+    {
+      "id": "gi-04",
+      "type": "mcq",
+      "prompt": "Several key vendors agreed ____ delivery times without charging an expedited shipping fee.",
+      "options": [
+        { "key": "A", "text": "shorten" },
+        { "key": "B", "text": "shortening" },
+        { "key": "C", "text": "to shorten" },
+        { "key": "D", "text": "shortened" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Động từ 'agreed' (đồng ý làm gì).",
+        "formulaAndEliminationVi": "Công thức: agree + to-V → chọn 'to shorten' (C). Loại (A) thiếu 'to', (B) V-ing, (D) V-ed.",
+        "translationVi": "Một số nhà cung cấp chủ chốt đã đồng ý rút ngắn thời gian giao hàng mà không tính phí vận chuyển hỏa tốc."
+      }
+    },
+    {
+      "id": "gi-05",
+      "type": "mcq",
+      "prompt": "Our engineering team spent nearly three months ____ the battery under extreme weather conditions.",
+      "options": [
+        { "key": "A", "text": "test" },
+        { "key": "B", "text": "to test" },
+        { "key": "C", "text": "testing" },
+        { "key": "D", "text": "tested" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc 'spent + [khoảng thời gian: nearly three months] + ____'.",
+        "formulaAndEliminationVi": "Công thức kinh điển: spend + time/money + (in) V-ing → chọn 'testing' (C). Loại (B) 'to test' (bẫy dịch sang tiếng Việt 'dành thời gian để...').",
+        "translationVi": "Đội ngũ kỹ sư của chúng tôi đã dành gần ba tháng để thử nghiệm pin trong điều kiện thời tiết khắc nghiệt."
+      }
+    },
+    {
+      "id": "gi-06",
+      "type": "mcq",
+      "prompt": "The regional director encouraged every branch manager ____ cost-saving ideas at Friday's meeting.",
+      "options": [
+        { "key": "A", "text": "propose" },
+        { "key": "B", "text": "proposing" },
+        { "key": "C", "text": "to propose" },
+        { "key": "D", "text": "proposal" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc 'encouraged + O (every branch manager) + ____'.",
+        "formulaAndEliminationVi": "Công thức: encourage / ask / advise / require + O + to-V → chọn 'to propose' (C). Loại (A), (B), (D).",
+        "translationVi": "Giám đốc khu vực đã khuyến khích mọi giám đốc chi nhánh đề xuất các ý tưởng tiết kiệm chi phí tại cuộc họp thứ Sáu."
+      }
+    },
+    {
+      "id": "gi-07",
+      "type": "mcq",
+      "prompt": "We regret ____ you that the 3:00 p.m. shuttle to the airport has been canceled due to heavy snow.",
+      "options": [
+        { "key": "A", "text": "inform" },
+        { "key": "B", "text": "informing" },
+        { "key": "C", "text": "to inform" },
+        { "key": "D", "text": "informed" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cụm thông báo tin xấu trong email/thông cáo: 'We regret ____ you that...'.",
+        "formulaAndEliminationVi": "'regret + to-V (inform/tell/announce)' = rất tiếc phải thông báo tin không vui → chọn (C). ('regret + V-ing' nghĩa là hối hận việc đã làm trong quá khứ).",
+        "translationVi": "Chúng tôi rất tiếc phải thông báo rằng chuyến xe trung chuyển ra sân bay lúc 3 giờ chiều đã bị hủy do tuyết rơi dày."
+      }
+    },
+    {
+      "id": "gi-08",
+      "type": "mcq",
+      "prompt": "By ____ customer feedback early in the design phase, the startup avoided costly product recalls.",
+      "options": [
+        { "key": "A", "text": "incorporate" },
+        { "key": "B", "text": "incorporating" },
+        { "key": "C", "text": "incorporation" },
+        { "key": "D", "text": "incorporated" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Giới từ 'By' + chỗ trống + tân ngữ trực tiếp 'customer feedback'.",
+        "formulaAndEliminationVi": "Sau giới từ 'By' mà phía sau có tân ngữ trực tiếp → chọn Danh động từ 'incorporating' (B) (bằng cách đưa phản hồi khách hàng vào...). Loại (C) vì danh từ 'incorporation' cần 'of' phía sau.",
+        "translationVi": "Bằng cách đưa phản hồi của khách hàng vào sớm trong giai đoạn thiết kế, công ty khởi nghiệp đã tránh được các đợt thu hồi sản phẩm tốn kém."
+      }
+    },
+    {
+      "id": "gi-09",
+      "type": "fill-blank",
+      "prompt": "We look forward to ____ with your procurement team on the upcoming hospital expansion project.",
+      "baseWord": "collaborate",
+      "correctAnswer": "collaborating",
+      "acceptedAnswers": ["collaborating"],
+      "explanation": {
+        "signalVi": "Cụm tủ TOEIC 'look forward to ____'.",
+        "formulaAndEliminationVi": "'to' trong 'look forward to' là giới từ → bắt buộc chia V-ing: 'collaborating'.",
+        "translationVi": "Chúng tôi mong chờ được hợp tác với đội ngũ thu mua của quý công ty trong dự án mở rộng bệnh viện sắp tới."
+      }
+    },
+    {
+      "id": "gi-10",
+      "type": "fill-blank",
+      "prompt": "To avoid ____ late penalties, please ensure all tax documents are filed before midnight.",
+      "baseWord": "incur",
+      "correctAnswer": "incurring",
+      "acceptedAnswers": ["incurring"],
+      "explanation": {
+        "signalVi": "Động từ 'avoid' (tránh làm gì) + tân ngữ 'late penalties'.",
+        "formulaAndEliminationVi": "'avoid + V-ing' → 'incurring' (gấp đôi chữ 'r' trước -ing vì trọng âm rơi vào âm tiết cuối).",
+        "translationVi": "Để tránh phát sinh phí phạt nộp chậm, vui lòng đảm bảo tất cả hồ sơ thuế được nộp trước nửa đêm."
+      }
+    },
+    {
+      "id": "gi-11",
+      "type": "error-correction",
+      "prompt": "The logistics consultant [A] suggested [B] to consolidate [C] regional deliveries [D] to lower fuel expenses.",
+      "options": [
+        { "key": "A", "text": "suggested" },
+        { "key": "B", "text": "to consolidate" },
+        { "key": "C", "text": "regional deliveries" },
+        { "key": "D", "text": "to lower" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "consolidating",
+      "explanation": {
+        "signalVi": "Động từ 'suggested' theo sau bởi 'to consolidate' ở [B].",
+        "formulaAndEliminationVi": "'suggest' KHÔNG đi với to-V → phải dùng V-ing 'consolidating'. (Lưu ý: [D] 'to lower' chỉ mục đích là hoàn toàn đúng).",
+        "translationVi": "Chuyên gia tư vấn hậu cần đã đề xuất gộp các chuyến giao hàng khu vực để giảm chi phí nhiên liệu."
+      }
+    },
+    {
+      "id": "gi-12",
+      "type": "error-correction",
+      "prompt": "Several new interns [A] had difficulty [B] to locate [C] the archived invoices [D] in the shared drive.",
+      "options": [
+        { "key": "A", "text": "had difficulty" },
+        { "key": "B", "text": "to locate" },
+        { "key": "C", "text": "the archived invoices" },
+        { "key": "D", "text": "in the shared drive" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "locating",
+      "explanation": {
+        "signalVi": "Cụm 'had difficulty + [B] to locate'.",
+        "formulaAndEliminationVi": "Công thức cố định: 'have difficulty / trouble (in) + V-ing' → sửa 'to locate' thành 'locating'.",
+        "translationVi": "Một số thực tập sinh mới gặp khó khăn trong việc tìm các hóa đơn lưu trữ trên ổ đĩa dùng chung."
+      }
+    }
+  ]
+}

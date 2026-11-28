@@ -1,0 +1,323 @@
+{
+  "id": "participles-reduction",
+  "order": 11,
+  "title": "Rút gọn mệnh đề quan hệ & Mệnh đề phân từ (V-ing / V-ed)",
+  "subtitle": "Rút gọn chủ động/bị động, cụm phân từ đầu câu đồng chủ ngữ (Having completed..., Located in...) và with + O + V-ing/V-ed",
+  "level": "advanced",
+  "levelLabel": "Nâng cao (800–990)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 20,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Part 6", "Phân từ", "Rút gọn MĐQH"],
+  "summaryVi": "Rút gọn mệnh đề quan hệ và Mệnh đề phân từ là 'vũ khí phân loại 800–990' của ETS. Khi câu đã có sẵn 1 động từ chính chia thì, động từ còn lại bổ nghĩa cho danh từ hoặc đứng đầu câu rút gọn BẮT BUỘC phải chuyển về Phân từ: V-ing (chủ động), V-ed/V3 (bị động), Having + V3 (hoàn thành trước) hoặc to-V (sau the first/last/only).",
+  "keyTakeaways": [
+    "Bước 1 — Đếm số động từ chia thì trong câu: Nếu câu ĐÃ có động từ chính (và không có liên từ nối), chỗ trống KHÔNG ĐƯỢC chọn động từ chia thì — chọn ngay Phân từ (V-ing / V-ed).",
+    "Bước 2 — Xét Chủ động (V-ing) vs. Bị động (V-ed): Nhìn danh từ được bổ nghĩa (hoặc chủ ngữ mệnh đề chính ở đầu câu) và kiểm tra xem sau chỗ trống có Tân ngữ trực tiếp hay không.",
+    "Cụm phân từ đầu câu (Participle Clause): `Located in...`, `Designed to...`, `Founded in...`, `Having completed...` luôn chia theo CHỦ NGỮ của mệnh đề chính phía sau dấu phẩy!",
+    "Cấu trúc nâng cao `with + O + V-ing / V-ed`: O tự thực hiện → V-ing (`with sales rising`); O bị tác động → V-ed (`with all documents signed`)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 4 dạng Rút gọn Mệnh đề quan hệ & Phân từ kinh điển",
+      "headers": ["Dạng rút gọn", "Khi nào dùng", "Cấu trúc đầy đủ → Rút gọn"],
+      "rows": [
+        ["V-ing (Chủ động)", "Danh từ TỰ thực hiện hành động (thường có Tân ngữ sau chỗ trống)", "Employees **who attend** the session → Employees **attending** the session"],
+        ["V-ed / V3 (Bị động)", "Danh từ BỊ tác động (thường theo sau bởi by/in/at/for/to)", "The invoice **that was sent** yesterday → The invoice **sent** yesterday"],
+        ["Having + V3 (Phân từ hoàn thành)", "Hành động đầu câu xảy ra & hoàn tất TRƯỚC mệnh đề chính", "After she finished the audit → **Having finished** the audit, Ms. Lin submitted her report."],
+        ["To-V (Mục đích / Thứ tự)", "Sau the first, the second, the last, the only, so sánh nhất", "The first firm **that launched** → The first firm **to launch** electric ferries"]
+      ]
+    },
+    {
+      "title": "Top Cụm phân từ đầu câu & Cấu trúc 'with + O + Phân từ' cực hay gặp",
+      "headers": ["Cụm phân từ chuẩn ETS", "Phân tích chủ động / bị động", "Ví dụ thực chiến"],
+      "rows": [
+        ["Located / Situated in + [nơi chốn], S...", "Bị động (Tòa nhà/chi nhánh tọa lạc tại...)", "**Located** near the central station, the hotel attracts commuters."],
+        ["Founded / Established in + [năm], S...", "Bị động (Công ty được thành lập năm...)", "**Founded** in 1998, NovaTech now employs 4,000 engineers."],
+        ["Designed / Intended to + V, S...", "Bị động (Sản phẩm được thiết kế để...)", "**Designed** for small teams, the app streamlines invoicing."],
+        ["Recognizing / Hoping / Seeking to..., S...", "Chủ động (Chủ ngữ nhận ra / tìm kiếm...)", "**Seeking** to cut costs, the board consolidated two offices."],
+        ["with + O + V-ing / V-ed", "O chủ động → V-ing; O bị động → V-ed", "**With** all contracts **signed**, construction began immediately."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "Câu đã có 1 V chia thì chính + không có liên từ + N + ____",
+      "rule": "Loại ngay mọi động từ chia thì (V-s, is V-ing, was V-ed) → chỉ chọn V-ing hoặc V-ed!",
+      "example": "The packages **delivered** this morning are in Room 204."
+    },
+    {
+      "signal": "____ + [by / in / for / to + N], [Chủ ngữ vật] + V",
+      "rule": "Đầu câu không có tân ngữ, chủ ngữ vật bị tác động → chọn V-ed (Located / Designed / Equipped / Built).",
+      "example": "Equipped with AI sensors, the machine detects flaws instantly."
+    },
+    {
+      "signal": "the first / the only / the last + N + ____",
+      "rule": "Rút gọn mệnh đề quan hệ sau số thứ tự → chọn TO-V.",
+      "example": "Dr. Park was the first researcher to publish the findings."
+    },
+    {
+      "signal": "with + O + ____ (cuối câu hoặc đầu câu)",
+      "rule": "Xét quan hệ giữa O và động từ: O tự tăng/giảm/làm → V-ing; O được ký/đóng/hoàn tất → V-ed.",
+      "example": "With demand rising sharply, the plant added a night shift."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Chia động từ chính thứ hai trong câu thiếu liên từ (Double Finite Verb)",
+      "wrongExample": "The brochures were printed last week contain outdated pricing.",
+      "correctExample": "The brochures printed last week contain outdated pricing.",
+      "explanationVi": "Câu đã có động từ chính 'contain'! Do đó 'were printed' không thể đứng đó nếu thiếu 'which/that' — phải rút gọn bị động thành 'printed'."
+    },
+    {
+      "title": "Bẫy #2: Phân từ lơ lửng sai đồng chủ ngữ (Dangling Participle)",
+      "wrongExample": "Reviewing the quarterly figures, several calculation errors were discovered.",
+      "correctExample": "Reviewing the quarterly figures, the auditors discovered several calculation errors.",
+      "explanationVi": "Chủ ngữ ngay sau dấu phẩy PHẢI là đối tượng thực hiện hành động 'Reviewing' (the auditors), không thể là 'calculation errors'."
+    },
+    {
+      "title": "Bẫy #3: Nhầm 'Having + V3' (chủ động) với 'Having been + V3' (bị động)",
+      "wrongExample": "Having inspected thoroughly, the aircraft was cleared for takeoff.",
+      "correctExample": "Having been inspected thoroughly, the aircraft was cleared for takeoff.",
+      "explanationVi": "Máy bay ĐƯỢC kiểm tra (bị động) trước khi cất cánh → phải dùng phân từ hoàn thành bị động 'Having been inspected' (hoặc rút ngắn 'Inspected thoroughly')."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "**Located** just two blocks from the financial district, the coworking hub stays fully booked.",
+      "vi": "Tọa lạc chỉ cách khu tài chính hai dãy nhà, không gian làm việc chung này luôn kín chỗ.",
+      "noteVi": "Mệnh đề phân từ bị động đầu câu rút gọn từ 'Because it is located...'."
+    },
+    {
+      "en": "All personnel **entering** the clean-room laboratory must wear protective shoe covers.",
+      "vi": "Tất cả nhân sự bước vào phòng thí nghiệm sạch đều phải mang bọc giày bảo hộ.",
+      "noteVi": "Rút gọn MĐQH chủ động ('who enter' → 'entering'), sau có tân ngữ 'the clean-room laboratory'."
+    },
+    {
+      "en": "**Having secured** Series B funding, the startup plans to double its engineering staff.",
+      "vi": "Sau khi huy động thành công vòng vốn Series B, công ty khởi nghiệp dự định tăng gấp đôi đội ngũ kỹ sư.",
+      "noteVi": "'Having + V3' nhấn mạnh hành động gọi vốn đã hoàn tất TRƯỚC kế hoạch tuyển dụng."
+    },
+    {
+      "en": "**With** quarterly revenue **exceeding** forecasts, the board approved a special dividend.",
+      "vi": "Với việc doanh thu hàng quý vượt dự báo, hội đồng quản trị đã phê duyệt khoản cổ tức đặc biệt.",
+      "noteVi": "Cấu trúc 'with + O (revenue) + V-ing (exceeding)' (chủ động, có tân ngữ 'forecasts')."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "prr-01",
+      "type": "mcq",
+      "prompt": "The technical specifications ____ in the appendix apply to all export shipments.",
+      "options": [
+        { "key": "A", "text": "outline" },
+        { "key": "B", "text": "outlining" },
+        { "key": "C", "text": "outlined" },
+        { "key": "D", "text": "are outlined" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Câu đã có động từ chính 'apply'; sau chỗ trống là giới từ 'in' (không có tân ngữ).",
+        "formulaAndEliminationVi": "Rút gọn MĐQH bị động ('which are outlined' → 'outlined') → chọn (C). Loại (A), (D) vì tạo 2 động từ chính; loại (B) vì chủ động cần tân ngữ.",
+        "translationVi": "Các thông số kỹ thuật được nêu trong phụ lục áp dụng cho mọi lô hàng xuất khẩu."
+      }
+    },
+    {
+      "id": "prr-02",
+      "type": "mcq",
+      "prompt": "____ in 1984 as a family bakery, Hearthstone Foods now supplies over 600 supermarkets nationwide.",
+      "options": [
+        { "key": "A", "text": "Founding" },
+        { "key": "B", "text": "Founded" },
+        { "key": "C", "text": "To found" },
+        { "key": "D", "text": "Having founded" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm phân từ đầu câu + giới từ 'in 1984' + chủ ngữ mệnh đề chính 'Hearthstone Foods' (công ty ĐƯỢC thành lập).",
+        "formulaAndEliminationVi": "Rút gọn bị động đầu câu ('Since it was founded in 1984' → 'Founded in 1984') → chọn (B). Loại (A), (C), (D) đều chủ động.",
+        "translationVi": "Được thành lập năm 1984 từ một tiệm bánh gia đình, Hearthstone Foods hiện cung ứng cho hơn 600 siêu thị toàn quốc."
+      }
+    },
+    {
+      "id": "prr-03",
+      "type": "mcq",
+      "prompt": "Any visitors ____ to tour the automated warehouse must register at the reception desk.",
+      "options": [
+        { "key": "A", "text": "wish" },
+        { "key": "B", "text": "wishing" },
+        { "key": "C", "text": "wished" },
+        { "key": "D", "text": "are wishing" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Câu đã có động từ chính 'must register'; chủ ngữ 'visitors' chủ động mong muốn ('who wish to tour').",
+        "formulaAndEliminationVi": "Rút gọn MĐQH chủ động ('who wish' → 'wishing') → chọn (B). Loại (A), (D) chia thì chính; loại (C) bị động sai nghĩa.",
+        "translationVi": "Bất kỳ khách tham quan nào muốn đi xem nhà kho tự động đều phải đăng ký tại quầy lễ tân."
+      }
+    },
+    {
+      "id": "prr-04",
+      "type": "mcq",
+      "prompt": "____ all mandatory safety modules, the new technicians were authorized to operate the cranes.",
+      "options": [
+        { "key": "A", "text": "Having completed" },
+        { "key": "B", "text": "Completed" },
+        { "key": "C", "text": "Being completed" },
+        { "key": "D", "text": "Complete" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Sau chỗ trống có tân ngữ trực tiếp 'all mandatory safety modules' + chủ ngữ 'the new technicians' (người chủ động hoàn thành trước khi được cấp phép).",
+        "formulaAndEliminationVi": "Phân từ hoàn thành chủ động nhấn mạnh hoàn tất trước: 'Having completed' (A). Loại (B), (C) bị động; loại (D) sai ngữ pháp.",
+        "translationVi": "Sau khi hoàn thành tất cả học phần an toàn bắt buộc, các kỹ thuật viên mới đã được cấp phép vận hành cần cẩu."
+      }
+    },
+    {
+      "id": "prr-05",
+      "type": "mcq",
+      "prompt": "With all regulatory permits finally ____, the developer scheduled the groundbreaking ceremony for May.",
+      "options": [
+        { "key": "A", "text": "approving" },
+        { "key": "B", "text": "approved" },
+        { "key": "C", "text": "to approve" },
+        { "key": "D", "text": "approve" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc 'With + O (all regulatory permits) + ____' — giấy phép ĐƯỢC phê duyệt.",
+        "formulaAndEliminationVi": "Công thức 'With + O + V3/ed' (khi O bị tác động) → chọn 'approved' (B). Loại (A) chủ động, (C) to-V, (D) nguyên mẫu.",
+        "translationVi": "Với việc tất cả giấy phép pháp lý cuối cùng đã được phê duyệt, chủ đầu tư đã lên lịch lễ khởi công vào tháng Năm."
+      }
+    },
+    {
+      "id": "prr-06",
+      "type": "mcq",
+      "prompt": "Ms. Morales was the first regional manager ____ a 100-percent client renewal rate two years in a row.",
+      "options": [
+        { "key": "A", "text": "achieving" },
+        { "key": "B", "text": "achieved" },
+        { "key": "C", "text": "to achieve" },
+        { "key": "D", "text": "achieves" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cụm số thứ tự 'the first regional manager ____'.",
+        "formulaAndEliminationVi": "Sau 'the first / second / last / only + N', rút gọn MĐQH bằng To-V → chọn 'to achieve' (C).",
+        "translationVi": "Bà Morales là giám đốc khu vực đầu tiên đạt tỷ lệ gia hạn khách hàng 100% hai năm liên tiếp."
+      }
+    },
+    {
+      "id": "prr-07",
+      "type": "mcq",
+      "prompt": "____ to expand its footprint in Europe, AeroLogistics acquired a freight carrier based in Munich.",
+      "options": [
+        { "key": "A", "text": "Sought" },
+        { "key": "B", "text": "Seeking" },
+        { "key": "C", "text": "Seek" },
+        { "key": "D", "text": "Been seeking" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Đầu câu + 'to expand its footprint' + chủ ngữ 'AeroLogistics' (chủ động tìm cách mở rộng).",
+        "formulaAndEliminationVi": "Rút gọn chủ động ('Because it was seeking to expand...' → 'Seeking to expand...') → chọn (B). Loại (A) bị động, (C) và (D) sai dạng.",
+        "translationVi": "Nhằm tìm cách mở rộng hiện diện tại châu Âu, AeroLogistics đã mua lại một hãng vận tải có trụ sở tại Munich."
+      }
+    },
+    {
+      "id": "prr-08",
+      "type": "mcq",
+      "prompt": "With online orders ____ rapidly ahead of the holiday rush, the warehouse hired forty temporary packers.",
+      "options": [
+        { "key": "A", "text": "risen" },
+        { "key": "B", "text": "rising" },
+        { "key": "C", "text": "rose" },
+        { "key": "D", "text": "rise" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc 'With + O (online orders) + ____ rapidly'; 'rise' là nội động từ (tự tăng lên).",
+        "formulaAndEliminationVi": "O tự thực hiện hành động (nội động từ chủ động) → dùng 'With + O + V-ing' → chọn 'rising' (B). Loại (A) bị động, (C) và (D) động từ chia thì.",
+        "translationVi": "Với lượng đơn hàng trực tuyến tăng nhanh trước mùa cao điểm lễ hội, nhà kho đã thuê bốn mươi nhân viên đóng gói thời vụ."
+      }
+    },
+    {
+      "id": "prr-09",
+      "type": "mcq",
+      "prompt": "Customers ____ defective merchandise within thirty days of purchase qualify for an instant refund.",
+      "options": [
+        { "key": "A", "text": "return" },
+        { "key": "B", "text": "returned" },
+        { "key": "C", "text": "returning" },
+        { "key": "D", "text": "are returning" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Câu đã có động từ chính 'qualify'; sau chỗ trống có tân ngữ trực tiếp 'defective merchandise'.",
+        "formulaAndEliminationVi": "Khách hàng chủ động trả hàng ('who return defective merchandise') → rút gọn V-ing 'returning' (C). Loại (A), (D) chia thì chính; loại (B) bị động.",
+        "translationVi": "Khách hàng trả lại hàng lỗi trong vòng ba mươi ngày kể từ khi mua đủ điều kiện nhận hoàn tiền ngay lập tức."
+      }
+    },
+    {
+      "id": "prr-10",
+      "type": "fill-blank",
+      "prompt": "____ with noise-canceling microphones, the conference pods ensure crystal-clear video calls.",
+      "baseWord": "equip",
+      "correctAnswer": "Equipped",
+      "acceptedAnswers": ["equipped"],
+      "explanation": {
+        "signalVi": "Đầu câu + giới từ 'with' + chủ ngữ 'the conference pods' (buồng họp ĐƯỢC trang bị).",
+        "formulaAndEliminationVi": "Rút gọn mệnh đề bị động đầu câu ('Because they are equipped with...') → điền 'Equipped'.",
+        "translationVi": "Được trang bị micro chống ồn, các buồng họp đảm bảo những cuộc gọi video trong trẻo."
+      }
+    },
+    {
+      "id": "prr-11",
+      "type": "fill-blank",
+      "prompt": "The updated user manual ____ step-by-step diagrams can be downloaded from our support portal.",
+      "baseWord": "contain",
+      "correctAnswer": "containing",
+      "acceptedAnswers": ["containing"],
+      "explanation": {
+        "signalVi": "Câu đã có động từ chính 'can be downloaded'; ngay sau chỗ trống có tân ngữ 'step-by-step diagrams'.",
+        "formulaAndEliminationVi": "Rút gọn MĐQH chủ động ('which contains step-by-step diagrams') → điền 'containing'.",
+        "translationVi": "Sách hướng dẫn sử dụng cập nhật chứa các sơ đồ từng bước có thể tải xuống từ cổng hỗ trợ của chúng tôi."
+      }
+    },
+    {
+      "id": "prr-12",
+      "type": "error-correction",
+      "prompt": "The quarterly sales [A] figures [B] were presented at [C] Tuesday's meeting [D] exceeded all projections.",
+      "options": [
+        { "key": "A", "text": "figures" },
+        { "key": "B", "text": "were presented" },
+        { "key": "C", "text": "Tuesday's meeting" },
+        { "key": "D", "text": "exceeded all projections" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "presented (hoặc that were presented)",
+      "explanation": {
+        "signalVi": "Câu có 2 động từ chia thì ('were presented' và 'exceeded') mà không có đại từ quan hệ/liên từ.",
+        "formulaAndEliminationVi": "Động từ chính của câu là 'exceeded' → rút gọn MĐQH bị động ở [B] bằng cách bỏ 'were', chỉ giữ 'presented'.",
+        "translationVi": "Số liệu doanh thu hàng quý được trình bày tại cuộc họp thứ Ba đã vượt mọi dự báo."
+      }
+    },
+    {
+      "id": "prr-13",
+      "type": "error-correction",
+      "prompt": "[A] Locating conveniently beside [B] the central subway line, [C] the new business hotel [D] offers complimentary airport transfers.",
+      "options": [
+        { "key": "A", "text": "Locating" },
+        { "key": "B", "text": "the central subway line" },
+        { "key": "C", "text": "the new business hotel" },
+        { "key": "D", "text": "offers complimentary" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "Located",
+      "explanation": {
+        "signalVi": "Chủ ngữ 'the new business hotel' tọa lạc (bị động: 'is located') và không có tân ngữ sau 'Locating'.",
+        "formulaAndEliminationVi": "Cụm phân từ bị động kinh điển ETS: 'Located + giới từ nơi chốn' → sửa 'Locating' thành 'Located'.",
+        "translationVi": "Tọa lạc thuận tiện ngay cạnh tuyến tàu điện ngầm trung tâm, khách sạn doanh nhân mới cung cấp dịch vụ đưa đón sân bay miễn phí."
+      }
+    }
+  ]
+}

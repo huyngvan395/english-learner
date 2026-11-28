@@ -9,6 +9,7 @@ import { Header } from './components/Header';
 import { AuthModal } from './components/AuthModal';
 import { TextSelectionLookup } from './components/TextSelectionLookup';
 import { VocabHub } from './modules/vocab/VocabHub';
+import { GrammarHub } from './modules/grammar/GrammarHub';
 import { VideoHub } from './modules/video/VideoHub';
 import { ToeicExamHub } from './modules/toeic/ToeicExamHub';
 import { ReadingHub } from './modules/reading/ReadingHub';
@@ -97,6 +98,9 @@ const AppShell: React.FC = () => {
             <Route path="/vocabulary" element={<VocabHub />} />
             <Route path="/vocabulary/:deckId" element={<VocabHub />} />
             <Route path="/vocabulary/:deckId/:topicId" element={<VocabHub />} />
+
+            <Route path="/grammar" element={<GrammarHub />} />
+            <Route path="/grammar/:topicId" element={<GrammarHub />} />
 
             <Route path="/videos" element={<VideoHub />} />
             <Route path="/videos/:videoId" element={<VideoHub />} />

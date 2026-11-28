@@ -1,0 +1,305 @@
+{
+  "id": "comparisons",
+  "order": 8,
+  "title": "Cấu trúc So sánh (Bằng – Hơn – Nhất – So sánh kép)",
+  "subtitle": "Trạng từ nhấn mạnh so sánh (much / far / significantly) và cấu trúc càng... càng... (The more..., the more...)",
+  "level": "intermediate",
+  "levelLabel": "Trung cấp (650–750)",
+  "etsFrequency": "Cao",
+  "estimatedMinutes": 15,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "So sánh", "Nhấn mạnh"],
+  "summaryVi": "Cấu trúc So sánh trong TOEIC Part 5 không chỉ hỏi dạng cơ bản (more... than / the most...) mà còn thường xuyên đánh vào 3 điểm nâng cấp: (1) Trạng từ nhấn mạnh trước so sánh hơn (much / far / even / significantly — tuyệt đối KHÔNG dùng 'very'), (2) So sánh giữa ĐÚNG 2 đối tượng (the + so sánh hơn + of the two), và (3) So sánh kép 'The + so sánh hơn..., the + so sánh hơn...'.",
+  "keyTakeaways": [
+    "Thấy 'than' → dùng So sánh hơn (-er / more / less). Thấy 'in + phạm vi' / 'of all' / 'ever + V3' → dùng So sánh nhất (the -est / the most).",
+    "Nhấn mạnh trước So sánh hơn: dùng much, far, even, a lot, significantly, considerably, slightly — TUYỆT ĐỐI loại 'very' và 'so'!",
+    "So sánh bằng: as + Adj/Adv (nguyên thể) + as. Nhớ kiểm tra động từ trước 'as': sau to-be/linking verb dùng Adj, sau động từ thường dùng Adv!",
+    "So sánh kép 'Càng... càng...': The + so sánh hơn + S + V, the + so sánh hơn + S + V."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 4 cấu trúc So sánh cốt lõi & Dấu hiệu nhận biết 3 giây",
+      "headers": ["Loại so sánh", "Công thức chuẩn", "Dấu hiệu nhận biết", "Ví dụ chuẩn TOEIC"],
+      "rows": [
+        ["So sánh bằng", "as + Adj / Adv + as\n(phủ định: not as/so + Adj/Adv + as)", "Có 2 chữ 'as... as' hoặc cụm 'as soon/quickly as possible'", "The new printer operates **as quietly as** the older model."],
+        ["So sánh hơn", "Adj/Adv-er + than\nmore / less + Adj/Adv + than", "Có từ khóa 'than' hoặc ngữ cảnh đối chiếu 2 phương án", "Online advertising proved **more cost-effective than** print ads."],
+        ["So sánh nhất", "the + Adj/Adv-est\nthe most / the least + Adj/Adv", "of all, in the industry/region, ever + V3, one of the + so sánh nhất + N(nhiều)", "This is **the most reliable** supplier **in the region**."],
+        ["So sánh kép (Càng... càng...)", "The + so sánh hơn (S+V),\nthe + so sánh hơn (S+V)", "2 vế đều bắt đầu bằng 'The + -er / more'", "**The earlier** you book, **the lower** the airfare will be."]
+      ]
+    },
+    {
+      "title": "Từ nhấn mạnh So sánh hơn & Các dạng bất quy tắc hay ra thi",
+      "headers": ["Nhóm kiến thức", "Chi tiết bắt buộc nhớ", "Ví dụ chuẩn ETS"],
+      "rows": [
+        ["Trạng từ nhấn mạnh so sánh hơn", "much, far, even, still, a lot, significantly, substantially, considerably, slightly", "Sales were **significantly higher** than projected. (KHÔNG dùng 'very higher')"],
+        ["Trạng từ nhấn mạnh so sánh nhất", "by far, easily, much (+ the + so sánh nhất)", "Model X is **by far the fastest** laptop in our catalog."],
+        ["So sánh giữa ĐÚNG 2 đối tượng", "the + so sánh hơn + of the two", "Of the two proposals, the second is **the more feasible**."],
+        ["Bất quy tắc cốt lõi", "good/well → better → best | bad/badly → worse → worst | little → less → least | far → farther/further → farthest/furthest", "Please contact us for **further** information. (further = thêm nữa)"]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "____ + [so sánh hơn: higher / faster / more efficient] + than",
+      "rule": "Chọn ngay trạng từ nhấn mạnh so sánh hơn: much / far / even / significantly / slightly (LOẠI 'very').",
+      "example": "The revised plan is far more practical than the draft."
+    },
+    {
+      "signal": "one of the + ____ + N(số nhiều)",
+      "rule": "Chọn So sánh nhất (most + Adj / Adj-est) + chú ý Danh từ phía sau phải số nhiều.",
+      "example": "One of the most influential architects in Asia."
+    },
+    {
+      "signal": "as + ____ + as (kiểm tra động từ phía trước!)",
+      "rule": "Trước đó là be/become/remain → điền Tính từ; là động từ thường → điền Trạng từ (nguyên thể, không -er/-est).",
+      "example": "Respond as promptly as possible. (động từ 'Respond' → trạng từ 'promptly')"
+    },
+    {
+      "signal": "The + [so sánh hơn]..., the + ____ ...",
+      "rule": "Vế sau bắt buộc song song dạng So sánh hơn (không dùng dạng gốc hoặc so sánh nhất).",
+      "example": "The more closely we monitor costs, the higher our profits grow."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Dùng 'very' trước So sánh hơn",
+      "wrongExample": "Quarterly revenue was very higher than our initial forecast.",
+      "correctExample": "Quarterly revenue was much higher than our initial forecast.",
+      "explanationVi": "'very' chỉ bổ nghĩa cho tính từ/trạng từ dạng NGUYÊN THỂ ('very high'), tuyệt đối KHÔNG đứng trước so sánh hơn — phải dùng much, far, even hoặc significantly."
+    },
+    {
+      "title": "Bẫy #2: Nhầm Tính từ và Trạng từ kẹp giữa 'as... as'",
+      "wrongExample": "Please complete the safety checklist as thorough as possible.",
+      "correctExample": "Please complete the safety checklist as thoroughly as possible.",
+      "explanationVi": "'as... as' không làm thay đổi quy tắc từ loại: ở đây cần Trạng từ 'thoroughly' để bổ nghĩa cho động từ thường 'complete'."
+    },
+    {
+      "title": "Bẫy #3: Dùng So sánh hơn kép thừa 'more' cùng đuôi '-er'",
+      "wrongExample": "The upgraded courier service is more faster than the previous provider.",
+      "correctExample": "The upgraded courier service is much faster than the previous provider.",
+      "explanationVi": "Tính từ ngắn đã có đuôi '-er' ('faster') thì KHÔNG thêm 'more' phía trước. Muốn nhấn mạnh hãy dùng 'much / far / even'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "The redesigned electric van is **considerably more fuel-efficient than** last year's model.",
+      "vi": "Chiếc xe tải điện thiết kế lại tiết kiệm nhiên liệu hơn đáng kể so với mẫu năm ngoái.",
+      "noteVi": "Trạng từ nhấn mạnh 'considerably' đứng trước so sánh hơn 'more fuel-efficient than'."
+    },
+    {
+      "en": "Ms. Sato is widely regarded as **one of the most accomplished** negotiators **in the industry**.",
+      "vi": "Bà Sato được công nhận rộng rãi là một trong những nhà đàm phán xuất sắc nhất trong ngành.",
+      "noteVi": "Cấu trúc: one of the + so sánh nhất + N(số nhiều) + in the industry."
+    },
+    {
+      "en": "**The more thoroughly** you prepare the agenda, **the smoother** the client meeting will run.",
+      "vi": "Bạn chuẩn bị chương trình nghị sự càng kỹ lưỡng, cuộc họp với khách hàng sẽ diễn ra càng suôn sẻ.",
+      "noteVi": "So sánh kép 'The + so sánh hơn..., the + so sánh hơn...'."
+    },
+    {
+      "en": "Please distribute the revised itinerary **as quickly as** possible to all traveling executives.",
+      "vi": "Vui lòng gửi lịch trình sửa đổi càng nhanh càng tốt tới tất cả các giám đốc đi công tác.",
+      "noteVi": "Động từ thường 'distribute' → dùng trạng từ nguyên thể 'quickly' giữa 'as... as'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cp-01",
+      "type": "mcq",
+      "prompt": "This year's recruitment drive attracted ____ more qualified candidates than the previous campaign.",
+      "options": [
+        { "key": "A", "text": "very" },
+        { "key": "B", "text": "far" },
+        { "key": "C", "text": "so" },
+        { "key": "D", "text": "too" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là dạng so sánh hơn 'more qualified candidates than'.",
+        "formulaAndEliminationVi": "Trạng từ nhấn mạnh trước so sánh hơn chỉ có thể là much / far / even / significantly → chọn 'far' (B). Loại (A) 'very', (C) 'so', (D) 'too' vì không đứng trước so sánh hơn.",
+        "translationVi": "Đợt tuyển dụng năm nay thu hút nhiều ứng viên đủ tiêu chuẩn hơn hẳn so với chiến dịch trước."
+      }
+    },
+    {
+      "id": "cp-02",
+      "type": "mcq",
+      "prompt": "The new automated warehouse in Rotterdam is the ____ distribution facility our company has ever built.",
+      "options": [
+        { "key": "A", "text": "large" },
+        { "key": "B", "text": "larger" },
+        { "key": "C", "text": "largest" },
+        { "key": "D", "text": "largely" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Mạo từ 'the' + mệnh đề hiện tại hoàn thành có 'ever built' (từng xây dựng).",
+        "formulaAndEliminationVi": "'the + so sánh nhất + ... ever + V3' → chọn 'largest' (C). Loại (A) nguyên thể, (B) so sánh hơn, (D) trạng từ.",
+        "translationVi": "Nhà kho tự động mới tại Rotterdam là cơ sở phân phối lớn nhất mà công ty chúng tôi từng xây dựng."
+      }
+    },
+    {
+      "id": "cp-03",
+      "type": "mcq",
+      "prompt": "To prevent supply bottlenecks, please inspect incoming shipments as ____ as possible.",
+      "options": [
+        { "key": "A", "text": "prompt" },
+        { "key": "B", "text": "promptly" },
+        { "key": "C", "text": "more promptly" },
+        { "key": "D", "text": "promptness" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ thường 'inspect' + cấu trúc so sánh bằng 'as ____ as possible'.",
+        "formulaAndEliminationVi": "Giữa 'as... as' phải dùng dạng NGUYÊN THỂ (loại C); bổ nghĩa cho động từ thường 'inspect' cần Trạng từ → chọn 'promptly' (B). Loại (A) tính từ, (D) danh từ.",
+        "translationVi": "Để ngăn ngừa tắc nghẽn nguồn cung, vui lòng kiểm tra các lô hàng nhập về càng nhanh chóng càng tốt."
+      }
+    },
+    {
+      "id": "cp-04",
+      "type": "mcq",
+      "prompt": "The earlier the branch managers submit their quarterly budgets, the ____ the finance team can approve them.",
+      "options": [
+        { "key": "A", "text": "fast" },
+        { "key": "B", "text": "faster" },
+        { "key": "C", "text": "fastest" },
+        { "key": "D", "text": "more fast" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc so sánh kép 2 vế: 'The earlier..., the ____ ...'.",
+        "formulaAndEliminationVi": "Công thức: The + so sánh hơn..., the + so sánh hơn... → 'fast' là từ 1 âm tiết nên so sánh hơn là 'faster' (B). Loại (A) nguyên thể, (C) so sánh nhất, (D) sai dạng 'more fast'.",
+        "translationVi": "Các giám đốc chi nhánh nộp ngân sách hàng quý càng sớm, nhóm tài chính có thể phê duyệt chúng càng nhanh."
+      }
+    },
+    {
+      "id": "cp-05",
+      "type": "mcq",
+      "prompt": "Of the two architectural proposals submitted yesterday, the glass atrium design is clearly the ____ option.",
+      "options": [
+        { "key": "A", "text": "more practical" },
+        { "key": "B", "text": "most practical" },
+        { "key": "C", "text": "practical" },
+        { "key": "D", "text": "practically" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Cụm mở đầu xác định đúng 2 đối tượng: 'Of the two architectural proposals... the ____ option'.",
+        "formulaAndEliminationVi": "Khi so sánh giữa ĐÚNG 2 đối tượng, dùng cấu trúc 'the + so sánh hơn + of the two' → chọn 'more practical' (A), KHÔNG dùng 'most practical' (B).",
+        "translationVi": "Trong hai đề xuất kiến trúc nộp hôm qua, thiết kế giếng trời kính rõ ràng là phương án thực tế hơn."
+      }
+    },
+    {
+      "id": "cp-06",
+      "type": "mcq",
+      "prompt": "Switching to LED lighting proved ____ less expensive to maintain than the previous halogen system.",
+      "options": [
+        { "key": "A", "text": "significantly" },
+        { "key": "B", "text": "significant" },
+        { "key": "C", "text": "significance" },
+        { "key": "D", "text": "very" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Trước so sánh hơn 'less expensive... than'.",
+        "formulaAndEliminationVi": "Cần Trạng từ nhấn mạnh mức độ đứng trước so sánh hơn ('less expensive') → chọn 'significantly' (A). Loại (B) tính từ, (C) danh từ, (D) 'very' không đi với so sánh hơn.",
+        "translationVi": "Việc chuyển sang đèn LED đã chứng tỏ tốn ít chi phí bảo trì hơn đáng kể so với hệ thống halogen trước đây."
+      }
+    },
+    {
+      "id": "cp-07",
+      "type": "mcq",
+      "prompt": "Should you require ____ assistance with your online order, please contact our support hotline.",
+      "options": [
+        { "key": "A", "text": "far" },
+        { "key": "B", "text": "further" },
+        { "key": "C", "text": "farthest" },
+        { "key": "D", "text": "farthermost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm collocation kinh điển TOEIC: 'require ____ assistance / information / details'.",
+        "formulaAndEliminationVi": "'further' (bất quy tắc của 'far') mang nghĩa 'thêm nữa, bổ sung' dùng cho thông tin/hỗ trợ trừu tượng ('further assistance / further notice') → chọn (B).",
+        "translationVi": "Nếu quý khách cần hỗ trợ thêm về đơn hàng trực tuyến, vui lòng liên hệ đường dây nóng chăm sóc khách hàng."
+      }
+    },
+    {
+      "id": "cp-08",
+      "type": "mcq",
+      "prompt": "With over fifty years in logistics, TransGlobal is by far ____ established freight carrier in the region.",
+      "options": [
+        { "key": "A", "text": "more" },
+        { "key": "B", "text": "most" },
+        { "key": "C", "text": "the most" },
+        { "key": "D", "text": "as much" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cụm nhấn mạnh 'by far' + phạm vi 'in the region' + tính từ dài 'established'.",
+        "formulaAndEliminationVi": "'by far' nhấn mạnh cho So sánh nhất (có đủ mạo từ 'the') → chọn 'the most' (C). Loại (B) vì thiếu 'the'.",
+        "translationVi": "Với hơn năm mươi năm trong ngành hậu cần, TransGlobal là hãng vận tải lâu đời nhất trong khu vực vượt xa các đối thủ."
+      }
+    },
+    {
+      "id": "cp-09",
+      "type": "fill-blank",
+      "prompt": "This quarter's customer satisfaction score is much ____ than the score recorded in the first quarter.",
+      "baseWord": "good",
+      "correctAnswer": "better",
+      "acceptedAnswers": ["better"],
+      "explanation": {
+        "signalVi": "Có 'much ____ than' (so sánh hơn của tính từ bất quy tắc 'good').",
+        "formulaAndEliminationVi": "Dạng so sánh hơn bất quy tắc của 'good' là 'better' (không viết 'more good' hay 'gooder').",
+        "translationVi": "Điểm hài lòng của khách hàng quý này cao hơn nhiều so với mức điểm ghi nhận trong quý đầu tiên."
+      }
+    },
+    {
+      "id": "cp-10",
+      "type": "fill-blank",
+      "prompt": "The updated commuter train schedule is not as ____ as the previous timetable for suburban residents.",
+      "baseWord": "convenience",
+      "correctAnswer": "convenient",
+      "acceptedAnswers": ["convenient"],
+      "explanation": {
+        "signalVi": "Sau động từ to-be 'is not' + cấu trúc so sánh bằng 'as ____ as'.",
+        "formulaAndEliminationVi": "Giữa 'as... as' sau to-be cần Tính từ nguyên thể chuyển từ danh từ 'convenience' → 'convenient'.",
+        "translationVi": "Lịch chạy tàu ngoại ô cập nhật không thuận tiện bằng bảng giờ trước đó đối với cư dân vùng ven."
+      }
+    },
+    {
+      "id": "cp-11",
+      "type": "error-correction",
+      "prompt": "Our revised marketing [A] strategy proved [B] very more effective [C] than the print campaign [D] launched in May.",
+      "options": [
+        { "key": "A", "text": "strategy proved" },
+        { "key": "B", "text": "very more effective" },
+        { "key": "C", "text": "than the print campaign" },
+        { "key": "D", "text": "launched in May" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "much more effective (hoặc far more effective)",
+      "explanation": {
+        "signalVi": "Chỗ [B] dùng 'very' ngay trước so sánh hơn 'more effective'.",
+        "formulaAndEliminationVi": "Không bao giờ dùng 'very' trước so sánh hơn → phải sửa thành 'much more effective' hoặc 'far more effective'.",
+        "translationVi": "Chiến lược marketing sửa đổi của chúng tôi tỏ ra hiệu quả hơn nhiều so với chiến dịch in ấn triển khai tháng Năm."
+      }
+    },
+    {
+      "id": "cp-12",
+      "type": "error-correction",
+      "prompt": "Ms. Kapoor is [A] one of the [B] most experienced [C] financial analyst [D] at our Zurich headquarters.",
+      "options": [
+        { "key": "A", "text": "one of the" },
+        { "key": "B", "text": "most experienced" },
+        { "key": "C", "text": "financial analyst" },
+        { "key": "D", "text": "at our Zurich headquarters" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "financial analysts",
+      "explanation": {
+        "signalVi": "Cấu trúc 'one of the + so sánh nhất + N' ở [A]-[C].",
+        "formulaAndEliminationVi": "Sau 'one of the + so sánh nhất' bắt buộc phải là Danh từ SỐ NHIỀU → sửa 'financial analyst' thành 'financial analysts'.",
+        "translationVi": "Bà Kapoor là một trong những chuyên viên phân tích tài chính dày dạn kinh nghiệm nhất tại trụ sở Zurich của chúng tôi."
+      }
+    }
+  ]
+}

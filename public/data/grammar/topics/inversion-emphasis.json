@@ -1,0 +1,321 @@
+{
+  "id": "inversion-emphasis",
+  "order": 15,
+  "title": "Đảo ngữ nâng cao & Cấu trúc nhấn mạnh",
+  "subtitle": "Đảo ngữ với trạng từ phủ định đầu câu (Not only, Seldom, Never, Only after, Little), So/Such... that và câu chẻ It is/was... that",
+  "level": "advanced",
+  "levelLabel": "Nâng cao (800–990)",
+  "etsFrequency": "Cao",
+  "estimatedMinutes": 18,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Đảo ngữ", "Câu chẻ", "So / Such"],
+  "summaryVi": "Đảo ngữ nâng cao (Inversion) và Cấu trúc nhấn mạnh (So/Such... that, Câu chẻ It is/was... that) là những câu hỏi 'chốt hạ' mốc 850–990 trong TOEIC Part 5. Nguyên tắc cốt lõi rất dễ nhớ: hễ thấy Trạng từ phủ định / giới hạn (`Not only`, `Seldom`, `Never`, `Rarely`, `Little`, `Only after/when/by`) đứng ĐẦU CÂU, phải đảo Trợ động từ lên TRƯỚC Chủ ngữ giống như câu hỏi (`Aux + S + V`).",
+  "keyTakeaways": [
+    "Đảo ngữ phủ định đầu câu: `Never / Seldom / Rarely / Little / Not only / Under no circumstances + [do/does/did/have/has/had/will/can/is/was] + S + V`.",
+    "CẨN THẬN VỊ TRÍ ĐẢO NGỮ với `Only after / Only when / Only if / Not until`: KHÔNG đảo ở mệnh đề phụ đi liền sau nó — CHỈ đảo ngữ ở MỆNH ĐỀ CHÍNH phía sau dấu phẩy!",
+    "Phân biệt `SO... that` vs. `SUCH... that`: `so + Adj/Adv + that` (hoặc `so many/much/few/little + N`) ≠ `such + (a/an) + Adj + N + that`.",
+    "Câu chẻ nhấn mạnh (Cleft Sentence): `It is / was + [thành phần nhấn mạnh] + that / who + ...` (dù nhấn mạnh số nhiều vẫn dùng 'It is/was'!)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 4 nhóm Đảo ngữ nâng cao thường gặp trong TOEIC 800+",
+      "headers": ["Nhóm từ đứng đầu câu", "Công thức đảo ngữ chuẩn", "Ví dụ công sở chuẩn ETS"],
+      "rows": [
+        ["Trạng từ phủ định trực tiếp\n(Never, Seldom, Rarely, Little, Hardly, Scarcely)", "[Trạng từ] + Aux + S + V", "**Rarely have** our quarterly exports **grown** so rapidly.\n**Little did** the team **expect** such high turnout."],
+        ["Not only... but also...", "**Not only + Aux + S + V**, but S also + V", "**Not only did** the app **cut** costs, but it also sped up billing."],
+        ["Cụm 'Only' / 'Not until' đầu câu\n(Only after / Only when / Only by / Not until)", "Only after/when + [cụm/mệnh đề thường], **Aux + S + V**", "**Only after** the audit ended **did** management **release** the report."],
+        ["No sooner... than / Hardly... when", "**No sooner + had + S + V3 + than** + S + V2\n**Hardly + had + S + V3 + when** + S + V2", "**No sooner had** the sale begun **than** the site crashed."]
+      ]
+    },
+    {
+      "title": "Cấu trúc Nhấn mạnh (So/Such... that & Câu chẻ It is/was... that)",
+      "headers": ["Cấu trúc nhấn mạnh", "Công thức", "Ví dụ chuẩn ETS"],
+      "rows": [
+        ["So... that (Quá... đến nỗi)", "S + V + **so + Adj/Adv + that** + S + V\n(Đảo ngữ: **So + Adj + be + S + that**...)", "Demand was **so strong that** we doubled production."],
+        ["Such... that (Quá... đến nỗi)", "S + V + **such + (a/an) + Adj + N + that** + S + V", "It was **such a compelling offer that** the client signed immediately."],
+        ["Câu chẻ (Cleft Sentence)", "**It is / was + [S / O / Adv] + that (who)** + ...", "**It was** Ms. Lin **who** negotiated the Tokyo distribution deal."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "Not only / Never / Seldom / Rarely / Little + ____ (ở ngay đầu câu)",
+      "rule": "Bắt buộc đảo ngữ `Aux + S + V` — loại ngay trật tự bình thường `S + V`!",
+      "example": "Seldom **does** the firm discount its enterprise suite."
+    },
+    {
+      "signal": "Only after / Only when / Not until + [cụm/mệnh đề] + ____",
+      "rule": "Đảo ngữ xảy ra ở MỆNH ĐỀ CHÍNH phía sau (`did / will / can / has + S + V`)!",
+      "example": "Not until Friday **will** the committee **announce** the winner."
+    },
+    {
+      "signal": "____ + Adj + that vs. ____ + (a/an) + Adj + N + that",
+      "rule": "Chỉ có Adj/Adv → chọn **so**; có Cụm danh từ `(a/an) + Adj + N` → chọn **such**!",
+      "example": "**so** efficient that... / **such an** efficient system that..."
+    },
+    {
+      "signal": "No sooner had S V3 + ____ vs. Hardly had S V3 + ____",
+      "rule": "Khớp đúng cặp liên từ: **No sooner... than** | **Hardly / Scarcely... when**!",
+      "example": "No sooner had he arrived **than** the briefing started."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Quên đảo ngữ sau 'Not only' hoặc 'Only by + V-ing' ở đầu câu",
+      "wrongExample": "Not only the new software automates invoicing, but it also tracks taxes.",
+      "correctExample": "Not only does the new software automate invoicing, but it also tracks taxes.",
+      "explanationVi": "Khi 'Not only' đứng ĐẦU CÂU trước cả một mệnh đề, bắt buộc mượn trợ động từ đảo lên trước chủ ngữ ('Not only does the new software automate...')."
+    },
+    {
+      "title": "Bẫy #2: Nhầm 'so' với 'such' khi có danh từ đếm được số ít đi kèm",
+      "wrongExample": "It was so an innovative design that it won three global awards.",
+      "correctExample": "It was such an innovative design that it won three global awards.",
+      "explanationVi": "Có cụm danh từ 'an innovative design' → dùng 'such' ('such an innovative design'). Muốn dùng 'so' phải đảo 'so innovative a design' (rất hiếm)."
+    },
+    {
+      "title": "Bẫy #3: Dùng 'when' với 'No sooner' hoặc 'than' với 'Hardly'",
+      "wrongExample": "No sooner had the branch opened when customers filled the showroom.",
+      "correctExample": "No sooner had the branch opened than customers filled the showroom.",
+      "explanationVi": "'sooner' là dạng so sánh hơn nên LUÔN đi cặp với 'than' ('No sooner... than'); chỉ 'Hardly/Scarcely' mới đi với 'when'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "**Not only did** the merger expand our distribution network, **but** it **also** reduced overhead by 15 percent.",
+      "vi": "Thương vụ sáp nhập không chỉ mở rộng mạng lưới phân phối mà còn cắt giảm 15% chi phí vận hành.",
+      "noteVi": "Đảo ngữ đầu câu: Not only + did + S + V0 (expand)."
+    },
+    {
+      "en": "**Only by** investing in automated logistics **can** the retailer **guarantee** same-day delivery.",
+      "vi": "Chỉ bằng cách đầu tư vào hậu cần tự động, nhà bán lẻ mới có thể đảm bảo giao hàng trong ngày.",
+      "noteVi": "Sau cụm 'Only by + V-ing', mệnh đề chính đảo 'can' lên trước 'the retailer'."
+    },
+    {
+      "en": "The seminar received **such** overwhelmingly positive feedback **that** we added two extra sessions.",
+      "vi": "Hội thảo nhận được phản hồi tích cực áp đảo đến nỗi chúng tôi đã mở thêm hai phiên phụ.",
+      "noteVi": "'feedback' là danh từ không đếm được → 'such + Adv + Adj + N + that' (không dùng 'a/an')."
+    },
+    {
+      "en": "**It was** the Osaka engineering team **that** developed the energy-saving microchip.",
+      "vi": "Chính đội ngũ kỹ sư tại Osaka là những người đã phát triển con chip tiết kiệm năng lượng này.",
+      "noteVi": "Câu chẻ nhấn mạnh chủ ngữ: It was + [người/nhóm] + that/who + V."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ie-01",
+      "type": "mcq",
+      "prompt": "Not only ____ the quarterly revenue target, but the sales division also acquired twelve enterprise accounts.",
+      "options": [
+        { "key": "A", "text": "the sales division surpassed" },
+        { "key": "B", "text": "did the sales division surpass" },
+        { "key": "C", "text": "surpassed the sales division" },
+        { "key": "D", "text": "was the sales division surpass" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "'Not only' đứng ở ngay đầu câu, vế sau chia quá khứ đơn ('acquired').",
+        "formulaAndEliminationVi": "Đảo ngữ quá khứ đơn: Not only + did + S + V0 → chọn 'did the sales division surpass' (B). Loại (A) không đảo ngữ, (C) thiếu trợ động từ, (D) sai 'was + V0'.",
+        "translationVi": "Phòng kinh doanh không chỉ vượt mục tiêu doanh thu hàng quý mà còn ký thêm được mười hai khách hàng doanh nghiệp."
+      }
+    },
+    {
+      "id": "ie-02",
+      "type": "mcq",
+      "prompt": "Seldom ____ such rapid growth in renewable energy investment across Southeast Asia.",
+      "options": [
+        { "key": "A", "text": "economists have witnessed" },
+        { "key": "B", "text": "have economists witnessed" },
+        { "key": "C", "text": "witnessed economists" },
+        { "key": "D", "text": "economists witnessed" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Trạng từ mang nghĩa phủ định/hiếm khi 'Seldom' đứng đầu câu.",
+        "formulaAndEliminationVi": "Đảo ngữ Hiện tại hoàn thành: Seldom + have + S + V3 → chọn 'have economists witnessed' (B). Loại (A), (D) không đảo; loại (C) thiếu trợ động từ.",
+        "translationVi": "Hiếm khi các nhà kinh tế chứng kiến tốc độ tăng trưởng đầu tư năng lượng tái tạo nhanh đến vậy tại Đông Nam Á."
+      }
+    },
+    {
+      "id": "ie-03",
+      "type": "mcq",
+      "prompt": "Only after the security audit is completely finalized ____ access to the production database.",
+      "options": [
+        { "key": "A", "text": "contractors will receive" },
+        { "key": "B", "text": "will contractors receive" },
+        { "key": "C", "text": "receive contractors" },
+        { "key": "D", "text": "do contractors received" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "'Only after + [mệnh đề phụ không đảo]' đứng đầu câu → mệnh đề chính đứng sau chỗ trống phải đảo ngữ.",
+        "formulaAndEliminationVi": "Đảo ngữ mệnh đề chính tương lai: will + S + V0 → chọn 'will contractors receive' (B). Loại (A) không đảo, (C) thiếu trợ động từ, (D) sai 'do + V-ed'.",
+        "translationVi": "Chỉ sau khi cuộc kiểm toán bảo mật hoàn tất trọn vẹn thì các nhà thầu mới nhận được quyền truy cập cơ sở dữ liệu vận hành."
+      }
+    },
+    {
+      "id": "ie-04",
+      "type": "mcq",
+      "prompt": "The updated scheduling app was ____ intuitive that employees mastered every feature within an hour.",
+      "options": [
+        { "key": "A", "text": "such" },
+        { "key": "B", "text": "so" },
+        { "key": "C", "text": "very" },
+        { "key": "D", "text": "too" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc '____ + Adj (intuitive) + that + S + V'.",
+        "formulaAndEliminationVi": "Trước tính từ đứng một mình kết hợp với 'that' → chọn 'so' (B). Loại (A) 'such' cần danh từ; loại (C) 'very' và (D) 'too' không đi với mệnh đề kết quả 'that'.",
+        "translationVi": "Ứng dụng xếp lịch cập nhật trực quan đến nỗi nhân viên đã thành thạo mọi tính năng chỉ trong một giờ."
+      }
+    },
+    {
+      "id": "ie-05",
+      "type": "mcq",
+      "prompt": "The annual trade expo was ____ a remarkable success that organizers immediately reserved a larger venue for next year.",
+      "options": [
+        { "key": "A", "text": "so" },
+        { "key": "B", "text": "such" },
+        { "key": "C", "text": "very" },
+        { "key": "D", "text": "quite" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm '____ + a remarkable success (a + Adj + N) + that'.",
+        "formulaAndEliminationVi": "Công thức: such + a/an + Adj + N + that → chọn 'such' (B). Loại (A), (C), (D).",
+        "translationVi": "Hội chợ thương mại thường niên thành công rực rỡ đến nỗi ban tổ chức đã đặt ngay địa điểm lớn hơn cho năm sau."
+      }
+    },
+    {
+      "id": "ie-06",
+      "type": "mcq",
+      "prompt": "No sooner had the promotional flash sale launched ____ the server traffic tripled.",
+      "options": [
+        { "key": "A", "text": "when" },
+        { "key": "B", "text": "than" },
+        { "key": "C", "text": "then" },
+        { "key": "D", "text": "that" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Đầu câu có cấu trúc đảo ngữ 'No sooner had + S + V3'.",
+        "formulaAndEliminationVi": "Cặp cố định: 'No sooner... than' (= vừa mới... thì đã...) → chọn 'than' (B). Loại (A) đi với 'Hardly/Scarcely', (C) 'then' là bẫy chính tả, (D) sai cặp.",
+        "translationVi": "Chương trình giảm giá chớp nhoáng vừa mới bắt đầu thì lưu lượng truy cập máy chủ đã tăng gấp ba."
+      }
+    },
+    {
+      "id": "ie-07",
+      "type": "mcq",
+      "prompt": "Under no circumstances ____ proprietary blueprints to unauthorized external contractors.",
+      "options": [
+        { "key": "A", "text": "employees should forward" },
+        { "key": "B", "text": "should employees forward" },
+        { "key": "C", "text": "employees forward" },
+        { "key": "D", "text": "forwarding employees" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm phủ định tuyệt đối 'Under no circumstances' (= trong bất kỳ hoàn cảnh nào cũng không) đứng đầu câu.",
+        "formulaAndEliminationVi": "Bắt buộc đảo ngữ: Under no circumstances + should + S + V0 → chọn (B).",
+        "translationVi": "Trong bất kỳ hoàn cảnh nào, nhân viên cũng không được chuyển tiếp bản thiết kế độc quyền cho các nhà thầu bên ngoài không có thẩm quyền."
+      }
+    },
+    {
+      "id": "ie-08",
+      "type": "mcq",
+      "prompt": "It was the newly appointed logistics director ____ streamlined our cross-border customs clearance.",
+      "options": [
+        { "key": "A", "text": "which" },
+        { "key": "B", "text": "whom" },
+        { "key": "C", "text": "who" },
+        { "key": "D", "text": "what" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Câu chẻ nhấn mạnh 'It was + [người: the newly appointed logistics director] + ____ + streamlined (V)'.",
+        "formulaAndEliminationVi": "Câu chẻ nhấn mạnh chủ ngữ chỉ người → dùng 'who' hoặc 'that' → chọn 'who' (C). Loại (A) vật, (B) tân ngữ, (D) không dùng trong câu chẻ.",
+        "translationVi": "Chính vị giám đốc hậu cần mới bổ nhiệm là người đã tinh gọn quy trình thông quan xuyên biên giới của chúng ta."
+      }
+    },
+    {
+      "id": "ie-09",
+      "type": "mcq",
+      "prompt": "Not until all quarterly invoices have been reconciled ____ the annual financial summary.",
+      "options": [
+        { "key": "A", "text": "the accounting team will publish" },
+        { "key": "B", "text": "will the accounting team publish" },
+        { "key": "C", "text": "the accounting team publishes" },
+        { "key": "D", "text": "publishing the accounting team" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "'Not until + [mệnh đề phụ]' đứng đầu câu → đảo ngữ ở mệnh đề chính đứng sau.",
+        "formulaAndEliminationVi": "Đảo ngữ mệnh đề chính: will + S + V0 → chọn 'will the accounting team publish' (B).",
+        "translationVi": "Mãi cho đến khi tất cả hóa đơn hàng quý được đối chiếu xong thì nhóm kế toán mới công bố báo cáo tài chính thường niên."
+      }
+    },
+    {
+      "id": "ie-10",
+      "type": "fill-blank",
+      "prompt": "Little ____ the startup founders realize how quickly their mobile app would attract international investors.",
+      "baseWord": "do",
+      "correctAnswer": "did",
+      "acceptedAnswers": ["did"],
+      "explanation": {
+        "signalVi": "'Little' (hầu như không) đứng đầu câu + vế sau ở quá khứ ('would attract') + động từ nguyên mẫu 'realize'.",
+        "formulaAndEliminationVi": "Đảo ngữ quá khứ đơn sau 'Little': Little + did + S + V0 → điền 'did'.",
+        "translationVi": "Những người sáng lập công ty khởi nghiệp hầu như không ngờ ứng dụng di động của họ lại thu hút nhà đầu tư quốc tế nhanh đến vậy."
+      }
+    },
+    {
+      "id": "ie-11",
+      "type": "fill-blank",
+      "prompt": "Hardly had the keynote speaker finished her closing remarks ____ dozens of journalists approached the stage.",
+      "baseWord": "when / than",
+      "correctAnswer": "when",
+      "acceptedAnswers": ["when", "before"],
+      "explanation": {
+        "signalVi": "Đầu câu là đảo ngữ 'Hardly had + S + V3'.",
+        "formulaAndEliminationVi": "Cặp liên từ chuẩn: 'Hardly / Scarcely had + S + V3 + when (hoặc before) + S + V2' → điền 'when'.",
+        "translationVi": "Diễn giả chính vừa mới kết thúc lời bế mạc thì hàng chục phóng viên đã tiến lên sân khấu."
+      }
+    },
+    {
+      "id": "ie-12",
+      "type": "error-correction",
+      "prompt": "[A] Never before [B] the hotel chain has [C] achieved such high [D] occupancy rates in winter.",
+      "options": [
+        { "key": "A", "text": "Never before" },
+        { "key": "B", "text": "the hotel chain has" },
+        { "key": "C", "text": "achieved such high" },
+        { "key": "D", "text": "occupancy rates in winter" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "has the hotel chain",
+      "explanation": {
+        "signalVi": "'Never before' đứng đầu câu nhưng [B] không đảo trợ động từ 'has' lên trước chủ ngữ.",
+        "formulaAndEliminationVi": "Bắt buộc đảo ngữ: Never before + has + S + V3 → sửa 'the hotel chain has' thành 'has the hotel chain'.",
+        "translationVi": "Chưa bao giờ trước đây chuỗi khách sạn lại đạt tỷ lệ lấp đầy phòng cao như vậy vào mùa đông."
+      }
+    },
+    {
+      "id": "ie-13",
+      "type": "error-correction",
+      "prompt": "The new warehouse [A] automation system [B] generated [C] so impressive savings [D] that it paid for itself within a year.",
+      "options": [
+        { "key": "A", "text": "automation system" },
+        { "key": "B", "text": "generated" },
+        { "key": "C", "text": "so impressive savings" },
+        { "key": "D", "text": "that it paid for itself" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "such impressive savings",
+      "explanation": {
+        "signalVi": "Chỗ [C] có cụm danh từ số nhiều 'impressive savings' đứng trước 'that'.",
+        "formulaAndEliminationVi": "Trước cụm danh từ ('Adj + N') bắt buộc dùng 'such', không dùng 'so' → sửa 'so impressive savings' thành 'such impressive savings'.",
+        "translationVi": "Hệ thống tự động hóa nhà kho mới tạo ra khoản tiết kiệm ấn tượng đến nỗi nó đã hoàn vốn chỉ trong vòng một năm."
+      }
+    }
+  ]
+}

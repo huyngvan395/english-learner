@@ -1,0 +1,313 @@
+{
+  "id": "noun-clauses",
+  "order": 13,
+  "title": "Mệnh đề danh ngữ (Noun Clauses)",
+  "subtitle": "Phân biệt kinh điển that vs. what (bẫy 800+), whether / if, từ để hỏi làm S/O và trật tự câu trần thuật",
+  "level": "advanced",
+  "levelLabel": "Nâng cao (800–990)",
+  "etsFrequency": "Cao",
+  "estimatedMinutes": 16,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Mệnh đề danh ngữ", "That vs. What"],
+  "summaryVi": "Mệnh đề danh ngữ (Noun Clause) là cả một mệnh đề (S + V) đóng vai trò như MỘT DANH TỪ (làm Chủ ngữ, Tân ngữ của động từ/giới từ, hoặc Bổ ngữ). Đây là mảng câu hỏi phân loại 800+ rất hay gặp trong TOEIC Part 5 với 3 bẫy vàng: phân biệt `that` vs. `what`, chọn `whether` thay vì `if`, và tuyệt đối giữ trật tự câu TRẦN THUẬT (S + V, không đảo trợ động từ).",
+  "keyTakeaways": [
+    "PHÂN BIỆT 3 GIÂY `THAT` vs. `WHAT`: Sau `THAT` là mệnh đề ĐẦY ĐỦ thành phần (S + V + O / S + V bị động); sau `WHAT` là mệnh đề THIẾU Chủ ngữ hoặc THIẾU Tân ngữ (what = the thing that).",
+    "Chọn `WHETHER` (KHÔNG dùng `if`) ở 4 vị trí bắt buộc: (1) Đầu câu làm Chủ ngữ, (2) Ngay sau Giới từ (`about whether...`), (3) Ngay trước `or not`, và (4) Ngay trước `to-V` (`whether to expand`).",
+    "TRẬT TỰ TỪ trong Mệnh đề danh ngữ LUÔN là câu TRẦN THUẬT: `Wh-word + S + V` (Sai: *tell me where is the office* → Đúng: *tell me where the office is*).",
+    "Cả Mệnh đề danh ngữ đứng đầu làm Chủ ngữ (`What the board decided...` / `That sales rose...`) → LUÔN chia động từ chính ở SỐ ÍT."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng đối chiếu 4 nhóm từ dẫn Mệnh đề danh ngữ chuẩn ETS",
+      "headers": ["Từ dẫn mệnh đề", "Cấu trúc phía sau", "Vai trò & Lưu ý phòng thi", "Ví dụ thực chiến"],
+      "rows": [
+        ["that", "Mệnh đề ĐẦY ĐỦ (không thiếu S hay O)", "Làm S, O sau động từ (believe, confirm, announce, ensure) — không đứng sau giới từ", "We confirmed **that** the payment arrived safely."],
+        ["what (= the thing that)", "Mệnh đề THIẾU S hoặc THIẾU O", "Làm S, O của động từ/giới từ — KHÔNG đứng sau danh từ có sẵn!", "**What** impressed the client was our fast response."],
+        ["whether (hoặc if)", "Mệnh đề ĐẦY ĐỦ ('liệu có... hay không')", "Sau giới từ, đầu câu, trước 'or not' hoặc 'to-V' → CHỈ dùng **whether**", "We are discussing **whether** to lease a second warehouse."],
+        ["who / when / where / why / how / whichever", "Wh-word + **S + V** (KHÔNG đảo ngữ!)", "Làm S, O sau động từ/giới từ (know, explain, decide, depend on)", "Please let us know **when** the technician **will arrive**."],
+        ["whoever / whatever / whichever", "Làm S/O của cả 2 mệnh đề ('bất kỳ ai/cái gì')", "whoever + V (người) | whatever / whichever (+ N)", "**Whoever** submits the winning logo will receive $2,000."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "động từ (know / confirm / announce) + ____ + [S + V + O đầy đủ]",
+      "rule": "Mệnh đề sau đã ĐẦY ĐỦ (không thiếu S/O) → chọn THAT (hoặc WHETHER nếu nghĩa 'liệu có').",
+      "example": "The memo announced that bonuses will be paid in June."
+    },
+    {
+      "signal": "động từ / giới từ + ____ + [thiếu S hoặc thiếu O]",
+      "rule": "Mệnh đề sau bị KHUYẾT S hoặc O và trước chỗ trống không có danh từ → chọn ngay WHAT!",
+      "example": "Our survey revealed **what** customers value most."
+    },
+    {
+      "signal": "[giới từ: about / on / of] + ____ hoặc ____ + [to-V / or not]",
+      "rule": "4 vị trí độc quyền của WHETHER — loại thẳng 'if' và 'that'!",
+      "example": "Management has not decided whether to renew the lease."
+    },
+    {
+      "signal": "Could you tell me / Please clarify + [Wh-word] + ____",
+      "rule": "Giữ trật tự trần thuật **S + V** — loại ngay mọi đáp án đảo ngữ (`does/did/is/will` đứng trước S)!",
+      "example": "Please clarify where the new printers **should be placed**."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Dùng 'what' khi mệnh đề phía sau đã ĐẦY ĐỦ thành phần (hoặc sau danh từ)",
+      "wrongExample": "The director confirmed what the Tokyo branch exceeded its annual target.",
+      "correctExample": "The director confirmed that the Tokyo branch exceeded its annual target.",
+      "explanationVi": "Mệnh đề 'the Tokyo branch (S) exceeded (V) its annual target (O)' đã ĐẦY ĐỦ 100%, không thiếu gì cả → bắt buộc dùng 'that', không dùng 'what'."
+    },
+    {
+      "title": "Bẫy #2: Đảo trợ động từ trong câu hỏi gián tiếp (Embedded Question)",
+      "wrongExample": "Could you let me know when will the revised contract be ready?",
+      "correctExample": "Could you let me know when the revised contract will be ready?",
+      "explanationVi": "Dù cuối câu có dấu chấm hỏi (của 'Could you...?'), mệnh đề sau 'when' là Mệnh đề danh ngữ nên phải giữ trật tự trần thuật: S ('the revised contract') + V ('will be ready')."
+    },
+    {
+      "title": "Bẫy #3: Dùng 'if' ngay sau giới từ, đầu câu, hoặc trước 'to-V'",
+      "wrongExample": "The board is still debating about if to acquire the logistics startup.",
+      "correctExample": "The board is still debating about whether to acquire the logistics startup.",
+      "explanationVi": "'if' KHÔNG đứng sau giới từ ('about'), KHÔNG đứng đầu câu làm chủ ngữ, và KHÔNG đứng trước 'to-V' → phải chọn 'whether'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "**What** distinguishes our software from competing platforms **is** its real-time analytics engine.",
+      "vi": "Điều làm nên sự khác biệt giữa phần mềm của chúng tôi và các nền tảng đối thủ là công cụ phân tích thời gian thực.",
+      "noteVi": "'What' làm Chủ ngữ khuyết cho 'distinguishes'; cả mệnh đề danh ngữ làm Chủ ngữ chia số ít 'is'."
+    },
+    {
+      "en": "The procurement officer must decide **whether** **to extend** the current vendor agreement.",
+      "vi": "Chuyên viên thu mua phải quyết định xem liệu có nên gia hạn thỏa thuận với nhà cung cấp hiện tại hay không.",
+      "noteVi": "Trước 'to-V' chỉ dùng 'whether' (không dùng 'if')."
+    },
+    {
+      "en": "Please inform the reception desk **when** the visiting investors **are expected** to arrive.",
+      "vi": "Vui lòng báo cho quầy lễ tân biết khi nào các nhà đầu tư khách mời dự kiến sẽ tới.",
+      "noteVi": "Trật tự trần thuật: when + S (the visiting investors) + V (are expected)."
+    },
+    {
+      "en": "The audit confirmed **that** all departmental expense reports complied with tax regulations.",
+      "vi": "Cuộc kiểm toán đã xác nhận rằng tất cả báo cáo chi phí của các phòng ban đều tuân thủ quy định thuế.",
+      "noteVi": "Mệnh đề sau đã đầy đủ S+V+prep+O → dùng 'that'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "nc-01",
+      "type": "mcq",
+      "prompt": "The customer survey clearly revealed ____ buyers appreciate most about our delivery service.",
+      "options": [
+        { "key": "A", "text": "that" },
+        { "key": "B", "text": "what" },
+        { "key": "C", "text": "which" },
+        { "key": "D", "text": "whether" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau chỗ trống là 'buyers (S) appreciate (V) [THIẾU TÂN NGỮ] most'; trước chỗ trống là động từ 'revealed' (không có danh từ).",
+        "formulaAndEliminationVi": "Thiếu tân ngữ của 'appreciate' + không có danh từ đi trước → chọn 'what' (= điều mà) (B). Loại (A), (D) vì cần mệnh đề đầy đủ; loại (C) không hợp nghĩa lựa chọn hẹp.",
+        "translationVi": "Cuộc khảo sát khách hàng cho thấy rõ điều mà người mua đánh giá cao nhất ở dịch vụ giao hàng của chúng tôi."
+      }
+    },
+    {
+      "id": "nc-02",
+      "type": "mcq",
+      "prompt": "The operations director confirmed ____ the automated assembly line will resume full production on Monday.",
+      "options": [
+        { "key": "A", "text": "what" },
+        { "key": "B", "text": "which" },
+        { "key": "C", "text": "that" },
+        { "key": "D", "text": "who" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Mệnh đề sau chỗ trống đã ĐẦY ĐỦ 100%: 'the automated assembly line (S) will resume (V) full production (O)'.",
+        "formulaAndEliminationVi": "Mệnh đề đầy đủ làm tân ngữ sau 'confirmed' → chọn 'that' (C). Loại ngay 'what' (A) vì không thiếu thành phần nào.",
+        "translationVi": "Giám đốc vận hành đã xác nhận rằng dây chuyền lắp ráp tự động sẽ khôi phục sản xuất toàn công suất vào thứ Hai."
+      }
+    },
+    {
+      "id": "nc-03",
+      "type": "mcq",
+      "prompt": "The executive committee has not yet decided ____ to relocate the customer support center to Manila.",
+      "options": [
+        { "key": "A", "text": "if" },
+        { "key": "B", "text": "whether" },
+        { "key": "C", "text": "that" },
+        { "key": "D", "text": "what" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Ngay sau chỗ trống là động từ nguyên mẫu có 'to' ('to relocate').",
+        "formulaAndEliminationVi": "Cấu trúc 'whether + to-V' (liệu có nên làm gì hay không) → chọn 'whether' (B). Tuyệt đối không dùng 'if to-V' (A) hay 'that to-V' (C).",
+        "translationVi": "Ban điều hành vẫn chưa quyết định liệu có nên chuyển trung tâm hỗ trợ khách hàng sang Manila hay không."
+      }
+    },
+    {
+      "id": "nc-04",
+      "type": "mcq",
+      "prompt": "Could you please clarify ____ for the upcoming leadership retreat in Kyoto?",
+      "options": [
+        { "key": "A", "text": "when does the flight depart" },
+        { "key": "B", "text": "when the flight departs" },
+        { "key": "C", "text": "when will the flight depart" },
+        { "key": "D", "text": "does the flight depart when" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Sau động từ 'clarify' là mệnh đề danh ngữ câu hỏi gián tiếp bắt đầu bằng 'when'.",
+        "formulaAndEliminationVi": "Mệnh đề danh ngữ bắt buộc theo trật tự TRẦN THUẬT 'Wh-word + S + V' → chọn (B). Loại (A), (C), (D) vì đều đảo trợ động từ trước chủ ngữ.",
+        "translationVi": "Bạn có thể làm rõ khi nào chuyến bay cho kỳ nghỉ dưỡng lãnh đạo tại Kyoto khởi hành không?"
+      }
+    },
+    {
+      "id": "nc-05",
+      "type": "mcq",
+      "prompt": "____ the board decides during tomorrow's closed session will determine our hiring plan for the entire year.",
+      "options": [
+        { "key": "A", "text": "That" },
+        { "key": "B", "text": "Whatever" },
+        { "key": "C", "text": "Whether" },
+        { "key": "D", "text": "Which" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Đầu câu làm Chủ ngữ + sau 'decides' bị THIẾU Tân ngữ ('decides [gì] during...').",
+        "formulaAndEliminationVi": "Thiếu tân ngữ của 'decides' và mang nghĩa 'Bất kỳ điều gì mà hội đồng quyết định' → chọn 'Whatever' (B). Loại (A), (C) cần mệnh đề đầy đủ.",
+        "translationVi": "Bất kỳ điều gì hội đồng quyết định trong phiên họp kín ngày mai sẽ quyết định kế hoạch tuyển dụng cả năm của chúng ta."
+      }
+    },
+    {
+      "id": "nc-06",
+      "type": "mcq",
+      "prompt": "____ receives the highest client satisfaction rating this quarter will be awarded an extra week of paid leave.",
+      "options": [
+        { "key": "A", "text": "Whoever" },
+        { "key": "B", "text": "Whomever" },
+        { "key": "C", "text": "Whatever" },
+        { "key": "D", "text": "Whose" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Đầu câu làm Chủ ngữ cho động từ 'receives' (chỉ người được thưởng thêm 1 tuần nghỉ phép có lương).",
+        "formulaAndEliminationVi": "Đại từ danh ngữ chỉ người đóng vai trò Chủ ngữ → chọn 'Whoever' (= bất kỳ ai) (A). Loại (B) tân ngữ, (C) chỉ vật, (D) sở hữu.",
+        "translationVi": "Bất kỳ ai nhận được điểm hài lòng khách hàng cao nhất quý này sẽ được thưởng thêm một tuần nghỉ phép có lương."
+      }
+    },
+    {
+      "id": "nc-07",
+      "type": "mcq",
+      "prompt": "The success of the product rollout depends largely on ____ our regional distributors can meet peak demand.",
+      "options": [
+        { "key": "A", "text": "if" },
+        { "key": "B", "text": "that" },
+        { "key": "C", "text": "whether" },
+        { "key": "D", "text": "what" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Ngay trước chỗ trống là giới từ 'on' ('depends largely on ____'); mệnh đề sau đã đầy đủ S+V+O.",
+        "formulaAndEliminationVi": "Sau giới từ ('on') không dùng 'if' (A) hay 'that' (B); mệnh đề đã đầy đủ loại 'what' (D) → chọn 'whether' (C).",
+        "translationVi": "Thành công của đợt ra mắt sản phẩm phụ thuộc lớn vào việc liệu các nhà phân phối khu vực có đáp ứng được nhu cầu cao điểm hay không."
+      }
+    },
+    {
+      "id": "nc-08",
+      "type": "mcq",
+      "prompt": "____ the newly renovated convention hall can accommodate 3,000 guests makes it ideal for international summits.",
+      "options": [
+        { "key": "A", "text": "What" },
+        { "key": "B", "text": "That" },
+        { "key": "C", "text": "Which" },
+        { "key": "D", "text": "Because" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Đầu câu là mệnh đề ĐẦY ĐỦ ('the hall can accommodate 3,000 guests') đóng vai trò Chủ ngữ cho động từ chính 'makes'.",
+        "formulaAndEliminationVi": "Cấu trúc 'That + S + V + O (đầy đủ) + V_chính(số ít)' = 'Việc mà...' → chọn 'That' (B). Loại (A) cần mệnh đề khuyết, (D) 'Because' không làm Chủ ngữ cho 'makes'.",
+        "translationVi": "Việc hội trường mới cải tạo có thể chứa 3.000 khách khiến nơi đây trở nên lý tưởng cho các hội nghị quốc tế."
+      }
+    },
+    {
+      "id": "nc-09",
+      "type": "mcq",
+      "prompt": "Managers should ask ____ applicants have verified their work permits before scheduling final interviews.",
+      "options": [
+        { "key": "A", "text": "what" },
+        { "key": "B", "text": "which" },
+        { "key": "C", "text": "whom" },
+        { "key": "D", "text": "how" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Chỗ trống đứng ngay trước danh từ 'applicants' (ứng viên nào trong số các ứng viên).",
+        "formulaAndEliminationVi": "'which + N' mang nghĩa 'những ứng viên nào' (trong nhóm ứng viên đang xét) → chọn 'which' (B). Loại (C), (D) không đứng trực tiếp trước danh từ.",
+        "translationVi": "Các quản lý nên hỏi xem những ứng viên nào đã xác minh giấy phép lao động trước khi lên lịch phỏng vấn vòng cuối."
+      }
+    },
+    {
+      "id": "nc-10",
+      "type": "fill-blank",
+      "prompt": "____ the finance director proposed at yesterday's meeting was unanimously approved by the board.",
+      "baseWord": "that / what",
+      "correctAnswer": "What",
+      "acceptedAnswers": ["what"],
+      "explanation": {
+        "signalVi": "Sau 'proposed' bị THIẾU Tân ngữ ('proposed [cái gì] at yesterday's meeting') + động từ chính 'was approved'.",
+        "formulaAndEliminationVi": "Mệnh đề danh ngữ đầu câu khuyết Tân ngữ → điền 'What' (= Điều mà giám đốc tài chính đề xuất).",
+        "translationVi": "Điều mà giám đốc tài chính đề xuất tại cuộc họp hôm qua đã được hội đồng nhất trí thông qua."
+      }
+    },
+    {
+      "id": "nc-11",
+      "type": "fill-blank",
+      "prompt": "____ the proposed merger will receive regulatory approval remains uncertain at this stage.",
+      "baseWord": "if / whether",
+      "correctAnswer": "Whether",
+      "acceptedAnswers": ["whether"],
+      "explanation": {
+        "signalVi": "Đầu câu làm Chủ ngữ cho 'remains uncertain' mang nghĩa 'Liệu vụ sáp nhập có được chấp thuận hay không'.",
+        "formulaAndEliminationVi": "Ở vị trí đầu câu làm Chủ ngữ, CHỈ dùng 'Whether' (tuyệt đối không dùng 'If').",
+        "translationVi": "Liệu thương vụ sáp nhập được đề xuất có nhận được sự phê duyệt pháp lý hay không vẫn còn chưa chắc chắn ở giai đoạn này."
+      }
+    },
+    {
+      "id": "nc-12",
+      "type": "error-correction",
+      "prompt": "Please notify the [A] logistics coordinator [B] when will the [C] replacement components [D] reach the port.",
+      "options": [
+        { "key": "A", "text": "logistics coordinator" },
+        { "key": "B", "text": "when will the" },
+        { "key": "C", "text": "replacement components" },
+        { "key": "D", "text": "reach the port" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "when the replacement components will",
+      "explanation": {
+        "signalVi": "Chỗ [B] đảo trợ động từ 'will' ra trước chủ ngữ 'the replacement components' trong mệnh đề danh ngữ.",
+        "formulaAndEliminationVi": "Mệnh đề danh ngữ phải giữ trật tự trần thuật 'when + S + will + V0' → chuyển 'will' ra sau 'the replacement components'.",
+        "translationVi": "Vui lòng thông báo cho điều phối viên hậu cần khi nào các linh kiện thay thế sẽ cập cảng."
+      }
+    },
+    {
+      "id": "nc-13",
+      "type": "error-correction",
+      "prompt": "Our legal team [A] verified [B] what all vendor [C] contracts contained clear [D] confidentiality clauses.",
+      "options": [
+        { "key": "A", "text": "verified" },
+        { "key": "B", "text": "what" },
+        { "key": "C", "text": "contracts contained" },
+        { "key": "D", "text": "confidentiality clauses" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "that",
+      "explanation": {
+        "signalVi": "Mệnh đề sau [B] đã đầy đủ S ('all vendor contracts') + V ('contained') + O ('clear confidentiality clauses').",
+        "formulaAndEliminationVi": "Mệnh đề đầy đủ không thiếu S/O → sửa 'what' thành 'that'.",
+        "translationVi": "Nhóm pháp chế của chúng tôi đã xác minh rằng tất cả hợp đồng nhà cung cấp đều có điều khoản bảo mật rõ ràng."
+      }
+    }
+  ]
+}

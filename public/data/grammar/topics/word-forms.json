@@ -1,0 +1,331 @@
+{
+  "id": "word-forms",
+  "order": 1,
+  "title": "Từ loại (Danh – Động – Tính – Trạng)",
+  "subtitle": "Vị trí đứng trong câu, hậu tố nhận diện nhanh, bẫy danh từ ghép và tính từ đuôi -ed / -ing",
+  "level": "basic",
+  "levelLabel": "Cơ bản (450+)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 15,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "Part 6", "Từ loại", "Hậu tố"],
+  "summaryVi": "Từ loại (Word Forms) là chuyên đề chiếm tỷ trọng lớn nhất trong TOEIC Part 5 (trung bình 6–8 câu/đề). Chỉ cần nhìn 2 từ đứng ngay trước và ngay sau chỗ trống, bạn có thể xác định chính xác cần Danh từ (N), Động từ (V), Tính từ (Adj) hay Trạng từ (Adv) trong vòng 3–5 giây mà không cần dịch hết cả câu.",
+  "keyTakeaways": [
+    "Bốn đáp án có chung gốc từ (VD: approve / approval / approved / approvingly) → 100% là câu hỏi Từ loại.",
+    "Trạng từ (Adv) có tính linh hoạt cao nhất: bổ nghĩa cho Động từ, Tính từ, Trạng từ khác hoặc cả câu — KHÔNG bổ nghĩa cho Danh từ.",
+    "Sau mạo từ (a/an/the), tính từ sở hữu (my/our/their) hoặc giới từ + chỗ trống cuối cụm → ưu tiên chọn Danh từ.",
+    "Luôn kiểm tra phía sau chỗ trống: nếu đã có sẵn Danh từ chính, chỗ trống phía trước thường là Tính từ hoặc Danh từ phụ (tạo danh từ ghép)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng vị trí đứng & Hậu tố nhận diện 4 từ loại cốt lõi",
+      "headers": ["Từ loại", "Vị trí kinh điển trong đề ETS", "Hậu tố nhận diện nhanh", "Ví dụ công sở"],
+      "rows": [
+        [
+          "Danh từ (N)",
+          "Sau a/an/the, tính từ sở hữu, tính từ, giới từ; làm Chủ ngữ hoặc Tân ngữ",
+          "-tion, -sion, -ment, -ance, -ence, -ity, -ness, -ship, -er/-or (người)",
+          "approval, agreement, efficiency, representative"
+        ],
+        [
+          "Động từ (V)",
+          "Sau Chủ ngữ, sau trợ động từ (will/can/must/should/have/be), câu mệnh lệnh",
+          "-ize, -ise, -ate, -ify, -en, -s/-es/-ed",
+          "finalize, implement, simplify, strengthen"
+        ],
+        [
+          "Tính từ (Adj)",
+          "Trước Danh từ; sau linking verbs (be, become, remain, seem, look, feel); sau make/keep/find + O",
+          "-al, -ive, -ous, -ful, -less, -able, -ible, -ic, -ant, -ent, -ed/-ing",
+          "confidential, productive, reliable, satisfactory"
+        ],
+        [
+          "Trạng từ (Adv)",
+          "Trước/sau Động từ thường; trước Tính từ hoặc Phân từ (be + Adv + V3/Adj); đầu câu trước dấu phẩy",
+          "Adj + -ly (trừ friendly, timely, costly, weekly là Tính từ)",
+          "significantly, promptly, thoroughly, efficiently"
+        ]
+      ]
+    },
+    {
+      "title": "Công thức chuỗi cụm danh từ hay gặp nhất (Noun Phrase Chain)",
+      "headers": ["Mẫu cấu trúc", "Vị trí cần điền", "Ví dụ chuẩn ETS"],
+      "rows": [
+        ["Hạn định từ + [____] + Giới từ / Động từ", "Danh từ (N)", "the [expansion] of our regional branch"],
+        ["Hạn định từ + [____] + Danh từ", "Tính từ (Adj) hoặc Danh từ ghép", "a [comprehensive] report / a [safety] inspection"],
+        ["Hạn định từ + [____] + Tính từ + Danh từ", "Trạng từ (Adv)", "an [exceptionally] talented designer"],
+        ["be / remain / become + [____] + Adj/V3", "Trạng từ (Adv)", "was [thoroughly] reviewed by the board"]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "a / an / the / our / its + ____ + of / for / in",
+      "rule": "Chọn ngay Danh từ (N) làm trung tâm cụm danh từ.",
+      "example": "the implementation of the new software"
+    },
+    {
+      "signal": "be / seem / remain / become + ____ (hết câu hoặc trước giới từ)",
+      "rule": "Chọn Tính từ (Adj) để mô tả trạng thái chủ ngữ.",
+      "example": "The guidelines remain confidential."
+    },
+    {
+      "signal": "make / keep / find / consider + O + ____",
+      "rule": "Chọn Tính từ (Adj) làm bổ ngữ tân ngữ (không chọn Adv!).",
+      "example": "This tool makes data analysis effortless."
+    },
+    {
+      "signal": "trợ động từ + ____ + V_chính / V3",
+      "rule": "Kẹp giữa trợ động từ và động từ chính 95% là Trạng từ (Adv).",
+      "example": "The proposal was carefully evaluated."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Tính từ đuôi -ly giả dạng Trạng từ",
+      "wrongExample": "Please submit the report in a time manner.",
+      "correctExample": "Please submit the report in a timely manner.",
+      "explanationVi": "Các từ có gốc Danh từ + -ly như timely (kịp thời), costly (đắt đỏ), friendly (thân thiện), weekly/monthly (hàng tuần/tháng), orderly (gọn gàng) là TÍNH TỪ, không phải trạng từ."
+    },
+    {
+      "title": "Bẫy #2: Danh từ ghép (Compound Noun) đánh lừa chọn Tính từ",
+      "wrongExample": "All factory staff must attend the safe inspection tomorrow.",
+      "correctExample": "All factory staff must attend the safety inspection tomorrow.",
+      "explanationVi": "TOEIC rất chuộng các danh từ ghép cố định như safety inspection (kiểm tra an toàn), customer satisfaction (sự hài lòng khách hàng), performance review (đánh giá hiệu suất), budget approval (phê duyệt ngân sách)."
+    },
+    {
+      "title": "Bẫy #3: Nhầm lẫn Tính từ đuôi -ed (cảm xúc) và -ing (tính chất)",
+      "wrongExample": "The clients were very satisfying with the revised contract.",
+      "correctExample": "The clients were very satisfied with the revised contract.",
+      "explanationVi": "V-ed mô tả cảm xúc/trạng thái bị tác động (thường dùng cho người: satisfied, interested, pleased); V-ing mô tả bản chất gây ra cảm xúc (thường dùng cho vật/sự việc: satisfactory/satisfying, challenging, impressive)."
+    },
+    {
+      "title": "Bẫy #4: Nhầm Danh từ chỉ người (-er/-or/-ant/-ee) và Danh từ chỉ vật/khái niệm (-tion/-ment)",
+      "wrongExample": "Each application must submit two reference letters.",
+      "correctExample": "Each applicant must submit two reference letters.",
+      "explanationVi": "Cả applicant và application đều là Danh từ, nhưng động từ 'submit' đòi hỏi chủ ngữ chỉ NGƯỜI (ứng viên) chứ không phải 'đơn xin việc'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "The marketing team delivered an **exceptionally** **persuasive** **presentation** to the board.",
+      "vi": "Đội ngũ marketing đã trình bày một bài thuyết trình thuyết phục vượt bậc trước ban giám đốc.",
+      "noteVi": "Chuỗi chuẩn: mạo từ (an) + Adv (exceptionally) + Adj (persuasive) + N (presentation)."
+    },
+    {
+      "en": "Regular maintenance keeps the manufacturing equipment **operational** throughout the year.",
+      "vi": "Việc bảo trì định kỳ giữ cho thiết bị sản xuất vận hành ổn định suốt cả năm.",
+      "noteVi": "Cấu trúc keep + O + Adj (operational), không dùng trạng từ operationally."
+    },
+    {
+      "en": "Employees are encouraged to submit their **travel** **reimbursement** forms promptly.",
+      "vi": "Nhân viên được khuyến khích nộp biểu mẫu hoàn trả công tác phí một cách nhanh chóng.",
+      "noteVi": "Danh từ ghép 'travel reimbursement forms' + trạng từ 'promptly' bổ nghĩa cho 'submit'."
+    },
+    {
+      "en": "Our logistics partner has **consistently** met tight delivery deadlines since 2022.",
+      "vi": "Đối tác hậu cần của chúng tôi luôn đáp ứng đều đặn các hạn giao hàng gấp từ năm 2022.",
+      "noteVi": "Trạng từ 'consistently' đứng giữa trợ động từ 'has' và phân từ 'met'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "wf-01",
+      "type": "mcq",
+      "prompt": "The regional director gave her final ____ for the renovation budget yesterday afternoon.",
+      "options": [
+        { "key": "A", "text": "approve" },
+        { "key": "B", "text": "approval" },
+        { "key": "C", "text": "approved" },
+        { "key": "D", "text": "approvingly" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Trước chỗ trống có tính từ sở hữu 'her' + tính từ 'final'; sau chỗ trống là giới từ 'for'.",
+        "formulaAndEliminationVi": "Công thức: Possessive + Adj + N + Prep → cần Danh từ 'approval' (sự phê duyệt). Loại (A) động từ, (C) tính từ/V-ed, (D) trạng từ.",
+        "translationVi": "Giám đốc khu vực đã đưa ra sự phê duyệt cuối cùng cho ngân sách cải tạo vào chiều hôm qua."
+      }
+    },
+    {
+      "id": "wf-02",
+      "type": "mcq",
+      "prompt": "All customer billing records are ____ encrypted to protect sensitive financial data.",
+      "options": [
+        { "key": "A", "text": "secure" },
+        { "key": "B", "text": "security" },
+        { "key": "C", "text": "securely" },
+        { "key": "D", "text": "securing" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Chỗ trống kẹp giữa động từ to-be 'are' và phân từ bị động 'encrypted'.",
+        "formulaAndEliminationVi": "Công thức: be + Adv + V3/ed → cần Trạng từ 'securely' để bổ nghĩa cho 'encrypted'. Loại (A) tính từ/động từ, (B) danh từ, (D) V-ing.",
+        "translationVi": "Tất cả hồ sơ thanh toán của khách hàng đều được mã hóa an toàn nhằm bảo vệ dữ liệu tài chính nhạy cảm."
+      }
+    },
+    {
+      "id": "wf-03",
+      "type": "mcq",
+      "prompt": "The new cloud platform makes cross-departmental collaboration much more ____.",
+      "options": [
+        { "key": "A", "text": "efficiency" },
+        { "key": "B", "text": "efficient" },
+        { "key": "C", "text": "efficiently" },
+        { "key": "D", "text": "efficiencies" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ 'makes' + tân ngữ 'cross-departmental collaboration' + 'much more' + chỗ trống.",
+        "formulaAndEliminationVi": "Công thức: make + O + Adj (bổ ngữ tân ngữ) → chọn Tính từ 'efficient'. Loại (A), (D) danh từ; loại (C) trạng từ (bẫy kinh điển sau 'more').",
+        "translationVi": "Nền tảng đám mây mới giúp việc phối hợp liên phòng ban trở nên hiệu quả hơn nhiều."
+      }
+    },
+    {
+      "id": "wf-04",
+      "type": "mcq",
+      "prompt": "Thank you for resolving our technical inquiry in such a ____ manner.",
+      "options": [
+        { "key": "A", "text": "time" },
+        { "key": "B", "text": "timely" },
+        { "key": "C", "text": "timeliness" },
+        { "key": "D", "text": "timed" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm cố định 'in a ____ manner' (mạo từ 'a' + chỗ trống + danh từ 'manner').",
+        "formulaAndEliminationVi": "Cần Tính từ đứng trước danh từ 'manner'. 'timely' là tính từ đuôi -ly mang nghĩa 'kịp thời' (cụm chuẩn ETS: in a timely manner). Loại (A), (C) danh từ và (D) không hợp nghĩa.",
+        "translationVi": "Cảm ơn bạn đã giải quyết yêu cầu kỹ thuật của chúng tôi một cách kịp thời như vậy."
+      }
+    },
+    {
+      "id": "wf-05",
+      "type": "mcq",
+      "prompt": "The human resources department will interview every qualified ____ next Monday.",
+      "options": [
+        { "key": "A", "text": "apply" },
+        { "key": "B", "text": "application" },
+        { "key": "C", "text": "applicant" },
+        { "key": "D", "text": "applicable" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Sau 'every qualified' cần Danh từ số ít; động từ chính là 'interview' (phỏng vấn).",
+        "formulaAndEliminationVi": "Cả (B) và (C) đều là danh từ số ít, nhưng 'interview' đòi hỏi danh từ chỉ NGƯỜI → chọn 'applicant' (ứng viên). Loại (A) động từ, (B) đơn ứng tuyển, (D) tính từ.",
+        "translationVi": "Phòng nhân sự sẽ phỏng vấn từng ứng viên đủ tiêu chuẩn vào thứ Hai tới."
+      }
+    },
+    {
+      "id": "wf-06",
+      "type": "mcq",
+      "prompt": "Before operating the new conveyor belt, technicians must complete a mandatory ____ inspection.",
+      "options": [
+        { "key": "A", "text": "safe" },
+        { "key": "B", "text": "safely" },
+        { "key": "C", "text": "safety" },
+        { "key": "D", "text": "safest" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cụm danh từ 'a mandatory ____ inspection' trong ngữ cảnh nhà máy/kỹ thuật.",
+        "formulaAndEliminationVi": "Đây là bẫy danh từ ghép chuẩn ETS: 'safety inspection' (cuộc kiểm tra an toàn). Không dùng tính từ 'safe inspection'. Loại (A), (B) trạng từ, (D) so sánh nhất không đi với 'a'.",
+        "translationVi": "Trước khi vận hành băng chuyền mới, các kỹ thuật viên phải hoàn thành buổi kiểm tra an toàn bắt buộc."
+      }
+    },
+    {
+      "id": "wf-07",
+      "type": "mcq",
+      "prompt": "Several board members expressed ____ with the declining quarterly sales in Europe.",
+      "options": [
+        { "key": "A", "text": "dissatisfy" },
+        { "key": "B", "text": "dissatisfied" },
+        { "key": "C", "text": "dissatisfying" },
+        { "key": "D", "text": "dissatisfaction" }
+      ],
+      "correctAnswer": "D",
+      "explanation": {
+        "signalVi": "Sau ngoại động từ 'expressed' (bày tỏ) và trước giới từ 'with' cần Tân ngữ.",
+        "formulaAndEliminationVi": "Công thức: express + N (bày tỏ điều gì) → chọn Danh từ 'dissatisfaction' (sự không hài lòng). Loại (A) động từ, (B) và (C) tính từ.",
+        "translationVi": "Một số thành viên hội đồng quản trị đã bày tỏ sự không hài lòng với doanh số hàng quý sụt giảm tại châu Âu."
+      }
+    },
+    {
+      "id": "wf-08",
+      "type": "mcq",
+      "prompt": "The keynote speaker delivered an ____ detailed analysis of emerging renewable markets.",
+      "options": [
+        { "key": "A", "text": "impress" },
+        { "key": "B", "text": "impressive" },
+        { "key": "C", "text": "impression" },
+        { "key": "D", "text": "impressively" }
+      ],
+      "correctAnswer": "D",
+      "explanation": {
+        "signalVi": "Trước chỗ trống là 'an', ngay sau là tính từ 'detailed' + danh từ 'analysis'.",
+        "formulaAndEliminationVi": "Công thức: an + Adv + Adj + N → cần Trạng từ 'impressively' bổ nghĩa cho tính từ 'detailed'. Loại (A) động từ, (B) tính từ, (C) danh từ.",
+        "translationVi": "Diễn giả chính đã mang đến một bản phân tích chi tiết đầy ấn tượng về các thị trường năng lượng tái tạo mới nổi."
+      }
+    },
+    {
+      "id": "wf-09",
+      "type": "fill-blank",
+      "prompt": "The updated policy aims to ____ the reimbursement process for overseas business trips.",
+      "baseWord": "simple",
+      "correctAnswer": "simplify",
+      "acceptedAnswers": ["simplify"],
+      "explanation": {
+        "signalVi": "Cấu trúc 'aims to ____ + tân ngữ (the reimbursement process)'.",
+        "formulaAndEliminationVi": "Sau 'aim to' bắt buộc là Động từ nguyên mẫu (V-inf). Chuyển tính từ 'simple' sang động từ bằng hậu tố -ify → 'simplify' (đơn giản hóa).",
+        "translationVi": "Chính sách cập nhật nhằm mục đích đơn giản hóa quy trình hoàn trả chi phí cho các chuyến công tác nước ngoài."
+      }
+    },
+    {
+      "id": "wf-10",
+      "type": "fill-blank",
+      "prompt": "Our investors were deeply ____ with the transparent financial audit conducted last month.",
+      "baseWord": "satisfy",
+      "correctAnswer": "satisfied",
+      "acceptedAnswers": ["satisfied"],
+      "explanation": {
+        "signalVi": "Chủ ngữ chỉ người ('Our investors') + 'were deeply ____ with'.",
+        "formulaAndEliminationVi": "Diễn tả cảm xúc của người (hài lòng với...) dùng tính từ đuôi -ed: 'be satisfied with'. Không dùng 'satisfying' (chỉ tính chất của sự vật).",
+        "translationVi": "Các nhà đầu tư của chúng tôi vô cùng hài lòng với cuộc kiểm toán tài chính minh bạch được tiến hành tháng trước."
+      }
+    },
+    {
+      "id": "wf-11",
+      "type": "error-correction",
+      "prompt": "The [A] newly appointed director [B] quick reorganized the sales team [C] to improve [D] overall productivity.",
+      "options": [
+        { "key": "A", "text": "newly appointed" },
+        { "key": "B", "text": "quick reorganized" },
+        { "key": "C", "text": "to improve" },
+        { "key": "D", "text": "overall productivity" }
+      ],
+      "correctAnswer": "B",
+      "correctionText": "quickly reorganized",
+      "explanation": {
+        "signalVi": "'quick' đang đứng ngay trước động từ thường 'reorganized'.",
+        "formulaAndEliminationVi": "Để bổ nghĩa cho động từ thường 'reorganized', phải dùng Trạng từ 'quickly' thay vì tính từ 'quick'. Các phương án (A) Adv+V3, (C) to-V chỉ mục đích, (D) Adj+N đều chính xác.",
+        "translationVi": "Vị giám đốc mới bổ nhiệm đã nhanh chóng tái cơ cấu đội ngũ bán hàng để nâng cao năng suất chung."
+      }
+    },
+    {
+      "id": "wf-12",
+      "type": "error-correction",
+      "prompt": "Because the software license is quite [A] expensively, [B] the finance committee requested [C] a detailed cost [D] comparison.",
+      "options": [
+        { "key": "A", "text": "expensively" },
+        { "key": "B", "text": "the finance committee" },
+        { "key": "C", "text": "a detailed cost" },
+        { "key": "D", "text": "comparison" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "expensive",
+      "explanation": {
+        "signalVi": "Chỗ [A] đứng sau động từ to-be 'is' + trạng từ chỉ mức độ 'quite'.",
+        "formulaAndEliminationVi": "Sau linking verb 'be' (+ quite/very) phải là Tính từ 'expensive', không dùng trạng từ 'expensively'. (B), (C) và (D) tạo cụm 'a detailed cost comparison' hoàn toàn đúng.",
+        "translationVi": "Vì giấy phép phần mềm khá đắt đỏ, ủy ban tài chính đã yêu cầu một bảng so sánh chi phí chi tiết."
+      }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 export type NavTab =
   | 'vocab'
+  | 'grammar'
   | 'videos'
   | 'toeic-exam'
   | 'reading'
@@ -827,4 +828,86 @@ export interface VideoProgressRecord {
   quizTotal?: number;
   favorite?: boolean;
   lastStudiedAt: number;
+}
+
+// ================= GRAMMAR TOEIC TYPES =================
+export type GrammarLevel = 'basic' | 'intermediate' | 'advanced';
+export type GrammarExerciseType = 'mcq' | 'fill-blank' | 'error-correction';
+
+export interface GrammarCatalogItem {
+  id: string;
+  order: number;
+  title: string;
+  subtitle: string;
+  level: GrammarLevel;
+  levelLabel: string;
+  etsFrequency: 'Rất cao' | 'Cao' | 'Trung bình';
+  estimatedMinutes: number;
+  exerciseCount: number;
+  tags: string[];
+}
+
+export interface GrammarFormulaTable {
+  title: string;
+  headers: string[];
+  rows: string[][];
+}
+
+export interface GrammarQuickSignal {
+  signal: string;
+  rule: string;
+  example: string;
+}
+
+export interface GrammarTrapItem {
+  title: string;
+  wrongExample: string;
+  correctExample: string;
+  explanationVi: string;
+}
+
+export interface GrammarExampleItem {
+  en: string;
+  vi: string;
+  noteVi?: string;
+}
+
+export interface GrammarExercise {
+  id: string;
+  type: GrammarExerciseType;
+  prompt: string;
+  baseWord?: string;
+  options?: { key: OptionKey; text: string }[];
+  correctAnswer: string;
+  acceptedAnswers?: string[];
+  correctionText?: string;
+  explanation: {
+    signalVi: string;
+    formulaAndEliminationVi: string;
+    translationVi: string;
+  };
+}
+
+export interface GrammarTopicDetail extends GrammarCatalogItem {
+  summaryVi: string;
+  keyTakeaways: string[];
+  formulaTables: GrammarFormulaTable[];
+  quickSignals: GrammarQuickSignal[];
+  etsTraps: GrammarTrapItem[];
+  bilingualExamples: GrammarExampleItem[];
+  exercises: GrammarExercise[];
+}
+
+export interface GrammarTopicProgress {
+  topicId: string;
+  theoryRead: boolean;
+  attemptsCount: number;
+  bestScore: number;
+  lastScore: number;
+  totalQuestions: number;
+  bestAccuracy: number;
+  lastAccuracy: number;
+  status: 'not-started' | 'in-progress' | 'completed';
+  completedAt?: number;
+  updatedAt: number;
 }

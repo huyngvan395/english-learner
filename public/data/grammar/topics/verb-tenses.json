@@ -1,0 +1,309 @@
+{
+  "id": "verb-tenses",
+  "order": 2,
+  "title": "Hệ thống Thì động từ trong TOEIC",
+  "subtitle": "12 thì cốt lõi, bảng dấu hiệu thời gian 3 giây và quy tắc phối hợp thì (since / by the time / when)",
+  "level": "basic",
+  "levelLabel": "Cơ bản (450+)",
+  "etsFrequency": "Rất cao",
+  "estimatedMinutes": 18,
+  "exerciseCount": 12,
+  "tags": ["Part 5", "Part 6", "Thì động từ", "Phối hợp thì"],
+  "summaryVi": "Trong TOEIC Part 5 & 6, câu hỏi về Thì động từ (Verb Tenses) kiểm tra khả năng đọc nhanh trạng từ thời gian và mối quan hệ trước–sau giữa hai hành động. Khoảng 80% câu hỏi rơi vào 6 thì trọng tâm: Hiện tại đơn, Quá khứ đơn, Hiện tại hoàn thành, Tương lai đơn, Quá khứ hoàn thành và Tương lai hoàn thành.",
+  "keyTakeaways": [
+    "Quét ngay dấu hiệu thời gian ở đầu hoặc cuối câu trước khi đọc nghĩa chi tiết.",
+    "Trong mệnh đề trạng ngữ chỉ thời gian (when, before, after, until, as soon as, by the time) nói về tương lai → dùng HIỆN TẠI ĐƠN (tuyệt đối không dùng 'will').",
+    "'Since + mốc quá khứ' hoặc 'for the past/last + khoảng thời gian' → chia HIỆN TẠI HOÀN THÀNH (have/has + V3).",
+    "'By + mốc tương lai' hoặc 'By the time + S + V(hiện tại)' → ưu tiên TƯƠNG LAI HOÀN THÀNH (will have + V3)."
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 8 thì trọng tâm xuất hiện nhiều nhất trong đề thi ETS TOEIC",
+      "headers": ["Thì động từ", "Công thức chủ động", "Dấu hiệu nhận biết 3 giây", "Ngữ cảnh TOEIC điển hình"],
+      "rows": [
+        ["Hiện tại đơn", "V(s/es)", "every, annually, regularly, usually, policy/schedule", "Lịch trình cố định, chính sách công ty, sự thật"],
+        ["Hiện tại tiếp diễn", "am/is/are + V-ing", "currently, at the moment, presently, right now", "Dự án đang triển khai tạm thời hoặc kế hoạch chắc chắn"],
+        ["Quá khứ đơn", "V2 / V-ed", "yesterday, last week/year, ago, in 2022, previously", "Sự kiện đã chấm dứt hoàn toàn tại mốc quá khứ"],
+        ["Hiện tại hoàn thành", "have/has + V3", "since, for + khoảng TG, recently, over the past/last..., already, yet", "Kéo dài từ quá khứ tới hiện tại hoặc kết quả còn liên quan"],
+        ["Tương lai đơn", "will + V-inf", "tomorrow, next quarter, soon, shortly, upcoming", "Kế hoạch, thông báo, dự đoán sắp tới"],
+        ["Quá khứ tiếp diễn", "was/were + V-ing", "at 9 a.m. yesterday, while + QKTD, when + QKĐ", "Hành động đang diễn ra thì hành động khác xen vào"],
+        ["Quá khứ hoàn thành", "had + V3", "by the time + QKĐ, before + QKĐ, prior to + mốc QK", "Hành động xảy ra TRƯỚC một mốc/hành động quá khứ khác"],
+        ["Tương lai hoàn thành", "will have + V3", "by + mốc tương lai (by Friday/by next year), by the time + HTĐ", "Hành động sẽ hoàn tất TRƯỚC một thời điểm trong tương lai"]
+      ]
+    },
+    {
+      "title": "Bảng quy tắc phối hợp thì kinh điển (Sequence of Tenses)",
+      "headers": ["Liên từ thời gian", "Mệnh đề phụ (Time Clause)", "Mệnh đề chính (Main Clause)"],
+      "rows": [
+        ["Since", "S + V2/ed (Quá khứ đơn)", "S + have/has + V3 (Hiện tại hoàn thành)"],
+        ["When / Once / As soon as", "S + V(hiện tại đơn / HTHT)", "S + will + V-inf (Tương lai đơn)"],
+        ["By the time (tương lai)", "S + V(hiện tại đơn)", "S + will have + V3 (Tương lai hoàn thành)"],
+        ["By the time (quá khứ)", "S + V2/ed (Quá khứ đơn)", "S + had + V3 (Quá khứ hoàn thành)"]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "over the past / last + [khoảng thời gian]",
+      "rule": "Khác với 'last year' (QKĐ), 'over the last 5 years' chia Hiện tại hoàn thành (have/has + V3).",
+      "example": "Sales have risen steadily over the past three years."
+    },
+    {
+      "signal": "currently / presently / at present",
+      "rule": "Chia Hiện tại tiếp diễn (is/are + V-ing) hoặc Hiện tại đơn (với động từ trạng thái).",
+      "example": "The R&D lab is currently testing a prototype."
+    },
+    {
+      "signal": "by + mốc tương lai (by the end of this month)",
+      "rule": "Chọn Tương lai hoàn thành (will have + V3).",
+      "example": "By December, we will have opened four new stores."
+    },
+    {
+      "signal": "once / when / before / after (chỉ tương lai)",
+      "rule": "KHÔNG bao giờ chia 'will' trong mệnh đề phụ thời gian — dùng Hiện tại đơn hoặc HTHT.",
+      "example": "Once the contract arrives, I will forward it."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Dùng 'will' ngay sau liên từ thời gian (when / once / before / until)",
+      "wrongExample": "We will launch the campaign as soon as the CEO will approve the budget.",
+      "correctExample": "We will launch the campaign as soon as the CEO approves the budget.",
+      "explanationVi": "Dù ngữ cảnh ở tương lai, mệnh đề bắt đầu bằng when, before, after, until, once, as soon as bắt buộc lùi về Hiện tại đơn (hoặc Hiện tại hoàn thành)."
+    },
+    {
+      "title": "Bẫy #2: Nhầm 'last year' (Quá khứ đơn) với 'for/over the last two years' (Hiện tại hoàn thành)",
+      "wrongExample": "Over the last two years, the firm expanded into three Asian markets.",
+      "correctExample": "Over the last two years, the firm has expanded into three Asian markets.",
+      "explanationVi": "'Last year' là mốc quá khứ chấm dứt (dùng V2/ed), nhưng 'for/in/over the last + khoảng thời gian' tính kéo dài đến tận hiện tại nên phải dùng Hiện tại hoàn thành."
+    },
+    {
+      "title": "Bẫy #3: Quên phối hợp 'By the time' quá khứ vs. tương lai",
+      "wrongExample": "By the time the auditors arrived, the accounting team finished all ledgers.",
+      "correctExample": "By the time the auditors arrived, the accounting team had finished all ledgers.",
+      "explanationVi": "Hành động hoàn tất sổ sách xảy ra TRƯỚC lúc kiểm toán viên tới (arrived - QKĐ), nên phải chia Quá khứ hoàn thành (had finished)."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "Since Ms. Patel **joined** the firm in 2021, annual exports **have doubled**.",
+      "vi": "Kể từ khi bà Patel gia nhập công ty vào năm 2021, kim ngạch xuất khẩu hàng năm đã tăng gấp đôi.",
+      "noteVi": "Phối hợp chuẩn: Since + Quá khứ đơn (joined), Hiện tại hoàn thành (have doubled)."
+    },
+    {
+      "en": "By the end of the fiscal quarter, our engineers **will have migrated** all legacy servers.",
+      "vi": "Trước khi kết thúc quý tài chính, các kỹ sư của chúng tôi sẽ đã di chuyển toàn bộ máy chủ cũ.",
+      "noteVi": "Dấu hiệu 'By the end of...' (tương lai) → Tương lai hoàn thành (will have + V3)."
+    },
+    {
+      "en": "The downtown shuttle bus **departs** from the main terminal every twenty minutes.",
+      "vi": "Xe buýt trung chuyển khu trung tâm khởi hành từ nhà ga chính mỗi 20 phút một chuyến.",
+      "noteVi": "Lịch trình cố định + 'every twenty minutes' → Hiện tại đơn (departs)."
+    },
+    {
+      "en": "The IT support desk **is currently upgrading** the internal email server.",
+      "vi": "Bộ phận hỗ trợ CNTT hiện đang nâng cấp máy chủ email nội bộ.",
+      "noteVi": "Dấu hiệu 'currently' → Hiện tại tiếp diễn (is upgrading)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "vt-01",
+      "type": "mcq",
+      "prompt": "Over the past five years, Apex Logistics ____ its fleet of electric delivery vans significantly.",
+      "options": [
+        { "key": "A", "text": "expands" },
+        { "key": "B", "text": "has expanded" },
+        { "key": "C", "text": "will expand" },
+        { "key": "D", "text": "expanding" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cụm thời gian 'Over the past five years' (trong suốt 5 năm qua đến hiện tại).",
+        "formulaAndEliminationVi": "'Over/In/For the past + khoảng thời gian' là dấu hiệu kinh điển của Hiện tại hoàn thành (has/have + V3) → chọn (B). Loại (A) hiện tại đơn, (C) tương lai, (D) thiếu trợ động từ.",
+        "translationVi": "Trong suốt 5 năm qua, Apex Logistics đã mở rộng đáng kể đội xe giao hàng chạy điện của mình."
+      }
+    },
+    {
+      "id": "vt-02",
+      "type": "mcq",
+      "prompt": "By the time the trade show opens next Friday, the design team ____ all promotional banners.",
+      "options": [
+        { "key": "A", "text": "will have printed" },
+        { "key": "B", "text": "had printed" },
+        { "key": "C", "text": "printed" },
+        { "key": "D", "text": "prints" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "'By the time + S + opens (Hiện tại đơn) + next Friday' (mốc tương lai).",
+        "formulaAndEliminationVi": "Công thức phối hợp thì: By the time + HTĐ, S + will have + V3 (Tương lai hoàn thành) → chọn (A). Loại (B) quá khứ hoàn thành, (C) quá khứ đơn, (D) hiện tại đơn.",
+        "translationVi": "Vào thời điểm hội chợ thương mại khai mạc thứ Sáu tới, nhóm thiết kế sẽ đã in xong toàn bộ biểu ngữ quảng cáo."
+      }
+    },
+    {
+      "id": "vt-03",
+      "type": "mcq",
+      "prompt": "Please notify the receptionist as soon as the visiting delegates ____ at the lobby.",
+      "options": [
+        { "key": "A", "text": "will arrive" },
+        { "key": "B", "text": "arrived" },
+        { "key": "C", "text": "arrive" },
+        { "key": "D", "text": "had arrived" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Mệnh đề phụ chỉ thời gian bắt đầu bằng 'as soon as' đi với mệnh đề chính dạng mệnh lệnh tương lai ('Please notify').",
+        "formulaAndEliminationVi": "Trong mệnh đề trạng ngữ thời gian nói về tương lai, dùng Hiện tại đơn (arrive) và tuyệt đối loại 'will arrive' (A). Chủ ngữ 'delegates' số nhiều → chọn (C).",
+        "translationVi": "Vui lòng báo cho lễ tân ngay khi phái đoàn khách mời đến sảnh."
+      }
+    },
+    {
+      "id": "vt-04",
+      "type": "mcq",
+      "prompt": "The construction crew ____ the new parking structure ahead of schedule last month.",
+      "options": [
+        { "key": "A", "text": "completes" },
+        { "key": "B", "text": "completed" },
+        { "key": "C", "text": "has completed" },
+        { "key": "D", "text": "will complete" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Mốc thời gian quá khứ xác định 'last month' (tháng trước).",
+        "formulaAndEliminationVi": "Hành động đã chấm dứt hoàn toàn tại thời điểm quá khứ → chia Quá khứ đơn 'completed' (B). Loại (C) vì Hiện tại hoàn thành không đi với mốc quá khứ xác định như 'last month'.",
+        "translationVi": "Đội ngũ thi công đã hoàn thành nhà để xe mới trước tiến độ vào tháng trước."
+      }
+    },
+    {
+      "id": "vt-05",
+      "type": "mcq",
+      "prompt": "Our engineering division ____ a next-generation battery that charges twice as fast.",
+      "options": [
+        { "key": "A", "text": "is currently developing" },
+        { "key": "B", "text": "was currently developing" },
+        { "key": "C", "text": "developed currently" },
+        { "key": "D", "text": "will currently developed" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Trạng từ 'currently' (hiện tại đang) + mệnh đề phụ chia hiện tại đơn ('charges').",
+        "formulaAndEliminationVi": "'currently' kết hợp với ngữ cảnh hiện tại → Hiện tại tiếp diễn 'is currently developing' (A). Loại (B) quá khứ, (C) sai thì & vị trí, (D) sai ngữ pháp 'will + V-ed'.",
+        "translationVi": "Bộ phận kỹ thuật của chúng tôi hiện đang phát triển thế hệ pin mới sạc nhanh gấp đôi."
+      }
+    },
+    {
+      "id": "vt-06",
+      "type": "mcq",
+      "prompt": "Before the merger took effect in June, both companies ____ independent legal counsel.",
+      "options": [
+        { "key": "A", "text": "consult" },
+        { "key": "B", "text": "will consult" },
+        { "key": "C", "text": "had consulted" },
+        { "key": "D", "text": "have consulted" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "'Before + S + took effect (Quá khứ đơn) in June'.",
+        "formulaAndEliminationVi": "Hành động tham vấn luật sư xảy ra TRƯỚC sự kiện sáp nhập trong quá khứ → Quá khứ hoàn thành 'had consulted' (C). Loại (A), (B), (D) vì đều ở khung hiện tại/tương lai.",
+        "translationVi": "Trước khi thương vụ sáp nhập có hiệu lực vào tháng Sáu, cả hai công ty đã tham vấn cố vấn pháp lý độc lập."
+      }
+    },
+    {
+      "id": "vt-07",
+      "type": "mcq",
+      "prompt": "Since the branch relocated to the business district, foot traffic ____ by nearly forty percent.",
+      "options": [
+        { "key": "A", "text": "increased" },
+        { "key": "B", "text": "has increased" },
+        { "key": "C", "text": "increases" },
+        { "key": "D", "text": "will have increased" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc 'Since + S + relocated (Quá khứ đơn)'.",
+        "formulaAndEliminationVi": "Phối hợp thì chuẩn: Since + QKĐ, mệnh đề chính chia Hiện tại hoàn thành → 'has increased' (B). Loại (A), (C), (D).",
+        "translationVi": "Kể từ khi chi nhánh chuyển đến khu thương mại, lượng khách ghé qua đã tăng gần 40%."
+      }
+    },
+    {
+      "id": "vt-08",
+      "type": "mcq",
+      "prompt": "The finance department ____ quarterly expense audits on the first Monday of every quarter.",
+      "options": [
+        { "key": "A", "text": "conducts" },
+        { "key": "B", "text": "conducted" },
+        { "key": "C", "text": "is conducting" },
+        { "key": "D", "text": "has been conducting" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Trạng từ tần suất định kỳ 'on the first Monday of every quarter'.",
+        "formulaAndEliminationVi": "Hành động lặp đi lặp lại theo lịch cố định → Hiện tại đơn. Chủ ngữ 'The finance department' số ít → chọn 'conducts' (A).",
+        "translationVi": "Phòng tài chính tiến hành kiểm toán chi phí hàng quý vào thứ Hai đầu tiên của mỗi quý."
+      }
+    },
+    {
+      "id": "vt-09",
+      "type": "fill-blank",
+      "prompt": "Mr. Takahashi ____ as the chief operations officer since the company went public in 2019.",
+      "baseWord": "serve",
+      "correctAnswer": "has served",
+      "acceptedAnswers": ["has served", "has been serving"],
+      "explanation": {
+        "signalVi": "Dấu hiệu 'since + mệnh đề quá khứ (went public in 2019)'.",
+        "formulaAndEliminationVi": "Chủ ngữ số ít 'Mr. Takahashi' + hành động kéo dài từ 2019 đến hiện tại → chia Hiện tại hoàn thành 'has served' (hoặc Hiện tại hoàn thành tiếp diễn 'has been serving').",
+        "translationVi": "Ông Takahashi đã đảm nhiệm vị trí giám đốc vận hành kể từ khi công ty lên sàn năm 2019."
+      }
+    },
+    {
+      "id": "vt-10",
+      "type": "fill-blank",
+      "prompt": "By next December, our retail chain ____ fifteen additional outlets across the region.",
+      "baseWord": "open",
+      "correctAnswer": "will have opened",
+      "acceptedAnswers": ["will have opened"],
+      "explanation": {
+        "signalVi": "Dấu hiệu 'By next December' (trước một mốc thời gian trong tương lai).",
+        "formulaAndEliminationVi": "Công thức Tương lai hoàn thành: will have + V3/ed → 'will have opened'.",
+        "translationVi": "Trước tháng 12 năm sau, chuỗi bán lẻ của chúng tôi sẽ đã khai trương thêm 15 cửa hàng khắp khu vực."
+      }
+    },
+    {
+      "id": "vt-11",
+      "type": "error-correction",
+      "prompt": "We [A] will finalize the shipping schedule [B] once the supplier [C] will confirm the [D] inventory count.",
+      "options": [
+        { "key": "A", "text": "will finalize" },
+        { "key": "B", "text": "once the supplier" },
+        { "key": "C", "text": "will confirm" },
+        { "key": "D", "text": "inventory count" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "confirms",
+      "explanation": {
+        "signalVi": "Chỗ [C] nằm trong mệnh đề thời gian sau liên từ 'once' (ngay khi).",
+        "formulaAndEliminationVi": "Không dùng 'will' trong mệnh đề phụ chỉ thời gian. Chủ ngữ 'the supplier' số ít → sửa 'will confirm' thành Hiện tại đơn 'confirms'.",
+        "translationVi": "Chúng tôi sẽ chốt lịch giao hàng ngay khi nhà cung cấp xác nhận số lượng tồn kho."
+      }
+    },
+    {
+      "id": "vt-12",
+      "type": "error-correction",
+      "prompt": "Last Friday, the marketing director [A] has announced [B] a partnership [C] with two local [D] hospitality brands.",
+      "options": [
+        { "key": "A", "text": "has announced" },
+        { "key": "B", "text": "a partnership" },
+        { "key": "C", "text": "with two local" },
+        { "key": "D", "text": "hospitality brands" }
+      ],
+      "correctAnswer": "A",
+      "correctionText": "announced",
+      "explanation": {
+        "signalVi": "Đầu câu có mốc quá khứ xác định 'Last Friday' (thứ Sáu tuần trước).",
+        "formulaAndEliminationVi": "Hiện tại hoàn thành ('has announced') KHÔNG đi với trạng từ chỉ thời điểm quá khứ đã chấm dứt như 'Last Friday' → phải sửa thành Quá khứ đơn 'announced'.",
+        "translationVi": "Thứ Sáu tuần trước, giám đốc marketing đã công bố quan hệ đối tác với hai thương hiệu khách sạn địa phương."
+      }
+    }
+  ]
+}

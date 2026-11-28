@@ -452,12 +452,92 @@ def validate_videos():
     )
 
 
+def validate_grammar():
+    gdir = PUBLIC / "data" / "grammar"
+    catalog_p = gdir / "catalog.json"
+    topics_dir = gdir / "topics"
+
+    check(catalog_p.exists(), f"Missing grammar catalog: {catalog_p}")
+    check(topics_dir.exists(), f"Missing grammar topics directory: {topics_dir}")
+    if not (catalog_p.exists() and topics_dir.exists()):
+        return
+
+    catalog = json.loads(catalog_p.read_text(encoding="utf-8"))
+    check(isinstance(catalog, list) and len(catalog) == 16, f"Expected 16 grammar topics, found {len(catalog) if isinstance(catalog, list) else 0}")
+
+    valid_levels = {"basic", "intermediate", "advanced"}
+    valid_ex_types = {"mcq", "fill-blank", "error-correction"}
+
+    seen_ids = set()
+    total_exercises = 0
+    level_counts = {}
+
+    for row in catalog:
+        tid = row.get("id", "")
+        check(bool(tid) and tid not in seen_ids, f"Duplicate or empty grammar topic id: {tid}")
+        seen_ids.add(tid)
+
+        for fk in ["id", "title", "subtitle", "level", "levelLabel", "etsFrequency", "tags"]:
+            check(bool(row.get(fk)), f"Grammar topic {tid} missing field '{fk}'")
+        check(row.get("level") in valid_levels, f"Grammar topic {tid} invalid level '{row.get('level')}'")
+        level_counts[row.get("level", "?")] = level_counts.get(row.get("level", "?"), 0) + 1
+
+        tp = topics_dir / f"{tid}.json"
+        check(tp.exists(), f"Missing grammar topic JSON for '{tid}': {tp}")
+        if not tp.exists():
+            continue
+
+        detail = json.loads(tp.read_text(encoding="utf-8"))
+        check(bool((detail.get("summaryVi") or "").strip()), f"Grammar {tid} empty summaryVi")
+        check(len(detail.get("keyTakeaways", [])) >= 3, f"Grammar {tid} needs >= 3 keyTakeaways")
+        check(len(detail.get("formulaTables", [])) >= 1, f"Grammar {tid} needs >= 1 formulaTable")
+        check(len(detail.get("quickSignals", [])) >= 3, f"Grammar {tid} needs >= 3 quickSignals")
+        check(len(detail.get("etsTraps", [])) >= 3, f"Grammar {tid} needs >= 3 etsTraps")
+        check(len(detail.get("bilingualExamples", [])) >= 3, f"Grammar {tid} needs >= 3 bilingualExamples")
+
+        exercises = detail.get("exercises", [])
+        check(len(exercises) == row.get("exerciseCount"), f"Grammar {tid} exerciseCount mismatch ({len(exercises)} != {row.get('exerciseCount')})")
+        check(len(exercises) >= 12, f"Grammar {tid} needs >= 12 exercises, got {len(exercises)}")
+
+        seen_ex_ids = set()
+        for ex in exercises:
+            ex_id = ex.get("id", "")
+            ex_type = ex.get("type", "")
+            check(bool(ex_id) and ex_id not in seen_ex_ids, f"Grammar {tid} duplicate/empty exercise id: {ex_id}")
+            seen_ex_ids.add(ex_id)
+            check(ex_type in valid_ex_types, f"Grammar {tid} {ex_id} invalid exercise type '{ex_type}'")
+            check(bool((ex.get("prompt") or "").strip()), f"Grammar {tid} {ex_id} empty prompt")
+            check(bool((ex.get("correctAnswer") or "").strip()), f"Grammar {tid} {ex_id} empty correctAnswer")
+
+            if ex_type in ("mcq", "error-correction"):
+                opts = ex.get("options", [])
+                keys = [o.get("key") for o in opts]
+                check(keys == ["A", "B", "C", "D"], f"Grammar {tid} {ex_id} options must have keys A,B,C,D")
+                check(ex.get("correctAnswer") in keys, f"Grammar {tid} {ex_id} correctAnswer not in options")
+                if ex_type == "error-correction":
+                    check(bool((ex.get("correctionText") or "").strip()), f"Grammar {tid} {ex_id} missing correctionText")
+            else:
+                check("____" in (ex.get("prompt") or ""), f"Grammar {tid} {ex_id} fill-blank prompt missing ____")
+
+            exp = ex.get("explanation") or {}
+            for ef in ["signalVi", "formulaAndEliminationVi", "translationVi"]:
+                check(bool((exp.get(ef) or "").strip()), f"Grammar {tid} {ex_id} missing explanation.{ef}")
+
+            total_exercises += 1
+
+    print(
+        f"[Grammar Audit] Checked {len(catalog)} grammar topics ({total_exercises} ETS exercises, 3-layer explanations) — "
+        f"Basic={level_counts.get('basic',0)}, Intermediate={level_counts.get('intermediate',0)}, Advanced={level_counts.get('advanced',0)}."
+    )
+
+
 def main():
     validate_vocab()
     validate_reading()
     validate_listening()
     validate_toeic_bank()
     validate_videos()
+    validate_grammar()
 
     if warnings:
         print("\nWARNINGS:")

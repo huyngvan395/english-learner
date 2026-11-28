@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import {
   BarChart3,
+  BookMarked,
   BookOpen,
   BookmarkCheck,
   CheckCircle2,
@@ -86,6 +87,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
     badge?: number | string;
   }[] = [
     { to: '/vocabulary', label: 'Từ vựng', sublabel: '16 Bộ thẻ • 10.996 từ', icon: BookOpen },
+    {
+      to: '/grammar',
+      label: 'Ngữ pháp TOEIC',
+      sublabel: 'Lộ trình 450–990 • Part 5–6',
+      icon: BookMarked,
+      badge: 'Mới',
+    },
     {
       to: '/videos',
       label: 'Video luyện tập',

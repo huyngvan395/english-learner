@@ -1,0 +1,316 @@
+{
+  "id": "subjunctive-mood",
+  "order": 14,
+  "title": "Thức giả định (Subjunctive Mood)",
+  "subtitle": "Nhóm động từ & tính từ yêu cầu nguyên mẫu không 'to' (recommend, insist, essential, imperative + that + S + V0 / be V3)",
+  "level": "advanced",
+  "levelLabel": "Nâng cao (800–990)",
+  "etsFrequency": "Cao",
+  "estimatedMinutes": 15,
+  "exerciseCount": 13,
+  "tags": ["Part 5", "Giả định", "V0 nguyên mẫu"],
+  "summaryVi": "Thức giả định (Subjunctive Mood) là dạng câu 'dễ mất điểm oan nhất' nếu làm theo thói quen chia động từ bình thường, nhưng lại cực kỳ dễ ăn điểm 100% khi bạn thuộc nhóm từ kích hoạt. Trong mệnh đề 'that' đi sau động từ/tính từ/danh từ mang nghĩa ĐỀ XUẤT – YÊU CẦU – CẤP THIẾT, động từ BẮT BUỘC ở dạng nguyên mẫu không 'to' (**V0** chủ động hoặc **be + V3** bị động), bất kể chủ ngữ số ít hay thì quá khứ!",
+  "keyTakeaways": [
+    "Công thức vàng: `[Từ kích hoạt] + that + S + (should) + V0 (chủ động) / be + V3 (bị động)`.",
+    "Dạng phủ định: `that + S + NOT + V0 / NOT be + V3` (TUYỆT ĐỐI không mượn `do / does / did`!).",
+    "Không bị ảnh hưởng bởi thì của mệnh đề chính hay số ít/số nhiều của S: *The CEO insisted that every branch **submit** (KHÔNG submits/submitted) its audit.*",
+    "Cẩn thận ngoại lệ: `suggest` / `insist` khi mang nghĩa 'cho thấy rằng / khẳng định một sự thật hiển nhiên' (không phải yêu cầu/khuyên bảo) thì chia thì bình thường!"
+  ],
+  "formulaTables": [
+    {
+      "title": "Bảng 3 nhóm từ kích hoạt Thức giả định hay xuất hiện nhất trong đề ETS",
+      "headers": ["Nhóm từ loại", "Danh sách từ kích hoạt cốt lõi", "Ví dụ chuẩn Part 5"],
+      "rows": [
+        ["Động từ yêu cầu / đề xuất", "recommend, suggest, propose, insist, demand, request, require, ask, advise, urge, order, mandate", "The auditor **recommended that** the firm **revise** its billing policy."],
+        ["Tính từ cấp thiết (`It is + Adj + that...`)", "essential, imperative, vital, crucial, necessary, important, mandatory, urgent, advisable, recommended", "It is **imperative that** all files **be backed up** nightly."],
+        ["Danh từ tương ứng (`The + N + that...`)", "recommendation, suggestion, proposal, demand, request, requirement, insistence", "We accepted his **suggestion that** the launch **be postponed**."]
+      ]
+    },
+    {
+      "title": "4 dạng chia động từ trong mệnh đề giả định 'that + S + ____'",
+      "headers": ["Thể & Khẳng/Phủ định", "Công thức chuẩn", "Ví dụ công sở"],
+      "rows": [
+        ["Chủ động khẳng định", "**V0** (nguyên mẫu không s/ed)", "...that Ms. Chen **attend** the summit."],
+        ["Chủ động phủ định", "**not + V0** (không dùng don't/doesn't)", "...that employees **not share** their passwords."],
+        ["Bị động khẳng định", "**be + V3/ed** (không dùng is/are/was)", "...that the invoice **be approved** by Friday."],
+        ["Bị động phủ định", "**not be + V3/ed**", "...that confidential data **not be disclosed**."]
+      ]
+    }
+  ],
+  "quickSignals": [
+    {
+      "signal": "recommend / suggest / request / insist / require / demand + that + S(số ít) + ____",
+      "rule": "Chủ ngữ số ít nhưng vẫn chọn V0 nguyên mẫu (KHÔNG thêm -s/-ed) hoặc 'be + V3'!",
+      "example": "She requested that Mr. Diaz **submit** the receipt."
+    },
+    {
+      "signal": "It is essential / imperative / vital / mandatory / crucial + that + S + ____",
+      "rule": "Chọn ngay V0 (chủ động) hoặc 'be + V3' (bị động) — loại sạch is / are / was / V-s!",
+      "example": "It is essential that every passenger **be checked**."
+    },
+    {
+      "signal": "...that + S + ____ + V0 (phủ định giả định)",
+      "rule": "Chỉ chọn **not + V0** hoặc **not be + V3** — loại ngay `does not`, `did not`, `is not`!",
+      "example": "HR advised that staff **not park** in visitor spaces."
+    }
+  ],
+  "etsTraps": [
+    {
+      "title": "Bẫy #1: Chia động từ thêm '-s' hoặc lùi về quá khứ theo chủ ngữ số ít / mệnh đề chính quá khứ",
+      "wrongExample": "The manager insisted that the technician repairs (hoặc repaired) the server before noon.",
+      "correctExample": "The manager insisted that the technician repair the server before noon.",
+      "explanationVi": "Sau 'insisted that' (yêu cầu khẩn thiết), động từ trong mệnh đề 'that' PHẢI giữ nguyên mẫu 'repair' — bỏ qua quy tắc chia số ít và bỏ qua lùi thì quá khứ!"
+    },
+    {
+      "title": "Bẫy #2: Chia 'is/are + V3' thay vì 'be + V3' ở câu bị động giả định",
+      "wrongExample": "It is mandatory that every badge is displayed visibly inside the plant.",
+      "correctExample": "It is mandatory that every badge be displayed visibly inside the plant.",
+      "explanationVi": "Ở thức giả định bị động, 'to be' PHẢI giữ nguyên mẫu là 'be' ('be displayed'), tuyệt đối không chia 'is displayed' hay 'was displayed'."
+    },
+    {
+      "title": "Bẫy #3: Dùng 'does not / do not' cho thể phủ định giả định",
+      "wrongExample": "The legal counsel recommended that the firm does not sign the draft yet.",
+      "correctExample": "The legal counsel recommended that the firm not sign the draft yet.",
+      "explanationVi": "Phủ định của thức giả định chỉ đặt trực tiếp 'not' ngay trước V0 ('not sign') — không mượn trợ động từ 'do/does/did'."
+    }
+  ],
+  "bilingualExamples": [
+    {
+      "en": "The safety inspector **recommended that** the warehouse **install** additional emergency exits.",
+      "vi": "Thanh tra an toàn khuyến nghị nhà kho lắp đặt thêm các lối thoát hiểm.",
+      "noteVi": "Chủ ngữ 'the warehouse' số ít nhưng vẫn dùng V0 'install' (sau 'recommended that')."
+    },
+    {
+      "en": "It is **imperative that** every customer complaint **be resolved** within twenty-four hours.",
+      "vi": "Điều tối quan trọng là mọi khiếu nại của khách hàng phải được giải quyết trong vòng 24 giờ.",
+      "noteVi": "Bị động giả định sau 'It is imperative that': 'be resolved'."
+    },
+    {
+      "en": "Management **requested that** employees **not discuss** merger details with external media.",
+      "vi": "Ban lãnh đạo yêu cầu nhân viên không thảo luận chi tiết thương vụ sáp nhập với truyền thông bên ngoài.",
+      "noteVi": "Phủ định thức giả định: 'not + V0' ('not discuss'), không dùng 'do not discuss'."
+    },
+    {
+      "en": "The committee supported her **proposal that** a dedicated compliance officer **be appointed**.",
+      "vi": "Ủy ban đã ủng hộ đề xuất của bà về việc bổ nhiệm một chuyên viên tuân thủ chuyên trách.",
+      "noteVi": "Danh từ 'proposal that' cũng kích hoạt thức giả định bị động 'be appointed'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sm-01",
+      "type": "mcq",
+      "prompt": "The external auditor recommended that the finance department ____ its invoice verification procedures.",
+      "options": [
+        { "key": "A", "text": "strengthens" },
+        { "key": "B", "text": "strengthen" },
+        { "key": "C", "text": "strengthened" },
+        { "key": "D", "text": "strengthening" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ kích hoạt 'recommended that' + chủ ngữ 'the finance department' + tân ngữ phía sau (chủ động).",
+        "formulaAndEliminationVi": "Thức giả định chủ động: recommend that + S + V0 → chọn nguyên mẫu 'strengthen' (B). Loại (A) thêm -s, (C) quá khứ, (D) V-ing.",
+        "translationVi": "Kiểm toán viên độc lập khuyến nghị phòng tài chính tăng cường quy trình xác minh hóa đơn."
+      }
+    },
+    {
+      "id": "sm-02",
+      "type": "mcq",
+      "prompt": "It is imperative that all confidential prototypes ____ inside the secure research lab at all times.",
+      "options": [
+        { "key": "A", "text": "are kept" },
+        { "key": "B", "text": "were kept" },
+        { "key": "C", "text": "be kept" },
+        { "key": "D", "text": "being kept" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Cấu trúc 'It is imperative that' + chủ ngữ vật 'all confidential prototypes' + không có tân ngữ sau chỗ trống (bị động).",
+        "formulaAndEliminationVi": "Thức giả định bị động: It is imperative that + S + be + V3 → chọn 'be kept' (C). Loại (A), (B) chia to-be theo thì; loại (D) thiếu trợ động từ.",
+        "translationVi": "Điều tối quan trọng là tất cả các nguyên mẫu mật phải luôn được giữ bên trong phòng nghiên cứu bảo mật."
+      }
+    },
+    {
+      "id": "sm-03",
+      "type": "mcq",
+      "prompt": "The IT security policy mandates that staff ____ their login credentials with anyone outside the department.",
+      "options": [
+        { "key": "A", "text": "do not share" },
+        { "key": "B", "text": "not share" },
+        { "key": "C", "text": "not sharing" },
+        { "key": "D", "text": "did not share" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Động từ kích hoạt 'mandates that' (quy định bắt buộc) + nghĩa phủ định.",
+        "formulaAndEliminationVi": "Thức giả định phủ định: mandate that + S + not + V0 → chọn 'not share' (B). Tuyệt đối loại (A) 'do not share' và (D) 'did not share'.",
+        "translationVi": "Chính sách bảo mật CNTT quy định bắt buộc nhân viên không được chia sẻ thông tin đăng nhập với bất kỳ ai ngoài phòng ban."
+      }
+    },
+    {
+      "id": "sm-04",
+      "type": "mcq",
+      "prompt": "Ms. Takahashi insisted that the regional manager ____ the opening ceremony in person.",
+      "options": [
+        { "key": "A", "text": "attends" },
+        { "key": "B", "text": "attended" },
+        { "key": "C", "text": "attend" },
+        { "key": "D", "text": "attending" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Động từ 'insisted that' (khăng khăng yêu cầu) + chủ ngữ số ít 'the regional manager'.",
+        "formulaAndEliminationVi": "Thức giả định sau 'insist that' luôn dùng V0 không -s, không lùi thì → chọn 'attend' (C).",
+        "translationVi": "Bà Takahashi khăng khăng yêu cầu giám đốc khu vực trực tiếp tham dự buổi lễ khai mạc."
+      }
+    },
+    {
+      "id": "sm-05",
+      "type": "mcq",
+      "prompt": "It is essential that every new supplier ____ a thorough quality assurance audit before signing a contract.",
+      "options": [
+        { "key": "A", "text": "undergoes" },
+        { "key": "B", "text": "undergo" },
+        { "key": "C", "text": "underwent" },
+        { "key": "D", "text": "is undergoing" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Cấu trúc 'It is essential that' + 'every new supplier' (chủ ngữ số ít) + tân ngữ 'a thorough quality assurance audit'.",
+        "formulaAndEliminationVi": "Thức giả định chủ động: It is essential that + S + V0 → chọn 'undergo' (B).",
+        "translationVi": "Điều thiết yếu là mọi nhà cung cấp mới đều phải trải qua cuộc kiểm định chất lượng kỹ lưỡng trước khi ký hợp đồng."
+      }
+    },
+    {
+      "id": "sm-06",
+      "type": "mcq",
+      "prompt": "The board approved the consultant's suggestion that the outdated fleet ____ with hybrid vehicles.",
+      "options": [
+        { "key": "A", "text": "is replaced" },
+        { "key": "B", "text": "be replaced" },
+        { "key": "C", "text": "replaces" },
+        { "key": "D", "text": "replaced" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "Danh từ kích hoạt 'suggestion that' + chủ ngữ vật 'the outdated fleet' + giới từ 'with' (bị động).",
+        "formulaAndEliminationVi": "Thức giả định bị động sau 'suggestion that': S + be + V3 → chọn 'be replaced' (B).",
+        "translationVi": "Hội đồng đã thông qua đề xuất của chuyên gia tư vấn rằng đội xe cũ kỹ nên được thay thế bằng xe hybrid."
+      }
+    },
+    {
+      "id": "sm-07",
+      "type": "mcq",
+      "prompt": "The airline urgently requested that all transit passengers ____ seated until the cabin doors fully open.",
+      "options": [
+        { "key": "A", "text": "remain" },
+        { "key": "B", "text": "remained" },
+        { "key": "C", "text": "remaining" },
+        { "key": "D", "text": "will remain" }
+      ],
+      "correctAnswer": "A",
+      "explanation": {
+        "signalVi": "Động từ 'requested that' + tính từ 'seated' (động từ nội 'remain' + Adj).",
+        "formulaAndEliminationVi": "Thức giả định sau 'request that' dùng V0 nguyên mẫu → chọn 'remain' (A). Loại (B) quá khứ, (C) V-ing, (D) 'will'.",
+        "translationVi": "Hãng hàng không khẩn thiết yêu cầu tất cả hành khách quá cảnh giữ nguyên chỗ ngồi cho đến khi cửa khoang mở hoàn toàn."
+      }
+    },
+    {
+      "id": "sm-08",
+      "type": "mcq",
+      "prompt": "It is vital that the emergency evacuation map ____ clearly on every floor of the office tower.",
+      "options": [
+        { "key": "A", "text": "posts" },
+        { "key": "B", "text": "be posted" },
+        { "key": "C", "text": "is posted" },
+        { "key": "D", "text": "to be posted" }
+      ],
+      "correctAnswer": "B",
+      "explanation": {
+        "signalVi": "'It is vital that' + chủ ngữ vật 'map' + không có tân ngữ (bị động).",
+        "formulaAndEliminationVi": "Thức giả định bị động: be + V3 → chọn 'be posted' (B). Loại (A) chủ động, (C) chia 'is', (D) thừa 'to'.",
+        "translationVi": "Điều sống còn là sơ đồ thoát hiểm khẩn cấp phải được dán rõ ràng trên mỗi tầng của tòa nhà văn phòng."
+      }
+    },
+    {
+      "id": "sm-09",
+      "type": "mcq",
+      "prompt": "The project director demanded that the design agency ____ the final mockups no later than Thursday noon.",
+      "options": [
+        { "key": "A", "text": "delivers" },
+        { "key": "B", "text": "delivered" },
+        { "key": "C", "text": "deliver" },
+        { "key": "D", "text": "has delivered" }
+      ],
+      "correctAnswer": "C",
+      "explanation": {
+        "signalVi": "Động từ 'demanded that' + chủ ngữ số ít 'the design agency' + tân ngữ 'the final mockups'.",
+        "formulaAndEliminationVi": "Thức giả định chủ động sau 'demand that': V0 nguyên mẫu → chọn 'deliver' (C).",
+        "translationVi": "Giám đốc dự án yêu cầu công ty thiết kế bàn giao các mẫu thử cuối cùng chậm nhất vào trưa thứ Năm."
+      }
+    },
+    {
+      "id": "sm-10",
+      "type": "fill-blank",
+      "prompt": "The HR department advised that every traveling employee ____ copies of all hotel and meal receipts.",
+      "baseWord": "retain",
+      "correctAnswer": "retain",
+      "acceptedAnswers": ["retain"],
+      "explanation": {
+        "signalVi": "Động từ 'advised that' + chủ ngữ số ít 'every traveling employee' + tân ngữ 'copies...'.",
+        "formulaAndEliminationVi": "Thức giả định chủ động giữ nguyên mẫu không 's' → điền 'retain'.",
+        "translationVi": "Phòng nhân sự khuyên mọi nhân viên đi công tác nên lưu giữ bản sao toàn bộ hóa đơn khách sạn và ăn uống."
+      }
+    },
+    {
+      "id": "sm-11",
+      "type": "fill-blank",
+      "prompt": "It is mandatory that each expense voucher ____ signed by a supervising manager before reimbursement.",
+      "baseWord": "be",
+      "correctAnswer": "be",
+      "acceptedAnswers": ["be"],
+      "explanation": {
+        "signalVi": "'It is mandatory that each expense voucher ____ signed by...'.",
+        "formulaAndEliminationVi": "Bị động thức giả định sau 'mandatory that' luôn dùng nguyên mẫu 'be' (không dùng 'is' hay 'was').",
+        "translationVi": "Bắt buộc mỗi chứng từ chi phí phải được ký duyệt bởi quản lý giám sát trước khi hoàn tiền."
+      }
+    },
+    {
+      "id": "sm-12",
+      "type": "error-correction",
+      "prompt": "The legal advisor [A] urged that the [B] contractor [C] submits proof of insurance [D] prior to mobilization.",
+      "options": [
+        { "key": "A", "text": "urged that" },
+        { "key": "B", "text": "contractor" },
+        { "key": "C", "text": "submits" },
+        { "key": "D", "text": "prior to mobilization" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "submit",
+      "explanation": {
+        "signalVi": "Mệnh đề sau 'urged that' chia 'submits' (thêm -s) ở [C].",
+        "formulaAndEliminationVi": "Sau 'urge that' phải dùng thức giả định nguyên mẫu không -s → sửa 'submits' thành 'submit'.",
+        "translationVi": "Cố vấn pháp lý thúc giục nhà thầu nộp bằng chứng bảo hiểm trước khi huy động nhân lực."
+      }
+    },
+    {
+      "id": "sm-13",
+      "type": "error-correction",
+      "prompt": "It is [A] crucial that [B] sensitive payroll records [C] are not left [D] unattended on public desks.",
+      "options": [
+        { "key": "A", "text": "crucial that" },
+        { "key": "B", "text": "sensitive payroll records" },
+        { "key": "C", "text": "are not left" },
+        { "key": "D", "text": "unattended on public desks" }
+      ],
+      "correctAnswer": "C",
+      "correctionText": "not be left",
+      "explanation": {
+        "signalVi": "Cấu trúc 'It is crucial that' đi với bị động phủ định ở [C] ('are not left').",
+        "formulaAndEliminationVi": "Thức giả định bị động phủ định chuẩn là 'not be + V3' → sửa 'are not left' thành 'not be left'.",
+        "translationVi": "Điều cốt yếu là hồ sơ bảng lương nhạy cảm không được để không có người trông coi trên các bàn làm việc công cộng."
+      }
+    }
+  ]
+}
