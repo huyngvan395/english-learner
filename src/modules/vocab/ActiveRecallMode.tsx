@@ -19,7 +19,7 @@ import {
 import { SrsRating, VocabTopic, VocabWord, WordPOS } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { playWordAudio, speakText } from '../../utils/speech';
-import { playCorrect, playFlip, playSuccess, playWrong } from '../../lib/soundEffects';
+import { playCorrect, playFlip, playKeyTick, playSuccess, playWrong } from '../../lib/soundEffects';
 import { TopicIllustration } from '../../components/TopicIllustration';
 import { QuickNoteBox } from '../../components/QuickNoteBox';
 import { VocabExtensionBlock } from '../../components/VocabExtensionBlock';
@@ -460,7 +460,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
     }
 
     if (cleanedUser === cleanedTarget) {
-      playCorrect();
+      const { isMilestone } = playCorrect();
       setCardState('correct');
       setWrongFeedback(null);
       setRequeueToast(null);
@@ -469,8 +469,8 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
         else setSessionCorrectCount((c) => c + 1);
         setCardScoredInSession(true);
       }
-      // Offset speech by 260ms so the soft chime finishes cleanly before US/UK audio plays
-      schedulePronounce(current, 260, 'en-US');
+      // Offset US/UK voice cleanly (~300ms normal, ~500ms milestone) so Parroto chime rings fully before voice starts
+      schedulePronounce(current, isMilestone ? 500 : 300, 'en-US');
     } else {
       playWrong();
       setCardHadMistake(true);
@@ -649,9 +649,19 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
   const isBackSide = cardState !== 'typing';
   const hasIpaUS = Boolean(current.ipaUS && current.ipaUS.trim() && current.ipaUS.trim() !== '/.../');
   const hasIpaUK = Boolean(current.ipaUK && current.ipaUK.trim() && current.ipaUK.trim() !== '/.../');
+  const normCmp = (s?: string) => (s || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase();
   const hasDefEn = Boolean(current.definitionEn && current.definitionEn.trim());
-  const hasDefVi = Boolean(current.definitionVi && current.definitionVi.trim());
+  const hasDefVi = Boolean(
+    current.definitionVi &&
+      current.definitionVi.trim() &&
+      normCmp(current.definitionVi) !== normCmp(current.definitionEn)
+  );
   const hasExample = Boolean(current.examples[0]?.en && current.examples[0].en.trim());
+  const hasDistinctExampleVi = Boolean(
+    current.examples[0]?.vi &&
+      current.examples[0].vi.trim() &&
+      normCmp(current.examples[0].vi) !== normCmp(current.examples[0]?.en)
+  );
 
   // ================= BACK SIDE: FULL ANSWER CARD + 4-LEVEL SRS =================
   if (isBackSide) {
@@ -825,9 +835,11 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
                     cardState === 'correct' ? 'correct' : 'revealed'
                   )}
                 </p>
-                <p className="text-xs sm:text-sm italic text-slate-400 leading-relaxed">
-                  {current.examples[0].vi}
-                </p>
+                {hasDistinctExampleVi && (
+                  <p className="text-xs sm:text-sm italic text-slate-400 leading-relaxed">
+                    {current.examples[0].vi}
+                  </p>
+                )}
               </div>
             )}
 
@@ -1078,7 +1090,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
                 <p className="text-sm sm:text-base font-medium text-white leading-relaxed">
                   {renderMaskedExample(current.examples[0].en, current.word, 'masked')}
                 </p>
-                {current.examples[0].vi && (
+                {hasDistinctExampleVi && (
                   <p className="text-xs sm:text-sm italic text-slate-400">
                     {current.examples[0].vi}
                   </p>
@@ -1143,6 +1155,11 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
               autoCorrect="off"
               spellCheck={false}
               value={inputVal}
+              onKeyDown={(e) => {
+                if (!e.ctrlKey && !e.metaKey && !e.altKey && e.key.length === 1) {
+                  playKeyTick();
+                }
+              }}
               onChange={(e) => {
                 setInputVal(e.target.value);
                 if (wrongFeedback) setWrongFeedback(null);

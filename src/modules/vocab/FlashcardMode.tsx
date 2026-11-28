@@ -341,7 +341,11 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
                     <p className="text-sm text-slate-100 leading-relaxed">
                       {highlightKeyword(ex.en, current.word)}
                     </p>
-                    <p className="mt-1 text-xs text-slate-400">{ex.vi}</p>
+                    {ex.vi &&
+                      ex.vi.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() !==
+                        ex.en.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() && (
+                        <p className="mt-1 text-xs text-slate-400">{ex.vi}</p>
+                      )}
                   </div>
                   <button
                     type="button"

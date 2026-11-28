@@ -1,5 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
+  CheckCircle2,
+  ChevronDown,
   Flame,
   GraduationCap,
   Loader2,
@@ -10,16 +12,36 @@ import {
   Star,
   Sun,
   Target,
+  Trophy,
+  Volume1,
   Volume2,
   VolumeX,
   X,
+  XCircle,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { useTheme } from '../context/ThemeContext';
 import { SearchIndexEntry, VocabWord } from '../types';
 import { loadFullWord } from '../utils/vocabLoader';
 import { playWordAudio, speakText } from '../utils/speech';
-import { isSoundEnabled, subscribeSoundEnabled, toggleSoundEnabled } from '../lib/soundEffects';
+import {
+  getCombo,
+  getLoadedCustomSfxCount,
+  getSoundVolume,
+  isKeyTickEnabled,
+  isSoundEnabled,
+  playComplete,
+  playCorrect,
+  playWrong,
+  setSoundVolume,
+  subscribeCombo,
+  subscribeKeyTickEnabled,
+  subscribeSoundEnabled,
+  subscribeSoundVolume,
+  subscribeXpPulse,
+  toggleKeyTickEnabled,
+  toggleSoundEnabled,
+} from '../lib/soundEffects';
 import { VocabExtensionBlock } from './VocabExtensionBlock';
 
 interface HeaderProps {
@@ -30,11 +52,61 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
   const { searchIndex, customWords, profile, toggleSaveWord, isWordSaved } = useApp();
   const { isDark, toggleTheme } = useTheme();
   const [soundOn, setSoundOn] = useState<boolean>(() => isSoundEnabled());
+  const [soundVolume, setSoundVolumeState] = useState<number>(() => getSoundVolume());
+  const [keyTickOn, setKeyTickOn] = useState<boolean>(() => isKeyTickEnabled());
+  const [soundPopoverOpen, setSoundPopoverOpen] = useState(false);
+  const [comboStreak, setComboStreak] = useState<number>(() => getCombo());
+  const [xpBounceKey, setXpBounceKey] = useState(0);
+  const [milestoneToast, setMilestoneToast] = useState<number | null>(null);
   const [query, setQuery] = useState('');
+  const soundMenuRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    return subscribeSoundEnabled(setSoundOn);
+    const unsubEnabled = subscribeSoundEnabled(setSoundOn);
+    const unsubVolume = subscribeSoundVolume(setSoundVolumeState);
+    const unsubKeyTick = subscribeKeyTickEnabled(setKeyTickOn);
+    const unsubCombo = subscribeCombo(setComboStreak);
+    let toastTimer: number | null = null;
+    const unsubPulse = subscribeXpPulse((ev) => {
+      if (ev.milestone) {
+        setXpBounceKey((k) => k + 1);
+        if (ev.combo >= 5 && ev.combo % 5 === 0) {
+          setMilestoneToast(ev.combo);
+          if (toastTimer) window.clearTimeout(toastTimer);
+          toastTimer = window.setTimeout(() => setMilestoneToast(null), 1700);
+        }
+      }
+    });
+    return () => {
+      unsubEnabled();
+      unsubVolume();
+      unsubKeyTick();
+      unsubCombo();
+      unsubPulse();
+      if (toastTimer) window.clearTimeout(toastTimer);
+    };
   }, []);
+
+  // Close sound volume popover on outside click or Escape
+  useEffect(() => {
+    if (!soundPopoverOpen) return;
+    const onPointerDown = (e: MouseEvent | TouchEvent) => {
+      const target = e.target as Node | null;
+      if (soundMenuRef.current && target && soundMenuRef.current.contains(target)) return;
+      setSoundPopoverOpen(false);
+    };
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSoundPopoverOpen(false);
+    };
+    document.addEventListener('mousedown', onPointerDown);
+    document.addEventListener('touchstart', onPointerDown, { passive: true });
+    window.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', onPointerDown);
+      document.removeEventListener('touchstart', onPointerDown);
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [soundPopoverOpen]);
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [selectedEntry, setSelectedEntry] = useState<SearchIndexEntry | null>(null);
@@ -192,30 +264,168 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
           </div>
 
-          {/* Right: Sound Toggle + Theme Toggle + Mobile Search + Streak, XP, Daily Goal */}
+          {/* Right: Sound Control + Theme Toggle + Mobile Search + Streak, XP, Daily Goal */}
           <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
-            <button
-              type="button"
-              onClick={() => toggleSoundEnabled()}
-              aria-label={soundOn ? 'Tắt âm thanh phản hồi' : 'Bật âm thanh phản hồi'}
-              aria-pressed={soundOn}
-              title={
-                soundOn
-                  ? 'Âm thanh phản hồi: Đang bật (Bấm để tắt)'
-                  : 'Âm thanh phản hồi: Đang tắt (Bấm để bật)'
-              }
-              className={`inline-flex h-9 w-9 items-center justify-center rounded-xl border transition active:scale-95 ${
-                soundOn
-                  ? 'border-indigo-200 dark:border-indigo-500/40 bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-500/25'
-                  : 'border-slate-300 dark:border-slate-700/80 bg-white dark:bg-slate-900/90 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white hover:border-slate-400 dark:hover:border-slate-600'
-              }`}
-            >
-              {soundOn ? (
-                <Volume2 className="h-4 w-4 shrink-0" />
-              ) : (
-                <VolumeX className="h-4 w-4 shrink-0" />
+            {/* Sound Mute Toggle + Volume & Quick Test Popover */}
+            <div ref={soundMenuRef} className="relative flex items-center">
+              <div
+                className={`inline-flex h-9 items-center rounded-xl border transition overflow-hidden ${
+                  soundOn && soundVolume > 0
+                    ? 'border-indigo-200 dark:border-indigo-500/40 bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-200'
+                    : 'border-slate-300 dark:border-slate-700/80 bg-white dark:bg-slate-900/90 text-slate-500 dark:text-slate-400'
+                }`}
+              >
+                <button
+                  type="button"
+                  onClick={() => toggleSoundEnabled()}
+                  aria-label={soundOn ? 'Tắt âm thanh phản hồi' : 'Bật âm thanh phản hồi'}
+                  aria-pressed={soundOn}
+                  title={
+                    soundOn
+                      ? `Âm thanh hiệu ứng: Đang bật (${soundVolume}%) — Bấm để tắt nhanh`
+                      : 'Âm thanh hiệu ứng: Đang tắt — Bấm để bật nhanh'
+                  }
+                  className="flex h-full w-8 sm:w-9 items-center justify-center hover:bg-indigo-100/80 dark:hover:bg-indigo-500/25 active:scale-95 transition"
+                >
+                  {!soundOn || soundVolume === 0 ? (
+                    <VolumeX className="h-4 w-4 shrink-0" />
+                  ) : soundVolume < 45 ? (
+                    <Volume1 className="h-4 w-4 shrink-0" />
+                  ) : (
+                    <Volume2 className="h-4 w-4 shrink-0" />
+                  )}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSoundPopoverOpen((v) => !v)}
+                  aria-label="Mở bảng chỉnh âm lượng và nghe thử"
+                  aria-expanded={soundPopoverOpen}
+                  title="Chỉnh âm lượng & Nghe thử hiệu ứng"
+                  className="flex h-full w-5 sm:w-6 items-center justify-center border-l border-indigo-200/80 dark:border-slate-700/80 hover:bg-indigo-100/80 dark:hover:bg-indigo-500/25 transition"
+                >
+                  <ChevronDown
+                    className={`h-3 w-3 transition-transform duration-200 ${
+                      soundPopoverOpen ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+              </div>
+
+              {soundPopoverOpen && (
+                <div className="fixed right-3 top-16 sm:absolute sm:right-0 sm:top-11 z-50 w-64 max-w-[calc(100vw-24px)] rounded-2xl border border-slate-200 dark:border-slate-700/90 bg-white dark:bg-[#131C31] p-3.5 shadow-2xl animate-fade-up space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-xs font-extrabold text-slate-900 dark:text-white">
+                      Âm thanh hiệu ứng
+                    </span>
+                    <span
+                      className={`rounded-md border px-1.5 py-0.5 text-[10px] font-bold ${
+                        soundOn && soundVolume > 0
+                          ? 'border-emerald-200 dark:border-emerald-500/35 bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300'
+                          : 'border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
+                      }`}
+                    >
+                      {soundOn && soundVolume > 0 ? `Bật · ${soundVolume}%` : 'Đang tắt'}
+                    </span>
+                  </div>
+
+                  {/* Volume Slider (0–100%) */}
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between text-[11px] font-semibold text-slate-600 dark:text-slate-300">
+                      <span>Âm lượng</span>
+                      <span className="font-mono font-bold text-indigo-700 dark:text-indigo-300">
+                        {soundOn ? `${soundVolume}%` : '0%'}
+                      </span>
+                    </div>
+                    <input
+                      type="range"
+                      min={0}
+                      max={100}
+                      step={5}
+                      value={soundOn ? soundVolume : 0}
+                      onChange={(e) => {
+                        const val = Number(e.target.value);
+                        setSoundVolume(val);
+                      }}
+                      aria-label="Điều chỉnh âm lượng hiệu ứng"
+                      className="w-full h-1.5 rounded-lg accent-indigo-600 dark:accent-indigo-400 cursor-pointer"
+                    />
+                  </div>
+
+                  {/* Optional Subtle Typing Key-Tick Toggle */}
+                  <div className="flex items-center justify-between gap-2 pt-1.5 border-t border-slate-200 dark:border-slate-800">
+                    <span className="text-[11px] font-semibold text-slate-700 dark:text-slate-300">
+                      Âm gõ phím nhẹ
+                    </span>
+                    <button
+                      type="button"
+                      role="switch"
+                      aria-checked={keyTickOn}
+                      onClick={() => toggleKeyTickEnabled()}
+                      className={`relative inline-flex h-5 w-9 shrink-0 items-center rounded-full transition-colors ${
+                        keyTickOn
+                          ? 'bg-indigo-600 dark:bg-indigo-500'
+                          : 'bg-slate-300 dark:bg-slate-700'
+                      }`}
+                    >
+                      <span
+                        className={`inline-block h-3.5 w-3.5 transform rounded-full bg-white shadow transition-transform ${
+                          keyTickOn ? 'translate-x-4' : 'translate-x-1'
+                        }`}
+                      />
+                    </button>
+                  </div>
+
+                  {/* Quick Test Buttons */}
+                  <div className="space-y-1.5 pt-1.5 border-t border-slate-200 dark:border-slate-800">
+                    <p className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                      Nghe thử ngay
+                    </p>
+                    <div className="grid grid-cols-3 gap-1.5">
+                      <button
+                        type="button"
+                        onClick={() => playCorrect({ isTest: true })}
+                        className="inline-flex flex-col items-center justify-center gap-1 rounded-xl border border-emerald-200 dark:border-emerald-500/35 bg-emerald-50 dark:bg-emerald-500/15 hover:bg-emerald-100 dark:hover:bg-emerald-500/25 px-2 py-2 text-[11px] font-bold text-emerald-800 dark:text-emerald-200 transition active:scale-95"
+                      >
+                        <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+                        <span>Đúng</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => playWrong({ isTest: true })}
+                        className="inline-flex flex-col items-center justify-center gap-1 rounded-xl border border-rose-200 dark:border-rose-500/35 bg-rose-50 dark:bg-rose-500/15 hover:bg-rose-100 dark:hover:bg-rose-500/25 px-2 py-2 text-[11px] font-bold text-rose-800 dark:text-rose-200 transition active:scale-95"
+                      >
+                        <XCircle className="h-3.5 w-3.5 text-rose-600 dark:text-rose-400" />
+                        <span>Sai</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => playComplete({ isTest: true })}
+                        className="inline-flex flex-col items-center justify-center gap-1 rounded-xl border border-amber-200 dark:border-amber-500/35 bg-amber-50 dark:bg-amber-500/15 hover:bg-amber-100 dark:hover:bg-amber-500/25 px-2 py-2 text-[11px] font-bold text-amber-800 dark:text-amber-200 transition active:scale-95"
+                      >
+                        <Trophy className="h-3.5 w-3.5 text-amber-600 dark:text-amber-400" />
+                        <span>Xong</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Live Combo & Engine Footer */}
+                  <div className="flex items-center justify-between gap-2 pt-1.5 border-t border-slate-200 dark:border-slate-800 text-[10px] font-semibold text-slate-500 dark:text-slate-400">
+                    <span>
+                      {getLoadedCustomSfxCount() > 0
+                        ? `MP3 SFX (${getLoadedCustomSfxCount()}/5)`
+                        : 'Nhạc cụ Web Audio'}
+                    </span>
+                    {comboStreak >= 2 ? (
+                      <span className="font-extrabold text-amber-600 dark:text-amber-300">
+                        🔥 Combo x{comboStreak}
+                      </span>
+                    ) : (
+                      <span>Combo tăng cao độ</span>
+                    )}
+                  </div>
+                </div>
               )}
-            </button>
+            </div>
 
             <button
               type="button"
@@ -270,12 +480,24 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
 
             <div
-              className="flex items-center gap-1 rounded-xl border border-violet-500/30 bg-violet-500/10 px-2 sm:px-2.5 py-1.5 text-violet-300"
-              title="Điểm kinh nghiệm tích lũy"
+              key={xpBounceKey}
+              className={`relative flex items-center gap-1 rounded-xl border border-violet-500/30 bg-violet-500/10 px-2 sm:px-2.5 py-1.5 text-violet-300 ${
+                xpBounceKey > 0 ? 'animate-xp-bounce' : ''
+              }`}
+              title={
+                comboStreak >= 2
+                  ? `Điểm kinh nghiệm tích lũy • Đang chuỗi đúng x${comboStreak}`
+                  : 'Điểm kinh nghiệm tích lũy'
+              }
             >
               <Sparkles className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-violet-400" />
               <span className="text-xs sm:text-sm font-bold">{profile.xp}</span>
               <span className="hidden sm:inline text-[11px] text-violet-200/80">XP</span>
+              {milestoneToast !== null && (
+                <span className="pointer-events-none absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-amber-300 dark:border-amber-400/60 bg-amber-100 dark:bg-amber-500/90 px-2 py-0.5 text-[10px] font-black text-amber-900 dark:text-slate-950 shadow-md animate-fade-up">
+                  🔥 x{milestoneToast}!
+                </span>
+              )}
             </div>
 
             {/* Compact Daily Goal chip on tiny phones */}
@@ -479,9 +701,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
               {selectedFullWord?.definitionEn && (
                 <p className="mt-2 text-xs text-slate-300">{selectedFullWord.definitionEn}</p>
               )}
-              {selectedFullWord?.definitionVi && (
-                <p className="mt-1 text-xs text-slate-400 italic">{selectedFullWord.definitionVi}</p>
-              )}
+              {selectedFullWord?.definitionVi &&
+                selectedFullWord.definitionVi.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() !==
+                  (selectedFullWord.definitionEn || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() && (
+                  <p className="mt-1 text-xs text-slate-400 italic">{selectedFullWord.definitionVi}</p>
+                )}
             </div>
 
             {loadingDetail ? (
@@ -508,7 +732,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                               <Volume2 className="h-4 w-4" />
                             </button>
                           </div>
-                          <p className="mt-1 text-xs text-slate-400">{ex.vi}</p>
+                          {ex.vi &&
+                            ex.vi.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() !==
+                              ex.en.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() && (
+                              <p className="mt-1 text-xs text-slate-400">{ex.vi}</p>
+                            )}
                         </div>
                       ))}
                     </div>

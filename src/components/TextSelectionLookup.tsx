@@ -414,7 +414,13 @@ export const TextSelectionLookup: React.FC = () => {
   const displayDefEn = lookup?.fullWord?.definitionEn || lookup?.onlineData?.definitionEn || '';
   const displayExampleEn =
     lookup?.fullWord?.examples?.[0]?.en || lookup?.onlineData?.exampleEn || '';
-  const displayExampleVi = lookup?.fullWord?.examples?.[0]?.vi || '';
+  const rawExampleVi = lookup?.fullWord?.examples?.[0]?.vi || '';
+  const displayExampleVi =
+    rawExampleVi.trim() &&
+    rawExampleVi.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase() !==
+      displayExampleEn.trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase()
+      ? rawExampleVi
+      : '';
 
   const audioUrlUS = lookup?.fullWord?.audioUrlUS || lookup?.onlineData?.audioUrlUS;
   const audioUrlUK =

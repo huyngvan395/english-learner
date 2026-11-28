@@ -165,6 +165,14 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
     'Từ vựng mở rộng TOEIC';
   const displayMeaning = rawMeaning.replace(/^\[[^\]]+\]\s*/, '').trim();
 
+  // Safety net: never render duplicate English line if definitionVi === definitionEn or ex.vi === ex.en
+  const normCmp = (s?: string) => (s || '').trim().replace(/\s+/g, ' ').replace(/\.+$/, '').toLowerCase();
+  const hasDistinctDefVi = Boolean(
+    fullWord?.definitionVi &&
+      fullWord.definitionVi.trim() &&
+      normCmp(fullWord.definitionVi) !== normCmp(fullWord.definitionEn)
+  );
+
   const saved = isVocabTextSaved(displayWord);
   const relBadge = target.relationType ? RELATION_BADGE[target.relationType] : null;
 
@@ -292,7 +300,7 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
                 {fullWord.definitionEn}
               </p>
             )}
-            {fullWord?.definitionVi && (
+            {hasDistinctDefVi && fullWord?.definitionVi && (
               <p className="text-xs text-slate-600 dark:text-slate-400 italic leading-relaxed">
                 {fullWord.definitionVi}
               </p>
@@ -330,7 +338,7 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
                           <Volume2 className="h-4 w-4" />
                         </button>
                       </div>
-                      {ex.vi && (
+                      {ex.vi && normCmp(ex.vi) !== normCmp(ex.en) && (
                         <p className="text-xs italic text-slate-600 dark:text-slate-400 leading-relaxed">
                           {ex.vi}
                         </p>

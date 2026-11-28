@@ -1644,7 +1644,7 @@
           "pos": "v",
           "ipaUK": "/ɪn/",
           "ipaUS": "/ɪn/",
-          "meaning": "in",
+          "meaning": "vào",
           "definitionEn": "Into an object, an area or a substance.",
           "definitionVi": "Vào một vật, một khu vực hoặc một chất.",
           "examples": [
@@ -2612,7 +2612,7 @@
           "pos": "v",
           "ipaUK": "/duː/",
           "ipaUS": "/duː/",
-          "meaning": "do",
+          "meaning": "làm",
           "definitionEn": "Used to refer to actions that you do not mention by name or do not know about.",
           "definitionVi": "Dùng để chỉ những hành động mà bạn không nêu tên hoặc không biết.",
           "examples": [
@@ -2806,7 +2806,7 @@
           "pos": "n",
           "ipaUK": "/hi/",
           "ipaUS": "/hi/",
-          "meaning": "he",
+          "meaning": "anh ấy",
           "definitionEn": "A male person or animal that has already been mentioned or is easily identified.",
           "definitionVi": "Một người hoặc động vật nam đã được đề cập hoặc có thể dễ dàng xác định được.",
           "examples": [
@@ -3182,7 +3182,7 @@
           "pos": "v",
           "ipaUK": "/səʊ/",
           "ipaUS": "/səʊ/",
-          "meaning": "so",
+          "meaning": "đến vậy",
           "definitionEn": "To such a great degree.",
           "definitionVi": "Đến mức độ lớn như vậy.",
           "examples": [
@@ -31938,7 +31938,7 @@
             "hence": "do đó",
             "thence": "từ đó",
             "thus": "như vậy",
-            "so": "so"
+            "so": "vậy"
           }
         },
         {
