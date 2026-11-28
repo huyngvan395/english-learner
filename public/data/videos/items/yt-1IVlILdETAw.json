@@ -1,0 +1,652 @@
+{
+  "id": "yt-1IVlILdETAw",
+  "youtubeId": "1IVlILdETAw",
+  "titleEn": "What happens if you accidentally eat moldy food? - Josephine Wee",
+  "titleVi": "Chuyện gì sẽ xảy ra nếu bạn vô tình ăn phải đồ ăn mốc? - Josephine Wee",
+  "channel": "TED-Ed",
+  "channelSlug": "ted-ed",
+  "durationSec": 337,
+  "level": "B2",
+  "topic": "Khoa học & Công nghệ",
+  "sentenceCount": 59,
+  "wpm": 134,
+  "thumbnail": "https://i.ytimg.com/vi/1IVlILdETAw/hqdefault.jpg",
+  "featured": false,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.61,
+    "wpmScore": 2.66,
+    "vocabScore": 4.18,
+    "priorScore": 3.85,
+    "hardRatio": 0.227
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 7.09,
+      "end": 12.18,
+      "textEn": "You open your fridge to grab a snack and recoil at the scene before you.",
+      "textVi": "Bạn mở tủ lạnh lấy đồ ăn nhẹ rồi rùng mình nhìn cảnh tượng trước mặt.",
+      "wordCount": 15
+    },
+    {
+      "index": 1,
+      "start": 12.47,
+      "end": 18.01,
+      "textEn": "Strawberries coated in fuzz, green islands floating on your yogurt,",
+      "textVi": "Dâu tây phủ lông, những hòn đảo xanh nổi trên sữa chua,",
+      "wordCount": 10
+    },
+    {
+      "index": 2,
+      "start": 18.31,
+      "end": 21.23,
+      "textEn": "And bread growing a patchy, white beard.",
+      "textVi": "Và bánh mì mọc một bộ râu trắng loang lổ.",
+      "wordCount": 7
+    },
+    {
+      "index": 3,
+      "start": 21.68,
+      "end": 25.31,
+      "textEn": "But as your stomach growls, a question pops into your head:",
+      "textVi": "Nhưng khi bụng bạn réo, một câu hỏi lóe lên trong đầu:",
+      "wordCount": 11
+    },
+    {
+      "index": 4,
+      "start": 25.65,
+      "end": 29.86,
+      "textEn": "Surely you could eat around these masses of mold, right?",
+      "textVi": "Chắc chắn bạn có thể ăn quanh đám nấm mốc này, đúng không?",
+      "wordCount": 10
+    },
+    {
+      "index": 5,
+      "start": 31.19,
+      "end": 36.66,
+      "textEn": "Molds are a diverse group of fungi containing hundreds of thousands of species,",
+      "textVi": "Nấm mốc là một nhóm nấm đa dạng chứa hàng trăm ngàn loài,",
+      "wordCount": 13
+    },
+    {
+      "index": 6,
+      "start": 36.78,
+      "end": 39.66,
+      "textEn": "Only a fraction of which have been identified.",
+      "textVi": "Chỉ một phần nhỏ trong số đó được xác định.",
+      "wordCount": 8
+    },
+    {
+      "index": 7,
+      "start": 39.74,
+      "end": 42.04,
+      "textEn": "They're also everywhere.",
+      "textVi": "Chúng cũng có mặt ở khắp mọi nơi.",
+      "wordCount": 3
+    },
+    {
+      "index": 8,
+      "start": 42.08,
+      "end": 48.8,
+      "textEn": "Mold spores are all around you, constantly drifting through the air in search of the right landing place.",
+      "textVi": "Bào tử nấm mốc xuất hiện khắp nơi xung quanh bạn, liên tục bay lơ lửng trong không khí để tìm chỗ hạ cánh phù hợp.",
+      "wordCount": 18
+    },
+    {
+      "index": 9,
+      "start": 49.13,
+      "end": 55.18,
+      "textEn": "Specifically, they’re looking for a particular combination of temperature, moisture, and nutrients,",
+      "textVi": "Cụ thể, chúng tìm kiếm sự kết hợp đặc biệt giữa nhiệt độ, độ ẩm và dinh dưỡng,",
+      "wordCount": 13
+    },
+    {
+      "index": 10,
+      "start": 55.22,
+      "end": 58.64,
+      "textEn": "Most often found in soil, plants, and food.",
+      "textVi": "Thường được tìm thấy trong đất, thực vật và thực phẩm.",
+      "wordCount": 8
+    },
+    {
+      "index": 11,
+      "start": 58.89,
+      "end": 63.39,
+      "textEn": "This makes the produce aisle one of their favorite spots to settle down.",
+      "textVi": "Điều này khiến khu vực rau củ trở thành một trong những nơi họ yêu thích để nghỉ ngơi.",
+      "wordCount": 13
+    },
+    {
+      "index": 12,
+      "start": 63.89,
+      "end": 69.52,
+      "textEn": "After landing, they sprout a tube that becomes a network of branches called hyphae.",
+      "textVi": "Sau khi hạ cánh, chúng mọc ra một ống trở thành mạng lưới các nhánh gọi là sợi hyphae.",
+      "wordCount": 14
+    },
+    {
+      "index": 13,
+      "start": 69.73,
+      "end": 75.11,
+      "textEn": "These sprawl out through the food, releasing enzymes that break down their new host.",
+      "textVi": "Chúng lan rộng qua thức ăn, giải phóng enzyme để phân giải vật chủ mới.",
+      "wordCount": 14
+    },
+    {
+      "index": 14,
+      "start": 75.11,
+      "end": 79.7,
+      "textEn": "Into easily digestible fats, sugars, and amino acids.",
+      "textVi": "Thành chất béo, đường và axit amin dễ tiêu hóa.",
+      "wordCount": 8
+    },
+    {
+      "index": 15,
+      "start": 79.99,
+      "end": 85.0,
+      "textEn": "As the mold spreads, it builds structures that make and release fresh spores.",
+      "textVi": "Khi nấm lan rộng, nó xây dựng các cấu trúc tạo ra và giải phóng bào tử mới.",
+      "wordCount": 13
+    },
+    {
+      "index": 16,
+      "start": 85.0,
+      "end": 87.83,
+      "textEn": "To start the cycle all over again.",
+      "textVi": "Để bắt đầu lại chu kỳ đó.",
+      "wordCount": 7
+    },
+    {
+      "index": 17,
+      "start": 88.46,
+      "end": 92.63,
+      "textEn": "Most food molds complete this process in 1 to 3 days,",
+      "textVi": "Hầu hết nấm mốc thực phẩm hoàn thành quá trình này trong 1 đến 3 ngày,",
+      "wordCount": 11
+    },
+    {
+      "index": 18,
+      "start": 92.75,
+      "end": 96.13,
+      "textEn": "But the exact timeline varies from mold to mold.",
+      "textVi": "Nhưng thời gian cụ thể lại khác nhau tùy từng loại mốc.",
+      "wordCount": 9
+    },
+    {
+      "index": 19,
+      "start": 96.47,
+      "end": 101.93,
+      "textEn": "And differences between hosts determine what species can take root in the first place.",
+      "textVi": "Và sự khác biệt giữa các vật chủ quyết định loài nào có thể bén rễ ngay từ đầu.",
+      "wordCount": 14
+    },
+    {
+      "index": 20,
+      "start": 102.27,
+      "end": 109.23,
+      "textEn": "Every food has a specific mix of carbohydrates, proteins, fats, vitamins, and minerals.",
+      "textVi": "Mỗi loại thực phẩm đều có một hỗn hợp riêng biệt gồm carbohydrate, protein, chất béo, vitamin và khoáng chất.",
+      "wordCount": 13
+    },
+    {
+      "index": 21,
+      "start": 109.23,
+      "end": 111.98,
+      "textEn": "That make it compatible with different molds.",
+      "textVi": "Điều đó giúp nó tương thích với các khuôn khác nhau.",
+      "wordCount": 7
+    },
+    {
+      "index": 22,
+      "start": 112.53,
+      "end": 116.15,
+      "textEn": "For example, berries’ high moisture and sugar levels.",
+      "textVi": "Ví dụ, độ ẩm cao và lượng đường của quả mọng.",
+      "wordCount": 8
+    },
+    {
+      "index": 23,
+      "start": 116.15,
+      "end": 121.78,
+      "textEn": "Suit the needs of Botrytis cinerea, Penicillium, and Cladosporium.",
+      "textVi": "Phù hợp với nhu cầu của Botrytis cinerea, Penicillium và Cladosporium.",
+      "wordCount": 9
+    },
+    {
+      "index": 24,
+      "start": 121.95,
+      "end": 126.37,
+      "textEn": "Which are often found on berry plants, fruits, and nearby soil.",
+      "textVi": "Chúng thường được tìm thấy trên cây quả mọng, trái cây và đất lân cận.",
+      "wordCount": 11
+    },
+    {
+      "index": 25,
+      "start": 126.79,
+      "end": 132.42,
+      "textEn": "Acidic foods like tomatoes are commonly colonized by Alternaria alternata,",
+      "textVi": "Thực phẩm có tính axit như cà chua thường bị Alternaria alternata xâm nhập,",
+      "wordCount": 10
+    },
+    {
+      "index": 26,
+      "start": 132.75,
+      "end": 137.34,
+      "textEn": "Which have pumps in their cell walls that push acid out of their systems.",
+      "textVi": "Chúng có các bơm trong thành tế bào đẩy axit ra khỏi hệ thống.",
+      "wordCount": 14
+    },
+    {
+      "index": 27,
+      "start": 138.01,
+      "end": 141.76,
+      "textEn": "And bread is beloved by Rhizopus stolonifer.",
+      "textVi": "Và bánh mì được Rhizopus stolonifer yêu thích.",
+      "wordCount": 7
+    },
+    {
+      "index": 28,
+      "start": 142.1,
+      "end": 145.72,
+      "textEn": "This mold is well-suited to the food’s high starch content,",
+      "textVi": "Loại nấm này rất phù hợp với hàm lượng tinh bột cao trong thực phẩm,",
+      "wordCount": 12
+    },
+    {
+      "index": 29,
+      "start": 145.93,
+      "end": 149.56,
+      "textEn": "Which it breaks down with the help of a specialized enzyme.",
+      "textVi": "Enzyme này phân giải nhờ sự trợ giúp của một loại enzyme chuyên dụng.",
+      "wordCount": 11
+    },
+    {
+      "index": 30,
+      "start": 149.9,
+      "end": 154.48,
+      "textEn": "Whatever mold a food attracts, it doesn't just grow on the surface.",
+      "textVi": "Bất cứ loại nấm mốc nào mà thực phẩm thu hút, nó không chỉ mọc trên bề mặt.",
+      "wordCount": 12
+    },
+    {
+      "index": 31,
+      "start": 154.78,
+      "end": 162.66,
+      "textEn": "Like most fungi, mold develops a root-like structure called mycelium, that spreads deep into the host.",
+      "textVi": "Giống như hầu hết các loại nấm, nấm mốc phát triển cấu trúc giống rễ gọi là sợi nấm, lan sâu vào bên trong vật chủ.",
+      "wordCount": 17
+    },
+    {
+      "index": 32,
+      "start": 162.91,
+      "end": 168.08,
+      "textEn": "This is why food safety experts recommend tossing moldy items altogether,",
+      "textVi": "Đó là lý do các chuyên gia an toàn thực phẩm khuyên nên vứt bỏ hoàn toàn các vật bị nấm mốc,",
+      "wordCount": 11
+    },
+    {
+      "index": 33,
+      "start": 168.29,
+      "end": 173.34,
+      "textEn": "Since removing visible mold doesn't get rid of the mycelium inside.",
+      "textVi": "Bởi vì việc loại bỏ nấm mốc nhìn thấy không loại bỏ được sợi nấm bên trong.",
+      "wordCount": 11
+    },
+    {
+      "index": 34,
+      "start": 173.79,
+      "end": 179.88,
+      "textEn": "Even if you use high temperatures to kill a mold’s body, its spores can still survive—",
+      "textVi": "Ngay cả khi bạn dùng nhiệt độ cao để tiêu diệt cơ thể nấm mốc, bào tử của nó vẫn có thể tồn tại—",
+      "wordCount": 17
+    },
+    {
+      "index": 35,
+      "start": 179.88,
+      "end": 183.85,
+      "textEn": "Going dormant until the conditions are right to resurface.",
+      "textVi": "Ngủ đông cho đến khi điều kiện thích hợp để nổi lên.",
+      "wordCount": 9
+    },
+    {
+      "index": 36,
+      "start": 184.26,
+      "end": 189.31,
+      "textEn": "And while cold can kill some molds, others can survive subzero temperatures.",
+      "textVi": "Và trong khi lạnh có thể tiêu diệt một số loại nấm mốc, những loại khác có thể sống sót dưới 0 độ.",
+      "wordCount": 12
+    },
+    {
+      "index": 37,
+      "start": 189.44,
+      "end": 191.98,
+      "textEn": "The cold generally slows their growth,",
+      "textVi": "Cái lạnh thường làm chậm sự phát triển của chúng,",
+      "wordCount": 6
+    },
+    {
+      "index": 38,
+      "start": 191.98,
+      "end": 196.86,
+      "textEn": "So putting produce in the fridge can stretch its lifespan for a few extra days.",
+      "textVi": "Vì vậy, cho rau củ vào tủ lạnh có thể kéo dài tuổi thọ thêm vài ngày.",
+      "wordCount": 15
+    },
+    {
+      "index": 39,
+      "start": 197.32,
+      "end": 203.16,
+      "textEn": "But other molds thrive in the damp darkness of a condensation-filled crisper.",
+      "textVi": "Nhưng những loại nấm mốc khác lại phát triển tốt trong bóng tối ẩm ướt của tủ lạnh ngưng tụ.",
+      "wordCount": 13
+    },
+    {
+      "index": 40,
+      "start": 203.66,
+      "end": 207.41,
+      "textEn": "So if moldy food is unavoidable, is it at least edible?",
+      "textVi": "Vậy nếu thực phẩm bị mốc là không thể tránh khỏi, thì ít nhất nó có thể ăn được không?",
+      "wordCount": 11
+    },
+    {
+      "index": 41,
+      "start": 207.83,
+      "end": 212.38,
+      "textEn": "Well, molds exist in a spectrum from harmful to helpful,",
+      "textVi": "Chà, nấm mốc tồn tại từ có hại đến hữu ích,",
+      "wordCount": 10
+    },
+    {
+      "index": 42,
+      "start": 212.46,
+      "end": 217.88,
+      "textEn": "And the so-called spoilage molds on your aging groceries are mostly harmless.",
+      "textVi": "Và những loại nấm mốc hư hỏng trên thực phẩm cũ của bạn hầu như không gây hại.",
+      "wordCount": 13
+    },
+    {
+      "index": 43,
+      "start": 218.21,
+      "end": 224.89,
+      "textEn": "They can trigger allergic reactions like any other food, and eating large quantities can cause vomiting and diarrhea.",
+      "textVi": "Chúng có thể gây ra phản ứng dị ứng như bất kỳ loại thực phẩm nào khác, và ăn nhiều có thể gây nôn mửa và tiêu chảy.",
+      "wordCount": 18
+    },
+    {
+      "index": 44,
+      "start": 225.26,
+      "end": 230.52,
+      "textEn": "But for most people, accidentally taking a bite of something moldy won’t make them seriously sick.",
+      "textVi": "Nhưng với hầu hết mọi người, việc vô tình cắn phải thứ gì đó có mốc sẽ không làm họ bị bệnh nặng.",
+      "wordCount": 17
+    },
+    {
+      "index": 45,
+      "start": 231.02,
+      "end": 236.11,
+      "textEn": "And they’re unlikely to take a second bite since mold tastes bad.",
+      "textVi": "Và chúng khó có thể cắn thêm lần nữa vì nấm mốc có vị rất tệ.",
+      "wordCount": 13
+    },
+    {
+      "index": 46,
+      "start": 236.36,
+      "end": 240.49,
+      "textEn": "Our sense of taste likely evolved as a survival mechanism,",
+      "textVi": "Khả năng vị giác của chúng ta có lẽ đã tiến hóa như một cơ chế sinh tồn,",
+      "wordCount": 10
+    },
+    {
+      "index": 47,
+      "start": 240.49,
+      "end": 246.2,
+      "textEn": "Helping early humans identify tasty, nutritious food and avoid deadly toxins.",
+      "textVi": "Giúp con người thời sơ khai nhận biết thực phẩm ngon, bổ dưỡng và tránh các độc tố chết người.",
+      "wordCount": 11
+    },
+    {
+      "index": 48,
+      "start": 246.45,
+      "end": 251.54,
+      "textEn": "In fact, this same evolutionary trait might be why some do enjoy the molds.",
+      "textVi": "Thực tế, đặc điểm tiến hóa này có thể là lý do khiến một số người thích các khuôn mẫu.",
+      "wordCount": 14
+    },
+    {
+      "index": 49,
+      "start": 251.54,
+      "end": 256.08,
+      "textEn": "In blue cheese, soy sauce, miso, and many cured foods.",
+      "textVi": "Trong phô mai xanh, nước tương, miso và nhiều loại thực phẩm ướp muối.",
+      "wordCount": 10
+    },
+    {
+      "index": 50,
+      "start": 256.33,
+      "end": 263.76,
+      "textEn": "Over generations, humans have essentially domesticated these molds, breeding them for flavor and other culinary purposes.",
+      "textVi": "Qua nhiều thế hệ, con người về cơ bản đã thuần hóa các khuôn này, lai tạo chúng để tạo hương vị và các mục đích nấu ăn khác.",
+      "wordCount": 16
+    },
+    {
+      "index": 51,
+      "start": 264.3,
+      "end": 269.22,
+      "textEn": "Outside your kitchen, there is a tiny group of molds worth worrying about.",
+      "textVi": "Bên ngoài bếp của bạn, có một nhóm nhỏ nấm mốc đáng để bạn lo lắng.",
+      "wordCount": 13
+    },
+    {
+      "index": 52,
+      "start": 269.68,
+      "end": 275.44,
+      "textEn": "When competing for space on a host, some species will engage in chemical warfare—",
+      "textVi": "Khi cạnh tranh không gian trên vật chủ, một số loài sẽ tham gia vào chiến tranh hóa học—",
+      "wordCount": 14
+    },
+    {
+      "index": 53,
+      "start": 275.65,
+      "end": 282.19,
+      "textEn": "Producing colorful pigments, strong aromas, and dangerous compounds called mycotoxins.",
+      "textVi": "Tạo ra các sắc tố rực rỡ, hương thơm mạnh mẽ và các hợp chất nguy hiểm gọi là mycotoxin.",
+      "wordCount": 10
+    },
+    {
+      "index": 54,
+      "start": 282.49,
+      "end": 285.87,
+      "textEn": "For example, a small group of molds that can grow on crops.",
+      "textVi": "Ví dụ, một nhóm nhỏ nấm mốc có thể phát triển trên cây trồng.",
+      "wordCount": 12
+    },
+    {
+      "index": 55,
+      "start": 285.87,
+      "end": 294.16,
+      "textEn": "Like barley, wheat, corn, and peanuts can produce aflatoxin, which is known to cause liver and lung cancer.",
+      "textVi": "Giống như lúa mạch, lúa mì, ngô và đậu phộng có thể sản xuất aflatoxin, được biết là gây ung thư gan và phổi.",
+      "wordCount": 18
+    },
+    {
+      "index": 56,
+      "start": 294.5,
+      "end": 302.72,
+      "textEn": "Fortunately, most countries perform rigorous food safety testing to ensure aflatoxin never reaches the public.",
+      "textVi": "May mắn thay, hầu hết các quốc gia đều thực hiện kiểm tra an toàn thực phẩm nghiêm ngặt để đảm bảo aflatoxin không bao giờ đến với công chúng.",
+      "wordCount": 15
+    },
+    {
+      "index": 57,
+      "start": 303.05,
+      "end": 309.01,
+      "textEn": "Despite these malevolent mycotoxins, most of the molds you encounter aren’t something to fear.",
+      "textVi": "Mặc dù có những độc tố mycotoxin độc hại này, hầu hết các loại nấm mốc bạn gặp phải không phải là thứ đáng sợ.",
+      "wordCount": 15
+    },
+    {
+      "index": 58,
+      "start": 309.1,
+      "end": 314.81,
+      "textEn": "And with this mindset, your fridge might feel a little less frightening and a lot more...",
+      "textVi": "Và với tư duy này, tủ lạnh của bạn có thể sẽ bớt đáng sợ hơn và trở nên dễ dàng hơn...",
+      "wordCount": 16
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 0,
+      "start": 7.09,
+      "end": 12.18,
+      "prompt": "You open your fridge to grab a ____ and recoil at the scene before you.",
+      "sentenceVi": "Bạn mở tủ lạnh lấy đồ ăn nhẹ rồi rùng mình nhìn cảnh tượng trước mặt.",
+      "answer": "snack",
+      "options": [
+        "listener",
+        "theory",
+        "genius",
+        "snack"
+      ],
+      "meaningVi": "bữa ăn nhẹ",
+      "cefr": "B1",
+      "ipa": "/snˈæk/",
+      "pos": "n"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 8,
+      "start": 42.08,
+      "end": 48.8,
+      "prompt": "Mold spores are all around you, ____ drifting through the air in search of the right landing place.",
+      "sentenceVi": "Bào tử nấm mốc xuất hiện khắp nơi xung quanh bạn, liên tục bay lơ lửng trong không khí để tìm chỗ hạ cánh phù hợp.",
+      "answer": "constantly",
+      "options": [
+        "constantly",
+        "strongly",
+        "retrieve",
+        "additionally"
+      ],
+      "meaningVi": "liên tục",
+      "cefr": "B2",
+      "ipa": "/ˈkɑːnstəntli/",
+      "pos": "v"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 11,
+      "start": 58.89,
+      "end": 63.39,
+      "prompt": "This makes the produce aisle one of their favorite spots to ____ down.",
+      "sentenceVi": "Điều này khiến khu vực rau củ trở thành một trong những nơi họ yêu thích để nghỉ ngơi.",
+      "answer": "settle",
+      "options": [
+        "grind",
+        "settle",
+        "seldom",
+        "remain"
+      ],
+      "meaningVi": "giải quyết, thanh toán, dàn xếp",
+      "cefr": "B2",
+      "ipa": "/ˈsetl/",
+      "pos": "v"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 15,
+      "start": 79.99,
+      "end": 85.0,
+      "prompt": "As the mold spreads, it builds structures that make and ____ fresh spores.",
+      "sentenceVi": "Khi nấm lan rộng, nó xây dựng các cấu trúc tạo ra và giải phóng bào tử mới.",
+      "answer": "release",
+      "options": [
+        "vote",
+        "slide",
+        "grocery",
+        "release"
+      ],
+      "meaningVi": "phát hành, công bố; sự giải phóng",
+      "cefr": "B1",
+      "ipa": "/rɪˈliːs/",
+      "pos": "n"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 25,
+      "start": 126.79,
+      "end": 132.42,
+      "prompt": "Acidic foods like tomatoes are ____ colonized by Alternaria alternata,",
+      "sentenceVi": "Thực phẩm có tính axit như cà chua thường bị Alternaria alternata xâm nhập,",
+      "answer": "commonly",
+      "options": [
+        "relate",
+        "commonly",
+        "equip",
+        "shortly"
+      ],
+      "meaningVi": "thông thường",
+      "cefr": "B2",
+      "ipa": "/ˈkɑːmənli/",
+      "pos": "v"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 41,
+      "start": 207.83,
+      "end": 212.38,
+      "prompt": "Well, molds exist in a ____ from harmful to helpful,",
+      "sentenceVi": "Chà, nấm mốc tồn tại từ có hại đến hữu ích,",
+      "answer": "spectrum",
+      "options": [
+        "violation",
+        "spectrum",
+        "pledge",
+        "conversion"
+      ],
+      "meaningVi": "quang phổ",
+      "cefr": "C1",
+      "ipa": "/ˈspektrəm/",
+      "pos": "n"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 50,
+      "start": 256.33,
+      "end": 263.76,
+      "prompt": "Over generations, humans have ____ domesticated these molds, breeding them for flavor and other culinary purposes.",
+      "sentenceVi": "Qua nhiều thế hệ, con người về cơ bản đã thuần hóa các khuôn này, lai tạo chúng để tạo hương vị và các mục đích nấu ăn khác.",
+      "answer": "essentially",
+      "options": [
+        "reschedule",
+        "register",
+        "negotiate",
+        "essentially"
+      ],
+      "meaningVi": "về cơ bản",
+      "cefr": "B2",
+      "ipa": "/ɪˈsenʃəli/",
+      "pos": "v"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 52,
+      "start": 269.68,
+      "end": 275.44,
+      "prompt": "When competing for space on a host, some species will ____ in chemical warfare—",
+      "sentenceVi": "Khi cạnh tranh không gian trên vật chủ, một số loài sẽ tham gia vào chiến tranh hóa học—",
+      "answer": "engage",
+      "options": [
+        "dispose",
+        "shortly",
+        "engage",
+        "broaden"
+      ],
+      "meaningVi": "thuê (dịch vụ), tham gia, thu hút",
+      "cefr": "B2",
+      "ipa": "/ɪnˈɡeɪdʒ/",
+      "pos": "v"
+    }
+  ]
+}

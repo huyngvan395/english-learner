@@ -6,6 +6,8 @@ import {
   ToeicExamHistoryItem,
   UserNote,
   UserProfileStats,
+  VideoDetailItem,
+  VideoProgressRecord,
   VocabWord,
   WordProgress,
   WritingSubmissionRecord,
@@ -27,6 +29,8 @@ export const PROGRESS_STORAGE_KEYS = {
   HIGHLIGHTS: 'tmh_reading_highlights_v1',
   READING_PROGRESS: 'tmh_reading_progress_v1',
   LISTENING_PROGRESS: 'tmh_listening_progress_v1',
+  VIDEO_PROGRESS: 'tmh_video_progress_v1',
+  CUSTOM_VIDEOS: 'tmh_custom_videos_v1',
   WRONG_QUESTIONS: 'tmh_wrong_questions_v1',
   EXAM_HISTORY: 'tmh_toeic_exam_history_v1',
   WRITING_HISTORY: 'tmh_writing_history_v1',
@@ -53,6 +57,8 @@ export interface LearningProgressSnapshot {
   readingHighlights: Record<string, string[]>;
   readingProgress: Record<string, ReadingQuestionProgress>;
   listeningProgress: Record<string, ListeningQuestionProgress>;
+  videoProgress: Record<string, VideoProgressRecord>;
+  customVideos: VideoDetailItem[];
   wrongQuestions: WrongQuestionRecord[];
   examHistory: ToeicExamHistoryItem[];
   writingHistory: WritingSubmissionRecord[];
@@ -77,6 +83,8 @@ interface UserProgressRow {
   listening_progress: {
     attempts?: AttemptRecord[];
     progress?: Record<string, ListeningQuestionProgress>;
+    videoProgress?: Record<string, VideoProgressRecord>;
+    customVideos?: VideoDetailItem[];
   } | null;
   writing_history: {
     submissions?: WritingSubmissionRecord[];
@@ -109,6 +117,8 @@ export function createEmptySnapshot(): LearningProgressSnapshot {
     readingHighlights: {},
     readingProgress: {},
     listeningProgress: {},
+    videoProgress: {},
+    customVideos: [],
     wrongQuestions: [],
     examHistory: [],
     writingHistory: [],
@@ -126,6 +136,8 @@ export function hasMeaningfulProgress(snap: LearningProgressSnapshot): boolean {
     Object.keys(snap.readingHighlights).length > 0 ||
     Object.keys(snap.readingProgress).length > 0 ||
     Object.keys(snap.listeningProgress).length > 0 ||
+    Object.keys(snap.videoProgress).length > 0 ||
+    snap.customVideos.length > 0 ||
     snap.wrongQuestions.length > 0 ||
     snap.examHistory.length > 0 ||
     snap.writingHistory.length > 0 ||
@@ -227,6 +239,13 @@ function rowToSnapshot(row: UserProgressRow): LearningProgressSnapshot {
       row.listening_progress?.progress && typeof row.listening_progress.progress === 'object'
         ? row.listening_progress.progress
         : {},
+    videoProgress:
+      row.listening_progress?.videoProgress && typeof row.listening_progress.videoProgress === 'object'
+        ? row.listening_progress.videoProgress
+        : {},
+    customVideos: Array.isArray(row.listening_progress?.customVideos)
+      ? row.listening_progress!.customVideos!
+      : [],
     wrongQuestions: Array.isArray(row.toeic_history?.wrongQuestions)
       ? row.toeic_history!.wrongQuestions!
       : [],
@@ -263,6 +282,8 @@ function snapshotToRow(userId: string, snap: LearningProgressSnapshot): UserProg
     listening_progress: {
       attempts: listeningAttempts.slice(0, 80),
       progress: snap.listeningProgress,
+      videoProgress: snap.videoProgress,
+      customVideos: snap.customVideos.slice(0, 20),
     },
     writing_history: {
       submissions: snap.writingHistory.slice(0, 100),
@@ -358,6 +379,37 @@ export function mergeProgressSnapshots(
     }
   }
 
+  // 6c. Video practice progress — union of completed/shadowed sentences, max quiz score, newest pointer
+  const videoProgress: Record<string, VideoProgressRecord> = { ...(cloud.videoProgress || {}) };
+  for (const [vid, lv] of Object.entries(local.videoProgress || {})) {
+    const cv = videoProgress[vid];
+    if (!cv) {
+      videoProgress[vid] = lv;
+    } else {
+      const winner = (lv.lastStudiedAt || 0) >= (cv.lastStudiedAt || 0) ? lv : cv;
+      videoProgress[vid] = {
+        ...winner,
+        completedSentences: Array.from(
+          new Set([...(cv.completedSentences || []), ...(lv.completedSentences || [])])
+        ).sort((a, b) => a - b),
+        shadowedSentences: Array.from(
+          new Set([...(cv.shadowedSentences || []), ...(lv.shadowedSentences || [])])
+        ).sort((a, b) => a - b),
+        quizBestScore: Math.max(cv.quizBestScore ?? 0, lv.quizBestScore ?? 0) || undefined,
+        quizTotal: lv.quizTotal || cv.quizTotal,
+        favorite: Boolean(cv.favorite || lv.favorite),
+        lastStudiedAt: Math.max(cv.lastStudiedAt || 0, lv.lastStudiedAt || 0),
+      };
+    }
+  }
+
+  // 6d. Custom user-pasted YouTube videos — deduplicated by id
+  const customVideoMap = new Map<string, VideoDetailItem>();
+  for (const v of [...(cloud.customVideos || []), ...(local.customVideos || [])]) {
+    if (v?.id) customVideoMap.set(v.id, v);
+  }
+  const customVideos = Array.from(customVideoMap.values()).slice(0, 20);
+
   // 7. Wrong questions — deduplicated by id, keep newest & max wrongCount
   const wrongMap = new Map<string, WrongQuestionRecord>();
   for (const w of cloud.wrongQuestions) {
@@ -439,6 +491,8 @@ export function mergeProgressSnapshots(
     readingHighlights,
     readingProgress,
     listeningProgress,
+    videoProgress,
+    customVideos,
     wrongQuestions,
     examHistory,
     writingHistory,

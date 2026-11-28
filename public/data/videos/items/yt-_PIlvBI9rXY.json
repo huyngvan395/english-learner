@@ -1,0 +1,852 @@
+{
+  "id": "yt-_PIlvBI9rXY",
+  "youtubeId": "_PIlvBI9rXY",
+  "titleEn": "How reading shapes your brain ⏲️ 6 Minute English",
+  "titleVi": "Cách đọc hình thành não bộ ⏲️ của bạn 6 Minute English",
+  "channel": "BBC Learning English",
+  "channelSlug": "bbc-learning-english",
+  "durationSec": 374,
+  "level": "B1",
+  "topic": "Khoa học & Công nghệ",
+  "sentenceCount": 84,
+  "wpm": 148,
+  "thumbnail": "https://i.ytimg.com/vi/_PIlvBI9rXY/hqdefault.jpg",
+  "featured": false,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.09,
+    "wpmScore": 3.22,
+    "vocabScore": 3.06,
+    "priorScore": 3.0,
+    "hardRatio": 0.157
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 8.32,
+      "end": 12.85,
+      "textEn": "Hello. Welcome to 6 Minute English from BBC Learning English.",
+      "textVi": "Xin chào. Chào mừng bạn đến với 6 Minute English từ BBC Learning English.",
+      "wordCount": 10
+    },
+    {
+      "index": 1,
+      "start": 12.85,
+      "end": 14.8,
+      "textEn": "I'm Becca. And I'm Georgie.",
+      "textVi": "Tôi là Becca. Và tôi là Georgie.",
+      "wordCount": 5
+    },
+    {
+      "index": 2,
+      "start": 14.8,
+      "end": 23.08,
+      "textEn": "Remember, you can find all this episode's vocabulary along with a transcript and worksheet on our website, bbclearningenglish.com.",
+      "textVi": "Hãy nhớ, bạn có thể tìm thấy tất cả từ vựng của tập này cùng với bản ghi và phiếu bài tập trên trang web của chúng tôi, bbclearningenglish.com.",
+      "wordCount": 19
+    },
+    {
+      "index": 3,
+      "start": 23.08,
+      "end": 25.08,
+      "textEn": "Now, Becca, do you read a lot?",
+      "textVi": "Becca, con có đọc nhiều không?",
+      "wordCount": 7
+    },
+    {
+      "index": 4,
+      "start": 25.08,
+      "end": 27.16,
+      "textEn": "Hmm, I don't read often.",
+      "textVi": "Ừm, con không đọc thường xuyên.",
+      "wordCount": 5
+    },
+    {
+      "index": 5,
+      "start": 27.16,
+      "end": 29.52,
+      "textEn": "I just feel like I don't have the time, Georgie.",
+      "textVi": "Tôi chỉ cảm thấy mình không có thời gian, Georgie.",
+      "wordCount": 10
+    },
+    {
+      "index": 6,
+      "start": 29.52,
+      "end": 30.72,
+      "textEn": "How about yourself?",
+      "textVi": "Còn bạn thì sao?",
+      "wordCount": 3
+    },
+    {
+      "index": 7,
+      "start": 30.72,
+      "end": 34.92,
+      "textEn": "I would love to read more, but I don't read very much at the moment.",
+      "textVi": "Tôi rất muốn đọc thêm, nhưng hiện tại tôi không đọc nhiều.",
+      "wordCount": 15
+    },
+    {
+      "index": 8,
+      "start": 34.92,
+      "end": 40.76,
+      "textEn": "I read mostly before bed because I feel like it helps me relax and go to sleep.",
+      "textVi": "Tôi chủ yếu đọc trước khi đi ngủ vì tôi cảm thấy nó giúp tôi thư giãn và đi ngủ.",
+      "wordCount": 17
+    },
+    {
+      "index": 9,
+      "start": 40.76,
+      "end": 43.12,
+      "textEn": "And today we're talking all about reading.",
+      "textVi": "Và hôm nay chúng ta sẽ nói về việc đọc sách.",
+      "wordCount": 7
+    },
+    {
+      "index": 10,
+      "start": 43.12,
+      "end": 46.84,
+      "textEn": "We'll be hearing from some experts about how reading can change our brains,",
+      "textVi": "Chúng ta sẽ nghe từ một số chuyên gia về cách đọc có thể thay đổi não bộ,",
+      "wordCount": 13
+    },
+    {
+      "index": 11,
+      "start": 46.84,
+      "end": 50.84,
+      "textEn": "And as usual we'll be learning some useful new words and phrases.",
+      "textVi": "Và như thường lệ, chúng tôi sẽ học được một số từ và cụm từ mới hữu ích.",
+      "wordCount": 12
+    },
+    {
+      "index": 12,
+      "start": 50.84,
+      "end": 53.12,
+      "textEn": "Let's start with a quiz question.",
+      "textVi": "Hãy bắt đầu với một câu hỏi trắc nghiệm.",
+      "wordCount": 6
+    },
+    {
+      "index": 13,
+      "start": 53.12,
+      "end": 56.32,
+      "textEn": "The longest novel in the world is widely thought to be.",
+      "textVi": "Cuốn tiểu thuyết dài nhất thế giới được cho là như vậy.",
+      "wordCount": 11
+    },
+    {
+      "index": 14,
+      "start": 56.32,
+      "end": 64.52,
+      "textEn": "By French author Marcel Proust, a book which, when translated into English, means Remembrance of Things Past.",
+      "textVi": "Tác giả người Pháp Marcel Proust, một cuốn sách mà khi dịch sang tiếng Anh có nghĩa là Ký ức về những điều đã qua.",
+      "wordCount": 17
+    },
+    {
+      "index": 15,
+      "start": 64.52,
+      "end": 67.2,
+      "textEn": "But how many words does the book contain?",
+      "textVi": "Nhưng cuốn sách có bao nhiêu từ?",
+      "wordCount": 8
+    },
+    {
+      "index": 16,
+      "start": 67.2,
+      "end": 74.88,
+      "textEn": "Is it a) 130,000, b) 1.3 million, or c) 13 million?",
+      "textVi": "Là a) 130.000, b) 1,3 triệu, hay c) 13 triệu?",
+      "wordCount": 13
+    },
+    {
+      "index": 17,
+      "start": 74.88,
+      "end": 77.24,
+      "textEn": "OK. The longest novel in the world.",
+      "textVi": "Được rồi. Cuốn tiểu thuyết dài nhất thế giới.",
+      "wordCount": 7
+    },
+    {
+      "index": 18,
+      "start": 77.24,
+      "end": 84.08,
+      "textEn": "I still think 13 million words sounds too many, so I'm going to go with b) 1.3 million.",
+      "textVi": "Tôi vẫn nghĩ 13 triệu từ nghe có vẻ quá nhiều, nên tôi sẽ chọn b) 1,3 triệu.",
+      "wordCount": 19
+    },
+    {
+      "index": 19,
+      "start": 84.08,
+      "end": 86.8,
+      "textEn": "Alright. We'll find out at the end of the programme.",
+      "textVi": "Được rồi. Chúng ta sẽ biết vào cuối chương trình.",
+      "wordCount": 10
+    },
+    {
+      "index": 20,
+      "start": 86.8,
+      "end": 90.32,
+      "textEn": "Now, we might think of reading as like speaking.",
+      "textVi": "Bây giờ, chúng ta có thể nghĩ việc đọc giống như đang nói.",
+      "wordCount": 9
+    },
+    {
+      "index": 21,
+      "start": 90.32,
+      "end": 93.48,
+      "textEn": "We're born with the potential to do it and then we learn.",
+      "textVi": "Chúng ta sinh ra đã có tiềm năng làm được điều đó rồi sau đó học hỏi.",
+      "wordCount": 12
+    },
+    {
+      "index": 22,
+      "start": 93.48,
+      "end": 99.32,
+      "textEn": "It's natural. If something is natural, it's something you were born with or that comes from nature.",
+      "textVi": "Nó là tự nhiên. Nếu điều gì đó là tự nhiên, đó là thứ bạn sinh ra đã có hoặc đến từ tự nhiên.",
+      "wordCount": 17
+    },
+    {
+      "index": 23,
+      "start": 99.32,
+      "end": 105.72,
+      "textEn": "But Maryanne Wolf, author of the book Reader Come Home, says that this isn't true.",
+      "textVi": "Nhưng Maryanne Wolf, tác giả cuốn sách Reader Come Home, nói rằng điều này không đúng.",
+      "wordCount": 15
+    },
+    {
+      "index": 24,
+      "start": 105.72,
+      "end": 112.68,
+      "textEn": "We think of language as natural, and reading is written language so it must be natural.",
+      "textVi": "Chúng ta nghĩ ngôn ngữ là tự nhiên, và đọc là ngôn ngữ viết nên nó phải tự nhiên.",
+      "wordCount": 16
+    },
+    {
+      "index": 25,
+      "start": 112.68,
+      "end": 113.84,
+      "textEn": "But it isn't.",
+      "textVi": "Nhưng không phải vậy.",
+      "wordCount": 3
+    },
+    {
+      "index": 26,
+      "start": 113.84,
+      "end": 116.6,
+      "textEn": "It isn't natural at all.",
+      "textVi": "Điều đó hoàn toàn không tự nhiên.",
+      "wordCount": 5
+    },
+    {
+      "index": 27,
+      "start": 116.6,
+      "end": 121.24,
+      "textEn": "Scientific studies suggest that when we're born, our brains already have.",
+      "textVi": "Các nghiên cứu khoa học cho thấy khi chúng ta sinh ra, bộ não của chúng ta đã có rồi.",
+      "wordCount": 11
+    },
+    {
+      "index": 28,
+      "start": 121.24,
+      "end": 126.2,
+      "textEn": "The networks that allow our eyes to see and our vocal cords to produce sounds,",
+      "textVi": "Các mạng lưới cho phép mắt chúng ta nhìn và dây thanh quản tạo ra âm thanh,",
+      "wordCount": 15
+    },
+    {
+      "index": 29,
+      "start": 126.2,
+      "end": 129.04,
+      "textEn": "But not with the pathways we need to read.",
+      "textVi": "Nhưng không phải với những con đường chúng ta cần đọc.",
+      "wordCount": 9
+    },
+    {
+      "index": 30,
+      "start": 129.04,
+      "end": 135.4,
+      "textEn": "Let's hear more from psychologist and neuroscientist Rebecca Gotlieb, speaking to the BBC World Service.",
+      "textVi": "Hãy cùng nghe thêm từ nhà tâm lý học kiêm nhà thần kinh học Rebecca Gotlieb, nói chuyện với BBC World Service.",
+      "wordCount": 15
+    },
+    {
+      "index": 31,
+      "start": 135.4,
+      "end": 142.04,
+      "textEn": "From an evolutionary timescale, our brain hasn't had enough time to develop a dedicated reading brain.",
+      "textVi": "Theo thang thời gian tiến hóa, não bộ của chúng ta chưa có đủ thời gian để phát triển một bộ não chuyên đọc sách.",
+      "wordCount": 16
+    },
+    {
+      "index": 32,
+      "start": 142.04,
+      "end": 144.76,
+      "textEn": "And so, to build a reading brain network,",
+      "textVi": "Và vì vậy, để xây dựng mạng lưới não đọc,",
+      "wordCount": 8
+    },
+    {
+      "index": 33,
+      "start": 144.76,
+      "end": 149.8,
+      "textEn": "We co-opt parts of the brain involved in vision and auditory processing,",
+      "textVi": "Chúng ta chiếm dụng các phần não liên quan đến thị giác và xử lý thính giác,",
+      "wordCount": 13
+    },
+    {
+      "index": 34,
+      "start": 149.8,
+      "end": 153.8,
+      "textEn": "And language, and attention and affect.",
+      "textVi": "Và ngôn ngữ, sự chú ý và cảm xúc.",
+      "wordCount": 6
+    },
+    {
+      "index": 35,
+      "start": 153.8,
+      "end": 156.64,
+      "textEn": "Reading is really a whole brain process.",
+      "textVi": "Đọc thực sự là một quá trình toàn diện của não bộ.",
+      "wordCount": 7
+    },
+    {
+      "index": 36,
+      "start": 156.64,
+      "end": 162.16,
+      "textEn": "It involves activation in all four lobes of the cortex.",
+      "textVi": "Nó liên quan đến việc kích hoạt ở cả bốn thùy của vỏ não.",
+      "wordCount": 10
+    },
+    {
+      "index": 37,
+      "start": 162.16,
+      "end": 166.16,
+      "textEn": "The process of developing a reading brain alters everything,",
+      "textVi": "Quá trình phát triển não bộ đọc thay đổi mọi thứ,",
+      "wordCount": 9
+    },
+    {
+      "index": 38,
+      "start": 166.16,
+      "end": 172.96,
+      "textEn": "From brain activity to brain structure and brain connectivity.",
+      "textVi": "Từ hoạt động não đến cấu trúc não và kết nối não.",
+      "wordCount": 9
+    },
+    {
+      "index": 39,
+      "start": 172.96,
+      "end": 177.44,
+      "textEn": "The power of deep reading is really fundamental to our humanity.",
+      "textVi": "Sức mạnh của việc đọc sâu thực sự là nền tảng của nhân tính chúng ta.",
+      "wordCount": 11
+    },
+    {
+      "index": 40,
+      "start": 177.44,
+      "end": 182.24,
+      "textEn": "When we read deeply, we change our brains and we change who we are.",
+      "textVi": "Khi chúng ta đọc sâu, chúng ta thay đổi bộ não và thay đổi con người mình.",
+      "wordCount": 14
+    },
+    {
+      "index": 41,
+      "start": 182.24,
+      "end": 187.48,
+      "textEn": "Rebecca says that our brains haven't evolved to include a dedicated reading brain.",
+      "textVi": "Rebecca nói rằng bộ não của chúng ta chưa tiến hóa để có một bộ não chuyên đọc sách.",
+      "wordCount": 13
+    },
+    {
+      "index": 42,
+      "start": 187.48,
+      "end": 191.68,
+      "textEn": "'Dedicated' here means designed and used for one particular purpose.",
+      "textVi": "'Dedicated' ở đây có nghĩa là được thiết kế và sử dụng cho một mục đích cụ thể.",
+      "wordCount": 10
+    },
+    {
+      "index": 43,
+      "start": 191.68,
+      "end": 195.88,
+      "textEn": "So, because we don't have a part of the brain designed specifically for reading,",
+      "textVi": "Vì vậy, vì chúng ta không có một phần não được thiết kế riêng để đọc,",
+      "wordCount": 14
+    },
+    {
+      "index": 44,
+      "start": 195.88,
+      "end": 199.12,
+      "textEn": "When we learn to read, we co-opt other parts of the brain.",
+      "textVi": "Khi chúng ta học đọc, chúng ta chiếm dụng các phần khác của não.",
+      "wordCount": 13
+    },
+    {
+      "index": 45,
+      "start": 199.12,
+      "end": 203.84,
+      "textEn": "'Co-opt' here means to include someone or something, often against their will.",
+      "textVi": "'Co-opt' ở đây có nghĩa là bao gồm ai đó hoặc điều gì đó, thường là trái với ý muốn của họ.",
+      "wordCount": 13
+    },
+    {
+      "index": 46,
+      "start": 203.84,
+      "end": 208.16,
+      "textEn": "Right. Learning to read means using lots of different parts of the brain.",
+      "textVi": "Bên phải. Học đọc nghĩa là sử dụng nhiều phần khác nhau của não bộ.",
+      "wordCount": 13
+    },
+    {
+      "index": 47,
+      "start": 208.16,
+      "end": 212.28,
+      "textEn": "That are designed for other things, and this changes our brain structure.",
+      "textVi": "Chúng được thiết kế cho những mục đích khác, và điều này làm thay đổi cấu trúc não bộ của chúng ta.",
+      "wordCount": 12
+    },
+    {
+      "index": 48,
+      "start": 212.28,
+      "end": 214.68,
+      "textEn": "Compared to someone who hasn't learned to read.",
+      "textVi": "So với người chưa học đọc.",
+      "wordCount": 8
+    },
+    {
+      "index": 49,
+      "start": 214.68,
+      "end": 217.8,
+      "textEn": "And the language we read also shapes our brain.",
+      "textVi": "Và ngôn ngữ chúng ta đọc cũng định hình não bộ của chúng ta.",
+      "wordCount": 9
+    },
+    {
+      "index": 50,
+      "start": 217.8,
+      "end": 224.92,
+      "textEn": "Chinese characters, for example, use symbols instead of letters of the alphabet to represent words and ideas.",
+      "textVi": "Ví dụ, ký tự Trung Quốc sử dụng ký hiệu thay vì chữ cái trong bảng chữ cái để đại diện cho từ và ý tưởng.",
+      "wordCount": 17
+    },
+    {
+      "index": 51,
+      "start": 224.92,
+      "end": 228.6,
+      "textEn": "Research suggests that learning to read these symbols activates.",
+      "textVi": "Nghiên cứu cho thấy việc học đọc các ký hiệu này sẽ kích hoạt.",
+      "wordCount": 9
+    },
+    {
+      "index": 52,
+      "start": 228.6,
+      "end": 232.32,
+      "textEn": "Different areas of the brain to reading an alphabet-based system.",
+      "textVi": "Các vùng khác nhau của não bộ đến việc đọc hệ thống dựa trên bảng chữ cái.",
+      "wordCount": 11
+    },
+    {
+      "index": 53,
+      "start": 232.32,
+      "end": 238.04,
+      "textEn": "Scientists studied a bilingual man who could read and speak Chinese and English.",
+      "textVi": "Các nhà khoa học đã nghiên cứu một người đàn ông song ngữ có thể đọc và nói tiếng Trung và tiếng Anh.",
+      "wordCount": 13
+    },
+    {
+      "index": 54,
+      "start": 238.04,
+      "end": 244.16,
+      "textEn": "The man suffered a stroke, which affected parts of his brain, including his ability to read Chinese.",
+      "textVi": "Người đàn ông bị đột quỵ, ảnh hưởng đến một số phần não, bao gồm khả năng đọc tiếng Trung.",
+      "wordCount": 17
+    },
+    {
+      "index": 55,
+      "start": 244.16,
+      "end": 248.24,
+      "textEn": "But amazingly, he was still able to read English.",
+      "textVi": "Nhưng thật kỳ diệu, anh vẫn đọc được tiếng Anh.",
+      "wordCount": 9
+    },
+    {
+      "index": 56,
+      "start": 248.24,
+      "end": 252.64,
+      "textEn": "Maryanne Wolf explains more to the BBC World Service.",
+      "textVi": "Maryanne Wolf giải thích thêm cho BBC World Service.",
+      "wordCount": 9
+    },
+    {
+      "index": 57,
+      "start": 252.64,
+      "end": 261.44,
+      "textEn": "It's a beautiful example of how the brain's circuit reflects the requirements of Chinese,",
+      "textVi": "Đó là một ví dụ đẹp về cách mạch não phản ánh yêu cầu của tiếng Trung,",
+      "wordCount": 14
+    },
+    {
+      "index": 58,
+      "start": 261.44,
+      "end": 268.0,
+      "textEn": "Which inevitably means more visual memory and visual processing.",
+      "textVi": "Điều này tất yếu đồng nghĩa với việc tăng cường trí nhớ thị giác và xử lý thị giác.",
+      "wordCount": 9
+    },
+    {
+      "index": 59,
+      "start": 268.0,
+      "end": 272.8,
+      "textEn": "Of those beautifully intricate symbols or characters.",
+      "textVi": "Về những biểu tượng hoặc nhân vật tinh xảo tuyệt đẹp ấy.",
+      "wordCount": 7
+    },
+    {
+      "index": 60,
+      "start": 272.8,
+      "end": 277.36,
+      "textEn": "Maryanne says that the brain's circuit is shaped by learning to read Chinese.",
+      "textVi": "Maryanne nói rằng mạch não được hình thành bằng việc học đọc tiếng Trung.",
+      "wordCount": 13
+    },
+    {
+      "index": 61,
+      "start": 277.36,
+      "end": 279.68,
+      "textEn": "A circuit is a system of connections.",
+      "textVi": "Mạch là một hệ thống kết nối.",
+      "wordCount": 7
+    },
+    {
+      "index": 62,
+      "start": 279.68,
+      "end": 286.48,
+      "textEn": "The visual qualities of Chinese symbols inevitably mean more visual areas of the brain are developed.",
+      "textVi": "Các đặc tính thị giác của các biểu tượng Trung Quốc tất yếu đồng nghĩa với việc phát triển nhiều vùng thị giác hơn trong não.",
+      "wordCount": 16
+    },
+    {
+      "index": 63,
+      "start": 286.48,
+      "end": 290.84,
+      "textEn": "Inevitably means in a way that cannot be stopped or avoided.",
+      "textVi": "Không tránh khỏi nghĩa là theo cách không thể ngăn chặn hay tránh né.",
+      "wordCount": 11
+    },
+    {
+      "index": 64,
+      "start": 290.84,
+      "end": 295.6,
+      "textEn": "Maryanne describes the symbolic Chinese characters as beautifully intricate.",
+      "textVi": "Maryanne mô tả các ký tự biểu tượng Trung Quốc là tinh xảo tuyệt đẹp.",
+      "wordCount": 9
+    },
+    {
+      "index": 65,
+      "start": 295.6,
+      "end": 298.68,
+      "textEn": "If something is intricate, it has lots of detail.",
+      "textVi": "Nếu điều gì đó phức tạp, nó có rất nhiều chi tiết.",
+      "wordCount": 9
+    },
+    {
+      "index": 66,
+      "start": 298.68,
+      "end": 305.04,
+      "textEn": "And something which also has lots of detail, or certainly lots of words – I asked you, Georgie,",
+      "textVi": "Và cũng có nhiều chi tiết, hoặc chắc chắn là nhiều từ – tôi đã hỏi bạn, Georgie,",
+      "wordCount": 17
+    },
+    {
+      "index": 67,
+      "start": 305.04,
+      "end": 309.96,
+      "textEn": "How many words are in Marcel Proust's Remembrance of Things Past.",
+      "textVi": "Có bao nhiêu từ trong cuốn Hồi Ức về Những Điều Quá Khứ của Marcel Proust.",
+      "wordCount": 11
+    },
+    {
+      "index": 68,
+      "start": 309.96,
+      "end": 312.2,
+      "textEn": "I said 1.3 million.",
+      "textVi": "Tôi nói 1,3 triệu.",
+      "wordCount": 5
+    },
+    {
+      "index": 69,
+      "start": 312.2,
+      "end": 313.88,
+      "textEn": "And you were correct!",
+      "textVi": "Và bạn đã đúng!",
+      "wordCount": 4
+    },
+    {
+      "index": 70,
+      "start": 313.88,
+      "end": 321.24,
+      "textEn": "Yay! The book also contains lots of very long sentences, including one with over 900 words.",
+      "textVi": "Yay! Cuốn sách cũng chứa rất nhiều câu rất dài, trong đó có một câu dài hơn 900 từ.",
+      "wordCount": 16
+    },
+    {
+      "index": 71,
+      "start": 321.24,
+      "end": 323.16,
+      "textEn": "One sentence with 900 words?",
+      "textVi": "Một câu với 900 từ?",
+      "wordCount": 5
+    },
+    {
+      "index": 72,
+      "start": 323.16,
+      "end": 324.52,
+      "textEn": "That is a lot.",
+      "textVi": "Nhiều thật.",
+      "wordCount": 4
+    },
+    {
+      "index": 73,
+      "start": 324.52,
+      "end": 329.48,
+      "textEn": "OK. It's time to recap the language we learned during this programme, starting with 'natural',",
+      "textVi": "Được rồi. Đã đến lúc tóm tắt ngôn ngữ chúng ta đã học trong chương trình này, bắt đầu với 'tự nhiên',",
+      "wordCount": 15
+    },
+    {
+      "index": 74,
+      "start": 329.48,
+      "end": 333.52,
+      "textEn": "Which describes something you were born with or that comes from nature.",
+      "textVi": "Điều này mô tả điều bạn sinh ra đã có hoặc đến từ thiên nhiên.",
+      "wordCount": 12
+    },
+    {
+      "index": 75,
+      "start": 333.52,
+      "end": 338.72,
+      "textEn": "'Dedicated' can describe something that is designed and used for one particular purpose.",
+      "textVi": "'Dedicated' có thể mô tả một thứ được thiết kế và sử dụng cho một mục đích cụ thể.",
+      "wordCount": 13
+    },
+    {
+      "index": 76,
+      "start": 338.72,
+      "end": 343.6,
+      "textEn": "If you co-opt someone or something, you involve them, sometimes against their will.",
+      "textVi": "Nếu bạn lôi kéo ai đó hoặc điều gì đó, bạn sẽ lôi kéo họ vào, đôi khi trái với ý muốn của họ.",
+      "wordCount": 14
+    },
+    {
+      "index": 77,
+      "start": 343.6,
+      "end": 348.0,
+      "textEn": "A circuit is a system of connections – for example, in the brain.",
+      "textVi": "Mạch là một hệ thống kết nối – ví dụ như trong não.",
+      "wordCount": 12
+    },
+    {
+      "index": 78,
+      "start": 348.0,
+      "end": 351.6,
+      "textEn": "'Inevitably' means in a way that cannot be stopped or avoided.",
+      "textVi": "'Không thể tránh khỏi' có nghĩa là theo cách không thể ngăn chặn hay tránh né.",
+      "wordCount": 11
+    },
+    {
+      "index": 79,
+      "start": 351.6,
+      "end": 355.52,
+      "textEn": "And 'intricate' describes something which has lots of detail.",
+      "textVi": "Và 'phức tạp' mô tả một thứ có rất nhiều chi tiết.",
+      "wordCount": 9
+    },
+    {
+      "index": 80,
+      "start": 355.52,
+      "end": 358.44,
+      "textEn": "That's it for this episode of 6 Minute English.",
+      "textVi": "Đó là tất cả cho tập này của 6 Minute English.",
+      "wordCount": 9
+    },
+    {
+      "index": 81,
+      "start": 358.44,
+      "end": 362.76,
+      "textEn": "Test what you've learnt with the worksheet on our website, bbclearningenglish.com.",
+      "textVi": "Hãy kiểm tra những gì bạn đã học với bảng bài tập trên trang web của chúng tôi, bbclearningenglish.com.",
+      "wordCount": 12
+    },
+    {
+      "index": 82,
+      "start": 362.76,
+      "end": 363.88,
+      "textEn": "Thanks for joining us.",
+      "textVi": "Cảm ơn bạn đã tham gia cùng chúng tôi.",
+      "wordCount": 4
+    },
+    {
+      "index": 83,
+      "start": 363.88,
+      "end": 365.6,
+      "textEn": "Goodbye! Bye.",
+      "textVi": "Tạm biệt! Tạm biệt.",
+      "wordCount": 2
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 2,
+      "start": 14.8,
+      "end": 23.08,
+      "prompt": "Remember, you can find all this episode's vocabulary along with a ____ and worksheet on our website, bbclearningenglish.com.",
+      "sentenceVi": "Hãy nhớ, bạn có thể tìm thấy tất cả từ vựng của tập này cùng với bản ghi và phiếu bài tập trên trang web của chúng tôi, bbclearningenglish.com.",
+      "answer": "transcript",
+      "options": [
+        "freedom",
+        "newsletter",
+        "educator",
+        "transcript"
+      ],
+      "meaningVi": "bảng điểm",
+      "cefr": "C1",
+      "ipa": "/ˈtrænskrɪpt/",
+      "pos": "n"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 28,
+      "start": 121.24,
+      "end": 126.2,
+      "prompt": "The networks that allow our eyes to see and our ____ cords to produce sounds,",
+      "sentenceVi": "Các mạng lưới cho phép mắt chúng ta nhìn và dây thanh quản tạo ra âm thanh,",
+      "answer": "vocal",
+      "options": [
+        "premier",
+        "organic",
+        "stiff",
+        "vocal"
+      ],
+      "meaningVi": "giọng hát",
+      "cefr": "C1",
+      "ipa": "/ˈvəʊkl/",
+      "pos": "adj"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 31,
+      "start": 135.4,
+      "end": 142.04,
+      "prompt": "From an evolutionary timescale, our brain hasn't had enough time to develop a ____ reading brain.",
+      "sentenceVi": "Theo thang thời gian tiến hóa, não bộ của chúng ta chưa có đủ thời gian để phát triển một bộ não chuyên đọc sách.",
+      "answer": "dedicated",
+      "options": [
+        "cognitive",
+        "consecutive",
+        "dedicated",
+        "tender"
+      ],
+      "meaningVi": "tận tụy",
+      "cefr": "C1",
+      "ipa": "/ˈdedɪkeɪtɪd/",
+      "pos": "adj"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 33,
+      "start": 144.76,
+      "end": 149.8,
+      "prompt": "We co-opt parts of the brain involved in vision and auditory ____,",
+      "sentenceVi": "Chúng ta chiếm dụng các phần não liên quan đến thị giác và xử lý thính giác,",
+      "answer": "processing",
+      "options": [
+        "feedback",
+        "processing",
+        "enthusiast",
+        "conception"
+      ],
+      "meaningVi": "xử lý",
+      "cefr": "C1",
+      "ipa": "/ˈprɑːsesɪŋ/",
+      "pos": "n"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 36,
+      "start": 156.64,
+      "end": 162.16,
+      "prompt": "It involves ____ in all four lobes of the cortex.",
+      "sentenceVi": "Nó liên quan đến việc kích hoạt ở cả bốn thùy của vỏ não.",
+      "answer": "activation",
+      "options": [
+        "transparency",
+        "activation",
+        "pathway",
+        "textbook"
+      ],
+      "meaningVi": "sự kích hoạt",
+      "cefr": "C1",
+      "ipa": "/ˌæktɪˈveɪʃn/",
+      "pos": "n"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 39,
+      "start": 172.96,
+      "end": 177.44,
+      "prompt": "The power of deep reading is really fundamental to our ____.",
+      "sentenceVi": "Sức mạnh của việc đọc sâu thực sự là nền tảng của nhân tính chúng ta.",
+      "answer": "humanity",
+      "options": [
+        "descent",
+        "humanity",
+        "evaluation",
+        "insult"
+      ],
+      "meaningVi": "nhân loại",
+      "cefr": "C1",
+      "ipa": "/hjuːˈmænəti/",
+      "pos": "n"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 57,
+      "start": 252.64,
+      "end": 261.44,
+      "prompt": "It's a beautiful example of how the brain's ____ reflects the requirements of Chinese,",
+      "sentenceVi": "Đó là một ví dụ đẹp về cách mạch não phản ánh yêu cầu của tiếng Trung,",
+      "answer": "circuit",
+      "options": [
+        "circuit",
+        "alternate",
+        "backpack",
+        "penalty"
+      ],
+      "meaningVi": "mạch",
+      "cefr": "B2",
+      "ipa": "/ˈsɜːrkɪt/",
+      "pos": "n"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 64,
+      "start": 290.84,
+      "end": 295.6,
+      "prompt": "Maryanne describes the ____ Chinese characters as beautifully intricate.",
+      "sentenceVi": "Maryanne mô tả các ký tự biểu tượng Trung Quốc là tinh xảo tuyệt đẹp.",
+      "answer": "symbolic",
+      "options": [
+        "lengthy",
+        "meaningful",
+        "collective",
+        "symbolic"
+      ],
+      "meaningVi": "tượng trưng",
+      "cefr": "C1",
+      "ipa": "/sɪmˈbɑːlɪk/",
+      "pos": "adj"
+    }
+  ]
+}

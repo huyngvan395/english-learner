@@ -10,6 +10,7 @@ import {
   Cloud,
   CloudAlert,
   FileText,
+  Film,
   Flame,
   GraduationCap,
   Headphones,
@@ -85,6 +86,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
     badge?: number | string;
   }[] = [
     { to: '/vocabulary', label: 'Từ vựng', sublabel: '16 Bộ thẻ • 10.996 từ', icon: BookOpen },
+    {
+      to: '/videos',
+      label: 'Video luyện tập',
+      sublabel: 'Dictation, Shadowing & Quiz',
+      icon: Film,
+      badge: 'Mới',
+    },
     {
       to: '/tests',
       label: 'Luyện thi TOEIC',

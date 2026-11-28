@@ -351,11 +351,113 @@ def validate_toeic_bank():
     print(f"[TOEIC Bank Audit] Checked {len(ready_tests)} ETS tests ({total_test_qs} Qs) + {len(dmeta)} 7-Part drills ({total_drill_qs} Qs) — all MP3s, photos, 5-layer explanations & evidence anchors verified!")
 
 
+def validate_videos():
+    vdir = PUBLIC / "data" / "videos"
+    catalog_p = vdir / "catalog.json"
+    channels_p = vdir / "channels.json"
+    items_dir = vdir / "items"
+
+    check(catalog_p.exists(), f"Missing video catalog: {catalog_p}")
+    check(channels_p.exists(), f"Missing video channels: {channels_p}")
+    check(items_dir.exists(), f"Missing video items directory: {items_dir}")
+    if not (catalog_p.exists() and channels_p.exists() and items_dir.exists()):
+        return
+
+    catalog = json.loads(catalog_p.read_text(encoding="utf-8"))
+    channels = json.loads(channels_p.read_text(encoding="utf-8"))
+
+    check(isinstance(catalog, list) and len(catalog) >= 20, f"Expected >= 20 videos in catalog.json, found {len(catalog) if isinstance(catalog, list) else 0}")
+    if isinstance(catalog, list) and len(catalog) < 35:
+        warnings.append(
+            f"Video catalog currently has {len(catalog)} videos (target 35-50). "
+            "Re-run `python -u scripts/collect_youtube_videos.py` once YouTube timedtext IP rate-limit clears (or set YT_PROXY_URL) to top up."
+        )
+    check(isinstance(channels, list) and len(channels) >= 6, f"Expected >= 6 channels in channels.json, found {len(channels) if isinstance(channels, list) else 0}")
+
+    valid_levels = {"A1", "A2", "B1", "B2", "C1"}
+    valid_topics = {
+        "Giao tiếp hàng ngày",
+        "Công sở & Kinh doanh",
+        "Khoa học & Công nghệ",
+        "Kỹ năng & Phát triển",
+        "Tin tức & Văn hóa",
+    }
+
+    seen_ids = set()
+    seen_yt_ids = set()
+    total_sentences = 0
+    total_quiz = 0
+    level_counts = {}
+
+    for row in catalog:
+        vid = row.get("id", "")
+        yt_id = row.get("youtubeId", "")
+        check(bool(vid) and vid not in seen_ids, f"Duplicate or empty video id: {vid}")
+        check(bool(yt_id) and yt_id not in seen_yt_ids, f"Duplicate or empty youtubeId: {yt_id}")
+        seen_ids.add(vid)
+        seen_yt_ids.add(yt_id)
+
+        for fk in ["id", "youtubeId", "titleEn", "titleVi", "channel", "channelSlug", "level", "topic", "thumbnail", "createdAt"]:
+            check(bool(row.get(fk)), f"Video {vid} missing required field '{fk}'")
+        check(row.get("level") in valid_levels, f"Video {vid} invalid CEFR level '{row.get('level')}'")
+        check(row.get("topic") in valid_topics, f"Video {vid} invalid topic '{row.get('topic')}'")
+        check(60 <= int(row.get("durationSec", 0)) <= 720, f"Video {vid} durationSec out of range [60..720]: {row.get('durationSec')}")
+        check(int(row.get("wpm", 0)) > 0, f"Video {vid} invalid wpm: {row.get('wpm')}")
+        check("featured" in row and isinstance(row["featured"], bool), f"Video {vid} missing boolean 'featured'")
+
+        level_counts[row.get("level", "?")] = level_counts.get(row.get("level", "?"), 0) + 1
+
+        detail_p = items_dir / f"{vid}.json"
+        check(detail_p.exists(), f"Missing video detail JSON for {vid}: {detail_p}")
+        if not detail_p.exists():
+            continue
+
+        detail = json.loads(detail_p.read_text(encoding="utf-8"))
+        sents = detail.get("sentences", [])
+        quizzes = detail.get("quizItems", [])
+        check(len(sents) == row.get("sentenceCount"), f"Video {vid} sentenceCount mismatch ({len(sents)} != {row.get('sentenceCount')})")
+        check(len(sents) >= 12, f"Video {vid} has too few sentences ({len(sents)})")
+
+        for idx, s in enumerate(sents):
+            check(s.get("index") == idx, f"Video {vid} sentence index mismatch at {idx}")
+            check(float(s.get("end", 0)) > float(s.get("start", 0)), f"Video {vid} sentence {idx} invalid timestamps")
+            check(bool((s.get("textEn") or "").strip()), f"Video {vid} sentence {idx} empty textEn")
+            check(bool((s.get("textVi") or "").strip()), f"Video {vid} sentence {idx} empty textVi")
+            check(int(s.get("wordCount", 0)) >= 1, f"Video {vid} sentence {idx} invalid wordCount")
+            total_sentences += 1
+
+        check(len(quizzes) >= 4, f"Video {vid} has too few quizItems ({len(quizzes)})")
+        for q in quizzes:
+            opts = q.get("options", [])
+            check("____" in (q.get("prompt") or ""), f"Video {vid} quiz {q.get('id')} missing blank in prompt")
+            check(len(opts) == 4 and len(set(o.lower() for o in opts)) == 4, f"Video {vid} quiz {q.get('id')} must have 4 unique options")
+            check(q.get("answer") in opts, f"Video {vid} quiz {q.get('id')} answer not in options")
+            check(bool((q.get("sentenceVi") or "").strip()), f"Video {vid} quiz {q.get('id')} empty sentenceVi")
+            total_quiz += 1
+
+    # Verify all 4 CEFR groups are covered (A1-A2, B1, B2, C1)
+    check((level_counts.get("A1", 0) + level_counts.get("A2", 0)) >= 1, "Video catalog missing A1-A2 videos")
+    check(level_counts.get("B1", 0) >= 1, "Video catalog missing B1 videos")
+    check(level_counts.get("B2", 0) >= 1, "Video catalog missing B2 videos")
+    check(level_counts.get("C1", 0) >= 1, "Video catalog missing C1 videos")
+
+    ch_total = sum(int(c.get("videoCount", 0)) for c in channels)
+    check(ch_total == len(catalog), f"channels.json videoCount sum ({ch_total}) != catalog count ({len(catalog)})")
+
+    print(
+        f"[Videos Audit] Checked {len(catalog)} videos across {len(channels)} channels "
+        f"({total_sentences} bilingual sentences, {total_quiz} quiz items) — "
+        f"Levels: A1={level_counts.get('A1',0)}, A2={level_counts.get('A2',0)}, "
+        f"B1={level_counts.get('B1',0)}, B2={level_counts.get('B2',0)}, C1={level_counts.get('C1',0)}."
+    )
+
+
 def main():
     validate_vocab()
     validate_reading()
     validate_listening()
     validate_toeic_bank()
+    validate_videos()
 
     if warnings:
         print("\nWARNINGS:")

@@ -12,6 +12,9 @@ import {
   ToeicExamHistoryItem,
   UserNote,
   UserProfileStats,
+  VideoDetailItem,
+  VideoPracticeMode,
+  VideoProgressRecord,
   VocabExample,
   VocabWord,
   WordPOS,
@@ -45,6 +48,8 @@ const STORAGE_KEYS = {
   HIGHLIGHTS: 'tmh_reading_highlights_v1',
   READING_PROGRESS: 'tmh_reading_progress_v1',
   LISTENING_PROGRESS: 'tmh_listening_progress_v1',
+  VIDEO_PROGRESS: 'tmh_video_progress_v1',
+  CUSTOM_VIDEOS: 'tmh_custom_videos_v1',
   WRONG_QUESTIONS: 'tmh_wrong_questions_v1',
   EXAM_HISTORY: 'tmh_toeic_exam_history_v1',
   WRITING_HISTORY: 'tmh_writing_history_v1',
@@ -97,6 +102,8 @@ interface AppContextValue {
   readingHighlights: Record<string, string[]>;
   readingProgress: Record<string, ReadingQuestionProgress>;
   listeningProgress: Record<string, ListeningQuestionProgress>;
+  videoProgress: Record<string, VideoProgressRecord>;
+  customVideos: VideoDetailItem[];
   wrongQuestions: WrongQuestionRecord[];
   examHistory: ToeicExamHistoryItem[];
   writingHistory: WritingSubmissionRecord[];
@@ -150,6 +157,18 @@ interface AppContextValue {
   recordReadingResult: (questionId: string, selectedAnswer: OptionKey, isCorrect: boolean) => void;
   recordListeningResult: (questionId: string, selectedAnswer: string, isCorrect: boolean) => void;
 
+  markVideoSentenceCompleted: (
+    videoId: string,
+    sentenceIndex: number,
+    totalSentences: number,
+    mode: VideoPracticeMode
+  ) => void;
+  setVideoLastSentence: (videoId: string, sentenceIndex: number, mode: VideoPracticeMode) => void;
+  recordVideoQuizScore: (videoId: string, score: number, total: number) => void;
+  toggleFavoriteVideo: (videoId: string) => void;
+  addCustomVideo: (video: VideoDetailItem) => void;
+  deleteCustomVideo: (videoId: string) => void;
+
   syncNow: () => Promise<void>;
   signOutAndClear: () => Promise<void>;
 }
@@ -182,6 +201,12 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   );
   const [listeningProgress, setListeningProgress] = useState<Record<string, ListeningQuestionProgress>>(() =>
     safeLoad(STORAGE_KEYS.LISTENING_PROGRESS, {})
+  );
+  const [videoProgress, setVideoProgress] = useState<Record<string, VideoProgressRecord>>(() =>
+    safeLoad(STORAGE_KEYS.VIDEO_PROGRESS, {})
+  );
+  const [customVideos, setCustomVideos] = useState<VideoDetailItem[]>(() =>
+    safeLoad(STORAGE_KEYS.CUSTOM_VIDEOS, [])
   );
   const [wrongQuestions, setWrongQuestions] = useState<WrongQuestionRecord[]>(() =>
     safeLoad(STORAGE_KEYS.WRONG_QUESTIONS, [])
@@ -259,6 +284,22 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   useEffect(() => {
     try {
+      localStorage.setItem(STORAGE_KEYS.VIDEO_PROGRESS, JSON.stringify(videoProgress));
+    } catch {
+      // Ignore storage quota overflow
+    }
+  }, [videoProgress]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.CUSTOM_VIDEOS, JSON.stringify(customVideos));
+    } catch {
+      // Ignore storage quota overflow
+    }
+  }, [customVideos]);
+
+  useEffect(() => {
+    try {
       localStorage.setItem(STORAGE_KEYS.WRONG_QUESTIONS, JSON.stringify(wrongQuestions));
     } catch {
       // Ignore quota overflow
@@ -306,6 +347,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       readingHighlights,
       readingProgress,
       listeningProgress,
+      videoProgress,
+      customVideos,
       wrongQuestions,
       examHistory,
       writingHistory,
@@ -321,6 +364,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     readingHighlights,
     readingProgress,
     listeningProgress,
+    videoProgress,
+    customVideos,
     wrongQuestions,
     examHistory,
     writingHistory,
@@ -339,6 +384,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     setReadingHighlights(snap.readingHighlights);
     setReadingProgress(snap.readingProgress);
     setListeningProgress(snap.listeningProgress || {});
+    setVideoProgress(snap.videoProgress || {});
+    setCustomVideos(snap.customVideos || []);
     setWrongQuestions(snap.wrongQuestions);
     setExamHistory(snap.examHistory);
     setWritingHistory(snap.writingHistory);
@@ -440,6 +487,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     readingHighlights,
     readingProgress,
     listeningProgress,
+    videoProgress,
+    customVideos,
     wrongQuestions,
     examHistory,
     writingHistory,
@@ -1031,6 +1080,154 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     }));
   };
 
+  const markVideoSentenceCompleted = useCallback(
+    (videoId: string, sentenceIndex: number, totalSentences: number, mode: VideoPracticeMode) => {
+      let newlyCompleted = false;
+      let justFinishedVideo = false;
+
+      setVideoProgress((prev) => {
+        const curr: VideoProgressRecord = prev[videoId] || {
+          videoId,
+          completedSentences: [],
+          shadowedSentences: [],
+          lastSentenceIndex: sentenceIndex,
+          lastMode: mode,
+          lastStudiedAt: Date.now(),
+        };
+
+        const nextCompleted = new Set(curr.completedSentences || []);
+        const nextShadowed = new Set(curr.shadowedSentences || []);
+
+        if (mode === 'shadowing') {
+          if (!nextShadowed.has(sentenceIndex)) {
+            newlyCompleted = true;
+            nextShadowed.add(sentenceIndex);
+          }
+          if (!nextCompleted.has(sentenceIndex)) {
+            nextCompleted.add(sentenceIndex);
+          }
+        } else {
+          if (!nextCompleted.has(sentenceIndex)) {
+            newlyCompleted = true;
+            nextCompleted.add(sentenceIndex);
+          }
+        }
+
+        if (
+          newlyCompleted &&
+          totalSentences > 0 &&
+          curr.completedSentences.length < totalSentences &&
+          nextCompleted.size >= totalSentences
+        ) {
+          justFinishedVideo = true;
+        }
+
+        return {
+          ...prev,
+          [videoId]: {
+            ...curr,
+            completedSentences: Array.from(nextCompleted).sort((a, b) => a - b),
+            shadowedSentences: Array.from(nextShadowed).sort((a, b) => a - b),
+            lastSentenceIndex: sentenceIndex,
+            lastMode: mode,
+            lastStudiedAt: Date.now(),
+          },
+        };
+      });
+
+      if (newlyCompleted) {
+        touchActivity(justFinishedVideo ? 30 : 5, 1);
+        if (justFinishedVideo) {
+          playSuccess();
+        }
+      }
+    },
+    []
+  );
+
+  const setVideoLastSentence = useCallback(
+    (videoId: string, sentenceIndex: number, mode: VideoPracticeMode) => {
+      setVideoProgress((prev) => {
+        const curr: VideoProgressRecord = prev[videoId] || {
+          videoId,
+          completedSentences: [],
+          shadowedSentences: [],
+          lastSentenceIndex: sentenceIndex,
+          lastMode: mode,
+          lastStudiedAt: Date.now(),
+        };
+        return {
+          ...prev,
+          [videoId]: {
+            ...curr,
+            lastSentenceIndex: sentenceIndex,
+            lastMode: mode,
+            lastStudiedAt: Date.now(),
+          },
+        };
+      });
+    },
+    []
+  );
+
+  const recordVideoQuizScore = useCallback((videoId: string, score: number, total: number) => {
+    setVideoProgress((prev) => {
+      const curr: VideoProgressRecord = prev[videoId] || {
+        videoId,
+        completedSentences: [],
+        shadowedSentences: [],
+        lastSentenceIndex: 0,
+        lastMode: 'quiz',
+        lastStudiedAt: Date.now(),
+      };
+      return {
+        ...prev,
+        [videoId]: {
+          ...curr,
+          lastMode: 'quiz',
+          quizBestScore: Math.max(curr.quizBestScore ?? 0, score),
+          quizTotal: total,
+          lastStudiedAt: Date.now(),
+        },
+      };
+    });
+    if (score > 0) {
+      touchActivity(score * 4, Math.min(3, score));
+    }
+  }, []);
+
+  const toggleFavoriteVideo = useCallback((videoId: string) => {
+    setVideoProgress((prev) => {
+      const curr: VideoProgressRecord = prev[videoId] || {
+        videoId,
+        completedSentences: [],
+        shadowedSentences: [],
+        lastSentenceIndex: 0,
+        lastMode: 'dictation',
+        lastStudiedAt: Date.now(),
+      };
+      const nextFav = !curr.favorite;
+      if (nextFav) playSave();
+      return {
+        ...prev,
+        [videoId]: {
+          ...curr,
+          favorite: nextFav,
+          lastStudiedAt: curr.lastStudiedAt || Date.now(),
+        },
+      };
+    });
+  }, []);
+
+  const addCustomVideo = useCallback((video: VideoDetailItem) => {
+    setCustomVideos((prev) => [video, ...prev.filter((v) => v.id !== video.id)].slice(0, 20));
+    playSave();
+  }, []);
+
+  const deleteCustomVideo = useCallback((videoId: string) => {
+    setCustomVideos((prev) => prev.filter((v) => v.id !== videoId));
+  }, []);
+
   return (
     <AppContext.Provider
       value={{
@@ -1044,6 +1241,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         readingHighlights,
         readingProgress,
         listeningProgress,
+        videoProgress,
+        customVideos,
         wrongQuestions,
         examHistory,
         writingHistory,
@@ -1073,6 +1272,12 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         clearReadingHighlights,
         recordReadingResult,
         recordListeningResult,
+        markVideoSentenceCompleted,
+        setVideoLastSentence,
+        recordVideoQuizScore,
+        toggleFavoriteVideo,
+        addCustomVideo,
+        deleteCustomVideo,
         syncNow,
         signOutAndClear,
       }}

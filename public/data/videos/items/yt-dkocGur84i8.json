@@ -1,0 +1,668 @@
+{
+  "id": "yt-dkocGur84i8",
+  "youtubeId": "dkocGur84i8",
+  "titleEn": "The three words that power every device you own - Lane Gunderman",
+  "titleVi": "Ba từ cung cấp năng lượng cho mọi thiết bị bạn sở hữu - Lane Gunderman",
+  "channel": "TED-Ed",
+  "channelSlug": "ted-ed",
+  "durationSec": 351,
+  "level": "B2",
+  "topic": "Khoa học & Công nghệ",
+  "sentenceCount": 61,
+  "wpm": 128,
+  "thumbnail": "https://i.ytimg.com/vi/dkocGur84i8/hqdefault.jpg",
+  "featured": false,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.59,
+    "wpmScore": 2.42,
+    "vocabScore": 4.34,
+    "priorScore": 3.85,
+    "hardRatio": 0.244
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 6.84,
+      "end": 15.09,
+      "textEn": "In the 1840s, English mathematician George Boole set out to translate the works of Aristotle into mathematics.",
+      "textVi": "Vào những năm 1840, nhà toán học người Anh George Boole bắt đầu chuyển các tác phẩm của Aristotle sang toán học.",
+      "wordCount": 17
+    },
+    {
+      "index": 1,
+      "start": 15.6,
+      "end": 20.6,
+      "textEn": "He wanted to create a numerical representation of Aristotelian logic—",
+      "textVi": "Ông muốn tạo ra một biểu diễn số học của logic Aristotel—",
+      "wordCount": 10
+    },
+    {
+      "index": 2,
+      "start": 20.77,
+      "end": 25.52,
+      "textEn": "A method of reasoning that used symbols to represent logical claims.",
+      "textVi": "Một phương pháp lý luận sử dụng ký hiệu để đại diện cho các tuyên bố logic.",
+      "wordCount": 11
+    },
+    {
+      "index": 3,
+      "start": 25.98,
+      "end": 30.11,
+      "textEn": "Naturally, Aristotle used this to make philosophical arguments,",
+      "textVi": "Tất nhiên, Aristotle đã sử dụng điều này để đưa ra các lập luận triết học,",
+      "wordCount": 8
+    },
+    {
+      "index": 4,
+      "start": 30.11,
+      "end": 34.78,
+      "textEn": "But Boole was interested in a mathematical language for finding truth.",
+      "textVi": "Nhưng Boole lại quan tâm đến một ngôn ngữ toán học để tìm kiếm chân lý.",
+      "wordCount": 11
+    },
+    {
+      "index": 5,
+      "start": 35.24,
+      "end": 39.33,
+      "textEn": "In Boolean algebra, variables don't represent numbers,",
+      "textVi": "Trong đại số Boolean, biến không biểu diễn số,",
+      "wordCount": 7
+    },
+    {
+      "index": 6,
+      "start": 39.33,
+      "end": 44.04,
+      "textEn": "But statements that are either true or false— 1 or 0.",
+      "textVi": "Nhưng những phát biểu đúng hoặc sai— 1 hoặc 0.",
+      "wordCount": 11
+    },
+    {
+      "index": 7,
+      "start": 44.46,
+      "end": 49.55,
+      "textEn": "And where arithmetic operations transform numbers into other numbers,",
+      "textVi": "Và khi các phép toán số học biến đổi số thành các số khác,",
+      "wordCount": 9
+    },
+    {
+      "index": 8,
+      "start": 49.88,
+      "end": 54.72,
+      "textEn": "Boolean operations connect those statements into webs of logic.",
+      "textVi": "Các phép toán Boolean kết nối các mệnh đề đó thành các mạng lưới logic.",
+      "wordCount": 9
+    },
+    {
+      "index": 9,
+      "start": 55.47,
+      "end": 63.89,
+      "textEn": "This system allowed mathematicians to input logical claims and mathematically determine if they were true or false.",
+      "textVi": "Hệ thống này cho phép các nhà toán học nhập các luận điểm logic và xác định toán học xem chúng đúng hay sai.",
+      "wordCount": 17
+    },
+    {
+      "index": 10,
+      "start": 64.14,
+      "end": 71.69,
+      "textEn": "And perhaps even more impressive, Boolean algebra achieves this lofty goal with just three operations:",
+      "textVi": "Và có lẽ ấn tượng hơn, đại số Boolean đạt được mục tiêu cao cả này chỉ với ba phép toán:",
+      "wordCount": 15
+    },
+    {
+      "index": 11,
+      "start": 71.82,
+      "end": 74.4,
+      "textEn": "AND, OR, and NOT.",
+      "textVi": "VÀ, HOẶC, VÀ KHÔNG.",
+      "wordCount": 4
+    },
+    {
+      "index": 12,
+      "start": 75.03,
+      "end": 78.91,
+      "textEn": "These three operations allow for so much complexity.",
+      "textVi": "Ba phép toán này cho phép sự phức tạp rất lớn.",
+      "wordCount": 8
+    },
+    {
+      "index": 13,
+      "start": 78.99,
+      "end": 84.87,
+      "textEn": "That Boolean algebra underpins almost everything our modern computers can do.",
+      "textVi": "Đại số Boolean đó là nền tảng cho hầu hết mọi thứ máy tính hiện đại của chúng ta có thể làm.",
+      "wordCount": 11
+    },
+    {
+      "index": 14,
+      "start": 85.25,
+      "end": 91.17,
+      "textEn": "But a simpler place to see this math in action is an old pinball table.",
+      "textVi": "Nhưng một nơi đơn giản hơn để thấy toán học này hoạt động là một bàn pinball cũ.",
+      "wordCount": 15
+    },
+    {
+      "index": 15,
+      "start": 91.75,
+      "end": 99.01,
+      "textEn": "Before microchip computers, pinball tables were controlled by networks of circuits and solenoids—",
+      "textVi": "Trước khi có máy tính vi mạch, bàn pinball được điều khiển bằng mạng lưới mạch và solenoid—",
+      "wordCount": 13
+    },
+    {
+      "index": 16,
+      "start": 99.22,
+      "end": 102.35,
+      "textEn": "Switches that turn circuits on and off.",
+      "textVi": "Các công tắc bật tắt mạch.",
+      "wordCount": 7
+    },
+    {
+      "index": 17,
+      "start": 102.72,
+      "end": 106.48,
+      "textEn": "And all these systems were governed by Boolean logic.",
+      "textVi": "Và tất cả các hệ thống này đều được điều khiển bởi logic Boolean.",
+      "wordCount": 9
+    },
+    {
+      "index": 18,
+      "start": 106.56,
+      "end": 111.82,
+      "textEn": "For example, let's imagine we need to hit the ball up this closed ramp.",
+      "textVi": "Ví dụ, hãy tưởng tượng chúng ta cần đánh bóng lên dốc kín này.",
+      "wordCount": 14
+    },
+    {
+      "index": 19,
+      "start": 111.82,
+      "end": 113.82,
+      "textEn": "To score a big jackpot.",
+      "textVi": "Để trúng giải độc đắc lớn.",
+      "wordCount": 5
+    },
+    {
+      "index": 20,
+      "start": 114.03,
+      "end": 117.91,
+      "textEn": "First, we might rack up points by hitting these three switches.",
+      "textVi": "Đầu tiên, chúng ta có thể tích điểm bằng cách nhấn ba công tắc này.",
+      "wordCount": 11
+    },
+    {
+      "index": 21,
+      "start": 118.16,
+      "end": 121.95,
+      "textEn": "When the ball hits one, the solenoid locks into place,",
+      "textVi": "Khi quả bóng chạm một cái, solenoid khóa vào vị trí,",
+      "wordCount": 10
+    },
+    {
+      "index": 22,
+      "start": 122.16,
+      "end": 125.87,
+      "textEn": "Connecting a current that lights up the letter behind it.",
+      "textVi": "Kết nối một dòng điện làm sáng chữ cái phía sau.",
+      "wordCount": 10
+    },
+    {
+      "index": 23,
+      "start": 126.2,
+      "end": 131.0,
+      "textEn": "This means each of these solenoids has an ON and an OFF state—",
+      "textVi": "Điều này có nghĩa là mỗi solenoid này có trạng thái BẬT và OFF—",
+      "wordCount": 13
+    },
+    {
+      "index": 24,
+      "start": 131.21,
+      "end": 134.21,
+      "textEn": "A binary input like True or False.",
+      "textVi": "Một đầu vào nhị phân như True hoặc False.",
+      "wordCount": 7
+    },
+    {
+      "index": 25,
+      "start": 134.75,
+      "end": 140.93,
+      "textEn": "When all three lights are lit, the electricity flows, adding points to our jackpot.",
+      "textVi": "Khi cả ba đèn sáng, dòng điện sẽ chảy, cộng điểm vào giải độc đắc của chúng ta.",
+      "wordCount": 14
+    },
+    {
+      "index": 26,
+      "start": 141.3,
+      "end": 145.47,
+      "textEn": "This interaction is how an AND Boolean operator works.",
+      "textVi": "Tương tác này là cách toán tử AND Boolean hoạt động.",
+      "wordCount": 9
+    },
+    {
+      "index": 27,
+      "start": 145.93,
+      "end": 154.78,
+      "textEn": "AND gates let conditions accumulate, triggering a state change when a specific pair of conditions is met.",
+      "textVi": "Cổng AND cho phép các điều kiện tích tụ, kích hoạt sự thay đổi trạng thái khi một cặp điều kiện cụ thể được đáp ứng.",
+      "wordCount": 17
+    },
+    {
+      "index": 28,
+      "start": 155.03,
+      "end": 161.32,
+      "textEn": "In this case, each of these three letters is used as an input for two AND gates—",
+      "textVi": "Trong trường hợp này, mỗi chữ cái trong ba chữ cái này được dùng làm đầu vào cho hai cổng AND—",
+      "wordCount": 17
+    },
+    {
+      "index": 29,
+      "start": 161.57,
+      "end": 166.79,
+      "textEn": "Give points if this letter AND this letter AND this letter are lit.",
+      "textVi": "Cho điểm nếu chữ cái này VÀ chữ cái này VÀ chữ cái này đều có đựng.",
+      "wordCount": 13
+    },
+    {
+      "index": 30,
+      "start": 167.5,
+      "end": 171.38,
+      "textEn": "Next, the ball glides across a rollover trigger,",
+      "textVi": "Tiếp theo, quả bóng trượt qua một cò rollover,",
+      "wordCount": 8
+    },
+    {
+      "index": 31,
+      "start": 171.58,
+      "end": 176.3,
+      "textEn": "Depressing the metal switch to activate a NOT Boolean action.",
+      "textVi": "Nhấn công tắc kim loại để kích hoạt hành động NOT Boolean.",
+      "wordCount": 10
+    },
+    {
+      "index": 32,
+      "start": 176.76,
+      "end": 183.72,
+      "textEn": "NOT gates flip a binary input, and this particular trigger is connected to a solenoid.",
+      "textVi": "Cổng NOT sẽ lật đầu vào nhị phân, và bộ kích hoạt này được kết nối với một cuộn điện từ.",
+      "wordCount": 15
+    },
+    {
+      "index": 33,
+      "start": 183.72,
+      "end": 186.43,
+      "textEn": "That opens and closes this obstacle.",
+      "textVi": "Điều đó mở ra và đóng lại chướng ngại vật này.",
+      "wordCount": 6
+    },
+    {
+      "index": 34,
+      "start": 186.64,
+      "end": 190.31,
+      "textEn": "Since it was closed, the NOT gate opens it.",
+      "textVi": "Vì nó đã đóng, cổng NOT sẽ mở ra.",
+      "wordCount": 9
+    },
+    {
+      "index": 35,
+      "start": 190.39,
+      "end": 195.23,
+      "textEn": "But now that it's open, hitting that same trigger again would close it.",
+      "textVi": "Nhưng giờ nó đã mở, nhấn lại nút kích hoạt đó sẽ đóng lại.",
+      "wordCount": 13
+    },
+    {
+      "index": 36,
+      "start": 195.98,
+      "end": 199.44,
+      "textEn": "With the way clear, you’re ready to shoot for the jackpot,",
+      "textVi": "Khi con đường đã rõ ràng, bạn đã sẵn sàng để cố gắng trúng giải độc đắc,",
+      "wordCount": 12
+    },
+    {
+      "index": 37,
+      "start": 199.69,
+      "end": 202.53,
+      "textEn": "But you think you can make that payout bigger.",
+      "textVi": "Nhưng bạn nghĩ bạn có thể làm cho khoản thanh toán đó lớn hơn.",
+      "wordCount": 9
+    },
+    {
+      "index": 38,
+      "start": 202.87,
+      "end": 208.16,
+      "textEn": "Two ramps on each side of the table promise the same pile of points.",
+      "textVi": "Hai dốc ở mỗi bên bàn hứa hẹn cùng một chồng điểm.",
+      "wordCount": 14
+    },
+    {
+      "index": 39,
+      "start": 208.41,
+      "end": 213.0,
+      "textEn": "This is an OR gate, a Boolean operator that turns on.",
+      "textVi": "Đây là một cổng OR, một toán tử Boolean được bật.",
+      "wordCount": 11
+    },
+    {
+      "index": 40,
+      "start": 213.17,
+      "end": 216.88,
+      "textEn": "When either or both of its two inputs occur.",
+      "textVi": "Khi một hoặc cả hai đầu vào của nó xuất hiện.",
+      "wordCount": 9
+    },
+    {
+      "index": 41,
+      "start": 217.17,
+      "end": 221.17,
+      "textEn": "So, you can fly up either ramp to trigger the points.",
+      "textVi": "Vì vậy, bạn có thể bay lên bất kỳ dốc nào để kích hoạt điểm.",
+      "wordCount": 11
+    },
+    {
+      "index": 42,
+      "start": 221.63,
+      "end": 227.68,
+      "textEn": "Now that your massive jackpot is waiting, you finally hit the ball to your grand prize.",
+      "textVi": "Giờ đây, khi giải độc đắc khổng lồ đang chờ bạn, cuối cùng bạn cũng đánh được quả bóng đến giải thưởng lớn.",
+      "wordCount": 16
+    },
+    {
+      "index": 43,
+      "start": 228.31,
+      "end": 233.23,
+      "textEn": "On their own, triggering one of these operators slightly alters the table.",
+      "textVi": "Nếu chỉ kích hoạt một trong hai operator này thì bảng sẽ thay đổi nhẹ.",
+      "wordCount": 12
+    },
+    {
+      "index": 44,
+      "start": 233.52,
+      "end": 239.78,
+      "textEn": "But working together, they can open and close a huge number of event combinations.",
+      "textVi": "Nhưng khi phối hợp cùng nhau, họ có thể mở và đóng rất nhiều tổ hợp sự kiện.",
+      "wordCount": 14
+    },
+    {
+      "index": 45,
+      "start": 240.15,
+      "end": 245.41,
+      "textEn": "And the possibility space is even larger with our modern phones and computers,",
+      "textVi": "Và không gian khả năng còn lớn hơn nữa với điện thoại và máy tính hiện đại của chúng ta,",
+      "wordCount": 13
+    },
+    {
+      "index": 46,
+      "start": 245.7,
+      "end": 248.87,
+      "textEn": "All of which rely on the same Boolean algebra.",
+      "textVi": "Tất cả đều dựa trên cùng một đại số Boolean.",
+      "wordCount": 9
+    },
+    {
+      "index": 47,
+      "start": 249.37,
+      "end": 255.96,
+      "textEn": "With more computational power, Boolean operations can be performed faster and in parallel.",
+      "textVi": "Với sức mạnh tính toán lớn hơn, các phép toán Boolean có thể được thực hiện nhanh hơn và song song.",
+      "wordCount": 13
+    },
+    {
+      "index": 48,
+      "start": 256.25,
+      "end": 262.47,
+      "textEn": "For example, while one logical circuit churns through calculations to reach its binary output,",
+      "textVi": "Ví dụ, trong khi một mạch logic quay cuồng qua các phép tính để đạt được đầu ra nhị phân của nó,",
+      "wordCount": 14
+    },
+    {
+      "index": 49,
+      "start": 262.63,
+      "end": 269.89,
+      "textEn": "The next circuit waiting for that output could start making calculations based on both possible outcomes.",
+      "textVi": "Mạch tiếp theo chờ đầu ra đó có thể bắt đầu tính toán dựa trên cả hai kết quả có thể xảy ra.",
+      "wordCount": 16
+    },
+    {
+      "index": 50,
+      "start": 270.43,
+      "end": 277.77,
+      "textEn": "Then, once the first circuit is complete, the second circuit can check its results, abandon the irrelevant calculation,",
+      "textVi": "Sau đó, khi mạch đầu tiên hoàn thành, mạch thứ hai có thể kiểm tra kết quả, bỏ qua phép tính không liên quan,",
+      "wordCount": 18
+    },
+    {
+      "index": 51,
+      "start": 277.9,
+      "end": 281.49,
+      "textEn": "And keep moving forward with the correct one to save time.",
+      "textVi": "Và tiếp tục tiến lên với phương án đúng để tiết kiệm thời gian.",
+      "wordCount": 11
+    },
+    {
+      "index": 52,
+      "start": 282.4,
+      "end": 288.12,
+      "textEn": "The Boolean brains in our digital technology can also simplify things even further—",
+      "textVi": "Bộ não Boolean trong công nghệ số của chúng ta cũng có thể đơn giản hóa mọi thứ hơn nữa—",
+      "wordCount": 13
+    },
+    {
+      "index": 53,
+      "start": 288.37,
+      "end": 295.08,
+      "textEn": "Replacing AND, NOT, and OR gates with just one alternative operator: NOR.",
+      "textVi": "Thay thế các cổng AND, NOT, và OR bằng chỉ một toán tử thay thế: NOR.",
+      "wordCount": 12
+    },
+    {
+      "index": 54,
+      "start": 295.71,
+      "end": 302.01,
+      "textEn": "NOR, which is just an OR gate followed by a NOT gate, is known as a universal gate,",
+      "textVi": "NOR, chỉ là một cổng OR theo sau là cổng NOT, được gọi là cổng phổ quát,",
+      "wordCount": 18
+    },
+    {
+      "index": 55,
+      "start": 302.17,
+      "end": 306.97,
+      "textEn": "And it can be used instead of various combinations of the other three.",
+      "textVi": "Và nó có thể được sử dụng thay cho các tổ hợp khác nhau của ba loại còn lại.",
+      "wordCount": 13
+    },
+    {
+      "index": 56,
+      "start": 307.51,
+      "end": 308.89,
+      "textEn": "But there’s a catch.",
+      "textVi": "Nhưng có một điều kiện.",
+      "wordCount": 5
+    },
+    {
+      "index": 57,
+      "start": 308.89,
+      "end": 312.35,
+      "textEn": "While using exclusively NOR gates is simple,",
+      "textVi": "Mặc dù việc sử dụng chỉ cổng NOR thì đơn giản,",
+      "wordCount": 7
+    },
+    {
+      "index": 58,
+      "start": 312.56,
+      "end": 318.52,
+      "textEn": "It can become extremely inefficient as operations get more and more complex.",
+      "textVi": "Nó có thể trở nên cực kỳ kém hiệu quả khi các hoạt động ngày càng phức tạp.",
+      "wordCount": 12
+    },
+    {
+      "index": 59,
+      "start": 318.94,
+      "end": 325.57,
+      "textEn": "So engineers have to choose gates carefully to make modern technology as elegant and efficient.",
+      "textVi": "Vì vậy, các kỹ sư phải lựa chọn cổng cẩn thận để công nghệ hiện đại trở nên thanh lịch và hiệu quả.",
+      "wordCount": 15
+    },
+    {
+      "index": 60,
+      "start": 325.57,
+      "end": 328.41,
+      "textEn": "As our older mechanical marvels.",
+      "textVi": "Như những kỳ quan cơ khí cũ của chúng ta.",
+      "wordCount": 5
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 1,
+      "start": 15.6,
+      "end": 20.6,
+      "prompt": "He wanted to create a numerical ____ of Aristotelian logic—",
+      "sentenceVi": "Ông muốn tạo ra một biểu diễn số học của logic Aristotel—",
+      "answer": "representation",
+      "options": [
+        "imagination",
+        "representation",
+        "measurement",
+        "concentration"
+      ],
+      "meaningVi": "đại diện",
+      "cefr": "C1",
+      "ipa": "/ˌreprɪzenˈteɪʃn/",
+      "pos": "n"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 9,
+      "start": 55.47,
+      "end": 63.89,
+      "prompt": "This system allowed mathematicians to input ____ claims and mathematically determine if they were true or false.",
+      "sentenceVi": "Hệ thống này cho phép các nhà toán học nhập các luận điểm logic và xác định toán học xem chúng đúng hay sai.",
+      "answer": "logical",
+      "options": [
+        "ugly",
+        "engaging",
+        "ashamed",
+        "logical"
+      ],
+      "meaningVi": "logic",
+      "cefr": "B2",
+      "ipa": "/ˈlɑːdʒɪkl/",
+      "pos": "adj"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 27,
+      "start": 145.93,
+      "end": 154.78,
+      "prompt": "AND gates let conditions ____, triggering a state change when a specific pair of conditions is met.",
+      "sentenceVi": "Cổng AND cho phép các điều kiện tích tụ, kích hoạt sự thay đổi trạng thái khi một cặp điều kiện cụ thể được đáp ứng.",
+      "answer": "accumulate",
+      "options": [
+        "articulate",
+        "accumulate",
+        "potentially",
+        "interrupt"
+      ],
+      "meaningVi": "tích lũy",
+      "cefr": "C1",
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "pos": "v"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 31,
+      "start": 171.58,
+      "end": 176.3,
+      "prompt": "Depressing the metal switch to ____ a NOT Boolean action.",
+      "sentenceVi": "Nhấn công tắc kim loại để kích hoạt hành động NOT Boolean.",
+      "answer": "activate",
+      "options": [
+        "activate",
+        "embed",
+        "comply",
+        "broaden"
+      ],
+      "meaningVi": "kích hoạt",
+      "cefr": "B2",
+      "ipa": "/ˈæktɪveɪt/",
+      "pos": "v"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 46,
+      "start": 245.7,
+      "end": 248.87,
+      "prompt": "All of which ____ on the same Boolean algebra.",
+      "sentenceVi": "Tất cả đều dựa trên cùng một đại số Boolean.",
+      "answer": "rely",
+      "options": [
+        "refresh",
+        "combine",
+        "condemn",
+        "rely"
+      ],
+      "meaningVi": "dựa vào",
+      "cefr": "B2",
+      "ipa": "/rɪˈlaɪ/",
+      "pos": "v"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 50,
+      "start": 270.43,
+      "end": 277.77,
+      "prompt": "Then, once the first circuit is complete, the second circuit can check its results, abandon the ____ calculation,",
+      "sentenceVi": "Sau đó, khi mạch đầu tiên hoàn thành, mạch thứ hai có thể kiểm tra kết quả, bỏ qua phép tính không liên quan,",
+      "answer": "irrelevant",
+      "options": [
+        "irrelevant",
+        "enjoyable",
+        "provincial",
+        "outstanding"
+      ],
+      "meaningVi": "không liên quan",
+      "cefr": "C1",
+      "ipa": "/ɪˈreləvənt/",
+      "pos": "adj"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 57,
+      "start": 308.89,
+      "end": 312.35,
+      "prompt": "While using ____ NOR gates is simple,",
+      "sentenceVi": "Mặc dù việc sử dụng chỉ cổng NOR thì đơn giản,",
+      "answer": "exclusively",
+      "options": [
+        "indicator",
+        "demographics",
+        "announcement",
+        "exclusively"
+      ],
+      "meaningVi": "độc quyền, chỉ dành riêng cho",
+      "cefr": "C1",
+      "ipa": "/ɪkˈskluː.sɪv.li/",
+      "pos": "adv"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 59,
+      "start": 318.94,
+      "end": 325.57,
+      "prompt": "So engineers have to choose gates carefully to make modern technology as ____ and efficient.",
+      "sentenceVi": "Vì vậy, các kỹ sư phải lựa chọn cổng cẩn thận để công nghệ hiện đại trở nên thanh lịch và hiệu quả.",
+      "answer": "elegant",
+      "options": [
+        "elegant",
+        "economical",
+        "corporate",
+        "painful"
+      ],
+      "meaningVi": "thanh lịch",
+      "cefr": "B2",
+      "ipa": "/ˈelɪɡənt/",
+      "pos": "adj"
+    }
+  ]
+}

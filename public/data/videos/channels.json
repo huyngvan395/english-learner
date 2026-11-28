@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "ted-ed",
+    "name": "TED-Ed",
+    "videoCount": 6,
+    "avgDurationSec": 328,
+    "avgWpm": 132,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2"
+    ],
+    "topics": [
+      "Khoa học & Công nghệ",
+      "Tin tức & Văn hóa"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/1IVlILdETAw/hqdefault.jpg"
+  },
+  {
+    "slug": "bbc-learning-english",
+    "name": "BBC Learning English",
+    "videoCount": 4,
+    "avgDurationSec": 376,
+    "avgWpm": 156,
+    "dominantLevel": "B1",
+    "levels": [
+      "B1"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày",
+      "Khoa học & Công nghệ",
+      "Tin tức & Văn hóa"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/2lxvNnGkdTo/hqdefault.jpg"
+  },
+  {
+    "slug": "english-with-lucy",
+    "name": "English with Lucy",
+    "videoCount": 4,
+    "avgDurationSec": 454,
+    "avgWpm": 109,
+    "dominantLevel": "A2",
+    "levels": [
+      "A2",
+      "B1"
+    ],
+    "topics": [
+      "Kỹ năng & Phát triển"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/vMvkY1iGcl8/hqdefault.jpg"
+  },
+  {
+    "slug": "kurzgesagt",
+    "name": "Kurzgesagt – In a Nutshell",
+    "videoCount": 4,
+    "avgDurationSec": 651,
+    "avgWpm": 160,
+    "dominantLevel": "B2",
+    "levels": [
+      "B2",
+      "C1"
+    ],
+    "topics": [
+      "Khoa học & Công nghệ"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/yDAAlojz8NU/hqdefault.jpg"
+  },
+  {
+    "slug": "speak-english-with-vanessa",
+    "name": "Speak English With Vanessa",
+    "videoCount": 2,
+    "avgDurationSec": 492,
+    "avgWpm": 139,
+    "dominantLevel": "A2",
+    "levels": [
+      "A2"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày",
+      "Kỹ năng & Phát triển"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/XfAMirWVpjQ/hqdefault.jpg"
+  },
+  {
+    "slug": "english-speaking-course",
+    "name": "English Speaking Course",
+    "videoCount": 1,
+    "avgDurationSec": 535,
+    "avgWpm": 105,
+    "dominantLevel": "A1",
+    "levels": [
+      "A1"
+    ],
+    "topics": [
+      "Giao tiếp hàng ngày"
+    ],
+    "sampleThumbnail": "https://i.ytimg.com/vi/s2EYIDY8wSM/hqdefault.jpg"
+  }
+]

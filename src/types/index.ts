@@ -1,5 +1,6 @@
 export type NavTab =
   | 'vocab'
+  | 'videos'
   | 'toeic-exam'
   | 'reading'
   | 'listening'
@@ -750,4 +751,80 @@ export interface WritingSubmissionRecord {
   modelUsed: GeminiModelId;
   evaluation: WritingEvaluationResult;
   timestamp: number;
+}
+
+// ================= VIDEO PRACTICE TYPES =================
+export type VideoCefrLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
+export type VideoPracticeMode = 'dictation' | 'shadowing' | 'quiz' | 'subtitles';
+
+export interface VideoCatalogItem {
+  id: string;
+  youtubeId: string;
+  titleEn: string;
+  titleVi: string;
+  channel: string;
+  channelSlug: string;
+  durationSec: number;
+  level: VideoCefrLevel;
+  topic: string;
+  sentenceCount: number;
+  wpm: number;
+  thumbnail: string;
+  featured: boolean;
+  createdAt: string;
+  isCustom?: boolean;
+}
+
+export interface VideoChannelMeta {
+  slug: string;
+  name: string;
+  videoCount: number;
+  avgDurationSec: number;
+  avgWpm?: number;
+  dominantLevel: VideoCefrLevel;
+  levels: VideoCefrLevel[];
+  topics: string[];
+  sampleThumbnail: string;
+}
+
+export interface VideoSentence {
+  index: number;
+  start: number;
+  end: number;
+  textEn: string;
+  textVi: string;
+  wordCount: number;
+}
+
+export interface VideoQuizItem {
+  id: string;
+  sentenceIndex: number;
+  start: number;
+  end: number;
+  prompt: string;
+  sentenceVi: string;
+  answer: string;
+  options: string[];
+  meaningVi: string;
+  cefr: string;
+  ipa: string;
+  pos: string;
+}
+
+export interface VideoDetailItem extends VideoCatalogItem {
+  isManualCaption?: boolean;
+  sentences: VideoSentence[];
+  quizItems: VideoQuizItem[];
+}
+
+export interface VideoProgressRecord {
+  videoId: string;
+  completedSentences: number[];
+  shadowedSentences?: number[];
+  lastSentenceIndex: number;
+  lastMode: VideoPracticeMode;
+  quizBestScore?: number;
+  quizTotal?: number;
+  favorite?: boolean;
+  lastStudiedAt: number;
 }

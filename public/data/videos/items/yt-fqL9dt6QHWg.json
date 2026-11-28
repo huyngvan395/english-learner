@@ -1,0 +1,684 @@
+{
+  "id": "yt-fqL9dt6QHWg",
+  "youtubeId": "fqL9dt6QHWg",
+  "titleEn": "5 of the most dangerous scientific discoveries - Shannon Odell",
+  "titleVi": "5 phát hiện khoa học nguy hiểm nhất - Shannon Odell",
+  "channel": "TED-Ed",
+  "channelSlug": "ted-ed",
+  "durationSec": 376,
+  "level": "B2",
+  "topic": "Khoa học & Công nghệ",
+  "sentenceCount": 63,
+  "wpm": 116,
+  "thumbnail": "https://i.ytimg.com/vi/fqL9dt6QHWg/hqdefault.jpg",
+  "featured": false,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.54,
+    "wpmScore": 1.92,
+    "vocabScore": 4.61,
+    "priorScore": 3.85,
+    "hardRatio": 0.27
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 6.71,
+      "end": 10.17,
+      "textEn": "After suffering yet another night with indigestion,",
+      "textVi": "Sau một đêm nữa bị khó tiêu,",
+      "wordCount": 7
+    },
+    {
+      "index": 1,
+      "start": 10.17,
+      "end": 15.05,
+      "textEn": "George de Hevesy was convinced that his kitchen at his boarding house.",
+      "textVi": "George de Hevesy tin chắc rằng căn bếp của ông tại nhà trọ.",
+      "wordCount": 12
+    },
+    {
+      "index": 2,
+      "start": 15.18,
+      "end": 20.56,
+      "textEn": "Was reusing and re-serving the uneaten meat off diners’ plates.",
+      "textVi": "Tôi đã tái sử dụng và phục vụ lại phần thịt thừa trên đĩa của thực khách.",
+      "wordCount": 11
+    },
+    {
+      "index": 3,
+      "start": 21.18,
+      "end": 24.48,
+      "textEn": "His landlady fiercely denied the accusations.",
+      "textVi": "Bà chủ nhà kiên quyết phủ nhận những cáo buộc đó.",
+      "wordCount": 6
+    },
+    {
+      "index": 4,
+      "start": 24.9,
+      "end": 30.44,
+      "textEn": "So, de Hevesy, who happened to be a trained chemist, ran an experiment.",
+      "textVi": "Vì vậy, de Hevesy, người tình cờ là một nhà hóa học được đào tạo, đã tiến hành một thí nghiệm.",
+      "wordCount": 13
+    },
+    {
+      "index": 5,
+      "start": 30.69,
+      "end": 35.74,
+      "textEn": "He sprinkled a trace of radioactive material onto his leftovers.",
+      "textVi": "Anh rắc một chút chất phóng xạ lên phần thức ăn thừa.",
+      "wordCount": 10
+    },
+    {
+      "index": 6,
+      "start": 36.12,
+      "end": 41.7,
+      "textEn": "Then, days later, he measured the radiation levels in that night's hash,",
+      "textVi": "Rồi, vài ngày sau, ông đo mức phóng xạ trong hash đêm đó,",
+      "wordCount": 12
+    },
+    {
+      "index": 7,
+      "start": 41.95,
+      "end": 45.42,
+      "textEn": "Proving that his suspicions were correct.",
+      "textVi": "Chứng minh rằng nghi ngờ của anh là đúng.",
+      "wordCount": 6
+    },
+    {
+      "index": 8,
+      "start": 46.25,
+      "end": 53.01,
+      "textEn": "30 years later, de Hevesy was awarded the 1943 Nobel Prize in Chemistry.",
+      "textVi": "30 năm sau, de Hevesy được trao giải Nobel Hóa học năm 1943.",
+      "wordCount": 13
+    },
+    {
+      "index": 9,
+      "start": 53.01,
+      "end": 55.3,
+      "textEn": "For developing radiotracing.",
+      "textVi": "Để phát triển kỹ thuật định vị phóng xạ.",
+      "wordCount": 3
+    },
+    {
+      "index": 10,
+      "start": 55.43,
+      "end": 59.76,
+      "textEn": "The same technique he used to follow leftovers through a kitchen.",
+      "textVi": "Đó là kỹ thuật mà anh dùng để lần theo thức ăn thừa trong bếp.",
+      "wordCount": 11
+    },
+    {
+      "index": 11,
+      "start": 59.81,
+      "end": 62.68,
+      "textEn": "Could trace blood flow after a heart attack,",
+      "textVi": "Có thể theo dõi lưu lượng máu sau cơn đau tim,",
+      "wordCount": 8
+    },
+    {
+      "index": 12,
+      "start": 63.06,
+      "end": 68.9,
+      "textEn": "Drugs to their intended target, or even groundwater through a watershed.",
+      "textVi": "Thuốc đến mục tiêu dự kiến, hoặc thậm chí là nước ngầm qua lưu vực.",
+      "wordCount": 11
+    },
+    {
+      "index": 13,
+      "start": 69.44,
+      "end": 74.65,
+      "textEn": "The history of science is filled with stories of self-experimentation.",
+      "textVi": "Lịch sử khoa học đầy ắp những câu chuyện về tự thí nghiệm.",
+      "wordCount": 11
+    },
+    {
+      "index": 14,
+      "start": 74.99,
+      "end": 82.62,
+      "textEn": "While some cases have resulted in horrific infections, accidental psychedelic trips, and even deaths,",
+      "textVi": "Mặc dù một số trường hợp dẫn đến nhiễm trùng kinh hoàng, ảo giác vô tình, thậm chí tử vong,",
+      "wordCount": 14
+    },
+    {
+      "index": 15,
+      "start": 82.83,
+      "end": 86.83,
+      "textEn": "Others have led to great leaps in human understanding.",
+      "textVi": "Những người khác đã dẫn đến những bước nhảy vọt lớn trong hiểu biết của con người.",
+      "wordCount": 9
+    },
+    {
+      "index": 16,
+      "start": 87.71,
+      "end": 91.55,
+      "textEn": "But a few stories stand apart, because like de Hevesy,",
+      "textVi": "Nhưng có vài câu chuyện nổi bật, vì giống như de Hevesy,",
+      "wordCount": 10
+    },
+    {
+      "index": 17,
+      "start": 91.71,
+      "end": 97.39,
+      "textEn": "Their potentially dangerous acts ultimately led to Nobel Prizes.",
+      "textVi": "Những hành động tiềm ẩn nguy hiểm của họ cuối cùng đã dẫn đến giải Nobel.",
+      "wordCount": 9
+    },
+    {
+      "index": 18,
+      "start": 98.14,
+      "end": 104.22,
+      "textEn": "In 1929, medical school graduate Werner Forssmann had a radical idea.",
+      "textVi": "Năm 1929, Werner Forssmann, một cựu sinh viên y khoa, đã nảy ra một ý tưởng cấp tiến.",
+      "wordCount": 11
+    },
+    {
+      "index": 19,
+      "start": 104.22,
+      "end": 107.35,
+      "textEn": "For delivering lifesaving drugs to the heart:",
+      "textVi": "Vì đưa thuốc cứu sống vào tim:",
+      "wordCount": 7
+    },
+    {
+      "index": 20,
+      "start": 107.6,
+      "end": 115.99,
+      "textEn": "Insert a tube through the elbow and thread it through the veins until it reaches the atrium directly.",
+      "textVi": "Đưa một ống qua khuỷu tay và luồn qua tĩnh mạch cho đến khi ống dẫn trực tiếp đến nhĩ.",
+      "wordCount": 18
+    },
+    {
+      "index": 21,
+      "start": 116.19,
+      "end": 120.41,
+      "textEn": "When his colleagues refused to support a clinical trial,",
+      "textVi": "Khi các đồng nghiệp từ chối ủng hộ thử nghiệm lâm sàng,",
+      "wordCount": 9
+    },
+    {
+      "index": 22,
+      "start": 120.58,
+      "end": 124.95,
+      "textEn": "Forssmann decided to perform the procedure on himself.",
+      "textVi": "Forssmann quyết định tự thực hiện thủ thuật này.",
+      "wordCount": 8
+    },
+    {
+      "index": 23,
+      "start": 125.29,
+      "end": 130.88,
+      "textEn": "Using only local anesthetic, he guided a catheter through his body,",
+      "textVi": "Chỉ dùng thuốc tê tại chỗ, ông dẫn ống thông qua cơ thể,",
+      "wordCount": 11
+    },
+    {
+      "index": 24,
+      "start": 131.04,
+      "end": 136.26,
+      "textEn": "Then walked downstairs for an X-ray to confirm its position.",
+      "textVi": "Sau đó đi xuống cầu thang để chụp X-quang xác nhận vị trí của nó.",
+      "wordCount": 11
+    },
+    {
+      "index": 25,
+      "start": 136.8,
+      "end": 139.64,
+      "textEn": "He repeated the procedure eight more times,",
+      "textVi": "Ông lặp lại quy trình thêm tám lần nữa,",
+      "wordCount": 7
+    },
+    {
+      "index": 26,
+      "start": 139.76,
+      "end": 146.1,
+      "textEn": "Eventually using his thigh after his arm vein closed from constant prodding.",
+      "textVi": "Cuối cùng anh dùng đùi sau khi tĩnh mạch tay đóng lại do liên tục chọc.",
+      "wordCount": 12
+    },
+    {
+      "index": 27,
+      "start": 146.47,
+      "end": 150.85,
+      "textEn": "Nevertheless, his colleagues saw these experiments as reckless,",
+      "textVi": "Tuy nhiên, các đồng nghiệp của ông coi các thí nghiệm này là liều lĩnh,",
+      "wordCount": 8
+    },
+    {
+      "index": 28,
+      "start": 150.94,
+      "end": 156.32,
+      "textEn": "And the fallout forced Forssmann to abandon cardiology altogether.",
+      "textVi": "Và hậu quả đã buộc Forssmann phải từ bỏ hoàn toàn ngành tim mạch.",
+      "wordCount": 9
+    },
+    {
+      "index": 29,
+      "start": 156.82,
+      "end": 161.57,
+      "textEn": "He’d go on to serve as a German medical officer in World War II,",
+      "textVi": "Ông sau này phục vụ như một sĩ quan y tế Đức trong Thế chiến II,",
+      "wordCount": 15
+    },
+    {
+      "index": 30,
+      "start": 161.82,
+      "end": 170.25,
+      "textEn": "And upon returning home in 1945, Forssmann was shocked to learn that his heart catheterization procedure.",
+      "textVi": "Và khi trở về nhà vào năm 1945, Forssmann đã rất sốc khi biết rằng thủ thuật đặt ống thông tim của mình.",
+      "wordCount": 16
+    },
+    {
+      "index": 31,
+      "start": 170.33,
+      "end": 177.13,
+      "textEn": "Had become not just accepted, but essential for diagnosing and treating heart conditions.",
+      "textVi": "Không chỉ được chấp nhận mà còn trở nên thiết yếu để chẩn đoán và điều trị các bệnh tim.",
+      "wordCount": 13
+    },
+    {
+      "index": 32,
+      "start": 177.76,
+      "end": 182.01,
+      "textEn": "This was thanks to André Cournand and Dickinson Richards, who,",
+      "textVi": "Điều này là nhờ André Cournand và Dickinson Richards, những người,",
+      "wordCount": 10
+    },
+    {
+      "index": 33,
+      "start": 182.14,
+      "end": 189.27,
+      "textEn": "In the intervening years, had demonstrated the procedure’s benefits, using much more conventional methods.",
+      "textVi": "Trong những năm tiếp theo, đã chứng minh được lợi ích của thủ thuật này, sử dụng các phương pháp truyền thống hơn nhiều.",
+      "wordCount": 15
+    },
+    {
+      "index": 34,
+      "start": 189.77,
+      "end": 196.19,
+      "textEn": "Two other laureates also put their bodies on the line to prove the safety of their work.",
+      "textVi": "Hai người đoạt giải khác cũng đã đặt thân thể mình vào nguy hiểm để chứng minh sự an toàn cho công việc của họ.",
+      "wordCount": 17
+    },
+    {
+      "index": 35,
+      "start": 196.32,
+      "end": 203.7,
+      "textEn": "In the 1930s, virologist Max Theiler dedicated his career to combating yellow fever,",
+      "textVi": "Vào những năm 1930, nhà virus học Max Theiler đã dành sự nghiệp của mình để chống lại sốt vàng da,",
+      "wordCount": 13
+    },
+    {
+      "index": 36,
+      "start": 203.78,
+      "end": 207.74,
+      "textEn": "A highly dangerous mosquito-borne viral disease.",
+      "textVi": "Một căn bệnh virus do muỗi truyền cực kỳ nguy hiểm.",
+      "wordCount": 7
+    },
+    {
+      "index": 37,
+      "start": 208.04,
+      "end": 213.63,
+      "textEn": "After developing an experimental vaccine, Theiler was one of the first to receive it.",
+      "textVi": "Sau khi phát triển một loại vắc-xin thử nghiệm, Theiler là một trong những người đầu tiên nhận được nó.",
+      "wordCount": 14
+    },
+    {
+      "index": 38,
+      "start": 213.79,
+      "end": 218.84,
+      "textEn": "Many vaccine researchers at the time did this, even with the risks.",
+      "textVi": "Nhiều nhà nghiên cứu vắc-xin thời đó đã làm như vậy, dù có những rủi ro.",
+      "wordCount": 12
+    },
+    {
+      "index": 39,
+      "start": 219.22,
+      "end": 224.76,
+      "textEn": "Decades later, Chinese pharmacologist Tu Youyou took on another killer:",
+      "textVi": "Nhiều thập kỷ sau, nhà dược lý Trung Quốc Tu Youyou đã đối đầu với một kẻ giết người khác:",
+      "wordCount": 10
+    },
+    {
+      "index": 40,
+      "start": 224.97,
+      "end": 229.81,
+      "textEn": "Malaria, a parasitic infection that invades red blood cells,",
+      "textVi": "Sốt rét, một loại nhiễm trùng ký sinh xâm nhập vào hồng cầu,",
+      "wordCount": 9
+    },
+    {
+      "index": 41,
+      "start": 229.85,
+      "end": 233.77,
+      "textEn": "Causing cycles of fever and severe anemia.",
+      "textVi": "Gây ra các chu kỳ sốt và thiếu máu nặng.",
+      "wordCount": 7
+    },
+    {
+      "index": 42,
+      "start": 234.27,
+      "end": 241.03,
+      "textEn": "Drawing from traditional Chinese medical texts, she found and isolated the compound artemisinin,",
+      "textVi": "Dựa trên các văn bản y học truyền thống Trung Quốc, bà đã tìm và phân lập hợp chất artemisinin,",
+      "wordCount": 13
+    },
+    {
+      "index": 43,
+      "start": 241.24,
+      "end": 245.7,
+      "textEn": "Which appeared to kill the malaria parasite in animal trials.",
+      "textVi": "Điều này dường như đã tiêu diệt ký sinh trùng sốt rét trong các thử nghiệm trên động vật.",
+      "wordCount": 10
+    },
+    {
+      "index": 44,
+      "start": 246.03,
+      "end": 251.66,
+      "textEn": "To show it was safe and help move it into testing with sick patients more quickly,",
+      "textVi": "Để chứng minh nó an toàn và giúp đưa nó vào thử nghiệm với bệnh nhân bệnh nhanh hơn,",
+      "wordCount": 16
+    },
+    {
+      "index": 45,
+      "start": 252.0,
+      "end": 254.21,
+      "textEn": "Youyou took the first dose.",
+      "textVi": "Bạn, bạn đã tiêm liều đầu tiên.",
+      "wordCount": 5
+    },
+    {
+      "index": 46,
+      "start": 254.79,
+      "end": 262.3,
+      "textEn": "But perhaps the boldest of these laureates was the man who self-experimented not to show something was safe,",
+      "textVi": "Nhưng có lẽ người táo bạo nhất trong số những người đoạt giải này là người tự thí nghiệm để không chứng minh điều gì đó an toàn,",
+      "wordCount": 19
+    },
+    {
+      "index": 47,
+      "start": 262.43,
+      "end": 264.93,
+      "textEn": "But to prove that it was dangerous.",
+      "textVi": "Nhưng để chứng minh rằng điều đó nguy hiểm.",
+      "wordCount": 7
+    },
+    {
+      "index": 48,
+      "start": 265.34,
+      "end": 272.6,
+      "textEn": "As early as the 1940s, peptic ulcers, painful sores in the stomach and small intestine,",
+      "textVi": "Ngay từ những năm 1940, loét dạ dày, các vết loét đau đớn ở dạ dày và ruột non,",
+      "wordCount": 15
+    },
+    {
+      "index": 49,
+      "start": 272.73,
+      "end": 276.44,
+      "textEn": "Were believed to be primarily caused by stress.",
+      "textVi": "Được cho là chủ yếu do căng thẳng gây ra.",
+      "wordCount": 8
+    },
+    {
+      "index": 50,
+      "start": 276.69,
+      "end": 282.24,
+      "textEn": "But in 1979, Robin Warren and Barry Marshall began noticing.",
+      "textVi": "Nhưng vào năm 1979, Robin Warren và Barry Marshall bắt đầu nhận ra điều đó.",
+      "wordCount": 10
+    },
+    {
+      "index": 51,
+      "start": 282.24,
+      "end": 287.91,
+      "textEn": "Unusual spiral-shaped bacteria in ulcer biopsy samples.",
+      "textVi": "Vi khuẩn hình xoắn ốc bất thường trong mẫu sinh thiết loét.",
+      "wordCount": 8
+    },
+    {
+      "index": 52,
+      "start": 288.45,
+      "end": 293.0,
+      "textEn": "They proposed that these bacteria may be the true culprits.",
+      "textVi": "Họ đề xuất rằng những vi khuẩn này có thể là thủ phạm thực sự.",
+      "wordCount": 10
+    },
+    {
+      "index": 53,
+      "start": 293.41,
+      "end": 301.3,
+      "textEn": "But after animal trials failed to produce any convincing evidence, Marshall took matters into his own...",
+      "textVi": "Nhưng sau khi các thử nghiệm trên động vật không có bằng chứng thuyết phục, Marshall đã tự mình giải quyết vấn đề...",
+      "wordCount": 16
+    },
+    {
+      "index": 54,
+      "start": 301.3,
+      "end": 309.1,
+      "textEn": "Stomach. After confirming his gut was healthy, he drank a tube of the spiral-shaped bacteria,",
+      "textVi": "Dạ dày. Sau khi xác nhận đường ruột khỏe mạnh, anh uống một ống vi khuẩn hình xoắn ốc,",
+      "wordCount": 16
+    },
+    {
+      "index": 55,
+      "start": 309.39,
+      "end": 312.43,
+      "textEn": "Later named Helicobacter pylori.",
+      "textVi": "Sau này được đặt tên là Helicobacter pylori.",
+      "wordCount": 4
+    },
+    {
+      "index": 56,
+      "start": 312.93,
+      "end": 318.06,
+      "textEn": "Within five days, he developed nausea, bloating, and stomach pain,",
+      "textVi": "Chỉ trong năm ngày, anh bị buồn nôn, đầy hơi và đau bụng,",
+      "wordCount": 10
+    },
+    {
+      "index": 57,
+      "start": 318.06,
+      "end": 323.36,
+      "textEn": "And after 10 days, the bacteria had begun damaging his stomach lining.",
+      "textVi": "Sau 10 ngày, vi khuẩn bắt đầu làm tổn thương niêm mạc dạ dày của anh.",
+      "wordCount": 12
+    },
+    {
+      "index": 58,
+      "start": 323.61,
+      "end": 330.33,
+      "textEn": "Marshall treated himself with antibiotics, which became a standard treatment for ulcers.",
+      "textVi": "Marshall tự điều trị bằng kháng sinh, trở thành phương pháp điều trị tiêu chuẩn cho loét.",
+      "wordCount": 12
+    },
+    {
+      "index": 59,
+      "start": 330.91,
+      "end": 336.17,
+      "textEn": "We now know that if left untreated, these ulcers can lead to cancer.",
+      "textVi": "Chúng ta giờ đây biết rằng nếu không được điều trị, những vết loét này có thể dẫn đến ung thư.",
+      "wordCount": 13
+    },
+    {
+      "index": 60,
+      "start": 336.37,
+      "end": 342.71,
+      "textEn": "So Marshall's decision to trust his gut would go on to save countless lives.",
+      "textVi": "Vì vậy, quyết định tin vào trực giác của Marshall đã cứu sống vô số mạng người.",
+      "wordCount": 14
+    },
+    {
+      "index": 61,
+      "start": 342.8,
+      "end": 350.72,
+      "textEn": "But his bold experiment, along with those of other laureates, was based on years of study and experience—",
+      "textVi": "Nhưng thí nghiệm táo bạo của anh, cùng với các nhà đoạt giải khác, dựa trên nhiều năm nghiên cứu và kinh nghiệm—",
+      "wordCount": 18
+    },
+    {
+      "index": 62,
+      "start": 351.06,
+      "end": 354.6,
+      "textEn": "Not something just anyone should try at home.",
+      "textVi": "Không phải thứ mà ai cũng nên thử ở nhà.",
+      "wordCount": 8
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 18,
+      "start": 98.14,
+      "end": 104.22,
+      "prompt": "In 1929, medical school graduate Werner Forssmann had a ____ idea.",
+      "sentenceVi": "Năm 1929, Werner Forssmann, một cựu sinh viên y khoa, đã nảy ra một ý tưởng cấp tiến.",
+      "answer": "radical",
+      "options": [
+        "magical",
+        "intact",
+        "medieval",
+        "radical"
+      ],
+      "meaningVi": "cơ bản/radical",
+      "cefr": "C1",
+      "ipa": "/ˈrædɪkl/",
+      "pos": "adj"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 20,
+      "start": 107.6,
+      "end": 115.99,
+      "prompt": "____ a tube through the elbow and thread it through the veins until it reaches the atrium directly.",
+      "sentenceVi": "Đưa một ống qua khuỷu tay và luồn qua tĩnh mạch cho đến khi ống dẫn trực tiếp đến nhĩ.",
+      "answer": "Insert",
+      "options": [
+        "Hence",
+        "Fulfill",
+        "Ignore",
+        "Insert"
+      ],
+      "meaningVi": "chèn",
+      "cefr": "B2",
+      "ipa": "/ɪnˈsɜːrt/",
+      "pos": "v"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 22,
+      "start": 120.58,
+      "end": 124.95,
+      "prompt": "Forssmann decided to perform the ____ on himself.",
+      "sentenceVi": "Forssmann quyết định tự thực hiện thủ thuật này.",
+      "answer": "procedure",
+      "options": [
+        "procedure",
+        "licence",
+        "allegation",
+        "origin"
+      ],
+      "meaningVi": "thủ tục",
+      "cefr": "B2",
+      "ipa": "/prəˈsiːdʒər/",
+      "pos": "n"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 36,
+      "start": 203.78,
+      "end": 207.74,
+      "prompt": "A highly dangerous ____-borne viral disease.",
+      "sentenceVi": "Một căn bệnh virus do muỗi truyền cực kỳ nguy hiểm.",
+      "answer": "mosquito",
+      "options": [
+        "enthusiasm",
+        "mosquito",
+        "episode",
+        "hygiene"
+      ],
+      "meaningVi": "muỗi",
+      "cefr": "B1",
+      "ipa": "/məskˈiːtoʊ/",
+      "pos": "n"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 45,
+      "start": 252.0,
+      "end": 254.21,
+      "prompt": "Youyou took the first ____.",
+      "sentenceVi": "Bạn, bạn đã tiêm liều đầu tiên.",
+      "answer": "dose",
+      "options": [
+        "fool",
+        "deed",
+        "dose",
+        "concept"
+      ],
+      "meaningVi": "liều lượng",
+      "cefr": "C1",
+      "ipa": "/dəʊs/",
+      "pos": "n"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 49,
+      "start": 272.73,
+      "end": 276.44,
+      "prompt": "Were believed to be ____ caused by stress.",
+      "sentenceVi": "Được cho là chủ yếu do căng thẳng gây ra.",
+      "answer": "primarily",
+      "options": [
+        "solely",
+        "primarily",
+        "hourly",
+        "quarterly"
+      ],
+      "meaningVi": "chủ yếu, phần lớn",
+      "cefr": "B2",
+      "ipa": "/praɪˈmer.əl.i/",
+      "pos": "adv"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 51,
+      "start": 282.24,
+      "end": 287.91,
+      "prompt": "Unusual spiral-shaped ____ in ulcer biopsy samples.",
+      "sentenceVi": "Vi khuẩn hình xoắn ốc bất thường trong mẫu sinh thiết loét.",
+      "answer": "bacteria",
+      "options": [
+        "issuer",
+        "companion",
+        "airfare",
+        "bacteria"
+      ],
+      "meaningVi": "vi khuẩn",
+      "cefr": "B2",
+      "ipa": "/bækˈtɪriə/",
+      "pos": "n"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 60,
+      "start": 336.37,
+      "end": 342.71,
+      "prompt": "So Marshall's decision to trust his gut would go on to save ____ lives.",
+      "sentenceVi": "Vì vậy, quyết định tin vào trực giác của Marshall đã cứu sống vô số mạng người.",
+      "answer": "countless",
+      "options": [
+        "fundamental",
+        "countless",
+        "dependent",
+        "provincial"
+      ],
+      "meaningVi": "vô số",
+      "cefr": "C1",
+      "ipa": "/ˈkaʊntləs/",
+      "pos": "adj"
+    }
+  ]
+}

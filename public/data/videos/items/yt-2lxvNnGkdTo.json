@@ -1,0 +1,868 @@
+{
+  "id": "yt-2lxvNnGkdTo",
+  "youtubeId": "2lxvNnGkdTo",
+  "titleEn": "What's your favourite snack? ⏲️ 6 Minute English",
+  "titleVi": "Món ăn nhẹ yêu thích của bạn là gì? ⏲️ 6 Minute English",
+  "channel": "BBC Learning English",
+  "channelSlug": "bbc-learning-english",
+  "durationSec": 375,
+  "level": "B1",
+  "topic": "Tin tức & Văn hóa",
+  "sentenceCount": 86,
+  "wpm": 155,
+  "thumbnail": "https://i.ytimg.com/vi/2lxvNnGkdTo/hqdefault.jpg",
+  "featured": true,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.03,
+    "wpmScore": 3.5,
+    "vocabScore": 2.65,
+    "priorScore": 3.0,
+    "hardRatio": 0.1
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 7.8,
+      "end": 11.47,
+      "textEn": "Hello, this is 6 Minute English from BBC Learning English.",
+      "textVi": "Xin chào, đây là 6 Minute English từ BBC Learning English.",
+      "wordCount": 10
+    },
+    {
+      "index": 1,
+      "start": 11.47,
+      "end": 13.32,
+      "textEn": "I'm Neil. And I'm Beth.",
+      "textVi": "Tôi là Neil. Và tôi là Beth.",
+      "wordCount": 5
+    },
+    {
+      "index": 2,
+      "start": 13.32,
+      "end": 17.04,
+      "textEn": "It seems people around the world are in love with snacks!",
+      "textVi": "Có vẻ như mọi người trên khắp thế giới đều yêu thích đồ ăn vặt!",
+      "wordCount": 11
+    },
+    {
+      "index": 3,
+      "start": 17.04,
+      "end": 24.88,
+      "textEn": "From old favourites like popcorn and crisps to new inventions like the chocolate sandwich, snacks are big business,",
+      "textVi": "Từ những món yêu thích cũ như bỏng ngô và khoai tây chiên đến những phát minh mới như bánh mì sô-cô-la, đồ ăn vặt là ngành kinh doanh lớn,",
+      "wordCount": 18
+    },
+    {
+      "index": 4,
+      "start": 24.88,
+      "end": 31.2,
+      "textEn": "With an estimated $1.5 trillion a year spent globally on snacking.",
+      "textVi": "Với ước tính khoảng 1,5 nghìn tỷ đô la mỗi năm dành cho đồ ăn vặt trên toàn cầu.",
+      "wordCount": 12
+    },
+    {
+      "index": 5,
+      "start": 31.2,
+      "end": 39.32,
+      "textEn": "Let's listen as British food historian Annie Gray and Argentinian chef Barbara Oievari tell BBC World Service programme.",
+      "textVi": "Hãy cùng nghe nhà sử học ẩm thực người Anh Annie Gray và đầu bếp người Argentina Barbara Oievari chia sẻ với chương trình BBC World Service.",
+      "wordCount": 18
+    },
+    {
+      "index": 6,
+      "start": 39.32,
+      "end": 43.68,
+      "textEn": "The Food Chain what they like to snack on between meals.",
+      "textVi": "Chuỗi Thức ăn là những gì họ thích ăn vặt giữa các bữa ăn.",
+      "wordCount": 11
+    },
+    {
+      "index": 7,
+      "start": 43.68,
+      "end": 47.96,
+      "textEn": "I like salted peanuts and I love a banana – preferably together, actually.",
+      "textVi": "Tôi thích đậu phộng muối và tôi rất thích một quả chuối – thực ra là ăn cùng nhau.",
+      "wordCount": 12
+    },
+    {
+      "index": 8,
+      "start": 47.96,
+      "end": 49.88,
+      "textEn": "I find that they hit the spot.",
+      "textVi": "Tôi thấy chúng rất hợp lý.",
+      "wordCount": 7
+    },
+    {
+      "index": 9,
+      "start": 49.88,
+      "end": 52.28,
+      "textEn": "My favourite snack is called chipa.",
+      "textVi": "Món ăn vặt yêu thích của tôi gọi là chipa.",
+      "wordCount": 6
+    },
+    {
+      "index": 10,
+      "start": 52.28,
+      "end": 59.44,
+      "textEn": "It's a small, round bun made with cassava, cheese, butter, milk and salt.",
+      "textVi": "Đó là một chiếc bánh nhỏ, tròn làm từ sắn, phô mai, bơ, sữa và muối.",
+      "wordCount": 13
+    },
+    {
+      "index": 11,
+      "start": 59.44,
+      "end": 63.48,
+      "textEn": "Barbara's favourite snack is a cheese bread called chipa,",
+      "textVi": "Món ăn vặt yêu thích của Barbara là bánh mì phô mai gọi là chipa,",
+      "wordCount": 9
+    },
+    {
+      "index": 12,
+      "start": 63.48,
+      "end": 67.44,
+      "textEn": "While for Annie, it's the combination of peanuts and banana.",
+      "textVi": "Còn với Annie, đó là sự kết hợp giữa đậu phộng và chuối.",
+      "wordCount": 10
+    },
+    {
+      "index": 13,
+      "start": 67.44,
+      "end": 72.04,
+      "textEn": "That hits the spot – an idiom meaning that it's exactly what you want.",
+      "textVi": "Điều đó rất hợp – một thành ngữ có nghĩa là đó chính xác là thứ bạn muốn.",
+      "wordCount": 13
+    },
+    {
+      "index": 14,
+      "start": 72.04,
+      "end": 74.08,
+      "textEn": "Neil, what's your favourite snack?",
+      "textVi": "Neil, món ăn vặt yêu thích của cậu là gì?",
+      "wordCount": 5
+    },
+    {
+      "index": 15,
+      "start": 74.08,
+      "end": 80.16,
+      "textEn": "Well, I want to say something healthy, but actually, you know, I really love a bag of crisps.",
+      "textVi": "Tôi muốn nói điều gì đó lành mạnh, nhưng thật ra, tôi rất thích một túi snack khoai tây chiên.",
+      "wordCount": 18
+    },
+    {
+      "index": 16,
+      "start": 80.16,
+      "end": 81.52,
+      "textEn": "Oh, me too!",
+      "textVi": "Ồ, tôi cũng vậy!",
+      "wordCount": 3
+    },
+    {
+      "index": 17,
+      "start": 81.52,
+      "end": 83.04,
+      "textEn": "Yeah, crisps are good.",
+      "textVi": "Vâng, khoai tây chiên ngon đấy.",
+      "wordCount": 4
+    },
+    {
+      "index": 18,
+      "start": 83.04,
+      "end": 84.84,
+      "textEn": "Well, whatever you like to nibble on,",
+      "textVi": "Chà, bất cứ thứ gì bạn thích nhấm nháp,",
+      "wordCount": 7
+    },
+    {
+      "index": 19,
+      "start": 84.84,
+      "end": 89.64,
+      "textEn": "In this episode we'll find out why we are so in love with snack food.",
+      "textVi": "Trong tập này, chúng ta sẽ tìm hiểu lý do tại sao chúng ta lại yêu thích đồ ăn vặt đến vậy.",
+      "wordCount": 15
+    },
+    {
+      "index": 20,
+      "start": 89.64,
+      "end": 93.16,
+      "textEn": "As usual, we'll learn some useful new words and phrases.",
+      "textVi": "Như thường lệ, chúng ta sẽ học được một số từ và cụm từ mới hữu ích.",
+      "wordCount": 10
+    },
+    {
+      "index": 21,
+      "start": 93.16,
+      "end": 99.8,
+      "textEn": "And remember – you'll find all the vocabulary and a quiz on our website, bbclearningenglish.com.",
+      "textVi": "Và hãy nhớ – bạn sẽ tìm thấy tất cả từ vựng và bài kiểm tra trên trang web của chúng tôi, bbclearningenglish.com.",
+      "wordCount": 15
+    },
+    {
+      "index": 22,
+      "start": 99.8,
+      "end": 102.52,
+      "textEn": "OK. But first I have a question for you, Beth.",
+      "textVi": "Được rồi. Nhưng trước tiên tôi có một câu hỏi cho bạn, Beth.",
+      "wordCount": 10
+    },
+    {
+      "index": 23,
+      "start": 102.52,
+      "end": 109.44,
+      "textEn": "According to a recent YouGov survey, which of the following snacks is most popular among Brits?",
+      "textVi": "Theo một khảo sát gần đây của YouGov, món ăn vặt nào trong số các món sau đây phổ biến nhất trong cộng đồng người Anh?",
+      "wordCount": 16
+    },
+    {
+      "index": 24,
+      "start": 109.44,
+      "end": 116.72,
+      "textEn": "Is it: a) crisps, b) confectionery and chocolate, or c) savoury snacks and biscuits?",
+      "textVi": "Có phải là: a) khoai tây chiên, b) bánh kẹo và sô-cô-la, hay c) đồ ăn nhẹ mặn và bánh quy?",
+      "wordCount": 14
+    },
+    {
+      "index": 25,
+      "start": 116.72,
+      "end": 121.0,
+      "textEn": "Well, we both just said crisps so I'm going to say crisps.",
+      "textVi": "Chúng ta vừa nói khoai tây chiên nên tôi sẽ nói khoai tây chiên.",
+      "wordCount": 12
+    },
+    {
+      "index": 26,
+      "start": 121.0,
+      "end": 124.28,
+      "textEn": "Well, we'll find out the answer later in the programme.",
+      "textVi": "Chúng ta sẽ biết câu trả lời sau trong chương trình.",
+      "wordCount": 10
+    },
+    {
+      "index": 27,
+      "start": 124.28,
+      "end": 128.6,
+      "textEn": "Someone with a professional interest in snacking is Christine Cochran,",
+      "textVi": "Một người có hứng thú chuyên nghiệp với món ăn vặt là Christine Cochran,",
+      "wordCount": 10
+    },
+    {
+      "index": 28,
+      "start": 128.6,
+      "end": 133.56,
+      "textEn": "President of SNAC International, the trade association for the industry.",
+      "textVi": "Chủ tịch SNAC International, hiệp hội thương mại của ngành công nghiệp.",
+      "wordCount": 10
+    },
+    {
+      "index": 29,
+      "start": 133.56,
+      "end": 137.36,
+      "textEn": "Here, Christine shares her ideas about why we love to snack with.",
+      "textVi": "Tại đây, Christine chia sẻ những ý tưởng về lý do tại sao chúng ta thích ăn vặt.",
+      "wordCount": 12
+    },
+    {
+      "index": 30,
+      "start": 137.36,
+      "end": 140.76,
+      "textEn": "BBC World Service programme The Food Chain.",
+      "textVi": "Chương trình The Food Chain của BBC World Service.",
+      "wordCount": 7
+    },
+    {
+      "index": 31,
+      "start": 140.76,
+      "end": 146.0,
+      "textEn": "A snack is an affordable luxury, so if you've had a bad day.",
+      "textVi": "Một món ăn nhẹ là một món xa xỉ phải chăng, nên nếu bạn đã có một ngày tồi tệ.",
+      "wordCount": 13
+    },
+    {
+      "index": 32,
+      "start": 146.0,
+      "end": 149.8,
+      "textEn": "Or money is tight, this is something that you can turn to,",
+      "textVi": "Hoặc tiền bạc eo hẹp, đây là thứ bạn có thể tìm đến,",
+      "wordCount": 12
+    },
+    {
+      "index": 33,
+      "start": 149.8,
+      "end": 153.88,
+      "textEn": "And I think that is why you see it as so popular.",
+      "textVi": "Và tôi nghĩ đó là lý do bạn thấy nó phổ biến đến vậy.",
+      "wordCount": 12
+    },
+    {
+      "index": 34,
+      "start": 153.88,
+      "end": 160.64,
+      "textEn": "Consumers, especially in the United States, are looking for smaller, more convenient portions.",
+      "textVi": "Người tiêu dùng, đặc biệt là ở Hoa Kỳ, đang tìm kiếm khẩu phần nhỏ hơn, tiện lợi hơn.",
+      "wordCount": 13
+    },
+    {
+      "index": 35,
+      "start": 160.64,
+      "end": 165.16,
+      "textEn": "They're not always going to be able to sit down and have three meals a day, right?",
+      "textVi": "Họ không phải lúc nào cũng có thể ngồi xuống và ăn ba bữa mỗi ngày, đúng không?",
+      "wordCount": 17
+    },
+    {
+      "index": 36,
+      "start": 165.16,
+      "end": 167.8,
+      "textEn": "So, they're eating on the go, and the other thing that you see.",
+      "textVi": "Vì vậy, họ ăn khi đang di chuyển, và một điều khác bạn thấy.",
+      "wordCount": 13
+    },
+    {
+      "index": 37,
+      "start": 167.8,
+      "end": 172.0,
+      "textEn": "Is this desire for very specific functional ingredients, right?",
+      "textVi": "Đây có phải là mong muốn về các thành phần chức năng rất cụ thể, đúng không?",
+      "wordCount": 9
+    },
+    {
+      "index": 38,
+      "start": 172.0,
+      "end": 177.72,
+      "textEn": "So, mental clarity, gut health, muscle development, these sorts of things.",
+      "textVi": "Vậy nên, sự minh mẫn tinh thần, sức khỏe đường ruột, phát triển cơ bắp, những thứ như vậy.",
+      "wordCount": 11
+    },
+    {
+      "index": 39,
+      "start": 177.72,
+      "end": 181.8,
+      "textEn": "Again, they're nicely packaged in snack sizes.",
+      "textVi": "Một lần nữa, chúng được đóng gói rất đẹp theo kích thước đồ ăn nhẹ.",
+      "wordCount": 7
+    },
+    {
+      "index": 40,
+      "start": 181.8,
+      "end": 185.04,
+      "textEn": "Snacks are often seen as a little luxury,",
+      "textVi": "Đồ ăn nhẹ thường được xem như một món xa xỉ nhỏ,",
+      "wordCount": 8
+    },
+    {
+      "index": 41,
+      "start": 185.04,
+      "end": 192.2,
+      "textEn": "But to be successful a snack must also be affordable – an adjective meaning not expensive.",
+      "textVi": "Nhưng để thành công, một món ăn nhẹ cũng phải có giá cả phải chăng – một tính từ có nghĩa là không đắt.",
+      "wordCount": 15
+    },
+    {
+      "index": 42,
+      "start": 192.2,
+      "end": 195.12,
+      "textEn": "Snacks which are cheap enough for most people to buy.",
+      "textVi": "Những món ăn vặt đủ rẻ để hầu hết mọi người có thể mua.",
+      "wordCount": 10
+    },
+    {
+      "index": 43,
+      "start": 195.12,
+      "end": 199.44,
+      "textEn": "Will sell even if money is tight – a phrase used to describe a situation.",
+      "textVi": "Sẽ bán ngay cả khi tiền bạc eo hẹp – một cụm từ dùng để mô tả một tình huống.",
+      "wordCount": 14
+    },
+    {
+      "index": 44,
+      "start": 199.44,
+      "end": 202.12,
+      "textEn": "Where there's only just enough money to live on.",
+      "textVi": "Nơi chỉ đủ tiền để sống.",
+      "wordCount": 9
+    },
+    {
+      "index": 45,
+      "start": 202.12,
+      "end": 207.04,
+      "textEn": "Thanks to snacks, today fewer people sit down to eat a proper meal.",
+      "textVi": "Nhờ có đồ ăn nhẹ, ngày nay ít người ngồi xuống ăn một bữa ăn tử tế hơn.",
+      "wordCount": 13
+    },
+    {
+      "index": 46,
+      "start": 207.04,
+      "end": 209.32,
+      "textEn": "Instead, they eat on the go.",
+      "textVi": "Thay vào đó, họ ăn khi đang di chuyển.",
+      "wordCount": 6
+    },
+    {
+      "index": 47,
+      "start": 209.32,
+      "end": 211.6,
+      "textEn": "If you do something on the go, you do it.",
+      "textVi": "Nếu bạn làm gì đó khi đang di chuyển, bạn sẽ làm.",
+      "wordCount": 10
+    },
+    {
+      "index": 48,
+      "start": 211.6,
+      "end": 215.88,
+      "textEn": "While you're busy travelling or moving around, rather than at home.",
+      "textVi": "Khi bạn bận rộn đi du lịch hoặc di chuyển, thay vì ở nhà.",
+      "wordCount": 11
+    },
+    {
+      "index": 49,
+      "start": 215.88,
+      "end": 218.84,
+      "textEn": "Many modern snacks target a specific function.",
+      "textVi": "Nhiều món ăn nhẹ hiện đại hướng đến một chức năng cụ thể.",
+      "wordCount": 7
+    },
+    {
+      "index": 50,
+      "start": 218.84,
+      "end": 222.72,
+      "textEn": "For example, an energy drink might claim to improve your gut health.",
+      "textVi": "Ví dụ, một loại nước tăng lực có thể được cho là cải thiện sức khỏe đường ruột của bạn.",
+      "wordCount": 12
+    },
+    {
+      "index": 51,
+      "start": 222.72,
+      "end": 226.08,
+      "textEn": "Or your mental clarity – a term describing a state of mind.",
+      "textVi": "Hoặc sự minh mẫn trong tâm trí – một thuật ngữ mô tả trạng thái tâm trí.",
+      "wordCount": 11
+    },
+    {
+      "index": 52,
+      "start": 226.08,
+      "end": 229.84,
+      "textEn": "Which is focused and engaged, not dull or foggy.",
+      "textVi": "Điều đó tập trung và tham gia, không nhàm chán hay mơ hồ.",
+      "wordCount": 9
+    },
+    {
+      "index": 53,
+      "start": 229.84,
+      "end": 233.76,
+      "textEn": "But not everyone is a fan of modern packaged snacks,",
+      "textVi": "Nhưng không phải ai cũng thích đồ ăn nhẹ đóng gói hiện đại,",
+      "wordCount": 10
+    },
+    {
+      "index": 54,
+      "start": 233.76,
+      "end": 237.76,
+      "textEn": "Such as the bags of crisps and chocolate bars which fill our shops.",
+      "textVi": "Như những túi khoai tây chiên và thanh sô-cô-la đầy cửa hàng của chúng tôi.",
+      "wordCount": 13
+    },
+    {
+      "index": 55,
+      "start": 237.76,
+      "end": 243.92,
+      "textEn": "Originally from Argentina, Barbara Oievari now lives in Florida, USA.",
+      "textVi": "Sinh ra tại Argentina, Barbara Oievari hiện sống tại Florida, Hoa Kỳ.",
+      "wordCount": 10
+    },
+    {
+      "index": 56,
+      "start": 243.92,
+      "end": 247.64,
+      "textEn": "Here, Barbara tells BBC World Service's The Food Chain.",
+      "textVi": "Tại đây, Barbara chia sẻ với chương trình The Food Chain của BBC World Service.",
+      "wordCount": 9
+    },
+    {
+      "index": 57,
+      "start": 247.64,
+      "end": 252.08,
+      "textEn": "How she encourages her nine-year-old son to choose more natural snacks.",
+      "textVi": "Cách bà khuyến khích con trai chín tuổi của mình chọn các món ăn vặt tự nhiên hơn.",
+      "wordCount": 13
+    },
+    {
+      "index": 58,
+      "start": 252.08,
+      "end": 257.32,
+      "textEn": "Personally, I enjoy cooking and eating more natural, simpler snacks,",
+      "textVi": "Cá nhân tôi thích nấu ăn và ăn các món ăn nhẹ tự nhiên, đơn giản hơn,",
+      "wordCount": 10
+    },
+    {
+      "index": 59,
+      "start": 257.32,
+      "end": 259.6,
+      "textEn": "But of course I can't swim against the current,",
+      "textVi": "Nhưng tất nhiên tôi không thể bơi ngược dòng chảy,",
+      "wordCount": 9
+    },
+    {
+      "index": 60,
+      "start": 259.6,
+      "end": 264.64,
+      "textEn": "And if my nine-year-old wants to eat the little baked snacks that have cheddar...",
+      "textVi": "Và nếu đứa con chín tuổi của tôi muốn ăn những món ăn nhẹ nướng có phô mai cheddar...",
+      "wordCount": 16
+    },
+    {
+      "index": 61,
+      "start": 264.64,
+      "end": 267.52,
+      "textEn": "Ironically it is something baked with cheese in it,",
+      "textVi": "Trớ trêu thay, đó là món nướng có phô mai bên trong,",
+      "wordCount": 9
+    },
+    {
+      "index": 62,
+      "start": 267.52,
+      "end": 271.36,
+      "textEn": "Which is similar to what I enjoy – it's just the modern twist.",
+      "textVi": "Điều này cũng giống với những gì tôi thích – chỉ là sự biến tấu hiện đại.",
+      "wordCount": 12
+    },
+    {
+      "index": 63,
+      "start": 271.36,
+      "end": 277.96,
+      "textEn": "Barbara wants her son to eat healthy, homemade food, although he prefers modern, packaged snacks.",
+      "textVi": "Barbara muốn con trai mình ăn những món ăn lành mạnh, tự làm, mặc dù cậu thích các món ăn vặt hiện đại, đóng gói.",
+      "wordCount": 15
+    },
+    {
+      "index": 64,
+      "start": 277.96,
+      "end": 281.68,
+      "textEn": "Barbara complains she can't swim against the current.",
+      "textVi": "Barbara than phiền rằng cô không thể bơi ngược dòng chảy.",
+      "wordCount": 8
+    },
+    {
+      "index": 65,
+      "start": 281.68,
+      "end": 284.56,
+      "textEn": "The idiom, swim against the current, means to act differently.",
+      "textVi": "Thành ngữ, bơi ngược dòng chảy, nghĩa là hành động khác đi.",
+      "wordCount": 10
+    },
+    {
+      "index": 66,
+      "start": 284.56,
+      "end": 288.52,
+      "textEn": "From other people, often because you do not mind being different.",
+      "textVi": "Từ người khác, thường là vì bạn không ngại bị khác biệt.",
+      "wordCount": 11
+    },
+    {
+      "index": 67,
+      "start": 288.52,
+      "end": 291.72,
+      "textEn": "Well, Neil, all these snacks have made me hungry!",
+      "textVi": "Này Neil, tất cả những món ăn vặt này làm tôi đói quá!",
+      "wordCount": 9
+    },
+    {
+      "index": 68,
+      "start": 291.72,
+      "end": 294.88,
+      "textEn": "Now, isn't it time to reveal the answer to your question?",
+      "textVi": "Bây giờ, chẳng phải đã đến lúc tiết lộ câu trả lời cho câu hỏi của anh chưa?",
+      "wordCount": 11
+    },
+    {
+      "index": 69,
+      "start": 294.88,
+      "end": 295.74,
+      "textEn": "Yes, it is.",
+      "textVi": "Đúng vậy.",
+      "wordCount": 3
+    },
+    {
+      "index": 70,
+      "start": 295.74,
+      "end": 298.64,
+      "textEn": "I asked: According to a recent YouGov survey,",
+      "textVi": "Tôi hỏi: Theo một khảo sát gần đây của YouGov,",
+      "wordCount": 8
+    },
+    {
+      "index": 71,
+      "start": 298.64,
+      "end": 302.16,
+      "textEn": "Which of the following snacks is the most popular amongst Brits?",
+      "textVi": "Trong số các món ăn vặt sau đây, món ăn vặt nào phổ biến nhất trong cộng đồng người Anh?",
+      "wordCount": 11
+    },
+    {
+      "index": 72,
+      "start": 302.16,
+      "end": 306.12,
+      "textEn": "Crisps, confectionery and chocolate, or savoury snacks and biscuits.",
+      "textVi": "Khoai tây chiên, bánh kẹo và sô-cô-la, hoặc các món ăn nhẹ mặn và bánh quy.",
+      "wordCount": 9
+    },
+    {
+      "index": 73,
+      "start": 306.12,
+      "end": 308.8,
+      "textEn": "And the answer was...",
+      "textVi": "Và câu trả lời là...",
+      "wordCount": 4
+    },
+    {
+      "index": 74,
+      "start": 308.8,
+      "end": 316.24,
+      "textEn": "B) confectionery and chocolate, which 45% of Britons indulge in weekly, according to that survey.",
+      "textVi": "B) bánh kẹo và sô cô la, mà 45% người Anh thưởng thức hàng tuần, theo khảo sát đó.",
+      "wordCount": 15
+    },
+    {
+      "index": 75,
+      "start": 316.24,
+      "end": 321.36,
+      "textEn": "OK. Let's recap the vocabulary we've learned, starting with the phrase, hits the spot,",
+      "textVi": "Được rồi. Hãy cùng tóm tắt từ vựng chúng ta đã học, bắt đầu với cụm từ, phù hợp,",
+      "wordCount": 14
+    },
+    {
+      "index": 76,
+      "start": 321.36,
+      "end": 325.4,
+      "textEn": "Which describes something which is exactly what you want or need.",
+      "textVi": "Điều này mô tả đúng thứ bạn muốn hoặc cần.",
+      "wordCount": 11
+    },
+    {
+      "index": 77,
+      "start": 325.4,
+      "end": 330.72,
+      "textEn": "If something is affordable, it's cheap enough that most people have enough money to buy it.",
+      "textVi": "Nếu thứ gì đó giá cả phải chăng, thì nó đủ rẻ để hầu hết mọi người có đủ tiền để mua.",
+      "wordCount": 16
+    },
+    {
+      "index": 78,
+      "start": 330.72,
+      "end": 335.6,
+      "textEn": "The phrase, money is tight, means you only have just enough money to live.",
+      "textVi": "Câu nói, tiền bạc eo hẹp, nghĩa là bạn chỉ có đủ tiền để sống.",
+      "wordCount": 14
+    },
+    {
+      "index": 79,
+      "start": 335.6,
+      "end": 340.52,
+      "textEn": "The idiom on the go means doing things while you're busy travelling or moving around.",
+      "textVi": "Thành ngữ khi di chuyển có nghĩa là làm việc trong khi bạn bận rộn đi du lịch hoặc di chuyển.",
+      "wordCount": 15
+    },
+    {
+      "index": 80,
+      "start": 340.52,
+      "end": 346.76,
+      "textEn": "Mental clarity is a state in which your mind is fully focused and active, not dull or foggy.",
+      "textVi": "Sự minh mẫn tinh thần là trạng thái tâm trí bạn hoàn toàn tập trung và hoạt động, không bị mờ nhạt hay mơ hồ.",
+      "wordCount": 18
+    },
+    {
+      "index": 81,
+      "start": 346.76,
+      "end": 351.04,
+      "textEn": "And finally, people who swim against the current, or the tide,",
+      "textVi": "Và cuối cùng, những người bơi ngược dòng chảy, hoặc thủy triều,",
+      "wordCount": 11
+    },
+    {
+      "index": 82,
+      "start": 351.04,
+      "end": 354.6,
+      "textEn": "Do or say things differently from most other people.",
+      "textVi": "Hãy làm hoặc nói khác với hầu hết mọi người.",
+      "wordCount": 9
+    },
+    {
+      "index": 83,
+      "start": 354.6,
+      "end": 361.32,
+      "textEn": "Once again, our six minutes are up, but why not head over to our website, bbclearningenglish.com,",
+      "textVi": "Một lần nữa, sáu phút của chúng ta đã hết, nhưng tại sao không truy cập trang web của chúng tôi, bbclearningenglish.com,",
+      "wordCount": 17
+    },
+    {
+      "index": 84,
+      "start": 361.32,
+      "end": 364.4,
+      "textEn": "To try the quiz and worksheets for this episode.",
+      "textVi": "Hãy thử làm bài kiểm tra và các phiếu bài tập cho tập này.",
+      "wordCount": 9
+    },
+    {
+      "index": 85,
+      "start": 364.4,
+      "end": 365.88,
+      "textEn": "See you again soon!",
+      "textVi": "Hẹn gặp lại bạn sớm!",
+      "wordCount": 4
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 3,
+      "start": 17.04,
+      "end": 24.88,
+      "prompt": "From old favourites like ____ and crisps to new inventions like the chocolate sandwich, snacks are big business,",
+      "sentenceVi": "Từ những món yêu thích cũ như bỏng ngô và khoai tây chiên đến những phát minh mới như bánh mì sô-cô-la, đồ ăn vặt là ngành kinh doanh lớn,",
+      "answer": "popcorn",
+      "options": [
+        "popcorn",
+        "wage",
+        "base",
+        "habitat"
+      ],
+      "meaningVi": "bỏng ngô",
+      "cefr": "B1",
+      "ipa": "/pˈɑːpkˌɔːrn/",
+      "pos": "n"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 6,
+      "start": 39.32,
+      "end": 43.68,
+      "prompt": "The Food ____ what they like to snack on between meals.",
+      "sentenceVi": "Chuỗi Thức ăn là những gì họ thích ăn vặt giữa các bữa ăn.",
+      "answer": "Chain",
+      "options": [
+        "Fraud",
+        "Chain",
+        "Metric",
+        "Seed"
+      ],
+      "meaningVi": "chuỗi",
+      "cefr": "B1",
+      "ipa": "/tʃeɪn/",
+      "pos": "n"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 9,
+      "start": 49.88,
+      "end": 52.28,
+      "prompt": "My favourite ____ is called chipa.",
+      "sentenceVi": "Món ăn vặt yêu thích của tôi gọi là chipa.",
+      "answer": "snack",
+      "options": [
+        "snack",
+        "index",
+        "tuna",
+        "compound"
+      ],
+      "meaningVi": "bữa ăn nhẹ",
+      "cefr": "B1",
+      "ipa": "/snˈæk/",
+      "pos": "n"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 28,
+      "start": 128.6,
+      "end": 133.56,
+      "prompt": "President of SNAC International, the trade ____ for the industry.",
+      "sentenceVi": "Chủ tịch SNAC International, hiệp hội thương mại của ngành công nghiệp.",
+      "answer": "association",
+      "options": [
+        "headphone",
+        "atmosphere",
+        "association",
+        "politics"
+      ],
+      "meaningVi": "hiệp hội, sự liên kết",
+      "cefr": "B2",
+      "ipa": "/əˌsoʊ.siˈeɪ.ʃən/",
+      "pos": "n"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 31,
+      "start": 140.76,
+      "end": 146.0,
+      "prompt": "A snack is an ____ luxury, so if you've had a bad day.",
+      "sentenceVi": "Một món ăn nhẹ là một món xa xỉ phải chăng, nên nếu bạn đã có một ngày tồi tệ.",
+      "answer": "affordable",
+      "options": [
+        "relieved",
+        "injured",
+        "affordable",
+        "generic"
+      ],
+      "meaningVi": "giá cả phải chăng",
+      "cefr": "B2",
+      "ipa": "/əˈfɔː(ɹ).də.bəl/",
+      "pos": "adj"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 34,
+      "start": 153.88,
+      "end": 160.64,
+      "prompt": "Consumers, especially in the United States, are looking for smaller, more ____ portions.",
+      "sentenceVi": "Người tiêu dùng, đặc biệt là ở Hoa Kỳ, đang tìm kiếm khẩu phần nhỏ hơn, tiện lợi hơn.",
+      "answer": "convenient",
+      "options": [
+        "nominal",
+        "comfortable",
+        "convenient",
+        "unnecessary"
+      ],
+      "meaningVi": "thuận tiện, tiện lợi",
+      "cefr": "B1",
+      "ipa": "/kənˈviː.ni.ənt/",
+      "pos": "adj"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 37,
+      "start": 167.8,
+      "end": 172.0,
+      "prompt": "Is this ____ for very specific functional ingredients, right?",
+      "sentenceVi": "Đây có phải là mong muốn về các thành phần chức năng rất cụ thể, đúng không?",
+      "answer": "desire",
+      "options": [
+        "desire",
+        "emergence",
+        "respect",
+        "hierarchy"
+      ],
+      "meaningVi": "mong muốn",
+      "cefr": "B2",
+      "ipa": "/dɪˈzaɪər/",
+      "pos": "n"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 52,
+      "start": 226.08,
+      "end": 229.84,
+      "prompt": "Which is focused and engaged, not ____ or foggy.",
+      "sentenceVi": "Điều đó tập trung và tham gia, không nhàm chán hay mơ hồ.",
+      "answer": "dull",
+      "options": [
+        "vanilla",
+        "willing",
+        "dull",
+        "corrupt"
+      ],
+      "meaningVi": "buồn tẻ",
+      "cefr": "B2",
+      "ipa": "/dʌl/",
+      "pos": "adj"
+    }
+  ]
+}

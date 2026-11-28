@@ -1,0 +1,892 @@
+{
+  "id": "yt-C830bmzNjDc",
+  "youtubeId": "C830bmzNjDc",
+  "titleEn": "Is breakfast the most important meal of the day? ⏲️ 6 Minute English",
+  "titleVi": "Bữa sáng có phải là bữa ăn quan trọng nhất trong ngày không? ⏲️ 6 phút tiếng Anh",
+  "channel": "BBC Learning English",
+  "channelSlug": "bbc-learning-english",
+  "durationSec": 373,
+  "level": "B1",
+  "topic": "Giao tiếp hàng ngày",
+  "sentenceCount": 89,
+  "wpm": 162,
+  "thumbnail": "https://i.ytimg.com/vi/C830bmzNjDc/hqdefault.jpg",
+  "featured": true,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.12,
+    "wpmScore": 3.78,
+    "vocabScore": 2.67,
+    "priorScore": 3.0,
+    "hardRatio": 0.123
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 8.0,
+      "end": 11.12,
+      "textEn": "Hello, this is 6 Minute English from BBC Learning English.",
+      "textVi": "Xin chào, đây là 6 Minute English từ BBC Learning English.",
+      "wordCount": 10
+    },
+    {
+      "index": 1,
+      "start": 11.12,
+      "end": 13.32,
+      "textEn": "I'm Georgie. And I'm Phil.",
+      "textVi": "Tôi là Georgie. Và tôi là Phil.",
+      "wordCount": 5
+    },
+    {
+      "index": 2,
+      "start": 13.32,
+      "end": 16.6,
+      "textEn": "Did you have any breakfast today, Georgie, or did you skip it?",
+      "textVi": "Hôm nay Georgie, bạn có ăn sáng không, hay bạn đã bỏ qua?",
+      "wordCount": 12
+    },
+    {
+      "index": 3,
+      "start": 16.6,
+      "end": 18.52,
+      "textEn": "I did have some breakfast.",
+      "textVi": "Tôi đã ăn sáng rồi.",
+      "wordCount": 5
+    },
+    {
+      "index": 4,
+      "start": 18.52,
+      "end": 22.8,
+      "textEn": "On the way to the office, I got myself a pastry and a coffee.",
+      "textVi": "Trên đường đến văn phòng, tôi mua cho mình một chiếc bánh ngọt và một ly cà phê.",
+      "wordCount": 14
+    },
+    {
+      "index": 5,
+      "start": 22.8,
+      "end": 23.88,
+      "textEn": "What about you?",
+      "textVi": "Còn bạn thì sao?",
+      "wordCount": 3
+    },
+    {
+      "index": 6,
+      "start": 23.88,
+      "end": 26.0,
+      "textEn": "I had a big bowl of porridge,",
+      "textVi": "Tôi đã ăn một bát cháo lớn,",
+      "wordCount": 7
+    },
+    {
+      "index": 7,
+      "start": 26.0,
+      "end": 30.36,
+      "textEn": "But it was at six o'clock this morning so I'm hungry again now.",
+      "textVi": "Nhưng lúc đó là sáu giờ sáng nên tôi lại đói.",
+      "wordCount": 13
+    },
+    {
+      "index": 8,
+      "start": 30.36,
+      "end": 35.92,
+      "textEn": "And you might soon be hungry as well because we're going to talk about breakfast.",
+      "textVi": "Và có thể bạn cũng sẽ sớm đói vì chúng ta sẽ nói về bữa sáng.",
+      "wordCount": 15
+    },
+    {
+      "index": 9,
+      "start": 35.92,
+      "end": 38.16,
+      "textEn": "How important is it?",
+      "textVi": "Nó quan trọng đến mức nào?",
+      "wordCount": 4
+    },
+    {
+      "index": 10,
+      "start": 38.16,
+      "end": 45.08,
+      "textEn": "Let's start by hearing from Professor Alexandra Johnstone, a nutrition scientist who spoke to Ruth Alexander, host.",
+      "textVi": "Hãy bắt đầu bằng việc nghe Giáo sư Alexandra Johnstone, một nhà khoa học dinh dưỡng, người đã trò chuyện với Ruth Alexander, người dẫn chương trình.",
+      "wordCount": 17
+    },
+    {
+      "index": 11,
+      "start": 45.08,
+      "end": 49.16,
+      "textEn": "Of BBC World Service programme The Food Chain.",
+      "textVi": "Chương trình The Food Chain của BBC World Service.",
+      "wordCount": 8
+    },
+    {
+      "index": 12,
+      "start": 49.16,
+      "end": 54.56,
+      "textEn": "I am supporting the meme, breakfast like a king and dine like a pauper.",
+      "textVi": "Tôi ủng hộ meme, ăn sáng như vua và ăn tối như người nghèo.",
+      "wordCount": 14
+    },
+    {
+      "index": 13,
+      "start": 54.56,
+      "end": 58.28,
+      "textEn": "For you then, breakfast is the most important meal of the day.",
+      "textVi": "Với bạn, bữa sáng là bữa ăn quan trọng nhất trong ngày.",
+      "wordCount": 12
+    },
+    {
+      "index": 14,
+      "start": 58.28,
+      "end": 62.92,
+      "textEn": "I agree. So it's really important, particularly for people who are trying.",
+      "textVi": "Tôi đồng ý. Vì vậy, điều này rất quan trọng, đặc biệt với những người đang cố gắng.",
+      "wordCount": 12
+    },
+    {
+      "index": 15,
+      "start": 62.92,
+      "end": 67.96,
+      "textEn": "To maintain a healthy weight and people who are trying to lose weight.",
+      "textVi": "Để duy trì cân nặng khỏe mạnh và những người đang cố gắng giảm cân.",
+      "wordCount": 13
+    },
+    {
+      "index": 16,
+      "start": 67.96,
+      "end": 73.28,
+      "textEn": "Alexandra says that you should breakfast like a king and dine like a pauper.",
+      "textVi": "Alexandra nói rằng bạn nên ăn sáng như một vị vua và ăn như người nghèo.",
+      "wordCount": 14
+    },
+    {
+      "index": 17,
+      "start": 73.28,
+      "end": 77.12,
+      "textEn": "Pauper is an old-fashioned word for a very poor person.",
+      "textVi": "Người nghèo là từ cổ điển chỉ người rất nghèo.",
+      "wordCount": 11
+    },
+    {
+      "index": 18,
+      "start": 77.12,
+      "end": 81.16,
+      "textEn": "The expression means have a big breakfast and a small dinner.",
+      "textVi": "Cụm từ có nghĩa là ăn sáng thịnh soạn và ăn tối nhỏ.",
+      "wordCount": 11
+    },
+    {
+      "index": 19,
+      "start": 81.16,
+      "end": 86.6,
+      "textEn": "We're going to find out some of the reasons that Alexandra and other experts recommend doing this.",
+      "textVi": "Chúng ta sẽ tìm hiểu một số lý do mà Alexandra và các chuyên gia khác khuyên nên làm điều này.",
+      "wordCount": 17
+    },
+    {
+      "index": 20,
+      "start": 86.6,
+      "end": 90.24,
+      "textEn": "And as usual, we'll learn some useful new words and phrases.",
+      "textVi": "Và như thường lệ, chúng ta sẽ học được một số từ và cụm từ mới hữu ích.",
+      "wordCount": 11
+    },
+    {
+      "index": 21,
+      "start": 90.24,
+      "end": 98.52,
+      "textEn": "And remember – you'll find all the vocabulary and a quiz on our website, bbclearningenglish.com.",
+      "textVi": "Và hãy nhớ – bạn sẽ tìm thấy tất cả từ vựng và bài kiểm tra trên trang web của chúng tôi, bbclearningenglish.com.",
+      "wordCount": 15
+    },
+    {
+      "index": 22,
+      "start": 98.52,
+      "end": 101.64,
+      "textEn": "OK. But first I have a question for you, Phil.",
+      "textVi": "Được rồi. Nhưng trước tiên tôi có một câu hỏi cho bạn, Phil.",
+      "wordCount": 10
+    },
+    {
+      "index": 23,
+      "start": 101.64,
+      "end": 107.64,
+      "textEn": "According to a recent survey, which of the following is the most popular breakfast in the UK?",
+      "textVi": "Theo một khảo sát gần đây, bữa sáng nào trong số các món sau đây là phổ biến nhất ở Anh?",
+      "wordCount": 17
+    },
+    {
+      "index": 24,
+      "start": 107.64,
+      "end": 113.04,
+      "textEn": "Is it: a) eggs, b) toast, or c) cereal?",
+      "textVi": "Có phải là: a) trứng, b) bánh mì nướng, hay c) ngũ cốc?",
+      "wordCount": 9
+    },
+    {
+      "index": 25,
+      "start": 113.04,
+      "end": 118.12,
+      "textEn": "Well, I think people like to keep it simple so I'm going to say toast.",
+      "textVi": "Tôi nghĩ mọi người thích giữ mọi thứ đơn giản nên tôi sẽ nói là bánh mì nướng.",
+      "wordCount": 15
+    },
+    {
+      "index": 26,
+      "start": 118.12,
+      "end": 121.52,
+      "textEn": "OK. Well, we'll find out the answer later in the programme.",
+      "textVi": "Được rồi. Chúng ta sẽ tìm ra câu trả lời sau trong chương trình.",
+      "wordCount": 11
+    },
+    {
+      "index": 27,
+      "start": 121.52,
+      "end": 125.72,
+      "textEn": "Let's hear some reasons for why we should breakfast like a king or queen.",
+      "textVi": "Hãy cùng nghe lý do tại sao chúng ta nên ăn sáng như một vị vua hoặc hoàng hậu.",
+      "wordCount": 14
+    },
+    {
+      "index": 28,
+      "start": 125.72,
+      "end": 132.88,
+      "textEn": "Courtney Peterson, who researches eating behaviours, explains how the time of day affects how our bodies process food,",
+      "textVi": "Courtney Peterson, người nghiên cứu hành vi ăn uống, giải thích cách thời gian trong ngày ảnh hưởng đến cách cơ thể chúng ta xử lý thức ăn,",
+      "wordCount": 18
+    },
+    {
+      "index": 29,
+      "start": 132.88,
+      "end": 136.16,
+      "textEn": "On BBC World Service programme The Food Chain.",
+      "textVi": "Trên chương trình The Food Chain của BBC World Service.",
+      "wordCount": 8
+    },
+    {
+      "index": 30,
+      "start": 136.16,
+      "end": 140.52,
+      "textEn": "And so, if you can eat a large breakfast in the morning,",
+      "textVi": "Và vì vậy, nếu bạn có thể ăn một bữa sáng lớn vào buổi sáng,",
+      "wordCount": 12
+    },
+    {
+      "index": 31,
+      "start": 140.52,
+      "end": 143.44,
+      "textEn": "And/or I would even say a large lunch in the morning,",
+      "textVi": "Và/hoặc tôi thậm chí có thể nói là một bữa trưa lớn vào buổi sáng,",
+      "wordCount": 12
+    },
+    {
+      "index": 32,
+      "start": 143.44,
+      "end": 145.92,
+      "textEn": "Your body's going to be better at metabolising that food.",
+      "textVi": "Cơ thể bạn sẽ chuyển hóa thức ăn tốt hơn.",
+      "wordCount": 10
+    },
+    {
+      "index": 33,
+      "start": 145.92,
+      "end": 148.44,
+      "textEn": "And what that means is your body is going to actually...",
+      "textVi": "Và điều đó có nghĩa là cơ thể bạn thực sự sẽ...",
+      "wordCount": 11
+    },
+    {
+      "index": 34,
+      "start": 148.44,
+      "end": 152.88,
+      "textEn": "Your blood sugar levels won't spike as high, you might burn slightly more fat,",
+      "textVi": "Mức đường huyết của bạn sẽ không tăng vọt, bạn có thể đốt cháy nhiều mỡ hơn một chút,",
+      "wordCount": 14
+    },
+    {
+      "index": 35,
+      "start": 152.88,
+      "end": 156.52,
+      "textEn": "You might burn slightly more calories from eating earlier in the day.",
+      "textVi": "Bạn có thể đốt cháy nhiều calo hơn một chút khi ăn vào đầu ngày.",
+      "wordCount": 12
+    },
+    {
+      "index": 36,
+      "start": 156.52,
+      "end": 157.68,
+      "textEn": "Whereas if you had...",
+      "textVi": "Còn nếu bạn có...",
+      "wordCount": 4
+    },
+    {
+      "index": 37,
+      "start": 157.68,
+      "end": 159.52,
+      "textEn": "If you eat most of your food later in the day,",
+      "textVi": "Nếu bạn ăn phần lớn thức ăn vào cuối ngày,",
+      "wordCount": 11
+    },
+    {
+      "index": 38,
+      "start": 159.52,
+      "end": 161.84,
+      "textEn": "Your metabolism is actually slower later in the day.",
+      "textVi": "Chuyển hóa của bạn thực sự chậm hơn vào cuối ngày.",
+      "wordCount": 9
+    },
+    {
+      "index": 39,
+      "start": 161.84,
+      "end": 165.56,
+      "textEn": "So, for instance, if you ate the same, I don't know, bowl of ice cream.",
+      "textVi": "Ví dụ, nếu bạn ăn cùng một bát kem.",
+      "wordCount": 15
+    },
+    {
+      "index": 40,
+      "start": 165.56,
+      "end": 170.96,
+      "textEn": "In the morning, the afternoon and the evening, your blood sugar levels will spike significantly higher.",
+      "textVi": "Vào buổi sáng, chiều và tối, mức đường huyết của bạn sẽ tăng vọt đáng kể.",
+      "wordCount": 16
+    },
+    {
+      "index": 41,
+      "start": 170.96,
+      "end": 172.8,
+      "textEn": "In the afternoon and the evening.",
+      "textVi": "Vào buổi chiều và buổi tối.",
+      "wordCount": 6
+    },
+    {
+      "index": 42,
+      "start": 172.8,
+      "end": 174.92,
+      "textEn": "We heard the noun metabolism.",
+      "textVi": "Chúng ta đã nghe danh từ trao đổi chất.",
+      "wordCount": 5
+    },
+    {
+      "index": 43,
+      "start": 174.92,
+      "end": 178.8,
+      "textEn": "This is a word that refers to the chemical processes in your body,",
+      "textVi": "Đây là một từ dùng để chỉ các quá trình hóa học trong cơ thể bạn,",
+      "wordCount": 13
+    },
+    {
+      "index": 44,
+      "start": 178.8,
+      "end": 183.64,
+      "textEn": "And we most often use it to talk about those that convert food into energy.",
+      "textVi": "Và chúng ta thường dùng nó để nói về những người chuyển hóa thực phẩm thành năng lượng.",
+      "wordCount": 15
+    },
+    {
+      "index": 45,
+      "start": 183.64,
+      "end": 187.36,
+      "textEn": "And we also heard the verb form – metabolise.",
+      "textVi": "Và chúng tôi cũng nghe thấy dạng động từ – metabolise.",
+      "wordCount": 8
+    },
+    {
+      "index": 46,
+      "start": 187.36,
+      "end": 190.64,
+      "textEn": "Courtney talked about blood sugar levels spiking.",
+      "textVi": "Courtney nói về mức đường huyết tăng vọt.",
+      "wordCount": 7
+    },
+    {
+      "index": 47,
+      "start": 190.64,
+      "end": 193.0,
+      "textEn": "A spike is a sharp, pointed shape.",
+      "textVi": "Gai là một hình dạng sắc nhọn, nhọn.",
+      "wordCount": 7
+    },
+    {
+      "index": 48,
+      "start": 193.0,
+      "end": 197.24,
+      "textEn": "If you see it on a line graph, it means that something has increased very rapidly.",
+      "textVi": "Nếu bạn thấy nó trên biểu đồ đường thẳng, điều đó có nghĩa là một thứ gì đó đã tăng lên rất nhanh.",
+      "wordCount": 16
+    },
+    {
+      "index": 49,
+      "start": 197.24,
+      "end": 202.56,
+      "textEn": "We often use the noun spike to mean a sudden increase in a value that is being measured.",
+      "textVi": "Chúng ta thường dùng đỉnh từ danh từ để chỉ sự tăng đột ngột của một giá trị đang được đo lường.",
+      "wordCount": 18
+    },
+    {
+      "index": 50,
+      "start": 202.56,
+      "end": 205.72,
+      "textEn": "The verb spike means to suddenly increase.",
+      "textVi": "Động từ spike có nghĩa là tăng đột ngột.",
+      "wordCount": 7
+    },
+    {
+      "index": 51,
+      "start": 205.72,
+      "end": 210.16,
+      "textEn": "We've heard that eating earlier in the day can be healthier for us.",
+      "textVi": "Chúng tôi nghe nói rằng ăn sớm hơn trong ngày có thể tốt cho sức khỏe.",
+      "wordCount": 13
+    },
+    {
+      "index": 52,
+      "start": 210.16,
+      "end": 214.8,
+      "textEn": "Now, people often don't eat breakfast, sometimes because they don't have time.",
+      "textVi": "Bây giờ, mọi người thường không ăn sáng, đôi khi vì họ không có thời gian.",
+      "wordCount": 12
+    },
+    {
+      "index": 53,
+      "start": 214.8,
+      "end": 217.2,
+      "textEn": "And sometimes because they're trying to save money.",
+      "textVi": "Và đôi khi vì họ đang cố gắng tiết kiệm tiền.",
+      "wordCount": 8
+    },
+    {
+      "index": 54,
+      "start": 217.2,
+      "end": 224.2,
+      "textEn": "Let's hear again from Professor Alexandra Johnstone, talking to BBC World Service's The Food Chain.",
+      "textVi": "Hãy cùng nghe lại từ Giáo sư Alexandra Johnstone, trò chuyện với chương trình The Food Chain của BBC World Service.",
+      "wordCount": 15
+    },
+    {
+      "index": 55,
+      "start": 224.2,
+      "end": 228.28,
+      "textEn": "Now, breakfast skipping is interesting because.",
+      "textVi": "Bây giờ, việc bỏ bữa sáng thật thú vị vì.",
+      "wordCount": 6
+    },
+    {
+      "index": 56,
+      "start": 228.28,
+      "end": 232.04,
+      "textEn": "My own work would tend to suggest – and that sort of observational,",
+      "textVi": "Công trình của tôi có xu hướng gợi ý – và kiểu quan sát đó,",
+      "wordCount": 12
+    },
+    {
+      "index": 57,
+      "start": 232.04,
+      "end": 237.2,
+      "textEn": "Large-scale, epidemiological studies would also support this –",
+      "textVi": "Các nghiên cứu dịch tễ học quy mô lớn cũng sẽ ủng hộ điều này –",
+      "wordCount": 8
+    },
+    {
+      "index": 58,
+      "start": 237.2,
+      "end": 244.84,
+      "textEn": "That people who have a regular breakfast are actually leaner.",
+      "textVi": "Rằng những người ăn sáng đều đặn thực ra lại gầy hơn.",
+      "wordCount": 10
+    },
+    {
+      "index": 59,
+      "start": 244.84,
+      "end": 251.56,
+      "textEn": "And my own work would tend to suggest that having your largest meal of the day.",
+      "textVi": "Và công việc của tôi thường gợi ý rằng hãy ăn bữa ăn lớn nhất trong ngày.",
+      "wordCount": 16
+    },
+    {
+      "index": 60,
+      "start": 251.56,
+      "end": 257.72,
+      "textEn": "In the morning period gives you a much better appetite control,",
+      "textVi": "Vào buổi sáng giúp bạn kiểm soát cảm giác thèm ăn tốt hơn nhiều,",
+      "wordCount": 11
+    },
+    {
+      "index": 61,
+      "start": 257.72,
+      "end": 264.2,
+      "textEn": "Which then means it's much easier to control food intake later in the day.",
+      "textVi": "Điều đó có nghĩa là việc kiểm soát lượng thức ăn vào cuối ngày sẽ dễ dàng hơn nhiều.",
+      "wordCount": 14
+    },
+    {
+      "index": 62,
+      "start": 264.2,
+      "end": 267.52,
+      "textEn": "Alexandra starts by mentioning breakfast skipping.",
+      "textVi": "Alexandra bắt đầu bằng việc nhắc đến việc bỏ bữa sáng.",
+      "wordCount": 6
+    },
+    {
+      "index": 63,
+      "start": 267.52,
+      "end": 270.04,
+      "textEn": "If you skip something, then you don't do it.",
+      "textVi": "Nếu bạn bỏ qua điều gì đó, thì bạn sẽ không làm.",
+      "wordCount": 9
+    },
+    {
+      "index": 64,
+      "start": 270.04,
+      "end": 273.4,
+      "textEn": "Bad students might skip lessons – they don't go to them.",
+      "textVi": "Học sinh kém có thể bỏ học – họ sẽ không đến lớp.",
+      "wordCount": 10
+    },
+    {
+      "index": 65,
+      "start": 273.4,
+      "end": 276.4,
+      "textEn": "If you skip a meal, it means that you don't eat it.",
+      "textVi": "Nếu bạn bỏ bữa, nghĩa là bạn không ăn nó.",
+      "wordCount": 12
+    },
+    {
+      "index": 66,
+      "start": 276.4,
+      "end": 281.28,
+      "textEn": "We also heard that people who have a regular breakfast are leaner.",
+      "textVi": "Chúng tôi cũng nghe nói rằng những người ăn sáng đều thường gầy hơn.",
+      "wordCount": 12
+    },
+    {
+      "index": 67,
+      "start": 281.28,
+      "end": 284.36,
+      "textEn": "If someone is lean, then they're not fat.",
+      "textVi": "Nếu ai đó gầy, thì họ không béo.",
+      "wordCount": 8
+    },
+    {
+      "index": 68,
+      "start": 284.36,
+      "end": 290.04,
+      "textEn": "And one of the reasons given why people might be leaner is that they have better appetite control.",
+      "textVi": "Và một trong những lý do khiến mọi người có thể gầy hơn là họ kiểm soát được cảm giác thèm ăn tốt hơn.",
+      "wordCount": 18
+    },
+    {
+      "index": 69,
+      "start": 290.04,
+      "end": 293.88,
+      "textEn": "Appetite control is where your brain decides how much you should eat.",
+      "textVi": "Kiểm soát cảm giác thèm ăn là nơi não bạn quyết định bạn nên ăn bao nhiêu.",
+      "wordCount": 12
+    },
+    {
+      "index": 70,
+      "start": 293.88,
+      "end": 298.92,
+      "textEn": "Thanks, Georgie. Now, I think it's time that we heard the answer to your question.",
+      "textVi": "Cảm ơn, Georgie. Bây giờ, tôi nghĩ đã đến lúc chúng ta nghe câu trả lời cho câu hỏi của bạn.",
+      "wordCount": 15
+    },
+    {
+      "index": 71,
+      "start": 298.92,
+      "end": 300.16,
+      "textEn": "Yes it is.",
+      "textVi": "Đúng vậy.",
+      "wordCount": 3
+    },
+    {
+      "index": 72,
+      "start": 300.16,
+      "end": 306.76,
+      "textEn": "OK. I asked: According to a recent survey, what is the most popular breakfast in the UK?",
+      "textVi": "Được rồi. Tôi hỏi: Theo một khảo sát gần đây, bữa sáng phổ biến nhất ở Anh là gì?",
+      "wordCount": 17
+    },
+    {
+      "index": 73,
+      "start": 306.76,
+      "end": 308.56,
+      "textEn": "And I said toast.",
+      "textVi": "Và tôi nói bánh mì nướng.",
+      "wordCount": 4
+    },
+    {
+      "index": 74,
+      "start": 308.56,
+      "end": 311.56,
+      "textEn": "...which was the most popular in London,",
+      "textVi": "... Loại này là phổ biến nhất ở London,",
+      "wordCount": 7
+    },
+    {
+      "index": 75,
+      "start": 311.56,
+      "end": 315.6,
+      "textEn": "But the most popular in the country as a whole was cereal,",
+      "textVi": "Nhưng loại phổ biến nhất ở cả nước là ngũ cốc,",
+      "wordCount": 12
+    },
+    {
+      "index": 76,
+      "start": 315.6,
+      "end": 319.12,
+      "textEn": "And that's according to a survey by a cereal manufacturer.",
+      "textVi": "Và đó là theo một khảo sát của một nhà sản xuất ngũ cốc.",
+      "wordCount": 10
+    },
+    {
+      "index": 77,
+      "start": 319.12,
+      "end": 320.99,
+      "textEn": "So, I'm afraid you got it wrong.",
+      "textVi": "Vậy nên, tôi e rằng bạn đã hiểu sai.",
+      "wordCount": 7
+    },
+    {
+      "index": 78,
+      "start": 320.99,
+      "end": 324.52,
+      "textEn": "OK. Let's recap the vocabulary we've learned, starting with pauper,",
+      "textVi": "Được rồi. Hãy cùng ôn lại từ vựng đã học, bắt đầu với 'ppoorer',",
+      "wordCount": 10
+    },
+    {
+      "index": 79,
+      "start": 324.52,
+      "end": 327.76,
+      "textEn": "Which is an old-fashioned word for a very poor person.",
+      "textVi": "Đó là một từ cổ điển chỉ một người rất nghèo.",
+      "wordCount": 11
+    },
+    {
+      "index": 80,
+      "start": 327.76,
+      "end": 332.6,
+      "textEn": "When we're talking about data, it spikes when it increases suddenly.",
+      "textVi": "Khi nói về dữ liệu, nó tăng vọt khi tăng đột ngột.",
+      "wordCount": 11
+    },
+    {
+      "index": 81,
+      "start": 332.6,
+      "end": 338.56,
+      "textEn": "Metabolism refers to the chemical processes inside your body, especially those which process food.",
+      "textVi": "Chuyển hóa đề cập đến các quá trình hóa học bên trong cơ thể bạn, đặc biệt là những quá trình xử lý thực phẩm.",
+      "wordCount": 14
+    },
+    {
+      "index": 82,
+      "start": 338.56,
+      "end": 342.44,
+      "textEn": "If you skip something, you miss it – you don't do it.",
+      "textVi": "Nếu bạn bỏ qua điều gì đó, bạn sẽ bỏ lỡ nó – bạn sẽ không làm.",
+      "wordCount": 11
+    },
+    {
+      "index": 83,
+      "start": 342.44,
+      "end": 344.84,
+      "textEn": "If someone is lean, then they are not fat.",
+      "textVi": "Nếu ai đó gầy, thì họ không phải là người béo.",
+      "wordCount": 9
+    },
+    {
+      "index": 84,
+      "start": 344.84,
+      "end": 350.8,
+      "textEn": "And finally, appetite control is how your brain decides how much you should eat.",
+      "textVi": "Và cuối cùng, kiểm soát cảm giác thèm ăn là cách não bạn quyết định bạn nên ăn bao nhiêu.",
+      "wordCount": 14
+    },
+    {
+      "index": 85,
+      "start": 350.8,
+      "end": 357.68,
+      "textEn": "Once again, our six minutes are up, but why not head over to our website, bbclearningenglish.com,",
+      "textVi": "Một lần nữa, sáu phút của chúng ta đã hết, nhưng tại sao không truy cập trang web của chúng tôi, bbclearningenglish.com,",
+      "wordCount": 17
+    },
+    {
+      "index": 86,
+      "start": 357.68,
+      "end": 361.32,
+      "textEn": "To try the quiz and worksheet for this episode?",
+      "textVi": "Muốn thử bài kiểm tra và phiếu bài tập cho tập này?",
+      "wordCount": 9
+    },
+    {
+      "index": 87,
+      "start": 361.32,
+      "end": 362.52,
+      "textEn": "See you again soon.",
+      "textVi": "Hẹn gặp lại sớm.",
+      "wordCount": 4
+    },
+    {
+      "index": 88,
+      "start": 362.52,
+      "end": 364.48,
+      "textEn": "Goodbye! Bye!",
+      "textVi": "Tạm biệt! Tạm biệt!",
+      "wordCount": 2
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 2,
+      "start": 13.32,
+      "end": 16.6,
+      "prompt": "Did you have any breakfast today, Georgie, or did you ____ it?",
+      "sentenceVi": "Hôm nay Georgie, bạn có ăn sáng không, hay bạn đã bỏ qua?",
+      "answer": "skip",
+      "options": [
+        "contend",
+        "skip",
+        "rotate",
+        "forgive"
+      ],
+      "meaningVi": "bỏ qua",
+      "cefr": "C1",
+      "ipa": "/skɪp/",
+      "pos": "v"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 4,
+      "start": 18.52,
+      "end": 22.8,
+      "prompt": "On the way to the office, I got myself a ____ and a coffee.",
+      "sentenceVi": "Trên đường đến văn phòng, tôi mua cho mình một chiếc bánh ngọt và một ly cà phê.",
+      "answer": "pastry",
+      "options": [
+        "container",
+        "pastry",
+        "gentleman",
+        "pamphlet"
+      ],
+      "meaningVi": "bánh ngọt",
+      "cefr": "B1",
+      "ipa": "/pˈeɪstriː/",
+      "pos": "n"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 10,
+      "start": 38.16,
+      "end": 45.08,
+      "prompt": "Let's start by hearing from Professor Alexandra Johnstone, a ____ scientist who spoke to Ruth Alexander, host.",
+      "sentenceVi": "Hãy bắt đầu bằng việc nghe Giáo sư Alexandra Johnstone, một nhà khoa học dinh dưỡng, người đã trò chuyện với Ruth Alexander, người dẫn chương trình.",
+      "answer": "nutrition",
+      "options": [
+        "trademark",
+        "attitude",
+        "anchor",
+        "nutrition"
+      ],
+      "meaningVi": "dinh dưỡng",
+      "cefr": "B2",
+      "ipa": "/nuˈtrɪʃn/",
+      "pos": "n"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 12,
+      "start": 49.16,
+      "end": 54.56,
+      "prompt": "I am supporting the meme, breakfast like a king and ____ like a pauper.",
+      "sentenceVi": "Tôi ủng hộ meme, ăn sáng như vua và ăn tối như người nghèo.",
+      "answer": "dine",
+      "options": [
+        "extend",
+        "oppose",
+        "dine",
+        "amuse"
+      ],
+      "meaningVi": "ăn tối",
+      "cefr": "B1",
+      "ipa": "/dˈaɪn/",
+      "pos": "v"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 18,
+      "start": 77.12,
+      "end": 81.16,
+      "prompt": "The expression ____ have a big breakfast and a small dinner.",
+      "sentenceVi": "Cụm từ có nghĩa là ăn sáng thịnh soạn và ăn tối nhỏ.",
+      "answer": "means",
+      "options": [
+        "means",
+        "governor",
+        "heel",
+        "whoever"
+      ],
+      "meaningVi": "phương tiện, nguồn lực tài chính",
+      "cefr": "B2",
+      "ipa": "/miːnz/",
+      "pos": "n"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 29,
+      "start": 132.88,
+      "end": 136.16,
+      "prompt": "On BBC World Service programme The Food ____.",
+      "sentenceVi": "Trên chương trình The Food Chain của BBC World Service.",
+      "answer": "Chain",
+      "options": [
+        "Crowd",
+        "Advisor",
+        "Bride",
+        "Chain"
+      ],
+      "meaningVi": "chuỗi",
+      "cefr": "B1",
+      "ipa": "/tʃeɪn/",
+      "pos": "n"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 47,
+      "start": 190.64,
+      "end": 193.0,
+      "prompt": "A spike is a ____, pointed shape.",
+      "sentenceVi": "Gai là một hình dạng sắc nhọn, nhọn.",
+      "answer": "sharp",
+      "options": [
+        "keen",
+        "shaped",
+        "sharp",
+        "loud"
+      ],
+      "meaningVi": "sắc nét",
+      "cefr": "B1",
+      "ipa": "/ʃɑːrp/",
+      "pos": "adj"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 60,
+      "start": 251.56,
+      "end": 257.72,
+      "prompt": "In the morning period gives you a much better ____ control,",
+      "sentenceVi": "Vào buổi sáng giúp bạn kiểm soát cảm giác thèm ăn tốt hơn nhiều,",
+      "answer": "appetite",
+      "options": [
+        "lobby",
+        "supervisor",
+        "appetite",
+        "nutrition"
+      ],
+      "meaningVi": "sự thèm ăn",
+      "cefr": "C1",
+      "ipa": "/ˈæpɪtaɪt/",
+      "pos": "n"
+    }
+  ]
+}

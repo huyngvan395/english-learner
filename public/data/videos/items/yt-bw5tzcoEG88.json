@@ -1,0 +1,684 @@
+{
+  "id": "yt-bw5tzcoEG88",
+  "youtubeId": "bw5tzcoEG88",
+  "titleEn": "How to effectively use visuals in your presentation",
+  "titleVi": "Cách sử dụng hình ảnh hiệu quả trong bài thuyết trình của bạn",
+  "channel": "TED-Ed",
+  "channelSlug": "ted-ed",
+  "durationSec": 299,
+  "level": "B2",
+  "topic": "Khoa học & Công nghệ",
+  "sentenceCount": 63,
+  "wpm": 133,
+  "thumbnail": "https://i.ytimg.com/vi/bw5tzcoEG88/hqdefault.jpg",
+  "featured": false,
+  "createdAt": "2026-11-28T15:31:59Z",
+  "isManualCaption": true,
+  "cefrMetrics": {
+    "finalScore": 3.56,
+    "wpmScore": 2.62,
+    "vocabScore": 4.06,
+    "priorScore": 3.85,
+    "hardRatio": 0.221
+  },
+  "sentences": [
+    {
+      "index": 0,
+      "start": 6.88,
+      "end": 8.92,
+      "textEn": "If you could wave a magic wand,",
+      "textVi": "Nếu bạn có thể vẫy cây đũa thần,",
+      "wordCount": 7
+    },
+    {
+      "index": 1,
+      "start": 8.96,
+      "end": 13.38,
+      "textEn": "What’s the one idea you’d most love to spread to other people’s minds?",
+      "textVi": "Ý tưởng nào bạn muốn lan tỏa nhất đến tâm trí người khác?",
+      "wordCount": 16
+    },
+    {
+      "index": 2,
+      "start": 13.72,
+      "end": 18.1,
+      "textEn": "Through the power of language— carefully used— we can do just that.",
+      "textVi": "Nhờ sức mạnh của ngôn ngữ— được sử dụng cẩn thận— chúng ta có thể làm được điều đó.",
+      "wordCount": 12
+    },
+    {
+      "index": 3,
+      "start": 18.35,
+      "end": 22.14,
+      "textEn": "But what’s the most direct way of gifting an idea to an audience?",
+      "textVi": "Nhưng cách trực tiếp nhất để tặng một ý tưởng đến khán giả là gì?",
+      "wordCount": 14
+    },
+    {
+      "index": 4,
+      "start": 22.43,
+      "end": 23.73,
+      "textEn": "Simply show it.",
+      "textVi": "Chỉ cần thể hiện nó.",
+      "wordCount": 3
+    },
+    {
+      "index": 5,
+      "start": 23.85,
+      "end": 28.23,
+      "textEn": "Incorporating visuals can make a talk more powerful and convincing.",
+      "textVi": "Việc kết hợp hình ảnh có thể làm cho buổi nói chuyện trở nên mạnh mẽ và thuyết phục hơn.",
+      "wordCount": 10
+    },
+    {
+      "index": 6,
+      "start": 28.9,
+      "end": 34.16,
+      "textEn": "Assuming you have your throughline and talk content, it's time to get this show on the road.",
+      "textVi": "Giả sử bạn đã có mạch truyện xuyên suốt và nội dung trò chuyện, đã đến lúc bắt đầu triển lãm này.",
+      "wordCount": 17
+    },
+    {
+      "index": 7,
+      "start": 34.57,
+      "end": 38.66,
+      "textEn": "In the 21st century, we can add to the spoken word with many technologies—",
+      "textVi": "Trong thế kỷ 21, chúng ta có thể bổ sung vào ngôn từ với nhiều công nghệ—",
+      "wordCount": 14
+    },
+    {
+      "index": 8,
+      "start": 38.95,
+      "end": 44.41,
+      "textEn": "Pictures, illustrations, graphs, charts, animation, video, audio, and data.",
+      "textVi": "Hình ảnh, minh họa, đồ thị, biểu đồ, hoạt hình, video, âm thanh và dữ liệu.",
+      "wordCount": 9
+    },
+    {
+      "index": 9,
+      "start": 45.0,
+      "end": 49.25,
+      "textEn": "All can help explain your idea and make your talk visually interesting.",
+      "textVi": "Tất cả đều có thể giúp bạn giải thích ý tưởng và làm cho bài nói chuyện trở nên thú vị về mặt hình ảnh.",
+      "wordCount": 12
+    },
+    {
+      "index": 10,
+      "start": 49.67,
+      "end": 53.97,
+      "textEn": "But first, ask yourself whether you actually need visuals.",
+      "textVi": "Nhưng trước tiên, hãy tự hỏi liệu bạn có thực sự cần hình ảnh hay không.",
+      "wordCount": 9
+    },
+    {
+      "index": 11,
+      "start": 54.26,
+      "end": 58.43,
+      "textEn": "At least a third of TED’s most-viewed talks don’t use slides at all.",
+      "textVi": "Ít nhất một phần ba các bài nói chuyện được xem nhiều nhất của TED hoàn toàn không sử dụng slide.",
+      "wordCount": 16
+    },
+    {
+      "index": 12,
+      "start": 58.93,
+      "end": 61.52,
+      "textEn": "Slides move attention away from the speaker.",
+      "textVi": "Các slide chuyển sự chú ý khỏi loa.",
+      "wordCount": 7
+    },
+    {
+      "index": 13,
+      "start": 61.93,
+      "end": 65.56,
+      "textEn": "If your talk relies on personal connection, humor, or stories,",
+      "textVi": "Nếu bài nói của bạn dựa vào kết nối cá nhân, hài hước hoặc câu chuyện,",
+      "wordCount": 10
+    },
+    {
+      "index": 14,
+      "start": 65.77,
+      "end": 68.86,
+      "textEn": "You may be better off speaking directly to the audience.",
+      "textVi": "Bạn có thể sẽ tốt hơn nếu nói trực tiếp với khán giả.",
+      "wordCount": 10
+    },
+    {
+      "index": 15,
+      "start": 69.06,
+      "end": 75.49,
+      "textEn": "For every speaker, the rule is simple: having no slides is better than having bad slides.",
+      "textVi": "Với mọi diễn giả, quy tắc rất đơn giản: không có slide còn tốt hơn là có slide kém.",
+      "wordCount": 16
+    },
+    {
+      "index": 16,
+      "start": 75.7,
+      "end": 78.53,
+      "textEn": "But many talks benefit from strong visuals.",
+      "textVi": "Nhưng nhiều bài nói chuyện lại được lợi từ hình ảnh mạnh mẽ.",
+      "wordCount": 7
+    },
+    {
+      "index": 17,
+      "start": 78.66,
+      "end": 82.62,
+      "textEn": "Sometimes, the visuals make the talk a success.",
+      "textVi": "Đôi khi, hình ảnh làm cho buổi nói chuyện thành công.",
+      "wordCount": 8
+    },
+    {
+      "index": 18,
+      "start": 83.29,
+      "end": 87.12,
+      "textEn": "Key components of strong visuals fall into three categories:",
+      "textVi": "Các thành phần chính của hình ảnh mạnh mẽ được chia thành ba loại:",
+      "wordCount": 9
+    },
+    {
+      "index": 19,
+      "start": 87.38,
+      "end": 92.38,
+      "textEn": "Revelation, explanatory power, and aesthetic appeal.",
+      "textVi": "Sự khai sáng, sức mạnh giải thích và sức hấp dẫn thẩm mỹ.",
+      "wordCount": 6
+    },
+    {
+      "index": 20,
+      "start": 93.26,
+      "end": 99.8,
+      "textEn": "Revelation: The most obvious reason to use visuals is to show something hard to describe.",
+      "textVi": "Tiết lộ: Lý do rõ ràng nhất để sử dụng hình ảnh là để thể hiện điều gì đó khó diễn tả.",
+      "wordCount": 15
+    },
+    {
+      "index": 21,
+      "start": 99.93,
+      "end": 104.89,
+      "textEn": "Edith Widder was part of the team that first captured the giant squid on video.",
+      "textVi": "Edith Widder là thành viên của nhóm đầu tiên ghi lại hình ảnh con mực khổng lồ.",
+      "wordCount": 15
+    },
+    {
+      "index": 22,
+      "start": 105.23,
+      "end": 108.77,
+      "textEn": "Her talk was built around that moment of revelation.",
+      "textVi": "Bài nói chuyện của cô được xây dựng quanh khoảnh khắc khai sáng đó.",
+      "wordCount": 9
+    },
+    {
+      "index": 23,
+      "start": 108.94,
+      "end": 114.15,
+      "textEn": "When the creature appeared on screen, the audience nearly jumped out of its skin.",
+      "textVi": "Khi sinh vật xuất hiện trên màn hình, khán giả gần như nhảy dựng lên.",
+      "wordCount": 14
+    },
+    {
+      "index": 24,
+      "start": 114.86,
+      "end": 117.16,
+      "textEn": "Revelation doesn't have to be dramatic.",
+      "textVi": "Khải huyền không nhất thiết phải kịch tính.",
+      "wordCount": 6
+    },
+    {
+      "index": 25,
+      "start": 117.32,
+      "end": 122.74,
+      "textEn": "Explain any background, prime the audience, and then let the visuals do their work.",
+      "textVi": "Giải thích bất kỳ bối cảnh nào, chuẩn bị cho khán giả, rồi để hình ảnh tự phát huy tác dụng.",
+      "wordCount": 14
+    },
+    {
+      "index": 26,
+      "start": 123.03,
+      "end": 126.2,
+      "textEn": "Run them full screen without adding anything.",
+      "textVi": "Chạy chúng toàn màn hình mà không thêm gì thêm.",
+      "wordCount": 7
+    },
+    {
+      "index": 27,
+      "start": 127.17,
+      "end": 133.55,
+      "textEn": "Explanatory power: Words and images often explain best together.",
+      "textVi": "Sức mạnh giải thích: Từ ngữ và hình ảnh thường giải thích tốt nhất khi kết hợp với nhau.",
+      "wordCount": 9
+    },
+    {
+      "index": 28,
+      "start": 133.67,
+      "end": 136.42,
+      "textEn": "Much of our world is imagined visually.",
+      "textVi": "Phần lớn thế giới của chúng ta được tưởng tượng bằng hình ảnh.",
+      "wordCount": 7
+    },
+    {
+      "index": 29,
+      "start": 136.63,
+      "end": 141.18,
+      "textEn": "To explain something new, showing and telling often works best.",
+      "textVi": "Để giải thích điều gì đó mới, việc trình bày và kể thường hiệu quả nhất.",
+      "wordCount": 10
+    },
+    {
+      "index": 30,
+      "start": 141.47,
+      "end": 144.51,
+      "textEn": "But the visual must fit the spoken message.",
+      "textVi": "Nhưng hình ảnh phải phù hợp với thông điệp được nói ra.",
+      "wordCount": 8
+    },
+    {
+      "index": 31,
+      "start": 145.02,
+      "end": 147.73,
+      "textEn": "Complicated slides can distract an audience.",
+      "textVi": "Các slide phức tạp có thể làm khán giả phân tâm.",
+      "wordCount": 6
+    },
+    {
+      "index": 32,
+      "start": 148.06,
+      "end": 150.94,
+      "textEn": "Limit each slide to one core idea.",
+      "textVi": "Giới hạn mỗi slide vào một ý tưởng cốt lõi.",
+      "wordCount": 7
+    },
+    {
+      "index": 33,
+      "start": 151.35,
+      "end": 155.36,
+      "textEn": "Multiple streams of information require mental energy to process.",
+      "textVi": "Nhiều luồng thông tin đòi hỏi năng lượng tinh thần để xử lý.",
+      "wordCount": 9
+    },
+    {
+      "index": 34,
+      "start": 155.78,
+      "end": 158.91,
+      "textEn": "A speaker must direct attention so slides support,",
+      "textVi": "Người nói phải hướng sự chú ý để slide hỗ trợ,",
+      "wordCount": 8
+    },
+    {
+      "index": 35,
+      "start": 162.28,
+      "end": 165.29,
+      "textEn": "For graphs and charts, highlight the relevant parts.",
+      "textVi": "Đối với biểu đồ và biểu đồ, hãy làm nổi bật các phần liên quan.",
+      "wordCount": 8
+    },
+    {
+      "index": 36,
+      "start": 165.45,
+      "end": 170.25,
+      "textEn": "If comparing February and October rainfall, use colors to show the months.",
+      "textVi": "Nếu so sánh lượng mưa tháng Hai và tháng Mười, hãy dùng màu để thể hiện từng tháng.",
+      "wordCount": 12
+    },
+    {
+      "index": 37,
+      "start": 170.58,
+      "end": 173.13,
+      "textEn": "Don't cram everything onto one slide.",
+      "textVi": "Đừng nhồi nhét tất cả vào một slide.",
+      "wordCount": 6
+    },
+    {
+      "index": 38,
+      "start": 173.54,
+      "end": 181.93,
+      "textEn": "Headlines with long bullet points often lose attention— turn bullets into separate slides, reduce phrases,",
+      "textVi": "Tiêu đề với các gạch đầu dòng dài thường mất đi sự chú ý— biến các gạch đầu dòng thành slide riêng biệt, rút gọn cụm từ,",
+      "wordCount": 15
+    },
+    {
+      "index": 39,
+      "start": 182.09,
+      "end": 184.14,
+      "textEn": "Or replace them with images.",
+      "textVi": "Hoặc thay thế chúng bằng hình ảnh.",
+      "wordCount": 5
+    },
+    {
+      "index": 40,
+      "start": 184.51,
+      "end": 187.93,
+      "textEn": "Even simple slides may steal your thunder.",
+      "textVi": "Ngay cả những đường trượt đơn giản cũng có thể chiếm trọn sự chú ý của bạn.",
+      "wordCount": 7
+    },
+    {
+      "index": 41,
+      "start": 188.43,
+      "end": 193.56,
+      "textEn": "Instead of “A black hole is an object so massive that no light can escape,”",
+      "textVi": "Thay vì \"Hố đen là một vật thể có khối lượng lớn đến mức không ánh sáng nào có thể thoát ra,\"",
+      "wordCount": 15
+    },
+    {
+      "index": 42,
+      "start": 193.86,
+      "end": 197.03,
+      "textEn": "Try: “How black is a black hole?”",
+      "textVi": "Hãy thử: \"Hố đen đen đến mức nào?\"",
+      "wordCount": 7
+    },
+    {
+      "index": 43,
+      "start": 197.32,
+      "end": 205.16,
+      "textEn": "Then deliver the information through speech; The slide teases curiosity and makes words more compelling.",
+      "textVi": "Sau đó truyền đạt thông tin qua lời nói; Slide gợi mở sự tò mò và làm cho từ ngữ trở nên hấp dẫn hơn.",
+      "wordCount": 15
+    },
+    {
+      "index": 44,
+      "start": 206.12,
+      "end": 210.21,
+      "textEn": "Visuals shouldn't communicate words your mouth can easily say.",
+      "textVi": "Hình ảnh không nên truyền đạt những lời mà miệng bạn có thể dễ dàng nói.",
+      "wordCount": 9
+    },
+    {
+      "index": 45,
+      "start": 210.91,
+      "end": 217.17,
+      "textEn": "Use them to share what speech can’t: photographs, video, animation, or data.",
+      "textVi": "Hãy dùng chúng để chia sẻ những gì lời nói không thể làm được: ảnh, video, hoạt hình hoặc dữ liệu.",
+      "wordCount": 13
+    },
+    {
+      "index": 46,
+      "start": 217.71,
+      "end": 222.01,
+      "textEn": "Screens can explain instantly what might take hours to describe.",
+      "textVi": "Màn hình có thể giải thích ngay lập tức những gì có thể mất hàng giờ để mô tả.",
+      "wordCount": 10
+    },
+    {
+      "index": 47,
+      "start": 222.68,
+      "end": 227.81,
+      "textEn": "Aesthetic appeal: Nice-looking slides add power.",
+      "textVi": "Thẩm mỹ: Máng trượt đẹp mắt tăng sức mạnh.",
+      "wordCount": 7
+    },
+    {
+      "index": 48,
+      "start": 228.52,
+      "end": 231.98,
+      "textEn": "Visually appealing slides can amplify a talk's impact.",
+      "textVi": "Các slide bắt mắt có thể tăng cường tác động của buổi nói chuyện.",
+      "wordCount": 8
+    },
+    {
+      "index": 49,
+      "start": 232.31,
+      "end": 235.36,
+      "textEn": "Hans Rosling is a TED speaker who excelled at this.",
+      "textVi": "Hans Rosling là một diễn giả TED xuất sắc trong lĩnh vực này.",
+      "wordCount": 10
+    },
+    {
+      "index": 50,
+      "start": 235.4,
+      "end": 236.07,
+      "textEn": "“Here we go.",
+      "textVi": "\"Bắt đầu thôi.",
+      "wordCount": 3
+    },
+    {
+      "index": 51,
+      "start": 236.07,
+      "end": 237.08,
+      "textEn": "Can you see there?",
+      "textVi": "Bạn có thấy ở đó không?",
+      "wordCount": 4
+    },
+    {
+      "index": 52,
+      "start": 237.08,
+      "end": 239.22,
+      "textEn": "It’s China. They’re moving — better health.",
+      "textVi": "Đó là Trung Quốc. Họ đang di chuyển — sức khỏe tốt hơn.",
+      "wordCount": 8
+    },
+    {
+      "index": 53,
+      "start": 239.22,
+      "end": 240.15,
+      "textEn": "They are improving.",
+      "textVi": "Họ đang tiến bộ.",
+      "wordCount": 3
+    },
+    {
+      "index": 54,
+      "start": 240.15,
+      "end": 242.61,
+      "textEn": "There, all the green Latin American countries.",
+      "textVi": "Ở đó, tất cả các quốc gia Mỹ Latinh xanh.",
+      "wordCount": 7
+    },
+    {
+      "index": 55,
+      "start": 242.61,
+      "end": 244.62,
+      "textEn": "They are moving towards smaller families.”",
+      "textVi": "Họ đang tiến tới các gia đình nhỏ hơn.\"",
+      "wordCount": 6
+    },
+    {
+      "index": 56,
+      "start": 244.62,
+      "end": 248.66,
+      "textEn": "Not everyone can be a Hans Rosling, but every speaker can ask:",
+      "textVi": "Không phải ai cũng có thể là Hans Rosling, nhưng mọi diễn giả đều có thể hỏi:",
+      "wordCount": 12
+    },
+    {
+      "index": 57,
+      "start": 248.79,
+      "end": 252.21,
+      "textEn": "Are visuals essential for explaining my idea?",
+      "textVi": "Hình ảnh có cần thiết để giải thích ý tưởng của tôi không?",
+      "wordCount": 7
+    },
+    {
+      "index": 58,
+      "start": 252.71,
+      "end": 255.83,
+      "textEn": "And how can I combine them effectively with words?",
+      "textVi": "Và làm thế nào để tôi kết hợp chúng hiệu quả với từ ngữ?",
+      "wordCount": 9
+    },
+    {
+      "index": 59,
+      "start": 256.71,
+      "end": 259.42,
+      "textEn": "Once you plan your visuals, revisit your words.",
+      "textVi": "Khi đã lên kế hoạch cho hình ảnh, hãy xem lại lời nói của mình.",
+      "wordCount": 8
+    },
+    {
+      "index": 60,
+      "start": 259.42,
+      "end": 263.3,
+      "textEn": "And figure out how to turn them into a rewarding presentation.",
+      "textVi": "Và tìm cách biến chúng thành một bài thuyết trình đáng giá.",
+      "wordCount": 11
+    },
+    {
+      "index": 61,
+      "start": 263.97,
+      "end": 268.97,
+      "textEn": "All these lessons should put you on your way to delivering a powerful talk—",
+      "textVi": "Tất cả những bài học này sẽ giúp bạn có một bài nói chuyện mạnh mẽ—",
+      "wordCount": 14
+    },
+    {
+      "index": 62,
+      "start": 269.39,
+      "end": 275.23,
+      "textEn": "One that inspires, delights, and may even change the world.",
+      "textVi": "Một nơi truyền cảm hứng, làm say mê, và thậm chí có thể thay đổi thế giới.",
+      "wordCount": 10
+    }
+  ],
+  "quizItems": [
+    {
+      "id": "q1",
+      "sentenceIndex": 19,
+      "start": 87.38,
+      "end": 92.38,
+      "prompt": "Revelation, explanatory power, and aesthetic ____.",
+      "sentenceVi": "Sự khai sáng, sức mạnh giải thích và sức hấp dẫn thẩm mỹ.",
+      "answer": "appeal",
+      "options": [
+        "artwork",
+        "exile",
+        "journal",
+        "appeal"
+      ],
+      "meaningVi": "kháng cáo",
+      "cefr": "B2",
+      "ipa": "/əˈpiːl/",
+      "pos": "n"
+    },
+    {
+      "id": "q2",
+      "sentenceIndex": 22,
+      "start": 105.23,
+      "end": 108.77,
+      "prompt": "Her talk was built around that moment of ____.",
+      "sentenceVi": "Bài nói chuyện của cô được xây dựng quanh khoảnh khắc khai sáng đó.",
+      "answer": "revelation",
+      "options": [
+        "negotiation",
+        "correction",
+        "revelation",
+        "hardware"
+      ],
+      "meaningVi": "sự tiết lộ",
+      "cefr": "C1",
+      "ipa": "/ˌrevəˈleɪʃn/",
+      "pos": "n"
+    },
+    {
+      "id": "q3",
+      "sentenceIndex": 27,
+      "start": 127.17,
+      "end": 133.55,
+      "prompt": "____ power: Words and images often explain best together.",
+      "sentenceVi": "Sức mạnh giải thích: Từ ngữ và hình ảnh thường giải thích tốt nhất khi kết hợp với nhau.",
+      "answer": "Explanatory",
+      "options": [
+        "Electronic",
+        "Explanatory",
+        "Downtown",
+        "Nervously"
+      ],
+      "meaningVi": "giải thích",
+      "cefr": "B1",
+      "ipa": "/ɪksplˈænətˌɔːriː/",
+      "pos": "adj"
+    },
+    {
+      "id": "q4",
+      "sentenceIndex": 31,
+      "start": 145.02,
+      "end": 147.73,
+      "prompt": "Complicated slides can ____ an audience.",
+      "sentenceVi": "Các slide phức tạp có thể làm khán giả phân tâm.",
+      "answer": "distract",
+      "options": [
+        "distract",
+        "expire",
+        "fulfil",
+        "strengthen"
+      ],
+      "meaningVi": "đánh lạc hướng",
+      "cefr": "B2",
+      "ipa": "/dɪˈstrækt/",
+      "pos": "v"
+    },
+    {
+      "id": "q5",
+      "sentenceIndex": 33,
+      "start": 151.35,
+      "end": 155.36,
+      "prompt": "____ streams of information require mental energy to process.",
+      "sentenceVi": "Nhiều luồng thông tin đòi hỏi năng lượng tinh thần để xử lý.",
+      "answer": "Multiple",
+      "options": [
+        "Visual",
+        "Multiple",
+        "Diagnostic",
+        "Impatient"
+      ],
+      "meaningVi": "nhiều",
+      "cefr": "B2",
+      "ipa": "/ˈmʌltɪpl/",
+      "pos": "adj"
+    },
+    {
+      "id": "q6",
+      "sentenceIndex": 36,
+      "start": 165.45,
+      "end": 170.25,
+      "prompt": "If comparing February and October ____, use colors to show the months.",
+      "sentenceVi": "Nếu so sánh lượng mưa tháng Hai và tháng Mười, hãy dùng màu để thể hiện từng tháng.",
+      "answer": "rainfall",
+      "options": [
+        "fiction",
+        "architect",
+        "rainfall",
+        "marketer"
+      ],
+      "meaningVi": "lượng mưa",
+      "cefr": "B1",
+      "ipa": "/rˈeɪnfˌɔːl/",
+      "pos": "n"
+    },
+    {
+      "id": "q7",
+      "sentenceIndex": 48,
+      "start": 228.52,
+      "end": 231.98,
+      "prompt": "Visually appealing slides can amplify a talk's ____.",
+      "sentenceVi": "Các slide bắt mắt có thể tăng cường tác động của buổi nói chuyện.",
+      "answer": "impact",
+      "options": [
+        "virus",
+        "impact",
+        "length",
+        "carton"
+      ],
+      "meaningVi": "tác động, ảnh hưởng mạnh",
+      "cefr": "B1",
+      "ipa": "/ˈɪm.pækt/",
+      "pos": "n"
+    },
+    {
+      "id": "q8",
+      "sentenceIndex": 58,
+      "start": 252.71,
+      "end": 255.83,
+      "prompt": "And how can I ____ them effectively with words?",
+      "sentenceVi": "Và làm thế nào để tôi kết hợp chúng hiệu quả với từ ngữ?",
+      "answer": "combine",
+      "options": [
+        "combine",
+        "reasonably",
+        "certify",
+        "refurbish"
+      ],
+      "meaningVi": "kết hợp",
+      "cefr": "B1",
+      "ipa": "/kəmˈbaɪn/",
+      "pos": "v"
+    }
+  ]
+}
