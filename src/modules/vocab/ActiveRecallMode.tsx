@@ -776,6 +776,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
               antonyms={current.antonyms}
               wordFamily={current.wordFamily}
               collocations={current.collocations}
+              relationMeanings={current.relationMeanings}
               collapsible
               defaultOpen
             />

@@ -65,6 +65,7 @@ export interface VocabWord {
   wordFamily: WordFamilyItem[];
   synonyms: string[];
   antonyms: string[];
+  relationMeanings?: Record<string, string>;
   collocations: CollocationItem[];
   audioUrlUS?: string;
   audioUrlUK?: string;

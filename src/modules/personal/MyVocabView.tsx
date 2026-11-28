@@ -20,7 +20,7 @@ import { ActiveRecallMode } from '../vocab/ActiveRecallMode';
 type FilterKey = 'all' | 'srs-due' | 'starred' | 'mastered';
 type StudySessionMode = 'flashcard' | 'active-recall';
 
-const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved']);
+const CUSTOM_DECK_IDS = new Set(['listening-saved', 'writing-saved', 'reading-saved', 'vocab-saved']);
 
 const FILTER_LABELS: Record<FilterKey, string> = {
   all: 'Tất cả từ đã học',

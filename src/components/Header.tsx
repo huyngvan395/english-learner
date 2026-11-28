@@ -490,6 +490,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                       antonyms={selectedFullWord.antonyms}
                       wordFamily={selectedFullWord.wordFamily}
                       collocations={selectedFullWord.collocations}
+                      relationMeanings={selectedFullWord.relationMeanings}
                       defaultOpen
                       onQuickLookup={handleOpenEntry}
                     />

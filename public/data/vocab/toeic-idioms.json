@@ -52,7 +52,13 @@
           ],
           "definitionEn": "Completed or arriving earlier than the originally planned time or deadline.",
           "definitionVi": "Hoàn thành hoặc đến nơi sớm hơn thời điểm hay tiến độ đã vạch ra ban đầu.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "early": "sớm",
+            "before the deadline": "trước thời hạn",
+            "behind schedule": "chậm tiến độ, trễ kế hoạch",
+            "overdue": "quá hạn (thanh toán, bảo trì, chuyến bay)"
+          }
         },
         {
           "id": "tid-2",
@@ -85,7 +91,13 @@
           ],
           "definitionEn": "A common English expression meaning 'delayed, late'.",
           "definitionVi": "Cụm từ cố định mang nghĩa chậm tiến độ, trễ kế hoạch.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "delayed": "bị trì hoãn",
+            "late": "muộn",
+            "ahead of schedule": "sớm hơn tiến độ, trước kế hoạch",
+            "on schedule": "đúng lịch trình, đúng tiến độ"
+          }
         },
         {
           "id": "tid-3",
@@ -119,7 +131,11 @@
           ],
           "definitionEn": "Having official responsibility for managing a team, project, or specific duty.",
           "definitionVi": "Nắm trách nhiệm chính thức trong việc điều hành một đội ngũ, dự án hay nhiệm vụ.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "responsible for": "chịu trách nhiệm về",
+            "overseeing": "giám sát"
+          }
         },
         {
           "id": "tid-4",
@@ -153,7 +169,14 @@
           ],
           "definitionEn": "Temporarily sold out and unavailable for immediate purchase from a store or warehouse.",
           "definitionVi": "Tạm thời bán hết sạch trong cửa hàng hoặc kho và không có sẵn để mua ngay.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "sold out": "đã bán hết",
+            "unavailable": "không có sẵn",
+            "depleted": "cạn kiệt",
+            "in stock": "còn hàng",
+            "available": "có sẵn, rảnh rỗi"
+          }
         },
         {
           "id": "tid-5",
@@ -189,7 +212,12 @@
           ],
           "definitionEn": "Affected by or dependent upon a condition, rule, or approval before taking effect.",
           "definitionVi": "Chịu sự chi phối hoặc tùy thuộc vào một điều kiện, quy định hay phê duyệt.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "dependent on": "phụ thuộc vào",
+            "contingent upon": "tùy thuộc vào",
+            "exempt from": "được miễn"
+          }
         },
         {
           "id": "tid-6",
@@ -219,7 +247,11 @@
           ],
           "definitionEn": "Acting as the official representative of another person, team, or organization.",
           "definitionVi": "Hành động với tư cách đại diện chính thức thay mặt cho cá nhân, nhóm hay tổ chức khác.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "representing": "đại diện",
+            "in the name of": "nhân danh"
+          }
         },
         {
           "id": "tid-7",
@@ -253,7 +285,14 @@
           ],
           "definitionEn": "A common English expression meaning 'kick off, initiate, start'.",
           "definitionVi": "Cụm từ cố định mang nghĩa khởi động, bắt đầu triển khai dự án.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "kick off": "bắt đầu",
+            "initiate": "khởi xướng",
+            "start": "bắt đầu",
+            "halt": "dừng lại",
+            "call off": "hủy bỏ (sự kiện, cuộc họp)"
+          }
         },
         {
           "id": "tid-8",
@@ -283,7 +322,11 @@
           ],
           "definitionEn": "A common English expression meaning 'check in with, follow up with'.",
           "definitionVi": "Cụm từ cố định mang nghĩa liên lạc nhanh, cập nhật tình hình.",
-          "topicId": "tid-schedule"
+          "topicId": "tid-schedule",
+          "relationMeanings": {
+            "check in with": "đăng ký với",
+            "follow up with": "theo dõi với"
+          }
         }
       ]
     },
@@ -325,7 +368,11 @@
           ],
           "definitionEn": "A common English expression meaning 'finish on time'.",
           "definitionVi": "Cụm từ cố định mang nghĩa hoàn thành đúng hạn chót.",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "finish on time": "kết thúc đúng giờ",
+            "miss a deadline": "trễ thời hạn"
+          }
         },
         {
           "id": "tid-10",
@@ -357,7 +404,12 @@
           ],
           "definitionEn": "A common English expression meaning 'in compliance with, pursuant to'.",
           "definitionVi": "Cụm từ cố định mang nghĩa theo đúng, phù hợp với (quy định, luật).",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "in compliance with": "phù hợp với",
+            "pursuant to": "theo",
+            "contrary to": "trái với"
+          }
         },
         {
           "id": "tid-11",
@@ -387,7 +439,11 @@
           ],
           "definitionEn": "A common English expression meaning 'skimp, compromise quality'.",
           "definitionVi": "Cụm từ cố định mang nghĩa làm ẩu, cắt xén quy trình để tiết kiệm.",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "skimp": "tiết kiệm",
+            "compromise quality": "thỏa hiệp về chất lượng"
+          }
         },
         {
           "id": "tid-12",
@@ -426,7 +482,13 @@
           ],
           "definitionEn": "A common English expression meaning 'before, ahead of'.",
           "definitionVi": "Cụm từ cố định mang nghĩa trước khi (+ Danh từ / V-ing).",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "before": "trước đây",
+            "ahead of": "trước",
+            "subsequent to": "tiếp theo",
+            "following": "đang theo dõi"
+          }
         },
         {
           "id": "tid-13",
@@ -457,7 +519,12 @@
           ],
           "definitionEn": "A common English expression meaning 'substitute for, cover for, stand in for'.",
           "definitionVi": "Cụm từ cố định mang nghĩa làm thay, trực thay cho ai đó.",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "substitute for": "thay thế cho",
+            "cover for": "che chở cho",
+            "stand in for": "đại diện cho"
+          }
         },
         {
           "id": "tid-14",
@@ -489,7 +556,12 @@
           ],
           "definitionEn": "A common English expression meaning 'at the last minute, with little warning'.",
           "definitionVi": "Cụm từ cố định mang nghĩa gấp gáp, báo trước trong thời gian ngắn.",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "at the last minute": "vào phút cuối",
+            "with little warning": "với một chút cảnh báo",
+            "well in advance": "trước nhé"
+          }
         },
         {
           "id": "tid-15",
@@ -521,7 +593,12 @@
           ],
           "definitionEn": "A common English expression meaning 'pause, reserve temporarily'.",
           "definitionVi": "Cụm từ cố định mang nghĩa tạm giữ chỗ / tạm hoãn việc gì.",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "pause": "tạm dừng",
+            "reserve temporarily": "dự trữ tạm thời",
+            "resume": "sơ yếu lý lịch"
+          }
         },
         {
           "id": "tid-16",
@@ -559,7 +636,12 @@
           ],
           "definitionEn": "A common English expression meaning 'assume control of, inherit'.",
           "definitionVi": "Cụm từ cố định mang nghĩa tiếp quản, đảm nhận thay.",
-          "topicId": "tid-office"
+          "topicId": "tid-office",
+          "relationMeanings": {
+            "assume control of": "nắm quyền kiểm soát",
+            "inherit": "kế thừa",
+            "hand over": "bàn giao"
+          }
         }
       ]
     },
@@ -598,7 +680,12 @@
           ],
           "definitionEn": "A common English expression meaning 'cancel, abort'.",
           "definitionVi": "Cụm từ cố định mang nghĩa hủy bỏ (sự kiện, cuộc họp).",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "cancel": "hủy bỏ",
+            "abort": "hủy bỏ",
+            "proceed with": "tiếp tục với"
+          }
         },
         {
           "id": "tid-18",
@@ -631,7 +718,13 @@
           ],
           "definitionEn": "A common English expression meaning 'postpone, defer, delay'.",
           "definitionVi": "Cụm từ cố định mang nghĩa trì hoãn, dời lại sau.",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "postpone": "hoãn lại sang thời điểm sau",
+            "defer": "hoãn lại",
+            "delay": "trì hoãn, làm chậm trễ",
+            "bring forward": "đẩy sớm lên (lịch họp, sự kiện)"
+          }
         },
         {
           "id": "tid-19",
@@ -663,7 +756,12 @@
           ],
           "definitionEn": "A common English expression meaning 'exhaust, deplete'.",
           "definitionVi": "Cụm từ cố định mang nghĩa hết sạch, cạn kiệt.",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "exhaust": "xả",
+            "deplete": "làm cạn kiệt (nguồn dự trữ, hàng tồn)",
+            "restock": "bổ sung"
+          }
         },
         {
           "id": "tid-20",
@@ -696,7 +794,13 @@
           ],
           "definitionEn": "A common English expression meaning 'decline, reject, refuse'.",
           "definitionVi": "Cụm từ cố định mang nghĩa từ chối (lời mời, đề nghị); vặn nhỏ.",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "decline": "sụt giảm; từ chối lịch sự",
+            "reject": "từ chối",
+            "refuse": "chối",
+            "accept": "chấp nhận"
+          }
         },
         {
           "id": "tid-21",
@@ -732,7 +836,11 @@
           ],
           "definitionEn": "A common English expression meaning 'check back, pursue'.",
           "definitionVi": "Cụm từ cố định mang nghĩa theo sát, liên hệ lại để kiểm tra tiến độ.",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "check back": "kiểm tra lại",
+            "pursue": "theo đuổi"
+          }
         },
         {
           "id": "tid-22",
@@ -768,7 +876,12 @@
           ],
           "definitionEn": "A common English expression meaning 'ahead of time, beforehand'.",
           "definitionVi": "Cụm từ cố định mang nghĩa trước (đặt trước, trả trước, báo trước).",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "ahead of time": "trước thời hạn",
+            "beforehand": "Có sẵn, trước",
+            "at the last minute": "vào phút cuối"
+          }
         },
         {
           "id": "tid-23",
@@ -797,7 +910,10 @@
           ],
           "definitionEn": "A common English expression meaning 'as soon as possible'.",
           "definitionVi": "Cụm từ cố định mang nghĩa ngay khi bạn thuận tiện nhất (công thức email).",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "as soon as possible": "càng sớm càng tốt"
+          }
         },
         {
           "id": "tid-24",
@@ -831,7 +947,14 @@
           ],
           "definitionEn": "A common English expression meaning 'broken, malfunctioning, not working'.",
           "definitionVi": "Cụm từ cố định mang nghĩa bị hỏng, ngừng hoạt động (máy móc, thang máy).",
-          "topicId": "tid-phrasal"
+          "topicId": "tid-phrasal",
+          "relationMeanings": {
+            "broken": "bị vỡ",
+            "malfunctioning": "trục trặc",
+            "not working": "không hoạt động",
+            "operational": "hoạt động",
+            "in service": "đang phục vụ"
+          }
         }
       ]
     },
@@ -863,7 +986,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "consequently": "do đó",
+            "therefore": "do đó"
+          }
         },
         {
           "id": "toeic-idioms-2",
@@ -888,7 +1015,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "in addition to": "ngoài ra, bên cạnh (+ Danh từ/V-ing)",
+            "along with": "cùng với"
+          }
         },
         {
           "id": "toeic-idioms-3",
@@ -913,7 +1044,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "always": "luôn",
+            "constantly": "liên tục"
+          }
         },
         {
           "id": "toeic-idioms-4",
@@ -938,7 +1073,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "by": "bởi",
+            "no later than": "không muộn hơn"
+          }
         },
         {
           "id": "toeic-idioms-5",
@@ -963,7 +1102,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "copy": "bản sao",
+            "support": "sự hỗ trợ; v: ủng hộ, hỗ trợ"
+          }
         },
         {
           "id": "toeic-idioms-6",
@@ -988,7 +1131,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "know about": "biết về",
+            "recognize": "nhận ra"
+          }
         },
         {
           "id": "toeic-idioms-7",
@@ -1012,7 +1159,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "qualify for": "đủ điều kiện cho"
+          }
         },
         {
           "id": "toeic-idioms-8",
@@ -1037,7 +1187,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "know well": "biết rõ",
+            "be versed in": "thông thạo"
+          }
         },
         {
           "id": "toeic-idioms-9",
@@ -1062,7 +1216,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "be active": "năng động",
+            "apply": "áp dụng"
+          }
         },
         {
           "id": "toeic-idioms-10",
@@ -1087,7 +1245,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "be in charge of": "Chịu trách nhiệm về",
+            "handle": "xử lý, phụ trách"
+          }
         },
         {
           "id": "toeic-idioms-11",
@@ -1112,7 +1274,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "keep in mind": "hãy ghi nhớ",
+            "remember": "nhớ"
+          }
         },
         {
           "id": "toeic-idioms-12",
@@ -1137,7 +1303,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "malfunction": "sự cố trục trặc kỹ thuật của máy",
+            "fail": "thất bại"
+          }
         },
         {
           "id": "toeic-idioms-13",
@@ -1162,7 +1332,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "cause": "nguyên nhân",
+            "lead to": "dẫn đến, gây ra kết quả"
+          }
         },
         {
           "id": "toeic-idioms-14",
@@ -1187,7 +1361,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "advance": "tiến bộ",
+            "move up": "Tiến lên, thăng tiến"
+          }
         },
         {
           "id": "toeic-idioms-15",
@@ -1212,7 +1390,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "accumulate": "tích lũy",
+            "develop": "phát triển, xây dựng"
+          }
         },
         {
           "id": "toeic-idioms-16",
@@ -1237,7 +1419,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "via": "qua",
+            "through": "thông qua"
+          }
         },
         {
           "id": "toeic-idioms-17",
@@ -1262,7 +1448,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "conduct": "tiến hành, thực hiện (khảo sát, kiểm toán)",
+            "execute": "thực thi, triển khai (kế hoạch/hợp đồng)"
+          }
         },
         {
           "id": "toeic-idioms-18",
@@ -1286,7 +1476,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "make up for": "bù đắp cho (sự chậm trễ, thiếu hụt)"
+          }
         },
         {
           "id": "toeic-idioms-19",
@@ -1311,7 +1504,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "depart": "khởi hành, rời đi",
+            "inspect": "kiểm tra kỹ lưỡng, thanh tra"
+          }
         },
         {
           "id": "toeic-idioms-20",
@@ -1336,7 +1533,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "encounter": "gặp phải",
+            "discover": "phát hiện"
+          }
         },
         {
           "id": "toeic-idioms-21",
@@ -1361,7 +1562,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "devise": "nghĩ ra",
+            "propose": "đề xuất"
+          }
         },
         {
           "id": "toeic-idioms-22",
@@ -1386,7 +1591,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "abide by": "tuân thủ, chấp hành (quy định, hợp đồng)",
+            "adhere to": "tuân theo, bám sát"
+          }
         },
         {
           "id": "toeic-idioms-23",
@@ -1411,7 +1620,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "rely on": "dựa vào, tin cậy vào",
+            "depend on": "dựa vào"
+          }
         },
         {
           "id": "toeic-idioms-24",
@@ -1436,7 +1649,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "reduce": "cắt giảm, giảm bớt",
+            "curtail": "cắt giảm, hạn chế bớt"
+          }
         },
         {
           "id": "toeic-idioms-25",
@@ -1461,7 +1678,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "handle": "xử lý, phụ trách",
+            "address": "giải quyết (vấn đề); địa chỉ; phát biểu"
+          }
         },
         {
           "id": "toeic-idioms-26",
@@ -1486,7 +1707,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "draft": "bản thảo, bản nháp; soạn thảo",
+            "prepare": "chuẩn bị"
+          }
         },
         {
           "id": "toeic-idioms-27",
@@ -1511,7 +1736,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "stop by": "dừng lại",
+            "visit briefly": "ghé thăm một thời gian ngắn"
+          }
         },
         {
           "id": "toeic-idioms-28",
@@ -1536,7 +1765,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "deliver": "giao hàng; trình bày (bài nói)",
+            "leave": "kỳ nghỉ phép; rời đi"
+          }
         },
         {
           "id": "toeic-idioms-29",
@@ -1561,7 +1794,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "because of": "bởi vì",
+            "owing to": "do, bởi vì (+ Danh từ)"
+          }
         },
         {
           "id": "toeic-idioms-30",
@@ -1586,7 +1823,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g4"
+          "topicId": "toeic-idioms-g4",
+          "relationMeanings": {
+            "although": "mặc dù",
+            "though": "mặc dù"
+          }
         }
       ]
     },
@@ -1618,7 +1859,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "fail": "thất bại",
+            "collapse": "sụp đổ"
+          }
         },
         {
           "id": "toeic-idioms-32",
@@ -1643,7 +1888,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "complete": "hoàn thành, điền đầy đủ (mẫu đơn)",
+            "fill in": "điền vào"
+          }
         },
         {
           "id": "toeic-idioms-33",
@@ -1668,7 +1917,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "discover": "phát hiện",
+            "learn": "học"
+          }
         },
         {
           "id": "toeic-idioms-34",
@@ -1692,7 +1945,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "concentrate on": "tập trung vào"
+          }
         },
         {
           "id": "toeic-idioms-35",
@@ -1716,7 +1972,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "for the benefit of": "vì lợi ích của"
+          }
         },
         {
           "id": "toeic-idioms-36",
@@ -1741,7 +2000,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "complimentary": "miễn phí (tặng kèm); mang tính khen ngợi",
+            "at no cost": "không mất phí"
+          }
         },
         {
           "id": "toeic-idioms-37",
@@ -1765,7 +2028,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "work well with": "làm việc tốt với"
+          }
         },
         {
           "id": "toeic-idioms-38",
@@ -1790,7 +2056,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "reply to": "trả lời",
+            "respond to": "đáp lại"
+          }
         },
         {
           "id": "toeic-idioms-39",
@@ -1815,7 +2085,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "discard": "loại bỏ",
+            "eliminate": "loại bỏ"
+          }
         },
         {
           "id": "toeic-idioms-40",
@@ -1840,7 +2114,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "abandon": "bỏ rơi",
+            "quit": "bỏ cuộc"
+          }
         },
         {
           "id": "toeic-idioms-41",
@@ -1865,7 +2143,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "review": "đánh giá",
+            "examine": "kiểm tra"
+          }
         },
         {
           "id": "toeic-idioms-42",
@@ -1890,7 +2172,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "undergo": "trải qua",
+            "inspect": "kiểm tra kỹ lưỡng, thanh tra"
+          }
         },
         {
           "id": "toeic-idioms-43",
@@ -1915,7 +2201,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "submit": "nộp, đệ trình",
+            "turn in": "nộp vào"
+          }
         },
         {
           "id": "toeic-idioms-44",
@@ -1940,7 +2230,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "distribute": "phân phối, phát (tài liệu, hàng hóa)",
+            "pass out": "bất tỉnh"
+          }
         },
         {
           "id": "toeic-idioms-45",
@@ -1964,7 +2258,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "based in": "có trụ sở tại"
+          }
         },
         {
           "id": "toeic-idioms-46",
@@ -1988,7 +2285,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "wait a moment": "đợi một chút"
+          }
         },
         {
           "id": "toeic-idioms-47",
@@ -2013,7 +2313,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "besides": "ngoài ra",
+            "as well as": "cũng như là, ngoài ra còn"
+          }
         },
         {
           "id": "toeic-idioms-48",
@@ -2037,7 +2341,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "in the event of": "trong trường hợp xảy ra (trang trọng)"
+          }
         },
         {
           "id": "toeic-idioms-49",
@@ -2062,7 +2369,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "thoroughly": "triệt để",
+            "extensively": "rộng rãi"
+          }
         },
         {
           "id": "toeic-idioms-50",
@@ -2087,7 +2398,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "active": "hoạt động",
+            "operational": "hoạt động"
+          }
         },
         {
           "id": "toeic-idioms-51",
@@ -2111,7 +2426,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "supporting": "hỗ trợ"
+          }
         },
         {
           "id": "toeic-idioms-52",
@@ -2135,7 +2453,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "to celebrate": "ăn mừng"
+          }
         },
         {
           "id": "toeic-idioms-53",
@@ -2159,7 +2480,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "face-to-face": "mặt đối mặt"
+          }
         },
         {
           "id": "toeic-idioms-54",
@@ -2184,7 +2508,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "underway": "đang tiến hành",
+            "ongoing": "đang diễn ra"
+          }
         },
         {
           "id": "toeic-idioms-55",
@@ -2208,7 +2536,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "in reply to": "trả lời"
+          }
         },
         {
           "id": "toeic-idioms-56",
@@ -2232,7 +2563,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "despite": "mặc dù"
+          }
         },
         {
           "id": "toeic-idioms-57",
@@ -2257,7 +2591,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "regarding": "về việc, liên quan đến (rất hay mở đầu email/điện thoại)",
+            "with respect to": "đối với"
+          }
         },
         {
           "id": "toeic-idioms-58",
@@ -2281,7 +2619,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "in case of": "trong trường hợp xảy ra (+ Danh từ)"
+          }
         },
         {
           "id": "toeic-idioms-59",
@@ -2305,7 +2646,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "early enough": "đủ sớm"
+          }
         },
         {
           "id": "toeic-idioms-60",
@@ -2329,7 +2673,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g5"
+          "topicId": "toeic-idioms-g5",
+          "relationMeanings": {
+            "in contact with": "liên hệ với"
+          }
         }
       ]
     },
@@ -2360,7 +2707,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "rather than": "thay vì"
+          }
         },
         {
           "id": "toeic-idioms-62",
@@ -2385,7 +2735,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "monitor": "theo dõi, giám sát liên tục",
+            "follow": "theo dõi"
+          }
         },
         {
           "id": "toeic-idioms-63",
@@ -2409,7 +2763,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "stay abreast of": "bám sát"
+          }
         },
         {
           "id": "toeic-idioms-64",
@@ -2434,7 +2791,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "downsize": "giảm kích thước",
+            "dismiss": "sa thải / loại bỏ"
+          }
         },
         {
           "id": "toeic-idioms-65",
@@ -2459,7 +2820,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "result in": "dẫn đến, gây ra kết quả",
+            "cause": "nguyên nhân"
+          }
         },
         {
           "id": "toeic-idioms-66",
@@ -2483,7 +2848,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "anticipate eagerly": "mong chờ một cách háo hức"
+          }
         },
         {
           "id": "toeic-idioms-67",
@@ -2508,7 +2876,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "investigate": "điều tra",
+            "examine": "kiểm tra"
+          }
         },
         {
           "id": "toeic-idioms-68",
@@ -2533,7 +2905,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "review quickly": "ôn tập nhanh chóng",
+            "skim": "lướt qua"
+          }
         },
         {
           "id": "toeic-idioms-69",
@@ -2557,7 +2933,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "decide": "quyết định"
+          }
         },
         {
           "id": "toeic-idioms-70",
@@ -2581,7 +2960,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "schedule a meeting": "lên lịch một cuộc họp"
+          }
         },
         {
           "id": "toeic-idioms-71",
@@ -2605,7 +2987,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "be logical": "logic"
+          }
         },
         {
           "id": "toeic-idioms-72",
@@ -2630,7 +3015,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "ensure": "đảm bảo chắc chắn",
+            "verify": "xác minh, kiểm chứng"
+          }
         },
         {
           "id": "toeic-idioms-73",
@@ -2654,7 +3043,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "compensate for": "bù đắp cho"
+          }
         },
         {
           "id": "toeic-idioms-74",
@@ -2678,7 +3070,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "not anymore": "không còn nữa"
+          }
         },
         {
           "id": "toeic-idioms-75",
@@ -2703,7 +3098,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "regularly": "thường xuyên",
+            "routinely": "thường xuyên"
+          }
         },
         {
           "id": "toeic-idioms-76",
@@ -2728,7 +3127,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "aboard": "trên tàu",
+            "part of the team": "phần của đội"
+          }
         },
         {
           "id": "toeic-idioms-77",
@@ -2753,7 +3156,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "exhibited": "trưng bày",
+            "shown": "hiển thị"
+          }
         },
         {
           "id": "toeic-idioms-78",
@@ -2778,7 +3185,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "working": "làm việc",
+            "on shift": "về ca"
+          }
         },
         {
           "id": "toeic-idioms-79",
@@ -2802,7 +3213,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "discounted": "giảm giá"
+          }
         },
         {
           "id": "toeic-idioms-80",
@@ -2826,7 +3240,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "on time": "đúng giờ (không muộn)"
+          }
         },
         {
           "id": "toeic-idioms-81",
@@ -2850,7 +3267,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "at the location": "tại địa điểm"
+          }
         },
         {
           "id": "toeic-idioms-82",
@@ -2874,7 +3294,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "punctually": "Đúng giờ, không chậm trễ"
+          }
         },
         {
           "id": "toeic-idioms-83",
@@ -2899,7 +3322,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "outdated": "Hết hạn; lỗi thời, lạc hậu, cổ, hiện nay không còn dùng (obsolete)",
+            "obsolete": "lỗi thời, không còn được dùng nữa"
+          }
         },
         {
           "id": "toeic-idioms-84",
@@ -2924,7 +3351,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "due to": "Bởi, vì, do, tại, nhờ có",
+            "because of": "bởi vì"
+          }
         },
         {
           "id": "toeic-idioms-85",
@@ -2949,7 +3380,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "yield results": "mang lại kết quả",
+            "succeed": "thành công"
+          }
         },
         {
           "id": "toeic-idioms-86",
@@ -2974,7 +3409,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "collect": "thu thập, lấy (hành lý, bưu kiện)",
+            "improve": "cải thiện, nâng cao"
+          }
         },
         {
           "id": "toeic-idioms-87",
@@ -2999,7 +3438,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "highlight": "nổi bật",
+            "indicate": "chỉ ra"
+          }
         },
         {
           "id": "toeic-idioms-88",
@@ -3024,7 +3467,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "make provision for": "chuẩn bị cho",
+            "cover": "chi trả, bao gồm; trang bìa"
+          }
         },
         {
           "id": "toeic-idioms-89",
@@ -3049,7 +3496,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "accomplish": "hoàn thành xuất sắc",
+            "succeed in": "thành công trong"
+          }
         },
         {
           "id": "toeic-idioms-90",
@@ -3074,7 +3525,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g6"
+          "topicId": "toeic-idioms-g6",
+          "relationMeanings": {
+            "assemble": "tập hợp",
+            "compile": "biên soạn"
+          }
         }
       ]
     },
@@ -3105,7 +3560,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "irrespective of": "không phân biệt"
+          }
         },
         {
           "id": "toeic-idioms-92",
@@ -3130,7 +3588,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "depend on": "dựa vào",
+            "count on": "trông cậy, tin tưởng dựa vào"
+          }
         },
         {
           "id": "toeic-idioms-93",
@@ -3155,7 +3617,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "lead to": "dẫn đến, gây ra kết quả",
+            "cause": "nguyên nhân"
+          }
         },
         {
           "id": "toeic-idioms-94",
@@ -3180,7 +3646,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "reserve": "đặt trước; khoản dự trữ",
+            "earmark": "dành riêng"
+          }
         },
         {
           "id": "toeic-idioms-95",
@@ -3205,7 +3675,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "establish": "thành lập, thiết lập",
+            "arrange": "sắp xếp"
+          }
         },
         {
           "id": "toeic-idioms-96",
@@ -3230,7 +3704,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "register for": "đăng ký",
+            "enroll in": "ghi danh vào"
+          }
         },
         {
           "id": "toeic-idioms-97",
@@ -3255,7 +3733,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "resolve": "giải quyết dứt điểm; nghị quyết",
+            "organize": "tổ chức"
+          }
         },
         {
           "id": "toeic-idioms-98",
@@ -3280,7 +3762,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "excel": "vượt trội",
+            "be distinctive": "khác biệt"
+          }
         },
         {
           "id": "toeic-idioms-99",
@@ -3304,7 +3790,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "remain on schedule": "vẫn đúng tiến độ"
+          }
         },
         {
           "id": "toeic-idioms-100",
@@ -3329,7 +3818,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "resign": "chức",
+            "retire": "nghỉ hưu"
+          }
         },
         {
           "id": "toeic-idioms-101",
@@ -3354,7 +3847,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "accumulate": "tích lũy",
+            "hoard": "tích trữ"
+          }
         },
         {
           "id": "toeic-idioms-102",
@@ -3379,7 +3876,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "capitalize on": "tận dụng",
+            "utilize": "sử dụng"
+          }
         },
         {
           "id": "toeic-idioms-103",
@@ -3404,7 +3905,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "handle": "xử lý, phụ trách",
+            "manage": "quản lý; xoay xở làm được"
+          }
         },
         {
           "id": "toeic-idioms-104",
@@ -3429,7 +3934,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "consider": "cân nhắc, xem xét (đi với V-ing)",
+            "factor in": "yếu tố trong"
+          }
         },
         {
           "id": "toeic-idioms-105",
@@ -3453,7 +3962,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "participate in": "tham gia vào"
+          }
         },
         {
           "id": "toeic-idioms-106",
@@ -3478,7 +3990,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "occur": "xảy ra",
+            "be held": "được giữ lại"
+          }
         },
         {
           "id": "toeic-idioms-107",
@@ -3502,7 +4018,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "alternate": "thay thế"
+          }
         },
         {
           "id": "toeic-idioms-108",
@@ -3527,7 +4046,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "prove to be": "chứng minh là",
+            "end up": "kết thúc"
+          }
         },
         {
           "id": "toeic-idioms-109",
@@ -3552,7 +4075,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "current": "hiện tại",
+            "latest": "mới nhất"
+          }
         },
         {
           "id": "toeic-idioms-110",
@@ -3577,7 +4104,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "regarding": "về việc, liên quan đến (rất hay mở đầu email/điện thoại)",
+            "concerning": "liên quan đến"
+          }
         },
         {
           "id": "toeic-idioms-111",
@@ -3602,7 +4133,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "resolve": "giải quyết dứt điểm; nghị quyết",
+            "calculate": "tính toán"
+          }
         },
         {
           "id": "toeic-idioms-112",
@@ -3627,7 +4162,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "toeic-idioms-g7"
+          "topicId": "toeic-idioms-g7",
+          "relationMeanings": {
+            "conclude": "kết luận",
+            "finish": "hoàn thành"
+          }
         }
       ]
     }

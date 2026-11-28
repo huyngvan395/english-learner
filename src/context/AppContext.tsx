@@ -12,7 +12,9 @@ import {
   ToeicExamHistoryItem,
   UserNote,
   UserProfileStats,
+  VocabExample,
   VocabWord,
+  WordPOS,
   WordProgress,
   WritingSubmissionRecord,
   WritingVocabTakeaway,
@@ -103,6 +105,19 @@ interface AppContextValue {
   toggleSaveWord: (wordId: string, deckId?: string) => void;
   saveListeningVocab: (item: ListeningVocabItem) => void;
   saveWritingVocab: (item: WritingVocabTakeaway) => void;
+  saveRelatedVocab: (item: {
+    id?: string;
+    deckId?: string;
+    word: string;
+    pos?: WordPOS;
+    ipaUS?: string;
+    ipaUK?: string;
+    meaning: string;
+    definitionEn?: string;
+    definitionVi?: string;
+    examples?: VocabExample[];
+  }) => void;
+  isVocabTextSaved: (wordText: string) => boolean;
   isWritingVocabSaved: (wordText: string) => boolean;
   isWordSaved: (wordId: string) => boolean;
   getDeckStats: (deckId: string) => { studiedCount: number; masteredCount: number };
@@ -718,7 +733,86 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     const matched = searchIndex.find((w) => w.word.toLowerCase() === normalized);
     if (matched && vocabProgress[matched.id]?.saved) return true;
     const slug = normalized.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    return Boolean(vocabProgress[`wr-${slug}`]?.saved);
+    return Boolean(vocabProgress[`wr-${slug}`]?.saved || vocabProgress[`rel-${slug}`]?.saved);
+  };
+
+  const isVocabTextSaved = (wordText: string): boolean => {
+    const normalized = wordText.trim().toLowerCase();
+    if (!normalized) return false;
+    for (const w of searchIndex) {
+      if (w.word.toLowerCase() === normalized && vocabProgress[w.id]?.saved) {
+        return true;
+      }
+    }
+    const slug = normalized.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    return Boolean(vocabProgress[`rel-${slug}`]?.saved || vocabProgress[`wr-${slug}`]?.saved);
+  };
+
+  const saveRelatedVocab = (item: {
+    id?: string;
+    deckId?: string;
+    word: string;
+    pos?: WordPOS;
+    ipaUS?: string;
+    ipaUK?: string;
+    meaning: string;
+    definitionEn?: string;
+    definitionVi?: string;
+    examples?: VocabExample[];
+  }) => {
+    const cleanWord = item.word.trim();
+    if (!cleanWord) return;
+    const normalized = cleanWord.toLowerCase();
+    const slug = normalized.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const existingMain =
+      (item.id ? searchIndex.find((w) => w.id === item.id) : undefined) ||
+      searchIndex.find((w) => w.word.toLowerCase() === normalized);
+
+    const targetId = existingMain ? existingMain.id : `rel-${slug || Date.now()}`;
+    const targetDeckId = existingMain ? existingMain.deckId : 'vocab-saved';
+
+    if (!existingMain) {
+      setCustomWords((prev) => {
+        if (prev.some((w) => w.id === targetId || w.word.toLowerCase() === normalized)) {
+          return prev;
+        }
+        const newWord: VocabWord = {
+          id: targetId,
+          deckId: 'vocab-saved',
+          word: cleanWord,
+          pos: item.pos || 'n',
+          ipaUK: item.ipaUK || '',
+          ipaUS: item.ipaUS || '',
+          meaning: item.meaning.trim() || cleanWord,
+          definitionEn: item.definitionEn || '',
+          definitionVi: item.definitionVi || '',
+          examples: item.examples && item.examples.length > 0 ? item.examples : [],
+          wordFamily: [],
+          synonyms: [],
+          antonyms: [],
+          collocations: [],
+        };
+        return [...prev, newWord];
+      });
+    }
+
+    const now = Date.now();
+    setVocabProgress((prev) => {
+      const existing = prev[targetId];
+      return {
+        ...prev,
+        [targetId]: {
+          wordId: targetId,
+          deckId: targetDeckId,
+          status: existing?.status ?? 'vague',
+          saved: true,
+          reviewCount: existing?.reviewCount ?? 0,
+          lastReviewedAt: existing?.lastReviewedAt ?? now,
+          nextReviewAt: existing?.nextReviewAt ?? now,
+        },
+      };
+    });
+    touchActivity(5, 0);
   };
 
   const isWordSaved = (wordId: string): boolean => {
@@ -918,6 +1012,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         toggleSaveWord,
         saveListeningVocab,
         saveWritingVocab,
+        saveRelatedVocab,
+        isVocabTextSaved,
         isWritingVocabSaved,
         isWordSaved,
         getDeckStats,

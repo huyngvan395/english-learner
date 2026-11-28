@@ -57,7 +57,12 @@
           ],
           "definitionEn": "To value (also similar to be grateful for) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động trân trọng, cảm kích, đánh giá cao.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "value": "giá trị",
+            "be grateful for": "biết ơn vì",
+            "disregard": "coi thường"
+          }
         },
         {
           "id": "comm-2",
@@ -95,7 +100,12 @@
           ],
           "definitionEn": "To explain (also similar to clear up) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động làm rõ, giải thích cho dễ hiểu.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "explain": "giải thích",
+            "clear up": "dọn dẹp",
+            "confuse": "làm bối rối"
+          }
         },
         {
           "id": "comm-3",
@@ -132,7 +142,11 @@
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/apologize-us.mp3",
           "definitionEn": "To say sorry (also similar to express regret) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động xin lỗi.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "say sorry": "nói xin lỗi",
+            "express regret": "bày tỏ sự hối tiếc"
+          }
         },
         {
           "id": "comm-4",
@@ -171,7 +185,13 @@
           ],
           "definitionEn": "To put off (also similar to defer, delay) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động hoãn lại sang thời điểm sau.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "put off": "trì hoãn, dời lại sau",
+            "defer": "hoãn lại",
+            "delay": "trì hoãn, làm chậm trễ",
+            "bring forward": "đẩy sớm lên (lịch họp, sự kiện)"
+          }
         },
         {
           "id": "comm-5",
@@ -210,7 +230,13 @@
           ],
           "definitionEn": "To endorse (also similar to suggest, advise) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động giới thiệu, khuyên dùng.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "endorse": "chứng thực, ủng hộ, đại diện quảng bá",
+            "suggest": "đề xuất, gợi ý",
+            "advise": "khuyên",
+            "discourage": "nản lòng"
+          }
         },
         {
           "id": "comm-6",
@@ -248,7 +274,12 @@
           ],
           "definitionEn": "To pause (also similar to waver) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động do dự, ngần ngại.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "pause": "tạm dừng",
+            "waver": "dao động",
+            "proceed": "tiến hành"
+          }
         },
         {
           "id": "comm-7",
@@ -284,7 +315,11 @@
           ],
           "definitionEn": "To forward (also similar to relocate) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động chuyển máy (điện thoại); chuyển công tác.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "forward": "chuyển tiếp; hướng về phía trước",
+            "relocate": "di dời, chuyển địa điểm"
+          }
         },
         {
           "id": "comm-8",
@@ -323,7 +358,13 @@
           ],
           "definitionEn": "To ask (also similar to query, check) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động hỏi thăm thông tin.",
-          "topicId": "comm-polite"
+          "topicId": "comm-polite",
+          "relationMeanings": {
+            "ask": "hỏi",
+            "query": "truy vấn",
+            "check": "kiểm tra; tấm séc; hóa đơn",
+            "reply": "trả lời"
+          }
         }
       ]
     },
@@ -361,7 +402,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to comments, input, review.",
           "definitionVi": "Danh từ dùng để chỉ ý kiến phản hồi, góp ý.",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "comments": "bình luận",
+            "input": "đầu vào",
+            "review": "đánh giá"
+          }
         },
         {
           "id": "comm-10",
@@ -391,7 +437,11 @@
           ],
           "definitionEn": "To rearrange (also similar to move the date) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động dời lịch, sắp xếp lại lịch hẹn.",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "rearrange": "sắp xếp lại",
+            "move the date": "dời ngày"
+          }
         },
         {
           "id": "comm-11",
@@ -428,7 +478,11 @@
           ],
           "definitionEn": "To verify (also similar to verify) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động xác nhận lại.",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "verify": "xác minh, kiểm chứng",
+            "cancel": "hủy bỏ"
+          }
         },
         {
           "id": "comm-12",
@@ -470,7 +524,12 @@
           ],
           "definitionEn": "To notify (also similar to tell, update) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động thông báo, báo tin cho ai.",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "notify": "thông báo chính thức",
+            "tell": "kể",
+            "update": "cập nhật"
+          }
         },
         {
           "id": "comm-13",
@@ -506,7 +565,11 @@
           ],
           "definitionEn": "To prompt (also similar to jog memory) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động nhắc nhở ai nhớ làm gì.",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "prompt": "nhắc nhở",
+            "jog memory": "bộ nhớ chạy bộ"
+          }
         },
         {
           "id": "comm-14",
@@ -537,7 +600,12 @@
           ],
           "definitionEn": "A common English expression meaning 'concerning, about, with respect to'.",
           "definitionVi": "Cụm từ cố định mang nghĩa về việc, liên quan đến (rất hay mở đầu email/điện thoại).",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "concerning": "liên quan đến",
+            "about": "về",
+            "with respect to": "đối với"
+          }
         },
         {
           "id": "comm-15",
@@ -567,7 +635,11 @@
           ],
           "definitionEn": "To contact (also similar to get hold of) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động liên lạc được với ai; đạt tới.",
-          "topicId": "comm-phone"
+          "topicId": "comm-phone",
+          "relationMeanings": {
+            "contact": "liên hệ",
+            "get hold of": "nắm lấy"
+          }
         }
       ]
     },
@@ -596,7 +668,7 @@
             {
               "word": "able",
               "pos": "adj",
-              "meaning": "have the skills and qualifications to do things well"
+              "meaning": "có thể"
             }
           ],
           "synonyms": [],
@@ -604,7 +676,10 @@
             "inability"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "inability": "bất lực"
+          }
         },
         {
           "id": "communication-daily-2",
@@ -626,7 +701,7 @@
             {
               "word": "ability",
               "pos": "n",
-              "meaning": "possession of the qualities (especially mental qualities) re"
+              "meaning": "khả năng"
             }
           ],
           "synonyms": [],
@@ -634,7 +709,10 @@
             "unable"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "unable": "không thể"
+          }
         },
         {
           "id": "communication-daily-3",
@@ -658,7 +736,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "overseas": "hải ngoại"
+          }
         },
         {
           "id": "communication-daily-4",
@@ -680,17 +761,17 @@
             {
               "word": "acceptant",
               "pos": "adj",
-              "meaning": "accepting willingly"
+              "meaning": "chấp nhận"
             },
             {
               "word": "acceptation",
               "pos": "n",
-              "meaning": "acceptance as true or valid"
+              "meaning": "chấp nhận"
             },
             {
               "word": "acceptance",
               "pos": "n",
-              "meaning": "the mental attitude that something is believable and should "
+              "meaning": "chấp nhận"
             }
           ],
           "synonyms": [],
@@ -698,7 +779,10 @@
             "reject"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "reject": "từ chối"
+          }
         },
         {
           "id": "communication-daily-5",
@@ -762,7 +846,15 @@
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/achieve-us.mp3",
           "definitionEn": "To accomplish (also similar to attain, reach) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động đạt được, hoàn thành (mục tiêu).",
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "accomplish": "hoàn thành xuất sắc",
+            "attain": "đạt được",
+            "reach": "liên lạc được với ai; đạt tới",
+            "complete": "hoàn thành, điền đầy đủ (mẫu đơn)",
+            "effect": "hiệu ứng",
+            "fail": "thất bại"
+          }
         },
         {
           "id": "communication-daily-7",
@@ -784,12 +876,12 @@
             {
               "word": "activeness",
               "pos": "n",
-              "meaning": "the state of being active"
+              "meaning": "tính năng động"
             },
             {
               "word": "activity",
               "pos": "n",
-              "meaning": "an organic process that takes place in the body"
+              "meaning": "hoạt động"
             }
           ],
           "synonyms": [],
@@ -797,7 +889,10 @@
             "inactive"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "inactive": "không hoạt động"
+          }
         },
         {
           "id": "communication-daily-8",
@@ -821,7 +916,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "really": "thực sự"
+          }
         },
         {
           "id": "communication-daily-9",
@@ -843,12 +941,12 @@
             {
               "word": "adulthood",
               "pos": "n",
-              "meaning": "the period of time in your life after your physical growth h"
+              "meaning": "trưởng thành"
             },
             {
               "word": "grownup",
               "pos": "adj",
-              "meaning": "(of animals) fully developed"
+              "meaning": "trưởng thành"
             }
           ],
           "synonyms": [
@@ -858,7 +956,11 @@
             "juvenile"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "grownup": "trưởng thành",
+            "juvenile": "vị thành niên"
+          }
         },
         {
           "id": "communication-daily-10",
@@ -880,7 +982,7 @@
             {
               "word": "advantageous",
               "pos": "adj",
-              "meaning": "giving an advantage"
+              "meaning": "thuận lợi"
             }
           ],
           "synonyms": [
@@ -890,7 +992,11 @@
             "disadvantage"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "vantage": "thuận lợi",
+            "disadvantage": "bất lợi"
+          }
         },
         {
           "id": "communication-daily-11",
@@ -912,17 +1018,17 @@
             {
               "word": "adventuristic",
               "pos": "adj",
-              "meaning": "of or pertaining to adventurism"
+              "meaning": "phiêu lưu"
             },
             {
               "word": "adventurous",
               "pos": "adj",
-              "meaning": "willing to undertake or seeking out new and daring enterpris"
+              "meaning": "phiêu lưu"
             },
             {
               "word": "adventurer",
               "pos": "n",
-              "meaning": "someone who travels into little known regions (especially fo"
+              "meaning": "nhà thám hiểm"
             }
           ],
           "synonyms": [
@@ -932,7 +1038,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "escapade": "trốn thoát",
+            "risky venture": "mạo hiểm mạo hiểm",
+            "dangerous undertaking": "công việc nguy hiểm"
+          }
         },
         {
           "id": "communication-daily-12",
@@ -954,17 +1065,17 @@
             {
               "word": "publicist",
               "pos": "n",
-              "meaning": "someone who publicizes"
+              "meaning": "nhà báo"
             },
             {
               "word": "publicizer",
               "pos": "n",
-              "meaning": "someone who publicizes"
+              "meaning": "công bố"
             },
             {
               "word": "publicizing",
               "pos": "n",
-              "meaning": "the business of drawing public attention to goods and servic"
+              "meaning": "công bố"
             }
           ],
           "synonyms": [
@@ -974,7 +1085,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "publicize": "công khai",
+            "advertize": "quảng cáo",
+            "publicise": "công khai"
+          }
         },
         {
           "id": "communication-daily-13",
@@ -996,12 +1112,12 @@
             {
               "word": "advertise",
               "pos": "v",
-              "meaning": "make publicity for; try to sell (a product)"
+              "meaning": "quảng cáo"
             },
             {
               "word": "advertize",
               "pos": "v",
-              "meaning": "make publicity for; try to sell (a product)"
+              "meaning": "quảng cáo"
             }
           ],
           "synonyms": [
@@ -1012,7 +1128,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "ad": "quảng cáo",
+            "advertizement": "quảng cáo",
+            "advertising": "quảng cáo",
+            "advertizing": "quảng cáo"
+          }
         },
         {
           "id": "communication-daily-14",
@@ -1034,12 +1156,12 @@
             {
               "word": "advertise",
               "pos": "v",
-              "meaning": "make publicity for; try to sell (a product)"
+              "meaning": "quảng cáo"
             },
             {
               "word": "advertize",
               "pos": "v",
-              "meaning": "make publicity for; try to sell (a product)"
+              "meaning": "quảng cáo"
             }
           ],
           "synonyms": [
@@ -1050,7 +1172,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "ad": "quảng cáo",
+            "advertisement": "quảng cáo",
+            "advertizement": "quảng cáo",
+            "advertizing": "quảng cáo"
+          }
         },
         {
           "id": "communication-daily-15",
@@ -1072,7 +1200,7 @@
             {
               "word": "impact",
               "pos": "n",
-              "meaning": "a forceful consequence; a strong effect"
+              "meaning": "tác động, ảnh hưởng mạnh"
             }
           ],
           "synonyms": [
@@ -1083,7 +1211,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "impact": "tác động, ảnh hưởng mạnh",
+            "bear upon": "chịu đựng",
+            "bear on": "chịu đựng",
+            "touch on": "chạm vào"
+          }
         },
         {
           "id": "communication-daily-16",
@@ -1129,7 +1263,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "air hose": "ống dẫn khí"
+          }
         },
         {
           "id": "communication-daily-18",
@@ -1151,12 +1288,12 @@
             {
               "word": "aliveness",
               "pos": "n",
-              "meaning": "the property of being animated; having animal life as distin"
+              "meaning": "sự sống động"
             },
             {
               "word": "liveness",
               "pos": "n",
-              "meaning": "the property of being animated; having animal life as distin"
+              "meaning": "sự sống động"
             }
           ],
           "synonyms": [
@@ -1166,7 +1303,11 @@
             "dead"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "live": "trực tiếp",
+            "dead": "chết"
+          }
         },
         {
           "id": "communication-daily-19",
@@ -1193,7 +1334,12 @@
             "prevent"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "let": "hãy để",
+            "permit": "giấy phép",
+            "prevent": "ngăn chặn"
+          }
         },
         {
           "id": "communication-daily-20",
@@ -1220,7 +1366,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "about": "về",
+            "most": "nhất",
+            "nearly": "gần như",
+            "near": "gần"
+          }
         },
         {
           "id": "communication-daily-21",
@@ -1242,7 +1394,7 @@
             {
               "word": "aloneness",
               "pos": "n",
-              "meaning": "a disposition toward being alone"
+              "meaning": "sự cô đơn"
             }
           ],
           "synonyms": [],
@@ -1272,7 +1424,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "on": "trên"
+          }
         },
         {
           "id": "communication-daily-23",
@@ -1319,7 +1474,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "option": "tùy chọn",
+            "choice": "lựa chọn"
+          }
         },
         {
           "id": "communication-daily-25",
@@ -1345,7 +1504,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "sum": "tổng",
+            "sum of money": "số tiền",
+            "amount of money": "số tiền"
+          }
         },
         {
           "id": "communication-daily-26",
@@ -1367,7 +1531,7 @@
             {
               "word": "ancientness",
               "pos": "n",
-              "meaning": "extreme oldness"
+              "meaning": "sự cổ xưa"
             }
           ],
           "synonyms": [],
@@ -1395,7 +1559,7 @@
             {
               "word": "anklet",
               "pos": "n",
-              "meaning": "a shoe for a child or woman that has a strap around the ankl"
+              "meaning": "vòng chân"
             }
           ],
           "synonyms": [
@@ -1405,7 +1569,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "ankle joint": "khớp cổ chân",
+            "mortise joint": "khớp mộng",
+            "articulatio talocruralis": "khớp nối talocruralis"
+          }
         },
         {
           "id": "communication-daily-28",
@@ -1454,7 +1623,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "anyhow": "dù sao đi nữa",
+            "anyways": "dù sao đi nữa",
+            "in any case": "trong mọi trường hợp",
+            "at any rate": "dù sao đi nữa"
+          }
         },
         {
           "id": "communication-daily-30",
@@ -1478,7 +1653,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "anyplace": "bất cứ nơi nào"
+          }
         },
         {
           "id": "communication-daily-31",
@@ -1502,7 +1680,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "come out": "đi ra"
+          }
         },
         {
           "id": "communication-daily-32",
@@ -1524,7 +1705,7 @@
             {
               "word": "appear",
               "pos": "v",
-              "meaning": "come into sight or view"
+              "meaning": "xuất hiện"
             }
           ],
           "synonyms": [
@@ -1532,7 +1713,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g3"
+          "topicId": "communication-daily-g3",
+          "relationMeanings": {
+            "visual aspect": "khía cạnh thị giác"
+          }
         }
       ]
     },
@@ -1561,17 +1745,17 @@
             {
               "word": "useable",
               "pos": "adj",
-              "meaning": "capable of being put to use"
+              "meaning": "có thể sử dụng được"
             },
             {
               "word": "usable",
               "pos": "adj",
-              "meaning": "capable of being put to use"
+              "meaning": "có thể sử dụng được"
             },
             {
               "word": "use",
               "pos": "n",
-              "meaning": "the act of using"
+              "meaning": "sử dụng"
             }
           ],
           "synonyms": [
@@ -1582,7 +1766,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "use": "sử dụng",
+            "utilize": "sử dụng",
+            "utilise": "sử dụng",
+            "employ": "tuyển dụng"
+          }
         },
         {
           "id": "communication-daily-34",
@@ -1604,7 +1794,7 @@
             {
               "word": "design",
               "pos": "v",
-              "meaning": "create the design for; create or execute in an artistic or h"
+              "meaning": "thiết kế"
             }
           ],
           "synonyms": [
@@ -1612,7 +1802,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "designer": "nhà thiết kế"
+          }
         },
         {
           "id": "communication-daily-35",
@@ -1656,17 +1849,17 @@
             {
               "word": "arguable",
               "pos": "adj",
-              "meaning": "capable of being supported by argument"
+              "meaning": "có thể tranh cãi"
             },
             {
               "word": "argument",
               "pos": "n",
-              "meaning": "a discussion in which reasons are advanced for and against s"
+              "meaning": "cuộc tranh luận"
             },
             {
               "word": "argumentation",
               "pos": "n",
-              "meaning": "a discussion in which reasons are advanced for and against s"
+              "meaning": "tranh luận"
             }
           ],
           "synonyms": [
@@ -1674,7 +1867,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "reason": "lý do"
+          }
         },
         {
           "id": "communication-daily-37",
@@ -1696,12 +1892,12 @@
             {
               "word": "argue",
               "pos": "v",
-              "meaning": "give evidence of"
+              "meaning": "tranh cãi"
             },
             {
               "word": "state",
               "pos": "v",
-              "meaning": "put before"
+              "meaning": "tiểu bang"
             }
           ],
           "synonyms": [
@@ -1709,7 +1905,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "statement": "bản sao kê, bản tuyên bố"
+          }
         },
         {
           "id": "communication-daily-38",
@@ -1734,7 +1933,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "regular army": "quân đội chính quy",
+            "ground forces": "lực lượng mặt đất"
+          }
         },
         {
           "id": "communication-daily-39",
@@ -1756,12 +1959,12 @@
             {
               "word": "arrangement",
               "pos": "n",
-              "meaning": "the spatial property of the way in which something is placed"
+              "meaning": "sự sắp xếp, thu xếp"
             },
             {
               "word": "arranger",
               "pos": "n",
-              "meaning": "a person who brings order and organization to an enterprise"
+              "meaning": "người sắp xếp"
             }
           ],
           "synonyms": [
@@ -1771,7 +1974,11 @@
             "disarrange"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "set up": "Thiết lập, tạo dựng",
+            "disarrange": "lộn xộn"
+          }
         },
         {
           "id": "communication-daily-40",
@@ -1814,7 +2021,13 @@
           ],
           "definitionEn": "A formal plan or preparation made beforehand so that an event or trip runs smoothly.",
           "definitionVi": "Sự sắp xếp, chuẩn bị chu đáo từ trước để một sự kiện hoặc chuyến đi diễn ra suôn sẻ.",
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "plan": "kế hoạch",
+            "preparation": "chuẩn bị",
+            "setup": "thiết lập",
+            "disorder": "rối loạn"
+          }
         },
         {
           "id": "communication-daily-41",
@@ -1838,7 +2051,10 @@
             "awake"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "awake": "tỉnh táo"
+          }
         },
         {
           "id": "communication-daily-42",
@@ -1860,12 +2076,12 @@
             {
               "word": "adjunct",
               "pos": "n",
-              "meaning": "a person who is an assistant or subordinate to another"
+              "meaning": "phụ trợ"
             },
             {
               "word": "assist",
               "pos": "v",
-              "meaning": "act as an assistant in a subordinate or supportive function"
+              "meaning": "hỗ trợ, giúp đỡ"
             }
           ],
           "synonyms": [
@@ -1873,7 +2089,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "adjunct": "phụ trợ"
+          }
         },
         {
           "id": "communication-daily-43",
@@ -1895,12 +2114,10 @@
             {
               "word": "athletic",
               "pos": "adj",
-              "meaning": "relating to or befitting athletics or athletes"
+              "meaning": "thể thao"
             }
           ],
-          "synonyms": [
-            "jock"
-          ],
+          "synonyms": [],
           "antonyms": [],
           "collocations": [],
           "topicId": "communication-daily-g4"
@@ -1929,7 +2146,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "onslaught": "tấn công dữ dội",
+            "onset": "khởi phát",
+            "onrush": "xông tới"
+          }
         },
         {
           "id": "communication-daily-45",
@@ -1958,8 +2180,7 @@
             }
           ],
           "synonyms": [
-            "participate in",
-            "join"
+            "participate in"
           ],
           "antonyms": [
             "miss",
@@ -1977,7 +2198,12 @@
           ],
           "definitionEn": "To be physically or virtually present at a meeting, conference, workshop, or official event.",
           "definitionVi": "Có mặt trực tiếp hoặc trực tuyến tại một cuộc họp, hội nghị, hội thảo hay sự kiện.",
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "participate in": "tham gia vào",
+            "miss": "nhớ",
+            "skip": "bỏ qua"
+          }
         },
         {
           "id": "communication-daily-46",
@@ -1999,7 +2225,7 @@
             {
               "word": "attend",
               "pos": "v",
-              "meaning": "give heed (to)"
+              "meaning": "tham dự, có mặt tại"
             }
           ],
           "synonyms": [
@@ -2009,7 +2235,11 @@
             "inattention"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "attending": "tham dự",
+            "inattention": "vô tâm"
+          }
         },
         {
           "id": "communication-daily-47",
@@ -2031,12 +2261,12 @@
             {
               "word": "attract",
               "pos": "v",
-              "meaning": "be attractive to"
+              "meaning": "thu hút (khách hàng, vốn đầu tư)"
             },
             {
               "word": "attractiveness",
               "pos": "n",
-              "meaning": "sexual allure"
+              "meaning": "sức hấp dẫn"
             }
           ],
           "synonyms": [],
@@ -2044,7 +2274,10 @@
             "unattractive"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "unattractive": "kém hấp dẫn"
+          }
         },
         {
           "id": "communication-daily-48",
@@ -2088,17 +2321,17 @@
             {
               "word": "write",
               "pos": "v",
-              "meaning": "have (one's written work) issued for publication"
+              "meaning": "viết"
             },
             {
               "word": "auctorial",
               "pos": "adj",
-              "meaning": "of or by or typical of an author"
+              "meaning": "tự truyện"
             },
             {
               "word": "authorial",
               "pos": "adj",
-              "meaning": "of or by or typical of an author"
+              "meaning": "có thẩm quyền"
             }
           ],
           "synonyms": [
@@ -2106,7 +2339,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "writer": "nhà văn"
+          }
         },
         {
           "id": "communication-daily-50",
@@ -2149,7 +2385,16 @@
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/available-us.mp3",
           "definitionEn": "Having the quality of being accessible, free, effectual.",
           "definitionVi": "Tính từ mô tả đặc điểm có sẵn, rảnh rỗi.",
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "accessible": "có thể truy cập",
+            "free": "miễn phí",
+            "effectual": "có hiệu lực",
+            "valid": "hợp lệ",
+            "advantageous": "thuận lợi",
+            "unavailable": "không có sẵn",
+            "busy": "bận rộn"
+          }
         },
         {
           "id": "communication-daily-51",
@@ -2171,12 +2416,12 @@
             {
               "word": "averageness",
               "pos": "n",
-              "meaning": "the state of being that is average; indicates normality but "
+              "meaning": "tính trung bình"
             },
             {
               "word": "mean",
               "pos": "n",
-              "meaning": "an average of n numbers computed by adding some function of "
+              "meaning": "có nghĩa là"
             }
           ],
           "synonyms": [
@@ -2184,7 +2429,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "mean": "có nghĩa là"
+          }
         },
         {
           "id": "communication-daily-52",
@@ -2228,7 +2476,13 @@
           ],
           "definitionEn": "To take deliberate steps to prevent an unwanted problem, delay, or cost from happening.",
           "definitionVi": "Chủ động áp dụng biện pháp nhằm ngăn ngừa một vấn đề, sự chậm trễ hoặc chi phí không mong muốn.",
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "evade": "trốn tránh",
+            "prevent": "ngăn chặn",
+            "steer clear of": "tránh xa",
+            "confront": "đối mặt"
+          }
         },
         {
           "id": "communication-daily-53",
@@ -2252,7 +2506,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "awarding": "trao giải"
+          }
         },
         {
           "id": "communication-daily-54",
@@ -2274,17 +2531,17 @@
             {
               "word": "awfulness",
               "pos": "n",
-              "meaning": "a quality of extreme unpleasantness"
+              "meaning": "khủng khiếp"
             },
             {
               "word": "dreadfulness",
               "pos": "n",
-              "meaning": "a quality of extreme unpleasantness"
+              "meaning": "sự khủng khiếp"
             },
             {
               "word": "terribleness",
               "pos": "n",
-              "meaning": "a quality of extreme unpleasantness"
+              "meaning": "khủng khiếp"
             }
           ],
           "synonyms": [
@@ -2295,7 +2552,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "atrocious": "tàn bạo",
+            "abominable": "gớm ghiếc",
+            "dreadful": "khủng khiếp",
+            "painful": "đau đớn"
+          }
         },
         {
           "id": "communication-daily-55",
@@ -2317,17 +2580,17 @@
             {
               "word": "backing",
               "pos": "n",
-              "meaning": "the act of providing approval and support"
+              "meaning": "sự ủng hộ"
             },
             {
               "word": "endorsement",
               "pos": "n",
-              "meaning": "a promotional statement (as found on the dust jackets of boo"
+              "meaning": "chứng thực"
             },
             {
               "word": "endorser",
               "pos": "n",
-              "meaning": "someone who expresses strong approval"
+              "meaning": "người chứng thực"
             }
           ],
           "synonyms": [
@@ -2338,7 +2601,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "endorse": "chứng thực, ủng hộ, đại diện quảng bá",
+            "indorse": "ủng hộ",
+            "plump for": "đầy đặn cho",
+            "plunk for": "thả mình xuống"
+          }
         },
         {
           "id": "communication-daily-56",
@@ -2386,7 +2655,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "severely": "nghiêm khắc",
+            "gravely": "nghiêm trọng",
+            "seriously": "nghiêm túc"
+          }
         },
         {
           "id": "communication-daily-58",
@@ -2410,7 +2684,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "baseball game": "trận bóng chày"
+          }
         },
         {
           "id": "communication-daily-59",
@@ -2457,7 +2734,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "basketball game": "trò chơi bóng rổ",
+            "hoops": "vòng"
+          }
         },
         {
           "id": "communication-daily-61",
@@ -2481,7 +2762,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "edible bean": "đậu ăn được"
+          }
         },
         {
           "id": "communication-daily-62",
@@ -2525,17 +2809,17 @@
             {
               "word": "beatable",
               "pos": "adj",
-              "meaning": "susceptible to being defeated"
+              "meaning": "có thể đánh bại được"
             },
             {
               "word": "beating",
               "pos": "n",
-              "meaning": "the act of overcoming or outdoing"
+              "meaning": "đánh đập"
             },
             {
               "word": "trouncing",
               "pos": "n",
-              "meaning": "a sound defeat"
+              "meaning": "đánh nhau"
             }
           ],
           "synonyms": [
@@ -2546,7 +2830,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "beat out": "đánh bại",
+            "crush": "nghiền",
+            "shell": "vỏ",
+            "trounce": "cú đánh"
+          }
         },
         {
           "id": "communication-daily-64",
@@ -2570,7 +2860,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g4"
+          "topicId": "communication-daily-g4",
+          "relationMeanings": {
+            "beef cattle": "bò thịt"
+          }
         }
       ]
     },
@@ -2601,7 +2894,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "earlier": "trước đó"
+          }
         },
         {
           "id": "communication-daily-66",
@@ -2626,7 +2922,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "act": "hành động",
+            "do": "do"
+          }
         },
         {
           "id": "communication-daily-67",
@@ -2650,7 +2950,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "behavior": "hành vi"
+          }
         },
         {
           "id": "communication-daily-68",
@@ -2672,7 +2975,7 @@
             {
               "word": "belongings",
               "pos": "n",
-              "meaning": "something owned; any tangible or intangible possession that "
+              "meaning": "đồ đạc"
             }
           ],
           "synonyms": [],
@@ -2739,7 +3042,13 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to advantage, perk, gain.",
           "definitionVi": "Danh từ dùng để chỉ lợi ích; phúc lợi nhân viên.",
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "advantage": "lợi thế",
+            "perk": "đặc quyền",
+            "gain": "tăng",
+            "drawback": "nhược điểm"
+          }
         },
         {
           "id": "communication-daily-71",
@@ -2763,7 +3072,10 @@
             "worst"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "worst": "tệ nhất"
+          }
         },
         {
           "id": "communication-daily-72",
@@ -2787,7 +3099,10 @@
             "worse"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "worse": "tệ hơn"
+          }
         },
         {
           "id": "communication-daily-73",
@@ -2811,7 +3126,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "betwixt": "giữa"
+          }
         },
         {
           "id": "communication-daily-74",
@@ -2833,17 +3151,17 @@
             {
               "word": "biologic",
               "pos": "adj",
-              "meaning": "pertaining to biology or to life and living things"
+              "meaning": "sinh học"
             },
             {
               "word": "biological",
               "pos": "adj",
-              "meaning": "pertaining to biology or to life and living things"
+              "meaning": "sinh học"
             },
             {
               "word": "biologist",
               "pos": "n",
-              "meaning": "(biology) a scientist who studies living organisms"
+              "meaning": "nhà sinh vật học"
             }
           ],
           "synonyms": [
@@ -2851,7 +3169,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "biological science": "khoa học sinh học"
+          }
         },
         {
           "id": "communication-daily-75",
@@ -2875,7 +3196,10 @@
             "death"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "death": "cái chết"
+          }
         },
         {
           "id": "communication-daily-76",
@@ -2919,7 +3243,7 @@
             {
               "word": "blankness",
               "pos": "n",
-              "meaning": "the state of being blank; void; emptiness"
+              "meaning": "trống rỗng"
             }
           ],
           "synonyms": [
@@ -2928,7 +3252,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "clean": "sạch sẽ",
+            "white": "trắng"
+          }
         },
         {
           "id": "communication-daily-78",
@@ -2950,7 +3278,7 @@
             {
               "word": "bloody",
               "pos": "adj",
-              "meaning": "having or covered with or accompanied by blood"
+              "meaning": "đẫm máu"
             }
           ],
           "synonyms": [],
@@ -3022,7 +3350,7 @@
             {
               "word": "boiler",
               "pos": "n",
-              "meaning": "sealed vessel where water is converted to steam"
+              "meaning": "nồi hơi"
             }
           ],
           "synonyms": [],
@@ -3050,17 +3378,17 @@
             {
               "word": "bony",
               "pos": "adj",
-              "meaning": "composed of or containing bone"
+              "meaning": "xương xẩu"
             },
             {
               "word": "boney",
               "pos": "adj",
-              "meaning": "having bones especially many or prominent bones"
+              "meaning": "xương xẩu"
             },
             {
               "word": "bonelet",
               "pos": "n",
-              "meaning": "a small bone; especially one in the middle ear"
+              "meaning": "xương cốt"
             }
           ],
           "synonyms": [
@@ -3068,7 +3396,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "os": "về os"
+          }
         },
         {
           "id": "communication-daily-83",
@@ -3090,7 +3421,7 @@
             {
               "word": "booklet",
               "pos": "n",
-              "meaning": "a small book usually having a paper cover"
+              "meaning": "tập sách"
             }
           ],
           "synonyms": [],
@@ -3118,7 +3449,7 @@
             {
               "word": "borrower",
               "pos": "n",
-              "meaning": "someone who receives something on the promise to return it o"
+              "meaning": "người vay"
             }
           ],
           "synonyms": [],
@@ -3126,7 +3457,10 @@
             "lend"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "lend": "cho vay"
+          }
         },
         {
           "id": "communication-daily-85",
@@ -3148,23 +3482,27 @@
             {
               "word": "foremanship",
               "pos": "n",
-              "meaning": "the position of foreman"
+              "meaning": "sự lãnh đạo"
             },
             {
               "word": "bossy",
               "pos": "adj",
-              "meaning": "offensively self-assured or given to exercising usually unwa"
+              "meaning": "hách dịch"
             }
           ],
           "synonyms": [
             "foreman",
             "chief",
-            "gaffer",
             "honcho"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "foreman": "quản đốc",
+            "chief": "Chính",
+            "honcho": "vinh dự"
+          }
         },
         {
           "id": "communication-daily-86",
@@ -3189,7 +3527,11 @@
             "top"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "side": "bên",
+            "top": "hàng đầu"
+          }
         },
         {
           "id": "communication-daily-87",
@@ -3235,7 +3577,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "encephalon": "não"
+          }
         },
         {
           "id": "communication-daily-89",
@@ -3259,7 +3604,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "span": "nhịp"
+          }
         },
         {
           "id": "communication-daily-90",
@@ -3281,7 +3629,7 @@
             {
               "word": "brightness",
               "pos": "n",
-              "meaning": "the location of a visual perception along a continuum from b"
+              "meaning": "độ sáng"
             }
           ],
           "synonyms": [],
@@ -3289,7 +3637,10 @@
             "dull"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "dull": "buồn tẻ"
+          }
         },
         {
           "id": "communication-daily-91",
@@ -3311,12 +3662,12 @@
             {
               "word": "brilliancy",
               "pos": "n",
-              "meaning": "a quality that outshines the usual"
+              "meaning": "sự rực rỡ"
             },
             {
               "word": "brilliance",
               "pos": "n",
-              "meaning": "the quality of being magnificent or splendid or grand"
+              "meaning": "rực rỡ"
             }
           ],
           "synonyms": [
@@ -3324,7 +3675,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "superb": "tuyệt vời"
+          }
         },
         {
           "id": "communication-daily-92",
@@ -3348,7 +3702,10 @@
             "unbroken"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "unbroken": "không gián đoạn"
+          }
         },
         {
           "id": "communication-daily-93",
@@ -3370,18 +3727,22 @@
             {
               "word": "brushy",
               "pos": "adj",
-              "meaning": "covered with or consisting of bushes or thickets; ; ; - Jack"
+              "meaning": "chải chuốt"
             }
           ],
           "synonyms": [
             "brushwood",
-            "coppice",
             "copse",
             "thicket"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "brushwood": "cây cọ",
+            "copse": "bãi cỏ",
+            "thicket": "bụi cây"
+          }
         },
         {
           "id": "communication-daily-94",
@@ -3403,12 +3764,12 @@
             {
               "word": "burnable",
               "pos": "adj",
-              "meaning": "capable of burning"
+              "meaning": "có thể cháy được"
             },
             {
               "word": "fire",
               "pos": "n",
-              "meaning": "a fireplace in which a relatively small fire is burning"
+              "meaning": "lửa"
             }
           ],
           "synonyms": [
@@ -3417,7 +3778,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "fire": "lửa",
+            "burn down": "đốt cháy"
+          }
         },
         {
           "id": "communication-daily-95",
@@ -3441,7 +3806,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g5"
+          "topicId": "communication-daily-g5",
+          "relationMeanings": {
+            "man of affairs": "người đàn ông của công việc"
+          }
         },
         {
           "id": "communication-daily-96",
@@ -3463,7 +3831,7 @@
             {
               "word": "buttony",
               "pos": "adj",
-              "meaning": "small and round and shiny like a shiny bead or button"
+              "meaning": "cúc áo"
             }
           ],
           "synonyms": [],
@@ -3494,26 +3862,16 @@
               "vi": "Chúng ta hãy quay lại trại."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "canton",
-              "pos": "v",
-              "meaning": "provide housing for (military personnel)"
-            },
-            {
-              "word": "bivouac",
-              "pos": "v",
-              "meaning": "live in or as if in a tent"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
-            "encampment",
-            "cantonment",
-            "bivouac"
+            "encampment"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "encampment": "đóng trại"
+          }
         },
         {
           "id": "communication-daily-98",
@@ -3535,27 +3893,30 @@
             {
               "word": "camp",
               "pos": "v",
-              "meaning": "live in or as if in a tent"
+              "meaning": "trại"
             },
             {
               "word": "encamp",
               "pos": "v",
-              "meaning": "live in or as if in a tent"
+              "meaning": "đóng trại"
             },
             {
               "word": "tent",
               "pos": "v",
-              "meaning": "live in or as if in a tent"
+              "meaning": "lều"
             }
           ],
           "synonyms": [
             "encampment",
-            "bivouacking",
             "tenting"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "encampment": "đóng trại",
+            "tenting": "cắm trại"
+          }
         },
         {
           "id": "communication-daily-99",
@@ -3577,17 +3938,17 @@
             {
               "word": "attend",
               "pos": "v",
-              "meaning": "take charge of or deal with"
+              "meaning": "tham dự, có mặt tại"
             },
             {
               "word": "aid",
               "pos": "v",
-              "meaning": "improve the condition of"
+              "meaning": "viện trợ"
             },
             {
               "word": "tend",
               "pos": "v",
-              "meaning": "have care of or look after"
+              "meaning": "có xu hướng"
             }
           ],
           "synonyms": [
@@ -3597,7 +3958,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "attention": "chú ý",
+            "aid": "viện trợ",
+            "tending": "chăm sóc"
+          }
         },
         {
           "id": "communication-daily-100",
@@ -3619,7 +3985,7 @@
             {
               "word": "carefulness",
               "pos": "n",
-              "meaning": "the quality of being careful and painstaking"
+              "meaning": "sự cẩn thận"
             }
           ],
           "synonyms": [],
@@ -3627,7 +3993,10 @@
             "careless"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "careless": "bất cẩn"
+          }
         },
         {
           "id": "communication-daily-101",
@@ -3674,7 +4043,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "rug": "tấm thảm",
+            "carpeting": "thảm"
+          }
         },
         {
           "id": "communication-daily-103",
@@ -3696,7 +4069,7 @@
             {
               "word": "cartoonist",
               "pos": "n",
-              "meaning": "a person who draws cartoons"
+              "meaning": "họa sĩ truyện tranh"
             }
           ],
           "synonyms": [
@@ -3704,7 +4077,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "sketch": "bản phác thảo"
+          }
         },
         {
           "id": "communication-daily-104",
@@ -3726,12 +4102,12 @@
             {
               "word": "instantiate",
               "pos": "v",
-              "meaning": "represent by an instance"
+              "meaning": "khởi tạo"
             },
             {
               "word": "exemplify",
               "pos": "v",
-              "meaning": "clarify by giving an example of"
+              "meaning": "nêu gương"
             }
           ],
           "synonyms": [
@@ -3740,7 +4116,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "instance": "ví dụ",
+            "example": "ví dụ"
+          }
         },
         {
           "id": "communication-daily-105",
@@ -3765,7 +4145,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "hard cash": "tiền mặt cứng",
+            "hard currency": "tiền cứng"
+          }
         },
         {
           "id": "communication-daily-106",
@@ -3783,19 +4167,16 @@
               "vi": "Một lâu đài thời trung cổ."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "palatial",
-              "pos": "adj",
-              "meaning": "suitable for or like a palace"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "palace"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "palace": "cung điện"
+          }
         },
         {
           "id": "communication-daily-107",
@@ -3839,7 +4220,7 @@
             {
               "word": "causal",
               "pos": "adj",
-              "meaning": "involving or constituting a cause; causing"
+              "meaning": "nhân quả"
             }
           ],
           "synonyms": [],
@@ -3867,17 +4248,17 @@
             {
               "word": "observant",
               "pos": "adj",
-              "meaning": "(of individuals) adhering strictly to laws and rules and cus"
+              "meaning": "tinh ý"
             },
             {
               "word": "observance",
               "pos": "n",
-              "meaning": "a formal event performed on a special occasion"
+              "meaning": "sự tuân thủ"
             },
             {
               "word": "celebration",
               "pos": "n",
-              "meaning": "a joyful occasion for special festivities to mark some happy"
+              "meaning": "lễ kỷ niệm"
             }
           ],
           "synonyms": [
@@ -3886,7 +4267,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "observe": "quan sát",
+            "keep": "giữ"
+          }
         },
         {
           "id": "communication-daily-110",
@@ -3910,7 +4295,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "famous person": "người nổi tiếng"
+          }
         },
         {
           "id": "communication-daily-111",
@@ -3959,7 +4347,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "surely": "chắc chắn",
+            "sure": "chắc chắn rồi",
+            "for sure": "chắc chắn rồi",
+            "for certain": "chắc chắn"
+          }
         },
         {
           "id": "communication-daily-113",
@@ -3981,7 +4375,7 @@
             {
               "word": "opportune",
               "pos": "adj",
-              "meaning": "suitable or at a time that is suitable or advantageous espec"
+              "meaning": "cơ hội"
             }
           ],
           "synonyms": [
@@ -3989,7 +4383,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "opportunity": "cơ hội"
+          }
         },
         {
           "id": "communication-daily-114",
@@ -4014,7 +4411,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "fictional character": "nhân vật hư cấu",
+            "fictitious character": "nhân vật hư cấu"
+          }
         },
         {
           "id": "communication-daily-115",
@@ -4058,28 +4459,32 @@
             {
               "word": "chatty",
               "pos": "adj",
-              "meaning": "prone to friendly informal communication"
+              "meaning": "trò chuyện"
             },
             {
               "word": "confab",
               "pos": "v",
-              "meaning": "have a conference in order to talk something over"
+              "meaning": "chuyện trò"
             },
             {
               "word": "confabulate",
               "pos": "v",
-              "meaning": "have a conference in order to talk something over"
+              "meaning": "tán gẫu"
             }
           ],
           "synonyms": [
             "confab",
             "confabulation",
-            "schmooze",
-            "schmoose"
+            "schmooze"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "confab": "chuyện trò",
+            "confabulation": "ghép đôi",
+            "schmooze": "nói chuyện"
+          }
         },
         {
           "id": "communication-daily-117",
@@ -4101,23 +4506,27 @@
             {
               "word": "checker",
               "pos": "n",
-              "meaning": "one who checks the correctness of something"
+              "meaning": "người kiểm tra"
             },
             {
               "word": "checkout",
               "pos": "n",
-              "meaning": "the act of inspecting or verifying"
+              "meaning": "Thanh toán, quầy thanh toán (ở siêu thị, ks...)"
             }
           ],
           "synonyms": [
             "check up on",
             "look into",
-            "check out",
-            "suss out"
+            "check out"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "check up on": "kiểm tra xem",
+            "look into": "điều tra, xem xét tìm hiểu kỹ",
+            "check out": "làm thủ tục trả phòng; xem thử"
+          }
         },
         {
           "id": "communication-daily-118",
@@ -4161,17 +4570,17 @@
             {
               "word": "chemic",
               "pos": "adj",
-              "meaning": "relating to or used in chemistry"
+              "meaning": "hóa chất"
             },
             {
               "word": "chemist",
               "pos": "n",
-              "meaning": "a health professional trained in the art of preparing and di"
+              "meaning": "nhà hóa học"
             },
             {
               "word": "chemical",
               "pos": "adj",
-              "meaning": "of or made from or using substances produced by or used in r"
+              "meaning": "hóa học"
             }
           ],
           "synonyms": [
@@ -4179,7 +4588,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "chemical science": "khoa học hóa học"
+          }
         },
         {
           "id": "communication-daily-120",
@@ -4201,17 +4613,17 @@
             {
               "word": "flaky",
               "pos": "adj",
-              "meaning": "made of or resembling flakes"
+              "meaning": "bong tróc"
             },
             {
               "word": "flakey",
               "pos": "adj",
-              "meaning": "made of or resembling flakes"
+              "meaning": "bong tróc"
             },
             {
               "word": "flake",
               "pos": "v",
-              "meaning": "come off in flakes or thin small pieces"
+              "meaning": "vảy"
             }
           ],
           "synonyms": [
@@ -4222,7 +4634,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "bit": "chút",
+            "flake": "vảy",
+            "fleck": "lốm đốm",
+            "scrap": "phế liệu"
+          }
         },
         {
           "id": "communication-daily-121",
@@ -4244,7 +4662,7 @@
             {
               "word": "pick",
               "pos": "v",
-              "meaning": "select carefully from a group"
+              "meaning": "chọn"
             }
           ],
           "synonyms": [
@@ -4253,7 +4671,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "pick": "chọn",
+            "selection": "lựa chọn"
+          }
         },
         {
           "id": "communication-daily-122",
@@ -4277,7 +4699,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "christian church": "nhà thờ Thiên chúa giáo"
+          }
         },
         {
           "id": "communication-daily-123",
@@ -4304,7 +4729,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "cigaret": "thuốc lá",
+            "coffin nail": "đinh quan tài",
+            "butt": "mông",
+            "fag": "đồ khốn"
+          }
         },
         {
           "id": "communication-daily-124",
@@ -4326,7 +4757,7 @@
             {
               "word": "circular",
               "pos": "adj",
-              "meaning": "having a circular shape"
+              "meaning": "hình tròn"
             }
           ],
           "synonyms": [],
@@ -4358,7 +4789,11 @@
             "nonclassical"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "classic": "kinh điển",
+            "nonclassical": "phi cổ điển"
+          }
         },
         {
           "id": "communication-daily-126",
@@ -4380,12 +4815,12 @@
             {
               "word": "clarity",
               "pos": "n",
-              "meaning": "free from obscurity and easy to understand; the comprehensib"
+              "meaning": "sự rõ ràng"
             },
             {
               "word": "clearness",
               "pos": "n",
-              "meaning": "free from obscurity and easy to understand; the comprehensib"
+              "meaning": "sự rõ ràng"
             }
           ],
           "synonyms": [],
@@ -4393,7 +4828,10 @@
             "unclear"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "unclear": "không rõ ràng"
+          }
         },
         {
           "id": "communication-daily-127",
@@ -4436,12 +4874,15 @@
           "wordFamily": [],
           "synonyms": [
             "cagey",
-            "cagy",
-            "canny"
+            "cagy"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g6"
+          "topicId": "communication-daily-g6",
+          "relationMeanings": {
+            "cagey": "lạnh lùng",
+            "cagy": "khó chịu"
+          }
         }
       ]
     },
@@ -4470,17 +4911,17 @@
             {
               "word": "climatic",
               "pos": "adj",
-              "meaning": "of or relating to a climate"
+              "meaning": "khí hậu"
             },
             {
               "word": "climatical",
               "pos": "adj",
-              "meaning": "of or relating to a climate"
+              "meaning": "khí hậu"
             },
             {
               "word": "acclimate",
               "pos": "v",
-              "meaning": "get used to a certain climate"
+              "meaning": "thích nghi"
             }
           ],
           "synonyms": [
@@ -4488,7 +4929,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "clime": "khí hậu"
+          }
         },
         {
           "id": "communication-daily-130",
@@ -4510,17 +4954,17 @@
             {
               "word": "closer",
               "pos": "n",
-              "meaning": "a person who closes something"
+              "meaning": "gần hơn"
             },
             {
               "word": "closure",
               "pos": "n",
-              "meaning": "termination of operations"
+              "meaning": "đóng cửa"
             },
             {
               "word": "closing",
               "pos": "n",
-              "meaning": "termination of operations"
+              "meaning": "đóng cửa"
             }
           ],
           "synonyms": [
@@ -4533,7 +4977,14 @@
             "open"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "close up": "đóng lại",
+            "fold": "gấp",
+            "shut down": "Tắt máy, ngừng hoạt động",
+            "close down": "đóng cửa",
+            "open": "mở"
+          }
         },
         {
           "id": "communication-daily-131",
@@ -4557,7 +5008,10 @@
             "open"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "open": "mở"
+          }
         },
         {
           "id": "communication-daily-132",
@@ -4579,17 +5033,17 @@
             {
               "word": "clothe",
               "pos": "v",
-              "meaning": "provide with clothes or put clothes on"
+              "meaning": "quần áo"
             },
             {
               "word": "vestiary",
               "pos": "adj",
-              "meaning": "relating to clothing (especially vestments)"
+              "meaning": "nhà thờ"
             },
             {
               "word": "vest",
               "pos": "v",
-              "meaning": "clothe formally; especially in ecclesiastical robes"
+              "meaning": "áo vest"
             }
           ],
           "synonyms": [
@@ -4600,7 +5054,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "article of clothing": "đồ may mặc",
+            "vesture": "lễ phục",
+            "wear": "mặc",
+            "wearable": "đeo được"
+          }
         },
         {
           "id": "communication-daily-133",
@@ -4644,17 +5104,17 @@
             {
               "word": "managership",
               "pos": "n",
-              "meaning": "the position of manager"
+              "meaning": "quản lý"
             },
             {
               "word": "manage",
               "pos": "v",
-              "meaning": "watch and direct"
+              "meaning": "quản lý; xoay xở làm được"
             },
             {
               "word": "handle",
               "pos": "v",
-              "meaning": "show and train"
+              "meaning": "xử lý, phụ trách"
             }
           ],
           "synonyms": [
@@ -4663,7 +5123,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "manager": "người quản lý",
+            "handler": "người xử lý"
+          }
         },
         {
           "id": "communication-daily-135",
@@ -4685,7 +5149,7 @@
             {
               "word": "coastal",
               "pos": "adj",
-              "meaning": "of or relating to a coast"
+              "meaning": "ven biển"
             }
           ],
           "synonyms": [
@@ -4695,7 +5159,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "seashore": "bờ biển",
+            "seacoast": "bờ biển",
+            "sea-coast": "bờ biển"
+          }
         },
         {
           "id": "communication-daily-136",
@@ -4717,7 +5186,7 @@
             {
               "word": "codify",
               "pos": "v",
-              "meaning": "organize into a code or system, such as a body of law"
+              "meaning": "hệ thống hóa"
             }
           ],
           "synonyms": [
@@ -4725,7 +5194,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "codification": "mã hóa"
+          }
         },
         {
           "id": "communication-daily-137",
@@ -4747,7 +5219,7 @@
             {
               "word": "collegial",
               "pos": "adj",
-              "meaning": "characterized by or having authority vested equally among co"
+              "meaning": "đại học"
             }
           ],
           "synonyms": [
@@ -4757,7 +5229,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "co-worker": "đồng nghiệp",
+            "fellow worker": "đồng nghiệp",
+            "workfellow": "đồng nghiệp"
+          }
         },
         {
           "id": "communication-daily-138",
@@ -4795,7 +5272,12 @@
           ],
           "definitionEn": "To gather (also similar to pick up) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động thu thập, lấy (hành lý, bưu kiện).",
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "gather": "thu thập (dữ liệu); tập trung lại",
+            "pick up": "Đón (ai đó)",
+            "distribute": "phân phối, phát (tài liệu, hàng hóa)"
+          }
         },
         {
           "id": "communication-daily-139",
@@ -4839,12 +5321,12 @@
             {
               "word": "comic",
               "pos": "adj",
-              "meaning": "of or relating to or characteristic of comedy"
+              "meaning": "truyện tranh"
             },
             {
               "word": "comical",
               "pos": "adj",
-              "meaning": "arousing or provoking laughter"
+              "meaning": "hài hước"
             }
           ],
           "synonyms": [],
@@ -4852,7 +5334,10 @@
             "tragedy"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "tragedy": "bi kịch"
+          }
         },
         {
           "id": "communication-daily-141",
@@ -4874,7 +5359,7 @@
             {
               "word": "comfortableness",
               "pos": "n",
-              "meaning": "a state of being relaxed and feeling no pain"
+              "meaning": "sự thoải mái"
             }
           ],
           "synonyms": [
@@ -4884,7 +5369,11 @@
             "uncomfortable"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "comfy": "thoải mái",
+            "uncomfortable": "khó chịu"
+          }
         },
         {
           "id": "communication-daily-142",
@@ -4906,12 +5395,12 @@
             {
               "word": "remark",
               "pos": "v",
-              "meaning": "make mention of"
+              "meaning": "nhận xét"
             },
             {
               "word": "commentate",
               "pos": "v",
-              "meaning": "serve as a commentator, as in sportscasting"
+              "meaning": "bình luận"
             }
           ],
           "synonyms": [
@@ -4920,7 +5409,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "remark": "nhận xét",
+            "input": "đầu vào"
+          }
         },
         {
           "id": "communication-daily-143",
@@ -4942,17 +5435,17 @@
             {
               "word": "communicative",
               "pos": "adj",
-              "meaning": "of or relating to communication"
+              "meaning": "có khả năng giao tiếp"
             },
             {
               "word": "communicatory",
               "pos": "adj",
-              "meaning": "able or tending to communicate; - W.M.Thackeray"
+              "meaning": "giao tiếp"
             },
             {
               "word": "communication",
               "pos": "n",
-              "meaning": "a connection allowing access between persons or places"
+              "meaning": "giao tiếp"
             }
           ],
           "synonyms": [
@@ -4963,7 +5456,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "pass on": "vượt qua",
+            "pass": "vé",
+            "pass along": "vượt qua",
+            "put across": "đưa qua"
+          }
         },
         {
           "id": "communication-daily-144",
@@ -5038,7 +5537,13 @@
           ],
           "definitionEn": "To try to be more successful or win more customers than rival companies in the same market.",
           "definitionVi": "Nỗ lực vượt trội hoặc giành nhiều khách hàng hơn các đối thủ trong cùng thị trường.",
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "rival": "đối thủ",
+            "vie": "xem",
+            "contend": "tranh luận",
+            "cooperate": "hợp tác"
+          }
         },
         {
           "id": "communication-daily-146",
@@ -5082,30 +5587,35 @@
             {
               "word": "complaint",
               "pos": "n",
-              "meaning": "an expression of grievance or resentment"
+              "meaning": "khiếu nại"
             },
             {
               "word": "complainer",
               "pos": "n",
-              "meaning": "a person given to excessive complaints and crying and whinin"
+              "meaning": "người phàn nàn"
             },
             {
               "word": "kick",
               "pos": "n",
-              "meaning": "informal terms for objecting"
+              "meaning": "đá"
             }
           ],
           "synonyms": [
             "kick",
             "plain",
-            "sound off",
-            "quetch"
+            "sound off"
           ],
           "antonyms": [
             "cheer"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "kick": "đá",
+            "plain": "đơn giản",
+            "sound off": "tắt âm thanh",
+            "cheer": "cổ vũ"
+          }
         },
         {
           "id": "communication-daily-148",
@@ -5134,7 +5644,14 @@
             "partly"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "wholly": "hoàn toàn",
+            "entirely": "hoàn toàn",
+            "totally": "hoàn toàn",
+            "all": "tất cả",
+            "partly": "một phần"
+          }
         },
         {
           "id": "communication-daily-149",
@@ -5158,7 +5675,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "status": "trạng thái"
+          }
         },
         {
           "id": "communication-daily-150",
@@ -5180,7 +5700,7 @@
             {
               "word": "confer",
               "pos": "v",
-              "meaning": "have a conference in order to talk something over"
+              "meaning": "hội ý"
             }
           ],
           "synonyms": [],
@@ -5208,17 +5728,17 @@
             {
               "word": "connective",
               "pos": "adj",
-              "meaning": "connecting or tending to connect"
+              "meaning": "liên từ"
             },
             {
               "word": "connector",
               "pos": "n",
-              "meaning": "an instrumentality that connects"
+              "meaning": "đầu nối"
             },
             {
               "word": "connecter",
               "pos": "n",
-              "meaning": "an instrumentality that connects"
+              "meaning": "đầu nối"
             }
           ],
           "synonyms": [
@@ -5230,7 +5750,13 @@
             "disconnect"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "link": "liên kết",
+            "tie": "cà vạt",
+            "link up": "liên kết lên",
+            "disconnect": "ngắt kết nối"
+          }
         },
         {
           "id": "communication-daily-152",
@@ -5252,7 +5778,7 @@
             {
               "word": "connectedness",
               "pos": "n",
-              "meaning": "the state of being connected"
+              "meaning": "sự kết nối"
             }
           ],
           "synonyms": [
@@ -5261,7 +5787,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "affiliated": "trực thuộc",
+            "attached": "đính kèm"
+          }
         },
         {
           "id": "communication-daily-153",
@@ -5314,7 +5844,13 @@
           ],
           "definitionEn": "To think carefully about a plan, option, or factor before making a final decision.",
           "definitionVi": "Suy nghĩ cân nhắc kỹ lưỡng về một kế hoạch, phương án hay yếu tố trước khi quyết định.",
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "contemplate": "suy ngẫm",
+            "evaluate": "đánh giá, thẩm định",
+            "weigh": "cân",
+            "disregard": "coi thường"
+          }
         },
         {
           "id": "communication-daily-154",
@@ -5336,7 +5872,7 @@
             {
               "word": "incorporation",
               "pos": "n",
-              "meaning": "including by incorporating"
+              "meaning": "thành lập"
             }
           ],
           "synonyms": [
@@ -5345,7 +5881,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "incorporate": "kết hợp",
+            "comprise": "bao gồm"
+          }
         },
         {
           "id": "communication-daily-155",
@@ -5367,12 +5907,12 @@
             {
               "word": "contextual",
               "pos": "adj",
-              "meaning": "relating to or determined by or in context"
+              "meaning": "theo ngữ cảnh"
             },
             {
               "word": "circumstantial",
               "pos": "adj",
-              "meaning": "fully detailed and specific about particulars"
+              "meaning": "tình huống"
             }
           ],
           "synonyms": [
@@ -5381,7 +5921,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "circumstance": "hoàn cảnh",
+            "setting": "thiết lập"
+          }
         },
         {
           "id": "communication-daily-156",
@@ -5403,7 +5947,7 @@
             {
               "word": "continental",
               "pos": "adj",
-              "meaning": "of or relating to or characteristic of a continent"
+              "meaning": "lục địa"
             }
           ],
           "synonyms": [],
@@ -5431,12 +5975,12 @@
             {
               "word": "upholder",
               "pos": "n",
-              "meaning": "someone who upholds or maintains"
+              "meaning": "người ủng hộ"
             },
             {
               "word": "preservation",
               "pos": "n",
-              "meaning": "the condition of being (well or ill) preserved"
+              "meaning": "sự bảo tồn"
             }
           ],
           "synonyms": [
@@ -5449,7 +5993,14 @@
             "discontinue"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g7"
+          "topicId": "communication-daily-g7",
+          "relationMeanings": {
+            "uphold": "ủng hộ",
+            "carry on": "tiếp tục",
+            "bear on": "chịu đựng",
+            "preserve": "bảo tồn, gìn giữ (di sản, thiên nhiên)",
+            "discontinue": "ngừng"
+          }
         },
         {
           "id": "communication-daily-158",
@@ -5493,12 +6044,12 @@
             {
               "word": "cooking",
               "pos": "n",
-              "meaning": "the act of preparing something (as food) by the application "
+              "meaning": "nấu ăn"
             },
             {
               "word": "cookery",
               "pos": "n",
-              "meaning": "the act of preparing something (as food) by the application "
+              "meaning": "nấu ăn"
             }
           ],
           "synonyms": [],
@@ -5526,7 +6077,7 @@
             {
               "word": "cook",
               "pos": "v",
-              "meaning": "prepare for eating by applying heat"
+              "meaning": "nấu ăn"
             }
           ],
           "synonyms": [],
@@ -5561,7 +6112,7 @@
             {
               "word": "copyist",
               "pos": "n",
-              "meaning": "someone employed to make written copies of documents and man"
+              "meaning": "người sao chép"
             }
           ],
           "synonyms": [
@@ -5569,7 +6120,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "transcript": "bảng điểm"
+          }
         },
         {
           "id": "communication-daily-162",
@@ -5619,7 +6173,13 @@
             "wrongly"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "right": "đúng",
+            "aright": "được rồi",
+            "incorrectly": "sai",
+            "wrongly": "sai"
+          }
         },
         {
           "id": "communication-daily-164",
@@ -5641,17 +6201,17 @@
             {
               "word": "countable",
               "pos": "adj",
-              "meaning": "that can be counted"
+              "meaning": "đếm được"
             },
             {
               "word": "counter",
               "pos": "n",
-              "meaning": "(computer science) a register whose contents go through a re"
+              "meaning": "phản đối"
             },
             {
               "word": "counting",
               "pos": "n",
-              "meaning": "the act of counting; reciting numbers in ascending order"
+              "meaning": "đếm"
             }
           ],
           "synonyms": [
@@ -5661,7 +6221,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "number": "số",
+            "enumerate": "liệt kê",
+            "numerate": "đánh số"
+          }
         },
         {
           "id": "communication-daily-165",
@@ -5682,12 +6247,15 @@
           "wordFamily": [],
           "synonyms": [
             "twosome",
-            "duo",
-            "duet"
+            "duo"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "twosome": "cặp đôi",
+            "duo": "bộ đôi"
+          }
         },
         {
           "id": "communication-daily-166",
@@ -5730,7 +6298,13 @@
           ],
           "definitionEn": "To include protection against specific costs or risks, or to pay for an expense.",
           "definitionVi": "Bao gồm phạm vi bảo vệ cho các rủi ro/chi phí nhất định, hoặc chi trả một khoản phí.",
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "include": "bao gồm",
+            "insure": "bảo hiểm",
+            "pay for": "trả tiền cho",
+            "exclude": "loại trừ"
+          }
         },
         {
           "id": "communication-daily-167",
@@ -5752,17 +6326,17 @@
             {
               "word": "craze",
               "pos": "n",
-              "meaning": "state of violent mental agitation"
+              "meaning": "cơn sốt"
             },
             {
               "word": "craziness",
               "pos": "n",
-              "meaning": "informal terms for insanity"
+              "meaning": "sự điên rồ"
             },
             {
               "word": "dementedness",
               "pos": "n",
-              "meaning": "mental deterioration of organic or functional origin"
+              "meaning": "mất trí nhớ"
             }
           ],
           "synonyms": [
@@ -5773,7 +6347,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "brainsick": "đau đầu",
+            "demented": "điên cuồng",
+            "disturbed": "bối rối",
+            "mad": "điên"
+          }
         },
         {
           "id": "communication-daily-168",
@@ -5795,17 +6375,17 @@
             {
               "word": "create",
               "pos": "v",
-              "meaning": "create by artistic means"
+              "meaning": "tạo"
             },
             {
               "word": "creativeness",
               "pos": "n",
-              "meaning": "the ability to create"
+              "meaning": "tính sáng tạo"
             },
             {
               "word": "creativity",
               "pos": "n",
-              "meaning": "the ability to create"
+              "meaning": "sự sáng tạo"
             }
           ],
           "synonyms": [
@@ -5815,7 +6395,11 @@
             "uncreative"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "originative": "nguồn gốc",
+            "uncreative": "thiếu sáng tạo"
+          }
         },
         {
           "id": "communication-daily-169",
@@ -5839,7 +6423,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "recognition": "sự công nhận"
+          }
         },
         {
           "id": "communication-daily-170",
@@ -5861,17 +6448,17 @@
             {
               "word": "criminal",
               "pos": "adj",
-              "meaning": "involving or being or having the nature of a crime"
+              "meaning": "tội phạm"
             },
             {
               "word": "criminate",
               "pos": "v",
-              "meaning": "bring an accusation against; level a charge against"
+              "meaning": "phạm tội"
             },
             {
               "word": "incriminate",
               "pos": "v",
-              "meaning": "suggest that someone is guilty"
+              "meaning": "buộc tội"
             }
           ],
           "synonyms": [
@@ -5882,7 +6469,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "offense": "hành vi phạm tội",
+            "criminal offense": "tội phạm hình sự",
+            "criminal offence": "tội phạm hình sự",
+            "offence": "sự xúc phạm"
+          }
         },
         {
           "id": "communication-daily-171",
@@ -5904,12 +6497,12 @@
             {
               "word": "criminalize",
               "pos": "v",
-              "meaning": "treat as a criminal"
+              "meaning": "hình sự hóa"
             },
             {
               "word": "outlaw",
               "pos": "adj",
-              "meaning": "disobedient to or defiant of law"
+              "meaning": "ngoài vòng pháp luật"
             }
           ],
           "synonyms": [
@@ -5920,7 +6513,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "felon": "trọng tội",
+            "crook": "kẻ gian",
+            "outlaw": "ngoài vòng pháp luật",
+            "malefactor": "kẻ ác"
+          }
         },
         {
           "id": "communication-daily-172",
@@ -5988,7 +6587,10 @@
             "uncrowded"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "uncrowded": "vắng người"
+          }
         },
         {
           "id": "communication-daily-175",
@@ -6012,7 +6614,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "closet": "tủ quần áo"
+          }
         },
         {
           "id": "communication-daily-176",
@@ -6034,12 +6639,12 @@
             {
               "word": "curl",
               "pos": "n",
-              "meaning": "a strand or cluster of hair"
+              "meaning": "uốn cong"
             },
             {
               "word": "curliness",
               "pos": "n",
-              "meaning": "(of hair) a tendency to curl"
+              "meaning": "độ xoăn"
             }
           ],
           "synonyms": [],
@@ -6047,7 +6652,10 @@
             "straight"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "straight": "thẳng"
+          }
         },
         {
           "id": "communication-daily-177",
@@ -6069,12 +6677,12 @@
             {
               "word": "cyclic",
               "pos": "adj",
-              "meaning": "recurring in cycles"
+              "meaning": "tuần hoàn"
             },
             {
               "word": "rhythmic",
               "pos": "adj",
-              "meaning": "recurring with measured regularity; - John Galsworthy"
+              "meaning": "nhịp nhàng"
             }
           ],
           "synonyms": [
@@ -6083,7 +6691,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "rhythm": "nhịp điệu",
+            "round": "tròn"
+          }
         },
         {
           "id": "communication-daily-178",
@@ -6105,7 +6717,7 @@
             {
               "word": "day",
               "pos": "n",
-              "meaning": "time for Earth to make a complete rotation on its axis"
+              "meaning": "ngày"
             }
           ],
           "synonyms": [
@@ -6115,7 +6727,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "day-to-day": "hàng ngày",
+            "day-by-day": "ngày qua ngày",
+            "day-after-day": "ngày qua ngày"
+          }
         },
         {
           "id": "communication-daily-179",
@@ -6139,7 +6756,10 @@
             "safety"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "safety": "an toàn"
+          }
         },
         {
           "id": "communication-daily-180",
@@ -6161,7 +6781,7 @@
             {
               "word": "darkness",
               "pos": "n",
-              "meaning": "an unilluminated area"
+              "meaning": "bóng tối"
             }
           ],
           "synonyms": [],
@@ -6169,7 +6789,10 @@
             "light"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "light": "ánh sáng"
+          }
         },
         {
           "id": "communication-daily-181",
@@ -6191,7 +6814,7 @@
             {
               "word": "inform",
               "pos": "v",
-              "meaning": "impart knowledge of some fact, state or affairs, or event to"
+              "meaning": "thông báo, báo tin cho ai"
             }
           ],
           "synonyms": [
@@ -6199,7 +6822,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "information": "thông tin"
+          }
         },
         {
           "id": "communication-daily-182",
@@ -6221,7 +6847,7 @@
             {
               "word": "deadness",
               "pos": "n",
-              "meaning": "the inanimate property of something that has died"
+              "meaning": "sự chết chóc"
             }
           ],
           "synonyms": [],
@@ -6229,7 +6855,10 @@
             "alive"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "alive": "còn sống"
+          }
         },
         {
           "id": "communication-daily-183",
@@ -6238,7 +6867,7 @@
           "pos": "v",
           "ipaUK": "/diːl/",
           "ipaUS": "/diːl/",
-          "meaning": "Chia bài",
+          "meaning": "thỏa thuận, giao dịch; giải quyết",
           "definitionEn": "To give cards to each player in a game of cards.",
           "definitionVi": "Chia bài cho mỗi người chơi trong một ván bài.",
           "examples": [
@@ -6251,12 +6880,12 @@
             {
               "word": "coverage",
               "pos": "n",
-              "meaning": "the extent to which something is covered"
+              "meaning": "bảo hiểm"
             },
             {
               "word": "treatment",
               "pos": "n",
-              "meaning": "an extended communication (often interactive) dealing with s"
+              "meaning": "điều trị"
             }
           ],
           "synonyms": [
@@ -6267,7 +6896,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "cover": "chi trả, bao gồm; trang bìa",
+            "treat": "đối xử",
+            "handle": "xử lý, phụ trách",
+            "plow": "cày"
+          }
         },
         {
           "id": "communication-daily-184",
@@ -6289,12 +6924,12 @@
             {
               "word": "die",
               "pos": "v",
-              "meaning": "pass from physical life and lose all bodily attributes and f"
+              "meaning": "chết"
             },
             {
               "word": "decease",
               "pos": "v",
-              "meaning": "pass from physical life and lose all bodily attributes and f"
+              "meaning": "chết"
             }
           ],
           "synonyms": [
@@ -6305,7 +6940,12 @@
             "birth"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "decease": "chết",
+            "expiry": "hết hạn",
+            "birth": "sự ra đời"
+          }
         },
         {
           "id": "communication-daily-185",
@@ -6327,17 +6967,17 @@
             {
               "word": "decide",
               "pos": "v",
-              "meaning": "reach, make, or come to a decision about something"
+              "meaning": "quyết định"
             },
             {
               "word": "determine",
               "pos": "v",
-              "meaning": "settle conclusively; come to terms"
+              "meaning": "xác định, quyết định"
             },
             {
               "word": "conclude",
               "pos": "v",
-              "meaning": "reach a conclusion after a discussion or deliberation"
+              "meaning": "kết luận"
             }
           ],
           "synonyms": [
@@ -6346,7 +6986,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "determination": "quyết tâm",
+            "conclusion": "kết luận"
+          }
         },
         {
           "id": "communication-daily-186",
@@ -6370,7 +7014,10 @@
             "shallow"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "shallow": "nông"
+          }
         },
         {
           "id": "communication-daily-187",
@@ -6397,7 +7044,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "decidedly": "cách chắc chắn",
+            "unquestionably": "chắc chắn rồi",
+            "emphatically": "nhấn mạnh",
+            "in spades": "trong thuổng"
+          }
         },
         {
           "id": "communication-daily-188",
@@ -6422,7 +7075,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "grade": "điểm số",
+            "level": "cấp độ"
+          }
         },
         {
           "id": "communication-daily-189",
@@ -6447,7 +7104,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "tooth doctor": "bác sĩ nha khoa",
+            "dental practitioner": "bác sĩ nha khoa"
+          }
         },
         {
           "id": "communication-daily-190",
@@ -6469,7 +7130,7 @@
             {
               "word": "departmental",
               "pos": "adj",
-              "meaning": "of or relating to a department"
+              "meaning": "khoa"
             }
           ],
           "synonyms": [
@@ -6477,7 +7138,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "section": "phần"
+          }
         },
         {
           "id": "communication-daily-191",
@@ -6499,7 +7163,7 @@
             {
               "word": "dependency",
               "pos": "n",
-              "meaning": "the state of relying on or being controlled by someone or so"
+              "meaning": "lệ thuộc"
             }
           ],
           "synonyms": [
@@ -6510,7 +7174,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g8"
+          "topicId": "communication-daily-g8",
+          "relationMeanings": {
+            "count": "đếm",
+            "bet": "cá cược",
+            "look": "nhìn",
+            "calculate": "tính toán"
+          }
         },
         {
           "id": "communication-daily-192",
@@ -6563,7 +7233,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "intriguer": "kẻ mưu mô"
+          }
         },
         {
           "id": "communication-daily-194",
@@ -6585,17 +7258,17 @@
             {
               "word": "destructible",
               "pos": "adj",
-              "meaning": "easily destroyed"
+              "meaning": "có thể phá hủy"
             },
             {
               "word": "destructive",
               "pos": "adj",
-              "meaning": "causing destruction or much damage"
+              "meaning": "phá hoại"
             },
             {
               "word": "destruction",
               "pos": "n",
-              "meaning": "the termination of something by causing so much damage to it"
+              "meaning": "sự hủy diệt"
             }
           ],
           "synonyms": [
@@ -6603,7 +7276,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "destruct": "phá hủy"
+          }
         },
         {
           "id": "communication-daily-195",
@@ -6625,7 +7301,7 @@
             {
               "word": "investigate",
               "pos": "v",
-              "meaning": "conduct an inquiry or investigation of"
+              "meaning": "điều tra"
             }
           ],
           "synonyms": [
@@ -6635,7 +7311,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "investigator": "điều tra viên",
+            "tec": "công nghệ",
+            "police detective": "cảnh sát thám tử"
+          }
         },
         {
           "id": "communication-daily-196",
@@ -6683,7 +7364,13 @@
           ],
           "definitionEn": "To design, build, or steadily improve a new product, skill, or business plan over time.",
           "definitionVi": "Thiết kế, xây dựng hoặc cải tiến dần một sản phẩm, kỹ năng hay kế hoạch kinh doanh.",
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "create": "tạo",
+            "formulate": "xây dựng",
+            "advance": "tiến bộ",
+            "stagnate": "trì trệ"
+          }
         },
         {
           "id": "communication-daily-197",
@@ -6727,7 +7414,7 @@
             {
               "word": "diarist",
               "pos": "n",
-              "meaning": "someone who keeps a diary or journal"
+              "meaning": "người viết nhật ký"
             }
           ],
           "synonyms": [
@@ -6735,7 +7422,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "journal": "tạp chí"
+          }
         },
         {
           "id": "communication-daily-199",
@@ -6760,7 +7450,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "otherwise": "nếu không thì",
+            "other than": "khác với"
+          }
         },
         {
           "id": "communication-daily-200",
@@ -6806,7 +7500,10 @@
             "indirect"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "indirect": "gián tiếp"
+          }
         },
         {
           "id": "communication-daily-202",
@@ -6830,7 +7527,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "way": "cách"
+          }
         },
         {
           "id": "communication-daily-203",
@@ -6852,17 +7552,17 @@
             {
               "word": "directorship",
               "pos": "n",
-              "meaning": "the position of a director of a business concern"
+              "meaning": "chức vụ giám đốc"
             },
             {
               "word": "direct",
               "pos": "v",
-              "meaning": "be in charge of"
+              "meaning": "trực tiếp"
             },
             {
               "word": "managerial",
               "pos": "adj",
-              "meaning": "of or relating to the function or responsibility or activity"
+              "meaning": "quản lý"
             }
           ],
           "synonyms": [
@@ -6871,7 +7571,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "manager": "người quản lý",
+            "managing director": "giám đốc điều hành"
+          }
         },
         {
           "id": "communication-daily-204",
@@ -6893,17 +7597,17 @@
             {
               "word": "disagreement",
               "pos": "n",
-              "meaning": "a conflict of people's opinions or actions or characters"
+              "meaning": "sự bất đồng, bất hòa"
             },
             {
               "word": "difference",
               "pos": "n",
-              "meaning": "a disagreement or argument about something important"
+              "meaning": "sự khác biệt"
             },
             {
               "word": "dissentient",
               "pos": "adj",
-              "meaning": "disagreeing, especially with a majority"
+              "meaning": "bất đồng chính kiến"
             }
           ],
           "synonyms": [
@@ -6915,7 +7619,13 @@
             "agree"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "differ": "khác nhau",
+            "dissent": "bất đồng chính kiến",
+            "take issue": "đưa ra vấn đề",
+            "agree": "đồng ý"
+          }
         },
         {
           "id": "communication-daily-205",
@@ -6937,17 +7647,17 @@
             {
               "word": "disappearance",
               "pos": "n",
-              "meaning": "the act of leaving secretly or without explanation"
+              "meaning": "biến mất"
             },
             {
               "word": "disappearing",
               "pos": "n",
-              "meaning": "the act of leaving secretly or without explanation"
+              "meaning": "biến mất"
             },
             {
               "word": "vanisher",
               "pos": "n",
-              "meaning": "a person who disappears"
+              "meaning": "biến mất"
             }
           ],
           "synonyms": [
@@ -6958,7 +7668,12 @@
             "appear"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "vanish": "biến mất",
+            "go away": "đi đi",
+            "appear": "xuất hiện"
+          }
         },
         {
           "id": "communication-daily-206",
@@ -6982,7 +7697,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "catastrophe": "thảm họa"
+          }
         },
         {
           "id": "communication-daily-207",
@@ -7004,12 +7722,12 @@
             {
               "word": "discovery",
               "pos": "n",
-              "meaning": "something that is discovered"
+              "meaning": "sự phát hiện"
             },
             {
               "word": "find",
               "pos": "n",
-              "meaning": "the act of discovering something"
+              "meaning": "tìm"
             }
           ],
           "synonyms": [
@@ -7017,7 +7735,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "find": "tìm"
+          }
         },
         {
           "id": "communication-daily-208",
@@ -7039,12 +7760,12 @@
             {
               "word": "discover",
               "pos": "v",
-              "meaning": "find unexpectedly"
+              "meaning": "phát hiện"
             },
             {
               "word": "find",
               "pos": "v",
-              "meaning": "make a discovery, make a new finding"
+              "meaning": "tìm"
             }
           ],
           "synonyms": [
@@ -7053,7 +7774,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "find": "tìm",
+            "uncovering": "khám phá"
+          }
         },
         {
           "id": "communication-daily-209",
@@ -7075,17 +7800,17 @@
             {
               "word": "discuss",
               "pos": "v",
-              "meaning": "to consider or examine in speech or writing"
+              "meaning": "thảo luận"
             },
             {
               "word": "treat",
               "pos": "v",
-              "meaning": "act on verbally or in some form of artistic expression"
+              "meaning": "đối xử"
             },
             {
               "word": "discourse",
               "pos": "v",
-              "meaning": "to consider or examine in speech or writing"
+              "meaning": "diễn ngôn"
             }
           ],
           "synonyms": [
@@ -7094,7 +7819,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "treatment": "điều trị",
+            "discourse": "diễn ngôn"
+          }
         },
         {
           "id": "communication-daily-210",
@@ -7138,7 +7867,7 @@
             {
               "word": "distant",
               "pos": "adj",
-              "meaning": "located far away spatially"
+              "meaning": "xa xôi"
             }
           ],
           "synonyms": [],
@@ -7188,12 +7917,12 @@
             {
               "word": "documental",
               "pos": "adj",
-              "meaning": "relating to or consisting of or derived from documents"
+              "meaning": "tài liệu"
             },
             {
               "word": "documentary",
               "pos": "adj",
-              "meaning": "relating to or consisting of or derived from documents"
+              "meaning": "phim tài liệu"
             }
           ],
           "synonyms": [
@@ -7202,7 +7931,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "written document": "văn bản",
+            "papers": "giấy tờ"
+          }
         },
         {
           "id": "communication-daily-214",
@@ -7229,7 +7962,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "dual": "kép",
+            "twofold": "gấp đôi",
+            "two-fold": "gấp đôi",
+            "treble": "cú ăn ba"
+          }
         },
         {
           "id": "communication-daily-215",
@@ -7253,7 +7992,10 @@
             "upload"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "upload": "tải lên"
+          }
         },
         {
           "id": "communication-daily-216",
@@ -7279,7 +8021,11 @@
             "upstairs"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "downstair": "tầng dưới",
+            "upstairs": "trên lầu"
+          }
         },
         {
           "id": "communication-daily-217",
@@ -7301,17 +8047,17 @@
             {
               "word": "playlet",
               "pos": "n",
-              "meaning": "a short play"
+              "meaning": "vở kịch"
             },
             {
               "word": "play",
               "pos": "v",
-              "meaning": "be performed or presented for public viewing"
+              "meaning": "chơi"
             },
             {
               "word": "dramatic",
               "pos": "adj",
-              "meaning": "pertaining to or characteristic of drama"
+              "meaning": "kịch tính"
             }
           ],
           "synonyms": [
@@ -7320,7 +8066,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "play": "chơi",
+            "dramatic play": "vở kịch"
+          }
         },
         {
           "id": "communication-daily-218",
@@ -7342,7 +8092,7 @@
             {
               "word": "draw",
               "pos": "v",
-              "meaning": "engage in drawing"
+              "meaning": "vẽ"
             }
           ],
           "synonyms": [],
@@ -7372,7 +8122,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "dreaming": "mơ mộng"
+          }
         },
         {
           "id": "communication-daily-220",
@@ -7394,12 +8147,12 @@
             {
               "word": "driver",
               "pos": "n",
-              "meaning": "the operator of a motor vehicle"
+              "meaning": "tài xế"
             },
             {
               "word": "driving",
               "pos": "n",
-              "meaning": "the act of controlling and steering the movement of a vehicl"
+              "meaning": "lái xe"
             }
           ],
           "synonyms": [],
@@ -7427,7 +8180,7 @@
             {
               "word": "drive",
               "pos": "v",
-              "meaning": "strike with a driver, as in teeing off"
+              "meaning": "lái xe"
             }
           ],
           "synonyms": [
@@ -7435,7 +8188,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "drive": "lái xe"
+          }
         },
         {
           "id": "communication-daily-222",
@@ -7479,7 +8235,7 @@
             {
               "word": "druggist",
               "pos": "n",
-              "meaning": "a health professional trained in the art of preparing and di"
+              "meaning": "dược sĩ"
             }
           ],
           "synonyms": [],
@@ -7507,12 +8263,12 @@
             {
               "word": "gainer",
               "pos": "n",
-              "meaning": "a person who gains (gains an advantage or gains profits)"
+              "meaning": "tăng"
             },
             {
               "word": "earner",
               "pos": "n",
-              "meaning": "someone who earn wages in return for their labor"
+              "meaning": "người kiếm tiền"
             }
           ],
           "synonyms": [
@@ -7523,7 +8279,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g9"
+          "topicId": "communication-daily-g9",
+          "relationMeanings": {
+            "gain": "tăng",
+            "take in": "đưa vào",
+            "clear": "rõ ràng",
+            "make": "làm"
+          }
         }
       ]
     },
@@ -7552,12 +8314,12 @@
             {
               "word": "earthling",
               "pos": "n",
-              "meaning": "an inhabitant of the earth"
+              "meaning": "người trái đất"
             },
             {
               "word": "global",
               "pos": "adj",
-              "meaning": "involving the entire earth; not limited or provincial in sco"
+              "meaning": "toàn cầu"
             }
           ],
           "synonyms": [
@@ -7566,7 +8328,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "world": "thế giới",
+            "globe": "quả địa cầu"
+          }
         },
         {
           "id": "communication-daily-226",
@@ -7590,7 +8356,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "easy": "dễ dàng"
+          }
         },
         {
           "id": "communication-daily-227",
@@ -7612,17 +8381,17 @@
             {
               "word": "educational",
               "pos": "adj",
-              "meaning": "providing knowledge"
+              "meaning": "giáo dục"
             },
             {
               "word": "educationist",
               "pos": "n",
-              "meaning": "a specialist in the theory of education"
+              "meaning": "nhà giáo dục"
             },
             {
               "word": "educationalist",
               "pos": "n",
-              "meaning": "a specialist in the theory of education"
+              "meaning": "nhà giáo dục"
             }
           ],
           "synonyms": [
@@ -7633,7 +8402,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "instruction": "hướng dẫn",
+            "teaching": "giảng dạy",
+            "pedagogy": "sư phạm",
+            "didactics": "giáo huấn"
+          }
         },
         {
           "id": "communication-daily-228",
@@ -7655,17 +8430,17 @@
             {
               "word": "consequent",
               "pos": "adj",
-              "meaning": "following or accompanying as a consequence"
+              "meaning": "hậu quả"
             },
             {
               "word": "effectuate",
               "pos": "v",
-              "meaning": "produce"
+              "meaning": "có hiệu lực"
             },
             {
               "word": "result",
               "pos": "v",
-              "meaning": "have as a result or residue"
+              "meaning": "kết quả"
             }
           ],
           "synonyms": [
@@ -7676,7 +8451,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "consequence": "hậu quả, hệ quả",
+            "outcome": "kết quả",
+            "result": "kết quả",
+            "event": "sự kiện"
+          }
         },
         {
           "id": "communication-daily-229",
@@ -7720,7 +8501,7 @@
             {
               "word": "electricity",
               "pos": "n",
-              "meaning": "energy made available by the flow of electric charge through"
+              "meaning": "điện"
             }
           ],
           "synonyms": [
@@ -7728,7 +8509,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "electrical": "điện"
+          }
         },
         {
           "id": "communication-daily-231",
@@ -7772,12 +8556,12 @@
             {
               "word": "electric",
               "pos": "adj",
-              "meaning": "using or providing or producing or transmitting or operated "
+              "meaning": "điện"
             },
             {
               "word": "electrify",
               "pos": "v",
-              "meaning": "charge (a conductor) with electricity"
+              "meaning": "điện khí hóa"
             }
           ],
           "synonyms": [],
@@ -7805,7 +8589,7 @@
             {
               "word": "electronics",
               "pos": "n",
-              "meaning": "the branch of physics that deals with the emission and effec"
+              "meaning": "điện tử"
             }
           ],
           "synonyms": [],
@@ -7833,17 +8617,17 @@
             {
               "word": "useable",
               "pos": "adj",
-              "meaning": "capable of being put to use"
+              "meaning": "có thể sử dụng được"
             },
             {
               "word": "usable",
               "pos": "adj",
-              "meaning": "capable of being put to use"
+              "meaning": "có thể sử dụng được"
             },
             {
               "word": "use",
               "pos": "n",
-              "meaning": "the act of using"
+              "meaning": "sử dụng"
             }
           ],
           "synonyms": [
@@ -7854,7 +8638,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "use": "sử dụng",
+            "utilize": "sử dụng",
+            "utilise": "sử dụng",
+            "apply": "áp dụng"
+          }
         },
         {
           "id": "communication-daily-235",
@@ -7876,7 +8666,7 @@
             {
               "word": "employ",
               "pos": "v",
-              "meaning": "engage or hire for work"
+              "meaning": "tuyển dụng"
             }
           ],
           "synonyms": [],
@@ -7884,7 +8674,10 @@
             "employer"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "employer": "chủ lao động"
+          }
         },
         {
           "id": "communication-daily-236",
@@ -7906,7 +8699,7 @@
             {
               "word": "employ",
               "pos": "v",
-              "meaning": "engage or hire for work"
+              "meaning": "tuyển dụng"
             }
           ],
           "synonyms": [],
@@ -7914,7 +8707,10 @@
             "employee"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "employee": "nhân viên"
+          }
         },
         {
           "id": "communication-daily-237",
@@ -7936,7 +8732,7 @@
             {
               "word": "emptiness",
               "pos": "n",
-              "meaning": "the state of containing nothing"
+              "meaning": "sự trống rỗng"
             }
           ],
           "synonyms": [],
@@ -7944,7 +8740,10 @@
             "full"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "full": "đầy đủ"
+          }
         },
         {
           "id": "communication-daily-238",
@@ -7968,7 +8767,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "termination": "sự chấm dứt (hợp đồng)"
+          }
         },
         {
           "id": "communication-daily-239",
@@ -7990,7 +8792,7 @@
             {
               "word": "energize",
               "pos": "v",
-              "meaning": "raise to a higher energy level"
+              "meaning": "tiếp thêm sinh lực"
             }
           ],
           "synonyms": [
@@ -7998,7 +8800,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "free energy": "năng lượng tự do"
+          }
         },
         {
           "id": "communication-daily-240",
@@ -8020,7 +8825,7 @@
             {
               "word": "engineer",
               "pos": "n",
-              "meaning": "the operator of a railway locomotive"
+              "meaning": "kỹ sư"
             }
           ],
           "synonyms": [],
@@ -8048,7 +8853,7 @@
             {
               "word": "technology",
               "pos": "n",
-              "meaning": "the discipline dealing with the art or science of applying s"
+              "meaning": "công nghệ"
             }
           ],
           "synonyms": [
@@ -8057,7 +8862,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "applied scientist": "nhà khoa học ứng dụng",
+            "technologist": "kỹ thuật viên"
+          }
         },
         {
           "id": "communication-daily-242",
@@ -8079,12 +8888,12 @@
             {
               "word": "enormousness",
               "pos": "n",
-              "meaning": "unusual largeness in size or extent or number"
+              "meaning": "sự to lớn"
             },
             {
               "word": "enormity",
               "pos": "n",
-              "meaning": "vastness of size or extent"
+              "meaning": "to lớn"
             }
           ],
           "synonyms": [
@@ -8092,7 +8901,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "tremendous": "to lớn"
+          }
         },
         {
           "id": "communication-daily-243",
@@ -8114,17 +8926,17 @@
             {
               "word": "entree",
               "pos": "n",
-              "meaning": "something that provides access (to get in or get out)"
+              "meaning": "khai vị"
             },
             {
               "word": "entrant",
               "pos": "n",
-              "meaning": "someone who enters"
+              "meaning": "người đăng ký"
             },
             {
               "word": "entrance",
               "pos": "n",
-              "meaning": "a movement into or inward"
+              "meaning": "lối vào"
             }
           ],
           "synonyms": [
@@ -8137,7 +8949,14 @@
             "exit"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "come in": "vào đi",
+            "get into": "đi vào",
+            "get in": "vào trong",
+            "go into": "đi vào",
+            "exit": "lối ra"
+          }
         },
         {
           "id": "communication-daily-244",
@@ -8159,7 +8978,7 @@
             {
               "word": "environmental",
               "pos": "adj",
-              "meaning": "of or relating to the external conditions or surroundings"
+              "meaning": "môi trường"
             }
           ],
           "synonyms": [],
@@ -8187,7 +9006,7 @@
             {
               "word": "equip",
               "pos": "v",
-              "meaning": "provide with (something) usually for a specific purpose"
+              "meaning": "trang bị"
             }
           ],
           "synonyms": [],
@@ -8215,17 +9034,17 @@
             {
               "word": "mistake",
               "pos": "v",
-              "meaning": "to make a mistake or be incorrect"
+              "meaning": "sai lầm"
             },
             {
               "word": "err",
               "pos": "v",
-              "meaning": "to make a mistake or be incorrect"
+              "meaning": "lỗi"
             },
             {
               "word": "faulty",
               "pos": "adj",
-              "meaning": "characterized by errors; not agreeing with a model or not fo"
+              "meaning": "bị lỗi"
             }
           ],
           "synonyms": [
@@ -8234,7 +9053,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "mistake": "sai lầm",
+            "fault": "lỗi"
+          }
         },
         {
           "id": "communication-daily-247",
@@ -8260,7 +9083,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "particularly": "đặc biệt",
+            "peculiarly": "đặc biệt",
+            "specially": "đặc biệt"
+          }
         },
         {
           "id": "communication-daily-248",
@@ -8282,7 +9110,7 @@
             {
               "word": "essayist",
               "pos": "n",
-              "meaning": "a writer of literary works"
+              "meaning": "nhà tiểu luận"
             }
           ],
           "synonyms": [],
@@ -8310,17 +9138,17 @@
             {
               "word": "everydayness",
               "pos": "n",
-              "meaning": "ordinariness as a consequence of being frequent and commonpl"
+              "meaning": "đời thường"
             },
             {
               "word": "mundanity",
               "pos": "n",
-              "meaning": "the quality of being commonplace and ordinary"
+              "meaning": "trần tục"
             },
             {
               "word": "mundaneness",
               "pos": "n",
-              "meaning": "the quality of being commonplace and ordinary"
+              "meaning": "sự trần tục"
             }
           ],
           "synonyms": [
@@ -8331,7 +9159,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "mundane": "trần tục",
+            "quotidian": "thường ngày",
+            "routine": "thói quen",
+            "unremarkable": "không nổi bật"
+          }
         },
         {
           "id": "communication-daily-250",
@@ -8356,7 +9190,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "everyplace": "mọi nơi",
+            "all over": "khắp nơi"
+          }
         },
         {
           "id": "communication-daily-251",
@@ -8378,17 +9216,17 @@
             {
               "word": "evidential",
               "pos": "adj",
-              "meaning": "serving as or based on evidence"
+              "meaning": "chứng cứ"
             },
             {
               "word": "evidentiary",
               "pos": "adj",
-              "meaning": "serving as or based on evidence"
+              "meaning": "chứng cứ"
             },
             {
               "word": "evident",
               "pos": "adj",
-              "meaning": "clearly revealed to the mind or the senses or judgment"
+              "meaning": "hiển nhiên"
             }
           ],
           "synonyms": [
@@ -8396,7 +9234,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "grounds": "căn cứ"
+          }
         },
         {
           "id": "communication-daily-252",
@@ -8418,7 +9259,7 @@
             {
               "word": "exactness",
               "pos": "n",
-              "meaning": "the quality of being exact"
+              "meaning": "tính chính xác"
             }
           ],
           "synonyms": [],
@@ -8426,7 +9267,10 @@
             "inexact"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "inexact": "không chính xác"
+          }
         },
         {
           "id": "communication-daily-253",
@@ -8451,7 +9295,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "precisely": "chính xác",
+            "just": "chỉ"
+          }
         },
         {
           "id": "communication-daily-254",
@@ -8473,17 +9321,17 @@
             {
               "word": "excellency",
               "pos": "n",
-              "meaning": "an outstanding feature; something in which something or some"
+              "meaning": "xuất sắc"
             },
             {
               "word": "excellence",
               "pos": "n",
-              "meaning": "the quality of excelling; possessing good qualities in high "
+              "meaning": "sự xuất sắc"
             },
             {
               "word": "excel",
               "pos": "v",
-              "meaning": "distinguish oneself"
+              "meaning": "vượt trội"
             }
           ],
           "synonyms": [
@@ -8493,7 +9341,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "first-class": "hạng nhất",
+            "fantabulous": "tuyệt vời",
+            "splendid": "lộng lẫy"
+          }
         },
         {
           "id": "communication-daily-255",
@@ -8515,17 +9368,17 @@
             {
               "word": "existent",
               "pos": "adj",
-              "meaning": "presently existing in fact and not merely potential or possi"
+              "meaning": "tồn tại"
             },
             {
               "word": "existence",
               "pos": "n",
-              "meaning": "the state or fact of existing"
+              "meaning": "sự tồn tại"
             },
             {
               "word": "being",
               "pos": "n",
-              "meaning": "the state or fact of existing"
+              "meaning": "đang"
             }
           ],
           "synonyms": [
@@ -8533,7 +9386,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "be": "được"
+          }
         },
         {
           "id": "communication-daily-256",
@@ -8555,12 +9411,12 @@
             {
               "word": "expectant",
               "pos": "adj",
-              "meaning": "marked by eager anticipation"
+              "meaning": "mong chờ"
             },
             {
               "word": "expectation",
               "pos": "n",
-              "meaning": "the feeling that something is about to happen"
+              "meaning": "sự mong đợi"
             }
           ],
           "synonyms": [
@@ -8568,7 +9424,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g10"
+          "topicId": "communication-daily-g10",
+          "relationMeanings": {
+            "anticipate": "dự đoán"
+          }
         }
       ]
     },
@@ -8597,12 +9456,12 @@
             {
               "word": "experiential",
               "pos": "adj",
-              "meaning": "derived from experience or the experience of existence; - Be"
+              "meaning": "kinh nghiệm"
             },
             {
               "word": "experient",
               "pos": "adj",
-              "meaning": "having experience; having knowledge or skill from observatio"
+              "meaning": "kinh nghiệm"
             }
           ],
           "synonyms": [],
@@ -8610,7 +9469,10 @@
             "inexperience"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "inexperience": "thiếu kinh nghiệm"
+          }
         },
         {
           "id": "communication-daily-258",
@@ -8634,7 +9496,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "experimentation": "thí nghiệm"
+          }
         },
         {
           "id": "communication-daily-259",
@@ -8656,17 +9521,17 @@
             {
               "word": "adept",
               "pos": "n",
-              "meaning": "someone who is dazzlingly skilled in any field"
+              "meaning": "lão luyện"
             },
             {
               "word": "adeptness",
               "pos": "n",
-              "meaning": "skillful performance or ability without difficulty"
+              "meaning": "sự lão luyện"
             },
             {
               "word": "expertness",
               "pos": "n",
-              "meaning": "skillfulness by virtue of possessing special knowledge"
+              "meaning": "chuyên môn"
             }
           ],
           "synonyms": [
@@ -8677,7 +9542,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "adept": "lão luyện",
+            "good": "tốt",
+            "practiced": "luyện tập",
+            "proficient": "thành thạo, giỏi chuyên môn (đi với in)"
+          }
         },
         {
           "id": "communication-daily-260",
@@ -8699,12 +9570,12 @@
             {
               "word": "explain",
               "pos": "v",
-              "meaning": "define"
+              "meaning": "giải thích"
             },
             {
               "word": "account",
               "pos": "v",
-              "meaning": "to give an account or representation of in words"
+              "meaning": "tài khoản; bản báo cáo; giải thích"
             }
           ],
           "synonyms": [
@@ -8712,7 +9583,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "account": "tài khoản; bản báo cáo; giải thích"
+          }
         },
         {
           "id": "communication-daily-261",
@@ -8734,12 +9608,12 @@
             {
               "word": "expressible",
               "pos": "adj",
-              "meaning": "capable of being expressed"
+              "meaning": "diễn đạt được"
             },
             {
               "word": "expressive",
               "pos": "adj",
-              "meaning": "characterized by expression"
+              "meaning": "biểu cảm"
             }
           ],
           "synonyms": [
@@ -8748,7 +9622,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "show": "hiển thị",
+            "evince": "chứng minh"
+          }
         },
         {
           "id": "communication-daily-262",
@@ -8770,7 +9648,7 @@
             {
               "word": "look",
               "pos": "v",
-              "meaning": "give a certain impression or have a certain outward aspect"
+              "meaning": "nhìn"
             }
           ],
           "synonyms": [
@@ -8781,7 +9659,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "look": "nhìn",
+            "aspect": "khía cạnh",
+            "facial expression": "nét mặt",
+            "face": "khuôn mặt"
+          }
         },
         {
           "id": "communication-daily-263",
@@ -8803,17 +9687,17 @@
             {
               "word": "extremity",
               "pos": "n",
-              "meaning": "an extreme condition or state (especially of adversity or di"
+              "meaning": "cực đoan"
             },
             {
               "word": "utmost",
               "pos": "n",
-              "meaning": "the greatest possible degree"
+              "meaning": "tối đa"
             },
             {
               "word": "uttermost",
               "pos": "n",
-              "meaning": "the greatest possible degree"
+              "meaning": "tận cùng"
             }
           ],
           "synonyms": [
@@ -8822,7 +9706,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "utmost": "tối đa",
+            "uttermost": "tận cùng"
+          }
         },
         {
           "id": "communication-daily-264",
@@ -8846,7 +9734,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "highly": "cực kỳ"
+          }
         },
         {
           "id": "communication-daily-265",
@@ -8894,7 +9785,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "mill": "nhà máy xay",
+            "manufacturing plant": "nhà máy sản xuất",
+            "manufactory": "nhà máy"
+          }
         },
         {
           "id": "communication-daily-267",
@@ -8916,12 +9812,12 @@
             {
               "word": "failure",
               "pos": "n",
-              "meaning": "an unexpected omission"
+              "meaning": "sự hỏng hóc (máy móc); sự thất bại"
             },
             {
               "word": "neglect",
               "pos": "n",
-              "meaning": "the trait of neglecting responsibilities and lacking concern"
+              "meaning": "sao lãng"
             }
           ],
           "synonyms": [
@@ -8929,7 +9825,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "neglect": "sao lãng"
+          }
         },
         {
           "id": "communication-daily-268",
@@ -8951,12 +9850,12 @@
             {
               "word": "fairness",
               "pos": "n",
-              "meaning": "conformity with rules or standards"
+              "meaning": "sự công bằng"
             },
             {
               "word": "justness",
               "pos": "n",
-              "meaning": "the quality of being just or fair"
+              "meaning": "sự công bằng"
             }
           ],
           "synonyms": [
@@ -8966,7 +9865,11 @@
             "unfair"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "just": "chỉ",
+            "unfair": "không công bằng"
+          }
         },
         {
           "id": "communication-daily-269",
@@ -9032,12 +9935,12 @@
             {
               "word": "farm",
               "pos": "v",
-              "meaning": "cultivate by growing, often involving improvements by means "
+              "meaning": "trang trại"
             },
             {
               "word": "agriculturist",
               "pos": "n",
-              "meaning": "someone concerned with the science or art or business of cul"
+              "meaning": "nông dân"
             }
           ],
           "synonyms": [
@@ -9046,7 +9949,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "agriculture": "nông nghiệp",
+            "husbandry": "chăn nuôi"
+          }
         },
         {
           "id": "communication-daily-272",
@@ -9068,17 +9975,17 @@
             {
               "word": "mannerly",
               "pos": "adj",
-              "meaning": "socially correct in behavior"
+              "meaning": "lịch sự"
             },
             {
               "word": "stylist",
               "pos": "n",
-              "meaning": "someone who cuts or beautifies hair"
+              "meaning": "nhà tạo mẫu"
             },
             {
               "word": "stylize",
               "pos": "v",
-              "meaning": "represent according to a conventional style"
+              "meaning": "cách điệu"
             }
           ],
           "synonyms": [
@@ -9089,7 +9996,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "manner": "cách thức",
+            "mode": "chế độ",
+            "style": "phong cách",
+            "way": "cách"
+          }
         },
         {
           "id": "communication-daily-273",
@@ -9111,12 +10024,12 @@
             {
               "word": "fearful",
               "pos": "adj",
-              "meaning": "experiencing or showing fear"
+              "meaning": "sợ hãi"
             },
             {
               "word": "fright",
               "pos": "v",
-              "meaning": "cause fear in"
+              "meaning": "sợ hãi"
             }
           ],
           "synonyms": [
@@ -9127,7 +10040,12 @@
             "fearlessness"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "fearfulness": "sợ hãi",
+            "fright": "sợ hãi",
+            "fearlessness": "không sợ hãi"
+          }
         },
         {
           "id": "communication-daily-274",
@@ -9164,7 +10082,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to highlight, characteristic, include.",
           "definitionVi": "Danh từ dùng để chỉ tính năng nổi bật; v: có sự góp mặt của.",
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "highlight": "nổi bật",
+            "characteristic": "đặc điểm, tính chất đặc trưng",
+            "include": "bao gồm"
+          }
         },
         {
           "id": "communication-daily-275",
@@ -9186,7 +10109,7 @@
             {
               "word": "feeding",
               "pos": "n",
-              "meaning": "the act of supplying food and nourishment"
+              "meaning": "cho ăn"
             }
           ],
           "synonyms": [],
@@ -9214,7 +10137,7 @@
             {
               "word": "femaleness",
               "pos": "n",
-              "meaning": "the properties characteristic of the female sex"
+              "meaning": "nữ tính"
             }
           ],
           "synonyms": [],
@@ -9223,7 +10146,11 @@
             "male"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "androgynous": "lưỡng tính",
+            "male": "nam giới"
+          }
         },
         {
           "id": "communication-daily-277",
@@ -9245,17 +10172,17 @@
             {
               "word": "fictional",
               "pos": "adj",
-              "meaning": "related to or involving literary fiction"
+              "meaning": "hư cấu"
             },
             {
               "word": "fictitious",
               "pos": "adj",
-              "meaning": "formed or conceived by the imagination"
+              "meaning": "hư cấu"
             },
             {
               "word": "fictionalize",
               "pos": "v",
-              "meaning": "make into fiction"
+              "meaning": "hư cấu"
             }
           ],
           "synonyms": [],
@@ -9305,12 +10232,12 @@
             {
               "word": "battle",
               "pos": "v",
-              "meaning": "battle or contend against in or as if in a battle"
+              "meaning": "trận chiến"
             },
             {
               "word": "engage",
               "pos": "v",
-              "meaning": "carry on (wars, battles, or campaigns)"
+              "meaning": "thu hút, tham gia; thuê mướn"
             }
           ],
           "synonyms": [
@@ -9320,7 +10247,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "battle": "trận chiến",
+            "conflict": "xung đột",
+            "engagement": "đính hôn"
+          }
         },
         {
           "id": "communication-daily-280",
@@ -9344,7 +10276,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "fig": "hình"
+          }
         },
         {
           "id": "communication-daily-281",
@@ -9371,7 +10306,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "movie": "phim",
+            "picture": "hình ảnh",
+            "moving picture": "hình ảnh chuyển động",
+            "moving-picture show": "trình chiếu hình ảnh chuyển động"
+          }
         },
         {
           "id": "communication-daily-282",
@@ -9393,7 +10334,7 @@
             {
               "word": "finality",
               "pos": "n",
-              "meaning": "the quality of being final or definitely settled"
+              "meaning": "cuối cùng"
             }
           ],
           "synonyms": [
@@ -9403,7 +10344,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "concluding": "kết luận",
+            "last": "cuối cùng",
+            "terminal": "thiết bị đầu cuối"
+          }
         },
         {
           "id": "communication-daily-283",
@@ -9427,7 +10373,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "eventually": "cuối cùng"
+          }
         },
         {
           "id": "communication-daily-284",
@@ -9471,17 +10420,17 @@
             {
               "word": "completion",
               "pos": "n",
-              "meaning": "a concluding action"
+              "meaning": "hoàn thành"
             },
             {
               "word": "finisher",
               "pos": "n",
-              "meaning": "(baseball) a relief pitcher who can protect a lead in the la"
+              "meaning": "người về đích"
             },
             {
               "word": "finishing",
               "pos": "n",
-              "meaning": "the act of finishing"
+              "meaning": "hoàn thiện"
             }
           ],
           "synonyms": [
@@ -9489,7 +10438,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "complete": "hoàn thành, điền đầy đủ (mẫu đơn)"
+          }
         },
         {
           "id": "communication-daily-286",
@@ -9513,7 +10465,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "number one": "số một"
+          }
         },
         {
           "id": "communication-daily-287",
@@ -9540,7 +10495,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g11"
+          "topicId": "communication-daily-g11",
+          "relationMeanings": {
+            "first": "đầu tiên",
+            "foremost": "quan trọng nhất",
+            "first of all": "trước hết",
+            "first off": "đầu tiên"
+          }
         },
         {
           "id": "communication-daily-288",
@@ -9558,13 +10519,7 @@
               "vi": "Họ bắt được vài con cá."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "fishy",
-              "pos": "adj",
-              "meaning": "of or relating to or resembling fish"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -9597,7 +10552,7 @@
             {
               "word": "fish",
               "pos": "v",
-              "meaning": "catch or try to catch fish or shellfish"
+              "meaning": "cá"
             }
           ],
           "synonyms": [
@@ -9605,7 +10560,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "sportfishing": "câu cá thể thao"
+          }
         },
         {
           "id": "communication-daily-290",
@@ -9651,7 +10609,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "fast-flying": "bay nhanh"
+          }
         },
         {
           "id": "communication-daily-292",
@@ -9673,7 +10634,7 @@
             {
               "word": "center",
               "pos": "v",
-              "meaning": "center upon"
+              "meaning": "trung tâm"
             }
           ],
           "synonyms": [
@@ -9684,7 +10645,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "focusing": "tập trung",
+            "focussing": "tập trung",
+            "focal point": "tiêu điểm",
+            "direction": "hướng"
+          }
         },
         {
           "id": "communication-daily-293",
@@ -9708,7 +10675,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "undermentioned": "không được đề cập"
+          }
         },
         {
           "id": "communication-daily-294",
@@ -9732,7 +10702,10 @@
             "domestic"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "domestic": "nội địa, trong nước"
+          }
         },
         {
           "id": "communication-daily-295",
@@ -9754,7 +10727,7 @@
             {
               "word": "woodsy",
               "pos": "adj",
-              "meaning": "abounding in trees"
+              "meaning": "gỗ"
             }
           ],
           "synonyms": [
@@ -9763,7 +10736,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "wood": "gỗ",
+            "woods": "rừng"
+          }
         },
         {
           "id": "communication-daily-296",
@@ -9807,12 +10784,12 @@
             {
               "word": "formalness",
               "pos": "n",
-              "meaning": "a manner that strictly observes all forms and ceremonies"
+              "meaning": "hình thức"
             },
             {
               "word": "formality",
               "pos": "n",
-              "meaning": "compliance with formal rules"
+              "meaning": "hình thức"
             }
           ],
           "synonyms": [],
@@ -9820,7 +10797,10 @@
             "informal"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "informal": "không chính thức"
+          }
         },
         {
           "id": "communication-daily-298",
@@ -9849,7 +10829,14 @@
             "unluckily"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "fortuitously": "tình cờ",
+            "luckily": "may mắn thay",
+            "as luck would have it": "may mắn sẽ có nó",
+            "unfortunately": "không may",
+            "unluckily": "không may mắn"
+          }
         },
         {
           "id": "communication-daily-299",
@@ -9871,7 +10858,7 @@
             {
               "word": "forwarding",
               "pos": "n",
-              "meaning": "the act of sending on to another destination"
+              "meaning": "chuyển tiếp"
             }
           ],
           "synonyms": [
@@ -9879,7 +10866,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "send on": "gửi tiếp"
+          }
         },
         {
           "id": "communication-daily-300",
@@ -9903,7 +10893,10 @@
             "unfree"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "unfree": "không tự do"
+          }
         },
         {
           "id": "communication-daily-301",
@@ -9925,7 +10918,7 @@
             {
               "word": "freshness",
               "pos": "n",
-              "meaning": "the property of being pure and fresh (as if newly made); not"
+              "meaning": "tươi mát"
             }
           ],
           "synonyms": [],
@@ -9933,7 +10926,10 @@
             "stale"
           ],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "stale": "cũ kỹ"
+          }
         },
         {
           "id": "communication-daily-302",
@@ -9957,7 +10953,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "electric refrigerator": "tủ lạnh điện"
+          }
         },
         {
           "id": "communication-daily-303",
@@ -9975,27 +10974,18 @@
               "vi": "Trong buổi học hôm nay, cả nhóm đã thảo luận chi tiết về loài ếch."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "anuran",
-              "pos": "adj",
-              "meaning": "relating to frogs and toads"
-            },
-            {
-              "word": "batrachian",
-              "pos": "adj",
-              "meaning": "relating to frogs and toads"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "toad",
-            "toad frog",
-            "anuran",
-            "batrachian"
+            "toad frog"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "toad": "cóc",
+            "toad frog": "ếch cóc"
+          }
         },
         {
           "id": "communication-daily-304",
@@ -10017,7 +11007,7 @@
             {
               "word": "furnish",
               "pos": "v",
-              "meaning": "provide or equip with furniture"
+              "meaning": "trang bị"
             }
           ],
           "synonyms": [
@@ -10026,7 +11016,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "piece of furniture": "mảnh đồ nội thất",
+            "article of furniture": "đồ đạc"
+          }
         },
         {
           "id": "communication-daily-305",
@@ -10050,7 +11044,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "communication-daily-g12"
+          "topicId": "communication-daily-g12",
+          "relationMeanings": {
+            "farther": "xa hơn"
+          }
         }
       ]
     }

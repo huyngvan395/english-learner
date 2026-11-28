@@ -28,7 +28,7 @@
           "pos": "n",
           "ipaUK": "/ˈrev.ən.juː/",
           "ipaUS": "/ˈrev.ə.nuː/",
-          "meaning": "[Tài chính] doanh thu",
+          "meaning": "doanh thu",
           "examples": [
             {
               "en": "Subscription revenue climbed 22% year over year.",
@@ -52,7 +52,13 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to income, earnings, turnover.",
           "definitionVi": "Danh từ dùng để chỉ doanh thu.",
-          "topicId": "top-finance"
+          "topicId": "top-finance",
+          "relationMeanings": {
+            "income": "thu nhập",
+            "earnings": "thu nhập",
+            "turnover": "doanh số; tỷ lệ luân chuyển nhân sự",
+            "expenditure": "chi tiêu"
+          }
         },
         {
           "id": "top-2",
@@ -82,7 +88,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to payout, return.",
           "definitionVi": "Danh từ dùng để chỉ cổ tức chi trả cổ đông.",
-          "topicId": "top-finance"
+          "topicId": "top-finance",
+          "relationMeanings": {
+            "payout": "thanh toán",
+            "return": "lợi nhuận thu về; sự trở lại, trả hàng"
+          }
         },
         {
           "id": "top-3",
@@ -118,7 +128,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to inspection, review.",
           "definitionVi": "Danh từ dùng để chỉ cuộc kiểm toán tài chính.",
-          "topicId": "top-finance"
+          "topicId": "top-finance",
+          "relationMeanings": {
+            "inspection": "kiểm tra",
+            "review": "đánh giá"
+          }
         },
         {
           "id": "top-4",
@@ -148,7 +162,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to operating costs, fixed expenses.",
           "definitionVi": "Danh từ dùng để chỉ chi phí vận hành cố định (mặt bằng, điện nước).",
-          "topicId": "top-finance"
+          "topicId": "top-finance",
+          "relationMeanings": {
+            "operating costs": "chi phí hoạt động",
+            "fixed expenses": "chi phí cố định"
+          }
         }
       ]
     },
@@ -187,7 +205,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to orientation, induction.",
           "definitionVi": "Danh từ dùng để chỉ quy trình hội nhập nhân viên mới.",
-          "topicId": "top-hr"
+          "topicId": "top-hr",
+          "relationMeanings": {
+            "orientation": "định hướng",
+            "induction": "lễ nhậm chức",
+            "offboarding": "xuống tàu"
+          }
         },
         {
           "id": "top-6",
@@ -224,7 +247,11 @@
           "audioUrlUS": "https://api.dictionaryapi.dev/media/pronunciations/en/appraisal-us.mp3",
           "definitionEn": "A concept, item, or formal term closely related to evaluation, assessment.",
           "definitionVi": "Danh từ dùng để chỉ sự đánh giá hiệu suất / thẩm định giá.",
-          "topicId": "top-hr"
+          "topicId": "top-hr",
+          "relationMeanings": {
+            "evaluation": "đánh giá",
+            "assessment": "đánh giá"
+          }
         },
         {
           "id": "top-7",
@@ -254,7 +281,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to salary list, compensation.",
           "definitionVi": "Danh từ dùng để chỉ bảng lương, bộ phận trả lương.",
-          "topicId": "top-hr"
+          "topicId": "top-hr",
+          "relationMeanings": {
+            "salary list": "bảng lương",
+            "compensation": "bồi thường"
+          }
         },
         {
           "id": "top-8",
@@ -289,7 +320,10 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to trial period.",
           "definitionVi": "Danh từ dùng để chỉ thời gian thử việc.",
-          "topicId": "top-hr"
+          "topicId": "top-hr",
+          "relationMeanings": {
+            "trial period": "thời gian dùng thử"
+          }
         }
       ]
     },
@@ -331,7 +365,10 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to audience profile.",
           "definitionVi": "Danh từ dùng để chỉ dữ liệu nhân khẩu học khách hàng.",
-          "topicId": "top-marketing"
+          "topicId": "top-marketing",
+          "relationMeanings": {
+            "audience profile": "hồ sơ khán giả"
+          }
         },
         {
           "id": "top-10",
@@ -368,7 +405,11 @@
           ],
           "definitionEn": "A common English expression meaning 'customer retention'.",
           "definitionVi": "Cụm từ cố định mang nghĩa lòng trung thành thương hiệu.",
-          "topicId": "top-marketing"
+          "topicId": "top-marketing",
+          "relationMeanings": {
+            "customer retention": "giữ chân khách hàng",
+            "brand switching": "chuyển đổi nhãn hiệu"
+          }
         },
         {
           "id": "top-11",
@@ -399,7 +440,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to drive, initiative, promotion.",
           "definitionVi": "Danh từ dùng để chỉ chiến dịch quảng cáo / truyền thông.",
-          "topicId": "top-marketing"
+          "topicId": "top-marketing",
+          "relationMeanings": {
+            "drive": "lái xe",
+            "initiative": "sáng kiến, chương trình mới; tính chủ động",
+            "promotion": "khuyến mãi"
+          }
         },
         {
           "id": "top-12",
@@ -435,7 +481,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to backing, patronage.",
           "definitionVi": "Danh từ dùng để chỉ sự tài trợ thương hiệu.",
-          "topicId": "top-marketing"
+          "topicId": "top-marketing",
+          "relationMeanings": {
+            "backing": "sự ủng hộ",
+            "patronage": "bảo trợ"
+          }
         }
       ]
     },
@@ -471,7 +521,10 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to office supplies.",
           "definitionVi": "Danh từ dùng để chỉ văn phòng phẩm (dễ nhầm với stationary = đứng yên).",
-          "topicId": "top-office"
+          "topicId": "top-office",
+          "relationMeanings": {
+            "office supplies": "đồ dùng văn phòng"
+          }
         },
         {
           "id": "top-14",
@@ -506,7 +559,10 @@
           ],
           "definitionEn": "Having the quality of being posture-friendly.",
           "definitionVi": "Tính từ mô tả đặc điểm công thái học (bảo vệ cột sống, cổ tay).",
-          "topicId": "top-office"
+          "topicId": "top-office",
+          "relationMeanings": {
+            "posture-friendly": "tư thế thân thiện"
+          }
         },
         {
           "id": "top-15",
@@ -536,7 +592,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to internal network, staff portal.",
           "definitionVi": "Danh từ dùng để chỉ mạng nội bộ công ty.",
-          "topicId": "top-office"
+          "topicId": "top-office",
+          "relationMeanings": {
+            "internal network": "mạng nội bộ",
+            "staff portal": "cổng thông tin nhân viên"
+          }
         },
         {
           "id": "top-16",
@@ -568,7 +628,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to main office, head office.",
           "definitionVi": "Danh từ dùng để chỉ trụ sở chính (luôn có -s).",
-          "topicId": "top-office"
+          "topicId": "top-office",
+          "relationMeanings": {
+            "main office": "trụ sở chính",
+            "head office": "trụ sở chính",
+            "branch": "chi nhánh; nhánh"
+          }
         }
       ]
     },
@@ -607,7 +672,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to stopover, transit.",
           "definitionVi": "Danh từ dùng để chỉ thời gian quá cảnh giữa hai chuyến bay.",
-          "topicId": "top-travel"
+          "topicId": "top-travel",
+          "relationMeanings": {
+            "stopover": "điểm dừng chân",
+            "transit": "quá cảnh",
+            "nonstop flight": "chuyến bay thẳng"
+          }
         },
         {
           "id": "top-18",
@@ -627,7 +697,7 @@
             {
               "word": "board",
               "pos": "v",
-              "meaning": "lên tàu/máy bay"
+              "meaning": "hội đồng quản trị; bảng; lên (tàu/máy bay)"
             }
           ],
           "synonyms": [
@@ -642,7 +712,10 @@
           ],
           "definitionEn": "A common English expression meaning 'boarding card'.",
           "definitionVi": "Cụm từ cố định mang nghĩa thẻ lên máy bay.",
-          "topicId": "top-travel"
+          "topicId": "top-travel",
+          "relationMeanings": {
+            "boarding card": "thẻ lên máy bay"
+          }
         },
         {
           "id": "top-19",
@@ -671,7 +744,10 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to guest services desk.",
           "definitionVi": "Danh từ dùng để chỉ nhân viên hỗ trợ đặc biệt khách sạn (đặt tour, xe, nhà hàng).",
-          "topicId": "top-travel"
+          "topicId": "top-travel",
+          "relationMeanings": {
+            "guest services desk": "bàn phục vụ khách"
+          }
         },
         {
           "id": "top-20",
@@ -701,7 +777,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to transfer bus, commuter van.",
           "definitionVi": "Danh từ dùng để chỉ xe buýt đưa đón tuyến cố định (sân bay/văn phòng).",
-          "topicId": "top-travel"
+          "topicId": "top-travel",
+          "relationMeanings": {
+            "transfer bus": "xe buýt trung chuyển",
+            "commuter van": "xe đi lại"
+          }
         }
       ]
     },
@@ -730,17 +810,17 @@
             {
               "word": "furrow",
               "pos": "v",
-              "meaning": "make wrinkled or creased"
+              "meaning": "luống cày"
             },
             {
               "word": "crease",
               "pos": "v",
-              "meaning": "become wrinkled or crumpled or creased"
+              "meaning": "nhăn"
             },
             {
               "word": "crinkly",
               "pos": "adj",
-              "meaning": "uneven by virtue of having wrinkles or waves"
+              "meaning": "nhăn nheo"
             }
           ],
           "synonyms": [
@@ -751,7 +831,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "furrow": "luống cày",
+            "crease": "nhăn",
+            "crinkle": "nếp nhăn",
+            "seam": "đường may"
+          }
         },
         {
           "id": "topic-business-2",
@@ -777,7 +863,11 @@
             "inaccuracy"
           ],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "truth": "sự thật",
+            "inaccuracy": "không chính xác"
+          }
         },
         {
           "id": "topic-business-3",
@@ -804,7 +894,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "anyway": "dù sao đi nữa",
+            "anyways": "dù sao đi nữa",
+            "in any case": "trong mọi trường hợp",
+            "at any rate": "dù sao đi nữa"
+          }
         },
         {
           "id": "topic-business-4",
@@ -829,7 +925,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "appetiser": "món khai vị",
+            "starter": "khởi đầu"
+          }
         },
         {
           "id": "topic-business-5",
@@ -851,7 +951,7 @@
             {
               "word": "spark",
               "pos": "v",
-              "meaning": "emit or produce sparks"
+              "meaning": "tia lửa"
             }
           ],
           "synonyms": [
@@ -862,7 +962,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "discharge": "giải ngũ",
+            "spark": "tia lửa",
+            "electric arc": "hồ quang điện",
+            "electric discharge": "phóng điện"
+          }
         },
         {
           "id": "topic-business-6",
@@ -884,7 +990,7 @@
             {
               "word": "hear",
               "pos": "v",
-              "meaning": "perceive (sound) via the auditory sense"
+              "meaning": "nghe"
             }
           ],
           "synonyms": [
@@ -895,7 +1001,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "hearing": "thính giác",
+            "auditory sense": "thính giác",
+            "sense of hearing": "thính giác",
+            "auditory modality": "phương thức thính giác"
+          }
         },
         {
           "id": "topic-business-7",
@@ -917,7 +1029,7 @@
             {
               "word": "backpacker",
               "pos": "n",
-              "meaning": "a hiker who wears a backpack"
+              "meaning": "du khách ba lô"
             }
           ],
           "synonyms": [
@@ -928,7 +1040,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "back pack": "gói sau",
+            "knapsack": "ba lô",
+            "packsack": "bao đựng",
+            "rucksack": "ba lô"
+          }
         },
         {
           "id": "topic-business-8",
@@ -953,7 +1071,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "dance hall": "vũ trường",
+            "dance palace": "cung vũ"
+          }
         },
         {
           "id": "topic-business-9",
@@ -975,12 +1097,12 @@
             {
               "word": "benefit",
               "pos": "n",
-              "meaning": "something that aids or promotes well-being"
+              "meaning": "lợi ích; phúc lợi nhân viên"
             },
             {
               "word": "goodness",
               "pos": "n",
-              "meaning": "that which is pleasing or valuable or useful"
+              "meaning": "lòng tốt"
             }
           ],
           "synonyms": [
@@ -988,7 +1110,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "good": "tốt"
+          }
         },
         {
           "id": "topic-business-10",
@@ -1010,12 +1135,12 @@
             {
               "word": "biographical",
               "pos": "adj",
-              "meaning": "of or relating to or being biography"
+              "meaning": "tiểu sử"
             },
             {
               "word": "biographer",
               "pos": "n",
-              "meaning": "someone who writes an account of a person's life"
+              "meaning": "người viết tiểu sử"
             }
           ],
           "synonyms": [
@@ -1025,7 +1150,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "life": "cuộc sống",
+            "life story": "chuyện đời",
+            "life history": "lịch sử cuộc đời"
+          }
         },
         {
           "id": "topic-business-11",
@@ -1049,7 +1179,10 @@
             "unbound"
           ],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "unbound": "không ràng buộc"
+          }
         },
         {
           "id": "topic-business-12",
@@ -1159,7 +1292,7 @@
             {
               "word": "complimentary",
               "pos": "adj",
-              "meaning": "conveying or resembling a compliment"
+              "meaning": "miễn phí (tặng kèm); mang tính khen ngợi"
             }
           ],
           "synonyms": [],
@@ -1185,19 +1318,14 @@
           ],
           "wordFamily": [
             {
-              "word": "lade",
-              "pos": "v",
-              "meaning": "fill or place a load on"
-            },
-            {
               "word": "freight",
               "pos": "v",
-              "meaning": "load with goods for transportation"
+              "meaning": "vận chuyển hàng hóa"
             },
             {
               "word": "load",
               "pos": "v",
-              "meaning": "put (something) on a structure or conveyance"
+              "meaning": "tải"
             }
           ],
           "synonyms": [
@@ -1208,7 +1336,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "cargo": "hàng hóa",
+            "lading": "vận đơn",
+            "freight": "vận chuyển hàng hóa",
+            "load": "tải"
+          }
         },
         {
           "id": "topic-business-18",
@@ -1230,7 +1364,7 @@
             {
               "word": "continent",
               "pos": "n",
-              "meaning": "the European mainland"
+              "meaning": "lục địa"
             }
           ],
           "synonyms": [],
@@ -1260,7 +1394,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "right of first publication": "quyền xuất bản lần đầu"
+          }
         },
         {
           "id": "topic-business-20",
@@ -1304,17 +1441,17 @@
             {
               "word": "demolition",
               "pos": "n",
-              "meaning": "an event (or the result of an event) that completely destroy"
+              "meaning": "phá dỡ"
             },
             {
               "word": "demolishing",
               "pos": "n",
-              "meaning": "complete destruction of a building"
+              "meaning": "phá dỡ"
             },
             {
               "word": "pulverization",
               "pos": "n",
-              "meaning": "annihilation by pulverizing something"
+              "meaning": "nghiền thành bột"
             }
           ],
           "synonyms": [
@@ -1323,7 +1460,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "pulverize": "nghiền thành bột",
+            "pulverise": "nghiền thành bột"
+          }
         },
         {
           "id": "topic-business-22",
@@ -1345,7 +1486,7 @@
             {
               "word": "department",
               "pos": "n",
-              "meaning": "the territorial and administrative division of some countrie"
+              "meaning": "bộ phận"
             }
           ],
           "synonyms": [],
@@ -1375,7 +1516,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "despairing": "tuyệt vọng"
+          }
         },
         {
           "id": "topic-business-24",
@@ -1397,17 +1541,17 @@
             {
               "word": "waster",
               "pos": "n",
-              "meaning": "a person who destroys or ruins or lays waste to"
+              "meaning": "lãng phí"
             },
             {
               "word": "devastation",
               "pos": "n",
-              "meaning": "the state of being decayed or destroyed"
+              "meaning": "tàn phá"
             },
             {
               "word": "desolation",
               "pos": "n",
-              "meaning": "a bleak and desolate atmosphere"
+              "meaning": "hoang tàn"
             }
           ],
           "synonyms": [
@@ -1418,7 +1562,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "lay waste to": "lãng phí",
+            "waste": "chất thải",
+            "desolate": "hoang tàn",
+            "ravage": "tàn phá"
+          }
         },
         {
           "id": "topic-business-25",
@@ -1440,7 +1590,7 @@
             {
               "word": "diagnosis",
               "pos": "n",
-              "meaning": "identifying the nature or cause of some phenomenon"
+              "meaning": "chẩn đoán"
             }
           ],
           "synonyms": [],
@@ -1468,12 +1618,12 @@
             {
               "word": "diagrammatic",
               "pos": "adj",
-              "meaning": "shown or represented by diagrams"
+              "meaning": "sơ đồ"
             },
             {
               "word": "diagrammatical",
               "pos": "adj",
-              "meaning": "shown or represented by diagrams"
+              "meaning": "sơ đồ"
             }
           ],
           "synonyms": [],
@@ -1523,7 +1673,7 @@
             {
               "word": "disablement",
               "pos": "n",
-              "meaning": "the condition of being unable to perform as a consequence of"
+              "meaning": "tàn tật"
             }
           ],
           "synonyms": [
@@ -1534,7 +1684,12 @@
             "enable"
           ],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "disenable": "có thể giải tán được",
+            "incapacitate": "mất khả năng",
+            "enable": "cho phép"
+          }
         },
         {
           "id": "topic-business-29",
@@ -1581,7 +1736,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "doughnut": "bánh rán",
+            "sinker": "tàu chìm"
+          }
         },
         {
           "id": "topic-business-31",
@@ -1608,7 +1767,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "doorkeeper": "người gác cửa",
+            "door guard": "bảo vệ cửa",
+            "hall porter": "người khuân vác hành lang",
+            "porter": "người khuân vác"
+          }
         },
         {
           "id": "topic-business-32",
@@ -1652,17 +1817,17 @@
             {
               "word": "promotion",
               "pos": "n",
-              "meaning": "act of raising in rank or position"
+              "meaning": "khuyến mãi"
             },
             {
               "word": "advancement",
               "pos": "n",
-              "meaning": "encouragement of the progress or growth or acceptance of som"
+              "meaning": "thăng tiến"
             },
             {
               "word": "elevation",
               "pos": "n",
-              "meaning": "the highest level or degree attainable; the highest stage of"
+              "meaning": "độ cao"
             }
           ],
           "synonyms": [
@@ -1675,7 +1840,14 @@
             "demote"
           ],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "promote": "thăng chức; quảng bá (sản phẩm)",
+            "upgrade": "nâng cấp",
+            "advance": "tiến bộ",
+            "kick upstairs": "đá lên lầu",
+            "demote": "giáng chức"
+          }
         },
         {
           "id": "topic-business-34",
@@ -1697,17 +1869,17 @@
             {
               "word": "battle",
               "pos": "v",
-              "meaning": "battle or contend against in or as if in a battle"
+              "meaning": "trận chiến"
             },
             {
               "word": "fight",
               "pos": "v",
-              "meaning": "be engaged in a fight; carry on a fight"
+              "meaning": "đánh nhau"
             },
             {
               "word": "engage",
               "pos": "v",
-              "meaning": "carry on (wars, battles, or campaigns)"
+              "meaning": "thu hút, tham gia; thuê mướn"
             }
           ],
           "synonyms": [
@@ -1717,7 +1889,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "battle": "trận chiến",
+            "conflict": "xung đột",
+            "fight": "đánh nhau"
+          }
         },
         {
           "id": "topic-business-35",
@@ -1739,17 +1916,12 @@
             {
               "word": "register",
               "pos": "v",
-              "meaning": "record in writing; enter into a book of names or events or t"
-            },
-            {
-              "word": "enroll",
-              "pos": "v",
-              "meaning": "register formally as a participant or member"
+              "meaning": "đăng ký (tham dự, khóa học)"
             },
             {
               "word": "enrol",
               "pos": "v",
-              "meaning": "register formally as a participant or member"
+              "meaning": "tuyển sinh"
             }
           ],
           "synonyms": [
@@ -1758,7 +1930,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g6"
+          "topicId": "topic-business-g6",
+          "relationMeanings": {
+            "registration": "đăng ký",
+            "enrolment": "tuyển sinh"
+          }
         }
       ]
     },
@@ -1774,7 +1950,7 @@
           "pos": "n",
           "ipaUK": "/ˈjʊərəʊ/",
           "ipaUS": "/ˈjʊrəʊ/",
-          "meaning": "euro",
+          "meaning": "đồng euro",
           "definitionEn": "The unit of money of some countries of the European Union.",
           "definitionVi": "Đơn vị tiền của một số nước thuộc Liên minh Châu Âu.",
           "examples": [
@@ -1809,17 +1985,17 @@
             {
               "word": "forbidding",
               "pos": "n",
-              "meaning": "an official prohibition or edict against something"
+              "meaning": "cấm đoán"
             },
             {
               "word": "forbiddance",
               "pos": "n",
-              "meaning": "an official prohibition or edict against something"
+              "meaning": "cấm đoán"
             },
             {
               "word": "prohibition",
               "pos": "n",
-              "meaning": "the action of prohibiting or inhibiting or forbidding (or an"
+              "meaning": "cấm đoán"
             }
           ],
           "synonyms": [
@@ -1833,7 +2009,15 @@
             "allow"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "prohibit": "cấm",
+            "interdict": "can thiệp",
+            "proscribe": "đăng ký",
+            "veto": "phủ quyết",
+            "permit": "giấy phép",
+            "allow": "cho phép"
+          }
         },
         {
           "id": "topic-business-38",
@@ -1888,7 +2072,13 @@
           ],
           "definitionEn": "To encourage (also similar to promote, cultivate) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động nuôi dưỡng, thúc đẩy (đổi mới, hợp tác).",
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "encourage": "khuyến khích",
+            "promote": "thăng chức; quảng bá (sản phẩm)",
+            "cultivate": "trồng trọt",
+            "hinder": "cản trở"
+          }
         },
         {
           "id": "topic-business-40",
@@ -1910,7 +2100,7 @@
             {
               "word": "lam",
               "pos": "v",
-              "meaning": "flee; take to one's heels; cut and run"
+              "meaning": "lam"
             }
           ],
           "synonyms": [
@@ -1918,7 +2108,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "lam": "lam"
+          }
         },
         {
           "id": "topic-business-41",
@@ -1943,7 +2136,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "comment": "bình luận",
+            "scuttlebutt": "cá đuối"
+          }
         },
         {
           "id": "topic-business-42",
@@ -1987,17 +2184,17 @@
             {
               "word": "industry",
               "pos": "n",
-              "meaning": "persevering determination to perform a task"
+              "meaning": "ngành công nghiệp"
             },
             {
               "word": "industriousness",
               "pos": "n",
-              "meaning": "persevering determination to perform a task"
+              "meaning": "tính cần cù"
             },
             {
               "word": "tirelessness",
               "pos": "n",
-              "meaning": "tireless determination"
+              "meaning": "không mệt mỏi"
             }
           ],
           "synonyms": [
@@ -2007,7 +2204,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "industrious": "siêng năng",
+            "tireless": "không mệt mỏi",
+            "untiring": "không mệt mỏi"
+          }
         },
         {
           "id": "topic-business-44",
@@ -2029,7 +2231,7 @@
             {
               "word": "impatience",
               "pos": "n",
-              "meaning": "a lack of patience; irritation with anything that causes del"
+              "meaning": "thiếu kiên nhẫn"
             }
           ],
           "synonyms": [],
@@ -2037,7 +2239,10 @@
             "patient"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "patient": "kiên nhẫn"
+          }
         },
         {
           "id": "topic-business-45",
@@ -2081,7 +2286,7 @@
             {
               "word": "interpret",
               "pos": "v",
-              "meaning": "create an image or likeness of"
+              "meaning": "giải thích"
             }
           ],
           "synonyms": [],
@@ -2112,7 +2317,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "product": "sản phẩm",
+            "cartesian product": "tích Descartes"
+          }
         },
         {
           "id": "topic-business-48",
@@ -2134,12 +2343,12 @@
             {
               "word": "irrelevancy",
               "pos": "n",
-              "meaning": "the lack of a relation of something to the matter at hand"
+              "meaning": "sự không liên quan"
             },
             {
               "word": "irrelevance",
               "pos": "n",
-              "meaning": "the lack of a relation of something to the matter at hand"
+              "meaning": "không liên quan"
             }
           ],
           "synonyms": [],
@@ -2147,7 +2356,10 @@
             "relevant"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "relevant": "có liên quan"
+          }
         },
         {
           "id": "topic-business-49",
@@ -2167,13 +2379,14 @@
           ],
           "wordFamily": [],
           "synonyms": [
-            "jean",
-            "blue jean",
             "denim"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "denim": "vải jean"
+          }
         },
         {
           "id": "topic-business-50",
@@ -2195,12 +2408,12 @@
             {
               "word": "journalistic",
               "pos": "adj",
-              "meaning": "of or relating to or having the characteristics of journalis"
+              "meaning": "báo chí"
             },
             {
               "word": "journalist",
               "pos": "n",
-              "meaning": "a writer for newspapers and magazines"
+              "meaning": "nhà báo"
             }
           ],
           "synonyms": [
@@ -2208,7 +2421,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "news media": "phương tiện truyền thông tin tức"
+          }
         },
         {
           "id": "topic-business-51",
@@ -2254,7 +2470,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "lifesaver": "phao cứu sinh"
+          }
         },
         {
           "id": "topic-business-53",
@@ -2298,12 +2517,12 @@
             {
               "word": "memorialize",
               "pos": "v",
-              "meaning": "be or provide a memorial to a person or an event"
+              "meaning": "tưởng nhớ"
             },
             {
               "word": "monumental",
               "pos": "adj",
-              "meaning": "relating or belonging to or serving as a monument"
+              "meaning": "hoành tráng"
             }
           ],
           "synonyms": [
@@ -2311,7 +2530,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "memorial": "tưởng niệm"
+          }
         },
         {
           "id": "topic-business-55",
@@ -2381,7 +2603,13 @@
           ],
           "definitionEn": "To make someone legally or morally required to perform a particular action or duty.",
           "definitionVi": "Ràng buộc ai đó về mặt pháp lý hoặc đạo đức phải thực hiện một nghĩa vụ cụ thể.",
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "compel": "Bắt buộc",
+            "bind": "buộc",
+            "require": "yêu cầu, đòi hỏi",
+            "exempt": "miễn"
+          }
         },
         {
           "id": "topic-business-57",
@@ -2403,17 +2631,17 @@
             {
               "word": "obligation",
               "pos": "n",
-              "meaning": "a personal relation in which one is indebted for a service o"
+              "meaning": "nghĩa vụ"
             },
             {
               "word": "obliger",
               "pos": "n",
-              "meaning": "someone who performs a service or does a favor"
+              "meaning": "người có nghĩa vụ"
             },
             {
               "word": "accommodative",
               "pos": "adj",
-              "meaning": "helpful in bringing about a harmonious adaptation"
+              "meaning": "thích nghi"
             }
           ],
           "synonyms": [
@@ -2423,7 +2651,11 @@
             "disoblige"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "accommodate": "chứa được; đáp ứng nhu cầu",
+            "disoblige": "không tuân theo"
+          }
         },
         {
           "id": "topic-business-58",
@@ -2445,12 +2677,12 @@
             {
               "word": "happen",
               "pos": "v",
-              "meaning": "come to pass"
+              "meaning": "xảy ra"
             },
             {
               "word": "occurrent",
               "pos": "adj",
-              "meaning": "presently occurring (either causally or incidentally)"
+              "meaning": "xảy ra"
             }
           ],
           "synonyms": [
@@ -2460,7 +2692,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "happening": "xảy ra",
+            "occurrent": "xảy ra",
+            "natural event": "sự kiện tự nhiên"
+          }
         },
         {
           "id": "topic-business-59",
@@ -2515,7 +2752,13 @@
           ],
           "definitionEn": "A temporary period during which electricity, internet, or a digital service stops working.",
           "definitionVi": "Khoảng thời gian tạm ngắt mà điện lưới, mạng internet hoặc dịch vụ số ngừng hoạt động.",
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "blackout": "mất điện",
+            "disruption": "sự gián đoạn",
+            "downtime": "thời gian ngừng hoạt động",
+            "restoration": "sự phục hồi"
+          }
         },
         {
           "id": "topic-business-61",
@@ -2561,7 +2804,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "legal assistant": "trợ lý pháp lý"
+          }
         },
         {
           "id": "topic-business-63",
@@ -2588,7 +2834,12 @@
             "wholly"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "partly": "một phần",
+            "part": "phần",
+            "wholly": "hoàn toàn"
+          }
         },
         {
           "id": "topic-business-64",
@@ -2615,7 +2866,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "common pepper": "hạt tiêu thông thường",
+            "black pepper": "hạt tiêu đen",
+            "white pepper": "tiêu trắng",
+            "madagascar pepper": "hạt tiêu Madagascar"
+          }
         },
         {
           "id": "topic-business-65",
@@ -2641,7 +2898,11 @@
             "temporarily"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "for good": "mãi mãi",
+            "temporarily": "tạm thời"
+          }
         },
         {
           "id": "topic-business-66",
@@ -2663,7 +2924,7 @@
             {
               "word": "plough",
               "pos": "v",
-              "meaning": "to break and turn over earth especially with a plow"
+              "meaning": "cái cày"
             }
           ],
           "synonyms": [
@@ -2671,7 +2932,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "plough": "cái cày"
+          }
         },
         {
           "id": "topic-business-67",
@@ -2693,17 +2957,17 @@
             {
               "word": "question",
               "pos": "v",
-              "meaning": "conduct an interview in television, newspaper, and radio rep"
+              "meaning": "câu hỏi"
             },
             {
               "word": "inquire",
               "pos": "v",
-              "meaning": "inquire about"
+              "meaning": "hỏi thăm thông tin"
             },
             {
               "word": "enquire",
               "pos": "v",
-              "meaning": "inquire about"
+              "meaning": "hỏi thăm"
             }
           ],
           "synonyms": [
@@ -2716,7 +2980,14 @@
             "answer"
           ],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "question": "câu hỏi",
+            "inquiry": "cuộc điều tra",
+            "enquiry": "điều tra",
+            "interrogation": "thẩm vấn",
+            "answer": "câu trả lời"
+          }
         },
         {
           "id": "topic-business-68",
@@ -2738,7 +3009,7 @@
             {
               "word": "railroad",
               "pos": "v",
-              "meaning": "transport by railroad"
+              "meaning": "đường sắt"
             }
           ],
           "synonyms": [
@@ -2749,7 +3020,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "railroad": "đường sắt",
+            "railroad line": "tuyến đường sắt",
+            "railway line": "tuyến đường sắt",
+            "railway system": "hệ thống đường sắt"
+          }
         },
         {
           "id": "topic-business-69",
@@ -2771,7 +3048,7 @@
             {
               "word": "waterproof",
               "pos": "adj",
-              "meaning": "not permitting the passage of water"
+              "meaning": "không thấm nước"
             }
           ],
           "synonyms": [
@@ -2779,7 +3056,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g7"
+          "topicId": "topic-business-g7",
+          "relationMeanings": {
+            "waterproof": "không thấm nước"
+          }
         },
         {
           "id": "topic-business-70",
@@ -2801,7 +3081,7 @@
             {
               "word": "reconsideration",
               "pos": "n",
-              "meaning": "a consideration of a topic (as in a meeting) with a view to "
+              "meaning": "xem xét lại"
             }
           ],
           "synonyms": [],
@@ -2858,7 +3138,7 @@
             {
               "word": "rehearse",
               "pos": "v",
-              "meaning": "engage in a rehearsal (of)"
+              "meaning": "Diễn tập"
             }
           ],
           "synonyms": [
@@ -2866,7 +3146,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "dry run": "chạy khô"
+          }
         },
         {
           "id": "topic-business-73",
@@ -2888,7 +3171,7 @@
             {
               "word": "relax",
               "pos": "v",
-              "meaning": "make less taut"
+              "meaning": "thư giãn"
             }
           ],
           "synonyms": [],
@@ -2916,12 +3199,12 @@
             {
               "word": "repeat",
               "pos": "v",
-              "meaning": "repeat an earlier theme of a composition"
+              "meaning": "lặp lại"
             },
             {
               "word": "repetitious",
               "pos": "adj",
-              "meaning": "characterized by repetition"
+              "meaning": "lặp đi lặp lại"
             }
           ],
           "synonyms": [
@@ -2929,7 +3212,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "repeat": "lặp lại"
+          }
         },
         {
           "id": "topic-business-75",
@@ -2995,7 +3281,7 @@
             {
               "word": "orbit",
               "pos": "v",
-              "meaning": "move in an orbit"
+              "meaning": "quỹ đạo"
             }
           ],
           "synonyms": [
@@ -3004,7 +3290,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "artificial satellite": "vệ tinh nhân tạo",
+            "orbiter": "quỹ đạo"
+          }
         },
         {
           "id": "topic-business-78",
@@ -3028,7 +3318,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "scene": "cảnh"
+          }
         },
         {
           "id": "topic-business-79",
@@ -3050,17 +3343,17 @@
             {
               "word": "sequence",
               "pos": "n",
-              "meaning": "a following of one thing after another in time"
+              "meaning": "chuỗi"
             },
             {
               "word": "series",
               "pos": "n",
-              "meaning": "similar things placed in order or happening one after anothe"
+              "meaning": "loạt"
             },
             {
               "word": "successiveness",
               "pos": "n",
-              "meaning": "a following of one thing after another in time"
+              "meaning": "sự kế tục"
             }
           ],
           "synonyms": [
@@ -3071,7 +3364,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "consecutive": "liên tiếp, liền kề nhau",
+            "sequent": "nối tiếp",
+            "sequential": "tuần tự",
+            "successive": "liên tiếp"
+          }
         },
         {
           "id": "topic-business-80",
@@ -3093,17 +3392,17 @@
             {
               "word": "sewer",
               "pos": "n",
-              "meaning": "someone who sews"
+              "meaning": "cống thoát nước"
             },
             {
               "word": "sewing",
               "pos": "n",
-              "meaning": "needlework on which you are working with needle and thread"
+              "meaning": "may vá"
             },
             {
               "word": "tailor",
               "pos": "n",
-              "meaning": "a person whose occupation is making and altering garments"
+              "meaning": "thợ may"
             }
           ],
           "synonyms": [
@@ -3112,7 +3411,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "tailor": "thợ may",
+            "tailor-make": "thợ may"
+          }
         },
         {
           "id": "topic-business-81",
@@ -3136,7 +3439,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "study": "nghiên cứu"
+          }
         },
         {
           "id": "topic-business-82",
@@ -3180,12 +3486,12 @@
             {
               "word": "surge",
               "pos": "n",
-              "meaning": "a sudden or abrupt strong increase"
+              "meaning": "sự trỗi dậy"
             },
             {
               "word": "zoom",
               "pos": "n",
-              "meaning": "a rapid rise"
+              "meaning": "thu phóng"
             }
           ],
           "synonyms": [
@@ -3196,7 +3502,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "soar up": "bay lên",
+            "soar upwards": "bay lên cao",
+            "surge": "sự trỗi dậy",
+            "zoom": "thu phóng"
+          }
         },
         {
           "id": "topic-business-84",
@@ -3218,7 +3530,7 @@
             {
               "word": "stimulate",
               "pos": "v",
-              "meaning": "cause to do; cause to act in a specified manner"
+              "meaning": "kích thích"
             }
           ],
           "synonyms": [
@@ -3228,7 +3540,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "stimulation": "kích thích",
+            "stimulant": "chất kích thích",
+            "input": "đầu vào"
+          }
         },
         {
           "id": "topic-business-85",
@@ -3294,7 +3611,7 @@
             {
               "word": "thirstiness",
               "pos": "n",
-              "meaning": "a deficiency of moisture (especially when resulting from a p"
+              "meaning": "khát nước"
             }
           ],
           "synonyms": [],
@@ -3322,7 +3639,7 @@
             {
               "word": "charge",
               "pos": "v",
-              "meaning": "cause to be agitated, excited, or roused"
+              "meaning": "phí, mức giá; tính phí; phụ trách"
             }
           ],
           "synonyms": [
@@ -3333,7 +3650,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "bang": "tiếng nổ",
+            "boot": "khởi động",
+            "charge": "phí, mức giá; tính phí; phụ trách",
+            "rush": "xô đẩy"
+          }
         },
         {
           "id": "topic-business-89",
@@ -3355,12 +3678,12 @@
             {
               "word": "tiler",
               "pos": "n",
-              "meaning": "a worker who lays tile"
+              "meaning": "thợ lát gạch"
             },
             {
               "word": "tiling",
               "pos": "n",
-              "meaning": "the application of tiles to cover a surface"
+              "meaning": "ốp lát"
             }
           ],
           "synonyms": [],
@@ -3390,7 +3713,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "toilet articles": "vật dụng vệ sinh"
+          }
         },
         {
           "id": "topic-business-91",
@@ -3412,7 +3738,7 @@
             {
               "word": "earmark",
               "pos": "v",
-              "meaning": "give or assign a resource to a particular person or cause"
+              "meaning": "dành riêng"
             }
           ],
           "synonyms": [
@@ -3422,7 +3748,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "hallmark": "dấu ấn",
+            "earmark": "dành riêng",
+            "stylemark": "phong cách"
+          }
         },
         {
           "id": "topic-business-92",
@@ -3444,12 +3775,12 @@
             {
               "word": "tropic",
               "pos": "n",
-              "meaning": "either of two parallels of latitude about 23.5 degrees to th"
+              "meaning": "nhiệt đới"
             },
             {
               "word": "tropics",
               "pos": "n",
-              "meaning": "the part of the Earth's surface between the Tropic of Cancer"
+              "meaning": "vùng nhiệt đới"
             }
           ],
           "synonyms": [
@@ -3457,7 +3788,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "tropic": "nhiệt đới"
+          }
         },
         {
           "id": "topic-business-93",
@@ -3481,7 +3815,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "opuntia tuna": "cá ngừ opuntia"
+          }
         },
         {
           "id": "topic-business-94",
@@ -3505,7 +3842,10 @@
             "employed"
           ],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "employed": "có việc làm"
+          }
         },
         {
           "id": "topic-business-95",
@@ -3527,12 +3867,12 @@
             {
               "word": "formalization",
               "pos": "n",
-              "meaning": "the act of making formal (as by stating formal rules governi"
+              "meaning": "chính thức hóa"
             },
             {
               "word": "formalisation",
               "pos": "n",
-              "meaning": "the act of making formal (as by stating formal rules governi"
+              "meaning": "chính thức hóa"
             }
           ],
           "synonyms": [
@@ -3543,7 +3883,12 @@
             "invalidate"
           ],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "formalize": "chính thức hóa",
+            "formalise": "chính thức hóa",
+            "invalidate": "vô hiệu"
+          }
         },
         {
           "id": "topic-business-96",
@@ -3587,7 +3932,7 @@
             {
               "word": "willing",
               "pos": "adj",
-              "meaning": "disposed or inclined toward"
+              "meaning": "sẵn sàng"
             }
           ],
           "synonyms": [],
@@ -3595,7 +3940,10 @@
             "unwillingness"
           ],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "unwillingness": "sự không sẵn lòng"
+          }
         },
         {
           "id": "topic-business-98",
@@ -3619,7 +3967,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "wrist watch": "đồng hồ đeo tay"
+          }
         },
         {
           "id": "topic-business-99",
@@ -3641,12 +3992,12 @@
             {
               "word": "abidance",
               "pos": "n",
-              "meaning": "the act of dwelling in a place"
+              "meaning": "kiên trì"
             },
             {
               "word": "stay",
               "pos": "n",
-              "meaning": "continuing or remaining in a place or state"
+              "meaning": "ở lại"
             }
           ],
           "synonyms": [
@@ -3655,7 +4006,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "bide": "chào tạm biệt",
+            "stay": "ở lại"
+          }
         },
         {
           "id": "topic-business-100",
@@ -3679,7 +4034,10 @@
             "passively"
           ],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "passively": "bị động"
+          }
         },
         {
           "id": "topic-business-101",
@@ -3701,12 +4059,12 @@
             {
               "word": "allergic",
               "pos": "adj",
-              "meaning": "having an allergy or peculiar or excessive susceptibility (e"
+              "meaning": "dị ứng"
             },
             {
               "word": "allergist",
               "pos": "n",
-              "meaning": "a physician skilled in the diagnosis and treatment of allerg"
+              "meaning": "người dị ứng"
             }
           ],
           "synonyms": [
@@ -3714,7 +4072,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "allergic reaction": "phản ứng dị ứng"
+          }
         },
         {
           "id": "topic-business-102",
@@ -3736,7 +4097,7 @@
             {
               "word": "apprehend",
               "pos": "v",
-              "meaning": "get the meaning of something"
+              "meaning": "bắt giữ"
             }
           ],
           "synonyms": [
@@ -3744,7 +4105,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "discerning": "sáng suốt"
+          }
         },
         {
           "id": "topic-business-103",
@@ -3788,17 +4152,17 @@
             {
               "word": "bacterial",
               "pos": "adj",
-              "meaning": "relating to or caused by bacteria"
+              "meaning": "vi khuẩn"
             },
             {
               "word": "bacterioidal",
               "pos": "adj",
-              "meaning": "resembling bacteria"
+              "meaning": "vi khuẩn"
             },
             {
               "word": "bacterize",
               "pos": "v",
-              "meaning": "subject to the action of bacteria"
+              "meaning": "diệt khuẩn"
             }
           ],
           "synonyms": [
@@ -3806,7 +4170,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "bacterium": "vi khuẩn"
+          }
         },
         {
           "id": "topic-business-105",
@@ -3844,7 +4211,12 @@
           ],
           "definitionEn": "To widen (also similar to expand) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động mở mang, mở rộng (kiến thức, tầm nhìn).",
-          "topicId": "topic-business-g8"
+          "topicId": "topic-business-g8",
+          "relationMeanings": {
+            "widen": "mở rộng",
+            "expand": "mở rộng (quy mô, thị trường)",
+            "narrow": "hẹp"
+          }
         }
       ]
     },
@@ -3873,7 +4245,7 @@
             {
               "word": "bulbous",
               "pos": "adj",
-              "meaning": "shaped like a bulb"
+              "meaning": "củ hành"
             }
           ],
           "synonyms": [],
@@ -3923,7 +4295,7 @@
             {
               "word": "complicate",
               "pos": "v",
-              "meaning": "make more complex, intricate, or richer"
+              "meaning": "phức tạp"
             }
           ],
           "synonyms": [],
@@ -3951,7 +4323,7 @@
             {
               "word": "considerateness",
               "pos": "n",
-              "meaning": "kind and considerate regard for others"
+              "meaning": "sự ân cần"
             }
           ],
           "synonyms": [],
@@ -3959,7 +4331,10 @@
             "inconsiderate"
           ],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "inconsiderate": "thiếu cân nhắc"
+          }
         },
         {
           "id": "topic-business-110",
@@ -3986,7 +4361,12 @@
             "night"
           ],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "day": "ngày",
+            "daylight": "ánh sáng ban ngày",
+            "night": "đêm"
+          }
         },
         {
           "id": "topic-business-111",
@@ -4008,17 +4388,17 @@
             {
               "word": "decorate",
               "pos": "v",
-              "meaning": "be beautiful to look at"
+              "meaning": "trang trí"
             },
             {
               "word": "ornamental",
               "pos": "adj",
-              "meaning": "serving an esthetic rather than a useful purpose"
+              "meaning": "trang trí"
             },
             {
               "word": "ornament",
               "pos": "v",
-              "meaning": "make more attractive by adding ornament, colour, etc."
+              "meaning": "vật trang trí"
             }
           ],
           "synonyms": [
@@ -4027,7 +4407,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "ornament": "vật trang trí",
+            "ornamentation": "trang trí"
+          }
         },
         {
           "id": "topic-business-112",
@@ -4049,17 +4433,17 @@
             {
               "word": "fling",
               "pos": "n",
-              "meaning": "the act of flinging"
+              "meaning": "ném"
             },
             {
               "word": "disposition",
               "pos": "n",
-              "meaning": "the act or means of getting rid of something"
+              "meaning": "bố trí"
             },
             {
               "word": "disposal",
               "pos": "n",
-              "meaning": "the act or means of getting rid of something"
+              "meaning": "xử lý"
             }
           ],
           "synonyms": [
@@ -4070,7 +4454,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "fling": "ném",
+            "toss": "ném",
+            "toss out": "ném ra ngoài",
+            "toss away": "vứt đi"
+          }
         },
         {
           "id": "topic-business-113",
@@ -4114,12 +4504,12 @@
             {
               "word": "erasure",
               "pos": "n",
-              "meaning": "a surface area where something has been erased"
+              "meaning": "tẩy xóa"
             },
             {
               "word": "eraser",
               "pos": "n",
-              "meaning": "an implement used to erase something"
+              "meaning": "cục tẩy"
             }
           ],
           "synonyms": [
@@ -4130,7 +4520,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "rub out": "chà xát",
+            "score out": "ghi điểm",
+            "efface": "hiệu ứng",
+            "wipe off": "lau sạch"
+          }
         },
         {
           "id": "topic-business-115",
@@ -4152,12 +4548,12 @@
             {
               "word": "explore",
               "pos": "v",
-              "meaning": "travel to or penetrate into"
+              "meaning": "khám phá"
             },
             {
               "word": "adventure",
               "pos": "n",
-              "meaning": "a wild and exciting undertaking (not necessarily lawful)"
+              "meaning": "cuộc phiêu lưu"
             }
           ],
           "synonyms": [
@@ -4165,7 +4561,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "adventurer": "nhà thám hiểm"
+          }
         },
         {
           "id": "topic-business-116",
@@ -4187,12 +4586,12 @@
             {
               "word": "factualness",
               "pos": "n",
-              "meaning": "the quality of being actual or based on fact"
+              "meaning": "tính xác thực"
             },
             {
               "word": "factuality",
               "pos": "n",
-              "meaning": "the quality of being actual or based on fact"
+              "meaning": "thực tế"
             }
           ],
           "synonyms": [],
@@ -4220,7 +4619,7 @@
             {
               "word": "fix",
               "pos": "v",
-              "meaning": "cause to be firmly attached"
+              "meaning": "sửa chữa"
             }
           ],
           "synonyms": [],
@@ -4291,13 +4690,17 @@
           "wordFamily": [],
           "synonyms": [
             "secondary school",
-            "lyceum",
             "lycee",
             "middle school"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "secondary school": "trường trung học cơ sở",
+            "lycee": "vải thiều",
+            "middle school": "trường trung học cơ sở"
+          }
         },
         {
           "id": "topic-business-121",
@@ -4321,7 +4724,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "herewith": "theo đây"
+          }
         },
         {
           "id": "topic-business-122",
@@ -4343,17 +4749,17 @@
             {
               "word": "reluctant",
               "pos": "adj",
-              "meaning": "unwillingness to do something contrary to your custom"
+              "meaning": "miễn cưỡng"
             },
             {
               "word": "hesitant",
               "pos": "adj",
-              "meaning": "lacking decisiveness of character; unable to act or decide q"
+              "meaning": "Do dự, lưỡng lự, ngập ngừng"
             },
             {
               "word": "hesitate",
               "pos": "v",
-              "meaning": "pause or hold back in uncertainty or unwillingness"
+              "meaning": "do dự, ngần ngại"
             }
           ],
           "synonyms": [
@@ -4364,7 +4770,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "reluctance": "miễn cưỡng",
+            "hesitancy": "do dự",
+            "disinclination": "chán ghét",
+            "indisposition": "thiếu quyết đoán"
+          }
         },
         {
           "id": "topic-business-123",
@@ -4388,7 +4800,10 @@
             "factory-made"
           ],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "factory-made": "do nhà máy sản xuất"
+          }
         },
         {
           "id": "topic-business-124",
@@ -4429,7 +4844,11 @@
           ],
           "definitionEn": "A person, idea, or experience that stimulates creative thinking and motivates new work.",
           "definitionVi": "Nguồn động lực hoặc ý tưởng khơi gợi tư duy sáng tạo và thúc đẩy công việc mới.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "motivation": "động lực",
+            "stimulus": "kích thích"
+          }
         },
         {
           "id": "topic-business-125",
@@ -4469,7 +4888,13 @@
           "audioUrlUK": "https://api.dictionaryapi.dev/media/pronunciations/en/acclaim-uk.mp3",
           "definitionEn": "A concept, item, or formal term closely related to praise, applause, recognition.",
           "definitionVi": "Danh từ dùng để chỉ sự khen ngợi nhiệt liệt, tán dương.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "praise": "khen ngợi",
+            "applause": "vỗ tay",
+            "recognition": "sự công nhận",
+            "criticism": "chỉ trích"
+          }
         },
         {
           "id": "topic-business-126",
@@ -4508,7 +4933,13 @@
           ],
           "definitionEn": "To decline (also similar to degrade) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động xuống cấp, xấu đi theo thời gian.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "decline": "sụt giảm; từ chối lịch sự",
+            "degrade": "xuống cấp",
+            "improve": "cải thiện, nâng cao",
+            "recover": "hồi phục"
+          }
         },
         {
           "id": "topic-business-127",
@@ -4540,7 +4971,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to balance, stability.",
           "definitionVi": "Danh từ dùng để chỉ trạng thái cân bằng.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "balance": "số dư tài khoản; sự cân bằng",
+            "stability": "ổn định",
+            "imbalance": "mất cân bằng"
+          }
         },
         {
           "id": "topic-business-128",
@@ -4574,7 +5010,14 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to excess, overflow, extra.",
           "definitionVi": "Danh từ dùng để chỉ lượng dư thừa, thặng dư.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "excess": "thừa",
+            "overflow": "tràn",
+            "extra": "thêm",
+            "shortage": "sự thiếu hụt",
+            "deficit": "sự thâm hụt, thiếu hụt"
+          }
         },
         {
           "id": "topic-business-129",
@@ -4607,7 +5050,13 @@
           ],
           "definitionEn": "To utilize (also similar to capitalize on, harness) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động tận dụng tối đa (lợi thế, công nghệ).",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "utilize": "sử dụng",
+            "capitalize on": "tận dụng",
+            "harness": "khai thác",
+            "waste": "chất thải"
+          }
         },
         {
           "id": "topic-business-130",
@@ -4644,7 +5093,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to grant, allowance, stipend.",
           "definitionVi": "Danh từ dùng để chỉ khoản trợ cấp (từ chính phủ/công ty).",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "grant": "khoản trợ cấp; cấp cho, chấp thuận",
+            "allowance": "trợ cấp",
+            "stipend": "khoản phụ cấp cố định (thực tập, công tác)"
+          }
         },
         {
           "id": "topic-business-131",
@@ -4668,7 +5122,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "countervail": "đối kháng"
+          }
         },
         {
           "id": "topic-business-132",
@@ -4699,7 +5156,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to standard, yardstick, criterion.",
           "definitionVi": "Danh từ dùng để chỉ chuẩn mực đối chiếu, cột mốc chuẩn.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "standard": "tiêu chuẩn",
+            "yardstick": "thước đo",
+            "criterion": "tiêu chí"
+          }
         },
         {
           "id": "topic-business-133",
@@ -4735,7 +5197,11 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to discharge, release.",
           "definitionVi": "Danh từ dùng để chỉ khí thải, sự phát thải.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "discharge": "giải ngũ",
+            "release": "phát hành, công bố; sự giải phóng"
+          }
         },
         {
           "id": "topic-business-134",
@@ -4778,7 +5244,12 @@
           ],
           "definitionEn": "To branch out (also similar to broaden) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động đa dạng hóa (sản phẩm, đầu tư).",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "branch out": "phân nhánh ra",
+            "broaden": "mở mang, mở rộng (kiến thức, tầm nhìn)",
+            "specialize narrowly": "chuyên sâu"
+          }
         },
         {
           "id": "topic-business-135",
@@ -4809,7 +5280,12 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to duty, import tax, levy.",
           "definitionVi": "Danh từ dùng để chỉ thuế quan xuất nhập khẩu.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "duty": "nhiệm vụ",
+            "import tax": "thuế nhập khẩu",
+            "levy": "tiền thuế"
+          }
         },
         {
           "id": "topic-business-136",
@@ -4849,7 +5325,14 @@
           ],
           "definitionEn": "To merge (also similar to combine, unify) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động hợp nhất, củng cố (kho bãi, tài khoản).",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "merge": "hợp nhất",
+            "combine": "kết hợp",
+            "unify": "thống nhất",
+            "split": "chia",
+            "separate": "tách biệt"
+          }
         },
         {
           "id": "topic-business-137",
@@ -4882,7 +5365,13 @@
           ],
           "definitionEn": "A concept, item, or formal term closely related to agreement, unanimity, accord.",
           "definitionVi": "Danh từ dùng để chỉ sự đồng thuận chung.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "agreement": "hợp đồng, thỏa thuận",
+            "unanimity": "nhất trí",
+            "accord": "hiệp định, sự đồng thuận",
+            "disagreement": "sự bất đồng, bất hòa"
+          }
         },
         {
           "id": "topic-business-138",
@@ -4907,7 +5396,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "basically": "về cơ bản",
+            "fundamentally": "về cơ bản"
+          }
         },
         {
           "id": "topic-business-139",
@@ -4940,7 +5433,13 @@
           ],
           "definitionEn": "To weaken (also similar to erode) in professional or everyday situations.",
           "definitionVi": "Động từ diễn tả hành động làm suy yếu, phá hoại ngầm.",
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "weaken": "làm yếu",
+            "erode": "xói mòn",
+            "bolster": "củng cố, tăng cường (niềm tin, lập luận)",
+            "strengthen": "tăng cường"
+          }
         },
         {
           "id": "topic-business-140",
@@ -4962,7 +5461,7 @@
             {
               "word": "hospitable",
               "pos": "adj",
-              "meaning": "disposed to treat guests and strangers with cordiality and g"
+              "meaning": "hiếu khách"
             }
           ],
           "synonyms": [
@@ -4972,7 +5471,11 @@
             "inhospitality"
           ],
           "collocations": [],
-          "topicId": "topic-business-g9"
+          "topicId": "topic-business-g9",
+          "relationMeanings": {
+            "cordial reception": "đón tiếp thân mật",
+            "inhospitality": "sự thiếu hiếu khách"
+          }
         }
       ]
     },
@@ -5003,7 +5506,10 @@
             "outgoing"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "outgoing": "hướng ngoại"
+          }
         },
         {
           "id": "topic-business-142",
@@ -5025,17 +5531,17 @@
             {
               "word": "initiate",
               "pos": "v",
-              "meaning": "accept people into an exclusive society or group, usually wi"
+              "meaning": "khởi xướng"
             },
             {
               "word": "induct",
               "pos": "v",
-              "meaning": "accept people into an exclusive society or group, usually wi"
+              "meaning": "quy nạp"
             },
             {
               "word": "install",
               "pos": "v",
-              "meaning": "put into an office or a position"
+              "meaning": "lắp đặt (thiết bị), cài đặt (phần mềm)"
             }
           ],
           "synonyms": [
@@ -5044,7 +5550,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "initiation": "khởi đầu",
+            "installation": "cài đặt"
+          }
         },
         {
           "id": "topic-business-143",
@@ -5088,7 +5598,7 @@
             {
               "word": "mow",
               "pos": "v",
-              "meaning": "cut with a blade or mower"
+              "meaning": "cắt cỏ"
             }
           ],
           "synonyms": [
@@ -5096,7 +5606,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "lawn mower": "máy cắt cỏ"
+          }
         },
         {
           "id": "topic-business-145",
@@ -5118,17 +5631,17 @@
             {
               "word": "nutritionary",
               "pos": "adj",
-              "meaning": "of or relating to or providing nutrition"
+              "meaning": "dinh dưỡng"
             },
             {
               "word": "nutritious",
               "pos": "adj",
-              "meaning": "of or providing nourishment"
+              "meaning": "bổ dưỡng"
             },
             {
               "word": "nutritional",
               "pos": "adj",
-              "meaning": "of or relating to or providing nutrition"
+              "meaning": "dinh dưỡng"
             }
           ],
           "synonyms": [],
@@ -5156,7 +5669,7 @@
             {
               "word": "restate",
               "pos": "v",
-              "meaning": "to say, state, or perform again"
+              "meaning": "trình bày lại"
             }
           ],
           "synonyms": [],
@@ -5186,7 +5699,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "saloon": "quán rượu"
+          }
         },
         {
           "id": "topic-business-148",
@@ -5211,7 +5727,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "sunblock": "kem chống nắng",
+            "sun blocker": "kem chống nắng"
+          }
         },
         {
           "id": "topic-business-149",
@@ -5233,12 +5753,12 @@
             {
               "word": "healthy",
               "pos": "adj",
-              "meaning": "having or indicating good health in body or mind; free from "
+              "meaning": "khỏe mạnh"
             },
             {
               "word": "well",
               "pos": "adj",
-              "meaning": "in good health especially after having suffered illness or i"
+              "meaning": "tốt"
             }
           ],
           "synonyms": [
@@ -5249,7 +5769,12 @@
             "unwellness"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "health": "sức khỏe",
+            "illness": "bệnh tật",
+            "unwellness": "không khỏe"
+          }
         },
         {
           "id": "topic-business-150",
@@ -5359,17 +5884,17 @@
             {
               "word": "ethical",
               "pos": "adj",
-              "meaning": "adhering to ethical and moral principles"
+              "meaning": "đạo đức"
             },
             {
               "word": "ethicist",
               "pos": "n",
-              "meaning": "a philosopher who specializes in ethics"
+              "meaning": "nhà đạo đức học"
             },
             {
               "word": "ethician",
               "pos": "n",
-              "meaning": "a philosopher who specializes in ethics"
+              "meaning": "nhà đạo đức học"
             }
           ],
           "synonyms": [
@@ -5379,7 +5904,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "ethical motive": "động cơ đạo đức",
+            "morals": "đạo đức",
+            "morality": "đạo đức"
+          }
         },
         {
           "id": "topic-business-155",
@@ -5401,7 +5931,7 @@
             {
               "word": "healthfulness",
               "pos": "n",
-              "meaning": "the quality of promoting good health"
+              "meaning": "sức khỏe"
             }
           ],
           "synonyms": [],
@@ -5409,7 +5939,10 @@
             "unhealthful"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "unhealthful": "không tốt cho sức khỏe"
+          }
         },
         {
           "id": "topic-business-156",
@@ -5431,7 +5964,7 @@
             {
               "word": "inefficiency",
               "pos": "n",
-              "meaning": "unskillfulness resulting from a lack of efficiency"
+              "meaning": "sự kém hiệu quả"
             }
           ],
           "synonyms": [],
@@ -5439,7 +5972,10 @@
             "efficient"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "efficient": "hiệu quả, năng suất cao"
+          }
         },
         {
           "id": "topic-business-157",
@@ -5466,7 +6002,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "litre": "lít",
+            "l": "tôi",
+            "cubic decimeter": "decimét khối",
+            "cubic decimetre": "decimet khối"
+          }
         },
         {
           "id": "topic-business-158",
@@ -5532,17 +6074,17 @@
             {
               "word": "unreliableness",
               "pos": "n",
-              "meaning": "the trait of not being dependable or reliable"
+              "meaning": "không đáng tin cậy"
             },
             {
               "word": "unreliability",
               "pos": "n",
-              "meaning": "the trait of not being dependable or reliable"
+              "meaning": "không đáng tin cậy"
             },
             {
               "word": "undependableness",
               "pos": "n",
-              "meaning": "the trait of not being dependable or reliable"
+              "meaning": "tính không đáng tin cậy"
             }
           ],
           "synonyms": [
@@ -5553,7 +6095,12 @@
             "dependable"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "undependable": "không đáng tin cậy",
+            "reliable": "đáng tin cậy, ổn định",
+            "dependable": "đáng tin cậy"
+          }
         },
         {
           "id": "topic-business-161",
@@ -5577,7 +6124,10 @@
             "acute"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "acute": "cấp tính"
+          }
         },
         {
           "id": "topic-business-162",
@@ -5599,7 +6149,7 @@
             {
               "word": "resemblance",
               "pos": "n",
-              "meaning": "similarity in appearance or external or superficial details"
+              "meaning": "giống nhau"
             }
           ],
           "synonyms": [],
@@ -5627,17 +6177,17 @@
             {
               "word": "transgression",
               "pos": "n",
-              "meaning": "the act of transgressing; the violation of a law or a duty o"
+              "meaning": "vi phạm"
             },
             {
               "word": "transgressor",
               "pos": "n",
-              "meaning": "someone who transgresses; someone who violates a law or comm"
+              "meaning": "người vi phạm"
             },
             {
               "word": "offensive",
               "pos": "adj",
-              "meaning": "violating or tending to violate or offend against"
+              "meaning": "gây khó chịu"
             }
           ],
           "synonyms": [
@@ -5650,7 +6200,14 @@
             "keep"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "transgress": "vi phạm",
+            "offend": "xúc phạm",
+            "infract": "vi phạm",
+            "go against": "đi ngược lại",
+            "keep": "giữ"
+          }
         },
         {
           "id": "topic-business-164",
@@ -5676,7 +6233,11 @@
             "plug in"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "disconnect": "ngắt kết nối",
+            "plug in": "cắm vào"
+          }
         },
         {
           "id": "topic-business-165",
@@ -5722,7 +6283,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "not": "không"
+          }
         },
         {
           "id": "topic-business-167",
@@ -5746,7 +6310,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "hedgerow": "hàng rào"
+          }
         },
         {
           "id": "topic-business-168",
@@ -5768,12 +6335,12 @@
             {
               "word": "adult",
               "pos": "n",
-              "meaning": "a fully developed person from maturity onward"
+              "meaning": "người lớn"
             },
             {
               "word": "mature",
               "pos": "adj",
-              "meaning": "having reached full natural growth or development"
+              "meaning": "trưởng thành"
             }
           ],
           "synonyms": [
@@ -5781,7 +6348,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "adulthood": "trưởng thành"
+          }
         },
         {
           "id": "topic-business-169",
@@ -5803,17 +6373,17 @@
             {
               "word": "fringe",
               "pos": "n",
-              "meaning": "the outside boundary or surface of something"
+              "meaning": "rìa"
             },
             {
               "word": "margin",
               "pos": "n",
-              "meaning": "the boundary line or the area immediately inside the boundar"
+              "meaning": "biên lợi nhuận; lề"
             },
             {
               "word": "marginality",
               "pos": "n",
-              "meaning": "the property of being marginal or on the fringes"
+              "meaning": "bên lề"
             }
           ],
           "synonyms": [
@@ -5821,7 +6391,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "fringy": "diềm xếp nếp"
+          }
         },
         {
           "id": "topic-business-170",
@@ -5843,17 +6416,17 @@
             {
               "word": "discrepant",
               "pos": "adj",
-              "meaning": "not in accord"
+              "meaning": "khác biệt"
             },
             {
               "word": "variant",
               "pos": "adj",
-              "meaning": "differing from a norm or standard"
+              "meaning": "biến thể"
             },
             {
               "word": "vary",
               "pos": "v",
-              "meaning": "be at variance with; be out of line with"
+              "meaning": "khác nhau"
             }
           ],
           "synonyms": [
@@ -5862,7 +6435,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "discrepancy": "sự chênh lệch, sai khác (hóa đơn/số liệu)",
+            "variant": "biến thể"
+          }
         },
         {
           "id": "topic-business-171",
@@ -5884,7 +6461,7 @@
             {
               "word": "depreciate",
               "pos": "v",
-              "meaning": "lower the value of something"
+              "meaning": "mất giá"
             }
           ],
           "synonyms": [],
@@ -5892,7 +6469,10 @@
             "appreciation"
           ],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "appreciation": "đánh giá cao"
+          }
         },
         {
           "id": "topic-business-172",
@@ -5961,7 +6541,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "trade good": "buôn bán tốt",
+            "good": "tốt"
+          }
         },
         {
           "id": "topic-business-175",
@@ -5983,7 +6567,7 @@
             {
               "word": "money",
               "pos": "n",
-              "meaning": "the official currency issued by a government or national ban"
+              "meaning": "tiền"
             }
           ],
           "synonyms": [
@@ -5991,7 +6575,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g10"
+          "topicId": "topic-business-g10",
+          "relationMeanings": {
+            "pecuniary": "tiền bạc"
+          }
         }
       ]
     },
@@ -6020,17 +6607,17 @@
             {
               "word": "sum",
               "pos": "v",
-              "meaning": "determine the sum of"
+              "meaning": "tổng"
             },
             {
               "word": "summate",
               "pos": "v",
-              "meaning": "determine the sum of"
+              "meaning": "tóm tắt"
             },
             {
               "word": "total",
               "pos": "v",
-              "meaning": "add up in number or quantity"
+              "meaning": "tổng cộng"
             }
           ],
           "synonyms": [
@@ -6040,7 +6627,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "sum": "tổng",
+            "total": "tổng cộng",
+            "totality": "toàn bộ"
+          }
         },
         {
           "id": "topic-business-177",
@@ -6062,17 +6654,17 @@
             {
               "word": "evaluate",
               "pos": "v",
-              "meaning": "evaluate or estimate the nature, quality, ability, extent, o"
+              "meaning": "đánh giá, thẩm định"
             },
             {
               "word": "valuate",
               "pos": "v",
-              "meaning": "evaluate or estimate the nature, quality, ability, extent, o"
+              "meaning": "định giá"
             },
             {
               "word": "rate",
               "pos": "v",
-              "meaning": "estimate the value of"
+              "meaning": "mức giá, tỷ lệ; đánh giá"
             }
           ],
           "synonyms": [
@@ -6081,7 +6673,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "evaluation": "đánh giá",
+            "rating": "đánh giá"
+          }
         },
         {
           "id": "topic-business-178",
@@ -6125,7 +6721,7 @@
             {
               "word": "subordinate",
               "pos": "adj",
-              "meaning": "lower in rank or importance"
+              "meaning": "cấp dưới"
             }
           ],
           "synonyms": [
@@ -6135,7 +6731,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "subordinate": "cấp dưới",
+            "underling": "thuộc hạ",
+            "foot soldier": "lính bộ binh"
+          }
         },
         {
           "id": "topic-business-180",
@@ -6179,7 +6780,7 @@
             {
               "word": "allocate",
               "pos": "v",
-              "meaning": "distribute according to a plan or set apart for a special pu"
+              "meaning": "phân bổ (ngân sách, nguồn lực)"
             }
           ],
           "synonyms": [
@@ -6187,7 +6788,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "allotment": "sự phân bổ"
+          }
         },
         {
           "id": "topic-business-182",
@@ -6209,7 +6813,7 @@
             {
               "word": "volatile",
               "pos": "adj",
-              "meaning": "tending to vary often or widely"
+              "meaning": "dễ bay hơi"
             }
           ],
           "synonyms": [
@@ -6217,7 +6821,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "unpredictability": "khó đoán"
+          }
         },
         {
           "id": "topic-business-183",
@@ -6239,17 +6846,17 @@
             {
               "word": "deviate",
               "pos": "v",
-              "meaning": "be at variance with; be out of line with"
+              "meaning": "chệch hướng"
             },
             {
               "word": "diverge",
               "pos": "v",
-              "meaning": "be at variance with; be out of line with"
+              "meaning": "phân kỳ"
             },
             {
               "word": "depart",
               "pos": "v",
-              "meaning": "be at variance with; be out of line with"
+              "meaning": "khởi hành, rời đi"
             }
           ],
           "synonyms": [
@@ -6259,7 +6866,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "divergence": "phân kỳ",
+            "departure": "khởi hành",
+            "difference": "sự khác biệt"
+          }
         },
         {
           "id": "topic-business-184",
@@ -6303,7 +6915,7 @@
             {
               "word": "credit",
               "pos": "v",
-              "meaning": "accounting: enter as credit"
+              "meaning": "tín dụng; ghi nhận công lao"
             }
           ],
           "synonyms": [],
@@ -6311,7 +6923,10 @@
             "debtor"
           ],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "debtor": "con nợ"
+          }
         },
         {
           "id": "topic-business-186",
@@ -6360,7 +6975,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "bomber": "máy bay ném bom",
+            "grinder": "máy xay",
+            "hero": "anh hùng",
+            "hero sandwich": "bánh sandwich anh hùng"
+          }
         },
         {
           "id": "topic-business-188",
@@ -6384,7 +7005,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "rente": "thuê"
+          }
         },
         {
           "id": "topic-business-189",
@@ -6406,12 +7030,12 @@
             {
               "word": "disclose",
               "pos": "v",
-              "meaning": "make known to the public information that was previously kno"
+              "meaning": "tiết lộ"
             },
             {
               "word": "reveal",
               "pos": "v",
-              "meaning": "make known to the public information that was previously kno"
+              "meaning": "tiết lộ"
             }
           ],
           "synonyms": [
@@ -6420,7 +7044,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "revelation": "sự tiết lộ",
+            "revealing": "lộ liễu"
+          }
         },
         {
           "id": "topic-business-190",
@@ -6442,7 +7070,7 @@
             {
               "word": "govern",
               "pos": "v",
-              "meaning": "exercise authority over; as of nations"
+              "meaning": "cai trị"
             }
           ],
           "synonyms": [
@@ -6451,7 +7079,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "government": "chính phủ",
+            "authorities": "chính quyền"
+          }
         },
         {
           "id": "topic-business-191",
@@ -6473,17 +7105,17 @@
             {
               "word": "hazard",
               "pos": "n",
-              "meaning": "a source of danger; a possibility of incurring loss or misfo"
+              "meaning": "nguy hiểm"
             },
             {
               "word": "hazardousness",
               "pos": "n",
-              "meaning": "the state of being dangerous"
+              "meaning": "tính nguy hiểm"
             },
             {
               "word": "risk",
               "pos": "n",
-              "meaning": "a source of danger; a possibility of incurring loss or misfo"
+              "meaning": "rủi ro, nguy cơ"
             }
           ],
           "synonyms": [
@@ -6492,7 +7124,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "hazardous": "nguy hiểm",
+            "wild": "hoang dã"
+          }
         },
         {
           "id": "topic-business-192",
@@ -6514,7 +7150,7 @@
             {
               "word": "parliamentary",
               "pos": "adj",
-              "meaning": "relating to or having the nature of a parliament"
+              "meaning": "thuộc nghị viện"
             }
           ],
           "synonyms": [],
@@ -6542,7 +7178,7 @@
             {
               "word": "align",
               "pos": "v",
-              "meaning": "align oneself with a group or a way of thinking"
+              "meaning": "căn chỉnh"
             }
           ],
           "synonyms": [
@@ -6554,7 +7190,13 @@
             "nonalignment"
           ],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "alliance": "liên minh",
+            "alignment": "sự căn chỉnh",
+            "alinement": "sự sắp hàng",
+            "nonalignment": "không liên kết"
+          }
         },
         {
           "id": "topic-business-194",
@@ -6598,7 +7240,7 @@
             {
               "word": "lend",
               "pos": "v",
-              "meaning": "give temporarily; let have for a limited time"
+              "meaning": "cho vay"
             }
           ],
           "synonyms": [
@@ -6608,7 +7250,11 @@
             "borrower"
           ],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "loaner": "người cho mượn",
+            "borrower": "người vay"
+          }
         },
         {
           "id": "topic-business-196",
@@ -6627,9 +7273,7 @@
             }
           ],
           "wordFamily": [],
-          "synonyms": [
-            "144"
-          ],
+          "synonyms": [],
           "antonyms": [],
           "collocations": [],
           "topicId": "topic-business-g11"
@@ -6654,12 +7298,12 @@
             {
               "word": "liquify",
               "pos": "v",
-              "meaning": "make (a solid substance) liquid, as by heating"
+              "meaning": "hóa lỏng"
             },
             {
               "word": "liquid",
               "pos": "adj",
-              "meaning": "filled or brimming with tears"
+              "meaning": "chất lỏng"
             }
           ],
           "synonyms": [
@@ -6669,7 +7313,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "liquid": "chất lỏng",
+            "liquidness": "tính thanh khoản",
+            "liquid state": "trạng thái lỏng"
+          }
         },
         {
           "id": "topic-business-198",
@@ -6713,7 +7362,7 @@
             {
               "word": "regulate",
               "pos": "v",
-              "meaning": "fix or adjust the time, amount, degree, or rate of"
+              "meaning": "điều tiết"
             }
           ],
           "synonyms": [],
@@ -6763,17 +7412,17 @@
             {
               "word": "barter",
               "pos": "v",
-              "meaning": "exchange goods without involving money"
+              "meaning": "trao đổi hàng hóa"
             },
             {
               "word": "swop",
               "pos": "v",
-              "meaning": "exchange or give (something) in exchange for"
+              "meaning": "trao đổi"
             },
             {
               "word": "trade",
               "pos": "v",
-              "meaning": "exchange or give (something) in exchange for"
+              "meaning": "buôn bán"
             }
           ],
           "synonyms": [
@@ -6783,7 +7432,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "barter": "trao đổi hàng hóa",
+            "swop": "trao đổi",
+            "trade": "buôn bán"
+          }
         },
         {
           "id": "topic-business-202",
@@ -6809,7 +7463,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "arrested development": "bắt giữ phát triển",
+            "fixation": "cố định",
+            "infantile fixation": "sự cố định của trẻ thơ"
+          }
         },
         {
           "id": "topic-business-203",
@@ -6831,17 +7490,17 @@
             {
               "word": "constitute",
               "pos": "v",
-              "meaning": "set up or lay the groundwork for"
+              "meaning": "tạo thành"
             },
             {
               "word": "establish",
               "pos": "v",
-              "meaning": "set up or found"
+              "meaning": "thành lập, thiết lập"
             },
             {
               "word": "form",
               "pos": "v",
-              "meaning": "create (as an entity)"
+              "meaning": "hình thức"
             }
           ],
           "synonyms": [
@@ -6852,7 +7511,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "establishment": "thành lập",
+            "formation": "hình thành",
+            "organization": "tổ chức",
+            "organisation": "tổ chức"
+          }
         },
         {
           "id": "topic-business-204",
@@ -6874,17 +7539,17 @@
             {
               "word": "trade",
               "pos": "v",
-              "meaning": "engage in the trade of"
+              "meaning": "buôn bán"
             },
             {
               "word": "dealership",
               "pos": "n",
-              "meaning": "a business established or operated under an authorization to"
+              "meaning": "đại lý"
             },
             {
               "word": "deal",
               "pos": "v",
-              "meaning": "do business; offer for sale as for one's livelihood"
+              "meaning": "thỏa thuận, giao dịch; giải quyết"
             }
           ],
           "synonyms": [
@@ -6894,7 +7559,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "bargainer": "người mặc cả",
+            "dealer": "đại lý",
+            "monger": "người mong manh"
+          }
         },
         {
           "id": "topic-business-205",
@@ -6916,17 +7586,17 @@
             {
               "word": "monopolistic",
               "pos": "adj",
-              "meaning": "having exclusive control over a commercial activity by posse"
+              "meaning": "độc quyền"
             },
             {
               "word": "monopolize",
               "pos": "v",
-              "meaning": "have and control fully and exclusively"
+              "meaning": "độc quyền"
             },
             {
               "word": "monopolise",
               "pos": "v",
-              "meaning": "have or exploit a monopoly of"
+              "meaning": "độc quyền"
             }
           ],
           "synonyms": [],
@@ -6954,12 +7624,12 @@
             {
               "word": "correlational",
               "pos": "adj",
-              "meaning": "relating to or employing correlation"
+              "meaning": "tương quan"
             },
             {
               "word": "correlate",
               "pos": "v",
-              "meaning": "to bear a reciprocal or mutual relation"
+              "meaning": "tương quan"
             }
           ],
           "synonyms": [
@@ -6968,7 +7638,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "correlation coefficient": "hệ số tương quan",
+            "coefficient of correlation": "hệ số tương quan"
+          }
         },
         {
           "id": "topic-business-207",
@@ -7012,12 +7686,12 @@
             {
               "word": "deprave",
               "pos": "v",
-              "meaning": "corrupt morally or by intemperance or sensuality"
+              "meaning": "đồi trụy"
             },
             {
               "word": "depraved",
               "pos": "adj",
-              "meaning": "deviating from what is considered moral or right or proper o"
+              "meaning": "đồi trụy"
             }
           ],
           "synonyms": [
@@ -7028,7 +7702,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "degeneracy": "thoái hóa",
+            "depravation": "suy đồi",
+            "depravity": "đồi trụy",
+            "putrefaction": "thối rữa"
+          }
         },
         {
           "id": "topic-business-209",
@@ -7050,7 +7730,7 @@
             {
               "word": "issue",
               "pos": "v",
-              "meaning": "circulate or distribute or equip with"
+              "meaning": "vấn đề; phát hành, cấp phát"
             }
           ],
           "synonyms": [],
@@ -7078,7 +7758,7 @@
             {
               "word": "borrow",
               "pos": "v",
-              "meaning": "get temporarily"
+              "meaning": "vay"
             }
           ],
           "synonyms": [],
@@ -7086,7 +7766,10 @@
             "lender"
           ],
           "collocations": [],
-          "topicId": "topic-business-g11"
+          "topicId": "topic-business-g11",
+          "relationMeanings": {
+            "lender": "người cho vay"
+          }
         }
       ]
     },
@@ -7115,12 +7798,12 @@
             {
               "word": "insure",
               "pos": "v",
-              "meaning": "protect by insurance"
+              "meaning": "bảo hiểm"
             },
             {
               "word": "underwrite",
               "pos": "v",
-              "meaning": "protect by insurance"
+              "meaning": "bảo lãnh"
             }
           ],
           "synonyms": [
@@ -7131,7 +7814,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "insurance company": "công ty bảo hiểm",
+            "insurance firm": "công ty bảo hiểm",
+            "insurance underwriter": "người bảo lãnh bảo hiểm",
+            "underwriter": "người bảo lãnh"
+          }
         },
         {
           "id": "topic-business-212",
@@ -7153,7 +7842,7 @@
             {
               "word": "profitable",
               "pos": "adj",
-              "meaning": "yielding material gain or profit"
+              "meaning": "có lãi"
             }
           ],
           "synonyms": [
@@ -7166,7 +7855,14 @@
             "unprofitability"
           ],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "profitableness": "lợi nhuận",
+            "gainfulness": "đạt được",
+            "lucrativeness": "sinh lời",
+            "unprofitableness": "không có lợi",
+            "unprofitability": "không có lãi"
+          }
         },
         {
           "id": "topic-business-213",
@@ -7210,7 +7906,7 @@
             {
               "word": "terrorist",
               "pos": "n",
-              "meaning": "a radical who employs terror as a political weapon; usually "
+              "meaning": "khủng bố"
             }
           ],
           "synonyms": [
@@ -7219,7 +7915,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "act of terrorism": "khủng bố",
+            "terrorist act": "khủng bố"
+          }
         },
         {
           "id": "topic-business-215",
@@ -7241,7 +7941,7 @@
             {
               "word": "regulate",
               "pos": "v",
-              "meaning": "fix or adjust the time, amount, degree, or rate of"
+              "meaning": "điều tiết"
             }
           ],
           "synonyms": [
@@ -7249,7 +7949,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "regulative": "quy định"
+          }
         },
         {
           "id": "topic-business-216",
@@ -7293,7 +7996,7 @@
             {
               "word": "optimum",
               "pos": "n",
-              "meaning": "most favorable conditions or greatest degree or amount possi"
+              "meaning": "tối ưu"
             }
           ],
           "synonyms": [
@@ -7301,7 +8004,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "optimum": "tối ưu"
+          }
         },
         {
           "id": "topic-business-218",
@@ -7347,7 +8053,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "substructure": "công trình phụ"
+          }
         },
         {
           "id": "topic-business-220",
@@ -7369,17 +8078,17 @@
             {
               "word": "disclosure",
               "pos": "n",
-              "meaning": "the speech act of making something evident"
+              "meaning": "sự tiết lộ"
             },
             {
               "word": "revelation",
               "pos": "n",
-              "meaning": "an enlightening or astonishing disclosure"
+              "meaning": "sự tiết lộ"
             },
             {
               "word": "revealing",
               "pos": "n",
-              "meaning": "the speech act of making something evident"
+              "meaning": "lộ liễu"
             }
           ],
           "synonyms": [
@@ -7390,7 +8099,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "unwrap": "mở gói",
+            "let on": "thôi nào",
+            "bring out": "mang ra",
+            "reveal": "tiết lộ"
+          }
         },
         {
           "id": "topic-business-221",
@@ -7478,7 +8193,7 @@
             {
               "word": "confederate",
               "pos": "v",
-              "meaning": "form a confederation with; of nations"
+              "meaning": "liên minh"
             }
           ],
           "synonyms": [
@@ -7486,7 +8201,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "confederation": "liên đoàn"
+          }
         },
         {
           "id": "topic-business-225",
@@ -7512,7 +8230,11 @@
             "creditor"
           ],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "debitor": "người mắc nợ",
+            "creditor": "chủ nợ"
+          }
         },
         {
           "id": "topic-business-226",
@@ -7534,12 +8256,12 @@
             {
               "word": "aptness",
               "pos": "n",
-              "meaning": "a disposition to behave in a certain way"
+              "meaning": "năng khiếu"
             },
             {
               "word": "liability",
               "pos": "n",
-              "meaning": "the quality of being something that holds you back"
+              "meaning": "Nguy cơ, điều gây khó khăn trở ngại"
             }
           ],
           "synonyms": [
@@ -7547,7 +8269,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "apt": "thích hợp"
+          }
         },
         {
           "id": "topic-business-227",
@@ -7569,7 +8294,7 @@
             {
               "word": "parametric",
               "pos": "adj",
-              "meaning": "of or relating to or in terms of a parameter"
+              "meaning": "tham số"
             }
           ],
           "synonyms": [
@@ -7577,7 +8302,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "parametric quantity": "đại lượng tham số"
+          }
         },
         {
           "id": "topic-business-228",
@@ -7599,12 +8327,12 @@
             {
               "word": "integrate",
               "pos": "v",
-              "meaning": "open (a place) to members of all races and ethnic groups"
+              "meaning": "tích hợp"
             },
             {
               "word": "desegregate",
               "pos": "v",
-              "meaning": "open (a place) to members of all races and ethnic groups"
+              "meaning": "tách biệt"
             }
           ],
           "synonyms": [
@@ -7615,7 +8343,12 @@
             "segregation"
           ],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "integrating": "tích hợp",
+            "desegregation": "tách biệt",
+            "segregation": "sự phân biệt"
+          }
         },
         {
           "id": "topic-business-229",
@@ -7637,12 +8370,12 @@
             {
               "word": "scandalize",
               "pos": "v",
-              "meaning": "strike with disgust or revulsion"
+              "meaning": "tai tiếng"
             },
             {
               "word": "scandalise",
               "pos": "v",
-              "meaning": "strike with disgust or revulsion"
+              "meaning": "tai tiếng"
             }
           ],
           "synonyms": [
@@ -7651,7 +8384,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "dirt": "bụi bẩn",
+            "malicious gossip": "nói xấu ác ý"
+          }
         },
         {
           "id": "topic-business-230",
@@ -7675,7 +8412,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "time interval": "khoảng thời gian"
+          }
         },
         {
           "id": "topic-business-231",
@@ -7697,17 +8437,17 @@
             {
               "word": "postponement",
               "pos": "n",
-              "meaning": "act of putting off to a future time"
+              "meaning": "hoãn lại"
             },
             {
               "word": "postponer",
               "pos": "n",
-              "meaning": "someone who postpones work (especially out of laziness or ha"
+              "meaning": "trì hoãn"
             },
             {
               "word": "prorogation",
               "pos": "n",
-              "meaning": "discontinuation of the meeting (of a legislative body) witho"
+              "meaning": "dự đoán"
             }
           ],
           "synonyms": [
@@ -7718,7 +8458,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "postpone": "hoãn lại sang thời điểm sau",
+            "prorogue": "mở đầu",
+            "hold over": "chờ đợi",
+            "put over": "bỏ qua"
+          }
         },
         {
           "id": "topic-business-232",
@@ -7742,7 +8488,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "final payment": "thanh toán cuối cùng"
+          }
         },
         {
           "id": "topic-business-233",
@@ -7764,7 +8513,7 @@
             {
               "word": "ethics",
               "pos": "n",
-              "meaning": "motivation based on ideas of right and wrong"
+              "meaning": "đạo đức"
             }
           ],
           "synonyms": [],
@@ -7772,7 +8521,10 @@
             "unethical"
           ],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "unethical": "phi đạo đức"
+          }
         },
         {
           "id": "topic-business-234",
@@ -7799,7 +8551,12 @@
             "privately"
           ],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "publically": "công khai",
+            "in public": "ở nơi công cộng",
+            "privately": "riêng tư"
+          }
         },
         {
           "id": "topic-business-235",
@@ -7821,17 +8578,17 @@
             {
               "word": "administer",
               "pos": "v",
-              "meaning": "work in an administrative capacity; supervise or be in charg"
+              "meaning": "quản lý"
             },
             {
               "word": "organize",
               "pos": "v",
-              "meaning": "create (as an entity)"
+              "meaning": "tổ chức"
             },
             {
               "word": "organise",
               "pos": "v",
-              "meaning": "create (as an entity)"
+              "meaning": "tổ chức"
             }
           ],
           "synonyms": [
@@ -7842,7 +8599,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "administration": "hành chính",
+            "governing body": "cơ quan chủ quản",
+            "establishment": "thành lập",
+            "brass": "đồng thau"
+          }
         },
         {
           "id": "topic-business-236",
@@ -7864,17 +8627,17 @@
             {
               "word": "sell",
               "pos": "v",
-              "meaning": "do business; offer for sale as for one's livelihood"
+              "meaning": "bán"
             },
             {
               "word": "market",
               "pos": "v",
-              "meaning": "engage in the commercial promotion, sale, or distribution of"
+              "meaning": "tiếp thị, quảng bá ra thị trường"
             },
             {
               "word": "vend",
               "pos": "v",
-              "meaning": "sell or offer for sale from place to place"
+              "meaning": "bán hàng"
             }
           ],
           "synonyms": [
@@ -7885,7 +8648,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "seller": "người bán",
+            "vender": "người bán hàng",
+            "vendor": "nhà cung cấp",
+            "trafficker": "kẻ buôn người"
+          }
         },
         {
           "id": "topic-business-237",
@@ -7906,13 +8675,15 @@
           "wordFamily": [],
           "synonyms": [
             "reb",
-            "johnny reb",
-            "johnny",
             "greyback"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "reb": "nổi loạn",
+            "greyback": "lưng xám"
+          }
         },
         {
           "id": "topic-business-238",
@@ -7936,7 +8707,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "legislative act": "đạo luật lập pháp"
+          }
         },
         {
           "id": "topic-business-239",
@@ -7960,7 +8734,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "reconstitute": "hoàn nguyên"
+          }
         },
         {
           "id": "topic-business-240",
@@ -7982,17 +8759,17 @@
             {
               "word": "remainder",
               "pos": "v",
-              "meaning": "sell cheaply as remainders"
+              "meaning": "phần còn lại"
             },
             {
               "word": "remain",
               "pos": "v",
-              "meaning": "be left; of persons, questions, problems, results, evidence,"
+              "meaning": "còn lại"
             },
             {
               "word": "residuary",
               "pos": "adj",
-              "meaning": "relating to or indicating a remainder"
+              "meaning": "nơi cư trú"
             }
           ],
           "synonyms": [
@@ -8003,7 +8780,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "remainder": "phần còn lại",
+            "balance": "số dư tài khoản; sự cân bằng",
+            "residue": "cặn bã",
+            "residuum": "dư lượng"
+          }
         },
         {
           "id": "topic-business-241",
@@ -8027,7 +8810,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "house of cards": "nhà bài"
+          }
         },
         {
           "id": "topic-business-242",
@@ -8071,17 +8857,17 @@
             {
               "word": "accomplishable",
               "pos": "adj",
-              "meaning": "capable of existing or taking place or proving true; possibl"
+              "meaning": "có thể thực hiện được"
             },
             {
               "word": "accomplishment",
               "pos": "n",
-              "meaning": "the action of accomplishing something"
+              "meaning": "thành tựu"
             },
             {
               "word": "executive",
               "pos": "adj",
-              "meaning": "having the function of carrying out plans or orders etc."
+              "meaning": "điều hành"
             }
           ],
           "synonyms": [
@@ -8092,7 +8878,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "carry through": "mang theo",
+            "accomplish": "hoàn thành xuất sắc",
+            "carry out": "tiến hành, thực thi (kế hoạch, khảo sát)",
+            "action": "hành động"
+          }
         },
         {
           "id": "topic-business-244",
@@ -8118,7 +8910,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "hold": "tổ chức (sự kiện); nắm giữ; chờ máy",
+            "view as": "xem như",
+            "take for": "lấy cho"
+          }
         },
         {
           "id": "topic-business-245",
@@ -8140,12 +8937,12 @@
             {
               "word": "defend",
               "pos": "v",
-              "meaning": "be the defense counsel for someone in a trial"
+              "meaning": "bảo vệ"
             },
             {
               "word": "suspect",
               "pos": "v",
-              "meaning": "hold in suspicion; believe to be guilty"
+              "meaning": "nghi ngờ"
             }
           ],
           "synonyms": [
@@ -8155,7 +8952,11 @@
             "plaintiff"
           ],
           "collocations": [],
-          "topicId": "topic-business-g12"
+          "topicId": "topic-business-g12",
+          "relationMeanings": {
+            "suspect": "nghi ngờ",
+            "plaintiff": "nguyên đơn"
+          }
         }
       ]
     },
@@ -8184,7 +8985,7 @@
             {
               "word": "statistics",
               "pos": "n",
-              "meaning": "a branch of applied mathematics concerned with the collectio"
+              "meaning": "thống kê"
             }
           ],
           "synonyms": [],
@@ -8234,7 +9035,7 @@
             {
               "word": "allow",
               "pos": "v",
-              "meaning": "give or assign a resource to a particular person or cause"
+              "meaning": "cho phép"
             }
           ],
           "synonyms": [],
@@ -8262,17 +9063,17 @@
             {
               "word": "enforcement",
               "pos": "n",
-              "meaning": "the act of enforcing; ensuring observance of or obedience to"
+              "meaning": "thi hành án"
             },
             {
               "word": "enforcer",
               "pos": "n",
-              "meaning": "one whose job it is to execute unpleasant tasks for a superi"
+              "meaning": "người thi hành án"
             },
             {
               "word": "applicative",
               "pos": "adj",
-              "meaning": "readily applicable or practical"
+              "meaning": "áp dụng"
             }
           ],
           "synonyms": [
@@ -8283,7 +9084,12 @@
             "exempt"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "implement": "triển khai, thực thi (chính sách, hệ thống)",
+            "apply": "áp dụng",
+            "exempt": "miễn"
+          }
         },
         {
           "id": "topic-business-250",
@@ -8327,7 +9133,7 @@
             {
               "word": "telecommunicate",
               "pos": "v",
-              "meaning": "communicate over long distances, as via the telephone or e-m"
+              "meaning": "viễn thông"
             }
           ],
           "synonyms": [
@@ -8335,7 +9141,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "telecommunication": "viễn thông"
+          }
         },
         {
           "id": "topic-business-252",
@@ -8357,17 +9166,17 @@
             {
               "word": "exploitive",
               "pos": "adj",
-              "meaning": "tending to exploit or make use of"
+              "meaning": "bóc lột"
             },
             {
               "word": "exploitative",
               "pos": "adj",
-              "meaning": "tending to exploit or make use of"
+              "meaning": "bóc lột"
             },
             {
               "word": "exploitatory",
               "pos": "adj",
-              "meaning": "tending to exploit or make use of"
+              "meaning": "bóc lột"
             }
           ],
           "synonyms": [
@@ -8375,7 +9184,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "work": "công việc"
+          }
         },
         {
           "id": "topic-business-253",
@@ -8422,7 +9234,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "pact": "hiệp ước",
+            "accord": "hiệp định, sự đồng thuận"
+          }
         },
         {
           "id": "topic-business-255",
@@ -8447,7 +9263,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "doctor": "bác sĩ",
+            "doctor up": "bác sĩ lên"
+          }
         },
         {
           "id": "topic-business-256",
@@ -8469,7 +9289,7 @@
             {
               "word": "tax",
               "pos": "v",
-              "meaning": "levy a tax on"
+              "meaning": "thuế"
             }
           ],
           "synonyms": [
@@ -8478,7 +9298,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "tax": "thuế",
+            "revenue enhancement": "nâng cao doanh thu"
+          }
         },
         {
           "id": "topic-business-257",
@@ -8500,7 +9324,7 @@
             {
               "word": "technology",
               "pos": "n",
-              "meaning": "the discipline dealing with the art or science of applying s"
+              "meaning": "công nghệ"
             }
           ],
           "synonyms": [],
@@ -8530,7 +9354,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "transnational": "xuyên quốc gia"
+          }
         },
         {
           "id": "topic-business-259",
@@ -8552,7 +9379,7 @@
             {
               "word": "complain",
               "pos": "v",
-              "meaning": "make a formal accusation; bring a formal charge"
+              "meaning": "phàn nàn"
             }
           ],
           "synonyms": [
@@ -8562,7 +9389,11 @@
             "defendant"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "complainant": "người khiếu nại",
+            "defendant": "bị cáo"
+          }
         },
         {
           "id": "topic-business-260",
@@ -8584,17 +9415,17 @@
             {
               "word": "shrinkage",
               "pos": "n",
-              "meaning": "process or result of becoming less or smaller"
+              "meaning": "co ngót"
             },
             {
               "word": "shrinking",
               "pos": "n",
-              "meaning": "process or result of becoming less or smaller"
+              "meaning": "co lại"
             },
             {
               "word": "reduction",
               "pos": "n",
-              "meaning": "the act of decreasing or reducing something"
+              "meaning": "giảm"
             }
           ],
           "synonyms": [
@@ -8602,7 +9433,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "reduce": "cắt giảm, giảm bớt"
+          }
         },
         {
           "id": "topic-business-261",
@@ -8624,7 +9458,7 @@
             {
               "word": "alien",
               "pos": "adj",
-              "meaning": "being or from or characteristic of another place or part of "
+              "meaning": "người ngoài hành tinh"
             }
           ],
           "synonyms": [
@@ -8636,7 +9470,13 @@
             "citizen"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "alien": "người ngoài hành tinh",
+            "noncitizen": "không phải là công dân",
+            "outlander": "người ngoại quốc",
+            "citizen": "Công dân"
+          }
         },
         {
           "id": "topic-business-262",
@@ -8658,12 +9498,12 @@
             {
               "word": "tax",
               "pos": "v",
-              "meaning": "levy a tax on"
+              "meaning": "thuế"
             },
             {
               "word": "taxability",
               "pos": "n",
-              "meaning": "liability to taxation"
+              "meaning": "chịu thuế"
             }
           ],
           "synonyms": [
@@ -8673,7 +9513,11 @@
             "nontaxable"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "nonexempt": "không được miễn",
+            "nontaxable": "không chịu thuế"
+          }
         },
         {
           "id": "topic-business-263",
@@ -8695,7 +9539,7 @@
             {
               "word": "disadvantageous",
               "pos": "adj",
-              "meaning": "constituting a disadvantage"
+              "meaning": "bất lợi"
             }
           ],
           "synonyms": [],
@@ -8703,7 +9547,10 @@
             "advantage"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "advantage": "lợi thế"
+          }
         },
         {
           "id": "topic-business-264",
@@ -8725,7 +9572,7 @@
             {
               "word": "subsidiary",
               "pos": "adj",
-              "meaning": "functioning in a supporting capacity"
+              "meaning": "công ty con"
             }
           ],
           "synonyms": [
@@ -8735,7 +9582,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "subsidiary": "công ty con",
+            "underling": "thuộc hạ",
+            "foot soldier": "lính bộ binh"
+          }
         },
         {
           "id": "topic-business-265",
@@ -8762,7 +9614,12 @@
             "efflux"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "influx": "Sự chảy vào, sự tràn vào",
+            "outflow": "chảy ra",
+            "efflux": "dòng chảy"
+          }
         },
         {
           "id": "topic-business-266",
@@ -8810,7 +9667,11 @@
             "lineal"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "indirect": "gián tiếp",
+            "lineal": "tuyến tính"
+          }
         },
         {
           "id": "topic-business-268",
@@ -8832,7 +9693,7 @@
             {
               "word": "modestness",
               "pos": "n",
-              "meaning": "freedom from vanity or conceit"
+              "meaning": "khiêm tốn"
             }
           ],
           "synonyms": [],
@@ -8840,7 +9701,10 @@
             "immodest"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "immodest": "khiếm nhã"
+          }
         },
         {
           "id": "topic-business-269",
@@ -8862,17 +9726,17 @@
             {
               "word": "convert",
               "pos": "v",
-              "meaning": "exchange or replace with another, usually of the same kind o"
+              "meaning": "chuyển đổi"
             },
             {
               "word": "convertibility",
               "pos": "n",
-              "meaning": "the quality of being exchangeable (especially the ability to"
+              "meaning": "khả năng chuyển đổi"
             },
             {
               "word": "exchangeability",
               "pos": "n",
-              "meaning": "the quality of being capable of exchange or interchange"
+              "meaning": "khả năng trao đổi"
             }
           ],
           "synonyms": [
@@ -8882,7 +9746,11 @@
             "inconvertible"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "exchangeable": "có thể trao đổi",
+            "inconvertible": "không thể chuyển đổi"
+          }
         },
         {
           "id": "topic-business-270",
@@ -8931,7 +9799,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "leger": "chân",
+            "account book": "sổ tài khoản",
+            "book of account": "sổ kế toán",
+            "book": "cuốn sách"
+          }
         },
         {
           "id": "topic-business-272",
@@ -8958,7 +9832,12 @@
             "cubic"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "one-dimensional": "chiều",
+            "planar": "phẳng",
+            "cubic": "khối"
+          }
         },
         {
           "id": "topic-business-273",
@@ -8980,28 +9859,32 @@
             {
               "word": "elevate",
               "pos": "v",
-              "meaning": "give a promotion to or assign to a higher position"
+              "meaning": "nâng cao"
             },
             {
               "word": "peak",
               "pos": "v",
-              "meaning": "to reach the highest point; attain maximum intensity, activi"
+              "meaning": "đỉnh"
             },
             {
               "word": "superlative",
               "pos": "adj",
-              "meaning": "highest in quality"
+              "meaning": "bậc nhất"
             }
           ],
           "synonyms": [
-            "acme",
             "height",
             "elevation",
             "peak"
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "height": "chiều cao",
+            "elevation": "độ cao",
+            "peak": "đỉnh"
+          }
         },
         {
           "id": "topic-business-274",
@@ -9023,12 +9906,12 @@
             {
               "word": "refund",
               "pos": "n",
-              "meaning": "the act of returning money received previously"
+              "meaning": "tiền hoàn lại; hoàn tiền"
             },
             {
               "word": "repayment",
               "pos": "n",
-              "meaning": "payment of a debt or obligation"
+              "meaning": "trả nợ"
             }
           ],
           "synonyms": [
@@ -9038,7 +9921,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "refund": "tiền hoàn lại; hoàn tiền",
+            "return": "lợi nhuận thu về; sự trở lại, trả hàng",
+            "give back": "trả lại"
+          }
         },
         {
           "id": "topic-business-275",
@@ -9082,12 +9970,12 @@
             {
               "word": "multiplicative",
               "pos": "adj",
-              "meaning": "tending or having the power to multiply or increase in numbe"
+              "meaning": "nhân lên"
             },
             {
               "word": "multiplication",
               "pos": "n",
-              "meaning": "a multiplicative increase"
+              "meaning": "phép nhân"
             }
           ],
           "synonyms": [
@@ -9095,7 +9983,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "manifold": "đa tạp"
+          }
         },
         {
           "id": "topic-business-277",
@@ -9117,12 +10008,12 @@
             {
               "word": "presidential",
               "pos": "adj",
-              "meaning": "relating to a president or presidency"
+              "meaning": "thuộc về tổng thống"
             },
             {
               "word": "president",
               "pos": "n",
-              "meaning": "the person who holds the office of head of state of the Unit"
+              "meaning": "chủ tịch"
             }
           ],
           "synonyms": [
@@ -9130,7 +10021,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "presidentship": "chức chủ tịch"
+          }
         },
         {
           "id": "topic-business-278",
@@ -9152,12 +10046,12 @@
             {
               "word": "rationalness",
               "pos": "n",
-              "meaning": "the quality of being consistent with or based on logic"
+              "meaning": "tính hợp lý"
             },
             {
               "word": "rationality",
               "pos": "n",
-              "meaning": "the state of having good sense and sound judgment"
+              "meaning": "tính hợp lý"
             }
           ],
           "synonyms": [],
@@ -9165,7 +10059,10 @@
             "irrational"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "irrational": "vô lý"
+          }
         },
         {
           "id": "topic-business-279",
@@ -9189,7 +10086,10 @@
             "pro"
           ],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "pro": "chuyên nghiệp"
+          }
         },
         {
           "id": "topic-business-280",
@@ -9211,17 +10111,17 @@
             {
               "word": "identity",
               "pos": "n",
-              "meaning": "exact sameness"
+              "meaning": "danh tính"
             },
             {
               "word": "identicalness",
               "pos": "n",
-              "meaning": "exact sameness"
+              "meaning": "tính đồng nhất"
             },
             {
               "word": "indistinguishability",
               "pos": "n",
-              "meaning": "exact sameness"
+              "meaning": "không thể phân biệt được"
             }
           ],
           "synonyms": [
@@ -9229,7 +10129,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g13"
+          "topicId": "topic-business-g13",
+          "relationMeanings": {
+            "indistinguishable": "không thể phân biệt được"
+          }
         }
       ]
     },
@@ -9260,7 +10163,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "upsurge": "bùng nổ"
+          }
         },
         {
           "id": "topic-business-282",
@@ -9282,7 +10188,7 @@
             {
               "word": "precede",
               "pos": "v",
-              "meaning": "be the predecessor of"
+              "meaning": "trước"
             }
           ],
           "synonyms": [],
@@ -9310,7 +10216,7 @@
             {
               "word": "deputise",
               "pos": "v",
-              "meaning": "act as a substitute"
+              "meaning": "đại diện"
             }
           ],
           "synonyms": [
@@ -9318,7 +10224,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "deputy sheriff": "phó cảnh sát trưởng"
+          }
         },
         {
           "id": "topic-business-284",
@@ -9386,7 +10295,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "chancellor of the exchequer": "thủ tướng của Exchequer"
+          }
         },
         {
           "id": "topic-business-287",
@@ -9395,7 +10307,7 @@
           "pos": "n",
           "ipaUK": "/lˈɔːsˌuːt/",
           "ipaUS": "/lˈɔːsˌuːt/",
-          "meaning": "lawsuit",
+          "meaning": "kiện tụng",
           "definitionEn": "A comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy.",
           "definitionVi": "Một thuật ngữ toàn diện cho bất kỳ thủ tục nào tại tòa án mà cá nhân tìm kiếm giải pháp pháp lý.",
           "examples": [
@@ -9408,7 +10320,7 @@
             {
               "word": "sue",
               "pos": "v",
-              "meaning": "institute legal proceedings against; file a suit against"
+              "meaning": "kiện"
             }
           ],
           "synonyms": [
@@ -9419,7 +10331,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "suit": "phù hợp; bộ vest; vụ kiện",
+            "case": "trường hợp",
+            "cause": "nguyên nhân",
+            "causa": "nguyên nhân"
+          }
         },
         {
           "id": "topic-business-288",
@@ -9463,7 +10381,7 @@
             {
               "word": "fluctuate",
               "pos": "v",
-              "meaning": "cause to fluctuate or move in a wavelike pattern"
+              "meaning": "dao động, biến động lên xuống"
             }
           ],
           "synonyms": [],
@@ -9491,7 +10409,7 @@
             {
               "word": "discriminate",
               "pos": "v",
-              "meaning": "treat differently on the basis of sex or race"
+              "meaning": "phân biệt đối xử"
             }
           ],
           "synonyms": [
@@ -9500,7 +10418,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "favoritism": "thiên vị",
+            "favouritism": "thiên vị"
+          }
         },
         {
           "id": "topic-business-291",
@@ -9546,7 +10468,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "good will": "thiện chí"
+          }
         },
         {
           "id": "topic-business-293",
@@ -9568,12 +10493,12 @@
             {
               "word": "diversify",
               "pos": "v",
-              "meaning": "make (more) diverse"
+              "meaning": "đa dạng hóa (sản phẩm, đầu tư)"
             },
             {
               "word": "variegate",
               "pos": "v",
-              "meaning": "make something more diverse and varied"
+              "meaning": "đa dạng"
             }
           ],
           "synonyms": [
@@ -9581,7 +10506,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "variegation": "đa dạng"
+          }
         },
         {
           "id": "topic-business-294",
@@ -9603,7 +10531,7 @@
             {
               "word": "likely",
               "pos": "adj",
-              "meaning": "expected to become or be; in prospect"
+              "meaning": "có khả năng"
             }
           ],
           "synonyms": [
@@ -9614,7 +10542,12 @@
             "unlikeliness"
           ],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "likeliness": "khả năng",
+            "unlikelihood": "khả năng xảy ra",
+            "unlikeliness": "không có khả năng"
+          }
         },
         {
           "id": "topic-business-295",
@@ -9640,7 +10573,11 @@
             "disorient"
           ],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "orientate": "định hướng",
+            "disorient": "mất phương hướng"
+          }
         },
         {
           "id": "topic-business-296",
@@ -9664,7 +10601,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "metric unit": "đơn vị số liệu"
+          }
         },
         {
           "id": "topic-business-297",
@@ -9708,7 +10648,7 @@
             {
               "word": "subtract",
               "pos": "v",
-              "meaning": "make a subtraction"
+              "meaning": "Trừ đi, khấu trừ; loại ra, lấy ra khỏi"
             }
           ],
           "synonyms": [
@@ -9716,7 +10656,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "subtraction": "phép trừ"
+          }
         },
         {
           "id": "topic-business-299",
@@ -9760,17 +10703,17 @@
             {
               "word": "denationalize",
               "pos": "v",
-              "meaning": "put under private control or ownership"
+              "meaning": "phi quốc hữu hóa"
             },
             {
               "word": "denationalise",
               "pos": "v",
-              "meaning": "put under private control or ownership"
+              "meaning": "phi quốc hữu hóa"
             },
             {
               "word": "privatize",
               "pos": "v",
-              "meaning": "change from governmental to private control or ownership"
+              "meaning": "tư nhân hóa"
             }
           ],
           "synonyms": [
@@ -9782,7 +10725,13 @@
             "nationalization"
           ],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "denationalization": "phi quốc hữu hóa",
+            "denationalisation": "phi quốc hữu hóa",
+            "privatisation": "tư nhân hóa",
+            "nationalization": "quốc hữu hóa"
+          }
         },
         {
           "id": "topic-business-301",
@@ -9826,17 +10775,17 @@
             {
               "word": "rectification",
               "pos": "n",
-              "meaning": "the act of offering an improvement to replace a mistake; set"
+              "meaning": "cải chính"
             },
             {
               "word": "rectifier",
               "pos": "n",
-              "meaning": "a person who corrects or sets right"
+              "meaning": "chỉnh lưu"
             },
             {
               "word": "remediation",
               "pos": "n",
-              "meaning": "act of correcting an error or a fault or an evil"
+              "meaning": "khắc phục"
             }
           ],
           "synonyms": [
@@ -9847,7 +10796,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "rectify": "Sửa cho đúng, sửa cho ngay",
+            "remediate": "khắc phục",
+            "repair": "sửa chữa, khắc phục",
+            "amend": "sửa đổi"
+          }
         },
         {
           "id": "topic-business-303",
@@ -9869,7 +10824,7 @@
             {
               "word": "accord",
               "pos": "v",
-              "meaning": "allow to have"
+              "meaning": "hiệp định, sự đồng thuận"
             }
           ],
           "synonyms": [
@@ -9877,7 +10832,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "accordance of rights": "quy định về quyền"
+          }
         },
         {
           "id": "topic-business-304",
@@ -9899,7 +10857,7 @@
             {
               "word": "parliament",
               "pos": "n",
-              "meaning": "a legislative assembly in certain countries"
+              "meaning": "quốc hội"
             }
           ],
           "synonyms": [],
@@ -9927,17 +10885,17 @@
             {
               "word": "verticalness",
               "pos": "n",
-              "meaning": "position at right angles to the horizon"
+              "meaning": "độ thẳng đứng"
             },
             {
               "word": "verticality",
               "pos": "n",
-              "meaning": "position at right angles to the horizon"
+              "meaning": "độ thẳng đứng"
             },
             {
               "word": "perpendicularity",
               "pos": "n",
-              "meaning": "the relation of opposition between things at right angles"
+              "meaning": "độ vuông góc"
             }
           ],
           "synonyms": [
@@ -9948,7 +10906,12 @@
             "horizontal"
           ],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "perpendicular": "vuông góc",
+            "inclined": "nghiêng",
+            "horizontal": "chiều ngang"
+          }
         },
         {
           "id": "topic-business-306",
@@ -9970,7 +10933,7 @@
             {
               "word": "activism",
               "pos": "n",
-              "meaning": "a policy of taking direct and militant action to achieve a p"
+              "meaning": "hoạt động"
             }
           ],
           "synonyms": [
@@ -9978,7 +10941,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "militant": "hiếu chiến"
+          }
         },
         {
           "id": "topic-business-307",
@@ -10022,7 +10988,7 @@
             {
               "word": "consultant",
               "pos": "n",
-              "meaning": "an expert who gives advice"
+              "meaning": "cố vấn"
             }
           ],
           "synonyms": [],
@@ -10050,17 +11016,17 @@
             {
               "word": "categorize",
               "pos": "v",
-              "meaning": "place into or assign to a category"
+              "meaning": "phân loại"
             },
             {
               "word": "classify",
               "pos": "v",
-              "meaning": "assign to a class or kind"
+              "meaning": "phân loại"
             },
             {
               "word": "compartmentalize",
               "pos": "v",
-              "meaning": "separate into isolated compartments or categories"
+              "meaning": "chia ngăn"
             }
           ],
           "synonyms": [
@@ -10071,7 +11037,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "categorization": "phân loại",
+            "categorisation": "phân loại",
+            "compartmentalization": "sự phân hóa",
+            "compartmentalisation": "sự chia thành từng ngăn"
+          }
         },
         {
           "id": "topic-business-310",
@@ -10093,17 +11065,17 @@
             {
               "word": "useable",
               "pos": "adj",
-              "meaning": "capable of being put to use"
+              "meaning": "có thể sử dụng được"
             },
             {
               "word": "usable",
               "pos": "adj",
-              "meaning": "capable of being put to use"
+              "meaning": "có thể sử dụng được"
             },
             {
               "word": "use",
               "pos": "n",
-              "meaning": "the act of using"
+              "meaning": "sử dụng"
             }
           ],
           "synonyms": [
@@ -10114,7 +11086,13 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "use": "sử dụng",
+            "utilise": "sử dụng",
+            "apply": "áp dụng",
+            "employ": "tuyển dụng"
+          }
         },
         {
           "id": "topic-business-311",
@@ -10136,7 +11114,7 @@
             {
               "word": "methodological",
               "pos": "adj",
-              "meaning": "relating to the methodology of some discipline"
+              "meaning": "phương pháp luận"
             }
           ],
           "synonyms": [
@@ -10144,7 +11122,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "methodological analysis": "phương pháp phân tích"
+          }
         },
         {
           "id": "topic-business-312",
@@ -10210,7 +11191,7 @@
             {
               "word": "vulnerability",
               "pos": "n",
-              "meaning": "susceptibility to injury or attack"
+              "meaning": "dễ bị tổn thương"
             }
           ],
           "synonyms": [],
@@ -10218,7 +11199,10 @@
             "invulnerable"
           ],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "invulnerable": "bất khả xâm phạm"
+          }
         },
         {
           "id": "topic-business-315",
@@ -10240,12 +11224,12 @@
             {
               "word": "dominance",
               "pos": "n",
-              "meaning": "the state that exists when one person or group has power ove"
+              "meaning": "sự thống trị"
             },
             {
               "word": "dominate",
               "pos": "v",
-              "meaning": "be in control"
+              "meaning": "thống trị"
             }
           ],
           "synonyms": [],
@@ -10253,7 +11237,10 @@
             "subordinate"
           ],
           "collocations": [],
-          "topicId": "topic-business-g14"
+          "topicId": "topic-business-g14",
+          "relationMeanings": {
+            "subordinate": "cấp dưới"
+          }
         }
       ]
     },
@@ -10282,12 +11269,12 @@
             {
               "word": "cite",
               "pos": "v",
-              "meaning": "commend"
+              "meaning": "Trích dẫn"
             },
             {
               "word": "commend",
               "pos": "v",
-              "meaning": "express approval of"
+              "meaning": "khen ngợi"
             }
           ],
           "synonyms": [
@@ -10295,7 +11282,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "commendation": "khen ngợi"
+          }
         },
         {
           "id": "topic-business-317",
@@ -10317,7 +11307,7 @@
             {
               "word": "lease",
               "pos": "v",
-              "meaning": "let for money"
+              "meaning": "hợp đồng thuê; cho thuê / thuê"
             }
           ],
           "synonyms": [
@@ -10325,7 +11315,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "leaseholder": "người cho thuê"
+          }
         },
         {
           "id": "topic-business-318",
@@ -10347,7 +11340,7 @@
             {
               "word": "communism",
               "pos": "n",
-              "meaning": "a form of socialism that abolishes private ownership"
+              "meaning": "chủ nghĩa cộng sản"
             }
           ],
           "synonyms": [
@@ -10355,7 +11348,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "communistic": "cộng sản"
+          }
         },
         {
           "id": "topic-business-319",
@@ -10377,7 +11373,7 @@
             {
               "word": "binge",
               "pos": "v",
-              "meaning": "overeat or eat immodestly; make a pig of oneself"
+              "meaning": "say sưa"
             }
           ],
           "synonyms": [
@@ -10387,7 +11383,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "tear": "nước mắt",
+            "binge": "say sưa",
+            "bout": "cơn"
+          }
         },
         {
           "id": "topic-business-320",
@@ -10409,12 +11410,12 @@
             {
               "word": "executioner",
               "pos": "n",
-              "meaning": "an official who inflicts capital punishment in pursuit of a "
+              "meaning": "đao phủ"
             },
             {
               "word": "execute",
               "pos": "v",
-              "meaning": "kill as a means of socially sanctioned punishment"
+              "meaning": "thực thi, triển khai (kế hoạch/hợp đồng)"
             }
           ],
           "synonyms": [
@@ -10424,7 +11425,12 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "executing": "thực hiện",
+            "capital punishment": "hình phạt tử hình",
+            "death penalty": "tử hình"
+          }
         },
         {
           "id": "topic-business-321",
@@ -10446,12 +11452,12 @@
             {
               "word": "sensitive",
               "pos": "adj",
-              "meaning": "hurting"
+              "meaning": "nhạy cảm"
             },
             {
               "word": "sensible",
               "pos": "adj",
-              "meaning": "readily perceived by the senses"
+              "meaning": "hợp lý"
             }
           ],
           "synonyms": [
@@ -10460,7 +11466,11 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "sensitiveness": "nhạy cảm",
+            "sensibility": "nhạy cảm"
+          }
         },
         {
           "id": "topic-business-322",
@@ -10484,7 +11494,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "rallying": "tập hợp"
+          }
         },
         {
           "id": "topic-business-323",
@@ -10506,7 +11519,7 @@
             {
               "word": "intangibleness",
               "pos": "n",
-              "meaning": "the quality of being intangible and not perceptible by touch"
+              "meaning": "tính vô hình"
             }
           ],
           "synonyms": [],
@@ -10514,7 +11527,10 @@
             "tangible"
           ],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "tangible": "hữu hình, cụ thể rõ rệt"
+          }
         },
         {
           "id": "topic-business-324",
@@ -10536,7 +11552,7 @@
             {
               "word": "succeed",
               "pos": "v",
-              "meaning": "be the successor (of)"
+              "meaning": "thành công"
             }
           ],
           "synonyms": [
@@ -10544,7 +11560,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "replacement": "thay thế"
+          }
         },
         {
           "id": "topic-business-325",
@@ -10568,7 +11587,10 @@
             "nonexempt"
           ],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "nonexempt": "không được miễn"
+          }
         },
         {
           "id": "topic-business-326",
@@ -10590,12 +11612,12 @@
             {
               "word": "globalize",
               "pos": "v",
-              "meaning": "make world-wide in scope or application"
+              "meaning": "toàn cầu hóa"
             },
             {
               "word": "globalise",
               "pos": "v",
-              "meaning": "make world-wide in scope or application"
+              "meaning": "toàn cầu hóa"
             }
           ],
           "synonyms": [
@@ -10603,7 +11625,10 @@
           ],
           "antonyms": [],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "globalisation": "toàn cầu hóa"
+          }
         },
         {
           "id": "topic-business-327",
@@ -10625,7 +11650,7 @@
             {
               "word": "elastic",
               "pos": "adj",
-              "meaning": "capable of resuming original shape after stretching or compr"
+              "meaning": "đàn hồi"
             }
           ],
           "synonyms": [
@@ -10635,7 +11660,11 @@
             "inelasticity"
           ],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "snap": "búng tay",
+            "inelasticity": "tính không co giãn"
+          }
         },
         {
           "id": "topic-business-328",
@@ -10657,12 +11686,12 @@
             {
               "word": "weakener",
               "pos": "n",
-              "meaning": "that which weakens or causes a loss of strength"
+              "meaning": "làm suy yếu"
             },
             {
               "word": "weakening",
               "pos": "n",
-              "meaning": "the act of reducing the strength of something"
+              "meaning": "suy yếu"
             }
           ],
           "synonyms": [],
@@ -10670,7 +11699,10 @@
             "strengthen"
           ],
           "collocations": [],
-          "topicId": "topic-business-g15"
+          "topicId": "topic-business-g15",
+          "relationMeanings": {
+            "strengthen": "tăng cường"
+          }
         },
         {
           "id": "topic-business-329",
@@ -10692,12 +11724,12 @@
             {
               "word": "accruement",
               "pos": "n",
-              "meaning": "the act of accumulating"
+              "meaning": "tích lũy"
             },
             {
               "word": "accrual",
               "pos": "n",
-              "meaning": "the act of accumulating"
+              "meaning": "tích lũy"
             }
           ],
           "synonyms": [],

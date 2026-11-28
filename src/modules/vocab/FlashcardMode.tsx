@@ -326,6 +326,7 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
                 antonyms={current.antonyms}
                 wordFamily={current.wordFamily}
                 collocations={current.collocations}
+                relationMeanings={current.relationMeanings}
                 defaultOpen
                 compact
               />
