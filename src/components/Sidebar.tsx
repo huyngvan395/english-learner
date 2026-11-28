@@ -13,18 +13,15 @@ import {
   Headphones,
   LogIn,
   LogOut,
-  Moon,
   NotebookPen,
   PenTool,
   RefreshCw,
-  Sun,
   Trophy,
   X,
 } from 'lucide-react';
 import { NavTab } from '../types';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
-import { useTheme } from '../context/ThemeContext';
 
 interface SidebarProps {
   activeTab: NavTab;
@@ -45,7 +42,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const { vocabProgress, notes, wrongQuestions, syncNow, signOutAndClear } = useApp();
   const { user, userProfile, syncStatus, syncError, openAuthModal } = useAuth();
-  const { isDark, toggleTheme } = useTheme();
 
   // Lock background page scroll while mobile slide-over drawer is open
   useEffect(() => {
@@ -111,7 +107,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const renderContent = (isMobile: boolean) => {
     const isCollapsed = !isMobile && collapsed;
     return (
-      <div className="flex h-full flex-col bg-[#0F172A] border-r border-slate-800/80">
+      <div className="flex h-full flex-col bg-white dark:bg-[#111827] border-r border-slate-200 dark:border-slate-800/90">
         {/* Brand */}
         <div className="flex h-16 items-center justify-between px-4 border-b border-slate-800/80">
           <div className="flex items-center gap-2.5 overflow-hidden">
@@ -164,14 +160,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 title={isCollapsed ? item.label : undefined}
                 className={`group relative flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-all ${
                   active
-                    ? 'bg-indigo-50 border border-indigo-200 text-indigo-700 font-semibold dark:bg-gradient-to-r dark:from-blue-600/25 dark:via-indigo-600/20 dark:to-violet-600/15 dark:text-white dark:border-indigo-500/40 shadow-sm'
-                    : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800/70 dark:hover:text-slate-100 border border-transparent'
+                    ? 'bg-indigo-50 border border-indigo-200 text-indigo-700 font-semibold dark:bg-indigo-500/20 dark:border-indigo-400/40 dark:text-indigo-100 shadow-sm'
+                    : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800/70 dark:hover:text-white border border-transparent'
                 }`}
               >
                 <Icon
                   className={`h-5 w-5 shrink-0 transition ${
                     active
-                      ? 'text-indigo-600 dark:text-indigo-400'
+                      ? 'text-indigo-600 dark:text-indigo-300'
                       : 'text-slate-500 group-hover:text-slate-800 dark:text-slate-400 dark:group-hover:text-slate-200'
                   }`}
                 />
@@ -180,7 +176,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     <div className="flex items-center justify-between gap-2">
                       <span
                         className={`truncate text-sm font-semibold ${
-                          active ? 'text-indigo-700 dark:text-white' : ''
+                          active ? 'text-indigo-700 dark:text-indigo-100' : ''
                         }`}
                       >
                         {item.label}
@@ -189,8 +185,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         <span
                           className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
                             active
-                              ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-500/25 dark:text-indigo-300'
-                              : 'bg-indigo-50 text-indigo-700 dark:bg-indigo-500/25 dark:text-indigo-300'
+                              ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-400/25 dark:text-indigo-200'
+                              : 'bg-indigo-50 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300'
                           }`}
                         >
                           {item.badge}
@@ -201,7 +197,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       className={`truncate text-[11px] ${
                         active
                           ? 'text-indigo-600/80 dark:text-slate-300'
-                          : 'text-slate-500 group-hover:text-slate-600 dark:text-slate-500 dark:group-hover:text-slate-400'
+                          : 'text-slate-500 group-hover:text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-300'
                       }`}
                     >
                       {item.sublabel}
@@ -213,32 +209,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
           })}
         </nav>
 
-        {/* Bottom Theme Switcher + Account & Cloud Sync Area (Parroto-inspired) */}
-        <div className="p-3 pb-safe border-t border-slate-800/80 bg-[#0B1120]/60 shrink-0 space-y-2.5">
-          {/* Quick Dark / Light Mode Toggle */}
-          <button
-            type="button"
-            onClick={toggleTheme}
-            title={isDark ? 'Chuyển sang giao diện Sáng' : 'Chuyển sang giao diện Tối'}
-            className={`flex w-full items-center ${
-              isCollapsed ? 'justify-center px-0' : 'justify-between px-3'
-            } h-9 rounded-xl border border-slate-800 bg-slate-900/80 hover:border-indigo-500/50 text-xs font-bold text-slate-300 hover:text-white transition`}
-          >
-            <span className="inline-flex items-center gap-2">
-              {isDark ? (
-                <Moon className="h-3.5 w-3.5 text-indigo-400 shrink-0" />
-              ) : (
-                <Sun className="h-3.5 w-3.5 text-amber-400 shrink-0" />
-              )}
-              {!isCollapsed && <span>{isDark ? 'Giao diện Tối' : 'Giao diện Sáng'}</span>}
-            </span>
-            {!isCollapsed && (
-              <span className="rounded-md bg-slate-800 px-1.5 py-0.5 text-[10px] font-bold text-slate-400">
-                {isDark ? '☀️ Sáng' : '🌙 Tối'}
-              </span>
-            )}
-          </button>
-
+        {/* Bottom Account & Cloud Sync Area (Parroto-inspired) */}
+        <div className="p-3 pb-safe border-t border-slate-200 dark:border-slate-800/90 bg-slate-50/70 dark:bg-[#0B1120]/60 shrink-0">
           {!user ? (
             isCollapsed ? (
               <button

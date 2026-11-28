@@ -473,8 +473,8 @@ export const WritingHub: React.FC = () => {
                 onClick={() => setMode(tab.id)}
                 className={`flex items-start gap-3 rounded-2xl border p-3.5 text-left transition ${
                   active
-                    ? 'border-indigo-400 bg-indigo-50 text-indigo-900 shadow-sm dark:border-indigo-500/70 dark:bg-gradient-to-r dark:from-blue-600/25 dark:via-indigo-600/20 dark:to-violet-600/20 dark:text-white'
-                    : 'border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-900/70 dark:text-slate-400 dark:hover:border-slate-700 dark:hover:text-slate-100'
+                    ? 'border-indigo-400 bg-indigo-50 text-indigo-900 shadow-sm dark:border-indigo-400/50 dark:bg-indigo-500/15 dark:text-white'
+                    : 'border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-slate-900 dark:border-slate-800/90 dark:bg-[#1E293B]/60 dark:text-slate-400 dark:hover:border-slate-700 dark:hover:text-slate-100'
                 }`}
               >
                 <div

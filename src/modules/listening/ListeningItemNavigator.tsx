@@ -243,10 +243,10 @@ export const ListeningItemNavigator: React.FC<ListeningItemNavigatorProps> = ({
             {items.map((item, i) => {
               const isCurrent = i === safeIdx;
               let cls =
-                'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-900/80 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:text-white';
+                'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:text-slate-900 dark:border-slate-800/90 dark:bg-[#1E293B]/60 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:text-white';
               if (isCurrent) {
                 cls =
-                  'border-indigo-400 bg-indigo-50 text-indigo-900 ring-1 ring-indigo-300 dark:bg-gradient-to-r dark:from-blue-600/35 dark:to-indigo-600/35 dark:text-white dark:ring-indigo-400/50';
+                  'border-indigo-400 bg-indigo-50 text-indigo-900 ring-1 ring-indigo-300 dark:border-indigo-400/60 dark:bg-indigo-500/20 dark:text-white dark:ring-indigo-400/40';
               } else if (item.status === 'correct') {
                 cls =
                   'border-emerald-500/40 bg-emerald-500/10 text-emerald-200 hover:bg-emerald-500/20';

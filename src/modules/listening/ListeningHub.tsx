@@ -85,8 +85,8 @@ export const ListeningHub: React.FC = () => {
                 onClick={() => setPart(p.id)}
                 className={`rounded-2xl border p-3.5 sm:p-4 text-left transition ${
                   active
-                    ? 'border-indigo-400 bg-indigo-50 shadow-sm dark:border-cyan-500/60 dark:bg-indigo-600/20 dark:shadow-glow'
-                    : 'border-slate-200 bg-white/90 hover:border-slate-300 dark:border-slate-800 dark:bg-slate-900/75 dark:hover:border-slate-700'
+                    ? 'border-indigo-400 bg-indigo-50 shadow-sm dark:border-cyan-400/50 dark:bg-indigo-500/15 dark:shadow-glow'
+                    : 'border-slate-200 bg-white/90 hover:border-slate-300 dark:border-slate-800/90 dark:bg-[#1E293B]/60 dark:hover:border-slate-700'
                 }`}
               >
                 <div className="flex items-center gap-2">

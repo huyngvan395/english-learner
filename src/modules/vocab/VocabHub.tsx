@@ -87,14 +87,14 @@ export const VocabHub: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-3 shrink-0">
-            <div className="rounded-2xl border border-slate-200/90 bg-white/90 shadow-sm dark:shadow-none dark:border-slate-700/70 dark:bg-slate-900/80 px-5 py-3.5">
+            <div className="rounded-2xl border border-slate-200/90 bg-white/90 shadow-sm dark:shadow-none dark:border-slate-700/70 dark:bg-[#1E293B]/60 px-5 py-3.5">
               <p className="text-[11px] font-semibold uppercase text-slate-500 dark:text-slate-400">Tổng kho từ</p>
               <p className="mt-1 text-2xl font-extrabold text-slate-900 dark:text-white">
                 {TOTAL_VOCAB_COUNT.toLocaleString('vi-VN')} từ
               </p>
               <p className="text-[11px] text-indigo-600 dark:text-indigo-400">{VOCAB_DECKS_META.length} bộ thẻ độc lập</p>
             </div>
-            <div className="rounded-2xl border border-slate-200/90 bg-white/90 shadow-sm dark:shadow-none dark:border-slate-700/70 dark:bg-slate-900/80 px-5 py-3.5">
+            <div className="rounded-2xl border border-slate-200/90 bg-white/90 shadow-sm dark:shadow-none dark:border-slate-700/70 dark:bg-[#1E293B]/60 px-5 py-3.5">
               <p className="text-[11px] font-semibold uppercase text-slate-500 dark:text-slate-400">Đã thuộc</p>
               <p className="mt-1 text-2xl font-extrabold text-emerald-600 dark:text-emerald-400">{totalMastered}</p>
               <p className="text-[11px] text-slate-500 dark:text-slate-400">
@@ -212,10 +212,10 @@ export const VocabHub: React.FC = () => {
                     return (
                       <div
                         key={deck.id}
-                        className={`group relative flex flex-col rounded-2xl border bg-[#1E293B] shadow-card hover:-translate-y-0.5 transition-all duration-200 overflow-hidden ${
+                        className={`group relative flex flex-col rounded-2xl border bg-white dark:bg-[#131C31] shadow-card hover:-translate-y-0.5 transition-all duration-200 overflow-hidden ${
                           isInProgress
-                            ? 'border-sky-500/60 hover:border-sky-400'
-                            : 'border-slate-700/70 hover:border-indigo-500/60'
+                            ? 'border-sky-300 hover:border-sky-400 dark:border-sky-500/45 dark:hover:border-sky-400/70'
+                            : 'border-slate-200 hover:border-indigo-300 dark:border-slate-800/90 dark:hover:border-indigo-500/50'
                         }`}
                       >
                         <div className="relative">
@@ -226,8 +226,11 @@ export const VocabHub: React.FC = () => {
                             levelLabel={deck.levelLabel}
                           />
                           {isInProgress && (
-                            <span className="absolute bottom-3 left-4 z-20 inline-flex items-center gap-1.5 rounded-full bg-sky-500/95 px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-slate-950 shadow-md">
-                              <span className="h-1.5 w-1.5 rounded-full bg-slate-950 animate-pulse" />
+                            <span
+                              data-preserve-dark="true"
+                              className="absolute bottom-3 left-4 z-20 inline-flex items-center gap-1.5 rounded-full bg-slate-950/35 text-sky-200 border border-white/15 backdrop-blur-sm px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider shadow-sm"
+                            >
+                              <span className="h-1.5 w-1.5 rounded-full bg-sky-300 animate-pulse" />
                               ĐANG HỌC
                             </span>
                           )}
