@@ -35,6 +35,7 @@ import {
   playWrong,
   setSoundVolume,
   subscribeCombo,
+  subscribeCustomSfxCount,
   subscribeKeyTickEnabled,
   subscribeSoundEnabled,
   subscribeSoundVolume,
@@ -54,6 +55,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
   const [soundOn, setSoundOn] = useState<boolean>(() => isSoundEnabled());
   const [soundVolume, setSoundVolumeState] = useState<number>(() => getSoundVolume());
   const [keyTickOn, setKeyTickOn] = useState<boolean>(() => isKeyTickEnabled());
+  const [customSfxCount, setCustomSfxCount] = useState<number>(() => getLoadedCustomSfxCount());
   const [soundPopoverOpen, setSoundPopoverOpen] = useState(false);
   const [comboStreak, setComboStreak] = useState<number>(() => getCombo());
   const [xpBounceKey, setXpBounceKey] = useState(0);
@@ -65,6 +67,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
     const unsubEnabled = subscribeSoundEnabled(setSoundOn);
     const unsubVolume = subscribeSoundVolume(setSoundVolumeState);
     const unsubKeyTick = subscribeKeyTickEnabled(setKeyTickOn);
+    const unsubCustomSfx = subscribeCustomSfxCount(setCustomSfxCount);
     const unsubCombo = subscribeCombo(setComboStreak);
     let toastTimer: number | null = null;
     const unsubPulse = subscribeXpPulse((ev) => {
@@ -81,6 +84,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
       unsubEnabled();
       unsubVolume();
       unsubKeyTick();
+      unsubCustomSfx();
       unsubCombo();
       unsubPulse();
       if (toastTimer) window.clearTimeout(toastTimer);
@@ -411,8 +415,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
                   {/* Live Combo & Engine Footer */}
                   <div className="flex items-center justify-between gap-2 pt-1.5 border-t border-slate-200 dark:border-slate-800 text-[10px] font-semibold text-slate-500 dark:text-slate-400">
                     <span>
-                      {getLoadedCustomSfxCount() > 0
-                        ? `MP3 SFX (${getLoadedCustomSfxCount()}/5)`
+                      {customSfxCount > 0
+                        ? `MP3 SFX (${customSfxCount}/5)`
                         : 'Nhạc cụ Web Audio'}
                     </span>
                     {comboStreak >= 2 ? (

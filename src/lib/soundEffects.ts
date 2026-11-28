@@ -1,16 +1,14 @@
 /**
- * Parroto / Duolingo-inspired, zero-latency Web Audio API sound effects engine
- * for TOEIC Mastery Hub.
+ * Parroto / Duolingo-inspired, zero-latency audio effects engine for TOEIC Mastery Hub.
  *
- * Features:
- * 1. Preloads & decodes optional real MP3 files from `/audio/sfx/*.mp3` into Web Audio
- *    `AudioBuffer` (0ms playback latency, polyphonic overlap via fresh AudioBufferSourceNode).
- * 2. Parroto-style layered synthesis fallback (bright glassy marimba/bell chime with
- *    harmonic overtones, crisp ~15ms percussive snap transient, and ~60ms shimmer echo tail).
- * 3. Combo Streak Pitch escalation (1.00 -> 1.28) with milestone fanfare & XP badge pulse
- *    at every 5-streak (5, 10, 15...).
- * 4. Persistent Mute toggle, Volume slider (0–100%, default 65%), and optional subtle
- *    `playKeyTick()` toggle for typing feedback.
+ * Strict Playback Priority for `/audio/sfx/*.mp3`:
+ * 1. Eagerly preloads raw MP3 bytes on app boot (`?v=2` cache-buster, `cache: 'no-cache'`)
+ *    and decodes into Web Audio `AudioBuffer` (0ms latency, polyphonic overlap).
+ * 2. If `AudioBuffer` is still decoding or `decodeAudioData` fails for an existing MP3,
+ *    immediately falls back to `new Audio('/audio/sfx/....mp3?v=2')` (HTMLAudioElement)
+ *    with matching `volume` & `playbackRate` so real MP3 files ALWAYS play.
+ * 3. Only uses the Parroto-style layered Web Audio synthesizer when the `.mp3` file is
+ *    confirmed missing (404 / non-audio response) or HTMLAudio playback itself fails.
  */
 
 export type SfxKey = 'correct' | 'wrong' | 'complete' | 'save' | 'flip';
@@ -31,30 +29,37 @@ const SOUND_ENABLED_KEY = 'tmh_sound_effects_enabled_v1';
 const SOUND_VOLUME_KEY = 'tmh_sound_effects_volume_v1';
 const KEY_TICK_ENABLED_KEY = 'tmh_sound_key_tick_enabled_v1';
 const DEFAULT_VOLUME_PCT = 65;
+const SFX_VERSION = 'v=2';
 
 const SFX_FILES: Record<SfxKey, string> = {
-  correct: '/audio/sfx/correct.mp3',
-  wrong: '/audio/sfx/wrong.mp3',
-  complete: '/audio/sfx/complete.mp3',
-  save: '/audio/sfx/save.mp3',
-  flip: '/audio/sfx/flip.mp3',
+  correct: `/audio/sfx/correct.mp3?${SFX_VERSION}`,
+  wrong: `/audio/sfx/wrong.mp3?${SFX_VERSION}`,
+  complete: `/audio/sfx/complete.mp3?${SFX_VERSION}`,
+  save: `/audio/sfx/save.mp3?${SFX_VERSION}`,
+  flip: `/audio/sfx/flip.mp3?${SFX_VERSION}`,
 };
 
+// Keys known to ship as real MP3s in public/audio/sfx/ (warn loudly if they fail to load/decode)
+const EXPECTED_REAL_SFX = new Set<SfxKey>(['correct', 'wrong']);
 const SFX_KEYS: SfxKey[] = ['correct', 'wrong', 'complete', 'save', 'flip'];
 
 let audioCtx: AudioContext | null = null;
 let unlockListenersAttached = false;
-let preloadStarted = false;
+let eagerPreloadStarted = false;
 
+const rawFileBytes = new Map<SfxKey, ArrayBuffer>();
 const decodedBuffers = new Map<SfxKey, AudioBuffer>();
-const missingBuffers = new Set<SfxKey>();
-const loadingBuffers = new Set<SfxKey>();
+const availableRealFiles = new Set<SfxKey>();
+const missingFiles = new Set<SfxKey>();
+const fetchingFiles = new Set<SfxKey>();
+const decodingFiles = new Set<SfxKey>();
 
 const enabledSubscribers = new Set<(enabled: boolean) => void>();
 const volumeSubscribers = new Set<(volumePct: number) => void>();
 const keyTickSubscribers = new Set<(enabled: boolean) => void>();
 const comboSubscribers = new Set<(combo: number) => void>();
 const xpPulseSubscribers = new Set<(event: XpPulseEvent) => void>();
+const customSfxSubscribers = new Set<(count: number) => void>();
 
 function readInitialBool(key: string, defaultVal: boolean): boolean {
   if (typeof window === 'undefined') return defaultVal;
@@ -210,10 +215,22 @@ function emitXpPulse(combo: number, milestone: boolean): void {
 }
 
 export function getLoadedCustomSfxCount(): number {
-  return decodedBuffers.size;
+  return availableRealFiles.size;
 }
 
-// ================= AUDIO CONTEXT & MP3 AUDIOBUFFER PRELOADER =================
+export function subscribeCustomSfxCount(listener: (count: number) => void): () => void {
+  customSfxSubscribers.add(listener);
+  return () => {
+    customSfxSubscribers.delete(listener);
+  };
+}
+
+function notifyCustomSfxCount(): void {
+  const cnt = availableRealFiles.size;
+  customSfxSubscribers.forEach((fn) => fn(cnt));
+}
+
+// ================= EAGER MP3 PRELOAD + AUDIOBUFFER DECODER =================
 
 function getEffectiveScale(): number {
   if (!soundEnabled || soundVolumePct <= 0) return 0;
@@ -239,48 +256,112 @@ function getAudioContext(): AudioContext | null {
       // Browser waits for direct user gesture
     });
   }
-  if (!preloadStarted) {
-    preloadStarted = true;
-    void preloadSfxBuffers(audioCtx);
-  }
+  // Decode any raw MP3 bytes already fetched eagerly on page mount
+  decodePendingRawBytes(audioCtx);
   return audioCtx;
 }
 
-async function fetchAndDecodeBuffer(ctx: AudioContext, key: SfxKey): Promise<void> {
-  if (decodedBuffers.has(key) || missingBuffers.has(key) || loadingBuffers.has(key)) return;
-  loadingBuffers.add(key);
-
-  try {
-    const res = await fetch(SFX_FILES[key], { cache: 'force-cache' });
-    if (!res.ok) {
-      missingBuffers.add(key);
-      return;
-    }
-    const contentType = (res.headers.get('content-type') || '').toLowerCase();
-    if (contentType.includes('text/html') || contentType.includes('application/json')) {
-      missingBuffers.add(key);
-      return;
-    }
-    const arrayBuf = await res.arrayBuffer();
-    if (!arrayBuf || arrayBuf.byteLength < 64) {
-      missingBuffers.add(key);
-      return;
-    }
-    const decoded = await ctx.decodeAudioData(arrayBuf.slice(0));
-    decodedBuffers.set(key, decoded);
-  } catch {
-    missingBuffers.add(key);
-  } finally {
-    loadingBuffers.delete(key);
+function decodePendingRawBytes(ctx: AudioContext): void {
+  for (const [key, bytes] of rawFileBytes.entries()) {
+    if (decodedBuffers.has(key) || decodingFiles.has(key)) continue;
+    decodingFiles.add(key);
+    ctx
+      .decodeAudioData(bytes.slice(0))
+      .then((decoded) => {
+        decodedBuffers.set(key, decoded);
+      })
+      .catch((err) => {
+        console.warn(
+          `[soundEffects] decodeAudioData failed for ${SFX_FILES[key]} — will play via HTMLAudioElement fallback:`,
+          err
+        );
+      })
+      .finally(() => {
+        decodingFiles.delete(key);
+      });
   }
 }
 
-async function preloadSfxBuffers(ctx: AudioContext): Promise<void> {
-  await Promise.all(SFX_KEYS.map((key) => fetchAndDecodeBuffer(ctx, key)));
+function looksLikeAudioBytes(buf: ArrayBuffer): boolean {
+  if (buf.byteLength < 64) return false;
+  const head = new Uint8Array(buf, 0, Math.min(16, buf.byteLength));
+  // Reject HTML/JSON text responses (e.g. '<!DO', '<htm', '{"er')
+  if (head[0] === 0x3c || head[0] === 0x7b) return false;
+  // Valid MP3 (ID3 tag or 0xFF 0xE0+ frame sync), WAV (RIFF), OGG (OggS), M4A/MP4 (ftyp), FLAC (fLaC)
+  const isId3 = head[0] === 0x49 && head[1] === 0x44 && head[2] === 0x33;
+  const isMp3Sync = head[0] === 0xff && (head[1] & 0xe0) === 0xe0;
+  const isRiff = head[0] === 0x52 && head[1] === 0x49 && head[2] === 0x46 && head[3] === 0x46;
+  const isOgg = head[0] === 0x4f && head[1] === 0x67 && head[2] === 0x67 && head[3] === 0x53;
+  const isFtyp = head[4] === 0x66 && head[5] === 0x74 && head[6] === 0x79 && head[7] === 0x70;
+  return isId3 || isMp3Sync || isRiff || isOgg || isFtyp;
+}
+
+async function prefetchSfxFile(key: SfxKey): Promise<void> {
+  if (availableRealFiles.has(key) || missingFiles.has(key) || fetchingFiles.has(key)) return;
+  fetchingFiles.add(key);
+
+  const url = SFX_FILES[key];
+  try {
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) {
+      missingFiles.add(key);
+      if (EXPECTED_REAL_SFX.has(key)) {
+        console.warn(`[soundEffects] Failed to fetch ${url} (HTTP ${res.status}).`);
+      }
+      return;
+    }
+
+    const contentType = (res.headers.get('content-type') || '').toLowerCase();
+    if (contentType.includes('text/html') || contentType.includes('application/json')) {
+      missingFiles.add(key);
+      if (EXPECTED_REAL_SFX.has(key)) {
+        console.warn(`[soundEffects] ${url} returned non-audio content-type "${contentType}".`);
+      }
+      return;
+    }
+
+    const arrayBuf = await res.arrayBuffer();
+    if (!looksLikeAudioBytes(arrayBuf)) {
+      missingFiles.add(key);
+      if (EXPECTED_REAL_SFX.has(key)) {
+        console.warn(`[soundEffects] ${url} payload is not a valid audio file (${arrayBuf.byteLength} bytes).`);
+      }
+      return;
+    }
+
+    rawFileBytes.set(key, arrayBuf);
+    availableRealFiles.add(key);
+    notifyCustomSfxCount();
+
+    if (audioCtx) {
+      decodePendingRawBytes(audioCtx);
+    }
+  } catch (err) {
+    if (EXPECTED_REAL_SFX.has(key)) {
+      console.warn(`[soundEffects] Network error preloading ${url}:`, err);
+    }
+  } finally {
+    fetchingFiles.delete(key);
+  }
+}
+
+/**
+ * Eagerly preload all `/audio/sfx/*.mp3` files as soon as the module loads
+ * (no need to wait for the first click to fetch the bytes!).
+ */
+export function preloadAllSfx(): void {
+  if (typeof window === 'undefined' || eagerPreloadStarted) return;
+  eagerPreloadStarted = true;
+  for (const key of SFX_KEYS) {
+    void prefetchSfxFile(key);
+  }
 }
 
 export function initSoundUnlock(): void {
-  if (typeof window === 'undefined' || unlockListenersAttached) return;
+  if (typeof window === 'undefined') return;
+  preloadAllSfx();
+
+  if (unlockListenersAttached) return;
   unlockListenersAttached = true;
 
   const unlock = () => {
@@ -304,6 +385,9 @@ if (typeof window !== 'undefined') {
   initSoundUnlock();
 }
 
+/**
+ * Tier 1: Play decoded Web Audio `AudioBuffer` (0ms latency, polyphonic).
+ */
 function playDecodedBuffer(
   ctx: AudioContext,
   key: SfxKey,
@@ -321,19 +405,99 @@ function playDecodedBuffer(
     source.playbackRate.setValueAtTime(opts.playbackRate ?? 1.0, ctx.currentTime);
 
     const gain = ctx.createGain();
-    const targetGain = Math.min(0.92, scale * 0.78 * (opts.gainBoost ?? 1.0));
+    const targetGain = Math.min(1.0, scale * 0.88 * (opts.gainBoost ?? 1.0));
     gain.gain.setValueAtTime(targetGain, ctx.currentTime);
 
     source.connect(gain);
     gain.connect(ctx.destination);
     source.start(0);
     return true;
-  } catch {
+  } catch (err) {
+    console.warn(`[soundEffects] AudioBuffer playback error for ${key}:`, err);
     return false;
   }
 }
 
-// ================= PARROTO-STYLE LAYERED SYNTHESIS ENGINE =================
+/**
+ * Tier 2: Immediate `HTMLAudioElement` playback for real MP3 files when
+ * AudioBuffer isn't decoded yet or `decodeAudioData` failed.
+ */
+function playHtmlAudioFallback(
+  key: SfxKey,
+  opts: { playbackRate?: number; gainBoost?: number },
+  onFallbackSynth: () => void
+): boolean {
+  if (typeof window === 'undefined' || typeof Audio === 'undefined') return false;
+  if (missingFiles.has(key)) return false;
+
+  // Use HTMLAudio if the file is confirmed available OR is one of our shipped real SFX files
+  if (!availableRealFiles.has(key) && !EXPECTED_REAL_SFX.has(key)) {
+    return false;
+  }
+
+  try {
+    const scale = getEffectiveScale();
+    if (scale <= 0) return true;
+
+    const audio = new Audio(SFX_FILES[key]);
+    audio.volume = Math.max(0, Math.min(1, scale * 0.88 * (opts.gainBoost ?? 1.0)));
+    audio.playbackRate = opts.playbackRate ?? 1.0;
+
+    const playPromise = audio.play();
+    if (playPromise && typeof playPromise.catch === 'function') {
+      playPromise.catch((err) => {
+        console.warn(`[soundEffects] HTMLAudio playback failed for ${SFX_FILES[key]}:`, err);
+        onFallbackSynth();
+      });
+    }
+    return true;
+  } catch (err) {
+    console.warn(`[soundEffects] Failed to construct HTMLAudio for ${SFX_FILES[key]}:`, err);
+    return false;
+  }
+}
+
+/**
+ * Master dispatcher enforcing strict priority:
+ * 1) Real MP3 via Web Audio `AudioBuffer` (0ms latency)
+ * 2) Real MP3 via `HTMLAudioElement` (if buffer still decoding / decode failed)
+ * 3) Parroto Web Audio layered synth (only if file is 404 or playback fails)
+ */
+function playSfxWithPriority(
+  key: SfxKey,
+  opts: { playbackRate?: number; gainBoost?: number },
+  synthFallback: (ctx: AudioContext) => void
+): void {
+  if (getEffectiveScale() <= 0) return;
+
+  const ctx = getAudioContext();
+
+  // Tier 1: Zero-latency Web Audio AudioBuffer
+  if (ctx && playDecodedBuffer(ctx, key, opts)) {
+    return;
+  }
+
+  // Kick off prefetch if somehow not started yet
+  if (!availableRealFiles.has(key) && !missingFiles.has(key)) {
+    void prefetchSfxFile(key);
+  }
+
+  // Tier 2: Real MP3 via HTMLAudioElement (guarantees real MP3 plays even on 1st click or decode error!)
+  const playedHtml = playHtmlAudioFallback(key, opts, () => {
+    const fallbackCtx = getAudioContext();
+    if (fallbackCtx) synthFallback(fallbackCtx);
+  });
+  if (playedHtml) {
+    return;
+  }
+
+  // Tier 3: Parroto layered Web Audio synth (only for missing/404 optional SFX files)
+  if (ctx) {
+    synthFallback(ctx);
+  }
+}
+
+// ================= PARROTO-STYLE LAYERED SYNTHESIS FALLBACK =================
 
 let sharedNoiseBuffer: AudioBuffer | null = null;
 
@@ -351,10 +515,6 @@ function getNoiseBuffer(ctx: AudioContext): AudioBuffer {
   return buf;
 }
 
-/**
- * Layer 2 helper: crisp ~15ms percussive snap ("tách") at the start of a note
- * to give bright marimba/glassy bounce instead of flat synth beeps.
- */
 function triggerSnapTransient(
   ctx: AudioContext,
   startOffset: number,
@@ -386,13 +546,6 @@ function triggerSnapTransient(
   noise.stop(now + 0.02);
 }
 
-/**
- * Core Parroto-style Bright Glassy Bell / Marimba note:
- * - Fundamental `triangle` + `sine` blend for crisp body & punch
- * - 2nd & 3rd crystal bell overtones for glassy sparkle
- * - Dynamic lowpass sweep + snappy ADSR envelope
- * - Optional ~15ms percussive snap transient + ~60ms shimmer echo tail
- */
 function playGlassyNote(
   ctx: AudioContext,
   opts: {
@@ -401,9 +554,9 @@ function playGlassyNote(
     startOffset: number;
     duration: number;
     volume: number;
-    brightness?: number; // 0.45 (woody bass) .. 1.6 (glassy crystal)
-    snap?: number; // 0..1 percussive attack transient
-    shimmerEcho?: boolean; // adds soft 60ms echo tail
+    brightness?: number;
+    snap?: number;
+    shimmerEcho?: boolean;
   }
 ): void {
   const scale = getEffectiveScale();
@@ -411,7 +564,6 @@ function playGlassyNote(
 
   const now = ctx.currentTime + opts.startOffset;
   const brightness = opts.brightness ?? 1.25;
-  // Punchy, confident default gain (~0.62 at 100%, ~0.40 at 65%)
   const peak = Math.min(0.68, opts.volume * scale * 0.6);
 
   const filter = ctx.createBiquadFilter();
@@ -423,7 +575,6 @@ function playGlassyNote(
   filter.Q.setValueAtTime(1.1, now);
   filter.connect(ctx.destination);
 
-  // Layer 1A: Crisp primary body (`triangle` for lively presence)
   const oscMain = ctx.createOscillator();
   const gainMain = ctx.createGain();
   oscMain.type = 'triangle';
@@ -440,7 +591,6 @@ function playGlassyNote(
   oscMain.start(now);
   oscMain.stop(now + opts.duration + 0.02);
 
-  // Layer 1B: Pure fundamental `sine` anchor for warmth and fullness
   const oscSub = ctx.createOscillator();
   const gainSub = ctx.createGain();
   oscSub.type = 'sine';
@@ -456,7 +606,6 @@ function playGlassyNote(
   oscSub.start(now);
   oscSub.stop(now + opts.duration + 0.02);
 
-  // Layer 1C: 2nd & 3rd glassy bell overtones (sparkle & clarity)
   if (brightness >= 0.85) {
     const osc2 = ctx.createOscillator();
     const gain2 = ctx.createGain();
@@ -484,12 +633,10 @@ function playGlassyNote(
     osc3.stop(now + d3 + 0.015);
   }
 
-  // Layer 2: Crisp ~15ms percussive snap transient
   if ((opts.snap ?? 0.45) > 0.01) {
     triggerSnapTransient(ctx, opts.startOffset, opts.freq * 3.1, opts.snap ?? 0.45);
   }
 
-  // Layer 3: Soft 60ms delayed shimmer/echo tail for airy spacious decay
   if (opts.shimmerEcho) {
     const echoNow = now + 0.062;
     const echoDur = Math.max(0.14, opts.duration * 0.85);
@@ -508,7 +655,6 @@ function playGlassyNote(
 }
 
 function synthParrotoCorrect(ctx: AudioContext, playbackRate: number, highCombo = false): void {
-  // Bright glassy Parroto fifth jump: E5 (659.25 Hz) -> B5 (987.77 Hz), ~280ms total with shimmer echo
   const n1 = 659.25 * playbackRate;
   const n2 = 987.77 * playbackRate;
 
@@ -532,7 +678,6 @@ function synthParrotoCorrect(ctx: AudioContext, playbackRate: number, highCombo 
   });
 
   if (highCombo) {
-    // Extra airy sparkle octave on hot streaks (4+ combo)
     playGlassyNote(ctx, {
       freq: 1318.51 * playbackRate,
       startOffset: 0.135,
@@ -546,7 +691,6 @@ function synthParrotoCorrect(ctx: AudioContext, playbackRate: number, highCombo 
 }
 
 function synthParrotoWrong(ctx: AudioContext): void {
-  // Crisp, warm low wooden marimba descending minor third: E3 (164.81 Hz) -> C3 (130.81 Hz), ~185ms
   playGlassyNote(ctx, {
     freq: 164.81,
     freqEnd: 152,
@@ -573,7 +717,6 @@ function synthParrotoComplete(ctx: AudioContext, pitchScale = 1.0): void {
   const scale = getEffectiveScale();
   if (scale <= 0) return;
 
-  // Warm major chord pad underneath (C4 + G4) for fullness
   const now = ctx.currentTime;
   const padPeak = Math.min(0.22, scale * 0.16);
   for (const padFreq of [261.63 * pitchScale, 392.0 * pitchScale]) {
@@ -590,7 +733,6 @@ function synthParrotoComplete(ctx: AudioContext, pitchScale = 1.0): void {
     osc.stop(now + 0.65);
   }
 
-  // Sparkling 4-note crystal bell arpeggio: C5 -> E5 -> G5 -> C6 (with shimmer echo on the apex)
   const notes = [
     { freq: 523.25 * pitchScale, offset: 0.0, dur: 0.2, vol: 0.82, bright: 1.25, echo: false },
     { freq: 659.25 * pitchScale, offset: 0.075, dur: 0.22, vol: 0.88, bright: 1.35, echo: false },
@@ -612,7 +754,6 @@ function synthParrotoComplete(ctx: AudioContext, pitchScale = 1.0): void {
 }
 
 function synthParrotoSave(ctx: AudioContext): void {
-  // Crisp glassy bubble-pop upward (G5 -> D6)
   playGlassyNote(ctx, {
     freq: 783.99,
     freqEnd: 1174.66,
@@ -629,7 +770,6 @@ function synthParrotoFlip(ctx: AudioContext): void {
   const scale = getEffectiveScale();
   if (scale <= 0) return;
 
-  // Silky card-whoosh + light tactile click (~62ms)
   const now = ctx.currentTime;
   const noise = ctx.createBufferSource();
   noise.buffer = getNoiseBuffer(ctx);
@@ -668,7 +808,6 @@ function synthKeyTick(ctx: AudioContext): void {
   const scale = getEffectiveScale();
   if (scale <= 0) return;
 
-  // Ultra-light crisp tactile mechanical/wooden tick (~18ms) with micro pitch variation
   const now = ctx.currentTime;
   const jitter = 0.96 + Math.random() * 0.08;
   const osc = ctx.createOscillator();
@@ -693,8 +832,8 @@ function synthKeyTick(ctx: AudioContext): void {
 // ================= PUBLIC SOUND TRIGGERS =================
 
 /**
- * Bright glassy Parroto-style correct chime with Combo Streak Pitch (1.00 -> 1.28).
- * Every 5 consecutive correct answers triggers celebratory `complete` fanfare + XP bounce.
+ * Plays real `/audio/sfx/correct.mp3` with Combo Streak Pitch (1.00 -> 1.28).
+ * Every 5 consecutive correct answers triggers celebratory `complete` + XP bounce.
  */
 export function playCorrect(options: { isTest?: boolean } = {}): PlayCorrectResult {
   const isTest = Boolean(options.isTest);
@@ -719,99 +858,79 @@ export function playCorrect(options: { isTest?: boolean } = {}): PlayCorrectResu
     return { combo: comboForPlay, isMilestone, playbackRate };
   }
 
-  const ctx = getAudioContext();
-  if (!ctx) {
-    return { combo: comboForPlay, isMilestone, playbackRate };
-  }
-
   try {
     if (isMilestone) {
       const milestoneRate = comboForPlay >= 10 ? 1.06 : 1.0;
-      if (!playDecodedBuffer(ctx, 'complete', { playbackRate: milestoneRate, gainBoost: 0.95 })) {
-        synthParrotoComplete(ctx, milestoneRate);
-      }
+      playSfxWithPriority(
+        'complete',
+        { playbackRate: milestoneRate, gainBoost: 0.95 },
+        (ctx) => synthParrotoComplete(ctx, milestoneRate)
+      );
     } else {
-      if (!playDecodedBuffer(ctx, 'correct', { playbackRate })) {
-        synthParrotoCorrect(ctx, playbackRate, comboForPlay >= 4);
-      }
+      playSfxWithPriority(
+        'correct',
+        { playbackRate },
+        (ctx) => synthParrotoCorrect(ctx, playbackRate, comboForPlay >= 4)
+      );
     }
-  } catch {
-    // Graceful no-op
+  } catch (err) {
+    console.warn('[soundEffects] playCorrect error:', err);
   }
 
   return { combo: comboForPlay, isMilestone, playbackRate };
 }
 
 /**
- * Crisp warm descending wooden marimba wrong cue (E3 -> C3), resets Combo Streak to 0.
+ * Plays real `/audio/sfx/wrong.mp3` and resets Combo Streak to 0.
  */
 export function playWrong(options: { isTest?: boolean } = {}): void {
   if (!options.isTest) {
     resetCombo();
   }
   if (getEffectiveScale() <= 0) return;
-  const ctx = getAudioContext();
-  if (!ctx) return;
 
   try {
-    if (!playDecodedBuffer(ctx, 'wrong')) {
-      synthParrotoWrong(ctx);
-    }
-  } catch {
-    // Graceful no-op
+    playSfxWithPriority('wrong', {}, synthParrotoWrong);
+  } catch (err) {
+    console.warn('[soundEffects] playWrong error:', err);
   }
 }
 
 /**
- * Silky card flip / hint reveal sound (~62ms).
+ * Plays `/audio/sfx/flip.mp3` if present, otherwise silky card flip synth.
  */
 export function playFlip(): void {
   if (getEffectiveScale() <= 0) return;
-  const ctx = getAudioContext();
-  if (!ctx) return;
-
   try {
-    if (!playDecodedBuffer(ctx, 'flip')) {
-      synthParrotoFlip(ctx);
-    }
+    playSfxWithPriority('flip', {}, synthParrotoFlip);
   } catch {
     // Graceful no-op
   }
 }
 
 /**
- * Crisp glassy bubble-pop for saving/starring vocabulary (~140ms).
+ * Plays `/audio/sfx/save.mp3` if present, otherwise crisp glassy pop synth.
  */
 export function playSave(): void {
   if (getEffectiveScale() <= 0) return;
-  const ctx = getAudioContext();
-  if (!ctx) return;
-
   try {
-    if (!playDecodedBuffer(ctx, 'save')) {
-      synthParrotoSave(ctx);
-    }
+    playSfxWithPriority('save', {}, synthParrotoSave);
   } catch {
     // Graceful no-op
   }
 }
 
 /**
- * Sparkling 4-note crystal arpeggio (C5 -> E5 -> G5 -> C6) + warm chord pad
- * for topic completion, daily goal, exam submission, or milestone streaks.
+ * Plays `/audio/sfx/complete.mp3` if present, otherwise Parroto 4-note crystal arpeggio.
  */
 export function playComplete(options: { isTest?: boolean } = {}): void {
   if (!options.isTest) {
     emitXpPulse(currentCombo, true);
   }
   if (getEffectiveScale() <= 0) return;
-  const ctx = getAudioContext();
-  if (!ctx) return;
 
   try {
-    if (!playDecodedBuffer(ctx, 'complete')) {
-      synthParrotoComplete(ctx, 1.0);
-    }
+    playSfxWithPriority('complete', {}, (ctx) => synthParrotoComplete(ctx, 1.0));
   } catch {
     // Graceful no-op
   }
