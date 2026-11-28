@@ -74,11 +74,18 @@ export const VocabQuickDetailModal: React.FC<VocabQuickDetailModalProps> = ({
   const [fullWord, setFullWord] = useState<VocabWord | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // Best-matching entry in our 10,996-word bank (searchIndex is TOEIC-priority sorted!)
+  // Best-matching entry in our 10,996-word bank (prefer exact (word, pos) match first!)
   const matchedEntry: SearchIndexEntry | null = useMemo(() => {
     if (!target) return null;
     const key = target.word.trim().toLowerCase();
     if (!key) return null;
+    const targetPos = target.pos ? normalizePos(target.pos) : null;
+    if (targetPos) {
+      const exactPosMatch = searchIndex.find(
+        (r) => r.word.toLowerCase() === key && r.partOfSpeech === targetPos
+      );
+      if (exactPosMatch) return exactPosMatch;
+    }
     return searchIndex.find((r) => r.word.toLowerCase() === key) || null;
   }, [target, searchIndex]);
 

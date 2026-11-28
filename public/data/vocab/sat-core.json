@@ -37,7 +37,17 @@
             {
               "word": "corroboration",
               "pos": "n",
-              "meaning": "sự xác chứng"
+              "meaning": "chứng thực"
+            },
+            {
+              "word": "corroborative",
+              "pos": "adj",
+              "meaning": "chứng thực"
+            },
+            {
+              "word": "corroboratory",
+              "pos": "adj",
+              "meaning": "chứng thực"
             }
           ],
           "synonyms": [
@@ -78,7 +88,23 @@
               "vi": "Các trào lưu meme trên mạng nổi tiếng là chóng tàn."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "ephemera",
+              "pos": "n",
+              "meaning": "phù du"
+            },
+            {
+              "word": "ephemerality",
+              "pos": "n",
+              "meaning": "sự phù du"
+            },
+            {
+              "word": "ephemeralness",
+              "pos": "n",
+              "meaning": "sự phù du"
+            }
+          ],
           "synonyms": [
             "fleeting",
             "transient",
@@ -166,7 +192,7 @@
             {
               "word": "ambiguity",
               "pos": "n",
-              "meaning": "sự mơ hồ"
+              "meaning": "mơ hồ"
             }
           ],
           "synonyms": [
@@ -301,7 +327,7 @@
             {
               "word": "nuanced",
               "pos": "adj",
-              "meaning": "tinh tế, đa chiều"
+              "meaning": "sắc thái"
             }
           ],
           "synonyms": [
@@ -341,7 +367,12 @@
             {
               "word": "refutation",
               "pos": "n",
-              "meaning": "sự bác bỏ"
+              "meaning": "bác bỏ"
+            },
+            {
+              "word": "refuter",
+              "pos": "n",
+              "meaning": "phản biện"
             }
           ],
           "synonyms": [
@@ -386,7 +417,17 @@
             {
               "word": "meticulously",
               "pos": "adv",
-              "meaning": "một cách tỉ mỉ"
+              "meaning": "tỉ mỉ"
+            },
+            {
+              "word": "meticulosity",
+              "pos": "n",
+              "meaning": "tỉ mỉ"
+            },
+            {
+              "word": "meticulousness",
+              "pos": "n",
+              "meaning": "sự tỉ mỉ"
             }
           ],
           "synonyms": [
@@ -429,7 +470,7 @@
             {
               "word": "ubiquitous",
               "pos": "adj",
-              "meaning": "khắp mọi nơi"
+              "meaning": "có mặt ở khắp mọi nơi (Band 8+)"
             }
           ],
           "synonyms": [
@@ -480,6 +521,11 @@
               "word": "absence",
               "pos": "n",
               "meaning": "sự vắng mặt"
+            },
+            {
+              "word": "absentee",
+              "pos": "n",
+              "meaning": "vắng mặt"
             }
           ],
           "synonyms": [],
@@ -489,7 +535,7 @@
           "collocations": [],
           "topicId": "sat-core-g3",
           "relationMeanings": {
-            "present": "hiện tại"
+            "present": "có mặt, hiện tại"
           }
         },
         {
@@ -512,6 +558,21 @@
             {
               "word": "accept",
               "pos": "v",
+              "meaning": "chấp nhận"
+            },
+            {
+              "word": "acceptable",
+              "pos": "adj",
+              "meaning": "chấp nhận được"
+            },
+            {
+              "word": "acceptant",
+              "pos": "adj",
+              "meaning": "chấp nhận"
+            },
+            {
+              "word": "acceptive",
+              "pos": "adj",
               "meaning": "chấp nhận"
             }
           ],
@@ -545,7 +606,17 @@
             {
               "word": "access",
               "pos": "v",
-              "meaning": "quyền truy cập, lối vào (đi với giới từ to)"
+              "meaning": "truy cập, tiếp cận"
+            },
+            {
+              "word": "accession",
+              "pos": "n",
+              "meaning": "gia nhập"
+            },
+            {
+              "word": "accessibility",
+              "pos": "n",
+              "meaning": "khả năng tiếp cận"
             }
           ],
           "synonyms": [],
@@ -581,9 +652,9 @@
               "meaning": "hoàn thành xuất sắc"
             },
             {
-              "word": "achieve",
-              "pos": "v",
-              "meaning": "đạt được, hoàn thành (mục tiêu)"
+              "word": "accomplishable",
+              "pos": "adj",
+              "meaning": "có thể thực hiện được"
             }
           ],
           "synonyms": [
@@ -641,19 +712,14 @@
           ],
           "wordFamily": [
             {
-              "word": "collection",
-              "pos": "n",
-              "meaning": "bộ sưu tập"
-            },
-            {
-              "word": "collecting",
-              "pos": "n",
-              "meaning": "thu thập"
-            },
-            {
               "word": "accumulative",
               "pos": "adj",
               "meaning": "tích lũy"
+            },
+            {
+              "word": "accumulation",
+              "pos": "n",
+              "meaning": "sự tích lũy"
             }
           ],
           "synonyms": [
@@ -688,7 +754,23 @@
               "vi": "Khi vào máu, vi khuẩn bám vào bề mặt hồng cầu."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "adherent",
+              "pos": "adj",
+              "meaning": "tuân theo"
+            },
+            {
+              "word": "adhesion",
+              "pos": "n",
+              "meaning": "độ bám dính"
+            },
+            {
+              "word": "adhesive",
+              "pos": "adj",
+              "meaning": "chất kết dính"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -708,7 +790,13 @@
               "vi": "Bãi đỗ xe khách nằm tại nhà xe liền kề Tòa nhà C."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "adjacency",
+              "pos": "n",
+              "meaning": "kề cận"
+            }
+          ],
           "synonyms": [
             "next to",
             "adjoining",
@@ -763,14 +851,19 @@
               "meaning": "điều chỉnh, thích nghi"
             },
             {
-              "word": "accommodate",
-              "pos": "v",
-              "meaning": "chứa được; đáp ứng nhu cầu"
+              "word": "adjuster",
+              "pos": "n",
+              "meaning": "bộ điều chỉnh"
             },
             {
-              "word": "fit",
-              "pos": "v",
-              "meaning": "vừa vặn"
+              "word": "adjustor",
+              "pos": "n",
+              "meaning": "bộ điều chỉnh"
+            },
+            {
+              "word": "adjustive",
+              "pos": "adj",
+              "meaning": "điều chỉnh"
             }
           ],
           "synonyms": [
@@ -854,6 +947,16 @@
               "word": "administer",
               "pos": "v",
               "meaning": "quản lý"
+            },
+            {
+              "word": "administrator",
+              "pos": "n",
+              "meaning": "quản trị viên"
+            },
+            {
+              "word": "administration",
+              "pos": "n",
+              "meaning": "hành chính"
             }
           ],
           "synonyms": [],
@@ -882,6 +985,16 @@
               "word": "administrate",
               "pos": "v",
               "meaning": "quản lý"
+            },
+            {
+              "word": "administrative",
+              "pos": "adj",
+              "meaning": "hành chính"
+            },
+            {
+              "word": "administrable",
+              "pos": "adj",
+              "meaning": "quản lý được"
             }
           ],
           "synonyms": [
@@ -914,6 +1027,16 @@
             {
               "word": "admit",
               "pos": "v",
+              "meaning": "thừa nhận"
+            },
+            {
+              "word": "admissive",
+              "pos": "adj",
+              "meaning": "chấp nhận"
+            },
+            {
+              "word": "admittance",
+              "pos": "n",
               "meaning": "thừa nhận"
             }
           ],
@@ -948,11 +1071,6 @@
               "word": "alertness",
               "pos": "n",
               "meaning": "tỉnh táo"
-            },
-            {
-              "word": "watchfulness",
-              "pos": "n",
-              "meaning": "cảnh giác"
             }
           ],
           "synonyms": [
@@ -989,16 +1107,6 @@
               "word": "alikeness",
               "pos": "n",
               "meaning": "sự giống nhau"
-            },
-            {
-              "word": "similarity",
-              "pos": "n",
-              "meaning": "sự tương đồng"
-            },
-            {
-              "word": "likeness",
-              "pos": "n",
-              "meaning": "chân dung"
             }
           ],
           "synonyms": [
@@ -1035,6 +1143,21 @@
               "word": "allocation",
               "pos": "n",
               "meaning": "sự phân bổ"
+            },
+            {
+              "word": "allocable",
+              "pos": "adj",
+              "meaning": "có thể phân bổ"
+            },
+            {
+              "word": "allocator",
+              "pos": "n",
+              "meaning": "người cấp phát"
+            },
+            {
+              "word": "allocatable",
+              "pos": "adj",
+              "meaning": "có thể phân bổ"
             }
           ],
           "synonyms": [
@@ -1160,6 +1283,16 @@
               "word": "applicability",
               "pos": "n",
               "meaning": "tính áp dụng"
+            },
+            {
+              "word": "applicant",
+              "pos": "n",
+              "meaning": "người nộp đơn"
+            },
+            {
+              "word": "application",
+              "pos": "n",
+              "meaning": "ứng dụng"
             }
           ],
           "synonyms": [],
@@ -1185,7 +1318,17 @@
             {
               "word": "appointment",
               "pos": "n",
-              "meaning": "cuộc hẹn; sự bổ nhiệm"
+              "meaning": "cuộc hẹn"
+            },
+            {
+              "word": "appointee",
+              "pos": "n",
+              "meaning": "người được bổ nhiệm"
+            },
+            {
+              "word": "appointive",
+              "pos": "adj",
+              "meaning": "bổ nhiệm"
             }
           ],
           "synonyms": [
@@ -1208,7 +1351,7 @@
           "relationMeanings": {
             "designate": "chỉ định",
             "nominate": "đề cử",
-            "name": "tên",
+            "name": "đặt tên",
             "dismiss": "sa thải / loại bỏ"
           }
         },
@@ -1228,13 +1371,7 @@
               "vi": "Cô ấy ít thể hiện sự đánh giá cao về âm nhạc hay."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "grasp",
-              "pos": "v",
-              "meaning": "nắm bắt"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "grasp",
             "hold"
@@ -1244,7 +1381,7 @@
           "topicId": "sat-core-g3",
           "relationMeanings": {
             "grasp": "nắm bắt",
-            "hold": "tổ chức (sự kiện); nắm giữ; chờ máy"
+            "hold": "tổ chức (sự kiện, cuộc họp); nắm giữ"
           }
         },
         {
@@ -1323,11 +1460,6 @@
               "word": "assemblage",
               "pos": "n",
               "meaning": "tập hợp"
-            },
-            {
-              "word": "piece",
-              "pos": "n",
-              "meaning": "mảnh"
             }
           ],
           "synonyms": [
@@ -1342,7 +1474,7 @@
           "collocations": [],
           "topicId": "sat-core-g3",
           "relationMeanings": {
-            "piece": "mảnh",
+            "piece": "chia thành từng mảnh",
             "put together": "tập hợp, lắp ráp, biên soạn hoàn chỉnh",
             "set up": "Thiết lập, tạo dựng",
             "tack": "đinh",
@@ -1389,12 +1521,12 @@
             {
               "word": "assure",
               "pos": "v",
-              "meaning": "cam đoan"
+              "meaning": "đảm bảo"
             },
             {
               "word": "assured",
               "pos": "adj",
-              "meaning": "tự tin, chắc chắn"
+              "meaning": "yên tâm"
             }
           ],
           "synonyms": [
@@ -1421,8 +1553,8 @@
           "topicId": "sat-core-g3",
           "relationMeanings": {
             "guarantee": "sự bảo hành, bảo đảm",
-            "pledge": "lời cam kết, hứa hẹn",
-            "promise": "lời hứa, cam kết",
+            "pledge": "lời cam kết",
+            "promise": "lời hứa, sự cam kết",
             "doubt": "sự nghi ngờ",
             "uncertainty": "sự không chắc chắn"
           }
@@ -1445,19 +1577,14 @@
           ],
           "wordFamily": [
             {
-              "word": "achievable",
+              "word": "attainment",
+              "pos": "n",
+              "meaning": "Sự đạt được, thành tựu"
+            },
+            {
+              "word": "attainable",
               "pos": "adj",
               "meaning": "có thể đạt được"
-            },
-            {
-              "word": "achievement",
-              "pos": "n",
-              "meaning": "thành tựu"
-            },
-            {
-              "word": "achiever",
-              "pos": "n",
-              "meaning": "người thành đạt"
             }
           ],
           "synonyms": [
@@ -1491,11 +1618,6 @@
             }
           ],
           "wordFamily": [
-            {
-              "word": "law",
-              "pos": "n",
-              "meaning": "pháp luật"
-            },
             {
               "word": "attorneyship",
               "pos": "n",
@@ -1549,7 +1671,7 @@
           "topicId": "sat-core-g3",
           "relationMeanings": {
             "inspection": "kiểm tra",
-            "review": "đánh giá"
+            "review": "bài đánh giá, sự xem xét lại"
           }
         },
         {
@@ -1573,16 +1695,6 @@
               "word": "authenticity",
               "pos": "n",
               "meaning": "tính xác thực"
-            },
-            {
-              "word": "reliableness",
-              "pos": "n",
-              "meaning": "độ tin cậy"
-            },
-            {
-              "word": "reliability",
-              "pos": "n",
-              "meaning": "độ tin cậy"
             }
           ],
           "synonyms": [
@@ -1613,12 +1725,17 @@
             {
               "word": "authorization",
               "pos": "n",
-              "meaning": "giấy ủy quyền"
+              "meaning": "ủy quyền"
             },
             {
               "word": "authorized",
               "pos": "adj",
               "meaning": "được ủy quyền"
+            },
+            {
+              "word": "authorizer",
+              "pos": "n",
+              "meaning": "người ủy quyền"
             }
           ],
           "synonyms": [
@@ -1641,8 +1758,8 @@
           "topicId": "sat-core-g3",
           "relationMeanings": {
             "approve": "phê duyệt, chấp thuận",
-            "permit": "giấy phép",
-            "sanction": "trừng phạt",
+            "permit": "cho phép",
+            "sanction": "xử phạt",
             "prohibit": "cấm",
             "deny": "phủ nhận"
           }
@@ -1673,11 +1790,6 @@
               "word": "automobile",
               "pos": "v",
               "meaning": "ô tô"
-            },
-            {
-              "word": "machinist",
-              "pos": "n",
-              "meaning": "thợ máy"
             }
           ],
           "synonyms": [
@@ -1714,19 +1826,19 @@
           ],
           "wordFamily": [
             {
-              "word": "handy",
-              "pos": "adj",
-              "meaning": "tiện dụng"
-            },
-            {
-              "word": "accessible",
-              "pos": "adj",
-              "meaning": "có thể truy cập"
-            },
-            {
               "word": "available",
               "pos": "adj",
               "meaning": "có sẵn, rảnh rỗi"
+            },
+            {
+              "word": "avail",
+              "pos": "v",
+              "meaning": "tận dụng"
+            },
+            {
+              "word": "availableness",
+              "pos": "n",
+              "meaning": "sẵn có"
             }
           ],
           "synonyms": [
@@ -1764,23 +1876,7 @@
               "vi": "Trong các tình huống hàng ngày và tại nơi làm việc, mọi người thường cần phải chờ đợi một cách rõ ràng."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "expectant",
-              "pos": "adj",
-              "meaning": "mong chờ"
-            },
-            {
-              "word": "expectation",
-              "pos": "n",
-              "meaning": "sự mong đợi"
-            },
-            {
-              "word": "expectancy",
-              "pos": "n",
-              "meaning": "mong đợi"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "expect",
             "look",
@@ -1969,9 +2065,9 @@
           ],
           "wordFamily": [
             {
-              "word": "major",
+              "word": "bulky",
               "pos": "adj",
-              "meaning": "chính"
+              "meaning": "cồng kềnh"
             }
           ],
           "synonyms": [
@@ -2014,7 +2110,7 @@
           "collocations": [],
           "topicId": "sat-core-g4",
           "relationMeanings": {
-            "load": "tải",
+            "load": "tải trọng, khối lượng hàng",
             "encumbrance": "trở ngại",
             "incumbrance": "gánh nặng",
             "onus": "trách nhiệm"
@@ -2065,14 +2161,19 @@
               "meaning": "tính toán"
             },
             {
-              "word": "computational",
-              "pos": "adj",
-              "meaning": "tính toán"
+              "word": "calculator",
+              "pos": "n",
+              "meaning": "máy tính"
             },
             {
-              "word": "compute",
-              "pos": "v",
-              "meaning": "tính toán"
+              "word": "calculus",
+              "pos": "n",
+              "meaning": "phép tính"
+            },
+            {
+              "word": "calculable",
+              "pos": "adj",
+              "meaning": "tính toán được"
             }
           ],
           "synonyms": [
@@ -2103,18 +2204,7 @@
               "vi": "Tàu chở dầu bắt đầu làm tràn hàng dầu."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "freight",
-              "pos": "v",
-              "meaning": "vận chuyển hàng hóa"
-            },
-            {
-              "word": "load",
-              "pos": "v",
-              "meaning": "tải"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "lading",
             "freight",
@@ -2127,7 +2217,7 @@
           "relationMeanings": {
             "lading": "vận đơn",
             "freight": "vận chuyển hàng hóa",
-            "load": "tải",
+            "load": "tải trọng, khối lượng hàng",
             "loading": "tải"
           }
         },
@@ -2149,19 +2239,9 @@
           ],
           "wordFamily": [
             {
-              "word": "provision",
+              "word": "caterer",
               "pos": "n",
-              "meaning": "điều khoản; sự cung cấp"
-            },
-            {
-              "word": "provider",
-              "pos": "n",
-              "meaning": "Nhà cung cấp"
-            },
-            {
-              "word": "supply",
-              "pos": "n",
-              "meaning": "nguồn cung, vật tư; cung cấp"
+              "meaning": "người cung cấp thực phẩm"
             }
           ],
           "synonyms": [
@@ -2174,7 +2254,7 @@
           "topicId": "sat-core-g4",
           "relationMeanings": {
             "provide": "cung cấp",
-            "supply": "nguồn cung, vật tư; cung cấp",
+            "supply": "cung cấp, cung ứng",
             "ply": "lớp"
           }
         },
@@ -2201,9 +2281,9 @@
               "meaning": "thận trọng"
             },
             {
-              "word": "careful",
+              "word": "cautionary",
               "pos": "adj",
-              "meaning": "cẩn thận"
+              "meaning": "cảnh báo"
             }
           ],
           "synonyms": [
@@ -2247,6 +2327,11 @@
               "word": "cautiousness",
               "pos": "n",
               "meaning": "thận trọng"
+            },
+            {
+              "word": "cautionary",
+              "pos": "adj",
+              "meaning": "cảnh báo"
             }
           ],
           "synonyms": [],
@@ -2285,6 +2370,16 @@
               "word": "circulation",
               "pos": "n",
               "meaning": "lưu thông"
+            },
+            {
+              "word": "circle",
+              "pos": "n",
+              "meaning": "hình tròn"
+            },
+            {
+              "word": "circular",
+              "pos": "n",
+              "meaning": "hình tròn"
             }
           ],
           "synonyms": [],
@@ -2313,6 +2408,21 @@
               "word": "circulate",
               "pos": "v",
               "meaning": "lưu hành"
+            },
+            {
+              "word": "circle",
+              "pos": "n",
+              "meaning": "hình tròn"
+            },
+            {
+              "word": "circular",
+              "pos": "n",
+              "meaning": "hình tròn"
+            },
+            {
+              "word": "circulative",
+              "pos": "adj",
+              "meaning": "tuần hoàn"
             }
           ],
           "synonyms": [],
@@ -2338,9 +2448,24 @@
           ],
           "wordFamily": [
             {
-              "word": "settle",
+              "word": "close",
               "pos": "v",
-              "meaning": "giải quyết, thanh toán, dàn xếp"
+              "meaning": "đóng"
+            },
+            {
+              "word": "closer",
+              "pos": "n",
+              "meaning": "gần hơn"
+            },
+            {
+              "word": "closing",
+              "pos": "n",
+              "meaning": "đóng cửa"
+            },
+            {
+              "word": "closeness",
+              "pos": "n",
+              "meaning": "sự gần gũi"
             }
           ],
           "synonyms": [
@@ -2376,6 +2501,11 @@
               "word": "coincident",
               "pos": "adj",
               "meaning": "trùng hợp"
+            },
+            {
+              "word": "coincidence",
+              "pos": "n",
+              "meaning": "trùng hợp ngẫu nhiên"
             }
           ],
           "synonyms": [
@@ -2408,12 +2538,17 @@
             {
               "word": "collaboration",
               "pos": "n",
-              "meaning": "sự hợp tác"
+              "meaning": "hợp tác"
             },
             {
               "word": "collaborative",
               "pos": "adj",
-              "meaning": "mang tính cộng tác"
+              "meaning": "có tính hợp tác"
+            },
+            {
+              "word": "collaborator",
+              "pos": "n",
+              "meaning": "cộng tác viên"
             }
           ],
           "synonyms": [
@@ -2435,7 +2570,7 @@
           "topicId": "sat-core-g4",
           "relationMeanings": {
             "cooperate": "hợp tác",
-            "partner": "đối tác",
+            "partner": "hợp tác, liên kết",
             "team up": "lập nhóm",
             "compete": "cạnh tranh"
           }
@@ -2463,9 +2598,19 @@
               "meaning": "hợp tác, cộng tác (đi với with / on)"
             },
             {
-              "word": "coact",
-              "pos": "v",
-              "meaning": "áo khoác"
+              "word": "collaborator",
+              "pos": "n",
+              "meaning": "cộng tác viên"
+            },
+            {
+              "word": "collaborative",
+              "pos": "adj",
+              "meaning": "có tính hợp tác"
+            },
+            {
+              "word": "collaborationist",
+              "pos": "n",
+              "meaning": "cộng tác viên"
             }
           ],
           "synonyms": [
@@ -2496,7 +2641,7 @@
             {
               "word": "commencement",
               "pos": "n",
-              "meaning": "sự khởi đầu; lễ tốt nghiệp"
+              "meaning": "bắt đầu"
             }
           ],
           "synonyms": [
@@ -2581,16 +2726,6 @@
               "word": "compensation",
               "pos": "n",
               "meaning": "bồi thường"
-            },
-            {
-              "word": "counterbalance",
-              "pos": "n",
-              "meaning": "đối trọng"
-            },
-            {
-              "word": "corrective",
-              "pos": "adj",
-              "meaning": "khắc phục"
             }
           ],
           "synonyms": [
@@ -2604,7 +2739,7 @@
           "topicId": "sat-core-g4",
           "relationMeanings": {
             "counterbalance": "đối trọng",
-            "correct": "đúng",
+            "correct": "sửa lại",
             "make up": "trang điểm",
             "even out": "chẵn ra"
           }
@@ -2627,19 +2762,19 @@
           ],
           "wordFamily": [
             {
-              "word": "collection",
+              "word": "compiler",
               "pos": "n",
-              "meaning": "bộ sưu tập"
+              "meaning": "trình biên dịch"
             },
             {
-              "word": "collecting",
+              "word": "compiling",
               "pos": "n",
-              "meaning": "thu thập"
+              "meaning": "biên soạn"
             },
             {
-              "word": "accumulative",
-              "pos": "adj",
-              "meaning": "tích lũy"
+              "word": "compilation",
+              "pos": "n",
+              "meaning": "biên soạn"
             }
           ],
           "synonyms": [
@@ -2681,6 +2816,11 @@
             {
               "word": "compliant",
               "pos": "adj",
+              "meaning": "tuân thủ"
+            },
+            {
+              "word": "compliancy",
+              "pos": "n",
               "meaning": "tuân thủ"
             }
           ],
@@ -2728,7 +2868,7 @@
             {
               "word": "complicate",
               "pos": "v",
-              "meaning": "phức tạp"
+              "meaning": "làm phức tạp"
             }
           ],
           "synonyms": [],
@@ -2831,14 +2971,14 @@
               "meaning": "xác nhận lại"
             },
             {
-              "word": "verify",
-              "pos": "v",
-              "meaning": "xác minh, kiểm chứng"
+              "word": "confirmative",
+              "pos": "adj",
+              "meaning": "khẳng định"
             },
             {
-              "word": "check",
-              "pos": "v",
-              "meaning": "kiểm tra; tấm séc; hóa đơn"
+              "word": "confirmatory",
+              "pos": "adj",
+              "meaning": "xác nhận"
             }
           ],
           "synonyms": [
@@ -2851,7 +2991,7 @@
           "topicId": "sat-core-g4",
           "relationMeanings": {
             "verification": "xác minh",
-            "check": "kiểm tra; tấm séc; hóa đơn",
+            "check": "tấm séc; hóa đơn; sự kiểm tra",
             "substantiation": "chứng minh"
           }
         },
@@ -2872,11 +3012,6 @@
             }
           ],
           "wordFamily": [
-            {
-              "word": "compliment",
-              "pos": "n",
-              "meaning": "khen ngợi"
-            },
             {
               "word": "congratulatory",
               "pos": "adj",
@@ -2957,7 +3092,13 @@
               "vi": "Hội đồng đạt được sự đồng thuận về chính sách làm việc kết hợp sửa đổi."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "consensual",
+              "pos": "adj",
+              "meaning": "đồng thuận"
+            }
+          ],
           "synonyms": [
             "agreement",
             "unanimity",
@@ -2979,7 +3120,7 @@
             "agreement": "hợp đồng, thỏa thuận",
             "unanimity": "nhất trí",
             "accord": "hiệp định, sự đồng thuận",
-            "disagreement": "sự bất đồng, bất hòa"
+            "disagreement": "bất đồng"
           }
         },
         {
@@ -3028,7 +3169,12 @@
             {
               "word": "consolidation",
               "pos": "n",
-              "meaning": "sự hợp nhất"
+              "meaning": "hợp nhất"
+            },
+            {
+              "word": "consolidative",
+              "pos": "adj",
+              "meaning": "hợp nhất"
             }
           ],
           "synonyms": [
@@ -3053,7 +3199,7 @@
             "merge": "hợp nhất",
             "combine": "kết hợp",
             "unify": "thống nhất",
-            "split": "chia",
+            "split": "chia cắt",
             "separate": "tách biệt"
           }
         },
@@ -3080,9 +3226,9 @@
               "meaning": "cấu thành"
             },
             {
-              "word": "makeup",
+              "word": "constitution",
               "pos": "n",
-              "meaning": "trang điểm"
+              "meaning": "hiến pháp"
             }
           ],
           "synonyms": [
@@ -3122,6 +3268,21 @@
               "word": "consult",
               "pos": "v",
               "meaning": "tham khảo ý kiến, tư vấn"
+            },
+            {
+              "word": "consultant",
+              "pos": "n",
+              "meaning": "cố vấn"
+            },
+            {
+              "word": "consultive",
+              "pos": "adj",
+              "meaning": "tư vấn"
+            },
+            {
+              "word": "consultative",
+              "pos": "adj",
+              "meaning": "tư vấn"
             }
           ],
           "synonyms": [
@@ -3152,7 +3313,28 @@
               "vi": "Hai nhóm có nội dung tương tự nhau."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "contain",
+              "pos": "v",
+              "meaning": "chứa"
+            },
+            {
+              "word": "container",
+              "pos": "n",
+              "meaning": "thùng chứa"
+            },
+            {
+              "word": "continent",
+              "pos": "adj",
+              "meaning": "lục địa"
+            },
+            {
+              "word": "containment",
+              "pos": "n",
+              "meaning": "ngăn chặn"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -3185,7 +3367,22 @@
             {
               "word": "contract",
               "pos": "v",
-              "meaning": "hợp đồng, giao kèo"
+              "meaning": "ký hợp đồng; thu hẹp, co lại"
+            },
+            {
+              "word": "contraction",
+              "pos": "n",
+              "meaning": "sự co lại"
+            },
+            {
+              "word": "contracting",
+              "pos": "n",
+              "meaning": "hợp đồng"
+            },
+            {
+              "word": "contractual",
+              "pos": "adj",
+              "meaning": "hợp đồng"
             }
           ],
           "synonyms": [],
@@ -3209,7 +3406,18 @@
               "vi": "Mâu thuẫn (giữa A và B), Có sự mâu thuẫn giữa hai tập hợp hình."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "contradict",
+              "pos": "v",
+              "meaning": "mâu thuẫn"
+            },
+            {
+              "word": "contradictory",
+              "pos": "adj",
+              "meaning": "mâu thuẫn"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -3231,7 +3439,13 @@
               "vi": "Hành vi trái với quy tắc đạo đức của chúng tôi."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "contrariness",
+              "pos": "n",
+              "meaning": "sự trái ngược"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -3255,19 +3469,19 @@
           ],
           "wordFamily": [
             {
-              "word": "collaborative",
+              "word": "cooperative",
               "pos": "adj",
-              "meaning": "có tính hợp tác"
-            },
-            {
-              "word": "collaboration",
-              "pos": "n",
               "meaning": "hợp tác"
             },
             {
-              "word": "collaborator",
+              "word": "cooperator",
               "pos": "n",
-              "meaning": "cộng tác viên"
+              "meaning": "người cộng tác"
+            },
+            {
+              "word": "cooperation",
+              "pos": "n",
+              "meaning": "hợp tác"
             }
           ],
           "synonyms": [
@@ -3307,7 +3521,7 @@
             {
               "word": "coordination",
               "pos": "n",
-              "meaning": "sự điều phối"
+              "meaning": "sự phối hợp"
             }
           ],
           "synonyms": [
@@ -3352,6 +3566,11 @@
               "word": "coordinate",
               "pos": "v",
               "meaning": "điều phối, phối hợp"
+            },
+            {
+              "word": "coordination",
+              "pos": "n",
+              "meaning": "sự phối hợp"
             }
           ],
           "synonyms": [],
@@ -3411,12 +3630,17 @@
             {
               "word": "correct",
               "pos": "v",
-              "meaning": "đúng"
+              "meaning": "sửa lại"
             },
             {
-              "word": "rectify",
-              "pos": "v",
-              "meaning": "Sửa cho đúng, sửa cho ngay"
+              "word": "corrective",
+              "pos": "adj",
+              "meaning": "khắc phục"
+            },
+            {
+              "word": "correctness",
+              "pos": "n",
+              "meaning": "tính đúng đắn"
             }
           ],
           "synonyms": [
@@ -3447,12 +3671,17 @@
             {
               "word": "correspond",
               "pos": "v",
-              "meaning": "trao đổi thư; tương ứng"
+              "meaning": "tương ứng"
             },
             {
               "word": "corresponding",
               "pos": "adj",
               "meaning": "tương ứng"
+            },
+            {
+              "word": "correspondent",
+              "pos": "adj",
+              "meaning": "phóng viên"
             }
           ],
           "synonyms": [
@@ -3494,7 +3723,12 @@
             {
               "word": "cost",
               "pos": "n",
-              "meaning": "chi phí"
+              "meaning": "chi phí, giá thành"
+            },
+            {
+              "word": "costliness",
+              "pos": "n",
+              "meaning": "tốn kém"
             }
           ],
           "synonyms": [
@@ -3548,6 +3782,11 @@
               "word": "credible",
               "pos": "adj",
               "meaning": "đáng tin cậy"
+            },
+            {
+              "word": "credibleness",
+              "pos": "n",
+              "meaning": "độ tin cậy"
             }
           ],
           "synonyms": [
@@ -3616,7 +3855,18 @@
               "vi": "Lỗi ở kính."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "defector",
+              "pos": "n",
+              "meaning": "kẻ đào ngũ"
+            },
+            {
+              "word": "defection",
+              "pos": "n",
+              "meaning": "đào tẩu"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -3655,8 +3905,8 @@
           "topicId": "sat-core-g5",
           "relationMeanings": {
             "shortfall": "thiếu hụt",
-            "shortage": "sự thiếu hụt",
-            "surplus": "thặng dư, lượng dư thừa"
+            "shortage": "thiếu hụt",
+            "surplus": "lượng dư thừa, thặng dư"
           }
         },
         {
@@ -3675,7 +3925,23 @@
               "vi": "Nhóm đã thảo luận chi tiết về đại biểu trong phiên họp hôm nay."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "delegation",
+              "pos": "n",
+              "meaning": "phái đoàn"
+            },
+            {
+              "word": "delegacy",
+              "pos": "n",
+              "meaning": "đại biểu"
+            },
+            {
+              "word": "delegating",
+              "pos": "n",
+              "meaning": "ủy quyền"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -3734,6 +4000,11 @@
               "word": "depend",
               "pos": "v",
               "meaning": "phụ thuộc"
+            },
+            {
+              "word": "dependency",
+              "pos": "n",
+              "meaning": "lệ thuộc"
             }
           ],
           "synonyms": [
@@ -3774,11 +4045,6 @@
               "word": "designation",
               "pos": "n",
               "meaning": "sự chỉ định"
-            },
-            {
-              "word": "denomination",
-              "pos": "n",
-              "meaning": "giáo phái"
             }
           ],
           "synonyms": [
@@ -3869,7 +4135,7 @@
             {
               "word": "deterioration",
               "pos": "n",
-              "meaning": "sự xuống cấp"
+              "meaning": "sự suy giảm"
             }
           ],
           "synonyms": [
@@ -3914,19 +4180,9 @@
           ],
           "wordFamily": [
             {
-              "word": "waster",
-              "pos": "n",
-              "meaning": "lãng phí"
-            },
-            {
               "word": "devastation",
               "pos": "n",
               "meaning": "tàn phá"
-            },
-            {
-              "word": "desolation",
-              "pos": "n",
-              "meaning": "hoang tàn"
             }
           ],
           "synonyms": [
@@ -3980,7 +4236,7 @@
           "collocations": [],
           "topicId": "sat-core-g5",
           "relationMeanings": {
-            "name": "tên"
+            "name": "đặt tên"
           }
         },
         {
@@ -4043,23 +4299,7 @@
               "vi": "Vứt bỏ ai/thứ gì đó, Căn phòng ngổn ngang những tờ báo bỏ đi."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "fling",
-              "pos": "n",
-              "meaning": "ném"
-            },
-            {
-              "word": "disposition",
-              "pos": "n",
-              "meaning": "bố trí"
-            },
-            {
-              "word": "disposal",
-              "pos": "n",
-              "meaning": "xử lý"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "fling",
             "toss",
@@ -4092,7 +4332,18 @@
               "vi": "Hội đồng chịu trách nhiệm xử lý rác thải và vệ sinh đường phố."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "dispose",
+              "pos": "v",
+              "meaning": "vứt bỏ"
+            },
+            {
+              "word": "disposition",
+              "pos": "n",
+              "meaning": "bố trí"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -4119,6 +4370,11 @@
               "word": "disposition",
               "pos": "n",
               "meaning": "bố trí"
+            },
+            {
+              "word": "disposal",
+              "pos": "n",
+              "meaning": "xử lý"
             }
           ],
           "synonyms": [],
@@ -4157,6 +4413,11 @@
               "word": "disruption",
               "pos": "n",
               "meaning": "sự gián đoạn"
+            },
+            {
+              "word": "disruptive",
+              "pos": "adj",
+              "meaning": "gây gián đoạn; mang tính đột phá thay đổi ngành"
             }
           ],
           "synonyms": [
@@ -4199,6 +4460,11 @@
               "word": "disrupt",
               "pos": "v",
               "meaning": "phá vỡ"
+            },
+            {
+              "word": "disruptive",
+              "pos": "adj",
+              "meaning": "gây gián đoạn; mang tính đột phá thay đổi ngành"
             }
           ],
           "synonyms": [
@@ -4287,6 +4553,11 @@
               "word": "abort",
               "pos": "v",
               "meaning": "hủy bỏ"
+            },
+            {
+              "word": "abortive",
+              "pos": "adj",
+              "meaning": "phá thai"
             }
           ],
           "synonyms": [],
@@ -4314,6 +4585,11 @@
             {
               "word": "absent",
               "pos": "adj",
+              "meaning": "vắng mặt"
+            },
+            {
+              "word": "absentee",
+              "pos": "n",
               "meaning": "vắng mặt"
             }
           ],
@@ -4388,16 +4664,6 @@
               "word": "abundant",
               "pos": "adj",
               "meaning": "dồi dào, phong phú"
-            },
-            {
-              "word": "abound",
-              "pos": "v",
-              "meaning": "nhiều"
-            },
-            {
-              "word": "copious",
-              "pos": "adj",
-              "meaning": "phong phú"
             }
           ],
           "synonyms": [
@@ -4433,8 +4699,13 @@
           ],
           "wordFamily": [
             {
-              "word": "maltreat",
-              "pos": "v",
+              "word": "abuser",
+              "pos": "n",
+              "meaning": "kẻ ngược đãi"
+            },
+            {
+              "word": "abusive",
+              "pos": "adj",
               "meaning": "ngược đãi"
             }
           ],
@@ -4473,6 +4744,11 @@
               "word": "academician",
               "pos": "n",
               "meaning": "học giả"
+            },
+            {
+              "word": "academic",
+              "pos": "adj",
+              "meaning": "học thuật"
             }
           ],
           "synonyms": [],
@@ -4508,7 +4784,12 @@
               "meaning": "tăng tốc"
             },
             {
-              "word": "speedup",
+              "word": "accelerator",
+              "pos": "n",
+              "meaning": "máy gia tốc"
+            },
+            {
+              "word": "acceleration",
               "pos": "n",
               "meaning": "tăng tốc"
             }
@@ -4551,6 +4832,11 @@
               "word": "accordant",
               "pos": "adj",
               "meaning": "phù hợp"
+            },
+            {
+              "word": "accord",
+              "pos": "v",
+              "meaning": "hòa hợp"
             }
           ],
           "synonyms": [
@@ -4588,9 +4874,9 @@
               "meaning": "chịu trách nhiệm"
             },
             {
-              "word": "answerable",
-              "pos": "adj",
-              "meaning": "có thể trả lời được"
+              "word": "account",
+              "pos": "v",
+              "meaning": "giải thích, chiếm tỷ lệ"
             }
           ],
           "synonyms": [
@@ -4625,12 +4911,22 @@
             {
               "word": "account",
               "pos": "v",
-              "meaning": "tài khoản; bản báo cáo; giải thích"
+              "meaning": "giải thích, chiếm tỷ lệ"
             },
             {
               "word": "accountability",
               "pos": "n",
               "meaning": "trách nhiệm giải trình"
+            },
+            {
+              "word": "accountant",
+              "pos": "n",
+              "meaning": "kế toán"
+            },
+            {
+              "word": "accounting",
+              "pos": "n",
+              "meaning": "Công việc kế toán"
             }
           ],
           "synonyms": [],
@@ -4656,14 +4952,14 @@
           ],
           "wordFamily": [
             {
-              "word": "accretionary",
-              "pos": "adj",
-              "meaning": "bổ túc"
+              "word": "accumulate",
+              "pos": "v",
+              "meaning": "tích lũy"
             },
             {
-              "word": "accrete",
-              "pos": "v",
-              "meaning": "tích tụ"
+              "word": "accumulative",
+              "pos": "adj",
+              "meaning": "tích lũy"
             }
           ],
           "synonyms": [
@@ -4702,6 +4998,16 @@
               "word": "accuse",
               "pos": "v",
               "meaning": "buộc tội"
+            },
+            {
+              "word": "accusal",
+              "pos": "n",
+              "meaning": "buộc tội"
+            },
+            {
+              "word": "accuser",
+              "pos": "n",
+              "meaning": "người tố cáo"
             }
           ],
           "synonyms": [
@@ -4754,19 +5060,19 @@
           ],
           "wordFamily": [
             {
-              "word": "acerbity",
-              "pos": "n",
-              "meaning": "độ cay"
+              "word": "acidify",
+              "pos": "v",
+              "meaning": "axit hóa"
             },
             {
-              "word": "acridness",
+              "word": "acidity",
               "pos": "n",
-              "meaning": "vị chát"
+              "meaning": "tính axit"
             },
             {
-              "word": "acridity",
-              "pos": "n",
-              "meaning": "vị chát"
+              "word": "acidulate",
+              "pos": "v",
+              "meaning": "axit hóa"
             }
           ],
           "synonyms": [
@@ -4804,6 +5110,21 @@
               "word": "acquire",
               "pos": "v",
               "meaning": "có được"
+            },
+            {
+              "word": "acquirer",
+              "pos": "n",
+              "meaning": "người thâu tóm"
+            },
+            {
+              "word": "acquiring",
+              "pos": "n",
+              "meaning": "có được"
+            },
+            {
+              "word": "acquirable",
+              "pos": "adj",
+              "meaning": "có thể mua được"
             }
           ],
           "synonyms": [],
@@ -4854,6 +5175,11 @@
               "word": "activate",
               "pos": "v",
               "meaning": "kích hoạt"
+            },
+            {
+              "word": "activator",
+              "pos": "n",
+              "meaning": "kích hoạt"
             }
           ],
           "synonyms": [],
@@ -4887,6 +5213,11 @@
               "word": "activism",
               "pos": "n",
               "meaning": "hoạt động"
+            },
+            {
+              "word": "activistic",
+              "pos": "adj",
+              "meaning": "hoạt động"
             }
           ],
           "synonyms": [
@@ -4915,7 +5246,13 @@
               "vi": "Có một sự thiếu hụt nước nghiêm trọng."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "acuteness",
+              "pos": "n",
+              "meaning": "sự sắc bén"
+            }
+          ],
           "synonyms": [],
           "antonyms": [
             "chronic"
@@ -4942,7 +5279,28 @@
               "vi": "Việc thích nghi các tòa nhà cho mục đích quân sự."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "adapt",
+              "pos": "v",
+              "meaning": "thích nghi"
+            },
+            {
+              "word": "adapter",
+              "pos": "n",
+              "meaning": "bộ chuyển đổi"
+            },
+            {
+              "word": "adaptable",
+              "pos": "adj",
+              "meaning": "có khả năng thích nghi tốt"
+            },
+            {
+              "word": "adaptor",
+              "pos": "n",
+              "meaning": "bộ chuyển đổi"
+            }
+          ],
           "synonyms": [
             "version"
           ],
@@ -4973,7 +5331,12 @@
             {
               "word": "adolesce",
               "pos": "v",
-              "meaning": "thanh thiếu niên"
+              "meaning": "đến tuổi thiếu niên"
+            },
+            {
+              "word": "adolescence",
+              "pos": "n",
+              "meaning": "tuổi thanh xuân"
             }
           ],
           "synonyms": [
@@ -5013,14 +5376,19 @@
               "meaning": "áp dụng (chính sách, công nghệ mới)"
             },
             {
-              "word": "acceptant",
-              "pos": "adj",
-              "meaning": "chấp nhận"
+              "word": "adoptee",
+              "pos": "n",
+              "meaning": "người nhận nuôi"
             },
             {
-              "word": "accept",
-              "pos": "v",
-              "meaning": "chấp nhận"
+              "word": "adopter",
+              "pos": "n",
+              "meaning": "người nhận nuôi"
+            },
+            {
+              "word": "adoptive",
+              "pos": "adj",
+              "meaning": "nhận nuôi"
             }
           ],
           "synonyms": [
@@ -5058,11 +5426,6 @@
               "word": "adversity",
               "pos": "n",
               "meaning": "nghịch cảnh"
-            },
-            {
-              "word": "inauspiciousness",
-              "pos": "n",
-              "meaning": "điềm gở"
             }
           ],
           "synonyms": [
@@ -5095,9 +5458,14 @@
           ],
           "wordFamily": [
             {
-              "word": "propound",
-              "pos": "v",
-              "meaning": "đề xuất"
+              "word": "advocacy",
+              "pos": "n",
+              "meaning": "vận động"
+            },
+            {
+              "word": "advocator",
+              "pos": "n",
+              "meaning": "người biện hộ"
             }
           ],
           "synonyms": [
@@ -5162,16 +5530,6 @@
               "word": "affectionate",
               "pos": "adj",
               "meaning": "trìu mến"
-            },
-            {
-              "word": "fond",
-              "pos": "adj",
-              "meaning": "thích"
-            },
-            {
-              "word": "tender",
-              "pos": "adj",
-              "meaning": "hồ sơ dự thầu; đề xuất chính thức"
             }
           ],
           "synonyms": [
@@ -5235,7 +5593,23 @@
               "vi": "Nghiên cứu cho thấy trò chơi điện tử có thể gây ra sự xâm lược."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "aggressive",
+              "pos": "adj",
+              "meaning": "hung hăng"
+            },
+            {
+              "word": "aggress",
+              "pos": "v",
+              "meaning": "hung hăng"
+            },
+            {
+              "word": "aggressor",
+              "pos": "n",
+              "meaning": "kẻ xâm lược"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -5330,13 +5704,7 @@
               "vi": "Một môi trường xa lạ."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "foreignness",
-              "pos": "n",
-              "meaning": "ngoại quốc"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "foreign"
           ],
@@ -5470,11 +5838,6 @@
               "word": "allegement",
               "pos": "n",
               "meaning": "cáo buộc"
-            },
-            {
-              "word": "say",
-              "pos": "n",
-              "meaning": "nói"
             }
           ],
           "synonyms": [
@@ -5529,9 +5892,9 @@
           ],
           "wordFamily": [
             {
-              "word": "confederate",
+              "word": "ally",
               "pos": "v",
-              "meaning": "liên minh"
+              "meaning": "đồng minh"
             }
           ],
           "synonyms": [
@@ -5572,6 +5935,21 @@
               "word": "allocate",
               "pos": "v",
               "meaning": "phân bổ (ngân sách, nguồn lực)"
+            },
+            {
+              "word": "allocable",
+              "pos": "adj",
+              "meaning": "có thể phân bổ"
+            },
+            {
+              "word": "allocator",
+              "pos": "n",
+              "meaning": "người cấp phát"
+            },
+            {
+              "word": "allocatable",
+              "pos": "adj",
+              "meaning": "có thể phân bổ"
             }
           ],
           "synonyms": [
@@ -5605,6 +5983,11 @@
               "word": "allow",
               "pos": "v",
               "meaning": "cho phép"
+            },
+            {
+              "word": "allowable",
+              "pos": "adj",
+              "meaning": "được phép"
             }
           ],
           "synonyms": [],
@@ -5628,7 +6011,13 @@
               "vi": "Anh ấy là một đồng minh tốt trong cuộc chiến."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "alliance",
+              "pos": "n",
+              "meaning": "liên minh"
+            }
+          ],
           "synonyms": [
             "friend"
           ],
@@ -5710,6 +6099,11 @@
               "word": "amendment",
               "pos": "n",
               "meaning": "sự sửa đổi"
+            },
+            {
+              "word": "amendable",
+              "pos": "adj",
+              "meaning": "có thể sửa đổi"
             }
           ],
           "synonyms": [],
@@ -5737,6 +6131,16 @@
             {
               "word": "amend",
               "pos": "v",
+              "meaning": "sửa đổi"
+            },
+            {
+              "word": "amendable",
+              "pos": "adj",
+              "meaning": "có thể sửa đổi"
+            },
+            {
+              "word": "amendatory",
+              "pos": "adj",
               "meaning": "sửa đổi"
             }
           ],
@@ -5798,6 +6202,11 @@
               "word": "analogical",
               "pos": "adj",
               "meaning": "tương tự"
+            },
+            {
+              "word": "analogise",
+              "pos": "v",
+              "meaning": "tương tự"
             }
           ],
           "synonyms": [],
@@ -5821,7 +6230,13 @@
               "vi": "Thả neo."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "anchorage",
+              "pos": "n",
+              "meaning": "nơi neo đậu"
+            }
+          ],
           "synonyms": [
             "ground tackle"
           ],
@@ -6019,14 +6434,9 @@
               "meaning": "người vỗ tay"
             },
             {
-              "word": "clapper",
-              "pos": "n",
-              "meaning": "tiếng vỗ tay"
-            },
-            {
-              "word": "clapping",
-              "pos": "n",
-              "meaning": "vỗ tay"
+              "word": "applaudable",
+              "pos": "adj",
+              "meaning": "đáng khen ngợi"
             }
           ],
           "synonyms": [
@@ -6042,7 +6452,7 @@
           "relationMeanings": {
             "clap": "vỗ tay",
             "spat": "nhổ",
-            "acclaim": "sự khen ngợi nhiệt liệt, tán dương",
+            "acclaim": "ca ngợi",
             "boo": "ôi"
           }
         },
@@ -6174,19 +6584,24 @@
           ],
           "wordFamily": [
             {
-              "word": "joint",
-              "pos": "n",
-              "meaning": "khớp"
-            },
-            {
-              "word": "jointer",
-              "pos": "n",
-              "meaning": "thợ nối"
-            },
-            {
               "word": "articulation",
               "pos": "n",
               "meaning": "phát âm"
+            },
+            {
+              "word": "articulator",
+              "pos": "n",
+              "meaning": "khớp nối"
+            },
+            {
+              "word": "articulative",
+              "pos": "adj",
+              "meaning": "khớp nối"
+            },
+            {
+              "word": "articulatory",
+              "pos": "adj",
+              "meaning": "khớp nối"
             }
           ],
           "synonyms": [
@@ -6218,6 +6633,21 @@
           "wordFamily": [
             {
               "word": "aspire",
+              "pos": "v",
+              "meaning": "khát vọng"
+            },
+            {
+              "word": "aspirer",
+              "pos": "n",
+              "meaning": "người khao khát"
+            },
+            {
+              "word": "aspirant",
+              "pos": "adj",
+              "meaning": "người khao khát"
+            },
+            {
+              "word": "aspirate",
               "pos": "v",
               "meaning": "khát vọng"
             }
@@ -6270,7 +6700,7 @@
           "topicId": "sat-core-g7",
           "relationMeanings": {
             "draw a bead on": "vẽ một hạt cườm lên",
-            "aim": "nhắm tới",
+            "aim": "nhằm mục đích",
             "shoot for": "bắn cho"
           }
         },
@@ -6295,6 +6725,16 @@
               "word": "assassinate",
               "pos": "v",
               "meaning": "ám sát"
+            },
+            {
+              "word": "assassin",
+              "pos": "n",
+              "meaning": "sát thủ"
+            },
+            {
+              "word": "assassinator",
+              "pos": "n",
+              "meaning": "sát thủ"
             }
           ],
           "synonyms": [
@@ -6325,7 +6765,18 @@
               "vi": "Cả hai người đàn ông đều bị buộc tội tấn công."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "assaulter",
+              "pos": "n",
+              "meaning": "kẻ tấn công"
+            },
+            {
+              "word": "assaultive",
+              "pos": "adj",
+              "meaning": "tấn công"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -6362,6 +6813,11 @@
               "word": "asseveration",
               "pos": "n",
               "meaning": "sự khẳng định"
+            },
+            {
+              "word": "asserter",
+              "pos": "n",
+              "meaning": "người khẳng định"
             }
           ],
           "synonyms": [
@@ -6399,14 +6855,19 @@
               "meaning": "khẳng định"
             },
             {
-              "word": "aver",
-              "pos": "v",
-              "meaning": "trung bình"
+              "word": "asserter",
+              "pos": "n",
+              "meaning": "người khẳng định"
             },
             {
-              "word": "asseverate",
-              "pos": "v",
-              "meaning": "khẳng định"
+              "word": "assertive",
+              "pos": "adj",
+              "meaning": "quyết đoán"
+            },
+            {
+              "word": "assertable",
+              "pos": "adj",
+              "meaning": "có thể khẳng định"
             }
           ],
           "synonyms": [
@@ -6471,16 +6932,6 @@
               "word": "atrocious",
               "pos": "adj",
               "meaning": "tàn bạo"
-            },
-            {
-              "word": "barbarous",
-              "pos": "adj",
-              "meaning": "dã man"
-            },
-            {
-              "word": "heinous",
-              "pos": "adj",
-              "meaning": "ghê tởm"
             }
           ],
           "synonyms": [
@@ -6525,6 +6976,16 @@
               "word": "attend",
               "pos": "v",
               "meaning": "tham dự, có mặt tại"
+            },
+            {
+              "word": "attention",
+              "pos": "n",
+              "meaning": "chú ý"
+            },
+            {
+              "word": "attender",
+              "pos": "n",
+              "meaning": "người tham dự"
             }
           ],
           "synonyms": [
@@ -6556,7 +7017,18 @@
               "vi": "Nhóm đã thảo luận chi tiết về thuộc tính trong buổi họp hôm nay."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "attribution",
+              "pos": "n",
+              "meaning": "ghi công"
+            },
+            {
+              "word": "attributable",
+              "pos": "adj",
+              "meaning": "quy cho"
+            }
+          ],
           "synonyms": [
             "property",
             "dimension"
@@ -6590,11 +7062,6 @@
               "word": "autonomous",
               "pos": "adj",
               "meaning": "tự chủ"
-            },
-            {
-              "word": "liberate",
-              "pos": "v",
-              "meaning": "giải phóng"
             }
           ],
           "synonyms": [
@@ -6657,6 +7124,11 @@
               "word": "back",
               "pos": "v",
               "meaning": "trở lại"
+            },
+            {
+              "word": "backer",
+              "pos": "n",
+              "meaning": "người ủng hộ"
             }
           ],
           "synonyms": [
@@ -6711,7 +7183,28 @@
               "vi": "Có ai có thể đặt tiền bảo lãnh cho bạn không?"
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "bailee",
+              "pos": "n",
+              "meaning": "người bảo lãnh"
+            },
+            {
+              "word": "bailor",
+              "pos": "n",
+              "meaning": "người bảo lãnh"
+            },
+            {
+              "word": "bailable",
+              "pos": "adj",
+              "meaning": "có thể bảo lãnh"
+            },
+            {
+              "word": "bailment",
+              "pos": "n",
+              "meaning": "bảo lãnh"
+            }
+          ],
           "synonyms": [
             "bail bond",
             "bond"
@@ -6801,16 +7294,6 @@
               "word": "bareness",
               "pos": "n",
               "meaning": "trần trụi"
-            },
-            {
-              "word": "nakedness",
-              "pos": "n",
-              "meaning": "trần trụi"
-            },
-            {
-              "word": "nude",
-              "pos": "n",
-              "meaning": "khỏa thân"
             }
           ],
           "synonyms": [
@@ -6925,7 +7408,13 @@
               "vi": "Nhóm đã thảo luận chi tiết về tia trong buổi họp hôm nay."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "beamy",
+              "pos": "adj",
+              "meaning": "rạng rỡ"
+            }
+          ],
           "synonyms": [
             "radio beam"
           ],
@@ -6953,16 +7442,6 @@
             }
           ],
           "wordFamily": [
-            {
-              "word": "animalize",
-              "pos": "v",
-              "meaning": "động vật hóa"
-            },
-            {
-              "word": "animalise",
-              "pos": "v",
-              "meaning": "động vật hóa"
-            },
             {
               "word": "beastly",
               "pos": "adj",
@@ -7001,18 +7480,7 @@
               "vi": "Tưởng nhớ con trai yêu dấu của chúng tôi, John."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "darling",
-              "pos": "n",
-              "meaning": "em yêu"
-            },
-            {
-              "word": "dear",
-              "pos": "n",
-              "meaning": "thân yêu"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "darling",
             "dear"
@@ -7079,7 +7547,7 @@
             {
               "word": "benefice",
               "pos": "v",
-              "meaning": "lợi ích"
+              "meaning": "được hưởng lợi"
             }
           ],
           "synonyms": [
@@ -7108,7 +7576,18 @@
               "vi": "Phản bội ai đó/cái gì đó, anh ta được mời tiền để phản bội đồng nghiệp của mình."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "betrayal",
+              "pos": "n",
+              "meaning": "phản bội"
+            },
+            {
+              "word": "betrayer",
+              "pos": "n",
+              "meaning": "kẻ phản bội"
+            }
+          ],
           "synonyms": [
             "bewray"
           ],
@@ -7137,19 +7616,24 @@
           ],
           "wordFamily": [
             {
-              "word": "adhesive",
-              "pos": "adj",
+              "word": "binder",
+              "pos": "n",
               "meaning": "chất kết dính"
             },
             {
-              "word": "adherent",
-              "pos": "adj",
-              "meaning": "tuân theo"
+              "word": "bindery",
+              "pos": "n",
+              "meaning": "bìa sách"
             },
             {
-              "word": "adhesion",
+              "word": "binding",
               "pos": "n",
-              "meaning": "độ bám dính"
+              "meaning": "ràng buộc"
+            },
+            {
+              "word": "bindable",
+              "pos": "adj",
+              "meaning": "ràng buộc"
             }
           ],
           "synonyms": [
@@ -7164,8 +7648,8 @@
           "relationMeanings": {
             "adhere": "tuân thủ",
             "hold fast": "giữ chặt",
-            "bond": "mối quan hệ",
-            "stick": "dính"
+            "bond": "gắn kết",
+            "stick": "dính vào"
           }
         },
         {
@@ -7184,13 +7668,7 @@
               "vi": "Giám mục Oxford."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "episcopal",
-              "pos": "adj",
-              "meaning": "giám mục"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -7217,16 +7695,6 @@
               "word": "bizarreness",
               "pos": "n",
               "meaning": "sự kỳ lạ"
-            },
-            {
-              "word": "eccentricity",
-              "pos": "n",
-              "meaning": "độ lệch tâm"
-            },
-            {
-              "word": "freakishness",
-              "pos": "n",
-              "meaning": "sự kỳ quái"
             }
           ],
           "synonyms": [
@@ -7320,11 +7788,6 @@
               "word": "bleeding",
               "pos": "n",
               "meaning": "chảy máu"
-            },
-            {
-              "word": "hemorrhage",
-              "pos": "n",
-              "meaning": "xuất huyết"
             }
           ],
           "synonyms": [
@@ -7355,7 +7818,13 @@
               "vi": "Một loại trà pha trộn."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "blender",
+              "pos": "n",
+              "meaning": "máy xay sinh tố"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -7412,14 +7881,9 @@
           ],
           "wordFamily": [
             {
-              "word": "approbate",
+              "word": "bless",
               "pos": "v",
-              "meaning": "tán thành"
-            },
-            {
-              "word": "approve",
-              "pos": "v",
-              "meaning": "phê duyệt, chấp thuận"
+              "meaning": "ban phước"
             }
           ],
           "synonyms": [
@@ -7458,11 +7922,6 @@
               "word": "boaster",
               "pos": "n",
               "meaning": "người khoe khoang"
-            },
-            {
-              "word": "braggart",
-              "pos": "n",
-              "meaning": "khoác lác"
             }
           ],
           "synonyms": [
@@ -7497,23 +7956,7 @@
               "vi": "Mức sống cải thiện nhanh chóng trong thời kỳ bùng nổ sau chiến tranh."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "roar",
-              "pos": "v",
-              "meaning": "gầm lên"
-            },
-            {
-              "word": "thunderous",
-              "pos": "adj",
-              "meaning": "sấm sét"
-            },
-            {
-              "word": "thunder",
-              "pos": "v",
-              "meaning": "sấm sét"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "roar",
             "roaring",
@@ -7546,19 +7989,19 @@
           ],
           "wordFamily": [
             {
-              "word": "resilient",
+              "word": "bouncy",
               "pos": "adj",
-              "meaning": "kiên cường, phục hồi nhanh sau khủng hoảng"
+              "meaning": "nảy lên"
             },
             {
-              "word": "resiliency",
+              "word": "bouncer",
               "pos": "n",
-              "meaning": "khả năng phục hồi"
+              "meaning": "người bảo vệ"
             },
             {
-              "word": "spring",
+              "word": "bounciness",
               "pos": "n",
-              "meaning": "mùa xuân"
+              "meaning": "độ nảy"
             }
           ],
           "synonyms": [
@@ -7571,7 +8014,7 @@
           "collocations": [],
           "topicId": "sat-core-g8",
           "relationMeanings": {
-            "resile": "khả năng phục hồi",
+            "resile": "kiên cường",
             "take a hop": "nhảy một bước",
             "spring": "mùa xuân",
             "bound": "ràng buộc"
@@ -7598,6 +8041,11 @@
               "word": "bound",
               "pos": "v",
               "meaning": "ràng buộc"
+            },
+            {
+              "word": "bounder",
+              "pos": "n",
+              "meaning": "giới hạn"
             }
           ],
           "synonyms": [
@@ -7650,13 +8098,7 @@
               "vi": "Một sự cố hỏng hóc trên đường cao tốc."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "dislocate",
-              "pos": "v",
-              "meaning": "trật khớp"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "dislocation"
           ],
@@ -7683,18 +8125,7 @@
               "vi": "Đạt được/bước đột phá."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "discover",
-              "pos": "v",
-              "meaning": "phát hiện"
-            },
-            {
-              "word": "find",
-              "pos": "v",
-              "meaning": "tìm"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "discovery",
             "find"
@@ -7725,9 +8156,14 @@
           ],
           "wordFamily": [
             {
-              "word": "stock",
-              "pos": "v",
-              "meaning": "hàng tồn kho; cổ phiếu"
+              "word": "breeder",
+              "pos": "n",
+              "meaning": "người chăn nuôi"
+            },
+            {
+              "word": "breeding",
+              "pos": "n",
+              "meaning": "chăn nuôi"
             }
           ],
           "synonyms": [
@@ -7810,19 +8246,14 @@
           ],
           "wordFamily": [
             {
-              "word": "barbarousness",
-              "pos": "n",
-              "meaning": "sự man rợ"
-            },
-            {
               "word": "brutality",
               "pos": "n",
               "meaning": "sự tàn bạo"
             },
             {
-              "word": "cruelness",
-              "pos": "n",
-              "meaning": "sự tàn nhẫn"
+              "word": "brutalize",
+              "pos": "v",
+              "meaning": "tàn bạo"
             }
           ],
           "synonyms": [
@@ -7886,18 +8317,7 @@
               "vi": "Một người bạn học cũ của tôi."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "chummy",
-              "pos": "adj",
-              "meaning": "thân mật"
-            },
-            {
-              "word": "pal",
-              "pos": "v",
-              "meaning": "bạn ơi"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "brother",
             "chum",
@@ -7997,16 +8417,6 @@
               "word": "bury",
               "pos": "v",
               "meaning": "chôn"
-            },
-            {
-              "word": "entomb",
-              "pos": "v",
-              "meaning": "hầm mộ"
-            },
-            {
-              "word": "inhume",
-              "pos": "v",
-              "meaning": "vô nhân tính"
             }
           ],
           "synonyms": [
@@ -8043,9 +8453,9 @@
           ],
           "wordFamily": [
             {
-              "word": "split",
+              "word": "burster",
               "pos": "n",
-              "meaning": "chia"
+              "meaning": "nổ"
             }
           ],
           "synonyms": [
@@ -8056,7 +8466,7 @@
           "collocations": [],
           "topicId": "sat-core-g9",
           "relationMeanings": {
-            "split": "chia",
+            "split": "chia cắt",
             "break open": "phá vỡ"
           }
         },
@@ -8076,7 +8486,13 @@
               "vi": "Lều được làm từ vải bạt nặng."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "canvasser",
+              "pos": "n",
+              "meaning": "người vận động"
+            }
+          ],
           "synonyms": [
             "canvass"
           ],
@@ -8108,6 +8524,11 @@
               "word": "capable",
               "pos": "adj",
               "meaning": "có năng lực, có khả năng (đi với of)"
+            },
+            {
+              "word": "capableness",
+              "pos": "n",
+              "meaning": "khả năng"
             }
           ],
           "synonyms": [
@@ -8151,6 +8572,11 @@
               "word": "capitalist",
               "pos": "n",
               "meaning": "nhà tư bản"
+            },
+            {
+              "word": "capital",
+              "pos": "n",
+              "meaning": "vốn"
             }
           ],
           "synonyms": [
@@ -8187,6 +8613,21 @@
               "word": "capitalism",
               "pos": "n",
               "meaning": "chủ nghĩa tư bản"
+            },
+            {
+              "word": "capital",
+              "pos": "n",
+              "meaning": "vốn"
+            },
+            {
+              "word": "capitalise",
+              "pos": "v",
+              "meaning": "viết hoa"
+            },
+            {
+              "word": "capitalize",
+              "pos": "v",
+              "meaning": "viết hoa"
             }
           ],
           "synonyms": [
@@ -8215,7 +8656,18 @@
               "vi": "Một toa tàu hỏa."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "carry",
+              "pos": "v",
+              "meaning": "mang theo"
+            },
+            {
+              "word": "carrier",
+              "pos": "n",
+              "meaning": "‹người/công ty› vận chuyển, vận tải"
+            }
+          ],
           "synonyms": [
             "passenger car",
             "coach"
@@ -8225,7 +8677,7 @@
           "topicId": "sat-core-g9",
           "relationMeanings": {
             "passenger car": "xe khách",
-            "coach": "huấn luyện viên"
+            "coach": "huấn luyện viên; xe khách"
           }
         },
         {
@@ -8331,6 +8783,16 @@
               "word": "catalog",
               "pos": "v",
               "meaning": "Phân thành từng mục"
+            },
+            {
+              "word": "cataloger",
+              "pos": "n",
+              "meaning": "người lập danh mục"
+            },
+            {
+              "word": "cataloguer",
+              "pos": "n",
+              "meaning": "người lập danh mục"
             }
           ],
           "synonyms": [
@@ -8396,23 +8858,7 @@
               "vi": "Các khoản trả trợ cấp phúc lợi sẽ ngừng ngay khi một cá nhân bắt đầu làm việc."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "discontinuation",
-              "pos": "n",
-              "meaning": "ngừng"
-            },
-            {
-              "word": "discontinuance",
-              "pos": "n",
-              "meaning": "ngừng"
-            },
-            {
-              "word": "stop",
-              "pos": "n",
-              "meaning": "dừng lại"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "discontinue",
             "stop",
@@ -8542,11 +8988,6 @@
           ],
           "wordFamily": [
             {
-              "word": "quality",
-              "pos": "n",
-              "meaning": "chất lượng"
-            },
-            {
               "word": "characterization",
               "pos": "n",
               "meaning": "đặc tính"
@@ -8555,6 +8996,16 @@
               "word": "character",
               "pos": "n",
               "meaning": "ký tự"
+            },
+            {
+              "word": "characteristic",
+              "pos": "adj",
+              "meaning": "đặc điểm, tính chất đặc trưng"
+            },
+            {
+              "word": "characterise",
+              "pos": "v",
+              "meaning": "mô tả"
             }
           ],
           "synonyms": [
@@ -8566,7 +9017,7 @@
           "topicId": "sat-core-g9",
           "relationMeanings": {
             "qualify": "đủ điều kiện",
-            "characterise": "đặc điểm"
+            "characterise": "mô tả"
           }
         },
         {
@@ -8587,14 +9038,9 @@
           ],
           "wordFamily": [
             {
-              "word": "appeal",
-              "pos": "v",
-              "meaning": "kháng cáo"
-            },
-            {
-              "word": "appealing",
-              "pos": "adj",
-              "meaning": "hấp dẫn"
+              "word": "charmer",
+              "pos": "n",
+              "meaning": "quyến rũ"
             }
           ],
           "synonyms": [
@@ -8605,7 +9051,7 @@
           "collocations": [],
           "topicId": "sat-core-g9",
           "relationMeanings": {
-            "appeal": "kháng cáo",
+            "appeal": "sự hấp dẫn; đơn kháng cáo",
             "appealingness": "tính hấp dẫn"
           }
         },
@@ -8676,14 +9122,14 @@
           ],
           "wordFamily": [
             {
-              "word": "lumpy",
-              "pos": "adj",
-              "meaning": "sần sùi"
-            },
-            {
               "word": "chunky",
               "pos": "adj",
               "meaning": "mập mạp"
+            },
+            {
+              "word": "chunking",
+              "pos": "n",
+              "meaning": "chia nhỏ"
             }
           ],
           "synonyms": [
@@ -8802,14 +9248,9 @@
               "meaning": "rõ ràng"
             },
             {
-              "word": "lucid",
-              "pos": "adj",
-              "meaning": "sáng sủa, rõ ràng mạch lạc"
-            },
-            {
-              "word": "elucidate",
-              "pos": "v",
-              "meaning": "làm sáng tỏ"
+              "word": "clearance",
+              "pos": "n",
+              "meaning": "giải tỏa"
             }
           ],
           "synonyms": [
@@ -8873,19 +9314,24 @@
           ],
           "wordFamily": [
             {
-              "word": "categorize",
-              "pos": "v",
-              "meaning": "phân loại"
-            },
-            {
               "word": "classify",
               "pos": "v",
               "meaning": "phân loại"
             },
             {
-              "word": "compartmentalize",
-              "pos": "v",
-              "meaning": "chia ngăn"
+              "word": "class",
+              "pos": "n",
+              "meaning": "lớp học"
+            },
+            {
+              "word": "classifier",
+              "pos": "n",
+              "meaning": "phân loại"
+            },
+            {
+              "word": "classificatory",
+              "pos": "adj",
+              "meaning": "phân loại"
             }
           ],
           "synonyms": [
@@ -8920,23 +9366,7 @@
               "vi": "Bám vào ai đó/cái gì đó, những người sống sót bám vào một cái bè."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "adherent",
-              "pos": "adj",
-              "meaning": "tuân theo"
-            },
-            {
-              "word": "adhesion",
-              "pos": "n",
-              "meaning": "độ bám dính"
-            },
-            {
-              "word": "cohesive",
-              "pos": "adj",
-              "meaning": "gắn kết chặt chẽ, mạch lạc"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "cleave",
             "adhere",
@@ -8949,8 +9379,8 @@
           "relationMeanings": {
             "cleave": "tách ra",
             "adhere": "tuân thủ",
-            "stick": "dính",
-            "cohere": "mạch lạc"
+            "stick": "dính vào",
+            "cohere": "gắn kết"
           }
         },
         {
@@ -8999,19 +9429,9 @@
           ],
           "wordFamily": [
             {
-              "word": "bunchy",
-              "pos": "adj",
-              "meaning": "chùm"
-            },
-            {
-              "word": "bunch",
-              "pos": "v",
-              "meaning": "bó"
-            },
-            {
-              "word": "clump",
-              "pos": "v",
-              "meaning": "cụm"
+              "word": "clustering",
+              "pos": "n",
+              "meaning": "phân cụm"
             }
           ],
           "synonyms": [
@@ -9044,13 +9464,7 @@
               "vi": "Hai đảng đã thành lập một liên minh."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "align",
-              "pos": "v",
-              "meaning": "căn chỉnh"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "alliance",
             "alignment",
@@ -9089,6 +9503,11 @@
               "word": "coast",
               "pos": "n",
               "meaning": "bờ biển"
+            },
+            {
+              "word": "coaster",
+              "pos": "n",
+              "meaning": "tàu lượn"
             }
           ],
           "synonyms": [],
@@ -9138,6 +9557,16 @@
             {
               "word": "cognize",
               "pos": "v",
+              "meaning": "nhận biết"
+            },
+            {
+              "word": "cognizant",
+              "pos": "adj",
+              "meaning": "nhận thức"
+            },
+            {
+              "word": "cognizance",
+              "pos": "n",
               "meaning": "nhận thức"
             }
           ],
@@ -9169,7 +9598,18 @@
               "vi": "Lãnh đạo/tự ra quyết định/trách nhiệm tập thể."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "collectivise",
+              "pos": "v",
+              "meaning": "tập thể hóa"
+            },
+            {
+              "word": "collectivize",
+              "pos": "v",
+              "meaning": "tập thể hóa"
+            }
+          ],
           "synonyms": [
             "corporate"
           ],
@@ -9203,9 +9643,9 @@
               "meaning": "va chạm"
             },
             {
-              "word": "hit",
-              "pos": "v",
-              "meaning": "đánh"
+              "word": "collider",
+              "pos": "n",
+              "meaning": "máy va chạm"
             }
           ],
           "synonyms": [
@@ -9239,6 +9679,21 @@
               "word": "colony",
               "pos": "n",
               "meaning": "thuộc địa"
+            },
+            {
+              "word": "colonise",
+              "pos": "v",
+              "meaning": "thuộc địa hóa"
+            },
+            {
+              "word": "colonist",
+              "pos": "n",
+              "meaning": "thực dân"
+            },
+            {
+              "word": "colonize",
+              "pos": "v",
+              "meaning": "thuộc địa hóa"
             }
           ],
           "synonyms": [],
@@ -9269,9 +9724,9 @@
               "meaning": "cột"
             },
             {
-              "word": "editorial",
-              "pos": "n",
-              "meaning": "biên tập"
+              "word": "columnar",
+              "pos": "adj",
+              "meaning": "cột"
             }
           ],
           "synonyms": [
@@ -9300,7 +9755,18 @@
               "vi": "Trong chiến đấu, anh ấy đã tử trận."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "combatant",
+              "pos": "adj",
+              "meaning": "chiến binh"
+            },
+            {
+              "word": "combative",
+              "pos": "adj",
+              "meaning": "hiếu chiến"
+            }
+          ],
           "synonyms": [
             "armed combat"
           ],
@@ -9337,6 +9803,11 @@
               "word": "comment",
               "pos": "v",
               "meaning": "bình luận"
+            },
+            {
+              "word": "commentator",
+              "pos": "n",
+              "meaning": "người bình luận"
             }
           ],
           "synonyms": [
@@ -9367,13 +9838,18 @@
           ],
           "wordFamily": [
             {
-              "word": "observe",
-              "pos": "v",
-              "meaning": "quan sát"
-            },
-            {
               "word": "commentate",
               "pos": "v",
+              "meaning": "bình luận"
+            },
+            {
+              "word": "comment",
+              "pos": "n",
+              "meaning": "bình luận"
+            },
+            {
+              "word": "commentary",
+              "pos": "n",
               "meaning": "bình luận"
             }
           ],
@@ -9408,6 +9884,16 @@
               "word": "commission",
               "pos": "n",
               "meaning": "hoa hồng"
+            },
+            {
+              "word": "commit",
+              "pos": "v",
+              "meaning": "cam kết (đi với to + V-ing/N)"
+            },
+            {
+              "word": "commissioning",
+              "pos": "n",
+              "meaning": "vận hành thử"
             }
           ],
           "synonyms": [],
@@ -9465,6 +9951,16 @@
               "word": "communism",
               "pos": "n",
               "meaning": "chủ nghĩa cộng sản"
+            },
+            {
+              "word": "communize",
+              "pos": "v",
+              "meaning": "cộng đồng"
+            },
+            {
+              "word": "communistic",
+              "pos": "adj",
+              "meaning": "cộng sản"
             }
           ],
           "synonyms": [
@@ -9498,16 +9994,6 @@
               "word": "companionship",
               "pos": "n",
               "meaning": "tình bạn"
-            },
-            {
-              "word": "comradely",
-              "pos": "adj",
-              "meaning": "đồng chí"
-            },
-            {
-              "word": "comradeship",
-              "pos": "n",
-              "meaning": "tình đồng chí"
             }
           ],
           "synonyms": [
@@ -9613,11 +10099,6 @@
               "word": "compulsion",
               "pos": "n",
               "meaning": "ép buộc"
-            },
-            {
-              "word": "obligation",
-              "pos": "n",
-              "meaning": "nghĩa vụ"
             }
           ],
           "synonyms": [
@@ -9703,6 +10184,11 @@
               "word": "competent",
               "pos": "adj",
               "meaning": "có năng lực"
+            },
+            {
+              "word": "competency",
+              "pos": "n",
+              "meaning": "năng lực"
             }
           ],
           "synonyms": [
@@ -9772,7 +10258,18 @@
               "vi": "Tôi cần một ít tiêu để bổ sung hương vị ngọt trong món súp."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "complemental",
+              "pos": "adj",
+              "meaning": "bổ sung"
+            },
+            {
+              "word": "complementary",
+              "pos": "adj",
+              "meaning": "bổ sung"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -9804,6 +10301,16 @@
               "word": "complexify",
               "pos": "v",
               "meaning": "phức tạp hóa"
+            },
+            {
+              "word": "complexness",
+              "pos": "n",
+              "meaning": "sự phức tạp"
+            },
+            {
+              "word": "complexifier",
+              "pos": "n",
+              "meaning": "chất phức tạp"
             }
           ],
           "synonyms": [
@@ -9835,7 +10342,28 @@
               "vi": "Thành phần hóa học của đất."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "compose",
+              "pos": "v",
+              "meaning": "soạn"
+            },
+            {
+              "word": "composer",
+              "pos": "n",
+              "meaning": "nhà soạn nhạc"
+            },
+            {
+              "word": "component",
+              "pos": "n",
+              "meaning": "thành phần"
+            },
+            {
+              "word": "composing",
+              "pos": "n",
+              "meaning": "sáng tác"
+            }
+          ],
           "synonyms": [
             "composing"
           ],
@@ -9864,17 +10392,12 @@
           ],
           "wordFamily": [
             {
-              "word": "calculable",
-              "pos": "adj",
-              "meaning": "tính toán được"
-            },
-            {
-              "word": "calculus",
+              "word": "computer",
               "pos": "n",
-              "meaning": "phép tính"
+              "meaning": "máy tính"
             },
             {
-              "word": "calculation",
+              "word": "computation",
               "pos": "n",
               "meaning": "tính toán"
             }
@@ -9954,19 +10477,19 @@
           ],
           "wordFamily": [
             {
-              "word": "profession",
+              "word": "concession",
               "pos": "n",
-              "meaning": "nghề nghiệp"
+              "meaning": "sự nhượng bộ"
             },
             {
-              "word": "confession",
+              "word": "conceding",
               "pos": "n",
-              "meaning": "lời thú nhận"
+              "meaning": "thủng lưới"
             },
             {
-              "word": "confessor",
-              "pos": "n",
-              "meaning": "cha giải tội"
+              "word": "concessive",
+              "pos": "adj",
+              "meaning": "nhượng bộ"
             }
           ],
           "synonyms": [
@@ -9977,7 +10500,7 @@
           "collocations": [],
           "topicId": "sat-core-g10",
           "relationMeanings": {
-            "profess": "xưng tội",
+            "profess": "tuyên xưng",
             "confess": "thú nhận"
           }
         },
@@ -10007,6 +10530,16 @@
               "word": "conception",
               "pos": "n",
               "meaning": "quan niệm"
+            },
+            {
+              "word": "concept",
+              "pos": "n",
+              "meaning": "khái niệm"
+            },
+            {
+              "word": "conceiver",
+              "pos": "n",
+              "meaning": "người thụ thai"
             }
           ],
           "synonyms": [],
@@ -10045,6 +10578,11 @@
               "word": "conceptualize",
               "pos": "v",
               "meaning": "hóa"
+            },
+            {
+              "word": "concept",
+              "pos": "n",
+              "meaning": "khái niệm"
             }
           ],
           "synonyms": [
@@ -10078,7 +10616,23 @@
               "vi": "Anh ấy nhận được quyền bán bia tại sân bóng."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "concede",
+              "pos": "v",
+              "meaning": "nhượng bộ"
+            },
+            {
+              "word": "conceding",
+              "pos": "n",
+              "meaning": "thủng lưới"
+            },
+            {
+              "word": "concessive",
+              "pos": "adj",
+              "meaning": "nhượng bộ"
+            }
+          ],
           "synonyms": [
             "grant"
           ],
@@ -10086,7 +10640,7 @@
           "collocations": [],
           "topicId": "sat-core-g10",
           "relationMeanings": {
-            "grant": "khoản trợ cấp; cấp cho, chấp thuận"
+            "grant": "khoản trợ cấp, tài trợ"
           }
         },
         {
@@ -10115,11 +10669,6 @@
               "word": "condemnation",
               "pos": "n",
               "meaning": "lên án"
-            },
-            {
-              "word": "reprobation",
-              "pos": "n",
-              "meaning": "khiển trách"
             }
           ],
           "synonyms": [
@@ -10169,6 +10718,11 @@
               "word": "confabulation",
               "pos": "n",
               "meaning": "ghép đôi"
+            },
+            {
+              "word": "conferral",
+              "pos": "n",
+              "meaning": "trao tặng"
             }
           ],
           "synonyms": [
@@ -10206,6 +10760,11 @@
               "word": "confess",
               "pos": "v",
               "meaning": "thú nhận"
+            },
+            {
+              "word": "confessor",
+              "pos": "n",
+              "meaning": "cha giải tội"
             }
           ],
           "synonyms": [],
@@ -10234,11 +10793,6 @@
               "word": "configure",
               "pos": "v",
               "meaning": "cấu hình"
-            },
-            {
-              "word": "constellate",
-              "pos": "v",
-              "meaning": "chòm sao"
             }
           ],
           "synonyms": [
@@ -10269,19 +10823,9 @@
           ],
           "wordFamily": [
             {
-              "word": "restrictive",
-              "pos": "adj",
-              "meaning": "hạn chế"
-            },
-            {
-              "word": "restriction",
+              "word": "confinement",
               "pos": "n",
-              "meaning": "hạn chế"
-            },
-            {
-              "word": "restrainer",
-              "pos": "n",
-              "meaning": "kiềm chế"
+              "meaning": "giam cầm"
             }
           ],
           "synonyms": [
@@ -10295,7 +10839,7 @@
           "relationMeanings": {
             "restrict": "hạn chế",
             "restrain": "kiềm chế",
-            "limit": "giới hạn"
+            "limit": "hạn chế"
           }
         },
         {
@@ -10319,11 +10863,6 @@
               "word": "confrontation",
               "pos": "n",
               "meaning": "sự đối đầu"
-            },
-            {
-              "word": "face",
-              "pos": "n",
-              "meaning": "khuôn mặt"
             }
           ],
           "synonyms": [
@@ -10390,6 +10929,11 @@
               "word": "congregate",
               "pos": "v",
               "meaning": "tụ tập"
+            },
+            {
+              "word": "congregating",
+              "pos": "n",
+              "meaning": "tụ tập"
             }
           ],
           "synonyms": [
@@ -10451,19 +10995,14 @@
           ],
           "wordFamily": [
             {
-              "word": "suppressive",
-              "pos": "adj",
-              "meaning": "ức chế"
+              "word": "conqueror",
+              "pos": "n",
+              "meaning": "kẻ chinh phục"
             },
             {
-              "word": "suppression",
+              "word": "conquering",
               "pos": "n",
-              "meaning": "đàn áp"
-            },
-            {
-              "word": "suppresser",
-              "pos": "n",
-              "meaning": "đàn áp"
+              "meaning": "chinh phục"
             }
           ],
           "synonyms": [
@@ -10498,7 +11037,13 @@
               "vi": "Có một lương tâm trong sáng/cảm thấy tội lỗi (= cảm thấy mình đã làm đúng/sai)."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "conscientious",
+              "pos": "adj",
+              "meaning": "tận tâm"
+            }
+          ],
           "synonyms": [
             "scruples",
             "moral sense",
@@ -10590,7 +11135,23 @@
               "vi": "Cô ấy đã chơi rất ổn định suốt cả mùa giải."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "consist",
+              "pos": "v",
+              "meaning": "bao gồm"
+            },
+            {
+              "word": "consistent",
+              "pos": "adj",
+              "meaning": "nhất quán, ổn định"
+            },
+            {
+              "word": "consistence",
+              "pos": "n",
+              "meaning": "nhất quán"
+            }
+          ],
           "synonyms": [
             "consistence",
             "eubstance",
@@ -10648,6 +11209,16 @@
               "word": "constitutionalize",
               "pos": "v",
               "meaning": "hợp hiến hóa"
+            },
+            {
+              "word": "constitute",
+              "pos": "v",
+              "meaning": "tạo thành"
+            },
+            {
+              "word": "constituent",
+              "pos": "adj",
+              "meaning": "cấu thành"
             }
           ],
           "synonyms": [
@@ -10678,7 +11249,13 @@
               "vi": "Đi dạo vì sức khỏe."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "constitutionalize",
+              "pos": "v",
+              "meaning": "hợp hiến hóa"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -10700,13 +11277,7 @@
               "vi": "Nhóm đã thảo luận chi tiết về ràng buộc trong buổi họp hôm nay."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "restrain",
-              "pos": "v",
-              "meaning": "kiềm chế"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "restraint"
           ],
@@ -10738,6 +11309,11 @@
               "word": "contemplation",
               "pos": "n",
               "meaning": "chiêm nghiệm"
+            },
+            {
+              "word": "contemplative",
+              "pos": "adj",
+              "meaning": "chiêm nghiệm"
             }
           ],
           "synonyms": [],
@@ -10766,16 +11342,6 @@
               "word": "contemptuous",
               "pos": "adj",
               "meaning": "khinh thường"
-            },
-            {
-              "word": "disdain",
-              "pos": "v",
-              "meaning": "khinh thường"
-            },
-            {
-              "word": "scorn",
-              "pos": "v",
-              "meaning": "khinh miệt"
             }
           ],
           "synonyms": [
@@ -10813,6 +11379,11 @@
               "word": "contention",
               "pos": "n",
               "meaning": "Tranh cãi"
+            },
+            {
+              "word": "contender",
+              "pos": "n",
+              "meaning": "ứng viên"
             }
           ],
           "synonyms": [
@@ -10843,19 +11414,14 @@
           ],
           "wordFamily": [
             {
-              "word": "rivalrous",
-              "pos": "adj",
-              "meaning": "ganh đua"
+              "word": "contend",
+              "pos": "v",
+              "meaning": "tranh luận"
             },
             {
-              "word": "rival",
-              "pos": "v",
-              "meaning": "đối thủ"
-            },
-            {
-              "word": "challenge",
-              "pos": "v",
-              "meaning": "Thách thức"
+              "word": "contention",
+              "pos": "n",
+              "meaning": "Tranh cãi"
             }
           ],
           "synonyms": [
@@ -10895,6 +11461,16 @@
               "word": "contend",
               "pos": "v",
               "meaning": "tranh luận"
+            },
+            {
+              "word": "contender",
+              "pos": "n",
+              "meaning": "ứng viên"
+            },
+            {
+              "word": "contentious",
+              "pos": "adj",
+              "meaning": "tranh cãi"
             }
           ],
           "synonyms": [],
@@ -10942,14 +11518,24 @@
           ],
           "wordFamily": [
             {
-              "word": "subscribe",
-              "pos": "v",
-              "meaning": "Đặt mua một cái gì đó định kỳ, đăng ký"
-            },
-            {
               "word": "contribute",
               "pos": "v",
               "meaning": "đóng góp, góp phần (đi với to)"
+            },
+            {
+              "word": "contribution",
+              "pos": "n",
+              "meaning": "đóng góp"
+            },
+            {
+              "word": "contributive",
+              "pos": "adj",
+              "meaning": "đóng góp"
+            },
+            {
+              "word": "contributory",
+              "pos": "adj",
+              "meaning": "đóng góp"
             }
           ],
           "synonyms": [
@@ -10985,9 +11571,19 @@
               "meaning": "chuyển đổi"
             },
             {
-              "word": "transition",
-              "pos": "v",
-              "meaning": "chuyển tiếp"
+              "word": "convertible",
+              "pos": "adj",
+              "meaning": "có thể chuyển đổi"
+            },
+            {
+              "word": "converter",
+              "pos": "n",
+              "meaning": "chuyển đổi"
+            },
+            {
+              "word": "convertor",
+              "pos": "n",
+              "meaning": "chuyển đổi"
             }
           ],
           "synonyms": [
@@ -11051,7 +11647,13 @@
               "vi": "Anh ấy dự định kháng cáo bản án kết tội của mình."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "convict",
+              "pos": "v",
+              "meaning": "kết án"
+            }
+          ],
           "synonyms": [
             "strong belief",
             "article of faith"
@@ -11085,6 +11687,21 @@
               "word": "cooperate",
               "pos": "v",
               "meaning": "hợp tác"
+            },
+            {
+              "word": "cooperator",
+              "pos": "n",
+              "meaning": "người cộng tác"
+            },
+            {
+              "word": "cooperation",
+              "pos": "n",
+              "meaning": "hợp tác"
+            },
+            {
+              "word": "cooperativeness",
+              "pos": "n",
+              "meaning": "tính hợp tác"
             }
           ],
           "synonyms": [
@@ -11122,6 +11739,11 @@
               "word": "coordinate",
               "pos": "v",
               "meaning": "điều phối, phối hợp"
+            },
+            {
+              "word": "coordinator",
+              "pos": "n",
+              "meaning": "điều phối viên"
             }
           ],
           "synonyms": [],
@@ -11152,9 +11774,9 @@
           ],
           "wordFamily": [
             {
-              "word": "cupric",
+              "word": "coppery",
               "pos": "adj",
-              "meaning": "cốc"
+              "meaning": "màu đồng"
             }
           ],
           "synonyms": [
@@ -11263,11 +11885,6 @@
           ],
           "wordFamily": [
             {
-              "word": "match",
-              "pos": "n",
-              "meaning": "khớp, phù hợp; đối xứng"
-            },
-            {
               "word": "correspondent",
               "pos": "adj",
               "meaning": "phóng viên"
@@ -11289,9 +11906,9 @@
           "collocations": [],
           "topicId": "sat-core-g11",
           "relationMeanings": {
-            "match": "khớp, phù hợp; đối xứng",
-            "fit": "vừa vặn",
-            "check": "kiểm tra; tấm séc; hóa đơn",
+            "match": "khớp, tương xứng, phù hợp",
+            "fit": "phù hợp",
+            "check": "kiểm tra, rà soát",
             "disagree": "không đồng ý"
           }
         },
@@ -11316,6 +11933,11 @@
               "word": "correspond",
               "pos": "v",
               "meaning": "tương ứng"
+            },
+            {
+              "word": "correspondence",
+              "pos": "n",
+              "meaning": "thư từ trao đổi (email, công văn)"
             }
           ],
           "synonyms": [
@@ -11371,6 +11993,21 @@
               "word": "corruptness",
               "pos": "n",
               "meaning": "tham nhũng"
+            },
+            {
+              "word": "corruption",
+              "pos": "n",
+              "meaning": "tham nhũng"
+            },
+            {
+              "word": "corruptive",
+              "pos": "adj",
+              "meaning": "tham nhũng"
+            },
+            {
+              "word": "corruptible",
+              "pos": "adj",
+              "meaning": "hư hỏng"
             }
           ],
           "synonyms": [],
@@ -11403,6 +12040,21 @@
             {
               "word": "corrupt",
               "pos": "adj",
+              "meaning": "tham nhũng"
+            },
+            {
+              "word": "corruptive",
+              "pos": "adj",
+              "meaning": "tham nhũng"
+            },
+            {
+              "word": "corruptible",
+              "pos": "adj",
+              "meaning": "hư hỏng"
+            },
+            {
+              "word": "corruptness",
+              "pos": "n",
               "meaning": "tham nhũng"
             }
           ],
@@ -11473,6 +12125,21 @@
               "word": "counsel",
               "pos": "v",
               "meaning": "tư vấn"
+            },
+            {
+              "word": "counselor",
+              "pos": "n",
+              "meaning": "cố vấn"
+            },
+            {
+              "word": "counsellor",
+              "pos": "n",
+              "meaning": "cố vấn"
+            },
+            {
+              "word": "counseling",
+              "pos": "n",
+              "meaning": "tư vấn"
             }
           ],
           "synonyms": [
@@ -11517,6 +12184,16 @@
               "word": "counsellorship",
               "pos": "n",
               "meaning": "tư vấn"
+            },
+            {
+              "word": "counselor",
+              "pos": "n",
+              "meaning": "cố vấn"
+            },
+            {
+              "word": "counselling",
+              "pos": "n",
+              "meaning": "tư vấn"
             }
           ],
           "synonyms": [
@@ -11545,7 +12222,23 @@
               "vi": "Phản bác ai đó/điều gì, Những lập luận như vậy không dễ bị phản bác."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "count",
+              "pos": "v",
+              "meaning": "đếm"
+            },
+            {
+              "word": "counting",
+              "pos": "n",
+              "meaning": "đếm"
+            },
+            {
+              "word": "countable",
+              "pos": "adj",
+              "meaning": "đếm được"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -11604,16 +12297,6 @@
           "wordFamily": [
             {
               "word": "countlessness",
-              "pos": "n",
-              "meaning": "vô số"
-            },
-            {
-              "word": "infiniteness",
-              "pos": "n",
-              "meaning": "vô tận"
-            },
-            {
-              "word": "innumerableness",
               "pos": "n",
               "meaning": "vô số"
             }
@@ -11686,6 +12369,11 @@
               "word": "crafter",
               "pos": "n",
               "meaning": "thợ thủ công"
+            },
+            {
+              "word": "crafty",
+              "pos": "adj",
+              "meaning": "xảo quyệt"
             }
           ],
           "synonyms": [],
@@ -11719,11 +12407,6 @@
               "word": "crawling",
               "pos": "n",
               "meaning": "bò"
-            },
-            {
-              "word": "creep",
-              "pos": "n",
-              "meaning": "rùng mình"
             }
           ],
           "synonyms": [
@@ -11754,9 +12437,24 @@
           ],
           "wordFamily": [
             {
-              "word": "almighty",
+              "word": "create",
+              "pos": "v",
+              "meaning": "tạo"
+            },
+            {
+              "word": "creation",
+              "pos": "n",
+              "meaning": "sự sáng tạo"
+            },
+            {
+              "word": "creative",
               "pos": "adj",
-              "meaning": "toàn năng"
+              "meaning": "sáng tạo"
+            },
+            {
+              "word": "creature",
+              "pos": "n",
+              "meaning": "sinh vật"
             }
           ],
           "synonyms": [
@@ -11801,11 +12499,6 @@
               "word": "credibility",
               "pos": "n",
               "meaning": "độ tin cậy, uy tín chuyên môn"
-            },
-            {
-              "word": "believe",
-              "pos": "v",
-              "meaning": "tin tưởng"
             }
           ],
           "synonyms": [
@@ -11839,19 +12532,14 @@
           ],
           "wordFamily": [
             {
-              "word": "crawl",
-              "pos": "n",
-              "meaning": "bò"
+              "word": "creepy",
+              "pos": "adj",
+              "meaning": "rùng rợn"
             },
             {
-              "word": "crawler",
+              "word": "creeper",
               "pos": "n",
-              "meaning": "trình thu thập thông tin"
-            },
-            {
-              "word": "crawling",
-              "pos": "n",
-              "meaning": "bò"
+              "meaning": "cây leo"
             }
           ],
           "synonyms": [
@@ -11880,13 +12568,7 @@
               "vi": "Cô ấy viết một bài phê bình nữ quyền về các lý thuyết của Freud."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "review",
-              "pos": "v",
-              "meaning": "đánh giá"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "review",
             "critical review",
@@ -11896,7 +12578,7 @@
           "collocations": [],
           "topicId": "sat-core-g12",
           "relationMeanings": {
-            "review": "đánh giá",
+            "review": "bài đánh giá, sự xem xét lại",
             "critical review": "phê bình phê bình",
             "review article": "ôn lại bài viết"
           }
@@ -11917,13 +12599,7 @@
               "vi": "Chiếc vương miện được đặt lên đầu vị quân vương mới."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "coronate",
-              "pos": "v",
-              "meaning": "đăng quang"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -11952,9 +12628,9 @@
               "meaning": "thô tục"
             },
             {
-              "word": "roughness",
+              "word": "crudity",
               "pos": "n",
-              "meaning": "độ nhám"
+              "meaning": "thô thiển"
             }
           ],
           "synonyms": [
@@ -11990,14 +12666,9 @@
               "meaning": "máy nghiền"
             },
             {
-              "word": "mash",
+              "word": "crushing",
               "pos": "n",
-              "meaning": "nghiền"
-            },
-            {
-              "word": "squeeze",
-              "pos": "n",
-              "meaning": "bóp"
+              "meaning": "nghiền nát"
             }
           ],
           "synonyms": [
@@ -12101,11 +12772,6 @@
               "word": "cultivator",
               "pos": "n",
               "meaning": "người trồng trọt"
-            },
-            {
-              "word": "crop",
-              "pos": "n",
-              "meaning": "cây trồng"
             }
           ],
           "synonyms": [
@@ -12116,8 +12782,8 @@
           "collocations": [],
           "topicId": "sat-core-g12",
           "relationMeanings": {
-            "crop": "cây trồng",
-            "work": "công việc"
+            "crop": "cắt xén",
+            "work": "làm việc, vận hành"
           }
         },
         {
@@ -12143,9 +12809,9 @@
               "meaning": "tò mò"
             },
             {
-              "word": "wonder",
-              "pos": "v",
-              "meaning": "ngạc nhiên"
+              "word": "curiousness",
+              "pos": "n",
+              "meaning": "tò mò"
             }
           ],
           "synonyms": [
@@ -12176,14 +12842,9 @@
           ],
           "wordFamily": [
             {
-              "word": "detain",
-              "pos": "v",
+              "word": "custodial",
+              "pos": "adj",
               "meaning": "giam giữ"
-            },
-            {
-              "word": "hold",
-              "pos": "v",
-              "meaning": "tổ chức (sự kiện); nắm giữ; chờ máy"
             }
           ],
           "synonyms": [
@@ -12197,7 +12858,7 @@
           "relationMeanings": {
             "detention": "sự giam giữ",
             "detainment": "giam giữ",
-            "hold": "tổ chức (sự kiện); nắm giữ; chờ máy"
+            "hold": "tổ chức (sự kiện, cuộc họp); nắm giữ"
           }
         },
         {
@@ -12221,6 +12882,11 @@
               "word": "cut",
               "pos": "v",
               "meaning": "cắt"
+            },
+            {
+              "word": "cutter",
+              "pos": "n",
+              "meaning": "máy cắt"
             }
           ],
           "synonyms": [
@@ -12254,16 +12920,6 @@
               "word": "cynic",
               "pos": "n",
               "meaning": "hoài nghi"
-            },
-            {
-              "word": "misanthropy",
-              "pos": "n",
-              "meaning": "ghét con người"
-            },
-            {
-              "word": "misanthrope",
-              "pos": "n",
-              "meaning": "ghét người"
             }
           ],
           "synonyms": [
@@ -12294,13 +12950,7 @@
               "vi": "Hậu quả/ảnh hưởng gây hại."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "detriment",
-              "pos": "n",
-              "meaning": "tổn hại"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "detrimental",
             "prejudicial",
@@ -12333,14 +12983,9 @@
           ],
           "wordFamily": [
             {
-              "word": "auroral",
-              "pos": "adj",
-              "meaning": "cực quang"
-            },
-            {
-              "word": "aurorean",
-              "pos": "adj",
-              "meaning": "cực quang"
+              "word": "dawning",
+              "pos": "n",
+              "meaning": "bình minh"
             }
           ],
           "synonyms": [
@@ -12378,18 +13023,7 @@
               "vi": "Các đội cứu hộ vẫn đang dọn dẹp mảnh vụn từ vụ tai nạn máy bay."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "dust",
-              "pos": "v",
-              "meaning": "bụi"
-            },
-            {
-              "word": "junk",
-              "pos": "v",
-              "meaning": "rác"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "dust",
             "junk",
@@ -12487,6 +13121,11 @@
               "word": "decisiveness",
               "pos": "n",
               "meaning": "tính quyết đoán"
+            },
+            {
+              "word": "decision",
+              "pos": "n",
+              "meaning": "quyết định"
             }
           ],
           "synonyms": [],
@@ -12520,6 +13159,21 @@
               "word": "declare",
               "pos": "v",
               "meaning": "tuyên bố"
+            },
+            {
+              "word": "declarer",
+              "pos": "n",
+              "meaning": "người khai báo"
+            },
+            {
+              "word": "declarative",
+              "pos": "adj",
+              "meaning": "khai báo"
+            },
+            {
+              "word": "declaratory",
+              "pos": "adj",
+              "meaning": "khai báo"
             }
           ],
           "synonyms": [],
@@ -12609,7 +13263,7 @@
           "collocations": [],
           "topicId": "sat-core-g12",
           "relationMeanings": {
-            "hold": "tổ chức (sự kiện); nắm giữ; chờ máy",
+            "hold": "tổ chức (sự kiện, cuộc họp); nắm giữ",
             "view as": "xem như",
             "take for": "lấy cho"
           }
@@ -12630,7 +13284,13 @@
               "vi": "Mặc định là năm mươi dòng."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "defaulter",
+              "pos": "n",
+              "meaning": "người vỡ nợ"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -12657,6 +13317,21 @@
               "word": "defend",
               "pos": "v",
               "meaning": "bảo vệ"
+            },
+            {
+              "word": "defence",
+              "pos": "n",
+              "meaning": "sự phòng thủ"
+            },
+            {
+              "word": "defender",
+              "pos": "n",
+              "meaning": "hậu vệ"
+            },
+            {
+              "word": "defendant",
+              "pos": "n",
+              "meaning": "bị cáo"
             }
           ],
           "synonyms": [],
@@ -12687,19 +13362,9 @@
           ],
           "wordFamily": [
             {
-              "word": "lack",
-              "pos": "v",
-              "meaning": "thiếu"
-            },
-            {
               "word": "deficient",
               "pos": "adj",
               "meaning": "thiếu sót"
-            },
-            {
-              "word": "want",
-              "pos": "v",
-              "meaning": "muốn"
             }
           ],
           "synonyms": [
@@ -12737,9 +13402,9 @@
               "meaning": "thách thức"
             },
             {
-              "word": "withstander",
+              "word": "defiance",
               "pos": "n",
-              "meaning": "người chịu đựng"
+              "meaning": "thách thức"
             }
           ],
           "synonyms": [
@@ -12752,7 +13417,7 @@
           "topicId": "sat-core-g12",
           "relationMeanings": {
             "withstand": "chịu đựng",
-            "hold": "tổ chức (sự kiện); nắm giữ; chờ máy",
+            "hold": "tổ chức (sự kiện, cuộc họp); nắm giữ",
             "hold up": "chờ đã"
           }
         },
@@ -12774,19 +13439,19 @@
           ],
           "wordFamily": [
             {
-              "word": "depute",
-              "pos": "v",
-              "meaning": "đại diện"
-            },
-            {
-              "word": "commissioner",
-              "pos": "n",
-              "meaning": "ủy viên"
-            },
-            {
               "word": "delegate",
               "pos": "v",
+              "meaning": "ủy quyền"
+            },
+            {
+              "word": "delegacy",
+              "pos": "n",
               "meaning": "đại biểu"
+            },
+            {
+              "word": "delegating",
+              "pos": "n",
+              "meaning": "ủy quyền"
             }
           ],
           "synonyms": [
@@ -12821,7 +13486,18 @@
               "vi": "Anh ấy làm việc như một con quỷ để hoàn thành công việc đúng hạn."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "demonic",
+              "pos": "adj",
+              "meaning": "ma quỷ"
+            },
+            {
+              "word": "demonize",
+              "pos": "v",
+              "meaning": "quỷ hóa"
+            }
+          ],
           "synonyms": [],
           "antonyms": [],
           "collocations": [],
@@ -12848,6 +13524,11 @@
               "word": "deny",
               "pos": "v",
               "meaning": "phủ nhận"
+            },
+            {
+              "word": "denier",
+              "pos": "n",
+              "meaning": "người phủ nhận"
             }
           ],
           "synonyms": [],
@@ -12911,6 +13592,11 @@
               "word": "density",
               "pos": "n",
               "meaning": "mật độ"
+            },
+            {
+              "word": "denseness",
+              "pos": "n",
+              "meaning": "mật độ"
             }
           ],
           "synonyms": [
@@ -12946,6 +13632,11 @@
               "word": "dense",
               "pos": "adj",
               "meaning": "dày đặc"
+            },
+            {
+              "word": "denseness",
+              "pos": "n",
+              "meaning": "mật độ"
             }
           ],
           "synonyms": [
@@ -12988,6 +13679,11 @@
             {
               "word": "depictive",
               "pos": "adj",
+              "meaning": "miêu tả"
+            },
+            {
+              "word": "depicting",
+              "pos": "n",
               "meaning": "miêu tả"
             }
           ],
@@ -13087,6 +13783,11 @@
               "word": "deposition",
               "pos": "n",
               "meaning": "lắng đọng"
+            },
+            {
+              "word": "depositor",
+              "pos": "n",
+              "meaning": "người gửi tiền"
             }
           ],
           "synonyms": [
@@ -13098,7 +13799,7 @@
           "collocations": [],
           "topicId": "sat-core-g13",
           "relationMeanings": {
-            "situate": "vị trí",
+            "situate": "định vị",
             "fix": "sửa chữa",
             "posit": "thừa nhận"
           }
@@ -13124,11 +13825,6 @@
               "word": "deprivation",
               "pos": "n",
               "meaning": "thiếu thốn"
-            },
-            {
-              "word": "divestiture",
-              "pos": "n",
-              "meaning": "thoái vốn"
             }
           ],
           "synonyms": [
@@ -13139,7 +13835,7 @@
           "collocations": [],
           "topicId": "sat-core-g13",
           "relationMeanings": {
-            "strip": "dải",
+            "strip": "cởi đồ",
             "divest": "thoái vốn"
           }
         },
@@ -13163,7 +13859,12 @@
             {
               "word": "deputise",
               "pos": "v",
-              "meaning": "đại diện"
+              "meaning": "thay mặt"
+            },
+            {
+              "word": "deputize",
+              "pos": "v",
+              "meaning": "thay mặt"
             }
           ],
           "synonyms": [
@@ -13249,6 +13950,16 @@
               "word": "descend",
               "pos": "v",
               "meaning": "hạ xuống"
+            },
+            {
+              "word": "descendant",
+              "pos": "adj",
+              "meaning": "hậu duệ"
+            },
+            {
+              "word": "descendent",
+              "pos": "adj",
+              "meaning": "hậu duệ"
             }
           ],
           "synonyms": [],
@@ -13282,6 +13993,16 @@
               "word": "destructiveness",
               "pos": "n",
               "meaning": "tính hủy diệt"
+            },
+            {
+              "word": "destruction",
+              "pos": "n",
+              "meaning": "sự hủy diệt"
+            },
+            {
+              "word": "destroyer",
+              "pos": "n",
+              "meaning": "tàu khu trục"
             }
           ],
           "synonyms": [],
@@ -13311,11 +14032,6 @@
             }
           ],
           "wordFamily": [
-            {
-              "word": "confinement",
-              "pos": "n",
-              "meaning": "giam cầm"
-            },
             {
               "word": "detention",
               "pos": "n",
@@ -13356,7 +14072,23 @@
               "vi": "Ngăn ngừa và phát hiện tội phạm."
             }
           ],
-          "wordFamily": [],
+          "wordFamily": [
+            {
+              "word": "detect",
+              "pos": "v",
+              "meaning": "phát hiện"
+            },
+            {
+              "word": "detector",
+              "pos": "n",
+              "meaning": "máy dò"
+            },
+            {
+              "word": "detecting",
+              "pos": "n",
+              "meaning": "phát hiện"
+            }
+          ],
           "synonyms": [
             "sensing"
           ],
@@ -13388,11 +14120,6 @@
               "word": "detain",
               "pos": "v",
               "meaning": "giam giữ"
-            },
-            {
-              "word": "hold",
-              "pos": "v",
-              "meaning": "tổ chức (sự kiện); nắm giữ; chờ máy"
             }
           ],
           "synonyms": [
@@ -13405,7 +14132,7 @@
           "topicId": "sat-core-g13",
           "relationMeanings": {
             "detainment": "giam giữ",
-            "hold": "tổ chức (sự kiện); nắm giữ; chờ máy",
+            "hold": "tổ chức (sự kiện, cuộc họp); nắm giữ",
             "custody": "quyền nuôi dưỡng"
           }
         },
@@ -13427,14 +14154,24 @@
           ],
           "wordFamily": [
             {
-              "word": "satanic",
-              "pos": "adj",
-              "meaning": "quan niệm về ma quỷ"
-            },
-            {
               "word": "devilize",
               "pos": "v",
               "meaning": "quỷ hóa"
+            },
+            {
+              "word": "devilry",
+              "pos": "n",
+              "meaning": "ma quỷ"
+            },
+            {
+              "word": "deviltry",
+              "pos": "n",
+              "meaning": "quỷ dữ"
+            },
+            {
+              "word": "devilment",
+              "pos": "n",
+              "meaning": "quỷ dữ"
             }
           ],
           "synonyms": [
@@ -13467,19 +14204,24 @@
           ],
           "wordFamily": [
             {
-              "word": "organization",
+              "word": "devisal",
               "pos": "n",
-              "meaning": "tổ chức"
+              "meaning": "phá hoại"
             },
             {
-              "word": "organisation",
+              "word": "devisee",
               "pos": "n",
-              "meaning": "tổ chức"
+              "meaning": "người nghĩ ra"
             },
             {
-              "word": "preparative",
-              "pos": "adj",
-              "meaning": "chuẩn bị"
+              "word": "deviser",
+              "pos": "n",
+              "meaning": "người phát minh ra"
+            },
+            {
+              "word": "devising",
+              "pos": "n",
+              "meaning": "nghĩ ra"
             }
           ],
           "synonyms": [
@@ -13524,6 +14266,11 @@
               "word": "diagnose",
               "pos": "v",
               "meaning": "chẩn đoán"
+            },
+            {
+              "word": "diagnosing",
+              "pos": "n",
+              "meaning": "chẩn đoán"
             }
           ],
           "synonyms": [
@@ -13554,19 +14301,14 @@
           ],
           "wordFamily": [
             {
-              "word": "order",
+              "word": "dictator",
               "pos": "n",
-              "meaning": "đơn đặt hàng; mệnh lệnh; trật tự"
+              "meaning": "nhà độc tài"
             },
             {
-              "word": "prescriptive",
-              "pos": "adj",
-              "meaning": "quy định"
-            },
-            {
-              "word": "prescription",
+              "word": "dictation",
               "pos": "n",
-              "meaning": "đơn thuốc"
+              "meaning": "chính tả"
             }
           ],
           "synonyms": [
@@ -13577,7 +14319,7 @@
           "collocations": [],
           "topicId": "sat-core-g13",
           "relationMeanings": {
-            "order": "đơn đặt hàng; mệnh lệnh; trật tự",
+            "order": "đặt hàng; ra lệnh",
             "prescribe": "quy định"
           }
         },
@@ -13602,6 +14344,21 @@
               "word": "dictate",
               "pos": "v",
               "meaning": "ra lệnh"
+            },
+            {
+              "word": "dictation",
+              "pos": "n",
+              "meaning": "chính tả"
+            },
+            {
+              "word": "dictatorial",
+              "pos": "adj",
+              "meaning": "độc tài"
+            },
+            {
+              "word": "dictatorship",
+              "pos": "n",
+              "meaning": "chế độ độc tài"
             }
           ],
           "synonyms": [
@@ -13632,11 +14389,6 @@
           ],
           "wordFamily": [
             {
-              "word": "distinction",
-              "pos": "n",
-              "meaning": "sự phân biệt"
-            },
-            {
               "word": "difference",
               "pos": "n",
               "meaning": "sự khác biệt"
@@ -13645,6 +14397,16 @@
               "word": "differentiation",
               "pos": "n",
               "meaning": "sự khác biệt"
+            },
+            {
+              "word": "differ",
+              "pos": "v",
+              "meaning": "khác nhau"
+            },
+            {
+              "word": "different",
+              "pos": "adj",
+              "meaning": "khác nhau"
             }
           ],
           "synonyms": [
@@ -13745,19 +14507,9 @@
           ],
           "wordFamily": [
             {
-              "word": "decrease",
-              "pos": "n",
-              "meaning": "giảm"
-            },
-            {
               "word": "diminution",
               "pos": "n",
               "meaning": "giảm bớt"
-            },
-            {
-              "word": "fall",
-              "pos": "n",
-              "meaning": "rơi"
             }
           ],
           "synonyms": [
@@ -13771,10 +14523,10 @@
           "collocations": [],
           "topicId": "sat-core-g13",
           "relationMeanings": {
-            "decrease": "giảm",
+            "decrease": "giảm xuống, cắt giảm",
             "lessen": "giảm bớt",
             "fall": "rơi",
-            "increase": "gia tăng, tăng lên"
+            "increase": "tăng lên, gia tăng"
           }
         },
         {
@@ -13836,6 +14588,16 @@
               "word": "diplomacy",
               "pos": "n",
               "meaning": "ngoại giao"
+            },
+            {
+              "word": "diplomatist",
+              "pos": "n",
+              "meaning": "nhà ngoại giao"
+            },
+            {
+              "word": "diplomatical",
+              "pos": "adj",
+              "meaning": "ngoại giao"
             }
           ],
           "synonyms": [],
@@ -13860,11 +14622,6 @@
             }
           ],
           "wordFamily": [
-            {
-              "word": "calamity",
-              "pos": "n",
-              "meaning": "tai họa"
-            },
             {
               "word": "disaster",
               "pos": "n",
@@ -13912,7 +14669,7 @@
           "collocations": [],
           "topicId": "sat-core-g13",
           "relationMeanings": {
-            "dispatch": "công văn",
+            "dispatch": "gửi đi",
             "complete": "hoàn thành, điền đầy đủ (mẫu đơn)"
           }
         },
@@ -13937,16 +14694,6 @@
               "word": "disclosure",
               "pos": "n",
               "meaning": "sự tiết lộ"
-            },
-            {
-              "word": "revelation",
-              "pos": "n",
-              "meaning": "sự tiết lộ"
-            },
-            {
-              "word": "revealing",
-              "pos": "n",
-              "meaning": "lộ liễu"
             }
           ],
           "synonyms": [
@@ -13984,11 +14731,6 @@
           "wordFamily": [
             {
               "word": "disclose",
-              "pos": "v",
-              "meaning": "tiết lộ"
-            },
-            {
-              "word": "reveal",
               "pos": "v",
               "meaning": "tiết lộ"
             }
@@ -14076,6 +14818,21 @@
               "word": "discriminate",
               "pos": "v",
               "meaning": "phân biệt đối xử"
+            },
+            {
+              "word": "discriminator",
+              "pos": "n",
+              "meaning": "người phân biệt đối xử"
+            },
+            {
+              "word": "discriminative",
+              "pos": "adj",
+              "meaning": "phân biệt đối xử"
+            },
+            {
+              "word": "discriminatory",
+              "pos": "adj",
+              "meaning": "phân biệt đối xử"
             }
           ],
           "synonyms": [
@@ -14111,6 +14868,21 @@
               "word": "dismiss",
               "pos": "v",
               "meaning": "sa thải / loại bỏ"
+            },
+            {
+              "word": "dismission",
+              "pos": "n",
+              "meaning": "giải ngũ"
+            },
+            {
+              "word": "dismissive",
+              "pos": "adj",
+              "meaning": "bác bỏ"
+            },
+            {
+              "word": "dismissible",
+              "pos": "adj",
+              "meaning": "bác bỏ"
             }
           ],
           "synonyms": [
@@ -14177,9 +14949,19 @@
               "meaning": "tranh cãi"
             },
             {
-              "word": "differ",
-              "pos": "v",
-              "meaning": "khác nhau"
+              "word": "disputant",
+              "pos": "n",
+              "meaning": "tranh chấp"
+            },
+            {
+              "word": "disputation",
+              "pos": "n",
+              "meaning": "tranh chấp"
+            },
+            {
+              "word": "disputative",
+              "pos": "adj",
+              "meaning": "tranh cãi"
             }
           ],
           "synonyms": [
@@ -14227,6 +15009,11 @@
               "word": "dissolver",
               "pos": "n",
               "meaning": "máy hòa tan"
+            },
+            {
+              "word": "dissolving",
+              "pos": "n",
+              "meaning": "hòa tan"
             }
           ],
           "synonyms": [
@@ -14237,7 +15024,7 @@
           "collocations": [],
           "topicId": "sat-core-g14",
           "relationMeanings": {
-            "resolve": "giải quyết dứt điểm; nghị quyết",
+            "resolve": "giải quyết triệt để (tranh chấp, khiếu nại)",
             "break up": "quan niệm chia tay"
           }
         },
@@ -14258,11 +15045,6 @@
             }
           ],
           "wordFamily": [
-            {
-              "word": "differentiate",
-              "pos": "v",
-              "meaning": "phân biệt"
-            },
             {
               "word": "distinguish",
               "pos": "v",
@@ -14330,19 +15112,9 @@
           ],
           "wordFamily": [
             {
-              "word": "falsification",
+              "word": "distortion",
               "pos": "n",
-              "meaning": "giả mạo"
-            },
-            {
-              "word": "falsity",
-              "pos": "n",
-              "meaning": "sự giả dối"
-            },
-            {
-              "word": "falsifier",
-              "pos": "n",
-              "meaning": "kẻ giả mạo"
+              "meaning": "biến dạng"
             }
           ],
           "synonyms": [

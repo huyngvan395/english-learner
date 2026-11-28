@@ -463,7 +463,7 @@
             {
               "word": "priority",
               "pos": "n",
-              "meaning": "sự ưu tiên"
+              "meaning": "ưu tiên"
             }
           ],
           "synonyms": [
@@ -618,7 +618,7 @@
             {
               "word": "takeover",
               "pos": "n",
-              "meaning": "vụ thâu tóm doanh nghiệp"
+              "meaning": "tiếp quản"
             }
           ],
           "synonyms": [
@@ -816,13 +816,7 @@
               "vi": "Tôi sẽ liên hệ theo sát lại với nhà cung cấp vào sáng mai."
             }
           ],
-          "wordFamily": [
-            {
-              "word": "follow-up",
-              "pos": "n",
-              "meaning": "buổi/email trao đổi tiếp nối"
-            }
-          ],
+          "wordFamily": [],
           "synonyms": [
             "check back",
             "pursue"
@@ -1105,7 +1099,7 @@
           "topicId": "toeic-idioms-g4",
           "relationMeanings": {
             "copy": "bản sao",
-            "support": "sự hỗ trợ; v: ủng hộ, hỗ trợ"
+            "support": "hỗ trợ"
           }
         },
         {
@@ -1450,7 +1444,7 @@
           "collocations": [],
           "topicId": "toeic-idioms-g4",
           "relationMeanings": {
-            "conduct": "tiến hành, thực hiện (khảo sát, kiểm toán)",
+            "conduct": "tiến hành",
             "execute": "thực thi, triển khai (kế hoạch/hợp đồng)"
           }
         },
@@ -2737,7 +2731,7 @@
           "collocations": [],
           "topicId": "toeic-idioms-g6",
           "relationMeanings": {
-            "monitor": "theo dõi, giám sát liên tục",
+            "monitor": "màn hình",
             "follow": "theo dõi"
           }
         },
