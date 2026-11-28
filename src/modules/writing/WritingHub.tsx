@@ -31,6 +31,7 @@ import {
   WritingSubmissionRecord,
 } from '../../types';
 import { useApp } from '../../context/AppContext';
+import { playSuccess } from '../../lib/soundEffects';
 import { loadWritingMeta, loadWritingPromptsByMode } from '../../utils/writingLoader';
 import {
   evaluateWritingWithGemini,
@@ -410,6 +411,7 @@ export const WritingHub: React.FC = () => {
       });
 
       setActiveSubmission(saved);
+      playSuccess();
       setMobileWorkspaceTab('editor');
       window.setTimeout(() => {
         evaluationRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });

@@ -112,9 +112,9 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopic
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-4 lg:gap-5 items-start">
+    <div className="flex flex-col lg:flex-row gap-4 lg:gap-5 items-start pt-1">
       {/* ================= LEFT COLUMN: DANH SÁCH CHỦ ĐỀ (Collapsible Accordion on Mobile, Sticky Sidebar on Desktop) ================= */}
-      <aside className="w-full lg:w-[300px] xl:w-[320px] shrink-0 lg:sticky lg:top-20 rounded-2xl lg:rounded-3xl border border-slate-800 bg-[#111827] shadow-card flex flex-col lg:max-h-[calc(100dvh-104px)] overflow-hidden">
+      <aside className="w-full lg:w-[290px] xl:w-[310px] shrink-0 lg:sticky lg:top-[84px] rounded-2xl lg:rounded-3xl border border-slate-800 bg-[#111827] shadow-card flex flex-col lg:max-h-[calc(100dvh-104px)] overflow-hidden">
         {/* Sidebar Top Header */}
         <div className="p-3.5 sm:p-4 border-b border-slate-800/90 space-y-2.5 sm:space-y-3 shrink-0">
           <div className="flex items-center justify-between gap-2">
@@ -259,7 +259,7 @@ export const DeckStudyView: React.FC<DeckStudyViewProps> = ({ deck, initialTopic
       {/* ================= RIGHT COLUMN: ACTIVE RECALL CARD + MODE TABS ================= */}
       <div className="flex-1 min-w-0 w-full space-y-4">
         {/* Compact Top Topic Bar + Mode Switcher Pills */}
-        <div className="rounded-2xl border border-slate-800 bg-[#111827]/95 px-3.5 sm:px-4 py-3 flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5 sm:gap-3">
+        <div className="scroll-mt-24 rounded-2xl border border-slate-800 bg-[#111827]/95 px-3.5 sm:px-4 py-3 flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-2.5 sm:gap-3">
           <div className="flex items-center gap-2 min-w-0">
             <span className="rounded-lg bg-sky-500/15 border border-sky-500/30 px-2.5 py-1 text-[11px] font-extrabold text-sky-300 shrink-0">
               Chủ đề {activeTopicIndex + 1}/{topics.length}

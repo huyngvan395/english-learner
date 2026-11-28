@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   Flame,
   GraduationCap,
@@ -11,6 +11,7 @@ import {
   Sun,
   Target,
   Volume2,
+  VolumeX,
   X,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
@@ -18,6 +19,7 @@ import { useTheme } from '../context/ThemeContext';
 import { SearchIndexEntry, VocabWord } from '../types';
 import { loadFullWord } from '../utils/vocabLoader';
 import { playWordAudio, speakText } from '../utils/speech';
+import { isSoundEnabled, subscribeSoundEnabled, toggleSoundEnabled } from '../lib/soundEffects';
 import { VocabExtensionBlock } from './VocabExtensionBlock';
 
 interface HeaderProps {
@@ -27,7 +29,12 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
   const { searchIndex, customWords, profile, toggleSaveWord, isWordSaved } = useApp();
   const { isDark, toggleTheme } = useTheme();
+  const [soundOn, setSoundOn] = useState<boolean>(() => isSoundEnabled());
   const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    return subscribeSoundEnabled(setSoundOn);
+  }, []);
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [selectedEntry, setSelectedEntry] = useState<SearchIndexEntry | null>(null);
@@ -185,8 +192,31 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileMenu }) => {
             </div>
           </div>
 
-          {/* Right: Mobile Search Toggle + Theme Toggle + Streak, XP, Daily Goal */}
+          {/* Right: Sound Toggle + Theme Toggle + Mobile Search + Streak, XP, Daily Goal */}
           <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+            <button
+              type="button"
+              onClick={() => toggleSoundEnabled()}
+              aria-label={soundOn ? 'Tắt âm thanh phản hồi' : 'Bật âm thanh phản hồi'}
+              aria-pressed={soundOn}
+              title={
+                soundOn
+                  ? 'Âm thanh phản hồi: Đang bật (Bấm để tắt)'
+                  : 'Âm thanh phản hồi: Đang tắt (Bấm để bật)'
+              }
+              className={`inline-flex h-9 w-9 items-center justify-center rounded-xl border transition active:scale-95 ${
+                soundOn
+                  ? 'border-indigo-200 dark:border-indigo-500/40 bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-500/25'
+                  : 'border-slate-300 dark:border-slate-700/80 bg-white dark:bg-slate-900/90 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white hover:border-slate-400 dark:hover:border-slate-600'
+              }`}
+            >
+              {soundOn ? (
+                <Volume2 className="h-4 w-4 shrink-0" />
+              ) : (
+                <VolumeX className="h-4 w-4 shrink-0" />
+              )}
+            </button>
+
             <button
               type="button"
               onClick={toggleTheme}

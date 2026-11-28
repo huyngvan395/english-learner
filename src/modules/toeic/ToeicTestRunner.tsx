@@ -22,6 +22,7 @@ import {
 } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { getToeicLevelBadge, scaleSectionScore, TOEIC_PART_LABELS } from '../../utils/toeicScore';
+import { playSuccess } from '../../lib/soundEffects';
 import {
   Part1QuestionBlock,
   Part2QuestionBlock,
@@ -158,6 +159,7 @@ export const ToeicTestRunner: React.FC<ToeicTestRunnerProps> = ({ test, config, 
   const handleSubmit = useCallback(() => {
     if (submittedRef.current) return;
     submittedRef.current = true;
+    playSuccess();
     setSubmitted(true);
 
     const summary = computeScoreSummary(answers);

@@ -4,6 +4,7 @@ import { CheckCircle2, EyeOff, Loader2, RotateCcw } from 'lucide-react';
 import { ListeningMeta, ListeningPart1Question, OptionKey } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { loadListeningPart1All } from '../../utils/listeningLoader';
+import { playCorrect, playWrong } from '../../lib/soundEffects';
 import { LISTENING_CHEAT_SHEETS } from '../../data/listeningCheatSheets';
 import { Part1Illustration } from '../../components/Part1Illustrations';
 import { ZoomableImage } from '../../components/ImageLightbox';
@@ -184,6 +185,8 @@ export const ListeningPart1View: React.FC<ListeningPart1ViewProps> = ({ meta }) 
   const handleSubmit = () => {
     if (!q || !userChoice || isSubmitted) return;
     const isCorrect = userChoice === q.correctAnswer;
+    if (isCorrect) playCorrect();
+    else playWrong();
     setSubmitted((prev) => ({ ...prev, [q.id]: true }));
     recordListeningResult(q.id, userChoice, isCorrect);
     recordAttempt({

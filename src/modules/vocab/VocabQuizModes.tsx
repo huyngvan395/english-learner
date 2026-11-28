@@ -15,6 +15,7 @@ import {
 import { VocabWord } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { speakText } from '../../utils/speech';
+import { playCorrect, playFlip, playSuccess, playWrong } from '../../lib/soundEffects';
 
 export type QuizModeType = 'meaning' | 'listening' | 'cloze' | 'matching';
 
@@ -114,9 +115,11 @@ export const VocabQuizModes: React.FC<VocabQuizModesProps> = ({ words, mode, dec
     setSelectedOptionId(opt.id);
     const isCorrect = opt.id === currentWord.id;
     if (isCorrect) {
+      playCorrect();
       setCorrectCount((c) => c + 1);
       markWordStatus(currentWord.id, 'mastered');
     } else {
+      playWrong();
       markWordStatus(currentWord.id, 'forgotten');
     }
   };
@@ -144,10 +147,12 @@ export const VocabQuizModes: React.FC<VocabQuizModesProps> = ({ words, mode, dec
       (target.length > 5 && normalized.startsWith(target.slice(0, -1)) && Math.abs(normalized.length - target.length) <= 3);
 
     if (stemMatch) {
+      playCorrect();
       setClozeResult('correct');
       setCorrectCount((c) => c + 1);
       markWordStatus(currentWord.id, 'mastered');
     } else {
+      playWrong();
       setClozeResult('wrong');
       markWordStatus(currentWord.id, 'forgotten');
     }
@@ -155,6 +160,7 @@ export const VocabQuizModes: React.FC<VocabQuizModesProps> = ({ words, mode, dec
 
   const handleNextQuestion = () => {
     if (qIdx + 1 >= quizItems.length) {
+      playSuccess();
       setFinished(true);
       recordAttempt({
         module: 'vocab',
@@ -182,6 +188,7 @@ export const VocabQuizModes: React.FC<VocabQuizModesProps> = ({ words, mode, dec
       setSelectedRight(null);
       addXp(8);
       if (nextMatched.length === matchingPairs.length) {
+        playSuccess();
         setFinished(true);
         recordAttempt({
           module: 'vocab',
@@ -190,8 +197,11 @@ export const VocabQuizModes: React.FC<VocabQuizModesProps> = ({ words, mode, dec
           totalCount: matchingPairs.length,
           topics: [{ topic: deckTitle, correct: matchingMistakes <= 2 }],
         });
+      } else {
+        playCorrect();
       }
     } else {
+      playWrong();
       setMatchingMistakes((m) => m + 1);
       setWrongPair({ left: leftId, right: rightId });
       window.setTimeout(() => {
@@ -458,7 +468,10 @@ export const VocabQuizModes: React.FC<VocabQuizModesProps> = ({ words, mode, dec
               </span>
               <button
                 type="button"
-                onClick={() => setShowHint((h) => !h)}
+                onClick={() => {
+                  if (!showHint) playFlip();
+                  setShowHint((h) => !h);
+                }}
                 className="inline-flex items-center gap-1 text-xs font-semibold text-amber-300 hover:underline"
               >
                 <HelpCircle className="h-3.5 w-3.5" />

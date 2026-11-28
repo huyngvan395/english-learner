@@ -9,6 +9,7 @@ import {
 } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { loadListeningPart2All } from '../../utils/listeningLoader';
+import { playCorrect, playWrong } from '../../lib/soundEffects';
 import { LISTENING_CHEAT_SHEETS } from '../../data/listeningCheatSheets';
 import { SmartAudioPlayer } from '../../components/SmartAudioPlayer';
 import { ListeningCheatSheetBox } from './ListeningCheatSheetBox';
@@ -200,6 +201,8 @@ export const ListeningPart2View: React.FC<ListeningPart2ViewProps> = ({ meta }) 
   const handleSubmit = () => {
     if (!q || !userChoice || isSubmitted) return;
     const isCorrect = userChoice === q.correctAnswer;
+    if (isCorrect) playCorrect();
+    else playWrong();
     setSubmitted((prev) => ({ ...prev, [q.id]: true }));
     recordListeningResult(q.id, userChoice, isCorrect);
     recordAttempt({

@@ -16,6 +16,7 @@ import {
 import { OptionKey, ReadingMeta, ReadingPart6Passage } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { loadPart6All } from '../../utils/readingLoader';
+import { playCorrect, playSuccess, playWrong } from '../../lib/soundEffects';
 import { PART6_STRATEGY_CHEAT_SHEET } from '../../data/readingCheatSheets';
 import { ReadingCheatSheetBox } from './ReadingCheatSheetBox';
 import { ReadingExplanationCard } from './ReadingExplanationCard';
@@ -160,6 +161,8 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
     const q = passage.questions.find((x) => x.id === qId);
     if (!q || !answers[qId]) return;
     const ok = answers[qId] === q.correctAnswer;
+    if (ok) playCorrect();
+    else playWrong();
     setRevealedIds((prev) => ({ ...prev, [qId]: true }));
     recordReadingResult(q.id, answers[qId], ok);
     recordAttempt({
@@ -173,6 +176,7 @@ export const ReadingPart6View: React.FC<ReadingPart6ViewProps> = ({ mode, meta }
 
   const handleExamSubmit = () => {
     if (examSubmitted || !passage) return;
+    playSuccess();
     setExamSubmitted(true);
     let correct = 0;
     for (const q of passage.questions) {

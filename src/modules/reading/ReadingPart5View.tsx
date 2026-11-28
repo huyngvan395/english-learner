@@ -14,6 +14,7 @@ import {
 import { OptionKey, ReadingMeta, ReadingPart5Question } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { loadPart5All } from '../../utils/readingLoader';
+import { playCorrect, playSuccess, playWrong } from '../../lib/soundEffects';
 import { findPart5CheatSheet } from '../../data/readingCheatSheets';
 import { ReadingCheatSheetBox } from './ReadingCheatSheetBox';
 import { ReadingExplanationCard } from './ReadingExplanationCard';
@@ -177,6 +178,8 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
     const q = questions.find((item) => item.id === qId);
     if (!q || !answers[qId]) return;
     const isCorrect = answers[qId] === q.correctAnswer;
+    if (isCorrect) playCorrect();
+    else playWrong();
     setRevealedIds((prev) => ({ ...prev, [qId]: true }));
     recordReadingResult(q.id, answers[qId], isCorrect);
     recordAttempt({
@@ -190,6 +193,7 @@ export const ReadingPart5View: React.FC<ReadingPart5ViewProps> = ({ mode, meta }
 
   const handleExamSubmit = () => {
     if (examSubmitted || filteredQuestions.length === 0) return;
+    playSuccess();
     setExamSubmitted(true);
     let correct = 0;
     const topicLog: { topic: string; correct: boolean }[] = [];

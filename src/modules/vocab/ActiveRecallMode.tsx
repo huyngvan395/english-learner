@@ -19,6 +19,7 @@ import {
 import { SrsRating, VocabTopic, VocabWord, WordPOS } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { playWordAudio, speakText } from '../../utils/speech';
+import { playCorrect, playFlip, playSuccess, playWrong } from '../../lib/soundEffects';
 import { TopicIllustration } from '../../components/TopicIllustration';
 import { QuickNoteBox } from '../../components/QuickNoteBox';
 import { VocabExtensionBlock } from '../../components/VocabExtensionBlock';
@@ -93,29 +94,6 @@ function maskWordForExample(word: string): string {
     .split('')
     .map((ch) => (isMaskSeparator(ch) ? ch : '*'))
     .join('');
-}
-
-function playSubtleHintTick() {
-  try {
-    const AudioCtx =
-      window.AudioContext ||
-      (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
-    if (!AudioCtx) return;
-    const ctx = new AudioCtx();
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
-    osc.type = 'sine';
-    osc.frequency.setValueAtTime(660, ctx.currentTime);
-    osc.frequency.exponentialRampToValueAtTime(880, ctx.currentTime + 0.08);
-    gain.gain.setValueAtTime(0.06, ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.1);
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-    osc.start();
-    osc.stop(ctx.currentTime + 0.11);
-  } catch {
-    // Ignore audio context block
-  }
 }
 
 function renderMaskedExample(
@@ -258,6 +236,32 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
   const [cardScoredInSession, setCardScoredInSession] = useState(false);
 
   const inputRef = useRef<HTMLInputElement | null>(null);
+  const speechDelayTimerRef = useRef<number | null>(null);
+
+  const schedulePronounce = useCallback(
+    (word: VocabWord, delayMs: number, accent: 'en-US' | 'en-GB' = 'en-US') => {
+      if (speechDelayTimerRef.current) {
+        window.clearTimeout(speechDelayTimerRef.current);
+      }
+      speechDelayTimerRef.current = window.setTimeout(() => {
+        speechDelayTimerRef.current = null;
+        const audioUrl =
+          accent === 'en-GB'
+            ? word.audioUrlUK || word.audioUrlUS
+            : word.audioUrlUS || word.audioUrlUK;
+        playWordAudio(word.word, { accent, rate: 0.95, audioUrl });
+      }, delayMs);
+    },
+    []
+  );
+
+  useEffect(() => {
+    return () => {
+      if (speechDelayTimerRef.current) {
+        window.clearTimeout(speechDelayTimerRef.current);
+      }
+    };
+  }, []);
 
   // Reset queue & hint state cleanly when switching topics
   useEffect(() => {
@@ -352,7 +356,16 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
   const handleRateSrs = useCallback(
     (rating: SrsRating) => {
       if (!current) return;
+      if (speechDelayTimerRef.current) {
+        window.clearTimeout(speechDelayTimerRef.current);
+        speechDelayTimerRef.current = null;
+      }
       rateWordSrs(current.id, rating, current.deckId);
+
+      const willCompleteTopic = rating !== 'again' && queue.length === 1;
+      if (willCompleteTopic) {
+        playSuccess();
+      }
 
       if (rating === 'again') {
         setRequeueToast(`Đã xếp "${current.word}" lặp lại sau 3–4 thẻ (10 phút).`);
@@ -374,11 +387,12 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
       });
       resetForNextTurn();
     },
-    [current, rateWordSrs, resetForNextTurn]
+    [current, queue.length, rateWordSrs, resetForNextTurn]
   );
 
   // Flip back from Back Answer Card to Front Typing Card to try typing immediately
   const handleFlipBackToFront = useCallback(() => {
+    playFlip();
     setCardState('typing');
     setInputVal('');
     setHintCount(0);
@@ -426,7 +440,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
     const nextCount = Math.min(maxHintSteps, hintCount + 1);
     setHintCount(nextCount);
     setHintPopKey((k) => k + 1);
-    playSubtleHintTick();
+    playFlip();
     inputRef.current?.focus();
   };
 
@@ -438,6 +452,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
     const cleanedTarget = current.word.trim().replace(/\s+/g, ' ').toLowerCase();
 
     if (!cleanedUser) {
+      playWrong();
       setWrongShakeKey((k) => k + 1);
       setWrongFeedback('Hãy nhập đáp án hoặc bấm "Gợi ý" / "KHÔNG BIẾT".');
       inputRef.current?.focus();
@@ -445,6 +460,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
     }
 
     if (cleanedUser === cleanedTarget) {
+      playCorrect();
       setCardState('correct');
       setWrongFeedback(null);
       setRequeueToast(null);
@@ -453,8 +469,10 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
         else setSessionCorrectCount((c) => c + 1);
         setCardScoredInSession(true);
       }
-      handlePronounce(current, 'en-US');
+      // Offset speech by 260ms so the soft chime finishes cleanly before US/UK audio plays
+      schedulePronounce(current, 260, 'en-US');
     } else {
+      playWrong();
       setCardHadMistake(true);
       let matchPrefix = 0;
       while (
@@ -480,6 +498,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
 
   const handleDontKnow = () => {
     if (!current || cardState !== 'typing') return;
+    playFlip();
     setCardState('revealed');
     setWrongFeedback(null);
     setRequeueToast(null);
@@ -487,7 +506,7 @@ export const ActiveRecallMode: React.FC<ActiveRecallModeProps> = ({
       setSessionWrongCount((c) => c + 1);
       setCardScoredInSession(true);
     }
-    handlePronounce(current, 'en-US');
+    schedulePronounce(current, 160, 'en-US');
   };
 
   const totalSessionWords = topic.words.length;

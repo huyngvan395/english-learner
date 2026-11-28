@@ -21,6 +21,7 @@ import {
   WrongQuestionRecord,
 } from '../types';
 import { loadVocabSearchIndex } from '../utils/vocabLoader';
+import { playSave, playSuccess } from '../lib/soundEffects';
 import { useAuth } from './AuthContext';
 import {
   clearLocalLearningProgress,
@@ -278,10 +279,22 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   // ================= SMART CLOUD SYNC (localStorage <-> Supabase) =================
   const hydratingRef = useRef<boolean>(false);
+  const prevTodayWordsRef = useRef<number>(profile.todayWordsStudied);
   const hasMountedRef = useRef<boolean>(false);
   const syncedUserIdRef = useRef<string | null>(null);
   const debounceTimerRef = useRef<number | null>(null);
   const [draftSyncNonce, setDraftSyncNonce] = useState(0);
+
+  // Celebrate gently once when user crosses their daily word goal
+  useEffect(() => {
+    const prevCount = prevTodayWordsRef.current;
+    prevTodayWordsRef.current = profile.todayWordsStudied;
+    if (hydratingRef.current) return;
+    if (prevCount < profile.dailyGoal && profile.todayWordsStudied >= profile.dailyGoal) {
+      const t = window.setTimeout(() => playSuccess(), 280);
+      return () => window.clearTimeout(t);
+    }
+  }, [profile.todayWordsStudied, profile.dailyGoal]);
 
   const buildCurrentSnapshot = useCallback((): LearningProgressSnapshot => {
     return {
@@ -607,6 +620,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const toggleSaveWord = (wordId: string, deckId?: string) => {
     const now = Date.now();
     const resolvedDeckId = deckId || wordIdToDeckId.get(wordId);
+    const willSave = !(vocabProgress[wordId]?.saved ?? false);
+    if (willSave) playSave();
     setVocabProgress((prev) => {
       const existing = prev[wordId];
       return {
@@ -671,6 +686,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       };
     });
     touchActivity(5, 0);
+    playSave();
   };
 
   const saveWritingVocab = (item: WritingVocabTakeaway) => {
@@ -725,6 +741,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       };
     });
     touchActivity(5, 0);
+    playSave();
   };
 
   const isWritingVocabSaved = (wordText: string): boolean => {
@@ -813,6 +830,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       };
     });
     touchActivity(5, 0);
+    playSave();
   };
 
   const isWordSaved = (wordId: string): boolean => {

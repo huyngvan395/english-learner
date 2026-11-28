@@ -13,6 +13,7 @@ import {
 import { MasteryStatus, VocabWord } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { AccentType, playWordAudio, speakText } from '../../utils/speech';
+import { playCorrect, playFlip, playSuccess, playWrong } from '../../lib/soundEffects';
 import { QuickNoteBox } from '../../components/QuickNoteBox';
 import { VocabExtensionBlock } from '../../components/VocabExtensionBlock';
 
@@ -109,6 +110,17 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
   };
 
   const handleRate = (status: MasteryStatus) => {
+    const isLastCard = index + 1 >= queue.length && status === 'mastered';
+    if (isLastCard) {
+      playSuccess();
+    } else if (status === 'mastered') {
+      playCorrect();
+    } else if (status === 'forgotten') {
+      playWrong();
+    } else {
+      playFlip();
+    }
+
     markWordStatus(current.id, status);
     setFlipped(false);
 
@@ -215,7 +227,10 @@ export const FlashcardMode: React.FC<FlashcardModeProps> = ({ words, deckTitle }
       {/* 3D Flip Card */}
       <div className="perspective-1200 w-full">
         <div
-          onClick={() => setFlipped((f) => !f)}
+          onClick={() => {
+            playFlip();
+            setFlipped((f) => !f);
+          }}
           className={`relative w-full min-h-[380px] sm:min-h-[420px] cursor-pointer transition-transform duration-500 preserve-3d ${
             flipped ? 'rotate-y-180' : ''
           }`}

@@ -459,35 +459,55 @@ export const TextSelectionLookup: React.FC = () => {
     closeLookup();
   };
 
-  // Compute viewport-clamped Desktop popover position (auto-flips above/below selection)
+  // Compute viewport-clamped Desktop popover position (smart flip above/below or vertical center, always >= 16px from edges)
   const computeDesktopStyle = (): React.CSSProperties => {
     if (!lookup) return {};
-    const POPOVER_W = 360;
-    const ESTIMATED_H = 290;
-    const MARGIN = 12;
+    const MARGIN = 16;
+    const GAP = 10;
     const vw = window.innerWidth;
     const vh = window.innerHeight;
+    const POPOVER_W = Math.min(368, vw - MARGIN * 2);
+    const MAX_ALLOWED_H = Math.min(380, Math.max(220, vh - MARGIN * 2));
+    const ESTIMATED_H = Math.min(340, MAX_ALLOWED_H);
 
     const centerX = lookup.anchorRect.left + lookup.anchorRect.width / 2;
     const clampedLeft = Math.max(MARGIN, Math.min(vw - POPOVER_W - MARGIN, centerX - POPOVER_W / 2));
 
-    const spaceBelow = vh - lookup.anchorRect.bottom;
-    const spaceAbove = lookup.anchorRect.top;
-    const openAbove = spaceBelow < ESTIMATED_H + MARGIN && spaceAbove > spaceBelow;
+    const spaceBelow = vh - lookup.anchorRect.bottom - GAP - MARGIN;
+    const spaceAbove = lookup.anchorRect.top - GAP - MARGIN;
 
-    if (openAbove) {
+    if (spaceBelow >= ESTIMATED_H) {
+      const top = Math.max(MARGIN, lookup.anchorRect.bottom + GAP);
+      const maxHeight = Math.min(MAX_ALLOWED_H, Math.max(200, vh - top - MARGIN));
       return {
         position: 'fixed',
         left: `${clampedLeft}px`,
-        bottom: `${Math.max(MARGIN, vh - lookup.anchorRect.top + 10)}px`,
+        top: `${top}px`,
         width: `${POPOVER_W}px`,
+        maxHeight: `${maxHeight}px`,
       };
     }
+
+    if (spaceAbove >= ESTIMATED_H || (spaceAbove >= 240 && spaceAbove >= spaceBelow)) {
+      const bottom = Math.max(MARGIN, vh - lookup.anchorRect.top + GAP);
+      const maxHeight = Math.min(MAX_ALLOWED_H, Math.max(200, vh - bottom - MARGIN));
+      return {
+        position: 'fixed',
+        left: `${clampedLeft}px`,
+        bottom: `${bottom}px`,
+        width: `${POPOVER_W}px`,
+        maxHeight: `${maxHeight}px`,
+      };
+    }
+
+    // Fallback: vertically center within viewport with guaranteed 16px top/bottom margin
+    const centeredTop = Math.max(MARGIN, Math.round((vh - MAX_ALLOWED_H) / 2));
     return {
       position: 'fixed',
       left: `${clampedLeft}px`,
-      top: `${Math.min(vh - ESTIMATED_H - MARGIN, lookup.anchorRect.bottom + 10)}px`,
+      top: `${centeredTop}px`,
       width: `${POPOVER_W}px`,
+      maxHeight: `${MAX_ALLOWED_H}px`,
     };
   };
 
@@ -498,8 +518,8 @@ export const TextSelectionLookup: React.FC = () => {
       style={isMobileViewport ? undefined : computeDesktopStyle()}
       className={
         isMobileViewport
-          ? 'fixed inset-x-2.5 bottom-2.5 z-[65] max-h-[75dvh] flex flex-col rounded-3xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up pb-safe'
-          : 'z-[65] max-h-[72dvh] flex flex-col rounded-2xl border border-slate-200 dark:border-slate-700/90 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up'
+          ? 'fixed inset-x-2.5 bottom-3 z-[65] max-h-[min(380px,calc(100dvh-32px))] flex flex-col rounded-3xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up pb-safe'
+          : 'z-[65] max-h-[min(380px,calc(100dvh-32px))] flex flex-col rounded-2xl border border-slate-200 dark:border-slate-700/90 bg-white dark:bg-[#131C31] shadow-2xl overflow-hidden animate-fade-up'
       }
     >
       {/* Header */}
@@ -580,7 +600,7 @@ export const TextSelectionLookup: React.FC = () => {
       </div>
 
       {/* Body */}
-      <div className="flex-1 overflow-y-auto px-4 py-3 space-y-2.5 text-xs">
+      <div className="flex-1 min-h-0 overflow-y-auto px-4 py-3 space-y-2.5 text-xs">
         {lookup.loading && !displayMeaning ? (
           <div className="flex items-center gap-2 py-3 text-slate-600 dark:text-slate-300 font-medium">
             <Loader2 className="h-4 w-4 animate-spin text-indigo-500 dark:text-indigo-400" />

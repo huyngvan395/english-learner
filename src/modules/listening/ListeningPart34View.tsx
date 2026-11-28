@@ -20,6 +20,7 @@ import {
 } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { loadListeningPart3All, loadListeningPart4All } from '../../utils/listeningLoader';
+import { playCorrect, playSuccess, playWrong } from '../../lib/soundEffects';
 import { LISTENING_CHEAT_SHEETS } from '../../data/listeningCheatSheets';
 import { SmartAudioPlayer } from '../../components/SmartAudioPlayer';
 import { ZoomableImage } from '../../components/ImageLightbox';
@@ -270,6 +271,13 @@ export const ListeningPart34View: React.FC<ListeningPart34ViewProps> = ({ part, 
       const ok = chosen === q.correctAnswer;
       if (ok) correct += 1;
       if (chosen) recordListeningResult(q.id, chosen, ok);
+    }
+    if (correct === currentSet.questions.length) {
+      playSuccess();
+    } else if (correct > 0) {
+      playCorrect();
+    } else {
+      playWrong();
     }
     recordAttempt({
       module: 'listening',

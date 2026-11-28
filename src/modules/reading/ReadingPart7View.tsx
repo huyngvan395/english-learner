@@ -17,6 +17,7 @@ import {
 import { OptionKey, ReadingMeta, ReadingPart7Set } from '../../types';
 import { useApp } from '../../context/AppContext';
 import { loadPart7ByType } from '../../utils/readingLoader';
+import { playCorrect, playSuccess, playWrong } from '../../lib/soundEffects';
 import { PART7_STRATEGY_CHEAT_SHEET } from '../../data/readingCheatSheets';
 import { ReadingCheatSheetBox } from './ReadingCheatSheetBox';
 import { ReadingExplanationCard } from './ReadingExplanationCard';
@@ -192,6 +193,8 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
     const q = currentSet.questions.find((x) => x.id === qId);
     if (!q || !answers[qId]) return;
     const ok = answers[qId] === q.correctAnswer;
+    if (ok) playCorrect();
+    else playWrong();
     setRevealedIds((prev) => ({ ...prev, [qId]: true }));
     recordReadingResult(q.id, answers[qId], ok);
     recordAttempt({
@@ -205,6 +208,7 @@ export const ReadingPart7View: React.FC<ReadingPart7ViewProps> = ({ mode, meta }
 
   const handleExamSubmit = () => {
     if (examSubmitted || !currentSet) return;
+    playSuccess();
     setExamSubmitted(true);
     let correct = 0;
     for (const q of currentSet.questions) {

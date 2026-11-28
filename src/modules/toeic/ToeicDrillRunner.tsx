@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { ArrowLeft, Award, CheckCircle2, RotateCcw, Send } from 'lucide-react';
 import { OptionKey, Part2OptionKey, ToeicDrillData } from '../../types';
 import { useApp } from '../../context/AppContext';
+import { playCorrect, playSuccess, playWrong } from '../../lib/soundEffects';
 import {
   Part1QuestionBlock,
   Part2QuestionBlock,
@@ -43,6 +44,9 @@ export const ToeicDrillRunner: React.FC<ToeicDrillRunnerProps> = ({ drill, onBac
 
     const items = flatQuestions.filter((q) => qIds.includes(q.id));
     const okCount = items.filter((q) => answers[q.id] === q.correct).length;
+    if (okCount === items.length && items.length > 0) playCorrect();
+    else if (okCount === 0) playWrong();
+    else playCorrect();
     recordAttempt({
       module: drill.part <= 4 ? 'listening' : 'reading',
       partLabel: `Part ${drill.part}`,
@@ -160,6 +164,7 @@ export const ToeicDrillRunner: React.FC<ToeicDrillRunnerProps> = ({ drill, onBac
 
   const handleSubmitAll = () => {
     if (allSubmitted) return;
+    playSuccess();
     setAllSubmitted(true);
     const remainingIds = flatQuestions.filter((q) => !revealedKeys[q.id]).map((q) => q.id);
     if (remainingIds.length > 0) {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { Loader2 } from 'lucide-react';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
@@ -70,6 +70,12 @@ const RootRedirect: React.FC = () => {
 const AppShell: React.FC = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { pathname } = useLocation();
+
+  // Always start cleanly at the top when switching routes/decks/topics so sticky Header never clips top banners
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [pathname]);
 
   return (
     <div className="min-h-[100dvh] flex bg-[#0B1120] text-slate-100 overflow-x-clip">
@@ -83,7 +89,7 @@ const AppShell: React.FC = () => {
       <div className="flex-1 flex flex-col min-w-0">
         <Header onOpenMobileMenu={() => setMobileMenuOpen(true)} />
 
-        <main className="flex-1 px-3 py-4 sm:px-4 sm:py-6 lg:px-8 max-w-[1440px] w-full mx-auto min-w-0">
+        <main className="flex-1 w-full max-w-[1680px] min-w-0 px-3 pt-5 pb-6 sm:px-5 sm:pt-6 lg:px-6 lg:pt-6">
           <Routes>
             <Route path="/" element={<RootRedirect />} />
 
