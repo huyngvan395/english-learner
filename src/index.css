@@ -179,7 +179,7 @@ html.light [class*="bg-[#070B14]"] {
 }
 
 html.light header[class*="bg-[#0B1120]"] {
-  background-color: rgba(255, 255, 255, 0.94) !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
 html.light [class*="bg-[#0F172A]"],
@@ -209,7 +209,7 @@ html.light [class*="from-[#1E293B]"],
 html.light [class*="from-indigo-950"],
 html.light [class*="from-slate-900"],
 html.light [class*="from-slate-950"] {
-  background-image: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 55%, #EFF6FF 100%) !important;
+  background-image: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 58%, #EEF2FF 100%) !important;
 }
 
 html.light [class*="from-emerald-950"] {
@@ -220,38 +220,43 @@ html.light [class*="from-violet-950"] {
   background-image: linear-gradient(135deg, #F5F3FF 0%, #EEF2FF 100%) !important;
 }
 
-/* Soft nested slate panels, pills, chips & secondary surfaces */
-html.light [class*="bg-slate-950"]:not([class*="fixed"]):not([data-preserve-dark]),
-html.light [class*="bg-slate-900"]:not([data-preserve-dark]) {
+/* Soft nested slate panels, pills, chips & secondary surfaces (NEVER touch preserve-dark cover art, fixed overlays, or explicit dark:bg- elements) */
+html.light [class*="bg-slate-950"]:not([class*="fixed"]):not([class*="dark:bg-"]):not([data-preserve-dark]):not([data-preserve-dark] *),
+html.light [class*="bg-slate-900"]:not([class*="dark:bg-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   background-color: #F1F5F9 !important;
 }
 
-html.light [class*="bg-slate-800"]:not([data-preserve-dark]) {
+/* Sticky SmartAudioPlayer surface stays clean crisp white */
+html.light [class*="sticky"][class*="bg-slate-900/95"] {
+  background-color: rgba(255, 255, 255, 0.96) !important;
+}
+
+html.light [class*="bg-slate-800"]:not([class*="dark:bg-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   background-color: #F1F5F9 !important;
 }
 
-html.light [class*="bg-slate-700"]:not([data-preserve-dark]) {
+html.light [class*="bg-slate-700"]:not([class*="dark:bg-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   background-color: #E2E8F0 !important;
 }
 
 /* Keep modal overlays dimly translucent */
 html.light .fixed.inset-0[class*="bg-slate-950"] {
-  background-color: rgba(15, 23, 42, 0.45) !important;
+  background-color: rgba(15, 23, 42, 0.48) !important;
 }
 
-/* Light-mode elevated card shadow */
+/* Crisp subtle shadows for clear Light Mode card separation on #F8FAFC canvas */
 html.light .shadow-card {
-  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.04) !important;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.05), 0 1px 2px rgba(15, 23, 42, 0.04) !important;
 }
 html.light .shadow-glow {
-  box-shadow: 0 6px 20px -4px rgba(79, 70, 229, 0.25) !important;
+  box-shadow: 0 6px 18px -4px rgba(79, 70, 229, 0.24) !important;
 }
 
 /* 2. Borders & Dividers */
-html.light [class*="border-slate-900"],
-html.light [class*="border-slate-800"],
-html.light [class*="border-slate-700"],
-html.light [class*="border-slate-600"] {
+html.light [class*="border-slate-900"]:not([class*="dark:border-"]):not([data-preserve-dark]):not([data-preserve-dark] *),
+html.light [class*="border-slate-800"]:not([class*="dark:border-"]):not([data-preserve-dark]):not([data-preserve-dark] *),
+html.light [class*="border-slate-700"]:not([class*="dark:border-"]):not([data-preserve-dark]):not([data-preserve-dark] *),
+html.light [class*="border-slate-600"]:not([class*="dark:border-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   border-color: #E2E8F0 !important;
 }
 
@@ -260,29 +265,29 @@ html.light [class*="divide-slate-700"] > :not([hidden]) ~ :not([hidden]) {
   border-color: #E2E8F0 !important;
 }
 
-/* 3. Typography Hierarchy (Headings, Body, Muted) */
-html.light .text-white,
-html.light .text-slate-100 {
+/* 3. Typography Hierarchy (Headings, Body, Muted) — Exclude preserve-dark & explicit dark:text- */
+html.light .text-white:not([class*="dark:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *),
+html.light .text-slate-100:not([class*="dark:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   color: #0F172A !important;
 }
 
-html.light .text-slate-200 {
+html.light .text-slate-200:not([class*="dark:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   color: #1E293B !important;
 }
 
-html.light .text-slate-300 {
+html.light .text-slate-300:not([class*="dark:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   color: #334155 !important;
 }
 
-html.light .text-slate-400 {
+html.light .text-slate-400:not([class*="dark:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   color: #475569 !important;
 }
 
-html.light .text-slate-500 {
+html.light .text-slate-500:not([class*="dark:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   color: #64748B !important;
 }
 
-html.light [class*="hover:text-white"]:hover {
+html.light [class*="hover:text-white"]:hover:not([class*="dark:hover:text-"]):not([data-preserve-dark]):not([data-preserve-dark] *) {
   color: #0F172A !important;
 }
 
@@ -317,6 +322,7 @@ html.light .text-blue-400 {
   color: #1D4ED8 !important;
 }
 
+html.light .text-violet-100,
 html.light .text-violet-200,
 html.light .text-violet-300,
 html.light .text-violet-400,
@@ -348,26 +354,44 @@ html.light .text-rose-400 {
   color: #BE123C !important;
 }
 
+html.light .text-pink-200,
 html.light .text-pink-300,
 html.light .text-pink-400 {
   color: #BE185D !important;
 }
 
-/* 5. Soft Semantic Tinted Boxes & Badges (Dark *-950/* -> Crisp Light Pastels) */
+/* Crisp crimson strikeout on Writing inline diffs */
+html.light .decoration-rose-400 {
+  text-decoration-color: #E11D48 !important;
+}
+
+/* 5. Soft Semantic Tinted Boxes, Badges & SRS Button Hovers */
 html.light [class*="bg-emerald-950"] {
   background-color: #ECFDF5 !important;
+}
+html.light [class*="hover:bg-emerald-900"]:hover {
+  background-color: #D1FAE5 !important;
 }
 html.light [class*="bg-amber-950"] {
   background-color: #FFFBEB !important;
 }
+html.light [class*="hover:bg-amber-900"]:hover {
+  background-color: #FEF3C7 !important;
+}
 html.light [class*="bg-rose-950"] {
   background-color: #FFF1F2 !important;
+}
+html.light [class*="hover:bg-rose-900"]:hover {
+  background-color: #FFE4E6 !important;
 }
 html.light [class*="bg-cyan-950"] {
   background-color: #ECFEFF !important;
 }
 html.light [class*="bg-sky-950"] {
   background-color: #F0F9FF !important;
+}
+html.light [class*="hover:bg-sky-900"]:hover {
+  background-color: #E0F2FE !important;
 }
 html.light [class*="bg-blue-950"] {
   background-color: #EFF6FF !important;
@@ -382,12 +406,26 @@ html.light [class*="bg-violet-950"] {
   background-color: #F5F3FF !important;
 }
 
-html.light [class*="hover:bg-slate-800"]:hover,
-html.light [class*="hover:bg-slate-700"]:hover {
+/* Soften translucent indigo/cyan active surfaces when not opaque solid buttons */
+html.light [class*="bg-indigo-500/20"]:not([class*="dark:bg-"]),
+html.light [class*="bg-indigo-500/25"]:not([class*="dark:bg-"]),
+html.light [class*="bg-indigo-600/20"]:not([class*="dark:bg-"]),
+html.light [class*="bg-indigo-600/30"]:not([class*="dark:bg-"]) {
+  background-color: #EEF2FF !important;
+}
+
+/* Soften bg-black/25 pills sitting on light cards (preserve inside dark cover art & opaque gradients) */
+html.light [class*="bg-black/25"]:not([data-preserve-dark]):not([data-preserve-dark] *),
+html.light [class*="bg-black/30"]:not([data-preserve-dark]):not([data-preserve-dark] *) {
+  background-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+html.light [class*="hover:bg-slate-800"]:hover:not([class*="dark:hover:bg-"]),
+html.light [class*="hover:bg-slate-700"]:hover:not([class*="dark:hover:bg-"]) {
   background-color: #E2E8F0 !important;
 }
 
-/* 6. Inputs, Textareas, Selects, and <kbd> */
+/* 6. Inputs, Textareas, Selects, Range Sliders, and <kbd> */
 html.light input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 html.light textarea,
 html.light select {
@@ -401,46 +439,52 @@ html.light textarea::placeholder {
   color: #94A3B8 !important;
 }
 
+html.light input[type="range"] {
+  background-color: #CBD5E1 !important;
+}
+
 html.light kbd {
   background-color: #E2E8F0 !important;
   color: #1E293B !important;
   border: 1px solid #CBD5E1;
 }
 
-/* 7. Evidence & User Highlights in Reading / Listening (Soft, high-contrast, never blinding) */
+/* 7. Evidence & User Highlights in Reading / Listening (Pastel amber/indigo + crisp #0F172A ink) */
 html.light .evidence-highlight-active {
-  background-color: #FEF08A !important;
-  color: #713F12 !important;
-  box-shadow: 0 0 0 2px rgba(202, 138, 4, 0.45);
+  background-color: #FDE047 !important;
+  color: #0F172A !important;
+  box-shadow: 0 0 0 2px rgba(234, 179, 8, 0.45);
 }
 
 html.light .user-highlight-mark {
   background-color: #FEF08A !important;
-  color: #713F12 !important;
+  color: #0F172A !important;
   border-bottom: 2px solid #CA8A04 !important;
 }
 
 html.light .transcript-evidence {
-  background: linear-gradient(90deg, #EEF2FF, #F0F9FF) !important;
+  background: linear-gradient(90deg, #E0E7FF, #E0F2FE) !important;
   border-left: 3px solid #4F46E5 !important;
 }
 
-/* 8. PRESERVE WHITE INK on Saturated Solid & Vibrant Gradient Buttons / Icons / Cover Art */
+/* 8. PRESERVE WHITE INK ONLY on Opaque Solid & Vibrant Gradient Buttons / Cover Art
+   (Explicitly excludes translucent /25 /35 nav & tab gradients and hover-only gradients!) */
 html.light [data-preserve-dark="true"],
 html.light [data-preserve-dark="true"] *,
-html.light [class*="bg-gradient-to-r"][class*="from-blue-"],
-html.light [class*="bg-gradient-to-r"][class*="from-indigo-"],
-html.light [class*="bg-gradient-to-r"][class*="from-sky-"],
-html.light [class*="bg-gradient-to-r"][class*="from-emerald-"],
-html.light [class*="bg-gradient-to-r"][class*="from-violet-"],
-html.light [class*="bg-gradient-to-r"][class*="from-rose-"],
-html.light [class*="bg-gradient-to-r"][class*="from-cyan-"],
-html.light [class*="bg-gradient-to-br"][class*="from-blue-5"],
-html.light [class*="bg-gradient-to-br"][class*="from-blue-6"],
-html.light [class*="bg-gradient-to-br"][class*="from-emerald-4"],
-html.light [class*="bg-gradient-to-br"][class*="from-emerald-5"],
-html.light [class*="bg-gradient-to-br"][class*="from-indigo-5"],
-html.light [class*="bg-gradient-to-br"][class*="from-indigo-6"],
+html.light [class*="bg-gradient-to-r"][class*="from-blue-"]:not([class*="from-blue-600/"]):not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-indigo-"]:not([class*="from-indigo-600/"]):not([class*="from-indigo-950"]):not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-sky-"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-emerald-"]:not([class*="from-emerald-950"]):not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-violet-"]:not([class*="from-violet-950"]):not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-rose-"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-cyan-"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-r"][class*="from-amber-"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-br"][class*="from-blue-5"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-br"][class*="from-blue-6"]:not([class*="from-blue-600/"]):not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-br"][class*="from-emerald-4"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-br"][class*="from-emerald-5"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-br"][class*="from-indigo-5"]:not([class*="hover:bg-gradient"]),
+html.light [class*="bg-gradient-to-br"][class*="from-indigo-6"]:not([class*="from-indigo-600/"]):not([class*="hover:bg-gradient"]),
 html.light .bg-indigo-600,
 html.light .bg-indigo-500,
 html.light .bg-blue-600,
@@ -455,41 +499,70 @@ html.light [class*="bg-emerald-600/9"] {
   color: #FFFFFF !important;
 }
 
-html.light [class*="bg-gradient-to-r"][class*="from-blue-"] .text-white,
-html.light [class*="bg-gradient-to-r"][class*="from-indigo-"] .text-white,
-html.light [class*="bg-gradient-to-r"][class*="from-sky-"] .text-white,
-html.light [class*="bg-gradient-to-r"][class*="from-emerald-"] .text-white,
-html.light [class*="bg-gradient-to-r"][class*="from-violet-"] .text-white,
-html.light [class*="bg-gradient-to-r"][class*="from-cyan-"] .text-white,
-html.light [class*="bg-gradient-to-br"][class*="from-blue-5"] .text-white,
-html.light [class*="bg-gradient-to-br"][class*="from-blue-6"] .text-white,
-html.light [class*="bg-gradient-to-br"][class*="from-emerald-4"] .text-white,
-html.light [class*="bg-gradient-to-r"][class*="from-blue-"] .text-blue-100,
-html.light .bg-indigo-600 .text-white,
-html.light .bg-emerald-600 .text-white,
-html.light .bg-rose-600 .text-white,
-html.light .bg-cyan-600 .text-white {
+/* Children inside opaque solid gradient buttons also stay crisp white */
+html.light [class*="bg-gradient-to-r"][class*="from-blue-"]:not([class*="from-blue-600/"]):not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-r"][class*="from-indigo-"]:not([class*="from-indigo-600/"]):not([class*="from-indigo-950"]):not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-r"][class*="from-sky-"]:not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-r"][class*="from-emerald-"]:not([class*="from-emerald-950"]):not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-r"][class*="from-violet-"]:not([class*="from-violet-950"]):not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-r"][class*="from-cyan-"]:not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-r"][class*="from-amber-"]:not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-br"][class*="from-blue-5"]:not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-br"][class*="from-blue-6"]:not([class*="from-blue-600/"]):not([class*="hover:bg-gradient"]) *,
+html.light [class*="bg-gradient-to-br"][class*="from-emerald-4"]:not([class*="hover:bg-gradient"]) *,
+html.light .bg-indigo-600 *,
+html.light .bg-emerald-600 *,
+html.light .bg-rose-600 *,
+html.light .bg-cyan-600 * {
   color: #FFFFFF !important;
 }
 
-/* Keep translucent gradient nav active items (from-blue-600/25) legible with deep indigo ink in Light Mode */
-html.light [class*="from-blue-600/"],
-html.light [class*="from-indigo-600/"] {
-  background-image: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%) !important;
-  color: #1E1B4B !important;
-  border-color: #A5B4FC !important;
-}
-html.light [class*="from-blue-600/"] .text-white,
-html.light [class*="from-indigo-600/"] .text-white {
-  color: #1E1B4B !important;
-}
-/* Nested solid gradient icon badge inside translucent CTA stays crisp white */
-html.light [class*="from-blue-600/"] [class*="bg-gradient-to-br"][class*="from-blue-5"] {
+/* Restore dark badge pill inside opaque gradient buttons (e.g. ReadingPart5 / ToeicExamHub count chip) */
+html.light [class*="bg-gradient-to-r"][class*="from-blue-"]:not([class*="from-blue-600/"]):not([class*="hover:bg-gradient"]) [class*="bg-black/25"],
+html.light [class*="bg-gradient-to-r"][class*="from-indigo-"]:not([class*="from-indigo-600/"]):not([class*="hover:bg-gradient"]) [class*="bg-black/25"],
+html.light [data-preserve-dark="true"] [class*="bg-black/30"] {
+  background-color: rgba(0, 0, 0, 0.28) !important;
   color: #FFFFFF !important;
 }
-html.light [class*="from-blue-600/"] .text-indigo-200,
-html.light [class*="from-blue-600/"] [class*="text-indigo-200/"] {
+
+/* Hover-only gradient CTA buttons (e.g. ToeicExamHub "Làm bài ngay") turn white text ONLY on hover */
+html.light [class*="hover:bg-gradient"]:hover,
+html.light [class*="hover:bg-gradient"]:hover * {
+  color: #FFFFFF !important;
+}
+
+/* 9. Translucent Blue/Indigo Callouts (e.g. Sidebar Cloud Sign-in Card) -> Soft Indigo Tint + Deep Indigo Ink */
+html.light [class*="from-blue-600/"]:not([class*="dark:from-"]),
+html.light [class*="from-indigo-600/"]:not([class*="dark:from-"]) {
+  background-image: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%) !important;
+  color: #312E81 !important;
+  border-color: #C7D2FE !important;
+}
+html.light [class*="from-blue-600/"]:not([class*="dark:from-"]) .text-white,
+html.light [class*="from-indigo-600/"]:not([class*="dark:from-"]) .text-white {
+  color: #312E81 !important;
+}
+html.light [class*="from-blue-600/"]:not([class*="dark:from-"]) [class*="bg-gradient-to-br"][class*="from-blue-5"],
+html.light [class*="from-blue-600/"]:not([class*="dark:from-"]) [class*="bg-gradient-to-br"][class*="from-blue-5"] * {
+  color: #FFFFFF !important;
+}
+html.light [class*="from-blue-600/"]:not([class*="dark:from-"]) .text-indigo-200,
+html.light [class*="from-blue-600/"]:not([class*="dark:from-"]) [class*="text-indigo-200/"] {
   color: #4338CA !important;
+}
+
+/* Explicit Tailwind Light Mode indigo-700/900 protection */
+html.light .text-indigo-700 {
+  color: #4338CA !important;
+}
+html.light .text-indigo-900 {
+  color: #312E81 !important;
+}
+html.light .bg-indigo-50 {
+  background-color: #EEF2FF !important;
+}
+html.light .border-indigo-200 {
+  border-color: #C7D2FE !important;
 }
 
 /* Keep solid white Google OAuth button crisp in Light Mode */

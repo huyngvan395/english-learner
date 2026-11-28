@@ -79,10 +79,10 @@ export const DeckCoverArt: React.FC<DeckCoverArtProps> = ({
       <div className="pointer-events-none absolute -bottom-10 -left-6 h-28 w-28 rounded-full bg-slate-950/25 blur-lg" />
 
       <div className="relative z-10 flex items-center justify-between gap-2">
-        <span className="inline-flex items-center rounded-full bg-slate-950/40 backdrop-blur-md px-2.5 py-0.5 text-[11px] font-bold tracking-wider text-white border border-white/15">
+        <span className="inline-flex items-center rounded-full bg-black/30 backdrop-blur-md px-2.5 py-0.5 text-[11px] font-bold tracking-wider text-white border border-white/20">
           {badgeText}
         </span>
-        <span className="inline-flex items-center rounded-md bg-white/20 backdrop-blur-md px-2 py-0.5 text-[11px] font-semibold text-white">
+        <span className="inline-flex items-center rounded-md bg-white/20 backdrop-blur-md px-2 py-0.5 text-[11px] font-semibold text-white border border-white/15">
           {levelLabel}
         </span>
       </div>

@@ -87,17 +87,17 @@ export const VocabHub: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-3 shrink-0">
-            <div className="rounded-2xl border border-slate-700/70 bg-slate-900/80 px-5 py-3.5">
-              <p className="text-[11px] font-semibold uppercase text-slate-400">Tổng kho từ</p>
-              <p className="mt-1 text-2xl font-extrabold text-white">
+            <div className="rounded-2xl border border-slate-200/90 bg-white/90 shadow-sm dark:shadow-none dark:border-slate-700/70 dark:bg-slate-900/80 px-5 py-3.5">
+              <p className="text-[11px] font-semibold uppercase text-slate-500 dark:text-slate-400">Tổng kho từ</p>
+              <p className="mt-1 text-2xl font-extrabold text-slate-900 dark:text-white">
                 {TOTAL_VOCAB_COUNT.toLocaleString('vi-VN')} từ
               </p>
-              <p className="text-[11px] text-indigo-400">{VOCAB_DECKS_META.length} bộ thẻ độc lập</p>
+              <p className="text-[11px] text-indigo-600 dark:text-indigo-400">{VOCAB_DECKS_META.length} bộ thẻ độc lập</p>
             </div>
-            <div className="rounded-2xl border border-slate-700/70 bg-slate-900/80 px-5 py-3.5">
-              <p className="text-[11px] font-semibold uppercase text-slate-400">Đã thuộc</p>
-              <p className="mt-1 text-2xl font-extrabold text-emerald-400">{totalMastered}</p>
-              <p className="text-[11px] text-slate-400">
+            <div className="rounded-2xl border border-slate-200/90 bg-white/90 shadow-sm dark:shadow-none dark:border-slate-700/70 dark:bg-slate-900/80 px-5 py-3.5">
+              <p className="text-[11px] font-semibold uppercase text-slate-500 dark:text-slate-400">Đã thuộc</p>
+              <p className="mt-1 text-2xl font-extrabold text-emerald-600 dark:text-emerald-400">{totalMastered}</p>
+              <p className="text-[11px] text-slate-500 dark:text-slate-400">
                 {Math.round((totalMastered / Math.max(1, TOTAL_VOCAB_COUNT)) * 100)}% hoàn thành
               </p>
             </div>

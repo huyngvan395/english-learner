@@ -107,21 +107,33 @@ export const ReadingHub: React.FC = () => {
                 onClick={() => setPart(p.id)}
                 className={`rounded-2xl border p-4 text-left transition ${
                   active
-                    ? 'border-indigo-500/60 bg-indigo-600/20 shadow-glow'
-                    : 'border-slate-800 bg-slate-900/75 hover:border-slate-700'
+                    ? 'border-indigo-400 bg-indigo-50 shadow-sm dark:border-indigo-500/60 dark:bg-indigo-600/20 dark:shadow-glow'
+                    : 'border-slate-200 bg-white/90 hover:border-slate-300 dark:border-slate-800 dark:bg-slate-900/75 dark:hover:border-slate-700'
                 }`}
               >
                 <div className="flex items-center gap-2">
                   {p.id === 5 ? (
-                    <BookOpen className="h-4 w-4 text-cyan-400" />
+                    <BookOpen className="h-4 w-4 text-cyan-600 dark:text-cyan-400" />
                   ) : p.id === 6 ? (
-                    <Layers className="h-4 w-4 text-indigo-400" />
+                    <Layers className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
                   ) : (
-                    <FileText className="h-4 w-4 text-violet-400" />
+                    <FileText className="h-4 w-4 text-violet-600 dark:text-violet-400" />
                   )}
-                  <span className="text-sm font-extrabold text-white">{p.label}</span>
+                  <span
+                    className={`text-sm font-extrabold ${
+                      active ? 'text-indigo-900 dark:text-white' : 'text-slate-800 dark:text-white'
+                    }`}
+                  >
+                    {p.label}
+                  </span>
                 </div>
-                <p className="mt-1 text-xs text-slate-400">{p.sub}</p>
+                <p
+                  className={`mt-1 text-xs ${
+                    active ? 'text-indigo-700/80 dark:text-slate-300' : 'text-slate-500 dark:text-slate-400'
+                  }`}
+                >
+                  {p.sub}
+                </p>
               </button>
             );
           })}

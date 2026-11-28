@@ -473,31 +473,47 @@ export const WritingHub: React.FC = () => {
                 onClick={() => setMode(tab.id)}
                 className={`flex items-start gap-3 rounded-2xl border p-3.5 text-left transition ${
                   active
-                    ? 'border-indigo-500/70 bg-gradient-to-r from-blue-600/25 via-indigo-600/20 to-violet-600/20 text-white shadow-sm'
-                    : 'border-slate-800 bg-slate-900/70 text-slate-400 hover:border-slate-700 hover:text-slate-100'
+                    ? 'border-indigo-400 bg-indigo-50 text-indigo-900 shadow-sm dark:border-indigo-500/70 dark:bg-gradient-to-r dark:from-blue-600/25 dark:via-indigo-600/20 dark:to-violet-600/20 dark:text-white'
+                    : 'border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-900/70 dark:text-slate-400 dark:hover:border-slate-700 dark:hover:text-slate-100'
                 }`}
               >
                 <div
                   className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${
-                    active ? 'bg-indigo-500/30 text-indigo-200' : 'bg-slate-800 text-slate-400'
+                    active
+                      ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-500/30 dark:text-indigo-200'
+                      : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'
                   }`}
                 >
                   <Icon className="h-4 w-4" />
                 </div>
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center justify-between gap-1.5">
-                    <span className="text-xs font-extrabold leading-snug line-clamp-2">{tab.label}</span>
+                    <span
+                      className={`text-xs font-extrabold leading-snug line-clamp-2 ${
+                        active ? 'text-indigo-900 dark:text-white' : 'text-slate-800 dark:text-slate-200'
+                      }`}
+                    >
+                      {tab.label}
+                    </span>
                     {tab.badge !== undefined && (
                       <span
                         className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-bold ${
-                          active ? 'bg-indigo-500/35 text-indigo-100' : 'bg-slate-800 text-slate-400'
+                          active
+                            ? 'bg-indigo-600 text-white dark:bg-indigo-500/35 dark:text-indigo-100'
+                            : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400'
                         }`}
                       >
                         {tab.badge}
                       </span>
                     )}
                   </div>
-                  <p className="mt-0.5 text-[11px] text-slate-400">{tab.shortDesc}</p>
+                  <p
+                    className={`mt-0.5 text-[11px] ${
+                      active ? 'text-indigo-700/80 dark:text-slate-300' : 'text-slate-500 dark:text-slate-400'
+                    }`}
+                  >
+                    {tab.shortDesc}
+                  </p>
                 </div>
               </button>
             );
