@@ -443,8 +443,11 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
 
     return (
       <div className="rounded-2xl sm:rounded-3xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-[#111827] shadow-card overflow-hidden">
-        {/* 16:9 Responsive YouTube IFrame Embed (Pointer-locked + Custom Play/Pause Overlay) */}
-        <div className="relative w-full aspect-video bg-slate-950 overflow-hidden select-none">
+        {/* 16:9 Responsive YouTube IFrame Embed (Pointer-locked + Transparent Play/Pause Overlay) */}
+        <div
+          data-preserve-dark="true"
+          className="relative w-full aspect-video bg-black overflow-hidden select-none"
+        >
           <div
             ref={mountRef}
             className="absolute inset-0 w-full h-full pointer-events-none [&>iframe]:w-full [&>iframe]:h-full [&>iframe]:pointer-events-none"
@@ -456,25 +459,18 @@ export const YouTubePlayerBox = React.forwardRef<YouTubePlayerHandle, YouTubePla
               type="button"
               onClick={handleTogglePlayClick}
               aria-label={isPlaying ? 'Tạm dừng video' : 'Phát video'}
-              className={`absolute inset-0 z-10 w-full h-full cursor-pointer flex flex-col items-center justify-center transition-all duration-200 focus:outline-none ${
-                isPlaying
-                  ? 'bg-transparent'
-                  : 'bg-gradient-to-b from-slate-950/85 via-slate-950/25 to-slate-950/90 backdrop-blur-[1px]'
+              className={`absolute inset-0 z-10 w-full h-full cursor-pointer flex items-center justify-center transition-colors duration-150 focus:outline-none ${
+                isPlaying ? 'bg-transparent' : 'bg-black/15 hover:bg-black/20'
               }`}
             >
               {!isPlaying && (
-                <div className="flex flex-col items-center gap-2">
-                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-white shadow-glow ring-4 ring-white/20 hover:scale-105 active:scale-95 transition">
-                    <Play className="h-6 w-6 ml-0.5 fill-white" />
-                  </span>
-                  <span className="rounded-full bg-slate-950/75 border border-white/15 px-3 py-1 text-[11px] font-bold text-slate-100 backdrop-blur-sm">
-                    Bấm để phát câu hiện tại
-                  </span>
-                </div>
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-black/45 text-white ring-1 ring-white/30 shadow-md hover:bg-black/60 hover:scale-105 active:scale-95 transition">
+                  <Play className="h-5 w-5 ml-0.5 fill-white text-white" />
+                </span>
               )}
             </button>
           ) : (
-            <div className="absolute inset-0 z-10 flex items-center justify-center bg-slate-950/85 text-xs font-semibold text-slate-300">
+            <div className="absolute inset-0 z-10 flex items-center justify-center bg-black/50 text-xs font-semibold text-white">
               Đang kết nối trình phát YouTube...
             </div>
           )}
